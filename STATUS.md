@@ -1,81 +1,85 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** [16.04.2026 13:40 — ilk oturum öncesi]
+**Son güncelleme:** 16.04.2026 14:30 — Oturum 1 kapanışı
 
 ## Şu An Ne Yapıyoruz
-Proje iskeleti kurulumu + Ajan/Skill sistem mimarisi
+Skill sistemi kurulumuna hazırız. Sonraki oturumda 3 skill yazılacak, ardından seed data.
 
-## Son Oturumda Tamamlanan
-- (henüz yok, ilk oturum)
+## Son Oturumda Tamamlanan (Oturum 1 — 16.04.2026)
+- [x] Vite + React + TypeScript projesi oluşturuldu (react-ts template)
+- [x] Tailwind CSS 3.4.4 kuruldu + tailwind.config.js'e Spec G4 design tokenları eklendi
+  - colors: paper, ink, smoke, mist, sienna, moss, amber, card, divider
+  - fontFamily: Bricolage Grotesque (display) + DM Sans (body)
+  - borderRadius: sm/md/lg/full
+- [x] Framer Motion 11.3.8 kuruldu
+- [x] src/ klasör yapısı oluşturuldu (pages, components, lib, data)
+- [x] /refs ve /templates klasörleri oluşturuldu
+- [x] .gitignore düzenlendi (.env, .env.local, Supabase local eklendi)
+- [x] Git init + main branch + ilk commit (34 dosya)
+- [x] Package.json exact version pinning uygulandı (^ ve ~ temizlendi)
+- [x] index.css: noise overlay + paper background + Google Fonts import
+- [x] Claude Code ortamı araştırıldı (subagent, skill, MCP mekanizmaları)
+- [x] Supabase proje açıldı: yaver-v1-dev (oelllamwceazolwpgavq)
+- [x] .env.local oluşturuldu (gitignored, credentials güvenli)
+- [x] .env.local.example oluşturuldu (şablon, credentials yok)
+- [x] .mcp.json oluşturuldu (Supabase MCP config)
+- [x] @supabase/supabase-js 2.45.0 + supabase CLI 2.91.3 kuruldu
+- [x] src/lib/supabase.ts oluşturuldu (client)
+- [x] supabase/migrations/20260416000001_initial_schema.sql yazıldı (Spec B3 — 13 tablo)
+- [x] supabase/migrations/20260416000001_rollback.sql yazıldı (K7)
+- [x] Migration Supabase Dashboard'da çalıştırıldı — 8 tablo bağlantı testi OK
+- [x] RLS tüm tablolarda aktif
+- [x] Skill sistemi mimarisi netleştirildi (4 ajan = 4 skill, .claude/skills/ altında)
+- [x] Tüm değişiklikler 2 commit ile git'e kaydedildi
 
 ## Şu An Üzerinde Çalışılan
-- [ ] Proje iskeleti kurulumu (Spec P7 checklist)
-  - [ ] Vite + React + TypeScript projesi oluştur
-  - [ ] Tailwind config — design tokenları (Spec G4)
-  - [ ] Framer Motion kur
-  - [ ] Supabase client + .env setup
-  - [ ] Klasör yapısı (src/pages, src/components, src/lib, src/data)
-  - [ ] /refs klasörü oluştur (Spec G3 alt yapısı)
-  - [ ] /templates klasörü oluştur (prompts + evraklar altı)
-  - [ ] Git init + ilk commit + main branch protected
-  - [ ] Package.json exact versions (Spec K6)
-- [ ] Ajan + skill sistem mimarisi
-  - [ ] Claude Code'un ajan mekanizmasını öğren
-  - [ ] 4 ajanı tanımla (UI Designer, UX Critic, Prompt Engineer, QA Tester)
-  - [ ] 3 custom skill oluştur (yaver-ui-kit, turk-mufredat, meb-evrak)
-  - [ ] Supabase MCP entegrasyonu
+- [ ] Skill sistemi kurulumu
+  - [ ] yaver-ui-kit skill (design tokens, component patterns, animasyon kuralları)
+  - [ ] ux-critic skill (ekran kalite checklist)
+  - [ ] ui-designer skill (ekran yazımı için rol tanımı)
+  - [ ] (prompt-engineer, qa-tester, turk-mufredat, meb-evrak — ilgili haftalarda)
 
 ## Sonraki Adımlar (öncelik sırasında)
-1. İskelet + ajan/skill mimarisini tamamla
-2. Supabase şeması + migration dosyaları (Spec B3)
-3. Müfredat seed datasını yükle (15+ branş için JSON)
-4. Ekran 1 — Karşılama (Spec D2) — UI Designer ajanı ile
-5. Ekran 2 — Branş Seçimi — UX Critic ile kalite kontrolü
-6. Ekran 3 — Sınıf Seçimi
-7. Ekran 4 — Loading
-8. Ekran 5 — Wow Moment
-9. Yıllık plan üretim mantığı (deterministik)
+1. **Oturum 2 başı:** 3 skill yaz (yaver-ui-kit, ux-critic, ui-designer) — yarım gün
+2. Seed data yükle: branslar (15 branş) + egitim_takvimi (2025-2026, 36 hafta)
+3. Ekran 1 — Karşılama (Spec D2)
+4. Ekran 2 — Branş Seçimi
+5. Ekran 3 — Sınıf Seçimi
+6. Ekran 4 — Loading
+7. Ekran 5 — Wow Moment
+8. Yıllık plan üretim mantığı (deterministik)
 
 ## Kararlar / Notlar
-- Spec V1.4 referans alındı, CLAUDE.md olarak projeye kopyalandı
-- **Ajan sistemi kurulacak** (4 ajan + 3 custom skill) — DECISIONS.md'ye bak
-- **Git feature branch workflow zorunlu** (main protected)
-- **Version pinning politikası** (exact version, ^ yasak)
-- **Destructive işlem koruması** (auto-approve mode yasak, haftalık DB snapshot)
-- UI için /refs klasörüne 10 referans ekran görüntüsü toplanacak + 7 kaynak site (Mobbin, Dribbble, Figma Community, Page Flows, Refero, The U, UI Garage)
+- **"Ajan" = "Skill":** Claude Code'da custom agent type tanımlanamıyor. 4 "ajan" = 4 skill dosyası. `context: fork` ile izole subagent gibi çalışır.
+- **Skill konumu:** `.claude/skills/<skill-adı>/SKILL.md` (proje bazlı, git'e commit)
+- **Skill öncelik sırası:** yaver-ui-kit → ux-critic → ui-designer (bugün). prompt-engineer Hafta 2, qa-tester Hafta 4.
+- **Supabase project:** `yaver-v1-dev` (oelllamwceazolwpgavq) — development only, production ayrı açılacak (K7)
+- **MCP:** .mcp.json hazır, SERVICE_ROLE_KEY .env.local'dan besleniyor
+- **Güvenlik olayı çözüldü:** credentials yanlışlıkla .env.local.example'a girdi, amend ile git history'den temizlendi
 
 ## Açık Sorunlar
-- Müfredat PDF'leri hâlâ toplanmadı (hafta sonu için işaretlendi)
-- Branş listesi finalize edilmedi (Coğrafya eklenecek mi)
-- Karşılama ekranı görseli henüz belirsiz (maskot/soyut/tipografi)
-- Claude Code'un ajan/subagent mekanizması araştırılacak (ilk oturumda)
-- AI UI generator (Stitch/v0.dev/Lovable) kullanım kararı verilecek — Claude Code aşamasında
+- Müfredat PDF'leri toplanmadı (seed data için gerekli — önce JSON elle yazılabilir)
+- Branş listesi finalize edilmedi (Coğrafya dahil mi?)
+- Karşılama ekranı görseli belirsiz (maskot/soyut/tipografi — Ekran 1 yazılırken karar)
+- AI UI generator kullanımı (Stitch/v0.dev/Lovable) — Hafta 2 öncesi karar
 
 ## Bir Sonraki Oturuma Not
 
-### İlk oturumda Claude Code'a sor:
-1. Subagent/ajan sistemi bu ortamda nasıl çalışıyor?
-2. Custom skill'ler nereye yerleştiriliyor, nasıl tetikleniyor?
-3. MCP server yapılandırması nasıl (.mcp.json var mı)?
-4. Supabase MCP kurulum adımları
+### Oturum 2 başlangıç komutu:
+```
+STATUS.md'yi oku, özetini ver. 3 skill yazacağız: yaver-ui-kit, 
+ux-critic, ui-designer. Hepsi .claude/skills/ altına gidecek.
+```
 
-### Bu bilgileri aldıktan sonra:
-- Ajan tanımlarını beraber yazın (Claude Code'un kendi syntax'ı ile)
-- İskelet kurulumu paralel ilerlesin
-- /refs klasörüne başlamadan önce en az 5 referans ekran görüntüsü topla
+### 3 Skill için içerik rehberi:
+- **yaver-ui-kit:** Spec G1-G7 + G9'daki tüm kurallar. Token'lar, font hiyerarşisi, animasyon kuralları (200-400ms, ease-out), empty state dili, ikon boyutları, boşluk hiyerarşisi. "Her ekranı Things 3'e koysam yakışır mı?" sorusu.
+- **ux-critic:** Spec G7 kontrol listesi + J bölümü (10 UX ilkesi). Ekran bittikten sonra çalıştırılır. Saf beyaz var mı? Animasyon var mı? Hikâye empty state? Linear'a yakışır mı?
+- **ui-designer:** Spec G9'daki UI prompt'u temel alarak. Design system kuralları, referans uygulamalar (Things 3, Linear), her ekranda uyulacak standartlar.
 
-### AI UI Generator Kararı (Hafta 2 öncesi):
-- Stitch (Google), v0.dev (Vercel), Lovable, RORK gibi AI UI generator'lar var
-- Karşılama + Wow Moment için taslak oluşturmak mantıklı olabilir
-- Ama UI Designer ajanı + design tokens + referans yaklaşımımız asıl yol
-- Karar: Claude Code'da ilk ajanları kurduktan sonra UI Designer'a sor — "bu generator'lar işimize yarar mı?"
+### Dikkat: npm install caret sorunu
+npm install her seferinde package.json'a `^` ekliyor. Her paket kurulumundan sonra Edit ile temizle.
 
-### Güvenlik Hatırlatması:
-- Auto-approve mode kesinlikle açma
-- Supabase snapshot her hafta
-- Destructive işlem öncesi manuel onay
-
-### Prompt Best Practices (video kaynağından):
-- Her yeni Claude Code oturumunda CLAUDE.md otomatik okunur, sen bir şey demezsin
-- STATUS.md'yi her oturum başı okut
-- Destructive işlem prompt'larında: "önce bana sor" hatırlatması
+### Güvenlik hatırlatması:
+- .env.local asla git'e ekleme
+- Destructive komut öncesi sor
+- Haftalık Supabase snapshot (henüz yapılmadı — Dashboard'dan ayarla)

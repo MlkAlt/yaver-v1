@@ -121,4 +121,33 @@ Her karar: tarih + ne + neden + revizyon tetikleyicisi.
 
 ---
 
+## 2026-04-16 — Supabase project ismi ve yapısı
+**Ne:** Development Supabase project'i `yaver-v1-dev` adıyla açıldı (project ref: oelllamwceazolwpgavq). Region: EU. Migration dosyası çalıştırıldı, 13 tablo + RLS + triggerlar kurulu.
+**Neden:** Spec K2 — eski Yaver projesini terk et, sıfırdan başla. Spec K7 — production ile dev ayrı. V1 launch'ta ikinci bir production project açılacak.
+**Ne zaman revize:** V1 kullanıcılara açılacağında production project ayrılacak. O ana kadar bu project hem dev hem staging görevi görür.
+
+---
+
+## 2026-04-16 — "4 Ajan" gerçekte "4 Skill" olarak uygulanacak
+**Ne:** DECISIONS.md'deki önceki kararda "4 ajan" yazıyordu. Claude Code'da custom agent type tanımlanamıyor — sadece skill tanımlanabiliyor. 4 "ajan" (UI Designer, UX Critic, Prompt Engineer, QA Tester), `.claude/skills/<isim>/SKILL.md` formatında skill dosyaları olarak yazılacak.
+**Neden:** Claude Code'un gerçek mekanizması bu. Skill'ler `context: fork` frontmatter'ı ile izole subagent olarak çalışabiliyor — fonksiyonel olarak "ajan" gibi davranıyor. Terminoloji farkı, sonuç aynı.
+**Ne zaman revize:** Claude Code yeni bir "custom agent type" mekanizması sunarsa migrate edilebilir.
+
+---
+
+## 2026-04-16 — Skill klasör yapısı ve öncelik sırası
+**Ne:** Skill'ler `.claude/skills/` altında (proje kökü, git'e commit). Global (`~/.claude/skills/`) değil — Yaver'e özel kurallar başka projelere taşınmamalı.
+Öncelik: yaver-ui-kit → ux-critic → ui-designer (Oturum 2, Hafta 1). prompt-engineer (Hafta 2), qa-tester + turk-mufredat + meb-evrak (ilgili haftalarda).
+**Neden:** "Perfect is the enemy of done." Tüm 7 skill'i başta yazmak 2-3 gün kaybettirir. Sadece o anda lazım olanı yaz.
+**Ne zaman revize:** Her skill ilgili haftada gerektiğinde eklenecek.
+
+---
+
+## 2026-04-16 — npm install caret sorunu — manuel düzeltme politikası
+**Ne:** `npm install` her çalıştırmada package.json'a `^` prefix ekliyor (version pinning'i bozuyor). Çözüm: her `npm install` sonrası package.json Edit ile manuel düzeltilecek. Alternatif denenmedi (`.npmrc` ile `save-exact=true` — bir sonraki oturumda eklenebilir).
+**Neden:** Spec K6 gereği exact version zorunlu. npm'in davranışı değiştirilemez, ancak `.npmrc` ile kontrol altına alınabilir.
+**Ne zaman revize:** `.npmrc`'ye `save-exact=true` eklenirse bu problem otomatik çözülür. Oturum 2'de yapılabilir.
+
+---
+
 [Sonraki kararlar buradan devam...]
