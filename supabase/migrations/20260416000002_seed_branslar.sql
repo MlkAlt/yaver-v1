@@ -1,0 +1,21 @@
+-- Yaver V1 — Seed: Branşlar
+-- 14 branş, ikonlu, renkli, sıralı
+-- NOT: Psikoloji çıkarıldı (branş değil, ders). Kazanım detayları sonradan eklenecek.
+-- Migration: 20260416000002_seed_branslar.sql
+
+INSERT INTO branslar (ad, ikon, renk, sira) VALUES
+  ('Matematik',                    '📐', '#DBEAFE', 1),  -- blue-100
+  ('Türk Dili ve Edebiyatı',       '📖', '#FEE2E2', 2),  -- red-100
+  ('Fizik',                        '⚡', '#EDE9FE', 3),  -- violet-100
+  ('Kimya',                        '🧪', '#D1FAE5', 4),  -- emerald-100
+  ('Biyoloji',                     '🌿', '#DCFCE7', 5),  -- green-100
+  ('Tarih',                        '🏛️', '#FEF3C7', 6),  -- amber-100
+  ('Coğrafya',                     '🗺️', '#CCFBF1', 7),  -- teal-100
+  ('Felsefe',                      '💭', '#F3E8FF', 8),  -- purple-100
+  ('İngilizce',                    '🌍', '#E0F2FE', 9),  -- sky-100
+  ('Bilişim Teknolojileri',        '💻', '#F1F5F9', 10), -- slate-100
+  ('Müzik',                        '🎵', '#FCE7F3', 11), -- pink-100
+  ('Beden Eğitimi ve Spor',        '⚽', '#FFEDD5', 12), -- orange-100
+  ('Din Kültürü ve Ahlak Bilgisi', '📿', '#F5F5F4', 13), -- stone-100
+  ('Görsel Sanatlar',              '🎨', '#FFE4E6', 14)  -- rose-100
+ON CONFLICT (ad) DO NOTHING;
