@@ -151,3 +151,38 @@ Her karar: tarih + ne + neden + revizyon tetikleyicisi.
 ---
 
 [Sonraki kararlar buradan devam...]
+
+---
+
+## 2026-04-16 - Dokumantasyon gercegi repo ile senkron tutulacak
+**Ne:** `STATUS.md` ve `DECISIONS.md` artik oturum devri belgeleri olarak aktif sekilde korunacak. Bir feature, seed, skill veya ekran tamamlandiginda ayni oturum icinde bu dosyalar da guncellenecek.
+**Neden:** Belgeler repo gerceginin gerisinde kaldiginda planlama hatasi, tekrar is ve yanlis onceliklendirme uretiyor. Bu iki dosya "yardimci not" degil, operasyonel hafiza gorevi goruyor.
+**Ne zaman revize:** Eger bu disiplin ek is yaratir ve akisi yavaslatirsa, ileride daha hafif bir changelog/standup formatina gecilebilir.
+
+---
+
+## 2026-04-16 - Karar gunlugunde ileri tarih kullanilmayacak
+**Ne:** `DECISIONS.md` icindeki kararlar artik karar anindaki gercek takvim tarihiyle yazilacak. Gelecek tarihli placeholder veya "yarin atilmis gibi" kayit girilmeyecek.
+**Neden:** Karar gunlugunun guvenilirligi kronolojiye bagli. Ileri tarihli kayitlar hangi karar ne zaman alindi sorusunu bulandiriyor ve oturum devrinde kafa karistiriyor.
+**Ne zaman revize:** Gecerli degil, kalici kural.
+
+---
+
+## 2026-04-16 - Skill sistemi fiilen kuruldu, artik "plan" degil "mevcut altyapi"
+**Ne:** `yaver-ui-kit`, `ux-critic` ve `ui-designer` skill'leri `.claude/skills/` altinda yazildi. Bu konu artik yol haritasi maddesi degil, tamamlanmis altyapi olarak kabul edilecek.
+**Neden:** Repo durumu ile durum dokumani arasinda fark olusmustu. Tamamlanmis isi hala "siradaki adim" gibi gostermek oturum hafizasini bozuyor.
+**Ne zaman revize:** Skill'ler kaldirilir, birlestirilir veya yeni bir mekanizmaya tasinirse.
+
+---
+
+## 2026-04-16 - `save-exact=true` aktif, manuel caret temizligi birincil yontem olmaktan cikti
+**Ne:** `.npmrc` icine `save-exact=true` eklendi. Bundan sonra varsayilan yontem npm paketlerini dogrudan exact version ile kaydetmek olacak; manuel `^` temizligi yalnizca istisna durumlarda gerekecek.
+**Neden:** Onceki karar dogru problemi tespit ediyordu ama gecici bir operasyonel cozum oneriyordu. Teknik cozum simdi repoda aktif.
+**Ne zaman revize:** Paket yonetimi degisirse veya npm davranisi farkli bir nedenle tekrar sorun cikarirsa.
+
+---
+
+## 2026-04-16 - Seed verisi ve durum notlari birebir eslestirilecek
+**Ne:** Belgelerde seed sayilari tahmini veya yuvarlak yazilmayacak. Ornegin `branslar` seed'i 14 kayit ise 14 diye gecilecek; `egitim_takvimi` veri modeli tatil haftalarini da tasiyorsa bu acikca belirtilecek.
+**Neden:** "Asagi yukari dogru" notlar, ileride urun davranisini veya test beklentisini yanlis kurdurur. Veri katmaninda kesinlik daha degerli.
+**Ne zaman revize:** Seed yapisi degisirse veya veri modeli sadeleştirilirse.

@@ -31,3 +31,7 @@ dist-ssr
 # Supabase local (K7 — sadece migration dosyaları git'te)
 .supabase/
 supabase/.temp/
+
+# Claude Code settings (ortama özgü izinler)
+.claude/settings.json
+.claude/settings.local.json
