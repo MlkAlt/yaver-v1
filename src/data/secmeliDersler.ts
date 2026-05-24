@@ -96,6 +96,7 @@ const BRANS_DERSLER: Record<string, BransDersler> = {
   felsefe: {
     zorunlu: [{ ad: 'Felsefe', siniflar: [10,11], okul_tipleri: ['lise','ihl'] }],
     secmeli: [
+      { ad: 'Düşünme Eğitimi',            siniflar: [9,10,11,12], okul_tipleri: ['lise','ihl'] },
       { ad: 'Psikoloji',                  siniflar: [11,12],      okul_tipleri: ['lise','ihl'] },
       { ad: 'Sosyoloji',                  siniflar: [11,12],      okul_tipleri: ['lise','ihl'] },
       { ad: 'Mantık',                     siniflar: [11,12],      okul_tipleri: ['lise','ihl'] },
@@ -137,7 +138,7 @@ const BRANS_DERSLER: Record<string, BransDersler> = {
   ingilizce: {
     zorunlu: [{ ad: 'İngilizce', siniflar: [2,3,4,5,6,7,8,9,10,11,12], okul_tipleri: ['ilkokul','ortaokul','iho','lise','ihl'] }],
     secmeli: [
-      { ad: 'Seçmeli İngilizce', siniflar: [5,6,7,8,9,10,11,12], okul_tipleri: ['ortaokul','lise','ihl'] },
+      { ad: 'Seçmeli İngilizce', siniflar: [9,10,11,12], okul_tipleri: ['lise','ihl'] },
     ],
   },
   din_kulturu: {
@@ -206,9 +207,8 @@ const BRANS_DERSLER: Record<string, BransDersler> = {
     secmeli: [
       { ad: 'Geleneksel Sanatlar',                    siniflar: [5,6,7,8],    okul_tipleri: ['ortaokul'] },
       { ad: 'Dijital Sanatlar',                        siniflar: [5,6,7,8],    okul_tipleri: ['ortaokul'] },
-      { ad: 'Sanat Eğitimi (Görsel Sanatlar)',         siniflar: [9,10,11,12], okul_tipleri: ['lise'] },
-      { ad: 'Sanat Tarihi',                            siniflar: [9,10,11,12], okul_tipleri: ['lise'] },
-      { ad: 'Sanat Eğitimi (Geleneksel El Sanatları)', siniflar: [9,10,11,12], okul_tipleri: ['lise'] },
+      { ad: 'Sanat Eğitimi (Görsel Sanatlar)', siniflar: [9,10,11,12], okul_tipleri: ['lise'] },
+      { ad: 'Sanat Tarihi',                   siniflar: [9,10,11,12], okul_tipleri: ['lise'] },
     ],
   },
   muzik: {
