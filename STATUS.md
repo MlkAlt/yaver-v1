@@ -1,9 +1,11 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 24.05.2026 — Oturum 40
+**Son güncelleme:** 24.05.2026 — Oturum 43
 
 ## Şu An Ne Yapıyoruz
-Ders programı onboarding'den çıkarıldı. WowMoment → MainTabs direkt. PlanimScreen'de contextual CTA strip eklendi. Expo Go testi bekliyor.
+Müfredat büyük düzeltme (Oturum 43): İHL Meslek Dersleri, Hayat Bilgisi, 8. sınıf T.C. İnkılap Tarihi
+ve İnsan Hakları kazanımları eklendi/düzeltildi. Audit script ve restore scriptleri eklendi.
+PR `feature/mufredat-buyuk-duzeltme` açılmaya hazır.
 
 ## Tamamlananlar
 
@@ -41,13 +43,22 @@ Ders programı onboarding'den çıkarıldı. WowMoment → MainTabs direkt. Plan
 ### Supabase
 - [x] Schema + 13 tablo + RLS
 - [x] Seed: 21 branş, 41 hafta takvim (36 aktif + 5 tatil, MEB PDF 2025-2026 ile hizalı, Kurban tarihi düzeltildi)
-- [x] **Kazanımlar: 5.171 gerçek MEB kazanımı** (22 branş, 1-12. sınıf) ✅ — Oturum 37
+- [x] **Kazanımlar: 3.977 gerçek MEB kazanımı** (24 branş, 1-12. sınıf) — Oturum 43 audit (önceki 5.171 sayımı yanlıştı: mig 018 silmesi sayılmamıştı)
 - [x] **Migration 000010**: `kazanimlar.ders` + `kazanimlar.okul_tipi` + `branslar.slug` + `branslar.kademe` ✅
 - [x] **Migration 000011**: `kademe` sadeleştirme ✅
 - [x] **Migration 000012**: sinif=8 T.C. İnkılap Tarihi → Sosyal Bilgiler branşına taşıma ✅
 - [x] **Migration 000013**: Teknoloji ve Tasarım kazanımları (53 kazanım, 7-8. sınıf) ✅ — Oturum 37
 - [x] **Migration 000015**: Hayat Bilgisi + Rehber Öğretmen DB'den kaldırıldı ✅ — Oturum 38
 - [x] **Migration 000016**: İHL Meslek Dersleri ayrı branş (kazanımlar din_kulturu→ihl_meslek_dersleri taşındı) ✅ — Oturum 39
+- [x] **Migration 000018**: Kazanım ünite numarası hatası düzeltme — migration 008'de grade no = unite_no olarak girilmiş ~1.496 yanlış satır silindi (Türkçe 1272, İngilizce 152, Matematik/Arapça/Müzik/BEd/DKAB/Bilişim) ✅ — Oturum 41
+- [x] **Migration 000019**: Almanca DE.5.5.%/DE.6.6.% pattern hatası (19 satır) düzeltildi ✅ — Oturum 41
+- [x] **Migration 000022**: İHL Meslek Dersleri → Din Kültürü'nün hemen ardına taşındı (sıra 9) ✅ — Oturum 42
+- [x] **Migration 000023**: `kazanimlar.ders` + `kazanimlar.okul_tipi` backfill — Migration 008'de NULL kalan ~5.000 satır dolduruldu ✅ — Oturum 42
+- [x] **Migration 000024**: Eksik ilkokul kazanımları eklendi — Türkçe 1-2 (20), Müzik 1-4 (16), Görsel Sanatlar 1-4 (16) — toplam 52 yeni kazanım ✅ — Oturum 42
+- [x] **Migration 000025**: İHL Meslek Dersleri ilk gerçek seed — 113 kazanım (Akaid, Mesleki Arapça, Fıkıh, Hadis, Siyer, Temel Dini Bilgiler, Peygamberimizin Hayatı) ✅ — Oturum 43
+- [x] **Migration 000026**: Hayat Bilgisi branşı + 51 kazanım (1-3. sınıf) geri eklendi (mig 015 silmesi MEB'e aykırıydı) ✅ — Oturum 43
+- [x] **Migration 000027**: Sınıf Öğretmenliği sinif=4 İHVD kayıtlarında ders='İnsan Hakları' düzeltmesi ✅ — Oturum 43
+- [x] **Migration 000028**: 8. sınıf T.C. İnkılap Tarihi 41 kazanım (Sosyal Bilgiler branşına) ✅ — Oturum 43
 - [x] **secmeliDersler.ts JSON karşılaştırması**: teknoloji_tasarim [7,8], beden_egitimi (Sağlık Bilgisi), gorsel_sanatlar (Hüsn-i Hat+Ebru İHL), muzik (Dini Musiki İHL) ✅ — Oturum 38
 - [x] Edge Function: generate (Deno, cache-first) — deploy + test edildi ✅
 - [x] Soru üretimi telefonda çalıştı ✅
@@ -57,17 +68,19 @@ Ders programı onboarding'den çıkarıldı. WowMoment → MainTabs direkt. Plan
   - Fizik/Kimya/Biyoloji: haftada ~1 | TDE: haftada 2-3 | İngilizce/Türkçe: haftada 5-7
 
 ## Sonraki Adımlar (öncelik sırasıyla)
-1. **Expo Go testi** (--clear ile):
-   - Matematik → Ortaokul tile → 5-8 sınıf → Loading akışı
-   - Din Kültürü → İHL tile → 9-12 sınıf → DerslerScreen (mesleki dersler görünüyor mu?)
-   - Din Kültürü → İHO tile → DKAB + Kur'an + Peygamberimizin Hayatı görünüyor mu?
-   - Din Kültürü → Ortaokul → seçmeli bottom sheet
-   - Görsel Sanatlar → İHL → Hüsn-i Hat + Ebru görünüyor mu?
-   - Müzik → İHL → Dini Musiki görünüyor mu?
-   - Teknoloji ve Tasarım → 7-8 sınıf (5-6 yok)
-   - WowMoment → "Planıma git →" → MainTabs (DersProgramı artık yok)
-   - PlanimScreen → "Ders programını ekle" strip → DersProgrami
-2. **EAS build** (production APK) → Google Play test track upload
+1. **Expo Go testi** (mig 025-028 + DERS_HAVUZU değişikliği sonrası):
+   - **Sınıf Öğretmenliği akışı** → EkDersler → seçenekler: Türkçe/Matematik/Hayat Bilgisi/Fen/Sosyal/İnsan Hakları + paylaşımlılar → plana kazanım geliyor mu?
+   - **İHL meslek dersleri** branşı → Lise tile → 9-12 sınıf → Fıkıh/Hadis/Siyer kazanımları geliyor mu?
+   - **Sosyal Bilgiler 8** → T.C. İnkılap Tarihi 41 kazanım plana giriyor mu?
+   - Tarih branşı 9-12 + 12. sınıf "T.C. İnkılap Tarihi ve Atatürkçülük" ayrı görünüyor mu?
+2. **Task 1 uyarı/bilgi düzeltmeleri** (Oturum 43 audit ek bulguları):
+   - Almanca ortaokul için iho kademe ekleme
+   - DKAB lise satırı için ihl ekleme (secmeliDersler.ts)
+   - Hüsn-i Hat → Hüsnühat yazım standardı
+   - Teknoloji ve Tasarım kademe düzeltme (5-6 çıkar, sadece 7-8)
+   - V1.5: yanlış sinifli İHL JSON'larını (Dini Musiki, Ebru, Hüsnühat, Tezhip, İslam Felsefesi, İslam'da Çocuk Eğitimi, Tasavvuf Kültürü, Din Eğitimi) düzelt ve seed et
+   - V1.5: Trafik Güvenliği (4. sınıf) için MEB müfredattan kazanımlar oluştur
+3. **EAS build** (production APK) → Google Play test track upload
 
 ## Onboarding Akış Özeti (Oturum 36)
 ```

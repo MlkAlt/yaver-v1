@@ -192,9 +192,69 @@ JSON (`brans/ogretmen_brans_ders_veritabani.json`) ile karşılaştırma yapıld
 
 Oturum 38'de düzeltilen maddeler: teknoloji_tasarim [7,8], beden_egitimi (Sağlık Bilgisi), gorsel_sanatlar (Hüsn-i Hat+Ebru İHL), muzik (Dini Musiki İHL).
 
+### 2026-05-24 — Sınıf Öğretmenliği kazanım boşluğu düzeltildi (Oturum 42)
+**Kök neden:** Migration 008 (5.118 kazanım) `ders` ve `okul_tipi` kolonlarını INSERT etmedi; kolonlar migration 010'da eklendi ama hiç backfill edilmedi. `planUret`, Sınıf Öğretmenliği için `ders IN (seciliDersler)` sorgusu yapıyor — tüm satırlarda `ders=NULL` → sıfır sonuç.
+**Çözüm (3 migration):**
+- Mig 022: İHL Meslek Dersleri sırası Din Kültürü'nün hemen ardına alındı (BransScreen görsel düzeni).
+- Mig 023: Tüm kazanımlarda `ders = branslar.ad`, `okul_tipi = sinif bazlı` backfill yapıldı.
+- Mig 024: Eksik ilkokul verileri eklendi — Türkçe 1-2 (20 kazanım), Müzik 1-4 (16), Görsel Sanatlar 1-4 (16).
+**Not:** SQL içinde Türkçe apostrof (`'`) → `''` ile kaçırılmalı (mig 024'te Atatürk'ün → Atatürk''ün).
+
+### 2026-05-24 — EkDerslerScreen DERS_HAVUZU daraltıldı (Oturum 42)
+**Karar:** Hayat Bilgisi, İnsan Hakları, Beden Eğitimi ve Oyun listeden çıkarıldı.
+**Sebep:** Hayat Bilgisi (mig 015 ile silindi), İnsan Hakları (hiç kazanım eklenmedi), Beden Eğitimi ilkokul (sadece lise verisi mevcut). DB'de karşılığı olmayan dersler seçenekler arasında olmamalı.
+
+### 2026-05-24 — Branş adı PlanimScreen ve YillikPlanScreen'de öne çıkarıldı (Oturum 42)
+**Karar:** Her iki ekranda branş adı belirgin/hiyerarşik konuma alındı.
+- **YillikPlanScreen:** Hero başlık artık branş adı; "Yıllık Plan · N aktif hafta · N kazanım" alt başlık oldu.
+- **PlanimScreen:** Greeting ile tarih arasına `bransLabel` eklendi (fontSize 18, semiBold, rgba(255,255,255,0.92)).
+**Sebep:** UX Critic raporu — öğretmen kendi branşını net görmeli; küçük/ikincil konumda kalması yeterli değil.
+
 ### 2026-05-24 — DersProgramı onboarding'den çıkarıldı (Oturum 40)
 **Karar:** Ders programı girme ekranı onboarding akışından kaldırıldı. WowMoment'taki "Ders programını gir →" CTA → "Planıma git →" (MainTabs'a yönlendiriyor). DersProgramiScreen silinmedi — PlanimScreen'de BuHafta kartının altına sessiz bir strip CTA eklendi ("Ders programını ekle").
 **Sebep:** UX ilkesi #5 — aha anına kadar sıfır engel. Ders programı verisi planUret için kritik değil; yalnızca haftalık ders saati görünümünü etkiliyor. Sonradan da girilebilir, onboarding'de blocker olmamalı.
+
+### 2026-05-24 — Müfredat büyük düzeltme (Oturum 43)
+**Karar:** Audit script ile tespit edilen kritik boşluklar tek PR'da düzeltildi.
+
+**Düzeltilenler:**
+- **Mig 025**: İHL Meslek Dersleri 113 kazanım — Mig 016'nın 0 satır taşımasının nedeni mig 010'da
+  Din Kültürü kazanımlarına okul_tipi='ihl' set edilmemiş olmasıydı; mig 016 hiç eşleşmedi.
+  İHL JSON'larından yalnızca sinif alanı DOĞRU olanlar seed edildi (7 dosya):
+  Akaid, Mesleki Arapça, Fıkıh, Hadis, Siyer, Temel Dini Bilgiler, Peygamberimizin Hayatı.
+  Yanlış sinifli (1-6 ama gerçek 9-12) 8 JSON dosyası V1.5'e ertelendi.
+- **Mig 026**: Hayat Bilgisi branşı + 51 kazanım (1-3) geri eklendi. Oturum 42 kararı
+  ("V1 kapsamı dışı") MEB müfredatına aykırıydı — 1-3. sınıf öğretmeni Hayat Bilgisi'siz plan
+  üretemiyordu. **Oturum 42 kararı iptal.**
+- **Mig 027**: Sınıf Öğretmenliği branşında sinif=4 İHVD.* kayıtları için ders='İnsan Hakları'
+  UPDATE'i. Mig 023 backfill'in `ders = branslar.ad` yapması nedeniyle 9 kayıt 'Sınıf Öğretmenliği'
+  ders adıyla kalmıştı; planUret seciliDersler filtresine eşleşmiyordu.
+- **Mig 028**: 8. sınıf T.C. İnkılap Tarihi 41 kazanım, Sosyal Bilgiler branşına bağlı.
+  T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ.json sadece sinif=12 içeriyordu; 8. sınıf için
+  MEB güncel müfredattan (sosyalbilgiler.org) çekilen 41 kazanım manuel mig olarak eklendi.
+
+**EkDerslerScreen DERS_HAVUZU:** + Hayat Bilgisi (1-3), + İnsan Hakları (4),
+  + Beden Eğitimi ve Oyun (1-4 paylaşımlı), + DKAB (4 paylaşımlı).
+
+**Audit altyapısı:** `scripts/audit-mufredat.cjs` eklendi — branş × sınıf matris sayımı,
+ders dağılımı, eksik tespit, okul_tipi dağılımı çıkarır. CI'a entegre edilebilir.
+
+**Sayım düzeltmesi:** STATUS.md "5.171 kazanım" yanlıştı (mig 018'in sildiği 1.496 sayılmamış).
+Gerçek sayım 3.977.
+
+### 2026-05-24 — Trafik Güvenliği V1.5'e ertelendi (Oturum 43)
+**Karar:** 4. sınıf Trafik Güvenliği dersi (MEB zorunlu) için JSON kaynağı yok; V1.5'te MEB'den
+çekilip eklenecek. Şimdilik DERS_HAVUZU'na konmadı — kullanıcı kararı.
+**Sebep:** Kazanım kaynağı yok, "yakında" UI placeholder yapmak ek iş, V1 için kabul edilebilir kayıp.
+
+### 2026-05-24 — Yanlış sinifli İHL JSON dosyaları V1.5'e ertelendi (Oturum 43)
+**Tespit:** 8 JSON dosyasında sinif alanı 1-6 olarak girilmiş ama gerçek MEB sınıfları 9-12:
+Dini Musiki, Ebru, Hüsnühat, Tezhip, İslam Felsefesi, İslam'da Çocuk Eğitimi, Tasavvuf Kültürü,
+Din Eğitimi. JSON kaynak dosyaları yeniden işlenmeli (1→10, 2→11, 3→12 gibi mapping veya yeni
+MEB PDF kaynaklarından üretim).
+**V1 etkisi:** İHL öğretmenleri bu seçmeli dersleri planda göremiyor (8 ders × 11-12 sınıf).
+Ana zorunlu meslek dersleri (Fıkıh, Hadis, Siyer, Akaid, Tefsir, Kelam, Kur'an, Mesleki Arapça)
+zaten 113 kazanımla seed edilmiş durumda.
 
 ### 2026-05-23 — Seçmeli ders kazanımları henüz yok (Oturum 34)
 **Durum:** `src/data/secmeliDersler.ts`'teki tüm seçmeli dersler DB'de kazanım içermiyor. Mevcut 5.118 kazanım yalnızca zorunlu dersler için. Seçmeli seçim ekranı "yakında" notunu gösteriyor.
