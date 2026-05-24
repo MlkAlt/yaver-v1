@@ -3,9 +3,31 @@
 **Son güncelleme:** 24.05.2026 — Oturum 43
 
 ## Şu An Ne Yapıyoruz
-Müfredat büyük düzeltme (Oturum 43): İHL Meslek Dersleri, Hayat Bilgisi, 8. sınıf T.C. İnkılap Tarihi
-ve İnsan Hakları kazanımları eklendi/düzeltildi. Audit script ve restore scriptleri eklendi.
-PR `feature/mufredat-buyuk-duzeltme` açılmaya hazır.
+**Oturum 43 kapanış (ara verildi).** Müfredat büyük düzeltme tamamlandı, commit `9417acd`
+`feature/mufredat-buyuk-duzeltme` branch'inde, remote'a push'landı. PR açılmadı (gh auth yok).
+
+### Sonraki oturumda devam edilecek (sıralı)
+1. **PR'ı aç** — tarayıcıdan: https://github.com/MlkAlt/yaver-v1/pull/new/feature/mufredat-buyuk-duzeltme
+   (commit mesajı + DECISIONS.md "2026-05-24 — Müfredat büyük düzeltme" maddesi body için yeterli)
+2. **Expo Go testi** — `npx expo start --go --clear`:
+   - Sınıf Öğretmenliği → EkDersler: Hayat Bilgisi, İnsan Hakları, Beden Eğitimi ve Oyun seçenekleri var mı?
+   - Sınıf Öğretmenliği → Loading → plan oluşurken Hayat Bilgisi kazanımları geliyor mu?
+   - İHL Meslek Dersleri branşı seç → Loading → Fıkıh/Hadis/Siyer kazanımları geliyor mu?
+   - Sosyal Bilgiler → 8. sınıf → T.C. İnkılap Tarihi 41 kazanım plana giriyor mu?
+3. **Task 2** — Eski karar/referans temizliği (DECISIONS.md'deki "bekleyen düzeltmeler" listesi,
+   atıl `brans/ogretmen_brans_ders_veritabani.json` durumu, vs.)
+4. **Task 3** — Yol haritası: plan → evrak → üretim → gelir → store → pazarlama
+5. **Task 4** — PC kapalıyken GitHub-üzerinden çalışma düzeni (GitHub Actions / remote agent)
+6. **V1.5'e ertelendi** (DECISIONS güncel):
+   - 8 İHL JSON dosyasında sinif alanı düzeltmesi
+   - Trafik Güvenliği 4. sınıf MEB'den seed
+   - Almanca/Fransızca lise seed
+   - Teknoloji ve Tasarım kademe düzeltme
+   - secmeliDersler.ts uyarı düzeltmeleri (DKAB lise+ihl, Almanca ortaokul iho, Hüsnühat yazım)
+
+### Kritik audit aracı
+`scripts/audit-mufredat.cjs` — Supabase'den canlı sayım. Sonraki oturumda bir migration sonrası
+veya bilgi gerektiğinde çalıştır: `NODE_TLS_REJECT_UNAUTHORIZED=0 node scripts/audit-mufredat.cjs`
 
 ## Tamamlananlar
 
