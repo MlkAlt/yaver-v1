@@ -274,3 +274,25 @@ zaten 113 kazanımla seed edilmiş durumda.
 6. Din Kültürü: Kur'an-ı Kerim, Peygamberimizin Hayatı (ortaokul/lise seçmeli)
 7. Diğer branşlar: fizik/kimya/biyoloji/tarih/coğrafya/felsefe seçmeli ders kazanımları
 **Yöntem:** Her seçmeli ders için ayrı seed migration (örn. 20260416000013_seed_secmeli_turkce.sql).
+
+### 2026-05-27 — İHL tam kazanım seed tamamlandı (Oturum 46, Migration 035)
+21 İHL PDF'inden 469 kazanım çıkarıldı ve DB'ye eklendi.
+**Kararlar:**
+- Mesleki Arapça sinif=11-12 (MARP11/MARP12 prefix formatı, MEB PDF onaylı)
+- Dini Musiki, Ebru, Hüsnühat, Tezhip: seçmeli, 9-12 sınıf (Düzey I→9, II→10, III→11)
+- KAK (Kur'an'ın Ana Konuları): seçmeli, 11-12 sınıf (KAK-I→11, KAK-II→12)
+- Group B (İÇE/DE/İF/TK/İBT): sinif=11 (user: "11 veya 12 sınıf seçmeli")
+- KKIHL prefix: IHL Kur'an-ı Kerim'in kodları lise KK kodlarıyla çakışmasın diye
+- ders_turu constraint: 'seçmeli' değil 'secmeli' (migration 031 check constraint)
+- ON CONFLICT DO UPDATE: migration 025'teki 113 kısmi seed üzerine güvenli yazma
+**Sonuç:** DB'de 6.063 toplam kazanım (önceki: 5.685, net artış: +378)
+
+### 2026-05-27 — Metodoloji metni kirliliği temizlendi (Oturum 47, Migration 037)
+PDF extraction hatası: kazanım metni yerine öğretim yöntemi açıklaması veya truncated metin girilmişti.
+**Kararlar:**
+- 50 kirli kayıt DELETE ile silindi (UPDATE/placeholder değil — yanlış metin hiç göstermemekten daha kötü)
+- Etkilenen branşlar: Sosyal Bilgiler (İTA.8.1.1), Türkçe (6 kayıt), DKAB (2), TvT (3), Tarih (1), İHL Arapça (18), İHL diğer (19)
+- ARP even-numbered records (.2, .4): büyük ihtimalle etkinlik önerisi, gerçek kazanım değil — silinmesi doğru
+- DT (Dinler Tarihi): 7/10 silindi — V1.5'te PDF'ten yeniden çekilecek
+- Kaynak JSON dosyaları güncellenmedi (sadece DB temizlendi); JSON fix Migration 038 ile yapılacak
+**Sonuç:** DB'de 6.013 toplam kazanım (önceki: 6.063, -50 kirli kayıt)

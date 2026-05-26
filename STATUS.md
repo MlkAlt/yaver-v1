@@ -1,20 +1,36 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 26.05.2026 — Oturum 45
+**Son güncelleme:** 27.05.2026 — Oturum 47
 
 ## Şu An Ne Yapıyoruz
-**Oturum 45.** MEB Türkiye Yüzyılı Maarif Modeli 2025 büyük müfredat re-seed TAMAMLANDI.
-- Tüm migration'lar (030-034) uygulandı. DB'de **5.685 kazanım**.
+**Oturum 47.** Metodoloji metni kirliliği teşhis edildi ve temizlendi. DB'de **6.013 kazanım**.
+- **Migration 037**: 50 kirli kayıt silindi (PDF extraction hatası — metodoloji metni kazanım yerine girilmişti)
 - `feature/mufredat-buyuk-duzeltme` branch'i push'lu, PR henüz açılmadı.
 
 ### Sonraki oturumda devam edilecek (sıralı)
-1. **PR'ı aç** — tarayıcıdan: https://github.com/MlkAlt/yaver-v1/pull/new/feature/mufredat-buyuk-duzeltme
-2. **EAS build** (production APK) → Google Play test track upload
-3. **V1.5'e ertelendi** (DECISIONS güncel):
-   - 8 İHL JSON dosyasında sinif alanı düzeltmesi
+1. **Doğru kazanım metinlerini PDF'ten çek** (Migration 038) — aşağıda detay
+2. **PR'ı aç** — tarayıcıdan: https://github.com/MlkAlt/yaver-v1/pull/new/feature/mufredat-buyuk-duzeltme
+3. **EAS build** (production APK) → Google Play test track upload
+4. **V1.5'e ertelendi** (DECISIONS güncel):
    - Almanca/Fransızca lise seed
    - Teknoloji ve Tasarım kademe düzeltme
    - secmeliDersler.ts uyarı düzeltmeleri (DKAB lise+ihl, Almanca ortaokul iho, Hüsnühat yazım)
+
+### Migration 038 — Silinen kayıtların doğru metinleri (PDF'ten çekilecek)
+PDF'ler kullanıcının makinesinde olmalı. Aşağıdaki kayıtlar için doğru metin gerekiyor:
+
+**Öncelikli (popüler branşlar):**
+- `İTA.8.1.1` — Sosyal Bilgiler / T.C. İnkılap 8. sınıf (kullanıcının gördüğü bug) → `2025825154713595-inkılap 8.pdf`
+- `T.K.5.2, T.K.6.2, T.K.7.2, T.K.8.2` — Türkçe Konuşma → `202582516532361-ortaokul türkçe.pdf`
+- `T.Y.5.2, T.Y.8.4` — Türkçe Yazma → aynı PDF
+- `KK.5.1.3, KK.7.4.1` — DKAB Kur'an → `2026313101051307-kk58.pdf`
+
+**İHL (eğer kazanım olduğu doğrulanırsa):**
+- `DT.12.x.y` (7 kayıt) — Dinler Tarihi → İHL Dinler Tarihi PDF
+- `ARP.9.x.2, ARP.9.x.4, ARP.10.x.z` (18 kayıt) — büyük ihtimalle etkinlik önerisi, gerçek kazanım değil
+- Diğer İHL (Akaid, Fıkıh, Hadis, Hitabet, KK, TDB, Tefsir — 12 kayıt)
+
+**Not:** TT (Teknoloji ve Tasarım) ve TAR.9.1.2 de kaynak JSONda kirli — doğrudan PDF'ten çekmek gerek.
 
 ### Kritik audit aracı
 `scripts/audit-mufredat.cjs` — Supabase'den canlı sayım:
@@ -61,7 +77,9 @@
 ### Supabase
 - [x] Schema + 13 tablo + RLS
 - [x] Seed: 21 branş, 41 hafta takvim (36 aktif + 5 tatil, MEB PDF 2025-2026 ile hizalı, Kurban tarihi düzeltildi)
-- [x] **Kazanımlar: 5.685 toplam** — Migration 030-034, Oturum 44-45
+- [x] **Kazanımlar: 6.013 toplam** — Migration 030-037, Oturum 44-47 (50 kirli kayıt mig.037 ile silindi)
+- [x] **Migration 000037**: 50 kirli kazanım silindi (metodoloji metni / truncated PDF extraction artifact) ✅ — Oturum 47
+- [x] **Migration 000035**: İHL tam kazanım seed — 21 PDF, 469 kazanım (12 zorunlu + 9 seçmeli ders), ON CONFLICT DO UPDATE ✅ — Oturum 46
 - [x] **Migration 000031**: ders_turu sütunu (zorunlu/secmeli) eklendi, backfill tamamlandı ✅ — Oturum 45
 - [x] **Migration 000032**: Lise Grup 1 kazanımları — 17 ders, 1.614 kazanım (9-12. sınıf zorunlu + seçmeli) ✅ — Oturum 45
 - [x] **Migration 000033**: Lise Grup 2 seçmeli dersler — 8 ders, 162 kazanım (Psikoloji/Mantık/Çağdaş Türk/Astronomi/İklim/Sağlık/Mat Uyg/Sosyal Bil Çalışmaları) ✅ — Oturum 45
