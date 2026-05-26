@@ -1,0 +1,139 @@
+{
+  "brans": "Coğrafya",
+  "brans_slug": "cografya",
+  "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+  "ders_turu": "secmeli",
+  "siniflar_okul_tipi": {
+    "10": "lise"
+  },
+  "kaynak_pdf": "2026326135915854-iklimçevre.pdf",
+  "kaynak_yil": "2025",
+  "kazanimlar": [
+    {
+      "kod": "İÇYÇ.2.1",
+      "ad": "Çevre bilincinin gelişim sürecini neden ve sonuçlarıyla yorumlayabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.1.1",
+      "ad": "Küresel iklim sisteminde meydana gelen değişiklikleri yorumlayabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.2.2",
+      "ad": "Çevresel olay ya da olgu üzerinden çevre etiği yaklaşımlarını karşılaştırabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.2.3",
+      "ad": "Doğal kaynakların insan hayatındaki önemini özetleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.2.4",
+      "ad": "Ekolojik ayak izi ile biyolojik kapasite arasındaki ilişkiyi çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.3.1",
+      "ad": "Çevre sorunlarına neden olan beşeri faaliyetleri yorumlayabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.3.2",
+      "ad": "Hava kirliliğinin çevresel etkilerini çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.3.3",
+      "ad": "Su kıtlığı ve kirliliğinin çevresel etkilerini çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.3.4",
+      "ad": "Toprak bozulmasının çevresel etkilerini çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.3.5",
+      "ad": "Biyoçeşitlilik kaybının çevresel etkilerini yorumlayabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.4.1",
+      "ad": "Çevre hakkı ve katılımın önemini çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.4.2",
+      "ad": "Mücadele stratejileri bağlamında çevre sorunlarına yönelik akıl yürütebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.4.3",
+      "ad": "Uluslararası çevre anlaşmalarının getirdiği sorumluluklar kapsamında ekonomik ve sosyal projeleri eleştirel düşünebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.4.4",
+      "ad": "Çevresel sürdürülebilirlik açısından yenilikçi projeleri neden ve sonuçlarıyla yorumlayabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.5.1",
+      "ad": "Gözlemlediği çevre sorunlarından etkilenen paydaşlarla kurduğu empatiyi yansıtabilme",
+      "sinif": 10,
+      "tema_no": 5,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.5.2",
+      "ad": "Çevre sorunlarına yenilikçi çözüm geliştirmeye yönelik tanımladığı çalışma problemini eleştirel düşünebilme",
+      "sinif": 10,
+      "tema_no": 5,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.5.3",
+      "ad": "Çevre sorunlarının çözümü için tanımladığı probleme yönelik yenilikçi fikirler ortaya koyarak problemi çözebilme",
+      "sinif": 10,
+      "tema_no": 5,
+      "tema_ad": ""
+    },
+    {
+      "kod": "İÇYÇ.5.4",
+      "ad": "Çevre sorunlarının çözümünde tanımladığı problem için geliştirdiği yenilikçi fikre yönelik model oluşturabilme",
+      "sinif": 10,
+      "tema_no": 5,
+      "tema_ad": ""
+    }
+  ]
+}

@@ -1,35 +1,31 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 24.05.2026 — Oturum 43
+**Son güncelleme:** 26.05.2026 — Oturum 45
 
 ## Şu An Ne Yapıyoruz
-**Oturum 43 kapanış (ara verildi).** Müfredat büyük düzeltme tamamlandı, commit `9417acd`
-`feature/mufredat-buyuk-duzeltme` branch'inde, remote'a push'landı. PR açılmadı (gh auth yok).
+**Oturum 45.** MEB Türkiye Yüzyılı Maarif Modeli 2025 büyük müfredat re-seed TAMAMLANDI.
+- Tüm migration'lar (030-034) uygulandı. DB'de **5.685 kazanım**.
+- `feature/mufredat-buyuk-duzeltme` branch'i push'lu, PR henüz açılmadı.
 
 ### Sonraki oturumda devam edilecek (sıralı)
 1. **PR'ı aç** — tarayıcıdan: https://github.com/MlkAlt/yaver-v1/pull/new/feature/mufredat-buyuk-duzeltme
-   (commit mesajı + DECISIONS.md "2026-05-24 — Müfredat büyük düzeltme" maddesi body için yeterli)
-2. **Expo Go testi** — `npx expo start --go --clear`:
-   - Sınıf Öğretmenliği → EkDersler: Hayat Bilgisi, İnsan Hakları, Beden Eğitimi ve Oyun seçenekleri var mı?
-   - Sınıf Öğretmenliği → Loading → plan oluşurken Hayat Bilgisi kazanımları geliyor mu?
-   - İHL Meslek Dersleri branşı seç → Loading → Fıkıh/Hadis/Siyer kazanımları geliyor mu?
-   - Sosyal Bilgiler → 8. sınıf → T.C. İnkılap Tarihi 41 kazanım plana giriyor mu?
-3. **Task 2** — Eski karar/referans temizliği (DECISIONS.md'deki "bekleyen düzeltmeler" listesi,
-   atıl `brans/ogretmen_brans_ders_veritabani.json` durumu, vs.)
-4. **Task 3** — Yol haritası: plan → evrak → üretim → gelir → store → pazarlama
-5. **Task 4** — PC kapalıyken GitHub-üzerinden çalışma düzeni (GitHub Actions / remote agent)
-6. **V1.5'e ertelendi** (DECISIONS güncel):
+2. **EAS build** (production APK) → Google Play test track upload
+3. **V1.5'e ertelendi** (DECISIONS güncel):
    - 8 İHL JSON dosyasında sinif alanı düzeltmesi
-   - Trafik Güvenliği 4. sınıf MEB'den seed
    - Almanca/Fransızca lise seed
    - Teknoloji ve Tasarım kademe düzeltme
    - secmeliDersler.ts uyarı düzeltmeleri (DKAB lise+ihl, Almanca ortaokul iho, Hüsnühat yazım)
 
 ### Kritik audit aracı
-`scripts/audit-mufredat.cjs` — Supabase'den canlı sayım. Sonraki oturumda bir migration sonrası
-veya bilgi gerektiğinde çalıştır: `NODE_TLS_REJECT_UNAUTHORIZED=0 node scripts/audit-mufredat.cjs`
+`scripts/audit-mufredat.cjs` — Supabase'den canlı sayım:
+`NODE_TLS_REJECT_UNAUTHORIZED=0 node scripts/audit-mufredat.cjs`
 
 ## Tamamlananlar
+
+### Expo Go testleri (Oturum 44 — tümü geçti ✓)
+- Sınıf Öğretmenliği → 4 sınıf + tüm dersler → 267 kazanım, haftada tüm dersler dağılıyor ✓
+- İHL Meslek Dersleri → Lise 9-12 → Fıkıh/Hadis/Siyer plana giriyor ✓
+- Sosyal Bilgiler 8. sınıf → T.C. İnkılap Tarihi 41 kazanım plana giriyor ✓
 
 ### Ekranlar (17/17 aktif)
 - [x] S1 Welcome
@@ -65,7 +61,11 @@ veya bilgi gerektiğinde çalıştır: `NODE_TLS_REJECT_UNAUTHORIZED=0 node scri
 ### Supabase
 - [x] Schema + 13 tablo + RLS
 - [x] Seed: 21 branş, 41 hafta takvim (36 aktif + 5 tatil, MEB PDF 2025-2026 ile hizalı, Kurban tarihi düzeltildi)
-- [x] **Kazanımlar: 3.977 gerçek MEB kazanımı** (24 branş, 1-12. sınıf) — Oturum 43 audit (önceki 5.171 sayımı yanlıştı: mig 018 silmesi sayılmamıştı)
+- [x] **Kazanımlar: 5.685 toplam** — Migration 030-034, Oturum 44-45
+- [x] **Migration 000031**: ders_turu sütunu (zorunlu/secmeli) eklendi, backfill tamamlandı ✅ — Oturum 45
+- [x] **Migration 000032**: Lise Grup 1 kazanımları — 17 ders, 1.614 kazanım (9-12. sınıf zorunlu + seçmeli) ✅ — Oturum 45
+- [x] **Migration 000033**: Lise Grup 2 seçmeli dersler — 8 ders, 162 kazanım (Psikoloji/Mantık/Çağdaş Türk/Astronomi/İklim/Sağlık/Mat Uyg/Sosyal Bil Çalışmaları) ✅ — Oturum 45
+- [x] **Migration 000034**: TDE (Türk Dili ve Edebiyatı) lise 9-12 — 245 kazanım, 4 tema × 12-16 çıktı, synthetic TDE.{sinif}.T{tema}.{grup}.{no} kodlar ✅ — Oturum 45
 - [x] **Migration 000010**: `kazanimlar.ders` + `kazanimlar.okul_tipi` + `branslar.slug` + `branslar.kademe` ✅
 - [x] **Migration 000011**: `kademe` sadeleştirme ✅
 - [x] **Migration 000012**: sinif=8 T.C. İnkılap Tarihi → Sosyal Bilgiler branşına taşıma ✅
@@ -81,6 +81,8 @@ veya bilgi gerektiğinde çalıştır: `NODE_TLS_REJECT_UNAUTHORIZED=0 node scri
 - [x] **Migration 000026**: Hayat Bilgisi branşı + 51 kazanım (1-3. sınıf) geri eklendi (mig 015 silmesi MEB'e aykırıydı) ✅ — Oturum 43
 - [x] **Migration 000027**: Sınıf Öğretmenliği sinif=4 İHVD kayıtlarında ders='İnsan Hakları' düzeltmesi ✅ — Oturum 43
 - [x] **Migration 000028**: 8. sınıf T.C. İnkılap Tarihi 41 kazanım (Sosyal Bilgiler branşına) ✅ — Oturum 43
+- [x] **Migration 000029**: Beden Eğitimi ilkokul ders adı `'Beden Eğitimi ve Spor'` → `'Beden Eğitimi ve Oyun'` (mig 023 backfill hatası) ✅ — Oturum 44
+- [x] **Migration 000030**: Tam re-seed — MEB Türkiye Yüzyılı Maarif Modeli 2025, 24 JSON dosyası, 3.518 kazanım (15 branş). İlkokul + ortaokul + iho eski veri temizlendi. ✅ — Oturum 44
 - [x] **secmeliDersler.ts JSON karşılaştırması**: teknoloji_tasarim [7,8], beden_egitimi (Sağlık Bilgisi), gorsel_sanatlar (Hüsn-i Hat+Ebru İHL), muzik (Dini Musiki İHL) ✅ — Oturum 38
 - [x] Edge Function: generate (Deno, cache-first) — deploy + test edildi ✅
 - [x] Soru üretimi telefonda çalıştı ✅
@@ -88,20 +90,18 @@ veya bilgi gerektiğinde çalıştır: `NODE_TLS_REJECT_UNAUTHORIZED=0 node scri
 ### planUret algoritması
 - [x] **Range dağıtım:** Haftada 1 kazanım → haftada N/aktifHafta kazanım (tüm kazanımlar yıla dağılır) ✅
   - Fizik/Kimya/Biyoloji: haftada ~1 | TDE: haftada 2-3 | İngilizce/Türkçe: haftada 5-7
+- [x] **byGroup dağıtım:** (sinif, ders) çifti bazında gruplama — her haftada tüm derslerden kazanım çıkar ✅ — Oturum 44
+- [x] **İngilizce cap (multi-ders mod):** Sınıf Öğretmenliği gibi çok-ders modunda sınıf başına 20 İngilizce kazanım ile sınırlı ✅ — Oturum 44
 
 ## Sonraki Adımlar (öncelik sırasıyla)
-1. **Expo Go testi** (mig 025-028 + DERS_HAVUZU değişikliği sonrası):
-   - **Sınıf Öğretmenliği akışı** → EkDersler → seçenekler: Türkçe/Matematik/Hayat Bilgisi/Fen/Sosyal/İnsan Hakları + paylaşımlılar → plana kazanım geliyor mu?
-   - **İHL meslek dersleri** branşı → Lise tile → 9-12 sınıf → Fıkıh/Hadis/Siyer kazanımları geliyor mu?
-   - **Sosyal Bilgiler 8** → T.C. İnkılap Tarihi 41 kazanım plana giriyor mu?
-   - Tarih branşı 9-12 + 12. sınıf "T.C. İnkılap Tarihi ve Atatürkçülük" ayrı görünüyor mu?
-2. **Task 1 uyarı/bilgi düzeltmeleri** (Oturum 43 audit ek bulguları):
+1. **PR'ı aç** — tarayıcıdan: https://github.com/MlkAlt/yaver-v1/pull/new/feature/mufredat-buyuk-duzeltme
+2. **V1.5 uyarı/bilgi düzeltmeleri** (ertelendi):
    - Almanca ortaokul için iho kademe ekleme
    - DKAB lise satırı için ihl ekleme (secmeliDersler.ts)
    - Hüsn-i Hat → Hüsnühat yazım standardı
    - Teknoloji ve Tasarım kademe düzeltme (5-6 çıkar, sadece 7-8)
-   - V1.5: yanlış sinifli İHL JSON'larını (Dini Musiki, Ebru, Hüsnühat, Tezhip, İslam Felsefesi, İslam'da Çocuk Eğitimi, Tasavvuf Kültürü, Din Eğitimi) düzelt ve seed et
-   - V1.5: Trafik Güvenliği (4. sınıf) için MEB müfredattan kazanımlar oluştur
+   - Yanlış sinifli İHL JSON'ları (Dini Musiki, Ebru, Hüsnühat, Tezhip, İslam Felsefesi, İslam'da Çocuk Eğitimi, Tasavvuf Kültürü, Din Eğitimi)
+   - Trafik Güvenliği (4. sınıf) MEB kazanımları
 3. **EAS build** (production APK) → Google Play test track upload
 
 ## Onboarding Akış Özeti (Oturum 36)

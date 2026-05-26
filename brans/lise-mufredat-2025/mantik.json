@@ -1,0 +1,132 @@
+{
+  "brans": "Felsefe",
+  "brans_slug": "felsefe",
+  "ders": "Mantık",
+  "ders_turu": "secmeli",
+  "siniflar_okul_tipi": {
+    "10": "lise"
+  },
+  "kaynak_pdf": "2026326134747604-mantık.pdf",
+  "kaynak_yil": "2025",
+  "kazanimlar": [
+    {
+      "kod": "MAN.1.1",
+      "ad": "Mantığı formel bir bilim olarak sorgulayabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.1.2",
+      "ad": "Mantığın tarihsel gelişim sürecini özetleyebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.1.3",
+      "ad": "Mantığın temel kavramsal çerçevesini yapılandırabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.2.1",
+      "ad": "Aristotelesçi mantıkta terimlere ilişkin özellikleri özetleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.2.2",
+      "ad": "Önermeleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.2.3",
+      "ad": "Çıkarım çeşitlerini özetleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.3.1",
+      "ad": "Aristotelesçi mantık ile sembolik mantığı temel özellikleri açısından karşılaştırabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.3.2",
+      "ad": "Doğruluk değeri tablosunu çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.3.3",
+      "ad": "Önermelerin tutarlılığını, geçerliliğini ve eşdeğerliğini doğruluk değeri tablosu ile denetleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.3.4",
+      "ad": "Çıkarımların geçerliliğini doğruluk değeri tablosu ile denetleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.3.5",
+      "ad": "Niceleme mantığını yorumlayabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.4.1",
+      "ad": "Mantık ve bilgi alanları arasındaki ilişkiyi yapılandırabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.4.2",
+      "ad": "Mantık çeşitlerini karşılaştırabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.4.3",
+      "ad": "Verilen bir görüşü mantıksal açıdan tartışabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.4.4",
+      "ad": "İhtiyaçların karşılanmasında ve sorunların çözümünde mantıksal açıdan karar verebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.4.5",
+      "ad": "Akıl yürütme biçimlerini verilen günlük hayat durumlarında uygulayabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    },
+    {
+      "kod": "MAN.4.6",
+      "ad": "Örnek metinleri mantıksal açıdan denetleyebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": ""
+    }
+  ]
+}

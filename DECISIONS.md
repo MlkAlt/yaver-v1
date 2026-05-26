@@ -78,6 +78,13 @@ Tüm ekranlar (onboarding + stack) bu patternda:
 
 ## Müfredat / Veri
 
+### 2026-05-25 — MEB Türkiye Yüzyılı Maarif Modeli 2025 tam re-seed (Migration 030)
+**Karar:** Tüm ilkokul + ortaokul kazanımları silinip 26 PDF'den yeniden çekildi.
+**Sebep:** Eski veri 2018 MEB müfredatına dayanıyordu; 2025 reform yeni kodu, yapı ve kazanım adları getirdi (MAT.1.1.1 formatı, Öğrenme Çıktıları).
+**Uygulama:** `scripts/extract_pdf_kazanimlar.py` ile 26 PDF → 24 JSON (okul öncesi hariç) → `scripts/generate-migration-030.py` → 741KB SQL → `supabase db push`.
+**Sonuç:** 3.518 yeni kazanım (15 branş, 1-8. sınıf), toplam DB 5.281 kazanım. Lise + ihl korundu.
+**Notlar:** Arapça branşı artık okul_tipi='ortaokul' (eski: 'iho'). İnkılap 8. sınıf → sosyal_bilgiler branşı (tutarlı).
+
 ### 2026-05-21 — Kazanımlar sentetikten gerçek MEB verisine geçirildi
 **Karar:** Yapay (AI-üretimi) kazanımlar yerine resmi MEB müfredatı kullanılacak.
 **Sebep:** Sentetik veri öğretmenler tarafından güvenilir bulunmazdı; yıllık plan gerçek müfredata dayanmalı.
