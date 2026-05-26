@@ -1,0 +1,1731 @@
+{
+  "brans": "Türk Dili ve Edebiyatı",
+  "brans_slug": "turk_dili_edebiyati",
+  "ders": "Türk Dili ve Edebiyatı",
+  "ders_turu": "zorunlu",
+  "siniflar_okul_tipi": {
+    "9": "lise",
+    "10": "lise",
+    "11": "lise",
+    "12": "lise"
+  },
+  "kaynak_pdf": "2026518151228236-edebiyatdöp.pdf",
+  "kaynak_yil": "2025",
+  "kazanimlar": [
+    {
+      "kod": "TDE.9.T1.1.1",
+      "ad": "“Sözün İnceliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.1.2",
+      "ad": "“Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.2.1",
+      "ad": "“Sözün İnceliği” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.2.2",
+      "ad": "“Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.3.1",
+      "ad": "Söyleyişin inceliğini kullanarak akıcı bir konuşma süreci yönetebilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.3.2",
+      "ad": "Muhatabını ikna etmek için söyleyiş inceliklerine yer veren bir konuşma içeriği oluşturabilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.3.3",
+      "ad": "Muhatabını ikna etmek için söyleyiş inceliklerine yer veren bir konuşmada kural uygulayabilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.3.4",
+      "ad": "Söyleyiş inceliğinin konuşmasına etkisiyle ilgili süreci değerlendirebilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.4.1",
+      "ad": "Edebî söyleyişin inceliğini yansıtmak için paragraf düzeyindeki bir yazısında sü- reci yönetebilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.4.2",
+      "ad": "Edebî söyleyişin inceliğini yansıtan metinlerden edindiği söz varlığını kullanarak yazısına içerik oluşturabilme",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.4.3",
+      "ad": "Edebî söyleyişin inceliğini yansıttığı yazısında kural uygulama",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T1.4.4",
+      "ad": "Edebî söyleyişin inceliğini yansıttığı yazısında yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Sözün İnceliği” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma",
+      "sinif": 9,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN İNCELİĞİ"
+    },
+    {
+      "kod": "TDE.9.T2.1.1",
+      "ad": "“Anlam Arayışı” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.1.2",
+      "ad": "“Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.2.1",
+      "ad": "“Anlam Arayışı” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.2.2",
+      "ad": "“Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.3.1",
+      "ad": "Konusunu ana düşünce etrafında detaylandırdığı akıcı bir konuşma sürecini yö- netebilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.3.2",
+      "ad": "Konusunu ana düşünce etrafında detaylandırdığı konuşma içeriğini oluştura- bilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.3.3",
+      "ad": "Konusunu ana düşünce etrafında detaylandırdığı konuşmasında kural uygula- yabilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.3.4",
+      "ad": "Konuşmasının içeriğinde kullandığı unsurların konuşmasına olan etkisine yöne- lik süreci değerlendirebilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.4.1",
+      "ad": "Konu zenginliği ve çeşitliliğini sağlayan edebî metinlerde yazma sürecini yöne- tebilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.4.2",
+      "ad": "Yazısını zenginleştirecek içerik oluşturabilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.4.3",
+      "ad": "Konu zenginliği ve çeşitliliğini sağlayan yazısında kural uygulayabilme",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T2.4.4",
+      "ad": "Beğeni ve eleştirilerini dile getirdiği yazısına yönelik yazma sürecini değerlen- direbilme İÇERİK ÇERÇEVESİ “Anlam Arayışı” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 9,
+      "tema_no": 2,
+      "tema_ad": "ANLAM ARAYIŞI"
+    },
+    {
+      "kod": "TDE.9.T3.1.1",
+      "ad": "“Anlamın Yapı Taşları” temasında ele alınan metinlerde dinleme/izlemeyi yöne- tebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.1.2",
+      "ad": "“Anlamın Yapı Taşları” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.1.3",
+      "ad": "“Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.2.1",
+      "ad": "“Anlamın Yapı Taşları” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.2.2",
+      "ad": "“Anlamın Yapı Taşları” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.2.3",
+      "ad": "“Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.3.1",
+      "ad": "Edebî metinlerde yapısal inceliklere odaklanan akıcı bir konuşma sürecini yöne- tebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.3.2",
+      "ad": "Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşma içeriği oluşturabilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.3.3",
+      "ad": "Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuş- mada kural uygulayabilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.3.4",
+      "ad": "Edebî metinlerdeki yapısal inceliklerin konuşmaya etkisine yönelik süreci de- ğerlendirebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.4.1",
+      "ad": "Yapısını incelikle ördüğü bir yazılı anlatım sürecini yönetebilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.4.2",
+      "ad": "Yapısı incelikle örülmüş edebî metinlerden edindiği söz varlığını kullanarak ya- zısı için içerik oluşturabilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.4.3",
+      "ad": "Yapısını incelikle ördüğü yazısında kural uygulayabilme",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T3.4.4",
+      "ad": "Yapısını incelikle ördüğü yazısına yönelik yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Anlamın Yapı Taşları” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 9,
+      "tema_no": 3,
+      "tema_ad": "ANLAMIN YAPI TAŞLARI"
+    },
+    {
+      "kod": "TDE.9.T4.1.1",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.1.2",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.1.3",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.1.4",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinlerde dinleme/izleme sürecini de- ğerlendirebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.2.1",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.2.2",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.2.3",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.2.4",
+      "ad": "“Dilin Zenginliği” temasında ele alınan metinlere yönelik okuma sürecini değer- lendirebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.3.1",
+      "ad": "Dilin zenginliğini kullandığı akıcı bir konuşma sürecini yönetebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.3.2",
+      "ad": "Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşma içeriğini oluşturabilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.3.3",
+      "ad": "Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşmasında kural uygulayabilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.3.4",
+      "ad": "Kullandığı dil özelliklerinin konuşmasına etkisine yönelik süreci değerlendire- bilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.4.1",
+      "ad": "Öz yaşam öyküsünü oluşturabilmek için bir yazılı anlatım sürecini yönetebilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.4.2",
+      "ad": "Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan bir yazılı an- latım içeriği oluşturabilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.4.3",
+      "ad": "Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan yazısında kural uygulayabilme",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.9.T4.4.4",
+      "ad": "Beğeni ve eleştirilerini dile getirdiği yazısına yönelik yazma sürecini değerlen- direbilme İÇERİK ÇERÇEVESİ “Dilin Zenginliği” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 9,
+      "tema_no": 4,
+      "tema_ad": "DİLİN ZENGİNLİĞİ"
+    },
+    {
+      "kod": "TDE.10.T1.1.1",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.1.2",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.1.3",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.1.4",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinlere yönelik dinleme/izleme sürecini de- ğerlendirebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.2.1",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.2.2",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.2.3",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.2.4",
+      "ad": "“Sözün Ezgisi” temasında ele alınan metinlere yönelik okuma sürecini değerlen- direbilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.3.1",
+      "ad": "Belirlenen bir tema çerçevesinde seçtiği şiirlerden oluşan bir şiir dinletisi hazır- lama ve sunma sürecini yönetebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.3.2",
+      "ad": "Seçtiği şiirleri etkili ve güzel bir biçimde sunmak için şiir dinletisinin içeriğini oluşturabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.3.3",
+      "ad": "Seçilen şiirleri etkili ve güzel bir biçimde sunabilmek için kural uygulayabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.3.4",
+      "ad": "Gerçekleştirilen şiir dinletisine yönelik süreci değerlendirebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.4.1",
+      "ad": "Dinlediği/izlediği metni film şeridi hâline getireceği yazma sürecini yönetebilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.4.2",
+      "ad": "Dinlediği/izlediği metni film şeridi hâline getireceği yazısına içerik oluştura- bilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.4.3",
+      "ad": "Film şeridi hâline getirdiği yazısını düzenlerken kural uygulayabilme",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T1.4.4",
+      "ad": "Film şeridi hâline getirdiği yazısına yönelik yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Sözün Ezgisi” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 10,
+      "tema_no": 1,
+      "tema_ad": "SÖZÜN EZGİSİ"
+    },
+    {
+      "kod": "TDE.10.T2.1.1",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.1.2",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.1.3",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.1.4",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinlere yönelik dinleme/izleme süre- cini değerlendirebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.2.1",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.2.2",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.2.3",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.2.4",
+      "ad": "“Kelimelerin Ritmi” temasında ele alınan metinlere yönelik okuma sürecini de- ğerlendirebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.3.1",
+      "ad": "Dilin ritimle ilişkili estetik yönünü kullanarak edebiyat alanında iz bırakmış şahsi- yetlerin edebî yönünü yansıtan bir podcast (sesli blog) hazırlama sürecini yönetebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.3.2",
+      "ad": "Dilin ritimle ilişkili estetik yönünü kullanarak edebiyat alanında iz bırakmış şahsiyet- lerin edebî yönünü yansıtan bir podcast hazırlamak için gerekli içeriği oluşturabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.3.3",
+      "ad": "Hazırlanan podcastleri sunarken kural uygulayabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.3.4",
+      "ad": "Hazırlanan podcastlere yönelik süreci değerlendirebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.4.1",
+      "ad": "Bilgilendirici bir metni edebî metne dönüştüreceği yazma sürecini yönetebilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.4.2",
+      "ad": "Bilgilendirici bir metni edebî metne dönüştüreceği yazısına içerik oluşturabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.4.3",
+      "ad": "Edebî metne dönüştürdüğü yazısında kural uygulayabilme",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T2.4.4",
+      "ad": "Edebî metne dönüştürdüğü yazısına yönelik yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Kelimelerin Ritmi” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma",
+      "sinif": 10,
+      "tema_no": 2,
+      "tema_ad": "KELİMELERİN RİTMİ"
+    },
+    {
+      "kod": "TDE.10.T3.1.1",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.1.2",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.1.3",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.1.4",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinlere yönelik dinleme/izleme süre- cini değerlendirebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.2.1",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.2.2",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.2.3",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.2.4",
+      "ad": "“Dünden Bugüne” temasında ele alınan metinlere yönelik okuma sürecini değer- lendirebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.3.1",
+      "ad": "Türk destanlarıyla ilgili hazırladığı konuşmasında konuşmayı yönetebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.3.2",
+      "ad": "Türk destanlarıyla ilgili hazırladığı konuşmasında türe özgü içerik oluşturabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.3.3",
+      "ad": "Türk destanlarıyla ilgili hazırladığı konuşmasında kural uygulayabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.3.4",
+      "ad": "Türk destanlarıyla ilgili hazırladığı konuşmasına yönelik süreci değerlendirebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.4.1",
+      "ad": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlerde yazmayı yöne- tebilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.4.2",
+      "ad": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlerde içerik oluştu- rabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.4.3",
+      "ad": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlerde kural uygula- yabilme",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T3.4.4",
+      "ad": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlere yönelik yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Dünden Bugüne” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 10,
+      "tema_no": 3,
+      "tema_ad": "DÜNDEN BUGÜNE"
+    },
+    {
+      "kod": "TDE.10.T4.1.1",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.1.2",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.1.3",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.1.4",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinlerde dinleme/izleme sürecini de- ğerlendirebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.2.1",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.2.2",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.2.3",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.2.4",
+      "ad": "“Nesillerin Mirası” temasında ele alınan metinlere yönelik okuma sürecini değer- lendirebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.3.1",
+      "ad": "Dede Korkut hikâyelerinden birini canlandırdığı konuşma sürecini yönetebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.3.2",
+      "ad": "Dede Korkut hikâyelerinden birini canlandırdığı konuşmasına uygun içerik oluş- turabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.3.3",
+      "ad": "Dede Korkut hikâyelerinden birini canlandırdığı konuşmasında kural uygulaya- bilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.3.4",
+      "ad": "Dede Korkut hikâyelerinden birini canlandırdığı konuşmasına yönelik süreci de- ğerlendirebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.4.1",
+      "ad": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısında yazmayı yönetebilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.4.2",
+      "ad": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısında içerik oluşturabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.10.T4.4.3",
+      "ad": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısında kural uygulayabilme",
+      "sinif": 10,
+      "tema_no": 4,
+      "tema_ad": "NESİLLERİN MİRASI"
+    },
+    {
+      "kod": "TDE.11.T1.1.1",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde dinlemeyi/izlemeyi yöne- tebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.1.2",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.1.3",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.1.4",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde dinleme/izleme sürecini değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.2.1",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.2.2",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.2.3",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.2.4",
+      "ad": "“Bir Diyeceğim Var!” temasında ele alınan metinlerden hareketle okuma süre- cini değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.3.1",
+      "ad": "Günlük yaşamda karşılaşabileceği iletişim engellerini konu alan konuşmasını yö- netebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.3.2",
+      "ad": "İletişim engellerinin nedenlerini, sonuçlarını ve çözümlerini yansıtacağı konuş- ması için içerik oluşturabilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.3.3",
+      "ad": "Sözlü iletişim engellerine ilişkin farklı bakış açılarını deneyimlediği konuşmasın- da kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.3.4",
+      "ad": "Günlük hayatta karşılaşılan sözlü iletişim engellerine yönelik gerçekleştirdiği konuşmasında süreci değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.4.1",
+      "ad": "Duygu, düşünce ve isteklerini etkili bir şekilde ileteceği yazısını yönetebilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.4.2",
+      "ad": "Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kulla- nacağı yazısı için içerik oluşturabilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.4.3",
+      "ad": "Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kulla- nacağı yazısı için kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T1.4.4",
+      "ad": "Günlük hayatta duygu, düşünce ve isteklerini ifade ettiği yazısında yazma süre- cini değerlendirebilme İÇERİK ÇERÇEVESİ “Bir Diyeceğim Var!” temasının içerik çerçevesi şu şekildedir: •",
+      "sinif": 11,
+      "tema_no": 1,
+      "tema_ad": "BİR DİYECEĞİM VAR!"
+    },
+    {
+      "kod": "TDE.11.T2.1.1",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinlerde dinlemeyi/izlemeyi yöne- tebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.1.2",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.1.3",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.1.4",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinlere yönelik dinleme/izleme sü- recini değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.2.1",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.2.2",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.2.3",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.2.4",
+      "ad": "“Kültür Yolculuğu” temasında ele alınan metinlerde okuma sürecini değerlen- direbilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.3.1",
+      "ad": "Türk dünyasının ortak kültürünü (dil, din, coğrafya, sanat) yansıtan konuşmasını yönetebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.3.2",
+      "ad": "Kültürel çeşitliliği konu edeceği konuşması için içerik oluşturabilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.3.3",
+      "ad": "Kültürel çeşitliliği konu edeceği konuşması için kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.3.4",
+      "ad": "Türk dünyasının ortak kültürüne (dil, din, coğrafya, sanat) yönelik konuşmasıyla ilgili süreci değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.4.1",
+      "ad": "Kültürel miraslara yönelik gözlemlerini ve incelemelerini yansıtacağı yazısını yö- netebilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.4.2",
+      "ad": "Kültürel unsurlara ilişkin gözlemlerini benzerlik ve farklılıklarıyla ortaya koyaca- ğı yazısı için içerik oluşturabilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.4.3",
+      "ad": "Kültürel unsurlara ilişkin gözlemlerini benzerlik ve farklılıklarıyla ortaya koyaca- ğı yazısı için kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T2.4.4",
+      "ad": "Kültürel miraslara yönelik gözlemlerini ve incelemelerini anlattığı yazısıyla ilgili yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Kültür Yolculuğu” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 11,
+      "tema_no": 2,
+      "tema_ad": "KÜLTÜR YOLCULUĞU"
+    },
+    {
+      "kod": "TDE.11.T3.1.1",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.1.2",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.1.3",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.1.4",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinlere ilişkin dinleme/izleme sürecini değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.2.1",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.2.2",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.2.3",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.2.4",
+      "ad": "“Yaşamın İzinde” temasında ele alınan metinlerden hareketle günlük yaşamın ve sanatçının hayatının edebiyata yansımasına yönelik süreci değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.3.1",
+      "ad": "Edebiyat ve sanatın yaşamdaki yansımalarını etkileşimli bir biçimde ele aldığı konuşmasını yönetebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.3.2",
+      "ad": "Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile bütünleştirdiği bir konuşma içeriği oluşturabilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.3.3",
+      "ad": "Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile bütünleştirdiği konuşmasında kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.3.4",
+      "ad": "Yaşamdan izler taşıyan karakterlerle kurduğu etkileşimi yansıtan konuşmasına yönelik süreci değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.4.1",
+      "ad": "Edebiyat ve sanatın yaşamdaki yansımalarını kendi kurgusuyla oluşturacağı yazısını yönetebilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.4.2",
+      "ad": "Kendi yaşamını, ilgi alanını veya beğenilerini bağlama uygun bir şekilde kurguladığı yazısı için içerik oluşturabilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.4.3",
+      "ad": "Kendi yaşamını, ilgi alanı veya beğenilerini bağlama uygun bir şekilde kurguladığı yazısı için kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T3.4.4",
+      "ad": "Edebiyat ve sanatın yaşamdaki izlerine yönelik görüşlerini anlattığı yazısında yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Yaşamın İzinde” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 11,
+      "tema_no": 3,
+      "tema_ad": "YAŞAMIN İZİNDE"
+    },
+    {
+      "kod": "TDE.11.T4.1.1",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.1.2",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.1.3",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.1.4",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinlerden hareketle günlük hayatta kar- şılaşabileceği olay ve durumlarla ilgili görüşlerini paylaştığı süreci değerlendirebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.2.1",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.2.2",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.2.3",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.2.4",
+      "ad": "“Hayatın Aynası” temasında ele alınan metinlerde okuma sürecini değerlendi- rebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.3.1",
+      "ad": "Sosyal hayata dair gözlemleri yansıtan metinlerden hareketle sergileyeceği ko- nuşmayı yönetebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.3.2",
+      "ad": "Günlük hayatta karşılaşılabilecek olay ya da durumu etkileyici ve inandırıcı bi- çimde canlandırmak için konuşmasının içeriğini oluşturabilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.3.3",
+      "ad": "Günlük hayatta karşılaşılabilecek olay ya da durumu etkileyici ve inandırıcı bi- çimde canlandırmak için konuşmasında kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.3.4",
+      "ad": "Hayata ayna tutan içeriği sahnelediği konuşması için konuşma sürecini değerlen- direbilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.4.1",
+      "ad": "Günlük hayatta karşılaşılabilecek olay ve durumları etkili bir şekilde aktaracağı yazısını yönetebilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.4.2",
+      "ad": "Farklı bakış açılarını, günlük deneyimleri ve sosyal yaşamı yansıttığı yazısı için içerik oluşturabilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.4.3",
+      "ad": "Farklı bakış açılarını, günlük deneyimleri ve sosyal yaşamı yansıttığı yazısı için kural uygulayabilme",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.11.T4.4.4",
+      "ad": "Günlük hayatta karşılaşılabilecek olay ve durumları etkili bir şekilde aktardığı yazılı anlatımına yönelik yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Hayatın Aynası” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma •",
+      "sinif": 11,
+      "tema_no": 4,
+      "tema_ad": "HAYATIN AYNASI"
+    },
+    {
+      "kod": "TDE.12.T1.1.1",
+      "ad": "“Benim Yolculuğum” temasında farklı insanların yaşamlarını, hedeflerini ve başa- rılarını ele alan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.1.2",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.1.3",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.1.4",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinlerdeki çözümlemelerini kendi kişisel gelişimleriyle birleştirip süreci değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.2.1",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.2.2",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.2.3",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinlerde yazarın zamana bağlı ola- rak karakter, duygu ve düşünce değişimini çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.2.4",
+      "ad": "“Benim Yolculuğum” temasında ele alınan metinlerde okuma sürecini değerlen- direbilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.3.1",
+      "ad": "Kişisel gelişimini etkileyen unsurlar hakkında yapacağı konuşmasını yönete- bilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.3.2",
+      "ad": "Başkalarının deneyimleriyle empati kuracağı ve kendi görüşlerini şekillendire- ceği konuşma içeriğini oluşturabilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.3.3",
+      "ad": "Kişisel gelişimini ve özelliklerini keşfettiği, kendi dünyasını yansıttığı konuşma- sında kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.3.4",
+      "ad": "Deneyimlerini, kişisel özelliklerini ve gelişimlerini aktardığı konuşmasına yönelik süreci değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.4.1",
+      "ad": "Geleceğe dair planlarını dijital bir platformda aktarmak için oluşturacağı yazma sürecini yönetebilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.4.2",
+      "ad": "Kariyer hedefleri, eğitim planları ve diğer kişisel gelişim hedeflerine yönelik ya- zısında içerik oluşturabilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.4.3",
+      "ad": "Kariyer hedefleri, eğitim planları ve diğer kişisel gelişim hedeflerine yönelik ya- zısında kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T1.4.4",
+      "ad": "Geleceğe dair planlarını dijital ortamda aktardığı yazısına yönelik yazma süreci- ni değerlendirebilme İÇERİK ÇERÇEVESİ “Benim Yolculuğum” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma",
+      "sinif": 12,
+      "tema_no": 1,
+      "tema_ad": "BENİM YOLCULUĞUM"
+    },
+    {
+      "kod": "TDE.12.T2.1.1",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.1.2",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.1.3",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.1.4",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinlerde dinleme/izleme sürecini değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.2.1",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.2.2",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.2.3",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.2.4",
+      "ad": "“Toplumun Ahengi” temasında ele alınan metinlerde okuma sürecini değerlen- direbilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.3.1",
+      "ad": "Güncel olayları takip edip toplumsal konulara duyarlı bir konuşmayı yönetebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.3.2",
+      "ad": "Toplumsal sorunları anlama ve bu sorunlara çözüm üretme ile ilgili konuşması için içerik oluşturabilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.3.3",
+      "ad": "Toplumsal sorunları anlama ve bu sorunlara çözüm üretme ile ilgili konuşması için kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.3.4",
+      "ad": "Temel hak ve özgürlükler bağlamında gerçekleştirdiği konuşmasına yönelik sü- reci değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.4.1",
+      "ad": "Toplumu farklı yönleriyle ele aldığı yazılı anlatım sürecini yönetebilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.4.2",
+      "ad": "Temel hak ve özgürlüklerin toplumsal düzen için gerekliliğini farklı bakış açıla- rıyla bir araya getirdiği yazısına içerik oluşturabilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.4.3",
+      "ad": "Temel hak ve özgürlüklerin toplumsal düzen için gerekliliğini farklı bakış açıla- rıyla oluşturduğu yazısı için kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T2.4.4",
+      "ad": "Toplumsal duyarlılık bağlamında ortaya koyduğu yazısına yönelik yazma süreci- ni değerlendirebilme İÇERİK ÇERÇEVESİ “Toplumun Ahengi” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma",
+      "sinif": 12,
+      "tema_no": 2,
+      "tema_ad": "TOPLUMUN AHENGİ"
+    },
+    {
+      "kod": "TDE.12.T3.1.1",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.1.2",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.1.3",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.1.4",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinlerde dinleme/izleme sürecini de- ğerlendirebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.2.1",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.2.2",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.2.3",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.2.4",
+      "ad": "“Hayatın Dengesi” temasında ele alınan metinlerde okuma sürecini değerlendi- rebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.3.1",
+      "ad": "Güncel teknoloji ve çevre konusunda yaşadığı dünyayı güzelleştirme farkındalığı oluşturmak için yapacağı konuşmasını yönetebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.3.2",
+      "ad": "Sürdürülebilirlik ve teknolojinin çevresel etkileri konusunda gerçekleştireceği konuşması için içerik oluşturabilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.3.3",
+      "ad": "Sürdürülebilirlik ve teknolojinin çevresel etkileri konusunda gerçekleştireceği konuşması için kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.3.4",
+      "ad": "Sürdürülebilirlik ve teknolojinin çevresel etkileri konusunda gerçekleştireceği konuşmasına yönelik süreci değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.4.1",
+      "ad": "Sürdürülebilir hayata yönelik toplumsal sorumluluklarını ortaya koyacakları yaz- ma sürecini yönetebilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.4.2",
+      "ad": "Toplumsal yaşam, sürdürülebilirlik, kültürel ve çevresel unsurlara yönelik baş- kalarının görüşlerini alabileceği kendi yazısına içerik oluşturabilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.4.3",
+      "ad": "Toplumsal yaşam, sürdürülebilirlik, kültürel ve çevresel unsurlara yönelik baş- kalarının görüşlerini alabileceği yazısı için kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T3.4.4",
+      "ad": "Sürdürülebilir hayat için toplumsal sorumluluklara yönelik farklı görüşleri ve kendi görüşlerini bir araya getirdiği yazısı hakkındaki yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Hayatın Dengesi” temasının içerik çerçevesi şu şekildedir: •",
+      "sinif": 12,
+      "tema_no": 3,
+      "tema_ad": "HAYATIN DENGESİ"
+    },
+    {
+      "kod": "TDE.12.T4.1.1",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönete- bilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.1.2",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.1.3",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.1.4",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinlerde dinleme/izleme sürecini değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.2.1",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinlerde okumayı yönetebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.2.2",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinlerde anlam oluşturabilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.2.3",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinleri çözümleyebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.2.4",
+      "ad": "“Hayalimdeki Yarın” temasında ele alınan metinlerde okuma sürecini değerlen- direbilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.3.1",
+      "ad": "Farklı mesleklerdeki kişilerin deneyimlerinden faydalanarak gerçekleştireceği konuşmasını yönetebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.3.2",
+      "ad": "Mesleklerin özelliklerini, keyifli yanlarını, zorluklarını ve merak ettiği diğer un- surları ele alan konuşması için içerik oluşturabilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.3.3",
+      "ad": "Mesleklerin özelliklerini, keyifli yanlarını, zorluklarını ve merak ettiği diğer un- surları ele alan kendi konuşması için kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.3.4",
+      "ad": "Farklı mesleklerdeki kişilerin deneyimlerinden faydalanarak gerçekleştireceği kendi konuşmasına yönelik süreci değerlendirebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.4.1",
+      "ad": "Hayalindeki mesleklere yönelik bilgi edinmek amacıyla gerçekleştireceği bir meslek tanıtımı yazma sürecini yönetebilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.4.2",
+      "ad": "Araştırma, bilgi toplama, analitik düşünme gibi süreçler sonrasında mesleklerle ilgili ulaştığı bilgilerle yazısının içeriğini oluşturabilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.4.3",
+      "ad": "Mesleklerin özellikleri ve kendi özelliklerini ele aldığı yazısı için kural uygulayabilme",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    },
+    {
+      "kod": "TDE.12.T4.4.4",
+      "ad": "Hayalindeki mesleklerin özelliklerini farklı açılardan ele aldığı yazısına yönelik yazma sürecini değerlendirebilme İÇERİK ÇERÇEVESİ “Hayalimdeki Yarın” temasında içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma",
+      "sinif": 12,
+      "tema_no": 4,
+      "tema_ad": "HAYALİMDEKİ YARIN"
+    }
+  ]
+}
