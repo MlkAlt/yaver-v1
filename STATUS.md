@@ -9,7 +9,7 @@
 
 ### Sonraki oturumda devam edilecek (sıralı)
 1. **Doğru kazanım metinlerini PDF'ten çek** (Migration 038) — aşağıda detay
-2. **PR'ı aç** — tarayıcıdan: https://github.com/MlkAlt/yaver-v1/pull/new/feature/mufredat-buyuk-duzeltme
+2. ~~PR'ı aç~~ — **PR #1 merge edildi ✅** (`feature/mufredat-buyuk-duzeltme` → main)
 3. **EAS build** (production APK) → Google Play test track upload
 4. **V1.5'e ertelendi** (DECISIONS güncel):
    - Almanca/Fransızca lise seed
