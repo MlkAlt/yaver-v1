@@ -1,36 +1,53 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 27.05.2026 — Oturum 47
+**Son güncelleme:** 24.05.2026 — Oturum 52
 
 ## Şu An Ne Yapıyoruz
-**Oturum 47.** Metodoloji metni kirliliği teşhis edildi ve temizlendi. DB'de **6.013 kazanım**.
-- **Migration 037**: 50 kirli kayıt silindi (PDF extraction hatası — metodoloji metni kazanım yerine girilmişti)
-- `feature/mufredat-buyuk-duzeltme` branch'i push'lu, PR henüz açılmadı.
+**Oturum 52 başladı:** 79 MEB PDF'i sıfırdan re-extract + DB diff + yıllık plan dağıtım doğruluk testi.
 
-### Sonraki oturumda devam edilecek (sıralı)
-1. **Doğru kazanım metinlerini PDF'ten çek** (Migration 038) — aşağıda detay
-2. ~~PR'ı aç~~ — **PR #1 merge edildi ✅** (`feature/mufredat-buyuk-duzeltme` → main)
-3. **EAS build** (production APK) → Google Play test track upload
-4. **V1.5'e ertelendi** (DECISIONS güncel):
+### Oturum 52 — Phase 0 baseline (✅ tamamlandı)
+**DB snapshot** (`audit-baseline/db-audit-2026-05-24.txt`):
+- 24 branş, 6.138 kazanım
+- okul_tipi dağılımı: ortaokul=2437, lise=2021, ilkokul=1156, ihl=524
+- ders kolonu NULL = 0 (✓)
+
+**Eksik branş × sınıf tespiti** (kademe vs DB sayım):
+- Fransızca lise 9-12 → 0 kazanım (kritik — Phase 4.5'te seedlenecek)
+- Almanca lise 9-12 → 0 kazanım
+- Bilişim Teknolojileri 7-8 → 0 (5-6 var)
+- Teknoloji ve Tasarım 5-6 → 0 (7-8 var)
+- Felsefe 9 → 0 (10-12 var)
+- Hayat Bilgisi 4 → 0 (1-3 var)
+- (Doğal eksikler: DKAB 1-3, Sınıf Öğr 1-3, İngilizce 1)
+
+### Oturum 51 (referans — önceki)
+Kazanım başlık doğruluğu (metin) audit tamamlandı + 12 DB hatası düzeltildi.
+
+### Metin Audit Sonuçları — TÜM BRANŞLAR ✅
+pdftotext extraction ile DB karşılaştırması (1233 ortak kod):
+- **1189 tam eşleşme** (96.4%)
+- **44 fark** — tamamı PDF extraction hatası (column bleed / satır kırığı), DB DOĞRU
+- **0 hayalet kod** (sadece PDF'de olan)
+- **162 sadece DB'de** (seçmeli/ek program — beklenen)
+
+| Sonuç | Branşlar |
+|---|---|
+| Exact match | Türkçe, İngilizce, Hayat Bilgisi, Görsel Sanatlar, Bilişim, Teknoloji Tasarım, Kimya, Biyoloji (±1), Müzik (±1) |
+| DB doğru (PDF parent kodları saydı) | Matematik 1-8, Beden 1-8 |
+| DB doğru (çoklu program) | Fizik gr9 (FİZ+AST=48), Coğrafya gr10 (COĞ+İÇYÇ=36), Din Kültürü, Arapça, Tarih, Felsefe (İHL+regular) |
+| DB doğru (tasarım kararı) | SB grade 8 = İnkılap Tarihi (migration 012, SB öğretmeni girer) |
+| DB doğru (audit false alarm) | Almanca (\.?\d* double-count), TDE (skill-based kodlar, grade embedded değil) |
+| **Migration 039 ile düzeltildi** | **Fen Bilimleri 5-8 — 5-parçalı kodlar, 143 kazanım** |
+| **Migration 040 + script ile düzeltildi** | **12 kazanım başlığı: SB.7.1.1, GS.11.1.1, KİM.9.1.5, FİZ.9.2.1, MAT.1.3.3-5, TT.8.1.3, BEO.3.6.3, BES.7.4.1, MAT.1.1.4, MAT.4.4.1** |
+
+**KAZANIMLAR VERİFİYE EDİLDİ. İLERLEYEBİLİRİZ.**
+
+### Sonraki oturumda yapılacaklar (sıralı)
+1. **PR aç + EAS build** (production APK) → Google Play test track upload
+2. **V1.5'e ertelendi** (DECISIONS güncel):
    - Almanca/Fransızca lise seed
    - Teknoloji ve Tasarım kademe düzeltme
    - secmeliDersler.ts uyarı düzeltmeleri (DKAB lise+ihl, Almanca ortaokul iho, Hüsnühat yazım)
-
-### Migration 038 — Silinen kayıtların doğru metinleri (PDF'ten çekilecek)
-PDF'ler kullanıcının makinesinde olmalı. Aşağıdaki kayıtlar için doğru metin gerekiyor:
-
-**Öncelikli (popüler branşlar):**
-- `İTA.8.1.1` — Sosyal Bilgiler / T.C. İnkılap 8. sınıf (kullanıcının gördüğü bug) → `2025825154713595-inkılap 8.pdf`
-- `T.K.5.2, T.K.6.2, T.K.7.2, T.K.8.2` — Türkçe Konuşma → `202582516532361-ortaokul türkçe.pdf`
-- `T.Y.5.2, T.Y.8.4` — Türkçe Yazma → aynı PDF
-- `KK.5.1.3, KK.7.4.1` — DKAB Kur'an → `2026313101051307-kk58.pdf`
-
-**İHL (eğer kazanım olduğu doğrulanırsa):**
-- `DT.12.x.y` (7 kayıt) — Dinler Tarihi → İHL Dinler Tarihi PDF
-- `ARP.9.x.2, ARP.9.x.4, ARP.10.x.z` (18 kayıt) — büyük ihtimalle etkinlik önerisi, gerçek kazanım değil
-- Diğer İHL (Akaid, Fıkıh, Hadis, Hitabet, KK, TDB, Tefsir — 12 kayıt)
-
-**Not:** TT (Teknoloji ve Tasarım) ve TAR.9.1.2 de kaynak JSONda kirli — doğrudan PDF'ten çekmek gerek.
 
 ### Kritik audit aracı
 `scripts/audit-mufredat.cjs` — Supabase'den canlı sayım:
@@ -77,7 +94,9 @@ PDF'ler kullanıcının makinesinde olmalı. Aşağıdaki kayıtlar için doğru
 ### Supabase
 - [x] Schema + 13 tablo + RLS
 - [x] Seed: 21 branş, 41 hafta takvim (36 aktif + 5 tatil, MEB PDF 2025-2026 ile hizalı, Kurban tarihi düzeltildi)
-- [x] **Kazanımlar: 6.013 toplam** — Migration 030-037, Oturum 44-47 (50 kirli kayıt mig.037 ile silindi)
+- [x] **Kazanımlar: 6.138 toplam** — Migration 030-039, Oturum 44-49
+- [x] **Migration 000039**: Fen Bilimleri sinif 5-8 tam yeniden seed — 143 kazanım (28+36+36+43), 5-parçalı kod formatı ✅ — Oturum 49
+- [x] **Migration 000038**: 50 kirli kayıt doğru metinlerle yeniden eklendi + TT.7.5.3/TT.7.5.4 güncellendi ✅ — Oturum 48
 - [x] **Migration 000037**: 50 kirli kazanım silindi (metodoloji metni / truncated PDF extraction artifact) ✅ — Oturum 47
 - [x] **Migration 000035**: İHL tam kazanım seed — 21 PDF, 469 kazanım (12 zorunlu + 9 seçmeli ders), ON CONFLICT DO UPDATE ✅ — Oturum 46
 - [x] **Migration 000031**: ders_turu sütunu (zorunlu/secmeli) eklendi, backfill tamamlandı ✅ — Oturum 45

@@ -1,0 +1,1288 @@
+{
+  "ders": "BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ",
+  "siniflar": [
+    {
+      "sinif": 1,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "Hareket Ediyorum, Sağlığımı Koruyorum"
+        },
+        {
+          "kod": "BOM.1.2.",
+          "kazanim": "Ritimle Hareket Ediyorum"
+        },
+        {
+          "kod": "BOM.1.3.",
+          "kazanim": "Müzikli Oyunlar Oynuyorum"
+        },
+        {
+          "kod": "BOM.1.4.",
+          "kazanim": "Halay Öğreniyorum"
+        },
+        {
+          "kod": "BOM.1.1.3.",
+          "kazanim": "Kişisel ve genel alanını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Kişisel ve genel alanını belirler.",
+            "b) Kişisel ve genel alanı arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "2 Bir öyküden faydalanarak nefes çalışmalarına merak uyandırıcı ve ilgi çekici biçimde örnekler verilir (E1.1). Öğrencilerden yapılan çalışmaları gözlemlemesi beklenir. Öğrencilerin gözlemlediği çalışmalara eşlik etmesi sağlanır. Öğrencilere doğru nefes alıp verme ile ilgili çalışmalar yaptırılır (örneğin burundan nefes alıp ağızdan vermek, doğru beden duruşu, dik durmak vb.). Doğru nefes alıp vermenin sağlıklı yaşamla ilişkisine değinilir (D13.4). Öğrencilerin doğada duydukları sesleri taklit ederek nefes çalışmaları yapması sağlanır. Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.1.2.",
+          "kazanim": "Nefes çalışmaları yapabilme"
+        },
+        {
+          "kod": "BOM.1.1.3.",
+          "kazanim": "Kişisel ve genel alanını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Kişisel ve genel alanını belirler.",
+            "b) Kişisel ve genel alanı arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BOM.1.1.4.",
+          "kazanim": "Yer değiştirme hareketlerini gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Yer değiştirme hareketlerini gözlemleyerek belirler.",
+            "b) Yer değiştirme hareketlerini gözlemleyerek veri toplar.",
+            "c) Yer değiştirme hareketlerinin nasıl yapıldığını kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.1.1.5.",
+          "kazanim": "Dengeleme hareketlerini gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Dengeleme hareketlerini gözlemleyerek belirler.",
+            "b) Gözlemlediği dengeleme hareketleri ile ilgili veri toplar.",
+            "c) Dengeleme hareketlerinin nasıl yapıldığını kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.1.1.6.",
+          "kazanim": "Nesne kontrolü gerektiren hareketleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Nesne kontrolü gerektiren hareketleri gözlemleyerek belirler.",
+            "b) Nesne kontrolü gerektiren hareketleri gözlemleyerek veri toplar.",
+            "c) Nesne kontrolü gerektiren hareketlerin nasıl yapıldığını kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.1.1.7.",
+          "kazanim": "Fiziksel etkinlikler yapılırken vücudunda meydana gelen değişiklikleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Fiziksel etkinlik yaparken vücudunda meydana gelecek değişiklikleri belirler.",
+            "b) Fiziksel etkinlikler sırasında vücudunda meydana gelecek değişikliklerle ilgili veri toplar.",
+            "c) Fiziksel etkinlik sırasında vücudunda meydana gelen değişiklikler ile ilgili topladığı verileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.1.1.8.",
+          "kazanim": "Dengeli ve düzenli beslenmenin önemini açıklayabilme"
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "2 Bir öyküden faydalanarak nefes çalışmalarına merak uyandırıcı ve ilgi çekici biçimde örnekler verilir (E1.1). Öğrencilerden yapılan çalışmaları gözlemlemesi beklenir. Öğrencilerin gözlemlediği çalışmalara eşlik etmesi sağlanır. Öğrencilere doğru nefes alıp verme ile ilgili çalışmalar yaptırılır (örneğin burundan nefes alıp ağızdan vermek, doğru beden duruşu, dik durmak vb.). Doğru nefes alıp vermenin sağlıklı yaşamla ilişkisine değinilir (D13.4). Öğrencilerin doğada duydukları sesleri taklit ederek nefes çalışmaları yapması sağlanır. Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "3 Tebeşir, ip, çember vb. malzemelerle kişisel ve genel alan belirlenir. Öğrencilere kişisel ve genel alan arasındaki ilişkiyi belirlemeleri için müzik eşliğinde (genel alanda yürümeleri, müzik sustuğunda kişisel alanlarına gitmeleri gibi) oyunlar oynatılır (E2.5). Öğrencilere yapılan çalışmalar esnasında odaklanarak zihinsel ve bedensel enerjilerini en iyi düzeyde kullanabilecekleri ortamlar oluşturulur (E3.2). Çalışmalarda öğrencilerin aktif rol alması sağlanarak grupla çalışma becerilerini geliştirmeleri beklenir (D3.4, SDB2.2). Kişisel ve genel alanlar belirlenirken aynı zamanda güvenli ortam oluşturma becerisinin geliştirilmesi de sağlanır (BEOSAB10). Öğrencilere oyunlar ve fiziksel etkinlikler sırasında kendilerinin ve çevredekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve tedbirli davranmaları gerektiği hatırlatılır (D5.1, SDB2.3). Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "4 Yer değiştirme hareketlerine (yürüme, koşma, atlama-sıçrama, adım al sek, galop-kayma, yuvarlanma, tırmanma) örnekler verilir ve öğrencilerin hareketleri gözlemlemesi beklenir. Yürüme etkinliği, orta hızdaki bir müzik eşliğinde serbest yürüme olarak ya da bir öykü veya masaldan (tavşan ile kaplumbağa vb.) yola çıkılarak çevresindeki varlıkların hareket hızlarını taklit etme yoluyla ve oyunlaştırılarak verilir (E2.5). Öğrencilerin gözlem yoluyla öğrendikleri yer değiştirme hareketlerine (yürüme, koşma, atlama-sıçrama, adım al sek, galop-kayma, yuvarlanma, tırmanma) eşlik etmesi sağlanır. Yer değiştirme hareketlerinin öğrencilerin koordinasyon, hız ve çevikliklerinin gelişmesi için önemli olduğu vurgulanır. Öğrencilerden öğrendikleri hareketlerden üç tanesini seçerek sergilemeleri istenir (OB9). Öğrencilerin çalışmalarda aktif rol almaları sağlanarak grupla çalışma becerisinin geliştirilmesi beklenir (SDB2.1, SDB2.2). Öğrencilerin yaşlarına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılmaları sağlanır (D13.2). Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "5 Dengeleme hareketlerine (eğilme, esnetme, dönme-salınım, ağırlık aktarımı, atlamakonma, başlama-durma, statik-dinamik denge, duruş-oturuş ve itme-çekme) örnekler vererek öğrencilerin hareketleri gözlemlemesi beklenir. Hareketler uygulanırken her hareketin nasıl yapıldığına dair dönüt verilerek öğrencilerin veri toplaması sağlanır (OB7). Öğrencilerin gözlem yoluyla öğrendikleri hareketlere gösterip yaptırma gibi yöntemlerle eşlik etmesi istenir. Öğrencilerin öğrendikleri hareketleri sergileyebilmeleri için yaşlarına ve fiziksel özelliklerine uygun sosyal ve sportif faaliyetlere katılmaları sağlanır (D13.2, OB9). Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "6 Nesneleri (top, balon, sünger vb.) atma-tutma, yakalama, yuvarlama gibi hareketler örneklenip öğrencilerin hareketleri odaklanarak gözlemlemesi beklenir (E3.2). Hareketler uygulanırken her hareketin nasıl yapıldığına dair dönüt verilerek öğrencilerin veri toplaması sağlanır (OB7). Öğrencilerin gözlem yoluyla öğrendikleri hareketlere gösterip yaptırma vb. yöntemlerle eşlik etmesi istenir. Bu hareketler önce serbest sonra ritmik olarak tekrarlanır. Öğrencilerin öğrendikleri hareketleri sergilemeleri için yaşlarına ve fiziksel özelliklerine uygun sosyal ve sportif faaliyetlere katılmaları sağlanır (D13.2, BEDEN EĞİTİMİ, OB9). Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "7 Öğrencilere spor yaparken vücutlarında ne gibi değişikler olabileceği ile ilgili sorular sorulur. Ardından öğrencilerden düz koşu yaptırılarak vücutlarında meydana gelen değişiklikleri incelemeleri istenir. Soru cevap, tartışma gibi yöntemlerle fiziksel etkinlikler yapılırken öğrencilerin vücutlarında meydana gelen kalp atış hızı, nefes alma sıklığı, vücut sıcaklığı, cilt görünüşü, terleme gibi değişikliklerle ilgili cevaplar alınıp veri toplanması sağlanır (E3.6). Öğrencilerin fiziksel etkinlikler sırasında vücutlarında meydana gelen değişikliklerle ilgili kaydettikleri bilgileri söylemesi istenir. Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.1.",
+          "kazanim": "8 Öğrencilere önce dengeli ve düzenli beslenme hakkındaki fikirleri, ardından dengeli ve düzenli beslenmenin sağlıklarını nasıl etkilediği ile ilgili bilgi edinme ve anlama ihtiyacına yönelik sorular sorulur (E3.8). Dengeli ve düzenli beslenmenin sağlık üzerindeki etkileri ile ilgili görsel, işitsel ve dijital kaynaklardan bilgiler paylaşılır. Sağlıklı yaşam için yeterli, dengeli ve sağlıklı beslenmenin, fiziksel aktivite alışkanlığının yaşam boyu devam etmesi gerektiği vurgulanır (D13.2). Öğrencilerden yeterli, dengeli ve sağlıklı beslenmenin, sosyal ve sportif etkinliklere katılmanın önemini dijital kaynaklardan da yararlanarak afiş hazırlama, resim yapma, şiir yazma vb. etkinliklerle sunması istenir (OB2). Yapılan çalışmalar okul ve sınıf panosunda sergilenir. Etkinliklerin değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.2.2.",
+          "kazanim": "Vücudunu ritim çalgısı gibi kullanarak müziklere uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Vücudunu ritim çalgısı gibi kullanarak müziklere uygun hareket belirler.",
+            "b) Vücudunu ritim çalgısı gibi kullanarak belirlediği hareketleri sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.1.2.3.",
+          "kazanim": "Dinlediği müziklerin ritmine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği müziklerin ritmik yapısına uygun hareketler belirler.",
+            "b) Dinlediği müziklerin ritmik yapısına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.1.2.4.",
+          "kazanim": "Tekerleme ve sayışmacalara ritim çalgıları ile eşlik edebilme"
+        },
+        {
+          "kod": "BOM.1.2.5.",
+          "kazanim": "Dinlediği öyküdeki varlıkların seslerini farklı ses kaynakları kullanarak taklit edebilme"
+        },
+        {
+          "kod": "BOM.1.2.",
+          "kazanim": "2 Öğrencilere vücudunu kullanarak nasıl ses çıkarabileceği sorulur. Parmak şıklatma, alkış, dizlere vurma, ayakları yere vurma gibi hareketler örneklenerek öğrencilerin çıkarılan sesleri merakla incelemesi beklenir (E1.1). Öğrencilere yeni hareketler bulabilmelerine için beyin fırtınası yaptırılır (E3.6). Bu sayede öğrencilerin vücutlarını ritim çalgısı gibi kullanabileceklerini fark etmeleri sağlanır. Öğrencilere bir müzik dinletilir. Öğrencilerden dinledikleri müziğin ritmine uygun vücut hareketleri seçmesi istenir. Öğrencilerin belirlediği hareketlerle vücudunu ritim çalgısı gibi kullanarak dinlenen müziğe eşlik etmeleri ve çalışmalarını sergilemeleri sağlanır (OB9). Çalışmalar değerlendirilirken öğrencilerin çalışmalarını sergileme konusundaki gayreti ve bu yöndeki kararlarını uygulama çabası göz önünde bulundurulur (E1.3, SDB1.2). Öğrenciler çalışmalarını sergilemeleri için cesaretlendirilir (E2.3, D11.1). Öğrencilere vücudunu ritim çalgısı gibi kullanarak müziklere eşlik edebileceği ve ritim çalışmaları yapabileceği bir performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.1.2.",
+          "kazanim": "3 Öğrencilere 2/4 ve 4/4’lük ritmik yapıdaki şarkılar dinletilerek öğrencilerin dinlediği şarkıların ritmik yapısını algılamaları beklenir. Öğrencilerden dinledikleri şarkının ritmine uygun alkış yaparak şarkıya eşlik etmeleri istenir. Şarkıların ritmik yapıları algılandıktan sonra öğrencilerden bu şarkıların ritmine uygun hareketler belirlemeleri istenir. Öğrencilere 2/4 ve 4/4’lük ritmik yapıda farklı şarkılar dinletilir. Öğrencilerden dinletilen şarkılardan birini seçmesi ve bu şarkıya uygun hareketler oluşturması istenir. Öğrencilere seçtiği şarkıların ritmik yapısına uygun hareketler sergileyebileceği ortamlar oluşturulur (OB9). Öğrencilere çalışmalarını sergilerken kendine inanması ve güvenmesini sağlayacak dönütler verilir. (E1.4, E1.5). Beceri oyunlaştırılarak da verilebilir (E2.5). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D8.4). Öğrencilere müziklere ritmine uygun hareketlerle eşlik edebileceği performans görevi verilebilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.1.2.",
+          "kazanim": "4 Orff çalgıları kullanılarak derse başlanır. Bir tekerleme veya sayışmaca söylenerek tekerleme veya sayışmacaya orff çalgılarıyla eşlik edilir. Öğrencilerin odaklanarak merak içinde gözlemlemesi beklenir (E3.2, E1.1). Öğrencilerin seslendirilen tekerleme veya sayışmacanın ritmini fark etmesi sağlanır. Öğrencilerden birer Orff çalgısı seçmesi ve tekerleme veya sayışmacaya çalgıyla eşlik etmesi istenir. Yansılama yoluyla farklı tekerleme ve sayışmacalar öğretilerek çalışmalar sürdürülür. Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.2.",
+          "kazanim": "5 Bir öykü veya masal ile derse başlanır. Öğrencilerden dinlediği öykü veya masaldaki varlıkların seslerini yaşantılarından yola çıkarak gözden geçirmesi beklenir. Öykü veya masaldaki varlıkların sesleri taklit edilirken varlıkların seslerinin incelik-kalınlık ve gürlük özelliklerine dikkat edilmesi sağlanır. Öğrencilerden gruplara ayrılarak kendi öykülerini oluşturmaları istenir (SDB2.1, D3.4, E3.3). Diğer gruplardan öyküde geçen varlıkların seslerini ritim çalgıları, beden perküsyonu gibi farklı ses kaynakları kullanarak uygulamaları beklenir (OB9). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme, bulundukları grupları değerlendirmeleri için grup değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.3.2.",
+          "kazanim": "Oyun ile ilgili basit stratejilerini oyuna yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Oyun ile ilgili stratejik durumu belirler.",
+            "b) Oyun ile ilgili stratejik durumun çözümüne ilişkin öneri sunar.",
+            "c) Oyun ile ilgili stratejisini uygular."
+          ]
+        },
+        {
+          "kod": "BOM.1.3.3.",
+          "kazanim": "Oyun ve etkinlikler sırasında iletişim kurmanın önemini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Oyun ve etkinlikler sırasındaki iletişimi inceler.",
+            "b) Oyun ve etkinlikler sırasında iletişim kurmanın önemini yorumlar.",
+            "c) Oyun ve etkinlikler sırasında iletişim kurmanın önemini kendi cümleleriyle ifade eder."
+          ]
+        },
+        {
+          "kod": "BOM.1.3.4.",
+          "kazanim": "Müzikli geleneksel çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.1.3.",
+          "kazanim": "2 Öğrencilere bir oyun oynatılarak derse başlanır. Öğrencilerden oyunda karşılaştıkları problemleri gözden geçirmeleri beklenir. Öğrencilerin karşılaştıkları problemlere ilişkin strateji belirlemeleri sağlanır. Soru cevap tekniği, beyin fırtınası gibi yöntemler kullanılarak öğrencilerin belirledikleri stratejileri sunması beklenir. Oyun oynatılarak öğrencilerden belirledikleri stratejileri uygulamaları istenir. Öğrencilere oyunlar oynanırken bedensel ve mekânsal mahremiyetlerine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları, kendi ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli davranmaları gerektiği hatırlatılır (D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere oyun stratejileri ile ilgili performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.1.3.",
+          "kazanim": "3 Öğrencilerden gruplara ayrılmaları istenir (SDB2.2). Bu gruplardan kendi oyunlarını oluşturmaları beklenir (E3.3). Oyun kurallarının tartışılarak belirlenmesi istenir (E3.5, E3.6, D3.4, SDB2.2). Grupların oluşturdukları oyunları birbirlerine oynatması sağlanır (E2.5). Öğrencilerden oyun oynayan grubun iletişiminin incelenmesi istenir. Oyun oynayan grubun iletişimi hakkında soru cevap tekniği, beyin fırtınası gibi yöntemler kullanarak öğrencilerin yorum yapması beklenir (E3.6). Öğrencilerin oyun ve etkinlikler sırasında iletişim kurmanın önemine ilişkin düşüncelerini oyun içindeki yaşantılarını gözden geçirerek kendi cümleleriyle ifade etmesi sağlanır (SDB2.1). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.3.",
+          "kazanim": "4 Öğrencilere müzikli geleneksel çocuk oyunlarından ya da Millî Eğitim Bakanlığı (MEB) “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından müzikli oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynanırken nezaketli, dürüst, hakkaniyetli davranmaları, başkalarını rahatsız edecek davranışlarda bulunmamaları, kendi ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.1.4.2.",
+          "kazanim": "Halk oyunları türlerinden halayın geleneksel giyim kuşam özelliklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.1.4.3.",
+          "kazanim": "Halay müziklerinin özelliklerini fark edebilme",
+          "alt_kazanimlar": [
+            "a) Halay müziklerinin müziksel bileşenlerini tanır.",
+            "b) Halay müziklerinin müziksel bileşenlerini ayırt eder.",
+            "c) Halay müziklerin müziksel bileşenlerini açıklar"
+          ]
+        },
+        {
+          "kod": "BOM.1.4.4.",
+          "kazanim": "Halay adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Halayın ritmik yapısına uygun hareketler belirler.",
+            "b) Halayı ritimsel ve ezgisel yapısına uygun olarak sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.1.4.",
+          "kazanim": "2 Halk oyunları türlerinden halayın geleneksel giyim kuşamı görsel ve dijital materyaller kullanılarak tanıtılır. Halayın geleneksel giyim kuşam parçaları gösterilerek parçaların yöresel isimleri üzerinde durulur. Öğrencilerden dijital kaynaklardan yararlanarak halay türü geleneksel giyim kuşam parçalarının tanıtıldığı afiş, bilgi görseli gibi çalışmalar hazırlaması istenebilir (OB2). Öğrencilerin çalışmaları sınıf ya da okul panosunda sergilenebilir. Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.1.4.",
+          "kazanim": "3 Öğrencilere dijital kaynaklardan yararlanarak halay müzikleri dinletilir. Öğrencilerin dinletilen müziklerin ritimsel ögelerini ve müziklerde kullanılan çalgıları tanıması sağlanır (OB1). Farklı halay müziklerini odaklanarak dinlemesi ve müziksel bileşenlerini (kullanılan çalgılar, usul, hız vb.) ayırt etmesi beklenir (E3.2). Öğrencilere farklı türlerden halk oyunları müzikleri dinletilerek halay müziklerinin ayırt edilmesi sağlanır. Öğrencilerin dinledikleri müziklerden hangilerinin halay müziği olduğunu söylemesi istenir. Etkinlikler oyunlaştırılarak verilebilir (E2.5). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.1.4.",
+          "kazanim": "4 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak halay ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Halay oyunlarından “delilo”, “tirge”, “kırıkhan” ve “ağır gövenk” oyunları müziğiyle sergilenerek öğrencilerin halay adımlarındaki ritmik yapıyı fark etmesi sağlanır. Bu adımlar gösterip yaptırma yöntemiyle öğrencilere tekrar ettirilir. Halay oyunları uygulanırken jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenecek belirli gün ve haftalar ile ilgili etkinliklerde sergilemesi, çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları; ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri; saygılı, nazik ve yardımsever olmaları gerektiği öğrencilere hatırlatılır (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanabilir (SDB1.3). Yapılan çalışmalar derecelendirme ölçeği kullanılarak değerlendirilebilir. Öğrencilere halay çalışmalarını sergileyebilecekleri performans görevi verilebilir. BEDEN EĞİTİMİ,"
+        }
+      ]
+    },
+    {
+      "sinif": 2,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "Sağlığım İçin Hareket Ediyorum"
+        },
+        {
+          "kod": "BOM.2.2.",
+          "kazanim": "Ritmik Hareket Ediyorum"
+        },
+        {
+          "kod": "BOM.2.3.",
+          "kazanim": "Oyun Oynuyorum BOM.3. 3. Birlikte Oyun Oynayalım"
+        },
+        {
+          "kod": "BOM.2.4.",
+          "kazanim": "Kaşık Oyunları Öğreniyorum"
+        },
+        {
+          "kod": "BOM.2.1.2.",
+          "kazanim": "Nefes çalışmaları yapabilme"
+        },
+        {
+          "kod": "BOM.2.1.3.",
+          "kazanim": "İşaretler yoluyla alan farkındalığı kazanabilme"
+        },
+        {
+          "kod": "BOM.2.1.4.",
+          "kazanim": "Yer değiştirme hareketlerini gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Yer değiştirme hareketlerini gözlemleyerek belirler.",
+            "b) Yer değiştirme hareketlerini gözlemleyerek veri toplar.",
+            "c) Yer değiştirme hareketlerinin nasıl yapıldığını duyuları aracılığıyla kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.2.1.5.",
+          "kazanim": "Dengeleme hareketlerini gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Dengeleme hareketlerini gözlemleyerek belirler.",
+            "b) Gözlemlediği dengeleme hareketleri ile ilgili veri toplar.",
+            "c) Dengeleme hareketlerinin nasıl yapıldığını duyuları aracılığıyla kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.2.1.6.",
+          "kazanim": "Nesne kontrolü gerektiren hareketleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Nesne kontrolü gerektiren hareketleri gözlemleyerek belirler.",
+            "b) Nesne kontrolü gerektiren hareketleri gözlemleyerek veri toplar.",
+            "c) Nesne kontrolü gerektiren hareketlerin nasıl yapıldığını duyuları aracılığıyla kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.2.1.7.",
+          "kazanim": "Oyun ve fiziksel etkinliklere katılmanın sağlık açısından önemini açıklayabilme"
+        },
+        {
+          "kod": "BOM.2.1.8.",
+          "kazanim": "Oyun ve fiziksel etkinlikler sırasında sağlığını korumanın önemini açıklayabilme"
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "2 Yaratıcı drama yoluyla nefes çalışmalarına oyunlaştırılarak örnekler verilir (E2.5). Öğrencilerden nefes çalışmalarını bilgi edinme ihtiyacıyla odaklanarak gözlemlemesi ve bu çalışmalara eşlik etmesi istenir (OB1, E3.2). Öğrencilerin motivasyonunu artıracak geri dönütler verilip nefes çalışmalarını doğru şekilde yapabilecek yeteneğe ve kapasiteye sahip olduğu vurgusu yapılarak kendilerine olan güvenlerinin gelişmesine destek sağlanır (SDB1.2, E1.5, SDB1.1, D3.1). Öğrencilerin öz güvenli olurken aynı zamanda kibirden uzak, sade, saygılı, sabırlı, duyarlı ve yapıcı davranışlar sergilemeleri gerektiği vurgulanır (D10.2, D10.3). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "3 İşaret, işaretlerin ortası, sağ çeyrek ve sol çeyrek kavramları yere iki işaret konularak gösterip yaptırma yöntemiyle verilir. Öğrencilere süreç içerisinde geri dönütler verilerek yanlış öğrenmelerin önüne geçilir. Öğrenme süreci oyunlaştırılarak öğrencilerin motivasyonu artırılır (E2.5, SDB1.2). Yapılan çalışmalar kontrol listesi kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "4 Yer değiştirme hareketleri (yürüme, koşma, atlama, sıçrama, adım al sek, galop kayma, yuvarlanma, tırmanma) içinde hız değişikliği bulunan bir müzik eşliğinde örneklenir ve öğrencilerin hareketleri odaklanarak gözlemlemesi beklenir (E3.2). Öğrencilerin yer değiştirme hareketlerinin yapılışı ile ilgili gözlem yoluyla veri toplaması ve hareketlere eşlik etmesi sağlanır. Öğrencilerden öğrendikleri hareketlerden üç tanesini seçip deneyimlerinden de yararlanarak özgün çalışmalar sergilemeleri istenir (E3.3). Yaşına ve fiziksel özelliklerine uygun sportif etkinliklere katılması sağlanır (D13.2). Öğrencilerin etkinliklerde aktif rol alması, ekip çalışmalarına katılması ve bu çalışmalarda ekip arkadaşlarıyla yardımlaşması ve dostluk kurması beklenir (D3.4, SDB2.2, D4.2). Öğrencilerin sağlıklı bir yaşam sürmek için fiziksel etkinliklere katılmaları gerektiği vurgulanır (D13.2). Öğrencilere sportif faaliyetlere katılmanın fiziksel aktivite alışkanlığı kazanmada önemli olduğu hatırlatılır (BEOSAB4). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "5 Bir masal ya da öyküden yararlanarak dengeleme hareketleri (eğilme, esnetme, dönmesalınım, ağırlık aktarımı, atlama-konma, başlama-durma, statik-dinamik denge, duruş, oturuş, itme, çekme) örneklenir ve öğrencilerin odaklanarak hareketleri gözlemlemesi beklenir (E3.2). Öğrencilere yaratıcı drama yöntemi kullanılarak hayvanların hareketlerini taklit edebileceği etkinlikler yaptırılır. Hareketlerin yapılışı ile ilgili veri toplaması ve hareketlere özgün fikirlerle eşlik etmesi sağlanır (E3.3). Öğrencilerden öğrendikleri hareketleri sergilemeleri istenebilir (OB9). Öğrencilerin dengeleme hareketlerini sergiledikten sonra kendini sözlü olarak değerlendirmesi istenir (SDB1.3). Bu çalışmalar grup etkinlikleri şeklinde iş birlikli yaptırılarak öğrencilerin grup iletişimine katılması, yeni fikir ve önerilere açık olması, görev bilincine sahip olması ve girişkenliğini artırması sağlanır (SDB2.1, E3.5, D16.3, E2.3). Yapılan çalışmalar derecelendirme ölçeği kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme, bağlı oldukları grubu değerlendirmeleri için grup değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "6 Nesneleri (top, balon, sünger vb.) atma, tutma, yakalama, yuvarlama gibi hareketler örneklenerek öğrencilerin hareketleri odaklanarak gözlemlemesi beklenir (E3.2). Öğrencilerin gözlem yoluyla hareketlerin yapılışı ile ilgili veri toplaması ve hareketlere eşlik etmesi sağlanır (OB7). Öğrenciler hareketlere eşlik ederken motivasyon artırıcı geri dönütler verilerek öğrencilerin öz yansıtma becerileri desteklenir (SDB1.3). Öğrencilerden öğrendikleri hareketleri şarkı eşliğinde sergilemeleri bu sayede yeni bir duruma uyum sağlamaları beklenir (OB9, SDB3.2). Yapılan çalışmalar gözlem formu kullanılarak BEDEN EĞİTİMİ, değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "7 Oyun ve fiziksel etkinliklere katılmanın sağlık açısından önemi ile ilgili beyin fırtınası, soru cevap tekniği gibi yöntemler kullanılarak öğrencilerin bilgi ihtiyacını fark etmesi sağlanır (E3.6, OB1). Öğrencilere fiziksel aktivite alışkanlığı kazanmanın sağlıklı bir yaşam için önemli olduğu hatırlatılır (D13.2). Öğrencilere fiziksel etkinlikler yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları, özenli kullanmaları ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3). Öğrencilerden dijital kaynaklardan yararlanarak fiziksel aktivitelere katılmanın sağlık açısından önemi ile ilgili araştırma yapıp edindiği bilgileri sınıfta arkadaşlarıyla paylaşması istenebilir (OB2). Yapılan çalışmalar performans görevi verilerek değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.2.1.",
+          "kazanim": "8 Öğrencilere sorular sorularak oyun ve fiziksel etkinliklere katılırken sağlıklarını korumak için nelere dikkat etmeleri gerektiği ile ilgili cevaplara ulaşmaları sağlanır. Sağlıklı ve dengeli beslenmenin sağlığı korumadaki önemi üzerinde durulur (OB1). Sakatlıkların önlenmesi için fiziksel etkinliklerden önce yapılan ısınma ve sonrasında yapılan soğuma çalışmalarının beden sağlığını korumadaki önemi vurgulanır. Öğrencilerin düşüncelerini özgürce ifade edebileceği ortamlar oluşturulur (E1.2, D11.2). Öğrencilere düşüncelerini ifade ederken nazik ve saygılı olması ayrıca özenli ve yapıcı bir dil kullanması gerektiği hatırlatılır (D14.1, SDB3.3). Öğrencilerin oyun ve fiziksel etkinliklere katılırken çevresindeki olası tehlikelere karşı (çarpışma, güvenli mesafede durma vb.) dikkatli olması ve bu tür durumlara karşı tedbirli davranması gerektiği vurgulanır (BEOSAB10). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.2.2.",
+          "kazanim": "Vücudunu ritim çalgısı gibi kullanarak dinlediği müziklerin ritmine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Vücudunu ritim çalgısı gibi kullanarak müziklere uygun hareket belirler.",
+            "b) Vücudunu ritim çalgısı gibi kullanarak belirlediği hareketleri sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.2.2.3.",
+          "kazanim": "Tekerleme ve sayışmacalara ritim çalgıları ile eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Tekerleme ve sayışmacalara uygun ritim kalıplarını belirler.",
+            "b) Tekerleme ve sayışmacalara ritim çalgıları ile eşlik ederken kullanacağı ritim kalıplarını seçer.",
+            "c) Tekerleme ve sayışmacalara ritim çalgılarıyla ve özgün ritim kalıplarıyla eşlik eder."
+          ]
+        },
+        {
+          "kod": "BOM.2.2.4.",
+          "kazanim": "Dinlediği müziklerdeki hız değişikliklerine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği müziklerdeki hız değişikliklerine uygun hareketler belirler.",
+            "b) Dinlediği müziklerdeki hız değişikliklerine uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.2.2.5.",
+          "kazanim": "Basit ritmik yapıdaki müziklerin ritmine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) 2/4’lük, 3/4’lük ve 4/4’lük basit ritmik yapıdaki müziklerin ritmine uygun hareketler belirler.",
+            "b) 2/4’lük, 3/4’lük ve 4/4’lük basit ritmik yapıdaki müziklerin ritmine uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.2.2.6.",
+          "kazanim": "Çevresindeki canlı ve cansız varlıkların seslerini farklı ses kaynakları kullanarak yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Çevresindeki canlı ve cansız varlıkların seslerini deneyimlerine dayanarak gözden geçirir.",
+            "b) Deneyimlerine dayanarak çevresindeki canlı ve cansız varlıkların seslerine ilişkin çıkarım yapar.",
+            "c) Çevresindeki canlı ve cansız varlıkların seslerine ilişkin çıkarımlarını değerlendirir."
+          ]
+        },
+        {
+          "kod": "BOM.2.2.",
+          "kazanim": "2 Parmak şıklatma, alkış, dizlere vurma, ayakları yere vurma gibi hareketler örneklenerek öğrencilere ön bilgileri hatırlatılır. Öğrencilere görsel, işitsel ve dijital kaynaklar kullanılarak vücutlarından nasıl ses çıkarabileceklerine ilişkin farklı örnekler sunulur. Öğrencilerin yeni hareketler bulabilmelerine ilişkin beyin fırtınası yaptırılır (E3.6). Öğrencilerin incelediği örnekler ve yaşantılarından yola çıkarak kendi oluşturacağı beden hareketlerini ve bunları nasıl uygulaması gerektiği ile ilgili özgün düşüncelerini arkadaşlarıyla paylaşarak iletişim becerilerini ve girişkenliği arttırması sağlanır (SDB2.1, D14.1, E2.3). Öğrencilere bir müzik BEDEN EĞİTİMİ, dinletilerek müziğe uygun hareketler belirlemesi beklenir. Öğrencilerden vücudunu ritim çalgısı gibi kullanarak dinledikleri müziklere kendi oluşturdukları hareketlerle eşlik etmeleri istenir. Bu çalışmalarla öğrencilerin yaratıcılıklarını geliştirmeleri sağlanır (E3.3) Öğrencilerin dijital kaynaklardan yararlanarak vücutlarından nasıl ses çıkarabileceklerine ilişkin farklı örnekler araştırmaları ve bu örnekleri sınıfta arkadaşlarına uygulatmaları istenebilir (OB2). Yapılan çalışmalar derecelendirme ölçeği kullanılarak değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.2.2.",
+          "kazanim": "3 Orff çalgıları kullanılarak derse başlanır. Bir tekerleme veya sayışmaca söylenerek Orff çalgılarıyla eşlik edilir. Öğrencilerin yapılan çalışmayı merak edip odaklanarak gözlemlemesi ve ritmi hissetmesi sağlanır (E3.2, E1.1). Farklı bir tekerleme ya da sayışmaca verilerek öğrencilerin bu tekerleme ya da sayışmacanın ritmine uygun ritim kalıplarını belirlemesi istenir. Öğrencilerden belirledikleri ritim kalıplarından birini seçmesi ve seçtikleri ritim çalgılarıyla tekerleme ve sayışmacalara eşlik etmesi beklenir. Seçilen ritim kalıplarının tekerleme ve sayışmacaların ritmi ile uyumlu bir bütün oluşturması gerektiği vurgulanır (D7.2). Öğrencilerin yaptıkları özgün çalışmaları sunabilecekleri ortamlar oluşturulur (E3.3). Öğrencilerin çalışmalarını belirli gün ve haftalarla ilgili etkinliklerde sergilemeleri sağlanır (OB9). Öğrencilere ritim çalışmaları yapabileceği bir performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.2.2.",
+          "kazanim": "4 Öğrencilere yavaş ve hızlı şarkılar dinletilerek şarkıların hızını hissetmeleri sağlanır. Şarkıların hızına uygun alkış yapmaları istenir. Öğrencilere içinde hız değişikliği bulunan bir şarkı dinletilerek şarkının içindeki hız değişikliklerine dikkat çekilir. Öğrencilerden gruplara ayrılmaları istenir. Grupların iş birliğiyle etkili iletişim kurarak ve yardımlaşarak içinde hız değişikliği bulunan şarkının hızına uygun hareketler belirlemeleri sağlanır (SDB2.2, D4.2, D20.2). Gruplardan belirledikleri hareketlerle şarkıya eşlik etmeleri beklenir. Grupların çalışmalarını sergileyebilecekleri ortamlar oluşturulur. Çalışmalar sergilenirken şarkının konusuna uygun kostüm, dekor gibi materyallerden yararlanılabileceği vurgulanır. Öğrenciler çalışmalarını belirli gün ve haftalarla ilgili okul içi etkinliklerde sergileyebilir (OB9). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için grup değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.2.",
+          "kazanim": "5 Öğrencilere 2/4’lük, 3/4’lük ve 4/4’lük müzikler dinletilerek müziklerin ritmik yapılarına odaklanmaları ve müzikleri algılamaları sağlanır (E3.2). Öğrencilerden dinlenilen müziklerden birini seçerek seçilen müziğin ritmine uygun özgün hareketler belirlemeleri istenir (E3.3). Öğrencilerin 2/4’lük, 3/4’lük ve 4/4’lük ritmik yapıdaki müziklerin ritmine uygun belirledikleri hareketleri sergilemeleri sağlanır. Öğrencilerin çalışmalarını sergileyebilecekleri ortamlar oluşturulur. Öğrencilerin çalışmalarda aktif rol almaları beklenir (D3.4). Çalışmalar sergilenirken şarkının konusuna uygun kostüm, dekor gibi materyallerden faydalanılabileceği vurgulanır. Öğrenciler çalışmalarını belirli gün ve haftalarla ilgili okul içi etkinliklerde sergileyebilir (OB9). Yapılan çalışmalar derecelendirme ölçeği kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.2.2.",
+          "kazanim": "6 Öğrencilerin çevresindeki canlı ve cansız varlıkların seslerini (incelik, kalınlık, gürlük özellikleri gibi) yaşantılarından yola çıkarak soru cevap tekniği, beyin fırtınası gibi yöntemlerle gözden geçirmesini sağlayacak etkinlikler düzenlenerek derse başlanır (E3.6). Öğrencilere canlı ve cansız varlıkların seslerine ilişkin görsel, işitsel ve dijital materyaller sunulur. Öğrencilerin varlıkların sesleriyle ilgili düşüncelerini yaşantılarıyla da ilişkilendirip paylaşarak çıkarımda bulunmasını sağlanır. Edindiği çıkarımları eleştirel bakış açısıyla değerlendirerek yansıtması sağlanır (D3.3). Öğrencilere farklı görsel, işitsel ve dijital materyaller sunulur. Öğrencilerden görsel, işitsel veya dijital olarak sunulan canlı veya cansız varlıkların seslerini farklı ses kaynakları kullanarak (ritim çalgıları, beden perküsyonu vb.) sergilemesi istenir. Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.3.2.",
+          "kazanim": "Oyun ve etkinlikler sırasında jest ve mimiği kullanabilme"
+        },
+        {
+          "kod": "BOM.2.3.3.",
+          "kazanim": "Müzikli geleneksel çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.2.3.",
+          "kazanim": "2 Öğrencilere duyguları anlatan bir kelime (üzgün, sinirli, mutlu vb.) verilerek bu kelimeyi hiç konuşmadan yalnızca jest ve mimiklerini kullanarak anlatması istenir (E2.5). Etkinlik devam ettirilerek sözsüz iletişim becerilerinin gelişimine katkı sağlanır (SDB2.1). Etkinlik bitiminde öğrencilerden jest ve mimikleri kullanma ile ilgili deneyimlerini gözden geçirmeleri beklenir. Ardından jest ve mimiklerin duyguları ifade etmedeki önemi ile ilgili düşüncelerini belirtmeleri istenir. Jest ve mimiklerin kullanılabileceği farklı etkinlikler tasarlanabilir. Oyun ve etkinlikler sırasında jest ve mimiklerin kullanımının oyunun veya etkinliğin amacını ve anlatımını kuvvetlendirebileceği vurgulanır. Öğrencilere oyunlar oynanırken bedensel ve mekânsal mahremiyetlerine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları (D8.4), kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı (SDB2.3) ve dikkatli davranmaları gerektiği hatırlatılır (D5.1). Yapılan çalışmalar kontrol listesi kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.3.",
+          "kazanim": "3 Müzikli geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından müzikli oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynarken nezaketli, dürüst, hakkaniyetli davranmaları, bedensel ve mekânsal mahremiyetlerine dikkat etmeleri, başkalarını rahatsız edecek davranışlarda bulunmamaları, kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.4.2.",
+          "kazanim": "Kaşık oyunlarının geleneksel giyim kuşam özelliklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.2.4.3.",
+          "kazanim": "Kaşık oyunları müziklerinin özelliklerini fark edebilme",
+          "alt_kazanimlar": [
+            "a) Kaşık oyunları müziklerinin müziksel bileşenlerini tanır.",
+            "b) Kaşık oyunları müziklerinin müziksel bileşenlerini ayırt eder.",
+            "c) Kaşık oyunları müziklerinin müziksel bileşenlerini açıklar."
+          ]
+        },
+        {
+          "kod": "BOM.2.4.4.",
+          "kazanim": "Kaşık oyunlarının adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Kaşık oyunlarının ritmik yapısına uygun hareketler belirler.",
+            "b) Kaşık oyunlarının ritimsel ve ezgisel yapısına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.2.4.",
+          "kazanim": "2 Kaşık oyunlarının geleneksel giyim kuşamı görsel ve dijital materyaller kullanılarak tanıtılır. Kaşık oyunlarının geleneksel giyim kuşam parçaları gösterilerek parçaların yöresel isimleri üzerinde durulur. Öğrencilerden, dijital kaynaklardan yararlanarak kaşık oyunlarının geleneksel giyim kuşam parçalarını tanıtan afiş ya da bilgi görseli gibi çalışmalar hazırlamaları istenebilir (OB2). Öğrencilere kaşık oyunlarının geleneksel giyim kuşamı ile ilgili araştırma yapmalarına yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.2.4.",
+          "kazanim": "3 Öğrencilere kaşık oyunları müzikleri dijital kaynaklardan yararlanarak dinletilir. Öğrencilerin dinletilen müziklerin ritimsel ögelerini ve müziklerde kullanılan çalgıları tanıması sağlanır (OB1). Ardından farklı kaşık oyunları müziklerini odaklanarak dinlemesi ve müziksel bileşenlerini (kullanılan çalgılar, usul, hız vb.) ayırt etmesi beklenir (E3.2). Farklı türlerden halk oyunları müzikleri dinletilerek kaşık oyunlarının müziklerini ayırt etmesi sağlanır. Öğrencilerin dinledikleri müziklerden hangilerinin kaşık oyunları müziği olduğunu söylemesi istenir. Etkinlikler oyunlaştırılarak da verilebilir (E2.5). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.2.4.",
+          "kazanim": "4 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak kaşık oyunları ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Kaşık oyunlarından “Türkmen kızı”, “Silifke’nin yoğurdu”, “kesik çayır” ve “ham çökelek” oyunları müziğiyle sergilenerek öğrencilerin adımlardaki ritmik yapıyı fark etmesi sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Kaşık oyunları uygulanırken anlatımı kuvvetlendirmek için jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergilemesi, çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilerin ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları, ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri, saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanabilir (SDB1.3). Yapılan çalışmalar gözlem ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere kaşık oyunları çalışmalarını sergileyebilecekleri performans görevi verilebilir . BEDEN EĞİTİMİ,"
+        }
+      ]
+    },
+    {
+      "sinif": 3,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.3.1.",
+          "kazanim": "Hareket Et, Sağlıklı Beslen"
+        },
+        {
+          "kod": "BOM.3.2.",
+          "kazanim": "Duygularımı Ritimle Anlatıyorum"
+        },
+        {
+          "kod": "BOM.3.4.",
+          "kazanim": "Karşılama Oyunları Öğreniyorum"
+        },
+        {
+          "kod": "BOM.3.1.2.",
+          "kazanim": "Nefes çalışmaları yapabilme"
+        },
+        {
+          "kod": "BOM.3.1.3.",
+          "kazanim": "Yer değiştirme hareketlerini artan bir doğrulukla sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Yer değiştirme hareketlerini algılar.",
+            "b) Yer değiştirme hareketlerinin basamaklarını gösterir.",
+            "c) Yer değiştirme hareketlerini uygular."
+          ]
+        },
+        {
+          "kod": "BOM.3.1.4.",
+          "kazanim": "Dengeleme hareketlerini artan bir doğrulukla sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dengeleme hareketlerini algılar.",
+            "b) Dengeleme hareketlerinin basamaklarını gösterir.",
+            "c) Dengeleme hareketlerini uygular."
+          ]
+        },
+        {
+          "kod": "BOM.3.1.5.",
+          "kazanim": "Nesne kontrolü gerektiren hareketleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Nesne kontrolü gerektiren hareketleri gözlemleyerek belirler.",
+            "b) Nesne kontrolü gerektiren hareketleri gözlemleyerek veri toplar.",
+            "c) Nesne kontrolü gerektiren hareketlerin nasıl yapıldığını duyuları aracılığıyla kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.3.1.6.",
+          "kazanim": "Sağlıklı beslenmenin önemini açıklayabilme"
+        },
+        {
+          "kod": "BOM.3.1.",
+          "kazanim": "2 Bir öykü veya masaldan yararlanarak nefes çalışmalarına örnek verilir. Öğrencilerden deneyimlerini gözden geçirerek nefes çalışmalarına eşlik etmeleri istenir. Çevresinde duyduğu canlı ve cansız varlıkların seslerini nefes çalışmalarında kullanmaları istenir. Öğrencilerin nefes çalışmaları ile ilgili deneyimlerini müzik ve spor çalışmalarında uygulayarak değerlendirmesi ve kendi öğrenme durumunu geliştirmeye yönelik çalışmalar yapması sağlanır (SDB1.2, E3.3). Öğrencilerin bu çıkarımlarını değerlendirebileceği ortamlar oluşturulur (OB9). Öğrencilerin çalışmalarda aktif rol alması beklenir (D3.4). Yapılan çalışmaların değerlendirilmesinde gözlem formu, öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.3.1.",
+          "kazanim": "3 Yer değiştirme hareketlerine (yürüme, koşma, atlama, sıçrama, adım al sek, galop kayma, yuvarlanma, tırmanma) önce yavaş, sonra orta hızda ve son olarak hızlı bir müzik eşliğinde örnek verilir. Öğrencilerin odaklanarak hareketleri algılaması beklenir (E3.2). Öğrencilerden yer değiştirme hareketlerinin basamaklarını göstermeleri istenir. Öğrencilerin hareketleri artan bir doğrulukla uygulaması sağlanır (E3.1). Öğrencilerin çalışmalarda aktif rol alması, yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması sağlanır (D3.4, D13.2). Öğrencilere yer değiştirme hareketlerini uygulayabilecekleri performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.1.",
+          "kazanim": "4 Dengeleme hareketlerine (eğilme, esnetme, dönme-salınım, ağırlık aktarımı, atlamakonma, başlama-durma, statik-dinamik denge, duruş, oturuş, itme, çekme) müzik eşliğinde müziğin ritmine uygun olarak örnek verilir (BEOSAB5). Öğrencilerin odaklanarak hareketleri algılaması beklenir (E3.2). Öğrencilerden dengeleme hareketlerinin basamaklarını göstermeleri istenir. Öğrencilerden hareketleri artan bir doğrulukla sergilemeleri beklenir (E3.1). Öğrencilerin çalışmalarda aktif rol alması, yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması beklenir (D3.4, D13.2). Öğrencilere dengeleme hareketlerini uygulayabilecekleri performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.1.",
+          "kazanim": "5 Nesneleri (top, balon, sünger vb.) atma, tutma, yakalama, yuvarlama gibi hareketlere artan bir hızla örnekler verilip öğrencilerin odaklanarak hareketleri gözlemlenmesi beklenir (E3.2). Öğrencilerin hareketlerin yapılışı ile ilgili veri toplaması ve hareketlerin yapılış hızına dikkat etmesi istenir (OB7). Öğrencilerin öğrendikleri hareketleri artan bir hızla sergilemeleri sağlanır (E3.1). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D8.4). Öğrencilere nesne kontrolü gerektiren hareketleri uygulayabilecekleri performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.1.",
+          "kazanim": "6 Öğrencilere sorular sorularak sağlıklı ve sağlıksız besinlerle ilgili bilgilerini hatırlamaları sağlanır. Öğrencilere görsel ve dijital materyallerden yararlanarak beslenme piramidi ile ilgili örnekler sunulur (OB2). Öğrencilerden dijital kaynaklardan yararlanarak sağlıklı ve sağlıksız besinlerle ilgili sunum hazırlamaları istenebilir (OB2). Yapılan çalışmalarda öğrenilen bilgiler çalışma kâğıdı kullanılarak değerlendirilebilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.3.2.2.",
+          "kazanim": "Dinlediği ve söylediği müziklere özgün ritim kalıplarıyla eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği ve söylediği müziklere nasıl eşlik edebileceği ile ilgili amacını belirler.",
+            "b) Dinlediği ve söylediği müziklere eşlik ederken kullanacağı ritim çalgıları ve kalıplarını seçer.",
+            "c) Seçtiği ritim çalgıları ve ritim kalıpları ile müziklere eşlik ederek bir ürün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.3.2.3.",
+          "kazanim": "Müziklerdeki aynı ve farklı söz kümelerine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği müziklerin ritmik yapısına uygun hareketler belirler.",
+            "b) Dinlediği müziklerin ritmine uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.3.2.4.",
+          "kazanim": "Şarkıların ritmine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği basit ve aksak ritimli şarkıların ritmik yapısına uygun hareketler belirler.",
+            "b) Dinlediği basit ve aksak ritimli şarkıların ritmine uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.3.2.5.",
+          "kazanim": "Müziklerde yer alan farklı ezgi cümlelerine uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Müziklerde yer alan farklı ezgi cümlelerini belirler.",
+            "b) Müziklerde yer alan farklı ezgi cümlelerinde kullanacağı hareketleri seçer.",
+            "c) Müziklerde yer alan farklı ezgi cümlelerine uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.3.2.6.",
+          "kazanim": "Dinlediği müziklerle ilgili duygu ve düşüncelerini ifade edebilme"
+        },
+        {
+          "kod": "BOM.3.2.",
+          "kazanim": "2 Öğrencilere dinlediği ve söylediği müziklere eşlik etmekteki amacın ne olduğu ile ilgili sorular sorularak öğrencilerin derinlemesine düşünmeleri ve konu hakkındaki duygu ve düşüncelerini ifade etmeleri, ritim duygusunu geliştirmek cevabını vermeleri beklenir (SDB3.3, SDB2.1). Öğrencilerin dinlenen ve söylenen şarkılara ritim çalgılarıyla eşlik etmenin ritim duygusunu geliştirmek için önemli olduğu sonucuna varması sağlanır. Öğrencilere dijital kaynaklar kullanılarak 2/4’lük, 3/4’lük ya da 4/4’lük şarkılar dinletilip şarkıların ritmini algılamaları beklenir (OB2). Öğrencilerin şarkıların ritmine uygun ritim kalıbı oluşturmaları ve oluşturulan ritim kalıbını seslendireceği ritim çalgısını seçerek dinlenen şarkılara eşlik etmeleri sağlanır. Öğrencilerden daha önce öğrendiği bir şarkıyı seçerek şarkıyı seslendirirken kendi oluşturduğu ritim kalıbı ve seçtiği ritim çalgısı ile şarkıya eşlik etmesi istenir. Etkinlikler grup çalışmaları şeklinde düzenlenebilir. Öğrencilerin grup çalışmalarında arkadaşlarının düşüncelerine saygılı ve ön yargısız bakabilmeleri, anlayışlı ve barışçıl olmaları gerektiği vurgulanır (E3.5, D15.1). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.3.2.",
+          "kazanim": "3 Öğrencilerin dijital kaynakları kullanarak içinde aynı ve farklı söz kümeleri bulunan şarkılar bulmaları sağlanır (OB2). Öğrencilerden buldukları şarkılardan birini seçerek şarkıdaki aynı ve farklı söz kümelerini belirlemeleri ve şarkının ritmik yapısına uygun hareketler oluşturmaları istenir. Hareket oluştururken tekrar eden sözlere aynı, değişen sözlere farklı hareketler kullanmaları gerektiği vurgulanır. Öğrencilerden seçtikleri şarkının anlatımına ilişkin duygu ve düşüncelerini ifade etmeleri istenir (SDB2.1). Öğrencilere hareketleri uygularken şarkı sözlerine uygun duyguyu yansıtacak jest ve mimikler kullanarak anlatım kuvvetlendirebilecekleri vurgulanır. Öğrencilerin oluşturdukları özgün çalışmaları sergileyebilecekleri ortamlar oluşturulur (E3.3, OB9). Hazırlanan çalışmalar belirli gün ve haftalarla ilgili etkinliklerde sergilenebilir. Öğrencilerin performanslarını sergilerken şarkının konusuna ve duygusuna uygun kostüm ve dekordan yararlanması sağlanır. Materyallerden yararlanarak performans sergilemenin özgün üretkenliğe katkıda bulunduğu vurgulanır (D7.2). Öğrencilere müziklerdeki aynı ve farklı söz kümelerine uygun hareket edebilecekleri performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.3.2.",
+          "kazanim": "4 Öğrencilere dijital kaynaklar kullanılarak önce basit, sonra aksak ritmik yapıda birer şarkı dinletilir. Öğrencilerin gruplara ayrılmaları istenir. Grupların iş birliği içinde şarkıların ritmine uygun çeşitli doğaçlama vücut hareketleri belirlemeleri sağlanır (SDB2.2, E3.3). Öğrencilere şarkılara hareket oluştururken jest ve mimikler kullanmalarının şarkının anlatımını kuvvetlendirebileceği hatırlatılır (SDB2.1). Grupların oluşturdukları çalışmaları sergilemeleri sağlanır. Öğrencilerin oluşturdukları çalışmaları sergileyebilecekleri ortamlar oluşturulur. Öğrencilerin çalışmalarda aktif rol alması beklenir (D3.4). Hazırlanan çalışmalar belirli gün ve haftalarla ilgili etkinliklerde de sergilenebilir (OB9). Öğrencilerin performanslarını sergilerken şarkının konusuna ve duygusuna uygun kostüm ve dekordan yararlanmaları sağlanır. Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.2.",
+          "kazanim": "5 Öğrencilere dijital kaynaklar kullanılarak içinde farklı ezgi cümleleri bulunan bir şarkı dinletilerek derse başlanır (OB2, E3.2). Öğrencilerden odaklanarak ezgi cümlelerini belirlemeleri istenir. Öğrencilerden belirlediği ezgi cümlelerine uygun hareketler bularak kendilerini dansla ifade etmeleri istenir (SDB2.1). Öğrencilerin oluşturdukları çalışmaları sergileyebilecekleri ortamlar oluşturulur (OB9). Hazırlanan çalışmalar belirli gün ve haftalarla ilgili etkinliklerde de sergilenebilir. Performanslarını sergilerken şarkının konusuna ve duygusuna uygun kostüm ve dekordan yararlanmaları sağlanır (D3.4). Öğrencilere farklı ezgi cümleleri olan müzikler bularak ezgi cümlelerine uygun hareketler sergileyebilecekleri performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.3.2.",
+          "kazanim": "6 Öğrencilere sözlü veya sözsüz müzikler dinletilerek derse başlanır. Müziklerin öğrencilerde uyandırdığı duygular konusunda sözlü tartışma teknikleri kullanılarak öğrencilerin düşüncelerini ifade etmeleri sağlanır (SDB2.1). Öğrencilerden duygu ve düşüncelerini ifade edebilecekleri dans, kompozisyon, resim, şiir, afiş hazırlama, drama gibi çalışmalar yapmaları istenir (D3.4). Öğrencilerin oluşturdukları çalışmaları sergileyebilecekleri ortamlar oluşturulur. Kompozisyon, resim, şiir, afiş gibi yazılı çalışmaların sınıf panosunda sergilenmesi sağlanır. Öğrencilerin dans, drama gibi performansları sergilerken uygun BEDEN EĞİTİMİ, kostüm ve dekordan yararlanması sağlanır (OB9). Öğrencilerin aldıkları görevleri zamanında ve eksiksiz yerine getirmesi beklenir (D16.3). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.3.2.",
+          "kazanim": "Oyun ve etkinlikler sırasında jest ve mimiklerini kullanabilme"
+        },
+        {
+          "kod": "BOM.3.3.3.",
+          "kazanim": "Basit kurallı oyunlar oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı oyunu ve kuralları belirler.",
+            "b) Oyunun amacı ve kuralları arasında ilişki kurar.",
+            "c) Basit kurallı oyun oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.3.3.4.",
+          "kazanim": "Geleneksel müzikli çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.3.3.",
+          "kazanim": "2 Öğrencilere dijital kaynaklardan yararlanılarak mim gösterisi videoları izletilir. Öğrencilere konuşmadan, yalnızca jest ve mimiklerini kullanılarak duygularını ifade edebilecekleri bilgisi hatırlatılır (OB1). Öğrenciler iki gruba ayrılır (SDB2.2). Gruplardan biri bir şarkı veya türkü ismi belirler. Belirlenen şarkı veya türkü ismini diğer gruptan seçilen bir öğrenciye söyler. Şarkı veya türkü isminin söylendiği öğrencinin şarkı veya türkü ismini grup arkadaşlarına konuşmadan, jest ve mimiklerini kullanarak anlatması beklenir. Gruplar sırayla şarkı ismi anlatarak oyunu sürdürür (E2.5). Oyun sonunda gruplar birbirlerini değerlendirerek hangi grubun sözsüz iletişim becerisinin daha iyi ve anlaşılır olduğuna ilişkin gözlemlerini paylaşırlar. Oyun ve etkinlikler sırasında jest ve mimiklerini kullanımının önemi vurgulanır. Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.3.",
+          "kazanim": "3 Öğrencilerden yaşantılarından ve gözlemlerinden yola çıkarak nasıl bir oyun oluşturabileceklerine ilişkin düşüncelerini paylaşmaları istenir. Her oyunun bir amacı ve kuralları olduğu sonucuna varması beklenir. Öğrencilerden gruplara ayrılarak basit kuralları olan bir oyun oluşturmaları istenir (SDB2.2, E3.3). Grupların önce oluşturacağı oyunu ve oyunun kurallarını belirlemesi sağlanır (D3.4). Öğrencilerden oyunun kurallarının oyunun amacına uygun olup olmadığını değerlendirmeleri istenir (E3.6). Oyunun amacı ve kuralları arasında bir ilişki olması gerektiği vurgulanır. Grupların oluşturdukları basit kurallı oyunu önce kendilerinin oynamaları, daha sonra diğer gruplara oynatmaları istenebilir (SDB2.2, E2.5, D3.4). Öğrencilere oyunlar oynanırken saygılı, dürüst ve adil olunması gerektiği hatırlatılır (D1.2, BEOSAB8). Öğrencilerin oyunlar oynanırken güvenli alan oluşturma becerilerini geliştirmeleri beklenir (BEOSAB10). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilere basit kurallı oyunlar oluşturmalarına ilişkin performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.3.3.",
+          "kazanim": "4 Müzikli geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından müzikli oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynanırken nezaketli, dürüst, hakkaniyetli davranmaları, bedensel ve mekânsal BEDEN EĞİTİMİ, mahremiyetlerine dikkat etmeleri, başkalarını rahatsız edecek davranışlarda bulunmamaları, kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.4.2.",
+          "kazanim": "Geleneksel halk oyunları giyim kuşamını yörelerine göre sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Geleneksel halk oyunları giyim kuşamının yöresel özelliklerine ilişkin ölçütleri belirler.",
+            "b) Geleneksel halk oyunları giyim kuşamının yöresel özelliklerini ayırır.",
+            "c) Geleneksel halk oyunları giyim kuşamını yöresel özelliklerine göre tasnif eder. ç) Geleneksel halk oyunları giyim kuşamının yöresel özelliklerini etiketler."
+          ]
+        },
+        {
+          "kod": "BOM.3.4.3.",
+          "kazanim": "Halk oyunları türlerinden karşılamanın tanımını yapabilme"
+        },
+        {
+          "kod": "BOM.3.4.4.",
+          "kazanim": "Karşılama oyunlarının geleneksel giyim kuşam özelliklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.3.4.5.",
+          "kazanim": "Karşılama müziklerinin özelliklerini fark edebilme",
+          "alt_kazanimlar": [
+            "a) Karşılama müziklerinin müziksel bileşenlerini tanır.",
+            "b) Karşılama müziklerinin müziksel bileşenlerini ayırt eder.",
+            "c) Karşılama müziklerinin müziksel bileşenlerini açıklar."
+          ]
+        },
+        {
+          "kod": "BOM.3.4.6.",
+          "kazanim": "Karşılama oyunlarının adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Karşılama oyunlarının ritmik yapısına uygun hareketler belirler.",
+            "b) Karşılama oyunlarını ritimsel ve ezgisel yapısına uygun olarak sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.3.4.",
+          "kazanim": "2 Öğrencilere görsel ve dijital kaynaklardan yararlanarak geleneksel halk oyunları giyim kuşamı ile ilgili örnekler gösterilip geleneksel giyim kuşamın yöresel özellikleri üzerinde durulur. Yöreler arasındaki benzerlikler ve farklılıklarla ilgili sorular sorularak ölçütlerin belirlenmesi sağlanır. Belirlediği ölçütlere uygun olarak geleneksel giyim kuşamı yöresel özelliklerine göre ayırması beklenir. Ayırdığı yöresel giyim kuşamı türlerine göre tasnif etmesi istenir. Geleneksel giyim kuşam ile ilgili etiketlediği bilgileri tasnif edeceği etkinlikler tasarlanarak (afiş hazırlama, sunum yapma vb.) bilgilerini aktarması sağlanır (E3.3). Bu çalışmalarla millî kimliğini ve kültürel mirasını tanıyarak bunların gelecek nesillere aktarılması için çaba göstermesi beklenir (D19.1, D19.2). Öğrencilere halk oyunlarının geleneksel giyim kuşamı ile ilgili araştırma yapmalarına yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.3.4.",
+          "kazanim": "3 Öğrencilere görsel, işitsel ve dijital kaynaklardan yararlanılarak karşılama oyunları videoları izletilir. Soru cevap tekniği kullanılarak öğrencilerin karşılama oyunları ile ilgili düşünceleri alınır. Karşılama oyunlarının ortak özellikleri üzerinde durulur. Karşılama oyunları ile ilgili görsel, işitsel ve dijital kaynaklardan yararlanılarak türle ilgili bilgilerin pekiştirilmesi sağlanır. Öğrencilerin edindiği bilgilerle karşılama oyunlarının tanımını yapması sağlanır. Öğrencilerin geleneksel kültür unsurlarımızdan biri olan halk oyunlarını öğrenirken millî, manevi, insani, kültürel değerleri sevmeyi ve onlara saygı duymayı da öğrenmesi beklenir (D19.1, D19.2, OB5). Yapılan çalışmalarda öğretilen bilgiler çalışma kâğıdı kullanılarak değerlendirilebilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.3.4.",
+          "kazanim": "4 Halk oyunları türlerinden karşılamanın geleneksel giyim kuşamı görsel ve dijital materyaller kullanılarak tanıtılır. Karşılama oyunlarının geleneksel giyim kuşam parçaları gösterilerek parçaların yöresel isimleri üzerinde durulur. Öğrencilerden dijital kaynaklardan yararlanarak karşılama oyunlarının geleneksel giyim kuşam parçalarının tanıtıldığı afiş, bilgi görseli gibi çalışmalar hazırlaması istenebilir (OB2). Öğrencilere karşılama türü halk oyunlarının geleneksel giyim kuşamı ile ilgili performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.3.4.",
+          "kazanim": "5 Öğrencilere karşılama oyunları müzikleri dijital kaynaklardan yararlanılarak dinletilir. Öğrencilerin dinletilen müziklerin ritimsel ögelerini ve müziklerde kullanılan çalgıları tanıması sağlanır (OB1). Ardından farklı karşılama oyunları müziklerini odaklanarak dinlemesi ve müziksel bileşenlerini (kullanılan çalgılar, usul, hız vb.) ayırt etmesi beklenir (E3.2). Farklı türlerden halk oyunları müzikleri dinletilerek karşılama oyunlarının müziklerini ayırt etmesi sağlanır. Öğrencilerin dinledikleri müziklerden hangilerinin karşılama oyunlarının müziği olduğunu söylemesi istenir. Etkinlikler oyunlaştırılarak da verilebilir (E2.5). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.3.4.",
+          "kazanim": "6 Öğrencilerin daha önce izlediği halk oyunları videolarından ve kendi yaşantılarından yola çıkarak karşılama oyunları ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Karşılama oyunlarından “takuş”, “kız karşılaması”, “mendil” oyunları müziğiyle sergilenerek karşılama oyunlarının adımlarındaki ritmik yapıyı fark etmesi sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Karşılama oyunları uygulanırken jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergileyerek çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilerin ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları, ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri, saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanabilir (SDB1.3). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        }
+      ]
+    },
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.4.1.",
+          "kazanim": "Hareket Et, Sağlıklı Kal"
+        },
+        {
+          "kod": "BOM.4.2.",
+          "kazanim": "Farklı Ritimlerle Hareket Ediyorum"
+        },
+        {
+          "kod": "BOM.4.3.",
+          "kazanim": "Güvenelim, Oynayalım"
+        },
+        {
+          "kod": "BOM.4.4.",
+          "kazanim": "Teke Yöresi Oyunlarını Öğreniyorum 5. Sınıf 6. Sınıf 7. Sınıf 8. Sınıf"
+        },
+        {
+          "kod": "BOM.4.1.2.",
+          "kazanim": "Nefes çalışmaları yapabilme"
+        },
+        {
+          "kod": "BOM.4.1.3.",
+          "kazanim": "Dönüş hareketlerini sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dönüş hareketlerini algılar.",
+            "b) Dönüş hareketlerinin basamaklarını gösterir.",
+            "c) Dönüş hareketlerini uygular."
+          ]
+        },
+        {
+          "kod": "BOM.4.1.4.",
+          "kazanim": "Öğrendiği hareketleri bir araya getirerek özgün bir bütün oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Öğrendiği temel hareketleri belirler.",
+            "b) Hareketler arasında ilişki kurar.",
+            "c) Hareketleri birleştirerek özgün bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.4.1.5.",
+          "kazanim": "Sağlıklı beslenmenin önemini açıklayabilme"
+        },
+        {
+          "kod": "BOM.4.1.",
+          "kazanim": "2 Nefes çalışmaları ile ilgili görsel, işitsel ve dijital materyallerden yararlanarak örnekler sergilenir. Öğrencilerden deneyimlerini gözden geçirip beceri ve bilgilerini nefes çalışmalarına yoğunlaştırarak çalışmaları örneklemeleri istenir (E3.1). Çevresinde duyduğu canlı ve cansız varlıkların seslerini nefes çalışmalarında nasıl kullanabileceğini düşünmesi istenir. Öğrencilerin nefes çalışmaları ile ilgili deneyimlerini müzik ve spor çalışmalarında uygulayarak değerlendirmesi sağlanır (D3.4, OB9). Öğrencilere çalışmalarını sergilerken anlayışlı ve barışçıl tutumlar sergilemeleri gerektiği vurgulanır (D15.1). Öğrencilerden dijital kaynaklardan yararlanarak farklı nefes tekniklerini araştırması ve sınıfta arkadaşlarına sunması istenebilir (OB2). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.4.1.",
+          "kazanim": "3 Dönüş hareketleri (sağdan ve soldan tam tur dönüş, sağdan ve soldan yarım tur dönüş, sağdan ve soldan çeyrek tur dönüş) merak uyandırıcı ve ilgi çekici biçimde örneklenir ve öğrencilerin odaklanarak hareketleri algılaması beklenir (E1.1, E3.2). Öğrencilerden algıladığı dönüş hareketlerinin basamaklarını göstermesi istenir. Öğrencilerin öğrendikleri dönüş hareketlerini uygulaması sağlanır. Öğrencilerin çalışmalarda aktif rol alması sağlanarak grupla çalışma becerisi geliştirmesi beklenir (SDB2.2, D3.4). Yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması sağlanır (D13.2). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.4.1.",
+          "kazanim": "4 Öğrencilere istasyon çalışmaları hakkında bilgi verilir (OB1). Öğrencilerin yer değiştirme ve dengeleme hareketleri ile nesne kontrolü gerektiren hareketleri hatırlamaları sağlanır. Öğrencilerin, deneyimlerinden yola çıkarak bu hareketleri tekrar etmeleri istenir. Öğrenciler gruplara ayrılır (SDB2.1). Her grup yapacağı istasyon çalışmasında kullanacağı hareketleri belirler. Öğrencilere istasyon çalışmasında hareketler belirlenirken sonraki adımlar düşünülerek istasyonun başlangıcında kolay, ilerledikçe zorluk seviyesi artan hareketler seçilmesi, her hareket grubunun kullanılması ve hareketlerin uyum içinde olması gerektiği vurgulanır. Grupların oluşturduğu özgün çalışmalarını sergilemesi sağlanır. Öğrencilerin çalışmalarda aktif rol alması sağlanarak grup iletişimine katılması beklenir (D3.4, SDB2.2, SDB2.1). Yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması sağlanır (D13.2). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine, kişisel ve ortak alanların temizliğine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D8.4, D18.1, D18.2, D8.4). Öğrencilere istasyon çalışmalarını uygulayabilecekleri performans görevi verilebilir. Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.4.1.",
+          "kazanim": "5 Öğrencilerle beslenme piramidi görseli paylaşılarak piramit hakkında bilgi verilir. Beslenme piramidinden yararlanarak öğrencilerden kendi beslenmeleri ile ilgili düşüncelerini paylaşmaları istenir (SDB2.1). Ardından tartışma yöntemleri kullanılarak öğrencilerin derinlemesine düşünmesi ve sağlıklı beslenmenin önemi ile ilgili düşüncelerini paylaşması sağlanır (SDB3.3). Öğrencilerden sağlıklı ve sağlıksız besinleri ayırt ederek sağlıklı besinleri tercih etmesi beklenir (E3.10, D13.1). Yapılan çalışmalar çalışma kâğıdı kullanılarak değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.4.2.2.",
+          "kazanim": "Dinlediği ve söylediği müziklere ritim çalgıları ile eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği veya söylediği müziklere nasıl eşlik edebileceği ile ilgili amacını belirler.",
+            "b) Dinlediği veya söylediği müziklere eşlik ederken kullanacağı ritim çalgıları ve ritim kalıplarını seçer.",
+            "c) Seçtiği ritim çalgıları ve ritim kalıpları ile müziklere eşlik ederek bir ürün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.4.2.3.",
+          "kazanim": "Farklı ritmik yapıdaki ezgilere uygun hareket oluşturabilme",
+          "alt_kazanimlar": [
+            "a) 5/8’lik ezgilere uygun hareketler belirler.",
+            "b) 5/8’lik ezgilere uygun hareketler seçer.",
+            "c) 5/8’lik ezgiler için seçtiği hareketleri sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.4.2.4.",
+          "kazanim": "Müziklerdeki aynı ve farklı söz kümelerini harekete dönüştürebilme",
+          "alt_kazanimlar": [
+            "a) Müziklerdeki aynı ve farklı söz kümelerini belirler.",
+            "b) Müziklerdeki aynı ve farklı söz kümelerinde kullanacağı hareketleri seçer.",
+            "c) Seçtiği hareketleri sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.4.2.5.",
+          "kazanim": "Müziklerde yer alan aynı ve farklı ezgi cümlelerini dansa dönüştürebilme",
+          "alt_kazanimlar": [
+            "a) Müziklerdeki aynı ve farklı ezgi cümlelerinin ezgisel yapısına uygun hareketler belirler.",
+            "b) Müziklerdeki aynı ve farklı ezgi cümlelerinin ezgisel yapısına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.4.2.",
+          "kazanim": "2 Öğrencilere dinlediği ve söylediği müziklere eşlik etmekteki amaçlarının ne olduğu sorularak ön bilgilerin gözden geçirilmesi sağlanır. Dinlenen ve söylenen müziklere ritim çalgılarıyla eşlik etmenin ritim duygusunu geliştirmek için önemli olduğu vurgulanır. Öğrencilere 5/8’lik aksak ritimli müzikler dinletilerek öğrencilerin müziklere odaklanması ve müziklerin ritminin algılanması sağlanır (E3.2). Öğrencilerin müziklerin ritmine uygun ritim kalıbı oluşturmaları ve oluşturulan ritim kalıbını seslendireceği ritim çalgısını seçerek dinlenen müziklere eşlik etmesi sağlanır (D3.4, SDB2.1). Öğrencilerden daha önce öğrendiği 5/8’lik aksak ritimli bir şarkı veya türküyü seslendirirken 5/8’lik şarkı veya türküye kendi oluşturduğu ritim kalıbı ve seçtiği ritim çalgısı ile eşlik etmesi istenir (E3.3). Bu çalışmalar her seferinde farklı ritim kalıpları ve ritim çalgıları ile yeni yorumlar katılarak tekrarlanabilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.4.2.",
+          "kazanim": "3 Öğrencilere 5/8’lik şarkı ve türküler dinletilir. Öğrencilerin gruplara ayrılarak bu şarkı veya türkülerden birini seçmesi ve iş birliği içinde şarkının ritmik yapısına uygun hareketler belirlemeleri istenir (SDB2.2). Ardından belirledikleri hareketlerden şarkı veya türküye uygun olanları seçmeleri beklenir. Grupların seçtikleri hareketleri seçtikleri şarkı veya türkü eşliğinde sergileyecekleri ortamlar oluşturulur (OB9). Öğrencilerin grup içi etkinliklerde sorumluluklarını yerine getirmesi beklenir (D3.4). Hazırlanan çalışmalar belirli gün ve haftalarla ilgili etkinliklerde de sergilenebilir. Performanslar sergilenirken şarkının konusuna ve duygusuna uygun kostüm ve dekordan faydalanılması sağlanır. Öğrencilere farklı ritmik yapıdaki şarkı ve türkülere uygun hareketler oluşturabileceği performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.4.2.",
+          "kazanim": "4 Öğrencilerden dijital kaynakları kullanarak içinde aynı ve farklı söz kümeleri bulunan şarkı ya da türküler bulmaları istenir (OB2). Öğrencilerin buldukları şarkı veya türkülerden birini seçerek şarkı ya da türküdeki aynı ve farklı söz kümelerini belirlemeleri sağlanır. Öğrencilerden belirledikleri her söz kümesi için hareket oluşturmaları istenir (E3.3). Öğrencilere şarkıdaki aynı söz kümelerinde aynı, farklı söz kümelerinde ise farklı hareketlerin yapılması gerektiği hatırlatılır. Öğrencilere dinledikleri müziklerdeki sözlerin anlamına dikkat etmeleri, hareketleri düşünürken sözlerdeki anlamı da pekiştirecek şekilde hareket oluşturabilecekleri vurgulanır (SDB1.1). Öğrencilerin hazırladıkları çalışmalarını sergileyecekleri ortamlar oluşturulur (OB9). Hazırlanan çalışmalar belirli gün ve haftalarla ilgili etkinliklerde de sergilenebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.4.2.",
+          "kazanim": "5 Öğrencilere aynı ve farklı ezgi cümlelerinden oluşan iki veya üç bölümlü şarkılar dinletilir. Öğrencilerin şarkılardaki farklı bölümleri odaklanarak belirlemeleri ve belirledikleri şarkı bölümlerine uygun hareket oluşturmaları istenir (E3.2, E3.3). Öğrencilere hareket oluştururken tekrar eden ezgi cümlelerine aynı, farklı ezgi cümlelerine farklı hareketler oluşturmaları gerektiği hatırlatılır. Tekrar eden ezgi cümleleri için basit ama etkili hareketler seçilir. Farklı ezgi cümlelerinde dansın akışını zenginleştirmek için farklı hareketler kullanılmalıdır. Öğrencilere dinledikleri şarkının anlamını düşünmeleri, şarkılara hareket oluştururken jest ve mimiklerini kullanmalarının şarkının anlatımını kuvvetlendirebileceği hatırlatılır. Öğrencilerin hazırladıkları çalışmaları sergileyebilecekleri ortamlar oluşturulur. Çalışmalar sergilenirken şarkının konusuna ve duygusuna uygun kostüm ve dekordan yararlanılması sağlanır (SDB2.2, OB9). Materyallerden yararlanarak performans sergilemenin özgün üretkenliğe katkıda bulunduğu vurgulanır (D7.2). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.4.3.2.",
+          "kazanim": "Oyun ve fiziksel etkinliklerde ekip çalışmasının önemini açıklayabilme"
+        },
+        {
+          "kod": "BOM.4.3.3.",
+          "kazanim": "Kurallı takım oyunları oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı oyunu ve kuralları belirler.",
+            "b) Oyunun amacı ve kuralları arasında ilişki kurar.",
+            "c) Basit kurallı oyun oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.4.3.4.",
+          "kazanim": "Müzikli geleneksel çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.4.3.",
+          "kazanim": "2 Öğrenciler iki gruba ayrılır (SDB2.2). Öğrencilerden daha önce oynadıkları bir oyunu oynamaları istenir (E2.5). Grupların kendi görev paylaşımlarını yapmaları sağlanır. Öğrencilerden bulundukları gruplardaki görev ve sorumluluklarını yerine getirerek ekiplerine katkı sağlamaları beklenir (D16.3, D3.4). Öğrencilere oyun içinde iş birliği yapmanın başarıya ulaşmadaki önemi hatırlatılır (D20.4, SDB2.2). Öğrencilerden grup oyunlarında birbirleriyle yardımlaşması beklenir (D20.2). Öğrencilere grup çalışmaları sırasında ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri, saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (D10.3, D20.3). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.4.3.",
+          "kazanim": "3 Öğrencilerin gruplara ayrılmaları istenir (SDB2.2). Öğrencilerin tartışma yöntemlerini kullanarak oluşturulacak oyunun türüne (strateji, beceri, hız gibi özellikler gerektiren oyunlar) karar vermeleri sağlanır (E3.10, D3.4). Oyunun türü belirlenirken oyun alanının (açık hava, sınıf, spor salonu vb.) ve kullanılacak malzemenin düşünülmesi gerektiği vurgulanır. Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları gerektiği hatırlatılır (D17.3). Oyun türü belirlendikten sonra oyunun amacı, oyunda kaç takım olacağı, takımların kaç kişiden oluşacağı ve oyunun kurallarının belirlenmesi istenir. Öğrencilere oyunun amacı ve kuralları arasında bir ilişki olması gerektiği hatırlatılır. Gruplardan oluşturdukları oyunu belirledikleri kurallara ve amaca uygun şekilde oynamaları istenir. Öğrencilerden oyunun kuralları ve amacı arasında bir ilişki olup olmadığını tartışma tekniklerini kullanarak değerlendirmeleri beklenir (E3.6). Değerlendirmelerin ardından uygun olmayan kuralların düzeltilerek oyunun tekrar oynanması sağlanır. Öğrencilerin çalışmalarda aktif rol alması sağlanarak grupla çalışma becerilerini geliştirmeleri beklenir (D3.4). Öğrencilere kurallaı takım oyunu oluşturma ile ilgili performans görevi verilebilir. Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.4.3.",
+          "kazanim": "4 Müzikli geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından müzikli oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynanırken nezaketli, dürüst, hakkaniyetli davranmaları, bedensel ve mekânsal mahremiyetlerine dikkat etmeleri, başkalarını rahatsız edecek davranışlarda bulunmamaları, kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, BEDEN EĞİTİMİ, D6.2, D1.2, BEOSAB8, D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu, grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.4.4.2.",
+          "kazanim": "Teke yöresi geleneksel giyim kuşam özelliklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.4.4.3.",
+          "kazanim": "Teke yöresi halk oyunları müziklerinin özelliklerini fark edebilme",
+          "alt_kazanimlar": [
+            "a) Teke yöresi halk oyunları müziklerinin müziksel bileşenlerini tanır.",
+            "b) Teke yöresi halk oyunları müziklerinin müziksel bileşenlerini ayırt eder.",
+            "c) Teke yöresi halk oyunları müziklerinin müziksel bileşenlerini açıklar."
+          ]
+        },
+        {
+          "kod": "BOM.4.4.4.",
+          "kazanim": "Teke yöresi halk oyunları adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Teke yöresi halk oyunlarının ritmik yapısına uygun hareketler belirler.",
+            "b) Teke yöresi halk oyunlarını ritimsel ve ezgisel yapısına uygun olarak sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.4.4.",
+          "kazanim": "2 Teke yöresi geleneksel giyim kuşamı görsel ve dijital materyaller kullanılarak tanıtılır. Teke yöresi halk oyunları geleneksel giyim kuşam parçaları gösterilerek parçaların yöresel isimleri üzerinde durulur. Öğrencilerden dijital kaynaklardan yararlanarak Teke yöresi geleneksel giyim kuşam parçalarının tanıtıldığı afiş, bilgi görseli gibi çalışmalar hazırlaması istenebilir (OB2). Öğrencilere Teke yöresi oyunlarının geleneksel giyim kuşamı ile ilgili performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.4.4.",
+          "kazanim": "3 Öğrencilere Teke yöresi oyunlarının müzikleri dijital kaynaklardan dinletilir. Öğrencilerin dinletilen müziklerin ritimsel ögelerini ve müziklerde kullanılan çalgıları tanıması sağlanır (OB1). Öğrencilerden farklı Teke yöresi oyunlarının müziklerini odaklanarak dinlemesi ve müziksel bileşenlerini (kullanılan çalgılar, usul, hız vb.) ayırt etmesi beklenir (E3.2). Farklı türlerden halk oyunları müzikleri dinletilerek Teke yöresi oyunlarının müziklerini ayırt etmesi sağlanır. Öğrencilerin dinledikleri müziklerden hangilerinin Teke yöresine ait olduğunu söylemesi istenir. Etkinlikler oyunlaştırılarak da verilebilir (E2.5). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.4.4.",
+          "kazanim": "4 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak Teke yöresi oyunları ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Teke yöresi oyunlarından “çek deveci develeri”, “yayla yolları”, “Teke zortlatması” müziğiyle sergilenerek öğrencilerin adımlardaki ritmik yapıyı fark etmesi sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Teke yöresi oyunları uygulanırken adımlara jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergileyerek çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilere ekip çalışmalarında iş birlikli, ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri, saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanır (SDB1.3). Öğrencilere Teke yöresi oyunlarını sergileyebilecekleri performans görevi verilebilir. BEDEN EĞİTİMİ,"
+        }
+      ]
+    },
+    {
+      "sinif": 5,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.5.1.",
+          "kazanim": "Hareketli Yaşam, Sağlıklı Gelecek"
+        },
+        {
+          "kod": "BOM.5.2.",
+          "kazanim": "Farklı Ritimler"
+        },
+        {
+          "kod": "BOM.5.3.",
+          "kazanim": "T akım Ol, Adil Oyna"
+        },
+        {
+          "kod": "BOM.5.4.",
+          "kazanim": "Horon BOM.6.4. Horon BOM.7.4. Zeybek BOM.8.4. Zeybek BEDEN EĞİTİMİ, 3. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. HAREKET ET, SAĞLIKLI BESLEN 6 34 20 2. DUYGULARIMI RİTİMLE ANLATIYORUM 6 56 31 3. BİRLİKTE OYUN OYNAYALIM 4 44 24 4. KARŞILAMA OYUNLARI ÖĞRENİYORUM 6 38 21 OKUL TEMELLİ PLANLAMA* - 8 5 TOPLAM 22 180 100 ders saatleri ve yüzdeleri verilmiştir. 1. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. HAREKET EDİYORUM, SAĞLIĞIMI KORUYORUM 8 34 19 2. RİTİMLE HAREKET EDİYORUM 5 56 31 3. MÜZİKLİ OYUNLAR OYNUYORUM 4 44 24 4. HALAY ÖĞRENİYORUM 4 38 21 OKUL TEMELLİ PLANLAMA* - 8 5 TOPLAM 21 180 100 * Zümre öğretmenler kurulu tarafından ders kapsamında yapılması kararlaştırılan; okul dışı öğrenme etkinlikleri, araştırma ve gözlem, sosyal etkinlikler, proje çalışmaları, yerel çalışmalar, okuma çalışmaları vb. çalışmalar için ayrılan süredir. Çalışmalar için ayrılan süre eğitim öğretim yılı içinde planlanır ve yıllık planlarda ifade edilir. 2. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. SAĞLIĞIM İÇİN HAREKET EDİYORUM 8 34 20 2. RİTMİK HAREKET EDİYORUM 6 56 31 3. OYUN OYNUYORUM 3 44 24 4. KAŞIK OYUNLARI ÖĞRENİYORUM 4 38 21 OKUL TEMELLİ PLANLAMA* - 8 5 TOPLAM 21 180 100 BEDEN EĞİTİMİ, * Zümre öğretmenler kurulu tarafından ders kapsamında yapılması kararlaştırılan; okul dışı öğrenme etkinlikleri, araştırma ve gözlem, sosyal etkinlikler, proje çalışmaları, yerel çalışmalar, okuma çalışmaları vb. çalışmalar için ayrılan süredir. Çalışmalar için ayrılan süre eğitim öğretim yılı içinde planlanır ve yıllık planlarda ifade edilir. 4. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. HAREKET ET, SAĞLIKLI KAL 5 16 22 2. FARKLI RİTİMLERLE HAREKET EDİYORUM 5 12 17 3. GÜVENELİM, OYNAYALIM 4 22 31 4. TEKE YÖRESİ OYUNLARINI ÖĞRENİYORUM 4 18 25 OKUL TEMELLİ PLANLAMA* - 4 5 TOPLAM 18 72 100 6. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. SAĞLIKLI ADIMLAR 3 7 19 2. RİTİMLERLE DANS 3 6 17 3. TAKIM LİDERLİĞİ 3 9 25 4. HORON 2 11 31 OKUL TEMELLİ PLANLAMA* - 3 8 TOPLAM 11 36 100 5. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. HAREKETLİ YAŞAM, SAĞLIKLI GELECEK 3 7 19 2. FARKLI RİTİMLER 4 6 17 3. TAKIM OL, ADİL OYNA 3 9 25 4. HORON 4 11 31 OKUL TEMELLİ PLANLAMA* - 3 8 TOPLAM 14 36 100 BEDEN EĞİTİMİ, 8. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. HAREKET VE MOTİVASYON 4 14 19 2. RİTİM, DANS VE KOREOGRAFİ 3 14 19 3. OYUNLARDA TAKTİK VE STRATEJİ 3 18 25 4. ZEYBEK 2 22 32 OKUL TEMELLİ PLANLAMA* - 4 5 TOPLAM 12 72 100 7. SINIF BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ TEMA Öğrenme Çıktıları Sayısı Süre Ders Saati Yüzde Oranı (%) 1. HAREKET ET 3 7 19 2. RİTİM VE DANS 3 6 17 3. TAKIM OYUNLARI 3 9 25 4. ZEYBEK 4 11 31 OKUL TEMELLİ PLANLAMA* - 3 8 TOPLAM 13 36 100 * Zümre öğretmenler kurulu tarafından ders kapsamında yapılması kararlaştırılan; okul dışı öğrenme etkinlikleri, araştırma ve gözlem, sosyal etkinlikler, proje çalışmaları, yerel çalışmalar, okuma çalışmaları vb. çalışmalar için ayrılan süredir. Çalışmalar için ayrılan süre eğitim öğretim yılı içinde planlanır ve yıllık planlarda ifade edilir. BEDEN EĞİTİMİ, 1.4. BEDEN EĞİTİMİ, OYUN VE MÜZİK DERSİ KİTAP FORMA SAYILARI VE EBATLARI DERS KİTABI FORMA SAYILARI KİTAP EBADI Beden Eğitimi, Oyun ve Müzik Dersi 1. Sınıf 10-12 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 2. Sınıf 8-10 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 3. Sınıf 8-10 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 4. Sınıf 7-9 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 5. Sınıf 6-8 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 6. Sınıf 6-8 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 7. Sınıf 6-8 19,5 cm x 27,5 cm Beden Eğitimi, Oyun ve Müzik Dersi 8. Sınıf 7-9 19,5 cm x 27,5 cm BEDEN EĞİTİMİ, 1.5. BEDEN EĞİTİMİ, ’NIN YAPISI 1. TEMA: HAREKET EDİYORUM, SAĞLIĞIMI KORUYORUM Temada öğrencilerin ısınma ve hazırlık çalışmaları ile nefes çalışmaları yapabilmeleri, kişisel ve genel alanlarını çözümleyebilmeleri, yer değiştirme ve dengeleme hareketleri ile nesne kontrolü gerektiren hareketleri yapabilmeleri, fiziksel etkinlikler sırasında vücutlarında meydana gelen değişiklikleri gözlemleyebilmeleri, dengeli ve düzenli beslenmenin önemini açıklayabilmeleri amaçlanmaktadır."
+        },
+        {
+          "kod": "BOM.5.1.2.",
+          "kazanim": "Dönüş hareketlerini sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Dönüş hareketlerini algılar.",
+            "b) Dönüş hareketlerinin basamaklarını gösterir.",
+            "c) Dönüş hareketlerini uygular."
+          ]
+        },
+        {
+          "kod": "BOM.5.1.3.",
+          "kazanim": "Öğrendiği hareketleri bir araya getirerek özgün bir bütün oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Öğrendiği temel hareketleri belirler.",
+            "b) Hareketler arasında ilişki kurar.",
+            "c) Hareketleri birleştirerek özgün bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.5.1.",
+          "kazanim": "2 Dönüş hareketlerine (sağdan ve soldan tam tur dönüş, sağdan ve soldan yarım tur dönüş, sağdan ve soldan çeyrek tur dönüş) merak uyandırıcı ve ilgi çekici biçimde örnekler verilir (E1.1). Öğrencilerin hareketleri odaklanarak algılaması beklenir (E3.2). Görsel ve dijital materyallerden yararlanarak örnekler çoğaltılır (OB2). Öğrencilerden gözlemlediği dönüş hareketlerinin basamaklarını göstermesi istenir. Öğrencilerden öğrendikleri hareketleri müzik eşliğinde uygulaması beklenir (OB9). Öğrencilerin çalışmalarda aktif rol alması, yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması sağlanır (D3.4, D13.2). Öğrencilerin bu konuda motivasyon geliştirmesi beklenir (D16.3). Öğrencilere dönüş hareketleri ile ilgili performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.5.1.",
+          "kazanim": "3 Öğrencilere istasyon çalışmaları hakkındaki bilgiler hatırlatılır. Öğrencilerin yer değiştirme ve dengeleme hareketleri ile nesne kontrolü gerektiren hareketleri hatırlamaları sağlanır. Öğrencilerden deneyimlerinden yola çıkarak bu hareketleri tekrar etmeleri istenir. Öğrenciler gruplara ayrılır. Her grubun yapacağı istasyon çalışmasında kullanacağı hareketleri belirlemesi beklenir. Öğrencilere istasyon çalışmasında hareketler belirlenirken sonraki adımlar düşünülerek istasyonun başlangıcında kolay, ilerledikçe zorluk seviyesi artan hareketler seçilmesi, her hareket grubunun kullanılması ve hareketlerin uyum ve ahenk içinde olması gerektiği vurgulanır. Grupların oluşturduğu özgün çalışmalarını sergilemesi sağlanır. Öğrencilerin çalışmalarda aktif rol almaları sağlanarak grup iletişimine katılmaları beklenir (D3.4, SDB2.2, SDB2.1). Öğrencilerin yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılmaları sağlanır (D13.2). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine, kişisel ve ortak alanların temizliğine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda BEDEN EĞİTİMİ, bulunmamaları gerektiği hatırlatılır (D17.3, D18.1, D18.2, D8.4). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.5.2.2.",
+          "kazanim": "Dinlediği ve söylediği müziklere ritim çalgıları ile eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Dinlediği ve söylediği müziklerin vuruşlarını belirler.",
+            "b) Dinlediği ve söylediği müziklere eşlik edeceği ritim kalıbını seçer.",
+            "c) Seçtiği ritim kalıbıyla dinlediği ve söylediği müziklere ritim çalgılarıyla eşlik eder."
+          ]
+        },
+        {
+          "kod": "BOM.5.2.3.",
+          "kazanim": "Farklı ritmik yapıdaki ezgilere uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) 5/8’lik ezgilere uygun hareketler belirler.",
+            "b) 5/8’lik yapıdaki ezgilere uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.5.2.4.",
+          "kazanim": "Şarkı veya türkülerdeki farklı bölümleri dansa dönüştürebilme",
+          "alt_kazanimlar": [
+            "a) Şarkı veya türkülerdeki farklı bölümleri belirler.",
+            "b) Şarkı veya türkülerdeki bölümlere uygun hareketler seçer.",
+            "c) Hazırladığı dansı sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.5.2.",
+          "kazanim": "2 Öğrencilere 5/8’lik şarkı veya türküler dinletilir. Öğrencilerin 5/8’lik şarkı veya türkülere alkışla eşlik etmesi istenerek müziklerin vuruşlarını odaklanarak belirlemesi sağlanır (E3.2). Öğrencilerden 5/8’lik bir şarkı veya türkü seçmesi ve bu şarkı veya türküye uygun ritim kalıpları oluşturması istenir (E3.3). Öğrencilerin oluşturdukları ritim kalıplarından birini seçmesi sağlanır. Öğrencilere şarkılara ritim çalgılarıyla eşlik ederken bazı vuruşların kuvvetli, bazı vuruşların hafif yapılmasının anlatımı kuvvetlendirebileceği hatırlatılır. Öğrencilerden yapılacak çalışma için bir ritim çalgısı seçmesi istenir. Öğrencilerin seçtikleri 5/8’lik şarkı veya türküyü söylerken seçtikleri ritim çalgısı ve ritim kalıbıyla şarkı veya türküye eşlik etmesi beklenir. Öğrencilerin hazırladıkları çalışmaları sergileyebilecekleri ortamlar oluşturulur. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.5.2.",
+          "kazanim": "3 Öğrencilerin dijital kaynaklardan yararlanarak daha önce öğrendikleri 5/8’lik şarkı veya türküleri listelemeleri sağlanır (OB2). Öğrencilerin gruplara ayrılması istenir. Grupların 5/8’lik şarkı veya türkülerden birini seçmesi beklenir. Bu çalışmalar grup etkinlikleri şeklinde yaptırılarak öğrencilerin grup iletişimine katılması, yeni fikir ve önerilere açık olması, görev bilincine sahip olması ve girişkenliğini arttırması sağlanır (SDB2.1, E3.5, D16.3, E2.3). Seçilen şarkı veya türkünün içselleştirilmesi ve 3 zamanlı vuruşlarının belirlenmesi için farklı etkinlikler yapılır. Öğrencilere 3 zamanlı vuruşlarda daha büyük ve akıcı, 2 zamanlı vuruşlarda ise daha kısa ve hızlı hareketler seçebilecekleri bilgisi verilir (OB1). Gruplardan iş birliği içinde seçtikleri şarkı veya türküye uygun hareketler belirlemeleri istenir (E3.3). Gruplara seçtikleri şarkı veya türküye uygun hareketler belirlerken jest ve mimiklerini kullanmanın anlatımı kuvvetlendirebileceği hatırlatılır. Grupların seçilen şarkı veya türküye hareket oluştururken jest ve mimiklerini de BEDEN EĞİTİMİ, kullanmaları beklenir. Grupların hazırladıkları çalışmaları sergilemeleri sağlanır. Çalışmalar sergilenirken şarkının konusuna ve duygusuna uygun kostüm ve dekordan yararlanılması istenir (SDB2.2, OB9). Öğrencilere farklı ritmik yapıdaki şarkı ve türkülere uygun hareketler oluşturabilecekleri performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.5.2.",
+          "kazanim": "4 Öğrencilerin daha önce öğrendikleri 2 ya da 3 bölümlü şarkı veya türkülerden birini seçmeleri istenir. Şarkı veya türkünün bölümlerinin belirlenmesine yönelik soru cevap tekniği kullanılır (E3.6). Şarkı veya türkünün bölümleri belirlenirken şarkı veya türkünün duygusuna ve ritmik yapısına uygun hareketler seçilmesi gerektiği hatırlatılır. Örneğin yavaş hızdaki bölümlerde daha ağır, çabuk hızdaki bölümlerde daha enerjik hareketler tercih edilmelidir. Öğrencilere bu şarkı veya türküyle bir grup etkinliği yapacakları söylenir (SDB2.1, D3.4). Oluşturulan grupların iş birliği içinde çalışması sağlanır (SDB2.1). Öğrencilere grup çalışmaları sırasında ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri, saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (D10.3, D20.3). Şarkı veya türküdeki bölümler için seçecekleri hareketlere birlikte karar verileceği vurgulanır. Öğrencilerin şarkı veya türküdeki bölümlerin duygusuna ve ritmik yapısına uygun hareketler seçmesi sağlanır. Öğrencilerin sınıf etkinliği olarak hazırladıkları dans çalışmalarını belirli gün ve haftalar ile ilgili etkinliklerde sunmaları istenir (OB9). Çalışmalar sergilenirken şarkının konusuna ve duygusuna uygun kostüm ve dekordan yararlanılması sağlanır (SDB2.2, OB9). Materyallerden yararlanarak performans sergilemenin özgün üretkenliğe katkıda bulunduğu vurgulanır (D7.2). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilere müziklerdeki farklı bölümleri dansa dönüştürebileceği çalışmalar için performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.5.3.2.",
+          "kazanim": "Kurallı takım oyunları oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı oyunu ve kuralları belirler.",
+            "b) Oyunun amacı ve kuralları arasında ilişki kurar.",
+            "c) Kurallı oyun oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.5.3.3.",
+          "kazanim": "Geleneksel çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.5.3.",
+          "kazanim": "2 Öğrencilerden tartışma yöntemlerini kullanarak oluşturulacak oyunun türüne (strateji, beceri, hız gibi özellikler gerektiren oyunlar) karar vermeleri istenir (E3.6, KB2.18). Oyunun türü belirlenirken oyun alanının (açık hava, sınıf, spor salonu vb.) ve kullanılacak malzemenin düşünülmesi gerektiği vurgulanır. Oyun türü belirlendikten sonra öğrencilerden oyunun amacı, oyunda kaç takım olacağı, takımların kaç kişiden oluşacağı ve oyunun kurallarının belirlenmesi istenir. Öğrencilere oyunun amacı ve kuralları arasında bir ilişki olması gerektiği hatırlatılır. Öğrencilerden oluşturdukları oyunu belirledikleri kurallara ve amaca uygun şekilde oynamaları istenir (E2.5). Öğrencilerden oyunun kuralları ve amacı arasında bir ilişki olup olmadığını tartışma teknikleri kullanılarak değerlendirmeleri beklenir (E3.6). Değerlendirmelerin ardından uygun olmayan kuralların düzeltilerek oyunun tekrar oynanması sağlanır. Öğrencilere çalışma yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D8.4). Öğrencilere kurallı takım oyunları oluşturmalarına yönelik performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.5.3.",
+          "kazanim": "3 Öğrencilere geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından sınıf seviyesine uygun oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynanırken nezaketli, dürüst, hakkaniyetli davranmaları, başkalarını rahatsız edecek davranışlarda bulunmamaları, kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu, grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.5.4.2.",
+          "kazanim": "Halk oyunları türlerinden horonun geleneksel giyim kuşam özelliklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.5.4.3.",
+          "kazanim": "Horon oyunları müziklerinin özelliklerini ayırt edebilme",
+          "alt_kazanimlar": [
+            "a) Horon oyunları müziklerinin müziksel bileşenlerini fark eder.",
+            "b) Horon oyunları müziklerinin müziksel bileşenlerini ayırt eder.",
+            "c) Horon oyunları müziklerinin müziksel bileşenlerini açıklar."
+          ]
+        },
+        {
+          "kod": "BOM.5.4.4.",
+          "kazanim": "Horon oyunlarının adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Horon oyunlarının ritmik yapısına uygun hareketler belirler.",
+            "b) Horon oyunlarını ritimsel ve ezgisel yapısına uygun sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.5.4.",
+          "kazanim": "2 Halk oyunları türlerinden horonun geleneksel giyim kuşamı görsel ve dijital materyaller kullanılarak tanıtılır. Horonun geleneksel giyim kuşam parçaları gösterilerek parçaların yöresel isimleri üzerinde durulur. Öğrencilerden dijital kaynaklardan yararlanarak horon oyunları geleneksel giyim kuşam parçalarının tanıtıldığı afiş, bilgi görseli gibi çalışmalar hazırlaması istenebilir (OB2). Öğrencilere horonun geleneksel giyim kuşamı ile ilgili performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.5.4.",
+          "kazanim": "3 Öğrencilere horon müzikleri dijital kaynaklardan yararlanarak dinletilir (OB2). Öğrencilerin dinletilen müziklerin ritimsel ögelerini ve müziklerde kullanılan çalgıları tanıması sağlanır (OB1). Ardından farklı horon müziklerini odaklanarak dinlemesi ve müziksel bileşenlerini (kullanılan çalgılar, usul, hız vb.) ayırt etmesi beklenir (E3.2). Farklı türlerden halk oyunları müzikleri dinletilerek horon müziklerini ayırt etmesi istenir. Öğrencilerin dinledikleri müziklerden hangilerinin horon müziği olduğunu söylemesi beklenir. Etkinlikler oyunlaştırılarak da verilebilir (E2.5). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.5.4.",
+          "kazanim": "4 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak horon oyunları ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Horon oyunlarından “düz horon” ve “horon kurma” oyunları müziğiyle sergilenerek horon oyunlarının adımlarındaki ritmik yapıyı fark etmesi sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Horon oyunları uygulanırken jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergileyerek çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilerin ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları; ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri; saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanır (SDB1.3). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. Öğrencilere öğrendikleri horon oyunlarını sergileyebilecekleri performans görevi verilebilir. BEDEN EĞİTİMİ,"
+        }
+      ]
+    },
+    {
+      "sinif": 6,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.6.1.",
+          "kazanim": "Sağlıklı Adımlar"
+        },
+        {
+          "kod": "BOM.6.2.",
+          "kazanim": "Ritimlerle Dans"
+        },
+        {
+          "kod": "BOM.6.3.",
+          "kazanim": "T akım Liderliği"
+        },
+        {
+          "kod": "BOM.6.1.2.",
+          "kazanim": "Halk oyunlarında kullanılan temel hareketleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Halk oyunlarında kullanılan temel hareketleri gözlemleyerek belirler.",
+            "b) Halk oyunlarında kullanılan temel hareketlerin nasıl yapıldığı ile ilgili veri toplar.",
+            "c) Halk oyunlarında kullanılan temel hareketlerin nasıl yapıldığını kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.6.1.3.",
+          "kazanim": "Öğrendiği hareketleri bir araya getirerek özgün bir bütün oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Öğrendiği temel hareketleri belirler.",
+            "b) Hareketler arasında ilişki kurar.",
+            "c) Hareketleri birleştirerek özgün bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.6.1.",
+          "kazanim": "2 Halk oyunlarında kullanılan yaylanma, topuk koyma, bel kırma ve omuz sallama gibi hareketlere merak uyandıracak şekilde örnek verilir (E1.1). Örneklendirme görsel ve dijital kaynaklar kullanılarak da yapılabilir. Öğrencilerin odaklanarak hareketleri gözlemlemesi istenir (E3.2). Öğrencilerden hareketlere eşlik ederek hareketlerin nasıl yapıldığına dair veri toplaması beklenir (OB1). Öğrencilere öğrenilen hareketler uygulatılarak hareketlerin kaydedilmesi sağlanır (OB9). Bu çalışmalarla öğrencilerin kültürel zenginlikleri fark etmesi beklenir (D19.2). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.6.1.",
+          "kazanim": "3 Öğrencilere istasyon çalışmaları hakkındaki bilgiler hatırlatılır. Öğrencilerin yer değiştirme ve dengeleme hareketleri ile nesne kontrolü gerektiren hareketleri hatırlamaları sağlanır. Deneyimlerinden yola çıkarak bu hareketleri tekrar etmeleri istenir. Öğrenciler gruplara ayrılır. Her grup bir müzik seçer ve bu müzik eşliğinde yapacağı istasyon çalışmasında kullanacağı hareketleri belirler. Öğrencilere istasyon çalışmasında hareketler belirlenirken sonraki adımlar düşünülerek istasyonun başlangıcında kolay, ilerledikçe zorluk seviyesi artan hareketler seçilmesi, her hareket grubunun kullanılması ve hareketlerin uyum ve ahenk içinde olması gerektiği vurgulanır (SDB3.2). Grupların oluşturduğu özgün çalışmalarını müzik eşliğinde sergilemesi sağlanır (D3.4). Öğrencilerin çalışmalarda aktif rol alması ve grup iletişimine katılması, aldığı görevleri yerine getirirken özverili davranması beklenir (D3.4, SDB2.2, SDB2.1, D16.3). Öğrencilerin yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması sağlanır (D13.2). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine, BEDEN EĞİTİMİ, kişisel ve ortak alanların temizliğine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D8.4, D18.1, D18.2, D8.4). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.6.2.2.",
+          "kazanim": "Farklı ritmik yapıdaki ezgilere uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) 6/8’lik ve 7/8’lik ezgilere uygun hareketler belirler.",
+            "b) 6/8’lik ve 7/8’lik ezgilere uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.6.2.3.",
+          "kazanim": "Müziklerdeki farklı bölümleri dansa dönüştürebilme",
+          "alt_kazanimlar": [
+            "a) Şarkı veya türkülerdeki farklı bölümleri belirler.",
+            "b) Şarkı veya türkülerdeki bölümlere uygun hareketler seçer.",
+            "c) Seçtiği hareketlerle hazırladığı dansı sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.6.2.",
+          "kazanim": "2 Öğrencilerin dijital kaynaklardan yararlanarak daha önce öğrendikleri 6/8’lik şarkı veya türküleri listelemeleri sağlanır (OB2). Öğrencilerin gruplara ayrılması istenir (SDB2.2). Grupların 6/8’lik şarkı veya türkülerden birini seçmesi beklenir. Seçilen şarkı veya türkünün içselleştirilmesi ve 3 zamanlı vuruşlarının belirlenmesi için farklı etkinlikler yapılabilir (ilk 3 zamanlı vuruşta sıraya vurma, ikinci 3 zamanlı vuruşta göğse vurma veya alkış yapma vb.). Gruplardan seçtikleri şarkı veya türküye uygun hareketler belirlemeleri istenir. Gruplara seçtikleri şarkı veya türküye uygun hareketler belirlerken jest ve mimikleri kullanmanın anlatımı kuvvetlendirebileceği hatırlatılır. Grupların seçilen şarkı veya türküye hareket oluştururken jest ve mimiklerini de kullanmaları beklenir. Grupların hazırladıkları çalışmaları sergilemeleri sağlanır (OB9). Öğrencilere grup çalışmalarında iş birliği içinde çalışmaları gerektiği vurgulanarak tüm öğrencilerin grup iletişimine katılması, yeni fikir ve önerilere açık, görev bilincine sahip olması ve girişkenliğini arttırması sağlanır (SDB2.2, SDB2.1, D3.4, E3.5, D10.1, D16.3, E2.3). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilere farklı ritmik yapıdaki ezgilere uygun hareketler sergileyeceği performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.6.2.",
+          "kazanim": "3 Öğrencilerin daha önce öğrendikleri 2 ya da 3 bölümlü şarkı veya türkülerden birini seçmeleri istenir. Şarkı veya türkünün bölümlerinin belirlenmesinde soru cevap tekniği kullanılır (E3.6). Şarkı veya türkünün bölümleri belirlenirken şarkı veya türkünün duygusuna ve ritmik yapısına uygun hareketler seçilmesi gerektiği hatırlatılır. Örneğin yavaş hızdaki bölümlerde daha ağır, çabuk hızdaki bölümlerde daha enerjik hareketler tercih edilmelidir. Öğrencilerden gruplara ayrılması istenir (SDB2.2). Grupların seçtikleri şarkı veya türkü için oluşturacakları hareketlere iş birliği içinde birlikte karar vermesi gerektiği vurgulanır (SDB2.2). Öğrencilerin şarkı veya türküdeki bölümlerin duygusuna ve ritmik yapısına uygun hareketler seçmesi sağlanır. Grupların hazırladıkları dans çalışmalarını belirli gün ve haftalar ile ilgili etkinliklerde sunmaları istenir (OB9). Yapılan çalışmalar grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilere müziklerdeki farklı bölümleri dansa dönüştürebileceği performans görevi verilebilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.6.3.2.",
+          "kazanim": "Kurallı takım oyunları oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı oyunu ve kuralları belirler.",
+            "b) Oyunun amacı ve kuralları arasında ilişki kurar.",
+            "c) Kurallı oyun oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.6.3.3.",
+          "kazanim": "Geleneksel çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.6.3.",
+          "kazanim": "2 Öğrencilerden tartışma yöntemlerini kullanarak oluşturulacak oyunun türüne (strateji, beceri, hız gibi özellikler gerektiren oyunlar) karar vermeleri istenir (KB2.18, E3.6, SDB3.2). Oyunun türü belirlenirken oyun alanının (açık hava, sınıf, spor salonu vb.) ve kullanılacak malzemenin düşünülmesi gerektiği vurgulanır. Oyun türü belirlendikten sonra oyunun amacı, oyunda kaç takım olacağı, takımların kaç kişiden oluşacağı ve oyunun kurallarının belirlenmesi istenir. Öğrencilere oyunun amacı ve kuralları arasında bir ilişki olması gerektiği hatırlatılır. Öğrencilerden oluşturdukları oyunu belirledikleri kurallara ve amaca uygun şekilde oynamaları istenir (E2.5). Öğrencilerden oyunun kuralları ve amacı arasında bir ilişki olup olmadığını tartışma teknikleri kullanılarak değerlendirmeleri beklenir (E3.9). Değerlendirmelerin ardından uygun olmayan kuralların düzeltilerek oyunun tekrar oynanması sağlanır. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere kurallı takım oyunu oluşturmalarına yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.6.3.",
+          "kazanim": "3 Geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynanırken nezaketli, dürüst, hakkaniyetli davranmaları; bedensel ve mekânsal mahremiyetlerine dikkat etmeleri; başkalarını rahatsız edecek davranışlarda bulunmamaları; kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları; duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu, grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.6.4.2.",
+          "kazanim": "Horon adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Horonun ritmik yapısına uygun hareketler belirler.",
+            "b) Horon oyunlarını ritimsel ve ezgisel yapısına uygun olarak sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.6.4.",
+          "kazanim": "2 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak halk oyunları türlerinden horon ile ilgili edindikleri bilgileri gözden geçirmeleri beklenir (KB2.12). Horon oyunlardan “Atabarı” ve “Hemşin horonu” oyunları müziğiyle sergilenerek horon adımlarındaki ritmik yapıyı fark etmeleri sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Horon oyunları uygulanırken jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergileyerek çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilere ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları, ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri, saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır. Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanabilir (SDB2.2, D10.3, D20.3, SDB1.3). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere öğrendikleri horon oyunlarını sergileyebilecekleri performans görevi verilebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 7,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.7.1.",
+          "kazanim": "Hareket Et BOM.8.1. Hareket ve Motivasyon"
+        },
+        {
+          "kod": "BOM.7.2.",
+          "kazanim": "Ritim ve Dans BOM.8.2. Ritim, Dans ve Koreografi"
+        },
+        {
+          "kod": "BOM.7.3.",
+          "kazanim": "T akım Oyunları"
+        },
+        {
+          "kod": "BOM.7.1.2.",
+          "kazanim": "Halk oyunlarında kullanılan temel hareketleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Halk oyunlarında kullanılan temel hareketleri gözlemleyerek belirler.",
+            "b) Halk oyunlarında kullanılan temel hareketlerin nasıl yapıldığı ile ilgili veri toplar.",
+            "c) Halk oyunlarında kullanılan temel hareketlerin nasıl yapıldığını kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.7.1.3.",
+          "kazanim": "Öğrendiği hareketleri bir araya getirerek özgün bir bütün oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Öğrendiği temel hareketleri belirler.",
+            "b) Hareketler arasında ilişki kurar.",
+            "c) Hareketleri birleştirerek özgün bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.7.1.",
+          "kazanim": "2 Halk oyunlarında kullanılan çökme, diz vurma, diz kırma gibi hareketler merak uyandırıcı şekilde gösterilir (E1.1). Örnek gösterme çalışması görsel ve dijital kaynaklar kullanılarak da yapılabilir. Öğrencilerin hareketleri odaklanarak gözlemlemesi istenir (E3.2). Öğrencilerden hareketlere eşlik ederek hareketlerin nasıl yapıldığına ilişkin veri toplaması beklenir (OB1). Öğrencilere öğrenilen hareketler uygulatılarak hareketlerin kaydedilmesi sağlanır (OB9). Bu çalışmalarla öğrencilerin kültürel zenginlikleri fark etmesi beklenir (D19.2). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.7.1.",
+          "kazanim": "3 Öğrencilerin istasyon çalışmaları hakkındaki bilgileri hatırlamaları için soru cevap tekniği kullanılır. Öğrencilerin yer değiştirme ve dengeleme hareketleri ile nesne kontrolü gerektiren hareketleri hatırlamaları sağlanır. Deneyimlerinden yola çıkarak bu hareketleri tekrar etmeleri istenir. Öğrenciler bir müzik seçer ve bu müzik eşliğinde yapacağı istasyon çalışmasında kullanacağı hareketleri belirler. İstasyon çalışmasında hareketler belirlenirken sonraki adımlar düşünülerek istasyonun başlangıcında kolay, ilerledikçe zorluk seviyesi artan hareketler seçilmesi, her hareket grubunun kullanılması ve hareketlerin uyum içinde olması gerektiği vurgulanır. (SDB3.2). Öğrencilerden istasyon çalışması yapılırken bu bilgilere dikkat ederek hareketler arasında ilişki kurmaları beklenir. Öğrencilerin oluşturduğu özgün çalışmalarını müzik eşliğinde sergilemesi sağlanır (D3.4). Öğrencilerin çalışmalarda aktif rol alması ve grup iletişimine katılması beklenir (D3.4, SDB2.2, SDB2.1). Yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere BEDEN EĞİTİMİ, katılması sağlanır (D13.2). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ve ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine, kişisel ve ortak alanların temizliğine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D18.1, D18.2, D8.4). Öğrencilere istasyon çalışmalarını uygulayabilecekleri performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.7.2.2.",
+          "kazanim": "Farklı ritmik yapıdaki ezgilere uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) 7/8’lik ve 9/8’lik ezgilere uygun hareketler belirler.",
+            "b) 7/8’lik ve 9/8’lik ezgilere uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.7.2.3.",
+          "kazanim": "Seçtiği müzikle uyumlu özgün bir koreografi oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Koreografi oluştururken kullanacağı müziği ve müziğe uygun hareketleri belirler.",
+            "b) Kullanacağı müzik, hareketler ve sahne arasında ilişki kurar.",
+            "c) Kullanacağı müziğe uygun hareketlerle özgün bir koreografi oluşturarak sahneler."
+          ]
+        },
+        {
+          "kod": "BOM.7.2.",
+          "kazanim": "2 Öğrencilerin dijital kaynaklardan yararlanarak daha önce öğrendikleri 7/8’lik ve 9/8’lik şarkı veya türküleri listelemesi sağlanır (OB2). Öğrencilerin gruplara ayrılması istenir (SDB2.2). Grupların 7/8’lik ve 9/8’lik şarkı veya türkülerden birini seçmesi beklenir. Seçilen şarkının veya türkünün içselleştirilmesi ve 3 zamanlı vuruşlarının belirlenmesi için farklı etkinlikler yaptırılır. Gruplardan seçtikleri şarkı ya da türküye uygun hareketler belirlemeleri istenir. Gruplara seçtikleri şarkı veya türküye uygun hareketler belirlerken jest ve mimiklerini kullanmanın anlatımı kuvvetlendirebileceği hatırlatılır. Grupların seçilen şarkı veya türküye hareket oluştururken jest ve mimiklerini de kullanmaları beklenir. Grupların hazırladıkları çalışmaları sergilemeleri sağlanır (OB9). Öğrencilere grup çalışmalarında iş birliği içinde çalışmaları gerektiği vurgulanarak tüm öğrencilerin grup iletişimine katılması, yeni fikir ve önerilere açık olması, görev bilincine sahip olması ve girişkenliğini arttırması sağlanır (SDB2.2, SDB2.1, D3.4, E3.5, D10.1, D16.3, E2.3). Öğrencilere farklı ritmik yapıdaki ezgilere uygun hareketler sergileyeceği performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.7.2.",
+          "kazanim": "3 Öğrencilere dijital kaynaklardan yararlanılarak farklı koreografiler izletilebilir. Öğrencilerin izlediği videoların ardından soru cevap tekniği kullanılarak koreografi ve sahne ile ilgili edindiği bilgileri paylaşması sağlanır. Öğrencilere büyük sahnelerde daha geniş yayılımlar ve büyük adımlar, küçük sahnelerde daha dar yayılımlar ve küçük adımlar kullanılabileceği bilgisi verilir. Öğrencilerin gruplara ayrılması istenir (SDB2.2, D3.4). Grupların koreografilerinde kullanacakları hareketleri ve adımları tartışarak belirlemeleri beklenir (E3.6). Öğrencilerin koreografi oluştururken seçtikleri müzik, müziğe uygun hareketler ve sahnenin genişliği arasında ilişki kurması istenir (E3.10). Koreografi oluşturulurken kullanılacak sahnenin büyüklüğünün hareketlerin ve müziğin tekrarında önemli olabileceği vurgulanır. Büyük sahnelerde hareketlerin ve müzik bölümlerinin tekrar ettirilmesi, küçük sahnelerde hareketlerin daha küçük, adımların daha kısa yapılması gerektiği söylenir. BEDEN EĞİTİMİ, Bu bilgilerden yola çıkarak grupların seçtikleri müzik ve hareketlerle sahne ölçülerine uygun özgün bir koreografi oluşturmaları beklenir (E3.3). Grupların koreografilerini sergileyebilecekleri ortamlar oluşturulur (OB9). Öğrencilere grup çalışmalarında iş birliği içinde çalışmaları gerektiği vurgulanarak tüm öğrencilerin grup iletişimine katılması, yeni fikir ve önerilere açık olması, görev bilincine sahip olması ve girişkenliğini artırması sağlanır (SDB2.2, SDB2.1, E3.5, D16.3, E2.3). Koreografiler sergilenirken uygun kostüm ve dekordan yararlanılması hatırlatılır. Hazırlanan koreografiler belirli gün ve haftalarla ilgili etkinliklerde de sergilenir. Yapılan çalışmalar grup değerlendirme formu ile değerlendirilebilir."
+        },
+        {
+          "kod": "BOM.7.3.2.",
+          "kazanim": "Kurallı takım oyunları oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı oyunu ve kuralları belirler.",
+            "b) Oyunun amacı ve kuralları arasında ilişki kurar.",
+            "c) Kurallı oyun oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.7.3.3.",
+          "kazanim": "Geleneksel çocuk oyunlarını oynayabilme"
+        },
+        {
+          "kod": "BOM.7.3.",
+          "kazanim": "2 Öğrencilerden tartışma yöntemini kullanarak oluşturulacak oyunun türüne (strateji, beceri, hız gibi özellikler gerektiren oyunlar) karar vermeleri istenir. Öğrencilere düşüncelerini ifade ederken nazik ve saygılı olması, ayrıca özenli ve yapıcı bir dil kullanması gerektiği hatırlatılır (D14.1, SDB3.3). Oyunun türü belirlenirken oyun alanının (açık hava, sınıf, spor salonu vb.) ve kullanılacak malzemenin düşünülmesi gerektiği vurgulanır. Oyun türü belirlendikten sonra oyunun amacı, oyunda kaç takım olacağı, takımların kaç kişiden oluşacağı ve oyunun kurallarının belirlenmesi istenir. Öğrencilere oyunun amacı ve kuralları arasında bir ilişki olması gerektiği hatırlatılır. Öğrencilerden oluşturdukları oyunu belirledikleri kurallara ve amaca uygun şekilde oynamaları istenir (E2.5). Öğrencilerden oyunun kuralları ve amacı arasında bir ilişki olup olmadığını tartışma yöntemi kullanılarak değerlendirmeleri beklenir. Değerlendirmelerin ardından uygun olmayan kuralların düzeltilerek oyunun tekrar oynatılması sağlanır. Öğrencilere oyunlar ve fiziksel etkinlikler sırasında kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve tedbirli davranmaları gerektiği hatırlatılır (D5.1, SDB2.3). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere kurallı takım oyunu oluşturmalarına yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.7.3.",
+          "kazanim": "3 Geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından müzikli oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyun oynarken nezaketli, dürüst, hakkaniyetli davranmaları, bedensel ve mekânsal mahremiyetlerine dikkat etmeleri, başkalarını rahatsız edecek davranışlarda bulunmamaları, kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları, duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu, grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.7.4.2.",
+          "kazanim": "Zeybek oyunları geleneksel giyim kuşamının özelliklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.7.4.3.",
+          "kazanim": "Zeybek müziklerinin özelliklerini fark edebilme",
+          "alt_kazanimlar": [
+            "a) Zeybek müziklerinin müziksel bileşenlerini tanır.",
+            "b) Zeybek müziklerinin müziksel bileşenlerini ayırt eder.",
+            "c) Zeybek müziklerinin müziksel bileşenlerini açıklar."
+          ]
+        },
+        {
+          "kod": "BOM.7.4.4.",
+          "kazanim": "Halk oyunları türlerinden zeybeğin adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Halk oyunları türlerinden zeybeğin ritmik yapısına uygun hareketler belirler.",
+            "b) Halk oyunları türlerinden zeybeğin ritimsel ve ezgisel yapısına uygun olarak sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.7.4.",
+          "kazanim": "2 Geleneksel zeybek giyim kuşamı görsel ve dijital materyaller kullanılarak tanıtılır. Görsel ve dijital kaynaklardan yararlanılıp zeybek giyim kuşam parçaları gösterilerek parçaların yöresel isimleri üzerinde durulur (OB5). Öğrencilerden dijital kaynaklardan yararlanarak zeybek geleneksel giyim kuşam parçalarının tanıtıldığı afiş, bilgi görseli gibi çalışmalar hazırlanması istenebilir (OB2). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. Öğrencilere geleneksel zeybek giyim kuşamı ile ilgili araştırma yapabileceği performans görevi verilebilir."
+        },
+        {
+          "kod": "BOM.7.4.",
+          "kazanim": "3 Öğrencilere zeybek müzikleri dijital kaynaklardan yararlanılarak dinletilir. Öğrencilerin dinletilen müziklerin ritimsel ögelerini ve müziklerde kullanılan çalgıları tanıması sağlanır (OB1). Sonra farklı zeybek müziklerini odaklanarak dinlemesi ve müziksel bileşenlerini (kullanılan çalgılar, usul, hız vb.) ayırt etmesi beklenir (E3.2). Farklı türlerden halk oyunları müzikleri dinletilerek zeybek müziklerini ayırt etmesi ve öğrencilerin dinledikleri müziklerden hangilerinin zeybek müziği olduğunu söylemesi istenir. Etkinlikler oyunlaştırılarak da verilebilir (E2.5). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.7.4.",
+          "kazanim": "4 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak zeybek oyunları ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Zeybek oyunlarından “harmandalı” ve “Kordon zeybeği” oyunları müziğiyle sergilenerek adımlardaki ritmik yapıyı fark etmeleri sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Zeybek oyunları uygulanırken jest ve mimiklerle eşlik etmenin anlatımı kuvvetlendirebileceği vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergileyerek çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilerin ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları; ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri; saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılabilir (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanabilir (SDB1.3). Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere zeybek oyunlarını sergileyebilecekleri performans görevi verilebilir. BEDEN EĞİTİMİ,"
+        }
+      ]
+    },
+    {
+      "sinif": 8,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "BOM.8.3.",
+          "kazanim": "Oyunlarda T aktik ve Strateji"
+        },
+        {
+          "kod": "BOM.8.1.2.",
+          "kazanim": "Motivasyon kavramını ve tekniklerini açıklayabilme"
+        },
+        {
+          "kod": "BOM.8.1.3.",
+          "kazanim": "Halk oyunlarında kullanılan temel hareketleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Halk oyunlarında kullanılan temel hareketleri gözlemleyerek belirler.",
+            "b) Halk oyunlarında kullanılan temel hareketlerin nasıl yapıldığı ile ilgili veri toplar.",
+            "c) Halk oyunlarında kullanılan temel hareketlerin nasıl yapıldığını kaydeder."
+          ]
+        },
+        {
+          "kod": "BOM.8.1.4.",
+          "kazanim": "Öğrendiği hareketleri bir araya getirerek özgün bir bütün oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Öğrendiği temel hareketleri belirler.",
+            "b) Hareketler arasında ilişki kurar.",
+            "c) Hareketleri birleştirerek özgün bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.8.1.",
+          "kazanim": "2 Öğrencilere ipuçları verilerek tartışma yöntemiyle motivasyon kavramı ve motivasyon teknikleri ile ilgili bilgilere ulaşması sağlanır (OB1). Öğrencilerin motivasyon teknikleri ile ilgili aktarılan bilgileri kendi deneyimlerinden yola çıkarak gözden geçirmesi sağlanır. Öğrencilerin fiziksel etkinliklerde kullandığı motivasyon tekniklerini kendi yaşantılarına nasıl yansıttıklarını açıklamaları istenir (D3.1, D16.1, SDB1.2). Öğrencilerden fiziksel etkinliklerde kullandıkları motivasyon tekniklerini tartışma yöntemlerini kullanarak değerlendirmeleri ve bu değerlendirmeleri paylaşmaları beklenir (KB2.18). Öğrencilerden dijital kaynaklardan yararlanarak motivasyon teknikleri ile ilgili araştırma yapıp sınıfta sunmaları istenebilir (OB2). Yapılan çalışmalar kontrol listesi kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.8.1.",
+          "kazanim": "3 Öğrencilere dijital kaynaklar kullanılarak halk oyunları ile ilgili örnekler izletilir. Bu örneklerde çökme, diz vurma, diz kırma gibi hareketleri odaklanarak gözlemlemesi sağlanır (E3.2). Öğrencilerden hareketlere eşlik ederek hareketlerin nasıl yapıldığına dair veri toplaması beklenir. Öğrencilere öğrendikleri hareketler uygulatılarak hareketlerin kaydedilmesi sağlanır (OB9). Bu çalışmalarla öğrencilerin kültürel zenginlikleri fark etmesi beklenir (D19.2). Yapılan çalışmalar gözlem formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.8.1.",
+          "kazanim": "4 Öğrencilere istasyon çalışmaları hakkındaki bilgileri soru cevap tekniği kullanılarak hatırlatılır. Öğrencilerin yer değiştirme ve dengeleme hareketleri ile nesne kontrolü gerektiren hareketleri hatırlamaları sağlanır. Deneyimlerinden yola çıkarak bu hareketleri BEDEN EĞİTİMİ, tekrar etmeleri istenir. Öğrenciler gruplara ayrılır. Her grup bir müzik seçer ve bu müzik eşliğinde yapacağı istasyon çalışmasında kullanacağı hareketleri belirler. Öğrencilere istasyon çalışmasında hareketler belirlenirken sonraki adımlar düşünülerek istasyonun başlangıcında kolay, ilerledikçe zorluk seviyesi artan hareketler seçilmesi, her hareket grubunun kullanılması ve hareketlerin uyum içinde olması gerektiği vurgulanmalıdır (SDB3.2). Grupların oluşturduğu özgün çalışmalarını müzik eşliğinde sergilemesi sağlanır (D3.4). Öğrencilerin çalışmalarda aktif rol alması ve grup iletişimine katılması beklenir (D3.4, SDB2.2, SDB2.1). Yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılması sağlanır (D13.2). Öğrencilere çalışmalar yapılırken ortak kullanım alanlarında kişisel eşyalarını ile ders materyallerini korumaları ve özenli kullanmaları, bedensel ve mekânsal mahremiyetlerine, kişisel ve ortak alanların temizliğine dikkat etmeleri ve başkalarını rahatsız edecek davranışlarda bulunmamaları gerektiği hatırlatılır (D17.3, D8.4, D18.1, D18.2). Öğrencilere istasyon çalışmalarını uygulayabilecekleri performans görevi verilebilir. Yapılan çalışmalar gözlem formu ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.8.2.2.",
+          "kazanim": "Ezgilere uygun hareketler sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Ezgilere uygun hareketler belirler.",
+            "b) Ezgilere uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.8.2.3.",
+          "kazanim": "Belli bir tema kapsamında hazırlanan koreografiyi sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Koreografi oluştururken kullanacağı müziği ve müziğe uygun hareketleri belirler.",
+            "b) Kullanacağı müzik, hareketler ve sahne arasında ilişki kurar.",
+            "c) Kullanacağı müziğe uygun hareketlerle özgün bir koreografi oluşturarak sahneler."
+          ]
+        },
+        {
+          "kod": "BOM.8.2.",
+          "kazanim": "2 Öğrencilerin gruplara ayrılması istenir (SDB2.2). Grupların dijital kaynaklardan yararlanarak daha önce öğrendikleri şarkı veya türkülerden bir liste hazırlamaları sağlanır (OB2). Grupların listeledikleri şarkı veya türkülerden birini seçmesi beklenir. Gruplardan seçtikleri şarkı ya da türküye uygun hareketler belirlemeleri istenir. Gruplara seçtikleri şarkı veya türküye uygun hareketler belirlerken jest ve mimikleri kullanmanın anlatımı kuvvetlendirebileceği hatırlatılır. Grupların seçilen şarkı veya türküye hareket oluştururken jest ve mimiklerini de kullanmaları beklenir. Grupların hazırladıkları çalışmaları sergilemeleri sağlanır (OB9). Öğrencilere grup çalışmalarında iş birliği içinde çalışmaları gerektiği vurgulanarak tüm öğrencilerin grup iletişimine katılması, yeni fikir ve önerilere açık olması, görev bilincine sahip olması ve girişkenliğini artırması sağlanır (SDB2.1, SDB2.2, D3.4, E3.5, D10.1, D16.3, E2.3). Yapılan çalışmalar kontrol listesi ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilere farklı ritmik yapıdaki ezgilere uygun hareketler sergilediği performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.8.2.",
+          "kazanim": "3 Öğrencilere dijital kaynaklardan yararlanılarak farklı koreografiler izletilir. İzledikleri koreografilerdeki temaya dikkat etmeleri sağlanır. Öğrencilerin gruplara ayrılması, grupların oluşturacakları koreografi için iş birliği içinde bir tema belirlemeleri istenir (SDB2.2). Grupların koreografilerinde kullanacakları temaya uygun hareketleri ve adımları tartışarak belirlemeleri beklenir (E3.6). Öğrencilerin koreografi oluştururken seçtikleri temaya uygun müzik, müziğe uygun hareketler ve sahnenin genişliği arasında ilişki kurması istenir. Koreografi oluşturulurken dikkat edilmesi gereken unsurlar hatırlatılır. Bu bilgilerden yola çıkarak grupların seçtikleri temaya uygun müzik ve hareketlerle sahne ölçülerine uygun özgün bir koreografi oluşturmaları beklenir (E3.3). Grupların koreografilerini sergileyebilecekleri ortamlar oluşturulur (OB9). Öğrencilere grup çalışmalarında iş birliği içinde çalışmaları gerektiği vurgulanarak tüm öğrencilerin BEDEN EĞİTİMİ, grup iletişimine katılması, yeni fikir ve önerilere açık olması, görev bilincine sahip olması ve girişkenliğini arttırması sağlanır (SDB2.2, SDB2.1, E3.5, D16.3, E2.3, D11.1) . Koreografiler sergilenirken uygun kostüm ve dekordan yararlanılması gerektiği hatırlatılır. Hazırlanan koreografiler belirli gün ve haftalarla ilgili etkinliklerde de sergilenebilir. Öğrencilere hazırladıkları koreografileri sergileyebilecekleri performans görevi verilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.8.3.2.",
+          "kazanim": "Kurallı takım oyunları oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı oyunu ve kuralları belirler.",
+            "b) Oyunun amacı ve kuralları arasında ilişki kurar.",
+            "c) Kurallı oyun oluşturur."
+          ]
+        },
+        {
+          "kod": "BOM.8.3.3.",
+          "kazanim": "Geleneksel çocuk oyunlarını oynayabilme."
+        },
+        {
+          "kod": "BOM.8.3.",
+          "kazanim": "2 Öğrencilerden tartışma yöntemini kullanarak oluşturulacak oyunun türüne (strateji, beceri, hız gibi özellikler gerektiren oyunlar) karar vermeleri istenir. Oyunun türü belirlenirken oyun alanının (açık hava, sınıf, spor salonu vb.) ve kullanılacak malzemelerin düşünülmesi gerektiği vurgulanır. Oyun türü belirlendikten sonra oyunun amacı, oyunda kaç takım olacağı, takımların kaç kişiden oluşacağı ve oyunun kurallarının belirlenmesi istenir. Öğrencilere oyunun amacı ve kuralları arasında bir ilişki olması gerektiği hatırlatılır. Öğrencilerden oluşturdukları oyunu belirledikleri kurallara ve amaca uygun şekilde oynamaları istenir (E2.5). Öğrencilerden oyunun kuralları ve amacı arasında bir ilişki olup olmadığını tartışma teknikleri kullanılarak değerlendirmeleri beklenir (E3.6). Değerlendirmelerin ardından uygun olmayan kuralların düzeltilerek oyunun tekrar oynanması sağlanır. Yapılan çalışmalar gözlem formu ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "BOM.8.3.",
+          "kazanim": "3 Geleneksel çocuk oyunlarından ya da MEB “Yüz Yüze 100 Çocuk Oyunu Öğretmen Uygulama Kılavuzu” kitabından oyunlar seçilerek oynatılır (E2.5). Öğrencilere oyunlar oynanırken nezaketli, dürüst, hakkaniyetli davranmaları; bedensel ve mekânsal mahremiyetlerine dikkat etmeleri; başkalarını rahatsız edecek davranışlarda bulunmamaları; kendisinin ve çevresindekilerin sağlığını tehdit edecek olumsuz davranışlardan kaçınmaları; duyarlı ve dikkatli olmaları gerektiği hatırlatılır (D14.1, D6.1, D6.2, D1.2, BEOSAB8, D8.4, SDB2.3, D5.1). Yapılan çalışmalar gözlem formu, grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. BEDEN EĞİTİMİ,"
+        },
+        {
+          "kod": "BOM.8.4.2.",
+          "kazanim": "Halk oyunları türlerinden zeybeğin adımlarını sergileyebilme",
+          "alt_kazanimlar": [
+            "a) Halk oyunları türlerinden zeybeğin ritmik yapısına uygun hareketler belirler.",
+            "b) Halk oyunları türlerinden zeybeğin ritimsel ve ezgisel yapısına uygun olarak sergiler."
+          ]
+        },
+        {
+          "kod": "BOM.8.4.",
+          "kazanim": "2 Öğrencilerin daha önce izlediği halk oyunları videolarından ve yaşantılarından yola çıkarak halk oyunları türlerinden zeybek ile ilgili edindiği bilgileri gözden geçirmesi beklenir (KB2.12). Zeybek oyunlarından “Yund Dağları”, “Kerimoğlu zeybeği”, \"Arpazlı zeybeği\" ve \"Muğla zeybeği\" oyunları müzikleriyle sergilenerek adımlardaki ritmik yapıyı fark etmesi sağlanır. Bu adımlar gösterip yaptırma yöntemiyle tekrar ettirilir. Zeybek oyunları oynanırken anlatımı kuvvetlendirmek için jest ve mimiklerle eşlik etmenin önemi vurgulanır (OB1). Hareketler tekrar edilirken öğrencilerin jest ve mimiklerini de kullanmaları beklenir. Öğrencilerin öğrendiği oyunları müzik eşliğinde okulda düzenlenen belirli gün ve haftalar ile ilgili etkinliklerde sergileyerek çalışmalarda aktif rol alması ve ekip çalışmasının önemini kavraması sağlanır (OB9, D3.4, SDB2.2). Öğrencilerin ekip çalışmalarında iş birliği içinde yaptıkları çalışmayı uygulamaları; ılımlı, iyimser ve sabırlı yaklaşımlar sergilemeleri; saygılı, nazik ve yardımsever olmaları gerektiği hatırlatılır (SDB2.2, D10.3, D20.3). Öğrencilerin kendi çalışmalarını değerlendirmeleri sağlanabilir (SDB1.3). Öğrencilerden dijital kaynaklardan yararlanarak daha önce öğrenmedikleri bir zeybek oyununu öğrenip sınıfta arkadaşlarına sunması istenebilir (OB2). Yapılan çalışmalar gözlem formu ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme, arkadaşlarını değerlendirmeleri için akran değerlendirme formu kullanılabilir. Öğrencilere zeybek oyunlarını sergileyebilecekleri performans görevi verilebilir."
+        }
+      ]
+    }
+  ]
+}

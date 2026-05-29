@@ -1,0 +1,82 @@
+OK  2025101416114957-görselsanat.pdf                             |   85 kod | sinif={'1': 11, '2': 11, '3': 11, '4': 11, '5': 10, '6': 10, '7': 10, '8': 11}
+OK  2025819135241760-müzik18döp.pdf                              |  106 kod | sinif={'1': 14, '2': 12, '3': 12, '4': 12, '5': 14, '6': 12, '7': 15, '8': 15}
+OK  202582511143139-Beden Eğitimi ve Oyun Dersi Öğretim Programı |   72 kod | sinif={'1': 17, '2': 15, '3': 20, '4': 20}
+OK  2025825113012649-Beden Eğitimi ve Spor Dersi Öğretim Program |   78 kod | sinif={'5': 21, '6': 22, '7': 21, '8': 14}
+OK  2025825154137627-fen bilimleri.pdf                           |  182 kod | sinif={'3': 20, '4': 19, '5': 28, '6': 36, '7': 36, '8': 43}
+OK  2025825154255361-hayat bilgisi.pdf                           |   66 kod | sinif={'1': 23, '2': 23, '3': 20}
+OK  2025825154457392-ilkokul matematik.pdf                       |  127 kod | sinif={'1': 23, '2': 29, '3': 37, '4': 38}
+OK  2025825154548470-ilkokul türkçe.pdf                          |   79 kod | sinif={'None': 79}
+OK  2025825154713595-inkılap 8.pdf                               |   15 kod | sinif={'8': 15}
+OK  2025825154829877-insan hakları vatandaşlık.pdf               |   13 kod | sinif={'4': 13}
+SKIP: 202582516326689-okul öncesi.pdf — branş yok (Okul Öncesi branşı şu an branslar tablosunda yok — skip)
+OK  202582516434252-ortaokul matematik.pdf                       |  147 kod | sinif={'5': 31, '6': 35, '7': 44, '8': 37}
+OK  202582516532361-ortaokul türkçe.pdf                          |  421 kod | sinif={'None': 421}
+OK  202582516728345-sosyal bilgiler.pdf                          |   72 kod | sinif={'4': 17, '5': 20, '6': 18, '7': 17}
+OK  2025826135315128-BEDEN EĞİTİM PROGRAM-21.07.2025.pdf         |   41 kod | sinif={'10': 9, '11': 9, '12': 8, '9': 9, 'None': 6}
+OK  202582694932783-inkılap 12.pdf                               |   16 kod | sinif={'12': 16}
+OK  202582695425908-tarih.pdf                                    |   38 kod | sinif={'10': 14, '11': 11, '9': 13}
+OK  2025829164512920-trafik pdf.pdf                              |   12 kod | sinif={'4': 12}
+SKIP: 2025910113848119-COKLU_YASANTILI_26.08.pdf — branş yok (Özel eğitim programı — şu an branşlar tablosunda karşılığı yok, skip)
+OK  202591011405337-26-08-ekli-english-regular.pdf               | 1199 kod | sinif={'2': 156, '3': 158, '4': 157, '5': 161, '6': 184, '7': 191, '8': 192}
+OK  202591115301147-almanca döp.pdf                              |  529 kod | sinif={'5': 120, '6': 120, '7': 144, '8': 144, 'None': 1}
+OK  202591115327350-bilişim döp.pdf                              |   48 kod | sinif={'5': 24, '6': 24}
+OK  202591210020850-müzikprogram912.pdf                          |   49 kod | sinif={'10': 11, '11': 10, '12': 8, '9': 12, 'None': 8}
+OK  2025912101051975-görsel912.pdf                               |  119 kod | sinif={'10': 22, '11': 25, '12': 20, '9': 28, 'None': 24}
+OK  202591210647647-Dini_Musiki_Program_KAREKODLU.pdf            |    0 kod | sinif={}
+OK  2025912135022975-arapca24.pdf                                |   81 kod | sinif={'2': 28, '3': 28, '4': 25}
+OK  202591213515585-arapca58.pdf                                 |  103 kod | sinif={'47': 1, '5': 27, '6': 27, '7': 24, '8': 24}
+OK  202591213531335-arapca910.pdf                                |   51 kod | sinif={'10': 24, '9': 27}
+OK  202591214210397-ebru.pdf                                     |    0 kod | sinif={}
+OK  202591214545163-hazırlıkingilizce.pdf                        | 1247 kod | sinif={'9': 1247}
+OK  20259121472913-hüsnühat.pdf                                  |    0 kod | sinif={}
+OK  202591214813382-ingilizce912.pdf                             |  775 kod | sinif={'1': 1, '10': 207, '11': 205, '12': 155, '9': 207}
+OK  202591214959554-tezhip.pdf                                   |    0 kod | sinif={}
+OK  20259920216650-Aihl_Hadis.pdf                                |   19 kod | sinif={'10': 19}
+OK  202599202238509-AİHL Siyer.pdf                               |   13 kod | sinif={'10': 13}
+OK  202599202358540-AİHL Fıkıh.pdf                               |   15 kod | sinif={'10': 15}
+OK  202621810380140-akaid.pdf                                    |   10 kod | sinif={'11': 10}
+OK  2026218103950531-içe.pdf                                     |   11 kod | sinif={'11': 11}
+OK  202621810395187-dinegitimi.pdf                               |   11 kod | sinif={'11': 11}
+OK  2026218104043781-islamfelsefesi.pdf                          |   11 kod | sinif={'11': 11}
+OK  20262181042147-kak.pdf                                       |    0 kod | sinif={}
+OK  202621810449484-tsvkltr.pdf                                  |    8 kod | sinif={'11': 8}
+OK  2026313101051307-kk58.pdf                                    |   85 kod | sinif={'5': 20, '6': 20, '7': 24, '8': 21}
+OK  2026313101155916-dkab912.pdf                                 |   76 kod | sinif={'10': 17, '11': 17, '112': 2, '12': 20, '9': 20}
+OK  2026313101552729-ph912.pdf                                   |   39 kod | sinif={'10': 9, '11': 10, '12': 8, '9': 12}
+OK  20263131018810-kk912.pdf                                     |    0 kod | sinif={}
+OK  202631310277557-tdbaihl.pdf                                  |   10 kod | sinif={'9': 10}
+OK  202631310725635-dkab48.pdf                                   |  100 kod | sinif={'17': 1, '4': 26, '5': 19, '6': 18, '7': 17, '8': 19}
+OK  202631310918338-ph58.pdf                                     |   38 kod | sinif={'5': 8, '6': 10, '7': 10, '8': 10}
+OK  202631714345271-Mesleki Arapça-Programi 2026-02-18.pdf       |    0 kod | sinif={}
+OK  202632613416463-psikoloji.pdf                                |   13 kod | sinif={'11': 13}
+OK  2026326134623635-islambilimtarh.pdf                          |   28 kod | sinif={'11': 28}
+OK  2026326134747604-mantık.pdf                                  |   17 kod | sinif={'10': 17}
+OK  2026326134940604-çağdaştürk.pdf                              |    9 kod | sinif={'12': 9}
+OK  2026326135140463-sosyoloji.pdf                               |   21 kod | sinif={'11': 18, '12': 3}
+SKIP: 2026326135350307-türkkültürmedeniyt.pdf — branş yok (Yeni seçmeli ders — DB'de kod prefixi yok, henüz seedlenmemiş)
+SKIP: 202632613560229-demokrasiinsanhak.pdf — branş yok (Lise seçmeli — DB'de yok, yeni)
+OK  2026326135719151-astronımiveuzay.pdf                         |   24 kod | sinif={'9': 24}
+OK  2026326135915854-iklimçevre.pdf                              |   18 kod | sinif={'10': 18}
+OK  202632614151726-sosyalbilimc.pdf                             |    0 kod | sinif={}
+OK  20263261424373-takımsporları.pdf                             |   45 kod | sinif={'10': 8, '11': 10, '12': 9, '9': 18}
+OK  202632614555417-matematikuygulamalar.pdf                     |   33 kod | sinif={'None': 33}
+OK  20263261489870-temelmatematik.pdf                            |   18 kod | sinif={'11': 2, 'None': 16}
+OK  2026512154414120-dinlertarihidöp.pdf                         |   10 kod | sinif={'12': 10}
+OK  2026512154649995-hitabetmeslekdöp.pdf                        |    9 kod | sinif={'11': 9}
+OK  2026512154759151-kelamdöp.pdf                                |   10 kod | sinif={'12': 10}
+OK  202651215499120-kuranıkerimdöp.pdf                           |   51 kod | sinif={'10': 14, '11': 6, '12': 6, '9': 14, 'None': 11}
+OK  2026512155052229-dinibilgidöp.pdf                            |   25 kod | sinif={'1': 12, '2': 13}
+OK  2026512155228448-dinibilgilerdöp.pdf                         |   32 kod | sinif={'1': 16, '2': 16}
+OK  2026512155323823-tefsirdöp.pdf                               |   13 kod | sinif={'11': 13}
+OK  20265139507417-Saglıkbiltrafik.pdf                           |   23 kod | sinif={'9': 23}
+OK  202651415165252-teknotasardöp.pdf                            |   49 kod | sinif={'7': 27, '8': 22}
+OK  202651815105221-biyolojidöp.pdf                              |   77 kod | sinif={'10': 19, '11': 23, '12': 20, '9': 15}
+OK  2026518151120283-cogdöp.pdf                                  |   76 kod | sinif={'10': 18, '11': 19, '12': 20, '9': 19}
+OK  2026518151228236-edebiyatdöp.pdf                             |    0 kod | sinif={}
+OK  2026518151339111-felsefedöp.pdf                              |   22 kod | sinif={'10': 10, '11': 12}
+OK  2026518151437471-fizikdöp.pdf                                |  106 kod | sinif={'10': 22, '11': 33, '12': 27, '9': 24}
+OK  2026518151539674-kimya.pdf                                   |   93 kod | sinif={'10': 21, '11': 25, '12': 24, '9': 23}
+OK  2026518151640408-matedöp.pdf                                 |  116 kod | sinif={'10': 28, '11': 18, '12': 26, '9': 27, 'None': 17}
+
+──────────────────────────────────────────────────────────
+İşlenen: 75, Skip: 4, Toplam kazanım: 7155

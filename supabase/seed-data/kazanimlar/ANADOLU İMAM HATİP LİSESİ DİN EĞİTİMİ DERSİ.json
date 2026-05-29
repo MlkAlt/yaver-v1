@@ -1,0 +1,15 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ DİN EĞİTİMİ DERSİ",
+  "siniflar": [
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "DE.4.1.1.",
+          "kazanim": "Ders 3. ’NA AİT ÜNİTELER 1. ÜNİTE: DİN EĞİTİMİNDE TEMEL KAVRAMLAR 1. ünitede din eğitimiyle ilgili temel kavramların bağlamına uygun ve yerinde kullanılmasına odaklanılarak kavramsal farkındalık geliştirilmesi hedeflenmektedir. Ayrıca öğrencilerin din eğitimi biliminin toplumsal işlevi, birey ve toplum üzerindeki etkisi ile gerekliliği üzerine analitik ve eleştirel düşünme becerileri kazanmaları amaçlanmaktadır."
+        }
+      ]
+    }
+  ]
+}

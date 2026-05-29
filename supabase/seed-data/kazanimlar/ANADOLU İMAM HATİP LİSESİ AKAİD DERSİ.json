@@ -1,0 +1,65 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ AKAİD DERSİ",
+  "siniflar": [
+    {
+      "sinif": 11,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "AKD.11.1.2.",
+          "kazanim": "İman ve imanın mahiyetiyle ilgili konuları müşahede edebilme",
+          "alt_kazanimlar": [
+            "a) İman ve imanın mahiyeti hakkında merak ettiği konuları belirler.",
+            "b) İman ve imanın mahiyetiyle ilgili belirlenen konular hakkında soru sorar.",
+            "c) İman ve imanın mahiyeti hakkında merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "AKD.11.2.2.",
+          "kazanim": "Kader inancını idrak edebilme",
+          "alt_kazanimlar": [
+            "a) Kader inancıyla ilgili tefekkür sürecini gözden geçirir.",
+            "b) Kader inancıyla ilgili tefekkür sürecine dayalı çıkarım yapar.",
+            "c) Kader inancıyla ilgili ulaştığı çıkarımları değerlendirir."
+          ]
+        },
+        {
+          "kod": "AKD.11.2.3.",
+          "kazanim": "Kaderle ilişkilendirilen kavramları çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Kaderle ilişkilendirilen kavramları tespit eder.",
+            "b) Kaderle ilişkilendirilen kavramlar arasındaki ilişkiyi belirler."
+          ]
+        },
+        {
+          "kod": "AKD.11.3.2.",
+          "kazanim": "Peygamberlere gönderilen kitaplarla ilgili temel kaynakları kullanabilme",
+          "alt_kazanimlar": [
+            "a) Peygamberlere gönderilen kitaplarla ilgili aradığı ayet meallerini ve hadisleri bulur.",
+            "b) Ayet ve hadislerde geçen kitapları belirler.",
+            "c) Ayet ve hadisleri içeriklerine göre sınıflandırır. ç) Ayet ve hadis mealleri doğrultusunda peygamberlere gönderilen kitaplarla ilgili çıkarım yapar.",
+            "d) Ayet ve hadislerle alakalı yaptığı çıkarımlara ilgili konularda yer verir."
+          ]
+        },
+        {
+          "kod": "AKD.11.4.2.",
+          "kazanim": "Dünya hayatı ve ahiret ilişkisini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Dünya hayatı ve ahiret ilişkisini inceler.",
+            "b) Dünya hayatı ve ahiret ilişkisini kendi hayatı için anlamlı hâle getirir.",
+            "c) Dünya hayatı ve ahiret ilişkisini nesnel ve doğru bir şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "AKD.11.4.3.",
+          "kazanim": "Ahiret hayatının safhalarını özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Ahiret hayatının safhalarıyla ilgili çözümleme yapar.",
+            "b) Ahiret hayatının safhalarıyla ilgili sınıflandırma yapar.",
+            "c) Ahiret hayatının safhalarını yorumlar."
+          ]
+        }
+      ]
+    }
+  ]
+}

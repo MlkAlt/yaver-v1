@@ -1,0 +1,1400 @@
+{
+  "ders": "MÜZİK DERSİ",
+  "siniflar": [
+    {
+      "sinif": 1,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.1.1.1.",
+          "kazanim": "İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İstiklâl Marşı’nın başlıca ögelerini sözlü olarak ifade eder.",
+            "b) İstiklâl Marşı’nın başlıca ögelerini arasındaki ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.1.",
+          "kazanim": "Öğrencilere İstiklâl Marşı’nın ögeleri ile ilgili sorular sorulur (E1.1). Bu ögelerden biri olan Türk Bayrağı’nın sembollerini kendi cümleleriyle ifade etmeleri istenebilir. Türk bayrağının rengi ile üzerindeki ay ve yıldızın anlamına vurgu yapılır. İstiklâl Marşı’nın millî birlik ve beraberliğimizin ve bağımsızlığımızın başlıca sembollerinden biri olduğu hakkında fikir birliğine varılır (D11.2, D14.3, D19.1). Öğrenme yaşantıları sonunda öğrenciye kazandırılması amaçlanan bilgi, beceri ve becerilerin süreç bileşenlerini ifade eder. Yeni bilgi ve becerilerin öğrenilmesi için sahip olunması gereken ön bilgi ve becerilerin değerlendirilmesi ile öğrenme sürecindeki ilgi ve ihtiyaçların belirlenmesini ifade eder. Hedeflenen öğrenci profili ve temel öğrenme yaklaşımları ile uyumlu"
+        },
+        {
+          "kod": "MÜZ.1.1.1.",
+          "kazanim": "İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İstiklâl Marşı’nın başlıca ögelerini sözlü olarak ifade eder.",
+            "b) İstiklâl Marşı’nın başlıca ögelerini arasındaki ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.2.",
+          "kazanim": "Doğadan/çevreden/nesnelerden duyulan seslerin özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Doğadan/çevreden/nesnelerden duyulan seslerin özelliklerini sözlü olarak ifade eder.",
+            "b) Doğadan/çevreden/nesnelerden duyulan seslerin özelliklerine ilişkin benzerlikleri sözlü olarak ifade eder.",
+            "c) Doğadan/çevreden/nesnelerden duyulan seslerin özelliklerine ilişkin farklılıkları sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.3.",
+          "kazanim": "Müziksel dinleyebilme",
+          "alt_kazanimlar": [
+            "a) Müziksel bileşenleri tanır.",
+            "b) Müziksel bileşenleri ayırt eder.",
+            "c) Müziksel bileşenleri açıklar."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.4.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.5.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.6.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.7.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.1.1.",
+          "kazanim": "Öğrencilere İstiklâl Marşı’nın ögeleri ile ilgili sorular sorulur (E1.1). Bu ögelerden biri olan Türk Bayrağı’nın sembollerini kendi cümleleriyle ifade etmeleri istenebilir. Türk bayrağının rengi ile üzerindeki ay ve yıldızın anlamına vurgu yapılır. İstiklâl Marşı’nın millî birlik ve beraberliğimizin ve bağımsızlığımızın başlıca sembollerinden biri olduğu hakkında fikir birliğine varılır (D11.2, D14.3, D19.1). İstiklâl Marşı dinlenirken ve söylenirken yüzleri bayrağa dönük bir şekilde dikkatlice “hazır ol” duruşunda saygı ile beklemeleri gerektiği öğrencilere açıklanır ve öğrencilerin bu davranışı göstermeleri beklenir (E3.2). Öğrencilerden İstiklâl Marşı’nın başlıca ögeleri ve bu ögeler arasındaki ilişkileri ayrı ayrı ifade etmeleri istenebilir (KB2.13). Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri gibi araçlardan biriyle yapılabilir. Çevreden/nesnelerden duyulan seslerin özelliklerini, bu seslerin benzerliklerini ve farklılıklarını karşılaştırmalarına yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.1.1.2.",
+          "kazanim": "Öğrencilerin çeşitli araç gereç ve dijital materyaller aracılığıyla doğadan/çevreden/nesnelerden duydukları farklı sesleri dikkatle dinlemeleri istenebilir (E3.2). Öğrencilere dinledikleri farklı seslerin neler olabileceği hakkında sorular sorulur (E1.1). Öğrencilerin dinletilen seslerin özelliklerini fark etmeleri ve kendi cümleleriyle yorumlamaları istenebilir (OB1). Öğrencilere duydukları seslerin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenebilir. Bu süreçte öğrencilere etkileşimli tahta üzerinden ya da basılı materyallerden faydalanılarak uygun sesi bulmaya yönelik eşleştirme, sürükle bırak vb. eğitsel oyunlar oynatılabilir (OB2). Daha sonra sınıf, gruplara ayrılarak öğrencilerden seslerin farklılıklarını belirlemeleri istenebilir. Bu durumda bir grubun belirli bir sesi, diğer grubun ise farklı bir sesi vermesi sağlanabilir. Değerlendirme sürecinde; kısa cevaplı/açık uçlu sorular ya da gözlem formu gibi araçlardan biri kullanılabilir. Doğadan/çevreden/nesnelerden duyulan seslerin özelliklerini, bu seslerin benzerliklerini ve farklılıklarını karşılaştırmalarına yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.1.1.3.",
+          "kazanim": "Öğrencilere çeşitli araç gereç ve dijital materyaller aracılığıyla somut olmayan kültürel mirasa katkısı olan eserler dinletilir (D19.3) Dinleme sırasında eserin müziksel bileşenlerine dikkat etmeleri istenebilir (E3.2). Daha sonra öğrencilere bu müziksel bileşenlerle ilgili sorular sorulur (E1.1). Öğrencilere eserin müziksel bileşenlerinden ritmik yapıyı tanımaları için elleriyle vuruş yapma, ezgisel yapıyı tanımaları için ise eserin ezgisini mırıldanma gibi etkinliklerle çeşitli oyunlar oynatılabilir. Öğretmen tarafından eserin ritmik yapısı (temposu yavaşlatılarak ya da hızlandırılarak) değiştirilerek söylenebilir. Öğrencilere eserin müziksel bileşenlerinin nasıl olması gerektiğine yönelik sorular sorularak müziksel bileşenleri ayrı ayrı ayırt etmeleri ve açıklamaları istenebilir. Değerlendirmeler; gözlem formu, kontrol listeleri gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.1.4.",
+          "kazanim": "Öğrencilerden kültürel mirasımıza ait söylenecek tekerleme, ninni ve sayışmaca gibi türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (D19.3, E3.2). Öğrencilerin bedenlerini tekerleme, ninni ve sayışmacayı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenebilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenebilir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenebilir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.1.5.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayan belirli gün ve haftaları konu alan (29 Ekim Cumhuriyet Bayramı, 19 Mayıs Atatürk’ü Anma ve Gençlik ve Spor Bayramı vb.) şarkı, türkü ve marş türlerinde söyleyecekleri eserleri dikkatle dinlemeleri istenebilir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.1.6.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.1.7.",
+          "kazanim": "Parmak şıklatma, alkış yapma, eliyle dizine vurma, ayakları ile yere vurma gibi müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına ya da anlamına uygun bedensel hareketler öğrenciler tarafından belirlenir. Örneğin bir adım ileri, iki kez parmak şıklatma gibi hareketler yapmaları istenebilir ya da eser sözlü bir eser ise ve içinde “can” sözcüğü geçiyor ise öğrencilerin, iki elini üst üste birleştirerek kalplerinin üzerine koymaları istenebilir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.2.1.",
+          "kazanim": "Müzik dinleme/söyleme kurallarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Müzik dinleme/söyleme kurallarına ilişkin ögeleri sözlü olarak ifade eder.",
+            "b) Müzik dinleme/söyleme kurallarına ilişkin ögeler arasındaki ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.2.2.",
+          "kazanim": "Ritim veren vurmalı çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Ritim veren vurmalı çalgıların özelliklerini sözlü olarak ifade eder.",
+            "b) Ritim veren vurmalı çalgıların özelliklerine ilişkin benzerlikleri sözlü olarak ifade eder.",
+            "c) Ritim veren vurmalı çalgıların özelliklerine ilişkin farklılıkları sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.2.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.2.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.2.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.2.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.1.2.1.",
+          "kazanim": "Müzik dinleme/söyleme kurallarının neler olabileceği hakkında sorular sorulur (E1.1). Müzik dinlerken sessiz bir şekilde gürültü yapmadan dinleme, şarkı söylerken ise sesini bağırmadan kullanma gibi müzik dinlemeye/söylemeye ait kurallar çeşitli oyunlar aracılığıyla gerçekleştirilir (SDB1.1, SDB1.2, E2.5, D5.1, D14.1). Öğrencilerden bu kuralları ve kurallar arasındaki ilişkileri ayrı ayrı kendi yorumlarıyla ifade etmeleri istenir (OB1). Değerlendirmeler; performans görevi, gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri gibi araçlardan biriyle yapılabilir. Müzik dinleme/söyleme kurallarının neler olabileceğine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.1.2.2.",
+          "kazanim": "Yakından uzağa, çevreden evrene ilkesi benimsenerek sadece ritim veren çeşitli vurmalı çalgıların (çelik üçgen, darbuka, davul, kaşık, kastanyet, marakas, ritim çubukları, tef, trampet, zil vb.) neler olabileceği ile ilgili sorularla konuya dikkat çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili çalgının alan yazınındaki başlıca eserleri varsa dinletilir, kültürel mirasa katkısı olan başlıca icracıları tanıtılır (SAB9, D15.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; performans görevi, gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri gibi araçlardan biriyle yapılabilir. Ritim veren vurmalı çalgıların özelliklerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.1.2.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; performans görevi, dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.2.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; performans görevi, dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.2.5.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; performans görevi, dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.1.2.6.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2.). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "E.1.6.",
+          "kazanim": "Seçicilik, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.8. Soru Sorma PROGRAMLAR ARASI BİLEŞENLER Sosyal-Duygusal Öğrenme Becerileri SDB1.1. Kendini Tanıma (Öz Farkındalık Becerisi), SDB2.1. İletişim Becerisi, SDB2.2. İş Birliği Becerisi, SDB2.3. Sosyal Farkındalık Becerisi Değerler D3. Çalışkanlık, D4. Dostluk, D7. Estetik, D11. Özgürlük, D13. Sağlıklı Yaşam, D14. Saygı, D15. Sevgi, D19. Vatanseverlik Okuryazarlık Becerileri OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı DİSİPLİNLER ARASI İLİŞKİLER Türkçe, Sosyal Bilgiler, Beden Eğitimi, Kültür ve Medeniyetimize Yön Verenler BECERİLER ARASI İLİŞKİLER SAB9. Müziksel Dinleme Becerisi, KB2.13. Yapılandırma Becerisi, SBAB1. ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ"
+        }
+      ]
+    },
+    {
+      "sinif": 2,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.2.1.1.",
+          "kazanim": "İstiklâl Marşı’nın sözcüklerini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) İstiklâl Marşı’nı oluşturan sözcükleri ve heceleri inceler.",
+            "b) İstiklâl Marşı’nı oluşturan heceleri bağlamdan kopmadan birleştirerek sözcüklere dönüştürür.",
+            "c) İstiklâl Marşı’nın sözcüklerini ritmine uygun olarak yeniden sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.1.2.",
+          "kazanim": "Doğadan/çevreden/nesnelerden duyulan seslerin incelik-kalınlık özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Doğadan/çevreden/nesnelerden duyulan seslerin incelik-kalınlık özelliklerini ifade eder.",
+            "b) Doğadan/çevreden/nesnelerden duyulan seslerin incelik-kalınlık özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Doğadan/çevreden/nesnelerden duyulan seslerin incelik-kalınlık özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.1.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.1.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.1.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.1.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.1.1.",
+          "kazanim": "İstiklâl Marşı’nın ilk iki kıtasını oluşturan sözcükler incelenir. İncelenen her bir sözcük hecelerine ayrılır. Sözcükler öğrenciler tarafından dikkatlice hecelenerek söylenir (E3.2). Daha sonra bu heceler tartımlarına uygun bir şekilde öğretmen tarafından ritmik olarak hecelenerek seslendirilir ve öğrencilerden tekrar etmeleri istenir (örneğin “Kork-ma” sözcüğünün iki hecesini ritmik olarak seslendirmek için iki defa el çırpma, eliyle dizine vurma vb. hareketler kullanılabilir). Öğretmen tarafından ritmik olarak tek tek hecelenen sözcükler, İstiklâl Marşı’nın sözcük bütünlüğü ve ritmik yapısı bozulmadan kıtanın tamamı el çırpma vb. yöntemler kullanılarak ifade edilir ve öğrenciler tarafından bireysel ve topluca yapılması beklenir (SDB2.1, SDB2.2). İstiklâl Marşı’nın sözcükleri, heceleri ve bu hecelerle ilgili ritmik ögeler arasındaki ilişkileri ayrı ayrı ifade etmeleri istenir (KB2.13). Seslendirme yapılırken öğrencilerin iş birliği içinde olmaları sağlanır (D4.1). Değerlendirmeler; kontrol listeleri, gözlem formu gibi araçlardan biriyle yapılabilir. İstiklâl Marşı’nın sözcük ve hecelerini analiz edebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.2.1.2.",
+          "kazanim": "Öğrencilerin çeşitli araç gereç ve dijital materyaller aracılığıyla doğadan/çevreden/nesnelerden duydukları farklı sesleri dikkatle dinlemeleri istenir (E3.2). Dinledikleri seslerin incelik-kalınlık özellikleri hakkında sorular sorulur (E1.1). Öğrencilerin dinletilen seslerin özelliklerini fark etmeleri ve kendi cümleleriyle yorumlamaları istenir (OB1). Duydukları seslerin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenir. Bu süreçte öğrencilere etkileşimli tahta üzerinden ya da basılı materyallerden faydalanılarak uygun sesi bulma gibi eşleştirme, sürükle bırak vb. eğitsel oyunlar oynatılabilir (OB2). Daha sonra sınıf gruplara ayrılarak bu seslerin farklılıklarını belirlemek için bir grubun farklı bir sesi diğer bir grubun da başka bir sesi vermeleri istenebilir. Değerlendirmeler; kısa cevaplı/açık uçlu sorular, gözlem formu gibi araçlardan biriyle yapılabilir. Sesleri incelik-kalınlık özelliklerine göre karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.2.1.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; performans görevi, dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.1.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan (örneğin Atatürk ve 29 Ekim Cumhuriyet Bayramı’nı içeren) şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.1.5.",
+          "kazanim": "Somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla öğrencilerin ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.1.6.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.2.2.1.",
+          "kazanim": "İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İstiklâl Marşı’nın başlıca ögelerini sözlü olarak ifade eder.",
+            "b) İstiklâl Marşı’nın başlıca ögeleri arasındaki ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.2.2.",
+          "kazanim": "Ezgi veren vurmalı çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Ezgi veren vurmalı çalgıların özelliklerini ifade eder.",
+            "b) Ezgi veren vurmalı çalgıların özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Ezgi veren vurmalı çalgıların özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.2.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.2.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.2.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.2.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.2.2.1.",
+          "kazanim": "Öğrencilere İstiklâl Marşı’nın başlıca ögelerinin neler olabileceği ile ilgili sorular sorulur (E1.1). İstiklâl Marşı’nın başlıca ögelerini kendi cümleleriyle ifade etmeleri istenir (OB1). İstiklâl Marşı’nın millî birlik ve beraberliğimizin ve bağımsızlığımızın başlıca simgelerinden biri olduğu, sözlerinin Mehmet Akif ERSOY (1873-1936) tarafından yazıldığına dikkat çekilir (D11.2, D14.3, D15.2, D19.1). Öğrencilerden İstiklâl Marşı’nı oluşturan ögeler ve bu ögeler arasındaki ilişkileri ayrı ayrı ifade etmeleri istenir (KB2.13). Sürece yönelik değerlendirmeler; kısa cevaplı/açık uçlu sorular, gözlem formu, kontrol listeleri gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.2.2.",
+          "kazanim": "Öğrencilere ezgi veren çeşitli vurmalı çalgıların (el zili [hand bells], ksilofon, marimba, melodik borular [boomwhackers], metalofon, vibrafon vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1. E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili çalgının alan yazınındaki başlıca eserleri varsa dinletilir, kültürel mirasa katkısı olan başlıca icracıları tanıtılır (SAB9, D15.2, D19.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Ayrıca birinci sınıfta öğrendiği sadece ritim veren vurmalı çalgılar ve ezgi veren vurmalı çalgılar arasında ilişki kurar (KB2.13). Değerlendirmeler; gözlem formu, kısa cevaplı/açık uçlu sorular, kontrol listeleri gibi araçlardan biriyle yapılabilir. Ezgi veren vurmalı çalgıların özelliklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.2.2.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.2.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.2.5.",
+          "kazanim": "Somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla öğrencilerin ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.2.2.6.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 3,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.3.1.1.",
+          "kazanim": "İstiklâl Marşı’nı sözlerine dikkat ederek söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.1.2.",
+          "kazanim": "Doğadan/çevreden/nesnelerden duyulan seslerin süre özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Doğadan/çevreden/nesnelerden duyulan seslerin süre özelliklerini ifade eder.",
+            "b) Doğadan/çevreden/nesnelerden duyulan seslerin süre özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Doğadan/çevreden/nesnelerden duyulan seslerin süre özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.1.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.1.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.1.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.1.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.1.1.",
+          "kazanim": "İstiklâl Marşı, sözlerinin doğru telaffuz edilebilmesi için, öğrencilere birkaç kez şiir şeklinde okutulur. Daha sonra öğrencilere “Mi minör” tonunda seslendirilmiş İstiklâl Marşı referans kaydı çeşitli dijital materyaller aracılığıyla dinletilir (SAB9). Ardından İstiklâl Marşı sözsüz alt yapı referans kayıt eşliğinde, sözleri doğru telaffuz edilerek bütün sınıf tarafından söylenmeye çalışılır (E3.2). Bu çalışmalar sözler doğru şekilde söylenene kadar tekrar ettirilir. Öğrencilere İstiklâl Marşı’nın sözlerine dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri söylenir. Bu duruş öğretmen tarafından gösterilir. Öğrencilerin İstiklâl Marşı’nı seslendirebilmeleri için çevrim içi araçlardan (EBA, Web 2.0 araçları vb.) marş dinletilir (OB2, SAB9). Bu sırada öğrenciler marşı arkadaşlarıyla birlikte söylemeleri için cesaretlendirilir (E1.5). Son olarak öğrencilerden Mi minör tonalitesindeki marşı doğru duruşla, sesini yormadan, müziksel bileşenlerinden sözlerine uygun olarak söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Grup hâlinde yapılan seslendirmelerde öğrencilerin iş birliği içinde olmalarına özen gösterilir (D4.1). Değerlendirmeler; performans görevi, dereceli puanlama anahtarı, gözlem formu, kontrol listesi, öz değerlendirme formu gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.3.1.2.",
+          "kazanim": "Öğrencilerin çeşitli araç gereç ve dijital materyaller aracılığıyla doğadan/çevreden/nesnelerden duydukları farklı sesleri dikkatle dinlemeleri istenir (E3.2). Dinledikleri seslerin uzunluk-kısalıkları hakkında sorular sorulur (E1.1). Öğrencilerin dinletilen seslerin süre özelliklerini fark etmeleri ve kendi cümleleriyle yorumlamaları istenir (OB1). Duydukları seslerin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenir. Bu sürelerin ritimsel açıdan kavranabilmesi için öğrencilere günlük hayatta kullandıkları sözcüklerin içinde geçen hecelerden örnekler verilebilir. Örneğin Ankara sözcüğü hecelenerek, Anhecesinin “uzun”, ka-ra hecelerinin “kısa” olduğu el çırpma vb. hareketlerle gösterilebilir ya da İstiklâl Marşı içindeki ezgisel sözcüklerin hecelerinden (An-cak sözcüğü söylenirken “cak” hecesinin 3 kere el çırpma vb. hareketlerle gösterilebileceği gibi) örnekler verilebilir. Öğrencilere ses sürelerini anlatmak için sınıf içinde yoklama alınırken isim ve soy isimlerini heceleyerek/oyunlaştırarak seslendirmeleri gibi, çeşitli eğitsel oyunlar ile etkileşimli tahta üzerinden ya da basılı materyallerden faydalanılarak uygun sesi bulma gibi eşleştirme, sürükle bırak vb. oyunlar oynatılabilir (OB2). Daha sonra sınıf gruplara ayrılarak bu seslerin farklılıklarını belirlemek için bir grubun farklı bir sesi diğer bir grubun da başka bir sesi vermeleri istenebilir. Değerlendirmeler; kısa cevaplı/açık uçlu sorular, gözlem formu gibi araçlardan biriyle yapılabilir. Doğadan/çevreden/nesnelerden duyulan seslerin süre özelliklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.1.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.3.1.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan (Örneğin Atatürk ve 29 Ekim Cumhuriyet Bayramı’nı içeren) şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.3.1.5.",
+          "kazanim": "Somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla öğrencilerin ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Doğadan/çevreden/nesnelerden duyulan seslerin süre özelliklerini karşılaştırabilmelerine,müzik eserlerine bedensel hareketlerle eşlik edebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.1.6.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/ eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.2.1.",
+          "kazanim": "İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İstiklâl Marşı’nın başlıca ögelerini sözlü olarak ifade eder.",
+            "b) İstiklâl Marşı’nın başlıca ögeleri arasındaki ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.2.2.",
+          "kazanim": "Telli çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Telli çalgıların özelliklerini ifade eder.",
+            "b) Telli çalgıların özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Telli çalgıların özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.2.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.2.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.2.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.2.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.3.2.1.",
+          "kazanim": "Öğrencilere İstiklâl Marşı’nın başlıca ögelerinin neler olabileceği ile ilgili sorular sorulur (E1.1). İstiklâl Marşı’nın başlıca ögelerini kendi cümleleriyle yorumlamaları istenir (OB1). İstiklâl Marşı’nın millî birlik ve beraberliğimizin ve bağımsızlığımızın başlıca simgelerinden biri olduğuna, sözlerinin Mehmet Akif ERSOY (1873-1936) tarafından yazıldığına ve daha sonra Osman Zeki ÜNGÖR (1880-1958) tarafından bestelendiğine dikkat çekilir (D11.2, D14.3, D15.2, D19.1). Öğrencilerden İstiklâl Marşı’nı oluşturan ögeler ve bu ögeler arasındaki ilişkileri ayrı ayrı ifade etmeleri istenir (KB2.13). Sürece yönelik değerlendirmeler; kısa cevaplı ve açık uçlu sorular, gözlem formu, kontrol listeleri, öz değerlendirme formları gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.3.2.2.",
+          "kazanim": "Öğrencilere telli çalgıların (bağlama, ut, gitar, kanun, mandolin, tambur vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili çalgının alan yazınındaki başlıca eserleri varsa dinletilir, kültürel mirasa katkısı olan başlıca icracıları tanıtılır (SAB9, D15.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. Telli çalgıların özelliklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.2.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Bedenini söylemeye hazır hâle getirebilme, uygun söyleme tekniklerini kullanabilme, eserin müziksel bileşenlerini uygulayabilmelerine yönelik performans görevleri verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.2.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Bedenini söylemeye hazır hâle getirebilme, uygun söyleme tekniklerini kullanabilme, eserin müziksel bileşenlerini uygulayabilmelerine yönelik performans görevleri verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.2.5.",
+          "kazanim": "Somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla öğrencilerin ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Bedenini söylemeye hazır hâle getirebilme, uygun söyleme tekniklerini kullanabilme, eserin müziksel bileşenlerini uygulayabilmelerine yönelik performans görevleri verilebilir."
+        },
+        {
+          "kod": "MÜZ.3.2.6.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.4.1.1.",
+          "kazanim": "İstiklâl Marşı’nı ritmine dikkat ederek söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.1.2.",
+          "kazanim": "Doğadan/çevreden/nesnelerden duyulan seslerin gürlüklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Doğadan/çevreden/nesnelerden duyulan seslerin gürlüklerini ifade eder.",
+            "b) Doğadan/çevreden/nesnelerden duyulan seslerin gürlüklerine ilişkin benzerlikleri ifade eder.",
+            "c) Doğadan/çevreden/nesnelerden duyulan seslerin gürlüklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.1.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.1.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.1.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.1.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.1.1.",
+          "kazanim": "Öğrencilere “Mi minör” tonunda seslendirilmiş İstiklâl Marşı’nın referans kaydı çeşitli dijital materyaller aracılığıyla dinletilir (SAB9). İstiklâl Marşı’nın sözleri ritmik olarak ve üç vuruş sayılması gereken yerler uzatılarak, bütün sınıf tarafından söylenmeye çalışılır (E3.2). Üç vuruşluk heceler için öğrencilere üç kez el çırptırılabilir. Ritmik söyleme çalışmaları yapılırken çeşitli ritim veren vurmalı çalgılar da kullanılabilir. Bu çalışmalar, marşın ritmik biçimde ve üç vuruşluk heceler doğru şekilde söylenene kadar tekrar edilir ve sınıfça söylenmeye devam edilir (E3.2). Öğrencilere, İstiklâl Marşı’nı ritmine dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir. Öğrencilerin marşı seslendirebilmeleri için çevrim içi araçlardan (EBA, Web 2.0 araçları vb.) marş dinletilir (OB2, SAB9). Bu sırada öğrenciler marşı arkadaşlarıyla birlikte söylemeleri için cesaretlendirilir (E1.5). Son olarak öğrencilerden Mi minör tonalitesindeki marşı doğru duruşla, sesini yormadan, müziksel bileşenlerine (söz ve ritim) uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Grup hâlinde yapılan seslendirmelerde öğrencilerin iş birliği içinde olmalarına özen gösterilir (D4.1). Değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi, öz değerlendirme formu gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.4.1.2.",
+          "kazanim": "Öğrencilerin çeşitli araç gereç ve dijital materyaller aracılığıyla doğadan/çevreden/nesnelerden duydukları seslerin gürlüklerini dikkatle dinlemeleri istenir (E3.2). Öğrencilere dinledikleri seslerin gürlüklerinin nasıl olduğu hakkında sorular sorulur (E1.1). Öğrencilerin dinletilen seslerin gürlüklerini (hafif-orta-kuvvetli) fark etmeleri ve kendi cümleleriyle yorumlamaları istenir (OB1). Öğrencilere duydukları seslerin gürlüklerinin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenir. Bu süreçte öğrencilere etkileşimli tahta üzerinden ya da basılı materyallerden faydalanılarak uygun gürlükteki sesi bulmaya yönelik eşleştirme, sürükle bırak vb. eğitsel oyunlar oynatılabilir (OB2). Daha sonra sınıf gruplara ayrılarak bu seslerin gürlüklerinin farklarını belirlemek için bir grubun farklı bir gürlükteki sesi diğer bir grubun da başka bir gürlükteki sesi vermeleri istenebilir. Değerlendirmeler; kısa cevaplı/açık uçlu sorular, gözlem formu gibi araçlardan biriyle yapılabilir. Doğadan/çevreden/nesnelerden duyulan seslerin gürlüklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.4.1.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözdoğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.4.1.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.4.1.5.",
+          "kazanim": "Somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla öğrencilerin ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.4.1.6.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/ eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.4.2.1.",
+          "kazanim": "İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İstiklâl Marşı’nın başlıca ögelerini sözlü olarak ifade eder.",
+            "b) İstiklâl Marşı’nın başlıca ögeleri arasındaki ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.2.2.",
+          "kazanim": "Yaylı çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Yaylı çalgıların özelliklerini ifade eder.",
+            "b) Yaylı çalgıların özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Yaylı çalgıların özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.2.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.2.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.2.5.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.2.6.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.4.2.1.",
+          "kazanim": "Öğrencilere İstiklâl Marşı’nın başlıca ögelerinin neler olabileceği ile ilgili sorular sorulur (E1.1). İstiklâl Marşı’nın başlıca ögelerini kendi cümleleriyle yorumlamaları istenir (OB1). İstiklâl Marşı’nın millî birlik ve beraberliğimizin ve bağımsızlığımızın başlıca simgelerinden biri olduğuna, sözlerinin Mehmet Akif ERSOY (1873-1936) tarafından yazıldığına ve daha sonra Osman Zeki ÜNGÖR (1880-1958) tarafından bestelendiğine, Türkiye Büyük Millet Meclisi’nin 12 Mart 1921 tarihli oturumunda resmen kabul edildiğine dikkat çekilir (D11.2, D14.3, D15.2, D19.1). Öğrencilerden İstiklâl Marşı’nı oluşturan ögeler ve bu ögeler arasındaki ilişkileri ayrı ayrı ifade etmeleri istenir (KB2.13). Sürece yönelik değerlendirmeler; kısa cevaplı/açık uçlu sorular, gözlem formu, kontrol listeleri, öz değerlendirme formları gibi araçlardan biriyle yapılabilir. İstiklâl Marşı’nın başlıca ögelerini çözümleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.4.2.2.",
+          "kazanim": "Öğrencilere yaylı çalgıların (kemençe, kabak kemane, keman, viyola, viyolonsel, kontrbas vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili çalgının alan yazınındaki başlıca eserleri varsa dinletilir, kültürel mirasa katkısı olan başlıca icracıları tanıtılır (SAB9, D15.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, kısa cevaplı/açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. Yaylı çalgıların özelliklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.4.2.3.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Müzik eserlerini söyleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.4.2.4.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.4.2.5.",
+          "kazanim": "Somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla öğrencilerin ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.4.2.6.",
+          "kazanim": "Öğrencilere dijital kaynaklardan yararlanarak halk dansları ile ilgili örnekler izletilir. Öğrencilerden bildikleri bir halk dansını sergilemesi istenir. Öğrencilerin müziğin ritmik (tempo) anlatımına (coşkulu ,hüzünlü vb.) uygun şekilde hareket etmesi sağlanır. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerin yaptıkları çalışmaları sergilemesi istenir. Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun şekilde hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Öğrencilerin yaptıkları çalışmaları sergilemeleri istenir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Bildikleri bir halk dansını performans görevi olarak sergilemeleri istenebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 5,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.5.1.1.",
+          "kazanim": "İstiklâl Marşı’nı ezgisine dikkat ederek söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.1.2.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.1.3.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.1.4.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.1.5.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler. MÜZ. 5.1.6. Müzik yazısını çözümleyebilme",
+            "a) Müzik yazısının parçalarını belirler.",
+            "b) Müzik yazısının parçaları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.1.7.",
+          "kazanim": "Güzel sanatlarla ilgili kavramları sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Güzel sanatlarla ilgili kavramlara ilişkin değişkenleri belirler.",
+            "b) Güzel sanatlarla ilgili kavramları ayrıştırır.",
+            "c) Güzel sanatlarla ilgili kavramları tasnif eder.",
+            "d) Güzel sanatlarla ilgili kavramları etiketler."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.1.1.",
+          "kazanim": "Bu öğrenme çıktısında, öncelikle İstiklâl Marşı’nın yazılma gerekçesine ilişkin tarihî bilgilere yer verilmelidir (D19.1). Öğrencilere “Mi minör” tonunda seslendirilmiş İstiklâl Marşı’nın referans kaydı çeşitli dijital materyaller aracılığıyla dinletilir (SAB9). Marşın ezgisinin doğru biçimde öğrenilebilmesi için marş, öğrencilere ezgisine dikkat edilerek söyletilir. Bu çalışmalar ezgi doğru şekilde söylenene kadar tekrar edilir ve İstiklâl Marşı, ezgisine dikkat edilerek bütün sınıf tarafından söylenmeye çalışılır (E3.2). Öğrencilere, İstiklâl Marşı’nı ezgisine dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri gerektiği belirtilir. Bu duruş öğretmen tarafından gösterilir. Öğrencilerin marşı seslendirebilmeleri için çevrim içi araçlardan (EBA, Web 2.0 araçları vb.) marş dinletilir (OB2, SAB9). Bu sırada öğrenciler, marşı arkadaşlarıyla birlikte söylemeleri için cesaretlendirilir (E1.5). Son olarak öğrencilerden Mi minör tonalitesindeki marşı doğru duruşla, sesini yormadan, müziksel bileşenlerine (söz, ritim, ezgi) uygun olarak söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Grup hâlinde yapılan seslendirmelerde öğrencilerin iş birliği içinde olmalarına özen gösterilir (D4.1, D19.1). Değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. İstiklâl Marşı’nı ezgisine dikkat ederek söyleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.1.2.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. MÜZ 5.1.3. Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan (örneğin: Atatürk ve 29 Ekim Cumhuriyet Bayramı’nı içeren) şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.5.1.4.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, .E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.5.1.5.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Eserin temposuna ve anlatıma uygun bedensel hareketler yapılmasına yönelik performans görevi verilebilir. MÜZ. 5.1.6. Öğrencilere müziği oluşturan sesleri görünür hâle getirebilmek için hangi yazı ve sembollere ihtiyaç olabileceği sorulur (E1.1). Alınan cevaplar doğrultusunda bu yazı ve sembollerin “dizek, sol anahtarı, ölçü, ölçü sayısı, ölçü çizgisi, bitiş çizgisi, 2/4 ölçü sayısı, dörtlük, sekizlik nota ve sus değerleri, re-la arası sesler ve hız terimlerinin andante (yavaş) - moderato (orta hız) - allegro (hızlı)” kavramları olduğuna vurgu yapılır. Nota ve sus değerleri ile ölçü sayısı kavramlarının öğretiminde matematik dersinden yararlanılabilir (örneğin iki sekizlik nota ve sus değeri toplamının bir dörtlük nota ve sus değerine eşit olması vb.). Bu kavramlarla ilgili öğrencilere etkileşimli tahta veya basılı materyal üzerinden benzer yazı, işaret ve kavramları bulma, farklı olanı seçme gibi etkinlikler yaptırılabilir (OB2). Öğrencilerden müzik yazısının ögelerini ve bu ögelerin bir araya gelmesiyle müzik yazısını oluşturduğunu ifade etmeleri istenir (OB1, KB2.13). Değerlendirmeler; gözlem formu, kontrol listesi, kısa cevaplı ve açık uçlu sorular, çoktan seçmeli test gibi araçlardan biriyle yapılabilir. Müzik yazısını çözümleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.1.7.",
+          "kazanim": "Öğrencilere “güzel sanatlar” kavramının ne olduğu sorularak tartışma başlatılır (SDB2.2). Güzel sanatların çeşitli alanlarında hangi sanat etkinlikleri ile karşılaştıklarını (Örneğin sinema, konser, şiir, bale, tiyatro, sergi vb.) kendi cümleleriyle ifade etmeleri istenir (OB1). Daha sonra öğrencilere güzel sanatların; “insanların duygu ve düşüncelerinin estetik bir anlayışla çeşitli yollarla dışa vurumu” olduğu vurgusu yapılır (D7.3). Güzel sanatların işitsel, görsel ve sahne sanatları olarak sınıflandırılabileceği gibi; bu sınıflandırmanın kendi içinde müzik, resim, tiyatro, sinema, heykel, mimari, edebiyat vb. alt sanat alanlarını kapsadığından söz edilir (OB9). Bu sanat dallarının her birinin ülkemizde ve dünyada en tanınan ve kültürel mirasa katkısı olan başlıca örnekleri çeşitli görsel, işitsel ve dijital materyaller aracılığıyla tanıtılır (D15.2, D19.3, OB5). Öğrencilerin bunlara saygı duymaları gerektiği vurgulanır (D14.3). Bu sanatsal örnekleri görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2). Öğrencilerin güzel sanatlarla ilgili yukarıda sıralanan değişkenleri kendi cümleleriyle yorumlamaları istenir (OB1). Daha sonra öğrencilerden bu kavramların her birini ayrıştırmaları, tasnif etmeleri ve etiketlemeleri istenir. Bu öğrenme çıktısına ilişkin değerlendirmeler; öz değerlendirme formu, kontrol listesi, çoktan seçmeli test, kısa cevaplı ve açık uçlu sorular gibi araçlardan biriyle yapılabilir. Güzel sanatlarla ilgili kavramlara ilişkin değişkenleri belirlemelerine, güzel sanatlarla ilgili kavramları ayrıştırmalarına, güzel sanatlarla ilgili kavramları tasnif etmelerine, güzel sanatlarla ilgili kavramları etiketlemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.2.1.",
+          "kazanim": "Atatürk’ün güzel sanatlara verdiği önemi özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Atatürk’ün güzel sanatlara verdiği önemi çözümler.",
+            "b) Atatürk’ün güzel sanatlara verdiği önemi sınıflandırır.",
+            "c) Atatürk’ün güzel sanatlara verdiği önemi yorumlar (Kendi cümleleriyle aktarır.)."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.2.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.3.",
+          "kazanim": "Nefesli çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Nefesli çalgıların özelliklerini ifade eder.",
+            "b) Nefesli çalgıların özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Nefesli çalgıların özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.4.",
+          "kazanim": "Klavyeli çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Klavyeli çalgıların özelliklerini ifade eder.",
+            "b) Klavyeli çalgıların özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Klavyeli çalgıların özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.5.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.6.",
+          "kazanim": "Popüler müzik türlerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Popüler müzik türlerinin özelliklerini ifade eder.",
+            "b) Popüler müzik türlerine ilişkin benzerlikleri ifade eder.",
+            "c) Popüler müzik türlerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.7.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.8.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.5.2.1.",
+          "kazanim": "Öğrencilere Atatürk’ün güzel sanatlar hakkındaki fikirleri ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Alınan cevaplar doğrultusunda öğrencilerin Atatürk’ün güzel sanatlara verdiği önem hakkında çeşitli basılı ve çevrim içi materyaller aracılığıyla (kitaplar, arşivler, anılar vb.) konuyu inceleyip araştırarak çözümlemeleri istenir. Yapılan bu araştırmalarla Atatürk’ün güzel sanatların korunup geliştirilmesi için harcadığı çabalar göz önüne serilir (OB2, D14.3, D15.2, D19.2). Ayrıca araştırıp buldukları ve çözümledikleri bu bilgiler ışığında Atatürk’ün güzel sanatlar hakkındaki fikirlerini sınıflandırmaları istenir (D7.3). Daha sonra öğrencilerden Atatürk’ün bu görüşlerini kendi cümleleri ile sunum yoluyla yorumlamaları istenir. Değerlendirmeler; kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formları gibi araçlardan biriyle yapılabilir. Atatürk’ün güzel sanatlara verdiği önemi özetleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.2.2.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.5.2.3.",
+          "kazanim": "Öğrencilere ağaç ve bakır nefesli çalgıların (zurna, ney, flüt, kaval, tulum, sipsi, klarnet, obua, fagot, trompet, trombon, saksafon, tuba vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4) İlgili çalgının alan yazınındaki başlıca eserleri varsa dinletilir, kültürel mirasa katkısı olan başlıca icracıları tanıtılır (SAB9, D15.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra öğrencilerin bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. Nefesli çalgıların özelliklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.2.4.",
+          "kazanim": "Öğrencilere klavyeli (tuşlu) çalgıların (piyano, org, melodika, akordeon vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili çalgının alan yazınındaki başlıca eserleri varsa dinletilir, kültürel mirasa katkısı olan başlıca icracıları tanıtılır (SAB9, D15.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra öğrencilerin bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. Klavyeli çalgıların özelliklerini karşılaştırabilmelerine, yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.2.5.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.5.2.6.",
+          "kazanim": "Öğrencilere ülkemizdeki ve dünyadaki popüler müzik türlerinden (Anadolu Rock, Türkçe sözlü pop, arabesk, caz vb.) örnekler, görsel ve işitsel materyaller aracılığıyla izletilir/dinletilir (SAB9). Daha sonra dinledikleri popüler müzik türlerinin neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu müziklerin onlarda nasıl bir duygu uyandırdığını ifade etmeleri istenir (SDB2.3, OB1). Ardından popüler müzik türlerinin çalgısal, ezgisel ve sözlü niteliklerini pekiştirici eğitsel oyunlar oynanır (SDB1.1, E2.5, E3.8). Ülkemizdeki ve dünyadaki popüler müzik türlerinin başlıca icracılarından ve başlıca eserlerinden kültürel mirasa katkısı olan örnekler çeşitli çevrim içi araçlarla dinletilir (SAB9, OB2, OB5, D15.2, D19.3). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Öğrencilerin dinletilen müzik türlerinin özelliklerini fark etmeleri ve bu özellikleri kendi cümleleriyle yorumlamaları istenir (OB1). Öğrencilere dinledikleri müzik türlerinin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenir. Değerlendirmeler; kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir. Popüler müzik türlerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.5.2.7.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.5.2.8.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Hareketleri uygun bir şekilde yapabilmeleri için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 6,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.6.1.1.",
+          "kazanim": "İstiklâl Marşı’nı nefes yerlerine dikkat ederek söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.1.2.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.1.3.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.1.4.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.1.5.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler. MÜZ. 6.1.6. Müzik yazısını çözümleyebilme",
+            "a) Müzik yazısının parçalarını belirler.",
+            "b) Müzik yazısının parçaları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.1.1.",
+          "kazanim": "Bu öğrenme çıktısında öncelikle İstiklâl Marşı’nın yazılma gerekçesi ile ilgili tarihî bilgilere yer verilmelidir (D19.1). Öğrencilere “Mi minör” tonunda seslendirilmiş İstiklâl Marşı’nın referans kaydı çeşitli dijital materyaller aracılığıyla dinletilir (SAB9). İstiklâl Marşı’nın sözcüklerindeki nefes alma yerleri ve uzatılması gereken heceler öğretmen tarafından öğrencilere uygulamalı olarak gösterilir. Bu nefes yerleri yıldız (*) işaretiyle, üç vuruş sayılarak uzatılması gereken heceler ise altı çizilerek ( ) aşağıda İstiklâl Marşı’nın sözleri üzerinde belirtilmiştir: Korkma, sönmez bu şafaklarda (*) yüzen al sancak; (*) Sönmeden yurdumun üstünde (*) tüten en son ocak. O benim milletimin (*) yıldızıdır, parlayacak; O benimdir, (*) o benim milletimindir ancak (*) Çatma, kurban olayım (*) çehreni ey nazlı hilal! (*) Kahraman ırkıma bir gül ne (*) bu şiddet bu celal? Sana olmaz dökülen (*) kanlarımız sonra helal, Hakkıdır, (*) Hakk’a tapan, milletimin İstiklal. Bu aşamada İstiklâl Marşı önce nefes yerlerine dikkat edilerek, ardından üç vuruş sayılması gereken yerler uzatılarak bütün sınıf tarafından söylenmeye çalışılır (E3.2). Üç vuruşluk heceler için öğrencilere üç kez el çırptırılabilir. Bu çalışmalar nefes alma yerleri ile üç vuruşluk heceler doğru bir şekilde söylenene kadar tekrar edilir. Öğrencilere, İstiklâl Marşı’nı nefes yerlerine dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri gerektiği söylenir. Bu duruş, öğretmen tarafından gösterilir. Öğrencilerin marşı seslendirebilmeleri için çevrim içi araçlardan (EBA, Web 2.0 araçları vb.) marş dinletilir (OB2, SAB9). Bu sırada öğrenciler, marşı arkadaşlarıyla birlikte söylemeleri için cesaretlendirilir (E1.5). Son olarak, öğrencilerden mi minör tonalitesindeki marşı; doğru duruşla, sesini yormadan, nefes alma yerlerine dikkat ederek ve müziksel bileşenlerine (söz, ritim, ezgi) uygun biçimde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Grup hâlinde yapılan seslendirmelerde, öğrencilerin iş birliği içinde olmalarına özen gösterilir (D4.1, D19.1). Değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. İstiklâl Marşı’nı nefes yerlerine dikkat ederek söyleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.6.1.2.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5).Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. MÜZ 6.1.3. Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan (örneğin: Atatürk ve 29 Ekim Cumhuriyet Bayramı’nı içeren) şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.6.1.4.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.6.1.5.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. için öğrenciler öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. MÜZ. 6.1.6. Öğrencilere müziği oluşturan sesleri görünür hâle getirebilmek için hangi yazı ve sembollere ihtiyaç olabileceği sorulur (E1.1). Alınan cevaplar doğrultusunda bu yazı ve sembollerin “birlik, ikilik nota değerleri ve sus değerleri, 4/4 ölçü sayısı, re-si arası sesler, gürlük terimleri piano (hafif)-mezzoforte (orta kuvvet)-forte (kuvvetli)” kavramları olduğuna vurgu yapılır. Nota ve sus değerleri ile ölçü sayısı kavramlarının öğretiminde matematik dersinden yaralanılabilir (Örneğin iki ikilik nota ve sus değeri toplamının bir birlik nota ve sus değerine eşit olması vb.). Bu kavramlarla ilgili öğrencilere etkileşimli tahta veya basılı materyal üzerinden benzer yazı, işaret ve kavramları bulma, farklı olanı seçme gibi etkinlikler yaptırılabilir (OB2). Öğrencilerden müzik yazısının ögelerini ve bu ögelerin bir araya gelmesiyle müzik yazısını oluşturduğunu ifade etmeleri istenir (OB1, KB2.13). Değerlendirmeler; gözlem formu, kontrol listesi, kısa cevaplı ve açık uçlu sorular, çoktan seçmeli test gibi araçlardan biriyle yapılabilir. Müzik yazısının parçalarını ve bu parçalar arasındaki ilişkileri belirlemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.6.2.1.",
+          "kazanim": "Türk müziği türlerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Türk müziği türlerinin özelliklerini ifade eder.",
+            "b) Türk müziği türlerine ilişkin benzerlikleri ifade eder.",
+            "c) Türk müziği türlerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.2.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.3.",
+          "kazanim": "Türk müziği çalgı topluluklarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Türk müziği çalgı topluluklarının özelliklerini ifade eder.",
+            "b) Türk müziği çalgı topluluklarına ilişkin benzerlikleri ifade eder.",
+            "c) Türk müziği çalgı topluluklarına ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.4.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.5.",
+          "kazanim": "Atatürk’ün Türk müziğine verdiği önemi özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Atatürk’ün Türk müziğine verdiği verdiği önemi çözümler.",
+            "b) Atatürk’ün Türk müziğine verdiği verdiği önemi sınıflandırır.",
+            "c) Atatürk’ün Türk müziğine verdiği önemi yorumlar (Kendi cümleleriyle aktarır.)."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.6.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.7.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.6.2.1.",
+          "kazanim": "Öğrencilere Ülkemizin değişik yörelerinde seslendirilen farklı Türk halk müziği formlarından kırık hava/uzun hava “bozlak, horon, teke, zeybek vb.”; sözlü Türk sanat müziği formlarından “şarkı, gazel vb.” ile sözsüz Türk sanat müziği formlarından “taksim, peşrev, saz semaisi, fasıl, oyun havası vb.”; tasavvuf müziği formlarından “ilahi, sema, semah, kaside vb.”; askerî müzik formlarından “mehter, bando vb.” örnekler, görsel ve işitsel materyaller aracılığıyla izletilir/ dinletilir (SAB9). Daha sonra dinledikleri Türk müziği türlerinin neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu müziklerin onlarda nasıl bir duygu uyandırdığını ifade etmeleri istenir (SDB2.3, OB1). Ardından Türk müziği türlerinin çalgısal, ezgisel ve sözlü formlarını pekiştirici eğitsel oyunlar oynanır (SDB1.1., E2.5, E3.8). Ayrıca drama yöntemi kullanılarak türkülerin hikâyeleri canlandırılır. Bu türlerin başlıca icracılarından ve başlıca eserlerinden kültürel mirasa katkısı olan örnekler çeşitli çevrim içi araçlarla dinletilir (SAB9, OB2, OB5, D15.2, D19.3). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Öğrencilerin dinletilen müzik türlerinin özelliklerini fark etmeleri ve kendi cümleleriyle yorumlamaları istenir (OB1). Öğrencilere dinledikleri bu türlerin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenir. Değerlendirmeler; kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir. Türk müziği türlerini ve Türk müziği çalgı topluluklarını karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.6.2.2.",
+          "kazanim": "Öğrencilerden söylenecek Türk halk müziği,Türk sanat müziği, tasavvuf müziği, askerî müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.6.2.3.",
+          "kazanim": "Öğrencilere Türk halk müziğinde kullanılan başlıca çalgıların (bağlama, cura, divan sazı, tar, kabak kemane, kemençe, zurna, kaval, tulum, mey, sipsi, davul, darbuka, def vb.); Türk sanat müziğinde kullanılan başlıca çalgıların (ud, kanun, keman, tambur, klarnet, ney, klasik kemençe, darbuka, def vb.); tasavvuf müziğinde kullanılan çalgıların (ney, kudüm, rebap, bendir vb.); askerî müzikte kullanılan çalgıların (mehter takımı için: kudüm, nakkare, zurna, kös, davul, zil vb. ile bando takımı için: flüt, obua, klarnet, fagot, saksafon, korno, trompet, tuba, trampet, davul, zil vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgı topluluklarının özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgı toplulukları soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Çalgı topluluklarını görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2,OB4). İlgili çalgı topluluklarının alan yazınındaki başlıca eserleri dinletilir, kültürel mirasa katkısı olan başlıca topluluklar tanıtılır (SAB9, D15.2, D19.3, OB5). Öğrencilerin bunlara saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra bu çalgı topluluklarının özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. MÜZ 6.2.4. Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.6.2.5.",
+          "kazanim": "Öğrencilere Atatürk’ün Türk müziği hakkındaki fikirleri ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Alınan cevaplar doğrultusunda öğrencilerin Atatürk’ün Türk müziğine verdiği önem hakkında çeşitli basılı ve çevrim içi materyaller aracılığıyla (kitaplar, arşivler, anılar vb.) konuyu inceleyip araştırarak çözümlemeleri istenir. Yapılan bu araştırmalarla Atatürk’ün Türk müziğinin korunup geliştirilmesi için harcadığı çabalar göz önüne serilir (OB2, D14.3, D15.2, D19.2). Ayrıca araştırıp buldukları ve çözümledikleri bu bilgiler ışığında Atatürk’ün Türk müziği hakkındaki fikirlerini sınıflandırmaları istenir. Daha sonra öğrencilerin Atatürk’ün görüşlerini kendi cümleleri ile sunum yoluyla yorumlamaları istenir (D7.3). Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. Atatürk’ün Türk müziğine verdiği önemi özetleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.6.2.6.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ortak repertuvardaki eserleri söyleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.6.2.7.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Bunun yanı sıra öğrenciler eğer var ise daha önce öğrenilen türkülerin “halk oyunları” ile ilgili bedensel hareketleri uygun bir şekilde yapabilmeleri için öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 7,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.7.1.1.",
+          "kazanim": "İstiklâl Marşı’nı gürlük basamaklarına dikkat ederek söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.1.2.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.1.3.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.1.4.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.1.5.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler. MÜZ. 7.1.6. Müzik yazısını çözümleyebilme",
+            "a) Müzik yazısının parçalarını belirler.",
+            "b) Müzik yazısının parçaları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.1.1.",
+          "kazanim": "Bu öğrenme çıktısında öncelikle İstiklâl Marşı’nın yazılma gerekçesi ile ilgili tarihi bilgilere yer verilmelidir (D19.1). Öğrencilere “Mi minör” tonunda seslendirilmiş İstiklâl Marşı’nın referans kaydı çeşitli dijital materyaller aracılığıyla dinletilir (SAB9). Marş, daha önce öğretilen gürlük basamaklarına dikkat edilerek öğrencilere söyletilir. Bu çalışmalar, gürlük basamakları doğru biçimde uygulanana kadar tekrar edilir ve İstiklâl Marşı, bu basamaklara dikkat edilerek sınıfla birlikte söylenmeye çalışılır (E3.2). Öğrencilere, İstiklâl Marşı’nı gürlük basamaklarına dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri gerektiği belirtilir. Bu duruş, öğretmen tarafından gösterilir. Öğrencilerin marşı seslendirebilmeleri için çevrim içi araçlardan (EBA, Web 2.0 araçları vb.) yararlanılarak marş dinletilir (OB2, SAB9). Bu sırada öğrenciler, marşı arkadaşlarıyla birlikte söylemeleri için cesaretlendirilir (E1.5). Son olarak, öğrencilerden Mi minör tonalitesindeki marşı; doğru duruşla, sesini yormadan, nefes alma yerlerine dikkat ederek ve müziksel bileşenlerine (söz, ritim, ezgi, gürlük basamakları) uygun biçimde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Grup hâlinde yapılan seslendirmelerde, öğrencilerin iş birliği içinde olmalarına özen gösterilir (D4.1, D19.1). Değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. İstiklâl Marşı’nı gürlük basamaklarına dikkat ederek söyleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.7.1.2.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.1.3.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan (örneğin: Atatürk ve 29 Ekim Cumhuriyet Bayramı’nı içeren) şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.1.4.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.1.5.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Bunun yanı sıra öğrenciler eğer var ise daha önce öğrenilen türkülerin “halk oyunları” ile ilgili bedensel hareketleri uygun bir şekilde yapabilmeleri için öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. MÜZ. 7.1.6. Öğrencilere müziği oluşturan sesleri görünür hâle getirebilmek için hangi yazı ve sembollere ihtiyaç olabileceği sorulur (E1.1). Alınan cevaplar doğrultusunda bu yazı ve sembollerin “3/4 ölçü sayısı, onaltılık nota ve sus değeri, uzatma noktası, do1-do2 arası sesler, tekrar işareti, dolap işareti” kavramları olduğuna vurgu yapılır. Nota ve sus değerleri ile ölçü sayısı kavramlarının öğretiminde matematik dersinden yararlanılabilir (Örneğin iki ikilik nota ve sus değeri toplamının bir birlik nota ve sus değerine eşit olması vb.). Bu kavramlarla ilgili öğrencilere etkileşimli tahta veya basılı materyal üzerinden benzer yazı, işaret ve kavramları bulma, farklı olanı seçme gibi etkinlikler yaptırılabilir (OB2). Öğrencilerden müzik yazısının ögelerini ve bu ögelerin bir araya gelmesiyle müzik yazısını oluşturduğunu ifade etmeleri istenir (OB1, KB2.13). Değerlendirmeler; gözlem formu, kontrol listesi, kısa cevaplı ve açık uçlu sorular, çoktan seçmeli test gibi araçlardan biriyle yapılabilir. parçalarını ve bu parçalar arasındaki ilişkileri belirlemelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.7.2.1.",
+          "kazanim": "Klasik Batı Müziği dönemlerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Klasik Batı Müziği dönemlerinin özelliklerini ifade eder.",
+            "b) Klasik Batı Müziği dönemlerine ilişkin benzerlikleri ifade eder.",
+            "c) Klasik Batı Müziği dönemlerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.2.",
+          "kazanim": "Klasik Batı Müziği topluluklarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Klasik Batı Müziği topluluklarının özelliklerini ifade eder.",
+            "b) Klasik Batı Müziği topluluklarına ilişkin benzerlikleri ifade eder.",
+            "c) Klasik Batı Müziği topluluklarına ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.4.",
+          "kazanim": "İnsan seslerini sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) İnsan seslerine ilişkin değişkenleri belirler.",
+            "b) İnsan seslerini ayrıştırır.",
+            "c) İnsan seslerini tasnif eder. ç) İnsan seslerini etiketler."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.5.",
+          "kazanim": "İnsan ses topluluklarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) İnsan ses topluluklarının özelliklerini ifade eder.",
+            "b) İnsan ses topluluklarına ilişkin benzerlikleri ifade eder.",
+            "c) İnsan ses topluluklarına ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.6.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.7.",
+          "kazanim": "Ülkemizdeki mesleki müzik eğitimi kurumlarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Ülkemizdeki mesleki müzik eğitimi kurumlarının özelliklerini ifade eder.",
+            "b) Ülkemizdeki mesleki müzik eğitimi kurumlarına ilişkin benzerlikleri ifade eder.",
+            "c) Ülkemizdeki mesleki müzik eğitimi kurumlarına ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.8.",
+          "kazanim": "Atatürk’ün müzik eğitimine verdiği önemi özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Atatürk’ün müzik eğitimine verdiği önemi çözümler.",
+            "b) Atatürk’ün müzik eğitimine verdiği önemi sınıflandırır.",
+            "c) Atatürk’ün müzik eğitimine verdiği önemi yorumlar (Kendi cümleleriyle aktarır.)."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.9.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.10.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.7.2.1.",
+          "kazanim": "Öğrencilere Klasik Batı Müziği dönemlerinden (Barok, Klasik, Romantik, Çağdaş) örnekler, görsel ve işitsel materyaller aracılığıyla izletilir/dinletilir (SAB9). Daha sonra dinledikleri örneklerin hangi Klasik Batı Müziği dönemine ait olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu müziklerin onlarda nasıl bir duygu uyandırdığını ifade etmeleri istenir (SDB2.3, OB1). Ardından bu dönemlerin niteliklerini pekiştirici eğitsel oyunlar oynanır (SDB1.1, E2.5, E3.8). Bu dönemlerin başlıca icracılarından ve eserlerinden dünya kültürel mirasına katkısı olan örnekler çeşitli çevrim içi araçlarla dinletilir (SAB9, OB2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Öğrencilerin dinledikleri dönemi yansıtan müziklerin özelliklerini fark etmeleri ve kendi cümleleriyle yorumlamaları istenir (OB1). hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenir. Değerlendirmeler performans görevi, kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir. Klasik Batı Müziği dönemlerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.7.2.2.",
+          "kazanim": "Öğrencilere Klasik Batı Müziği topluluklarının (duo, trio, kuartet, oda müziği, senfonik orkestra, eşlikli ve eşliksiz korolar vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu toplulukların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan müzik toplulukları soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Toplulukları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili müzik topluluklarının alan yazınındaki başlıca eserleri dinletilir, kültürel mirasa katkısı olan başlıca topluluklar tanıtılır (SAB9, OB5). Öğrencilerin bunlara saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra bu müzik topluluklarının özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. Klasik Batı Müziği topluluklarını karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.7.2.3.",
+          "kazanim": "Öğrencilerden söylenecek Klasik Batı Müziği türleri ve çocuk korolarıyla ilgili seçilecek eser(- ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.2.4.",
+          "kazanim": "Öğrencilere insan sesinin nasıl oluştuğu ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Alınan cevaplar doğrultusunda insan sesinin nasıl oluştuğu hakkında bilgiler verilir. Ses çıkarmada “diyafram nefesinin” önemi açıklanır ve öğrencilere diyafram nefesini kullanabilmeleri için çeşitli etkinlikler (çiçek koklama, köpek soluması vb.) yaptırılır. Daha sonra insan sesinin çocukluktan ergenliğe kadar değişime (mutasyona) uğradığına ve bu dönemlerde ses sağlığının korunmasının önemine vurgu yapılır (D13.4). İnsan seslerinin ince kadın sesi-soprano; kalın kadın sesi-alto; ince erkek sesi-tenor; kalın erkek sesi-bas şeklinde değişkenlerden oluştuğu belirlenir. Bu seslerin özelliklerine dikkat çekebilmek amacıyla işitsel ve çevrim içi araçlardan yararlanılır (OB2). Tanıtılan sesler soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1. E2.5, E3.8). Bu seslerle ilgili kültürel mirasa katkısı olan önemli sanatçılar dinletilir, öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (SAB9, D14.3, OB5). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra öğrencilerden dinletilen insan seslerinin her birini ayrıştırmaları, tasnif etmeleri, cümleleriyle ifade etmeleri istenir (OB1). Değerlendirmeler; gözlem formu, çoktan seçmeli testler, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. İnsan seslerini sınıflandırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.7.2.5.",
+          "kazanim": "Öğrencilere insan ses topluluklarının türleri olan çocuk korosu, gençlik korosu, kadınlar korosu, erkekler korosu, karma koro, eşlikli/eşliksiz (acapella) koro, tek sesli ve çok sesli (polifonik) korolar ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu toplulukların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan ses toplulukları soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1. E2.5, E3.8). Toplulukları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2, OB4). İlgili ses topluluklarının alan yazınındaki başlıca eserleri dinletilir, kültürel mirasa katkısı olan başlıca topluluklar tanıtılır (SAB9, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra öğrencilerin bu toplulukların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, çoktan seçmeli testler, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.2.6.",
+          "kazanim": "Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmentarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.2.7.",
+          "kazanim": "Öğrencilerin ülkemizdeki mesleki müzik eğitimi verilen kurumların neler olabileceği sorusunu yanıtlamaları ve fikirlerini paylaşmaları istenir (SDB2.2, E1.1.). Daha sonra öğrencilere bu kurumların ilköğretim, ortaöğretim ve yükseköğretim düzeylerinde değişiklik gösterdiği; ilköğretim düzeyinde bazı konservatuvarların ortaokul kısımlarında, ortaöğretim düzeyinde güzel sanatlar liselerinde, yükseköğretim düzeyinde ise üniversitelerin eğitim fakülteleri, güzel sanatlar fakülteleri, konservatuvarları ile askerî/bando müzik okulunda verildiğine vurgu yapılır. Tanıtılan müzik okullarıyla ilgili soru-cevap etkinlikleri düzenlenir (SDB1.1, E3.8). Bu okullarda öğrenim görebilmek için ilgili okulun “müzik yetenek sınavını” geçmek gerektiğine vurgu yapılarak müziğe yeteneği ve ilgisi olan öğrenciler bu okullara yönlendirilebilir. Öğrencilerin yakın çevrede bulunan mesleki müzik eğitimi kurumlarını ziyaret etmeleri teşvik edilir (E1.6). Daha sonra öğrencilerin bu kurumların özelliklerini, ayrı sözlü olarak ifade etmeleri istenir. Değerlendirmeler; gözlem formu, çoktan seçmeli testler, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.2.8.",
+          "kazanim": "Öğrencilere Atatürk’ün müzik eğitimine verdiği önem hakkında sorular sorularak konuya dikkatleri çekilir (E1.1). Alınan cevaplar doğrultusunda öğrencilerin Atatürk’ün müzik eğitimine verdiği önem hakkında çeşitli basılı ve çevrim içi materyaller aracılığıyla (kitaplar, arşivler, anılar vb.) konuyu inceleyip araştırarak çözümlemeleri istenir. Yapılan bu araştırmalarla Atatürk’ün cumhuriyetin ilanından sonra ilk kurduğu yükseköğretim kurumunun “Musiki Muallim Mektebi (MMM)” olduğu ve 1 Kasım 1924 yılında kurulduğu belirtilerek kronolojik olarak müzik eğitiminin geliştirilmesi için harcadığı çabalar göz önüne serilir (SBAB1, OB2, D14.3, D15.2, D19.2). Ayrıca araştırıp buldukları ve çözümledikleri bu bilgiler ışığında Atatürk’ün müzik eğitimine verdiği önem hakkındaki fikirlerini sınıflandırmaları istenir. Daha sonra öğrencilerden Atatürk’ün görüşlerini kendi cümleleri ile sunum yoluyla yorumlamaları istenir (D7.3). Değerlendirmeler; kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.2.9.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.7.2.10.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Bunun yanı sıra öğrenciler eğer var ise daha önce öğrenilen türkülerin “halk oyunları” ile ilgili bedensel hareketleri uygun bir şekilde yapabilmeleri için öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        }
+      ]
+    },
+    {
+      "sinif": 8,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MÜZ.8.1.1.",
+          "kazanim": "İstiklâl Marşı’nı tüm bileşenlerine dikkat ederek söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.1.2.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.1.3.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.1.4.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.1.5.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.1.6.",
+          "kazanim": "Ritim kalıpları oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Oluşturacağı ritim kalıbının kullanım amacını belirler.",
+            "b) Ritim kalıbı oluşturmak için gerekli ögeleri seçer.",
+            "c) Seçtiği ögelerle özgün ritim kalıbı oluşturur."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.1.1.",
+          "kazanim": "Bu öğrenme çıktısında öncelikle İstiklâl Marşı’nın yazılma gerekçesi ile ilgili tarihî bilgilere yer verilmelidir (D19.1). Öğrencilere “Mi minör” tonunda seslendirilmiş İstiklâl Marşı’nın referans kaydı çeşitli dijital materyaller aracılığıyla dinletilir (SAB9). İstiklâl Marşı’nın sözcüklerindeki nefes alma yerleri ve uzatılması gereken heceler öğretmen tarafından öğrencilere uygulamalı olarak gösterilir. Nefes alma yerleri yıldız (*) işaretiyle, üç vuruş sayılarak uzatılması gereken heceler ise altı çizilerek ( ) aşağıda İstiklâl Marşı’nın sözleri üzerinde belirtilmiştir: Korkma, sönmez bu şafaklarda (*) yüzen al sancak; (*) Sönmeden yurdumun üstünde (*) tüten en son ocak. O benim milletimin (*) yıldızıdır, parlayacak; O benimdir, (*) o benim milletimindir ancak (*) Çatma, kurban olayım (*) çehreni ey nazlı hilal! (*) Kahraman ırkıma bir gül ne (*) bu şiddet bu celal? Sana olmaz dökülen (*) kanlarımız sonra helal, Hakkıdır, (*) Hakk’a tapan, milletimin İstiklal. Bu aşamada İstiklâl Marşı önce nefes alma yerlerine dikkat edilerek, sonra da üç vuruş sayılması gereken yerler uzatılarak bütün sınıf tarafından söylenmeye çalışılır (E3.2). Üç vuruşluk heceler için öğrencilere üç kez el çırptırılabilir. Bu çalışmalar nefes alma yerleri ile üç vuruşluk heceler doğru bir şekilde söylenene kadar tekrar edilir. Öğrencilere, İstiklâl Marşı’nı tüm bileşenlerine dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir. Öğrencilerin marşı seslendirebilmeleri için çevrim içi araçlardan (EBA, Web 2.0 araçları vb.) yararlanılarak marş dinletilir (OB2, SAB9). Bu sırada öğrenciler, marşı arkadaşlarıyla birlikte söylemeleri için cesaretlendirilir (E1.5). Son olarak, öğrencilerden Mi minör tonalitesindeki marşı; doğru duruşla, sesini yormadan, nefes yerlerine dikkat ederek ve müziksel bileşenlerine (söz, ritim, ezgi, hız ve gürlük basamakları) uygun biçimde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Grup hâlinde yapılan seslendirmelerde, öğrencilerin iş birliği içinde olmalarına özen gösterilir (D4.1, D19.1). Değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi, öz değerlendirme formu gibi araçlardan biriyle yapılabilir. İstiklâl Marşı’nı tüm bileşenlerine dikkat ederek söyleyebilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.8.1.2.",
+          "kazanim": "Öğrencilerden söylenecek okul şarkısı, marş, Türk halk müziği, Türk sanat müziği, pop müzik vb. türlerden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. MÜZ 8.1.3. Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan (örneğin: Atatürk ve 29 Ekim Cumhuriyet Bayramı’nı içeren) şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.1.4.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.1.5.",
+          "kazanim": "Müzik dili temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Bunun yanı sıra öğrenciler eğer var ise daha önce öğrenilen türkülerin “halk oyunları” ile ilgili bedensel hareketleri uygun bir şekilde yapabilmeleri için öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.1.6.",
+          "kazanim": "Öğrenciler tarafından oluşturulacak ritim kalıbının amacı belirlenir. Ritim kalıbı oluşturulurken daha önce öğrenilen birlik, ikilik, dörtlük, sekizlik ve onaltılık nota değerleri ile 2/4, 3/4, 4/4’lük ölçü sayılarından amaca uygun olanlar seçilir. Seçilen ögelerle özgün bir ritim kalıbı oluşturulur. Ardından birkaç deneme yapılarak ritim kalıpları pekiştirilir. Bunun yanı sıra öğrenciler ritim kalıplarını uyumlu bir şekilde oluşturabilmeleri için öğretmen tarafından farklı örnekler gösterilir ve öğrencilerin uygulayabilmeleri için sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden ritim kalıplarına odaklanarak oluşturdukları ritim kalıplarını bireysel/grup olarak sınıfta sergilemeleri istenir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2, D7.2). Grup sergilemesi sırasında dayanışma içinde olmaları sağlanır (D3.4, D4.1). Öğrencilerden oluşturdukları ritim kalıplarını elleriyle vurmaları, bir perküsyon aletiyle çalmaları ya da daha önce öğrendikleri bir şarkıya eşlik etmeleri istenir. Değerlendirmeler; gözlem formu, kontrol listesi, kısa cevaplı ve açık uçlu sorular, çoktan seçmeli test gibi araçlardan biriyle yapılabilir. Öğrencilerin oluşturacağı ritim kalıbının kullanım amacını belirlemelerine, ritim kalıbı oluşturmak için gerekli ögeleri seçebilmelerine, seçtiği ögelerle özgün ritim kalıbı oluşturabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.8.2.1.",
+          "kazanim": "Dünya müziklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Dünya müziklerinin özelliklerini ifade eder.",
+            "b) Dünya müziklerine ilişkin benzerlikleri ifade eder.",
+            "c) Dünya müziklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.2.",
+          "kazanim": "Etnik çalgıların özelliklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Etnik çalgıların özelliklerini ifade eder.",
+            "b) Etnik çalgıların özelliklerine ilişkin benzerlikleri ifade eder.",
+            "c) Etnik çalgıların özelliklerine ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.3.",
+          "kazanim": "Farklı türdeki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.4.",
+          "kazanim": "Müzik teknolojisinde kullanılan donanım ve yazılımları karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Müzik teknolojisinde kullanılan donanım ve yazılımların özelliklerini ifade eder.",
+            "b) Müzik teknolojisinde kullanılan donanım ve yazılımlara ilişkin benzerlikleri ifade eder.",
+            "c) Müzik teknolojisinde kullanılan donanım ve yazılımlara ilişkin farklılıkları ifade eder."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.5.",
+          "kazanim": "Yaşadığı yerdeki müzikle ilgili etkinlikleri gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Yaşadığı yerdeki müzikle ilgili etkinliklerin amaçlarını belirler.",
+            "b) Yaşadığı yerdeki müzikle ilgili etkinliklere yönelik veri toplar.",
+            "c) Yaşadığı yerdeki müzikle ilgili etkinlik verilerini sınıflandırır."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.6.",
+          "kazanim": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.7.",
+          "kazanim": "Atatürk’ün müzikle ilgili hatıralarını özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Atatürk’ün müzikle ilgili hatıralarını çözümler.",
+            "b) Atatürk’ün müzikle ilgili hatıralarını sınıflandırır.",
+            "c) Atatürk’ün müzikle ilgili hatıralarını yorumlar (Kendi cümleleriyle aktarır.)."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.8.",
+          "kazanim": "Ortak repertuvardaki eserleri söyleyebilme",
+          "alt_kazanimlar": [
+            "a) Bedenini söylemeye hazır hâle getirir.",
+            "b) Uygun söyleme tekniklerini kullanır.",
+            "c) Eserin müziksel bileşenlerini uygular."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.9.",
+          "kazanim": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+          "alt_kazanimlar": [
+            "a) Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+            "b) Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+          ]
+        },
+        {
+          "kod": "MÜZ.8.2.1.",
+          "kazanim": "Öğrencilere dünyanın farklı coğrafyalarındaki müziklerinden (Türk Dünyası, Balkan, Arap, Hint, Uzak Doğu, Latin vb.) örnekler, materyaller aracılığıyla izletilir/dinletilir (SAB9). Daha sonra dinledikleri dünya müziklerinin neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu müziklerin onlarda nasıl bir duygu uyandırdığını ifade etmeleri istenebilir (SDB2.3, OB1). Ardından dünya müziklerinin çalgısal, ezgisel ve sözlü niteliklerini pekiştirici eğitsel oyunlar oynanır (SDB1.1, E2.5, E3.8). Bu müziklerin başlıca icracılarından ve eserlerinden dünya kültürel mirasına katkısı olan örnekler çeşitli çevrim içi araçlarla dinletilir (SAB9, D4.5, OB2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Öğrencilerin dinledikleri müziklerin özelliklerini fark etmeleri ve kendi cümleleriyle yorumlamaları istenebilir (OB1). Öğrencilere bu müziklerin benzer ve farklı özellik taşıyıp taşımadıkları hakkında sorular sorulur. Bu özellikleri ayrı ayrı açıklamaları istenebilir. Değerlendirmeler; kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir. Dünya müziklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.8.2.2.",
+          "kazanim": "Öğrencilere dünyanın farklı coğrafyalarında kullanılan etnik çalgıların (dombra, dutara, sitar, bandura, bandoneon, balalayka, santur, buzuki, panflüt, okarina vb.) neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu çalgıların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller kullanılabilir. Tanıtılan çalgılar soru-cevap etkinlikleri (bilgi yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1. E2.5, E3.8). Çalgıları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2,OB4). alan yazındaki başlıca eserleri varsa dinletilir, dünya kültürel mirasına katkısı olan başlıca icracıları tanıtılır (SAB9, D4.5, D15.2, OB5). Öğrencilerin bu eserler ve icracılarına saygı duymaları gerektiği vurgulanır (D14.3). Bu yolla öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra öğrencilerden bu çalgıların özelliklerini, benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenebilir. Değerlendirmeler performans görevi, kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.2.3.",
+          "kazanim": "Öğrencilerden söylenecek etnik müzik türlerinden seçilen eser(ler)i dikkatle dinlemeleri istenir (SAB9, E3.2). Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenebilir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenebilir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenebilir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Etnik çalgıların özelliklerini karşılaştırabilmelerine yönelik performans görevi verilebilir."
+        },
+        {
+          "kod": "MÜZ.8.2.4.",
+          "kazanim": "Öğrencilere müzik teknolojisinde kullanılan cihazların (mikser, mikrofon, hoparlör, amfi, jak, ses kartı, midi klavye, ses monitörü vb.), nota yazım programlarının, mix ve mastering programlarının ve yapay zekâ besteleme programlarının neler olabileceği ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Bu cihazların ve yazılımların özelliklerine dikkat çekebilmek amacıyla görsel ve işitsel materyaller ile okulda bulunan cihazlardan yararlanılır. Tanıtılan cihazlar ve yazılımlar soru-cevap etkinlikleri (beste yarışması, doğru-yanlış oyunları vb.) ile oyunlaştırılır (SDB1.1, E2.5, E3.8). Cihazları görselleştirme sürecinde çevrim içi araçlardan yararlanılır (OB2). Yapay zekâ programları kullanılarak yapılan besteler ile öğrencilerin müzik yaşantıları estetik unsurlarla zenginleştirilir (D7.3). Daha sonra öğrencilerden cihazların ve yazılımların özelliklerini (hangisi hangi amaçla ve nerede kullanılır), benzerliklerini ve farklılıklarını ayrı ayrı sözlü olarak ifade etmeleri istenebilir. Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri, öz değerlendirme formu gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.2.5.",
+          "kazanim": "Öğrencilere yaşadığı yerdeki müzikle ilgili etkinliklerin (konser, festival, dinleti, kına gecesi, düğün vb.) neler olabileceği hakkında sorular sorularak konuya dikkatleri çekilir (E1.1). Bu etkinliklerin hangi amaçlarla yapıldıklarını kendi cümleleriyle yorumlamaları istenebilir (OB1). Bunların somut olmayan kültürel mirasa katkısı olan müzik etkinlikleri olduğu ifade edilir (D19.3, OB1). Öğrencilerin bu etkinliklere katılarak ilgili etkinlikleri gözlemlemeleri ya da çeşitli görsel ve dijital araçlar yoluyla araştırarak bulmaları, ardından kendi ilgi ve tercihlerine uygun olanları seçmeleri ve elde ettikleri verileri sınıflandırarak arkadaşlarıyla paylaşmaları istenebilir (D3.3, OB2). Değerlendirmeler; gözlem formu, kısa cevaplı ve açık uçlu sorular, kontrol listeleri gibi araçlardan biriyle yapılabilir. Yaşadığı yerdeki müzikle ilgili etkinlikleri gözlemleyebilmelerine yönelik performans görevi verilebilir. MÜZ 8.2.6. Öğrencilerin millî kimliklerini tanımalarına olanak sağlayacak belirli gün ve haftaları konu alan şarkı, türkü ve marş türlerinde söyleyecekleri eser(ler)i dikkatle dinlemeleri istenebilir (D11.2, D14.3, D19.2, SAB9, E3.2). Bu tema içerisinde belirli gün ve haftalara denk gelen önemli günlerde farklı eserlerle, farklı etkinlikler yaptırılır. Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenini söylemeye hazır hâle getirmeleri istenebilir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenebilir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada eseri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir ve onlardan belirli gün ve haftalarla ilgili söylenen eserin ruhunu (coşku, hüzün vb.) yansıtmaları beklenir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenebilir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.2.7.",
+          "kazanim": "Öğrencilere Atatürk’ün müzikle ilgili hatıraları ile ilgili sorular sorularak konuya dikkatleri çekilir (E1.1). Alınan cevaplar doğrultusunda öğrencilerin Atatürk’ün Millî Mücadele dönemive sonrasındaki müzik ile ilgili hatıralarını çeşitli basılı ve çevrim içi materyaller aracılığıyla (kitaplar, arşivler, anılar vb.) konuyu inceleyip araştırarak çözümlemeleri istenebilir. Yapılan bu araştırmalarla Millî Mücadele’nin sembollerinden biri olan “Gençlik Marşı’nın” önemi vurgulanır ve zafere ulaşmadaki katkısı göz önüne serilir (OB2, D14.3, D15.2, D19.2). Ayrıca araştırıp buldukları ve çözümledikleri bu bilgiler ışığında Atatürk’ün müzikle ilgili diğer hatıraları hakkındaki fikirleri sınıflandırmaları istenebilir. Daha sonra öğrencilerden Atatürk’ün hatıralarını kendi cümleleri ile sunum yoluyla yorumlamaları istenebilir (D7.3). Değerlendirmeler; kontrol listeleri, öz değerlendirme formu, kısa cevaplı ve açık uçlu sorular, gözlem formu, çoktan seçmeli testler gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.2.8.",
+          "kazanim": "Öğrencilere somut olmayan kültürel mirasın korunmasına olanak sağlamak amacıyla ortak repertuvarda yer alan (Bkz: Ortak repertuvar listesi) şarkı, türkü ve marş türlerindeki eserleri dikkatle dinlemeleri istenebilir (D14.3, D15.2, D19.3, SAB9, E3.2). Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4). Daha sonra öğrencilerden bedenlerini söylemeye hazır hâle getirmeleri istenebilir ve bu sırada çeşitli diyafram ve ses egzersizleri yapılabilir. Ardından eserin sözleri önce öğretmen tarafından söylenir ve öğrencilerin tekrar etmeleri istenebilir. Sözlerin tekrar edilmesinden sonra öğrencilere şarkının nefes yerleri söylenir ve öğrencilerin doğru nefes yerlerinde nefes almaları sağlanır. Bu sırada ortak repertuvardaki eserlerin bütün yurtta söylendiğine özellikle dikkat çekilerek eserleri grup arkadaşları ile söylemeleri için öğrenciler cesaretlendirilir (E1.5). Son olarak, öğrencilerden eserleri grup olarak seslendirirken iş birliği içinde, doğru duruşla, nefes yerlerine odaklanarak ve müziksel bileşenlere uygun şekilde söylemeleri istenebilir (SDB2.1, SDB2.2, E1.4, E3.2, D3.4, D4.1, OB9). Ayrıca eserin ritmik yapısına ya da anlatımına uygun bedensel hareketler bireysel ve grup olarak yapılabilir. Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir."
+        },
+        {
+          "kod": "MÜZ.8.2.9.",
+          "kazanim": "Müzik kültürü temasında öğrenilen müzik eserlerinin ritmik yapısına (tempo) ve anlatımına (coşkulu, hüzünlü vb.) uygun bedensel hareketler öğrenciler tarafından belirlenir. Ardından birkaç deneme yapılarak hareketler pekiştirilir. Bunun yanı sıra öğrenciler eğer var ise daha önce öğrenilen etnik müziklerin dansları (flamenko, tango, vals, sirtaki, salsa, çaça, rumba vb.) ile ilgili bedensel hareketleri uygun bir şekilde yapabilmeleri için öğretmen tarafından sözlü olarak cesaretlendirilir (E1.5). Öğrencilerden hareketlere odaklanarak bireysel/grup hâlinde eserin ritmik yapısına ya da anlamına uygun bedensel hareketleri sergilemeleri istenebilir (KB2.13, E3.2, OB9, SDB2.1, SDB2.2). Eserlere grup olarak bedensel hareketlerle eşlik ederken öğrencilerin dayanışma içinde olmaları sağlanır (D3.4, D4.1). Bu beceriye yönelik bireysel değerlendirmeler; dereceli puanlama anahtarı, gözlem formu, kontrol listesi gibi araçlardan biriyle yapılabilir. Ritmik yapıya/eserin anlamına uygun hareketler belirlemelerine ve sergilemelerine yönelik performans görevi verilebilir."
+        }
+      ]
+    }
+  ]
+}

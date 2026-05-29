@@ -1,0 +1,1073 @@
+[
+  {
+    "kod": "GS.9.1.1",
+    "ad": ". Sanat dalları ile ilgili görsel kılavuz",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "GS.H.1.1",
+    "ad": ". Deyim ve atasözlerini konu alan karikatür tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "GS.H.1.2",
+    "ad": ". Deyim ve atasözlerini konu alan karikatür oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "GS.H.1.3",
+    "ad": ". Kişisel mühür taslağı oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "GS.H.1.4",
+    "ad": ". Kişisel mühür tasarımı oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "GS.H.2.1",
+    "ad": ". Kendi hayal kahramanı ile ilgili karakter tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "GS.H.2.2",
+    "ad": ". Kendi hayal kahramanı ile ilgili karakter oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "GS.H.2.3",
+    "ad": ". Kendi hayal kahramanını üç boyutlu tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "GS.H.2.4",
+    "ad": ". Kendi hayal kahramanını üç boyutlu oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "GS.H.2.5",
+    "ad": ". Bir figürü/objeyi dönüştürme yoluyla sanatsal ürün tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "GS.H.2.6",
+    "ad": ". Bir figürü/objeyi dönüştürme yoluyla sanatsal ürün oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "GS.H.3.1",
+    "ad": ". Müzede konuşan eserler konulu sanatsal ürün tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "GS.H.3.2",
+    "ad": ". Müzede konuşan eserler konulu sanatsal ürün oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "GS.H.3.3",
+    "ad": ". Kültürel miras haritası tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "GS.H.3.4",
+    "ad": ". Kültürel miras haritası oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "GS.H.3.5",
+    "ad": ". Türk el sanatlarından esinlenme yoluyla sanatsal ürün tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "GS.H.3.6",
+    "ad": ". Türk el sanatlarından esinlenme yoluyla sanatsal ürün oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "GS.H.4.1",
+    "ad": ". Müzikal sanatsal yerleştirme çalışması tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.2",
+    "ad": ". Müzikal sanatsal yerleştirme çalışması oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.3",
+    "ad": ". Hazır nesnelerle sanatsal ürün tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.4",
+    "ad": ". Hazır nesnelerle sanatsal ürün oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.5",
+    "ad": ". Foto-kolaj tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.6",
+    "ad": ". Foto-kolaj oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.7",
+    "ad": ". Rozet ve kokart tasarlayabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.H.4.8",
+    "ad": ". Rozet ve kokart oluşturabilme",
+    "sinif": null,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "GS.9.1.2",
+    "ad": ". Sanat dalları ile ilgili görsel kılavuz oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "GS.9.1.3",
+    "ad": ". Kendine mal etme yaklaşımı ile görsel kompozisyon oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "GS.9.2.1",
+    "ad": ". Görsel tasarım öge ve ilkeleri ile sanatsal ürün tasarlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.2",
+    "ad": ". Görsel tasarım öge ve ilkeleri ile sanatsal ürün oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.3",
+    "ad": ". Üç boyutlu geometrik nesnelerin perspektif çizimini tasarlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.4",
+    "ad": ". Üç boyutlu geometrik nesnelerin perspektif çizimini oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.5",
+    "ad": ". Renk armonileri ile sanatsal ürün oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.6",
+    "ad": ". Natürmort çizimi tasarlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.7",
+    "ad": ". Natürmort çizimi oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.8",
+    "ad": ". Yüzey doku ilişkisi ile rölyef tasarlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.2.9",
+    "ad": ". Yüzey doku ilişkisi ile rölyef oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "GS.9.3.1",
+    "ad": ". İslamiyet öncesi Türk sanat eserini sanatsal olarak betimleyebilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.2",
+    "ad": ". İslamiyet öncesi Türk sanat eserini sanatsal olarak çözümleyebilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.3",
+    "ad": ". İslamiyet öncesi Türk sanat eserini sanatsal olarak yorumlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.4",
+    "ad": ". İslamiyet öncesi Türk sanat eseri ile ilgili sanatsal yargıda bulunabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.5",
+    "ad": ". İslamiyet öncesi Türk sanatına özgü motiflerden yararlanarak tekstil deseni",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.6",
+    "ad": ". İslamiyet öncesi Türk sanatına özgü motiflerden yararlanarak tekstil deseni",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.7",
+    "ad": ". Avrupa sanatının Rönesans, Maniyerizm, Barok Dönemleri’ni sanatsal olarak",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.3.8",
+    "ad": ". Avrupa sanatının Rönesans, Maniyerizm, Barok Dönemleri’nden bir eseri nokta,",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "GS.9.4.1",
+    "ad": ". Ekslibris taslağı oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.2",
+    "ad": ". Ekslibris tasarımı oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.3",
+    "ad": ". İllüstrasyon tasarlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.4",
+    "ad": ". İllüstrasyon oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.5",
+    "ad": ". Afiş taslağı oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.6",
+    "ad": ". Afiş tasarımı oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.7",
+    "ad": ". Sanatsal yerleştirme çalışması tasarlayabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.9.4.8",
+    "ad": ". Sanatsal yerleştirme çalışması oluşturabilme",
+    "sinif": 9,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "GS.10.1.1",
+    "ad": ". Plastik sanatların temel özelliklerini özetleyebilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "GS.10.1.2",
+    "ad": ". Plastik sanatlarla ilgili sanatsal ürün tasarlayabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "GS.10.1.3",
+    "ad": ". Plastik sanatlarla ilgili sanatsal ürün oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "GS.10.2.1",
+    "ad": ". İç mekânların perspektif çizimini oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "GS.10.2.2",
+    "ad": ". Dış mekânların perspektif çizimini oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "GS.10.2.3",
+    "ad": ". İnsan figürü çizimi ile ilgili sanatsal ürün tasarlayabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "GS.10.2.4",
+    "ad": ". İnsan figürü çizimi ile ilgili sanatsal ürün oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "GS.10.2.5",
+    "ad": ". Üç boyutlu insan veya hayvan figürü tasarlayabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "GS.10.2.6",
+    "ad": ". Üç boyutlu insan veya hayvan figürü oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "GS.10.3.1",
+    "ad": "Selçuklu Dönemi Türk sanat eserini sanatsal olarak betimleyebilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.2",
+    "ad": ". Selçuklu Dönemi Türk sanat eserini sanatsal olarak çözümleyebilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.3",
+    "ad": ". Selçuklu Dönemi Türk sanat eserini sanatsal olarak yorumlayabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.4",
+    "ad": ". Selçuklu Dönemi Türk sanat eseri ile ilgili sanatsal yargıda bulunabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.5",
+    "ad": ". Selçuklu Dönemi desenleriyle çini motifi tasarlayabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.6",
+    "ad": ". Selçuklu Dönemi desenleriyle çini motifi oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.7",
+    "ad": ". Avrupa sanatının neoklasisizm, romantizm, realizm dönemlerini sanatsal",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.3.8",
+    "ad": ". Avrupa sanatının neoklasisizm, romantizm, realizm dönemlerinden bir eseri",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "GS.10.4.1",
+    "ad": ". Grafiksel kullanıcı arayüzü tasarım taslağı oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "GS.10.4.2",
+    "ad": ". Sosyal medya tasarım taslağı oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "GS.10.4.3",
+    "ad": ". Endüstriyel ürün tasarım taslağı oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "GS.10.4.4",
+    "ad": ". Ben müzesi ile ilgili tasarım taslağı oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "GS.10.4.5",
+    "ad": ". Ben müzesi oluşturabilme",
+    "sinif": 10,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "GS.11.1.1",
+    "ad": ". Sanat ve özgünlük ilişkisini tartışabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "GS.11.1.2",
+    "ad": ". Sanat ve özgünlük konusunda karikatür tasarlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "GS.11.1.3",
+    "ad": ". Sanat ve özgünlük konusunda karikatür oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "GS.11.2.1",
+    "ad": ". Renk ilişkileri ile kompozisyon oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "GS.11.2.2",
+    "ad": ". Belirlenen konuya yönelik kolaj çalışması oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "GS.11.2.3",
+    "ad": ". Portre ile ilgili sanatsal ürün tasarlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "GS.11.2.4",
+    "ad": ". Portre konusunda sanatsal ürün oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "GS.11.2.5",
+    "ad": ". Sözlü ve yazılı kültürümüzdeki karakterlerle ilgili üç boyutlu figür tasarlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "GS.11.2.6",
+    "ad": ". Sözlü ve yazılı kültürümüzdeki karakterlerle ilgili üç boyutlu figür oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "GS.11.3.1",
+    "ad": ". Osmanlı Dönemi Türk sanat eserini sanatsal olarak betimleyebilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.2",
+    "ad": ". Osmanlı Dönemi Türk sanat eserini sanatsal olarak çözümleyebilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.3",
+    "ad": ". Osmanlı Dönemi Türk sanat eserinin eserini sanatsal olarak yorumlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.4",
+    "ad": ". Osmanlı Dönemi Türk sanat eseri ile ilgili sanatsal yargıda bulunabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.5",
+    "ad": ". Osmanlı Dönemi minyatür, hat ve tezhip sanatları ile ilgili sanatsal ürün",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.6",
+    "ad": ". Osmanlı Dönemi minyatür, hat ve tezhip sanatları ile ilgili sanatsal ürün",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.7",
+    "ad": ". Avrupa Sanatının Empresyonizm, ekspresyonizm, kübizm, Dadaizm, sürrealizm",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.8",
+    "ad": ". Avrupa sanatı ile ilgili empresyonizm, ekspresyonizm, kübizm, Dadaizm,",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.3.9",
+    "ad": ". İslam sanatının Türk ve dünya sanatına etkilerini yorumlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "GS.11.4.1",
+    "ad": ". Ambalaj tasarım taslağı oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.11.4.2",
+    "ad": ". Artırılmış gerçeklik uygulama taslağı oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.11.4.3",
+    "ad": ". Özgün baskı resim tasarlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.11.4.4",
+    "ad": ". Özgün baskı resim oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.11.4.5",
+    "ad": ". Işık gölge düzenlemeleri tasarlayabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.11.4.6",
+    "ad": ". Işık gölge düzenlemeleri oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.11.4.7",
+    "ad": ". Animasyon karakteri taslağı oluşturabilme",
+    "sinif": 11,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "GS.12.1.1",
+    "ad": ". Millî kültürümüzü yansıtan yapı ve eserler ile ilgili sanatsal ürün tasarlayabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 106
+  },
+  {
+    "kod": "GS.12.1.2",
+    "ad": ". Görsel sanatlarla ilgili meslekleri karşılaştırabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 106
+  },
+  {
+    "kod": "GS.12.2.1",
+    "ad": ". Çok figürlü çizimlerle kompozisyon oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 109
+  },
+  {
+    "kod": "GS.12.2.2",
+    "ad": ". Renk ilişkileri ile çok figürlü kompozisyon oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 109
+  },
+  {
+    "kod": "GS.12.2.3",
+    "ad": ". Heykel ve çevresel düzenini tasarlayabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 109
+  },
+  {
+    "kod": "GS.12.3.1",
+    "ad": ". Cumhuriyet Dönemi Türk sanat eserini sanatsal olarak betimleyebilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.2",
+    "ad": ". Cumhuriyet Dönemi Türk sanat eserini sanatsal olarak çözümleyebilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.3",
+    "ad": ". Cumhuriyet Dönemi Türk sanat eserini sanatsal olarak yorumlayabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.4",
+    "ad": ". Cumhuriyet Dönemi Türk sanat eseri ile ilgili sanatsal yargıda bulunabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.5",
+    "ad": ". Cumhuriyet Dönemi sanat anlayışı ile ilgili sanatsal ürün tasarlayabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.6",
+    "ad": ". Cumhuriyet Dönemi sanat anlayışı ile ilgili sanatsal ürün oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.7",
+    "ad": ". Türk sanatının tarihsel sürecini özetleyebilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.8",
+    "ad": ". Avrupa sanatında çağdaş sanat akımlarını sanatsal olarak karşılaştırabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.3.9",
+    "ad": ". Avrupa sanatı ile ilgili çağdaş sanat akımlarından bir eseri kompozisyon",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 113
+  },
+  {
+    "kod": "GS.12.4.1",
+    "ad": ". Giyilebilir teknoloji ürünü tasarım taslağı oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 120
+  },
+  {
+    "kod": "GS.12.4.2",
+    "ad": ". Amblem ve logo taslağı oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 120
+  },
+  {
+    "kod": "GS.12.4.3",
+    "ad": ". Yapay zekâ ile amblem ve logo oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 120
+  },
+  {
+    "kod": "GS.12.4.4",
+    "ad": ". Grafiti oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 120
+  },
+  {
+    "kod": "GS.12.4.5",
+    "ad": ". Kısa film taslağı oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 120
+  },
+  {
+    "kod": "GS.12.4.6",
+    "ad": ". Kısa film oluşturabilme",
+    "sinif": 12,
+    "ders": "Görsel Sanatlar",
+    "brans_slug": "gorsel_sanatlar",
+    "kaynak_pdf": "2025912101051975-görsel912.pdf",
+    "kaynak_sayfa": 120
+  }
+]

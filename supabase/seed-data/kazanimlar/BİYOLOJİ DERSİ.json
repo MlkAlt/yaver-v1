@@ -1,0 +1,1173 @@
+{
+  "ders": "BİYOLOJİ DERSİ",
+  "siniflar": [
+    {
+      "sinif": 9,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "1",
+          "alt_kazanimlar": [
+            "a) Biyoloji disiplininde dönüm noktası olarak kabul edilen bilimsel araştırma ve buluşlarla ilgili örnekler [aşı, antibiyotik, DNA’nın yapısı, CrisprCas, kalıtım, klonlama, polimeraz zincir reaksiyonu (PZR), rekombinant DNA teknolojisi, insan genom projesi vb.] paylaşılır. Bu süreçte biyoloji disiplininin gelişiminde önemli katkıları bulunan Türk-İslam bilim insanlarından Akşemseddin’in ve diğer bilim insanlarının çalışmaları örneklendirilir."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.2.",
+          "kazanim": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Bilimsel araştırma süreçlerinde bilimin doğasının özelliklerini inceler.",
+            "b) Bilimsel araştırma süreçlerinde bilimin doğasıyla ilgili elde ettiği bilgileri bağlamdan kopmadan dönüştürür.",
+            "c) Bilimsel araştırma süreçlerinde bilimin doğasıyla ilgili elde ettiği bilgileri anlamı değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.3.",
+          "kazanim": "Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Bilimsel araştırmaların bilim etiğine uygunluğunu tespit edebilmek için kullanacağı araçları belirler.",
+            "b) Belirlediği araçları kullanarak bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgilere ulaşır.",
+            "c) Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili ulaştığı bilgileri doğrular. ç) Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.4.",
+          "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Canlıların özellikleri arasındaki benzerlik ve farklılıkları belirlemek üzere yaptığı gözlemlerden yararlanarak veri toplar ve topladığı verileri kaydeder.",
+            "b) Gözlemlediği canlıların özelliklerindeki farklılıkları ortaya koyar.",
+            "c) Canlıların ortak özelliklerine dair yaptığı gözlemlerin süresini ve sıklığını artırır. ç) Gözlem süresi ve sıklığını artırmasına paralel olarak canlıların ortak özellikleriyle ilgili geçerli açıklamalarda bulunur.",
+            "d) Canlıların ortak özelliklerinden yola çıkarak virüslerin canlı veya cansız olarak sınıflandırılmama nedenlerini açıklar."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.5.",
+          "kazanim": "Canlıları sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Canlıları sınıflandırmak için kullanacağı nitelikleri belirler.",
+            "b) Belirlediği/tanımladığı niteliklere göre canlıları ayrıştırır.",
+            "c) Ayrıştırdığı canlıları belirli bir başlık altında gruplandırır. ç) Modern sınıflandırmaya göre gruplandırdığı canlılara ilişkin adlandırmalarını bilimdeki karşılığıyla etiketler."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.6.",
+          "kazanim": "Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili bilgilerinden hareketle varsayımda bulunur.",
+            "b) Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili örüntüleri listeler.",
+            "c) Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili karşılaştırma yapar. ç) Üç üst âlem (domain) sisteminde yer alan canlıların özelliklerine ilişkin önerme sunar.",
+            "d) Üç üst âlem (domain) sisteminde yer alan canlıların özelliklerine ilişkin değerlendirme yapar."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.7.",
+          "kazanim": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Biyoçeşitliliği oluşturan unsurların niteliklerini tanımlar.",
+            "b) Belirlediği niteliklerle ilgili topladığı verileri kaydeder.",
+            "c) Biyoçeşitliliği oluşturan unsurların nitelikleriyle ilgili topladığı verileri yorumlar ve değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "1",
+          "alt_kazanimlar": [
+            "a) Biyoloji disiplininde dönüm noktası olarak kabul edilen bilimsel araştırma ve buluşlarla ilgili örnekler [aşı, antibiyotik, DNA’nın yapısı, Crispr-Cas, kalıtım, klonlama, polimeraz zincir reaksiyonu (PZR), rekombinant DNA teknolojisi, insan genom projesi vb.] paylaşılır. Bu süreçte biyoloji disiplininin gelişiminde önemli katkıları bulunan Türk-İslam bilim insanlarından Akşemseddin’in ve diğer bilim insanlarının çalışmaları örneklendirilir. Öğrencilerden bu araştırma ve buluşların insan yaşamına katkılarını farklı bakış açılarıyla değerlendirerek düşüncelerini açıklamaları istenir. Öğrencilerin toplumsal sorunların çözümüne yönelik duyarlı davranması ve sorumluluk alması sağlanır (D5.1, D16.2).",
+            "b) Öğrencilerden biyoloji disiplininde dönüm noktası olarak kabul edilen bilimsel araştırma ve buluşların toplumsal sorunlar için ürettiği çözümler ile ilgili “Ne Biliyorum?, Ne Bilmek İstiyorum?, Ne Öğrendim?” tablosunu doldurmaları istenir. Konuyla ilgili bilgi ihtiyaçlarını fark ederek merak ettikleri soruları sormaları beklenir. Tablonun “Ne Öğrendim?” kısmı bu süreçte doldurulmaz (KB3.3, OB1). c-ç) Biyoloji disiplininde dönüm noktası olarak kabul edilen bilimsel araştırma ve buluşların insan hayatına katkıları konulu büyük grup tartışması planlanır. Öğrencilerden bu tartışmaya katılmak için bilgi toplamaları istenir (OB1). Öğrencilere araştırma yaparken yararlandıkları kaynakları çalışkanlık değerinin bir gereği olarak not etmeleri, elde ettikleri bilgilerin doğruluğunu değerlendirmek için kaynakların güvenilir olup olmadığını belirlemeleri gerektiği hatırlatılır (D3.3).",
+            "d) Öğrencilerden topladıkları bilgiler ışığında bilim insanlarının biyolojiye katkılarını tartışarak çıkarım yapmaları beklenir (OB1). Öğrencilerden “Ne Biliyorum?, Ne Bilmek İstiyorum?, Ne Öğrendim?” tablosunun “Ne Öğrendim?” bölümünü doldurmaları istenir. Konuya ilişkin öğrenmelerini yansıtacak bir öğrenme günlüğü hazırlamaları istenebilir. Öğrencilerin hazırladığı öğrenme günlüğü öğrencinin portfolyosuna eklenebilir ve öğretmen tarafından bütüncül dereceli puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "2 a-b) Öğrencilerden biyoloji disipliniyle ilişkilendirdikleri gözlem ve yaşantılarından, bu disiplinle ilgili merak ettikleri konulardan yola çıkarak grup çalışmasıyla bir problem tespit etmeleri, tespit ettikleri problemle ilgili araştırılabilir bir soru sormaları ve problemin çözümüne ilişkin hipotezler üretmeleri istenir (E3.8, OB7). Fizik ve kimya disiplinlerinde de araştırmacıların benzer biçimde araştırma yaptıklarına dikkat çekilir. Öğrencilere belirledikleri problem ve soru ile ilgili biyoloji alanında bilimsel araştırmalar yapılıp yapılmadığını doğru kaynaklardan araştırmaları konusunda rehberlik edilir (D3.3). Farklı yaklaşımlara dayanan araştırmalar, öğrenciler veya öğretmen tarafından örneklendirilerek öğrencilerin bu araştırmalarda kullanılan bilimsel yöntem basamaklarını incelemeleri sağlanır. Öğrencilerden inceledikleri bilimsel araştırma süreçlerinde bilimin doğasıyla ilgili hangi özellikleri tespit ettiklerini belirtmeleri ve ulaştıkları bilgileri kaydetmeleri istenir (OB1). Bu süreçte öğrencilerden birbirlerinin fikirlerine saygı duymaları, ortak düşünceleri belirlemeleri, farklı fikirler üzerine tartışarak uzlaşmaları ve iş birliği içinde çalışmaları beklenir (SDB2.2).",
+          "alt_kazanimlar": [
+            "c) Öğrencilerden araştırma ve incelemelerinden elde ettikleri sonuçları raporlaştırmaları istenir (OB1). Öğrencilerin raporları, bütüncül dereceli puanlama anahtarı ile puanlanabilir. Öğrencilerden öz değerlendirme ile kendilerini, grup değerlendirmesi ile grup arkadaşlarını değerlendirmeleri istenebilir. Değerlendirmede kullanılacak dereceli puanlama anahtarında “araştırmalarında güvenilir bilimsel kaynakları kullanabilme, elde ettikleri sonuçları doğru ifade edebilme, arkadaşlarını etkin dinleme ve tanımlanan görevleri zamanında yerine getirebilme” ölçütlerine yer verilebilir (D4.2, D14.1, D16.3). Öğrencilerden süreç boyunca neler öğrendiklerini, neleri yaparken zorlandıklarını, neden zorlandıklarını, zorlandıkları konularla baş etmek için hangi yöntemleri kullandıklarını, raporlarını tekrar yazmaları gerekirse hangi noktalara dikkat etmeleri gerektiğini içeren geri bildirimlerini öz değerlendirme formuyla yansıtmaları istenir. Öğrencilerin aldıkları görevleri özveriyle yerine getirmeleri beklenir (SDB1.2, D16.3, D12.2)."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "3 a-b) Biyoloji disiplininde bilimsel araştırmaların bilim etiğine uygunluğunun sorgulandığı örnek olaylar paylaşılır. Öğrencilerden küçük gruplar oluşturmaları, paylaşılan veya kendilerinin belirleyeceği örnek olaylardan birini seçerek seçtikleri olayın bilim etiğine uygunluğu ile ilgili bilgi toplamaları ve bu süreçte birbirlerine duyarlı davranmaları istenir (OB1, D5.1, E3.5). c-ç) Öğrencilerden topladıkları bilgileri içeren bir rapor hazırlamaları ve raporlarını diğer gruplarla paylaşmaları istenir. Rapor hazırlama sürecinin planlı yürütülmesi, sürecin zamanında tamamlanması istenerek çalışkanlık ve sorumluluk değerleri vurgulanır (D3.3, D16.3, OB1). Öğrenciler, rapordaki bilgilerin doğruluğunu farklı ve güvenilir kaynaklardan doğrulamalıdır. Öğrencilerin hazırladığı araştırma raporları, analitik dereceli puanlama anahtarı ile değerlendirilebilir. Dereceli puanlama anahtarındaki değerlendirme basamaklarında “bilginin güvenirliği, üzerinde çalışılan bilimsel araştırmaların bilim etiği ölçütleri kullanılarak doğru değerlendirilip değerlendirilmediği, değerlendirme yapılırken kanıt kullanılıp kullanılmadığı” gibi ölçütlere yer verilebilir."
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "4 a-b) Öğrencilerden çevrelerinde en çok merak ettikleri iki farklı canlının özelliklerini gözlemlemeleri, gözlemleri sonucunda elde ettikleri verileri gözlem formuna kaydetmeleri istenir. Gözlemledikleri canlıların özellikleri arasındaki benzerlik ve farklılıkları keşfetmeleri beklenir. c-ç) Öğrencilerden gözlem süresini ve sıklığını artırmaları, elde ettikleri verileri gözlem formuna kaydetmeleri istenir. Gözlem süresini ve sıklığını artırdıklarında elde ettikleri yeni verileri de gözlem formuna kaydederek canlıların ortak özellikleriyle ilgili gerekli açıklamalarda bulunmaları beklenir. Bu süreçte öğrencilerin kararlı ve istikrarlı davranarak sabır değerini kazanmaları sağlanır (D12.3). Öğrencilerden gözlemledikleri canlıların gözlemlenemeyen canlılık özelliklerine ilişkin tahminlerde bulunmaları ve tahminlerini güvenilir kaynaklardan doğrulamaları istenir (E3.4, D3.3, OB1).",
+          "alt_kazanimlar": [
+            "d) Belgesel, video ve animasyon gibi görsel materyaller kullanılarak öğrencilerden virüslerin yapılarını ve çoğalma mekanizmalarını genel olarak tespit etmeleri istenir (OB4). Bu süreçte virüslerin çeşitlerine, litik ve lizogenik hayat döngüsüne değinilmez. Öğrenciler, canlıların ortak özelliklerinden yola çıkarak virüslerin canlılık ve cansızlık özelliklerini tartışır. Tartışmanın sonunda öğrencilerden virüslerin canlı ve cansızlarla ortak özellikleri konusunda ulaştıkları sonuçları açıklamaları istenir."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "5",
+          "alt_kazanimlar": [
+            "a) Öğretmen tarafından beş veya altı kişilik çalışma grupları oluşturulur. Gruplardan çevrelerinde gördükleri canlıları listelemeleri istenir. Düşün-eşleş-paylaş tekniği kullanılarak öğrencilerin oluşturdukları listeleri birbiriyle paylaşması ve karşılaştırması sağlanır. Öğrencilerden öğretmen rehberliğinde belirleyecekleri dört canlı türüyle ilgili grup çalışması yaparak bilgi toplamaları istenir (OB1). Bu canlıları sınıflandırmak için kullanılacak özellikleri (morfolojik yapıları, yaşam alanları, beslenme farklılıkları vb.) belirlemeleri ve bu özelliklerle ilgili bir gruplama sistemi oluşturmaları istenir. b-c) Öğrencilerden çevrelerinde gördükleri canlıları belirledikleri özelliklere göre ayrıştırmaları ve ayrıştırdıkları canlıları kendi oluşturdukları gruplama sistemine yerleştirmeleri istenir (KB2.9). ç) Öğrencilerden listelerindeki canlıların modern sınıflandırma ölçütlerine göre nasıl sınıflandırıldığını incelemeleri istenir. Bu süreçte “analog organ, homolog organ, ampirik sınıflandırma” terim ve kavramları verilmez. Öğrenciler, kendi gruplama sistemleri aracılığıyla yaptıkları sınıflandırma ile modern sınıflandırmaya göre gruplandırdıkları canlılara ilişkin adlandırmalarını bilimdeki karşılığıyla kıyaslar. Canlıların günlük yaşamdaki isimleri ile bilimsel isimlerini karşılaştırır (D3.3, E1.1). Bu süreçte canlıların özellikleri aktarılırken “embriyonik gelişim, vücut simetrisi, organların kökenleri, boşaltım ürünleri” kavramları verilmez. Öğrencilerin canlıların benzerlik ve farklılıklarının belirlenmesine yönelik ölçütler oluşturarak sınıflama ve ayrıştırma yapmalarını sağlamak amacıyla tanılayıcı dallanmış ağaç kullanılabilir. Tanılayıcı dallanmış ağaç, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "6 a-b) Öğrencilere üç üst âlem (domain) sisteminde yer alan farklı canlı türlerini birbirinden ayıran özelliklerle ilgili bilgiler aktarılır ve farklı canlı türlerinden örnekler verilir. Öğrencilerden örnek verilen canlıların özelliklerinden yola çıkarak bu canlıların hangi domaine ait olduğuna dair varsayımlarda bulunmaları istenir. Bu süreçte üç üst âlem içinde yer alan canlıların birbirinden farklı yönlerini gösteren görsel materyallerden yararlanılır (OB4) ancak histon proteininin görevlerine, yapısal detaylarına ve hücre duvarı yapısından kaynaklanan farklılıklara değinilmez. Öğrencilerden Üç Domaini Birbirinden Ayıran Temel Özellikler başlıklı tabloyu doldurmaları istenir. Tabloya işledikleri bilgilerden hareketle canlıların özelliklerine ilişkin örüntüleri tespit etmeleri ve listelemeleri beklenir (OB7). Bu süreçte bakterilerin, protistlerin, arkelerin, mantarların ve omurgasız canlıların kendi içindeki sınıflandırmasına değinilmez; bu gruplar görsellerle örneklendirilir. Bakterilerin enerji metabolizması, üremesi, genetik bilgi aktarım mekanizmaları verilmez. Bitkilerde damarlı/damarsız bitki, açık-kapalı iletim demeti, çenek ayrımı ve üreme mekanizmasına; omurgasız canlılarda dolaşım sistemleri, iskelet ve üreme çeşitlerine değinilmez. c-ç) Öğrenciler, Üç Domaini Birbirinden Ayıran Özellikler tablosundan elde ettikleri verilerden hareketle üç üst âlem sisteminde yer alan canlıları özellikleri açısından karşılaştırır. Öğrencilerden elde ettikleri bilgileri kullanarak söz konusu canlıların özellikleri ve biyolojik önemleri hakkında önermeler sunmaları istenir.",
+          "alt_kazanimlar": [
+            "d) Öğrencilerden canlıların genel özellikleri hakkında sundukları önermelerin tümünün yer aldığı ve sınıfın ortak değerlendirmesini yansıtan bir rapor hazırlamaları istenebilir. Rapor hazırlama sürecinde planlı ve düzenli çalışmaları istenerek öğrencilerin çalışkanlık değerini kazanmaları desteklenir (D3.2). Rapor, sınıf/okul panosunda paylaşılır veya okul gazetesinde yayımlanır (OB7). Kullanılan bilgi kaynaklarının raporda belirtilmesi gerektiği vurgulanır. Öğrenciler, raporlarında yer alan önermelerini kendi yaşamlarıyla ilişkilendirir."
+          ]
+        },
+        {
+          "kod": "BİY.9.1.",
+          "kazanim": "7",
+          "alt_kazanimlar": [
+            "a) Biyoçeşitliliği oluşturan temel unsurlar vurgulanır. Türkiye ve Kuzey Kıbrıs T ü r k C u m h u r i y e t i ’ n d e k i ( K K T C ) z e n g i n v e e ş s i z b i y o l o j i k ç e ş i t l i l i ğ i k o n u a l a n T R T belgesellerinden kesitler izletilebilir; animasyon, video veya fotoğraflar paylaşılabilir. Öğrencilerden izledikleri/gördükleri canlılardan yola çıkarak biyolojik çeşitliliği oluşturan temel unsurları tanımlamaları beklenir (OB4).",
+            "b) Öğrencilerden küçük gruplar oluşturarak Ulusal Biyolojik Çeşitlilik Veritabanı gibi güvenilir kaynaklardan Türkiye’deki biyoçeşitliliği oluşturan unsurlarla ilgili bilgi toplamaları ve elde ettikleri verileri kaydetmeleri istenir (OB1, OB2, OB7, D3.3). Bu süreçte öğrencilerden saygı değerinin gereği olarak grup içinde arkadaşlarını nezaketle dinlemeleri, duygu ve düşüncelerini sözlü olarak ifade etmeleri ve iletişim engellerinin farkına varmaları beklenir (SDB2.1, D14.1).",
+            "c) Öğrencilerden ülkemizde biyoçeşitliliği oluşturan unsurlarla ilgili kaydettikleri verileri yorumlamaları ve değerlendirmeleri istenir. Öğretmen, toplanan verilerin yorumlanması sürecinde veriler arasındaki ilişkilerin nasıl düzenleneceği ve verilerin nasıl analiz edileceği konusunda öğrencilere rehberlik eder (OB7). Her gruptan bir bilgi görseli oluşturması istenir. Bilgi görseli çalışmasına grup üyelerinin her birinin katkıda bulunması beklenir ve grup çalışmalarında herkesin aktif rol almasının çalışkanlık değerinin gereği olduğu hatırlatılır (D3.4)."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.2.",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgilere ulaşmak için kullanacağı araçları belirler.",
+            "b) Belirlediği araçları kullanarak organik moleküllerin yapısı ve çeşitleriyle ilgili bilgilere ulaşır.",
+            "c) Organik moleküllerin yapısı ve çeşitleriyle ilgili ulaştığı bilgileri doğrular. ç) Organik moleküllerin yapısı ve çeşitleriyle ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.3.",
+          "kazanim": "Besinlerin yapısında karbohidrat, yağ ve protein varlığının belirlenmesiyle ilgili deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Besin maddelerinde karbohidrat, yağ ve protein varlığını belirlemek için deney tasarlar.",
+            "b) Tasarladığı deneyde ayraç kullanarak karbohidrat, yağ ve protein analizini yapar."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.4.",
+          "kazanim": "pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme",
+          "alt_kazanimlar": [
+            "a) pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney tasarlar.",
+            "b) Tasarladığı deneyde pH ve sıcaklığın enzim aktivitesine etkilerini ölçer ve sonuçların analizini yapar."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.5.",
+          "kazanim": "Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Hücre alt birimlerini ve bu birimlerin görevlerini belirler.",
+            "b) Hücre alt birimlerini ve bunlar arasındaki bütüncül ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.6.",
+          "kazanim": "Hücre zarından madde geçişlerini sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Hücre zarından madde geçişlerine ilişkin nitelikleri belirler.",
+            "b) Hücre zarından madde geçişlerini niteliklerine göre ayrıştırır.",
+            "c) Hücre zarından madde geçişlerini gruplandırır. ç) Gruplandırdığı madde geçiş yöntemlerini adlandırır/etiketler."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.7.",
+          "kazanim": "Küçük moleküllerin hücre zarından pasif geçişi ile ilgili deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Difüzyon ve ozmoz olaylarına ilişkin deney tasarlar.",
+            "b) Difüzyon ve ozmozun günlük hayattaki etkilerini açıklamak için tasarladığı deneyde ölçme ve veri analizi yapar."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.8.",
+          "kazanim": "Hücreden doku, organ ve sistemlerin organizasyonuyla ilgili tümevarımsal akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Hücreden doku, organ ve sistemlerin organizasyonuyla ilgili örüntü bulur.",
+            "b) Oluşturduğu örüntüden yola çıkarak doku, organ ve sistemlerin organizasyonuyla ilgili genellemeler yapar."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "2",
+          "alt_kazanimlar": [
+            "a) Öğrenme-öğretme sürecinde kullanılacak ayrılıp birleşme tekniği kapsamında öğrenci grupları oluşturulur. Grup üyeleri karbohidratlar, yağlar, proteinler, enzimler ve nükleik asitlerin yapıları, genel özellikleri, işlevleri, çeşitleri; vitaminlerin ise sadece çeşitleri ve işlevleri ile ilgili bilgilere ulaşmak için kullanacakları araçları belirler. Öğrencilere araştırma sürecinde üç ve dört karbonlu monosakkaritlere, RNA çeşitlerine, B vitamini çeşitlerine yer vermemeleri gerektiği hatırlatılır. Her grupta aynı organik bileşik üzerinde çalışacak öğrenciler bir araya gelerek yeni bir uzmanlık grubu oluşturur. Grup çalışmasında öğrencilere sorumluluğun, birlikte hareket etmenin, anlayışlı ve nazik olmanın önemi hatırlatılır (SDB2.2, OB1, D4.2, D16.3). b-c) Uzmanlık grupları, ilgili bilgilere ulaşmak için öğretmen rehberliğinde çalışır (E3.1). Gruplardan belirledikleri araçları kullanarak karbohidratlar, yağlar, proteinler, enzimler ve nükleik asitlerin yapıları, genel özellikleri, işlevleri, çeşitleri; vitaminlerin ise sadece çeşitleri ve işlevleri ile ilgili bilgi toplamaları istenir. Bu süreçte enzimlerin isimlendirilmesine, düzenlenme mekanizmalarına, enzim inhibitör ve aktivatörlerine değinilmez. Öğrencilerin edindiği bilgilerden hareketle insan sağlığını önemsemenin sağlıklı yaşam değeri açısından önemi vurgulanır (OB1, D13.4). Gruplar, organik moleküllere ilişkin derledikleri bilgileri güvenilir kaynaklardaki bilgilerle karşılaştırır; yanlış ve doğru bilgileri ayırt eder, yanlışlarını düzelterek doğru bilgiye ulaşır ve ulaştığı bilgileri kaydeder. ç) Öğrenciler, uzmanlık grubunda ilgili bilgilere ulaştıktan sonra esas gruplarına dönerler. Her grup üyesi, ulaştığı bilgilerle diğer grup üyelerini bilgilendirir. Grup çalışması sürecinde öğrencilerin insan ilişkilerinde yapıcı olması ve uyumlu davranması sağlanarak mütevazılık değeri vurgulanır (D10.3). Öğrencilerden ulaştıkları doğru bilgiler hakkında bir bilgi görseli oluşturmaları istenir (OB7). Öğrencilerin oluşturacağı bilgi görseli, puanlama anahtarı ile değerlendirilebilir (E3.7, SDB2.2)."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "3",
+          "alt_kazanimlar": [
+            "a) Karbohidrat, yağ ve proteinlerin varlığını anlamak ve tespit etmek için kullanılan ayraçlar sınıfta veya laboratuvarda tanıtılır. Öğrencilerden bu ayraçları kullanarak farklı besinlerin (ekmek, patates, süt, meyve, yumurta, peynir, nohut, mercimek, zeytinyağı, fındık, fıstık vb.) içeriğinde hangi organik bileşiklerin bulunduğunu niteliksel olarak gözlemlemek üzere deney tasarlamaları istenir (OB7, D3.3, E3.3).",
+            "b) Öğrencilerden tasarladıkları deneyleri küçük gruplara ayrılarak yapmaları istenir. Deney sonunda öğrenciler, içeriğini tespit etmek için kullandıkları besinlerde hangi organik bileşiğin olduğunu analiz ederler (E3.6). Kullandıkları yöntem ya da deneysel hata nedeniyle sonuca ulaşamaz veya yanlış sonuçlara ulaşırlarsa deneyi tekrarlarlar. Bu süreçte öğrencilerden çalışmalarını yaparken sabır değeriyle ilişkili olarak sebat göstermeleri beklenir (E1.3, D12.3, OB7). Gruplar, deney sonuçlarını uygun web araçları aracılığıyla dijital ortamda paylaşır (OB2)."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "4",
+          "alt_kazanimlar": [
+            "a) Öğrencilerden farklı pH ve sıcaklık değerlerinin enzim aktivitesine (katalaz, amilaz, lipaz enzimi vb.) etkisini gösterebilecekleri deney tasarlamaları istenir. Deney sürecinde enzim ve substrat ilişkisinden bahsedilir ancak enzim ve substrat miktarındaki değişikliklerin etkilerine değinilmez.",
+            "b) Öğrencilerden tasarladıkları deneyleri küçük gruplara ayrılarak yapmaları istenir. Öğrencilere deney sürecinde olası hata kaynaklarını en aza indirmek için gerekli tedbirleri almaları hatırlatılır. Deney sonunda öğrenciler, farklı pH ve sıcaklık değerlerinin enzim aktivitesine etkisini analiz ederler (E3.6). Öğrencilerden yaptıkları deneylerden ulaştıkları sonuçları günlük yaşamdan örneklerle (mide asitliğini değiştirebilecek beslenme alışkanlıkları; peynir ve yoğurt mayalanmasında, gıdaların uzun süreli saklanmasında sıcaklığa dikkat edilmesi vb.) açıklamaları istenir (OB7)."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "5 a-b) Mikroskopta hazırlanan örnekler ya da hazır preparatlar kullanılarak prokaryot ve ökaryot hücre örnekleri incelenir. Öğrencilere prokaryot ve ökaryot hücre animasyonları veya videoları izletilebilir. Hücreyi oluşturan alt birimlerin görevlerinin analojilerle somutlaştırıldığı örnekler kullanılabilir. Prokaryot, ökaryot hücre görselleri verilerek öğrencilerden görsellerdeki bilgilerden hareketle hücreyi oluşturan alt birimleri, bu birimlerin görevlerini ve birbiriyle işlevsel ilişkilerini belirlemeleri istenir. Hücreyi oluşturan alt birimlerin yapılarını, görevlerini ve bu birimler arasındaki işlevsel ilişkileri güvenilir kaynaklardan doğrulamaları; bu ilişkileri gösteren bilgi görseli hazırlamaları ve sınıfta konuyla ilgi sunum yapmaları istenir (D.3.3). Sunum yapılırken öğrencilerden birbirlerini dikkatle dinlemeleri, birbirlerinin sözünü kesmemeleri ve varsa sorularını sunum sonunda saygı çerçevesinde sormaları istenir (OB4, D14.1). Fark ettikleri ilişkilerden yola çıkarak hücresel yapıların bütüncül ilişkilerini açıklamaları beklenir (D16.3)."
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "6",
+          "alt_kazanimlar": [
+            "a) Öğrenciler, hücre zarında gerçekleşen madde geçişleriyle ilgili görselleri inceleyerek veya video, animasyon vb. izleyerek madde geçişlerinin niteliklerini (molekül büyüklüğü, enerji kullanımı, molekülün geçiş yönü) öğretmen rehberliğinde ortaya koyar (OB4). b-c) Öğrencilerden hücre zarından madde geçişlerini molekül büyüklüğü, enerji gereksinimi, geçiş yönü, ortamlar arası yoğunluk farkına göre ayrıştırıp gruplandırmaları istenir. Bu süreçte kolaylaştırılmış difüzyon ve ikincil aktif taşıma, simport, antiport kavramlarına değinilmez. ç) Öğrenciler görsel, video veya animasyonlardan elde ettikleri bilgilerle ayrıştırıp gruplandırdıkları taşıma çeşitlerini öğretmenin vereceği bilgi kartlarındaki bilimsel isimlerine göre adlandırır (OB4). Öğrencilerin hücre zarından madde geçişini sınıflandırmalarını sağlamak amacıyla yapılandırılmış grid kullanılabilir. Yapılandırılmış grid, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "7",
+          "alt_kazanimlar": [
+            "a) Suda bekletilen patates, sirke içinde bekletilen yumurta vb. günlük yaşam olaylarında meydana gelen değişimlerin nedeni sorularak merak uyandırılır (E1.1). Gruplara ayrılan öğrencilerden difüzyon ve ozmoz olaylarına ilişkin deney tasarlamaları istenir. Tasarlanan deneyler yapılırken laboratuvar kuralları hatırlatılır. Öğrenciler, deney bulgularının doğruluğunu ve güvenilirliğini etkileyebilecek olumsuz durumlar (aşırı ısıtma, ortamın akışkanlığının değişmesi vb.) için tedbirler alır. Bu süreçte engelleri aşmak için azimli davranmanın önemine dikkat çekilerek sabır değeri vurgulanır. Öğretmen, öğrencileri deneyi tamamlama konusunda motive eder (E3.2, OB7, D3.1, D12.3).",
+            "b) Öğrencilerden yaptıkları deneyin sonuçlarını analiz ederek diyaliz makinesinde kanın temizlenmesi, kuru ortamda sebzelerin buruşması, çiçeğin kokusunun yayılması gibi günlük yaşam olaylarının difüzyon ve ozmozun etkisiyle nasıl gerçekleştiğini açıklamaları beklenir (OB7)."
+          ]
+        },
+        {
+          "kod": "BİY.9.2.",
+          "kazanim": "8",
+          "alt_kazanimlar": [
+            "a) Öğrencilere yüksek yapılı (organizasyonlu) canlıların vücut oluşumunda basitten karmaşığa olan yapılanma örüntüsünü buldurmaya yönelik açık uçlu sorular yöneltilir (E3.4). Görseller kullanılarak öğrencilerin benzer yapı ve işleve sahip hücrelerin dokuyu, dokuların organları, organların sistemleri, sistemlerin ise organizmada homeostaziyi sağlayan ana yapısal bileşenleri oluşturmasına ilişkin örüntüyü bulmalarını sağlayacak sorulara cevap vermeleri beklenir (KB3.3).",
+            "b) Öğrencilerden oluşturdukları örüntüden yola çıkarak organizasyon şemasını oluşturmaları ve farklı canlılar üzerinden genellemeler yapmaları istenir (OB4)."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 10,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "BİY.10.1.2.",
+          "kazanim": "Fotosentez reaksiyonlarıyla ilgili bilimsel model oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Fotosentez reaksiyonlarının işleyişini modeller.",
+            "b) Fotosentez reaksiyonlarının işleyişiyle ilgili gerektiğinde birden fazla model oluşturur.",
+            "c) Fotosentez reaksiyonlarının işleyişiyle ilgili oluşturduğu modeli daha önce oluşturulmuş farklı bilimsel modellerle karşılaştırır. ç) Karşılaştırma sürecinden elde ettiği bilgilerle hangi modeli seçeceğine karar verir."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.3.",
+          "kazanim": "Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Fotosentezde kullanılan ve üretilen maddelerle ilgili deney tasarlar.",
+            "b) Tasarladığı deneyden elde ettiği sonuçların analizini yapar ve bu sonuçları fotosentezi açıklamak için kullanır."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.4.",
+          "kazanim": "Kemosentez hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Kemosentez hakkında bilgiye ulaşmak için kullanacağı araçları belirler.",
+            "b) Belirlediği araçları kullanarak kemosentez ile ilgili bilgilere ulaşır.",
+            "c) Kemosentez ile ilgili ulaştığı bilgileri doğrular. ç) Kemosentez ile ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.5.",
+          "kazanim": "Canlılarda sindirim çeşitlerini ve yapılarını sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Canlılarda sindirim çeşitleri ve yapılarını sınıflandırmak için ölçütler belirler.",
+            "b) Canlılarda sindirim çeşitleri ve yapılarını oluşturduğu ölçütlere göre ayrıştırır.",
+            "c) Canlılarda sindirim çeşitleri ve yapılarını gruplandırır. ç) Canlılarda sindirim çeşitleri ve yapılarını isimlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.6.",
+          "kazanim": "İnsanda enerji eldesi için sindirim, emilim ve taşıma süreçlerinin gerekliliği ile ilgili bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) İnsanda sindirim, emilim ve taşıma süreçlerinin niteliklerini tanımlar.",
+            "b) İnsanda sindirim, emilim ve taşıma süreçlerinin besinlerden enerji eldesi için gerekliliğiyle ilgili bilgileri/verileri toplar ve kaydeder.",
+            "c) İnsanda sindirim, emilim ve taşıma süreçlerinin besinlerden enerji eldesi için gerekliliğiyle ilgili topladığı bilgileri/verileri yorumlar ve değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.7.",
+          "kazanim": "Hücresel solunum reaksiyonlarıyla ilgili bilimsel model oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Hücresel solunum reaksiyonlarının işleyişini modeller.",
+            "b) Hücresel solunum reaksiyonlarının işleyişiyle ilgili gerektiğinde birden fazla model oluşturur.",
+            "c) Hücresel solunum reaksiyonlarının işleyişiyle ilgili oluşturduğu modeli mevcut bilimsel modellerle karşılaştırır. ç) Karşılaştırma sürecinden elde ettiği bilgilerle hangi modeli seçeceğine karar verir."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.8.",
+          "kazanim": "Farklı besin gruplarından enerji eldesi süreçlerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Farklı besin gruplarından enerji eldesi süreçlerine ilişkin özellikleri belirler.",
+            "b) Farklı besin gruplarından enerji eldesi süreçlerine ilişkin benzerlikleri listeler.",
+            "c) Farklı besin gruplarından enerji eldesi süreçlerine ilişkin farklılıkları listeler."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.9.",
+          "kazanim": "Fermantasyon ile ilgili deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Fermantasyon ile ilgili deney tasarlar.",
+            "b) Tasarladığı deneyden elde ettiği sonuçların analizini yapar ve bu sonuçları fermantasyonu açıklamak için kullanır."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.10.",
+          "kazanim": "Besinlerden elde edilen enerjinin canlının metabolik süreçlerine katkısı ile ilgili bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Besinlerden elde edilen enerjinin özelliklerini tanımlar.",
+            "b) Besinlerden elde edilen enerjinin canlının metabolik süreçlerine katkısı ile ilgili bilgileri/verileri toplar ve kaydeder.",
+            "c) Besinlerden elde edilen enerjinin canlının metabolik süreçlerine katkısı ile ilgili topladığı bilgileri/verileri yorumlar ve değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "2 a-b) Öğrencilere fotosentez reaksiyonlarının temel adımlarını gösteren slayt gösterisi veya kısa animasyon/video izletilebilir. Öğrencilerden fotosentezin genel aşamalarını (ışığa bağlı evre, elektron taşıma sistemi, ATP sentezi, suyun parçalanması, ışıktan bağımsız evre, Calvin döngüsü) gösteren bir modeli grup çalışmasıyla oluşturmaları istenir. Öğrenciler diyagram, şema, maket veya etkileşimli görsel iletişim uygulamaları kullanarak tasarladıkları modelleri dijital araçlarla, etkileşimli olarak arkadaşlarıyla paylaşır (OB2). Öğrencilerden gerektiğinde fotosentez reaksiyonları için farklı bakış açılarıyla birden fazla model oluşturmaları istenebilir (E3.3). Bu süreçte pigmentlerin yapı ve çeşitleri, fotofosforilasyon olayının mekanizması, devirli ve devirsiz fotofosforilasyon, fotosistem çeşitleri, Calvin döngüsünün ara basamakları, CAM ve C4 bitkilerinde görülen farklı fotosentez türleri ve fotosenteze etki eden genetik faktörler verilmez. c-ç) Bilim insanlarının geliştirdiği fotosentez reaksiyonu modelleri paylaşılarak öğrencilerden bu modelleri kendi hazırladıkları modellerle karşılaştırmaları istenir. Bu karşılaştırma sayesinde öğrencilerin aynı konuya ilişkin farklı bakış açılarını fark etmeleri sağlanır (E3.10). Öğrenciler, karşılaştırma sonucunda kendi modellerinden hangisinin kabul gören modele en yakın olduğuna karar verir."
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "3 a-b) “Bir bitki fotosentez esnasında hangi maddeleri kullanır ve üretir?” gibi sorularla konuya dikkat çekilir (E1.1). Öğrencilerin fotosentezin gerçekleşme sürecine ilişkin bilgi ihtiyaçlarını fark etmeleri sağlanır. Bilim tarihinde fotosentez ile ilgili yapılan çalışmalara (Jan Baptist van Helmont, Joseph Priestley, Jan Ingenhousz, Melvin Calvin, Robin Hill’in çalışmaları) ilişkin bilgiler verilir. Öğrencilerden bu bilgileri fotosentezde kullanılan ve üretilen maddelere göre yapılandırmaları ve fotosentezle ilgili kontrollü bir deney tasarlamak üzere kullanmaları istenir. Sentezledikleri bilgileri kullanarak tasarladıkları deneylerin amaçları ile bağımlı ve bağımsız değişkenlerini tanımlamaları istenir. Deneylerini grup çalışması ile yapmaları beklenir. Öğrenciler, deneyi gerçekleştirirken dikkatlerini olumsuz etkileyen faktörleri kontrol etmeleri ve deneye devam etmek için isteklerini sürdürmeleri konusunda cesaretlendirilir (SDB1.2, D3.4, D12.3). Öğrenciler, deney sonuçlarının analizini yaparak ulaştıkları sonuçları fotosentez olayı ile ilişkilendirir; elde ettikleri verileri açıklamak için sunum veya rapor hazırlar. Öğrencilerden etkili iletişim becerilerini kullanmaları ve grup arkadaşlarına nazik davranmaları istenerek saygı değeri vurgulanır (D14.1, OB7, E3.7)."
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "4 a-b-c) Öğrencilerden “Işık enerjisi kullanılmadan besin sentezi nasıl gerçekleşir?” sorusuna cevap bulmaları istenir. Öğrenciler, bilgiye ulaşmak için kullanacakları araçları belirler. Öğrencilerden belirledikleri araçları kullanarak kemosentez hakkında araştırma yapmaları, bilgi toplamaları (OB1) ve ulaştıkları bilgileri doğrulamaları istenir. Bu süreçte kemosentez tepkimelerine değinilmez. ç) Öğrencilerden doğruladıkları bilgilere ve telif hakkı olmayan görsellere yer verdikleri bir bilgi görseli hazırlamaları istenir (OB4, E2.2, D3.3). Öğrencilerin oluşturacağı bilgi görseli, analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "5 a-b) “Sindirim nedir?”, “Sindirim nerede ve nasıl gerçekleşir?” gibi sorularla öğrencilerin sindirim konusundaki bilgi ihtiyaçlarını fark etmeleri sağlanır. Görseller kullanılarak öğrencilerden omurgalı canlıların mide ve diş yapılarını karşılaştırmaları, diş çeşitleri ile beslenme arasındaki ilişkiyi sorgulamaları, bağırsak uzunluklarının beslenme tipine göre değişip değişmediğine ilişkin soruları cevaplamaları istenir. Öğrenciler, ulaştıkları bilgiler ışığında canlılarda sindirim çeşitlerini (hücre içi ve hücre dışı sindirim) ve sindirim yapılarını kuş, kurt, inek, insan örnekleri üzerinden sınıflandırmak için ölçütler belirler (SDB1.2). Elde ettikleri bilgileri özetleyerek sindirim çeşitlerini ve yapılarını oluşturdukları ölçütlere (dişlerin yapısı, mide yapısı ve bağırsak uzunluğu) göre ayrıştırır. c-ç) Öğrencilerden tanımladıkları ölçütleri kullanarak canlılarda sindirim çeşitleri ve yapılarını sınıftaki arkadaşlarıyla iş birliği içinde ve saygı çerçevesinde gruplandırmaları istenir (D14.1). Yaptıkları gruplandırmaların bilimsel karşılığını güvenilir kaynaklardan bulmaları ve kendi gruplandırmalarını bilimsel gruplandırmalarla karşılaştırmaları beklenir. Öğrenciler, canlılarda sindirim çeşitlerini ve yapılarını isimlendirir. Öğrencilerden yaptıkları gruplandırmaları konunun daha iyi anlaşılması amacıyla posterle/modelle ya da uygun web araçlarını kullanarak yaratıcılıklarını ortaya koydukları farklı metotlarla sunmaları istenir (OB1, OB2). Öğrencilerin örnek olarak verilen canlılarda sindirim çeşitleri ve sindirimde görevli yapıların özelliklerine yönelik ölçütler oluşturarak sınıflama ve ayrıştırma yapmalarını sağlamak için yapılandırılmış grid kullanılabilir. Yapılandırılmış grid, puanlama anahtarı ile puanlanabilir."
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "6",
+          "alt_kazanimlar": [
+            "a) Öğrenciler gruplara ayrılır. Her gruba “Vücutta su, ilaç, vitamin, karbohidrat, yağ, protein gibi moleküllerin sindirimi, emilimi ve taşınımı nasıl gerçekleşir?”, “Vücutta emilim süreci için hangi adaptasyonlar gelişmiştir?” gibi sorular sorularak öğrencilerin sindirim, emilim ve taşıma süreçlerinin nitelikleriyle ilgili düşünmeleri sağlanır (E1.1). Öğrencilerden bu soruların cevaplarını grup içinde tartışarak sindirim, emilim ve taşıma süreçlerinin niteliklerini tanımlamaları beklenir.",
+            "b) Grup üyelerinden bilim dergileri, bilimsel makaleler gibi güvenilir kaynakları araştırarak besinlerden enerji eldesi için sindirim, emilim ve taşıma süreçlerinin gerekliliğine ilişkin bilgi toplamaları istenir (OB7, D3.3). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Bilgi toplama sürecinde sindirim basamaklarında görev alan enzim ve hormonlar verilmez. Sindirim ürünlerinin dolaşım sistemine katılırken kan ve lenf sisteminde izlediği yol ayrımına değinilmez.",
+            "c) Gruplar, topladıkları bilgileri/verileri grafik, tablo veya diyagram gibi görsel formatlara dönüştürerek verilerin daha anlaşılır hâle gelmesini sağlar. Öğrenciler, bazı bilgi/veri setlerini özetler veya daha anlamlı hâle getirir. Öğretmen; toplanan bilgilerin gruplandırılması, bilgi/veri setlerinin düzenlenmesi ve analiz edilmesi konularında öğrencilere rehberlik edebilir. Öğrencilerden topladıkları ve kaydettikleri bilgilerin hangilerini kullanacaklarına karar vermeleri, bu bilgilerden hareketle emilim ve taşıma süreçleri ile enerji eldesi arasındaki ilişkileri belirlemeleri istenir. Topladıkları bilgileri yorumlamaları ve bu bilgilere dayanarak sindirim sistemi süreçlerinin nasıl çalıştığını değerlendirmeleri beklenir. Öğrencilerin bu süreçlerin vücudun sağlıklı bir şekilde çalışması için neden önemli olduğunu düşünmeleri sağlanır (OB7)."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "7",
+          "alt_kazanimlar": [
+            "a) Öğrencilere hücresel solunum reaksiyonlarının temel adımlarını (glikoliz, piruvatın oksidasyonu, Krebs döngüsü, elektron taşıma sistemi) gösteren bir slayt gösterisi yapılabilir veya kısa bir animasyon/video izletilebilir. Bu süreçte Krebs döngüsü ara reaksiyonlarının detayına değinilmez, sadece karbon sayılarındaki değişim ve ürünlerin çıkışı verilir. Elektron taşıma sisteminde görev alan proteinlerin yapı ve isimleri, kimyasal ozmoz verilmez; süreç sonunda ATP üretildiği vurgulanır. Öğrenciler, grup çalışması ile diyagram, şema, maket veya etkileşimli görsel iletişim uygulamaları kullanarak hücresel solunumun işleyişini gösteren bir model tasarlar.",
+            "b) Öğrencilerden farklı bakış açılarıyla hücresel solunum reaksiyonları hakkında gerektiğinde farklı bir model oluşturmaları istenir. Birden fazla model oluşturulması istenerek konunun daha iyi anlaşılması sağlanır (E3.3). c-ç) Öğrencilerden grup çalışmasıyla oluşturdukları modelleri hücresel solunumla ilgili mevcut bilimsel modellerle ve diğer grupların modelleriyle karşılaştırmaları istenir (E3.10). Öğrencilerin oluşturdukları modelleri değerlendirmeleri ve kendi modellerinden hangisinin genel kabul görmüş modele en yakın olduğu konusunda karar vermeleri sağlanır (KB3.1, E3.4). Bu değerlendirme sürecinde öğrencilerden kendisinin ve arkadaşlarının bakış açıları ve görüşlerini takip etmesi beklenir (SDB1.1). Karşılaştırmalar aracılığıyla hücresel solunum reaksiyonlarının farklı bakış açılarıyla değerlendirilmesi ve anlaşılması sağlanır."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "8",
+          "alt_kazanimlar": [
+            "a) “Besinlerin oksijenli solunumun hangi basamağında tepkimeye gireceği, içeriğindeki organik bileşiğin karbon sayısına bağlı mıdır?”, “Farklı besin monomerleri hücresel solunum tepkimelerine aynı basamaktan katılabilir mi?”, “Hücresel solunumda kullanılan her besin Krebs döngüsüne girer mi?” gibi sorular kullanılarak öğrencilerin farklı besin gruplarından enerji eldesi süreçleriyle ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1, D3.3). Öğrencilerden bu soruların cevapları hakkında bilgi toplamaları beklenir. Topladıkları bilgileri sınıfta tartışarak farklı besin gruplarının hangi hücresel solunum basamağında hücresel solunuma dâhil olduğunu ve bu besin gruplarından enerji eldesi süreçlerine ilişkin özellikleri belirlemeleri istenir. Bu süreçte yağ asitlerinin oksidasyonu (alfa, beta ve omega-oksidasyonu) ve amino asitlerin transdeaminasyonu reaksiyonlarına, farklı monosakkaritlerin (fruktoz, galaktoz, mannoz vb.) glikolize nasıl girdiğine ve oksijensiz solunum kavramına değinilmez. b-c) Öğrenciler, elde ettikleri bilgilerin özetini kullanarak farklı besin gruplarından enerji eldesi süreçlerine ilişkin benzerlik ve farklılıkları listeler (OB1). Öğrencilerden farklı besin gruplarından enerji elde edilmesi süreçlerini karşılaştırabilmeleri için uygun web araçlarıyla yaratıcılıklarını kullanacakları bir sunum oluşturmaları istenebilir (OB2). Öğrencilerin farklı besin gruplarından enerji elde edilmesi süreçlerini benzerlik ve farklılıklarına göre listelemelerini sağlamak amacıyla yapılandırılmış grid kullanılabilir. Yapılandırılmış grid, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "9",
+          "alt_kazanimlar": [
+            "a) “Ekmeğin mayalanması, peynir ve yoğurt üretimi nasıl gerçekleşir?”, “Fermantasyon sürecini etkileyen faktörler nelerdir?” gibi sorularla fermantasyon konusuna dikkat çekilerek öğrencilerin bu konuyla ilgili bilgi ihtiyacını fark etmeleri sağlanır (E1.1). Öğrenciler, gruplar oluşturarak fermantasyon hakkında bilimsel kaynaklardan veya ders kitabından bilgi toplar ve topladıkları bilgileri özetleyerek enerji eldesi açısından yapılandırır. Bu bilgileri fermantasyon ile ilgili deney tasarlamak üzere sentezler (OB1, E3.11) ve fermantasyonla ilgili sınıf/ laboratuvar ortamında yapabilecekleri bir deney tasarlar. Saygı değerinin gereği olarak farklı düşünceler üzerinde uzlaşma sağlayıp hata kaynaklarını ortadan kaldıracak tedbirleri alır (SDB2.2, D14.1).",
+            "b) Gruplardan deney sonuçlarının analizini yaparak fermantasyon ile yoğurdun, peynirin, kefirin ve ekmeğin mayalanması, turşu yapımı vb. arasında ilişki kurmaları ve fermantasyonu açıklamaları istenir. Fermantasyonun insan sağlığı açısından önemi vurgulanarak sağlıklı yaşam değerine dikkat çekilir (D13.1)."
+          ]
+        },
+        {
+          "kod": "BİY.10.1.",
+          "kazanim": "10",
+          "alt_kazanimlar": [
+            "a) “Farklı besinlerden nasıl ve ne kadar enerji elde edilebilir?” sorusu sorularak öğrencilerden enerjinin özelliklerini düşünmeleri istenir. Besin gruplarındaki farklı bileşenlerin besinin enerji değerlerini belirlediği ifade edilir. Öğrencilerden besinlerden elde edilen enerjinin vücuttaki hücresel faaliyetlerin sürdürülmesi, organların çalışması, vücut ısısının korunması ve günlük yaşam aktivitesinin sürdürülmesindeki rolünü açıklamaları beklenir (E1.1).",
+            "b) Öğrencilerden bilim dergileri, bilimsel makaleler gibi güvenilir kaynakları kullanarak besinlerden elde edilen enerjinin canlının metabolik süreçlerine (kas faaliyetleri, biyosentez, sinirsel iletim, aktif taşıma vb.) katkısıyla ilgili bilgi/veri toplamaları ve topladıkları bilgileri/ verileri kaydetmeleri istenir (OB7, D3.3). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrenciler, topladıkları bilgileri öğretmen rehberliğinde tablo, grafik ve diyagram gibi görsel formatlara dönüştürerek daha anlaşılır hâle getirir.",
+            "c) Öğrencilerden topladıkları bilgileri besinlerden elde edilen enerjinin canlıların metabolik süreçlerine etkisini ve katkısını belirlemek üzere yorumlamaları ve değerlendirmeleri beklenir. Hazır ve işlenmiş gıda tüketimi, tek tip besin tüketimi vb.nin metabolizmaya olan etkilerini tartışmaları istenir (SDB2.3)."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.2.",
+          "kazanim": "Komünitelerde ve popülasyonlarda görülen etkileşimleri ve değişimleri sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Komünitelerde ve popülasyonlarda görülen etkileşimleri ve değişimleri tanımlar.",
+            "b) Komünitelerde ve popülasyonlarda görülen etkileşimler ve değişimlerle ilgili sorular sorar.",
+            "c) Komünitelerde ve popülasyonlarda görülen etkileşimler ve değişimlerle ilgili bilgi toplar. ç) Komünitelerde ve popülasyonlarda görülen etkileşimler ve değişimlerle ilgili topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Komünitelerde ve popülasyonlarda görülen etkileşimler ve değişimlerle ilgili topladığı bilgiler üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.3.",
+          "kazanim": "Ekosistemdeki enerji akışıyla ilgili tümevarımsal akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Ekosistemdeki enerji akışıyla ilgili örüntüleri oluşturur.",
+            "b) Oluşturduğu örüntülerden yola çıkarak ekosistemdeki madde ve enerji akışıyla ilgili genelleme yapar."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.4.",
+          "kazanim": "Madde döngüleri ile ilgili bilimsel model oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Madde döngülerinin işleyişini modeller.",
+            "b) Madde döngülerinin işleyişi ile ilgili gerektiğinde birden fazla model oluşturur.",
+            "c) Madde döngülerinin işleyişi ile ilgili oluşturduğu modeli bilimsel modellerle karşılaştırır. ç) Karşılaştırma sürecinde elde ettiği kanıtlarla modelini yeniden yapılandırır."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.5.",
+          "kazanim": "Ekolojik sürdürülebilirliğin önemini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Ekolojik sürdürülebilirliğin önemini inceler.",
+            "b) Ekolojik sürdürülebilirliğin önemini bağlamdan kopmadan dönüştürür.",
+            "c) Ekolojik sürdürülebilirliğin önemini anlamı değiştirmeyecek şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.6.",
+          "kazanim": "Çevresinde sürdürülebilirliği kısıtlayan durumlarla ilgili gözleme dayalı tahmin yapabilme",
+          "alt_kazanimlar": [
+            "a) Çevresinde sürdürülebilirliği kısıtlayan durumları gözlem ve deneyimleriyle ilişkilendirir.",
+            "b) Çevresinde sürdürülebilirliği kısıtlayan durumlara ilişkin çıkarım yapar.",
+            "c) Çevresinde sürdürülebilirliği kısıtlayan durumlara ilişkin yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.7.",
+          "kazanim": "Ekolojik ayak izini küçültebilme yollarını bilimsel olarak sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Ekolojik ayak izini küçültebilme yollarıyla ilgili araştırma sorusu belirler.",
+            "b) Ekolojik ayak izini küçültebilme yollarıyla ilgili araştırma sorusunu cevaplamak için bir tablo/model oluşturur.",
+            "c) Ekolojik ayak izini küçültebilme yollarıyla ilgili araştırma planlar. ç) Ekolojik ayak izini küçültebilme yollarıyla ilgili elde ettiği verileri analiz eder ve yorumlar.",
+            "d) Ekolojik ayak izini küçültebilme yollarıyla ilgili elde ettiği kanıtlara dayalı açıklama yapar ve ekolojik ayak izini küçültebilmeye yönelik çözüm üretir.",
+            "e) Ekolojik ayak izini küçültebilme yollarıyla ilgili elde ettiği bilgileri değerlendirir ve paylaşır."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.8.",
+          "kazanim": "Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemleri sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemlere ilişkin merakını ifade eder.",
+            "b) Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemler ile ilgili sorular sorar.",
+            "c) Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemler ile ilgili bilgi toplar. ç) Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemler ile ilgili topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemler ile ilgili topladığı bilgiler üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.9.",
+          "kazanim": "Çevresinde atık yönetimi konusunda yapılan çalışmalarla ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Çevresinde atık yönetimi konusunda yapılan çalışmalarla ilgili bilgilere ulaşmak için kullanacağı araçları belirler.",
+            "b) Belirlediği araçları kullanarak çevresinde atık yönetimi konusunda yapılan çalışmalarla ilgili bilgilere ulaşır.",
+            "c) Çevresinde atık yönetimi konusunda yapılan çalışmalarla ilgili ulaştığı bilgileri doğrular. ç) Çevresinde atık yönetim konusunda yapılan çalışmalarla ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "2). Ekosistemdeki madde ve enerji akışı konusunda “Enerji” temasıyla ilişki kurulabilir. Termodinamik yasalarına değinilerek fizik dersi ile ilişkilendirme yapılabilir (BİY.10.2.3). Madde döngüleri ve çevre sorunları arasındaki ilişki vurgulanarak çevre sorunlarının günlük yaşamda ve küresel ölçekte coğrafi, ekonomik ve politik etkilerine değinilebilir (BİY.10.2.4). Öğrencilerden günlük hayatlarında sürdürülebilirliği kısıtlayan durumları kendi çevrelerinden örnekler vererek açıklamaları istenebilir (BİY.10.2.6). Gıda ürünlerinin üretilmesi, işlenmesi, taşınması ve bu esnada oluşan atıkların zararsız hâle getirilmesi için yapılması gerekenler örneklendirilebilir; ekolojik ayak izinin günlük yaşamla ilişkisi kurulabilir (BİY.10.2.7). Türkiye’de nesli tükenen canlılarla ilgili görseller sunulabilir; gazete ve dergi haberleri, popüler bilim yazıları paylaşılabilir (BİY.10.2.8). Atıkların toplanma ve depolanma biçimlerinin doğa üzerindeki etkilerine Türkiye ve KKTC’den örnekler verilebilir (BİY.10.2.9)."
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "2 a-b-c) Sınıf ortamında bir doğa belgeseli veya video izletilerek öğrencilerden tür içi ve türler arası etkileşimleri tespit etmeleri istenebilir. Komünite, popülasyon dinamikleri ve süksesyonlarla ilgili çeşitli örnek olaylar verilir. Bu süreçte süksesyon çeşitlerine yer verilmez. Öğrencilerden küçük gruplar hâlinde çalışarak verilen örnek olaylarda gördükleri etkileşim ve değişimleri tanımlamaları ve karşılaştırmaları istenir. Gruplardan örnek olaylardaki komünite ve popülasyonlarda görülen etkileşim ve değişimle ilgili sorular oluşturmaları, oluşturdukları sorularla ilgili araştırma yaparak bilgi toplamaları istenir. ç-d) Öğrencilerin topladıkları bilgilerin doğruluğunu bilimsel kaynaklara başvurarak değerlendirmeleri, komünite ve popülasyonlarda görülen etkileşim ve değişimlerle ilgili çıkarım yapmaları sağlanır. Bu süreçte popülasyonlarda görülen dağılım biçimleri, büyüme ve hayatta kalma eğrilerine değinilmez. Öğrencilerden yaptıkları çıkarımlardan elde ettikleri bilgileri kendi yaşamlarında karşılaştıkları sorunların (nüfus artışı, göç vb.) çözümünde nasıl kullanabileceklerini ifade etmeleri istenir (SDB3.1). Araştırma sonuçlarının gruplar tarafından sınıfta paylaşılması sağlanır. Öğrencilerin paylaşım sürecine etkin olarak katılmasına, birbirinin sözünü kesmemesine ve sözsüz iletişim unsurlarına dikkat etmesine özen gösterilerek saygı değeri vurgulanır (SDB2.1, D14.1). Bireysel olarak zihin haritası çizmeleri istenerek öğrencilerin ekosistemlerdeki etkileşimlerin çok boyutluluğu ve karmaşıklığını fark etmeleri sağlanır. Öğrencilerden komünitelerde ve popülasyonlarda görülen etkileşim ve değişimlere yönelik öğrenme günlüğü hazırlamaları istenebilir. Öğrenme günlüğü; “etkileşim ve değişimi tanımlama, bilgi toplama ve topladığı bilgilerin doğruluğunu değerlendirme, çıkarım yapma” ölçütlerini içeren analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "3",
+          "alt_kazanimlar": [
+            "a) Dersten önce her bir öğrenciden ön öğrenmelerinden yola çıkarak beslenme ilişkileri ve ekosistemlerde enerji akışını gösteren zihin haritası oluşturması istenebilir. Öğrencilere besin zincirlerinin basit görünürlükte olduğu, ekosistem içinde örtüşen çok sayıda besin zincirinin karmaşık besin ağlarını oluşturduğu, besin ağlarının da habitattaki tüm organizmalar arasındaki enerji aktarımını gösterdiği hatırlatılır. Sınıfta farklı türleri (üretici, tüketici, ayrıştırıcı) içeren listeler/kartlar dağıtılır. Öğrencilerden gruplara ayrılmaları ve bu türlerle besin zincirleri oluşturmaları istenir. Besin zincirinde her türün bulunduğu trofik basamak ve bu basamaktaki enerji eldesinin nedenleri hakkında sorular sorulur. Bu süreçte su ekosisteminde besin zinciri, parazit besin zinciri ve biyokütle piramidine değinilmez. Öğrencilerden oluşturdukları besin zincirini açıklamaları, grupça oluşturdukları besin zincirlerini bir araya getirerek besin ağlarına dönüştürmeleri (E3.6) ve besin ağlarındaki ilişki örüntülerini tanımlamaları beklenir.",
+            "b) Gruplardan tanımladıkları örüntüleri kullanarak ekosistemlerdeki enerji akışı hakkında genellemeler yapmaları istenir. Genelleme ve değerlendirme sürecinde çeşitli dijital uygulamalardan yararlanılabilir. Gruplardan yaptıkları genellemelerden hareketle enerji piramidi oluşturmaları, piramidin düzeylerini ve piramitteki organizmaların görevlerini açıklamaları istenir (E3.7). Gruplardan oluşturdukları piramidi diğer gruplarla paylaşmaları ve piramitlerini diğer grupların piramitleriyle karşılaştırmaları beklenir. Öğrencilerden enerji akışıyla ilgili oluşturdukları örüntüleri kullanarak biyolojik birikim kavramını tanımlamaları istenir. Biyolojik birikim ile ilgili kısa videolar izletilir ve örnek olaylar paylaşılır (OB4). Biyolojik birikimin organizmalar üzerindeki etkilerine dikkat çekmek için sorular sorulur. Bir biyolojik birikim sorunu seçilerek öğrencilerden bu soruna çözüm üretmeleri istenir. Öğrencilerin kendi beslenme alışkanlıklarının güvenirliğini sorgulamaları sağlanır. Öğrencilerden yaptıkları çıkarımlar çerçevesinde kendi beslenme alışkanlıkları hakkında düşünmeleri, varsa olumsuz beslenme alışkanlıklarının sonuçlarını tahmin etmeleri ve bu konuda yaşadıkları sorunlara çözüm önerileri üretmeleri istenir (SDB3.3, E2.2, D13.1, OB7)."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "4 a-b) Ekosistemde enerji akışı olduğu gibi maddenin de bir akış hâlinde olduğu, döngüsel olarak çeşitli formlarda ekosistemin cansız ve canlı bileşenleri arasında yer değiştirdiği hatırlatılır. Su, karbon ve azot döngüsünde değişikliklere sebep olan fiziksel, kimyasal ve biyolojik süreçlerle ilgili sorular sorulur. Bu süreçte nitrifikasyon olayında gerçekleşen tepkimelerin kimyasal formüllerine değinilmez. Öğrenciler bilim dergileri, bilimsel makaleler gibi güvenilir kaynakları, söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabını kullanarak madde döngüsü modellerini araştırıp bilgi toplar (OB1). İstasyon tekniği kullanılarak öğrencilerden su, azot ve karbon döngülerinin birden fazla modelini oluşturmaları, oluşturdukları modelleri kullanarak madde döngülerini açıklamaları beklenir. Bu süreçte nitrifikasyon ve denitrifikasyon bakterileri hakkında bilgi verilmez. Azot fiksasyonunda biyotik ve abiyotik fiksasyon kavramlarına değinilmez. c-ç) Öğrenciler, inceledikleri bilimsel içerikli kaynaklarda yer alan madde döngüsü modelleri ile kendi oluşturdukları modelleri karşılaştırır. Karşılaştırmalarında farklılık olduğu tespit edilirse öğrencilerden bu farklılıkların sebeplerinin neler olabileceğini açıklamaları istenir (E1.4). Tespit edilen farklılıkların madde döngülerinin açıklanmasında bilimsel bir hataya sebep olup olmayacağını değerlendirip modellerini yeniden yapılandırmaları beklenir (OB4, E3.3, E3.11)."
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "5 a-b-c) Öğrencilere yenilenebilen ve yenilenemeyen doğal kaynakların ve sürdürülebilirliğin ne olduğu sorulur (E1.1). Öğrencilerden gruplara ayrılarak bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan sürdürülebilirlik hakkında araştırma yapmaları ve bilgi toplamaları istenir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrencilere araştırma yaparken ve bilgi toplarken kişisel bilgilerin gizliliğini korumaya özen göstermeleri gerektiği hatırlatılır (OB2, D8.2). Yenilenebilen ve yenilenemeyen kaynaklara günlük hayatlarından örnekler vermeleri istenerek öğrencilerin bu kaynaklar ile sürdürülebilirliğin ilişkisini kurmaları sağlanır (E3.4, D5.2, D18.3). Öğrencilerden sürdürülebilirliğin önemi hakkındaki duygu ve düşüncelerini kendi ifadeleri ile açıklamaları istenir (OB8). Duygu ve düşüncelerinin benzerlik ve farklılıklarına dikkat çekilerek öğrencilerin bu farklılıkların nedenlerini sorgulamaları sağlanır (SDB1.1)."
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "6 a-b) Öğrencilerden dünyada ve Türkiye’de sürdürülebilirliği kısıtlayan orman yangınları, deniz salyası (müsilaj) gibi olaylarla ilgili gözlem ve deneyimlerini paylaşmaları istenir. Çevre kirliliğine dikkat çekilir. Bu süreçte konuyla ilgili video veya animasyonlar izletilebilir. Öğrencilere sahip oldukları doğal kaynakları kullanırken özenli davranmanın ve bu konuda çevrelerine örnek olmanın önemi hatırlatılır (D17.2, D18.3). Öğrencilere denizlerdeki tanker kazaları sonucu denize karışan petrol ve türevlerinin temizlenmesinde yürütülen biyoremediasyon çalışmaları hakkında araştırma görevi verilir. Öğrencilerden araştırmalarından elde ettikleri bilgileri kullanarak sürdürülebilirliği kısıtlayan diğer olaylar ve bu olaylarda insanın rolü hakkında çıkarımda bulunmaları istenir. İnsanın rolünü çevreye duyarlı olmak ve yaşadığı ülkenin doğal güzelliklerine sahip çıkmak açısından değerlendirmeleri istenerek duyarlılık ve vatanseverlik değerleri vurgulanır (D5.2, D19.4). Çıkarımlarını kendi davranışlarıyla ilişkilendirmeleri beklenir (E3.11). Öğrenciler, yaşantılarında sürdürülebilirliğe katkı sağlayacak davranışlar geliştirebilmeleri için gönüllü faaliyetlere katılmaları konusunda desteklenir. Gönüllü faaliyetlere katılmanın sorumluluk değerinin bir gereği olduğu hatırlatılır (OB6, D16.2).",
+          "alt_kazanimlar": [
+            "c) Öğrencilerden sürdürülebilirliğin canlı çeşitliliği, madde döngüleri, canlılar arası beslenme ilişkilerine etkisi ve sürdürülebilirliğin sağlanamaması durumunda karşılaşılabilecek olumsuzluklar hakkında ulaştıkları sonuçları sunmaları istenir (KB3.3,SDB3.3, OB8, D5.2)."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "7 a-b) Web kaynakları kullanılarak öğrencilere bireysel ekolojik ayak izleri hesaplatılır. Hesaplama sürecinde karbon ve su ayak izi kavramlarına değinilmez. Bu hesaplamalarda öğrencilerden ekolojik ayak izi hesaplanırken nelerin değerlendirildiğini listelemeleri, kendi ekolojik ayak izlerini küçültmek için neler yapabilecekleri konusunda araştırma soruları belirlemeleri istenir. Oluşturdukları araştırma sorularından hareketle ekolojik ayak izini oluşturan etkenlerin etki büyüklüğüne göre sıralandığı tablo hazırlamaları istenir (E3.7). c-ç-d) Öğrencilerden oluşturdukları tablolardan merak ettikleri bir etkeni seçmeleri ve bu etkenin ekolojik ayak izine etkisini azaltmak için araştırma planlamaları istenir. Örneğin “Türkiye, iklim değişikliğine bağlı riskler açısından yüksek riskli bir bölgede yer almaktadır. Artan sıcaklıklar ve değişen yağış örüntüsü neticesinde Türkiye’de su potansiyelinin referans döneme göre azalacağı öngörülmektedir.” bilgisi verilerek öğrencilere suyun başta kentlerde, tarımda ve endüstride olmak üzere akılcı, paylaşımcı, etkin, verimli şekilde ve hakkaniyetle kullanılması ile ilgili araştırma yaptırılır. Öğrencilere araştırma planına uygun olarak bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan bilgi toplama görevi verilir (E2.2, OB1). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır veya konuyla ilgili video/animasyon izletilir. Öğrencilerden topladıkları bilgileri düzenlemeleri, rapor hâline getirmeleri ve raporlarını arkadaşlarına sunmaları istenir. Sunulan raporlardaki önerilerin ekolojik ayak izinin küçültülmesinde etkili bir yöntem olup olmadığı hakkında kanıta dayalı yorumlar yapmaları beklenir (E1.5). Yapılan yorumların doğruluğunu değerlendirerek yeni ve özgün çözüm yolları üretmeleri istenebilir (E3.11).",
+          "alt_kazanimlar": [
+            "e) Üretilen yeni ve özgün çözüm yollarının her öğrenci tarafından sınıfta paylaşılması sağlanır. Bilinçli tüketim alışkanlıklarının benimsenmesinin tasarruf açısından önemi vurgulanır (OB3). Öğrencilere ekolojik ayak izini küçültme konulu broşür hazırlayacakları performans görevi verilebilir. Hazırlanan broşürler, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "8",
+          "alt_kazanimlar": [
+            "a) Öğrencilere Türkiye Yüzyılı vizyonunun gerçekleşmesine katkı sağlayacak referans projeler arasında yer alan “Özel Çevre Koruma Bölgesi İlanı ile Ekosistem Koruma Projeleri” kapsamında “Özel Çevre Koruma Bölgesi” ilan edilen bölgeler tanıtılır. Bu bölgelerin doğal değerleri, ekolojik, sosyokültürel ve ekonomik süreçleri ile biyolojik çeşitliliklerinin tespitine yönelik çalışmaları konu alan bir sunum yapılarak veya belgesel, video ya da animasyon izletilerek doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemlere dikkat çekilir. Öğrencilerden doğal kaynakların ve biyoçeşitliliğin korunmasıyla ilgili uygulamalar hakkında merak ettiklerini ifade etmeleri istenir. Doğadaki tüm canlıların yaşam haklarını savunma ve doğayı koruma, merhamet değeri kapsamında vurgulanır (D9.3).",
+            "b) Öğrencilerden Türkiye, KKTC ve dünyada doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemlerle ilgili merak ettikleri uygulamalardan biri hakkında ‘‘Ne?’’, “Neden?”, “Nasıl?”, “Nerede?”, “Ne zaman?” ve “Kim?” (5N1K) sorularını sormaları istenir (E1.1).",
+            "c) Öğrencilerden sordukları soruları cevaplamak üzere bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan araştırma yapmaları ve bilgi toplamaları istenir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrencilere araştırmalarında kullandıkları kaynaklardan kişisel bilgilerin gizliliğini koruyarak yararlanmaları gerektiği hatırlatılır (D8.2, OB2). ç) Doğal kaynakların ve biyoçeşitliliğin korunmasına ilişkin önlemler hakkında merak ettikleri soruları cevaplamak amacıyla yaptıkları araştırma sonunda öğrencilerden yararlandıkları kaynakların güvenirliğini ve topladıkları bilgilerin doğruluğunu kontrol etmeleri, sordukları soruların cevaplarını içeren bir rapor hazırlamaları istenir. Öğrencilere raporlarında kullandıkları bilgilerin kaynaklarını raporun kaynakça bölümünde ayrıca belirtmeleri gerektiği hatırlatılır (D3.3).",
+            "d) Öğrencilerden raporlarında Türkiye’de ve KKTC’de doğal kaynaklar ile biyoçeşitliliğin, nesli tehlikede olan canlıların korunması için alınan önlemler hakkındaki çıkarımlarına yer vermeleri istenir. Alınan önlemlerin gelecekte topluma ve bilime katkılarını kendi bakış açılarıyla yorumlayarak söz konusu önlemlerin yeterli olup olmadığını vatanseverlik değeri bağlamında tartışmaları beklenir (D19.3, OB8). Öğrencilerin hazırladıkları raporlar; “alınan önlemlere ilişkin merakın ortaya konması, önlemlerle ilgili sorular sorularak cevap niteliğinde bilgiler toplanması, bu bilgilerin doğruluğunun değerlendirilmesi ve çıkarım yapılması” ölçütlerini içeren analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerden araştırma ve rapor hazırlama süreci ile ilgili öz değerlendirme formları doldurmaları ve kendi öğrenme durumlarını geliştirmeye yönelik görüşlerini paylaşmaları istenebilir."
+          ]
+        },
+        {
+          "kod": "BİY.10.2.",
+          "kazanim": "9 a-b) Türkiye Yüzyılı vizyonunun gerçekleşmesine katkı sağlayacak referans projeler arasında yer alan “Sıfır Atık Projesi”yle Türkiye’de %13 olan geri kazanım oranının 2021 yılında %27,2’ye yükseltildiği hatırlatılarak öğrencilerden atığın kaynağında ayrı toplanması, geri kazanımının sağlanması ve geri kazanım oranının yükseltilmesi için neler yapılabileceği konusunda beyin fırtınası yapmaları istenir. Öğrencilere atık yönetimi konusunda sorumlu kurum ve kuruluşların hangileri oldu ğu sorulur. Öğrencilerden yaşadıkları yerde atık yönetimi konusunda sorumlu kurum ve kuruluşlarca (yerel yönetimler, okul idaresi vb.) yapılan çalışmalar hakkında bireysel rapor hazırlamak üzere araştırma yapmaları istenir. Öğrenciler, araştırmalarında bilgi toplamak için kullanacakları araçları (anket, görüşme formu vb.) belirleyerek ilgili kurum ve kuruluş ların çalışmaları hakkında bilgi toplar (OB6).",
+          "alt_kazanimlar": [
+            "c) Öğrencilerden topladıkları bilgilerden yola çıkarak yaşadıkları yerde atık yönetiminden sorumlu kurum ve kuruluşların yaptığı çalışmaları Türkiye’de ve dünyada atık yönetimi konusunda ortaya konan örnek uygulamalarla karşılaştırmaları istenir. Yakın çevrede bulunan bir atık değerlendirme, geri dönüşüm veya bertaraf tesisi varsa bu tesise bir okul gezisi düzenlenir. Söz konusu tesislerin olmadığı durumlarda öğrencilere atık yönetimi içerikli videolar izletilir. Öğrencilerden elde ettikleri bilgileri tesiste gözlemledikleri uygulamalar veya videodan elde ettikleri bilgiler aracılığıyla doğrulamaları istenir. Atık yönetimi uygulamalarının çevreye olan etkileri ve ülke ekonomisine katkıları hatırlatılarak duyarlılık ve temizlik değerleri vurgulanır (OB3, D5.2, D18.3). ç) Öğrencilerden atık yönetimi konusunda ulaştıkları bilgileri çevre duyarlılığını artırmak ve farkındalık oluşturmak için bir proje tasarlamak üzere kaydetmeleri istenir (D16.2). Öğrenciler, atık yönetimi konusunda yürütülen çalışmalara katılmaları yönünde desteklenir (E2.3). Öğrencilere okulları bünyesinde grup çalışmasıyla atık yönetimi konulu proje hazırlamaya yönelik performans görevi verilebilir. Öğrencilerin projeleri, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Öz değerlendirme ve grup değerlendirme yapılabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 11,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "BİY.11.1.2.",
+          "kazanim": "Bitkisel hormonların meyve olgunlaşması ve bitki gelişimindeki etkileri hakkında analojik akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Meyve olgunlaşmasında etilenin, bitki gelişiminde absisik asidin etkilerini deney yaparak gözlemler.",
+            "b) Meyve olgunlaşmasında etilenin, bitki gelişiminde absisik asidin etkilerini tespit eder.",
+            "c) Meyve olgunlaşmasında etilenin, bitki gelişiminde absisik asidin etkilerinin benzerlikleri üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.3.",
+          "kazanim": "Bitkilerdeki tepki mekanizmalarını sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Bitkilerdeki tepki mekanizmalarını belirleyebilmek için durum değişikliği ve yönelim ölçütlerini kullanır.",
+            "b) Bitkilerdeki tepki mekanizmalarını ayrıştırmak için hareketin bir uyaranın yönüne bağlı olup olmadığını belirler.",
+            "c) Bitkilerin oluşturduğu tepkileri uyaranın yönüne bağlı olanlar ve uyaranın yönüne bağlı olmayanlar olarak ayrıştırır. ç) Bitkilerdeki tepki mekanizmalarını gruplandırmak amacıyla “tepkinin uyaranın yönüne bağlı olması ve uyaranın yönüne bağlı olmaması” ölçütlerini belirler.",
+            "d) Tepkileri “uyaranın yönüne bağlı olanlar” ve “uyaranın yönüne bağlı olmayanlar” şeklinde gruplandırır.",
+            "e) Uyaranın yönüne bağlı olan ve uyaranın yönüne bağlı olmayan şeklinde gruplandırdığı tepki çeşitlerini adlandırarak bilimdeki karşılıklarıyla kıyaslar."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.4.",
+          "kazanim": "Bitkilerde yönelme hareketlerini gözlemleyebileceği deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Bitkilerde yönelme hareketlerini gözlemleyebileceği bir deney tasarlar.",
+            "b) Tasarladığı deneyden elde ettiği sonuçların analizini yapar ve bu sonuçları bitkilerde hareketi etkileyen faktörleri açıklamak için kullanır."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.5.",
+          "kazanim": "Duyu reseptörlerini ve duyu reseptörlerinin bulunduğu duyu organlarını sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Duyu reseptörlerinin ve duyu organlarının niteliklerini belirler.",
+            "b) Duyu reseptörlerini ve duyu organlarını niteliklerine göre ayrıştırır.",
+            "c) Duyu reseptörlerini ve duyu organlarını belirlediği ölçütlere göre gruplandırır. ç) Duyu reseptörlerini ve duyu organlarını belirlediği ölçütlere göre etiketler."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.6.",
+          "kazanim": "Hayvanlardaki sinir sistemi farklılıkları ile ilgili analojik akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Hayvanlardaki sinir sistemi farklılıklarını inceler.",
+            "b) Hayvanlardaki sinir sistemi farklılıklarını tespit eder.",
+            "c) Hayvanlardaki sinir sistemi farklılıkları üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.7.",
+          "kazanim": "İnsanda sinir sistemi yapısını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İnsanda sinir sistemi yapısına ilişkin parçaları belirler.",
+            "b) İnsanda sinir sistemi yapısının parçaları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.8.",
+          "kazanim": "Refleks olayını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Güncel hayatta gerçekleşen farklı refleks olaylarını inceler.",
+            "b) Örnek refleks mekanizmasını bağlamdan kopmadan yazılı ve sözlü ifadelere dönüştürür.",
+            "c) Refleks olayının gerçekleşme sürecini anlamı değiştirmeyecek şekilde kendi cümleleriyle ifade eder."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.9.",
+          "kazanim": "Harekete dayalı tepkinin oluşmasında iskelet, kas ve eklemlerin eş güdümlü çalışmasıyla ilgili eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) İskelet, kas ve eklemlerin eş güdümlü çalışmasının gerekliliğini sorgular.",
+            "b) İskelet, kas ve eklemlerin eş güdümlü çalışması konusunda akıl yürütür.",
+            "c) İskelet, kas ve eklemlerin eş güdümlü çalışması konusunda akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.10.",
+          "kazanim": "İskelet kaslarının kasılma ve gevşeme mekanizması ile ilgili bilimsel model oluşturabilme",
+          "alt_kazanimlar": [
+            "a) İskelet kaslarının kasılma ve gevşeme mekanizmasını modeller.",
+            "b) Gerektiğinde iskelet kaslarının kasılma ve gevşeme mekanizmalarını temsil eden birden fazla model oluşturur.",
+            "c) Oluşturduğu modeli bilim insanlarının modelleriyle karşılaştırır. ç) Karşılaştırma sürecinden elde ettiği kanıtlarla modelini geliştirir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.11.",
+          "kazanim": "Bağışıklığı sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Bağışıklığı sınıflandırmak amacıyla bağışıklığın niteliklerini tanımlar.",
+            "b) Bağışıklık sistemi yapılarını niteliklerine göre ayrıştırır.",
+            "c) Bağışıklık sistemini gruplandırır. ç) Bağışıklık sistemi ile ilgili yaptığı gruplandırmayı etiketler."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.12.",
+          "kazanim": "Alerjik tepkilerin oluşumunu sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Alerji ile ilgili merak ettiği konuları belirler.",
+            "b) Alerji hakkında sorular sorar.",
+            "c) Alerji hakkında bilgi toplar. ç) Alerji hakkında topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Alerjik tepkilerin oluşumu ile ilgili çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "2",
+          "alt_kazanimlar": [
+            "a) Öğretmen, sınıfa içinde çürük elmanın da bulunduğu bir poşet elma ve susuz ya da aşırı soğukta bıraktığı saksı bitkisi getirir. Çürük elma çıkarılmazsa poşetteki diğer elmalara ne olacağını, susuz ya da aşırı soğukta bıraktığı saksı bitkisinin toprağına toksik bir madde karışırsa bitkinin büyüme ve gelişmesinde neler gözlemlenebileceğini sorar. Bu sorularla öğrencilerde söz konusu örneklerde gerçekleşen olayların sebepleriyle ilgili merak uyandırılır. Öğrencilerden bitkisel hormonların (oksin, giberellin, etilen ve absisik asit) etki mekanizmaları konusunda bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan araştırma yapmaları istenir (OB.2). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Bu süreçte sitokinin hormonuna değinilmez. Öğrencilere absisik asidin bitki gelişimine etkisini gözlemlemek amacıyla bir saksı bitkisi ve bir stres faktörü kullanarak deney tasarlama ve deneyi gerçekleştirme görevi verilir. Öğrencilerden etilen hormonunun meyve olgunlaşmasındaki etkisini gözlemlemek amacıyla elma, armut, muz vb. meyveleri kullanarak farklı bir deney tasarlamaları ve deneyi gerçekleştirmeleri istenir. Deneyin tasarlanıp gerçekleştirilme sürecinde öğrencilere görevlerini zamanında ve eksiksiz yerine getirmeleri hatırlatılarak sorumluluk değeri vurgulanır (D16.3).",
+            "b) Öğrenciler, deney sonuçlarını gözlemler ve elde ettikleri verileri kaydeder. Öğrencilerden deney sonuçlarından ve kaydettikleri verilerden yola çıkarak etilen hormonunun meyve olgunlaşmasına, kullanılan stres faktörü sebebiyle salgılanan absisik asidin ise bitki gelişimine etkilerinin neler olduğunu tespit etmeleri istenir (E3.4).",
+            "c) Öğrencilerden tespit ettikleri etkilerin benzerliklerini fark ederek bitkilerin salgıladığı hormonların farklı tür tepkilere yol açtığı, bitkisel hormonların tarım açısından gerekliliği ve bu hormonların tarımda ilave kullanımlarının avantaj ve dezavantajlarıyla ilgili çıkarımda bulunmaları istenir (KB2.10). Öğrencilerden deneye ilişkin rapor hazırlamaları istenebilir. Deney raporu, analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "3",
+          "alt_kazanimlar": [
+            "a) Bitki hareketlerini gösteren ve bitkilerdeki tepki mekanizmalarının gözlemlenebileceği animasyon/videolar izletilir veya sunum yapılır. Öğrencilerden sunumdaki görsellerde veya izledikleri animasyonda/videoda bitkilerde hangi tür hareketlerin görüldüğünü not etmeleri ve tepki mekanizmalarını sınıflandırabilecekleri ölçütleri (durum değiştirme ve yönelme) belirlemeleri istenir. Öğretmen, öğrencilerin ölçütleri belirlemelerine yardımcı olmak amacıyla tepkisel hareketlerinin belirgin şekilde gözlemlenebileceği küstüm otu ve ayçiçeği gibi bitkileri seçebilir. b-c) Öğrenciler, inceledikleri örneklerden yola çıkarak tepkisel hareketin gerçekleşmesine neden olan uyaranları tespit eder; tepkinin uyaranın yönüne bağlı olup olmadığını belirler. Öğrencilerden bu hareketleri “uyaranın yönüne bağlı olanlar” ve “uyaranın yönüne bağlı olmayanlar” şeklinde ayrıştırmaları istenir (E3.2). ç) Bitkilerdeki tepki mekanizmalarını gruplandırmak amacıyla öğrencilerden tepkinin “uyaranın yönüne bağlı olması” ve “uyaranın yönüne bağlı olmaması” ölçütlerinin alt gruplarını tespit etmesi istenir. Bu süreçte ışık, sıcaklık, kimyasal etkisi, suyun varlığı (miktarı) ve sarsıntı ölçütlerinin öğrenciler tarafından belirlenmesi beklenir.",
+            "d) Öğrencilerden inceledikleri örneklerde yer alan bitkilerde meydana gelen tepkileri belirledikleri ölçütleri kullanarak gruplandırmaları istenir. Öğrenciler, uyaranın yönüne bağlı olan tepkilerde uyaranların ışık, kimyasal ve su olduğunu; uyaranın yönüne bağlı olmayan tepkilerde ise hareketin ışık, sıcaklık ve sarsıntıya dayalı gerçekleştiğini belirleyerek bitkilerdeki tepki mekanizmalarını gruplandıracağı bir tablo oluşturur.",
+            "e) Öğrencilerden belirledikleri farklı tepki çeşitlerini bilimdeki karşılığı ile adlandırmaları beklenir. Bu süreçte bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan bilgi toplamaları; söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanmaları istenir. Bitkilerde tepki mekanizmalarını bilimsel isimleri ile sınıflandıracakları kavram haritası hazırlamaları istenebilir. Kavram haritası, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "4",
+          "alt_kazanimlar": [
+            "a) “Bitkilerin gövdesi yukarıya doğru büyürken kökleri neden toprağın derinliklerine doğru gelişir?” sorusu ile bitkilerdeki tropizma (yönelme) hareketleriyle ilgili merak uyandırılır. Bitki gövdesinin ışık uyaranına doğru yönelme hareketleri, bilim insanları tarafından gerçekleştirilen koleoptil deneylerinin bilimsel ve dijital kaynaklarda paylaşılan görselleri üzerinden açıklanır (OB.4). Asimetrik büyüme ve oksin hormonunun önemi vurgulanır. Pozitif ve negatif tropizma hareketlerini gösteren hızlandırılmış videolar izletilebilir. Gruplara ayrılan öğrenciler; ışık, su ve kimyasal uyaranlarının bitkideki tropizma hareketlerine etkilerini gözlemleyecekleri deney tasarlar (E3.3). Deneyin gerçekleştirilme aşamasında oluşabilecek hataların neler olabileceği ve bunları önlemek için neler yapılması gerektiği ile ilgili sorular sorularak öğrencilerden deney adımlarını oluşturmaları ve tasarladıkları deneyi gerçekleştirmeleri istenir (E2.3). Deney sırasında oluşabilecek hataların önüne geçmek için yapılması gerekenleri içeren kontrol listesi kullanılır.",
+            "b) Öğrenciler, deney sonunda elde ettikleri verileri kaydeder; kaydettikleri verileri analiz ederek bir deney raporu hazırlar ve deney sonuçlarını diğer gruplarla paylaşır. Paylaşım sırasında öğrencilerin birbirleriyle dayanışma içinde olmaları teşvik edilerek yardımseverlik değeri vurgulanır (D20.2). Deney sürecinde öğrencilerin birbirleriyle yardımlaşmaları, deney sonuçlarını yorumlarken diğerlerinin düşüncelerine saygı duymaları ve saygı çerçevesinde tartışarak uzlaşmaları beklenir (SDB2.2, D14.1). Deney raporu, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir; öz değerlendirme ve grup değerlendirme formları kullanılabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "5",
+          "alt_kazanimlar": [
+            "a) Öğrencilerden uyaran çeşitlerine örnekler vermeleri ve bu uyaranların duyu organlarıyla nasıl bağlantı kurduklarına ilişkin düşüncelerini ifade etmeleri istenir (E3.5). Duyu organları ve uyaranlar arasında bağlantıyı sağlayan yapıların ne olduğunu bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan araştırmaları istenir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrenciler, elde ettikleri bilgileri kullanarak nöronların yapısını ve niteliklerini keşfeder. Uyartı adı verilen zar potansiyeli değişiminin nöron boyunca nasıl taşındığını ve diğer nöronlara nasıl aktarıldığını fark ederek duyu reseptörlerinin ve duyu organlarının niteliklerini belirler (OB1, E3.6). Bu süreçte polarizasyon, depolarizasyon, repolarizasyon kavramlarının tanımı yapılır; iyon kanalları, iyon pompalarının çeşitleri ve moleküler çalışma mekanizmaları verilmez. Sinaptik sinyal iletiminde nörotransmiter çeşitleri ile kimyasal sinyal iletiminin mekanizmalarına ve Glia hücrelerinin çeşitlerine değinilmez.",
+            "b) Öğrenciler, bilimsel kaynaklardan yaptıkları araştırmalardan hareketle duyu reseptörlerini “fiziksel, kimyasal ve elektriksel uyaranlar ile manyetik değişimlerin meydana getirdiği uyaranları algılayanlar” şeklinde ayrıştırır. Öğrencilerden duyu organlarını duyu reseptörlerinin çeşitlerine, yapı ve işlevlerine göre ayrıştırmaları beklenir. c-ç) Öğrencilerden güvenilir kaynaklardan elde ettikleri bilgileri, görselleri, videoları veya sınıfta/laboratuvarda bulunan maketleri kullanarak duyu organları ile duyu reseptörlerini gruplandırmaları ve etiketlemeleri beklenir (OB2, D3.3). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Bu süreçte göz uyumu ve görme kusurları verilmez. Denge mekanizması konusu işlenirken “dinamik ve statik harekete göre konum alma” olaylarına değinilmez. Öğrencilerin duyu organlarını ve duyu reseptörlerini niteliklerine göre ayrıştırması, duyu organlarını ve duyu reseptörlerini yapı ve işlevlerine göre gruplandırması amacına yönelik yapılandırılmış grid kullanılabilir. Yapılandırılmış grid, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "6 a-b-c) Öğrencilerin görseller, videolar, sunular ve oluşturulan modellerden yararlanarak omurgasız hayvanlardan süngerler, sölenterler, eklem bacaklılar, yassı ve yuvarlak solucanlar ile omurgalı hayvanlardan balıklar, sürüngenler, kuşlar ve memelilerde bulunan sinir sistemlerinin yapılarını sadece görsel olarak incelemeleri sağlanır (OB4). Öğrencilerden incelemelerinden elde ettikleri bilgileri kullanarak canlılardaki sinir sistemlerinin benzerlik ve farklılıklarını tespit etmeleri istenir. Öğrenciler, tespit ettikleri benzerlik ve farklılıklara dayanarak hayvanlardaki sinir sisteminin yapısı ve işlevi hakkında çıkarım yapar (E3.7). Öğrencilerden konu hakkında öğrenme günlüğü oluşturmaları istenebilir. Öğrenme günlüğü, puanlama anahtarı ile puanlanabilir."
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "7 a-b) Öğrencilerden insanın sinir sistemini oluşturan yapılar ve bu yapıların görevleri hakkında bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan araştırma yapmaları istenir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğretmen, öğrencilere insanda sinir sistemini oluşturan sinir hücrelerinin fonksiyonlarına bağlı olarak “duyu, ara ve motor nöronlar” olmak üzere üçe ayrıldığı bilgisine ulaşmaları konusunda rehberlik eder. Öğrencilere insan sinir sisteminin anatomik olarak bir bütün olduğu ancak fonksiyon bakımından parçalardan oluştuğunu keşfedecekleri görseller gösterilir. Öğrencilerin ‘’Duyu nöronları aracılığıyla merkezî sinir sistemine ulaşan bilgiler, ara nöronlarda yorumlanır ve motor nöronlarla efektör organlara iletilir.’’ bilgisinden ve refleks yayı örneklerinden hareketle sinir sistemini oluşturan parçalar arasında ilişki kurması beklenir. Bu süreçte beyin kabuğu loblarına, sempatik ve parasempatik sinir sistemi ayrımına değinilmez. Öğrencilerden sinir sisteminin yapısal bileşenlerini ve bu bileşenler arasındaki ilişkileri gösteren bir bilgi görseli hazırlamaları istenebilir. Bilgi görseli, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "8",
+          "alt_kazanimlar": [
+            "a) Öğrencilerden göz bebeği, diz kapağı, yutkunma, emme refleksi olaylarının oluş sürecinde sinir sisteminin hangi yapılarının görev aldığını görsellerden, izledikleri video ve animasyonlardan veya öğretmenin vereceği çalışma yapraklarından belirlemeleri istenir. Bu süreçte kazanılmış refleks ve doğuştan gelen refleks ayrımına girilmez.",
+            "b) Öğrencilerden diz kapağı refleksinde görev alan yapıların çalışma mekanizmasını şema veya görsel olarak sunmaları beklenir (E3.4). Öğrenciler, oluşturdukları şema veya görseli bağlamdan kopmadan yazılı veya sözlü ifadelere dönüştürür.",
+            "c) Öğrencilerden zihin haritası oluşturarak refleks olayının gerçekleşme sürecini anlam bütünlüğünü bozmadan kendi ifadeleri ile açıklamaları istenir. Zihin haritası, puanlama anahtarı ile puanlanabilir. Bu kapsamda öğrenciler, refleks davranışlarını yorumlar; yorumlarını sınıf arkadaşlarıyla paylaşır ve edindikleri bilgileri gelecek öğrenmelerinde nasıl kullanabileceklerini tartışır (SDB1.3)."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "9 a-b) Öğrencilerden destek ve hareket sisteminin yapısı ve bu yapıların çalışma mekanizmaları hakkında bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan bilgi toplamaları istenir (D3.3). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabında verilen video ve animasyonlardan yararlanılır. Öğrencilerin bu bilgilerden yola çıkarak kemik ve kıkırdak yapısı ile çeşitlerini, eklem ve kasların yapısını, çeşitlerini ve bulunduğu organları belirlemeleri; harekete dayalı tepkinin oluşmasında iskelet, kas ve eklemlerin eş güdümlü olarak çalışmalarının gerekliliğini sorgulamaları ve bu eş güdümün nasıl sağlandığı hakkında akıl yürütmeleri beklenir.",
+          "alt_kazanimlar": [
+            "c) Öğrencilerden iskelet, kas ve eklemlerin eş güdümlü çalışması konusunda akıl yürütmeyle ulaştıkları çıkarımları bilgi görseli hazırlayarak yansıtmaları istenebilir. İskelet, kas ve eklemlerin eş güdümlü çalışması konusunda öğrencilerin akıl yürüterek cevaplayabileceği açık uçlu sorular çalışma yaprağı ile sunulabilir. Öğrencilerin sorulara vereceği cevaplar, puanlama anahtarı ile değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "10 a-b) Öğrencilerden kasların (düz kas, çizgili kas, kalp kası) yapısı, işlevi ve tepkisel hareketle olan ilişkisi hakkında verilen bilgileri kullanarak iskelet kaslarının kasılma mekanizmasının işleyişini gösteren bir model oluşturmaları istenir. Öğrenciler, iskelet kaslarının kasılması ve gevşemesi sırasında A, I ve H bantları ile sarkomerde meydana gelen değişmeleri maket, diyagram, şema veya etkileşimli görsel iletişim uygulamaları aracılığıyla modeller. Bu süreçte kas kasılmasının hücresel moleküler mekanizmalarına ve kasılma için gerekli enerji kaynaklarına değinilmez. Öğrenciler, heterojen gruplar hâlinde çalışır ve grubun geliştireceği fikirlere göre gerektiğinde birden fazla model oluşturur (E3.3). Grup çalışmasında öğrencilerden iş birliği içinde çalışmaları, birbirleriyle yardımlaşarak çalışmaya etkin katılım göstermeleri, farklı fikirleri tartışarak uzlaşmaları, birbirlerine saygılı davranmaları, grup olarak çalışmanın dostluğa katkısını fark etmeleri ve yaptıkları çalışmaları değerlendirmeleri beklenir (SDB2.2, D4.2).",
+          "alt_kazanimlar": [
+            "c) Öğrencilerden “kayan iplikler hipotezi” modelini video, animasyon, simülasyon ve çeşitli görseller yardımıyla incelemeleri ve hazırladıkları modelleri kayan iplikler hipotezi modeliyle karşılaştırmaları istenir (E3.10). ç) Öğrencilerden oluşturdukları modelin bant yapıları (A, I ve H bantları), Z çizgisi, aktin ve miyozin filamentleri ve sarkomer kısımlarında bilimsel modellerle uyumlu olmayan yapıları güncelleyip modellerini yenilemeleri istenir (E3.4)."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "11",
+          "alt_kazanimlar": [
+            "a) Öğrencilere “Günlük yaşantıda hemen hemen her an mikroorganizmalarla etkileşim içinde olduğunuz hâlde neden bazılarınız hasta olurken bazılarınız hasta olmaz?”, “İnsan vücudu mikroorganizmalarla karşılaştığında nasıl tepki verir?”, “Hastalıklardan korunmak için neden aşı olursunuz?” gibi sorular sorularak bağışıklık sisteminin mikroorganizmalara karşı oluşturduğu tepkinin önemi konusunda merak uyandırılır. Örnek durum ve olaylar sunularak bağışıklığın “sınıflandırılabilir olma; tanıma, aktivasyon ve tepki olmak üzere üç aşamada gerçekleşme” gibi özelliklerinin belirlenmesi sağlanır. Öğrenciler, Bağışıklığın Sınıflandırılması tablosunu kullanarak bağışıklığın nasıl geliştiğine dair fikirlerini belirtir ve sınıflandırmanın niteliklerini tanımlar. b-c-ç) Öğrenciler, bağışıklıkla ilgili verilen örnekleri inceleyip bunları tüm insanlarda bulunan ve doğuştan gelen (doğal bağışıklık) ya da sonradan kazanılan (kazanılmış bağışıklık) bir bağışıklık biçimi olma durumlarına göre nitelendirerek ayrıştırır; bağışıklık elemanlarını gruplandırarak doğal ve kazanılmış bağışıklığın karşılaştırmalı tablosunu oluşturur. Bu gruplandırmada öğrencilerden doğuştan gelen ve kazanılmış bağışıklıkta görev alan molekülleri ya da hücreleri, kazanılmış bağışıklığın iki farklı biçimini (aktif ve pasif bağışıklık), bağışıklık hafızasının oluşup oluşmadığını, bağışıklık sisteminin tepki şeklini ve tepkinin oluşma süresini belirtmeleri istenir. Bağışıklığın insan ve toplum sağlığı açısından önemi vurgulanarak sağlıklı yaşam değerine dikkat çekilir (D13.4). Bu süreçte savunma hatlarına, hücresel ve humarol bağışıklığa değinilmez. Öğrenciler, bağışıklık sistemi ile ilgili yaptıkları gruplandırmayı kullanarak bağışıklığın farklı çeşitlerini bilimsel tanımlamalara uygun olarak isimlendirir. Öğrencilerden bağışıklık elemanlarıyla ilgili kavram haritası oluşturması istenebilir. Kavram haritası, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.1.",
+          "kazanim": "12",
+          "alt_kazanimlar": [
+            "a) Öğrencilere alerji ve alerjik reaksiyonun vücuttaki etkileriyle ilgili kısa bir video veya animasyon izletilir. Öğrencilerden bu video veya animasyonda gördükleri durumları yorumlamaları, alerjiyle ilgili merak ettikleri konuları ve durumları belirlemeleri istenir.",
+            "b) Öğrencilere “İçinizde herhangi bir etkene karşı alerjik tepkisi olan var mı?”, “Herhangi bir etkene karşı alerjisi olan birini tanıyor musunuz?” soruları yöneltilir. Öğrencilerden alerjisi olan kişi ile ilgili merak ettikleri soruları sormaları (5N1K) istenir. Sorular; alerjiye etki eden unsurun ne olduğu, alerjinin kişiyi nasıl etkilediği ve kişinin vücudunda oluşan alerjik tepkiye karşı nasıl bir önlem aldığı ile ilgili olmalıdır (E2.1).",
+            "c) Öğrencilerden alerji hakkında aldıkları cevaplardan hareketle alerjik tepkinin oluşumuyla ilgili bilgi toplamak amacıyla kullanacakları kaynakları belirlemeleri ve bu kaynaklardan bilgi toplamaları istenir. Öğrenciler bilgi toplarken yazılı ve dijital kaynakları kullanır. Bu süreçte öğrencilere güvenilir kaynaklara nasıl ulaşacakları ve kişisel verilerin korunması amacıyla hangi tedbirleri almaları gerektiği hatırlatılır. Dijital mahremiyet değeri vurgulanır (D8.2, OB2). ç) Öğrencilerden alerji ve alerji oluşumu hakkında elde ettikleri bilgilerin doğruluğunu ders kitabından ya da bilimsel kaynaklardan değerlendirmeleri istenir (D3.3).",
+            "d) Öğrencilere kendisinde var olan, yakın çevresindeki kişilerde gözlemlediği ya da bilgi sahibi olduğu bir alerjik etkiden yola çıkarak buna hangi alerjenin neden olduğu, vücudun bu alerjene karşı nasıl tepki verdiği, alerjik etki görüldüğünde ne yapması gerektiği, nerelerden yardım alabileceği ile ilgili çıkarımlarını içeren bir broşür hazırlamaya yönelik performans görevi verilir. Öğrencilerden hazırladıkları broşürleri arkadaşlarıyla paylaşmaları istenir (SDB3.2). Broşür, analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.2.",
+          "kazanim": "Homeostatik süreçleri sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Homeostatik süreçlerle ilgili merakını ifade eder.",
+            "b) Homeostatik süreçlerle ilgili sorular sorar.",
+            "c) Homeostatik süreçlerle ilgili bilgi toplar. ç) Homeostatik süreçlerle ilgili topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Homeostatik süreçlerle ilgili topladığı bilgiler üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.3.",
+          "kazanim": "Pozitif ve negatif geri bildirim mekanizmalarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Pozitif ve negatif geri bildirim mekanizmalarının özelliklerini belirler.",
+            "b) Pozitif ve negatif geri bildirim mekanizmalarının benzerliklerini listeler.",
+            "c) Pozitif ve negatif geri bildirim mekanizmalarının farklılıklarını listeler."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.4.",
+          "kazanim": "Homeostazinin sağlanmasında sinir sisteminin etkilerini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Homeostazinin sağlanmasında görev alan sinir sisteminin farklı yapılarını belirler.",
+            "b) Homeostazinin sağlanmasında sinir sisteminin farklı yapıları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.5.",
+          "kazanim": "Endokrin sisteminin homeostazi işlevine yönelik bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Endokrin sisteminin yapı ve görevlerini belirler.",
+            "b) Homeostazinin sağlanmasında endokrin sisteminin görevleriyle ilgili verileri toplar ve kaydeder.",
+            "c) Endokrin sistemi ve homeostazi ilişkisiyle ilgili topladığı verileri yorumlayarak değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.6.",
+          "kazanim": "Dolaşım sistemi ve homeostazi arasındaki ilişki ile ilgili bilimsel model oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Dolaşım sisteminin işleyişini modeller.",
+            "b) Dolaşım sistemi-homeostazi ilişkisi ile ilgili model oluşturur.",
+            "c) Dolaşım sisteminin işleyişi ve dolaşım sistemi-homeostazi ilişkisi ile ilgili oluşturduğu modeli oluşturulan farklı bilimsel modellerle karşılaştırır. ç) Karşılaştırma sürecinden elde ettiği bilgilerle hangi modeli seçeceğine karar verir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.7.",
+          "kazanim": "Solunum sisteminin homeostazinin sağlanmasındaki rolünü kanıtlarla ortaya koyabilme",
+          "alt_kazanimlar": [
+            "a) Solunum sisteminin homeostazinin sağlanmasındaki rolüyle ilgili verileri toplar ve kaydeder.",
+            "b) Solunum sisteminin homeostazinin sağlanmasındaki rolüyle ilgili topladığı verileri düzenler.",
+            "c) Solunum sisteminin homeostazinin sağlanmasındaki rolüyle ilgili topladığı verilere dayanarak açıklama yapar."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.8.",
+          "kazanim": "Boşaltım sisteminin homeostazi işlevine yönelik bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Boşaltım sisteminde nefronların yapı ve görevlerini tanımlar.",
+            "b) Homeostazinin sağlanmasında boşaltım sisteminin görevleriyle ilgili verileri toplar ve kaydeder.",
+            "c) Boşaltım sistemi ve homeostazi ilişkisiyle ilgili topladığı verileri yorumlayarak değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.9.",
+          "kazanim": "Homeostazinin sağlanmasında sistemlerin eş güdümlü çalışmasıyla ilgili eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) Sistemlerin eş güdümlü çalışmasını sorgular.",
+            "b) Sistemlerin eş güdümlü çalışması konusunda akıl yürütür.",
+            "c) Sistemlerin eş güdümlü çalışması konusunda akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.10.",
+          "kazanim": "Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemleri hakkında hipotez oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemlerine yönelik bir araştırma sorusu belirler.",
+            "b) Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemlerinin neden-sonuç ilişkisini belirler.",
+            "c) Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemlerinin bağımlı ve bağımsız değişkenlerini belirler. ç) Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemlerinin değişkenlerini belirlemek için gözlemler yapar.",
+            "d) Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemleriyle ilgili bilimsel kuramlardan yola çıkarak önermeler sunar."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "2 a-b) Öğrencilerden homeostatik süreçlerle ilgili daha önce yaşadıkları bir durumu (aşırı susuz kalmak, aşırı uykusuz kalmak, yüksek sıcaklığa maruz kalmak vb.) düşünmeleri ve bu durumun onları nasıl etkilediği konusunda merak ettiklerini ifade etmeleri beklenir. Öğrencilerden belirtilen durum veya benzer örnekler üzerinden homeostatik süreçlerle ilgili merak ettikleri konulara ilişkin “Bu durumdaki bir kişide homeostatik süreçler neler olabilir?”, “Homeostatik süreçlerle ilgili sorun yaşamamak için ne gibi önlemler almalıyım?”, “Homeostatik süreçlerde sorun yaşarsam bu sorunları nasıl aşabilirim?” gibi soruları sormaları beklenir.",
+          "alt_kazanimlar": [
+            "c) Öğrenciler, sordukları soruların cevaplarına ulaşabilmek için bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan homeostatik süreçler (su ve elektrolit dengesi, metabolizma ve enerji dengesi, toksinlerin uzaklaştırılması, vücut ısısının kontrolü, kan basıncının kontrolü, vücut ağırlığının kontrolü vb.) ile ilgili bilgi toplar. Öğrencilerin kimya disiplinindeki pH, elektrolitler ve çözeltilere ilişkin bilgilerinden yararlanmaları beklenir. Bu süreçte öğrenciler, motivasyonlarını sağlama konusunda desteklenir. Öğrencilerden elde ettikleri bilgileri kaydetmeleri istenir (E3.4). ç-d) Öğrenciler, homeostatik süreçlerle ilgili topladıkları bilgilerin doğruluğunu ders kitabını kullanarak değerlendirir. Öğrencilerden değerlendirme sonuçlarını kaydetmeleri istenir. Topladıkları bilgilerden yararlanarak kendi homeostatik dengelerini korumak için neler yapabilecekleriyle ilgili çıkarım yapmaları beklenir. Öğrencilerden homeostatik süreçlerle ilgili topladıkları bilgilerden yola çıkarak zihin haritası oluşturmaları istenebilir. Öğrencilerin oluşturacağı zihin haritaları, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "3",
+          "alt_kazanimlar": [
+            "a) Öğrencilerden termometre ile kendilerinin ve sınıftaki arkadaşlarının vücut sıcaklığını tespit ederek sınıftaki tüm öğrencilerin vücut sıcaklığı aralığını belirlemeleri istenir. İnsanların sabit vücut sıcaklığına sahip olduğu tespit edildikten sonra vücut sıcaklığının düzenlenmesini örnekleyen/sorgulatan “Ortam sıcaklığı arttığında neden terleriz?”, “Terlemenin vücut sıcaklığına etkisi nedir?”, “Ortam sıcaklığı artarken kalp atış hızı nasıl değişir?” gibi sorular sorularak öğrencilerin ilgi ve meraklarını ifade etmeleri sağlanır (E3.8, E3.9). Öğrenciler, sorulara verdikleri cevaplardan yola çıkarak geri bildirim mekanizmalarının özelliklerini belirler. b-c) Öğrencilerden pozitif ve negatif geri bildirim mekanizmalarının her biri için araştırma yapmaları istenir. Elde ettikleri sonuçlarla pozitif ve negatif geri bildirim mekanizmalarını gösteren farklı diyagramlar hazırlamaları, hazırladıkları diyagramları karşılaştırarak diyagramların benzerlik ve farklılıklarını listelemeleri istenir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "4",
+          "alt_kazanimlar": [
+            "a) İnteraktif araçlar, video veya animasyonlar kullanılarak öğrencilerin homeostazinin sağlanmasında görev alan sinir sistemi yapılarının neler olduğunu ve sinir sisteminin homeostazi üzerindeki etkilerini belirlemeleri sağlanır.",
+            "b) Kan basıncının yükselmesiyle uyarılan hipotalamusun hipofiz bezini uyarmasına bağlı olarak salgılanan hormonların kan basıncını düşürücü etkiler gösterebileceği gibi örnek bir durum verilerek öğrencilerin homeostazinin sağlanmasında sinir sisteminin farklı yapıları arasındaki fonksiyonel ilişkileri belirlemeleri beklenir (OB1). Homeostazinin öneminin ve homeostazinin sağlanmasında sinir sisteminin nasıl etkili olduğunun anlaşılmasını sağlamak amacıyla öğrencilerden korku, endişe, heyecan vb. durumlarda sinir sisteminde meydana gelen değişiklikleri inceleyerek homeostazinin sağlanmasında sinir sisteminin farklı yapıları arasındaki ilişkileri gösteren bir kavram haritası oluşturmaları istenebilir. Kavram haritası, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "5",
+          "alt_kazanimlar": [
+            "a) Endokrin sistemini oluşturan bez (hipofiz, tiroid, paratiroid, pankreas, böbrek üstü bezleri, eşey bezleri) ve yapıların (yağ dokusu, mide-bağırsak sistemi) vücuttaki görevlerini, hormonların nasıl üretildiğini, salgılandığını ve hedef organlara nasıl etki ettiğini gösteren etkileşimli öğrenme materyalleri ve görseller kullanılarak, ayrıca örnek olaylar (kan şekerinin artışına bağlı olarak pankreastan salgılanan insülin hormonunun kan şekerini düzenlemesi gibi) sunularak öğrencilerden endokrin sisteminin yapı ve görevlerinin neler olduğunu belirlemeleri istenir. Bu süreçte peptit, protein, steroit ve katekolamin yapılı hormonların moleküler etki mekanizmalarına değinilmez.",
+            "b) Öğrencilerden endokrin sisteminin [hipofiz bezi (kan basıncı, enerji dengesi, elektrolit dengesi, su dengesi, büyüme ve gelişme), tiroit bezi (metabolizma hızı, kan basıncı ve kalsiyum dengesi), paratiroid bezi (kalsiyum dengesi), pankreas (kan şekeri dengesi, metabolizma ve enerji dengesi), böbrek üstü bezleri (kan şekeri, mineral dengesi, su dengesi, metabolizma ve bağışıklık sistemi), mide-bağırsak sistemi ve yağ dokusu (açlık ve tokluk dengesi)] homeostazideki rolünü anlamalarına yardımcı olacak kaynakları (etkileşimli öğrenme materyalleri, diyagramlar, bilimsel makaleler, güvenilir sağlık siteleri, eğitim platformları, akademik kaynaklar, örnek vakalar vb.) kullanarak bilgi/veri toplamaları istenir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrenciler topladıkları bilgileri/verileri not alır, özetler ve grafik, diyagram veya şemalar kullanarak kaydeder (D3.3).",
+            "c) Öğrencilerden topladıkları bilgilerden yola çıkarak kan şekerinin düzenlenmesi, su ve elektrolit dengesinin kurulması, metabolizmanın kontrol edilmesi, açlık ve tokluk dengesinin ayarlanması, kan basıncının dengelenmesi süreçlerinde endokrin sisteminin işlevlerini yorumlamaları istenir. Öğretmen, toplanan verilerin yorumlanması sürecinde veriler arasındaki ilişkilerin nasıl düzenleneceği ve verilerin nasıl analiz edileceği konusunda öğrencilerine rehberlik eder (E3.7, E3.11)."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "6",
+          "alt_kazanimlar": [
+            "a) Sınıfta heterojen öğrenci grupları oluşturulur. Gruplardan Starling hipotezinden yola çıkarak homeostatik dengeye sahip bir canlının dolaşım sisteminde besinlerin ve oksijenin hücrelere taşınmasının ve atık ürünlerin hücrelerden uzaklaştırılmasının genel hatlarını gösteren bilimsel bir model oluşturmaları istenir. Bu süreçte kalp, kan damarları ve lenf sisteminin yapısı ile dolaşım sisteminin homeostazi üzerine etkileri verilir; kalbin çalışma, kanın pıhtılaşma, karbondioksit ve oksijenin taşınma mekanizmalarına değinilmez. Öğrenciler; diyagram, şema, maket veya etkileşimli görsel iletişim uygulamalarını kullanarak tasarladıkları modelleri dijital araçlar aracılığıyla, etkileşimli bir şekilde arkadaşlarıyla paylaşır (OB2). Öğrencilerden dolaşım sistemi modelini birlikte tasarlarken sürece katkılarının farkına varmaları beklenir (E1.4, E1.5). b-c) Öğrencilerden gerektiğinde farklı bakış açılarıyla dolaşım sistemi, Starling hipotezi ve kan basıncıyla ilgili birden fazla model oluşturmaları istenebilir. Birden fazla model oluşturulması istenerek dolaşım sisteminin kan basıncı ve kan hacmi dengesi üzerine etkilerinin daha iyi anlaşılması sağlanabilir. Öğrenciler, oluşturdukları modelleri bilimde dolaşım sistemiyle ilgili kabul görmüş modeller ve sınıftaki diğer grupların oluşturduğu modellerle karşılaştırır. Yapılan karşılaştırmalarla farklı bakış açılarının anlaşılması sağlanır (E3.10). ç) Grup çalışmalarında öğrencilerin iş birliği içinde çalışması, farklı düşüncelere saygı göstermesi, çalışmaya etkin katkı sağlaması beklenir (SDB2.2, D14.1). Öğrencilerden oluşturdukları modelleri değerlendirmeleri ve kendi modellerinden hangisinin kabul gören modele en yakın olduğu konusunda karar vermeleri istenir. Karar verme aşamasında, kabul gören modelle kendi modelleri arasındaki benzerlik ve farklılıkları bilimsel bakış açısıyla listelemeleri istenir (D3.3)."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "7",
+          "alt_kazanimlar": [
+            "a) Öğrencilere alveollerin yapısını (kılcal damarlarla birlikte) gösteren bilgi görselleri, videolar, animasyonlar, görseller vb. sunulur. Öğrencilerden bu görsel materyallerden yola çıkarak homeostatik dengeye sahip bir canlıda alveollerin yapısının gaz alışverişine etkilerini kanıtlarla ifade etmeleri istenir (OB1). Alveol ve kılcallar arasındaki gaz değişiminde difüzyon olayının nasıl gerçekleştiğini hücre zarından madde geçişleri konusuyla ilişki kurarak ifade etmeleri istenir. Bu süreçte karbondioksidin taşınma mekanizmasındaki kimyasal reaksiyonlara değinilmez. Öğrenciler, üç yada dört kişilik heterojen gruplara ayrılır ve kendi aralarından birer grup sözcüsü seçerler (D1.4). Her gruba oksijen, karbondioksit, pH ve vücut sıcaklığı dengelenmesinin solunum sistemi aracılığıyla nasıl gerçekleştiği konusuna ilişkin araştırma görevi verilir. Öğrenciler, bilimsel kaynaklardan (dergi, makale, kitap vb.) araştırma konularıyla ilgili veri toplayarak topladıkları verileri kaydeder.",
+            "b) Grup üyelerinden seçtikleri konuyla ilgili kaydettikleri verileri incelemeleri; araştırma sorusuna cevap oluşturabilecek, kanıt olarak kullanılabilecek verileri bir araya getirerek düzenlemeleri istenir. Grup üyeleri, veriler arasındaki ilişkileri belirleyerek bireysel çalışmalarını tamamlar. Daha sonra her gruptan aynı konuyu çalışan üyeler bir araya getirilerek uzman grupları oluşturulur. Uzman gruplarına mensup üyeler, kendi yaptıkları çalışmaları ve belirledikleri kanıtları birbirleriyle paylaşır (E1.2). Fikir alışverişi yaparak hemfikir oldukları kanıtları içeren bir rapor oluşturur ve oluşturdukları raporu kaydeder (E3.1, OB7). Öğretmen, verdiği süre tamamlandıktan sonra uzman gruplarına mensup öğrencilerin kendi gruplarına dönmelerini ister.",
+            "c) Gruptaki her öğrenciden uzman gruplarında solunum sisteminin homeostazinin sağlanmasındaki rolü (oksijen alımı, karbondioksidin atılması, asit-baz dengesi, vücut sıcaklığının kontrolü vb.) ile ilgili oluşturdukları raporu arkadaşlarına sunması istenir (SDB2.2). Her üyenin anlatımı ve paylaşımı tamamlandığında öğrencilere konuların tamamını kapsayan genel bir soru yöneltilir. Tüm grup üyeleri uzman grubu raporlarındaki verileri de dikkate alarak değerlendirme yapar ve yöneltilen soru için kanıtlara dayalı ortak bir cevap hazırlar (E3.6). Sorunun cevabını içeren bir elektronik sunu grup üyelerince oluşturulur. Grup sunuları, grup sözcüleri tarafından sınıfta paylaşılır (OB2). Gruplardan solunum sisteminin homeostazinin sağlanmasındaki rollerinden birini seçerek seçtikleri konuyla ilgili bir araştırma raporu hazırlamaları ve hazırladıkları raporu sınıfta sunmaları istenir. Öğrencilerin oluşturacağı rapor, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir; öz değerlendirme, akran değerlendirme ve grup değerlendirme formu kullanılabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "8",
+          "alt_kazanimlar": [
+            "a) Öğrencilerden nefronların yapısı ve boşaltım sistemindeki görevlerini içeren video, animasyon veya görsellerden faydalanarak nefronların yapı ve görevlerini tanımlamaları beklenir. Bu süreçte emilim ve geri emilim olaylarında emilen maddelerin bölgesel ayrımına değinilmez. b-c) Öğrencilerden nefronun homeostazi ile ilişkisi hakkında araştırma yapmaları istenir. Öğrenciler; araştırma yaparken bilimsel makaleler, çevrim içi kaynaklar, çeşitli vaka çalışmaları, anekdotlar vb. kaynaklardan yararlanabilir. Bu süreçte öğretmen, öğrencilere doğru bilgilere ulaşmaları için rehberlik eder. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda nefronun homeostazi ile ilişkisini içeren bilgiler öğrencilere çalışma yaprağında veya ders kitabında verilebilir. Öğrenciler, araştırma sonunda elde ettikleri verileri kullanarak boşaltım sisteminin homeostazi (atık maddeler ve fazla suyun vücuttan uzaklaştırılması, su ve elektrolit dengesi, asit-baz dengesi, kan basıncı vb.) açısından önemini yorumlar. Öğrencilerden boşaltım sisteminin homeostaziyle ilişkisini gösteren öğrenme günlüğü hazırlamaları istenir. Öğrenme günlüğü, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "9",
+          "alt_kazanimlar": [
+            "a) Öğrencilere “Açık bir alan veya ormanda yalıtımı ve ısınması olmayan bir kulübede kaldınız. Dışarıda kar fırtınası var ve hava gittikçe soğuyor.” şeklinde bir örnek olay verilerek “Bu durumda vücudunuzda hangi değişiklikler gerçekleşir?”, “Neler hissedersiniz?” gibi sorular sorulabilir. Bu yolla öğrencilerin dikkati konuya çekilebilir. Öğrencilerden bu sorulara cevap aramak için düşünmeleri ve derste öğrendikleri bilgilerden hareketle homeostazinin sağlanmasında sistemlerin eş güdümlü çalışmasının gerekliliğini sorgulamaları beklenir.",
+            "b) Öğrencilerden yanındaki arkadaşı ile eşleşerek böyle bir durum karşısında neler yapabileceklerini listelemeleri istenir (E2.4). Öğrencilerin belirlediği başa çıkma yollarının homeostazinin sağlanmasındaki etkileri tartışılarak en uygun yöntemler belirlenir (KB2.18).Öğrencilerden tartışılan yöntemlerin hangi sistemlerle ilişkili olduğu, sistemlerin homeostazi sürecinde nasıl eş güdümlü çalıştıkları konusunda akıl yürütmeleri beklenir (SDB3.2).",
+            "c) Öğrencilerden ulaştıkları bilgilere ilişkin akıl yürütmeleri ve farklı sistemlerin ilişkileri hakkında çıkarım yapmaları beklenir. Ulaşılan sonuçlar sınıfa sunulur ve sınıf panosunda paylaşılır."
+          ]
+        },
+        {
+          "kod": "BİY.11.2.",
+          "kazanim": "10",
+          "alt_kazanimlar": [
+            "a) Öğrencilerden kendi yaşantılarında veya sosyal yaşamda (televizyon, sosyal medya, çevresindeki kişiler vb.) duydukları, gördükleri sağlık problemlerinden yola çıkarak homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık sorunları ile ilgili “Hipertansiyon hastalarının baş ağrısı, bulantı, nefes darlığı, bulanık görme şikâyetlerini yaşamalarının nedeni nedir?” örneğinde ifade edildiği gibi araştırılabilir bir problem cümlesi belirlemeleri istenir. b-c) Öğrencilerden belirledikleri problem durumuyla ilgili bilgi alabilecekleri uzmanları araştırmaları ve bu uzmanlara sorulmak üzere bir soru listesi hazırlamaları istenir. Öğrenciler, belirledikleri uzmanla yüz yüze ya da çevrim içi röportaj yaparak veya uzmandan dijital iletişim yollarıyla bilgi alarak problem durumuna yönelik neden-sonuç ilişkilerini “Baş ağrısı hipertansiyon belirtisidir çünkü yüksek kan basıncı sonucunda kan damarlarında meydana gelen gerilme, zorlanma ya da hasar nedeniyle beyindeki kan akışı düzensizleşir.” örneğinde ifade edildiği gibi belirler (OB2, E1.5). Öğrencilerden problem sorusuna ilişkin bağımlı ve bağımsız değişkenleri belirlemeleri istenir. ç) Öğrencilerden yakın çevrelerinde bulunan şeker, yüksek tansiyon hastası veya obez kişilerin bir günlük yaşamlarını gözlemlemeleri ya da bu kişilerle hastalıkları nedeniyle yaşadıkları durumlara ilişkin bir görüşme yapmaları istenir. Bu amaçla gözlem formu ya da görüşme soruları hazırlanabilir.",
+            "d) Öğrenciler, homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemlerinin nedenlerini tespit etmek amacıyla yaptıkları literatür taraması, uzman görüşmesi ve vaka çalışmalarından yola çıkarak sağlık problemlerine yönelik “Eğer kişi sık idrara çıkıyor, aşırı su tüketiyorsa şeker hastasıdır.” örneğinde ifade edildiği gibi önermeler sunar (D13.4). Öğrencilere bir sağlık problemi senaryosunu ele alıp çözümlemeye yönelik sunum hazırlayacakları performans görevi verilebilir. Performans görevi kapsamında öğrencilerden “senaryo seçimi, analiz ve tanı, müdahale planı, güvenli ve etkili müdahale değerlendirmesi, sosyal ve psikolojik etkileşimleri değerlendirme” adımlarını izleyerek bir sunum hazırlamaları istenebilir. Sunum, analitik dereceli puanlama anahtarı ile puanlanabilir. Öz değerlendirme formu ile öğrencinin kendini değerlendirmesi sağlanabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 12,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "BİY.12.1.2.",
+          "kazanim": "Hücre bölünmesinin canlılar için önemini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Hücre bölünmesini inceler.",
+            "b) Hücre bölünmesinin nedenlerini kendi cümleleriyle ifade eder.",
+            "c) Hücre bölünmesinin üreme, büyüme ve gelişme için önemini yorumlar."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.3.",
+          "kazanim": "Hücredeki genetik materyalin organizasyonunu çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Genetik materyalin organizasyonunu belirler.",
+            "b) Genetik materyalin organizasyonunda görevli bileşenler arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.4.",
+          "kazanim": "Canlılarda hücre döngüsü ve hücre bölünmesini sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Yeni hücrelerin oluşumunda hücre döngüsü sürecini tanımlar.",
+            "b) Mitoz ve mayozla yeni hücrelerin oluşum süreci hakkında sorular sorar.",
+            "c) Mitoz ve mayoz ile ilgili bilgi toplar. ç) Mitoz ve mayozda gerçekleşen hücre döngüsü ile ilgili topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Topladığı bilgilerden yola çıkarak tür içi kalıtsal çeşitliliğin sağlanmasında mitoz ve mayozun önemi ile ilgili çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.5.",
+          "kazanim": "Kromozomlarda ayrılmamanın sonuçlarıyla ilgili bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Kromozomlarda ayrılmama ile ilgili özellikleri tanımlar.",
+            "b) Kromozomlarda ayrılmama ile ilgili bilgileri/verileri toplar ve kaydeder.",
+            "c) Topladığı veriler çerçevesinde kromozomlarda ayrılmama olayının sonuçlarını yorumlar ve değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.6.",
+          "kazanim": "Eşeysiz üreme çeşitleriyle ilgili deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Eşeysiz üreme çeşidi olan vejetatif üremeyle ilgili deney tasarlar.",
+            "b) Tasarladığı deneyden elde ettiği sonuçların analizini yapar ve bu sonuçları diğer eşeysiz üreme çeşitlerini açıklamak için kullanır."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.7.",
+          "kazanim": "Üreme hücrelerinin oluşum süreci ve yapılarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Üreme hücrelerinin oluşum sürecinin özelliklerini belirler.",
+            "b) Üreme hücrelerinin oluşum süreci ve yapılarının benzerliklerini listeler.",
+            "c) Üreme hücrelerinin oluşum süreci ve yapılarının farklılıklarını listeler."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.8.",
+          "kazanim": "Eşeysiz ve eşeyli üreme ile ilgili bilimsel çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Canlılarda eşeysiz ve eşeyli üremeyle ilgili nitelikleri tanımlar.",
+            "b) Canlılarda eşeysiz ve eşeyli üreme arasındaki benzerlik ve farklılıklara ilişkin bilgileri toplar ve kaydeder.",
+            "c) Eşeysiz ve eşeyli üremeyi sağladıkları avantaj ve dezavantajlar açısından yorumlar ve değerlendirir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.9.",
+          "kazanim": "Erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili bilgilere ulaşmak için kullanacağı araçları belirler.",
+            "b) Belirlediği araçları kullanarak erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili bilgilere ulaşır.",
+            "c) Erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili ulaştığı bilgileri doğrular. ç) Erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.10.",
+          "kazanim": "Embriyonik gelişimle ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Embriyonik gelişimle ilgili bilgilere ulaşmak için kullanacağı araçları belirler.",
+            "b) Belirlediği araçları kullanarak embriyonik gelişimle ilgili bilgilere ulaşır.",
+            "c) Embriyonik gelişimle ilgili ulaştığı bilgileri doğrular. ç) Embriyonik gelişimle ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.11.",
+          "kazanim": "Çiçeğin kısımları ve görevleriyle ilgili bilimsel gözlem yapabilme",
+          "alt_kazanimlar": [
+            "a) Tam çiçeğin kısımlarını tanımlar.",
+            "b) Tam çiçeğin kısımları ile ilgili verileri toplar ve kaydeder.",
+            "c) Elde ettiği verileri bitkilerde tozlaşma, döllenme, tohum ve meyvenin oluşumunu açıklamak için kullanır."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.12.",
+          "kazanim": "Çimlenmeyi etkileyen faktörleri gözlemleyebileceği deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Çimlenmeyi etkileyen faktörleri gözlemleyebileceği deney tasarlar.",
+            "b) Deneyden elde ettiği sonuçların analizini yaparak sonuçları çimlenme, dormansinin kırılması gibi olayları açıklamak için kullanır."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "2",
+          "alt_kazanimlar": [
+            "a) Amip hücresinin bölünmesi deneyi yapılarak öğrencilerden bölünen hücrelerin niteliklerini tespit etmeleri istenir. Deney koşullarının oluşturulamadığı durumlarda deneyle ilgili görseller, animasyon veya videolar kullanılır. Öğrenciler “Hücrelerin boyutlarında mı, sayılarında mı değişim oldu?” sorusuna cevap verir.",
+            "b) Deneyi görsel, animasyon ya da video aracılığıyla inceleyen öğrencilere “Sitoplazması azalan amip neden bölünmez?”, “Çekirdeksiz kalan amip neden ölür?”, “Bölünme olgunluğuna erişen amip, sitoplazması kesilmesine rağmen neden bölünür?”; mikroskopta inceleme yapan öğrencilere ise “Bölünmeden önce hücrelerde ne gibi değişimler gözlemlediniz?” soruları sorulur. Öğrencilerden sorulara cevap vererek hücre bölünmesinin nedenlerini ifade etmeleri beklenir.",
+            "c) Öğrencilerden inceledikleri görsel, video veya animasyonlardan ya da deney sürecindeki deneyimlerinden yola çıkarak hücre bölünmesinin çok hücreli canlılardaki büyüme, gelişme ve onarım olaylarıyla ilişkisini keşfetmeleri; keşfettikleri bilgileri çalışma yaprağına yazmaları ve yorumlamaları istenir (OB1). Öğrencilerden çalışma yaprağındaki bilgilerden yararlanarak hücre bölünmesinin üreme, büyüme ve gelişme olaylarıyla ilişkisine yönelik zihin haritası oluşturmaları istenir. Öğrencilerin oluşturduğu zihin haritası, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "3",
+          "alt_kazanimlar": [
+            "a) İnsan hücresinde bulunan bir kromozomdaki DNA’nın yaklaşık iki metre uzunluğunda olduğu belirtilerek “Bu DNA yalnızca birkaç mikrometre büyüklüğündeki bir hücreye nasıl sığar?” sorusu sorulur ve öğrencilerde merak uyandırılır (E1.1). Öğretmen genetik materyaldeki organizasyona ait görseli tahtaya yansıtır veya konuyla ilgili video/animasyon izletir. Öğrenciler; video, animasyon veya görseli inceler ve soru-cevap tekniği ile görseldeki genetik materyalin organizasyonunu belirler (OB4).",
+            "b) Öğrenciler, inceledikleri genetik materyalin organizasyonunu temsil edecek bir modeli ip, kil, yapı oyuncağı gibi materyaller kullanarak oluşturur (E2.5). Öğrencilerin model ve görselde bulunan yapılar (gen, nükleotit, genetik kod, kromozom) arasındaki ilişkileri belirlemesi istenir (OB4). Öğrencilerden genetik materyalin organizasyonunda yer alan bileşenler arasındaki ilişkilere yönelik organizasyon şeması hazırlamaları istenebilir. Organizasyon şeması, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "4 a-b) Öğrencilerin ‘’Yeni hücreler, var olan hücrelerin bölünmesiyle meydana gelir.’’ ifadesinden yola çıkarak kendilerine sunulan görsel, video veya animasyonları incelemeleri sağlanır (OB4). Konuyla ilgili “Her hücrede hücre döngüsü görülür mü?”, “Hücre döngüsünün kontrolünde sorun olursa neler olabilir?”, “Hücre döngüsünün düzenleyici görevleri neler olabilir?”, “Hücre döngüsünün insanın büyüme ve gelişimine etkileri nelerdir?” gibi sorular sorulabilir. Öğrencilerden inceledikleri materyal aracılığıyla elde ettikleri bilgilerden hareketle hücrenin hücre döngüsünde oluşumundan bölünmesine kadar geçirdiği süreçleri (hücrelerin büyümesi, DNA eşlenmesi, mitoz ve sitokinez) tanımlamaları beklenir. Hücre döngüsünün şematik bir modeli gösterilerek öğrencilerden şemayı incelemeleri istenir. Bu süreçte hücre döngüsünü kontrol eden moleküllerin isimlerine ve döngünün kontrol noktalarına değinilmez. Öğrenciler, bir hücreden yeni hücrelerin oluşmasında mitozun ve mayozun rolü hakkında merak ettikleri soruları sorar (E3.8). c-ç) Öğrenciler gruplara ayrılır. Hücre döngüsü süreçlerine ait görsellerin yer aldığı bilgi kartları öğretmen tarafından hazırlanarak öğrenci gruplarına verilir. Öğrencilerden hücre döngüsüne ait süreçlere, mitoz ve mayozun evrelerine ve bu süreçlerin canlı yaşamındaki önemine ilişkin bilgileri güvenilir kaynaklardan toplamaları; elde ettikleri bilgileri bilgi kartlarına işlemeleri beklenir. Öğrencilerden bilgi kartlarını hücre döngüsünün süreçlerini açıklayacak şekilde hiyerarşik olarak sıralamaları ve hücre döngüsü bileşenlerinin ilişkilerini belirlemeleri istenir (KB3.1). Grup çalışmalarında öğrencilerin birbirleriyle yardımlaşmaları ve sorumluluk değerinin bir gereği olarak çalışmaya etkin katılım sağlamaları beklenir (D16.3, SDB2.2, E2.2). Öğrenciler, ulaştıkları bilgilerin doğruluğunu bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan inceleyerek öğretmen rehberliğinde değerlendirir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır.",
+          "alt_kazanimlar": [
+            "d) Gruplardan topladıkları bilgilerden yola çıkarak mitozun ve mayozun büyüme, gelişme, onarım, üreme, tür içi kalıtsal çeşitlilik açısından önemiyle ilgili çıkarım yapmaları ve yaptıkları çıkarımları birlikte değerlendirmeleri beklenir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "5",
+          "alt_kazanimlar": [
+            "a) Kromozomların yapısı ve hücre bölünmesi sırasında kromozomların nasıl ayrıldıkları anlatıldıktan sonra öğrencilerin rol yapma (dramatizasyon) tekniğiyle kromozomların ayrılması olayını canlandırmaları sağlanır (E2.5). Çeşitli faktörlere bağlı olarak ortaya çıkan “kromozomlarda ayrılmama” olayının da canlandırılması istenerek öğrencilerin iki olay arasındaki farkı, oluşan yeni hücrelerdeki kromozom sayıları açısından görmeleri sağlanır. Öğrenciler, bu etkinliğin sonunda kromozomlarda ayrılmamayla ilgili özellikleri tanımlar. b-c) Öğrenciler gruplara ayrılır. Öğrencilerden güvenilir kaynaklardan iş birliği içinde araştırma yaparak kromozomlarda ayrılmama çeşitleriyle (monozomi, trizomi gibi) ilgili bilgi toplamaları istenir ya da kromozomlarda ayrılmama çeşitleriyle ilgili bilgiler öğrencilere öğretmen tarafından sunulur. Öğrencilerin araştırmalarından, çalışma yaprağı ya da ders kitabından edindikleri bilgileri yorumlayıp değerlendirerek kromozomlarda ayrılmama olayının gerçek hayatta çeşitli hastalıklara sebep olacağı sonucuna varmaları beklenir. Bu hastalıklara sahip olanlara karşı duyarlı olmanın, insanları farklılıklarıyla kabul edip onlara şefkat ve anlayışla yaklaşmanın gerekliliği vurgulanarak öğrencilere duyarlılık ve sevgi değerleri kazandırılır (D5.1, D15.1)."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "6",
+          "alt_kazanimlar": [
+            "a) Eşeysiz üreme çeşitlerine ait görseller verilerek veya video ve animasyonlar izletilerek öğrencilere kendilerine sunulan materyallerde hangi üreme çeşidine yer verildiği sorulur. “Eşeysiz üreme nedir?”, “Tüm eşeysiz üreme çeşitleri aynı şekilde mi gerçekleşir?” gibi sorularla öğrencilerin bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). Gruplar oluşturularak öğrencilere çalışma yaprakları verilir. Öğrencilerden eşeysiz üreme çeşitlerinden en az birinin sürecini gözlemlemek amacıyla deney tasarlamaları istenir. Bu süreçte öğrencilerin birbirlerini etkin şekilde dinlemeleri, arkadaşlarının düşüncelerine saygı göstererek kendi düşüncelerini ifade etmeleri beklenir (SDB2.1, D14.1, E2.2). Öğrenciler, grup etkileşimiyle bilgilerini karşılaştırarak yorumlar ve özetler (OB1). Deney sırasında olası hata kaynaklarını en aza indirmek için tedbirler alır ve tasarladıkları deneyi gerçekleştirir.",
+            "b) Grup çalışması yapan öğrencilerden deneyden elde ettikleri sonuçların analizini yapmaları, bu sonuçları eşeysiz üremenin diğer çeşitlerini ve oluşan yeni bireylerin ata bireylerle genetik benzerliğini değerlendirerek açıklamaları beklenir (E3.6). Bu süreçte “sporla üremede döl almaşı”na değinilmez. Deneysel partenogenez verilmez. Öğrencilerden deney sonucunu raporlaştırmaları istenebilir. Deney raporu, analitik puanlama anahtarı ile puanlanabilir. Grup değerlendirme ve öz değerlendirme formları kullanılarak öğrencilerin kendilerini ve grup arkadaşlarını değerlendirmesi sağlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "7",
+          "alt_kazanimlar": [
+            "a) Üreme hücrelerinin oluşum süreçleriyle ilgili animasyonlar izletilir veya görseller verilir. Öğretmen tarafından “Üreme hücreleri hangi olaylar sonucunda oluşur?”, “Vücut hücreleri ile üreme hücrelerinin kromozom takımı sayısı aynı mıdır?”, “Üreme hücreleri nerede ve neden oluşur?”, “Üreme hücreleriyle genetik aktarımı nasıl gerçekleştirilir?” soruları sorulur. Öğrencilerden video, animasyon veya görsel aracılığıyla sunulan ya da ders kitabında verilen bilgileri değerlendirmeleri, bu bilgilerden hareketle erkek ve dişi üreme hücrelerinin oluşum süreçlerinin (spermatogenez ve oogenez) ve yapılarının (hücre büyüklüğü, sitoplazma ve organel yapıları) özelliklerini belirlemeleri istenir (OB4). b-c) Öğrencilerden edindikleri bilgilerden yola çıkarak erkek ve dişi üreme hücrelerinin oluşum süreçlerinin benzer (mayoz içermesi, genetik çeşitlilik sağlaması, kromozom sayısının yarıya düşmesi vb.) ve farklı (sürecin başlangıcı ve sıklığı, hücre sayısı ve oluşum hızı vb.) yönlerini listeledikleri bir tablo oluşturmaları istenir. Bu tabloda erkek ve dişi üreme hücrelerinin yapısal benzerliklerinin (hücre zarı ve hücresel yapılar, genetik materyal vb.) ve farklılıklarının (hücre büyüklüğü, sitoplazma ve organel yapıları vb.) da listelenmesi beklenir. Öğrencilerden üreme hücresinin oluşumu, yapıları ve bu yapıların benzerlik ve farklılıklarına ilişkin balık kılçığı oluşturmaları istenebilir. Öğrencilerin oluşturacağı balık kılçığı, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "8",
+          "alt_kazanimlar": [
+            "a) “Üremede her zaman iki ataya ihtiyaç var mıdır?”, “Tüm üreme çeşitlerinde çeşitlilik görülür mü?”, “Tüm üreme çeşitlerinde döllenme görülür mü?” gibi merak uyandırıcı sorularla öğrencilerin eşeyli ve eşeysiz üreme konusundaki bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1, E1.1). Soru-cevap tekniği kullanılarak öğrencilerden eşeysiz ve eşeyli üremenin özelliklerini tanımlamaları istenir.",
+            "b) Öğretmen tarafından gruplar oluşturularak gruplardan eşeysiz ve eşeyli üreme arasındaki benzerlik ve farklılıkları araştırmaları istenir. Bu çalışmayı yaparken öğrencilere bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan yararlanmaları önerilir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Çalışma yaprağı verilerek öğrencilerden topladıkları bilgileri bilimsel bakış açısıyla yazmaları istenir (D3.3).",
+            "c) Öğrencilerden topladıkları bilgilerden hareketle eşeysiz ve eşeyli üreme arasındaki benzerlik ve farklılıkları, bu üreme türlerinin canlılara sağladığı avantaj ve dezavantajları yorumlayıp değerlendirmeleri beklenir. Eşeyli ve eşeysiz üremenin benzerlik ve farklılıklarının, avantaj ve dezavantajlarının anlaşılıp anlaşılmadığının belirlenmesi amacıyla balık kılçığı tekniği ya da karşılaştırma tablosu kullanılabilir. Balık kılçığı ve karşılaştırma tablosu, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "9",
+          "alt_kazanimlar": [
+            "a) “Erkek ve dişi üreme sistemlerinin yapısı aynı mıdır?”, “Erkek ve dişi üreme sistemlerinin görevleri nelerdir?” gibi sorularla öğrencilerin erkek ve dişi üreme sistemlerinin yapısı ve işleyişi konusundaki bilgi ihtiyaçlarını fark etmeleri sağlanır. Öğrencilerden erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili yapacakları araştırma için gereken araçları belirlemeleri istenir. b-c) Öğrencilerden belirledikleri araçları kullanarak erkek ve dişi üreme sistemlerinin yapısı, işleyişi ve dişilerde menstrual döngü ile ilgili bilgilere ulaşmaları istenir. Öğrenciler, ulaştıkları bilgileri öğretmen gözetiminde bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan, söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından doğrular ve özetler. Bu süreçte bilgiye ulaşma yollarını dikkatlice izleyerek bilimsel ve güvenilir olmayan kaynakları fark eder (D3.3). ç) Öğrenciler, erkek ve dişi üreme sistemlerinin yapısı, işleyişi ve dişilerde menstrual döngü hakkında doğruladıkları bilgileri kaydeder (OB1, E3.7). Menstrual döngüde görev yapan hormonların değişim grafiklerini ve döngüye etkilerini gösteren görseller hazırlayabilir. Bu süreçte öğrencilerden ulaştıkları bilgileri kendi yaşamları ile ilişkilendirmeleri beklenir (SDB1.2). Öğrencilerden kaydettikleri bilgilerden yola çıkarak üreme organlarının yapısını oluşturan bölümleri, erkek ve dişi üreme sistemlerinin işleyişlerinin düzenlenmesinde görev alan hormonların etkilerini gösteren bir bilgi görseli hazırlamaları istenebilir. Bilgi görseli, analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "10",
+          "alt_kazanimlar": [
+            "a) “Hastanelerde röntgen çekilen alanlara ‘Hamilelerin ve hamilelik şüphesi olanların girmesi yasaktır.’ şeklinde uyarı levhalarının asılmasının nedeni ne olabilir?”, “Hamilelik döneminde ilaç kullanımından olabildiğince uzak durulmasının sebebi ne olabilir?” gibi sorular sorularak öğrencide merak uyandırılır ve öğrencilerin bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1, D13.4, E1.1). Öğretmen rehberliğinde gruplar oluşturulur ve gruplardan iş birliği yaparak embriyonik gelişimle ilgili yapacakları araştırma için gereken araçları belirlemeleri istenir.",
+            "b) Gruplardan belirledikleri araçları kullanarak embriyonik gelişimin aşamaları (döllenme, bölünme, gastrülasyon ve organogenez) ve embriyonik gelişim sürecinde meydana gelen değişimlerle ilgili bilgilere ulaşmaları istenir. Bu süreçte öğretmenin vereceği çalışma yaprağından, video ve animasyonlardan faydalanılabilir. Embriyonik tabakalardan meydana gelen organlar ve embriyonik indüksiyona değinilmez, fetüsün gelişim evreleri verilmez. Araştırma sürecinde elde edilen bilgiler sınıfta paylaşılır (SDB2.2). Öğrencilerden farklı bilgiler üzerinden ortak bir sonuca ulaşmaları beklenir (E2.2). c-ç) Gruplardan embriyonik gelişimle ilgili ulaştıkları bilgileri öğretmen gözetiminde bilimsel makaleler gibi güvenilir kaynaklardan doğrulamaları istenir (D3.3). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Gruplar, araştırma yaparak buldukları ve belli ölçütlere göre doğruladıkları bilgileri özetler ve kaydeder (OB1). Öğrencilerden embriyonik gelişimin aşamalarıyla ilgili öğrenme günlüğü hazırlamaları istenebilir. Öğrenme günlüğü, analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "11",
+          "alt_kazanimlar": [
+            "a) “İlkbaharda etrafımızda gördüğümüz çiçeklerin farklı renklere sahip olmasının nedeni nedir?”, “Tüm bitkilerde çiçek oluşumu görülür mü?” gibi sorularla öğrencilerde çiçeğin kısımları ve görevleriyle ilgili merak uyandırılır. Çiçeğin kısımlarının üreme için önemi vurgulanarak öğrencilerin güdülenmesi sağlanır. Çiçeğin kısımlarının incelenmesine yönelik bir gözlem etkinliği tasarlanır. Gruplara ayrılan öğrencilerden sınıfa çiçek örnekleri getirmeleri istenir. Getirilen çiçek örnekleri gruplar arasında paylaştırılarak öğrencilerden çiçeğin kısımlarını tanımlamaları istenir (OB4). b-c) Öğrencilerden takım çalışması yaparak çiçeğin kısımları ve görevleri hakkında topladıkları bilgileri gözlem formuna kaydetmeleri istenir (D16.3). Öğrenciler, kaydettikleri bilgiler çerçevesinde çiçeğin kısımlarının görevlerini yorumlayarak bu kısımların tozlaşma, döllenme, tohum ve meyve oluşumundaki işlevleriyle ilgili açıklama yapar (E3.7)."
+          ]
+        },
+        {
+          "kod": "BİY.12.1.",
+          "kazanim": "12",
+          "alt_kazanimlar": [
+            "a) “Tohum ekiminden önce toprağın sürülerek havalandırılmasının nedeni nedir?”, “Çimlenmenin oluşabilmesi için ilkbahar yağmurları neden önemlidir?”, “Sonbaharda ekilen buğday tohumlarının ilkbaharda çimlenmesinin nedeni nedir?” gibi sorular sorularak öğrencilerin konuya dikkati çekilir (E1.1). Çimlenme olayı ile ilgili animasyon veya videolar izletilerek öğrencilerden çimlenmeyi etkileyen faktörlere ilişkin soruların cevaplarını bulmaları istenir (OB4). Öğrencilerden çimlenmeye etki eden faktörlerden birini (sıcaklık, oksijen, su vb.) inceleyebilecekleri deney tasarlamaları ve deneyi yapmaları istenir (E3.7).",
+            "b) Öğrenciler, deneyden elde ettikleri sonuçların analizini yaparak yaşadıkları bölgede yetiştirilen tohum örnekleri üzerinden çimlenme ve dormansinin kırılması olaylarını açıklar (E3.6). Öğrencilerden yaptıkları deneyin raporunu oluşturmaları istenir. Deney raporları, analitik dereceli puanlama anahtarıyla değerlendirilebilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.2.",
+          "kazanim": "DNA replikasyonunun bilimsel modelini oluşturabilme",
+          "alt_kazanimlar": [
+            "a) DNA replikasyonunu modeller.",
+            "b) Gerektiğinde DNA replikasyonunun birden fazla modelini oluşturur.",
+            "c) Oluşturduğu DNA replikasyonu modelini diğer bilimsel modellerle karşılaştırır. ç) Karşılaştırma sürecinden elde ettiği kanıtlarla seçeceği modele karar verir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.3.",
+          "kazanim": "Genetik bilginin ürüne dönüşüm sürecini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Genetik bilginin ürüne dönüşüm sürecine ilişkin temel bileşenleri ve bunların işleyişlerini belirler.",
+            "b) Genetik bilginin ürüne dönüşüm sürecine ilişkin temel bileşenler arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.4.",
+          "kazanim": "Genetik yapıdaki değişikliklerin canlı yaşamına etkileri hakkında eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) Genetik yapıdaki değişikliklerin canlı yaşamına etkilerini sorgular.",
+            "b) Genetik yapıdaki değişikliklerin canlı yaşamına etkileri hakkında akıl yürütür.",
+            "c) Akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.5.",
+          "kazanim": "Mendel kalıtım ilkelerinin geçerli olduğu genetik problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Mendel kalıtım ilkelerinin geçerli olduğu genetik problemleri yapılandırır.",
+            "b) Mendel kalıtım ilkelerinin geçerli olduğu genetik problemleri özetler.",
+            "c) Mendel kalıtım ilkelerinin geçerli olduğu genetik problemlerin çözümünü verilere dayalı olarak tahmin eder. ç) Mendel kalıtım ilkelerinin geçerli olduğu genetik problemlerin çözümünde önermeler üzerinden akıl yürütür.",
+            "d) Mendel kalıtım ilkelerinin geçerli olduğu genetik problemlerin çözümüne ilişkin değerlendirmelerde bulunur."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.6.",
+          "kazanim": "Eş baskınlık ve çok alellilikle ilgili deney yapabilme",
+          "alt_kazanimlar": [
+            "a) Kan gruplarıyla ilgili deney tasarlar.",
+            "b) Deneyden elde ettiği sonuçların analizini yaparak eş baskınlık ve çok alelliliğin niteliklerini tespit eder."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.7.",
+          "kazanim": "Eşeye bağlı kalıtıma ilişkin tümevarımsal akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Eşeye bağlı kalıtıma ilişkin örüntüyü soyağacında modeller.",
+            "b) Soyağacı modelini yeni gözlem verileri üzerinden test eder.",
+            "c) Soyağacı modellemeleri üzerinden genellemeler yapar. ç) Soyağacı modelleriyle farklı veri setlerini yorumlar.",
+            "d) Genellemelerini bilim insanlarının genellemeleri ile karşılaştırır.",
+            "e) Yeni verilerle genellemelerini geliştirir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.8.",
+          "kazanim": "Genetik testlerin ve genetik danışmanlığın önemini sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Genetik testlerin ve genetik danışmanlığın önemi ile ilgili merak ettiği konuyu tanımlar.",
+            "b) Genetik testlerin ve genetik danışmanlığın önemi ile ilgili sorular sorar.",
+            "c) Genetik testlerin ve genetik danışmanlığın önemi ile ilgili bilgi toplar. ç) Genetik testlerin ve genetik danışmanlığın önemi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Genetik testlerin ve genetik danışmanlığın önemi ile ilgili topladığı bilgiler üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.9.",
+          "kazanim": "Biyoteknolojinin uygulama alanları ile ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Biyoteknolojinin uygulama alanları ile ilgili bilgi toplamak için kullanacağı araçları belirler.",
+            "b) Biyoteknolojinin uygulama alanları ile ilgili bilgilere ulaşır.",
+            "c) Biyoteknolojinin uygulama alanları ile ilgili ulaşıtığı bilgileri doğrular. ç) Biyoteknolojinin uygulama alanları ile ilgili ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.10.",
+          "kazanim": "Biyoteknolojik uygulamaların etik boyutunu eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) Biyoteknolojik uygulamaları etik açıdan sorgular.",
+            "b) Biyoteknolojik uygulamaların etiği hakkında akıl yürütür.",
+            "c) Akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "2",
+          "alt_kazanimlar": [
+            "a) Öğrencilere DNA replikasyonunun temel adımlarını gösteren kısa bir video veya animasyon izletilebilir. DNA replikasyonunun mekanizması öğretmen tarafından anlatılır. Heterojen gruplar oluşturulduktan sonra gruplardan DNA replikasyonunun yarı korunumlu (semi konservatif) modeli üzerinden kesintisiz ve kesikli zincirde DNA eşlenmesinin nasıl gerçekleştiğini gösteren bir model oluşturmaları istenir. Bu süreçte tek zincire bağlanan proteinler, topoizomeraz, helikaz, ligaz enzimlerinin isimleri ve çeşitleri verilmez; Okazaki parçaları kavramına değinilmez. Öğrencilerin grup çalışmalarına etkin bir şekilde katılmaları ve farklı fikirleri tartışarak ortak bir anlayışa ulaşmaları beklenir (SDB2.2). Öğrencilerden diyagram, şema, maket veya etkileşimli görsel iletişim uygulamalarını kullanarak tasarladıkları modelleri paylaşmaları istenir (OB2). Öğrencilerin birlikte çalışmanın hazırladıkları modellere farklı yorumlar getirmelerine katkıda bulunduğunu fark etmeleri sağlanır (D16.3).",
+            "b) Öğrencilerden farklı materyaller kullanarak DNA replikasyonu ile ilgili birden fazla model oluşturmaları istenebilir. Gerektiğinde birden fazla model oluşturulması istenerek konunun daha iyi anlaşılması sağlanır (E3.3, E3.5). c-ç) Öğrencilerden bilimsel DNA replikasyonu modellerini güvenilir kaynaklardan araştırmaları ve modeli oluşturan temel yapıları inceleyerek bu yapıları kendi modellerini oluşturan bileşenler ile karşılaştırmaları istenir (E3.10). Kendi modellerinden hangisinin şu an kabul gören modele en yakın olduğuna karar vermeleri beklenir (KB3.1)."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "3",
+          "alt_kazanimlar": [
+            "a) Öğrencilere “Her gen bir ürün oluşturur mu?”, “Her genin sadece bir ürünü mü vardır?”, “Genetik bilginin ürüne dönüşüm süreçlerinde gen, genetik kod, transkripsiyon ve translasyon arasında nasıl bir hiyerarşik bağlantı vardır?” soruları sorularak konu hakkında merak uyandırılır (E1.1). Genetik bilginin yapısal birimlere dönüşüm sürecini gösteren interaktif araçlar, bilgisayar tabanlı simülasyonlar, basit öğrenme şemaları, videolar/animasyonlar veya ders kitabı kullanılarak öğrencilerin genetik bilginin yapısal birimlere dönüşüm sürecinde görev alan temel bileşenleri ve bu bileşenlerin işleyişini (transkripsiyon ve translasyon) belirlemeleri sağlanır (OB4).",
+            "b) Öğrencilerden belirledikleri temel bileşenler ve bu bileşenlerin işleyişinden yola çıkarak gen, genetik kod, transkripsiyon ve translasyon sürecinde etkili yapısal ve fonksiyonel bileşenleri belirlemeleri beklenir. Bu süreçte promotor bölgelerinin dizileri (TATA ve TAAT), transkripsiyon faktörleri ve ökaryotik mRNA işlenmesi süreçlerine değinilmez. Öğrencilerden gen ifadesinin oluşmasında transkripsiyon ve translasyon süreçlerinin eş güdümlü olarak çalışmalarının gerekliliğini sorgulamaları, bu eş güdümün nasıl sağlandığı hakkında akıl yürütmeleri ve belirledikleri temel bileşenler arasındaki hiyerarşik bağlantıları tespit etmeleri istenir (E3.6)."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "4",
+          "alt_kazanimlar": [
+            "a) Kalıtsal hastalıklar ve genetik mutasyonlarla ilgili vaka çalışmaları sunularak, gerçek hayattan örnekler verilerek, genetik yapıdaki değişikliklerin canlı yaşamına etkileri ve DNA’da meydana gelen her hasarın kalıcı olup olmadığıyla ilgili sorular sorularak öğrencilerde merak uyandırılır (E3.10). Ultraviyole (UV) ışığın neden olduğu DNA hasarının nasıl tamir edildiğini gösteren bilimsel çalışma sunulur. Öğrencilerden genetik yapıdaki değişiklikler ve bu değişikliklerin canlı yaşamına etkileriyle ilgili verilen örnekleri bu çalışma bağlamında sorgulamaları istenir. b-c) Heterojen gruplar oluşturulur. “Mutasyonlara neden olan etmenler nelerdir?”, “Mutasyonların etkileri genellikle ne yönde gerçekleşir?”, “Mutasyonlar bazen avantajlı özelliklerin gelişmesini sağlayabilir mi?” gibi sorular sorularak öğrencilerden soruların cevaplarını bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan araştırmaları istenir. Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrencilerin elde ettikleri bilgilerle genetik yapıdaki değişikliklerin olumlu ya da olumsuz yönlerini, bu değişikliğe neden olan faktörleri ve bu değişikliklerin neden-sonuç ilişkilerini akıl yürüterek değerlendirmeleri beklenir (OB1). Bu süreçte mutasyon çeşitlerine değinilmez. Her gruptan akıl yürütme sonucunda ulaştıkları çıkarımları kullanarak rapor hazırlamaları ve hazırladıkları raporları sunmaları istenir. Rapor ve sunum; öz değerlendirme, grup değerlendirme ve akran değerlendirme ile değerlendirilebilir (E3.5). Öğrencilerden bireysel olarak genetik yapıdaki değişikliklerin canlı yaşamına etkilerine yönelik öğrenme günlüğü hazırlamaları istenebilir. Öğrenme günlüğü, puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "5",
+          "alt_kazanimlar": [
+            "a) Heterojen gruplar oluşturulur. Gruplara Mendel kalıtım ilkelerinin geçerli olduğu farklı genetik problemler verilir. Öğrencilerden grup içinde problemlerle ilgili sorular sormaları ve problemlerin olası sonuçlarını düşünmeleri istenir (E3.8, OB7). Çalışma yaprağında veya ders kitabında Mendel’in kalıtımla ilgili monohibrit çaprazlama, dihibrit ve kontrol çaprazlamaya ilişkin genel ilkeleri verilerek öğrencilerden verilen problemleri bu ilkeler çerçevesinde yapılandırmaları istenir. b-c-ç-d) Öğrenci gruplarından problemlerde verilen genotip, fenotip özelliklerini, baskınlık ve çekiniklik özelliklerini, önceki nesillerin genotipini ve yapılacak çaprazlama sonucunda ortaya çıkabilecek yeni genotip ve fenotip oranlarını özetlemeleri istenir. Öğrencilerden problemlerde verilen çaprazlama ile ortaya çıkacak genotip ve fenotip oranlarını tahmin etmeleri, problemlerin çözümünde Mendel’in kalıtımla ilgili ilkelerini akıl yürüterek yorumlamaları, problemlerin çözümü için değerlendirmede bulunmaları, problemlerle ilgili çaprazlamaları yapmaları, genotip ve fenotip oranlarını belirlemeleri ve problemleri çözmeleri beklenir (E3.2). Öğrenci gruplarından problemlerin çözümüne ilişkin değerlendirmede bulunmaları, problemlerin farklı çözümlerinden hareketle kalıtımla ilgili yeni bilgilerini yapılandırmaları istenir (OB7, E3.7). Bu süreçte epistasi, pleiotropi ve epigenetik kavramlarına değinilmez. Öğrencilerden verilen durumları/problemleri “yapılandırma, özetleme, veriye dayalı tahmin etme, çözüme yönelik tahmin etme, akıl yürütme ve çözüme ilişkin değerlendirme” basamaklarını içerecek şekilde cevaplamaları istenir. Cevaplar, bu basamakların ölçüt olarak yer aldığı analitik dereceli puanlama anahtarı ile puanlanabilir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "6",
+          "alt_kazanimlar": [
+            "a) “Anne ve baba arasındaki kan grubu uyumsuzlukları gebelikte ve doğumda sorun oluşturur mu?”, “Kan nakillerinde farklı kan gruplarına sahip bireyler arasında alışveriş mümkün mü?” gibi sorularla konuya dikkat çekilir (E1.1). Öğrencilerin kan gruplarının niteliklerine ilişkin bilgi ihtiyaçlarının farkına varmaları sağlanır. Öğrenciler gruplara ayrılır. Gruplardan kan grubu uyumsuzluğu olabilecek durumların tespit edilmesi için kan gruplarını belirlemeye yönelik sorular oluşturmaları ve deney tasarlamaları istenir. Öğrenciler, kan gruplarının nitelikleri ile ilgili verilen çalışma yaprağından veya ders kitabından bilgileri toplar; topladıkları bilgileri özetler ve kan grupları ile ilgili deney yapmak üzere sentezler (OB1, OB7). Öğrencilerden tasarladıkları deneyleri gerçekleştirerek kan grubu uyumsuzluğunu tespit etmek için kan gruplarını belirlemeleri istenir. Gruplar, iş birliği içinde kan gruplarını belirleme deneyini yaparken olası hata kaynaklarını en aza indirmek için alabilecekleri tedbirler hakkındaki düşüncelerini grup arkadaşları ile paylaşır. Farklı düşünceler üzerinde saygı çerçevesinde uzlaşma sağlayıp hata kaynaklarını ortadan kaldıracak tedbirleri alır (SDB2.2, D14.1).",
+            "b) Öğrenciler, deney sonuçlarının analizini yapar. Sonuçları bir deney raporu hazırlayarak sunar. Kan gruplarını belirleme deneyi sonunda gruplardan deney sonuçlarının eş baskınlık ve çok alellilikle ilgili günlük yaşam durumlarıyla ilişkisini kurmaları istenir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "7 a-b) Öğrencilerden verilen örnek aile soyağaçlarını incelemeleri ve soyağacında kalıtımın eşeye bağlı olarak gerçekleşebileceğini göstermeleri beklenir. Farklı soyağaçlarını modelleyerek soyağacında atalardan aktarılan kalıtımsal özellikler ile ilgili verileri toplamaları ve topladıkları verileri kullanarak oluşturdukları modelleri düzenlemeleri istenir (E3.3). Eşeye bağlı olarak kalıtılan farklı özellikleri modeller üzerinden test etmeleri ve oluşturdukları soyağacı modellerini birbirleriyle paylaşmaları istenir (OB4, D16.3).",
+          "alt_kazanimlar": [
+            "c) Öğrencilerden soyağacı modellemeleri üzerinden elde ettikleri sonuçlara dayanarak genellemeler yapmaları beklenir. Örneğin öğrenciler, belirli bir özelliğin aile içinde nasıl aktarıldığına dair genel bir kural oluşturabilirler. ç-d-e) Öğrenciler, farklı ailelerin veya grupların soyağaçlarını kullanarak kalıtım desenlerini karşılaştırabilir ve bu desenlerdeki farklılıkları inceleyebilirler. Öğrencilerden eşeye bağlı kalıtım sonuçlarıyla ilgili genellemeler yapmaları istenir. Eşeye bağlı kalıtsal özellikleri bilim insanlarının şu an kabul gören genellemeleriyle karşılaştırmaları ve kendi yaptıkları genellemeleri geliştirmeleri beklenir."
+          ]
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "8 a-b) Fenilketonüri, spinal müsküler atrofi (SMA) ve kistik fibrozis gibi farklı genetik hastalıklarla ilgili örnek bir durum sunulur. Öğrencilerden bu hastalıkların ortaya çıkmasını engelleme konusunda genetik testlerin ve genetik danışmanlığın önemi ve rolü ile ilgili merak ettikleri konuları belirlemeleri ve sorular oluşturmaları istenir (E3.8). Öğrenciler, oluşturdukları soruları birbiriyle paylaşarak araştıracakları temel sorulara dönüştürür. c-ç-d) Öğrenciler, genetik testler ve genetik danışmanlık konusunda sordukları soruların cevaplarını bulmak için bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan bilgi toplar veya Genetik Hastalık Tanı Merkezinden sınıfa davet edilecek genetik uzmanları ile görüşme yapar (OB1, OB2). Öğrencilerden genetik uzmanından aldıkları bilgilerin doğruluğunu bilimsel kaynaklarda veya ders kitabında yer alan bilgilerle karşılaştırarak değerlendirmeleri istenir. Öğrenciler, topladıkları bilgileri analiz ederek genetik testlerin ve genetik danışmanlığın genetik bozukluklar ve bu bozuklukların neden olduğu hastalıklar ile ilgili problemlerin çözümünde nasıl bir öneme sahip olduğuna ilişkin çıkarım yapar (E3.11, D13.4). Öğrencilerin yaptığı çıkarımlar, günlük hayatta benzer durumlar ile ilişkilendirilir (SDB2.3). Öğrenciler, genetik bozukluklara ilişkin edindikleri bilgileri aileleriyle paylaşmaları konusunda teşvik edilir (D2.2). Öğrencilere seçecekleri genetik bir bozukluk hakkında bilimsel veri ve bilgilerden yararlanarak araştırma yazısı yazmaya yönelik performans görevi verilebilir. Bu araştırma yazısında öğrencilerden belirledikleri genetik bozukluğun Türkiye’de görülme oranına, nedenlerine ve bu bozukluğa ilişkin alınması gereken önlemlere yer vermeleri; genetik testlerin ve genetik danışmanlığın önemini vurgulamaları beklenir. Öğrenciler, yazıda ele aldıkları genetik bozukluğun tedavisini genetik danışman rolünde açıklamalı ve ortaya koydukları tüm fikirleri bilimsel bilgi ve verilerle desteklemelidir. Araştırma yazısı, analitik dereceli puanlama anahtarı ile değerlendirilebilir."
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "9 a-b) Öğrenciler gruplara ayrılır. Her bir gruptan geleneksel ve modern biyoteknolojinin çevre, ziraat, tıp, endüstri gibi uygulama alanlarından birini seçmeleri istenir (E1.2). Gruplar, seçtiği alana ait uygulamalar (ilaç, aşı, hormon üretimi, hücre ve doku kültürü, adli tıp vb.) hakkında bilgi toplamak için kullanacağı araçları belirler. Öğrencilerden belirledikleri biyoteknoloji uygulama alanlarıyla ilgili bilgileri toplamaları beklenir. c-ç) Öğrencilerden bilim dergileri, bilimsel makaleler gibi güvenilir kaynaklardan elde ettikleri bilgiler arasında ilişki kurarak bilgilerin doğruluğunu değerlendirmeleri istenir (OB1). Söz konusu kaynaklara ulaşmanın mümkün olmadığı durumlarda ders kitabından yararlanılır. Öğrencilerin değerlendirme sonucunda doğruladıkları bilgileri kaydetmeleri sağlanır. Öğrenciler, öğrendikleri bilgileri kullanarak biyoteknoloji ve uygulamaları ile ilgili bilgi görseli oluşturur ve oluşturdukları bilgi görsellerini sınıf ortamında paylaşır (OB4). Hazırlanan bilgi görselleri, puanlama anahtarları ile değerlendirilebilir."
+        },
+        {
+          "kod": "BİY.12.2.",
+          "kazanim": "10 a-b-c) Öğrenci grupları oluşturulur. Gruplardan genetiği değiştirilmiş organizmalar (GDO), canlı klonlama, yeni nesil aşılar, embriyo araştırmaları, CRISPR-Cas uygulamaları, kök hücre teknolojileri gibi farklı biyoteknolojik uygulamalardan birini seçmesi ve seçtikleri konuyu etik açıdan sorgulamaya yönelik araştırma yapması istenir (E3.9, D5.1). Paylaşılan konular arasından bir münazara konusu belirlenerek gruplar oluşturulur. Öğrenciler, etik açıdan sorgulayacakları konu ile ilgili görüşlerini destekleyen bilgi ve kanıtlar toplamaları konusunda yönlendirilir (E1.3, E2.2). Münazara sürecinde öğrencilerden biyoteknoloji uygulamalarının etik ilkelere uygunluğu konusunda akıl yürütmeleri ve çıkarımlarını yansıtmaları beklenir (SDB3.3, E3.10)."
+        }
+      ]
+    }
+  ]
+}

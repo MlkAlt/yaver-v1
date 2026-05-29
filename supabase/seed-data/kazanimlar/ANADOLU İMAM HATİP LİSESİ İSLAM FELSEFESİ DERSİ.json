@@ -1,0 +1,94 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ İSLAM FELSEFESİ DERSİ",
+  "siniflar": [
+    {
+      "sinif": 1,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İF.1.1.",
+          "kazanim": "İslam felsefesiyle ilgili yapılan tanımlar üzerine eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) İslam felsefesiyle ilgili yapılan tanımları sorgular.",
+            "b) İslam felsefesiyle ilgili yapılan tanımlara dair akıl yürütür.",
+            "c) İslam felsefesiyle ilgili yapılan tanımlara dair akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+          ]
+        },
+        {
+          "kod": "İF.1.2.",
+          "kazanim": "İslam felsefesinin gelişimine kaynaklık eden faktörleri özetleyebilme",
+          "alt_kazanimlar": [
+            "a) İslam felsefesinin gelişimine kaynaklık eden faktörlerle ilgili çözümleme yapar.",
+            "b) İslam felsefesinin gelişimine kaynaklık eden faktörlerle ilgili sınıflandırma yapar.",
+            "c) İslam felsefesinin gelişimine kaynaklık eden faktörleri yorumlar."
+          ]
+        },
+        {
+          "kod": "İF.1.3.",
+          "kazanim": "İslam felsefesinin geliştiği ilim ve kültür havzalarıyla ilgili konuları müşahede edebilme",
+          "alt_kazanimlar": [
+            "a) İslam felsefesinin geliştiği ilim ve kültür havzaları hakkında merak ettiği konuları belirler.",
+            "b) İslam felsefesinin geliştiği ilim ve kültür havzalarıyla ilgili belirlenen konular hakkında soru sorar.",
+            "c) İslam felsefesinin geliştiği ilim ve kültür havzalarıyla ilgili merak ettiği konuları inceler. ç) İslam felsefesinin geliştiği ilim ve kültür havzalarıyla ilgili inceleme sonuçları hakkında çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "İF.1.4.",
+          "kazanim": "İslam felsefesinin diğer disiplinlerle ilişkisini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) İslam felsefesinin ilişkili olduğu disiplinleri belirler.",
+            "b) İslam felsefesiyle diğer disiplinler arasındaki ilişkileri belirler."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 3,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İF.3.2.",
+          "kazanim": "İşrak felsefesi hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) İşrak felsefesiyle ilgili bilgiye ulaşmak için kullanacağı araçları belirler.",
+            "b) Belirlediği aracı kullanarak konu hakkındaki bilgileri bulur.",
+            "c) İşrak felsefesiyle ilgili ulaştığı bilgileri doğrular. ç) İşrak felsefesiyle ilgili ulaştığı bilgileri kaydeder."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İF.4.2.",
+          "kazanim": "Osmanlı Dönemi İslam felsefesinin genel karakterini anlayabilme",
+          "alt_kazanimlar": [
+            "a) Osmanlı Dönemi İslam felsefesinin genel karakterini fark eder.",
+            "b) Osmanlı Dönemi İslam felsefesinin genel karakterini tanımlar.",
+            "c) Osmanlı Dönemi İslam felsefesinin genel karakterindeki dönüşümün ortaya çıkış sebeplerini açıklar. ç) Osmanlı Dönemi İslam felsefesinin genel karakterinin özelliklerini belirler."
+          ]
+        },
+        {
+          "kod": "İF.4.3.",
+          "kazanim": "Yakın dönem İslam felsefesi çalışmalarını genelleyebilme",
+          "alt_kazanimlar": [
+            "a) Yakın dönem İslam felsefesi çalışmaları hakkında bilgi toplar.",
+            "b) Yakın dönem İslam felsefesi çalışmalarının ortak özelliklerini belirler.",
+            "c) Yakın dönem İslam felsefesi çalışmalarının ortak olmayan özelliklerini belirler. ç) Elde ettiği örüntülerden hareketle yakın dönem İslam felsefesi çalışmaları hakkında önermede bulunur."
+          ]
+        },
+        {
+          "kod": "İF.4.4.",
+          "kazanim": "İslam felsefesinin Batı’ya etkisi konusunda eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) İslam felsefesinin Batı’ya etkisini sorgular.",
+            "b) İslam felsefesinin Batı’ya etkisiyle ilgili akıl yürütür.",
+            "c) İslam felsefesinin Batı’ya etkisiyle ilgili akıl yürütme sonucu ulaştığı çıkarımları yansıtır."
+          ]
+        }
+      ]
+    }
+  ]
+}

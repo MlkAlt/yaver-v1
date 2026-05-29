@@ -1,0 +1,461 @@
+[
+  {
+    "kod": "KK.9.1.3",
+    "ad": ". Kur’an-ı Kerim’in yazılması ve korunması ile ilgili olguları/",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 7
+  },
+  {
+    "kod": "KK.9.2.5",
+    "ad": ". Tenvin ve sakin nunun hâlleri ile ilgili tecvit kurallarını",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 7
+  },
+  {
+    "kod": "KK.9.2.6",
+    "ad": ". İdgam çeşitlerini telaffuz edebilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 7
+  },
+  {
+    "kod": "KK.9.3.1",
+    "ad": ". Fatiha, Bakara, Duha ila Hümeze surelerini usulüne",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 7
+  },
+  {
+    "kod": "KK.9.4.3",
+    "ad": ". Fatiha ve Fil ila Nâs surelerini; Bakara suresinin 1-5, 255,",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 7
+  },
+  {
+    "kod": "KK.9.4.4",
+    "ad": ". Fatiha ve Fil ila Nâs surelerini; Bakara suresinin 1-5, 255,",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 7
+  },
+  {
+    "kod": "KK.9.2.1",
+    "ad": ". Harfleri telaffuz edebilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "KK.H.1.1",
+    "ad": ". Kur’an-ı Kerim’i okumayı öğrenme ve güzel okumanın önemini müşahede edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 18
+  },
+  {
+    "kod": "KK.H.1.2",
+    "ad": ". Kur’an-ı Kerim’in iç düzeni ile ilgili kavramları ayırt edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 18
+  },
+  {
+    "kod": "KK.H.2.1",
+    "ad": ". Harfleri telaffuz edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "KK.H.2.2",
+    "ad": ". Harfleri okunuşları ile telaffuz edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "KK.H.2.3",
+    "ad": ". Okunuşu özel olan harf ve işaretleri telaffuz edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "KK.H.2.4",
+    "ad": ". Med (uzatma) çeşitlerini telaffuz edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "KK.H.3.1",
+    "ad": ". Fatiha suresini ve Bakara suresinin 1-169. ayetlerini yüzünden okuyabilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "KK.H.4.1",
+    "ad": ". Namaz dualarının anlamlarını yorumlayabilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "KK.H.4.2",
+    "ad": ". Namaz dualarını ezbere okuyabilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "KK.H.4.3",
+    "ad": ". Fatiha ve Fil ila Nâs surelerini anlamada Kur’an-ı Kerim meallerine",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "KK.H.4.4",
+    "ad": ". Fatiha ve Fil ila Nâs surelerini tilavet edebilme",
+    "sinif": null,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "KK.9.1.1",
+    "ad": ". Kur’an-ı Kerim’i okumayı öğrenme ve güzel okumanın önemini müşahede ede-",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "KK.9.1.2",
+    "ad": ". Kur’an-ı Kerim’in iç düzeni ile ilgili kavramları ayırt edebilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "KK.9.2.2",
+    "ad": ". Harfleri okunuşları ile telaffuz edebilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "KK.9.2.3",
+    "ad": ". Okunuşu özel olan harf ve işaretleri telaffuz edebilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "KK.9.2.4",
+    "ad": ". Med çeşitlerini telaffuz edebilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "KK.9.4.1",
+    "ad": ". Namaz dualarının anlamlarını yorumlayabilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KK.9.4.2",
+    "ad": ". Namaz dualarını ezbere okuyabilme",
+    "sinif": 9,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KK.10.1.1",
+    "ad": ". Kur’an-ı Kerim’i anlayarak okumanın önemini sorgulayabilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 54
+  },
+  {
+    "kod": "KK.10.1.2",
+    "ad": ". Kur’an-ı Kerim öğretiminde temel ilke ve yöntemleri özetleyebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 54
+  },
+  {
+    "kod": "KK.10.2.1",
+    "ad": ". Sakin mimin okunuşu ile ilgili örnekleri telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.2",
+    "ad": ". Kalkale ile ilgili örnekleri telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.3",
+    "ad": ". Ra harfinin okunuşunu hükümlerine göre telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.4",
+    "ad": ". Lafzatullahtaki lâm harfini telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.5",
+    "ad": ". Zamiri telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.6",
+    "ad": ". Sekteyi telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.7",
+    "ad": ". Kur’an-ı Kerim tilavetinde okunuşu özel olan kelimeleri telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.8",
+    "ad": ". Vakıf, iptida ve vasıl kuralları ile ilgili örnekleri telaffuz edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.2.9",
+    "ad": ". Kur’an-ı Kerim’deki bazı işaretleri (secavent, secde, hizip, cüz) bulabilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "KK.10.3.1",
+    "ad": ". Al-i İmran, Nisa, Yasin ve Nebe surelerini yüzünden okuyabilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 65
+  },
+  {
+    "kod": "KK.10.4.1",
+    "ad": ". Duha ila Hümeze surelerini anlamada Kur’an-ı Kerim meallerine başvurabilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "KK.10.4.2",
+    "ad": ". Duha ila Hümeze surelerini tilavet edebilme",
+    "sinif": 10,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "KK.11.1.1",
+    "ad": ". Kur’an-ı Kerim’in rehberliği ile ilgili konuları müşahede edebilme",
+    "sinif": 11,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 72
+  },
+  {
+    "kod": "KK.11.1.2",
+    "ad": ". Hz. Peygamber Dönemi’nde Kur’an-ı Kerim öğretimi ile ilgili bilgileri",
+    "sinif": 11,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 72
+  },
+  {
+    "kod": "KK.11.2.1",
+    "ad": ". Med çeşitleri (tabii, muttasıl, munfasıl, arız, lazım, lin), tenvin ve sakin nunun",
+    "sinif": 11,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 76
+  },
+  {
+    "kod": "KK.11.3.1",
+    "ad": ". Maide, Enam, Araf ve Mülk surelerini yüzünden okuyabilme",
+    "sinif": 11,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 79
+  },
+  {
+    "kod": "KK.11.4.1",
+    "ad": ". Bakara suresinin 153-157. ayetlerini ve Yasin suresini anlamada Kur’an-ı Kerim",
+    "sinif": 11,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "KK.11.4.2",
+    "ad": ". Bakara suresinin 153-157. ayetlerini ve Yasin suresini tilavet edebilme",
+    "sinif": 11,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "KK.12.1.1",
+    "ad": ". Kur’an-ı Kerim’i okuma şekillerini tatbik edebilme",
+    "sinif": 12,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KK.12.1.2",
+    "ad": ". Kıraat ilmiyle ilgili konuları müşahede edebilme",
+    "sinif": 12,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KK.12.2.1",
+    "ad": ". Kalkale, ra harfi, lafzatullah, zamir, sekte, Kur’an-ı Kerim tilavetinde okunuşu",
+    "sinif": 12,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "KK.12.3.1",
+    "ad": ". Fetih, Hucurat, Rahman, Vakıa, Saf ve Cuma surelerini yüzünden okuyabilme",
+    "sinif": 12,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 93
+  },
+  {
+    "kod": "KK.12.4.1",
+    "ad": ". Al-i İmran suresinin 189-194. ayetleri ile Fetih suresinin 27-29. ayetlerini anla-",
+    "sinif": 12,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KK.12.4.2",
+    "ad": ". Al-i İmran suresinin 189-194. ayetleri ile Fetih suresinin 27-29. ayetlerini tilavet",
+    "sinif": 12,
+    "ders": "Kur'an-ı Kerim",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202651215499120-kuranıkerimdöp.pdf",
+    "kaynak_sayfa": 96
+  }
+]

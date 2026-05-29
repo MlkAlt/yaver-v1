@@ -1,0 +1,142 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ EBRU DERSİ",
+  "siniflar": [
+    {
+      "sinif": 1,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "EBRU.I.1.1.",
+          "kazanim": "Ders kodu Düzeyi Ünite Numarası Öğrenme çıktı numarası Ebru-I dersi 1. ünitenin 1. öğrenme çıktısına ait süreç bileşenlerini ifade eder. Öğrenme çıktılarının değerlendirilmesi ile uygun ölçme ve değerlendirme araçlarını ifade eder. Öğrenme sürecinde ele alınan bölüm/konu/alt konuya ilişkin sınırları ifade eder."
+        },
+        {
+          "kod": "EBRU.I.1.2.",
+          "kazanim": "Tarihimizdeki bazı meşhur ebrucuların ebru sanatına katkılarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Bazı meşhur ebrucuların ebru sanatına katkılarını belirler.",
+            "b) Bazı meşhur ebrucuların ebru sanatına katkılarının benzerliklerini listeler.",
+            "c) Bazı meşhur ebrucuların ebru sanatına katkılarının farklılıklarını listeler."
+          ]
+        },
+        {
+          "kod": "EBRU.II.1.2.",
+          "kazanim": "Ebru sanatının diğer sanatlarla ilişkisini gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Ebru sanatının diğer sanatlarla ilişkisini fark eder.",
+            "b) Ebru sanatının diğer sanatlarla ilişkisini ifade eder."
+          ]
+        },
+        {
+          "kod": "EBRU.III.1.2.",
+          "kazanim": "Kumlu ebru çeşitlerini yapabilme",
+          "alt_kazanimlar": [
+            "a) Kumlu ebru çeşitlerinde kullanılacak renkleri tasarlar.",
+            "b) Kumlu ebru çeşitlerini oluşturur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 2,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "EBRU.II.2.2.",
+          "kazanim": "Lale, karanfil, sümbül ebrularını yapabilme",
+          "alt_kazanimlar": [
+            "a) Lale, karanfil, sümbül ebrularında kullanılacak renkleri tasarlar.",
+            "b) Lale, karanfil, sümbül ebrularını oluşturur."
+          ]
+        },
+        {
+          "kod": "EBRU.III.2.2.",
+          "kazanim": "Yazılı akkâse ebru yapabilme",
+          "alt_kazanimlar": [
+            "a) Yazılı akkâse ebru türlerinde kullanılacak renkleri tasarlar.",
+            "b) Yazılı akkâse ebru oluşturur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 3,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "EBRU.I.3.2.",
+          "kazanim": "Zemin ebrusu yapabilme",
+          "alt_kazanimlar": [
+            "a) Zemin ebrusunda kullanılacak renkleri tasarlar.",
+            "b) Zemin ebrusunu oluşturur."
+          ]
+        },
+        {
+          "kod": "EBRU.II.3.2.",
+          "kazanim": "Menekşe, papatya, gelincik ebrularını yapabilme",
+          "alt_kazanimlar": [
+            "a) Menekşe, papatya, gelincik ebrularında kullanılacak renkleri tasarlar.",
+            "b) Menekşe, papatya, gelincik ebrularını oluşturur."
+          ]
+        },
+        {
+          "kod": "EBRU.III.3.2.",
+          "kazanim": "Türk ebru sanatında murakka ve mühre yapabilme",
+          "alt_kazanimlar": [
+            "a) Ebruya murakka ve mührenin nasıl yapılacağını tasarlar.",
+            "b) Murakka ve mühre ile ebru eseri oluşturur."
+          ]
+        },
+        {
+          "kod": "EBRU.III.3.3.",
+          "kazanim": "Türk ebrusunda tasarım unsurlarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Türk ebrusunda tasarım unsurlarını belirler.",
+            "b) Türk ebrusunda tasarım unsurları arasındaki ilişkileri belirler."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "EBRU.I.4.2.",
+          "kazanim": "Battal ebru türlerini yapabilme",
+          "alt_kazanimlar": [
+            "a) Battal ebruda kullanılacak renkleri tasarlar.",
+            "b) Battal ebruyu oluşturur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 5,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "EBRU.I.5.2.",
+          "kazanim": "Battal ile başlanan ebru türlerini yapabilme",
+          "alt_kazanimlar": [
+            "a) Battal ile başlanan ebru türlerinde kullanılacak renkleri tasarlar.",
+            "b) Battal ile başlanan ebru türlerini oluşturur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 6,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "EBRU.I.6.2.",
+          "kazanim": "Hatip ebrularını yapabilme",
+          "alt_kazanimlar": [
+            "a) Hatip ebrusunda kullanılacak renkleri tasarlar.",
+            "b) Hatip ebrusunu oluşturur."
+          ]
+        }
+      ]
+    }
+  ]
+}

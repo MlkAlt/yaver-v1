@@ -1,0 +1,839 @@
+[
+  {
+    "kod": "KİM.9.1.7",
+    "ad": ". İyon oluşumuna ilişkin tümevarımsal akıl",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 12
+  },
+  {
+    "kod": "KİM.9.1.5",
+    "ad": "kurmayı ifade eder.",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 12
+  },
+  {
+    "kod": "KİM.9.1.1",
+    "ad": ". Kimya biliminin günlük hayata katkısına ilişkin bilimsel çıkarım yapabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "KİM.9.1.2",
+    "ad": ". Farklı ortamlarda kimyasal maddelerin kullanımından kaynaklanan problemleri",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "KİM.9.1.3",
+    "ad": ". Atom teorilerindeki varsayımları kullanarak bilimsel bilginin değişebilirliğine",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "KİM.9.1.4",
+    "ad": ". Atom orbitallerinin bağıl enerjilerine ilişkin bilimsel veriye dayalı tahminde bu-",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "KİM.9.1.6",
+    "ad": ". Elementlerin periyodik tablodaki yerlerine ilişkin tümevarımsal akıl yürütebilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "KİM.9.1.8",
+    "ad": ". Elementlerin periyodik özelliklerinin periyodik tablodaki değişimini çözümleye-",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "KİM.9.2.1",
+    "ad": ". Metalik bağın oluşumuna yönelik tümevarımsal akıl yürütebilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "KİM.9.2.2",
+    "ad": ". İyonik bağın oluşumunu bilimsel gözleme dayalı tahmin edebilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "KİM.9.2.3",
+    "ad": ". Kovalent bağ oluşumunu bilimsel gözleme dayalı tahmin edebilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "KİM.9.2.4",
+    "ad": ". Moleküllerin Lewis nokta yapısına ilişkin çıkarımda bulunabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "KİM.9.2.5",
+    "ad": ". Molekülleri polar ya da apolar olarak sınıflandırabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "KİM.9.2.6",
+    "ad": ". Bileşikleri adlandırma kurallarına ilişkin tümdengelimsel akıl yürütebilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "KİM.9.2.7",
+    "ad": ". Moleküller arası etkileşimleri sınıflandırabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KİM.9.2.8",
+    "ad": ". Etkileşimlerin katıların özellikleri üzerindeki etkilerine ilişkin bilimsel çıkarım",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KİM.9.2.9",
+    "ad": ". Sıvıların buhar basıncını etkileyen faktörlere ilişkin hipotez oluşturabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KİM.9.2.10",
+    "ad": ". Sıvıların kaynama sıcaklığını etkileyen faktörleri belirlemeye yönelik kanıt kul-",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KİM.9.2.11",
+    "ad": ". Sıvıların viskozitesini etkileyen faktörlere ilişkin bilimsel gözlem yapabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KİM.9.2.12",
+    "ad": ". Adezyon ve kohezyon kuvvetlerinin sıvıların özellikleri üzerindeki etkilerine",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KİM.9.2.13",
+    "ad": ". Sıvıların yüzey gerilimini etkileyen faktörlere ilişkin bilimsel sorgulama yapa-",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "KİM.9.3.1",
+    "ad": ". Evsel atıklardan metal nanoparçacık elde etmek üzere deney yapabilme",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "KİM.9.3.2",
+    "ad": ". Metal, alaşım ve metal nanoparçacıkların ekosistemdeki etkilerine ilişkin prob-",
+    "sinif": 9,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "KİM.10.1.1",
+    "ad": ". Kimyasal değişimlere ilişkin kanıtları belirlemeye yönelik bilimsel gözlem yapa-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "KİM.10.1.2",
+    "ad": ". Kimyasal tepkimelerin oluşumunu açıklamak için bilimsel model oluşturabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "KİM.10.1.3",
+    "ad": ". Kimyasal tepkime türlerinin oluşum sürecine ilişkin bilimsel gözlem yapabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "KİM.10.1.4",
+    "ad": ". Mol kavramına ilişkin operasyonel tanımlama yapabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "KİM.10.1.5",
+    "ad": ". Saf maddelerin ölçülebilir özellikleri arasındaki ilişkileri belirlemeye yönelik tüm-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "KİM.10.1.6",
+    "ad": ". Kimyasal tepkime denklemlerinde tanecik sayılarının tutarsızlıklarına ilişkin çe-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "KİM.10.1.7",
+    "ad": ". Kimyasal tepkimelerde stokiyometrik ilişkilere yönelik tümdengelimsel akıl yü-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "KİM.10.1.8",
+    "ad": ". Gazların özelliklerine ilişkin bilimsel gözlem yapabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "KİM.10.1.9",
+    "ad": ". Gazların özellikleri arasındaki ilişkileri bilimsel sorgulayabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "KİM.10.1.10",
+    "ad": ". İdeal gaz denklemini tümevarımsal akıl yürütme yoluyla oluşturabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "KİM.10.1.11",
+    "ad": ". Gazların farklı ortamlarda yayılmasına ilişkin deney yapabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "KİM.10.2.1",
+    "ad": ". Çözünme sürecine ilişkin bilimsel model oluşturabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.2",
+    "ad": ". Farklı maddelerin birbiri içinde çözünebilirliğini kanıt kullanarak açıklayabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.3",
+    "ad": ". Çözünme olayını sınıflandırabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.4",
+    "ad": ". Çözünürlük kavramına ilişkin operasyonel tanımlama yapabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.5",
+    "ad": ". Çözünürlüğe etki eden faktörleri belirlemeye yönelik kanıt kullanabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.6",
+    "ad": ". Çözeltileri sınıflandırabilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.7",
+    "ad": ". Çözeltilerin molar derişimine ilişkin tümevarımsal akıl yürütebilme",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "KİM.10.2.8",
+    "ad": ". Çözünen maddenin tanecik sayısının çözeltilerin kaynama ve donma noktası-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 50
+  },
+  {
+    "kod": "KİM.10.3.1",
+    "ad": ". Kimya dersinde mikro ölçekli deney tercih etmenin sonuçlarını ekosistem açı-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "KİM.10.3.2",
+    "ad": ". Kimyasal tepkimeler sonucunda atmosferin doğasındaki değişimin ekosiste-",
+    "sinif": 10,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "KİM.11.1.1",
+    "ad": ". Fiziksel ve kimyasal olaylardaki enerji değişimine ilişkin deney yapabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "KİM.11.1.2",
+    "ad": ". Maddelerin enerji kaynağı olma potansiyeline ilişkin hipotezler oluşturabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "KİM.11.1.3",
+    "ad": ". Bağ enerjileri temelinde tepkimelerin entalpi değişimine ilişkin tümevarımsal",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "KİM.11.1.4",
+    "ad": ". Kimyasal tepkimelerin standart tepkime entalpilerini standart oluşum entalpi",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "KİM.11.1.5",
+    "ad": ". Kimyasal tepkimelerin gerçekleşme şartlarını açıklamak için kanıt kullanabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "KİM.11.1.6",
+    "ad": ". Tepkime hızının zamanla değişimini bilimsel veriye dayalı tahmin edebilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "KİM.11.1.7",
+    "ad": ". Tepkime hızına etki eden faktörleri bilimsel sorgulayabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 62
+  },
+  {
+    "kod": "KİM.11.1.8",
+    "ad": ". Kimyasal tepkimelerin hız denklemini bilimsel veriye dayalı tahmin edebilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 62
+  },
+  {
+    "kod": "KİM.11.2.1",
+    "ad": ". Tepkimelerin tersinir olabileceğine ilişkin bilimsel gözlem yapabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.2",
+    "ad": ". Tepkimelerdeki denge sürecine ilişkin bilimsel gözleme dayalı tahminde bu-",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.3",
+    "ad": ". Denge sabiti ifadesinin oluşturulmasına ilişkin tümevarımsal akıl yürütebilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.4",
+    "ad": ". Tersinir tepkimelerin dengeye ulaşıp ulaşmadığını bilimsel veriye dayalı tah-",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.5",
+    "ad": ". Dengeye etki eden faktörleri bilimsel sorgulayabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.6",
+    "ad": ". Saf suyun otoiyonizasyonuna ilişkin bilimsel gözlem yapabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.7",
+    "ad": ". Asit ve baz teorilerini karşılaştırabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.8",
+    "ad": ". Asitlerin ve bazların kuvvetlerine ilişkin bilimsel sorgulama yapabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "KİM.11.2.9",
+    "ad": ". Kuvvetli asit-zayıf asit ve kuvvetli baz-zayıf baz sulu çözeltilerindeki pH hesap-",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "KİM.11.2.10",
+    "ad": ". Nötralleşme olayını operasyonel tanımlayabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "KİM.11.2.11",
+    "ad": ". Kuvvetli asit ve kuvvetli baz çözeltilerinin derişimlerini titrasyon yöntemiyle be-",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "KİM.11.2.12",
+    "ad": ". Asidik ya da bazik ürünlerin en uygun olanına karar verebilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "KİM.11.2.13",
+    "ad": ". Suda az çözünen tuzların çözünürlüğüne ilişkin bilimsel model oluşturabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "KİM.11.2.14",
+    "ad": ". Suda az çözünen tuzların çözünürlüğüne etki eden faktörlere ilişkin bilimsel çı-",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "KİM.11.3.1",
+    "ad": ". Evsel atıklardan fermantasyon yöntemi ile yeşil hidrojen enerjisi elde etme sü-",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 80
+  },
+  {
+    "kod": "KİM.11.3.2",
+    "ad": ". Nanoteknolojik ürünlerin seçimine yönelik eleştirel düşünebilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 80
+  },
+  {
+    "kod": "KİM.11.3.3",
+    "ad": ". Mikroplastik ve nanoplastiklerin etkilerini sorgulayabilme",
+    "sinif": 11,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 80
+  },
+  {
+    "kod": "KİM.12.1.1",
+    "ad": ". İndirgenme-yükseltgenme (redoks) tepkime sürecine ilişkin bilimsel gözlem",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KİM.12.1.2",
+    "ad": ". Metallerin aktiflik sıralamasını belirlemeye ilişkin bilimsel sorgulama yapabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KİM.12.1.3",
+    "ad": ". Galvanik bir hücrenin özelliklerini bilimsel gözleme dayalı tahmin edebilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KİM.12.1.4",
+    "ad": ". Standart hücre potansiyelinin hesaplanmasına ilişkin tümevarımsal akıl yürü-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KİM.12.1.5",
+    "ad": ". Galvanik hücrelerin potansiyelini etkileyen faktörlere ilişkin hipotez oluştura-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "KİM.12.1.6",
+    "ad": ". Elektrolitik bir hücrenin özelliklerini bilimsel gözlemlere dayalı tahmin edebilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "KİM.12.1.7",
+    "ad": ". Elektroliz olayında madde-elektrik akımı miktarı ilişkisini açıklayabilmek için ka-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "KİM.12.1.8",
+    "ad": ". Metallerin elektrolizle kaplanmasına yönelik deney yapabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "KİM.12.1.9",
+    "ad": ". Korozyonu önlemeye yönelik bilimsel sorgulama yapabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "KİM.12.2.1",
+    "ad": ". Molekülleri oluşturan atomlar arasındaki sigma ve pi bağlarını açıklamak için",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.2",
+    "ad": ". Hibrit orbitallerinin oluşumunu açıklamak için kanıt kullanabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.3",
+    "ad": ". Moleküllerin geometrisinin belirlenmesine ilişkin çıkarımda bulunabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.4",
+    "ad": ". Organik bileşiklerin gösterimi için kullanılan farklı formüllere ilişkin tümeva-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.5",
+    "ad": ". Hidrokarbonları sınıflandırabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.6",
+    "ad": ". Alifatik hidrokarbonların sistematik adlandırılmasına ilişkin tümevarımsal akıl",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.7",
+    "ad": ". Alifatik hidrokarbonların izomerliklerini sınıflandırabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "KİM.12.2.8",
+    "ad": ". Alifatik hidrokarbonların fiziksel ve kimyasal özelliklerini karşılaştırabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "KİM.12.2.9",
+    "ad": ". Organik bileşikleri fonksiyonel grubuna göre sınıflandırabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "KİM.12.2.10",
+    "ad": ". Fonksiyonel gruba sahip organik bileşiklerin sistematik adlandırılma kuralla-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "KİM.12.2.11",
+    "ad": ". Fonksiyonel grup izomeri olan organik bileşiklerin bilimsel modelini oluştu-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "KİM.12.2.12",
+    "ad": ". Karbon temelli enerji kaynaklarının yanma tepkimelerinin sonuçlarına ilişkin",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "KİM.12.3.1",
+    "ad": ". Boyaya duyarlı güneş pillerinin verimliliklerine ilişkin bilimsel çıkarım yapabilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "KİM.12.3.2",
+    "ad": ". Biyobozunur polimer eldesinde kullanılacak bileşenlere karar verebilme",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "KİM.12.3.3",
+    "ad": ". Yapay zekâ uygulamalarının sürdürülebilirliğe etkilerine yönelik eleştirel dü-",
+    "sinif": 12,
+    "ders": "Kimya",
+    "brans_slug": "kimya",
+    "kaynak_pdf": "2026518151539674-kimya.pdf",
+    "kaynak_sayfa": 107
+  }
+]

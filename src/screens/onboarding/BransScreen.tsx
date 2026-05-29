@@ -127,7 +127,7 @@ export function BransScreen({ navigation }: Props) {
     supabase
       .from('branslar')
       .select('id, ad, renk, kademe, slug')
-      .order('ad')
+      .order('sira')
       .then(({ data, error }) => {
         if (!error && data) setBranslar(data as Brans[]);
         setLoading(false);

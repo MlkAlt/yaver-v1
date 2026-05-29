@@ -1,0 +1,461 @@
+[
+  {
+    "kod": "ARP.9.1.1",
+    "ad": ". DİNLEME/İZLEME 9.1.1.19",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "ARP.9.1.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "ARP.9.1.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA 8",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "ARP.9.1.4",
+    "ad": ". SÖZC6ÜK SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "ARP.9.1.5",
+    "ad": ". SESLETİM SEÇİMİ-KULLANIMI",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "ARP.9.1.6",
+    "ad": ". KONUŞMA-ANLATMA 8",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "ARP.9.1.7",
+    "ad": ". YAZMA 99.1.7.1. Hedef harfleri ve kelimeleri yazmaya hazırlık yapabilme",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "ARP.9.1.3.8",
+    "ad": "DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "ARP.9.2.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "ARP.9.2.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "ARP.9.2.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "ARP.9.2.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "ARP.9.2.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "ARP.9.2.6",
+    "ad": ". YAZMA-ANLATMA 8",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "ARP.9.3.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 8",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "ARP.9.3.2",
+    "ad": ". OKUM1A-ANLAMLANDIRMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "ARP.9.3.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 42
+  },
+  {
+    "kod": "ARP.9.3.4",
+    "ad": ". SÖZCÜK1 SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 42
+  },
+  {
+    "kod": "ARP.9.3.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 42
+  },
+  {
+    "kod": "ARP.9.3.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 43
+  },
+  {
+    "kod": "ARP.9.3.38",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "ARP.9.4.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "ARP.9.4.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "ARP.9.4.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KUL9LANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 54
+  },
+  {
+    "kod": "ARP.9.4.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 54
+  },
+  {
+    "kod": "ARP.9.4.5",
+    "ad": ". KONUŞMA-ANLATMA 8",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 55
+  },
+  {
+    "kod": "ARP.9.4.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 9,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 55
+  },
+  {
+    "kod": "ARP.10.1.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 2",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 66
+  },
+  {
+    "kod": "ARP.10.1.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 66
+  },
+  {
+    "kod": "ARP.10.1.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "ARP.10.1.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 73
+  },
+  {
+    "kod": "ARP.10.1.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA 9",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 74
+  },
+  {
+    "kod": "ARP.10.1.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "ARP.10.2.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "ARP.10.2.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 80
+  },
+  {
+    "kod": "ARP.10.2.2",
+    "ad": ". O6KUMA-ANLAMLANDIRMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "ARP.10.2.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "ARP.10.2.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "ARP.10.2.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 88
+  },
+  {
+    "kod": "ARP.10.3.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 8",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "ARP.10.3.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "ARP.10.3.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "ARP.10.3.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "ARP.10.3.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 93
+  },
+  {
+    "kod": "ARP.10.3.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "ARP.10.4.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 103
+  },
+  {
+    "kod": "ARP.10.4.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 103
+  },
+  {
+    "kod": "ARP.10.4.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 104
+  },
+  {
+    "kod": "ARP.10.4.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 104
+  },
+  {
+    "kod": "ARP.10.4.5",
+    "ad": ". KONUŞMA-ANLATMA 8",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 105
+  },
+  {
+    "kod": "ARP.10.4.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 10,
+    "ders": "Arapça",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202591213531335-arapca910.pdf",
+    "kaynak_sayfa": 105
+  }
+]

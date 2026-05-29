@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Yaver",
+    "slug": "yaver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F5F2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yaver.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": false,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "355221e9-acf2-4b50-b666-e7b3487401d5"
+      },
+      "supabaseUrl": "https://oelllamwceazolwpgavq.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9lbGxsYW13Y2Vhem9sd3BnYXZxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzMzA1NTAsImV4cCI6MjA5MTkwNjU1MH0.x1XYmsAbJb1Hsrq_AEUSRrlIGgkin4XYqeSwxEfB7Ts"
+    },
+    "owner": "melik06s-organization"
+  }
+}

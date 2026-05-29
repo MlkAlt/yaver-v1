@@ -1,0 +1,1325 @@
+[
+  {
+    "kod": "MAT.5.1",
+    "ad": ". Sayılar ve MAT.6.1. Sayılar ve MAT.7.1. Sayılar ve MAT.8.1. Sayılar ve",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.6.1",
+    "ad": ". Sayılar ve MAT.7.1. Sayılar ve MAT.8.1. Sayılar ve",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.1",
+    "ad": ". Sayılar ve MAT.8.1. Sayılar ve",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.1",
+    "ad": ". Sayılar ve",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.5.2",
+    "ad": ". İşlemlerle MAT.6.2. İşlemlerle MAT.7.2. İşlemlerle MAT.8.2. Cebirsel",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.6.2",
+    "ad": ". İşlemlerle MAT.7.2. İşlemlerle MAT.8.2. Cebirsel",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.2",
+    "ad": ". İşlemlerle MAT.8.2. Cebirsel",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.2",
+    "ad": ". Cebirsel",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.5.3",
+    "ad": ". Geometrik MAT.6.3. Geometrik MAT.7.3.Dönüşüm MAT.8.3. Geometrik",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.6.3",
+    "ad": ". Geometrik MAT.7.3.Dönüşüm MAT.8.3. Geometrik",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.3.Dönüşüm",
+    "ad": "MAT.8.3. Geometrik",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.3",
+    "ad": ". Geometrik",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.5.4",
+    "ad": ". Geometrik MAT.6.4. Geometrik MAT.7.4. Geometrik MAT.8.4. Geometrik",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.6.4",
+    "ad": ". Geometrik MAT.7.4. Geometrik MAT.8.4. Geometrik",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.4",
+    "ad": ". Geometrik MAT.8.4. Geometrik",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.4",
+    "ad": ". Geometrik",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.5.5",
+    "ad": ". İstatistiksel MAT.6.5. İstatistiksel MAT.7.5.Geometrik MAT.8.5. Dönüşüm",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.6.5",
+    "ad": ". İstatistiksel MAT.7.5.Geometrik MAT.8.5. Dönüşüm",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.5.Geometrik",
+    "ad": "MAT.8.5. Dönüşüm",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.5",
+    "ad": ". Dönüşüm Araştırma Süreci Araştırma Süreci Şekiller",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.5.6",
+    "ad": ". Veriden MAT.6.6. Veriden MAT.7.6. İstatistiksel MAT.8.6. İstatistiksel",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.6.6",
+    "ad": ". Veriden MAT.7.6. İstatistiksel MAT.8.6. İstatistiksel",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.6",
+    "ad": ". İstatistiksel MAT.8.6. İstatistiksel",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.6",
+    "ad": ". İstatistiksel",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.7.7",
+    "ad": ". Veriden MAT.8.7. Veriden",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.8.7",
+    "ad": ". Veriden Olasılığa Olasılığa",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.5.5.İSTATİSTİKSEL",
+    "ad": "ARAŞTIRMA SÜRECİ 2 24 13",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.5.2.İŞLEMLERLE",
+    "ad": "CEBİRSEL DÜŞÜNME 4 20 11",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.6.1.SAYILAR",
+    "ad": "VE NİCELİKLER (1) 4 15 8",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.6.6.VERİDEN",
+    "ad": "OLASILIĞA 1 9 5",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.6.3.GEOMETRİK",
+    "ad": "ŞEKİLLER 4 20 11",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.6.2.İŞLEMLERLE",
+    "ad": "CEBİRSEL DÜŞÜNME",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.6.4.GEOMETRİK",
+    "ad": "NİCELİKLER 6 33 18",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 10
+  },
+  {
+    "kod": "MAT.7.1.SAYILAR",
+    "ad": "VE NİCELİKLER (1) 4 35 19",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.7.4.GEOMETRİK",
+    "ad": "NİCELİKLER (1) 6 19 11",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.7.6.İSTATİSTİKSEL",
+    "ad": "ARAŞTIRMA SÜRECİ 2 24 13",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.7.3.DÖNÜŞÜM",
+    "ad": "2 8 5 5 MAT.7.5.GEOMETRİK ŞEKİLLER 2 6 3",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.7.5.GEOMETRİK",
+    "ad": "ŞEKİLLER 2 6 3",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.7.7.VERİDEN",
+    "ad": "OLASILIĞA 3 9 5",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.7.2.İŞLEMLERLE",
+    "ad": "CEBİRSEL DÜŞÜNME",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.1.SAYILAR",
+    "ad": "VE NİCELİKLER 4 38 21",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.3.GEOMETRİK",
+    "ad": "ŞEKİLLER 6 39 22",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.7.VERİDEN",
+    "ad": "OLASILIĞA 1 9 5",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.2.CEBİRSEL",
+    "ad": "DÜŞÜNME VE DEĞİŞİMLER 4 42 23",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.4.GEOMETRİK",
+    "ad": "NİCELİKLER 3 15 8",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.6.İSTATİSTİKSEL",
+    "ad": "ARAŞTIRMA SÜRECİ 2 20 11",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.8.5.DÖNÜŞÜM",
+    "ad": "3 9 5 OKUL TEMELLİ PLANLAMA* - 8 5",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "MAT.5.1.1",
+    "ad": ". Altı basamaklı sayıları okuma ve yazmayı daha",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "MAT.5.1.2",
+    "ad": ". Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 21
+  },
+  {
+    "kod": "MAT.5.1.3",
+    "ad": ". Gerçek yaşam durumlarına karşılık gelen kesirleri farklı biçimlerde temsil ede-",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "MAT.5.1.4",
+    "ad": ". Farklı gösterimlerle ifade edilen kesirlerin karşılaştırılmasına yönelik çıkarım",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "MAT.5.2.1",
+    "ad": ". Eşitliğin korunumuna ve işlem özelliklerine yönelik çıkarım yapabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 32
+  },
+  {
+    "kod": "MAT.5.2.2",
+    "ad": ". Karşılaştığı günlük hayat ya da matematiksel durumlarda işlem önceliğini yo-",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 32
+  },
+  {
+    "kod": "MAT.5.2.3",
+    "ad": ". Sayı ve şekil örüntülerinin kuralına ilişkin muhakeme yapabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 32
+  },
+  {
+    "kod": "MAT.5.2.4",
+    "ad": ". Temel aritmetik işlem içeren durumlardaki algoritmaları yorumlayabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 32
+  },
+  {
+    "kod": "MAT.5.3.1",
+    "ad": ". Temel geometrik çizimler için matematiksel araç ve teknolojiden yararlana-",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.3.2",
+    "ad": ". Temel geometrik çizimlere dayalı deneyimlerini yansıtabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.3.3",
+    "ad": ". Açıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.3.4",
+    "ad": ". Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabi-",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.3.5",
+    "ad": ". Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şe-",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.3.6",
+    "ad": ". Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.3.7",
+    "ad": ". Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çem-",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "MAT.5.4.1",
+    "ad": ". Kenar uzunlukları doğal sayı olan bir dikdörtgenin çevre uzunluğu verildiğinde",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "MAT.5.4.2",
+    "ad": ". Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "MAT.5.4.3",
+    "ad": ". Kenar uzunlukları doğal sayı olan bir dikdörtgenin alanının ölçüsü verildiğinde",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "MAT.5.4.4",
+    "ad": ". Dikdörtgenin çevre uzunluğu ve alanı ile ilgili problemleri çözebilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "MAT.5.5.1",
+    "ad": ". Kategorik veri ile çalışabilme ve veriye dayalı karar verebilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "MAT.5.5.2",
+    "ad": ". Başkaları tarafından oluşturulan kategorik veriye dayalı istatistiksel sonuç",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "MAT.5.6.1",
+    "ad": ". Herhangi bir olayın olasılığının 0 (imkânsız) ile 1 (kesin) arasında (0 ve 1 dâhil)",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "MAT.5.6.2",
+    "ad": ". Olayları az ya da çok olasılıklı şeklinde yapılandırabilme",
+    "sinif": 5,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "MAT.6.1.1",
+    "ad": ". Karşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yöne-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "MAT.6.1.2",
+    "ad": ". Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "MAT.6.1.3",
+    "ad": ". Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "MAT.6.1.4",
+    "ad": ". Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "MAT.6.1.5",
+    "ad": ". Gerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesir-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "MAT.6.1.6",
+    "ad": ". Kesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "MAT.6.1.7",
+    "ad": ". Karşılaştığı günlük hayat ya da matematiksel durumlarda standart uzunluk",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "MAT.6.1.8",
+    "ad": ". Gerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "MAT.6.2.1",
+    "ad": ". Gerçek yaşam durumlarında bilinen niceliklerden bilinmeyen niceliklere ilişkin",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "MAT.6.2.2",
+    "ad": ". Sayı ve şekil örüntülerini yorumlayabilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "MAT.6.2.3",
+    "ad": ". Cebirsel ifadeler içeren durumlardaki algoritmaları yorumlayabilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "MAT.6.3.1",
+    "ad": ". Düzlemde iki paralel doğru ve bir kesen ile oluşan açıları sınıflandırabilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 84
+  },
+  {
+    "kod": "MAT.6.3.2",
+    "ad": ". Matematiksel araç ve teknolojiden yararlanarak iki paralel doğrunun iki ke-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 84
+  },
+  {
+    "kod": "MAT.6.3.3",
+    "ad": ". Matematiksel araç ve teknolojiden yararlanarak birbirlerini ortalayan doğru",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 84
+  },
+  {
+    "kod": "MAT.6.3.4",
+    "ad": ". Üçgen, yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin açıları",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 84
+  },
+  {
+    "kod": "MAT.6.4.1",
+    "ad": ". Uzunluk ve alan ölçme birimleri arasındaki ilişkilerle ilgili analojik akıl yürüte-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "MAT.6.4.2",
+    "ad": ". Dikdörtgenin alan bağıntısına yönelik deneyimlerini paralelkenar ve üçgenin",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "MAT.6.4.3",
+    "ad": ". Geometrik şekillerin alanları ile modellenen gerçek yaşam durumlarına yöne-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "MAT.6.4.4",
+    "ad": ". Çemberin uzunluğu ile çap uzunluğu arasındaki ilişkiye yönelik çıkarım yapa-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "MAT.6.4.5",
+    "ad": ". Çap veya yarıçap uzunluğu verilen bir çemberin uzunluğu ile ilgili problemleri",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "MAT.6.4.6",
+    "ad": ". Çemberde merkez açının ölçüsü ile gördüğü yayın uzunluğu arasındaki ilişki-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "MAT.6.5.1",
+    "ad": ". Kategorik veya nicel (kesikli) veri ile çalışabilme ve veriye dayalı karar verebilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 99
+  },
+  {
+    "kod": "MAT.6.5.2",
+    "ad": ". Başkaları tarafından oluşturulan kategorik veya nicel (kesikli) veriye dayalı is-",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 99
+  },
+  {
+    "kod": "MAT.6.6.1",
+    "ad": ". Bir olayın olasılığını gözleme dayalı tahmin edebilme",
+    "sinif": 6,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 106
+  },
+  {
+    "kod": "MAT.7.1.1",
+    "ad": ". Gerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyo-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 110
+  },
+  {
+    "kod": "MAT.7.1.2",
+    "ad": ". Gerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansı-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 110
+  },
+  {
+    "kod": "MAT.7.1.3",
+    "ad": ". Rasyonel sayıların sıralama ve karşılaştırma ilişkilerini yorumlayabilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 110
+  },
+  {
+    "kod": "MAT.7.1.4",
+    "ad": ". Rasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 110
+  },
+  {
+    "kod": "MAT.7.1.5",
+    "ad": ". Gerçek yaşam durumları üzerinden oran ilişkileri hakkında muhakeme yapa-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 117
+  },
+  {
+    "kod": "MAT.7.1.6",
+    "ad": ". Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 117
+  },
+  {
+    "kod": "MAT.7.1.7",
+    "ad": ". Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problem-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 117
+  },
+  {
+    "kod": "MAT.7.2.1",
+    "ad": ". Gerçek yaşam durumları ya da matematiksel durumlar üzerinden cebirsel",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 125
+  },
+  {
+    "kod": "MAT.7.2.2",
+    "ad": ". Birinci dereceden bir bilinmeyenli denklem ve birinci dereceden bir bilinme-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 125
+  },
+  {
+    "kod": "MAT.7.2.3",
+    "ad": ". Sayılar ve özelliklerini içeren ispatlara ilişkin matematiksel muhakeme yapa-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 125
+  },
+  {
+    "kod": "MAT.7.2.4",
+    "ad": ". Temel aritmetik ve cebirsel ifadelerle işlem içeren durumlardaki süreci algo-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 125
+  },
+  {
+    "kod": "MAT.7.3.1",
+    "ad": ". Şekillerin yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 132
+  },
+  {
+    "kod": "MAT.7.3.2",
+    "ad": ". Yansıma dönüşümündeki deneyimlerini orta dikme ve açıortay inşasına yan-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 132
+  },
+  {
+    "kod": "MAT.7.4.1",
+    "ad": ". Eş küplerle oluşturulan yapılar ile görünümleri arasındaki ilişkiyi çözümleye-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 137
+  },
+  {
+    "kod": "MAT.7.4.2",
+    "ad": ". Dikdörtgenler prizmasının yüzey alanını yorumlayabilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 137
+  },
+  {
+    "kod": "MAT.7.4.3",
+    "ad": ". Dikdörtgenler prizmasının hacmini eş nesneler aracılığıyla yorumlayabilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 137
+  },
+  {
+    "kod": "MAT.7.4.4",
+    "ad": ". Dikdörtgenler prizmasının hacim bağıntısını değerlendirebilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 137
+  },
+  {
+    "kod": "MAT.7.4.5",
+    "ad": ". Hacim ölçme birimleri arasındaki ilişkileri değerlendirebilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 137
+  },
+  {
+    "kod": "MAT.7.4.6",
+    "ad": ". Günlük hayat durumlarında dikdörtgenler prizmaları ile modellenen cisimle-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 137
+  },
+  {
+    "kod": "MAT.7.4.7",
+    "ad": ". Dikdörtgenin, paralelkenarın alanına ve çemberin uzunluğuna ilişkin dene-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 144
+  },
+  {
+    "kod": "MAT.7.4.8",
+    "ad": ". Çemberde merkez açı ve gördüğü yay uzunluğu arasındaki ilişkiden yola çı-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 144
+  },
+  {
+    "kod": "MAT.7.4.9",
+    "ad": ". Eşkenar dörtgen ve yamuğun alan bağıntılarına dair çıkarım yapabilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 144
+  },
+  {
+    "kod": "MAT.7.4.10",
+    "ad": ". Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 144
+  },
+  {
+    "kod": "MAT.7.5.1",
+    "ad": ". Matematiksel araç ve teknolojiden yararlanarak üçgende kenarortayı, açıor-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 150
+  },
+  {
+    "kod": "MAT.7.5.2",
+    "ad": ". Orta dikme inşasına yönelik deneyimlerini üçgende kenarortay inşasına yan-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 150
+  },
+  {
+    "kod": "MAT.7.6.1",
+    "ad": ". Kategorik veya nicel (sürekli) veri ile çalışabilme ve veriye dayalı karar vere-",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 154
+  },
+  {
+    "kod": "MAT.7.6.2",
+    "ad": ". Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 154
+  },
+  {
+    "kod": "MAT.7.7.1",
+    "ad": ". Bir olayın ve tümleyeninin olasılığına ilişkin tümevarımsal akıl yürütebilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "MAT.7.7.2",
+    "ad": ". Aynı deneye ait olayların eşit olasılıklı olma durumlarını değerlendirebilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "MAT.7.7.3",
+    "ad": ". Olayları ayrık olma ve ayrık olmama durumlarına göre sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "MAT.8.1.1",
+    "ad": ". Farklı bağlamlardaki üslü ifadelere, özelliklerine ve üslü ifadelerle yapılan iş-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 166
+  },
+  {
+    "kod": "MAT.8.1.2",
+    "ad": ". Karşılaştığı problem durumlarında kareköklü ifadeler ile ilgili muhakeme ya-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 166
+  },
+  {
+    "kod": "MAT.8.1.3",
+    "ad": ". Sayıların rasyonel ya da irrasyonelliğini değerlendirebilme",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 166
+  },
+  {
+    "kod": "MAT.8.1.4",
+    "ad": ". Gerçek sayıları ve aralıklarını sayı doğrusunda yorumlayabilme",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 166
+  },
+  {
+    "kod": "MAT.8.2.1",
+    "ad": ". Gerçek yaşam durumları üzerinden dik koordinat sistemini çözümleyebilme",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "MAT.8.2.2",
+    "ad": ". Gerçek yaşam durumlarındaki doğrusal ilişkileri doğrusal fonksiyonlarla",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "MAT.8.2.3",
+    "ad": ". Dik koordinat sisteminde iki doğrusal fonksiyonun birbirine göre durumuna",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "MAT.8.2.4",
+    "ad": ". Doğrusal fonksiyonlara ilişkin problemlerin çözümlerini algoritma ifade yön-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "MAT.8.3.1",
+    "ad": ". Matematiksel araç ve teknoloji yardımıyla üçgenin kenarları ve açıları arasın-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 180
+  },
+  {
+    "kod": "MAT.8.3.2",
+    "ad": ". Matematiksel araç ve teknoloji yardımıyla üçgenin kenar uzunlukları arasın-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 180
+  },
+  {
+    "kod": "MAT.8.3.3",
+    "ad": ". Bir üçgene eş üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan ele-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 180
+  },
+  {
+    "kod": "MAT.8.3.4",
+    "ad": ". Bir üçgene benzer üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 180
+  },
+  {
+    "kod": "MAT.8.3.5",
+    "ad": ". Kenar uzunlukları a²+ b²= c² eşitliğini sağlayan üçgenleri oluşturarak dik üç-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 180
+  },
+  {
+    "kod": "MAT.8.3.6",
+    "ad": ". Üçgende açı-kenar ilişkisi, üçgen eşitsizliği ve Pisagor bağıntısını içeren prob-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 181
+  },
+  {
+    "kod": "MAT.8.4.1",
+    "ad": ". Dik prizmalar, dikdörtgen dik piramit, dik dairesel silindir ve dik dairesel koninin",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 189
+  },
+  {
+    "kod": "MAT.8.4.2",
+    "ad": ". Dik dairesel silindirin yüzey açınımına ilişkin deneyimlerini dik dairesel silindirin",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 189
+  },
+  {
+    "kod": "MAT.8.4.3",
+    "ad": ". Dairenin alan bağıntısının oluşturulma sürecinden hareketle dik dairesel silin-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 189
+  },
+  {
+    "kod": "MAT.8.5.1",
+    "ad": ". Matematiksel araç ve teknoloji yardımıyla öteleme dönüşümünü çözümle-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 195
+  },
+  {
+    "kod": "MAT.8.5.2",
+    "ad": ". Dik koordinat sisteminde geometrik şekillere ait noktaların apsis ve ordi-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 195
+  },
+  {
+    "kod": "MAT.8.5.3",
+    "ad": ". Öteleme ve yansıma dönüşümlerini içeren problemleri çözebilme",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 195
+  },
+  {
+    "kod": "MAT.8.6.1",
+    "ad": ". Kategorik veya nicel (kesikli-sürekli) veri ile çalışabilme ve veriye dayalı karar",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 201
+  },
+  {
+    "kod": "MAT.8.6.2",
+    "ad": ". Başkaları tarafından oluşturulan kategorik veya nicel (kesikli-sürekli) veriye",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 201
+  },
+  {
+    "kod": "MAT.8.7.1",
+    "ad": ". Gerçek yaşamda karşılaşabileceği bir olayın olasılığına ilişkin farklı olasılık yak-",
+    "sinif": 8,
+    "ders": "Matematik",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202582516434252-ortaokul matematik.pdf",
+    "kaynak_sayfa": 208
+  }
+]

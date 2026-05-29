@@ -1,0 +1,149 @@
+═══════════════════════════════════════════════════════════════
+  YAVER V1 — MÜFREDAT AUDIT RAPORU
+═══════════════════════════════════════════════════════════════
+
+(node:31208) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+### 1. BRANŞ LİSTESİ (24 branş)
+───────────────────────────────────────────────────────────────
+   1. Sınıf Öğretmenliği                  slug=sinif_ogretmeni           kademe=[ilkokul]
+   2. Matematik                           slug=matematik                 kademe=[ortaokul,lise]
+   3. Türkçe                              slug=turkce                    kademe=[ortaokul]
+   4. İngilizce                           slug=ingilizce                 kademe=[ilkokul,ortaokul,lise]
+   5. Fen Bilimleri                       slug=fen_bilimleri             kademe=[ortaokul]
+   6. Sosyal Bilgiler                     slug=sosyal_bilgiler           kademe=[ortaokul]
+   7. Türk Dili ve Edebiyatı              slug=turk_dili_edebiyati       kademe=[lise]
+   8. Din Kültürü ve Ahlak Bilgisi        slug=din_kulturu               kademe=[ilkokul,ortaokul,iho,lise]
+   9. İHL Meslek Dersleri                 slug=ihl_meslek_dersleri       kademe=[ihl]
+  10. Tarih                               slug=tarih                     kademe=[lise,ihl]
+  11. Beden Eğitimi ve Spor               slug=beden_egitimi             kademe=[ilkokul,ortaokul,lise]
+  12. Coğrafya                            slug=cografya                  kademe=[lise]
+  13. Biyoloji                            slug=biyoloji                  kademe=[lise]
+  14. Fizik                               slug=fizik                     kademe=[lise]
+  15. Kimya                               slug=kimya                     kademe=[lise]
+  16. Görsel Sanatlar                     slug=gorsel_sanatlar           kademe=[ilkokul,ortaokul,lise]
+  17. Müzik                               slug=muzik                     kademe=[ilkokul,ortaokul,lise]
+  18. Felsefe                             slug=felsefe                   kademe=[lise]
+  19. Bilişim Teknolojileri               slug=bilisim_teknolojileri     kademe=[ortaokul]
+  20. Teknoloji ve Tasarım                slug=teknoloji_tasarim         kademe=[ortaokul]
+  21. Almanca                             slug=almanca                   kademe=[ortaokul,lise]
+  22. Arapça                              slug=arapca                    kademe=[iho]
+  23. Fransızca                           slug=fransizca                 kademe=[lise]
+  24. Hayat Bilgisi                       slug=hayat_bilgisi             kademe=[ilkokul]
+
+  → Hayat Bilgisi branşı: VAR
+
+### 2. KAZANIM ÇEKİMİ
+───────────────────────────────────────────────────────────────
+  Toplam kazanım: 6138
+
+### 3. BRANŞ × SINIF KAZANIM SAYIMI
+───────────────────────────────────────────────────────────────
+                                       1    2    3    4    5    6    7    8    9   10   11   12  TOPLAM
+  ─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Sınıf Öğretmenliği                  .    .    .    25   .    .    .    .    .    .    .    .      25
+  Matematik                           19   25   33   34   23   24   30   23   30   33   15   21    310
+  Türkçe                              17   20   20   20  100  100  103  103   .    .    .    .     483
+  İngilizce                           .   156  156  156  160  184  191  192  192  192  192  144   1915
+  Fen Bilimleri                       .    .    20   19   28   36   36   43   .    .    .    .     182
+  Sosyal Bilgiler                     .    .    .    17   19   18   17   15   .    .    .    .      86
+  Türk Dili ve Edebiyatı              .    .    .    .    .    .    .    .    54   63   64   64    245
+  Din Kültürü ve Ahlak Bilgisi        .    .    .    24   46   48   65   66   42   36   38   38    403
+  İHL Meslek Dersleri                 .    .    .    .    .    .    .    .   103  126  178   62    469
+  Tarih                               .    .    .    .    .    .    .    .    13   31   23   34    101
+  Beden Eğitimi ve Spor               13   12   14   14   16   17   15   10   48   17   19   17    212
+  Coğrafya                            .    .    .    .    .    .    .    .    19   36   19   20     94
+  Biyoloji                            .    .    .    .    .    .    .    .    14   19   22   20     75
+  Fizik                               .    .    .    .    .    .    .    .    48   22   33   27    130
+  Kimya                               .    .    .    .    .    .    .    .    23   21   25   24     93
+  Görsel Sanatlar                     11   11   11   11   10   10   10   11   28   22   25   20    180
+  Müzik                               13   12   12   12   14   12   15   15   12   11   10    8    146
+  Felsefe                             .    .    .    .    .    .    .    .    .    27   43    3     73
+  Bilişim Teknolojileri               .    .    .    .    24   24   .    .    .    .    .    .      48
+  Teknoloji ve Tasarım                .    .    .    .    .    .    27   22   .    .    .    .      49
+  Almanca                             .    .    .    .    48   48   54   54   .    .    .    .     204
+  Arapça                              .    77   76   85   70   81   80   80   .    .    .    .     549
+  Fransızca                           .    .    .    .    .    .    .    .    .    .    .    .       0
+  Hayat Bilgisi                       23   23   20   .    .    .    .    .    .    .    .    .      66
+
+### 4. EKSİK SINIF TESPİTİ (kademe vs kazanım)
+───────────────────────────────────────────────────────────────
+  ✗ Sınıf Öğretmenliği                beklenen=[1,2,3,4]  eksik=[1,2,3]
+  ✗ İngilizce                         beklenen=[1,2,3,4,5,6,7,8,9,10,11,12]  eksik=[1]
+  ✗ Din Kültürü ve Ahlak Bilgisi      beklenen=[1,2,3,4,5,6,7,8,9,10,11,12]  eksik=[1,2,3]
+  ✗ Felsefe                           beklenen=[9,10,11,12]  eksik=[9]
+  ✗ Bilişim Teknolojileri             beklenen=[5,6,7,8]  eksik=[7,8]
+  ✗ Teknoloji ve Tasarım              beklenen=[5,6,7,8]  eksik=[5,6]
+  ✗ Almanca                           beklenen=[5,6,7,8,9,10,11,12]  eksik=[9,10,11,12]
+  ✗ Fransızca                         beklenen=[9,10,11,12]  eksik=[9,10,11,12]
+  ✗ Hayat Bilgisi                     beklenen=[1,2,3,4]  eksik=[4]
+
+### 5. TARİH BRANŞI — 12. SINIF DERS ADI
+───────────────────────────────────────────────────────────────
+  Tarih branşı 12. sınıf kazanımları (toplam 34):
+    ders="Çağdaş Türk ve Dünya Tarihi"  →  9 kazanım
+    ders="T.C. İnkılap Tarihi ve Atatürkçülük"  →  16 kazanım
+    ders="Sosyal Bilim Çalışmaları"  →  9 kazanım
+
+### 6. SOSYAL BİLGİLER BRANŞI — 8. SINIF DERS ADI
+───────────────────────────────────────────────────────────────
+  Sosyal Bilgiler branşı 8. sınıf kazanımları (toplam 15):
+    ders="T.C. İnkılap Tarihi"  →  15 kazanım
+
+### 7. İHL MESLEK DERSLERİ — SINIF × DERS DAĞILIMI
+───────────────────────────────────────────────────────────────
+  Toplam İHL meslek dersleri kazanımı: 469
+
+    Akaid                               → 11:10
+    Arapça                              → 9:25  10:24
+    Din Eğitimi                         → 11:10
+    Dini Musiki                         → 9:17  10:16  11:17
+    Dinler Tarihi                       → 12:10
+    Ebru                                → 9:11  10:6  11:7
+    Fıkıh                               → 10:15
+    Hadis                               → 10:19
+    Hitabet ve Mesleki Uygulama         → 11:9
+    Hüsnühat                            → 9:16  10:11  11:9
+    Kelam                               → 12:10
+    Kur'an'ın Ana Konuları              → 11:12  12:15
+    Kur'an-ı Kerim                      → 9:14  10:14  11:6  12:6
+    Mesleki Arapça                      → 11:21  12:21
+    Siyer                               → 10:13
+    Tasavvuf Kültürü                    → 11:8
+    Tefsir                              → 11:13
+    Temel Dini Bilgiler                 → 9:10
+    Tezhip                              → 9:10  10:8  11:6
+    İslam Bilim Tarihi                  → 11:28
+    İslam Felsefesi                     → 11:11
+    İslam'da Çocuk Eğitimi              → 11:11
+
+### 8. OKUL_TİPİ DAĞILIMI
+───────────────────────────────────────────────────────────────
+    ortaokul        2437
+    lise            2021
+    ilkokul         1156
+    ihl             524
+
+### 9. DERS KOLONU NULL OLAN KAZANIM SAYISI: 0
+
+### 10. SINIF ÖĞRETMENLİĞİ İÇİN İLKOKUL DERSLERİ
+───────────────────────────────────────────────────────────────
+  Toplam ilkokul kazanımı: 1156
+
+    Arapça                              → 1:0  2:58  3:58  4:67
+    Beden Eğitimi ve Oyun               → 1:13  2:12  3:14  4:14
+    Din Kültürü ve Ahlak Bilgisi        → 1:0  2:0  3:0  4:24
+    Fen Bilimleri                       → 1:0  2:0  3:20  4:19
+    Görsel Sanatlar                     → 1:11  2:11  3:11  4:11
+    Hayat Bilgisi                       → 1:23  2:23  3:20  4:0
+    Matematik                           → 1:19  2:25  3:33  4:34
+    Müzik                               → 1:13  2:12  3:12  4:12
+    Sosyal Bilgiler                     → 1:0  2:0  3:0  4:17
+    Trafik Güvenliği                    → 1:0  2:0  3:0  4:12
+    Türkçe                              → 1:17  2:20  3:20  4:20
+    İngilizce                           → 1:0  2:156  3:156  4:156
+    İnsan Hakları                       → 1:0  2:0  3:0  4:13
+
+═══════════════════════════════════════════════════════════════
+  AUDIT TAMAMLANDI
+═══════════════════════════════════════════════════════════════

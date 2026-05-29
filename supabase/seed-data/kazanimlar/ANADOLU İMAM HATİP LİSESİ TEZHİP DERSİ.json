@@ -1,0 +1,215 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ TEZHİP DERSİ",
+  "siniflar": [
+    {
+      "sinif": 1,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "TZHP.I.1.1.",
+          "kazanim": "Tezhip sanatının tanımı ve tarihi hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Tezhip sanatıyla ilgili bilgi elde edebileceği kaynakları öğretmen rehberliğinde belirler.",
+            "b) Belirlenen kaynaklardan tezhip sanatının tanımı ve tarihiyle ilgili bilgileri bulur.",
+            "c) Tezhip sanatının tanımı ve tarihiyle ilgili bulduğu bilgileri doğrular. ç) Tezhip sanatının tanımı ve tarihi hakkında ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "TZHP.I.1.2.",
+          "kazanim": "Tezhip sanatında kullanılan malzemeleri kullanım amaçlarına göre çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Malzemeleri ve kullanım amaçlarını inceler.",
+            "b) Malzemelerin özellikleri ile kullanım amaçları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "TZHP.I.1.3.",
+          "kazanim": "Temel çizimleri örneklere bakarak aslına uygun çizebilme"
+        },
+        {
+          "kod": "TZHP.I.1.4.",
+          "kazanim": "Renkleri özelliklerine göre sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Renklerin özelliklerini inceler.",
+            "b) Renkleri özelliklerine göre ayrıştırır.",
+            "c) Renkleri özelliklerine göre gruplandırır. ç) Renkleri özelliklerine göre etiketlendirir."
+          ]
+        },
+        {
+          "kod": "TZHP.II.1.1.",
+          "kazanim": "Cetvel çekimi ve zencerek yapımını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Cetvel çekimi ve zencerek bileşenlerini belirler.",
+            "b) Cetvel çekimi ve zencereğin kendi bileşenleri arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "TZHP.II.1.2.",
+          "kazanim": "Cetvel çekimi ve zencerek yapabilme",
+          "alt_kazanimlar": [
+            "a) Cetvel çekimi ve zencerek tasarlar.",
+            "b) Cetvel çekimi ve zencerek oluşturur."
+          ]
+        },
+        {
+          "kod": "TZHP.III.1.1.",
+          "kazanim": "Tarihî dönemlere göre tezhip sanatını özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Tarihî dönemlere göre tezhip sanatıyla ilgili çözümleme yapar.",
+            "b) Tezhip sanatının tarihî dönem özellikleriyle ilgili sınıflandırma yapar.",
+            "c) Tezhip sanatının tarihî dönem özelliklerini yorumlar."
+          ]
+        },
+        {
+          "kod": "TZHP.III.1.2.",
+          "kazanim": "Selçuklu, Osmanlı ve Cumhuriyet dönemlerine ait bir eserin çizimini (reprodüksiyon) yapabilme"
+        }
+      ]
+    },
+    {
+      "sinif": 2,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "TZHP.I.2.1.",
+          "kazanim": "Motifleri özelliklerine göre sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Motiflerin sınıflandırılmasında kullanılan ölçütleri belirler.",
+            "b) Motifleri özelliklerine göre ayrıştırır.",
+            "c) Motifleri özelliklerine göre gruplandırır. ç) Motifleri özelliklerine göre etiketlendirir."
+          ]
+        },
+        {
+          "kod": "TZHP.I.2.2.",
+          "kazanim": "Motif örneklerine bakarak bunları aslına uygun çizebilme"
+        },
+        {
+          "kod": "TZHP.II.2.1.",
+          "kazanim": "Rumi motifli kompozisyonları çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Rumi motifli kompozisyonlardaki rumi motiflerini belirler.",
+            "b) Rumi motifli kompozisyonlardaki motiflerin birbiriyle ilişkisini tespit eder."
+          ]
+        },
+        {
+          "kod": "TZHP.II.2.2.",
+          "kazanim": "Rumi motifli tezhip eseri oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Konuya uygun görsel anlatım araçlarını ifade eder.",
+            "b) Konuyu sanatsal ürüne dönüştürür."
+          ]
+        },
+        {
+          "kod": "TZHP.III.2.1.",
+          "kazanim": "Tezhip sanatının uygulama alanları hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Tezhip sanatının uygulama alanları hakkında bilgi toplayacağı kaynakları belirler.",
+            "b) Belirlediği kaynaklardan ilgili bilgileri bulur.",
+            "c) Ulaştığı bilgileri doğrular. ç) Doğruladığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "TZHP.III.2.2.",
+          "kazanim": "Surebaşı çizimini (reprodüksiyon) yapabilme"
+        }
+      ]
+    },
+    {
+      "sinif": 3,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "TZHP.I.3.1.",
+          "kazanim": "Uygulama tekniklerini algılayabilme",
+          "alt_kazanimlar": [
+            "a) Uygulama tekniklerini gözlemler.",
+            "b) Uygulama tekniklerini karşılaştırır."
+          ]
+        },
+        {
+          "kod": "TZHP.I.3.1.",
+          "kazanim": "Ders kodu Düzeyi Ünite Numarası Öğrenme çıktı numarası 2899848461289984846128998484612899848461289984846128998484612899848461289984846128998484612899848461289984846128998484612899848461289984846128998484612899848461 TEZHİP DERSİ (I-II-III) ÖĞRETİM PROGRAMI 3. TEZHİP DERSİ (I-II-III) ÖĞRETİM PROGRAMI’NIN FARKLI DÜZEYLERE AİT ÜNİTELERİ 1. ÜNİTE: TEZHİP SANATINA GİRİŞ Bu ünitede öğrencilerin tezhip sanatının tanımı ve tarihi hakkında bilgi toplayabilmesi, tezhip sanatında kullanılan malzemeleri kullanım amaçlarına göre çözümleyebilmesi, temel çizimleri örneklere bakarak aslına uygun çizebilmesi ve renkleri özelliklerine göre sınıflandırabilmesi amaçlanmaktadır."
+        },
+        {
+          "kod": "TZHP.I.3.1.",
+          "kazanim": "Uygulama tekniklerini algılayabilme",
+          "alt_kazanimlar": [
+            "a) Uygulama tekniklerini gözlemler.",
+            "b) Uygulama tekniklerini karşılaştırır."
+          ]
+        },
+        {
+          "kod": "TZHP.I.3.2.",
+          "kazanim": "Uygulama tekniklerini kullanarak bir tezhip eseri oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Konuya uygun görsel anlatım araçlarını ifade eder.",
+            "b) Konuyu sanatsal ürüne dönüştürür."
+          ]
+        },
+        {
+          "kod": "TZHP.II.3.1.",
+          "kazanim": "Bulut motifli kompozisyonları çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Bulut motifli kompozisyonlardaki bulut motiflerini belirler.",
+            "b) Bulut motifli kompozisyonlardaki motiflerin birbiriyle ilişkisini tespit eder."
+          ]
+        },
+        {
+          "kod": "TZHP.II.3.2.",
+          "kazanim": "Bulut motifli tezhip eseri oluşturabilme",
+          "alt_kazanimlar": [
+            "a) Konuya uygun görsel anlatım araçlarını ifade eder.",
+            "b) Konuyu sanatsal ürüne dönüştürür."
+          ]
+        },
+        {
+          "kod": "TZHP.III.3.1.",
+          "kazanim": "Sanat eserini aslına uygun çizebilme"
+        }
+      ]
+    },
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "TZHP.I.4.1.",
+          "kazanim": "Tezhip sanatına yön veren müzehhiplerin üsluplarını karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Tezhip sanatına yön veren müzehhiplerin üsluplarına ilişkin özellikleri belirler.",
+            "b) Tezhip sanatına yön veren müzehhiplerin üsluplarına ilişkin benzerlikleri listeler.",
+            "c) Tezhip sanatına yön veren müzehhiplerin üsluplarına ilişkin farklılıkları listeler."
+          ]
+        },
+        {
+          "kod": "TZHP.I.4.2.",
+          "kazanim": "Müzehhiplere ait eserlerin çizimini (reprodüksiyon) yapabilme"
+        },
+        {
+          "kod": "TZHP.II.4.1.",
+          "kazanim": "Desenleri çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Deseni oluşturan bileşenleri belirler.",
+            "b) Deseni oluşturan bileşenler arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "TZHP.II.4.2.",
+          "kazanim": "Tezhip eseri yapabilme",
+          "alt_kazanimlar": [
+            "a) Desen tasarlar.",
+            "b) Tasarladığı deseni sanatsal ürüne dönüştürür."
+          ]
+        },
+        {
+          "kod": "TZHP.III.4.1.",
+          "kazanim": "Tezhip eseri yapabilme",
+          "alt_kazanimlar": [
+            "a) Tezhip eseri tasarımı yapar.",
+            "b) Tezhip eseri oluşturur."
+          ]
+        }
+      ]
+    }
+  ]
+}

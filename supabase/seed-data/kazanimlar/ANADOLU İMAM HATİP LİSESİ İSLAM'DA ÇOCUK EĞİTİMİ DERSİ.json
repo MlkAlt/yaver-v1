@@ -1,0 +1,61 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ İSLAM'DA ÇOCUK EĞİTİMİ DERSİ",
+  "siniflar": [
+    {
+      "sinif": 1,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İÇE.1.2.",
+          "kazanim": "İslam’ın çocuğa bakışıyla ilgili bilgilere ulaşabilmek için temel kaynakları kullanabilme a. İslam’ın çocuğa bakışıyla ilgili ayetlere ulaşmak için Kur’an-ı Kerim meallerine başvurur. b. İslam’ın çocuğa bakışıyla ilgili hadislere ulaşmak için hadis kaynaklarına başvurur."
+        },
+        {
+          "kod": "İÇE.1.2.",
+          "kazanim": "İslam’da çocuk eğitimi yaklaşımlarını yorumlayabilme a. İslam’da çocuk eğitimi yaklaşımlarını inceler. b. İslam’ın çocuk eğitimi yaklaşımlarını bağlamdan kopmadan dönüştürür. c. İslam’da çocuk eğitimi yaklaşımlarını doğru bir şekilde ifade eder."
+        },
+        {
+          "kod": "İÇE.1.3.",
+          "kazanim": "İslam’da çocuk eğitiminde ailenin önemini müşahede edebilme a. İslam’da çocuk eğitiminde ailenin önemiyle ilgili merak ettiklerini belirler. b. İslam’da çocuk eğitiminde ailenin önemi hakkında soru sorar. c. İslam’da çocuk eğitiminde ailenin önemini inceler. ç. İnceleme sonuçları hakkında çıkarım yapar."
+        },
+        {
+          "kod": "İÇE.1.4.",
+          "kazanim": "Gelişim alanlarını özetleyebilme a. Gelişim alanları ile ilgili çözümleme yapar. b. Gelişim alanları ile ilgili sınıflandırma yapar. c. Gelişim alanlarını kendi cümleleriyle yorumlar."
+        }
+      ]
+    },
+    {
+      "sinif": 2,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İÇE.2.2.",
+          "kazanim": "Çocuğun inanç gelişimini etkileyen faktörleri müşahede edebilme a. Çocuğun inanç gelişimini etkileyen faktörlerle ilgili merak ettiklerini belirler. b. Çocuğun inanç gelişimini etkileyen faktörler hakkında sorular sorar. c. Çocuğun inanç gelişimini etkileyen faktörleri inceler. ç. Çocuğun inanç gelişimini etkileyen faktörler hakkında çıkarım yapar."
+        },
+        {
+          "kod": "İÇE.2.3.",
+          "kazanim": "Çocuğun gelişimine göre inanç esaslarının öğretimini tatbik edebilme a. Çocuğun gelişimine göre inanç esaslarının öğretiminin nasıl uygulanaca ğını açıklar. b. Çocuğun gelişimine göre inanç esaslarının öğretiminin nasıl uygulanacağına dair ön hazırlık yapar. c. Çocuğun gelişimine göre inanç esaslarının öğretimini usulüne uygun icra eder. ç. Çocuğun gelişimine göre inanç esaslarının öğretiminde uygulama süreçlerini değer lendirir."
+        }
+      ]
+    },
+    {
+      "sinif": 3,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İÇE.3.2.",
+          "kazanim": "Çocuğun gelişimine göre ibadet eğitimini tatbik edebilme a. Çocuğun gelişimine göre ibadet eğitiminin nasıl uygulanacağını açıklar. b. Çocuğun gelişimine göre ibadet eğitiminin nasıl uygulanacağına dair ön hazırlık yapar. c. Çocuğun gelişimine göre ibadet eğitimini usulüne uygun biçimde icra eder. ç. Çocuğun gelişimine göre ibadet eğitiminin uygulama süreçlerini değerlendirir."
+        }
+      ]
+    },
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "İÇE.4.2.",
+          "kazanim": "İslam’daki ahlaki değerleri yaş gruplarının özelliklerine göre yorumlayabilme. a. İslam’daki ahlaki değerler ile yaş gruplarının özellikleri arasındaki ilişkiyi inceler. b. İslam’daki ahlaki değerler ile yaş gruplarının özellikleri arasındaki ilişkiyi bağlamdan kopmadan dönüştürür. c. İslam’daki ahlaki değerler ile yaş gruplarının özellikleri arasındaki ilişkiyi doğru bir şekilde ifade eder."
+        }
+      ]
+    }
+  ]
+}

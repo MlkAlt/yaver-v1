@@ -1,0 +1,143 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ HADİS DERSİ",
+  "siniflar": [
+    {
+      "sinif": 10,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "HDS.10.1.2.",
+          "kazanim": "Hadis ilmiyle ilgili kavramları sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Hadis ilmiyle ilgili kavramları belirler.",
+            "b) Hadis ilmiyle ilgili kavramları ayrıştırır.",
+            "c) Hadis ilmiyle ilgili kavramları tasnif eder. ç) Hadis ilmiyle ilgili kavramları etiketler."
+          ]
+        },
+        {
+          "kod": "HDS.10.1.3.",
+          "kazanim": "Sünnetin dindeki yeri ve bağlacılığıyla ilgili sentez yapabilme",
+          "alt_kazanimlar": [
+            "a) Sünnetin dindeki yeri ve bağlayıcılığı hakkındaki bilgileri belirler.",
+            "b) Sünnetin dindeki yeri ve bağlayıcılığı hakkındaki bilgiler arasında ilişki kurar.",
+            "c) Sünnetin dindeki yeri ve bağlayıcılığıyla ilgili bilgileri birleştirerek bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "HDS.10.1.4.",
+          "kazanim": "Sünnetin evrenselliğini analitik düşünebilme",
+          "alt_kazanimlar": [
+            "a) Hz. Peygamber’in nübüvvetinin özelliklerini inceleyerek sünnetin evrenselliğine dair nedensel ilişkiler kurar.",
+            "b) Tespit ettiği ilişkilerle ilgili akıl yürütür.",
+            "c) Akıl yürütme ile ulaştığı çıkarımları tartışır. ç) Tercih edilebilir görüş ve argümanları gerekçeleriyle belirler."
+          ]
+        },
+        {
+          "kod": "HDS.10.1.5.",
+          "kazanim": "Kur’an ve Sünnete bağlılıkla ilgili hadisi yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Hadis usulüne göre Kur’an ve Sünnete bağlılıkla ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler.",
+            "b) Belirlenen ilke ve usuller çerçevesinde Kur’an ve Sünnete bağlılıkla ilgili hadisi inceler.",
+            "c) Kur’an ve Sünnete bağlılıkla ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+          ]
+        },
+        {
+          "kod": "HDS.10.2.2.",
+          "kazanim": "Hadislerin tedvin ve tasnif sürecini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Hadislerin tedvin ve tasnif sürecinin özelliklerini belirler.",
+            "b) Hadislerin tedvin ve tasnif sürecinin özelliklerine ilişkin benzerlikleri listeler.",
+            "c) Hadislerin tedvin ve tasnif sürecine ilişkin farklılıkları listeler."
+          ]
+        },
+        {
+          "kod": "HDS.10.2.3.",
+          "kazanim": "Tedvin ve tasnif sonrası hadis çalışmalarını özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Tedvin ve tasnif sonrası hadis çalışmaları ile ilgili çözümleme yapar.",
+            "b) Tedvin ve tasnif sonrası hadis çalışmaları ile ilgili sınıflandırma yapar.",
+            "c) Tedvin ve tasnif sonrası hadis çalışmalarını kendi cümleleri ile aktarır."
+          ]
+        },
+        {
+          "kod": "HDS.10.2.4.",
+          "kazanim": "Imanla ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilme",
+          "alt_kazanimlar": [
+            "a) İmanla ilgili hadisleri tespit eder.",
+            "b) Hadislerde geçen olay/şahıs/yer/konu/kavramları belirler.",
+            "c) Hadisleri içeriklerine göre sınıflandırır. ç) Hadisler doğrultusunda olay/konu/durumla ilgili çıkarım yapar.",
+            "d) Hadislerle ilgili yaptığı çıkarımlara olay/konu/durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "HDS.10.2.5.",
+          "kazanim": "Imanla ilgili hadisi yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Hadis usulüne göre iman ile ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler.",
+            "b) Belirlenen ilke ve usuller çerçevesinde iman ile ilgili hadisi inceler.",
+            "c) İmanla ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+          ]
+        },
+        {
+          "kod": "HDS.10.3.2.",
+          "kazanim": "Ravi sayısına göre hadis çeşitlerini ayırt edebilme",
+          "alt_kazanimlar": [
+            "a) Ravi sayısına göre hadis çeşitlerini tespit eder.",
+            "b) Belirlenen hadis çeşitlerinin hadis ilmindeki yeri ve önemini araştırır.",
+            "c) Hadis çeşitlerini ilişkili olduğu alana göre etiketler."
+          ]
+        },
+        {
+          "kod": "HDS.10.3.3.",
+          "kazanim": "Sıhhat derecesine göre hadis çeşitlerini özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Sıhhat derecesine göre hadis çeşitleri ile ilgili çözümleme yapar.",
+            "b) Sıhhat derecesine göre hadis çeşitleri ile ilgili sınıflandırma yapar.",
+            "c) Sıhhat derecesine göre hadis çeşitlerini kendi cümleleriyle aktarır."
+          ]
+        },
+        {
+          "kod": "HDS.10.3.4.",
+          "kazanim": "Ahlakla ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilme",
+          "alt_kazanimlar": [
+            "a) Ahlakla ilgili hadisleri tespit eder.",
+            "b) Hadislerde geçen olay/şahıs/yer/konu/kavramları belirler.",
+            "c) Hadisleri içeriklerine göre sınıflandırır. ç) Hadisler doğrultusunda olay/konu/durumla ilgili çıkarım yapar.",
+            "d) Hadislerle ilgili yaptığı çıkarımlara olay/konu/durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "HDS.10.3.5.",
+          "kazanim": "Ahlakla ilgili hadisi yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Hadis usulüne göre ahlakla ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler.",
+            "b) Belirlenen ilke ve usuller çerçevesinde ahlakla ilgili hadisi inceler.",
+            "c) Ahlakla ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+          ]
+        },
+        {
+          "kod": "HDS.10.4.2.",
+          "kazanim": "Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme",
+          "alt_kazanimlar": [
+            "a) Hadis ve sünnetin anlaşılmasında kullanılan esaslar arasında ilişki kurar.",
+            "b) Hadis ve sünnetin anlaşılmasında kullanılan esaslar arasında kurduğu ilişkiyle ilgili akıl yürütür.",
+            "c) Akıl yürütme ile ulaştığı çıkarımları tartışır. ç) Tercih edilebilir görüş ve argümanları gerekçeleriyle belirler. HDS. 10.4.3. Ilimle ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilme",
+            "a) İlimle ilgili hadisleri tespit eder.",
+            "b) Hadislerde geçen olay/şahıs/yer/konu/kavramları belirler.",
+            "c) Hadisleri içeriklerine göre sınıflandırır. ç) Hadisler doğrultusunda olay/konu/durumla ilgili çıkarım yapar.",
+            "d) Hadislerle ilgili yaptığı çıkarımlara olay/konu/durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "HDS.10.4.4.",
+          "kazanim": "Ilimle ilgili hadisi yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Hadis usulüne göre ilimle ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler.",
+            "b) Belirlenen ilke ve usuller çerçevesinde ilimle ilgili hadisi inceler.",
+            "c) İlimle ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+          ]
+        }
+      ]
+    }
+  ]
+}

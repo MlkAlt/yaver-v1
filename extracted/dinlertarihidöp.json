@@ -1,0 +1,92 @@
+[
+  {
+    "kod": "DT.12.1.1",
+    "ad": ". Dinler tarihiyle ilgili konuları müşa-",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "DT.12.1.2",
+    "ad": ". Dinler tarihinin gelişim süreciyle ilgili bilgi toplayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "DT.12.2.1",
+    "ad": ". İslam’ın tarihî sürecini sorgulayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DT.12.2.2",
+    "ad": ". İslam’ın inanç esasları, ibadetleri ve ahlaki ilkelerini anlayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DT.12.2.3",
+    "ad": ". İslam’ın diğer dinlere bakışını müşahede edebilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DT.12.3.1",
+    "ad": ". Yahudilik ve Hristiyanlığın tarihî sürecini ve temel özelliklerini özetleyebilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "DT.12.3.2",
+    "ad": ". Hinduizm, Budizm ve Konfüçyanizm dinlerini anlayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "DT.12.4.1",
+    "ad": ". Misyonerlik faaliyetlerini anlayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "DT.12.4.2",
+    "ad": ". Bahailik ve Yezidiliğin tarihî süreci ve temel özelliklerini sorgulayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "DT.12.4.3",
+    "ad": ". Yeni dinî hareketleri anlayabilme",
+    "sinif": 12,
+    "ders": "Dinler Tarihi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154414120-dinlertarihidöp.pdf",
+    "kaynak_sayfa": 28
+  }
+]

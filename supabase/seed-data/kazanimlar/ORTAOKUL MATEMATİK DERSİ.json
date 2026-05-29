@@ -1,0 +1,810 @@
+{
+  "ders": "ORTAOKUL MATEMATİK DERSİ",
+  "siniflar": [
+    {
+      "sinif": 5,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MAT.5.1.1.",
+          "kazanim": "Altı basamaklı sayıları okuma ve yazmayı daha çok basamaklı sayılara genelleyebilme",
+          "alt_kazanimlar": [
+            "a) Günlük hayattaki farklı bağlamlardan yola çıkarak altıdan çok basamaklı sayılar hakkında bilgi toplar."
+          ]
+        },
+        {
+          "kod": "MAT.5.1.2.",
+          "kazanim": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+          "alt_kazanimlar": [
+            "a) Problemin içerdiği sayı ve işlem bileşenlerini belirler.",
+            "b) Problemde verilenler ile istenenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler.",
+            "c) Problem bağlamıyla ilişkili verilenleri uygun matematiksel temsillere dönüştürür. ç) Problemi matematiksel temsiller kullanarak kendi ifadeleri ile açıklar.",
+            "d) Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlenen strateji veya stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek kısa yolları değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.5.1.4.",
+          "kazanim": "Farklı gösterimlerle ifade edilen kesirlerin karşılaştırılmasına yönelik çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Farklı gösterimlerle ifade edilen kesirlerin karşılaştırılmasına yönelik varsayımda bulunur.",
+            "b) Varsayımındaki ilişkileri inceleyerek kesirlerin karşılaştırılmasına yönelik genellemeleri belirler.",
+            "c) Elde ettiği genellemelerin varsayımını karşılayıp karşılamadığını sayı doğrusu, şekil gibi temsiller üzerinde gösterir. ç) Varsayımı ile ilgili ulaştığı sonuca yönelik matematiksel önermeleri sözel ya da sembolik temsil ile sunar.",
+            "d) Sunduğu önermelerin tahmin etme becerisine katkısını gerekçelerle açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.5.2.2.",
+          "kazanim": "Karşılaştığı günlük hayat ya da matematiksel durumlarda işlem önceliğini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Doğal sayılarla dört işlem içeren problemlerde ve sayı cümlelerinde işlem önceliğini inceler.",
+            "b) Karşılaştığı doğal sayılarla dört işlem içeren problemlerde ve sayı cümlelerinde işlem önceliğini uygular.",
+            "c) Karşılaştığı durumlarda işlem önceliğini açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.5.2.3.",
+          "kazanim": "Sayı ve şekil örüntülerinin kuralına ilişkin muhakeme yapabilme",
+          "alt_kazanimlar": [
+            "a) Örüntülerdeki ilişkilere yönelik varsayımda bulunur.",
+            "b) Varsayıma yönelik örüntüdeki terimleri inceleyerek örüntünün kuralına ilişkin genellemeleri belirler.",
+            "c) Genellediği ilişkilerin varsayımını karşılayıp karşılamadığını sınar. ç) Varsayımı ile ilgili ulaştığı sonuca yönelik doğrulayabileceği önermeyi sözel ve sembolik temsiller kullanarak sunar.",
+            "d) Sunduğu önermenin kullanışlılığına yönelik gerekçeler sunar.",
+            "e) Sunduğu önermenin geçerliliğini destekleyen kapsayıcı örnekler verir.",
+            "f) İşe koştuğu doğrulamanın benzer önermelere uygulanıp uygulanamayacağını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.5.2.4.",
+          "kazanim": "Temel aritmetik işlem içeren durumlardaki algoritmaları yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Temel aritmetik işlem içeren durumlardaki algoritmik yapıyı inceler.",
+            "b) İncelediği durumlardaki algoritmik yapıyı tablo temsiline veya aritmetik işlemlere dönüştürür.",
+            "c) Dönüştürdüğü algoritmik yapının içerdiği matematiksel ilişkileri sözlü olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.5.3.2.",
+          "kazanim": "Temel geometrik çizimlere dayalı deneyimlerini yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Temel geometrik çizimlere dayalı deneyimlerini gözden geçirir.",
+            "b) Temel geometrik çizimlerin özelliklerine yönelik çıkarım yapar.",
+            "c) Çıkarımını farklı örnekler üzerinden değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.5.3.3.",
+          "kazanim": "Açıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme",
+          "alt_kazanimlar": [
+            "a) Açı ölçmek için gerekli araç ve teknolojiyi tanır.",
+            "b) Açı ölçmek için uygun araç ve teknolojiyi belirler.",
+            "c) Açı ölçmek için uygun araç ve teknolojiyi kullanır."
+          ]
+        },
+        {
+          "kod": "MAT.5.3.4.",
+          "kazanim": "Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair varsayımlarda bulunur.",
+            "b) Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşan açıları belirleyerek listeler.",
+            "c) Belirlediği açıları varsayımlarıyla karşılaştırır. ç) Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşan açılara dair önerme sunar.",
+            "d) Sunduğu önermelerin, doğruların oluşturduğu açıların incelenmesine yönelik katkısına dair gerekçe sunar."
+          ]
+        },
+        {
+          "kod": "MAT.5.3.5.",
+          "kazanim": "Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Düzlemde en az üç doğrunun -son doğru ilk doğruyla kesişecek biçimdeardışık kesişerek oluşturdukları durumları inceler.",
+            "b) Düzlemde en az üç doğrununson doğru ilk doğruyla kesişecek biçimdeardışık kesişimleri ile çeşitli çokgenler oluşturur.",
+            "c) Çokgenlerin düzlemde en az üç doğrunun -son doğru ilk doğruyla kesişecek biçimdeardışık kesişimleri ile meydana geldiğini ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.5.3.6.",
+          "kazanim": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Çokgenlerin özellikleri ile ilgili edindiği deneyimleri gözden geçirir.",
+            "b) Çokgenlerin kenar ve açı özelliklerine dair çıkarım yapar.",
+            "c) Çıkarımını farklı örnekler üzerinden değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.5.3.7.",
+          "kazanim": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik muhakeme yapabilme",
+          "alt_kazanimlar": [
+            "a) İki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilebilecek üçgenlerin kenar özelliklerine yönelik varsayımlarda bulunur.",
+            "b) Örnek çizimler üzerinden, kesişen iki çemberin merkezleri ve kesişim noktalarından biri ile inşa edilen çeşitkenar, ikizkenar ve eşkenar üçgenleri belirler.",
+            "c) Belirlediği üçgenlerin özelliklerini varsayımları ile karşılaştırır. ç) Varsayımlarını, inşa ettiği üçgenler ile karşılaştırarak doğrulayabileceği önermeler şeklinde ifade eder.",
+            "d) Sunduğu önermelerin katkısını değerlendirir.",
+            "e) Çemberin özelliklerini kullanarak önermelerini doğrulamaya yönelik matematiksel gerekçeler sunar.",
+            "f) Çemberin özelliklerinin benzer inşa süreçlerindeki rolünü değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.5.4.2.",
+          "kazanim": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenin alanını ölçmede, seçtiği birim kareleri ölçüt olarak belirler.",
+            "b) Dikdörtgenin alanını seçilen birim karelerle ölçer.",
+            "c) Birim kare sayısının dikdörtgenin iki ardışık kenar uzunluğu ile ilişkisini inceler. ç) Dikdörtgenin alan bağıntısına (iki ardışık kenarın uzunlukları çarpımı) ilişkin yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "MAT.5.4.3.",
+          "kazanim": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin alanının ölçüsü verildiğinde çevre uzunluğunu, çevre uzunluğu verildiğinde alanını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Alanının ölçüsü verilen bir dikdörtgenin çevre uzunluğunu, çevre uzunluğu verilen bir dikdörtgenin alanını inceler.",
+            "b) Aynı alana sahip farklı dikdörtgenlerin çevre uzunluklarını ve aynı çevre uzunluğuna sahip farklı dikdörtgenlerin alanlarını belirler.",
+            "c) Aynı çevre uzunluğuna sahip dikdörtgenlerin farklı alanlara ve aynı alana sahip dikdörtgenlerin farklı çevre uzunluklarına sahip olabileceğini ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.5.4.4.",
+          "kazanim": "Dikdörtgenin çevre uzunluğu ve alanı ile ilgili problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenin çevre uzunluğu ve alanı ile ilgili problemlerde ilgili matematiksel bileşenleri (şekil, uzunluk, alan ölçüleri gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkileri belirler.",
+            "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlediği stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.5.5.1.",
+          "kazanim": "Kategorik veri ile çalışabilme ve veriye dayalı karar verebilme",
+          "alt_kazanimlar": [
+            "a) Kategorik veriye dayanan istatistiksel araştırma gerektiren durumları fark eder.",
+            "b) Kategorik veriye dayanan betimleme veya karşılaştırma gerektirebilecek araştırma soruları oluşturur.",
+            "c) Kategorik veriye ulaşmak için plan yapar. ç) Kategorik veriye ve araştırma sorusuna uygun anket soruları hazırlar.",
+            "d) Anketi kullanarak veri toplar veya hazır veriye ulaşır.",
+            "e) Veri görselleştirme aracını (sıklık tablosu, sütun grafiği, daire grafiği, nokta grafiği gibi) seçme gerekçelerini belirtir.",
+            "f) Toplanan veriyi uygun görselleştirme aracı ile analiz eder.",
+            "g) Araştırma sonuçlarını elde eder. ğ) Araştırmada ulaştığı sonuçlara yönelik gerekçeler sunar.",
+            "h) Araştırma sonuçlarının araştırma sorusuna ne düzeyde cevap verdiğini değerlendirir. ı) Araştırma süreci adımlarını değerlendirerek araştırma sürecine uygun olmayan adımları yeniden planlar."
+          ]
+        },
+        {
+          "kod": "MAT.5.5.2.",
+          "kazanim": "Başkaları tarafından oluşturulan kategorik veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+          "alt_kazanimlar": [
+            "a) Başkaları tarafından oluşturulan kategorik veriye dayalı istatistiksel sonuç veya yorumlara yönelik istatistiksel temellendirme yapar.",
+            "b) Başkaları tarafından oluşturulan kategorik veriye dayalı istatistiksel sonuç veya yorumlara yönelik hataları ya da yanlılıkları tespit eder.",
+            "c) Başkaları tarafından oluşturulan kategorik veriye dayalı sonuç veya yorumları çürütür ya da kabul eder."
+          ]
+        },
+        {
+          "kod": "MAT.5.6.2.",
+          "kazanim": "Olayları az ya da çok olasılıklı şeklinde yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Olayların olasılıklarına ilişkin nedensel veya mantıksal ilişkiler ortaya koyar.",
+            "b) Kendi öz bilgisi ile elde ettiği ilişkilere dayanarak olayların olasılıklarını az veya çok olasılıklı şeklinde ortaya koyar."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 6,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MAT.6.1.2.",
+          "kazanim": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Bir doğal sayının katlarını veya basamak değerlerini dikkate alarak 2, 3, 4, 5, 6, 9 ve 10’a tam bölünebilme kriterleri ile ilgili varsayımlarda bulunur.",
+            "b) 2, 3, 4, 5, 6, 9 ve 10’un katlarını ve basamak değerlerini inceleyerek genellemeleri belirler.",
+            "c) Elde ettiği genellemelerin, varsayımını karşılayıp karşılamadığını örnekler ile sınar. ç) Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilmesindeki kriterlere ilişkin önerme sunar.",
+            "d) Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilmesindeki kriterlerin farklı durumlarda kullanışlılığını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.1.3.",
+          "kazanim": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Bir doğal sayının asal olup olmadığını ve asal çarpanlarını belirler.",
+            "b) Asal sayıların özelliklerini ve bir doğal sayı ile asal çarpanları arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "MAT.6.1.4.",
+          "kazanim": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Problemlerde ya da matematiksel durumlarda verilen iki sayının ortak katlarını ve ortak bölenlerini inceler.",
+            "b) İncelediği ortak kat veya ortak bölen ilişkilerini çizim, tablo ve sayı doğrusu gibi matematiksel temsillerle ifade eder.",
+            "c) İki sayının ortak katlarını ve ortak bölenlerini kendi ifadelerini kullanarak açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.6.1.6.",
+          "kazanim": "Kesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Kağıt-kalemle ve hesap makinesinde bölme işlemi gerçekleştirerek kesirlerin ondalık gösterimlerine ilişkin gözlem yapar.",
+            "b) Kesirlerin sonlu ve devirli ondalık gösterimlerine ait örüntüleri belirler.",
+            "c) Örüntülerde keşfedilen ilişkileri geneller."
+          ]
+        },
+        {
+          "kod": "MAT.6.1.7.",
+          "kazanim": "Karşılaştığı günlük hayat ya da matematiksel durumlarda standart uzunluk ölçme birimlerini değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Standart ölçme birimlerini kullanarak ölçme yapar.",
+            "b) Ölçme sonuçlarını belirlediği ölçme birimleri ile karşılaştırır.",
+            "c) Karşılaştırmalarına ilişkin yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "MAT.6.1.8.",
+          "kazanim": "Gerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem problemlerinde sayı ve işlem bileşenlerini belirler.",
+            "b) Kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem problemlerinde verilenler ile istenenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler.",
+            "c) Kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem problemlerinde problem bağlamına uygun temsilleri (şekil, tablo, diyagram gibi) kullanır. ç) Kullanılan temsil üzerinden problemi kendi ifadeleri ile açıklar.",
+            "d) Problemlerin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Stratejileri işe koşarak problemleri çözer.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemlerin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek kısa yolları değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.2.2.",
+          "kazanim": "Sayı ve şekil örüntülerini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Sayı ve şekil örüntülerindeki ilişkileri inceler.",
+            "b) İncelediği ilişkileri tablo, grafik ve sözel temsiller aracılığıyla ifade eder.",
+            "c) Farklı temsillerle gösterilen ilişkilerden yola çıkarak örüntülerdeki yapıları cebirsel olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.6.2.3.",
+          "kazanim": "Cebirsel ifadeler içeren durumlardaki algoritmaları yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Cebirsel ifadeler içeren durumlardaki algoritmik yapıyı inceler.",
+            "b) İncelediği durumlardaki algoritmik yapıyı tablo temsiline veya cebirsel ifadelere dönüştürür.",
+            "c) Dönüştürdüğü algoritmik yapının içerdiği matematiksel ilişkileri sözel olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.6.3.2.",
+          "kazanim": "Matematiksel araç ve teknolojiden yararlanarak iki paralel doğrunun iki kesenle oluşturduğu şekillerin özelliklerine dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Düzlemde iki paralel doğrunun iki kesenle oluşturduğu şekillerin özelliklerine dair varsayımda bulunur.",
+            "b) Oluşan şekilleri çeşitli özelliklerine göre listeler.",
+            "c) Oluşan şekilleri kenar ve açı özelliklerini dikkate alarak varsayımları ile karşılaştırır. ç) Oluşan şekillerin iç açılarının ölçüleri toplamına ve yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen, karenin ortak özelliklerine dair önermeler sunar.",
+            "d) Sunduğu önermelerin dörtgenlerin sınıflandırılmasına yönelik katkısını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.3.3.",
+          "kazanim": "Matematiksel araç ve teknolojiden yararlanarak birbirlerini ortalayan doğru parçalarını köşegen kabul eden dörtgenlere yönelik çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Birbirlerini ortalayan doğru parçalarını köşegen kabul eden dörtgenlere yönelik varsayımlarda bulunur.",
+            "b) Birbirlerini ortalayan doğru parçalarını köşegen kabul eden dörtgenleri oluşturur ve listeler.",
+            "c) Oluşturulan dörtgenleri varsayımları ile karşılaştırır. ç) Özelliklerine bağlı olarak birbirlerini ortalayan doğru parçalarını köşegen kabul eden dörtgenlere yönelik önermeler sunar.",
+            "d) Sunduğu önermelerin dörtgenlerin farklı yollardan tanımlanmasına yönelik katkısını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.3.4.",
+          "kazanim": "Üçgen, yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin açıları ile ilgili problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Üçgen, yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin açıları ile ilgili problemlerde matematiksel bileşenleri (şekil, açı ölçüsü, kenar uzunluğu, paralellik, diklik gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkiyi belirler.",
+            "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemin çözümü için stratejiler geliştirir.",
+            "e) Belirlenen stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.4.2.",
+          "kazanim": "Dikdörtgenin alan bağıntısına yönelik deneyimlerini paralelkenar ve üçgenin alan bağıntılarına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenin alan bağıntısını gözden geçirir.",
+            "b) Dikdörtgenin alan bağıntısından yola çıkarak paralelkenar ve üçgenin alan bağıntıları hakkında çıkarım yapar.",
+            "c) Çıkarımını farklı örnekler üzerinden değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.4.3.",
+          "kazanim": "Geometrik şekillerin alanları ile modellenen gerçek yaşam durumlarına yönelik problem çözebilme",
+          "alt_kazanimlar": [
+            "a) Geometrik şekillerin alanları ile modellenen gerçek yaşam probleminde ilgili matematiksel bileşenleri (alan, şekil, uzunluk, alan ölçme birimleri gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkiyi belirler.",
+            "c) Problem bağlamıyla ilişkili verilenleri uygun matematiksel temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlediği stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.4.4.",
+          "kazanim": "Çemberin uzunluğu ile çap uzunluğu arasındaki ilişkiye yönelik çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Çemberin uzunluğu ile çap uzunluğu arasındaki ilişkiye yönelik varsayımlarda bulunur.",
+            "b) Çemberlerin uzunlukları ile çap uzunlukları arasındaki ilişkileri listeler.",
+            "c) Çemberin uzunluğu ile çap uzunluğu arasındaki ilişkiyi varsayımlarıyla karşılaştırır. ç) Çemberin uzunluğu ile çap uzunluğu arasındaki ilişkiye yönelik önermeler sunar.",
+            "d) Elde ettiği ilişkiye yönelik değerlendirmeler yapar."
+          ]
+        },
+        {
+          "kod": "MAT.6.4.5.",
+          "kazanim": "Çap veya yarıçap uzunluğu verilen bir çemberin uzunluğu ile ilgili problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Çap veya yarıçap uzunluğu verilen bir çemberin uzunluğu ile ilgili problemlerde ilgili matematiksel bileşenleri (çap, yarıçap, çevre uzunluğu gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkiyi belirler.",
+            "c) Problem bağlamıyla ilişkili verilenleri uygun matematiksel temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemlerin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlediği stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir. Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "g) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.6.4.6.",
+          "kazanim": "Çemberde merkez açının ölçüsü ile gördüğü yayın uzunluğu arasındaki ilişkiye dair tümevarımsal akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Çemberde farklı ölçülere sahip merkez açıların gördüğü yayların uzunluklarına ilişkin gözlem yapar.",
+            "b) Merkez açıların ölçüleri ile gördükleri yayların uzunlukları arasındaki ilişkiye dair örüntü bulur.",
+            "c) Merkez açının ölçüsü ile gördüğü yayın uzunluğu arasındaki ilişkiye dair genelleme yapar."
+          ]
+        },
+        {
+          "kod": "MAT.6.5.1.",
+          "kazanim": "Kategorik veya nicel (kesikli) veri ile çalışabilme ve veriye dayalı karar verebilme",
+          "alt_kazanimlar": [
+            "a) Kategorik veya nicel (kesikli) veriye dayanan istatistiksel araştırma gerektiren durumları fark eder.",
+            "b) Kategorik veya nicel (kesikli) veriye dayanan betimleme veya karşılaştırma gerektirebilecek araştırma soruları oluşturur.",
+            "c) Kategorik veya nicel (kesikli) veriye ulaşmak için plan yapar. ç) Kategorik veya nicel (kesikli) veriye ve araştırma sorusuna uygun anket soruları hazırlar.",
+            "d) Anketi kullanarak veri toplar veya hazır veriye ulaşır.",
+            "e) Veri görselleştirme (kök-yaprak gösterimi, nokta grafiği gibi) ve özetleme (aritmetik ortalama, ortanca ve tepe değer) araçlarını seçme gerekçelerini belirtir.",
+            "f) Toplanan veriyi uygun araçlarla analiz eder.",
+            "g) Araştırma sonuçlarını elde eder. ğ) Araştırmada ulaştığı sonuçlara yönelik gerekçeler sunar.",
+            "h) Araştırma sonuçlarının araştırma sorusuna ne düzeyde cevap verdiğini değerlendirir. ı) Araştırma süreci adımlarını değerlendirerek araştırma sürecine uygun olmayan adımları yeniden planlar."
+          ]
+        },
+        {
+          "kod": "MAT.6.5.2.",
+          "kazanim": "Başkaları tarafından oluşturulan kategorik veya nicel (kesikli) veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+          "alt_kazanimlar": [
+            "a) Başkaları tarafından oluşturulan kategorik veya nicel (kesikli) veriye dayalı istatistiksel sonuç veya yorumlara yönelik istatistiksel temellendirme yapar.",
+            "b) Başkaları tarafından oluşturulan kategorik veya nicel (kesikli) veriye dayalı istatistiksel sonuç veya yorumlara yönelik hataları ya da yanlılıkları tespit eder.",
+            "c) Başkaları tarafından oluşturulan kategorik veya nicel (kesikli) veriye dayalı istatistiksel sonuç veya yorumları çürütür ya da kabul eder."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 7,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MAT.7.1.2.",
+          "kazanim": "Gerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Bölme işlemini kullanarak her rasyonel sayının bir ondalık gösterimi olduğunu inceler.",
+            "b) Rasyonel sayıların ondalık gösterimlerinden bazılarının devirli olduğuna dair çıkarım yapar.",
+            "c) Her rasyonel sayının devirli ya da devirsiz ondalık açılımları olduğunu değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.1.3.",
+          "kazanim": "Rasyonel sayıların sıralama ve karşılaştırma ilişkilerini yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Paydası 1 olan rasyonel sayılardan (tam sayılardan) başlayarak rasyonel sayıları sayı doğrusunda inceler.",
+            "b) Rasyonel sayıların sıralama ve karşılaştırma ilişkilerini sembolik olarak ifade eder.",
+            "c) Rasyonel sayıların sıralama ve karşılaştırma ilişkisini sayı doğrusu üzerinde kendi ifadeleriyle açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.7.1.4.",
+          "kazanim": "Rasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+          "alt_kazanimlar": [
+            "a) Rasyonel sayılarla toplama, çıkarma, çarpma ve bölme işlemlerini içeren problemlerde sayı ve işlem bileşenlerini belirler.",
+            "b) Rasyonel sayılarla toplama, çıkarma, çarpma ve bölme işlemlerini içeren problemlerde istenenler ve seçilen işlemler arasındaki ilişkileri belirler.",
+            "c) Rasyonel sayılarla toplama, çıkarma, çarpma ve bölme işlemlerini içeren problemlerde problem bağlamını uygun temsillere (şekil, sayı doğrusu gibi) dönüştürür. ç) Kullanılan temsil üzerinden problemi kendi ifadeleri ile açıklar.",
+            "d) Problemlerin çözümü için stratejiler oluşturur.",
+            "e) Stratejileri işe koşarak problemi çözer.",
+            "f) Problemin çözümünü kontrol eder.",
+            "g) Problemlerin olası farklı çözüm stratejilerini inceler. ğ) Çözüme ulaştıran stratejilere uygun genellemeler yapar.",
+            "h) Genellemelerin geçerliliğini değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.1.6.",
+          "kazanim": "Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Gerçek yaşam durumlarında iki durumun orantılı olup olmadığını inceler.",
+            "b) Orantılı olan iki durumun ilişkisini temsiller ile ifade eder.",
+            "c) Orantı kavramını kendi ifadeleriyle yeniden açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.7.1.7.",
+          "kazanim": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Doğru orantılı durumlara ilişkin problemlerde nicelikleri belirler.",
+            "b) Doğru orantılı durumlar arasındaki ilişkileri belirler.",
+            "c) Bu ilişkileri tablo ve grafik temsillerine dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder.",
+            "d) Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stratejiler oluşturur.",
+            "e) Belirlediği stratejileri kullanır.",
+            "f) Elde ettiği çözümü farklı stratejileri kullanarak doğrular.",
+            "g) Problemin olası farklı çözüm stratejilerini inceler. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.2.2.",
+          "kazanim": "Birinci dereceden bir bilinmeyenli denklem ve birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek yaşam problemlerini çözebilme",
+          "alt_kazanimlar": [
+            "a) Verilen gerçek yaşam problemlerindeki nicelikleri belirler.",
+            "b) Nicelikler arasındaki eşitlik ve eşitsizlik ilişkilerini belirler.",
+            "c) Belirlenen nicelikleri cebirsel olarak ifade eder. ç) Belirlenen nicelikleri ve ilişkileri denklem veya eşitsizlik olarak ifade eder.",
+            "d) Denklem ve eşitsizliklerin çözümünde bir strateji oluşturur.",
+            "e) Belirlediği stratejiyi çözüm için uygular.",
+            "f) Çözümün doğruluğunu uygun örnek ve temsiller ile kontrol ederek çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için olası farklı çözüm stratejilerini inceler. ğ) Çözüme ulaştıran stratejilerin uyarlanabileceği uygun genelleme ve sınıflamalar yapar.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.2.3.",
+          "kazanim": "Sayılar ve özelliklerini içeren ispatlara ilişkin matematiksel muhakeme yapabilme",
+          "alt_kazanimlar": [
+            "a) Sayılar ve özellikleriyle ilgili ilişkilere yönelik örneklere ve örüntülere dayalı varsayımlarda bulunur.",
+            "b) Varsayımına yönelik sayı örüntülerini listeler.",
+            "c) Elde ettiği örüntülerin, varsayımını karşılayıp karşılamadığını sınar. ç) Ulaştığı sonuca yönelik doğrulayabileceği matematiksel bir önermeyi sözel veya cebirsel olarak ifade eder.",
+            "d) Sunduğu önermenin katkısına yönelik gerekçeler sunar.",
+            "e) Sayılar ve özelliklerine ilişkin durumlarda cebirsel ispat yöntemlerini seçerek işe koşar.",
+            "f) Önermeyi gözden geçirerek yeni durumlara uyarlar."
+          ]
+        },
+        {
+          "kod": "MAT.7.2.4.",
+          "kazanim": "Temel aritmetik ve cebirsel ifadelerle işlem içeren durumlardaki süreci algoritma ifade yöntemlerini kullanarak yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Aritmetik ve cebirsel ifadelerle işlem içeren durumlardaki adımları ve ilişkileri açıklar.",
+            "b) Algoritma ifade yöntemlerini kullanarak incelediği adımlar ve ilişkilerden uyumlu bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "MAT.7.3.1.",
+          "kazanim": "Şekillerin yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Şekillerin yansıma dönüşümleri altındaki görüntülerini oluşturmaya dair varsayımlarda bulunur.",
+            "b) Şekillerin yansıma dönüşümü altındaki görüntülerini oluşturur.",
+            "c) Varsayımlarını doğrulamaya yönelik karşılaştırmalar yapar. ç) Bir şekil ile yansıma dönüşümü altındaki görüntüsü arasındaki ilişkilere dair önermeler sunar.",
+            "d) Önermenin verilen iki eş şeklin bir doğruya göre simetrik olup olmadığını belirlemeye ve simetrik bir şeklin simetri doğrusunu oluşturmaya yönelik katkısını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.3.2.",
+          "kazanim": "Yansıma dönüşümündeki deneyimlerini orta dikme ve açıortay inşasına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Yansıma dönüşümünde simetri doğrusunun özelliklerini gözden geçirir.",
+            "b) Simetri doğrusunun özelliklerinden hareketle bir doğru parçasına ait orta dikmenin ve bir açıya ait açıortayın inşasına dair çıkarım yapar.",
+            "c) Çıkarımını farklı örnekler üzerinden değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.2.",
+          "kazanim": "Dikdörtgenler prizmasının yüzey alanını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenler prizmasının farklı yüzey açınımlarını inceler.",
+            "b) Dikdörtgenler prizmasının yüzey açınımı ile yüzey alanı arasındaki ilişkileri ifade eder.",
+            "c) Dikdörtgenler prizmalarının yüzey açınımlarından yararlanarak yüzey alanlarını hesaplar."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.3.",
+          "kazanim": "Dikdörtgenler prizmasının hacmini eş nesneler aracılığıyla yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenler prizmalarının hacimlerini karşılaştırarak inceler.",
+            "b) Eş nesneler ile doldurulmuş dikdörtgenler prizmasını oluşturur.",
+            "c) Dikdörtgenler prizmasını oluşturan eş nesnelerin sayısını prizmanın hacmi olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.4.",
+          "kazanim": "Dikdörtgenler prizmasının hacim bağıntısını değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenler prizmasının hacmini belirlemede ölçüt olarak birimküpleri belirler.",
+            "b) Dikdörtgenler prizmasının hacmini belirlemek için prizmaların içine yerleştirilen birimküpleri sayar.",
+            "c) Toplam birimküp sayısı ile dikdörtgenler prizmasının ayrıt uzunluklarını karşılaştırır. ç) Birimküpleri farklı stratejilerle sayarak dikdörtgenler prizmasının hacmini taban alanı ile yüksekliğin çarpımı olarak ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.5.",
+          "kazanim": "Hacim ölçme birimleri arasındaki ilişkileri değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Bir cismin hacmini ölçmede metreküpü ve litreyi ölçüt olarak belirler.",
+            "b) Metreküp ve litreyi kullanarak ölçme yapar.",
+            "c) Hacim ölçme sonuçlarını desimetreküp, santimetreküp ve milimetreküp; sıvı ölçme sonuçlarını desilitre, santilitre ve mililitre ile ilişkilendirerek karşılaştırır. ç) Karşılaştırmalarına ilişkin yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.6.",
+          "kazanim": "Günlük hayat durumlarında dikdörtgenler prizmaları ile modellenen cisimlerin yüzey alanı ve hacmine yönelik problem çözebilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgenler prizmaları ile modellenen cisimlerin yüzey alanı ve hacmine yönelik problemde ilgili matematiksel bileşenleri (şekil, cisim, uzunluk, alan, yükseklik gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkileri belirler.",
+            "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemin sonucuna ilişkin tahminde bulunarak işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlediği stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.8.",
+          "kazanim": "Çemberde merkez açı ve gördüğü yay uzunluğu arasındaki ilişkiden yola çıkarak daire ve daire diliminin alanları arasındaki ilişkiye yönelik analojik akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Çemberde merkez açı ve gördüğü yay uzunluğu ile daire ve daire diliminin alanı arasındaki ilişkileri gözlemler.",
+            "b) Çemberde merkez açı ve gördüğü yay uzunluğu ile daire ve daire diliminin alanı arasındaki ilişkiyi tespit eder.",
+            "c) Çemberde merkez açı ve gördüğü yay uzunluğuyla daire ve daire diliminin alanı arasında kurulan ilişkiden hareketle daire diliminin alanına dair çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.9.",
+          "kazanim": "Eşkenar dörtgen ve yamuğun alan bağıntılarına dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Dikdörtgen, paralelkenar ve üçgenin alan bağıntısına dair ön bilgisiyle eşkenar dörtgenin ve yamuğun alan hesabına yönelik varsayımda bulunur.",
+            "b) Eşkenar dörtgeni ve yamuğu parçalayarak veya tamamlayarak oluşturduğu geometrik şekillerin alanlarını belirler.",
+            "c) Oluşturulan geometrik şekillerin alanlarını varsayımlarıyla karşılaştırır. ç) Eşkenar dörtgenin ve yamuğun alan bağıntılarına dair önermeler sunar.",
+            "d) Çeşitli geometrik şekillerin alanlarının hesaplanmasında eşkenar dörtgenin ve yamuğun alan bağıntılarının katkılarını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.4.10.",
+          "kazanim": "Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanına ilişkin problem çözebilme",
+          "alt_kazanimlar": [
+            "a) Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanlarına ilişkin problemde ilgili matematiksel bileşenleri (şekil, uzunluk, alan, açı, köşegen, yarıçap, yükseklik gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkileri belirler.",
+            "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlenen stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.5.2.",
+          "kazanim": "Orta dikme inşasına yönelik deneyimlerini üçgende kenarortay inşasına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Orta dikme inşasına yönelik deneyimlerini gözden geçirir.",
+            "b) Üçgende kenarortay inşasına yönelik çıkarım yapar.",
+            "c) Çıkarımını farklı örnekler üzerinden değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.7.6.2.",
+          "kazanim": "Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+          "alt_kazanimlar": [
+            "a) Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumlara yönelik istatistiksel temellendirme yapar.",
+            "b) Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumlara yönelik hataları ya da yanlılıkları tespit eder.",
+            "c) Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumları çürütür ya da kabul eder."
+          ]
+        },
+        {
+          "kod": "MAT.7.6.1.",
+          "kazanim": "Sınıf içinde fen bilimleri dersi ile ilişkili (uyku sürelerinin ölçümü gibi) merak uyandıran gerçek bir yaşam durumu üzerinden sağlıklı yaşam değerinin kazanılmasına yönelik beden sağlığının korunması hakkında tartışma ortamı oluşturulur (E1.1, D13.4). Mevcut veri türlerinin farklı bağlamdaki veri setleri ile çalışmak için sınırlayıcı olduğu ve bu veri setlerinin analizi için veri türünün kapsamının genişletilmesi gerektiğine araştırma sorusu örnekleri üzerinde tartışılarak karar verilir. Bu tartışmalarda gerçek yaşamdan örneklerle istatistiksel araştırmaya uygun durumlar fark ettirilerek öğrencilerin betimleme ve karşılaştırma gerektiren araştırma sorularına ulaşmaları beklenir. Araştırma sorularına yönelik evren ve örneklemin belirlenmesi ile seçilen örneklemin evreni temsil etme durumu tartışılır. Bu tartışmada öncelikle araştırma çerçevesine uygun evrenin belirlenmesi sağlanır. Uygun olan ve olmayan evren tanımlamaları gerekçeleri ile ele alınırken öğrencilerin ulaşabileceği evren ve örneklem seçimlerine uygun gerçek durumlar incelenir. Örneğin bulundukları mahalledeki marketlerde satılan belirli bir ürünün (makarna gibi) çeşitliliğinin incelenmesine yönelik bir araştırmada öğrencilerin mahalledeki marketlerin tamamını dikkate alarak evreni belirlemesi ve bu evrene uygun market türü, sayısı, büyüklüğü gibi kriterler üzerinden evreni temsil eden örneklem oluşturması beklenir. Araştırma soruları; amacın net olması, değişkenlerin belirlenebilir olması, veri toplanarak cevaplanabilir olması ve değişebilirlik (doğal ortamdan, müdahaleden veya ölçümden kaynaklı) kriterlerini sağlayacak şekilde ele alınır. Bu kriterleri sağlayan ve sağlamayan araştırma sorularına ilişkin örneklerin incelenmesi istenir. Örneğin, insan sağlığının önemsenmesine ilişkin kalp ritim sayılarının ölçümüne yönelik bir araştırma sorusunda verilerin toplandığı bölgeye, toplanan kişilerin fiziksel özelliklerine göre (yaş, kütle gibi) değişiklik göstermesi ele alınarak “değişebilirlik” kriterine değinilir. Sınıf içinde oluşturulacak tartışma ortamında öğrencilerin arkadaşları tarafından oluşturulmuş araştırma sorularını akran değerlendirme formu ile inceleyerek kriterlere uygun olup olmadığına dair çıkarımda bulunmaları sağlanır (SDB2.2). Öğrencilerin gerekli durumlarda araştırma sorularının oluşturulmasında uygun düzeltmeleri yapmaları istenir. Öğrencilerin gerçek yaşam problemlerinin çözümü için araştırma soruları oluşturmaları istenerek öz düzenleme/kendini düzenleme becerileri desteklenir (SDB1.2). Verinin elde edilmesinde araştırma sorusuna uygun veriye ulaşma seçenekleri göz önünde bulundurularak bir plan yapılır. Bu süreçte iki alternatif bulunmaktadır: Öğrenci veriyi kendisi (yakın çevresinden) toplayabilir veya hazır bir veriye (medya veya resmî kanallardan) ulaşabilir. Veri toplama sürecinde veriyi kendisi toplayacaksa anketi oluşturma, örneklemi seçme, verilerin nerede, ne zaman, nasıl toplanacağını ve nasıl kaydedileceğini belirleme ölçütlerini dikkate alması beklenir. Anket oluşturulması ve verinin toplanması adımında öğrenciler grup çalışmalarına yönlendirilir. Anket sorularının açık, anlaşılır ve amaca uygun olması, soruların anket katılımcılarının profiline ve beklenen muhtemel bulgulara göre şekillendirilmesi istenir. Öğrenciler araştırma sorusuna uygun anket soruları oluştururken çevrim içi anket uygulamalarından yararlanabilir. Bununla birlikte öğrenciler, ilgi duyduğu alanlarda hazır kaynaklardan veri elde edebilir. Veri toplama ve topladığı verileri kaydetme adımlarında not defteri ya da dijital araçlardan yararlanmaları sağlanır. Veri toplama planını oluşturan öğrencilere veriyi toplama ve analize hazırlama adımlarında çevrim içi uygulamalar ve istatistik yazılımları kullanabileceği ifade edilir (OB2, MAB5). Bazı durumlarda her iki veri elde etme yöntemi de değerlendirilir. Veri toplama süreci sınıf içinde ve dışında veya dijital ortamlarda gerçekleştirilir. Öğrenciler veri toplama sürecinde iş birliği veya iş bölümü yaparak bulundukları çevreden veri elde edebilir (SDB2.2). Verinin sınıf dışında toplanması ya da hazır veriden yararlanılması durumunda veri analizi ve sonuçları yorumlama adımları sınıf ortamında sürdürülür. Veri toplama sürecinde yakın çevresinden ölçme yaparak veriye ulaşan öğrenciler, elde ettikleri sürekli veriyi kaydeder. Öğrencilerin veri toplama sürecinde gizlilik ve mahremiyet boyutlarını gözeterek süreci tasarlamaları sağlanır. Dijital ortamlarda kişisel verinin gizlilik ihlali ve ihlalin olası sonuçlarının tartışılarak mahremiyet değerinin önemi konusunda öğrencilerin bilinçlendirilmesi sağlanır (D8.2). Özel konuşma, mesajlaşma gibi kişisel verilerin başkalarıyla paylaşılmaması gerektiği vurgulanır (OB2). Öğrencilerin veri toplayacakları araştırma soruları için kişisel verinin gizliliğinin korunması gözetilerek süreç tasarlanır. Veri toplama adımında arkadaşlarından, katılımcılardan ya da kurumlardan izin almaları gerektiğini fark etmeleri istenir. Veri toplama adımında verinin gizliliği ve mahremiyeti üzerine tartışılır. Veri toplama süreci katılımcıların kişisel verilerini irdeleyen sorular içeriyorsa “Sana ait bu bilgileri istememde sakınca var mı?, Arkadaşlarından bu tür bilgileri toplarken izin alıyor musun?, Kişisel bilgilerini istemen arkadaşlarını rahatsız ediyor mu?” tartışma ortamı oluşturularak kişisel verinin toplanması ve paylaşılmasında dikkat edilmesi gereken hususlara yönelik farkındalık oluşturulur (SDB2.3). Veri analizi adımında görselleştirme ve özetleme araçları, araştırma sorusu ile ilişkilendirilerek ele alınır. Öğrencilerin sürekli verinin temsil edilebilmesi için nokta grafiğindeki noktaların yakınlaştırılması ve birleştirilmesine yönelik ihtiyacı fark etmeleri sağlanarak çizgi grafiğine geçiş yapılır. Oluşturulan çizgi grafiğinin sürekli veriyi temsil etmesindeki kullanım amacı tartışılır. Sınıf ortamında ele alınacak diğer araştırma örneklerinde tercih edilecek veri görselleştirme aracının gerekçeleri (veri türüne uygunluğu, aracın yapısının ve işlevlerinin bilinmesi gibi) öğrencilerden istenir (MAB3). Aynı durumda kullanılabilecek birden fazla görselleştirme aracı varsa araçların birbirlerine göre güçlü ve zayıf yönleri göz önüne alınarak bu araçları seçme nedenlerini gerekçelendirmeleri beklenir (SDB3.3). Öğrencilerin veri setini temsil edebilecek bir değer olarak 6. sınıfta ele alınan aritmetik ortalama, ortanca ve tepe değere yönelik hesaplama yapmaları, tercih edilen özetleme aracını gerekçelendirmeleri istenir. Öğrencilerin, dağılıma yönelik incelemelerinde merkezin veri setinde bulunmak zorunda olmadığını, merkezin bir bölgeyi ifade edebileceğini ve veri türüne göre farklı yorumlanabileceğini ifade etmeleri sağlanır. Verinin dağılımına yönelik incelemelerde merkezî eğilim ölçülerine ek olarak yayılım fikri üzerinde tartışılır. Verinin yayılımına yönelik incelemelerde ilk olarak açıklık değeri ele alınır. İkinci olarak ortalama mutlak sapmaya geçiş yaparken öğrencilerden her bir verinin aritmetik ortalamaya yakınlığının incelenmesi istenir. Böylece her bir veri ile aritmetik ortalamanın ilişkisine odaklanmaları sağlanır. Buradan hareketle veri setinin ortalama mutlak sapmasını hesaplamaları istenir. Veri özetleme araçlarının bulunmasında hesap makinesi ya da elektronik tablo kullanımı sağlanarak veri özetleme araçlarının yorumlanmasına fırsat ve zaman verilir (MAB5). Öğrencilerin farklı yayılımlara sahip dağılımları incelerken açıklık, ortalama mutlak sapma ve merkezî eğilim ölçülerinin değerleri arasındaki ilişkileri yorumlamaları sağlanır (KB2.14). Örneğin farklı iki sınıfa ait sınav puanlarına yönelik analiz sonuçlarının karşılaştırılması ve birlikte incelenmesine yönelik tartışmalar gerçekleştirilebilir. Veri görselleştirme ve özetleme araçlarının dağılım, yayılım, merkez ve değişebilirlik kavramları ile ilişkilendirilmesi istenir. Öğrencilerin daha fazla veri setleri üzerinde dağılım, yayılım ve merkez değerlerinin değişebilirliklerini incelemeleri sağlanır. Veri setinden bir verinin çıkarılması veya verilmemesi durumları, araştırma sorusu ve karar verme süreçleri ile ilişkilendirilerek hesaplamalara girilmeden değişebilirliğin incelenmesi sağlanır. Veri setindeki anlık manipülasyonların değişime etkisinin dinamik olarak takip edilmesi ve etkileşimli olarak deneyimlenmesi sürecinde istatistik yazılımlarının kullanılması teşvik edilir (MAB5). Öğrencilerin bu araçlardan yararlanarak araştırma sürecinde elde ettikleri verileri düzenli, anlamlı ve sistematik bir şekilde sunmaları istenir (E3.7). Öğrencilerin ilgi alanlarına ve çevrelerindeki durumlara yönelik incelemelerinde başkalarının fikirlerine saygı duymayı (D14.1) ve empati kurmayı önemsemeleri sağlanır (E2.1). Öğrencilerden ulaştıkları araştırma sonuçlarına dair gerekçeler belirtmeleri istenir. Sonuçların araştırma sorusuna ne düzeyde cevap verdiği değerlendirilirken araştırma sorusunun belirlenmesinden başlayan süreç adımlarının her biri yeniden eleştirel bir gözle incelenir (E3.10). Değerlendirme aşamasında sonuçlardan hareketle öğrencilerin istatistiksel araştırma sürecine uygun olmayan adımları yeniden planlaması ve uygulaması beklenir (SDB3.2). Bu süreçte öğrenciler veriye dayalı karar vermeye yönelik öz düzenleme/kendini düzenleme becerilerini işe koşmaları için desteklenir (SDB1.2). İstatistiksel araştırma sürecine dair döngüsel modelin adımlarının uygulanarak öğrencilerin veriye dayalı karar verme aşamasındaki yetkinliklerinin öğrenciler arasında tartışılması sağlanır. İstatistiksel araştırma sürecinin (döngüsünün) son basamağında veri toplama ve veri analizi adımlarını sistematik olarak takip eden öğrenciler, geçirerek ulaştıkları sonuçları sınıfta paylaşırlar (E3.7). Öğrencilerin sonuçlar üzerine düşünmelerini teşvik edecek sorular sorularak, araştırma sonuçlarından hareketle veriler arası karşılaştırma yapmaları ve veri ötesinin yorumlanması için geleceğe yönelik tahminlerde ve önerilerde bulunmaları sağlanır. Öğrencilere veriyi görselleştirme ve özetleme adımlarına yönelik açık uçlu, doğru/yanlış ve eşleştirme gibi sorulardan oluşan çalışma kâğıdı verilebilir. Öğrencilere ders dışında iklim değişikliği, afet bilinci, kuraklık, yapay zekâ, yeterli ve dengeli beslenme, göç gibi (sosyal bilgiler veya fen bilimleri ile ilişkili) gerçek yaşam bağlamlarında istatistiksel araştırma sürecini işe koşmalarını gerektiren bir performans görevi verilerek araştırma sonuçlarına yönelik bir ürün (poster, afiş, broşür gibi) oluşturmaları ve sınıf içinde sunum yapmaları istenebilir (SDB2.3). Performans görevine yönelik araştırma konuları, öğrencilerin sosyal farkındalık (küresel su sorunu ya da su tasarrufu gibi) becerilerini geliştirmelerini sağlayacak çevresel sürdürülebilirlik (D5.2) bağlamları arasından seçilerek duyarlılık değeriyle ilişkilendirilebilir. MAT.7.6.2 Öğretmen tarafından ulaşılarak sınıf ortamına uyarlanmış gerçek veri setlerinin ve arkadaşları tarafından oluşturulmuş veri setlerinin kullanıldığı araştırma süreçlerine yönelik görsel, özet, sonuç, yorum, çıkarım veya tahminleri tartışabilecekleri bir ortam oluşturulur. Öğrencilerin bu veri setlerini inceleyerek elde edilen sonuç veya çıkarımlara yönelik temellendirme yapmalarına fırsat sunulur. İstatistiksel araştırma süreci adımlarının hatalı ya da yanlı işlem, bulgu veya yorum barındırabileceğine yönelik analitik (E3.6) ve eleştirel bir bakış (E3.10) geliştirmeleri istenir. Süreç adımlarında dikkatsizlikten kaynaklanan hatalara odaklanılarak sürecin sistematik olarak ele alınması gerektiği vurgulanır. Öğrencilerin özellikle sosyal medyada yer alan yanıltıcı haberlere ilişkin dijital bilginin yanlılığına dair incelemeler yapmaları sağlanarak gerçeği arama eğilimi (E3.4), güvenilir ve doğru olmayı içeren dürüstlük değeri desteklenir (D6.2, OB2). Yanıltıcı haberlerin eleştirel bir gözle değerlendirilmesi istenerek (KB3.3) öğrencilerin adalet değeri bağlamında haksızlıkların önüne geçilmesi konusunda kararlı davranmalarına (D1.3), kişisel verilerin yer aldığı dijital araçları bilinçli ve güvenli bir şekilde kullanmalarına (D8.2) ve her ferdin saygı değeri bağlamında değerli olduğunu kabul etmelerine (D14.1) teşvik edilir. İstatistiksel araştırma sürecine ait görsellerin, özetlerin ya da sonuçların hatalı veya yanlı olup olmamasına yönelik tespitler tartışma ortamında savunulur ya da çürütülür (E3.9, SDB3.3). Öğrencilerin fikirlerini belirtirken ön yargısız ve saygılı bir şekilde farklı açılardan bakabilmelerine, farklı fikirlere ve önerilere açık olabilmelerine yönelik uygun ortam oluşturulur (E3.5). Veriyi hatalı veya yanlı işleme ve yorumlamanın yol açabileceği olumsuz durumların sosyal, ekonomik ve ahlaki yansımalarına yönelik tartışmalar yapılması sağlanır (SDB3.3). Öğrencilerin istatistiksel araştırma sürecinin bilimsel katkısını önemsemeleri, doğru ve güvenilir bilgiyi ayırt etmeleri (D3.3) ve karar verme süreçlerinde istatistikten yararlanma fikrini benimsemeleri beklenir. Öğrencilerin istatistiksel araştırma sürecinde kişisel verinin kullanımına yönelik bilinç kazandırılması için kişisel verilerin gerçek ve dijital ortamlarda paylaşılması üzerine tartışmaları sağlanır. Tüketicilerin tüm izinlere onay vermeye yönlendirilmesi, oyun ya da çevrim içi üyelikler için kayıt işlemlerinde kişisel bilgilerin istenmesi ya da paylaşılmasına yönelik örnekler ele alınabilir. Bu tartışmada öğrencilerin kişisel verilerin toplanmasına ve kullanılmasına yönelik amacın neler olabileceğini ve bu durumun olumsuz yansımalarını yorumlamaları istenir. Öğrencilerin özel hayatın korunmasını güvence altına alan yasaları ve kişisel verilerin gizliliğinin ihlalinin olası sonuçlarını araştırmaları teşvik edilir. Öğrencilerin edindikleri sosyal, kurumsal ya da kişisel verileri mahremiyet değeri bağlamında üçüncü kişilerle paylaşmamalarının gerekliliğini fark etmeleri sağlanır (D8.2). Sosyal medyada ve diğer dijital ortamlarda öğrencilere sunulan veri setleri, özetlerinin doğruluğunun tespit edilmesi (E3.4), doğru bilgiye ulaşma yöntemlerinin incelenmesi beklenir. Bir kişiye ait verinin izinsiz şekilde ele geçirilmesi veya yayılmasının suç olduğuna değinilerek başkalarının onurunu zedeleyecek söz ve davranışlardan kaçınmanın önemine vurgu yapılır (D14.1). Öğrencilere kategorik veya nicel (sürekli) veriye dayalı istatistiksel görsel, özet, sonuç, yorum ve çıkarımlardaki hataları veya yanlılıkları tespit etmelerini gerektiren açık uçlu sorulardan oluşan bir izleme testi uygulanabilir. Öğrencilere medyada ilgilerini çeken güncel bir konuda hazır veri setlerinin ya da raporların incelenmesine yönelik performans görevi verilebilir. Seçilen veri setinin öğrenciye uygun olmasına dikkat edilir. Öğrencilerden incelemelerine yönelik sunum hazırlamaları istenebilir."
+        },
+        {
+          "kod": "MAT.7.7.2.",
+          "kazanim": "Aynı deneye ait olayların eşit olasılıklı olma durumlarını değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Eşit olasılıklı olan ve eşit olasılıklı olmayan olaylara ilişkin ölçüt belirler.",
+            "b) Olayların eşit olasılıklı olma veya olmama olasılığına ilişkin hesaplama yapar.",
+            "c) Hesaplama sonuçlarını belirlediği ölçütlerle karşılaştırır. ç) Karşılaştırmalarına ilişkin yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "MAT.7.7.3.",
+          "kazanim": "Olayları ayrık olma ve ayrık olmama durumlarına göre sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Olayların ayrık olma ve ayrık olmama durumlarını olaylara ait çıktıların ortak olup olmamasını ölçüt alarak belirler.",
+            "b) Olayları ayrık olma ve ayrık olmama durumuna göre ayrıştırır.",
+            "c) Ayrık olan ve ayrık olmayan olayları tasnif eder. ç) Olayları ayrık olma veya olmama durumuna göre etiketler."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 8,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "MAT.8.1.2.",
+          "kazanim": "Karşılaştığı problem durumlarında kareköklü ifadeler ile ilgili muhakeme yapabilme",
+          "alt_kazanimlar": [
+            "a) Bir karenin alanı ile kenar uzunluğu arasındaki ilişkiyi belirler.",
+            "b) Karenin alanından hareketle tam kare pozitif tam sayılar ile kareköklerini ilişkilendirir.",
+            "c) Tam kare olmayan pozitif bir sayının karekökünün hangi iki doğal sayı arasında olduğunu ve yaklaşık değerini matematiksel temsillerle (sayı doğrusu, şekil, tablo gibi) ifade eder. ç) Bir sayının karekökünü kendi ifadeleri ile açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.8.1.3.",
+          "kazanim": "Sayıların rasyonel ya da irrasyonelliğini değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Sayıların rasyonel ya da irrasyonel sayılar olup olmadığına ilişkin ondalık gösterimlerini ölçüt olarak belirler.",
+            "b) Sayıların ondalık gösterimlerini bölme işlemi ya da hesap makinesi kullanarak elde eder.",
+            "c) Elde ettiği ondalık gösterimi ölçütü ile karşılaştırır. ç) Karşılaştırmalarından hareketle bir sayının rasyonel olup olmadığına yönelik yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "MAT.8.1.4.",
+          "kazanim": "Gerçek sayıları ve aralıklarını sayı doğrusunda yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Doğal sayılardan başlamak üzere tüm gerçek sayıları ve sayılar arası ilişkileri inceler.",
+            "b) Gerçek sayıları sayı doğrusuna yerleştirir.",
+            "c) Gerçek sayı aralıkları arasındaki ilişkiyi açıklar."
+          ]
+        },
+        {
+          "kod": "MAT.8.2.2.",
+          "kazanim": "Gerçek yaşam durumlarındaki doğrusal ilişkileri doğrusal fonksiyonlarla temsil edebilme",
+          "alt_kazanimlar": [
+            "a) Doğrusal fonksiyonların cebirsel, tablo ve grafik temsillerini tanır.",
+            "b) Gerçek yaşam durumlarındaki doğrusal ilişkileri incelemek için doğrusal fonksiyonların temsillerinden uygun olanını belirler.",
+            "c) Belirlediği temsili gerçek yaşam durumunu modellemek veya problemi çözmek için gerektiğinde temsiller arası geçiş yaparak kullanır. ç) Kullandığı temsilin problem durumuna uygunluğunu değerlendirir.",
+            "d) Aynı durumda kullanılabilecek farklı temsilleri ekonomiklik ve kullanışlılık açısından karşılaştırır.",
+            "e) Karşılaştırdığı temsillerin ekonomikliğine ve kullanışlılığına ilişkin karar verir."
+          ]
+        },
+        {
+          "kod": "MAT.8.2.3.",
+          "kazanim": "Dik koordinat sisteminde iki doğrusal fonksiyonun birbirine göre durumuna ilişkin çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Dik koordinat sisteminde iki doğrusal fonksiyonun birbirine göre durumuna ilişkin varsayım oluşturur.",
+            "b) Dik koordinat sisteminde farklı doğrusal fonksiyonların birbirlerine göre durumlarını inceleyerek genellemeler yapar.",
+            "c) Genellemeleri ile varsayımlarını karşılaştırır. ç) Bulmuş olduğu ilişkilere yönelik önermeler sunar.",
+            "d) Dik koordinat sisteminde verilen doğruların konumlarını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.2.4.",
+          "kazanim": "Doğrusal fonksiyonlara ilişkin problemlerin çözümlerini algoritma ifade yöntemlerini kullanarak yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Doğrusal fonksiyonlara ilişkin problemlerin çözümlerindeki adımları ve ilişkileri açıklar.",
+            "b) Algoritma ifade yöntemlerini kullanarak incelediği adımlar ve ilişkilerden uyumlu bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "MAT.8.3.2.",
+          "kazanim": "Matematiksel araç ve teknoloji yardımıyla üçgenin kenar uzunlukları arasındaki ilişkiye yönelik çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Üçgen oluşturabilen üç doğru parçasının uzunluklarına dair varsayımda bulunur.",
+            "b) Varsayımda bulunduğu doğru parçaları ile oluşturduğu üçgenleri listeler.",
+            "c) Üçgen oluşturan doğru parçalarının uzunlukları ile varsayımlarını karşılaştırır. ç) Üçgen oluşturan doğru parçalarının uzunlukları arasındaki ilişkiye dair önerme sunar.",
+            "d) Sunduğu önermenin katkısına yönelik gerekçeler sunar."
+          ]
+        },
+        {
+          "kod": "MAT.8.3.3.",
+          "kazanim": "Bir üçgene eş üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan elemanlara dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Bir üçgene eş üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan elemanlara dair varsayımda bulunur.",
+            "b) Matematiksel araç ve teknoloji yardımıyla varsayımlarına uygun üçgenler oluşturur.",
+            "c) Oluşturduğu üçgenleri varsayımları ile karşılaştırır. ç) Bir üçgene eş üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan elemanlara dair önerme sunar.",
+            "d) Önermesinin iki üçgenin eş olup olmadığını incelemeye yönelik katkısını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.3.4.",
+          "kazanim": "Bir üçgene benzer üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan elemanlara dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Bir üçgene benzer üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan elemanlara dair varsayımda bulunur.",
+            "b) Matematiksel araç ve teknoloji yardımıyla varsayımlarına uygun benzer üçgenler oluşturur.",
+            "c) Oluşturduğu üçgenleri varsayımları ile karşılaştırır. ç) Bir üçgene benzer üçgen oluşturmak için üçgenle ilgili bilinmesi yeterli olan elemanlara dair önerme sunar.",
+            "d) Önermesinin iki üçgenin benzer olup olmadığını incelemeye yönelik katkısını değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.3.5.",
+          "kazanim": "Kenar uzunlukları a²+ b²= c² eşitliğini sağlayan üçgenleri oluşturarak dik üçgen olduklarını; dik üçgenlerde dik kenar uzunluklarının kareleri toplamının hipotenüs uzunluğunun karesine eşit olduğunu yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) a²+ b²= c² eşitliğini sağlayan rasyonel sayıları inceler.",
+            "b) Kenar uzunlukları a²+ b²= c² eşitliğini sağlayan üçgeni oluşturarak dik üçgen olduğunu; dik üçgenlerde hipotenüs uzunluğunun karesinin diğer iki kenarın uzunluklarının kareleri toplamına eşit olduğunu belirler.",
+            "c) Pisagor bağıntısını üçgende açı-kenar ilişkisi ve üçgen eşitsizliği ile ilişkilendirerek dar açılı ve geniş açılı üçgenlerdeki kenar uzunluklarının ilişkisini ifade eder."
+          ]
+        },
+        {
+          "kod": "MAT.8.3.6.",
+          "kazanim": "Üçgende açı-kenar ilişkisi, üçgen eşitsizliği ve Pisagor bağıntısını içeren problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Üçgende açı-kenar ilişkisi, üçgen eşitsizliği ve Pisagor bağıntısını içeren problemlerde ilgili matematiksel bileşenleri (açıların ölçüsü, kenarların uzunluğu, şekil gibi) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkileri belirler.",
+            "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Problemin çözümünü gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlenen stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı stratejileri gözden geçirerek kısa yolları değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.4.1.",
+          "kazanim": "Dik prizmalar, dikdörtgen dik piramit, dik dairesel silindir ve dik dairesel koninin yüzey açınımlarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Dik prizmalar, dikdörtgen dik piramit, dik dairesel silindir ve dik dairesel koninin yüzey açınımlarında yer alan şekilleri belirler.",
+            "b) Dik prizmalar, dikdörtgen dik piramit, dik dairesel silindir ve dik dairesel koninin yüzey açınımlarında yer alan şekiller arasındaki ilişkileri belirler."
+          ]
+        },
+        {
+          "kod": "MAT.8.4.2.",
+          "kazanim": "Dik dairesel silindirin yüzey açınımına ilişkin deneyimlerini dik dairesel silindirin yüzey alanına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Dik dairesel silindirin yüzey açınımına ilişkin deneyimlerini gözden geçirir.",
+            "b) Dik dairesel silindirin yüzey alanına yönelik çıkarım yapar.",
+            "c) Çıkarımını farklı örnekler üzerinden değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.4.3.",
+          "kazanim": "Dairenin alan bağıntısının oluşturulma sürecinden hareketle dik dairesel silindirin hacim bağıntısına yönelik analojik akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Dairenin alan bağıntısının oluşturulma sürecini ve daire ile dik dairesel silindir arasındaki ilişkiyi gözden geçirir.",
+            "b) Dairenin alan bağıntısının oluşturulma süreci ile dik dairesel silindirin hacim bağıntısının oluşturulma süreci arasındaki ilişkileri belirler.",
+            "c) İlişkilerden hareketle dik dairesel silindirin hacmine yönelik çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "MAT.8.5.2.",
+          "kazanim": "Dik koordinat sisteminde geometrik şekillere ait noktaların apsis ve ordinatlarının öteleme dönüşümündeki değişimlerine ve eksenlere göre yansıma dönüşümündeki değişimlerine ilişkin çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Geometrik şekillere ait noktaların apsis ve ordinatlarının öteleme dönüşümündeki değişimlerine ve eksenlere göre yansıma dönüşümündeki değişimlerine dair varsayımlarda bulunur.",
+            "b) Geometrik şekillerin öteleme dönüşümü altındaki görüntülerini ve koordinat eksenlerine göre yansıma dönüşümü altındaki görüntülerini oluşturur.",
+            "c) Oluşturduğu görüntülere ait noktaların apsis ve ordinatlarını varsayımları ile karşılaştırır. ç) Geometrik şekillere ait noktaların apsis ve ordinatlarının öteleme dönüşümündeki değişimlerine ve koordinat eksenlerine göre yansıma dönüşümündeki değişimlerine dair önermeler sunar.",
+            "d) Sundukları önermelerinin dik koordinat sisteminde konumları verilen iki geometrik şekil arasında öteleme veya eksenlere göre yansıma dönüşümüne dayalı bir ilişkinin bulunup bulunmadığını incelemeye sağladığı katkıyı değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.5.3.",
+          "kazanim": "Öteleme ve yansıma dönüşümlerini içeren problemleri çözebilme",
+          "alt_kazanimlar": [
+            "a) Öteleme ve yansıma dönüşümlerine ilişkin problemlerde ilgili matematiksel bileşenleri (eşlik, uzaklık, diklik, paralellik, koordinatlar gibi ) belirler.",
+            "b) Matematiksel bileşenler arasındaki ilişkileri belirler.",
+            "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+            "d) Öteleme ve yansıma dönüşümlerini içeren problemlerin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir.",
+            "e) Belirlenen stratejileri çözüm için uygular.",
+            "f) Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.",
+            "g) Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek kısa yolları değerlendirir. ğ) Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller.",
+            "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+          ]
+        },
+        {
+          "kod": "MAT.8.6.2.",
+          "kazanim": "Başkaları tarafından oluşturulan kategorik veya nicel (kesikli-sürekli) veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+          "alt_kazanimlar": [
+            "a) Başkaları tarafından oluşturulan kategorik veya nicel (kesikli-sürekli) veriye dayalı istatistiksel sonuç veya yorumlara yönelik istatistiksel temellendirme yapar.",
+            "b) Başkaları tarafından oluşturulan kategorik veya nicel (kesikli-sürekli) veriye dayalı istatistiksel sonuç veya yorumlara yönelik hataları ya da yanlılıkları tespit eder.",
+            "c) Başkaları tarafından oluşturulan kategorik veya nicel (kesikli-sürekli) veriye dayalı istatistiksel sonuç veya yorumları çürütür ya da kabul eder."
+          ]
+        },
+        {
+          "kod": "MAT.8.7.1.",
+          "kazanim": "Gerçek yaşamda karşılaşabileceği bir olayın olasılığına ilişkin farklı olasılık yaklaşımlarından (öznel, deneysel, teorik) uygun olanı belirleyerek karar verebilme",
+          "alt_kazanimlar": [
+            "a) Bir olayın olasılığına ilişkin karar vermeye yönelik amacı belirler.",
+            "b) Karara ilişkin bilgi toplar.",
+            "c) Karara ilişkin olasılık yaklaşımlarına yönelik önermeler oluşturur. ç) Karara ilişkin oluşturduğu önermeleri sorgular.",
+            "d) Ulaştığı sonuca göre olasılık yaklaşımlarına ilişkin seçim yapar.",
+            "e) Olasılık yaklaşımına ilişkin seçimini verdiği karara yansıtır."
+          ]
+        }
+      ]
+    }
+  ]
+}

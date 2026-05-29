@@ -1,0 +1,58 @@
+(node:7716) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ENG         1915  brans=[ingilizce]  sinif=[2,3,4,5,6,7,8,9,10,11,12]  ders=[İngilizce]  örn=ENG.2.1.L1, ENG.2.1.L2, ENG.2.1.L3
+ARP          598  brans=[ihl_meslek_dersleri,arapca]  sinif=[2,3,4,5,6,7,8,9,10]  ders=[Arapça]  örn=ARP.10.2.3, ARP.10.2.6, ARP.2.1.1.1
+T            483  brans=[turkce]  sinif=[1,2,3,4,5,6,7,8]  ders=[Türkçe]  örn=T.D.1.2, T.D.1.3, T.Y.1.1
+MAT          310  brans=[matematik]  sinif=[1,2,3,4,5,6,7,8,9,10,11,12]  ders=[Matematik|Matematik Uygulamaları]  örn=MAT.1.1.1, MAT.1.1.2, MAT.1.1.3
+TDE          245  brans=[turk_dili_edebiyati]  sinif=[9,10,11,12]  ders=[Türk Dili ve Edebiyatı]  örn=TDE.9.T1.1.1, TDE.9.T1.1.2, TDE.9.T1.2.1
+DE           214  brans=[ihl_meslek_dersleri,almanca]  sinif=[5,6,7,8,11]  ders=[Din Eğitimi|Almanca]  örn=DE.1.1, DE.1.2, DE.2.1
+FB           182  brans=[fen_bilimleri]  sinif=[3,4,5,6,7,8]  ders=[Fen Bilimleri]  örn=FB.3.1.1, FB.3.1.2, FB.3.2.1
+GS           180  brans=[gorsel_sanatlar]  sinif=[1,2,3,4,5,6,7,8,9,10,11,12]  ders=[Görsel Sanatlar]  örn=GS.1.1.1, GS.1.1.2, GS.1.2.1
+DKAB         169  brans=[din_kulturu]  sinif=[4,5,6,7,8,9,10,11,12]  ders=[Din Kültürü ve Ahlak Bilgisi]  örn=DKAB.4.1.1, DKAB.4.1.2, DKAB.4.1.3
+MÜZ          146  brans=[muzik]  sinif=[1,2,3,4,5,6,7,8,9,10,11,12]  ders=[Müzik]  örn=MÜZ.9.1.1, MÜZ.9.1.2, MÜZ.9.1.3
+KK           126  brans=[din_kulturu]  sinif=[5,6,7,8,9,10,11,12]  ders=[Kur'an-ı Kerim]  örn=KK.9.1.1, KK.9.1.2, KK.9.1.3
+FİZ          106  brans=[fizik]  sinif=[9,10,11,12]  ders=[Fizik]  örn=FİZ.9.2.2, FİZ.9.1.1, FİZ.9.1.2
+BES           93  brans=[beden_egitimi]  sinif=[5,6,7,8,9,10,11,12]  ders=[Beden Eğitimi ve Spor]  örn=BES.9.1.1, BES.9.1.2, BES.9.2.1
+KİM           93  brans=[kimya]  sinif=[9,10,11,12]  ders=[Kimya]  örn=KİM.9.1.7, KİM.9.1.1, KİM.9.1.2
+COĞ           76  brans=[cografya]  sinif=[9,10,11,12]  ders=[Coğrafya]  örn=COĞ.11.1.1, COĞ.11.2.1, COĞ.11.3.2
+PH            76  brans=[din_kulturu]  sinif=[5,6,7,8,9,10,11,12]  ders=[Peygamberimizin Hayatı]  örn=PH.12.3.1, PH.9.1.1, PH.9.1.3
+BİY           75  brans=[biyoloji]  sinif=[9,10,11,12]  ders=[Biyoloji]  örn=BİY.9.1.1, BİY.9.1.2, BİY.9.1.3
+SB            71  brans=[sosyal_bilgiler]  sinif=[4,5,6,7]  ders=[Sosyal Bilgiler]  örn=SB.4.1.1, SB.4.1.2, SB.4.1.3
+HB            66  brans=[hayat_bilgisi]  sinif=[1,2,3]  ders=[Hayat Bilgisi]  örn=HB.1.4.4, HB.2.1.1, HB.2.1.2
+BEO           53  brans=[beden_egitimi]  sinif=[1,2,3,4]  ders=[Beden Eğitimi ve Oyun]  örn=BEO.1.1.1, BEO.1.1.2, BEO.1.1.3
+DM            50  brans=[ihl_meslek_dersleri]  sinif=[9,10,11]  ders=[Dini Musiki]  örn=DM.9.1.1, DM.9.1.2, DM.9.1.3
+TT            49  brans=[teknoloji_tasarim]  sinif=[7,8]  ders=[Teknoloji ve Tasarım]  örn=TT.8.2.1, TT.7.1.1, TT.7.1.2
+BTY           48  brans=[bilisim_teknolojileri]  sinif=[5,6]  ders=[Bilişim Teknolojileri ve Yazılım]  örn=BTY.5.1.1, BTY.5.1.2, BTY.5.1.3
+TKS           45  brans=[beden_egitimi]  sinif=[9,10,11,12]  ders=[Takım Sporları]  örn=TKS.9.1.1, TKS.9.1.2, TKS.9.1.3
+TDB           42  brans=[din_kulturu,ihl_meslek_dersleri]  sinif=[7,8,9]  ders=[Temel Dinî Bilgiler|Temel Dini Bilgiler]  örn=TDB.1.1.1, TDB.1.1.2, TDB.1.1.3
+MARP          42  brans=[ihl_meslek_dersleri]  sinif=[11,12]  ders=[Mesleki Arapça]  örn=MARP.11.1.1, MARP.11.1.2, MARP.11.1.3
+KKIHL         40  brans=[ihl_meslek_dersleri]  sinif=[9,10,11,12]  ders=[Kur'an-ı Kerim]  örn=KKIHL.9.2.1, KKIHL.9.1.1, KKIHL.9.1.2
+TAR           38  brans=[tarih]  sinif=[9,10,11]  ders=[Tarih]  örn=TAR.9.1.1, TAR.9.1.3, TAR.9.1.4
+SBC           38  brans=[tarih]  sinif=[10,11,12]  ders=[Sosyal Bilim Çalışmaları]  örn=SBC.II.4.1, SBC.I.1.1, SBC.I.1.2
+HN            36  brans=[ihl_meslek_dersleri]  sinif=[9,10,11]  ders=[Hüsnühat]  örn=HN.9.1.1, HN.9.1.2, HN.9.1.3
+İTA           31  brans=[tarih,sosyal_bilgiler]  sinif=[8,12]  ders=[T.C. İnkılap Tarihi ve Atatürkçülük|T.C. İnkılap Tarihi]  örn=İTA.12.1.1, İTA.12.1.2, İTA.12.1.3
+İBT           28  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[İslam Bilim Tarihi]  örn=İBT.1.1, İBT.1.2, İBT.1.3
+KAK           27  brans=[ihl_meslek_dersleri]  sinif=[11,12]  ders=[Kur'an'ın Ana Konuları]  örn=KAK.11.1.1, KAK.11.1.2, KAK.11.1.3
+AST           24  brans=[fizik]  sinif=[9]  ders=[Astronomi ve Uzay Bilimleri]  örn=AST.1.1, AST.1.2, AST.1.3
+EB            24  brans=[ihl_meslek_dersleri]  sinif=[9,10,11]  ders=[Ebru]  örn=EB.9.1.1, EB.9.1.2, EB.9.2.1
+TZ            24  brans=[ihl_meslek_dersleri]  sinif=[9,10,11]  ders=[Tezhip]  örn=TZ.9.1.1, TZ.9.1.2, TZ.9.1.3
+FEL           22  brans=[felsefe]  sinif=[10,11]  ders=[Felsefe]  örn=FEL.10.1.1, FEL.10.2.1, FEL.10.2.2
+SOS           21  brans=[felsefe]  sinif=[11,12]  ders=[Sosyoloji]  örn=SOS.11.1.1, SOS.11.1.2, SOS.11.1.3
+SBTK          21  brans=[beden_egitimi]  sinif=[9]  ders=[Sağlık Bilgisi ve Trafik Kültürü]  örn=SBTK.1.1, SBTK.1.2, SBTK.1.3
+HDS           19  brans=[ihl_meslek_dersleri]  sinif=[10]  ders=[Hadis]  örn=HDS.10.1.1, HDS.10.1.2, HDS.10.1.3
+İÇYÇ          18  brans=[cografya]  sinif=[10]  ders=[İklim, Çevre ve Yenilikçi Çözümler]  örn=İÇYÇ.2.1, İÇYÇ.1.1, İÇYÇ.2.2
+MAN           17  brans=[felsefe]  sinif=[10]  ders=[Mantık]  örn=MAN.1.1, MAN.1.2, MAN.1.3
+FKH           15  brans=[ihl_meslek_dersleri]  sinif=[10]  ders=[Fıkıh]  örn=FKH.10.1.1, FKH.10.1.2, FKH.10.1.3
+PSK           13  brans=[felsefe]  sinif=[11]  ders=[Psikoloji]  örn=PSK.2.1, PSK.1.1, PSK.2.2
+İHVD          13  brans=[sinif_ogretmeni]  sinif=[4]  ders=[İnsan Hakları]  örn=İHVD.4.1.1, İHVD.4.1.2, İHVD.4.1.3
+SYR           13  brans=[ihl_meslek_dersleri]  sinif=[10]  ders=[Siyer]  örn=SYR.10.1.1, SYR.10.1.2, SYR.10.1.3
+TFS           13  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[Tefsir]  örn=TFS.11.2.1, TFS.11.1.1, TFS.11.2.2
+TG            12  brans=[sinif_ogretmeni]  sinif=[4]  ders=[Trafik Güvenliği]  örn=TG.4.1.1, TG.4.1.2, TG.4.1.3
+İÇE           11  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[İslam'da Çocuk Eğitimi]  örn=İÇE.1.1, İÇE.1.2, İÇE.1.3
+İF            11  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[İslam Felsefesi]  örn=İF.1.1, İF.1.2, İF.1.3
+AKD           10  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[Akaid]  örn=AKD.11.2.1, AKD.11.3.2, AKD.11.4.1
+DT            10  brans=[ihl_meslek_dersleri]  sinif=[12]  ders=[Dinler Tarihi]  örn=DT.12.1.2, DT.12.2.2, DT.12.4.3
+KLM           10  brans=[ihl_meslek_dersleri]  sinif=[12]  ders=[Kelam]  örn=KLM.12.1.1, KLM.12.1.2, KLM.12.1.3
+ÇTDT           9  brans=[tarih]  sinif=[12]  ders=[Çağdaş Türk ve Dünya Tarihi]  örn=ÇTDT.1.1, ÇTDT.1.2, ÇTDT.1.3
+HMU            9  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[Hitabet ve Mesleki Uygulama]  örn=HMU.11.1.1, HMU.11.1.2, HMU.11.2.1
+TK             8  brans=[ihl_meslek_dersleri]  sinif=[11]  ders=[Tasavvuf Kültürü]  örn=TK.1.1, TK.1.2, TK.2.1

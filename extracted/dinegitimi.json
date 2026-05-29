@@ -1,0 +1,101 @@
+[
+  {
+    "kod": "DE.4.1.1",
+    "ad": ".",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "DE.1.1",
+    "ad": ". Din eğitimi ile ilgili temel kavramları Öğrenme çıktısı",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "DE.1.2",
+    "ad": ". Din eğitimi biliminin önemi ve gerekliliği konusunda analitik düşünebilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "DE.2.1",
+    "ad": ". Gelişim dönemlerine göre din eğitimi uygulamalarını sınıflandırabilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DE.2.2",
+    "ad": ". Gelişim dönemlerinde dinî anlayışı etkileyen unsurları özetleyebilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DE.2.3",
+    "ad": ". Gençlik dönemi kimlik inşasında dinin etkisini müşahede edebilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DE.3.1",
+    "ad": ". Değer temelli ahlak eğitiminin önemini anlayabilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "DE.3.2",
+    "ad": ". Çevresel unsurların ahlak ve değer eğitimindeki rolünü yorumlayabilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "DE.3.3",
+    "ad": ". Ahlak ve değer eğitimi yaklaşımlarını temel alan din eğitimi uygulamaları hakkında",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "DE.4.1",
+    "ad": ". Türkiye’de yürütülen örgün din eğitimi uygulamalarını yapılandırabilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "DE.4.2",
+    "ad": ". Türkiye’de yürütülen yaygın din eğitimi örneklerini mesleki olarak uygulayabilme",
+    "sinif": 11,
+    "ders": "Din Eğitimi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "202621810395187-dinegitimi.pdf",
+    "kaynak_sayfa": 27
+  }
+]

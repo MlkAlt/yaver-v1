@@ -1,0 +1,953 @@
+{
+  "ders": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ  DERSİ",
+  "siniflar": [
+    {
+      "sinif": 4,
+      "kademe": "1. Kademe (İlkokul)",
+      "kazanimlar": [
+        {
+          "kod": "DKAB.4.1.1.",
+          "kazanim": "Ders kodu Sınıf seviyesi Ünite Numarası Öğrenme çıktı numarası 4. sınıf Din Kültürü ve Ahlak Bilgisi dersi 1. ünitenin 1. öğrenme çıktısına ait süreç bileşenlerini ifade eder. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM PROGRAMI 2. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM PROGRAMI’NIN SINIF DÜZEYLERİNE AİT ÜNİTELERİ 4. SINIF 1. ÜNİTE: GÜNLÜK HAY AT VE DİN Bu ünitede günlük hayattaki dinî ifadeler, temizlik, şükür ve sağlıklı beslenme konuları ele alınmaktadır. Öğrencilerin günlük hayatta kullanılan dinî ifadeleri özetlemeleri, gözlemlerinden yola çıkarak İslam dininin temizliğe verdiği önemi tahmin etmeleri, şükrün ve şükretmenin önemini kavrayarak bu değerleri günlük hayatlarına yansıtmaları, temiz ve sağlıklı beslenmenin İslam dinindeki önemi hakkında bilgi toplamaları amaçlanmaktadır. Sübhaneke duasını ve bu duanın anlamını okuyarak yorumlamaları amaçlanmaktadır."
+        },
+        {
+          "kod": "DKAB.4.1.2.",
+          "kazanim": "İslam’ın temizliğe verdiği önemi gözleme dayalı tahmin edebilme",
+          "alt_kazanimlar": [
+            "a) İslam’ın temizliğe verdiği önemi kendi tecrübeleriyle ilişkilendirir.",
+            "b) İslam’ın temizliğe verdiği öneme ilişkin çıkarım yapar.",
+            "c) İslam’ın temizliğe verdiği öneme ilişkin sonuç çıkarır."
+          ]
+        },
+        {
+          "kod": "DKAB.4.1.3.",
+          "kazanim": "Allah’a (cc) şükrün önemini hayatına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Allah’a (cc) şükür ile ilgili tecrübelerini gözden geçirir.",
+            "b) Allah’a (cc) şükür ile ilgili tecrübelerinden hareketle Allah’a (cc) şükrün önemi hakkında çıkarım yapar.",
+            "c) Allah’a (cc) şükrün önemi hakkında yaptığı çıkarımları değerlendirir."
+          ]
+        },
+        {
+          "kod": "DKAB.4.1.4.",
+          "kazanim": "İslam’a göre helal ve sağlıklı beslenmenin önemi konusunda bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) İslam’a göre helal ve sağlıklı beslenmenin önemi konusunu araştırır.",
+            "b) İslam’a göre helal ve sağlıklı beslenmenin önemi konusunda bilgiler bulur.",
+            "c) İslam’a göre helal ve sağlıklı beslenmenin önemi konusunda ulaştığı bilgileri öğretmen rehberliğinde doğrular. ç) İslam’a göre helal ve sağlıklı beslenmenin önemi konusunda ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.4.1.5.",
+          "kazanim": "Sübhaneke duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Sübhaneke duasını ve bu duanın anlamını okur.",
+            "b) Sübhaneke duasının anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Sübhaneke duasının anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.4.1.",
+          "kazanim": "2 Temiz olmanın önemi, gerekliliği ve temizliğin sağlıkla ilişkisi hakkında öğrencilerin açık fikirli olarak (E3.5) kendi tecrübelerini paylaşmaları istenir. Konuyla ilgili öğrenci seviyesine uygun görseller verilebilir ve öğrencilerin bu görselleri yorumlaması sağlanabilir (OB4). Öğrencilerin konuyla ilgili şiir, hikâye vb. yazmaları istenebilir. Bedensel temizliğin ne anlama geldiği, bedenimizi temiz tutmak için neler yapmamız gerektiği, kişisel temizlik ve bakımımıza neden önem vermemiz gerektiği (D18.1), Allah’ın (cc) insanın temiz olmasını neden istediği konuları öğrenci tecrübeleri ile ilişkilendirilerek anlatılır. Öğrencilerin İslam’da temizliğin önemi hakkında çıkarım yapması sağlanır. Allah’ın (cc) temizlikle ilgili emirleri kapsamında abdest konusuna değinilir. Hz. Muhammed’in (sav) hayatından örnekler verilir. Bedenimizin bize Allah’ın (cc) emaneti olduğunu öğrencilerin fark etmesi ve Allah’ın (cc) temiz olmamızı istediği sonucuna ulaşması sağlanır. Öğrencilerden yaşadığımız ortamın temiz olmasının sağlığımız ile ilişkisini anlatan özgün bir görsel çalışması yapması istenebilir (OB4). Böylece öğrencilerin yaşadıkları çevreyi temiz tutmaya dikkat etmeleri (D18.2), çevre temizliği ve sürdürülebilirliğine önem vermeleri (D18.3) sağlanır."
+        },
+        {
+          "kod": "DKAB.4.1.",
+          "kazanim": "3 Öğrencilere kendilerine yapılan iyiliklere nasıl karşılık verdikleri, teşekkür etmenin ne anlama geldiği; ne zaman, kime ve neden teşekkür edileceği sorulur. Kendi hayatlarını düşünerek teşekkür kavramı ile ilgili duygu, düşünce ve tecrübelerini gözden geçirmeleri istenir. Teşekkür etmenin aynı zamanda saygının bir gereği ve nezaketli davranmanın (D14.1) bir göstergesi olduğuna vurgu yapılır. Allah’ın (cc) bizlere verdiği nimetler anlatılarak bu nimetlerden ötürü Allah’a (cc) şükretme ifadelerini hatırlamaları istenir. Şükür ile teşekkür arasındaki ilişki ve şükrün insana katkıları konusunda farkındalık oluşturmak için (OB1) Öğrencilerin Allah’a (cc) şükrün önemiyle ilgili çıkarım ve değerlendirme yapması sağlanır. Öğrencilerden Allah’a (cc) şükür konusunu içeren bir hikâye yazmaları ve bunları sınıfta paylaşmaları istenir. Öğrenciler dinledikleri hikâyelerin mesajlarını yorumlayarak kendi cümleleri ile açıklar. Öğrenciler, derste öğrendikleriyle hikâyeden edindikleri mesajları ilişkilendirerek Allah’a (cc) şükrün önemi hakkında bilgilerini bütünleştirir (OB1)."
+        },
+        {
+          "kod": "DKAB.4.1.",
+          "kazanim": "4 Beslenmenin sağlık için değeri hakkında öğrencilere sorular sorularak onların sistematik olarak (E3.7) konuyu araştırmaları istenir. Öğretmen rehberliğinde kullanacağı kaynakları araştırır. Öğrenciler, buldukları bilgileri kullanarak “Sağlıklı beslenirsek vücudumuzda neler olur?” sorusuyla ilgili çıkarımda bulunur. Konuyla ilgili hayat bilgisi dersinden yararlanılır ve sağlıklı beslenmenin önemine dair farkındalık oluşturmak için drama çalışması yaptırılabilir. Yeterli, dengeli ve sağlıklı beslenmek (D13.1) için sorumluluk (E2.2) almanın bedenine karşı görevini yerine getirmek (D16.1) anlamını taşıdığı anlatılır. Helal ve haram kavramları ele alınır. Öğrencilerden İslam’ın helal ve sağlıklı beslenmeye verdiği önem hakkında araştırma yapmaları istenir. Öğrencilerin buldukları bilgiler öğretmen rehberliğinde doğrulanır. Öğrencilerin bunları yazarak kaydetmeleri sağlanır. İslam dininin sağlıklı hayata verdiği önemden yola çıkılarak İslam’a göre uygun beslenme ilkeleri ayet ve hadislerle ele alınır. İslam dininin israftan kaçınma, temiz ve helalinden beslenme konusuna verdiği önem kısaca açıklanır. Yemeğe başlarken ve yemeği bitirirken yapılacak dualara örnek verilir. Öğrencilerin Allah’ın (cc) sağlıklı beslenmemizi istediği konusunda topladıkları bilgilerle kendi sağlıklarını koruma konusunda öz yeterliliğe (E1.4) sahip olmaları hedeflenir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.4.1.",
+          "kazanim": "5 Öğrencilere “Sübhaneke duası hakkında neler biliyorsunuz?” sorusu yöneltilir. Bu duanın nerelerde okunduğuna dair bilgi verilir. Sübhaneke duasının doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. Sübhaneke duasını dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) duanın doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duayı kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duanın anlamı incelenir. Duanın anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak dua değerlendirilebilir. Öğrencilerin duanın anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Sübhaneke duasının anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir. Öğrencilerin empati kurarak (E2.1) yaşadıkları toplumun manevi değerlerine saygı duymalarını sağlamak amacıyla röportaj yapmaları istenebilir."
+        },
+        {
+          "kod": "DKAB.4.2.2.",
+          "kazanim": "Allah’ın (cc) kullarına olan sevgisini gözleme dayalı tahmin edebilme",
+          "alt_kazanimlar": [
+            "a) Allah’ın (cc) kullarına olan sevgisini gözlemleriyle ilişkilendirir.",
+            "b) Allah’ın (cc) kullarına olan sevgisi hakkında çıkarım yapar.",
+            "c) Allah’ın (cc) kullarına olan sevgisi hakkında sonuç çıkarır."
+          ]
+        },
+        {
+          "kod": "DKAB.4.2.3.",
+          "kazanim": "Dua etme ihtiyacı hakkında düşünebilme",
+          "alt_kazanimlar": [
+            "a) Duanın insan için bir ihtiyaç olduğunu fark eder.",
+            "b) Dua etmenin önemi hakkında sonuç çıkarır.",
+            "c) İhtiyaçları ve duyguları çerçevesinde dua örneklerini günlük hayatında ifadelerine yansıtır."
+          ]
+        },
+        {
+          "kod": "DKAB.4.2.4.",
+          "kazanim": "Kelimeitevhit ve kelimeişehadet hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Kelimeitevhit ve kelimeişehadet konusunu araştırır.",
+            "b) Kelimeitevhit ve kelimeişehadet hakkında bilgi toplar.",
+            "c) Kelimeitevhit ve kelimeişehadet hakkında ulaştığı bilgileri öğretmen rehberliğindedoğrular.",
+            "d) Kelimeitevhit ve kelimeişehadet hakkında ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.4.2.5.",
+          "kazanim": "Amentü duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Amentü duasını ve bu duanın anlamını okur.",
+            "b) Amentü duasının anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Amentü duasının anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.4.2.",
+          "kazanim": "2 Merhamet kavramı tanımlanır. İnsanda bulunan sevme ve sevilme duygusunun Allah’ın (cc) merhametinin göstergesi olduğuna değinilir. Öğrencilerin, Allah’ın (cc) kullarına olan sevgisini ve verdiği nimetleri gözlemleyerek çıkarım yapması sağlanır. Konuyla ilgili görseller verilebilir. Allah’ın (cc) kullarına olan sevgisi ve merhameti dua ile ilişkilendirilir. Salih amel tanımlanır ve Allah’ın sevdiği amellerle ilgili örnekler verilir. Allah’ın (cc) kullarını sevdiği, kullarının da O’nu sevdiği ile ilgili öğrencilerin sonuç çıkarması sağlanır."
+        },
+        {
+          "kod": "DKAB.4.2.",
+          "kazanim": "3 Öğrencilerin dua etme ihtiyacı hakkında empati kurmalarını (E2.1) sağlamak için onlara “Dua ederken ne hissedersiniz?” sorusu yöneltilir. Dua etme ihtiyacı hakkında merak ettiklerini, soru sorarak (E3.8) bu ihtiyacı fark etmeleri sağlanır. Dua etmenin; ibadetin özü olduğu, Allah’a (cc) kulluk etmenin gereği olduğu, Allah (cc) ile iletişim ve bağ kurmanın bir yolu olduğu açıklanır. Kur’an-ı Kerim’de geçen dualara ve Hz. Muhammed’in (sav) yaptığı dualara örnekler verilir. Öğrencilerin bu dua örneklerini günlük hayatlarında kullandıkları ifadelere dönüştürmesi beklenir. Dua etmenin veya dua almanın insana neler hissettirdiği, kişinin duyguları üzerindeki etkisi ele alınır. Öğrencilerin kendi duygu, düşünce ve ihtiyaçlarının farkında olarak dua etmenin önemi hakkında sonuç çıkarması sağlanır. Öğrencilerin ihtiyaçları ve duyguları çerçevesinde öz değerlendirme yapmaları istenebilir (SDB1.3)."
+        },
+        {
+          "kod": "DKAB.4.2.",
+          "kazanim": "4 İslam’ın beş şartı ayrıntıya girilmeden sıralanır. Öğrencilerin kelimeitevhit ve kelimeişehadet hakkında bilgi toplamaları sağlanır. Kelimeitevhit ve kelimeişehadetin Allah’a (cc) olan sevgi (D15.3), saygı (D14.3) ve bağlılığın ifadesi olduğu açıklanır ve önemi vurgulanır. Öğrenciler; kelimeitevhit ve kelimeişehadet ile ilgili elde ettikleri bilgileri öğretmenleriyle birlikte değerlendirerek doğrular ve afiş, broşür, pano, duvar gazetesi gibi yollarla kaydeder. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.4.2.",
+          "kazanim": "5 Öğrencilere “Amentü duası hakkında neler biliyorsunuz?” sorusu yöneltilir. Amentü kelimesinin anlamı açıklanır ve Amentü duası hakkında bilgi verilir. Amentü duasının doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. Amentü duasını dinlemek ve bu dua hakkında bilgi sahibi olmak üzere Eğitim Bilişim Ağı’ndan (EBA) uygun içerikler belirlenir. Öğrencilerin bu platformu kullanmaları sağlanarak (OB2) duanın doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duayı kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duanın anlamı incelenir. Duanın anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak dua değerlendirilebilir. Öğrencilerin duanın anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Amentü duasının okunduğu yerler örneklendirilir. Öğrencilerin Amentü duasının anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.4.3.2.",
+          "kazanim": "Peygamberlerin toplumlarına olan sevgisini yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Peygamberlerin hayatlarını inceleyerek topluma karşı davranışları ve rehber olmaları arasında ilişki kurar.",
+            "b) Peygamberlerin toplumları için ettikleri dua örneklerinden yola çıkarak toplumlarına sevgiyle yaklaştıklarından hareketle uyumlu bir bakış açısı geliştirir."
+          ]
+        },
+        {
+          "kod": "DKAB.4.3.3.",
+          "kazanim": "Peygamberlerin çevre sevgisine ilişkin akıl yürütebilme",
+          "alt_kazanimlar": [
+            "a) Peygamberlerin çevreye yaklaşımlarını inceler.",
+            "b) Peygamberlerin davranışlarıyla çevre sevgileri arasında ilişki kurar.",
+            "c) Peygamberlerin çevre sevgisi hakkında çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "DKAB.4.3.4.",
+          "kazanim": "Peygamberlerin çalışmayı sevdiğine dair çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Peygamberlerin çalışmayı sevdiğini farkeder.",
+            "b) Peygamberlerin geçimlerini sağlamak için yaptıkları işleri listeler.",
+            "c) Peygamberlerin mesleklerini karşılaştırır. ç) Peygamberlerin çalışmaya ve üretmeye istekli olduklarına dair önerme sunar.",
+            "d) Peygamberlerin yaşantılarından hareketle emek vererek kazanç elde etmenin önemini değerlendirir."
+          ]
+        },
+        {
+          "kod": "DKAB.4.3.5.",
+          "kazanim": "Salli ve Barik dualarını ve bu duaların anlamlarını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Salli ve Barik dualarını ve bu duaların anlamlarını okur.",
+            "b) Salli ve Barik dualarının anlamlarını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Salli ve Barik dualarının anlamlarını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.4.3.",
+          "kazanim": "2 Peygamberlerin toplumlarına olan sevgisi, aileleri ile ilişkilerinden yola çıkılarak ele alınır. Her peygamberin bir ailesi olduğuna ve bir toplum içinde yaşadığına dikkat çekilir. Hz. İbrahim’in oğlu Hz. İsmail ile olan sevgi dolu ilişkisine Saffat suresi 100 ve 101. ayetler bağlamında değinilir, Hz. Zekeriya ve Hz. Yahya’nın aile bağlarına (D2.1) vurgu yapılır. Peygamberlerin hayatları incelenerek topluma karşı davranışları ve rehber olmaları arasında ilişki kurulur. Peygamberlerin toplumlarına verdikleri değer (D5.1), Tevbe suresi 128. ayetten hareketle ele alınır. Peygamberlerin toplumları için yaptıkları dua örneklerinden yola çıkılarak gönderildikleri toplumlara sevgi ve merhametle (D9.2) yaklaştıklarına dair bir bakış açısı geliştirir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.4.3.",
+          "kazanim": "3 Öğrenciden çevresini gözlemlemesi istenir. Yaşadığımız çevrenin ve bu çevre içerisindeki canlıların Allah (cc) tarafından yaratıldığına dikkat çekilir. Doğanın ve hayvanların korunmasının önemi ile ilgili Eğitim Bilişim Ağı’ndan (EBA) uygun bir video izletilebilir. Böylece öğrencilerin fen bilimleri dersinden öğrendikleriyle konu ilişkilendirilebilir. Öğrencilere, onların diğer canlılara karşı davranışlarına dair kendilerini değerlendirmelerine yönelik sorular sorulabilir (SDB1.3). Konuyla ilgili bir öz değerlendirme formu hazırlanabilir. Peygamberlerin hayvanlara verdiği değer (D5.2) ve gösterdiği şefkatle (D9.3) ilgili örnek davranışları belirlenir. Çevre temizliği konusundaki uyarılarına değinilir (D18.3). Peygamberlerin bu davranışlarıyla doğa ve hayvan sevgileri arasında ilişki kurulur. Hz. Muhammed’in (sav) konuyla ilgili hadislerine yer verilir. İlgili hadisler yorumlanarak peygamberlerin çevre ve hayvan sevgisi hakkında çıkarım yapılır."
+        },
+        {
+          "kod": "DKAB.4.3.",
+          "kazanim": "4 Öğrencilere hangi mesleklere ilgi duydukları sorulur. Her insanın geçinmek için bir işle meşgul olduğuna dikkat çekilir ve öğrencilerden peygamberlerin geçimlerini nasıl sağlamış olabilecekleriyle ilgili akıl yürütmeleri istenir. Verilen cevaplardan hareketle peygamberlerin çalışmayı sevdikleri farkettirilir. Öğrenciler, peygamberlerin mesleklerinin neler olabileceği hakkında merak ettikleri soruları sormaları (E3.8) için teşvik edilir. Bazı peygamberlerin geçimlerini sağlamak için yaptıkları işler listelenir. Peygamberlerin meslekleri karşılaştırılarak her birinin yeteneklerine göre bir uzmanlık alanının olduğu fark ettirilir. Peygamberlerin çalışmaya ve üretmeye istekli olduklarına (D3.1) dair önermeler sunulur. Peygamberlerin yaşantılarından hareketle emek vererek kazanç elde etmenin önemini değerlendirir. Bunun için ilke çıkarma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.4.3.",
+          "kazanim": "5 Eğitim Bilişim Ağı’ndan (EBA) salavat dinletilerek öğrencilerin dikkati çekilir. Hz. Muhammed’in (sav) ismini duyan veya söyleyen her Müslümanın onu dua ve selamla anarak ona olan sevgisini ve bağlılığını dile getirdiği belirtilir. Onun için yapılan bu dualara salavat duaları denildiği, Salli ve Barik dualarının da bu özel dualardan olduğu ifade edilir. Bu duaların nerelerde okunduğuna dair bilgi verilir. Hz. Peygamber’in ailesine “Ehlibeyt” adı verildiğine değinilerek bu dualarda onun ailesinden bahsedildiğine dikkat çekilir. Salli ve Barik dualarını dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) duaların doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duaları kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duaların anlamları incelenir. Duaların anlamlarından çıkarılacak mesajlarla ilgili etkinlikler yapılarak dualar değerlendirilebilir. Öğrencilerin duaların anlamlarını kendi hayatları için anlamlı hâle getirmeleri sağlanır. Öğrencilerin Salli ve Barik dualarının anlamlarını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.4.4.2.",
+          "kazanim": "Sabır değerinin önemini yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) İnsan ilişkilerini inceleyerek sabır değerinin önemini içeren nedensel ilişkiler ortaya koyar.",
+            "b) Sabır değerinin önemi hakkında ortaya koyduğu ilişkilerden hareketle uyumlu bir bakış açısı geliştirir."
+          ]
+        },
+        {
+          "kod": "DKAB.4.4.3.",
+          "kazanim": "Yardımseverliğin insan ilişkilerindeki rolünü ve önemini gözleme dayalı tahmin edebilme",
+          "alt_kazanimlar": [
+            "a) Yardımseverliğe ilişkin ön gözlem ve tecrübesini ilişkilendirir.",
+            "b) Yardımseverliğin önemine ilişkin çıkarım yapar.",
+            "c) Yardımseverliğin insan ilişkilerindeki rolü ve önemine ilişkin sonuç çıkarır."
+          ]
+        },
+        {
+          "kod": "DKAB.4.4.4.",
+          "kazanim": "Fatiha suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Fatiha suresini ve bu surenin anlamını okur.",
+            "b) Fatiha suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Fatiha suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.4.4.",
+          "kazanim": "2 Sabır kavramı tanımlanarak konu hakkında bilgi verilir. Sabrın duygu, düşünce ve davranışlarda kontrollü olmak anlamına geldiği öğrencilere fark ettirilir (D12.2). Sabırlı insanın özellikleri belirlenir. Müminlerin sabırlı olduğuna vurgu yapılır. Öğrencilerin insan ilişkilerinde sabrın önemini fark edebilmeleri için günlük hayattan örnekler verilerek kendi bilgi ve davranışlarına eleştirel bakmaları (E3.10) sağlanır. Böylece sabırlı olmanın önemini içeren nedensel ilişkiler ortaya konulur. Öğrencilere günlük hayatlarıyla özdeşleştirmeleri için aile ve arkadaşlık ilişkileri üzerinden sabırlı olmaya dair örnekler verilir. Karşılaştıkları zorluklar karşısında olumlu bakış açısına sahip olmaları (D12.1) gerektiği vurgulanır. Hz. Muhammed’in (sav) sabırlı oluşuna dair örnekler verilir. Sabır değeri hakkında verilen bilgiler doğrultusunda, bu değerin önemiyle ilgili ortaya konulan ilişkilerden hareketle uyumlu bir bakış açısı geliştirmesi sağlanır."
+        },
+        {
+          "kod": "DKAB.4.4.",
+          "kazanim": "3 Yardımseverlik tanımlanır. Öğrencilere yardımseverlikle ilgili ön bilgileri ve tecrübeleri sorulur. Kendi hayatlarından verdikleri örneklerden hareketle öğrencilerin tecrübeleri yardımseverlik kavramı ile ilişkilendirilir. Yardımsever insanın özellikleri ayetlerle açıklanır. Hz. Muhammed’in (sav) hayatından yardımseverliğe dair örnekler verilir. Cömert ve iyiliksever olmanın öneminden bahsedilir (D20.1, D20.3). Yardımlaşma örnekleri verilerek öğrencilerin konuyu pekiştirmeleri sağlanır. Ensar ve muhacir kardeşliğine değinilir. Öğrencilerin bu bilgilerden hareketle yardımseverliğin önemine ilişkin çıkarım yapmaları beklenir. Yardımsever olmanın insan ilişkilerindeki rolüne ve önemine dair sonuç çıkarmaları sağlanır. Konuyla ilgili olarak Kızılay Haftası’na değinilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.4.4.",
+          "kazanim": "4 Öğrencilere “Fatiha suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Fatiha kelimesinin anlamı açıklanarak Fatiha suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Fatiha suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Fatiha suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Fatiha suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.4.5.2.",
+          "kazanim": "Mahremiyet hakkını sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Mahremiyet kavramını tanımlar.",
+            "b) Mahremiyet hakkında sorular sorar.",
+            "c) Mahremiyet hakkında bilgi toplar. ç) Mahremiyet hakkında topladığı bilgilerin doğruluğunu öğretmen rehberliğinde değerlendirir.",
+            "d) Mahremiyet hakkında topladığı bilgiler üzerinden çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "DKAB.4.5.3.",
+          "kazanim": "Allah’a (cc) karşı sorumluluklarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Allah’a (cc) karşı inanç ve ibadet sorumluluklarını sıralar.",
+            "b) İnanç ve ibadetle ilgili sorumluluklar arasındaki ilişkileri inceler."
+          ]
+        },
+        {
+          "kod": "DKAB.4.5.4.",
+          "kazanim": "İnsanlara karşı sorumluluklarını özetleyebilme",
+          "alt_kazanimlar": [
+            "a) İnsanlara karşı sorumluluklarını çözümler.",
+            "b) İnsanlara karşı sorumluluklarını sınıflandırır.",
+            "c) İnsanlara karşı sorumluluklarını yorumlar."
+          ]
+        },
+        {
+          "kod": "DKAB.4.5.5.",
+          "kazanim": "Rabbena dualarını ve bu duaların anlamlarını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Rabbena dualarını ve bu duaların anlamlarını okur.",
+            "b) Rabbena dualarının anlamlarını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Rabbena dualarının anlamlarını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.4.5.",
+          "kazanim": "2 Öğrencilere günlük hayatta gizli kalması gereken konuların neler olduğu hakkında sorular sorulur. Verilen cevaplardan hareketle mahremiyet kavramı açıklanır ve öğrenciler mahremiyetle ilgili sorular sormaya teşvik edilir. Bunun için soru kutusu tekniği kullanılabilir. Öğrencilerin mahremiyetin temel bir hak olduğunu, bu hakka saygı gösterilmesi gerektiğini ve her ferdin değerli olduğunu fark etmesi (D14.1) sağlanır. Öğrencilere; mahremiyet hakkında bilgi toplamalarını sağlayacak ve tanımadıkları kişilere, arkadaşlarına ve ailelerine karşı sınırların ne olması gerektiğini fark ettirecek etkinlikler yaptırılır. Bu etkinliklerle toplananılan bilgilerin doğruluğu öğretmen rehberliğinde değerlendirilir ve öğrencilere kendi hayatlarında (D8.1) ve sosyal ilişkilerinde kişisel alanların korunması gerektiği (D8.4) açıklanır. Kişisel eşyaları korumaya (D8.4), başkalarını rahatsız edecek davranışlardan uzak durmaya ve özel hayatın gizliliğini ihlal edecek davranışlardan kaçınmaya (D8.4) dair öğrencilere farkındalık kazandırılır. Mahremiyete saygının İslam ahlakının temel ilkelerinden biri olduğu vurgulanır. Hz. Muhammed’in (sav) bu konuyla ilgili öğütlerine yer verilir. Böylece İslam’ın mahremiyet kavramına verdiği önem ve bu hakkın korunması gerekliliği hususunda öğrencilerin çıkarımda bulunması sağlanır. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.4.5.",
+          "kazanim": "3 Sorumluluk kavramı açıklanır. Öğrencilere “kimlere/nelere karşı sorumluluklarımız var?” sorusu sorulur. Verilen cevaplardan hareketle insanın kendisine, ailesine, çevresine ve Allah’a (cc) karşı sorumlulukları olduğu sonucuna ulaşılarak bu maddeler sıralanır. İnsanın bedensel, ruhsal ve sosyal iyi oluşu için çaba göstermesinin ve kendini tehlikeye sokacak davranışlardan kaçınmasının (D16.1) kendisine olan sorumluluğu olduğu belirtilir. Verilen görevleri yerine getirmek (D16.3), ortak kullanım alanlarını korumak, temiz kullanmak, toplumsal hayatı düzenleyen kurallara uymak gibi (D16.2) sorumluluklarının da olduğu açıklanır. Öğrencilerin kişisel ve toplumsal sorumluluklarından hareketle kendisini yaratan ve her türlü nimeti bahşeden Allah’a (cc) karşı da sorumlulukları olduğunu fark etmesi sağlanır. Allah’a (cc) karşı inanç ve ibadet alanlarında sorumluluklarımızın olduğu öğrencilere ifade edilir. Allah’a (cc) duyulan sevginin ibadetlerle gösterildiği (D15.3) belirtilir. Öğrencilerin ibadet eden insanları izleyerek ibadetin insan üzerindeki etkilerini fark etmeleri sağlanır. Allah’a (cc) karşı sorumlulukları yerine getirmenin güzel ahlaka katkısı vurgulanır. Ahlaki değerlerin kazanılması ve korunmasının O’na karşı sorumlulukların yerine getirilmesiyle ilişkisi açıklanır."
+        },
+        {
+          "kod": "DKAB.4.5.",
+          "kazanim": "4 İnsanlara karşı sorumluluklarla ilgili görseller gösterilerek öğrencilerin bu sorumlulukları belirlemesi ve çözümlemesi sağlanır. Diğer insanlara karşı sorumluluklar tanımlanır. Bu sorumluluklar söz ve davranışlarda doğru olmak, yardımlaşmak ve dayanışmak, büyükleri saymak, küçükleri sevmek, komşuları ve akrabaları gözetmek şeklinde sınıflandırılır. İslam dininin bu sorumluluklara verdiği önem vurgulanır. Öğrencilerin bu sorumlulukların toplumsal hayata etkisini kendi cümleleriyle yorumlamaları sağlanır. Böylece insanlara karşı şefkatli, sevgi dolu (D9.2) ve duyarlı (D5.1) davranma konusunda öğrencilere bilinç kazandırılır. Öğrencilerin yeteneklerine güvenerek (E1.5) insanlara karşı sorumlulukların önemine dair yargıda bulunmaları ve bu konuda olumlu davranışlar ortaya koymaları (SDB1.2) beklenir."
+        },
+        {
+          "kod": "DKAB.4.5.",
+          "kazanim": "5 Öğrencilere “Rabbena duaları hakkında neler biliyorsunuz?” sorusu yöneltilir ve önceki bilgileri kontrol edilir. Rabbena duaları ve bu duaların anlamları açıklanarak içerdikleri mesajlar ve nerelerde okundukları hakkında bilgi verilir. Rabbena dualarını dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) duaların doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duaları kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duaların anlamı incelenir. Duaların anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin duaların anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Rabbena dualarının anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        }
+      ]
+    },
+    {
+      "sinif": 5,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "DKAB.5.1.2.",
+          "kazanim": "Evrendeki mükemmel düzeni gözlem yoluyla fark edip Allah’ın (cc) varlığı ve birliğini gözleme dayalı tahmin edebilme",
+          "alt_kazanimlar": [
+            "a) Evrendeki mükemmel düzene ilişkin ön gözlem veya tecrübeyi Allah’ın (cc) varlığı ve birliği ile ilişkilendirir.",
+            "b) Bu ilişkilerden hareketle Allah’ın (cc) var ve bir olduğuna dair çıkarım yapar.",
+            "c) Tevhit inancına ilişkin sonuç çıkarır."
+          ]
+        },
+        {
+          "kod": "DKAB.5.1.3.",
+          "kazanim": "Allah’ın (cc) güzel isimleri hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Allah’ın (cc) güzel isimleri konusunu araştırır.",
+            "b) Allah’ın (cc) güzel isimleri hakkında bilgi toplar.",
+            "c) Allah’ın (cc) güzel isimleri hakkında ulaştığı bilgileri doğrular. ç) Allah’ın (cc) güzel isimleri hakkında ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.5.1.4.",
+          "kazanim": "İhlas suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) İhlas suresini ve bu surenin anlamını okur.",
+            "b) İhlas suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) İhlas suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.1.",
+          "kazanim": "2 Evrendeki mükemmel düzenin nasıl oluştuğu sorusu sorulur. Gerçek hayattan verilen örneklerden hareketle varlıkların mutlaka bir yaratıcıya ihtiyaç duyduğu vurgulanır. Öğrencilerden evrendeki mükemmel düzenle ilgili gözlemlerini Allah’ın (cc) varlığı ve birliği ile ilişkilendirmesi istenir. Öğrencilerin konuyla ilgili düşüncelerini değerlendirmesi (E3.10), kendisinden ve çevresinden hareket ederek insanların bir yaratıcıya ihtiyaç duyduğunu fark etmesi (SDB1.1) için öğretmen rehberliğinde bir tartışma ortamı oluşturulabilir (E3.4).Tevhit kavramı ele alınır. Öğrencilerin her şeyin Allah (cc) tarafından yaratıldığı bilgisine ulaşması sağlanır. Konuyla ilgili ayetlerden ve hadislerden öğrenci seviyesine uygun örnekler verilir.Tevhidin İslam’ın inanç esası olduğu yargısına öğrencilerin ulaşması için etkinlikler yapılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.5.1.",
+          "kazanim": "3 Öğrencilere “Allah’ın (cc) güzel isimlerinden hangilerini duydunuz?” sorusu sorulur. Öğrenciler esmayıhüsnanın anlamını ve merak ettiği (E1.1, E.1.2) isimleri araştırır. Bu isimlerden başta Rahman ve Rahîm olmak üzere Alîm, Kadir, Semi ve Basir hakkında bilgi toplar. Ayetler ve hadisler yoluyla ulaştığı bilgileri doğrular ve defterine yazarak bunları kaydeder. Besmele açıklanır. Günlük hayatta besmelenin sıklıkla kullanıldığı yerler örneklendirilir. Rahman ve Rahîm isimlerinin Allah’ın (cc) yarattıklarına karşı merhametli olması anlamına geldiği vurgulanır. Etkinlikler yoluyla varlıklara şefkatli davranmanın (D9.2), insanı ve doğayı sevmenin (D9.3) gerektiğini öğrencilerin fark etmesi ve bunları davranışlarına yansıtması sağlanır (SDB1.1). Bunun için öz değerlendirme formu kullanılabilir."
+        },
+        {
+          "kod": "DKAB.5.1.",
+          "kazanim": "4 Öğrencilere “İhlas suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. İhlas kelimesinin anlamı açıklanarak İhlas suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. İhlas suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. İhlas suresinin doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. İhlas suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Günlük hayatta İhlas suresinin okunduğu yerler örneklendirilir. Öğrencilerin İhlas suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.5.2.2.",
+          "kazanim": "Namazın kılınışını gözlemleyebilme",
+          "alt_kazanimlar": [
+            "a) Namazın kılınışını gözlemlemek için hazırlık ve kılınış şartlarını ölçüt olarak açıklar.",
+            "b) Namazın kılınışı hakkında öğretmen rehberliğinde bilgi toplar.",
+            "c) Namazın kılınışı hakkında topladığı bilgileri sınıflandırır ve kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.5.2.3.",
+          "kazanim": "Namazın insan hayatına etkileri hakkında düşünebilme",
+          "alt_kazanimlar": [
+            "a) Namazın insan hayatına etkilerini araştırır.",
+            "b) Namazın insana kazandırdıkları hakkında sonuç çıkarır.",
+            "c) Namazın insana kazandırdıkları hakkında ulaştığı çıkarımları davranışlarına yansıtır."
+          ]
+        },
+        {
+          "kod": "DKAB.5.2.4.",
+          "kazanim": "Tahiyyat duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Tahiyyat duasını ve bu duanın anlamını okur.",
+            "b) Tahiyyat duasının anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Tahiyyat duasının anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.2.",
+          "kazanim": "2 Namazın kılınışını sistematik olarak (E3.7) gözlemlemeleri için öğrencilere “Namaz kılmaya niyetlenen bir kişi, namaza başlamadan önce neler yapar?” sorusu yöneltilir. Öğrencilerin namaz kılmak için abdest almanın bir gereklilik olduğunu fark etmeleri sağlanır (OB1). Abdestin farzları belirlenir ve alınış sırası görseller yardımıyla açıklanır. Öğrencilerin yeterliliklerinin farkında olarak (E1.4) abdest görsellerini incelemeleri, bağlamından koparmadan sözlü ifadelere dönüştürmeleri ve kişisel temizlik ve bakımına önem vermeleri (D18.1) beklenir (OB4). Konuyla ilgili ayrıntılı ilmihal bilgilerinden kaçınarak abdesti bozan durumlara örnekler verilir. Gusül ve teyemmüm konuları ise tanım ve farzlarıyla sınırlı tutularak açıklanır. Teyemmüm konusu anlatılırken öğrencilerin zor durumlara alternatif çözüm bulma ve yeni durumlara uyum sağlama becerilerini kazanmaları beklenir (SDB3.2). Öğrencilerin görev bilincine sahip olarak (D16.3) namaz ibadetinin nasıl yerine getirildiğini anlamaları için namazın hazırlık ve kılınış şartları açıklanır. Bu şartlar hakkında bilgi toplanır ve bunlar kısaca açıklanır. İki rekâtlı namazın kılınışı görseller yardımıyla anlatılır. Öğrencilerden görsellerde ifade edilen fiillerin anlamını değiştirmeyecek şekilde yeniden ifade etmeleri ve namazın kılınışını anlatmaları istenir (OB4). Beş vakit namazların rekât sayıları ve vakitleri hakkında toplanan bilgiler sınıflandırılır ve kaydedilir. Konuyla ilgili ayrıntılı ilmihal bilgilerinden kaçınarak namazı bozan durumlara örnekler verilir. Cemaatle namaz, cuma namazı, bayram namazı, teravih namazı ve cenaze namazı konularına ve bu namazların kılınışlarına ana hatlarıyla değinilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.5.2.",
+          "kazanim": "3 Namazın insana kazandırdıkları hakkında empati kurarak (E2.1) düşünmeleri için öğrencilere “Niçin namaz kılınır?” sorusu yöneltilir ve namazın insan hayatına etkileri hakkında araştırma yapmaları sağlanır. Öğrencilerin verdiği cevaplar tahtaya yazılarak beyin fırtınası yapılır ve namaz ibadetinin insana kazandırdıklarıyla ilgili sonuçlar çıkarılır. Öğrencilerin namaz ibadetiyle ilgili duygu ve düşüncelerini değerlendirmeleri sağlanır (SDB1.3). Bu değerlendirme sonucunda öğrenciler namaz ibadetinin öz denetim sahibi (D3.2) ve istikrarlı olmayı (D12.3) sağladığı hakkında çıkarımda bulunur. Öğrencilerin bu değerleri davranışlarına yansıtmaları hedeflenir."
+        },
+        {
+          "kod": "DKAB.5.2.",
+          "kazanim": "4 Öğrencilere “Tahiyyat duası hakkında neler biliyorsunuz?” sorusu yöneltilir. Tahiyyat kelimesinin anlamı açıklanarak Tahiyyat duasının içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Tahiyyat duasının doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. Tahiyyat duasını dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) duanın doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duayı kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duanın anlamı incelenir. Duanın anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak dua değerlendirilebilir. Öğrencilerin duanın anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Tahiyyat duasının anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.5.3.2.",
+          "kazanim": "Kur’an-ı Kerim’in temel özellikleri hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Kur’an-ı Kerim’in temel özellikleri konusunu araştırır.",
+            "b) Kur’an-ı Kerim’in temel özellikleri hakkında bilgi toplar.",
+            "c) Kur’an-ı Kerim’in temel özellikleri hakkında ulaştığı bilgileri öğretmen rehberliğinde doğrular. ç) Kur’an-ı Kerim’in temel özellikleri hakkında ulaştığı bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.5.3.3.",
+          "kazanim": "Kuran-ı Kerim’in ana konularını sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Kur’an-ı Kerim’i, hayatı tüm yönleriyle ele alan bir ölçüt olarak kabul eder.",
+            "b) Kur’an-ı Kerim’in ana konularını bölümlere ayırır.",
+            "c) Kur’an-ı Kerim’in ana konularını tasnif eder. ç) Kur’an-ı Kerim’in ana konularını listeler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.3.4.",
+          "kazanim": "Kevser suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Kevser suresini ve bu surenin anlamını okur.",
+            "b) Kevser suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Kevser suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.3.",
+          "kazanim": "2 Öğrencilerin Kur’an-ı Kerim’in temel özellikleri hakkında sistematik olarak (E3.7) bilgi toplamaları için onlara “Kur’an-ı Kerim hakkında neler biliyorsunuz?” sorusu yöneltilir. Kur’an-ı Kerim’in temel özellikleri hakkında ayet ve hadisler belirlenir. Öğrencilerin belirlenen ayet ve hadislerden yararlanarak Kur’an-ı Kerim’in temel özellikleri hakkında bilgi toplaması sağlanır. “Kur’an-ı Kerim’in temel özellikleri çözümlenir ve bu özellikler; iyiye, doğruya ve güzele yönlendirmesi, kötülüklerden sakındırması, yol göstermesi, açıklayıcı olması, insanları düşünmeye ve aklını kullanmaya yöneltmesi şeklinde listelenir (OB1). Öğrencilere vicdanlı (D9.1), doğru ve güvenilir (D6.2) olmak hakkında bilinç kazandırılır. Dürüstlük ve merhametle ilişkili ayet örnekleri verilir. Bu ayetlerden hareketle örnek olaylar verilerek öğrencilerin sınıfta fikir paylaşımında bulunmaları sağlanır. Öğrenciler, Kur’an-ı Kerim’in temel özellikleriyle ilgili elde ettikleri bilgileri öğretmenleriyle birlikte değerlendirerek doğrular ve afiş, broşür, pano, duvar gazetesi gibi yollarla kaydeder."
+        },
+        {
+          "kod": "DKAB.5.3.",
+          "kazanim": "3 Öğrencilerin Kur’an-ı Kerim’in ana konularını sınıflandırmaları için onlara “Kur’an-ı Kerim’in ana konuları hakkında neler biliyorsunuz?” sorusu yöneltilir ve öğrencilerden Kur’an-ı Kerim’in ana konularını yorumlamaları istenir (OB1). Kur’an-ı Kerim’i bireysel ve toplumsal hayatı tüm yönleriyle ele alan ilahi bir kitap olarak açıklaması sağlanır. Kur’an-ı Kerim’in ana konuları bölümlere ayrılarak tasnif edilir. İnanç, ibadet, ahlak, sosyal hayat ve kıssalar olarak listelenir. İnanç, ibadet, ahlak, sosyal hayat ve kıssalar Kur’an’ın ana konuları olarak ayrıntıya girilmeksizin açıklanır. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.5.3.",
+          "kazanim": "4 Öğrencilere “Kevser suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Kevser suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Kevser kelimesinin bolluk, bereket ve neslin çoğalması anlamlarına geldiğinden bahsedilir. Allah’ın (cc) Hz. Peygamber’e pek çok nimet verdiğine, bu nimetlerden birinin de Hz. Peygamber’in neslini devam ettiren Hz. Fatıma (ra) olduğuna değinilir. Kevser suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Kevser suresinin doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. Kevser suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Kevser suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.5.4.2.",
+          "kazanim": "Peygamber kıssalarında verilen öğütleri sentezleyebilme",
+          "alt_kazanimlar": [
+            "a) Peygamber kıssalarında verilen öğütleri inceler.",
+            "b) Peygamber kıssalarında verilen öğütler arasında ilişki kurar.",
+            "c) Peygamber kıssalarında verilen öğütleri birleştirerek bunlar hakkında özgün bir bütün oluşturur."
+          ]
+        },
+        {
+          "kod": "DKAB.5.4.3.",
+          "kazanim": "Kureyş suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Kureyş suresini ve bu surenin anlamını okur.",
+            "b) Kureyş suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Kureyş suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.4.",
+          "kazanim": "2 Öğrencilere “kıssadan hisse çıkarmak” tabirinin anlamı açıklanarak Kuran’daki peygamber kıssalarına dikkat çekilir. Kıssaların amacına kısaca değinilir. Davet kavramı açıklanarak kıssaların konusunun peygamberlerin İslam’a daveti olduğu vurgulanır. Tevhit mücadelesi esnasında gösterdikleri sabır nedeniyle Kuran’da övülen ülülazm peygamberlere değinilir. Hz. Nuh kıssası Yunus, Hud ve Nuh surelerindeki ilgili ayetler kapsamında; Hz. İbrahim kıssası Enbiya suresi çerçevesinde; Hz. Musa kıssası Araf, Taha ve Kasas surelerindeki ayetler bağlamında; Hz. İsa kıssası Al-i İmran, Maide ve Meryem surelerindeki ilgili ayetlerle ilişkilendirilerek öğrenci seviyesine uygun şekilde ele alınır. Bu kıssalardan çıkarılabilecek öğütler belirlenir. Peygamberlerin tevhide daveti, gösterdiği mucizeler, yaşadığı zorluklar, gönderildiği toplumlara yaptığı uyarılar bakımından kıssalar arasında ilişki kurulur. Hz. Nuh’un tevhit mücadelesindeki azim ve kararlılığına (D3.1); Hz. İbrahim’in içinde yaşadığı toplumu tevhide daveti esnasında gösterdiği cesaret ve kararlılığına (D11.1, D11.2); Hz. Musa’nın bir peygamber ve lider olarak görevini özveriyle yerine getirmesine (D16.3) ve Hz. İsa’nın toplumunu doğru yola davet ederken gösterdiği sabır ve sebata (D12.3) dikkat çekilir. Ayet ve hadislerden hareketle Hz. Meryem’in ahlaki yönüne değinilir. Öğrencilerin kıssalardaki öğüt ve değerleri dikkate alarak bir hikâye yazması veya afiş, poster gibi içerikler hazırlaması sağlanır."
+        },
+        {
+          "kod": "DKAB.5.4.",
+          "kazanim": "3 Öğrencilere “Kureyş suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Hz. Muhammed’in (sav) mensup olduğu kabilenin surede ismi geçen Kureyş kabilesi olduğuna dikkat çekilir. Kureyş hakkında ayrıntıya girilmeden bilgi verilir. Kureyş suresinin nerelerde okunduğuna değinilir ve içerdiği mesajlar açıklanır. Kureyş suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Kureyş suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Kureyş suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.5.5.2.",
+          "kazanim": "Camilerin bölümlerini tanıyabilme",
+          "alt_kazanimlar": [
+            "a) Camilerin bölümleri ile ilgili ölçüt belirler.",
+            "b) Camilerin bölümlerini ayrıştırır.",
+            "c) Camilerin bölümlerini iç ve dış olarak tasnif eder. ç) Camilerin iç ve dış bölümlerini listeler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.5.3.",
+          "kazanim": "Kültürümüzde yer alan cami örneklerini karşılaştırabilme",
+          "alt_kazanimlar": [
+            "a) Kültürümüzde yer alan cami örneklerinin özelliklerini araştırır.",
+            "b) Kültürümüzde yer alan cami örneklerinin benzer özelliklerini listeler.",
+            "c) Kültürümüzde yer alan cami örneklerinin farklı özelliklerini listeler."
+          ]
+        },
+        {
+          "kod": "DKAB.5.5.",
+          "kazanim": "2 Cami ve mescit kavramları çerçevesinde Müslümanlar açısından caminin önemine değinilir. Öğrencilerden konuyla ilgili özgün görseller oluşturmaları ve bunları sınıfta paylaşmaları istenir (OB4).Teravih, cuma, bayram ve cenaze namazlarının toplumsal hayattaki işlevi hatırlatılır. Cemaatle ibadet etmenin ve camide ibadet edenlere saygı duymanın önemi, etkinlikler yoluyla öğrencilere fark ettirilir (SDB1.3, D14.3). Öğrencilerin caminin iç ve dış bölümlerini gözlemlemesi sağlanır. Öğrencilerden mihrap, minber, vaaz kürsüsü, minare, şerefe, şadırvan, kubbe gibi mimari unsurları belirlemesi istenir. Öğrenciler belirledikleri bu unsurları caminin iç ve dış bölümleri olarak ayrıştırır ve bunları tasnif eder. Mihrap, minber, vaaz kürsüsünü caminin iç bölümü; şerefe, şadırvan, kubbeyi de caminin dış bölümü olarak listeler."
+        },
+        {
+          "kod": "DKAB.5.5.",
+          "kazanim": "3 İslam kültüründe öne çıkan cami örnekleri (Mescid-i Nebevi ve Mescid-i Aksa vb.) listelenir. Bunların özelliklerine ve Müslümanlar açısından önemine değinilir. Mescid-i Aksa anlatılırken ayrıntıya girilmeden Hz. Süleyman kıssasına yer verilir. Bu şekilde öğrencilerin kültürel mirasın önemini fark etmesi ve bunlara değer vermesi sağlanır. Kültürümüzde yer alan camilere örnekler verirken Türkiye’nin çeşitli bölgelerinden kültürel, sanatsal ve mimari açıdan öne çıkmış farklı camiler belirlenir. Öğrenciler, belirlenen cami örnekleri üzerine araştırma yapar. Öğretmen rehberliğinde bu camilerin benzer ve farklı özelliklerini listeler. Sanatsal ve görsel zevkleri hayatlarının bir parçası hâline getirmeleri için (D7.3) öğrencilere hat, ebru, çini, taş ve ahşap oymacılığı gibi sanatlarla ilgili örnekler gösterilir. Öğrencilerden bu sanatları içeren eserleri incelemeleri ve yorumlamaları istenir (OB9). Bunun için öğretmen rehberliğinde etkinlikler yapılabilir."
+        }
+      ]
+    },
+    {
+      "sinif": 6,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "DKAB.6.1.2.",
+          "kazanim": "Vahiylerin insanlara ilettiği mesajları yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Vahyin gönderiliş amacıyla ilgili nedensel ilişkiler ortaya koyar.",
+            "b) Vahyin gönderiliş amacıyla ilgili nedensel ilişkilere dayalı unsurlardan hareketle uyumlu bir bakış açısı geliştirir."
+          ]
+        },
+        {
+          "kod": "DKAB.6.1.3.",
+          "kazanim": "İlahi kitaplarla ilgili bilgileri çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Temel İslam kaynaklarından hareketle ilahi kitapların Tevrat, Zebur, İncil ve Kur’an-ı Kerim olduğunu öğretmen rehberliğinde açıklar.",
+            "b) İlahi kitaplar arasındaki kronolojik ilişkiyi inceler."
+          ]
+        },
+        {
+          "kod": "DKAB.6.1.4.",
+          "kazanim": "Felak suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Felak suresini ve bu surenin anlamını okur.",
+            "b) Felak suresinin anlamını kendi hayatı için anlamlı hâle getirir.",
+            "c) Felak suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.6.1.",
+          "kazanim": "2 Öğrencilere, vahiy yoluyla insanlara iletilen mesajlarla ilgili merak uyandıracak sorular sorulur (E1.1). Peygamberlerin insanlar arasından seçilmesi, insanlara örnek olması ve vahyin gönderiliş amacı arasında nedensel ilişkiler kurulur. Öğrencilerin bunları kendi hayatına aktararak mantıksal bir bütün oluşturması ve bir yol göstericiye duyulan ihtiyacı fark etmesi sağlanır (SDB1.1). Bunun için öğretmen rehberliğinde etkinlikler yapılabilir."
+        },
+        {
+          "kod": "DKAB.6.1.",
+          "kazanim": "3 Öğrencilere ilahi kitapların önemi ve değeri açıklanır. Onların manevi değerlere saygılı (D14.3) olmaları sağlanır. Temel İslam kaynaklarından hareketle ilahi kitapların Tevrat, Zebur, İncil ve Kur’an-ı Kerim olduğu öğretmen rehberliğinde açıklanır. Bu kitapların gönderildiği peygamberler hakkında bilgi verilir. Kur’an-ı Kerim’in son ilahi kitap, Hz. Muhammed’in (sav) de son peygamber olduğu anlatılır. Bu sayede öğrencilerin sistematik olarak (E3.7) ilahi kitaplar arasında kronolojik ilişki kurması sağlanır. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.6.1.",
+          "kazanim": "4 Öğrencilere “Felak suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Felak kelimesinin anlamı açıklanarak Felak suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Felak suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Felak suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Felak suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.6.2.2.",
+          "kazanim": "Oruç ibadeti hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Oruç ibadeti konusunu araştırır.",
+            "b) Oruç ibadeti hakkında bilgiler bulur.",
+            "c) Oruç ibadeti hakkında elde ettiği bilgileri öğretmen rehberliğinde doğrular. ç) Oruç ibadeti hakkında elde ettiği bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.6.2.3.",
+          "kazanim": "Oruç ibadetinin insana kazandırdıklarını yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Oruç ibadetinin insana kazandırdıklarını inceleyerek mantıksal ilişkiler kurar.",
+            "b) Oruç ibadetinin insana kazandırdıkları hakkında kendi elde ettiği bilgilerden hareketle uyumlu bir bakış açısı geliştirir."
+          ]
+        },
+        {
+          "kod": "DKAB.6.2.4.",
+          "kazanim": "İftar duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) İftar duasını ve bu duanın anlamını okur.",
+            "b) İftar duasının anlamını kendi hayatı için anlamlı hâle getirir.",
+            "c) İftar duasının anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.6.2.",
+          "kazanim": "2 İslam’ın ibadet esasları arasında oruç ibadetinin yeri ve önemi ile orucun kimlere farz olduğu hakkında öğrencilerin bilgi toplaması sağlanır. Sahur, imsak, iftar, teravih, mukabele ve fitre kavramları açıklanır. Konuyla ilgili ayrıntılı ilmihal bilgilerinden kaçınılarak oruçlunun dikkat etmesi gereken hususlara, orucu bozan ve bozmayan durumlara örnekler verilir. Öğrenci seviyesi göz önünde bulundurularak farz, vacip, sünnet olan oruç çeşitlerine kısaca değinilir. Öğrencilerden öğrendiği kavramlar arasındaki ilişkileri belirleyip bunlarla oruç ibadeti arasında ilişki kurmaları istenir. Oruçla ilgili kavramlar hakkında elde edilen bilgileri, öğrenciler öğretmen rehberliğinde doğrulayıp defterlerine kaydederler."
+        },
+        {
+          "kod": "DKAB.6.2.",
+          "kazanim": "3 Orucun insana kazandırdıkları konusunda öğrencilere “Niçin oruç tutulur?” sorusu sorularak beyin fırtınası yaptırılır. Verilen cevaplardan yola çıkılarak öğrencilerden oruç ibadetinin insana kazandırdıklarıyla ilgili mantıksal bir ilişki kurmaları istenir. Oruçlu insanın duygu, düşünce ve davranışlarını kontrol ederek sabırlı olması (D12.2) ve bu hususta istikrarlı olmasının (D12.3) önemi vurgulanır. İftar davetleri, fitre ve sadakanın yardımseverlik (D20.3), cömertlik (D20.1), dayanışma (D20.2) gibi ahlaki özelliklerin kazanılmasına katkıda bulunduğu fark ettirilir. Öğrencilerin oruç ibadetiyle ilgili duygu ve düşüncelerini değerlendirerek oruç ibadetinin insana kazandırdıkları hakkında çıkarımda bulunması sağlanır (SDB1.3). DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.6.2.",
+          "kazanim": "4 Öğrencilere “İftar duası hakkında neler biliyorsunuz?” sorusu yöneltilir. İftar kelimesinin anlamı açıklanarak iftar duasının içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. İftar duasını dinlemek üzere Eğitim Bilişim Ağı’ndan (EBA) uygun içerikler belirlenir. Öğrencilerin bu adresi kullanmaları sağlanarak (OB2) duanın doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duayı kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duanın anlamı incelenir. Duanın anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak dua değerlendirilebilir. Öğrencilerin duanın anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin iftar duasının anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.6.3.2.",
+          "kazanim": "Merhametli olmayı yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Merhametli olmanın bireysel ve toplumsal boyutlarını inceler.",
+            "b) Merhametli olmayı kendi hayatı için anlamlı hâle getirir.",
+            "c) Merhametli olmanın önemini kendi cümleleriyle yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "DKAB.6.3.3.",
+          "kazanim": "Adap ve nezaket kurallarını özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Adap ve nezaket kurallarını çözümler.",
+            "b) Adap ve nezaket kurallarını sınıflandırır.",
+            "c) Adap ve nezaket kurallarını yorumlar."
+          ]
+        },
+        {
+          "kod": "DKAB.6.3.4.",
+          "kazanim": "Vatanını sevmenin önemi hakkında çıkarım yapabilme",
+          "alt_kazanimlar": [
+            "a) Vatanını sevmenin önemi hakkında mevcut bilgisi dâhilinde varsayımda bulunur.",
+            "b) Vatan sevgisiyle ilişkili kavramları listeler.",
+            "c) Vatan sevgisiyle ilişkili kavramları birbirleriyle ilişkisi açısından karşılaştırır. ç) Vatan sevgisinin önemi hakkında önermeler sunar.",
+            "d) Vatan sevgisinin önemi hakkında önermelerle ilgili değerlendirmede bulunur."
+          ]
+        },
+        {
+          "kod": "DKAB.6.3.5.",
+          "kazanim": "Kunut dualarını ve bu duaların anlamlarını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Kunut dualarını ve bu duaların anlamlarını okur.",
+            "b) Kunut dualarının anlamlarını kendi hayatı için anlamlı hâle getirir.",
+            "c) Kunut dualarının anlamlarını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.6.3.",
+          "kazanim": "2 Öğrencilere Eğitim Bilişim Ağı’ndan (EBA) merhametli olmanın önemini anlatan dijital içerikler izletilir. Merhametli olmanın birey ve topluma yansımaları hakkında sorular sorularak öğrencilere beyin fırtınası yaptırılır. Vicdanlı ve şefkatli olmanın, insanı, doğayı ve hayvanları sevmenin merhametle bağlantısı vurgulanır (D9.3). Böylece merhamet ve sevgi (D15.1) arasında ilişki kurulur. Allah’ın (cc) adil, merhametli ve affedici olması ile Hz. Muhammed’in (sav) merhametli ve affedici oluşuna ayet ve hadislerden örnekler verilir. Öğrencilerden merhametli olmanın bireysel ve toplumsal boyutlarını fark edebilecekleri bir örnek olay bulmaları, özgün bir yaklaşımla (E3.11) bunu incelemeleri ve sınıfta sunmaları istenir. Öğrencilerden merhametli olmayı kendi yaşantılarında uyguladıklarına dair örnekler vermeleri istenir. Öğrencilerin merhametli olmanın önemini kendi cümleleriyle yeniden ifade edebildikleri bir afiş çalışması yapmaları sağlanır."
+        },
+        {
+          "kod": "DKAB.6.3.",
+          "kazanim": "3 Adap ve nezaket kurallarıyla ilgili günlük hayattan örnek olaylar incelenir. Örnek olaylardan hareketle toplumda bu kurallara neden ihtiyaç duyulduğu, nezaketli olmanın önemi (D14.1) ve bu kurallara uymanın her insanın sorumluluğu olduğu (D16.3) fark ettirilir. Adap ve nezaket kavramları tanımlanır. Günlük hayattan farklı örnekler verilerek bu kurallar çözümlenir. Toplumda bu kurallara uymanın neden önemli olduğuna dair beyin fırtınası yaptırılır. Öğrencilerin düşüncelerini kısa ve akılda kalıcı cümlelerle ifade etmeleri ve kaydetmeleri sağlanır. Adap ve nezaket kuralları selamlaşma adabı, iletişim ve konuşma adabı, sofra adabı olarak sınıflandırılır. Selamlaşmanın İslam dinindeki yeri, toplumsal birlik ve beraberliğe katkısı ayet ve hadislerle açıklanır. İletişim ve konuşma adabıyla ilgili olarak doğru sözlü olmak, açık ve anlaşılır ifadeler kullanmak, nazik bir üsluba sahip olmanın önemine dikkat çekilir. Sosyal medya ve internette de nezaket kurallarına uymak gerektiği ve mahremiyete dikkat etmenin önemi vurgulanır. Öğrencilere yemek yerken nelere dikkat ettikleri sorularak sofra adabıyla ilgili kurallar fark ettirilir. Sofra adabına dair Hz. Muhammed’in (sav) tavsiyelerine ve ayetlere yer verilir. Öğrencilerin selamlaşma, konuşma ve sofra adabıyla ilgili öğrendiklerinden hareketle nezaket kurallarını kendi cümleleriyle ifade edebileceği etkinlikler yapılır."
+        },
+        {
+          "kod": "DKAB.6.3.",
+          "kazanim": "4 Vatanını sevmenin (D19.1) önemi hakkında öğrencilerin vatanımıza, milletimize, bayrağımıza ve millî marşımıza karşı görev ve sorumluluklarımız olduğunu fark etmeleri sağlanır (OB1). Vatan sevgisiyle ilişkili vatan, millet, bayrak, şehitlik ve gazilik kavramları listelenir. Bu kavramlar Kuzey Kıbrıs Türk Cumhuriyeti bağlamında da özel olarak örneklendirilir ve vurgulanır. İlgili kavramların millî birlik ve beraberliğe katkısı karşılaştırılır. Konuyla ilgili olarak Çanakkale zaferine, İstiklal savaşına, 15 Temmuz Demokrasi ve Millî Birlik Günü’ne değinilir. Edindiği bilgilerden hareketle öğrencilerin vatan sevgisinin önemi hakkında önermeler sunmaları ve bunları değerlendirmeleri sağlanır. Vatanın bağımsızlığını korumak, vatanı geliştirmek ve güzelleştirmek için neler yapılabileceği bağlamında duygularını fark etmeleri sağlanır (SDB1.1). Bu amaçla savunma sanayinde yerli firmaların millî imkanlarla geliştirdiği ürün ve projelerin araştırılmasını içeren etkinlik yaptırılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.6.3.",
+          "kazanim": "5 Öğrencilere “Kunut duaları hakkında neler biliyorsunuz?” sorusu yöneltilir. Kunut kelimesinin anlamı açıklanarak Kunut dualarının içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Kunut dualarını dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) duaların doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu duaları kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Duaların anlamı incelenir. Duaların anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak dualar değerlendirilebilir. Öğrencilerin duaların anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Kunut dualarının anlamlarını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.6.4.2.",
+          "kazanim": "Hz. Muhammed’in (sav) çocukluk yılları hakkında verilen bilgileri yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Hz. Muhammed’in (sav) çocukluk yıllarında yaşadıklarını inceler.",
+            "b) Hz. Muhammed’in (sav) çocukluk yıllarında yaşadıklarını kendi ifadeleriyle, doğru ve bilgiyi değiştirmeyecek şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "DKAB.6.4.3.",
+          "kazanim": "Hz. Muhammed’in (sav) gençlik yılları hakkında verilen bilgileri yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Hz. Muhammed’in (sav) gençlik yıllarında yaşadıklarından hareketle çıkarımda bulunur.",
+            "b) Hz. Muhammed’in (sav) gençlik yıllarına dair öğrendikleri üzerine düşüncelerini ifade eder."
+          ]
+        },
+        {
+          "kod": "DKAB.6.4.4.",
+          "kazanim": "Fil suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Fil suresini ve bu surenin anlamını okur.",
+            "b) Fil suresinin anlamını kendi hayatı için anlamlı hâle getirir.",
+            "c) Fil suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.6.4.",
+          "kazanim": "2 Öğrenciler; Hz. Muhammed’in (sav) doğumu, sütanneye verilmesi ve aile büyükleriyle ilgili merak ettikleri soruları sormaları için teşvik edilir (E3.8). Hz. Muhammed’in (sav) doğumu ve çocukluk yılları anlatılır. Aile fertlerinden bahsedilir. Hz. Muhammed’in (sav) aile fertleriyle ilişkisi örnekler üzerinden ele alınır. Öğrencilerin Hz. Muhammed’in (sav) çevresine karşı saygılı, çalışkan ve yardımsever olduğunu doğru ve anlamı değiştirmeyecek şekilde yeniden ifade etmesi sağlanır. Bunun için öğretmen rehberliğinde yazma etkinliği yaptırılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.6.4.",
+          "kazanim": "3 Hz. Muhammed’in (sav) gençlik dönemi incelenir. Hz. Muhammed’in (sav) Hilfülfudul’a katılması, Kâbe hakemliği ve Hz. Hatice ile evliliği hakkında bilgi verilir. Emin kavramı ele alınır. Güven (E2.4) eğilimini harekete geçirmek için öğrencilerin emin kavramıyla Hz. Muhammed’e (sav) “el-emin” denmesi arasındaki ilişki açıklanır. Hacerülesved’in yerleşimi konusunda genç yaşında olmasına rağmen Hz. Muhammed’e (sav) görev verilmesinin sebepleri üzerinde durulur. Hz. Muhammed’in (sav) gençlik yıllarında sahip olduğu ahlak anlatılırken onun adaletli (D1.2), doğru ve güvenilir (D6.2) olduğu vurgulanır. Öğrencilerin Hz. Muhammed’in (sav) gençlik yıllarından hareketle örnekliği hakkında çıkarımda bulunması istenir. Öğrenciler, Hz. Muhammed’in (sav) gençlik yılları hakkında yaptığı çıkarımları kendi cümleleri ile ifade ettikleri bir metin hazırlar. Öğrenciler oluşturdukları metni, öz güvenlerini pekiştirmek üzere (E1.5) gönüllülük esasına dayanarak sınıf içerisinde sunar. Böylece Hz. Muhammed’in (sav) gençlik yıllarında sahip olduğu ahlaki özelliklerle ön plana çıktığını fark eder. Öğrencilerden konuyla ilgili öz değerlendirme formu kullanmaları ve elde ettikleri çıkarımları paylaşmaları istenir. Ayrıca Hz. Muhammed’in örnek davranışlarıyla ilişki kurarak Hz. Muhammed (sav) ve Hz. Hatice’nin çocukları hakkında bilgi verilir. Hz. Muhammed’in (sav) aile içi iletişimine ve aile bireyleri arasındaki örnek davranışlarına değinilir."
+        },
+        {
+          "kod": "DKAB.6.4.",
+          "kazanim": "4 Öğrencilere “Fil suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Fil suresinin anlamı açıklanarak Fil suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Fil olayına kısaca değinilir. Fil suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Fil suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Fil suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        }
+      ]
+    },
+    {
+      "sinif": 7,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "DKAB.7.1.2.",
+          "kazanim": "Ahiret hayatının aşamalarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Ahiret hayatının aşamalarına ilişkin unsurları inceler.",
+            "b) Ahiret hayatının aşamalarına ilişkin unsurlar arasındaki ilişkileri açıklar."
+          ]
+        },
+        {
+          "kod": "DKAB.7.1.3.",
+          "kazanim": "Melek ve ahiret inancının insan davranışına etkisi hakkında düşünebilme",
+          "alt_kazanimlar": [
+            "a) Melek ve ahiret inancının insan davranışına etkisini inceler.",
+            "b) Melek ve ahiret inancının insan davranışına etkisiyle ilgili sonuç çıkarır.",
+            "c) Melek ve ahiret inancının insan davranışına etkisiyle ilgili ulaştığı çıkarımları davranışlarına yansıtır."
+          ]
+        },
+        {
+          "kod": "DKAB.7.1.4.",
+          "kazanim": "Nâs suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Nâs suresini ve bu surenin anlamını okur.",
+            "b) Nâs suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Nâs suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.7.1.",
+          "kazanim": "2 Öğrencilerde merak uyandırmak için (E1.1) öğrencilere “Ahiret denildiğinde aklınıza neler gelir?” sorusu sorulur. Ayet ve hadislerden yararlanarak ahiret hayatına ilişkin ömür, ecel, kıyamet, baas, mahşer, amel defteri, mizan, cennet ve cehennem kavramlarının incelenmesi sağlanır. Bahsi geçen kavramlar açıklanır ve konu İsrafil meleği ile ilişkilendirilerek anlatılır. Ahiret hayatının aşamaları açıklanarak öğrencilerden merak ettikleri soruları sormaları (E3.8) istenir. Ahiret hayatının aşamaları arasındaki ilişki açıklanır. Öğrencilerin sorumluluklarını yerine getirmelerini ve seçimlerini ahlaki açıdan değerlendirmelerini sağlamak amacıyla Rad suresinin 22-24. ayetlerinden yararlanılarak ahiret hayatının dünya hayatında yapılanların karşılığı olduğu bilgisi öğrencilere aktarılır (D16.3). Bu sayede öğrencilerin dünya hayatı ile cennet ve cehennem arasında bir ilişki olduğunu fark etmeleri, ahiret hayatının önemini kavramaları sağlanır. Ahiret inancı ile Allah’ın (cc) adil, merhametli ve affedici olması ilişkilendirilir. Öğrencilerin konuyla ilgili örnekler vermesi sağlanır. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.7.1.",
+          "kazanim": "3 Öğrencilere “Meleklere iman eden bir insan nasıl davranmalıdır?” ve “Ahiret hayatında yaptıklarının hesabını Allah’a (cc) vereceğine inanan biri nasıl davranışlar sergilemelidir?” soruları yöneltilerek öğrencilerin konu ile ilgili düşünmeleri sağlanır. Bunun için öğrencilerden melek ve ahiret inancının insana kazandırdıkları konusunda çıkarımlarda bulunmaları istenir. Meleklerin varlığının insanların davranışlarını düzenleme konusunda motivasyon oluşturduğu bilgisi verilir. Ahiret inancının insanların hayatlarına anlam kattığı ve bu sayede davranışlarını düzenlemeleri konusunda teşvik edici olduğu aktarılır. Öğrencilerin görev ve sorumluluklarını yerine getirmesi ve davranışlarını olumlu yönde düzenlemesi gerektiği fark ettirilir (D16.3), böylece kendi davranışlarını değerlendirerek kendini yönetmesi sağlanır (SDB1.2)."
+        },
+        {
+          "kod": "DKAB.7.1.",
+          "kazanim": "4 Öğrencilere “Nâs suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Nâs kelimesinin anlamı açıklanarak Nâs suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Nâs suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Nâs suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Nâs suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.7.2.2.",
+          "kazanim": "Kurban ibadetini yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Kurban ibadetiyle Hz. İsmail kıssası arasında nedensel ilişki ortaya koyar.",
+            "b) Kurban ibadeti hakkında temel İslam kaynaklarından elde ettiği bilgilerden hareketle uyumlu bir bakış açısı geliştirir."
+          ]
+        },
+        {
+          "kod": "DKAB.7.2.3.",
+          "kazanim": "Hac ve kurban ibadetinin kültürümüze yansımalarını gözleme dayalı tahmin edebilme",
+          "alt_kazanimlar": [
+            "a) Hac ve kurban ibadetlerinin kültürümüze yansımasına ilişkin ön gözlem veya tecrübelerini ilişkilendirir.",
+            "b) Hac ve kurban ibadetlerinin kültürümüze yansımasına ilişkin çıkarımlar yapar.",
+            "c) Hac ve kurban ibadetlerinin kültürümüze yansımasına ilişkin sonuç çıkarır."
+          ]
+        },
+        {
+          "kod": "DKAB.7.2.4.",
+          "kazanim": "Kâfirun suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Kâfirun suresini ve bu surenin anlamını okur.",
+            "b) Kâfirun suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Kâfirun suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.7.2.",
+          "kazanim": "2 Öğrencilere sevdikleri için ne tür fedakârlıklar yapabilecekleri sorulur (SDB1.1). Verilen cevaplardan yola çıkılarak Hz. İsmail kıssası bağlamında fedakârlık davranışı ile kurban ibadeti arasında ilişki kurulur. Kurban kavramının anlamı incelenir. Kurban ibadetinin İslam dinindeki yeri ve önemi gözden geçirilir. Kurban ibadetinin zamanı belirtilerek kurban kesmekle yükümlü olmanın şartları açıklanır. Hangi hayvanların kurban edilebileceği hakkında bilgi verilerek öğrencilerin bu bilgileri sistematik şekilde (E3.7) ayrıntıya girmeden kategorize etmeleri beklenir. Kurban ibadeti yerine getirilirken çevreyi temiz tutmak (D18.2) gerektiğine dikkat çekilir. Kesilen kurbanın ihtiyaç sahipleriyle paylaşılmasının (D20.2) önemi vurgulanır. Alevilik Bektaşilikteki kurban tığlama duasına yer verilir. Kurban ibadetinin insanın ahlaki gelişimine nasıl katkı sağlayabileceğinin sorgulanması için öğrencilere “Niçin kurban kesilir?” sorusu yöneltilir. Verilen cevaplardan yola çıkılarak kurbanın hikmetine dair öğrencilerin çıkarımda bulunmaları sağlanır. Bu çıkarımlara dayanarak öğrenciler, kurban ibadetini Allah’a (cc) yaklaşma ibadeti olarak değerlendirir ve uyumlu bir bakış açısı geliştirir."
+        },
+        {
+          "kod": "DKAB.7.2.",
+          "kazanim": "3 Öğrencilere çevrelerinde hacca gitmiş birini ziyaret edip etmedikleri sorulur. Bu ziyaret esnasındaki gözlemlerini paylaşmaları istenir. Böylelikle öğrenciler, hac ibadetinin kültürümüz üzerindeki yansımalarını fark eder, kendi gözlem ve tecrübeleriyle ilişkilendirir. Öğrencilere “Kurban bayramında neler yaparsınız?” sorusu yöneltilerek kurban ibadetinin kültürümüze etkisini fark etmeleri sağlanır. Bu kapsamda bayram namazı ve teşrik tekbirleri konusuna değinilir. Akika, adak ve şükür kurbanları hakkında bilgi verilerek benzerlik ve farklılıkları ayırt edilir. Asker uğurlaması ve düğün gibi vesilelerle de kurban ibadetinin yerine getirildiği ifade edilerek gündelik hayattaki örnekler üzerinden kurbanın kültürümüze yansımasına ilişkin çıkarım yapılır. Kurban etini ihtiyaç sahipleriyle paylaşma ve gelen misafirlere ikram etme geleneğinin toplumda yardımseverliği ve cömertliği (D20.1) yaygınlaştırdığına dikkat çekilir. Öğrencilerin hac ve kurban ibadetinin kültürümüzün ve yaşantımızın ayrılmaz bir parçası olduğu sonucuna ulaşmaları sağlanır."
+        },
+        {
+          "kod": "DKAB.7.2.",
+          "kazanim": "4 Öğrencilere “Kâfirun suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Kâfirun suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Kâfirun suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Kâfirun suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Kâfirun suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.7.3.2.",
+          "kazanim": "İslam düşüncesindeki yorum biçimlerini sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) İslam düşüncesindeki yorum biçimlerini araştırır.",
+            "b) İslam düşüncesindeki yorum biçimlerini itikadi, fıkhi ve tasavvufi yorumlar olarak ayrıştırır.",
+            "c) İslam düşüncesindeki yorum biçimlerini itikadi, fıkhi ve tasavvufi yorumlar şeklinde tasnif eder. ç) İslam düşüncesindeki yorum biçimlerini itikadi, fıkhi ve tasavvufi yorumlar şeklinde listeler."
+          ]
+        },
+        {
+          "kod": "DKAB.7.3.3.",
+          "kazanim": "Kültürümüzdeki tasavvufi yorumları çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Kültürümüzdeki tasavvufi yorumları inceler.",
+            "b) Kültürümüzdeki tasavvufi yorumlar arasındaki ilişkileri bulur."
+          ]
+        },
+        {
+          "kod": "DKAB.7.3.4.",
+          "kazanim": "Alevilik Bektaşilik ile ilgili temel kavramlar ve cem erkânları hakkında bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Alevilik Bektaşilik ile ilgili temel kavramlar ve cem erkânları konusunu araştırır.",
+            "b) Alevilik Bektaşilik ile ilgili temel kavramlar ve cem erkânları hakkında bilgileri bulur.",
+            "c) Alevilik Bektaşilik ile ilgili temel kavramlar ve cem erkânları hakkında ulaştığı bilgileri kontrol eder. ç) Alevilik Bektaşilik ile ilgili temel kavram ve erkânlar hakkında ulaşılan bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "DKAB.7.3.",
+          "kazanim": "2 Mezhep kavramı ele alınır. İslam düşüncesindeki yorum biçimlerini sistematik biçimde (E3.7) sınıflandırmak üzere ölçüt olarak inanç, ibadet ve ahlak konuları belirlenir. Belirlenen ölçüte göre yorum biçimleri itikadi yorumlar, fıkhi yorumlar ve tasavvufi yorumlar olarak ayrıştırılır. İnançla ilgili yorum biçimleri itikadi yorumlar, ibadetle ilgili yorum biçimleri fıkhi yorumlar, ahlakla ilgili yorum biçimleri tasavvufi yorumlar olarak tasnif edilir. İtikadi yorumlar Matüridilik ve Eşarilik; fıkhi yorumlar Hanefilik, Malikilik, Şafiilik ve Hanbelilik; tasavvufi yorumlar Yesevilik, Kadirilik, Mevlevilik, Nakşibendilik ve Alevilik Bektaşilik şeklinde listelenir. Bu yorum biçimleri hakkında verilen bilgiler kurucuları, öğretileri ve etkin oldukları coğrafyalar ile sınırlandırılır."
+        },
+        {
+          "kod": "DKAB.7.3.",
+          "kazanim": "3 İnsanın ahlaki gelişimini konu edinen tasavvufi yorumları çözümlemek üzere tartışma yöntemi kullanılır. İyi bir kul ve iyi bir insan olmak için nelere dikkat edilmesi gerektiği sorularak öğrenciler düşünmeye teşvik edilir. İslam dininde ibadet ve inançla birlikte ahlaki esasların da önemli olduğu fark ettirilerek öğrencilerin toplumsal normlar hakkında bir anlayış geliştirmesi sağlanır (SDB2.3). İnsanların ahlaki gelişimini esas alan anlayışlardan olan Yesevilik, Kadirilik, Mevlevilik, Nakşibendilik ve Alevilik Bektaşilik kültürümüzde etkin olan tasavvufi yorumlar olarak incelenir. Konuyla ilgili olarak Mevlana Haftası’na değinilir. Her bir yorum biçiminin kurucuları ve öğretileri hakkında ayrıntıya girmeden genel bilgiler verilir. Ahlaki değerler bağlamında aralarındaki ilişki belirlenir."
+        },
+        {
+          "kod": "DKAB.7.3.",
+          "kazanim": "4 Alevilik Bektaşilikle ilgili temel kavramlar ve cem erkânları listelenir. Bu kavram ve erkânlar hakkında araştırma yapılır. Öğrenciler; cem, cemevi, musahiplik, razılık ve kul hakkının sorulması, cemde on iki hizmet, semah, gülbank, lokma duası, Hızır ve muharrem orucu, erkân, ikrar, dört kapı kırk makam kavramları ile uygulanma şekilleri hakkında bilgiler bulur. Bu bilgiler öğretmen rehberliğinde kontrol edilir ve afiş, broşür, pano, duvar gazetesi gibi yollarla kaydedilir. Cemevinin Alevilikte ayinicem erkânının yapıldığı yol, adap ve erkân yeri olduğu ifade edilir. Bunun için ayinicem ve cemevi ile ilgili görseller kullanılır. Cem çeşitleri olarak görgü cemi, ikrar cemi ve Abdal Musa cemine yer verilir. Alevilik Bektaşilikte gülbankların başında “bismişah”, sonunda ise “Allah Allah” lafzının söylendiği belirtilir. “Bismişah Allah Allah” ifadesinde yer alan “şah” kelimesinin evrenin mutlak ve yegâne yöneticisi Allah’ı işaret ettiğine değinilir. Gülbank konusunda lokma duasına değinilir. Alevilik Bektaşilikteki “ocak kültürü” ve “el ele, el hakka ikrarı” kavramları anlatılır. Bektaşilikte musahipliğe “ikrar verip nasip almak” da denildiği ifade edilir. Bu kavramın İslam tarihindeki muhacir-ensar kardeşliğine dayandırıldığına dikkat çekilir (D4.1, D20.2)."
+        },
+        {
+          "kod": "DKAB.7.4.2.",
+          "kazanim": "Hicret konusunu tarihsel bağlamda değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Hz. Muhammed’in (sav) Hicret’te yaşadıklarını temel kaynaklardan hareketle fark eder.",
+            "b) Hicret’in yaşandığı dönemi koşulları içerisinde açıklar.",
+            "c) Hicret’in yaşandığı dönemi analiz eder. ç) Hicret’in yaşandığı dönemi günümüz koşullarıyla karşılaştırır."
+          ]
+        },
+        {
+          "kod": "DKAB.7.4.3.",
+          "kazanim": "Hz. Muhammed’in (sav) Medine Dönemi konusunu yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Hz. Muhammed’in (sav) Medine’de yaşadıklarını inceleyerek çıkarımda bulunur.",
+            "b) Hz. Muhammed’in (sav) Medine hayatı hakkında yaptığı çıkarımları ifade eder."
+          ]
+        },
+        {
+          "kod": "DKAB.7.4.4.",
+          "kazanim": "Nasr suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Nasr suresini ve bu surenin anlamını okur.",
+            "b) Nasr suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Nasr suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.7.4.",
+          "kazanim": "2 Öğrencilere “Yaşadığınız yerden ayrılmak zorunda kalsanız neler hissedersiniz?” sorusu yöneltilir. Öğrencilerin verdikleri cevaplardan hareketle hicret etmenin insan üzerindeki etkileri hakkında beyin fırtınası yapılır. Hicret kavramı açıklanır. Öğrencilerin Hz. Muhammed’in (sav) Hicret’ini ele alırken sosyal bilgiler dersinde öğrendikleri hatırlatılarak temel kaynaklardan edindiği bilgiler doğrultusunda Hicret’i gerektiren şartları açıklaması sağlanır. Hz. Ebubekir ve Hz. Ali’nin Hicret’teki rollerine yer verilir. Öğrencilerin Hicret’in yaşandığı dönemin şartlarını fark etmesi için hikâye yazma, drama yapma vb. etkinlikler yapılır. Bu etkinliklerle öğrencilerin Hicret’in yaşandığı dönemi kendi koşulları içinde analiz etmesine ve günümüz koşullarıyla karşılaştırmasına fırsat tanınmış olur. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.7.4.",
+          "kazanim": "3 Öğrencilere “Yaşadığınız yerden ayrıldıktan sonra gittiğiniz yerde ne gibi sorunlarla karşılaşırsınız?” sorusu yöneltilir. Verilen cevaplardan hareketle öğrencilerin Hz. Muhammed (sav) ve sahabilerin Hicret sonrasında yaşadıklarını değerlendirmesi sağlanır. Ensar-muhacir kardeşliği, Medine Sözleşmesi, Mescid-i Nebevi’nin inşası ve işlevi, Suffe ashabı, Bedir, Uhud ve Hendek savaşları, Hudeybiye Antlaşması ve Mekke’nin Fethi, İslam’a davet mektupları, Veda Haccı, Hz. Muhammed’in (sav) vefatı konularından ayrıntıya girilmeden bahsedilir. Veda Hutbesi’nde yer alan evrensel mesajlar açıklanır. Öğrencilerin Hz. Muhammed’in (sav) Medine’de yaşadıklarını inceleyerek çıkarımda bulunması sağlanır. Metin çalışması yapmaları ve bu çıkarımları kendi cümleleriyle ifade etmeleri istenir. Hz. Muhammed’in (sav) Veda Hutbesi’nde ümmete bıraktığı “iki emanet”e (farklı rivayetleriyle birlikte) yer verilir. Bu bağlamda Ehlibeyt kavramı açıklanır ve Ehlibeyt’in Müslümanlar açısından önemine dikkat çekilerek Hz. Muhammed’in (sav) torunları Hz. Hasan ve Hz. Hüseyin’den kısaca bahsedilir. Hz. Peygamber’in onlara olan sevgisine yer verilir."
+        },
+        {
+          "kod": "DKAB.7.4.",
+          "kazanim": "4 Öğrencilere “Nasr suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Nasr kelimesinin anlamı açıklanarak Nasr suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Nasr suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Nasr suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir, Nasr suresi ile Hz. Muhammed’in (sav) Medine’de yaşadıkları arasında bağ kurulur. Buradan çıkarılacak mesajlarla ilgili etkinlikler yoluyla değerlendirme yapılabilir ve öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Nasr suresindeki tesbih, hamt ve istiğfar kavramları açıklanır. Öğrencilerin Nasr suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        }
+      ]
+    },
+    {
+      "sinif": 8,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "DKAB.8.1.2.",
+          "kazanim": "Kaderle ilgili kavramları açıklayabilme",
+          "alt_kazanimlar": [
+            "a) Kaderle ilgili kavramları öğretmen rehberliğinde araştırır.",
+            "b) Kaderle ilgili kavramlar ve kader arasında parça-bütün ilişkisi kurar.",
+            "c) Kaderle ilgili kavramlar hakkında çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "DKAB.8.1.3.",
+          "kazanim": "Kader inancının insan davranışına etkisi hakkında düşünebilme",
+          "alt_kazanimlar": [
+            "a) Kader inancının insan davranışına etkisini inceler.",
+            "b) Kader inancının insan davranışına etkisiyle ilgili sonuç çıkarır.",
+            "c) Kader inancının insan davranışına etkisiyle ilgili ulaştığı çıkarımları davranışlarına yansıtır."
+          ]
+        },
+        {
+          "kod": "DKAB.8.1.4.",
+          "kazanim": "Tebbet suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Tebbet suresini ve bu surenin anlamını okur.",
+            "b) Tebbet suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Tebbet suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.8.1.",
+          "kazanim": "2 Kaderle ilgili kavramlar araştırılır ve irade, külli irade, cüzi irade, sorumluluk, ecel, ömür, rızık, tevekkül olarak belirlenir. Kavramların tanımları yapılarak günlük hayattan örnekler verilir. Kavramlar, kader inancı bağlamında ele alınarak aralarında ilişki kurulur. Hz. Yusuf kıssası, Yusuf suresi çerçevesinde işlenir. Hz. Yusuf’un yaşadığı zorluklar karşısında gösterdiği sabra dikkat çekilir (D12.1). Kıssanın olay örgüsünde yer alan hadiseler, kaderle ilgili kavramlar kapsamında değerlendirilir. Öğrencilerin kaderle ilgili kavramlar hakkında çıkarım yapması sağlanır."
+        },
+        {
+          "kod": "DKAB.8.1.",
+          "kazanim": "3 Toplumun dikkatini çeken güncel bir olay sınıfta paylaşılarak öğrencilerin olayı kader inancı bağlamında incelemeleri istenir. Örnek olaydan hareketle toplumda kader ve kazayla ilgili yaygın olan yanlış anlayışlar, öğrencilerin eleştirel bakmasına (E3.10) imkân verecek şekilde incelenir. Öğrencilerden kader inancını doğru anlayan ve yorumlayan birinin içinde bulunduğu durumu nasıl değerlendirebileceğine dair akıl yürütmeleri istenir. Öğrencilerin kader inancına, zor durumlara alternatif çözümler bulma ve yeni durumlara uyum sağlamada bir araç olarak yaklaşmaları sağlanır (SDB3.2). Akıl yürütmeyle ulaştıkları çıkarımları sorumluluk bilinciyle (E2.2) davranışlarına yansıtmaları beklenir."
+        },
+        {
+          "kod": "DKAB.8.1.",
+          "kazanim": "4 Öğrencilere “Tebbet suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Tebbet suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Tebbet suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Tebbet suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Tebbet suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.8.2.2.",
+          "kazanim": "Sadaka kapsamında değerlendirilen davranışları kendi hayatına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Sadaka ibadeti kapsamındaki tecrübelerini gözden geçirir.",
+            "b) Sadaka ibadeti kapsamındaki tecrübelerine dayalı çıkarımlar yapar.",
+            "c) Sadaka ibadeti kapsamındaki tecrübelerinden ulaştığı çıkarımları öğretmen rehberliğinde değerlendirir."
+          ]
+        },
+        {
+          "kod": "DKAB.8.2.3.",
+          "kazanim": "Zekât ve sadaka ibadetinin kültürümüze yansımalarını gözleme dayalı tahmin edebilme",
+          "alt_kazanimlar": [
+            "a) Zekât ve sadaka ibadetlerinin kültürümüze yansımalarına ilişkin ön gözlem veya tecrübelerini ilişkilendirir.",
+            "b) Zekât ve sadaka ibadetlerinin kültürümüze yansımalarına ilişkin çıkarım yapar.",
+            "c) Zekât ve sadaka ibadetlerinin kültürümüze yansımalarına ilişkin sonuç çıkarır."
+          ]
+        },
+        {
+          "kod": "DKAB.8.2.4.",
+          "kazanim": "Maun suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Maun suresini ve bu surenin anlamını okur.",
+            "b) Maun suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Maun suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.8.2.",
+          "kazanim": "2 Öğrencilerin sadaka kapsamında değerlendirilen davranışları kendi hayatlarına girişkenlikle (E2.3) yansıtabilmeleri için sadaka kavramı açıklanır. Herkesin imkânı nispetinde sadaka ibadetini yerine getirebileceği bilgisi verilir. Sadaka kapsamındaki davranışlar belirlenir ve bu davranışların Allah’ın (cc) rızasını kazanmak için yapıldığı açıklanır (OB1). Sadakayıcariye hakkında bilgi verilir. Öğrencilere “Birisi size yardım ederken neler hissedersiniz?” sorusu yöneltilir ve öğrencilerin sadaka kapsamındaki tecrübelerini gözden geçirmesi beklenir. Öğrencilerin güzel söz söylemek, insanlara karşı güler yüzlü olmak gibi davranışların da sadaka kapsamında değerlendirildiği çıkarımında bulunması sağlanır. Öğrenciler, öğrendiklerinden hareketle sadaka ibadetiyle ilgili özgün bir bütün oluşturur (OB4), sadakanın bireysel ve toplumsal katkıları hakkında ulaştığı sonuçları değerlendirir."
+        },
+        {
+          "kod": "DKAB.8.2.",
+          "kazanim": "3 Öğrencilerin zekât ve sadaka ibadetinin kültürümüze yansımaları hakkında gözlemlerinden hareketle tahminde bulunmaları için onlara “Sizce İslam dininde yardımlaşmaya niçin önem verilmiştir?” sorusu yöneltilir. Öğrencilerden zekât ve sadaka ibadetinin bireysel ve toplumsal katkılarını fark ederek kendi gözlem ve tecrübeleriyle ilişkilendirmeleri istenir. Öğrencilere çevrelerinde bulunan bazı okul, hastane, cami gibi çeşitli kurumların sadaka kültürü sayesinde inşa edildiği bilgisi verilir. Sadaka taşı, itimat bakkaliyesi ve vakıf gibi örnekler üzerinden zekât ve sadakanın kültürümüze yansımasına ilişkin çıkarım yapılır. Öğrencilerden zekât ve sadaka ibadetinin kültürümüzün ve yaşantımızın ayrılmaz bir parçası olduğu sonucuna ulaşmaları beklenir. Zekât ve sadaka ibadeti hakkında elde ettiği bilgilerden hareketle öğrencilerin hakkaniyetli davranmaları (D1.2), vicdanlı (D9.1) ve yardımsever olmaları (D20.1) sağlanır."
+        },
+        {
+          "kod": "DKAB.8.2.",
+          "kazanim": "4 Öğrencilere “Maun suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Öğrencilere Maun suresinin anlamı, içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Ancak surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Maun suresinin doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. Maun suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Maun suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.8.3.2.",
+          "kazanim": "Dinin sosyal hayattaki işlevini yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Dinin sosyal hayattaki işlevini inceleyerek nedensel ilişkiler ortaya koyar.",
+            "b) Dinin sosyal hayattaki işleviyle ilgili kendi mevcut bilgisiyle elde ettiği ilişkilere dayalı unsurlardan hareketle uyumlu bir bakış açısı geliştirir."
+          ]
+        },
+        {
+          "kod": "DKAB.8.3.3.",
+          "kazanim": "Asr suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Asr suresini ve bu surenin anlamını okur.",
+            "b) Asr suresinin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Asr suresinin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.8.3.",
+          "kazanim": "2 Öğrencilere “Dinin toplumsal hayata katkıları nelerdir?” sorusu sorulur. Verilen cevaplar listelenir. İslam dininin sosyal hayata katkıda bulunan yönleri öğretmen rehberliğinde belirlenir. Dinin temel inanç, ibadet ve ahlaki esaslarının bireysel, sosyal ve iktisadi hayata etkileri ele alınır. Öğrencilerin bununla ilgili nedensel ilişkiler ortaya koyması sağlanır. Bu bağlamda namazın kılınışına ve cemaatle namaz konusuna değinilir. Öğrencilerden dinin sosyal hayata katkılarına ve toplumsal hayattaki işlevine dair çıkarımda bulunmaları istenir. Bu çıkarımlardan hareketle uyumlu bir bakış açısı geliştirmesi sağlanır. Bu çıkarımlarından hareketle öğrencilerin sosyal hayatta hakkaniyetli davranmanın (D1.2), insana ve topluma değer vermenin (D5.1), çevrelerindeki insanlara şefkat göstermenin (D9.2), dayanışma ve fedakarlığın (D20.2) önemini fark etmeleri beklenir (OB1)."
+        },
+        {
+          "kod": "DKAB.8.3.",
+          "kazanim": "3 Öğrencilere “Asr suresi hakkında neler biliyorsunuz?” sorusu yöneltilir. Asr kelimesinin anlamı açıklanarak Asr suresinin içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Asr suresi hakkında bilgi verilirken surenin Mekki-Medeni ayrımı, ayet sayısı ve Kur’an-ı Kerim’deki sıralaması gibi konulara değinilmez. Asr suresini dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) surenin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu sureyi kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Surenin anlamı incelenir. Surenin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak sure değerlendirilebilir. Öğrencilerin surenin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Asr suresinin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.8.4.2.",
+          "kazanim": "Kur’an-ı Kerim’in rehberliğini özetleyebilme",
+          "alt_kazanimlar": [
+            "a) İnsanlığa rehber olarak Kur’an-ı Kerim’in dindeki yeri hakkında çözümleme yapar.",
+            "b) İnsanlığa rehber olarak Kur’an-ı Kerim’in ana konularını sınıflandırır.",
+            "c) Kur’an-ı Kerim’in rehberliğini kendi cümleleriyle anlatır."
+          ]
+        },
+        {
+          "kod": "DKAB.8.4.3.",
+          "kazanim": "Kur’an-ı Kerim’e göre Hz. Muhammed’in (sav) örnekliğini çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Kur’an-ı Kerim’e göre Hz. Muhammed’in (sav) güzel ahlakını inceler.",
+            "b) Kur’an-ı Kerim’e göre Hz. Muhammed’in (sav) güzel ahlakıyla örnek davranışları arasındaki ilişkiyi inceler."
+          ]
+        },
+        {
+          "kod": "DKAB.8.4.4.",
+          "kazanim": "Hz. Lokman’ın öğütlerini kendi hayatına yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Lokman suresi, 12-19. ayetlerde tavsiye edilen davranışları gözden geçirir.",
+            "b) Hz. Lokman’ın öğütleri hakkında çıkarım yapar.",
+            "c) Hz. Lokman’ın öğütlerini Kur’an-ı Kerim’in insanlara örnek olması ve doğru yolu göstermesi bağlamında değerlendirir."
+          ]
+        },
+        {
+          "kod": "DKAB.8.4.5.",
+          "kazanim": "Ayetelkürsi’yi ve bu ayetin anlamını okuyarak yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Ayetelkürsi’yi ve bu ayetin anlamını okur.",
+            "b) Ayetelkürsi’nin anlamını kendi hayatı için anlamlı bir hâle getirir.",
+            "c) Ayetelkürsi’nin anlamını değiştirmeyecek şekilde özetler."
+          ]
+        },
+        {
+          "kod": "DKAB.8.4.",
+          "kazanim": "2 Öğrencilerin Kur’an-ı Kerim’in rehberliğini odaklanarak (E3.2) özetlemeleri için İslam’ın ana kaynaklarının Kur’an-ı Kerim ve sünnet olduğu hakkında çözümleme yapılır. Öğrencilere “Kur’an-ı Kerim’de yer alan konular hakkında neler biliyorsunuz?” sorusu yöneltilerek Kur’an’ın ana konuları inanç, ibadet, ahlak, sosyal hayat ve kıssalar olarak sınıflandırılır. Bu konular ekseninde öğrencilerin Kur’an-ı Kerim’in rehberliğini fark etmeleri ve elde ettikleri bilgileri kendi cümleleriyle yorumlamaları sağlanır. Böylece öğrencilerin ölçülü ve dengeli olmaları (D1.3), insana ve topluma değer vermeleri (D5.1) ve görev bilincine sahip olmaları (D16.3) beklenir. DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ (4-8. SINIF) ÖĞRETİM"
+        },
+        {
+          "kod": "DKAB.8.4.3.",
+          "kazanim": "Kur’an-ı Kerim’e göre Hz. Muhammed’in (sav) insani ve peygamberlik yönü açıklanır. Üsveihasene kavramı Ahzab suresinin 21. ayeti bağlamında ele alınır. Hz. Muhammed’in (sav) güzel ahlakı Kalem suresi 4. ayetten yola çıkılarak incelenir. Günlük hayattaki davranışlarından ve hadislerden verilen örneklerle, Hz. Muhammed’in (sav) doğruluğu ve güvenilir kişiliği (D6.2), merhametli ve affedici oluşu (D9.2), istişareye önem vermesi, davasındaki cesaret ve kararlılığı, hakkı gözetmedeki hassasiyeti (D1.2) ve insanlara değer vermesi (D15.1) açıklanır. Böylelikle güzel ahlakı ve örnek davranışları arasında ilişki kurulur. Öğrendiklerinden hareketle Hz. Muhammed’in (sav) neden örnek alınması gerektiğine dair öğrencilerin düşüncelerini ifade edebileceği bir etkinlik yapılır."
+        },
+        {
+          "kod": "DKAB.8.4.",
+          "kazanim": "4 Öğrencilerin Hz. Lokman’ın öğütlerini kendi hayatlarıa yansıtması için Lokman suresi, 1219. ayetlerde tavsiye edilen davranışlar listelenir ve bu davranışları gözden geçirmeleri istenir. Öğrencilerin Hz. Lokman’ın öğütleri hakkında çıkarımda bulunmaları sağlanır. Böylece öğrenciler, Kur’an-ı Kerim’in insanlara örnek olması ve doğru yolu göstermesi bağlamında Hz. Lokman’ın öğütlerini değerlendirir ve bu öğütleri davranışlarına yansıtmaları hedeflenir (SDB1.3)."
+        },
+        {
+          "kod": "DKAB.8.4.",
+          "kazanim": "5 Öğrencilere “Ayetelkürsi hakkında neler biliyorsunuz?” sorusu yöneltilir. Ayetelkürsi’nin anlamı, içerdiği mesajlar ve nerelerde okunduğu hakkında bilgi verilir. Ayetelkürsi’nin doğru telaffuzunu öğretmek için öğrencilerin genel ağ araçlarını tanımaları ve kullanmaları sağlanır. Ayetelkürsi’yi dinlemek üzere Diyanet İşleri Başkanlığına bağlı genel ağ adresleri belirlenir. Öğrencilerin bu adresleri kullanmaları sağlanarak (OB2) ayetin doğru telaffuzunu öğrenmeleri için dinleme etkinliği yapılır. Öğrencilerin bu ayeti kendine güvenerek (E1.5) okuması için sesli okuma etkinliği yapılabilir. Ayetin anlamı incelenir. Ayetin anlamından çıkarılacak mesajlarla ilgili etkinlikler yapılarak ayet değerlendirilebilir. Öğrencilerin ayetin anlamını kendi hayatı için anlamlı hâle getirmesi sağlanır. Öğrencilerin Ayetelkürsi’nin anlamını değiştirmeyecek şekilde kendi cümleleriyle yeniden ifade etmeleri için yazma etkinliği yapılabilir."
+        },
+        {
+          "kod": "DKAB.8.5.2.",
+          "kazanim": "İslam’ın bilime verdiği önemi ve katkıyı sorgulayabilme",
+          "alt_kazanimlar": [
+            "a) Bilim kavramını tanımlar.",
+            "b) İslam’ın bilime verdiği önem hakkında sorular sorar.",
+            "c) İslam’ın bilime verdiği önemle ilgili bilgi toplar. ç) İslam’ın bilime verdiği önemle ilgili toplanan bilgilerin doğruluğunu öğretmen rehberliğinde değerlendirir.",
+            "d) İslam’ın bilime verdiği önemle ilgili toplanan bilgiler üzerinde çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "DKAB.8.5.3.",
+          "kazanim": "Müslüman bilim insanlarının bilim ve kültüre katkısını tarihsel bağlamda değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Müslüman bilim insanlarının bilim ve kültüre katkısını farkeder.",
+            "b) Müslüman bilim insanlarının bilim ve kültüre katkısını, yaşadıkları dönemlerin koşulları içerisinde açıklar.",
+            "c) Müslüman bilim insanlarının katkılarını analiz eder. ç) Müslüman bilim insanlarının kendi koşullarını günümüz koşullarıyla karşılaştırır."
+          ]
+        },
+        {
+          "kod": "DKAB.8.5.",
+          "kazanim": "2 Öğrenciler bilim kavramını tanımlar. Öğrencilerin, İslam’ın bilime verdiği önem hakkında merak ettikleri soruları sormaları (E3.8) için sınıfta uygun bir ortam oluşturulur ve sorulan sorular cevaplanır. Öğrencilerin konuyla ilgili bilgi toplaması sağlanır. İslam dininin akla, düşünmeye, eğitime verdiği önem ayet ve hadislerin ışığında açıklanır. İslam biliminde Hz. Ali’nin önemi vurgulanır. Öğrenciler elde ettikleri bilgileri öğretmen rehberliğinde doğrulayarak değerlendirir. Öğrenciler bu bilgiler üzerinden çıkarım yapar. Konuyla ilgili olarak Bilim ve Teknoloji Haftası’na değinilir."
+        },
+        {
+          "kod": "DKAB.8.5.",
+          "kazanim": "3 Öğrencilerden Müslüman bilim insanlarının hayat hikâyeleriyle ilgili kaynaklara dayanarak sistematik (E3.7) bir şekilde araştırma yapması ve onların bilim ve kültüre katkısını farketmesi sağlanır. Çalışmaların değerinin ve özgünlüğünün öneminin anlaşılması için Müslüman bilim insanlarının bilim ve kültüre katkısı, yaşadıkları dönemlerin koşulları içerisinde açıklanır. Konu içerisinde Cabir bin Hayyan, Harizmi, Fatıma el-Fihrî, İbni Sina, İbnülheysem, Cezeri, İbni Haldun, Ali Kuşçu, Mimar Sinan ve Fuat Sezgin isimlerine yer verilir. Bu bilim insanlarının içinde yaşadıkları dönemin zorluklarına rağmen çalışmalarını azim ve kararlılıkla (D3.1) sürdürdüklerinin üzerinde durulur. Öğrenciler bu bilim insanlarının çalışkanlıklarını örnek almaları konusunda teşvik edilir. Öğrencilerin, Müslüman bilim insanlarının bilim dünyasına katkıları ve bu katkıların günümüze kadar devam eden etkilerini analiz etmeleri sağlanır. Müslüman bilim insanlarının koşulları günümüz koşullarıyla karşılaştırılır ve değerleri açıklanır. Çalışmalarının günümüzdeki yansımaları hakkında farkındalık kazandırılır."
+        }
+      ]
+    }
+  ]
+}

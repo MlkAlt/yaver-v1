@@ -178,13 +178,16 @@ function GradientHeader({
       {/* Selamlama — hero metin */}
       <Text style={styles.greetText}>Merhaba, {ad}!</Text>
 
+      {/* Branş — belirgin */}
+      {brans && <Text style={styles.bransLabel}>{brans}</Text>}
+
       {/* Tarih — ikincil */}
       <Text style={styles.dateCompact}>{gun}, {tarih}</Text>
 
-      {/* Bağlam */}
-      {brans && (
+      {/* Hafta bağlamı */}
+      {aktifNo > 0 && (
         <Text style={styles.headerMeta}>
-          {brans} · Hafta {aktifNo} / {toplam}
+          Hafta {aktifNo} / {toplam}
         </Text>
       )}
 
@@ -524,6 +527,12 @@ const styles = StyleSheet.create({
     color: '#fff',
     letterSpacing: -0.3,
     lineHeight: 28,
+  } as TextStyle,
+  bransLabel: {
+    fontSize: 18,
+    fontFamily: fonts.semiBold,
+    color: 'rgba(255,255,255,0.92)',
+    letterSpacing: -0.2,
   } as TextStyle,
   dateCompact: {
     fontSize: 15,

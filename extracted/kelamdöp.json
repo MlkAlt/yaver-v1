@@ -1,0 +1,92 @@
+[
+  {
+    "kod": "KLM.12.1.1",
+    "ad": ". Kelam ilminin mahiyeti- KLM.12.1.1.",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "KLM.12.1.2",
+    "ad": ". Kelam ilminin bilgi kaynaklarını ve yöntemlerini müşahede edebilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "KLM.12.1.3",
+    "ad": ". Kelam ilminin tarihsel gelişimini çözümleyebilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "KLM.12.2.1",
+    "ad": ". Din ve dinî yorumlar arasındaki ilişkiyi özetleyebilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 20
+  },
+  {
+    "kod": "KLM.12.2.2",
+    "ad": ". İtikadi ve siyasi mezheplerin özelliklerini mukayese yapabilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 20
+  },
+  {
+    "kod": "KLM.12.3.1",
+    "ad": ". Allah’a (cc) ve kadere imanın temellendirilmesini yapılandırabilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KLM.12.3.2",
+    "ad": ". Peygamberlere ve kutsal kitaplara imanın temellendirilmesinde akli ve naklî",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KLM.12.3.3",
+    "ad": ". Meleklere ve ahirete imanın temellendirilmesini idrak edebilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "KLM.12.4.1",
+    "ad": ". Güncel kelam konularındaki görüşleri irdeleyebilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "KLM.12.4.2",
+    "ad": ". Allah-insan-âlem ilişkisine dair yaklaşımlar hakkında eleştirel düşünebilme",
+    "sinif": 12,
+    "ders": "Kelam",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026512154759151-kelamdöp.pdf",
+    "kaynak_sayfa": 29
+  }
+]

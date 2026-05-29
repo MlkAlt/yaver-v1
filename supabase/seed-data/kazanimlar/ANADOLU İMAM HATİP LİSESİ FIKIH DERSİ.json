@@ -1,0 +1,129 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ FIKIH DERSİ",
+  "siniflar": [
+    {
+      "sinif": 10,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "FKH.10.1.1.",
+          "kazanim": "Fıkıh ve fıkıh usulü ile ilgili kaynak kullanımını yönetebilme",
+          "alt_kazanimlar": [
+            "a) Fıkıh ve fıkıh usulünü incelemek için gerekli dinî kaynakları tespit eder.",
+            "b) Fıkıh ve fıkıh usulü ile ilgili kaynakları özelliklerine göre sınıflandırır.",
+            "c) Seçilen kaynaklardan fıkıh ve fıkıh usulü ile ilgili bilgileri bulur. ç) Ulaşılan bilgiler ışığında fıkıh ve fıkıh usulü ile ilgili kaynakları karşılaştırır.",
+            "d) Ulaşılan bilgiler ışığında fıkıh ve fıkıh usulü ile ilgili kaynakları değerlendirir."
+          ]
+        },
+        {
+          "kod": "FKH.10.1.2.",
+          "kazanim": "Fıkıh ilminin temel ilkeleri ile ilgili argümanları irdeleyebilme",
+          "alt_kazanimlar": [
+            "a) Fıkıh ilminin temel ilkeleri ile ilgili argümanları tespit eder.",
+            "b) Fıkıh ilminin temel ilkeleri ile ilgili argümanları karşılaştırır.",
+            "c) Fıkıh ilminin temel ilkeleri ile ilgili argümanları temel dinî bilgi kaynaklarını ölçüt alarak inceler. ç) Fıkıh ilminin temel ilkeleri ile ilgili tercih edilebilir argümanları gerekçeleriyle belirler."
+          ]
+        },
+        {
+          "kod": "FKH.10.1.3.",
+          "kazanim": "Fıkıh ilminin tarihi ile ilgili zamanı algılayabilme ve kronolojik düşünebilme",
+          "alt_kazanimlar": [
+            "a) Fıkıh ilminin tarihî dönemlerini karşılaştırır.",
+            "b) Fıkıh ilminin tarihî dönemleriyle ilgili zaman kavramlarını hesaplayarak dönüştürür.",
+            "c) Fıkıh ilminin tarihî dönemlerini kronolojik olarak sıralar. ç) Fıkıh ilminin tarihî dönemlerini değerlendirir."
+          ]
+        },
+        {
+          "kod": "FKH.10.1.4.",
+          "kazanim": "Fıkhi mezheplerin oluşumundan sonraki gelişmeleri özetleyebilme",
+          "alt_kazanimlar": [
+            "a) Fıkhi mezheplerin oluşumundan sonraki gelişmeleri çözümler.",
+            "b) Fıkhi mezheplerin oluşumundan sonraki gelişmeleri sınıflandırır.",
+            "c) Fıkhi mezheplerin oluşumundan sonraki gelişmeleri yorumlar."
+          ]
+        },
+        {
+          "kod": "FKH.10.2.2.",
+          "kazanim": "Fıkhi hükümlerin delilleri ve yöntemleri ile ilgili dinî kavramları bağlamına uygun kullanabilme",
+          "alt_kazanimlar": [
+            "a) Fıkhi hükümlerin delilleri ve yöntemleri ile ilgili kavramları fark eder.",
+            "b) Fıkhi hükümlerin delilleri ve yöntemleri ile ilgili kavramlar arasında ilişki kurar.",
+            "c) Fıkhi hükümlerin delilleri ve yöntemleri ile ilgili kavramların benzerliklerini ve farklılıklarını açıklar. ç) Fıkhi hükümlerin delilleri ve yöntemleri ile ilgili kavramlara sözlü ve yazılı iletişimde bağlamına uygun olarak yer verir."
+          ]
+        },
+        {
+          "kod": "FKH.10.3.2.",
+          "kazanim": "Oruç ile ilgili deneyimlerini yansıtabilme",
+          "alt_kazanimlar": [
+            "a) Oruç ile ilgili deneyimlerini gözden geçirir.",
+            "b) Oruç ile ilgili deneyimlerine dayalı çıkarım yapar.",
+            "c) Oruç ile ilgili ulaştığı çıkarımları değerlendirir."
+          ]
+        },
+        {
+          "kod": "FKH.10.3.3.",
+          "kazanim": "Zekâtın hükümlerini sentezleyebilme",
+          "alt_kazanimlar": [
+            "a) Zekât ile ilgili hükümleri tespit eder.",
+            "b) Zekâtın hükümleri ile zekâtın bireysel ve toplumsal faydalarını ilişkilendirir.",
+            "c) Zekâtın bireysel ve toplumsal faydaları hakkında özgün bir içerik oluşturur."
+          ]
+        },
+        {
+          "kod": "FKH.10.3.4.",
+          "kazanim": "Haccın hükümleri ile ilgili kaynak kullanımını yönetebilme",
+          "alt_kazanimlar": [
+            "a) Haccın hükümlerini incelemek için gerekli dinî kaynakları tespit eder.",
+            "b) Haccın hükümleri ile ilgili dinî kaynakları özelliklerine göre sınıflandırır.",
+            "c) Seçilen dinî kaynaklardan haccın hükümleri ile ilgili bilgileri bulur. ç) Ulaşılan bilgiler ışığında haccın hükümleri ile ilgili seçtiği dinî kaynakları karşılaştırır.",
+            "d) Ulaşılan bilgiler ışığında haccın hükümleri ile ilgili seçtiği dinî kaynakları değerlendirir."
+          ]
+        },
+        {
+          "kod": "FKH.10.3.5.",
+          "kazanim": "Cihatla ilgili bilgilere ulaşmak için temel kaynakları kullanabilme",
+          "alt_kazanimlar": [
+            "a) Cihat ile ilgili ayetlere ulaşmak için Kur’an-ı Kerim meallerine başvurur.",
+            "b) Cihat ile ilgili hadislere ulaşmak için hadis kaynaklarına başvurur."
+          ]
+        },
+        {
+          "kod": "FKH.10.4.1.",
+          "kazanim": "Aile hayatı ile ilgili konuları müşahede edebilme",
+          "alt_kazanimlar": [
+            "a) Aile hayatı ile ilgili konuları belirler.",
+            "b) Aile hayatı ile ilgili belirlenen konular hakkında soru sorar.",
+            "c) Aile hayatı ile ilgili merak ettiği konuları inceler. ç) Aile hayatı ile ilgili yaptığı inceleme sonuçları hakkında çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "FKH.10.4.2.",
+          "kazanim": "Ekonomik hayat ile ilgili dinî görüş/argümanları irdeleyebilme",
+          "alt_kazanimlar": [
+            "a) Ekonomik hayat ile ilgili konular hakkında görüş/argümanları tespit eder.",
+            "b) Ekonomik hayat ile ilgili konular hakkında görüş/argümanları karşılaştırır.",
+            "c) Ekonomik hayat ile ilgili konular hakkında görüş/argümanları temel dinî bilgi kaynaklarını ölçüt alarak inceler. ç) Ekonomik hayat ile ilgili konular hakkında tercih edilebilir görüş/argümanları gerekçeleriyle belirler."
+          ]
+        },
+        {
+          "kod": "FKH.10.4.3.",
+          "kazanim": "Helaller ve haramlarla ilgili dinî meseleleri anlayabilme",
+          "alt_kazanimlar": [
+            "a) Helaller ve haramlarla ilgili dinî meseleleri fark eder.",
+            "b) Helaller ve haramlarla ilgili dinî meseleleri tanımlar.",
+            "c) Helaller ve haramlarla ilgili dinî meselelerin ortaya çıkış sebeplerini açıklar. ç) Helaller ve haramlarla ilgili dinî meselelerin özelliklerini belirler."
+          ]
+        },
+        {
+          "kod": "FKH.10.4.4.",
+          "kazanim": "İslam ceza hukuku ile ilgili konuları özetleyebilme",
+          "alt_kazanimlar": [
+            "a) İslam ceza hukukunun konuları ile ilgili çözümleme yapar.",
+            "b) İslam ceza hukukunun konuları ile ilgili sınıflandırma yapar.",
+            "c) İslam ceza hukukunun konuları ile ilgili yorumlama yapar."
+          ]
+        }
+      ]
+    }
+  ]
+}

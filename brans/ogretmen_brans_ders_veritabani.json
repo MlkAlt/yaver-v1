@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "kaynak": "ogretmenevrak.com/yillik_plan",
+    "guncelleme": "2026-05",
+    "aciklama": "Öğretmen branşlarına göre ders kategorileri - tüm okul tipleri dahil",
+    "okul_tipleri": {
+      "ilkokul": "İlkokul (1-4. sınıf)",
+      "ortaokul": "Ortaokul (5-8. sınıf)",
+      "iho": "İmam Hatip Ortaokulu (5-8. sınıf)",
+      "lise": "Lise (9-12. sınıf)",
+      "ihl": "İmam Hatip Lisesi (9-12. sınıf)"
+    },
+    "ders_turleri": {
+      "zorunlu": "Zorunlu ders - branş öğretmeni girer",
+      "secmeli": "Seçmeli / ek ders - branş öğretmeni girebilir",
+      "paylasimli": "Zorunlu ders - sınıf öğretmeni de girebilir (ilkokulda)",
+      "yalniz_brans": "Zorunlu ders - sadece branş öğretmeni girer (sınıf öğretmeni giremez)"
+    }
+  },
+  "branslar": [
+    {
+      "id": "sinif_ogretmeni",
+      "ad": "Sınıf Öğretmeni",
+      "kisaltma": "Sınıf Öğrt.",
+      "kademe": ["ilkokul"],
+      "not": "1-4. sınıflarda tüm zorunlu derslere girer; bazı derslere branş öğretmeni de atanabilir.",
+      "dersler": [
+        { "ad": "Türkçe", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4] },
+        { "ad": "Matematik", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4] },
+        { "ad": "Hayat Bilgisi", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3] },
+        { "ad": "Fen Bilimleri", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [3,4] },
+        { "ad": "Sosyal Bilgiler", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [4] },
+        { "ad": "İnsan Hakları, Vatandaşlık ve Demokrasi", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [4] },
+        { "ad": "Trafik Güvenliği", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [4] },
+        { "ad": "Serbest Etkinlik", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3] },
+        { "ad": "Rehberlik", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4] },
+        { "ad": "İngilizce", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [2,3,4], "not": "Branş öğretmeni varsa öncelikli olarak branş öğretmeni girer" },
+        { "ad": "Müzik", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4], "not": "Branş öğretmeni varsa öncelikli olarak branş öğretmeni girer" },
+        { "ad": "Görsel Sanatlar", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4], "not": "Branş öğretmeni varsa öncelikli olarak branş öğretmeni girer" },
+        { "ad": "Beden Eğitimi ve Oyun", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4], "not": "Branş öğretmeni varsa öncelikli olarak branş öğretmeni girer" },
+        { "ad": "Din Kültürü ve Ahlak Bilgisi", "tur": "yalniz_brans", "okul_tipleri": ["ilkokul"], "siniflar": [4] }
+      ]
+    },
+    {
+      "id": "turkce",
+      "ad": "Türkçe Öğretmeni",
+      "kisaltma": "Türkçe",
+      "kademe": ["ortaokul"],
+      "dersler": [
+        { "ad": "Türkçe", "tur": "zorunlu", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Yazarlık ve Yazma Becerileri", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Okuma Becerileri", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Masal ve Destanlarımız", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "İletişim ve Sunum Becerileri", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7,8] },
+        { "ad": "Medya Okur Yazarlığı", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7,8] }
+      ]
+    },
+    {
+      "id": "turk_dili_edebiyati",
+      "ad": "Türk Dili ve Edebiyatı Öğretmeni",
+      "kisaltma": "TDE",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Türk Dili ve Edebiyatı", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Metin Tahlilleri I", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Metin Tahlilleri II", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Türk Kültür ve Medeniyeti", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Osmanlı Türkçesi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] },
+        { "ad": "Ortak Türk Edebiyatı", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] },
+        { "ad": "Seçmeli Türk Dili ve Edebiyatı", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Diksiyon ve Hitabet", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "matematik",
+      "ad": "Matematik Öğretmeni",
+      "kisaltma": "Matematik",
+      "kademe": ["ortaokul", "iho", "lise", "ihl"],
+      "dersler": [
+        { "ad": "Matematik", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho","lise","ihl"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Düşünme Eğitimi", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Matematik Uygulamaları I", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6] },
+        { "ad": "Matematik Uygulamaları II", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7] },
+        { "ad": "Matematik Uygulamaları", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [8] },
+        { "ad": "Matematik Uygulamaları (Lise)", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Temel Düzey Matematik", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11] },
+        { "ad": "Temel Matematik", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [12] },
+        { "ad": "Matematik Tarihi ve Uygulamaları", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "fen_bilimleri",
+      "ad": "Fen Bilimleri Öğretmeni",
+      "kisaltma": "Fen Bil.",
+      "kademe": ["ortaokul", "iho"],
+      "dersler": [
+        { "ad": "Fen Bilimleri", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Afet Bilinci", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Proje Tasarımı ve Uygulamaları", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Bilim Uygulamaları I", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6] },
+        { "ad": "Bilim Uygulamaları II", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7] },
+        { "ad": "Bilim Uygulamaları", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [8] },
+        { "ad": "Çevre ve İklim Değişikliği", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6,7] },
+        { "ad": "Çevre Eğitimi", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7,8] }
+      ]
+    },
+    {
+      "id": "sosyal_bilgiler",
+      "ad": "Sosyal Bilgiler Öğretmeni",
+      "kisaltma": "Sosyal Bil.",
+      "kademe": ["ortaokul", "iho"],
+      "dersler": [
+        { "ad": "Sosyal Bilgiler", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Şehrimiz", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Kültür ve Medeniyetimize Yön Verenler", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Türk Sosyal Hayatında Aile", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Hukuk ve Adalet", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6,7,8] },
+        { "ad": "Okul Temelli Sosyal Sorun Çalışmaları", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6,7,8] },
+        { "ad": "Ortak Türk Tarihi", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7,8] }
+      ]
+    },
+    {
+      "id": "tarih",
+      "ad": "Tarih / T.C. İnkılap Tarihi Öğretmeni",
+      "kisaltma": "Tarih",
+      "kademe": ["ortaokul", "lise", "ihl"],
+      "not": "8. sınıf T.C. İnkılap Tarihi dersi Tarih branşı öğretmenlerince yürütülür.",
+      "dersler": [
+        { "ad": "T.C. İnkılap Tarihi", "tur": "zorunlu", "okul_tipleri": ["ortaokul"], "siniflar": [8] },
+        { "ad": "Tarih", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11] },
+        { "ad": "T.C. İnkılap Tarihi ve Atatürkçülük", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [12] },
+        { "ad": "Sanat Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Sosyal Bilim Çalışmaları", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Türk Kültür ve Medeniyeti", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Ortak Türk Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Ahilik Kültürü ve Girişimcilik", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Çağdaş Türk ve Dünya Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [12] },
+        { "ad": "Seçmeli Tarih", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Türk Düşünce Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] },
+        { "ad": "Uluslararası İlişkiler", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "cografya",
+      "ad": "Coğrafya Öğretmeni",
+      "kisaltma": "Coğrafya",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Coğrafya", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Sosyal Bilim Çalışmaları", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Türk Dünyası Coğrafyası", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] },
+        { "ad": "İklim, Çevre ve Yenilikçi Çözümler", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11] },
+        { "ad": "Sürdürülebilir Tarım ve Gıda", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11] }
+      ]
+    },
+    {
+      "id": "felsefe",
+      "ad": "Felsefe Grubu Öğretmeni",
+      "kisaltma": "Felsefe",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Felsefe", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11] },
+        { "ad": "Psikoloji", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Sosyoloji", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Mantık", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Demokrasi ve İnsan Hakları", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Bilgi Kuramı", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Düşünme Eğitimi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Ekonomi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "İşletme", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Girişimcilik", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Temel Hukuk Bilgisi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] },
+        { "ad": "Türk Düşünce Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] }
+      ]
+    },
+    {
+      "id": "fizik",
+      "ad": "Fizik Öğretmeni",
+      "kisaltma": "Fizik",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Fizik", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Astronomi ve Uzay Bilimleri", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Fen Bilimleri Uygulamaları I", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Fen Bilimleri Uygulamaları II", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Proje Tasarımı ve Uygulamaları", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] }
+      ]
+    },
+    {
+      "id": "kimya",
+      "ad": "Kimya Öğretmeni",
+      "kisaltma": "Kimya",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Kimya", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Fen Bilimleri Uygulamaları I", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Fen Bilimleri Uygulamaları II", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "biyoloji",
+      "ad": "Biyoloji Öğretmeni",
+      "kisaltma": "Biyoloji",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Biyoloji", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Genetik Bilimine Giriş", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Sürdürülebilir Tarım ve Gıda", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11] },
+        { "ad": "Fen Bilimleri Uygulamaları I", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] },
+        { "ad": "Fen Bilimleri Uygulamaları II", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "ingilizce",
+      "ad": "İngilizce Öğretmeni",
+      "kisaltma": "İngilizce",
+      "kademe": ["ilkokul", "ortaokul", "iho", "lise", "ihl"],
+      "not": "İlkokulda 2. sınıftan itibaren zorunlu. 1. sınıfta İngilizce dersi yok.",
+      "dersler": [
+        { "ad": "İngilizce", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [2,3,4] },
+        { "ad": "İngilizce", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "İngilizce", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Seçmeli İngilizce", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise","ihl"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Seçmeli İngiliz Edebiyatı", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "almanca",
+      "ad": "Almanca Öğretmeni",
+      "kisaltma": "Almanca",
+      "kademe": ["ortaokul", "lise", "ihl"],
+      "dersler": [
+        { "ad": "Almanca", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5] },
+        { "ad": "Almanca", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] }
+      ]
+    },
+    {
+      "id": "fransizca",
+      "ad": "Fransızca Öğretmeni",
+      "kisaltma": "Fransızca",
+      "kademe": ["lise", "ihl"],
+      "dersler": [
+        { "ad": "Fransızca", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] }
+      ]
+    },
+    {
+      "id": "din_kulturu",
+      "ad": "Din Kültürü ve Ahlak Bilgisi Öğretmeni",
+      "kisaltma": "DKAB",
+      "kademe": ["ilkokul", "ortaokul", "iho", "lise", "ihl"],
+      "not": "İHO ve İHL'deki özel meslek derslerini bu branş öğretmeni verir. Peygamberimizin Hayatı dersi sitede Seçmeli bölümde görünmektedir.",
+      "dersler": [
+        { "ad": "Din Kültürü ve Ahlak Bilgisi", "tur": "zorunlu", "okul_tipleri": ["ilkokul"], "siniflar": [4] },
+        { "ad": "Din Kültürü ve Ahlak Bilgisi", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Din Kültürü ve Ahlak Bilgisi", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Kur'an-ı Kerim (zorunlu)", "tur": "zorunlu", "okul_tipleri": ["lise"], "siniflar": [9] },
+        { "ad": "Temel Dini Bilgiler (zorunlu)", "tur": "zorunlu", "okul_tipleri": ["lise"], "siniflar": [9] },
+        { "ad": "Kur'an-ı Kerim", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise","ihl"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Temel Dini Bilgiler İslam", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise","ihl"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Peygamberimizin Hayatı", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise","ihl"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Kur'an-ı Kerim'in Anlam Dünyası", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "İslam Kültür ve Medeniyeti", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "İslam Bilim Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Ahlak ve Vatandaşlık Eğitimi", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Görgü Kuralları ve Nezaket", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Adabımuaşeret", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Klasik Ahlak Metinleri", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [10,11,12] },
+        { "ad": "Kur'an-ı Kerim (İHO zorunlu)", "tur": "zorunlu", "okul_tipleri": ["iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Peygamberimizin Hayatı (İHO zorunlu)", "tur": "zorunlu", "okul_tipleri": ["iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Temel Dini Bilgiler (İHO zorunlu)", "tur": "zorunlu", "okul_tipleri": ["iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Kur'an-ı Kerim (İHL zorunlu)", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Peygamberimizin Hayatı (İHL zorunlu)", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [9] },
+        { "ad": "Temel Dini Bilgiler (İHL zorunlu)", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [9] },
+        { "ad": "Fıkıh", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [10] },
+        { "ad": "Hadis", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [10] },
+        { "ad": "Siyer", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [10] },
+        { "ad": "Akaid", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11] },
+        { "ad": "Tefsir", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11] },
+        { "ad": "Hitabet ve Mesleki Uygulama", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11] },
+        { "ad": "Mesleki Uygulama", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11,12] },
+        { "ad": "Kelam", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [12] },
+        { "ad": "Dinler Tarihi", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [12] },
+        { "ad": "İslam Tarihi", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "arapca",
+      "ad": "Arapça Öğretmeni",
+      "kisaltma": "Arapça",
+      "kademe": ["iho", "ihl"],
+      "not": "Yalnızca İmam Hatip Ortaokulu ve İmam Hatip Liselerinde görev yapar.",
+      "dersler": [
+        { "ad": "Arapça", "tur": "zorunlu", "okul_tipleri": ["iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Arapça", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [10,11,12] },
+        { "ad": "Mesleki Arapça", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11,12] },
+        { "ad": "Arapça Metin Mükaleme", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "gorsel_sanatlar",
+      "ad": "Görsel Sanatlar Öğretmeni",
+      "kisaltma": "Görsel San.",
+      "kademe": ["ilkokul", "ortaokul", "iho", "lise", "ihl"],
+      "not": "İlkokulda (1-4) sınıf öğretmeni de girebilir; yeterli branş öğretmeni varsa branş öğretmeni önceliklidir.",
+      "dersler": [
+        { "ad": "Görsel Sanatlar", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4] },
+        { "ad": "Görsel Sanatlar", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Görsel Sanatlar", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Seçmeli Görsel Sanatlar", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Geleneksel Sanatlar", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6,7] },
+        { "ad": "Dijital Sanatlar", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6,7] },
+        { "ad": "Sanat Eğitimi (Görsel Sanatlar)", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Sanat Tarihi", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Sanat Eğitimi (Geleneksel El Sanatları)", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12], "not": "Ebru, Hüsnühat, Tezhip, Minyatür, Vitray, Ahşap Oyma" },
+        { "ad": "Hüsn-i Hat (İHL)", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11] },
+        { "ad": "Ebru (İHL)", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "muzik",
+      "ad": "Müzik Öğretmeni",
+      "kisaltma": "Müzik",
+      "kademe": ["ilkokul", "ortaokul", "iho", "lise", "ihl"],
+      "not": "İlkokulda (1-4) sınıf öğretmeni de girebilir.",
+      "dersler": [
+        { "ad": "Müzik", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4] },
+        { "ad": "Müzik", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Müzik", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Seçmeli Müzik", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Halk Oyunları", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Sanat Eğitimi (Müzik)", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12], "not": "Bağlama, Flüt, Gitar, Keman, Piyano, Koro vb." },
+        { "ad": "Dini Musiki (İHL)", "tur": "zorunlu", "okul_tipleri": ["ihl"], "siniflar": [11,12] }
+      ]
+    },
+    {
+      "id": "beden_egitimi",
+      "ad": "Beden Eğitimi ve Spor Öğretmeni",
+      "kisaltma": "Beden Eğt.",
+      "kademe": ["ilkokul", "ortaokul", "iho", "lise", "ihl"],
+      "not": "İlkokulda (1-4) sınıf öğretmeni de girebilir.",
+      "dersler": [
+        { "ad": "Beden Eğitimi ve Oyun", "tur": "paylasimli", "okul_tipleri": ["ilkokul"], "siniflar": [1,2,3,4] },
+        { "ad": "Beden Eğitimi ve Spor", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6,7,8] },
+        { "ad": "Beden Eğitimi ve Spor", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12] },
+        { "ad": "Sağlık Bilgisi ve Trafik Kültürü", "tur": "zorunlu", "okul_tipleri": ["lise","ihl"], "siniflar": [9,11] },
+        { "ad": "Spor ve Fiziki Etkinlikler", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Halk Oyunları", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [5,6,7,8] },
+        { "ad": "Spor Eğitimi BS (Bireysel Spor)", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12], "not": "Badminton, Boks, Eskrim, Güreş, Judo, Karate, Okçuluk, Oryantiring, Tekvando, Tenis, Yüzme vb." },
+        { "ad": "Spor Eğitimi TS (Takım Sporu)", "tur": "secmeli", "okul_tipleri": ["lise","ihl"], "siniflar": [9,10,11,12], "not": "Basketbol, Futbol, Hentbol, Voleybol" }
+      ]
+    },
+    {
+      "id": "rehber_ogretmen",
+      "ad": "Rehber Öğretmen (PDR)",
+      "kisaltma": "PDR",
+      "kademe": ["ortaokul", "iho", "lise", "ihl"],
+      "not": "İlkokulda (1-4) rehberlik etkinlikleri sınıf öğretmeni tarafından yürütülür.",
+      "dersler": [
+        { "ad": "Rehberlik", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho","lise","ihl"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Rehberlik ve Yönlendirme", "tur": "zorunlu", "okul_tipleri": ["ortaokul"], "siniflar": [8] }
+      ]
+    },
+    {
+      "id": "bilisim_teknolojileri",
+      "ad": "Bilişim Teknolojileri Öğretmeni",
+      "kisaltma": "BT",
+      "kademe": ["ortaokul", "iho", "lise", "ihl"],
+      "dersler": [
+        { "ad": "Bilişim Teknolojileri ve Yazılım", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [5,6] },
+        { "ad": "Bilişim Teknolojileri ve Yazılım", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise","ihl"], "siniflar": [7,8,9,10,11,12], "not": "Python, Java, C++, C#, PHP, JavaScript, Robotik, Yapay Zeka, Mobil Uygulama Geliştirme vb." },
+        { "ad": "Robotik Kodlama", "tur": "secmeli", "okul_tipleri": ["ortaokul","lise"], "siniflar": [5,6,7,8,9,10,11,12] },
+        { "ad": "Yapay Zeka I", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [7] },
+        { "ad": "Yapay Zeka II", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [8] },
+        { "ad": "Dijital Sanatlar", "tur": "secmeli", "okul_tipleri": ["ortaokul"], "siniflar": [6,7] }
+      ]
+    },
+    {
+      "id": "teknoloji_tasarim",
+      "ad": "Teknoloji ve Tasarım Öğretmeni",
+      "kisaltma": "Tekn.Tas.",
+      "kademe": ["ortaokul", "iho"],
+      "dersler": [
+        { "ad": "Teknoloji ve Tasarım", "tur": "zorunlu", "okul_tipleri": ["ortaokul","iho"], "siniflar": [7,8] }
+      ]
+    }
+  ]
+}

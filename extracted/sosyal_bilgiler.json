@@ -1,0 +1,650 @@
+[
+  {
+    "kod": "SB.4.1.3",
+    "ad": ") Karmaşık bir süreç gerektirmeden",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "SB.4.1.1",
+    "ad": ") edinilen ve gözlenebilen temel beceriler",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "SB.4.1.2",
+    "ad": ") ile soyut fikirleri ve karmaşık süreçleri",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 11
+  },
+  {
+    "kod": "SB.4.2.3",
+    "ad": ") SBAB10. Harita (SBAB10.1. Harita Okuma) (SB.4.2.1)",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "SB.4.2.1",
+    "ad": ") KAVRAMSAL",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "SB.4.2.2",
+    "ad": ") EĞİLİMLER E1.1. Merak, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.3. Yaratıcılık",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "SB.4.3.1",
+    "ad": ") KAVRAMSAL",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 21
+  },
+  {
+    "kod": "SB.4.3.2",
+    "ad": ") KB2.14. Yorumlama (SB.4.3.3)",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 21
+  },
+  {
+    "kod": "SB.4.3.3",
+    "ad": ") EĞİLİMLER E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E2.3. Girişkenlik, E2.5. Oyunsever-",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 21
+  },
+  {
+    "kod": "SB.4.4.1",
+    "ad": ") SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) (SB.4.4.3)",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "SB.4.4.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "SB.4.4.2",
+    "ad": ") EĞİLİMLER E1.1. Merak, E1.2. Bağımsızlık, E3.3. Yaratıcılık, E3.6. Analitik Düşünme",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "SB.4.5.1",
+    "ad": ") SBAB8. Coğrafi Sorgulama (SBAB8.4. Coğrafi Bilgileri Çözümleme) (SB.4.5.3)",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "SB.4.5.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "SB.4.5.2",
+    "ad": ") EĞİLİMLER E1.1. Merak, E2.2. Sorumluluk, E3.4. Gerçeği Arama, E3.6. Analitik Düşünme, E3.10. Eleş-",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "SB.4.6.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 33
+  },
+  {
+    "kod": "SB.4.6.1",
+    "ad": ") EĞİLİMLER E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.10. Eleştirel Bakma,",
+    "sinif": 4,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 33
+  },
+  {
+    "kod": "SB.5.1.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 36
+  },
+  {
+    "kod": "SB.5.1.1",
+    "ad": ") KB2.14. Yorumlama (SB.5.1.2)",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 36
+  },
+  {
+    "kod": "SB.5.1.2",
+    "ad": ") EĞİLİMLER E2.1. Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.3. Yaratıcılık, E3.11. Özgün Düşünme",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 36
+  },
+  {
+    "kod": "SB.5.2.1",
+    "ad": ") SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuç-",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "SB.5.2.2",
+    "ad": ") SBAB5. Sosyal Katılım (SBAB5.5 Fikri Eyleme Dönüştürme) (SB.5.2.3)",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "SB.5.2.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "SB.5.2.4",
+    "ad": ") EĞİLİMLER E3.2. Odaklanma, E3.3. Yaratıcılık, E3.4. Gerçeği arama, E3.5. Açık Fikirlilik, E3.7. Siste-",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "SB.5.3.1",
+    "ad": ") SBAB3. Tarihsel Empati (SB.5.3.2)",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "SB.5.3.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "SB.5.3.3",
+    "ad": ") EĞİLİMLER E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6.",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "SB.5.4.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 51
+  },
+  {
+    "kod": "SB.5.4.1",
+    "ad": ") KB2.10. Çıkarım Yapma (SB.5.4.2)",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 51
+  },
+  {
+    "kod": "SB.5.4.2",
+    "ad": ") KB2.6. Bilgi Toplama (SB.5.4.4)",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 51
+  },
+  {
+    "kod": "SB.5.4.4",
+    "ad": ") EĞİLİMLER E1.1. Merak, E2.2. Sorumluluk, E3.3. Yaratıcılık, E2.5. Oyunseverlik, E3.10. Eleştirel Bak-",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 51
+  },
+  {
+    "kod": "SB.5.5.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "SB.5.5.1",
+    "ad": ") KB2.3. Özetleme (SB.5.5.3)",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "SB.5.5.3",
+    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E3.3. Yaratıcılık",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "SB.5.6.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "SB.5.6.1",
+    "ad": ") EĞİLİMLER E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik, E3.11. Özgün Düşünme",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "SB.5.6.1.Teknolojik",
+    "ad": "gelişmelerin toplum hayatına etkilerini tartışabilme",
+    "sinif": 5,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "SB.6.1.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "SB.6.1.1",
+    "ad": ") KB2.14. Yorumlama (SB.6.1.2)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "SB.6.1.2",
+    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E2.3. Girişkenlik, E3.3. Yaratıcılık,",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "SB.6.2.1",
+    "ad": ") SBAB.7. Mekânsal Düşünme (SBAB.7.3.Mekânsal Bağlantıları Çözümleme) (SB.6.2.2)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "SB.6.2.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "SB.6.2.3",
+    "ad": ") EĞİLİMLER E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "SB.6.3.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "SB.6.3.1",
+    "ad": ") KB2.16.2.Tümdengelimsel Akıl Yürütme Becerisi (SB.6.3.2)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "SB.6.3.2",
+    "ad": ") KB.2.3. Özetleme Becerisi (SB.6.3.4)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "SB.6.3.4",
+    "ad": ") EĞİLİMLER E1.1. Merak, E2.1. Empati, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6. Analitik Düşünme,",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "SB.6.4.1",
+    "ad": ") KB2.14. Yorumlama (SB.6.4.2)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 77
+  },
+  {
+    "kod": "SB.6.4.2",
+    "ad": ") KB2.8. Sorgulama (SB.6.4.3)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 77
+  },
+  {
+    "kod": "SB.6.4.3",
+    "ad": ") EĞİLİMLER E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma, E3.4. Gerçeği Arama, E3.5.",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 77
+  },
+  {
+    "kod": "SB.6.5.2",
+    "ad": ") SBAB6. Girişimcilik (SB.6.5.3)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "SB.6.5.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "SB.6.5.1",
+    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.3. Girişkenlik,",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "SB.6.6.1",
+    "ad": ") KB2.6. Bilgi Toplama (SB.6.6.2)",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "SB.6.6.2",
+    "ad": ") EĞİLİMLER E3.4 Gerçeği Arama, E3.10. Eleştirel Bakma",
+    "sinif": 6,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "SB.7.1.1",
+    "ad": ") SBAB5 Sosyal Katılım (SBAB5.3 Fikir Üretme) (SB.7.1.2)",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 89
+  },
+  {
+    "kod": "SB.7.1.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 89
+  },
+  {
+    "kod": "SB.7.1.3",
+    "ad": ") EĞİLİMLER E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Özgüven), E2.2.",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 89
+  },
+  {
+    "kod": "SB.7.2.1",
+    "ad": ") KB2.3. Özetleme (SB.7.2.2)",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 94
+  },
+  {
+    "kod": "SB.7.2.2",
+    "ad": ") EĞİLİMLER E1.1. Merak, E3.3. Yaratıcılık",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 94
+  },
+  {
+    "kod": "SB.7.3.2",
+    "ad": ") SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "SB.7.3.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "SB.7.3.1",
+    "ad": ") EĞİLİMLER E1.1. Merak,E1.5. Kendine Güvenme (Öz Güven), E2.1. Empati, E2.2. Sorumluluk, E2.3. Gi-",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "SB.7.4.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "SB.7.4.1",
+    "ad": ") (SB.7.4.4)",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "SB.7.4.4",
+    "ad": ") KB2.4. Çözümleme (SB.7.4.2)",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "SB.7.4.2",
+    "ad": ") EĞİLİMLER E1.2. Bağımsızlık, E2.5. Oyunseverlik, E3.1. Uzmanlaşma, E3.2. Odaklanma, E3.3 Yaratıcı-",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "SB.7.5.1",
+    "ad": ") SBAB8. Coğrafi Sorgulama (SBAB8.4 Coğrafi Bilgileri Çözümleme) (SB.7.5.2)",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "SB.7.5.2",
+    "ad": ") KAVRAMSAL",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "SB.7.6.1",
+    "ad": ") FBAB13. Bilimsel Sorgulama (SB.7.6.3)",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "SB.7.6.3",
+    "ad": ") KAVRAMSAL",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "SB.7.6.2",
+    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E3.1. Uzmanlaş-",
+    "sinif": 7,
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 111
+  }
+]

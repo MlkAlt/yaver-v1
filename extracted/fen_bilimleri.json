@@ -1,0 +1,1640 @@
+[
+  {
+    "kod": "FB.3.1.1",
+    "ad": "FB.5.1.1.1.",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "FB.5.1.1.1",
+    "ad": ". Öğrenme Çıktısı",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "FB.3.1.2",
+    "ad": ". Bilim insanlarının özelliklerine ilişkin genelleme yapabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "FB.3.2.1",
+    "ad": ". Canlıları; mikroskopla görülebilen canlılar, mantarlar, bitkiler ve hayvanlar ola-",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "FB.3.2.2",
+    "ad": ". Canlıların çevrelerini farklı yollarla algılamaları konusunda bilimsel çıkarım ya-",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "FB.3.2.3",
+    "ad": ". Canlıların yaşam döngülerini açıklamada tümevarımsal akıl yürütebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 23
+  },
+  {
+    "kod": "FB.3.3.1",
+    "ad": ". Kayaçlar, madenler ve mineraller ile ilgili tümdengelimsel akıl yürütebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "FB.3.3.2",
+    "ad": ". Fosil oluşumu ile ilgili sentez yapabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "FB.3.4.1",
+    "ad": ". Çevresindeki maddeleri hâllerine göre sınıflandırabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "FB.3.4.2",
+    "ad": ". Günlük yaşamda karşılaştığı karışımların ayrılmasında kullanılabilecek uygun",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "FB.3.4.3",
+    "ad": ". Atıkların ayrıştırılmasına ilişkin problem çözebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "FB.3.5.1",
+    "ad": ". Varlıkların hareket durumlarını gözleme dayalı tahmin edebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "FB.3.5.2",
+    "ad": ". Kuvvetin varlıklar üzerindeki etkilerini bilimsel gözleme dayalı tahmin edebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "FB.3.6.1",
+    "ad": ". Bazı araç gereçlerin elektrikli olduğuna ilişkin bilimsel çıkarım yapabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "FB.3.6.2",
+    "ad": ". Elektrikli araç gereçlerin güvenli kullanımı ile ilgili eleştirel düşünebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "FB.3.6.3",
+    "ad": ". Elektriği tasarruflu kullanma konusunda bilimsel veriye dayalı tahmin edebilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "FB.3.7.1",
+    "ad": ". Toprak oluşumuna ve yapısına ilişkin bilimsel gözlem yapabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 43
+  },
+  {
+    "kod": "FB.3.7.2",
+    "ad": ". Bir bitkinin yetişmesi için gerekenlere ilişkin genelleme yapabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 43
+  },
+  {
+    "kod": "FB.3.8.1",
+    "ad": ". Canlıların yaşam alanlarının özelliklerini belirlemeye yönelik kanıt kullanabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 47
+  },
+  {
+    "kod": "FB.3.8.2",
+    "ad": ". Yaşam alanındaki canlı çeşitliliğini operasyonel olarak tanımlayabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 47
+  },
+  {
+    "kod": "FB.3.8.3",
+    "ad": ". Yaşam alanlarının korunması için yapılacakları sorgulayabilme",
+    "sinif": 3,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 47
+  },
+  {
+    "kod": "FB.4.1.1",
+    "ad": ". Bilimin özellikleri ile ilgili yansıtma yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 51
+  },
+  {
+    "kod": "FB.4.1.2",
+    "ad": ". Bilgi kaynağının güvenilirliğini sorgulayabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 51
+  },
+  {
+    "kod": "FB.4.2.1",
+    "ad": ". Besin içeriklerini ayırt etmek için deney yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 55
+  },
+  {
+    "kod": "FB.4.2.2",
+    "ad": ". Besinlerde vitamin ve/veya mineral bulunduğuna ilişkin genelleme yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 55
+  },
+  {
+    "kod": "FB.4.2.3",
+    "ad": ". Besinlerin işlevleri ile ilgili hipotez oluşturabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 55
+  },
+  {
+    "kod": "FB.4.3.1",
+    "ad": ". Dünya’nın şekli ile ilgili bilimsel gözleme dayalı tahmin yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "FB.4.3.2",
+    "ad": ". Dünya’nın yapısıyla ilgili bilimsel model oluşturabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "FB.4.3.3",
+    "ad": ". Dünya’nın hareketlerini gözlemlerine dayanarak tahmin edebilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "FB.4.4.1",
+    "ad": ". Maddelerin hâl değişimine yönelik bilimsel çıkarım yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "FB.4.4.2",
+    "ad": ". Maddelerin ısı etkisiyle değişimine yönelik deney yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 63
+  },
+  {
+    "kod": "FB.4.5.1",
+    "ad": ". Mıknatısın kutupları ve birbirleriyle etkileşimleri ile ilgili tümevarımsal akıl yürü-",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "FB.4.5.2",
+    "ad": ". Mıknatısın etki ettiği maddelere ilişkin bilimsel gözleme dayalı tahmin yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "FB.4.5.3",
+    "ad": ". Mıknatısın kullanım alanlarına yönelik bilimsel sorgulama yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "FB.4.6.1",
+    "ad": ". Basit bir elektrik devresi kurmaya ilişkin bilimsel sorgulama yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "FB.4.6.2",
+    "ad": ". Elektrik üretiminde yenilenebilir ve yenilenemeyen enerji kaynaklarını kullan-",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "FB.4.7.1",
+    "ad": ". Görme olayının gerçekleşebilmesi için ışığın rolüne ilişkin deney yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "FB.4.7.2",
+    "ad": ". Doğal ve yapay ışık kaynaklarını karşılaştırabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "FB.4.7.3",
+    "ad": ". Işık kirliliğinin canlılara etkisine ilişkin probleme yönelik çözüm önerilerini de-",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "FB.4.8.1",
+    "ad": ". Sürdürülebilir bir yaşam alanı kurmaya ilişkin bilimsel sorgulama yapabilme",
+    "sinif": 4,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 79
+  },
+  {
+    "kod": "FB.5.1.2.1",
+    "ad": ". Ay’ın özellikleri, dönme ve dolanma hareketleri ile ilgili bilimsel çıkarım",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "FB.5.1.2.2",
+    "ad": ". Ay’ın evrelerini temsil eden bilimsel model oluşturabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "FB.5.1.3.1",
+    "ad": ". Güneş, Dünya ve Ay’ın birbirlerine göre hareketlerini ve hacimsel büyüklüklerini",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "FB.5.2.1.1",
+    "ad": ". Kuvveti büyüklüğü ile tanımlayabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "FB.5.2.1.2",
+    "ad": ". Basit araç gereçler kullanarak bir dinamometre modeli tasarlayabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "FB.5.2.2.1",
+    "ad": ". Kütleye etki eden yer çekimi kuvvetini ağırlık olarak tanımlayabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "FB.5.2.3.1",
+    "ad": ". Sürtünme kuvvetinin çeşitli ortamlardaki etkilerine yönelik tümevarımsal akıl",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "FB.5.2.3.2",
+    "ad": ". Günlük yaşamda sürtünmeyi artırma veya azaltmaya yönelik bilimsel bir",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "FB.5.3.1.1",
+    "ad": ". Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "FB.5.3.1.2",
+    "ad": ". Hücre-doku-organ-sistem-organizma kavramlarını yapılandırabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "FB.5.3.2.1",
+    "ad": ". Destek ve hareket sistemine ait yapıları sınıflandırabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "FB.5.3.2.2",
+    "ad": ". Destek ve hareket sisteminin sağlığı için yapılması gerekenler konusunda bilgi",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 92
+  },
+  {
+    "kod": "FB.5.4.1.1",
+    "ad": ". Bir kaynaktan çıkan ışığın her yönde doğrusal bir yol izlediğini gözlem yoluyla",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "FB.5.4.2.1",
+    "ad": ". Maddeleri ışığı geçirme durumlarına göre sınıflandırabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "FB.5.4.3.1",
+    "ad": ". Tam gölgeye yönelik bilimsel gözlem yapabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "FB.5.5.1.1",
+    "ad": ". Maddeleri tanecikli, boşluklu ve hareketli yapısına göre sınıflandırabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 101
+  },
+  {
+    "kod": "FB.5.5.2.1",
+    "ad": ". Isı ve sıcaklık kavramlarını karşılaştırabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 101
+  },
+  {
+    "kod": "FB.5.5.2.2",
+    "ad": ". Sıcaklığı farklı olan sıvıların karıştırılması sonucu ısı alışverişi olduğuna yönelik",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 101
+  },
+  {
+    "kod": "FB.5.5.3.1",
+    "ad": ". Maddenin ısı etkisiyle hâl değiştirebileceğini bilimsel gözleme dayalı tahmin",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 101
+  },
+  {
+    "kod": "FB.5.5.4.1",
+    "ad": ". Maddeleri ısı iletimi bakımından sınıflandırabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 101
+  },
+  {
+    "kod": "FB.5.5.4.2",
+    "ad": ". Isı yalıtımını gösteren model oluşturabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 101
+  },
+  {
+    "kod": "FB.5.6.1.1",
+    "ad": ". Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "FB.5.6.1.2",
+    "ad": ". Şemasını çizdiği elektrik devresine uygun deney yapabilme",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "FB.5.6.2.1",
+    "ad": ". Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "FB.5.7.1.1",
+    "ad": ". Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "FB.5.7.1.2",
+    "ad": ". Kaynakların etkili kullanımı konusunda geri dönüşümün önemli olduğuna",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "FB.5.7.1.3",
+    "ad": ". Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini",
+    "sinif": 5,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "FB.6.1.1.1",
+    "ad": ". Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "FB.6.1.1.2",
+    "ad": ". Güneş sistemi ile ilgili bilimsel model oluşturabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "FB.6.1.2.1",
+    "ad": ". Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "FB.6.1.2.2",
+    "ad": ". Güneş ve Ay tutulması ile ilgili bilimsel model oluşturabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "FB.6.2.1.1",
+    "ad": ". Bir cisme etki eden aynı doğrultudaki kuvvetler arasındaki ilişkileri açıklayarak",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "FB.6.2.1.2",
+    "ad": ". Dengelenmiş ve dengelenmemiş kuvvetlerin etkisi altındaki bir cismin",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "FB.6.2.2.1",
+    "ad": ". Sürat ve hız kavramlarını karşılaştırabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "FB.6.3.1.1",
+    "ad": ". Eşeyli ve eşeysiz üremeyi karşılaştırabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.1.2",
+    "ad": ". Bitkilerde üreme, büyüme ve gelişme hakkında bilimsel çıkarım yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.1.3",
+    "ad": ". Tohumun çimlenmesine etki eden faktörlere ilişkin hipotez oluşturabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.1.4",
+    "ad": ". Hayvanlarda üreme, büyüme ve gelişme hakkında bilimsel çıkarım yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.1.5",
+    "ad": ". İnsanda üremeyi sağlayan yapı ve organlar arasındaki ilişkileri çözümleyebilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.2.1",
+    "ad": ". Sinir sisteminin görevlerini model üzerinde gözlemleyebilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.2.2",
+    "ad": ". İç salgı bezlerinin vücut için önemini yapılandırabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.2.3",
+    "ad": ". Çocukluktan ergenliğe geçişte oluşan bedensel ve ruhsal değişimleri",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.3.2.4",
+    "ad": ". Denetleyici ve düzenleyici sistemlerin sağlığı için yapılması gerekenlerle ilgili",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 123
+  },
+  {
+    "kod": "FB.6.4.1.1",
+    "ad": ". Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.4.1.2",
+    "ad": ". Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.4.2.1",
+    "ad": ". Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.4.3.1",
+    "ad": ". Işığın madde ile etkileşimi sonucunda soğurulabileceğini gözlemleyebilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.4.3.2",
+    "ad": ". Beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.4.3.3",
+    "ad": ". Cisimlerin siyah, beyaz ve renkli görünmesinin nedenini gözlem verileriyle",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.4.3.4",
+    "ad": ". Güneş enerjisinin günlük hayat ve teknolojideki yenilikçi uygulamalarına ilişkin",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 130
+  },
+  {
+    "kod": "FB.6.5.1.1",
+    "ad": ". Isı etkisiyle maddelerin genleşip büzüleceğine yönelik bilimsel gözleme dayalı",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 136
+  },
+  {
+    "kod": "FB.6.5.2.1",
+    "ad": ". Maddelerin erime, donma ve kaynama noktasını gösteren deney yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 136
+  },
+  {
+    "kod": "FB.6.5.3.1",
+    "ad": ". Yoğunluğa ilişkin hesaplamalar yaparak bilimsel veriye dayalı tahmin edebilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 136
+  },
+  {
+    "kod": "FB.6.5.3.2",
+    "ad": ". Deneyler sonucunda çeşitli maddelerin yoğunluklarına ilişkin tümdengelimsel",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 136
+  },
+  {
+    "kod": "FB.6.5.3.3",
+    "ad": ". Suyun katı ve sıvı hâllerine ait yoğunlukları karşılaştırarak bu durumun canlılar",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 136
+  },
+  {
+    "kod": "FB.6.5.3.4",
+    "ad": ". Yoğunluk ile ilgili bilimsel model oluşturabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 136
+  },
+  {
+    "kod": "FB.6.6.1.1",
+    "ad": ". Maddelerin elektriği iletme durumlarını gösteren deney yapabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 143
+  },
+  {
+    "kod": "FB.6.6.2.1",
+    "ad": ". Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenleri",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 143
+  },
+  {
+    "kod": "FB.6.6.2.2",
+    "ad": ". Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 143
+  },
+  {
+    "kod": "FB.6.7.1.1",
+    "ad": ". Biyoçeşitliliğin doğal yaşam için önemini sorgulayabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 147
+  },
+  {
+    "kod": "FB.6.7.1.2",
+    "ad": ". Biyoçeşitliliği tehdit eden faktörleri araştırma verilerine dayalı tahmin edebilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 147
+  },
+  {
+    "kod": "FB.6.7.2.1",
+    "ad": ". Isınma amaçlı yakıt kullanımının insan ve çevre üzerine etkilerini tartışabilme",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 147
+  },
+  {
+    "kod": "FB.6.7.2.2",
+    "ad": ". Yakın çevresindeki veya ülkemizdeki bir çevre problemine ilişkin çözüm",
+    "sinif": 6,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 147
+  },
+  {
+    "kod": "FB.7.1.1.1",
+    "ad": ". Uzay araştırmaları için geliştirilen teknolojileri karşılaştırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 152
+  },
+  {
+    "kod": "FB.7.1.1.2",
+    "ad": ". Uzay gözlem araçları ile ilgili bilimsel model oluşturabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 152
+  },
+  {
+    "kod": "FB.7.1.1.3",
+    "ad": ". Uzay araştırmalarının yol açabileceği problemleri çözebilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 152
+  },
+  {
+    "kod": "FB.7.1.2.1",
+    "ad": ". Yıldızların yaşamını açıklayarak yapılandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 152
+  },
+  {
+    "kod": "FB.7.1.2.2",
+    "ad": ". Yıldız, galaksi ve evren kavramlarını açıklayarak yapılandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 152
+  },
+  {
+    "kod": "FB.7.2.1.1",
+    "ad": ". Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 157
+  },
+  {
+    "kod": "FB.7.2.1.2",
+    "ad": ". Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 157
+  },
+  {
+    "kod": "FB.7.2.2.1",
+    "ad": ". Enerji dönüşümünden hareketle enerjinin korunduğu tümevarımsal akıl",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 157
+  },
+  {
+    "kod": "FB.7.3.1.1",
+    "ad": ". Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "FB.7.3.1.2",
+    "ad": ". Sindirim sisteminin sağlığı için yapılması gerekenler konusunda bilgi",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "FB.7.3.2.1",
+    "ad": ". Dolaşım sistemini oluşturan yapı ve organların görevlerini model üzerinde",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "FB.7.3.2.2",
+    "ad": ". Kan bağışının toplumsal dayanışma açısından önemini tartışabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "FB.7.3.2.3",
+    "ad": ". Dolaşım sisteminin sağlığı için yapılması gerekenler konusunda bilgi",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "FB.7.3.3.1",
+    "ad": ". Solunum sistemini oluşturan yapı ve organların görevlerini model üzerinde",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 161
+  },
+  {
+    "kod": "FB.7.3.3.2",
+    "ad": ". Solunum sisteminin sağlığı için yapılması gerekenler konusunda bilgi",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 162
+  },
+  {
+    "kod": "FB.7.3.4.1",
+    "ad": ". Boşaltım sistemini oluşturan yapı ve organları model üzerinde gözlemleyebilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 162
+  },
+  {
+    "kod": "FB.7.3.4.2",
+    "ad": ". Boşaltım sisteminin sağlığı için yapılması gerekenler konusunda bilgi",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 162
+  },
+  {
+    "kod": "FB.7.4.1.1",
+    "ad": ". Ortam değiştiren ışığın izlediği yolu gözlemleyerek kırılma olayına yönelik",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 170
+  },
+  {
+    "kod": "FB.7.4.2.1",
+    "ad": ". Mercek çeşitlerine yönelik bilimsel çıkarım yapabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 170
+  },
+  {
+    "kod": "FB.7.4.2.2",
+    "ad": ". Merceklerin günlük hayatta kullanım alanlarını örneklerle sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 170
+  },
+  {
+    "kod": "FB.7.5.1.1",
+    "ad": ". Atomun yapısını ve yapısındaki temel parçacıkları çözümleyebilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.1.2",
+    "ad": ". Geçmişten günümüze atom kavramı ile ilgili bilimsel bilgilerin değişebileceğini",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.1.3",
+    "ad": ". Farklı molekül modelleri oluşturabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.1.4",
+    "ad": ". Atomların elektron dizilimlerini yapılandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.2.1",
+    "ad": ". Saf maddeleri element ve bileşik olarak sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.2.2",
+    "ad": ". Periyodik tablodaki ilk 18 elementin isimlerini sembolleriyle ifade edebilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.2.3",
+    "ad": ". Periyodik tabloda grup ve periyotları karşılaştırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.2.4",
+    "ad": ". Bileşiklerin isimlerini formülleriyle yapılandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.3.1",
+    "ad": ". Karışımları homojen ve heterojen olarak sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.3.2",
+    "ad": ". Çözünme hızına etki eden faktörler ile ilgili hipotez oluşturabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 174
+  },
+  {
+    "kod": "FB.7.5.4.1",
+    "ad": ". Karışımları ayırmak için çeşitli deneyler yapabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 175
+  },
+  {
+    "kod": "FB.7.6.1.1",
+    "ad": ". Elektriklenme ile ilgili bilgi toplayabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 183
+  },
+  {
+    "kod": "FB.7.6.1.2",
+    "ad": ". Elektriklenme çeşitlerini belirlemeye yönelik deney yapabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 183
+  },
+  {
+    "kod": "FB.7.6.1.3",
+    "ad": ". Cisimlerin elektrik yüklerini sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 183
+  },
+  {
+    "kod": "FB.7.7.1.1",
+    "ad": ". Besin zincirindeki canlıları arasındaki ilişkileri yapılandırabilme",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 187
+  },
+  {
+    "kod": "FB.7.7.2.1",
+    "ad": ". Kaynakların tasarruflu kullanımının önemini sorgulayabilme.",
+    "sinif": 7,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 187
+  },
+  {
+    "kod": "FB.8.1.1.1",
+    "ad": ". Dünya’nın Güneş etrafındaki hareketi ve eksen eğikliğinin sonuçları ile ilgili",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 191
+  },
+  {
+    "kod": "FB.8.1.2.1",
+    "ad": ". İklim ve hava olaylarını karşılaştırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 191
+  },
+  {
+    "kod": "FB.8.2.1.1",
+    "ad": ". Basit makineleri sınıflandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 195
+  },
+  {
+    "kod": "FB.8.2.1.2",
+    "ad": ". Günlük yaşamda iş kolaylığı sağlayacak bilimsel model oluşturabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 195
+  },
+  {
+    "kod": "FB.8.3.1.1",
+    "ad": ". Nükleotid, gen, DNA ve kromozom kavramları arasındaki",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.1.2",
+    "ad": ". DNA’nın yapısını model üzerinde gözlemleyebilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.2.1",
+    "ad": ". Mitoz ve mayoz kavramları arasındaki ilişkiyi karşılaştırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.3.1",
+    "ad": ". Kalıtımla ilgili kavramları yapılandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.3.2",
+    "ad": ". Tek karakter çaprazlamaları ile ilgili problemler çözerek sonuçları",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.3.3",
+    "ad": ". Akraba evliliklerinin genetik sonuçlarını tartışabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.4.1",
+    "ad": ". Mutasyonla ilgili bilgi toplayabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.3.4.2",
+    "ad": ". Canlıların yaşadıkları çevreye uyumlarına ilişkin bilimsel çıkarım yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 199
+  },
+  {
+    "kod": "FB.8.4.1.1",
+    "ad": "Sesin oluşumuna yönelik bilimsel çıkarım yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 206
+  },
+  {
+    "kod": "FB.8.4.1.2",
+    "ad": ". Sesin yayılabildiği ortamlara yönelik deney yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 206
+  },
+  {
+    "kod": "FB.8.4.1.3",
+    "ad": ". Sesin frekansına göre ince veya kalın olarak işitilmesine neden olan ses",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 206
+  },
+  {
+    "kod": "FB.8.4.2.1",
+    "ad": ". Ses ile ilgili değişkenlerin işitmeye etkisi hakkında hipotez oluşturabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 206
+  },
+  {
+    "kod": "FB.8.4.2.2",
+    "ad": ". Farklı maddeler ile etkileşimi sonucunda sesin iletilmesi, yansıması ve",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 206
+  },
+  {
+    "kod": "FB.8.4.2.3",
+    "ad": ". Ses kirliliğini önlemeye yönelik bilimsel sorgulama yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 206
+  },
+  {
+    "kod": "FB.8.5.1.1",
+    "ad": ". Elementleri periyodik tablo üzerinde metal, ametal, yarımetal ve soy gaz",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.2.1",
+    "ad": ". Fiziksel ve kimyasal değişimler ile ilgili bilimsel gözleme dayalı tahmin edebilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.3.1",
+    "ad": ". Kimyasal tepkimelerle ilgili bilimsel çıkarım yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.3.2",
+    "ad": ". Kimyasal tepkimelerin günlük yaşamdaki etkilerine yönelik bilgi toplayabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.4.1",
+    "ad": ". Asit ve bazların genel özelliklerini karşılaştırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.4.2",
+    "ad": ". Maddelerin asit veya baz olduğunu çeşitli ayıraçlar kullanarak bilimsel",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.4.3",
+    "ad": ". Maddelerin asitlik ve bazlık durumlarına ilişkin “pH” değerlerini kullanarak",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.5.4.4",
+    "ad": ". Asit ve bazların çeşitli maddeler üzerindeki etkilerine yönelik deney yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 213
+  },
+  {
+    "kod": "FB.8.6.1.1",
+    "ad": ". Ampullerin bağlanma durumunun ampul parlaklığına etkisine yönelik deney",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.1.2",
+    "ad": ". Elektrik akımını tanımlayabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.1.3",
+    "ad": ". Bir devre elemanının uçları arasındaki potansiyel farkı (gerilimi) tanımlayabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.1.4",
+    "ad": ". Bir devre elemanının uçları arasındaki gerilim ile üzerinden geçen akım",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.1.5",
+    "ad": ". Özgün bir aydınlatma aracı modeli oluşturabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.2.1",
+    "ad": ". Elektrik enerjisinin dönüştüğü enerjileri sınıflandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.2.2",
+    "ad": ". Elektrik enerjisinin ısı, ışık, ses veya hareket enerjisine dönüşümüne yönelik",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.2.3",
+    "ad": ". Elektrik enerjisi üretim santrallerini sınıflandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.2.4",
+    "ad": ". Elektrik enerjisi üretim santrallerinin avantaj ve dezavantajlarını tartışabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 221
+  },
+  {
+    "kod": "FB.8.6.2.5",
+    "ad": ". Elektrik enerjisinin bilinçli ve tasarruflu kullanılmasının önemini tartışabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 222
+  },
+  {
+    "kod": "FB.8.7.1.1",
+    "ad": ". Bitkilerde besin üretiminde fotosentezin önemini yapılandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  },
+  {
+    "kod": "FB.8.7.1.2",
+    "ad": ". Fotosentez hızını etkileyen faktörler ile ilgili hipotez oluşturabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  },
+  {
+    "kod": "FB.8.7.1.3",
+    "ad": ". Canlılarda solunumun önemini yapılandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  },
+  {
+    "kod": "FB.8.7.2.1",
+    "ad": ". Madde döngülerini şema üzerinde bilimsel çıkarım yapabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  },
+  {
+    "kod": "FB.8.7.2.2",
+    "ad": ". Madde döngülerinin yaşam açısından önemini yapılandırabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  },
+  {
+    "kod": "FB.8.7.2.3",
+    "ad": ". Küresel iklim değişikliklerinin nedenlerini ve olası sonuçlarını tartışabilme",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  },
+  {
+    "kod": "FB.8.7.2.4",
+    "ad": ". Ülkemizdeki küresel iklim değişikliğinin sebep olduğu bir probleme yönelik",
+    "sinif": 8,
+    "ders": "Fen Bilimleri",
+    "brans_slug": "fen_bilimleri",
+    "kaynak_pdf": "2025825154137627-fen bilimleri.pdf",
+    "kaynak_sayfa": 229
+  }
+]

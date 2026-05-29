@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "ad": "Ogretmen Ders Okutma Kurallari",
+    "surum": "2026-05-23",
+    "amac": "Dersleri okul turu, sinif seviyesi, zorunlu/secmeli/alan durumu ve okutabilecek branslara gore modellemek.",
+    "kaynaklar": [
+      {
+        "ad": "MEB Mufredat Programlari",
+        "url": "https://mufredat.meb.gov.tr/Programlar.aspx",
+        "kullanim": "Ders/program adlari ve TYMM kapsam kontrolu"
+      },
+      {
+        "ad": "TTKB Ogretmenlik Alanlari, Atama ve Ders Okutma Esaslari - 9 sayili karar cizelgesi",
+        "url": "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf",
+        "kullanim": "Hangi alan ogretmenlerinin hangi dersleri okutabilecegine iliskin ana kaynak"
+      }
+    ],
+    "model_notu": "Mufredat listesi ders programlarini verir; ders okutma yetkisi icin TTKB alan/ders okutma esaslari ve okul turu/sinif seviyesi kurallari ayrica modellenmistir.",
+    "pratik_duzeltmeler": [
+      "Arapca dersleri uygulama ihtiyaci geregi Din Kulturu ve Ahlak Bilgisi alanina baglandi; TTKB cizelgesinde Arapca ayri bir ogretmenlik alani olarak bulunabildigi icin kaynak_notu alaninda belirtildi.",
+      "8. sinif T.C. Inkilap Tarihi ve Ataturkculuk dersi ortaokul/IHO icin Sosyal Bilgiler alanina baglandi.",
+      "Ilkokul 3-4 Fen Bilimleri ve 4. sinif Sosyal Bilgiler dersleri sinif ogretmeni kuralina ayrildi.",
+      "Secmeli dersler tek bir bransa kilitlenmeyip okutabilecek_branslar dizisiyle coklu alanlara acik modellendi."
+    ],
+    "okul_tipleri": {
+      "okul_oncesi": "Okul oncesi",
+      "ilkokul": "Ilkokul",
+      "ortaokul": "Ortaokul",
+      "iho": "Imam Hatip Ortaokulu",
+      "lise": "Ortaogretim / Lise",
+      "ihl": "Anadolu Imam Hatip Lisesi",
+      "gsl": "Guzel Sanatlar Lisesi",
+      "spor_ortaokulu": "Spor Ortaokulu",
+      "spor_lisesi": "Spor Lisesi",
+      "muzik_okulu": "Muzik Okulu",
+      "ozel_egitim": "Ozel Egitim"
+    },
+    "ders_turleri": {
+      "zorunlu": "Zorunlu/ortak ders",
+      "secmeli": "Secmeli ders",
+      "alan": "Okul turu veya alan dersi",
+      "destek": "Ozel egitim/destek dersi",
+      "paylasimli": "Birden fazla ogretmen alaninca yurutulebilen ders"
+    }
+  },
+  "branslar": [
+    { "id": "okul_oncesi", "ad": "Okul Oncesi Ogretmeni" },
+    { "id": "sinif_ogretmeni", "ad": "Sinif Ogretmeni" },
+    { "id": "turkce", "ad": "Turkce Ogretmeni" },
+    { "id": "turk_dili_edebiyati", "ad": "Turk Dili ve Edebiyati Ogretmeni" },
+    { "id": "matematik", "ad": "Matematik Ogretmeni" },
+    { "id": "fen_bilimleri", "ad": "Fen Bilimleri Ogretmeni" },
+    { "id": "sosyal_bilgiler", "ad": "Sosyal Bilgiler Ogretmeni" },
+    { "id": "tarih", "ad": "Tarih Ogretmeni" },
+    { "id": "cografya", "ad": "Cografya Ogretmeni" },
+    { "id": "felsefe", "ad": "Felsefe Grubu Ogretmeni" },
+    { "id": "fizik", "ad": "Fizik Ogretmeni" },
+    { "id": "kimya", "ad": "Kimya Ogretmeni" },
+    { "id": "biyoloji", "ad": "Biyoloji Ogretmeni" },
+    { "id": "yabanci_dil", "ad": "Yabanci Dil Ogretmeni" },
+    { "id": "din_kulturu", "ad": "Din Kulturu ve Ahlak Bilgisi Ogretmeni" },
+    { "id": "gorsel_sanatlar", "ad": "Gorsel Sanatlar Ogretmeni" },
+    { "id": "muzik", "ad": "Muzik Ogretmeni" },
+    { "id": "beden_egitimi", "ad": "Beden Egitimi ve Spor Ogretmeni" },
+    { "id": "bilisim_teknolojileri", "ad": "Bilisim Teknolojileri Ogretmeni" },
+    { "id": "teknoloji_tasarim", "ad": "Teknoloji ve Tasarim Ogretmeni" },
+    { "id": "rehber_ogretmen", "ad": "Rehber Ogretmen (PDR)" },
+    { "id": "ozel_egitim", "ad": "Ozel Egitim Ogretmeni" },
+    { "id": "turk_isaret_dili", "ad": "Turk Isaret Dili Ogretmeni" }
+  ],
+  "dersler": [
+    {
+      "id": "okul_oncesi",
+      "ad": "Okul Oncesi",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["okul_oncesi"], "siniflar": [], "tur": "zorunlu", "okutabilecek_branslar": ["okul_oncesi"] }
+      ]
+    },
+    {
+      "id": "turkce",
+      "ad": "Turkce",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [1, 2, 3, 4], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["turkce"] },
+        { "okul_tipleri": ["ozel_egitim"], "siniflar": [1, 2, 3], "tur": "destek", "okutabilecek_branslar": ["ozel_egitim", "turkce"] }
+      ]
+    },
+    {
+      "id": "turk_dili_ve_edebiyati",
+      "ad": "Turk Dili ve Edebiyati",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["turk_dili_edebiyati"] }
+      ]
+    },
+    {
+      "id": "matematik",
+      "ad": "Matematik",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [1, 2, 3, 4], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["matematik"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["matematik"] },
+        { "okul_tipleri": ["ozel_egitim"], "siniflar": [1, 2, 3], "tur": "destek", "okutabilecek_branslar": ["ozel_egitim", "matematik"] }
+      ]
+    },
+    {
+      "id": "hayat_bilgisi",
+      "ad": "Hayat Bilgisi",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [1, 2, 3], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"] }
+      ]
+    },
+    {
+      "id": "fen_bilimleri",
+      "ad": "Fen Bilimleri",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [3, 4], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"], "not": "Ilkokul 3-4. sinif Fen Bilimleri dersi sinif ogretmeni kuralina ayrildi." },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["fen_bilimleri"] }
+      ]
+    },
+    {
+      "id": "sosyal_bilgiler",
+      "ad": "Sosyal Bilgiler",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [4], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7], "tur": "zorunlu", "okutabilecek_branslar": ["sosyal_bilgiler"] }
+      ]
+    },
+    {
+      "id": "tc_inkilap_tarihi_ve_ataturkculuk",
+      "ad": "T.C. Inkilap Tarihi ve Ataturkculuk",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [8], "tur": "zorunlu", "okutabilecek_branslar": ["sosyal_bilgiler"], "not": "Pratik ve TTKB sosyal bilgiler alan okutma kapsamı esas alindi." },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [12], "tur": "zorunlu", "okutabilecek_branslar": ["tarih"] }
+      ]
+    },
+    {
+      "id": "tarih",
+      "ad": "Tarih",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11], "tur": "zorunlu", "okutabilecek_branslar": ["tarih"] }
+      ]
+    },
+    {
+      "id": "cografya",
+      "ad": "Cografya",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["cografya"] }
+      ]
+    },
+    {
+      "id": "felsefe",
+      "ad": "Felsefe",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [10, 11], "tur": "zorunlu", "okutabilecek_branslar": ["felsefe"] }
+      ]
+    },
+    {
+      "id": "fizik",
+      "ad": "Fizik",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["fizik"] }
+      ]
+    },
+    {
+      "id": "kimya",
+      "ad": "Kimya",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["kimya"] }
+      ]
+    },
+    {
+      "id": "biyoloji",
+      "ad": "Biyoloji",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["biyoloji"] }
+      ]
+    },
+    {
+      "id": "ingilizce",
+      "ad": "Ingilizce",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [2, 3, 4], "tur": "zorunlu", "okutabilecek_branslar": ["yabanci_dil"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["yabanci_dil"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["yabanci_dil"] }
+      ]
+    },
+    {
+      "id": "arapca",
+      "ad": "Arapca",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [2, 3, 4], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"], "kaynak_notu": "TTKB cizelgesinde Arapca ayri alan olarak yer alabilir; bu veritabani kullanici pratik kuralina gore DKAB'a baglamistir." },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "alan", "okutabilecek_branslar": ["din_kulturu"], "kaynak_notu": "Pratik kural: Arapca derslerine DKAB ogretmenleri girer." },
+        { "okul_tipleri": ["ihl"], "siniflar": [9, 10], "tur": "alan", "okutabilecek_branslar": ["din_kulturu"], "kaynak_notu": "Arapca ayri brans olarak tanimlanmadi; DKAB altinda tutuldu." }
+      ]
+    },
+    {
+      "id": "din_kulturu_ve_ahlak_bilgisi",
+      "ad": "Din Kulturu ve Ahlak Bilgisi",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [4], "tur": "zorunlu", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["din_kulturu"] }
+      ]
+    },
+    {
+      "id": "kurani_kerim",
+      "ad": "Kur'an-i Kerim",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["ihl"], "siniflar": [9, 10, 11, 12], "tur": "alan", "okutabilecek_branslar": ["din_kulturu"] }
+      ]
+    },
+    {
+      "id": "peygamberimizin_hayati",
+      "ad": "Peygamberimizin Hayati",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["ihl"], "siniflar": [9], "tur": "alan", "okutabilecek_branslar": ["din_kulturu"] }
+      ]
+    },
+    {
+      "id": "temel_dini_bilgiler",
+      "ad": "Temel Dini Bilgiler",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["din_kulturu"] },
+        { "okul_tipleri": ["ihl"], "siniflar": [9], "tur": "alan", "okutabilecek_branslar": ["din_kulturu"] }
+      ]
+    },
+    {
+      "id": "ihl_meslek_dersleri",
+      "ad": "Anadolu Imam Hatip Lisesi Meslek Dersleri",
+      "okutma_kurallari": [
+        { "ders_alt_adlari": ["Akaid", "Din Egitimi", "Dinler Tarihi", "Fikih", "Hadis", "Hitabet ve Mesleki Uygulama", "Islam Felsefesi", "Islam'da Cocuk Egitimi", "Kelam", "Kur'an'in Ana Konulari", "Siyer", "Tasavvuf Kulturu", "Tefsir"], "okul_tipleri": ["ihl"], "siniflar": [9, 10, 11, 12], "tur": "alan", "okutabilecek_branslar": ["din_kulturu"] },
+        { "ders_alt_adlari": ["Dini Musiki"], "okul_tipleri": ["ihl"], "siniflar": [9, 10, 11, 12], "tur": "alan", "okutabilecek_branslar": ["din_kulturu", "muzik"], "not": "IHL meslek dersi baglami ve muzik alani birlikte isaretlendi." },
+        { "ders_alt_adlari": ["Ebru", "Husnuhat", "Tezhip"], "okul_tipleri": ["ihl"], "siniflar": [9, 10, 11, 12], "tur": "alan", "okutabilecek_branslar": ["gorsel_sanatlar", "din_kulturu"], "not": "Geleneksel sanat icerigi nedeniyle Gorsel Sanatlar birincil, IHL baglami nedeniyle DKAB ikincil tutuldu." }
+      ]
+    },
+    {
+      "id": "gorsel_sanatlar",
+      "ad": "Gorsel Sanatlar",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [1, 2, 3, 4], "tur": "paylasimli", "okutabilecek_branslar": ["sinif_ogretmeni", "gorsel_sanatlar"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["gorsel_sanatlar"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["gorsel_sanatlar"] }
+      ]
+    },
+    {
+      "id": "muzik",
+      "ad": "Muzik",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [1, 2, 3, 4], "tur": "paylasimli", "okutabilecek_branslar": ["sinif_ogretmeni", "muzik"] },
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["muzik"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["muzik"] }
+      ]
+    },
+    {
+      "id": "beden_egitimi_ve_oyun",
+      "ad": "Beden Egitimi ve Oyun",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [1, 2, 3, 4], "tur": "paylasimli", "okutabilecek_branslar": ["sinif_ogretmeni", "beden_egitimi"] }
+      ]
+    },
+    {
+      "id": "beden_egitimi_ve_spor",
+      "ad": "Beden Egitimi ve Spor",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6, 7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["beden_egitimi"] },
+        { "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "zorunlu", "okutabilecek_branslar": ["beden_egitimi"] }
+      ]
+    },
+    {
+      "id": "bilisim_teknolojileri_ve_yazilim",
+      "ad": "Bilisim Teknolojileri ve Yazilim",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [5, 6], "tur": "zorunlu", "okutabilecek_branslar": ["bilisim_teknolojileri"] },
+        { "okul_tipleri": ["ortaokul", "lise"], "siniflar": [7, 8, 9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["bilisim_teknolojileri"] }
+      ]
+    },
+    {
+      "id": "teknoloji_ve_tasarim",
+      "ad": "Teknoloji ve Tasarim",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ortaokul", "iho"], "siniflar": [7, 8], "tur": "zorunlu", "okutabilecek_branslar": ["teknoloji_tasarim"] }
+      ]
+    },
+    {
+      "id": "insan_haklari_vatandaslik_ve_demokrasi",
+      "ad": "Insan Haklari, Vatandaslik ve Demokrasi",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [4], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"] }
+      ]
+    },
+    {
+      "id": "trafik_guvenligi",
+      "ad": "Trafik Guvenligi",
+      "okutma_kurallari": [
+        { "okul_tipleri": ["ilkokul"], "siniflar": [4], "tur": "zorunlu", "okutabilecek_branslar": ["sinif_ogretmeni"] }
+      ]
+    },
+    {
+      "id": "secmeli_sozel_dersler",
+      "ad": "Secmeli Sozel Dersler",
+      "okutma_kurallari": [
+        { "ders_alt_adlari": ["Okuma Becerileri", "Yazarlik ve Yazma Becerileri", "Masal ve Destanlarimiz", "Medya Okuryazarligi"], "okul_tipleri": ["ortaokul"], "siniflar": [5, 6, 7, 8], "tur": "secmeli", "okutabilecek_branslar": ["turkce"] },
+        { "ders_alt_adlari": ["Metin Tahlilleri", "Ortak Turk Edebiyati", "Osmanli Turkcesi"], "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["turk_dili_edebiyati"] }
+      ]
+    },
+    {
+      "id": "secmeli_sayisal_dersler",
+      "ad": "Secmeli Sayisal Dersler",
+      "okutma_kurallari": [
+        { "ders_alt_adlari": ["Matematik ve Bilim Uygulamalari"], "okul_tipleri": ["ortaokul"], "siniflar": [5, 6, 7, 8], "tur": "secmeli", "okutabilecek_branslar": ["matematik", "fen_bilimleri"] },
+        { "ders_alt_adlari": ["Matematik Uygulamalari", "Temel Matematik"], "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["matematik"] },
+        { "ders_alt_adlari": ["Astronomi ve Uzay Bilimleri"], "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["fizik"] },
+        { "ders_alt_adlari": ["Tip Bilimine Giris"], "okul_tipleri": ["lise"], "siniflar": [11, 12], "tur": "secmeli", "okutabilecek_branslar": ["biyoloji"] }
+      ]
+    },
+    {
+      "id": "secmeli_sosyal_dersler",
+      "ad": "Secmeli Sosyal Dersler",
+      "okutma_kurallari": [
+        { "ders_alt_adlari": ["Hukuk ve Adalet", "Sehrimiz", "Turk Sosyal Hayatinda Aile"], "okul_tipleri": ["ortaokul"], "siniflar": [5, 6, 7, 8], "tur": "secmeli", "okutabilecek_branslar": ["sosyal_bilgiler"] },
+        { "ders_alt_adlari": ["Cagdas Turk ve Dunya Tarihi", "Turk Kultur ve Medeniyet Tarihi", "Islam Bilim Tarihi"], "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["tarih"] },
+        { "ders_alt_adlari": ["Iklim, Cevre ve Yenilikci Cozumler"], "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["cografya"] },
+        { "ders_alt_adlari": ["Demokrasi ve Insan Haklari", "Mantik", "Psikoloji", "Sosyoloji", "Sosyal Bilim Calismalari", "Yonetim Bilimi"], "okul_tipleri": ["lise", "ihl"], "siniflar": [9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["felsefe"] }
+      ]
+    },
+    {
+      "id": "secmeli_sanat_spor_bilisim_dersleri",
+      "ad": "Secmeli Sanat Spor Bilisim Dersleri",
+      "okutma_kurallari": [
+        { "ders_alt_adlari": ["Sanat Egitimi", "Geleneksel Sanatlar", "Dijital Sanatlar"], "okul_tipleri": ["ortaokul", "lise", "ihl"], "siniflar": [5, 6, 7, 8, 9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["gorsel_sanatlar"] },
+        { "ders_alt_adlari": ["Halk Oyunlari", "Spor ve Fiziki Etkinlikler", "Takim Sporlari"], "okul_tipleri": ["ortaokul", "lise", "ihl"], "siniflar": [5, 6, 7, 8, 9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["beden_egitimi", "muzik"] },
+        { "ders_alt_adlari": ["Robotik Kodlama", "Yapay Zeka Uygulamalari"], "okul_tipleri": ["ortaokul", "lise"], "siniflar": [5, 6, 7, 8, 9, 10, 11, 12], "tur": "secmeli", "okutabilecek_branslar": ["bilisim_teknolojileri"] }
+      ]
+    },
+    {
+      "id": "ozel_egitim_beceri_dersleri",
+      "ad": "Ozel Egitim Beceri Dersleri",
+      "okutma_kurallari": [
+        { "ders_alt_adlari": ["Bagimsiz Yasam Becerileri", "Hayat Bilgisi ve Gunluk Yasam Becerileri", "Iletisim Becerileri", "Saglikli Yasam ve Guvenlik Becerileri", "Sosyal Beceriler", "Toplumsal Uyum Becerileri", "Temel Yasam Becerileri"], "okul_tipleri": ["ozel_egitim"], "siniflar": [1, 2, 3], "tur": "destek", "okutabilecek_branslar": ["ozel_egitim"] },
+        { "ders_alt_adlari": ["Turk Isaret Dili"], "okul_tipleri": ["ozel_egitim", "ilkokul"], "siniflar": [1, 2, 3], "tur": "destek", "okutabilecek_branslar": ["turk_isaret_dili", "ozel_egitim"] }
+      ]
+    }
+  ]
+}

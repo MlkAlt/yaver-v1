@@ -1,0 +1,630 @@
+{
+  "ders": "KUR'AN-I KERİM DERSİ",
+  "siniflar": [
+    {
+      "sinif": 5,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "KK.5.1.2.",
+          "kazanim": "Harfleri telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Harflerin telaffuz özelliklerini algılar.",
+            "b) Harflerin telaffuz özelliklerini belirler.",
+            "c) Harfleri telaffuz özelliklerine göre tekrarlar. ç) Harfleri doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.5.1.3.",
+          "kazanim": "Harfleri yazabilme"
+        },
+        {
+          "kod": "KK.5.1.4.",
+          "kazanim": "Harfleri harekelerle telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Harekelerin telaffuz özelliklerini algılar.",
+            "b) Harekelerin telaffuz özelliklerini belirler.",
+            "c) Harekeleri telaffuz özelliklerine göre tekrarlar. ç) Harekeleri doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.5.1.5.",
+          "kazanim": "Sübhaneke duası ve Rabbena dualarının anlamlarını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Sübhaneke duası ve Rabbena dualarının anlamlarını inceler.",
+            "b) Sübhaneke duası ve Rabbena dualarını kendi hayatı için anlamlı hâle getirir.",
+            "c) Sübhaneke duası ve Rabbena dualarının anlamlarını değiştirmeyecek şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "KK.5.1.6.",
+          "kazanim": "Sübhaneke duası ve Rabbena dualarını ezbere okuyabilme",
+          "alt_kazanimlar": [
+            "a) Sübhaneke duası ve Rabbena dualarını dinler.",
+            "b) Dinlediği bölümleri tekrar eder.",
+            "c) Sübhaneke duası ve Rabbena dualarını tecvit kurallarına göre ezberden okur. ç) Sübhaneke duası ve Rabbena dualarını toplum önünde ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.5.2.2.",
+          "kazanim": "Tenvini telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Tenvinin telaffuz özelliklerini algılar.",
+            "b) Tenvinin telaffuz özelliklerini belirler.",
+            "c) Tenvini telaffuz özelliklerine göre tekrarlar. ç) Tenvini doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.5.2.3.",
+          "kazanim": "Tahiyyat duasının anlamını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Tahiyyat duasının anlamını inceler.",
+            "b) Tahiyyat duasını kendi hayatı için anlamlı hâle getirir.",
+            "c) Tahiyyat duasını anlamını değiştirmeyecek şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "KK.5.2.4.",
+          "kazanim": "Tahiyyat duasını ezbere okuyabilme",
+          "alt_kazanimlar": [
+            "a) Tahiyyat duasını dinler.",
+            "b) Dinlediği bölümleri tekrar eder.",
+            "c) Tahiyyat duasını tecvit kurallarına göre ezberden okur. ç) Tahiyyat duasını toplum önünde ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.5.3.2.",
+          "kazanim": "Okunuşla ilgili özel durumları telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Okunuşla ilgili özel durumların telaffuz özelliklerini algılar.",
+            "b) Okunuşla ilgili özel durumların telaffuz özelliklerini belirler.",
+            "c) Okunuşla ilgili özel durumları telaffuz özelliklerine göre tekrarlar. ç) Okunuşla ilgili özel durumları doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.5.3.3.",
+          "kazanim": "Fatiha suresinin ve Bakara suresinin 1-24. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Fatiha suresinin ve Bakara suresinin 1-24. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Fatiha suresinin ve Bakara suresinin 1-24. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Fatiha suresinin ve Bakara suresinin 1-24. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Fatiha suresinin ve Bakara suresinin 1-24. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.5.3.4.",
+          "kazanim": "Fatiha suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Fatiha suresinin mealini bulur.",
+            "b) Fatiha suresinde geçen konuları belirler.",
+            "c) Fatiha suresinin ayetlerini içeriğine göre sınıflandırır. ç) Fatiha suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Fatiha suresinin ayetleriyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.5.3.5.",
+          "kazanim": "Fatiha suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Fatiha suresini doğru bir şekilde telaffuz eder.",
+            "b) Fatiha suresini usulüne uygun yüzünden okur.",
+            "c) Fatiha suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.5.4.2.",
+          "kazanim": "Bakara suresinin 25-83. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 25-83. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 25-83. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 25-83. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 25-83. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.5.4.3.",
+          "kazanim": "Şuara suresinin 83-85. ayetlerinde Kur’an-ı Kerim meallerine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Şuara suresinin 83-85. ayetlerinin mealini bulur.",
+            "b) Şuara suresinin 83-85. ayetlerinde geçen konuları belirler.",
+            "c) Şuara suresinin 83-85. ayetlerini içeriklerine göre sınıflandırır. ç) Şuara suresinin 83-85. ayetlerinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Şuara suresinin 83-85. ayetleriyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.5.4.4.",
+          "kazanim": "İhlas ve Kevser surelerinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) İhlas ve Kevser surelerinin mealini bulur.",
+            "b) İhlas ve Kevser surelerinde geçen konuları belirler.",
+            "c) İhlas ve Kevser surelerinin ayetlerini içeriklerine göre sınıflandırır. ç) İhlas ve Kevser surelerinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) İhlas ve Kevser sureleriyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.5.4.5.",
+          "kazanim": "İhlas ve Kevser surelerini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) İhlas ve Kevser surelerini doğru bir şekilde telaffuz eder.",
+            "b) İhlas ve Kevser surelerini usulüne uygun yüzünden okur.",
+            "c) İhlas ve Kevser surelerini usulüne uygun ezbere okur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 6,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "KK.6.1.2.",
+          "kazanim": "Kur’an-ı Kerim’in peltek harflerini telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Peltek harflerin özelliklerini algılar.",
+            "b) Peltek harflerin özelliklerini belirler.",
+            "c) Peltek harfleri özelliklerine göre tekrarlar. ç) Peltek harfleri doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.6.1.3.",
+          "kazanim": "Bakara suresinin 84-105. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 84-105. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 84-105. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 84-105. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 84-105. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.6.1.4.",
+          "kazanim": "Salli ve Barik dualarının anlamlarını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Salli ve Barik dualarının anlamlarını inceler.",
+            "b) Salli ve Barik dualarını kendi hayatı için anlamlı hâle getirir.",
+            "c) Salli ve Barik dualarının anlamlarını değişmeyecek şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "KK.6.1.5.",
+          "kazanim": "Salli ve Barik dualarını ezbere okuyabilme",
+          "alt_kazanimlar": [
+            "a) Salli ve Barik dualarını okur.",
+            "b) Okuduğu bölümleri tekrar eder.",
+            "c) Salli ve Barik dualarını tecvit kurallarına göre ezberden okur. ç) Salli ve Barik dualarını toplum önünde ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.6.2.2.",
+          "kazanim": "Bakara suresinin 106-134. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 106-134. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin106-134. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 106-134. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 106-134. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.6.2.3.",
+          "kazanim": "Hz. Yunus’un imtihanı kıssasını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Hz. Yunus’un imtihanı kıssasında geçen olayları belirler.",
+            "b) Hz. Yunus’un imtihanı kıssasında geçen olaylar arasında ilişki kurar."
+          ]
+        },
+        {
+          "kod": "KK.6.2.4.",
+          "kazanim": "Kureyş suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Kureyş suresinin mealini bulur.",
+            "b) Kureyş suresinde geçen konuları belirler.",
+            "c) Kureyş suresinin ayetlerini içeriklerine göre sınıflandırır. ç) Kureyş suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Kureyş suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.6.2.5.",
+          "kazanim": "Kureyş suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Kureyş suresini doğru bir şekilde telaffuz eder.",
+            "b) Kureyş suresini usulüne uygun yüzünden okur.",
+            "c) Kureyş suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.6.3.2.",
+          "kazanim": "Bakara suresinin 135-163. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 135-163. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 135-163. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 135-163. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 135-163. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.6.3.3.",
+          "kazanim": "Ankebut suresinin 41. ayetiyle ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Ankebut suresinin 4 1. ayetiyle ilgili bilgi toplayacağı araçları araştırır.",
+            "b) Ankebut suresinin 4 1. ayetiyle ilgili bilgileri bulur.",
+            "c) Ankebut suresinin 4 1. ayetiyle ilgili ulaşılan bilgileri doğrular. ç) Ankebut suresinin 4 1. ayetiyle ilgili ulaşılan bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "KK.6.3.4.",
+          "kazanim": "Felak suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Felak suresinin mealini bulur.",
+            "b) Felak suresinde geçen konuları belirler.",
+            "c) Felak suresinin ayetlerini içeriklerine göre sınıflandırır. ç) Felak suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Felak suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.6.3.5.",
+          "kazanim": "Felak suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Felak suresini doğru bir şekilde telaffuz eder.",
+            "b) Felak suresini usulüne uygun yüzünden okur.",
+            "c) Felak suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.6.4.2.",
+          "kazanim": "Yasin suresini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Yasin suresinin ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Yasin suresinin ayetlerinin tecvit kurallarını açıklar.",
+            "c) Yasin suresinin ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Yasin suresinin ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.6.4.3.",
+          "kazanim": "Enbiya suresi 87. ayetinde Kur’an-ı Kerim meallerine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Enbiya suresi 87. ayetinin mealini bulur.",
+            "b) Enbiya suresi 87. ayetinde geçen konuları/konuyu belirler.",
+            "c) Enbiya suresi 87. ayetini içeriklerine göre sınıflandırır. ç) Enbiya suresi 87. ayet meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Enbiya suresi 87. ayetiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.6.4.4.",
+          "kazanim": "Nâs suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Nâs suresinin mealini bulur.",
+            "b) Nâs suresinde geçen konuları belirler.",
+            "c) Nâs suresinin ayetlerini içeriklerine göre sınıflandırır. ç) Nâs suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Nâs suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.6.4.5.",
+          "kazanim": "Nâs suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Nâs suresini doğru bir şekilde telaffuz eder.",
+            "b) Nâs suresini usulüne uygun yüzünden okur.",
+            "c) Nâs suresini usulüne uygun ezbere okur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 7,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "KK.7.1.2.",
+          "kazanim": "Durakları Kur’an-ı Kerim’den bulabilme"
+        },
+        {
+          "kod": "KK.7.1.3.",
+          "kazanim": "Boğaz harflerini telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Boğaz harflerinin telaffuz özelliklerini algılar.",
+            "b) Boğaz harflerinin telaffuz özelliklerini belirler.",
+            "c) Boğaz harflerini telaffuz özelliklerine göre tekrarlar. ç) Boğaz harflerini doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.7.1.4.",
+          "kazanim": "Bakara suresinin 164-186. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 164-186. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 164-186. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 164-186. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 164-186. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.7.1.5.",
+          "kazanim": "Kunut dualarının anlamlarını yorumlayabilme",
+          "alt_kazanimlar": [
+            "a) Kunut dualarının anlamlarını inceler.",
+            "b) Kunut dualarını kendi hayatı için anlamlı hâle getirir.",
+            "c) Kunut dualarını anlamlarını değiştirmeyecek şekilde yeniden ifade eder."
+          ]
+        },
+        {
+          "kod": "KK.7.1.6.",
+          "kazanim": "Kunut dualarını ezbere okuyabilme",
+          "alt_kazanimlar": [
+            "a) Kunut dualarını okur.",
+            "b) Okuduğu bölümleri tekrar eder.",
+            "c) Kunut dualarını tecvit kurallarına göre ezberden okur. ç) Kunut dualarını toplum önünde ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.7.2.2.",
+          "kazanim": "Sakin mimi sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Sakin mimi öğretmen rehberliğinde belirler.",
+            "b) Sakin mimden sonra gelen harfleri ayrıştırır.",
+            "c) Sakin mimden sonra gelen harfleri tasnif eder. ç) Kur’an-ı Kerim’de okuduğu bölümlerden sakin mimi etiketler."
+          ]
+        },
+        {
+          "kod": "KK.7.2.3.",
+          "kazanim": "Bakara suresinin 187-210. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 187-210. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 187-210. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 187-210. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 187-210. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.7.2.4.",
+          "kazanim": "Yeniden dirilme kıssasını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Yeniden dirilme kıssasında geçen olayları belirler.",
+            "b) Yeniden dirilme kıssasında geçen olaylar arasında ilişki kurar."
+          ]
+        },
+        {
+          "kod": "KK.7.2.5.",
+          "kazanim": "Fil suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Fil suresinin mealini bulur.",
+            "b) Fil suresinde geçen konuları belirler.",
+            "c) Fil suresinin ayetlerini içeriklerine göre sınıflandırır. ç) Fil suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Fil suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.7.2.6.",
+          "kazanim": "Fil suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Fil suresini doğru bir şekilde telaffuz eder.",
+            "b) Fil suresini usulüne uygun yüzünden okur.",
+            "c) Fil suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.7.3.2.",
+          "kazanim": "Bakara suresinin 211-230. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 211-230. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 211-230. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 211-230. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 211-230. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.7.3.3.",
+          "kazanim": "Nahl suresinin 68-69. ayetleriyle ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Nahl suresinin 68-69. ayetleriyle ilgili bilgi toplayacağı araçları araştırır.",
+            "b) Nahl suresinin 68-69. ayetleriyle ilgili bilgileri bulur.",
+            "c) Nahl suresinin 68-69. ayetleriyle ilgili ulaşılan bilgileri doğrular. ç) Nahl suresinin 68-69. ayetleriyle ilgili ulaşılan bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "KK.7.3.4.",
+          "kazanim": "Nasr suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Nasr suresinin mealini bulur.",
+            "b) Nasr suresinde geçen konuları belirler.",
+            "c) Nasr suresinin ayetlerini içeriklerine göre sınıflandırır. ç) Nasr suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Nasr suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.7.3.5.",
+          "kazanim": "Nasr suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Nasr suresini doğru bir şekilde telaffuz eder.",
+            "b) Nasr suresini usulüne uygun yüzünden okur.",
+            "c) Nasr suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.7.4.2.",
+          "kazanim": "Duha-Hümeze dâhil sureleri yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Duha-Hümeze dâhil surelerin ayetlerindeki harfleri mahreçlerine uygun olarak telaffuz eder.",
+            "b) Duha-Hümeze dâhil surelerin tecvit kurallarını açıklar.",
+            "c) Duha-Hümeze dâhil surelerin tecvit kurallarını metin içinde fark eder. ç) Duha-Hümeze dâhil surelerin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.7.4.3.",
+          "kazanim": "Taha suresinin 25-35. ayetlerinde Kur’an-ı Kerim meallerine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Taha suresinin 25-35. ayetlerinin mealini bulur.",
+            "b) Taha suresinin 25-35. ayetlerinde geçen konuları belirler.",
+            "c) Taha suresinin 25-35. ayetlerini içeriklerine göre sınıflandırır. ç) Taha suresinin 25-35. ayet meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Taha suresinin 25-35. ayetleri ile ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.7.4.4.",
+          "kazanim": "Tebbet suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Tebbet suresinin mealini bulur.",
+            "b) Tebbet suresinde geçen konuları belirler.",
+            "c) Tebbet suresinin ayetlerini içeriklerine göre sınıflandırır. ç) Tebbet suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Tebbet suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.7.4.5.",
+          "kazanim": "Tebbet suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Tebbet suresini doğru bir şekilde telaffuz eder.",
+            "b) Tebbet suresini usulüne uygun yüzünden okur.",
+            "c) Tebbet suresini usulüne uygun ezbere okur."
+          ]
+        }
+      ]
+    },
+    {
+      "sinif": 8,
+      "kademe": "2. Kademe (Ortaokul)",
+      "kazanimlar": [
+        {
+          "kod": "KK.8.1.2.",
+          "kazanim": "Kur’an-ı Kerim’deki secde ayetlerini bulabilme"
+        },
+        {
+          "kod": "KK.8.1.3.",
+          "kazanim": "Dil ve dudak harflerini telaffuz edebilme",
+          "alt_kazanimlar": [
+            "a) Dil ve dudak harflerinin telaffuz özelliklerini algılar.",
+            "b) Dil ve dudak harflerinin telaffuz özelliklerini belirler.",
+            "c) Dil ve dudak harflerini telaffuz özelliklerine göre tekrarlar. ç) Dil ve dudak harflerini doğru bir şekilde telaffuz eder."
+          ]
+        },
+        {
+          "kod": "KK.8.1.4.",
+          "kazanim": "Bakara suresinin 231-248. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 231-248. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 231-248. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 231-248. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 231-248. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.8.1.5.",
+          "kazanim": "Bakara suresinin 255. ayetinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 255. ayetinin mealini bulur.",
+            "b) Bakara suresinin 255. ayetinde geçen konuları belirler.",
+            "c) Bakara suresinin 255. ayetini içeriklerine göre sınıflandırır. ç) Bakara suresinin 255. ayetinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Bakara suresinin 255. ayetiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.8.1.6.",
+          "kazanim": "Bakara suresinin 255. ayetini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 255. ayetini doğru bir şekilde telaffuz eder.",
+            "b) Bakara suresinin 255. ayetini usulüne uygun yüzünden okur.",
+            "c) Bakara suresinin 255. ayetini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.8.2.2.",
+          "kazanim": "Bakara suresinin 249-264. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 249-264. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 249-264. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 249-264. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 249-264. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.8.2.3.",
+          "kazanim": "Ashabıkehf kıssasını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Ashabıkehf kıssasında geçen olayları belirler.",
+            "b) Ashabıkehf kıssasında geçen olaylar arasında ilişki kurar."
+          ]
+        },
+        {
+          "kod": "KK.8.2.4.",
+          "kazanim": "Kâfirun suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Kâfirun suresinin mealini bulur.",
+            "b) Kâfirun suresinde geçen konuları belirler.",
+            "c) Kâfirun suresini içeriklerine göre sınıflandırır. ç) Kâfirun suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Kâfirun suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.8.2.5.",
+          "kazanim": "Kâfirun suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Kâfirun suresini doğru bir şekilde telaffuz eder.",
+            "b) Kâfirun suresini usulüne uygun yüzünden okur.",
+            "c) Kâfirun suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.8.3.2.",
+          "kazanim": "Bakara suresinin 265-282. ayetlerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 265-282. ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Bakara suresinin 265-282. ayetlerinin tecvit kurallarını açıklar.",
+            "c) Bakara suresinin 265-282. ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Bakara suresinin 265-282. ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.8.3.3.",
+          "kazanim": "Bakara suresinin 67-73. ayetleriyle ilgili bilgi toplayabilme",
+          "alt_kazanimlar": [
+            "a) Bakara suresinin 67-73. ayetleriyle ilgili bilgi toplayacağı araçları araştırır.",
+            "b) Bakara suresinin 67-73. ayetleriyle ilgili bilgileri bulur.",
+            "c) Bakara suresinin 67-73. ayetleriyle ilgili ulaşılan bilgileri doğrular. ç) Bakara suresinin 67-73. ayetleriyle ilgili ulaşılan bilgileri kaydeder."
+          ]
+        },
+        {
+          "kod": "KK.8.3.4.",
+          "kazanim": "Maun suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Maun suresinin mealini bulur.",
+            "b) Maun suresinde geçen konuları belirler.",
+            "c) Maun suresini içeriklerine göre sınıflandırır. ç) Maun suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Maun suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.8.3.5.",
+          "kazanim": "Maun suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Maun suresini doğru bir şekilde telaffuz eder.",
+            "b) Maun suresini usulüne uygun yüzünden okur.",
+            "c) Maun suresini usulüne uygun ezbere okur."
+          ]
+        },
+        {
+          "kod": "KK.8.4.2.",
+          "kazanim": "Fetih ve Hucurat surelerini yüzünden okuyabilme",
+          "alt_kazanimlar": [
+            "a) Fetih ve Hucurat surelerinin ayetlerinin harflerini mahreçlerine uygun olarak telaffuz eder.",
+            "b) Fetih ve Hucurat surelerinin ayetlerinin tecvit kurallarını açıklar.",
+            "c) Fetih ve Hucurat surelerinin ayetlerinin tecvit kurallarını metin içinde fark eder. ç) Fetih ve Hucurat surelerinin ayetlerinin tecvit kurallarını uygular."
+          ]
+        },
+        {
+          "kod": "KK.8.4.3.",
+          "kazanim": "Enbiya suresi 83. ayetinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Enbiya suresinin 83. ayetinin mealini bulur.",
+            "b) Enbiya suresinin 83. ayette geçen konuları belirler.",
+            "c) Enbiya suresinin 83. ayetini içeriklerine göre sınıflandırır. ç) Enbiya suresinin 83. ayet meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Enbiya Suresi 83. ayetiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.8.4.4.",
+          "kazanim": "Asr suresinin anlamında Kur’an-ı Kerim mealine başvurabilme",
+          "alt_kazanimlar": [
+            "a) Asr suresinin mealini bulur.",
+            "b) Asr suresinde geçen konuları belirler.",
+            "c) Asr suresini içeriklerine göre sınıflandırır. ç) Asr suresinin meali doğrultusunda konularla ilgili çıkarım yapar.",
+            "d) Asr suresiyle ilgili yaptığı çıkarımlara durumlarda yer verir."
+          ]
+        },
+        {
+          "kod": "KK.8.4.5.",
+          "kazanim": "Asr suresini tilavet edebilme",
+          "alt_kazanimlar": [
+            "a) Asr suresini doğru bir şekilde telaffuz eder.",
+            "b) Asr suresini usulüne uygun yüzünden okur.",
+            "c) Asr suresini usulüne uygun ezbere okur."
+          ]
+        }
+      ]
+    }
+  ]
+}

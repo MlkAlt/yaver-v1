@@ -1,0 +1,902 @@
+[
+  {
+    "kod": "DKAB.4.1.1",
+    "ad": ". Günlük hayatta kullanılan dinî DKAB.4.1.1.",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "DKAB.4.1.2",
+    "ad": ". İslam’ın temizliğe verdiği önemi müşahede edebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "DKAB.4.1.3",
+    "ad": ". Allah’a (cc) şükrün önemini hayatına yansıtabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "DKAB.4.1.4",
+    "ad": ". İslam’a göre helal ve sağlıklı beslenmenin önemi konusunda bilgi",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "DKAB.04.1.5",
+    "ad": ". Sübhaneke duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "DKAB.4.1.5",
+    "ad": "4 Öğrencilere “Sübhaneke duası hakkında neler biliyorsunuz?” sorusu yöneltilir. Bu duanın",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 19
+  },
+  {
+    "kod": "DKAB.4.2.1",
+    "ad": ". Allah’ın (cc) birliğini ve yüceliğini kavrayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "DKAB.4.2.2",
+    "ad": ". Allah’ın (cc) kullarına olan sevgisini müşahede edeb-ilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "DKAB.4.2.3",
+    "ad": ". Dua etme ihtiyacı konusunda analitik düşünebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "DKAB.4.2.4",
+    "ad": ". Kelimeitevhit ve kelimeişehadet hakkında bilgi toplayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "DKAB.4.2.5",
+    "ad": ". Amentü duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 22
+  },
+  {
+    "kod": "DKAB.4.3.1",
+    "ad": ". Peygamberlerin çocuk sevgisiyle ilgili naklî delilleri kullanabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "DKAB.4.3.2",
+    "ad": ". Peygamberlerin toplumlarına olan sevgisini idrak edebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "DKAB.4.3.3",
+    "ad": ". Peygamberlerin çevre sevgisine ilişkin akıl yürütebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "DKAB.4.3.4",
+    "ad": ". Peygamberler in çalışmayı sevdiğine dair çıkarım yapabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "DKAB.4.3.5",
+    "ad": ". Salli ve Barik dualarını ve bu duaların anlamlarını okuyarak yorumlayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "DKAB.4.4.1",
+    "ad": ". Adaletli davranmayı sorgulayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "DKAB.4.4.2",
+    "ad": ". Sabır değerinin önemini yapılandırabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "DKAB.4.4.3",
+    "ad": ". Yardımseverliğin insan ilişkilerindeki rolünü ve önemini müşahede edebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "DKAB.4.4.4",
+    "ad": ". Fatiha suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "DKAB.4.40.2",
+    "ad": "Sabır kavramı tanımlanarak konu hakkında bilgi verilir. Sabrın duygu, düşünce ve davranışlarda",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 32
+  },
+  {
+    "kod": "DKAB.4.5.1",
+    "ad": ". Kişisel hakları sentezleyebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "DKAB.4.5.2",
+    "ad": ". Mahremiyeti anlayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "DKAB.4.5.3",
+    "ad": ". İnsanlara karşı sorumluluklarını özetleyebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "DKAB.4.5.4",
+    "ad": ". Allah’a (cc) karş5ı sorumluluklarını çözümleyebilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "DKAB.4.5.5",
+    "ad": ". Rabbena dualarını ve bu duaların anlamlarını okuyarak yorumlayabilme",
+    "sinif": 4,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 35
+  },
+  {
+    "kod": "DKAB.5.1.1",
+    "ad": ". Evrendeki mükemmel düzene ilişkin akıl yürütebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "DKAB.5.1.2",
+    "ad": ". Evrendeki mükemmel düzenden hareketle Allah’ın (cc) varlığı ve birliğini",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "DKAB.5.1.3",
+    "ad": ". Allah’ın (cc) güzel isimlerini bağlamına uygun kullanabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "DKAB.5.1.4",
+    "ad": ". İhlas suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 40
+  },
+  {
+    "kod": "DKAB.5.2.1",
+    "ad": ". Namaz ibadetini özetleyebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 44
+  },
+  {
+    "kod": "DKAB.5.2.2",
+    "ad": ". Namazın kılınışını gözlemleyebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 44
+  },
+  {
+    "kod": "DKAB.5.2.3",
+    "ad": ". Namazın insana kazandırdıkları konusunda analitik düşünebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 44
+  },
+  {
+    "kod": "DKAB.5.2.4",
+    "ad": ". Tahiyyat duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 44
+  },
+  {
+    "kod": "DKAB.5.3.1",
+    "ad": ". Kur’an-ı Kerim’in iç düzenini çözümleyebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "DKAB.5.3.2",
+    "ad": ". Kur’an-ı Kerim’in temel özellikleri hakkında bilgi toplayabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "DKAB.5.3.3",
+    "ad": ". Kur’an-ı Kerim’in ana konuları hakkında ayet meallerine başvurabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "DKAB.5.3.4",
+    "ad": ". Kevser suresini4 ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "DKAB.5.4.1",
+    "ad": ". Peygamberlikle ilgili naklî delilleri kullanabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "DKAB.5.4.2",
+    "ad": ". Peygamber kıssalarında verilen öğütleri sentezleyebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "DKAB.5.4.3",
+    "ad": ". Kureyş suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "DKAB.5.5.1",
+    "ad": ". Dinin mimarimize etkisini çözümleyebilme",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "DKAB.5.5.2",
+    "ad": ". Camilerin bölümlerini sınıflandırabilme -",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "DKAB.5.5.3",
+    "ad": ". Kültürümüzde yer alan cami örneklerinin özellikleriyle ilgili mukayese",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "DKAB.5.52.3",
+    "ad": "İslam 0kültüründe öne çıkan cami örnekleri (Mescid-i Haram, Mescid-i Nebevi ve Mescid-i",
+    "sinif": 5,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "DKAB.6.1.1",
+    "ad": ". Peygamberlerin insanlara rehber olarak gönderilmesi hakkında bilgi",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "DKAB.6.1.2",
+    "ad": ". Vahyin gönderiliş amacını idrak edebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "DKAB.6.1.3",
+    "ad": ". İlahi kitaplarla ilgili bilgileri çö7zümleyebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "DKAB.6.1.4",
+    "ad": ". Felak suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "DKAB.6.2.1",
+    "ad": ". Ramazan ayının oruç ve Kur’an ayı olduğunu çözümleyebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "DKAB.6.2.2",
+    "ad": ". Oruç ibadeti hakkında bilgi toplayabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "DKAB.6.2.3",
+    "ad": ". Orucun insana kazandırdıkları ko1nusunda analitik düşünebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "DKAB.6.2.4",
+    "ad": ". İftar duasını ve bu duanın anlamını okuyarak yorumlayabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "DKAB.6.3.1",
+    "ad": ". Doğru sözlü olmayı kendi hayatına yansıtabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "DKAB.6.3.2",
+    "ad": ". Merhamet kavramını ayırt edebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "DKAB.6.3.3",
+    "ad": ". Adap ve nezaket kurallarını özetleyebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "DKAB.6.3.4",
+    "ad": ". Vatanını sevmenin öne0mi hakkında çıkarım yapabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "DKAB.6.3.5",
+    "ad": ". Kunut dualarını ve bu duaların anlamlarını okuyarak yorumlayabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 68
+  },
+  {
+    "kod": "DKAB.6.4.1",
+    "ad": ". Hz. Muhammed’in (sav) doğduğu çevreyi tarihsel bağlamda",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 73
+  },
+  {
+    "kod": "DKAB.6.4.2",
+    "ad": ". Hz. Muhammed’in (sav) çocukluk yıl2ları hakkında verilen bilgileri",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 73
+  },
+  {
+    "kod": "DKAB.6.4.3",
+    "ad": ". Hz. Muhammed’in (sav) gençlik yılları hakkında verilen bilgileri",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 73
+  },
+  {
+    "kod": "DKAB.6.4.4",
+    "ad": ". Fil sures-ini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 73
+  },
+  {
+    "kod": "DKAB.6.5.1",
+    "ad": ". Geleneğimizde, edebiyatımızda ve musikimizde dinin izlerini özetleyebilme",
+    "sinif": 6,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 77
+  },
+  {
+    "kod": "DKAB.7.1.1",
+    "ad": ". Melekleri sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "DKAB.7.1.2",
+    "ad": ". Ahiret hayatının aşamalarını çözümleyebilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "DKAB.7.1.3",
+    "ad": ". Melek ve ahiret inancının insa1na kazandırdıkları konusunda analitik",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "DKAB.7.1.4",
+    "ad": ". Nâs suresin i ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 81
+  },
+  {
+    "kod": "DKAB.17.1.2",
+    "ad": "Öğr7encilere “Ahiret dendiğinde aklınıza neler gelir?” sorusu yöneltilir (E1.1). Verilen cevap-",
+    "sinif": 17,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 82
+  },
+  {
+    "kod": "DKAB.7.2.1",
+    "ad": ". Hac ve umre ibadetlerini çözümleyebilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "DKAB.7.2.2",
+    "ad": ". Kurban ibadetini yapılandırabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "DKAB.7.2.3",
+    "ad": ". Hac ve kurban ibadetinin kültürümü2ze yansımalarını müşahede edebilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "DKAB.7.2.4",
+    "ad": ". Kâfirun suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "DKAB.7.3.1",
+    "ad": ". Din anlayışındaki yorum farklılıklarının sebeplerini anlayabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "DKAB.7.3.2",
+    "ad": ". İslam düşüncesindeki yorum biçimlerini sınıflandırabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "DKAB.7.3.3",
+    "ad": ". Kültürümüzdeki tasavvufi yorumları çözümleyebilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "DKAB.7.3.4",
+    "ad": ". Alevilik Bektaş ilik ile ilgili temel kavramlar ve cem erkânları hakkında bilgi",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 90
+  },
+  {
+    "kod": "DKAB.7.4.1",
+    "ad": ". Hz. Muhammed’in (sav) Mekke’de yaşadıklarını yorumlayabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 94
+  },
+  {
+    "kod": "DKAB.7.4.2",
+    "ad": ". Hicret konusunu tarihsel bağlamda değerlendireb ilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 94
+  },
+  {
+    "kod": "DKAB.7.4.3",
+    "ad": ". Hz. Muhammed’in (sav) Medine D1önemi konusunu yapılandırabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 94
+  },
+  {
+    "kod": "DKAB.7.4.4",
+    "ad": ". Nasr suresini ve bu sur0enin anlamını okuyarak yorumlayabilme",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 94
+  },
+  {
+    "kod": "DKAB.7.5.1",
+    "ad": ". Yahudilik, Hristiyanlık, Hinduizm ve Budizm dinleri hakkında bilgi",
+    "sinif": 7,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 99
+  },
+  {
+    "kod": "DKAB.8.1.1",
+    "ad": ". Allah’ın (cc) her şeyi bir ölçü ve düzene göre yarattığını kader ve kaza inancı",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "DKAB.8.1.2",
+    "ad": ". Kaderle ilgili kavramları bağlamına uygun kullanabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "DKAB.8.1.3",
+    "ad": ". Kader inancının insana0 kazandırdıkları konusunda analitik düşünebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "DKAB.8.1.4",
+    "ad": ". Tebbet suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 102
+  },
+  {
+    "kod": "DKAB.8.2.1",
+    "ad": ". Zekât ibadetini gözlemleyebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "DKAB.8.2.2",
+    "ad": ". Sadaka kapsamında değerlendirilen davranışları kendi hayatına",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "DKAB.8.2.3",
+    "ad": ". Zekât ve sadaka ibadetinin kültürümüze yansımalarını müşahede edebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "DKAB.8.2.4",
+    "ad": ". Maun sure sini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "DKAB.8.3.1",
+    "ad": ". Dinin korunmasını amaçladığı temel hakları anlayabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "DKAB.8.3.2",
+    "ad": ". Dinin sosyal hayattaki işlevini idrak edebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "DKAB.8.3.3",
+    "ad": ". Asr suresini ve bu surenin anlamını okuyarak yorumlayabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 111
+  },
+  {
+    "kod": "DKAB.8.4.1",
+    "ad": ". İnsanın Kur’an-ı Kerim’de anlatılan özellikleri hakkında ayet meallerine",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "DKAB.8.4.2",
+    "ad": ". Kur’an-ı Kerim’in rehberliğini öze0tleyebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "DKAB.8.4.3",
+    "ad": ". Kur’an-ı Kerim’e göre Hz. Muhammed’in (sav) örnekliğini çözümleyebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "DKAB.8.4.4",
+    "ad": ". Hz. Lokma n’ın öğütlerini kendi hayatına yansıtabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "DKAB.8.4.5",
+    "ad": ". Ayetelkürsi’yi ve bu ayetin anlamını okuyarak yorumlayabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 115
+  },
+  {
+    "kod": "DKAB.8.5.1",
+    "ad": ". İslam kültür ve medeniyetinin esasları konusunu sentezleyebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "DKAB.8.5.2",
+    "ad": ". İslam’ın bilime verdiği önemi ve katkıyı sorgulayabilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "DKAB.8.5.3",
+    "ad": ". Müslüman bilim insanlarının bilim ve kültüre katkılarını irdeleyebilme",
+    "sinif": 8,
+    "ders": "Din Kültürü ve Ahlak Bilgisi",
+    "brans_slug": "din_kulturu",
+    "kaynak_pdf": "202631310725635-dkab48.pdf",
+    "kaynak_sayfa": 119
+  }
+]

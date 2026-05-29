@@ -1,0 +1,101 @@
+[
+  {
+    "kod": "İF.1.1",
+    "ad": ". İslam felsefesiyle ilgili yapılan tanımlar",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "İF.1.2",
+    "ad": ". İslam felsefesinin gelişimine kaynaklık eden faktörleri özetleyebilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "İF.1.3",
+    "ad": ". İslam felsefesinin geliştiği ilim ve kültür havzalarıyla ilgili konuları müşahede ede-",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "İF.1.4",
+    "ad": ". İslam felsefesinin diğer disiplinlerle ilişkisini çözümleyebilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "İF.2.1",
+    "ad": ". Varlık, bilgi ve ahlak konularını anlayabilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 20
+  },
+  {
+    "kod": "İF.3.1",
+    "ad": ". Meşşai felsefeyle ilgili konuları müşahede edebilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "İF.3.2",
+    "ad": ". İşrak felsefesi hakkında bilgi toplayabilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "İF.4.1",
+    "ad": ". Endülüs’te yapılan İslam felsefesi çalışmalarını müşahede edebilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "İF.4.2",
+    "ad": ". Osmanlı Dönemi İslam felsefesinin genel karakterini anlayabilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "İF.4.3",
+    "ad": ". Yakın dönem İslam felsefesi çalışmalarını genelleyebilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 28
+  },
+  {
+    "kod": "İF.4.4",
+    "ad": ". İslam felsefesinin Batı’ya etkisi konusunda eleştirel düşünebilme",
+    "sinif": 11,
+    "ders": "İslam Felsefesi",
+    "brans_slug": "ihl_meslek_dersleri",
+    "kaynak_pdf": "2026218104043781-islamfelsefesi.pdf",
+    "kaynak_sayfa": 28
+  }
+]

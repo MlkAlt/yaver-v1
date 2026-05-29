@@ -1,0 +1,731 @@
+[
+  {
+    "kod": "ARP.2.1.1",
+    "ad": ". DİNLEME/İZLEME-",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "ARP.2.1.2",
+    "ad": ". DİL B1İLGİSİ SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 15
+  },
+  {
+    "kod": "ARP.2.1.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA 9",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "ARP.2.1.4.SESLETİM",
+    "ad": "SEÇME-KULLAN9MA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "ARP.2.1.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "ARP.2.1.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "ARP.2.1.4",
+    "ad": ". SESLETİM SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 20
+  },
+  {
+    "kod": "ARP.2.2.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 9",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "ARP.2.2.2",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "ARP.2.2.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "ARP.2.2.4.SESLETİM",
+    "ad": "SEÇM E-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "ARP.2.2.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "ARP.2.2.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 27
+  },
+  {
+    "kod": "ARP.2.2.4",
+    "ad": ". SESLETİM SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "ARP.2.3.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 9",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 36
+  },
+  {
+    "kod": "ARP.2.3.2",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 36
+  },
+  {
+    "kod": "ARP.2.3.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA 9",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 37
+  },
+  {
+    "kod": "ARP.2.3.4.SESLETİM",
+    "ad": "SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 37
+  },
+  {
+    "kod": "ARP.2.3.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 37
+  },
+  {
+    "kod": "ARP.2.3.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "ARP.2.3.4",
+    "ad": ". SESLETİM SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "ARP.2.4.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "ARP.2.4.2",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 46
+  },
+  {
+    "kod": "ARP.2.4.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 47
+  },
+  {
+    "kod": "ARP.2.4.4.SESLETİM",
+    "ad": "SEÇME-KULLANMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 47
+  },
+  {
+    "kod": "ARP.2.4.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 47
+  },
+  {
+    "kod": "ARP.2.4.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "ARP.2.4.4",
+    "ad": ". SESLETİM SEÇME-KULLANMA -",
+    "sinif": 2,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "ARP.3.1.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "ARP.3.1.2",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 56
+  },
+  {
+    "kod": "ARP.3.1.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "ARP.3.1.4.SESLETİM",
+    "ad": "SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "ARP.3.1.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "ARP.3.1.6",
+    "ad": ". YAZMA-ANLATMA 6",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 58
+  },
+  {
+    "kod": "ARP.3.1.4",
+    "ad": ". SESLETİM SEÇME8-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 61
+  },
+  {
+    "kod": "ARP.3.2.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 9",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 65
+  },
+  {
+    "kod": "ARP.3.2.2",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 65
+  },
+  {
+    "kod": "ARP.3.2.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 66
+  },
+  {
+    "kod": "ARP.3.2.4.SESLETİM",
+    "ad": "SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 66
+  },
+  {
+    "kod": "ARP.3.2.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 66
+  },
+  {
+    "kod": "ARP.3.2.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 67
+  },
+  {
+    "kod": "ARP.3.2.4",
+    "ad": ". SESLETİM SEÇME-KULLANMA 9",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 71
+  },
+  {
+    "kod": "ARP.3.3.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "ARP.3.3.2",
+    "ad": ". DİL BİLG İSİ SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 75
+  },
+  {
+    "kod": "ARP.3.3.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA 9",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 76
+  },
+  {
+    "kod": "ARP.3.3.4.SESLETİM",
+    "ad": "SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 76
+  },
+  {
+    "kod": "ARP.3.3.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 76
+  },
+  {
+    "kod": "ARP.3.3.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 77
+  },
+  {
+    "kod": "ARP.3.3.4",
+    "ad": ". SESL6ETİM SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 80
+  },
+  {
+    "kod": "ARP.3.4.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 9",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "ARP.3.4.2",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 85
+  },
+  {
+    "kod": "ARP.3.4.3",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA 6",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "ARP.3.4.4.SESLETİM",
+    "ad": "SEÇME-KULLANMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "ARP.3.4.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 86
+  },
+  {
+    "kod": "ARP.3.4.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 87
+  },
+  {
+    "kod": "ARP.3.4.4",
+    "ad": ". SESLETİM SEÇME-KULLANMA -",
+    "sinif": 3,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 91
+  },
+  {
+    "kod": "ARP.4.1.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "ARP.4.1.2",
+    "ad": ". OKUMA-ANLA-MLANDIRMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 96
+  },
+  {
+    "kod": "ARP.4.1.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "ARP.4.1.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 97
+  },
+  {
+    "kod": "ARP.4.1.5",
+    "ad": ". KONUŞMA-ANLATMA 9",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "ARP.4.1.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "ARP.4.2.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 106
+  },
+  {
+    "kod": "ARP.4.2.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "ARP.4.2.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 107
+  },
+  {
+    "kod": "ARP.4.2.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 108
+  },
+  {
+    "kod": "ARP.4.2.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 109
+  },
+  {
+    "kod": "ARP.4.2.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA 9",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 112
+  },
+  {
+    "kod": "ARP.4.3.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 9",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 117
+  },
+  {
+    "kod": "ARP.4.3.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 117
+  },
+  {
+    "kod": "ARP.4.3.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA 9",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 118
+  },
+  {
+    "kod": "ARP.4.3.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 118
+  },
+  {
+    "kod": "ARP.4.3.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "ARP.4.3.6.YAZMA",
+    "ad": "-ANLATMA 8",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 119
+  },
+  {
+    "kod": "ARP.4.3.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 125
+  },
+  {
+    "kod": "ARP.4.4.1",
+    "ad": ". DİNLEME/İZLEME-ANLAMLANDIRMA 9",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 127
+  },
+  {
+    "kod": "ARP.4.4.2",
+    "ad": ". OKUMA-ANLAMLANDIRMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 127
+  },
+  {
+    "kod": "ARP.4.4.3",
+    "ad": ". DİL BİLGİSİ SEÇME-KULLANMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 128
+  },
+  {
+    "kod": "ARP.4.4.4",
+    "ad": ". SÖZCÜK SEÇME-KULLANMA 9",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 129
+  },
+  {
+    "kod": "ARP.4.4.5",
+    "ad": ". KONUŞMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 129
+  },
+  {
+    "kod": "ARP.4.4.6",
+    "ad": ". YAZMA-ANLATMA",
+    "sinif": 4,
+    "ders": "Arapça",
+    "brans_slug": "arapca",
+    "kaynak_pdf": "2025912135022975-arapca24.pdf",
+    "kaynak_sayfa": 136
+  }
+]

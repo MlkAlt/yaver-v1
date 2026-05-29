@@ -1,0 +1,695 @@
+[
+  {
+    "kod": "BİY.9",
+    "ad": ". 1. 1. Biyolojideki dönüm noktalarının insan",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "BİY.9.1.1",
+    "ad": "). deneyimleri arasında bağ",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 14
+  },
+  {
+    "kod": "BİY.9.1.2",
+    "ad": ". Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "BİY.9.1.3",
+    "ad": ". Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "BİY.9.1.4",
+    "ad": ". Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "BİY.9.1.5",
+    "ad": ". İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "BİY.9.1.6",
+    "ad": ". Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "BİY.9.1.7",
+    "ad": ". Besinlerin yapısında karbohidrat, lipit ve protein varlığının belirlenmesiyle ilgili",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 16
+  },
+  {
+    "kod": "BİY.9.1.8",
+    "ad": ". pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "BİY.9.2.1",
+    "ad": ". Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "BİY.9.2.2",
+    "ad": ". Hücre zarından madde geçişlerini sınıflandırabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "BİY.9.2.3",
+    "ad": ". Küçük moleküllerin hücre zarından pasif geçişi ile ilgili deney yapabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "BİY.9.2.4",
+    "ad": ". Canlıları sınıflandırabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "BİY.9.2.5",
+    "ad": ". Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "BİY.9.2.6",
+    "ad": ". Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme",
+    "sinif": 9,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 24
+  },
+  {
+    "kod": "BİY.10.1.1",
+    "ad": ". Canlıların yaşamına devam edebilmesi için enerjinin gerekliliğini sorgulayabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.2",
+    "ad": ". Fotosentez reaksiyonlarıyla ilgili bilimsel model oluşturabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.3",
+    "ad": ". Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.4",
+    "ad": ". Kemosentez hakkında bilgi toplayabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.5",
+    "ad": ". Canlılarda sindirim çeşitlerini ve yapılarını sınıflandırabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.6",
+    "ad": ". İnsanda enerji eldesi için sindirim, emilim ve taşıma süreçlerinin gerekliliği ile",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.7",
+    "ad": ". Hücresel solunum reaksiyonlarıyla ilgili bilimsel model oluşturabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.8",
+    "ad": ". Farklı besin gruplarından enerji eldesi süreçlerini karşılaştırabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 30
+  },
+  {
+    "kod": "BİY.10.1.9",
+    "ad": ". Fermantasyon ile ilgili deney yapabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "BİY.10.1.10",
+    "ad": ". Besinlerden elde edilen enerjinin canlının metabolik süreçlerine katkısı ile",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 31
+  },
+  {
+    "kod": "BİY.10.2.1",
+    "ad": ". Ekosistemin cansız ve canlı bileşenleri arasındaki ilişkileri çözümleyebilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.2",
+    "ad": ". Komünitelerde ve popülasyonlarda görülen etkileşimleri ve değişimleri",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.3",
+    "ad": ". Ekosistemdeki enerji akışıyla ilgili tümevarımsal akıl yürütebilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.4",
+    "ad": ". Madde döngüleri ile ilgili bilimsel model oluşturabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.5",
+    "ad": ". Ekolojik sürdürülebilirliğin önemini yorumlayabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.6",
+    "ad": ". Çevresinde sürdürülebilirliği kısıtlayan durumlarla ilgili gözleme dayalı tahmin",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.7",
+    "ad": ". Ekolojik ayak izini küçültebilme yollarını bilimsel olarak sorgulayabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 38
+  },
+  {
+    "kod": "BİY.10.2.8",
+    "ad": ". Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemleri",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "BİY.10.2.9",
+    "ad": ". Çevresinde atık yönetimi konusunda yapılan çalışmalarla ilgili bilgi toplayabilme",
+    "sinif": 10,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 39
+  },
+  {
+    "kod": "BİY.11.1.1",
+    "ad": ". Farklı canlıların uyaranlara karşı oluşturduğu tepki mekanizmaları ile ilgili",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.2",
+    "ad": ". Bitkisel hormonların etkileri hakkında akıl yürütebilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.3",
+    "ad": ". Bitkilerdeki tepki mekanizmalarını sınıflandırabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.4",
+    "ad": ". Bitkilerde yönelme hareketlerini gözlemleyebileceği deney yapabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.5",
+    "ad": ". Duyu reseptörlerini ve duyu reseptörlerinin bulunduğu duyu organlarını",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.6",
+    "ad": ". Hayvanlardaki sinir sistemi farklılıkları ile ilgili analojik akıl yürütebilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.7",
+    "ad": ". İnsanda sinir sistemi yapısını çözümleyebilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.8",
+    "ad": ". Refleks olayını yorumlayabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 48
+  },
+  {
+    "kod": "BİY.11.1.9",
+    "ad": ". Harekete dayalı tepkinin oluşmasında iskelet, kas ve eklemlerin eş güdümlü",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "BİY.11.1.10",
+    "ad": ". İskelet kaslarının kasılma ve gevşeme mekanizması ile ilgili bilimsel model",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "BİY.11.1.11",
+    "ad": ". Bağışıklığı sınıflandırabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "BİY.11.1.12",
+    "ad": ". Alerjik tepkilerin oluşumunu sorgulayabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "BİY.11.10",
+    "ad": "a) Öğrencilerden iskelet kaslarının kasılma ve gevşeme mekanizmasının işleyişini",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 55
+  },
+  {
+    "kod": "BİY.11.2.1",
+    "ad": ". Homeostazinin canlılar için önemiyle ilgili bilimsel çıkarım yapabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.2",
+    "ad": ". Homeostatik süreçleri sorgulayabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.3",
+    "ad": ". Pozitif ve negatif geri bildirim mekanizmalarını karşılaştırabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.4",
+    "ad": ". Homeostazinin sağlanmasında sinir sisteminin etkilerini çözümleyebilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.5",
+    "ad": ". Endokrin sisteminin homeostazi işlevine yönelik bilimsel çıkarım yapabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.6",
+    "ad": ". Dolaşım sistemi ve homeostazi arasındaki ilişki ile ilgili bilimsel model",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.7",
+    "ad": ". Solunum sisteminin homeostazinin sağlanmasındaki rolünü kanıtlarla ortaya",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.8",
+    "ad": ". Boşaltım sisteminin homeostazi işlevine yönelik bilimsel çıkarım yapabilme",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 59
+  },
+  {
+    "kod": "BİY.11.2.9",
+    "ad": ". Homeostazinin sağlanmasında sistemlerin eş güdümlü çalışmasıyla ilgili",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "BİY.11.2.10",
+    "ad": ". Homeostazinin sağlanamadığı durumlarda oluşabilecek sağlık problemleri",
+    "sinif": 11,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 60
+  },
+  {
+    "kod": "BİY.12.1.1",
+    "ad": ". Hücre bölünmesinin ve üremenin canlılar için önemini yorumlayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.2",
+    "ad": ". Hücredeki genetik materyalin organizasyonunu çözümleyebilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.3",
+    "ad": ". Canlılarda hücre döngüsü ve hücre bölünmesini sorgulayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.4",
+    "ad": ". Kromozomlarda ayrılmamanın sonuçlarıyla ilgili bilimsel çıkarım yapabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.5",
+    "ad": ". Üreme hücrelerinin oluşum süreci ve yapılarını karşılaştırabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.6",
+    "ad": ". Eşeysiz ve eşeyli üreme ile ilgili bilimsel çıkarım yapabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.7",
+    "ad": ". Erkek ve dişi üreme sistemlerinin yapısı ve işleyişiyle ilgili bilgi toplayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.8",
+    "ad": ". Embriyonik gelişimle ilgili bilgi toplayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 69
+  },
+  {
+    "kod": "BİY.12.1.9",
+    "ad": ". Çiçeğin kısımları ve görevleriyle ilgili bilimsel gözlem yapabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "BİY.12.1.10",
+    "ad": ". Çimlenmeyi etkileyen faktörleri gözlemleyebileceği deney yapabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 70
+  },
+  {
+    "kod": "BİY.12.2.1",
+    "ad": ". Nükleik asitlerin yapısını ve canlılıktaki rolünü sorgulayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.2",
+    "ad": ". DNA replikasyonunun bilimsel modelini oluşturabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.3",
+    "ad": ". Genetik bilginin ürüne dönüşüm sürecini çözümleyebilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.4",
+    "ad": ". Genetik yapıdaki değişikliklerin canlı yaşamına etkileri hakkında eleştirel",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.5",
+    "ad": ". Mendel kalıtım ilkelerinin geçerli olduğu genetik problemleri çözebilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.6",
+    "ad": ". Eş baskınlık ve çok alellilikle ilgili deney yapabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.7",
+    "ad": ". Eşeye bağlı kalıtıma ilişkin tümevarımsal akıl yürütebilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 78
+  },
+  {
+    "kod": "BİY.12.2.8",
+    "ad": ". Genetik testlerin ve genetik danışmanlığın önemini sorgulayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 79
+  },
+  {
+    "kod": "BİY.12.2.9",
+    "ad": ". Biyoteknolojinin uygulama alanları ile ilgili bilgi toplayabilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 79
+  },
+  {
+    "kod": "BİY.12.2.10",
+    "ad": ". Biyoteknolojik uygulamaların etik boyutunu eleştirel düşünebilme",
+    "sinif": 12,
+    "ders": "Biyoloji",
+    "brans_slug": "biyoloji",
+    "kaynak_pdf": "202651815105221-biyolojidöp.pdf",
+    "kaynak_sayfa": 79
+  }
+]

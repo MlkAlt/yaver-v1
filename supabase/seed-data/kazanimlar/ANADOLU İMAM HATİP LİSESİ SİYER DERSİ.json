@@ -1,0 +1,99 @@
+{
+  "ders": "ANADOLU İMAM HATİP LİSESİ SİYER DERSİ",
+  "siniflar": [
+    {
+      "sinif": 10,
+      "kademe": "3. Kademe (Lise)",
+      "kazanimlar": [
+        {
+          "kod": "SYR.10.4.1.",
+          "kazanim": "Hz. Peygamber’in örnek oluşu konusunda hadis kaynaklarına başvurabilme",
+          "alt_kazanimlar": [
+            "a) Hz. Peygamber’in örnek oluşuyla ilgili hadisleri tespit eder.",
+            "b) Hadislerde geçen konuları belirler."
+          ]
+        },
+        {
+          "kod": "SYR.10.1.2.",
+          "kazanim": "Hz. Muhammed’in (sav) doğduğu bölgenin sosyal ve kültürel yapısı ile ilgili eleştirel düşünebilme",
+          "alt_kazanimlar": [
+            "a) Hz. Muhammed’in (sav) doğduğu bölgedeki sosyal ve kültürel uygulamaları sorgular.",
+            "b) Hz. Muhammed’in (sav) doğduğu bölgedeki sosyal ve kültürel uygulamaların nedenleri hakkında akıl yürütür.",
+            "c) Hz. Muhammed’in (sav) doğduğu bölgedeki sosyal ve kültürel uygulamalar hakkında akıl yürüterek ulaştığı çıkarımları yansıtır."
+          ]
+        },
+        {
+          "kod": "SYR.10.1.3.",
+          "kazanim": "Hz. Muhammed’in (sav) risalet öncesindeki hayatı hakkında sorgulama yapabilme",
+          "alt_kazanimlar": [
+            "a) Hz. Muhammed’in (sav) risalet öncesi hayatı ile ilgili merak ettiği hususları tespit eder.",
+            "b) Hz. Muhammed’in (sav) risalet öncesi hayatı ile ilgili sorular sorar.",
+            "c) Hz. Muhammed’in (sav) risalet öncesi hayatı ile ilgili bilgi toplar. ç) Hz. Muhammed’in (sav) risalet öncesi hayatı ile ilgili topladığı bilgilerin doğruluğunu değerlendirir.",
+            "d) Hz. Muhammed’in (sav) risalet öncesi hayatı ile ilgili topladığı bilgiler üzerinden çıkarımda bulunur."
+          ]
+        },
+        {
+          "kod": "SYR.10.2.2.",
+          "kazanim": "Müşriklerin İslam davetine karşı tutumlarını çözümleyebilme",
+          "alt_kazanimlar": [
+            "a) Müşriklerin İslam davetine karşı tutumlarını araştırır.",
+            "b) Müşriklerin İslam davetine karşı tutumları hakkında edindiği bilgiler arasında ilişki kurar."
+          ]
+        },
+        {
+          "kod": "SYR.10.2.3.",
+          "kazanim": "Hz. Peygamber’in davet sürecinde izlediği yol konusunu yapılandırabilme",
+          "alt_kazanimlar": [
+            "a) Hz. Peygamber’in davet sürecinde gerçekleştirdiği faaliyetleri inceleyerek bu süreçteki nedensel ilişkileri ortaya koyar.",
+            "b) Hz. Peygamber’in davet sürecinde gerçekleştirdiği faaliyetlerle ilgili ön bilgilerden yararlanarak uyumlu bir bütün ortaya koyar."
+          ]
+        },
+        {
+          "kod": "SYR.10.3.2.",
+          "kazanim": "Hz. Peygamber’in farklı inanç gruplarıyla ilişkilerini değerlendirebilme",
+          "alt_kazanimlar": [
+            "a) Hz. Peygamber’in farklı inanç gruplarıyla ilişkilerine dair ölçüt belirler.",
+            "b) Hz. Peygamber’in farklı inanç gruplarıyla ilişkilerine dair ölçme yapar.",
+            "c) Hz. Peygamber’in farklı inanç gruplarıyla ilişkilerine dair ulaştığı ölçme sonuçlarını belirlediği ölçütle karşılaştırır. ç) Hz. Peygamber’in farklı inanç gruplarıyla ilişkilerine dair yaptığı karşılaştırmalar hakkında yargıda bulunur."
+          ]
+        },
+        {
+          "kod": "SYR.10.3.3.",
+          "kazanim": "İslam’ın yayılmasında etkili olan faaliyetleri müşahede edebilme",
+          "alt_kazanimlar": [
+            "a) İslam’ın yayılmasında etkili olan faaliyetleri belirler.",
+            "b) Belirlediği faaliyetler hakkında soru sorar.",
+            "c) Belirlediği faaliyetleri inceler. ç) Bu faaliyetler hakkında çıkarım yapar."
+          ]
+        },
+        {
+          "kod": "SYR.10.3.4.",
+          "kazanim": "Veda Hutbesi’ni tahkik edebilme",
+          "alt_kazanimlar": [
+            "a) Veda Hutbesi’ndeki dinî kavramları ayırt eder.",
+            "b) Veda Hutbesi’ndeki dinî kavramları bağlamına uygun olarak kullanır.",
+            "c) Veda Hutbesi’ni yorumlar. ç) Veda Hutbesi’ni tahlil eder."
+          ]
+        },
+        {
+          "kod": "SYR.10.3.5.",
+          "kazanim": "Peygamberimizin hastalığı ve vefatı sırasında yaşananlarla tarihsel empati kurabilme",
+          "alt_kazanimlar": [
+            "a) Peygamberimiz ile ashabı arasındaki iletişimi yorumlar.",
+            "b) Peygamberimizin hastalığı sürecinde ve vefatında yaşanan olaylarla ilgili tarihsel bağlamsallaştırma yapar.",
+            "c) Veda Haccı’ndan Peygamberimizin vefatına kadar yaşanan olayları ve ortaya çıkan durumları yapılandırır."
+          ]
+        },
+        {
+          "kod": "SYR.10.4.2.",
+          "kazanim": "Kültürümüzde peygamber sevgisinin tezahürü olarak ortaya konmuş eserleri sınıflandırabilme",
+          "alt_kazanimlar": [
+            "a) Kültürümüzde peygamber sevgisinin tezahürü olarak ortaya konmuş eserlere ilişkin ölçüt belirler.",
+            "b) Kültürümüzde peygamber sevgisinin tezahürü olarak ortaya konmuş eserleri ayrıştırır.",
+            "c) Kültürümüzde peygamber sevgisinin tezahürü olarak ortaya konmuş eserleri tasnif eder. ç) Kültürümüzde peygamber sevgisinin tezahürü olarak ortaya konmuş eserleri etiketler."
+          ]
+        }
+      ]
+    }
+  ]
+}

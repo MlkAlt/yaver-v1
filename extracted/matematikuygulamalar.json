@@ -1,0 +1,299 @@
+[
+  {
+    "kod": "MAT.U.1.1",
+    "ad": ". Strateji ve Zekâ Oyunlarının Matematiği MAT.U.2.1. Sağlıklı Yaşamın Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.2.1",
+    "ad": ". Sağlıklı Yaşamın Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.1.2",
+    "ad": ". Bilişimin Matematiği MAT.U.2.2. Bilişimin Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.2.2",
+    "ad": ". Bilişimin Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.1.3",
+    "ad": ". Uzayın Matematiği MAT.U.2.3. Rota Belirlemenin Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.2.3",
+    "ad": ". Rota Belirlemenin Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.1.4",
+    "ad": ". Finansın Matematiği MAT.U.2.4. Finansın Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.2.4",
+    "ad": ". Finansın Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.1.5",
+    "ad": ". Sanatın Matematiği MAT.U.2.5. Sanatın Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.2.5",
+    "ad": ". Sanatın Matematiği",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 9
+  },
+  {
+    "kod": "MAT.U.1.1.1",
+    "ad": ". Strateji ve zekâ oyunlarında karşıla-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 13
+  },
+  {
+    "kod": "MAT.U.1.1.2",
+    "ad": ". Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik mate-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 17
+  },
+  {
+    "kod": "MAT.U.1.2.1",
+    "ad": ". Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantık-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 21
+  },
+  {
+    "kod": "MAT.U.1.2.2",
+    "ad": ". Sayı sistemleri ve matematiksel yöntemleri kullanarak farklı şifreleme algo-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 21
+  },
+  {
+    "kod": "MAT.U.1.3.1",
+    "ad": ". Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "MAT.U.1.3.2",
+    "ad": ". Gezegenlerin çekim kuvvetine ilişkin hesaplamalarda matematiksel temsil-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 25
+  },
+  {
+    "kod": "MAT.U.1.4.1",
+    "ad": ". Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yarar-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "MAT.U.1.4.2",
+    "ad": ". Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 29
+  },
+  {
+    "kod": "MAT.U.1.5.1.Türk",
+    "ad": "el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geo-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 33
+  },
+  {
+    "kod": "MAT.U.1.5.2",
+    "ad": ". Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentez-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 33
+  },
+  {
+    "kod": "MAT.U.1.5.1",
+    "ad": "Uygulamaları Öğrencilere Türk el sanatları motifleri (halı, kilim, tezhip vb.) ve geleneksel mimari eserler-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 34
+  },
+  {
+    "kod": "MAT.U.2.1.1",
+    "ad": ". Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden ya-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 37
+  },
+  {
+    "kod": "MAT.U.2.1.2",
+    "ad": ". Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda mate-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 37
+  },
+  {
+    "kod": "MAT.U.2.2.1",
+    "ad": ". Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 41
+  },
+  {
+    "kod": "MAT.U.2.3.1",
+    "ad": ". Bir seyahat rotası planlama sürecini çözümleyebilme",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 45
+  },
+  {
+    "kod": "MAT.U.2.3.2",
+    "ad": ". Gerçek hayat bağlamında karşılaşılan problem durumlarında rota belirleye-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 45
+  },
+  {
+    "kod": "MAT.U.2.4.1",
+    "ad": ". Türlerine göre sigorta poliçelerinin kapsamlarını çözümleyebilme",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "MAT.U.2.4.2",
+    "ad": ". Sigorta poliçesi prim hesabında matematiksel temsillerden yararlanabilme",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "MAT.U.2.4.3",
+    "ad": ". Aynı tür sigorta poliçelerini kapsamlarına göre karşılaştırabilme",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 49
+  },
+  {
+    "kod": "MAT.U.2.5.1",
+    "ad": ". Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibo-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "MAT.U.2.5.2",
+    "ad": ". Türk bayrağının tasarımında matematiksel araç ve teknolojilerden yararla-",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "MAT.U.2.5.3",
+    "ad": ". Origami uygulamalarında oluşan yapıların geometrik şekillerini ve ilişkilerini",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 53
+  },
+  {
+    "kod": "MAT.U.2.5.4",
+    "ad": ". Tangram uygulamalarında şekli oluşturan parçaları belirleyerek bu parçalar",
+    "sinif": null,
+    "ders": "Matematik Uygulamaları",
+    "brans_slug": "matematik",
+    "kaynak_pdf": "202632614555417-matematikuygulamalar.pdf",
+    "kaynak_sayfa": 53
+  }
+]
