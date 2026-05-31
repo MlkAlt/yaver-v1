@@ -1,19 +1,13 @@
 [
   {
-    "kod": "SB.4.1.3",
-    "ad": ") Karmaşık bir süreç gerektirmeden",
-    "sinif": 4,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 11
-  },
-  {
     "kod": "SB.4.1.1",
     "ad": ") edinilen ve gözlenebilen temel beceriler",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
     "kaynak_sayfa": 11
   },
@@ -21,630 +15,828 @@
     "kod": "SB.4.1.2",
     "ad": ") ile soyut fikirleri ve karmaşık süreçleri",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
     "kaynak_sayfa": 11
   },
   {
-    "kod": "SB.4.2.3",
-    "ad": ") SBAB10. Harita (SBAB10.1. Harita Okuma) (SB.4.2.1)",
+    "kod": "SB.4.1.3",
+    "ad": "Toplumsal birliği sürdürmeye yönelik fikir üretebilme",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 17
+    "kaynak_sayfa": 14
   },
   {
     "kod": "SB.4.2.1",
-    "ad": ") KAVRAMSAL",
+    "ad": "Konum ve yön bulurken haritaları kullanabilme",
     "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 17
+    "kaynak_sayfa": 18
   },
   {
     "kod": "SB.4.2.2",
-    "ad": ") EĞİLİMLER E1.1. Merak, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.3. Yaratıcılık",
+    "ad": "Yakın çevresinden hareketle doğa ve insan ilişkisini çözümleyebilme",
     "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 17
+    "kaynak_sayfa": 18
+  },
+  {
+    "kod": "SB.4.2.3",
+    "ad": "Afetlerin etkilerini azaltma konusunda yapılabileceklere ilişkin oluşturduğu",
+    "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 18
   },
   {
     "kod": "SB.4.3.1",
-    "ad": ") KAVRAMSAL",
+    "ad": "Geçmişten günümüze çocuk oyun ve oyuncaklarının değişimini karşılaştırabil-",
     "sinif": 4,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 21
+    "kaynak_sayfa": 22
   },
   {
     "kod": "SB.4.3.2",
-    "ad": ") KB2.14. Yorumlama (SB.4.3.3)",
+    "ad": "Aile tarihini yansıtan bir ürün oluşturabilme",
     "sinif": 4,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 21
+    "kaynak_sayfa": 22
   },
   {
     "kod": "SB.4.3.3",
-    "ad": ") EĞİLİMLER E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E2.3. Girişkenlik, E2.5. Oyunsever-",
+    "ad": "Yakın çevresindeki ortak miras ögelerini tanımanın önemini yorumlayabilme",
     "sinif": 4,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 21
+    "kaynak_sayfa": 22
   },
   {
     "kod": "SB.4.4.1",
-    "ad": ") SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) (SB.4.4.3)",
+    "ad": "Cumhuriyetin ilanına giden yolda Mustafa Kemal Atatürk’ün ve Türk milletinin",
     "sinif": 4,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 25
-  },
-  {
-    "kod": "SB.4.4.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 4,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 25
+    "kaynak_sayfa": 26
   },
   {
     "kod": "SB.4.4.2",
-    "ad": ") EĞİLİMLER E1.1. Merak, E1.2. Bağımsızlık, E3.3. Yaratıcılık, E3.6. Analitik Düşünme",
+    "ad": "Cumhuriyetin getirdiği değişimlerin hayatımıza katkılarını yorumlayabilme",
     "sinif": 4,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 25
+    "kaynak_sayfa": 26
+  },
+  {
+    "kod": "SB.4.4.3",
+    "ad": "Okulda karar alma ve demokratik katılım süreçlerine ilişkin fikir üretebilme",
+    "sinif": 4,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 26
   },
   {
     "kod": "SB.4.5.1",
-    "ad": ") SBAB8. Coğrafi Sorgulama (SBAB8.4. Coğrafi Bilgileri Çözümleme) (SB.4.5.3)",
+    "ad": "Doğal kaynakların tüketimi ile ilgili grafik yorumlayabilme",
     "sinif": 4,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 29
-  },
-  {
-    "kod": "SB.4.5.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 4,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 29
+    "kaynak_sayfa": 30
   },
   {
     "kod": "SB.4.5.2",
-    "ad": ") EĞİLİMLER E1.1. Merak, E2.2. Sorumluluk, E3.4. Gerçeği Arama, E3.6. Analitik Düşünme, E3.10. Eleş-",
+    "ad": "İstek ve ihtiyaçları arasındaki bilinçli seçimleri hayatına yansıtabilme",
     "sinif": 4,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 29
+    "kaynak_sayfa": 30
   },
   {
-    "kod": "SB.4.6.2",
-    "ad": ") KAVRAMSAL",
+    "kod": "SB.4.5.3",
+    "ad": "Bir ürünün üretim, dağıtım ve tüketim süreçlerini çözümleyebilme",
     "sinif": 4,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 33
+    "kaynak_sayfa": 30
   },
   {
     "kod": "SB.4.6.1",
-    "ad": ") EĞİLİMLER E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.10. Eleştirel Bakma,",
+    "ad": "Çevrim içi ortamda uyulması gereken güvenlik kurallarını eylemlerine yansıta-",
     "sinif": 4,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 33
+    "kaynak_sayfa": 34
   },
   {
-    "kod": "SB.5.1.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 5,
+    "kod": "SB.4.6.2",
+    "ad": "Bilim insanlarının çocukluk hayatı ile kendi yaşamı arasında bağlantı kurabilme",
+    "sinif": 4,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 36
+    "kaynak_sayfa": 34
   },
   {
     "kod": "SB.5.1.1",
-    "ad": ") KB2.14. Yorumlama (SB.5.1.2)",
+    "ad": "Dâhil olduğu gruplar ve bu gruplardaki rolleri arasındaki ilişkileri çözümleyebilme",
     "sinif": 5,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 36
+    "kaynak_sayfa": 37
   },
   {
     "kod": "SB.5.1.2",
-    "ad": ") EĞİLİMLER E2.1. Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.3. Yaratıcılık, E3.11. Özgün Düşünme",
+    "ad": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yorumlayabilme",
     "sinif": 5,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 36
+    "kaynak_sayfa": 37
+  },
+  {
+    "kod": "SB.5.1.3",
+    "ad": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine",
+    "sinif": 5,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 37
   },
   {
     "kod": "SB.5.2.1",
-    "ad": ") SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuç-",
+    "ad": "Yaşadığı ilin göreceli konum özelliklerini belirleyebilme",
     "sinif": 5,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 41
+    "kaynak_sayfa": 42
   },
   {
     "kod": "SB.5.2.2",
-    "ad": ") SBAB5. Sosyal Katılım (SBAB5.5 Fikri Eyleme Dönüştürme) (SB.5.2.3)",
+    "ad": "Yaşadığı ilde doğal ve beşerî çevredeki değişimi neden ve sonuçlarıyla yorum-",
     "sinif": 5,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 41
+    "kaynak_sayfa": 42
   },
   {
     "kod": "SB.5.2.3",
-    "ad": ") KAVRAMSAL",
+    "ad": "Yaşadığı ilde meydana gelebilecek afetlerin etkilerini azaltmaya yönelik farkın-",
     "sinif": 5,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 41
+    "kaynak_sayfa": 42
   },
   {
     "kod": "SB.5.2.4",
-    "ad": ") EĞİLİMLER E3.2. Odaklanma, E3.3. Yaratıcılık, E3.4. Gerçeği arama, E3.5. Açık Fikirlilik, E3.7. Siste-",
+    "ad": "Ülkemize komşu devletler hakkında bilgi toplayabilme",
     "sinif": 5,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 41
+    "kaynak_sayfa": 42
   },
   {
     "kod": "SB.5.3.1",
-    "ad": ") SBAB3. Tarihsel Empati (SB.5.3.2)",
+    "ad": "Yaşadığı ildeki ortak miras ögelerine ilişkin oluşturduğu ürünü paylaşabilme",
     "sinif": 5,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 46
+    "kaynak_sayfa": 47
   },
   {
     "kod": "SB.5.3.2",
-    "ad": ") KAVRAMSAL",
+    "ad": "Anadolu’da ilk yerleşimleri kuran toplumların sosyal hayatlarına yönelik bakış",
     "sinif": 5,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 46
+    "kaynak_sayfa": 47
   },
   {
     "kod": "SB.5.3.3",
-    "ad": ") EĞİLİMLER E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6.",
+    "ad": "Mezopotamya ve Anadolu medeniyetlerinin ortak mirasa katkılarını karşılaş-",
     "sinif": 5,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 46
-  },
-  {
-    "kod": "SB.5.4.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 5,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 51
+    "kaynak_sayfa": 47
   },
   {
     "kod": "SB.5.4.1",
-    "ad": ") KB2.10. Çıkarım Yapma (SB.5.4.2)",
+    "ad": "Demokrasi ve cumhuriyet kavramları arasındaki ilişkiyi çözümleyebilme",
     "sinif": 5,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 51
+    "kaynak_sayfa": 52
   },
   {
     "kod": "SB.5.4.2",
-    "ad": ") KB2.6. Bilgi Toplama (SB.5.4.4)",
+    "ad": "Toplum düzenine etkisi bakımından etkin vatandaş olmanın önemine yönelik",
     "sinif": 5,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 51
+    "kaynak_sayfa": 52
+  },
+  {
+    "kod": "SB.5.4.3",
+    "ad": "Temel insan hak ve sorumluluklarının önemini sorgulayabilme",
+    "sinif": 5,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 52
   },
   {
     "kod": "SB.5.4.4",
-    "ad": ") EĞİLİMLER E1.1. Merak, E2.2. Sorumluluk, E3.3. Yaratıcılık, E2.5. Oyunseverlik, E3.10. Eleştirel Bak-",
+    "ad": "Bir ihtiyaç hâlinde veya sorun karşısında başvuru yapılabilecek kurumlar hak-",
     "sinif": 5,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 51
-  },
-  {
-    "kod": "SB.5.5.2",
-    "ad": ") KAVRAMSAL",
-    "sinif": 5,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 56
+    "kaynak_sayfa": 52
   },
   {
     "kod": "SB.5.5.1",
-    "ad": ") KB2.3. Özetleme (SB.5.5.3)",
+    "ad": "Kaynakları verimli kullanmanın doğa ve insanlar üzerindeki etkisini yorumlaya-",
     "sinif": 5,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 56
+    "kaynak_sayfa": 57
+  },
+  {
+    "kod": "SB.5.5.2",
+    "ad": "İhtiyaç ve isteklerini karşılamak için gerekli bütçeyi planlayabilme",
+    "sinif": 5,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 57
   },
   {
     "kod": "SB.5.5.3",
-    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E3.3. Yaratıcılık",
+    "ad": "Yaşadığı ildeki ekonomik faaliyetleri özetleyebilme",
     "sinif": 5,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 56
-  },
-  {
-    "kod": "SB.5.6.2",
-    "ad": ") KAVRAMSAL",
-    "sinif": 5,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 60
-  },
-  {
-    "kod": "SB.5.6.1",
-    "ad": ") EĞİLİMLER E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik, E3.11. Özgün Düşünme",
-    "sinif": 5,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 60
+    "kaynak_sayfa": 57
   },
   {
     "kod": "SB.5.6.1.Teknolojik",
     "ad": "gelişmelerin toplum hayatına etkilerini tartışabilme",
     "sinif": 5,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
     "kaynak_sayfa": 61
   },
   {
-    "kod": "SB.6.1.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 6,
+    "kod": "SB.5.6.2",
+    "ad": "Teknolojik ürünlerin bilinçli kullanımının önemine ilişkin ürün oluşturabilme",
+    "sinif": 5,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 63
+    "kaynak_sayfa": 61
   },
   {
     "kod": "SB.6.1.1",
-    "ad": ") KB2.14. Yorumlama (SB.6.1.2)",
+    "ad": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içerisinde değişebile-",
     "sinif": 6,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 63
+    "kaynak_sayfa": 64
   },
   {
     "kod": "SB.6.1.2",
-    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E2.3. Girişkenlik, E3.3. Yaratıcılık,",
+    "ad": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumla-",
     "sinif": 6,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 63
+    "kaynak_sayfa": 64
+  },
+  {
+    "kod": "SB.6.1.3",
+    "ad": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini müzakere",
+    "sinif": 6,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 64
   },
   {
     "kod": "SB.6.2.1",
-    "ad": ") SBAB.7. Mekânsal Düşünme (SBAB.7.3.Mekânsal Bağlantıları Çözümleme) (SB.6.2.2)",
+    "ad": "Ülkemizin, kıtaların ve okyanusların konum özelliklerini belirleyebilme",
     "sinif": 6,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 67
+    "kaynak_sayfa": 68
   },
   {
     "kod": "SB.6.2.2",
-    "ad": ") KAVRAMSAL",
+    "ad": "Ülkemizin doğal ve beşerî çevre özellikleri arasındaki ilişkiyi çözümleyebilme",
     "sinif": 6,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 67
+    "kaynak_sayfa": 68
   },
   {
     "kod": "SB.6.2.3",
-    "ad": ") EĞİLİMLER E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "ad": "Ülkemizin Türk dünyasıyla kültürel iş birliklerini yorumlayabilme",
     "sinif": 6,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 67
-  },
-  {
-    "kod": "SB.6.3.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 6,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 71
+    "kaynak_sayfa": 68
   },
   {
     "kod": "SB.6.3.1",
-    "ad": ") KB2.16.2.Tümdengelimsel Akıl Yürütme Becerisi (SB.6.3.2)",
+    "ad": "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkılarını sorgula-",
     "sinif": 6,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 71
+    "kaynak_sayfa": 72
   },
   {
     "kod": "SB.6.3.2",
-    "ad": ") KB.2.3. Özetleme Becerisi (SB.6.3.4)",
+    "ad": "VII-XIII. yüzyıllar arasında İslam medeniyetinin eğitim, bilim, hukuk, kültür, sa-",
     "sinif": 6,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 71
+    "kaynak_sayfa": 72
+  },
+  {
+    "kod": "SB.6.3.3",
+    "ad": "İslamiyet’in kabulüyle Türklerin sosyal ve kültürel hayatlarında meydana gelen",
+    "sinif": 6,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 72
   },
   {
     "kod": "SB.6.3.4",
-    "ad": ") EĞİLİMLER E1.1. Merak, E2.1. Empati, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6. Analitik Düşünme,",
+    "ad": "XI-XIII. yüzyıllar arasında meydana gelen siyasi faaliyetler ve askerî mücadele-",
     "sinif": 6,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 71
+    "kaynak_sayfa": 72
   },
   {
     "kod": "SB.6.4.1",
-    "ad": ") KB2.14. Yorumlama (SB.6.4.2)",
+    "ad": "Yönetimin karar alma sürecini etkileyen unsurları çözümleyebilme",
     "sinif": 6,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 77
+    "kaynak_sayfa": 78
   },
   {
     "kod": "SB.6.4.2",
-    "ad": ") KB2.8. Sorgulama (SB.6.4.3)",
+    "ad": "Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini yo-",
     "sinif": 6,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 77
+    "kaynak_sayfa": 78
   },
   {
     "kod": "SB.6.4.3",
-    "ad": ") EĞİLİMLER E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma, E3.4. Gerçeği Arama, E3.5.",
+    "ad": "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etki-",
     "sinif": 6,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 77
-  },
-  {
-    "kod": "SB.6.5.2",
-    "ad": ") SBAB6. Girişimcilik (SB.6.5.3)",
-    "sinif": 6,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 82
-  },
-  {
-    "kod": "SB.6.5.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 6,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 82
+    "kaynak_sayfa": 78
   },
   {
     "kod": "SB.6.5.1",
-    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.3. Girişkenlik,",
+    "ad": "Ülkemizin kaynakları ile ekonomik faaliyetler arasındaki ilişkiyi çözümleyebilme",
     "sinif": 6,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 82
+    "kaynak_sayfa": 83
+  },
+  {
+    "kod": "SB.6.5.2",
+    "ad": "Ekonomik faaliyetler ve meslekler arasındaki ilişki hakkında çıkarımda bulunabil-",
+    "sinif": 6,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 83
+  },
+  {
+    "kod": "SB.6.5.3",
+    "ad": "Tasarladığı bir ürün için yatırım ve pazarlama proje önerisi hazırlayabilme",
+    "sinif": 6,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 83
   },
   {
     "kod": "SB.6.6.1",
-    "ad": ") KB2.6. Bilgi Toplama (SB.6.6.2)",
+    "ad": "Ulaşım ve iletişim teknolojilerindeki gelişmelerin kültürel etkileşimdeki rolünü",
     "sinif": 6,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 86
+    "kaynak_sayfa": 87
   },
   {
     "kod": "SB.6.6.2",
-    "ad": ") EĞİLİMLER E3.4 Gerçeği Arama, E3.10. Eleştirel Bakma",
+    "ad": "Bir ürün veya fikrin telif ve patent süreçleriyle ilgili bilgi toplayabilme",
     "sinif": 6,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 86
-  },
-  {
-    "kod": "SB.7.1.1",
-    "ad": ") SBAB5 Sosyal Katılım (SBAB5.3 Fikir Üretme) (SB.7.1.2)",
-    "sinif": 7,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 89
+    "kaynak_sayfa": 87
   },
   {
     "kod": "SB.7.1.2",
-    "ad": ") KAVRAMSAL",
+    "ad": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik fikir üretebil-",
     "sinif": 7,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 89
+    "kaynak_sayfa": 90
   },
   {
     "kod": "SB.7.1.3",
-    "ad": ") EĞİLİMLER E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Özgüven), E2.2.",
+    "ad": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara",
     "sinif": 7,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 89
+    "kaynak_sayfa": 90
   },
   {
     "kod": "SB.7.2.1",
-    "ad": ") KB2.3. Özetleme (SB.7.2.2)",
+    "ad": "Küreselleşmenin insan ve toplum hayatında meydana getirdiği değişimi yorum-",
     "sinif": 7,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 94
+    "kaynak_sayfa": 95
   },
   {
     "kod": "SB.7.2.2",
-    "ad": ") EĞİLİMLER E1.1. Merak, E3.3. Yaratıcılık",
+    "ad": "Bölgesel ve küresel sorunların çözümünde ülkemizin rolünü özetleyebilme",
     "sinif": 7,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 94
-  },
-  {
-    "kod": "SB.7.3.2",
-    "ad": ") SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve",
-    "sinif": 7,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 97
-  },
-  {
-    "kod": "SB.7.3.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 7,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 97
+    "kaynak_sayfa": 95
   },
   {
     "kod": "SB.7.3.1",
-    "ad": ") EĞİLİMLER E1.1. Merak,E1.5. Kendine Güvenme (Öz Güven), E2.1. Empati, E2.2. Sorumluluk, E2.3. Gi-",
+    "ad": "Osmanlı Devleti’nin cihan devleti hâline gelmesini sağlayan politikaları sorgula-",
     "sinif": 7,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 97
+    "kaynak_sayfa": 98
   },
   {
-    "kod": "SB.7.4.3",
-    "ad": ") KAVRAMSAL",
+    "kod": "SB.7.3.2",
+    "ad": "Değişen dünya dengeleri karşısında Osmanlı Devleti’nin uyguladığı yenilikleri",
     "sinif": 7,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 102
+    "kaynak_sayfa": 98
+  },
+  {
+    "kod": "SB.7.3.3",
+    "ad": "Osmanlı kültür ve medeniyet unsurlarına ilişkin oluşturduğu ürünü paylaşabilme",
+    "sinif": 7,
+    "unite_no": 3,
+    "unite_ad": "Ünite 3",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 98
   },
   {
     "kod": "SB.7.4.1",
-    "ad": ") (SB.7.4.4)",
+    "ad": "Türkiye Cumhuriyeti’nin temel niteliklerini özetleyebilme",
     "sinif": 7,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 102
-  },
-  {
-    "kod": "SB.7.4.4",
-    "ad": ") KB2.4. Çözümleme (SB.7.4.2)",
-    "sinif": 7,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 102
+    "kaynak_sayfa": 103
   },
   {
     "kod": "SB.7.4.2",
-    "ad": ") EĞİLİMLER E1.2. Bağımsızlık, E2.5. Oyunseverlik, E3.1. Uzmanlaşma, E3.2. Odaklanma, E3.3 Yaratıcı-",
+    "ad": "Türkiye Cumhuriyeti Devleti’nin yönetim yapısını çözümleyebilme",
     "sinif": 7,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 102
+    "kaynak_sayfa": 103
+  },
+  {
+    "kod": "SB.7.4.3",
+    "ad": "Ülkemizdeki demokrasinin gelişimini, demokrasinin temel ilkeleri açısından yo-",
+    "sinif": 7,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 103
+  },
+  {
+    "kod": "SB.7.4.4",
+    "ad": "Demokrasinin uygulama sürecinde karşılaşılan sorunları özetleyebilme",
+    "sinif": 7,
+    "unite_no": 4,
+    "unite_ad": "Ünite 4",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 103
   },
   {
     "kod": "SB.7.5.1",
-    "ad": ") SBAB8. Coğrafi Sorgulama (SBAB8.4 Coğrafi Bilgileri Çözümleme) (SB.7.5.2)",
+    "ad": "Millî kalkınma hamlelerini neden ve sonuçlarıyla yorumlayabilme",
     "sinif": 7,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 107
+    "kaynak_sayfa": 108
   },
   {
     "kod": "SB.7.5.2",
-    "ad": ") KAVRAMSAL",
+    "ad": "Ekonomik gelişmişlik ile üretim, dağıtım ve tüketim döngüsü arasındaki ilişkiyi",
     "sinif": 7,
+    "unite_no": 5,
+    "unite_ad": "Ünite 5",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 107
+    "kaynak_sayfa": 108
   },
   {
     "kod": "SB.7.6.1",
-    "ad": ") FBAB13. Bilimsel Sorgulama (SB.7.6.3)",
+    "ad": "Bilimsel ve teknolojik gelişmelerin gelecekteki toplum hayatına etkilerine ilişkin",
     "sinif": 7,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 111
-  },
-  {
-    "kod": "SB.7.6.3",
-    "ad": ") KAVRAMSAL",
-    "sinif": 7,
-    "ders": "Sosyal Bilgiler",
-    "brans_slug": "sosyal_bilgiler",
-    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 111
+    "kaynak_sayfa": 112
   },
   {
     "kod": "SB.7.6.2",
-    "ad": ") EĞİLİMLER E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E3.1. Uzmanlaş-",
+    "ad": "Örnek metinler üzerinden sosyal bilimlerin çalışma alanlarına dair genelleme",
     "sinif": 7,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
     "ders": "Sosyal Bilgiler",
     "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
-    "kaynak_sayfa": 111
+    "kaynak_sayfa": 112
+  },
+  {
+    "kod": "SB.7.6.3",
+    "ad": "Toplumsal hayatta karşılaşabileceği bir probleme yönelik bilimsel sorgulama",
+    "sinif": 7,
+    "unite_no": 6,
+    "unite_ad": "Ünite 6",
+    "ders": "Sosyal Bilgiler",
+    "brans_slug": "sosyal_bilgiler",
+    "okul_tipi": "ortaokul",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 112
   }
 ]

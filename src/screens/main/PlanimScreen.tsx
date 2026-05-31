@@ -6,9 +6,9 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
 import {
-  SunHorizon, Bell, BookOpen, NotePencil, Lightning, ClipboardText,
-  CalendarBlank, WarningCircle, CaretRight, FolderOpen, UserCircle,
-} from 'phosphor-react-native';
+  Sunrise, Bell, BookOpen, Pencil, Zap, ClipboardList,
+  Calendar, AlertCircle, ChevronRight, FolderOpen, CircleUser,
+} from 'lucide-react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -27,19 +27,19 @@ type Nav = NativeStackNavigationProp<RootStackParamList>;
 
 // ─── Tile tanımları ───────────────────────────────────────────────────────────
 
-type PhosphorIcon = React.ComponentType<{ size?: number; color?: string; weight?: 'thin'|'light'|'regular'|'bold'|'fill'|'duotone' }>;
+type LucideIconType = React.ComponentType<{ size?: number; color?: string; strokeWidth?: number }>;
 
-const HIZLI_TIPLER: { id: string; label: string; Icon: PhosphorIcon; bg: string; fg: string }[] = [
+const HIZLI_TIPLER: { id: string; label: string; Icon: LucideIconType; bg: string; fg: string }[] = [
   { id: 'ders',     label: 'Ders Planı',      Icon: BookOpen,     bg: colors.catBlueLt,   fg: colors.catBlue   },
-  { id: 'sorular',  label: 'Sınav',            Icon: NotePencil,   bg: colors.catPurpleLt, fg: colors.catPurple },
-  { id: 'etkinlik', label: 'Etkinlik',         Icon: Lightning,    bg: colors.catOrangeLt, fg: colors.catOrange },
-  { id: 'yaprak',   label: 'Çalışma Yaprağı', Icon: ClipboardText, bg: colors.catGreenLt, fg: colors.catGreen  },
+  { id: 'sorular',  label: 'Sınav',            Icon: Pencil,   bg: colors.catPurpleLt, fg: colors.catPurple },
+  { id: 'etkinlik', label: 'Etkinlik',         Icon: Zap,    bg: colors.catOrangeLt, fg: colors.catOrange },
+  { id: 'yaprak',   label: 'Çalışma Yaprağı', Icon: ClipboardList, bg: colors.catGreenLt, fg: colors.catGreen  },
 ];
 
-const SON_HAZIRLANLAR: { id: string; tip: string; baslik: string; sinif: string; tarih: string; Icon: PhosphorIcon; bg: string; fg: string }[] = [
-  { id: '1', tip: 'Sınav',      baslik: 'Üslü İfadeler', sinif: '9-A',  tarih: 'Bugün',      Icon: NotePencil,    bg: colors.catPurpleLt, fg: colors.catPurple },
+const SON_HAZIRLANLAR: { id: string; tip: string; baslik: string; sinif: string; tarih: string; Icon: LucideIconType; bg: string; fg: string }[] = [
+  { id: '1', tip: 'Sınav',      baslik: 'Üslü İfadeler', sinif: '9-A',  tarih: 'Bugün',      Icon: Pencil,    bg: colors.catPurpleLt, fg: colors.catPurple },
   { id: '2', tip: 'Ders Planı', baslik: 'Polinomlar',    sinif: '10-B', tarih: 'Dün',        Icon: BookOpen,      bg: colors.catBlueLt,   fg: colors.catBlue   },
-  { id: '3', tip: 'Etkinlik',   baslik: 'Trigonometri',  sinif: '11-A', tarih: '2 gün önce', Icon: Lightning,     bg: colors.catOrangeLt, fg: colors.catOrange },
+  { id: '3', tip: 'Etkinlik',   baslik: 'Trigonometri',  sinif: '11-A', tarih: '2 gün önce', Icon: Zap,     bg: colors.catOrangeLt, fg: colors.catOrange },
 ];
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -163,14 +163,14 @@ function GradientHeader({
           end={{ x: 1, y: 1 }}
           style={styles.greetIcon}
         >
-          <SunHorizon size={18} color="#fff" weight="fill" />
+          <Sunrise size={18} color="#fff" />
         </LinearGradient>
         <View style={{ flexDirection: 'row', gap: 8 }}>
           <TouchableOpacity style={styles.bellBtn} activeOpacity={0.7}>
-            <Bell size={18} color="rgba(255,255,255,0.85)" weight="regular" />
+            <Bell size={18} color="rgba(255,255,255,0.85)" />
           </TouchableOpacity>
           <TouchableOpacity style={styles.bellBtn} onPress={onProfilPress} activeOpacity={0.7}>
-            <UserCircle size={18} color="rgba(255,255,255,0.85)" weight="regular" />
+            <CircleUser size={18} color="rgba(255,255,255,0.85)" />
           </TouchableOpacity>
         </View>
       </View>
@@ -204,7 +204,7 @@ function GradientHeader({
 function TatilUyarisi({ tatilAdi }: { tatilAdi: string }) {
   return (
     <View style={styles.tatilStrip}>
-      <CalendarBlank size={15} color={colors.warning} weight="bold" />
+      <Calendar size={15} color={colors.warning} strokeWidth={2.5} />
       <Text style={styles.tatilText}>
         Önümüzdeki hafta <Text style={styles.tatilBold}>{tatilAdi}</Text> — planlamayı buna göre ayarla.
       </Text>
@@ -217,11 +217,11 @@ function TatilUyarisi({ tatilAdi }: { tatilAdi: string }) {
 function ProaktifOneri({ kalan, onPress }: { kalan: number; onPress: () => void }) {
   return (
     <TouchableOpacity style={styles.oneriStrip} onPress={onPress} activeOpacity={0.8}>
-      <WarningCircle size={15} color={colors.accent} weight="bold" />
+      <AlertCircle size={15} color={colors.accent} strokeWidth={2.5} />
       <Text style={styles.oneriText}>
         Bu hafta {kalan} kazanım henüz hazırlanmadı.
       </Text>
-      <CaretRight size={14} color={colors.accent} weight="bold" />
+      <ChevronRight size={14} color={colors.accent} strokeWidth={2.5} />
     </TouchableOpacity>
   );
 }
@@ -242,7 +242,7 @@ function BuHaftaCard({ hafta, onDetay }: { hafta: HaftaData; onDetay: () => void
         </View>
         <TouchableOpacity style={styles.detayBtn} onPress={onDetay} activeOpacity={0.7}>
           <Text style={styles.detayBtnText}>Tümünü gör</Text>
-          <CaretRight size={13} color={colors.accent} weight="bold" />
+          <ChevronRight size={13} color={colors.accent} strokeWidth={2.5} />
         </TouchableOpacity>
       </View>
 
@@ -268,7 +268,7 @@ function BuHaftaCard({ hafta, onDetay }: { hafta: HaftaData; onDetay: () => void
           {remaining > 0 && (
             <TouchableOpacity style={styles.peekMore} onPress={onDetay} activeOpacity={0.7}>
               <Text style={styles.peekMoreText}>ve {remaining} kazanım daha</Text>
-              <CaretRight size={12} color={colors.text3} weight="bold" />
+              <ChevronRight size={12} color={colors.text3} strokeWidth={2.5} />
             </TouchableOpacity>
           )}
         </View>
@@ -291,7 +291,7 @@ function HizliHazirla({ onTipSec }: { onTipSec: (id: string) => void }) {
               onPress={() => onTipSec(tip.id)}
               activeOpacity={0.8}
             >
-              <tip.Icon size={28} color={tip.fg} weight="duotone" />
+              <tip.Icon size={28} color={tip.fg} />
               <Text style={[styles.hizliLabel, { color: tip.fg }]}>{tip.label}</Text>
             </TouchableOpacity>
           ))}
@@ -315,7 +315,7 @@ function SonHazirlanlar() {
         {SON_HAZIRLANLAR.map(item => (
           <TouchableOpacity key={item.id} style={styles.sonCard} activeOpacity={0.8}>
             <View style={[styles.sonIcon, { backgroundColor: item.bg }]}>
-              <item.Icon size={18} color={item.fg} weight="duotone" />
+              <item.Icon size={18} color={item.fg} />
             </View>
             <Text style={styles.sonTip}>{item.tip}</Text>
             <Text style={styles.sonBaslik} numberOfLines={2}>{item.baslik}</Text>
@@ -453,9 +453,9 @@ export function PlanimScreen() {
             onPress={() => navigation.navigate('DersProgrami')}
             activeOpacity={0.8}
           >
-            <CalendarBlank size={15} color={colors.text3} weight="regular" />
+            <Calendar size={15} color={colors.text3} />
             <Text style={styles.dersProgramiText}>Ders programını ekle</Text>
-            <CaretRight size={13} color={colors.text3} weight="bold" />
+            <ChevronRight size={13} color={colors.text3} strokeWidth={2.5} />
           </TouchableOpacity>
 
           <View style={styles.sectionWrap}>
@@ -472,7 +472,7 @@ export function PlanimScreen() {
         </Animated.ScrollView>
       ) : (
         <Animated.View style={[styles.emptyContainer, fadeSlide]}>
-          <FolderOpen size={52} color={colors.text3} weight="light" />
+          <FolderOpen size={52} color={colors.text3} strokeWidth={1} />
           <Text style={styles.emptyTitle}>Henüz bir planın yok.</Text>
           <TouchableOpacity
             style={styles.emptyBtn}

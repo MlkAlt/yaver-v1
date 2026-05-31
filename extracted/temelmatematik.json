@@ -1,164 +1,26 @@
 [
   {
-    "kod": "MAT.T.11.1",
-    "ad": ". NİCELİKLER VE DEĞİŞİMLER 3 26 36",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 10
-  },
-  {
-    "kod": "MAT.T.11.2",
-    "ad": ". GEOMETRİK ŞEKİLLER 2 26 36",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 10
-  },
-  {
-    "kod": "MAT.T.11.3",
-    "ad": ". İSTATİSTİKSEL ARAŞTIRMA SÜRECİ 1 16 22",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 10
-  },
-  {
-    "kod": "MAT.T.12.1",
-    "ad": ". NİCELİKLER VE DEĞİŞİMLER 3 26 36",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 10
-  },
-  {
-    "kod": "MAT.T.12.2",
-    "ad": ". GEOMETRİK ŞEKİLLER 2 26 36",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 10
-  },
-  {
-    "kod": "MAT.T.12.3",
-    "ad": ". İSTATİSTİKSEL ARAŞTIRMA SÜRECİ 1 16 22",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 10
-  },
-  {
-    "kod": "MAT.T.11.1.1",
-    "ad": ". Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 16
-  },
-  {
-    "kod": "MAT.T.11.1.2",
-    "ad": ". Niceliklerin ters orantılı değişimlerini - {0} da tanımlı g(x) = fonksi-",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 16
-  },
-  {
-    "kod": "MAT.T.11.1.3",
-    "ad": ". Gerçek sayılarda tanımlı f(x) = ax veya - {0} da tanımlı g(x) = fonk-",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 16
-  },
-  {
     "kod": "MAT.11.2.1",
-    "ad": ". Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin",
+    "ad": "Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin",
     "sinif": 11,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Temel Düzey Matematik",
     "brans_slug": "matematik",
+    "okul_tipi": "lise",
     "kaynak_pdf": "20263261489870-temelmatematik.pdf",
     "kaynak_sayfa": 22
   },
   {
     "kod": "MAT.11.2.2",
-    "ad": ". Çokgenlerin kenar, açı ve köşegen özelliklerine dair çıkarım yapabilme",
+    "ad": "Çokgenlerin kenar, açı ve köşegen özelliklerine dair çıkarım yapabilme",
     "sinif": 11,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Temel Düzey Matematik",
     "brans_slug": "matematik",
+    "okul_tipi": "lise",
     "kaynak_pdf": "20263261489870-temelmatematik.pdf",
     "kaynak_sayfa": 22
-  },
-  {
-    "kod": "MAT.T.11.3.1",
-    "ad": ". İki nicel değişkenli veri ile çalışabilme ve iki nicel değişken arasındaki ilişkili-",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 27
-  },
-  {
-    "kod": "MAT.T.12.1.1",
-    "ad": ". Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 32
-  },
-  {
-    "kod": "MAT.T.12.1.2",
-    "ad": ". Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştıra-",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 32
-  },
-  {
-    "kod": "MAT.T.12.1.3",
-    "ad": ". Aritmetik ve geometrik diziler ile ifade edilebilen problemleri çözebilme",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 32
-  },
-  {
-    "kod": "MAT.T.12.2.1",
-    "ad": ". Çemberle ilişkili elemanları (kesen, kiriş, teğet, çap, yay) çözümleyebilme",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 37
-  },
-  {
-    "kod": "MAT.T.12.2.2",
-    "ad": ". Çemberin açı, kiriş, teğet özellikleri ile ilgili çıkarım yapabilme",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 37
-  },
-  {
-    "kod": "MAT.T.12.3.1",
-    "ad": ". Toplumsal veya bilimsel durumlara ilişkin hazır veri ile çalışabilme ve hazır",
-    "sinif": null,
-    "ders": "Temel Düzey Matematik",
-    "brans_slug": "matematik",
-    "kaynak_pdf": "20263261489870-temelmatematik.pdf",
-    "kaynak_sayfa": 41
   }
 ]

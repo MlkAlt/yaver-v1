@@ -1,110 +1,98 @@
 [
   {
     "kod": "TG.4.1.1",
-    "ad": ". Trafik ile ilgili temel kavramlar hakkında bilgi",
+    "ad": "Trafik ile ilgili temel kavramlar hakkında bilgi",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 11
   },
   {
     "kod": "TG.4.1.2",
-    "ad": ". Trafik kurallarının gereği ve önemini özetleyebilme",
+    "ad": "Trafik kurallarının gereği ve önemini özetleyebilme",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 13
   },
   {
     "kod": "TG.4.1.3",
-    "ad": ". Trafik işaret levhalarını sınıflandırabilme",
+    "ad": "Trafik işaret levhalarını sınıflandırabilme",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 13
   },
   {
     "kod": "TG.4.1.4",
-    "ad": ". Temel trafik kurallarına uyabilme",
+    "ad": "Temel trafik kurallarına uyabilme",
     "sinif": 4,
+    "unite_no": 1,
+    "unite_ad": "Ünite 1",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 13
   },
   {
     "kod": "TG.4.2.1",
-    "ad": ". Trafikteki ulaşım araçlarını karşılaştırabilme",
+    "ad": "Trafikteki ulaşım araçlarını karşılaştırabilme",
     "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 17
   },
   {
     "kod": "TG.4.2.2",
-    "ad": ". Trafikte geçiş üstünlüğü olan ulaşım araçlarını tanıyabilme",
+    "ad": "Trafikte geçiş üstünlüğü olan ulaşım araçlarını tanıyabilme",
     "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 17
   },
   {
     "kod": "TG.4.2.3",
-    "ad": ". Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisini sorgulayabilme",
+    "ad": "Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisini sorgulayabilme",
     "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 17
   },
   {
     "kod": "TG.4.2.4",
-    "ad": ". Trafikte tehlike oluşturabilecek durumları güvenlik açısından gözleme dayalı",
+    "ad": "Trafikte tehlike oluşturabilecek durumları güvenlik açısından gözleme dayalı",
     "sinif": 4,
+    "unite_no": 2,
+    "unite_ad": "Ünite 2",
     "ders": "Trafik Güvenliği",
     "brans_slug": "sinif_ogretmeni",
+    "okul_tipi": "ilkokul",
     "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
     "kaynak_sayfa": 17
-  },
-  {
-    "kod": "TG.4.3.1",
-    "ad": ". Öğrencilerden trafikteki hak ve sorumluluklarını sorgulayabilmeleri beklenir. Bunun için",
-    "sinif": 4,
-    "ders": "Trafik Güvenliği",
-    "brans_slug": "sinif_ogretmeni",
-    "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
-    "kaynak_sayfa": 23
-  },
-  {
-    "kod": "TG.4.3.2",
-    "ad": ". Öğrencilerden davranış biçimlerinin trafikteki iletişime etkisini değerlendirebilmeleri bek-",
-    "sinif": 4,
-    "ders": "Trafik Güvenliği",
-    "brans_slug": "sinif_ogretmeni",
-    "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
-    "kaynak_sayfa": 23
-  },
-  {
-    "kod": "TG.4.4.1",
-    "ad": ". Öğrencilerden taşıtlarda bulunması gereken ilk yardım malzemelerine ilişkin bilgi top-",
-    "sinif": 4,
-    "ders": "Trafik Güvenliği",
-    "brans_slug": "sinif_ogretmeni",
-    "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
-    "kaynak_sayfa": 27
-  },
-  {
-    "kod": "TG.4.4.2",
-    "ad": ". Öğrencilerden trafikte acil durumlarda doğru davranış biçimlerini belirlemeleri beklenir.",
-    "sinif": 4,
-    "ders": "Trafik Güvenliği",
-    "brans_slug": "sinif_ogretmeni",
-    "kaynak_pdf": "2025829164512920-trafik pdf.pdf",
-    "kaynak_sayfa": 27
   }
 ]

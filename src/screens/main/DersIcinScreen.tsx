@@ -5,10 +5,10 @@ import {
   StyleSheet as RNStyleSheet,
 } from 'react-native';
 import {
-  BookOpen, NotePencil, Lightning, ClipboardText,
-  MonitorPlay, Notebook, CaretRight, X,
-  FolderOpen, DownloadSimple,
-} from 'phosphor-react-native';
+  BookOpen, Pencil, Zap, ClipboardList,
+  MonitorPlay, Notebook, ChevronRight, X,
+  FolderOpen, Download,
+} from 'lucide-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -29,9 +29,9 @@ const TILE_W = (Dimensions.get('window').width - spacing.base * 2 - 12) / 2;
 type TipDef = { id: string; label: string; Icon: React.ComponentType<any>; bg: string; fg: string };
 const HIZLI_TIPLER: TipDef[] = [
   { id: 'ders', label: 'Ders Planı', Icon: BookOpen, bg: colors.catBlueLt, fg: colors.catBlue },
-  { id: 'sinav', label: 'Sınav', Icon: NotePencil, bg: colors.catPurpleLt, fg: colors.catPurple },
-  { id: 'etkinlik', label: 'Etkinlik', Icon: Lightning, bg: colors.catOrangeLt, fg: colors.catOrange },
-  { id: 'yaprak', label: 'Çalışma Yaprağı', Icon: ClipboardText, bg: colors.catGreenLt, fg: colors.catGreen },
+  { id: 'sinav', label: 'Sınav', Icon: Pencil, bg: colors.catPurpleLt, fg: colors.catPurple },
+  { id: 'etkinlik', label: 'Etkinlik', Icon: Zap, bg: colors.catOrangeLt, fg: colors.catOrange },
+  { id: 'yaprak', label: 'Çalışma Yaprağı', Icon: ClipboardList, bg: colors.catGreenLt, fg: colors.catGreen },
   { id: 'slayt', label: 'Slayt', Icon: MonitorPlay, bg: '#FFE8E8', fg: '#C0392B' },
   { id: 'odev', label: 'Ödev', Icon: Notebook, bg: '#FFF8E1', fg: '#E65100' },
 ];
@@ -41,8 +41,8 @@ type FilterKey = 'Tümü' | 'Ders Planı' | 'Sınav' | 'Etkinlik' | 'Çalışma 
 const FILTERS: FilterKey[] = ['Tümü', 'Ders Planı', 'Sınav', 'Etkinlik', 'Çalışma Yaprağı', 'Slayt', 'Ödev'];
 
 const TIP_ICON_MAP: Record<string, React.ComponentType<any>> = {
-  'Ders Planı': BookOpen, 'Sınav': NotePencil,
-  'Etkinlik': Lightning, 'Çalışma Yaprağı': ClipboardText,
+  'Ders Planı': BookOpen, 'Sınav': Pencil,
+  'Etkinlik': Zap, 'Çalışma Yaprağı': ClipboardList,
   'Slayt': MonitorPlay, 'Ödev': Notebook,
 };
 const TIP_COLOR_MAP: Record<string, string> = {
@@ -148,13 +148,13 @@ function KazanimSheet({
               <Text style={ss.sheetTitle}>Hangi kazanım için?</Text>
               {tip && (
                 <View style={[ss.tipBadge, { backgroundColor: tip.bg }]}>
-                  <tip.Icon size={13} color={tip.fg} weight="duotone" />
+                  <tip.Icon size={13} color={tip.fg} />
                   <Text style={[ss.tipBadgeText, { color: tip.fg }]}>{tip.label}</Text>
                 </View>
               )}
             </View>
             <TouchableOpacity style={ss.closeBtn} onPress={onClose}>
-              <X size={18} color={colors.text2} weight="bold" />
+              <X size={18} color={colors.text2} strokeWidth={2.5} />
             </TouchableOpacity>
           </View>
 
@@ -202,7 +202,7 @@ function KazanimSheet({
                         <Text style={ss.kazAd} numberOfLines={2}>{kaz.ad}</Text>
                         <Text style={ss.kazMeta}>{kaz.sinif}  ·  {kaz.kod}</Text>
                       </View>
-                      <CaretRight size={15} color={colors.text3} weight="bold" />
+                      <ChevronRight size={15} color={colors.text3} strokeWidth={2.5} />
                     </TouchableOpacity>
                   ))}
                 </View>
@@ -272,7 +272,7 @@ export function DersIcinScreen() {
                 activeOpacity={0.8}
               >
                 <View style={[styles.tileIconBox, { backgroundColor: tip.fg + '22' }]}>
-                  <Icon size={26} color={tip.fg} weight="duotone" />
+                  <Icon size={26} color={tip.fg} />
                 </View>
                 <Text style={[styles.tileLabel, { color: tip.fg }]}>{tip.label}</Text>
               </TouchableOpacity>
@@ -304,7 +304,7 @@ export function DersIcinScreen() {
         {/* Creation list */}
         {filtered.length === 0 ? (
           <View style={styles.emptyState}>
-            <FolderOpen size={44} color={colors.text3} weight="light" />
+            <FolderOpen size={44} color={colors.text3} strokeWidth={1} />
             <Text style={styles.emptyTitle}>Henüz hiçbir şey hazırlanmadı.</Text>
             <Text style={styles.emptySub}>Yukarıdan bir materyal türü seç.</Text>
           </View>
@@ -319,7 +319,7 @@ export function DersIcinScreen() {
                 return (
                   <TouchableOpacity key={item.id} style={styles.card} activeOpacity={0.8}>
                     <View style={[styles.iconBox, { backgroundColor: iconBg }]}>
-                      <Icon size={18} color={iconColor} weight="duotone" />
+                      <Icon size={18} color={iconColor} />
                     </View>
                     <View style={styles.cardBody}>
                       <Text style={styles.cardTitle} numberOfLines={1}>{item.baslik}</Text>
@@ -328,7 +328,7 @@ export function DersIcinScreen() {
                     <View style={styles.cardRight}>
                       <Text style={styles.cardTarih}>{item.tarih}</Text>
                       <TouchableOpacity style={styles.iconAction}>
-                        <DownloadSimple size={14} color={colors.text2} weight="regular" />
+                        <Download size={14} color={colors.text2} />
                       </TouchableOpacity>
                     </View>
                   </TouchableOpacity>

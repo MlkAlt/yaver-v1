@@ -27,6 +27,11 @@ export interface YillikPlan {
   haftalar: PlanHaftasi[];
 }
 
+interface UnitSlot {
+  items: Kazanim[];
+  aktifStart: number;
+  aktifEnd: number;
+}
 
 export async function planUret(
   bransAd: string,
@@ -36,9 +41,6 @@ export async function planUret(
   seciliDersler?: string[],
   dersFiltesi?: string[],
 ): Promise<YillikPlan> {
-  // Kazanımları çek (sınıf + ünite sıralı)
-  // seciliDersler varsa (Sınıf Öğretmenliği gibi multi-ders branşlar):
-  //   brans_id yerine ders adına göre, tüm branşlar arasında sorgula
   let q = supabase
     .from('kazanimlar')
     .select('kod, ad, unite_no, unite_ad, sinif, ders')
@@ -48,24 +50,20 @@ export async function planUret(
     .order('kod');
 
   if (seciliDersler && seciliDersler.length > 0) {
-    // Sınıf Öğretmenliği: cross-branş, ders adına göre filtrele
     q = q.in('ders', seciliDersler);
   } else {
     q = q.eq('brans_id', bransId);
     if (dersFiltesi && dersFiltesi.length > 0) {
-      // SecmeliDersler ekranı gösterildiyse: zorunlu + seçmeli dersler
       q = q.in('ders', dersFiltesi);
     }
   }
   if (okulTipi) q = q.eq('okul_tipi', okulTipi);
 
   const { data: kazanimlar, error: kazErr } = await q;
-
   if (kazErr) throw new Error(`Kazanımlar alınamadı: ${kazErr.message}`);
   let tumKazanimlar = (kazanimlar ?? []) as Kazanim[];
 
-  // Çok-ders modunda (Sınıf Öğretmenliği) İngilizce sinif başına 20 kazanımla sınırla.
-  // İngilizce JSON'u diğer branşlardan 5-10x fazla kazanım üretiyor; plan dengesini bozuyor.
+  // Çok-ders modunda İngilizce sınıf başına 20 kazanımla sınırla
   if (seciliDersler && seciliDersler.length > 1) {
     const ING_CAP = 20;
     const ingBySinif = new Map<number, number>();
@@ -78,8 +76,6 @@ export async function planUret(
     });
   }
 
-
-  // 3. Eğitim takvimini çek (yil INTEGER: 2025 = 2025-2026 eğitim yılı)
   const { data: takvim, error: takvimErr } = await supabase
     .from('egitim_takvimi')
     .select('hafta_no, baslangic, bitis, tatil_mi, tatil_adi')
@@ -89,17 +85,48 @@ export async function planUret(
   if (takvimErr) throw new Error(`Takvim alınamadı: ${takvimErr.message}`);
   const tumHaftalar = takvim ?? [];
 
-  // 4. Orantılı dağıtım: (sinif, ders) çifti bazında grupla
-  // Her grup bağımsız dağıtılır → her haftada tüm derslerden kazanım çıkar.
-  // Eski yaklaşım (sadece sinif bazında) tüm dersleri tek kovaya koyuyordu;
-  // alfabetik kod sırası nedeniyle ilk haftalar tek derse ait kazanımlarla doluyordu.
   const aktifHafta = tumHaftalar.filter((h) => !h.tatil_mi).length || 1;
 
-  const byGroup = new Map<string, Kazanim[]>();
+  // Grup: (sinif, ders) → kazanım listesi (unite_no sıralı)
+  const byDersGroup = new Map<string, Kazanim[]>();
   for (const k of tumKazanimlar) {
     const key = `${k.sinif}:${k.ders ?? ''}`;
-    if (!byGroup.has(key)) byGroup.set(key, []);
-    byGroup.get(key)!.push(k);
+    if (!byDersGroup.has(key)) byDersGroup.set(key, []);
+    byDersGroup.get(key)!.push(k);
+  }
+
+  // Her (sinif, ders) grubunu unite_no bazında böl ve ardışık hafta aralıkları ata.
+  // Ünite sınırı asla hafta ortasına denk gelmez: her ünite kendi ardışık hafta bloğuna sahiptir.
+  const unitSlots: UnitSlot[] = [];
+  for (const items of byDersGroup.values()) {
+    const totalN = items.length;
+    if (totalN === 0) continue;
+
+    // Ünite bloklarına ayır (items zaten unite_no sıralı — sorgu ORDER BY garantisi)
+    const units: Kazanim[][] = [];
+    let lastUniteNo = -1;
+    for (const k of items) {
+      if (k.unite_no !== lastUniteNo) {
+        units.push([]);
+        lastUniteNo = k.unite_no;
+      }
+      units[units.length - 1].push(k);
+    }
+
+    // Kümülatif kazanım oranına göre ardışık hafta aralıkları ata
+    let weekOffset = 0;
+    let cumulativeItems = 0;
+    for (let u = 0; u < units.length; u++) {
+      cumulativeItems += units[u].length;
+      const unitEnd = u === units.length - 1
+        ? aktifHafta
+        : Math.round(cumulativeItems / totalN * aktifHafta);
+      const weeksForUnit = Math.max(0, unitEnd - weekOffset);
+      if (weeksForUnit > 0) {
+        unitSlots.push({ items: units[u], aktifStart: weekOffset, aktifEnd: unitEnd });
+      }
+      weekOffset = unitEnd;
+    }
   }
 
   let aktifIdx = 0;
@@ -119,14 +146,19 @@ export async function planUret(
     const i = aktifIdx++;
     const haftalikKazanimlar: Kazanim[] = [];
 
-    for (const items of byGroup.values()) {
-      const N = items.length;
-      const start = Math.floor(i * N / aktifHafta);
-      const end   = Math.min(Math.floor((i + 1) * N / aktifHafta), N);
+    for (const slot of unitSlots) {
+      const rangeSize = slot.aktifEnd - slot.aktifStart;
+      if (rangeSize <= 0) continue;
+      const relI = i - slot.aktifStart;
+      if (relI < 0 || relI >= rangeSize) continue;
+
+      const N = slot.items.length;
+      const start = Math.floor(relI * N / rangeSize);
+      const end   = Math.min(Math.floor((relI + 1) * N / rangeSize), N);
       if (end > start) {
-        haftalikKazanimlar.push(...items.slice(start, end));
+        haftalikKazanimlar.push(...slot.items.slice(start, end));
       } else {
-        haftalikKazanimlar.push(items[Math.min(start, N - 1)]);
+        haftalikKazanimlar.push(slot.items[Math.min(start, N - 1)]);
       }
     }
 

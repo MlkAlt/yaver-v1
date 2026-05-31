@@ -36,3 +36,12 @@ supabase/.temp/
 .claude/settings.json
 .claude/settings.local.json
 .expo/
+
+# Python virtual env
+.venv/
+
+# Script çıktıları (yeniden üretilebilir)
+extracted/
+
+# Birleşik kazanım JSON (yeniden üretilir)
+refs/kazanimlar_meb_2025.json
