@@ -1,0 +1,138 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "Beden Eğitimi ve Oyun Dersi",
+    "sinif_seviyesi": "1. Sınıf",
+    "temalar": [
+        {
+            "adi": "Hareket Ediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.1.1.1.",
+                    "metin": "Oyunlarda hareket kavramlarını uygulayabilme",
+                    "surec_bilesenleri": [
+                        "Beden farkındalığı, alan farkındalığı, efor ve hareket ilişkileri kavramlarını ayırt eder.",
+                        "Hareket ile beden farkındalığı, alan farkındalığı, efor ve hareket ilişkileri kavramları arasında bağ kurar.",
+                        "Beden farkındalığı, alan farkındalığı, efor ve hareket ilişkileri temel kavramlarına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.1.2.",
+                    "metin": "Oyunlar sırasında güvenli ortam oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Oyunlar sırasında ortaya çıkabilecek riskleri tanımlar.",
+                        "Oyunlar sırasında ortaya çıkabilecek risklere ilişkin önleyici tedbirler alır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.1.3.",
+                    "metin": "Temel hareket becerilerini açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.1.4.",
+                    "metin": "Temel hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Yer değiştirme, nesne kontrolü ve denge becerilerini algılar.",
+                        "Yer değiştirme, nesne kontrolü ve denge becerilerinin basamaklarını gösterir.",
+                        "Yer değiştirme, nesne kontrolü ve denge becerilerini farklı durumlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Oyunu Kuralına Göre Oynuyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.1.2.1.",
+                    "metin": "Oyunlarda temel hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Oyunlarda yer değiştirme, nesne kontrolü ve denge becerilerini algılar.",
+                        "Oyunlarda yer değiştirme, nesne kontrolü ve denge becerilerinin basamaklarını gösterir.",
+                        "Oyunlarda yer değiştirme, nesne kontrolü ve denge becerilerini farklı durumlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.2.2.",
+                    "metin": "Oyun kurallarını uygulayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.2.3.",
+                    "metin": "Oyunlarda taktik ve stratejiyi kullanabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.2.4.",
+                    "metin": "Oyunlarda adil oyun anlayışına uygun davranabilme",
+                    "surec_bilesenleri": [
+                        "Adil oyun anlayışını açıklar.",
+                        "Oyunlarda adil oyun anlayışına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Ritimle Hareket Ediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.1.3.1.",
+                    "metin": "Ritmik hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Temel hareket becerilerini kullanarak verilen ritmi algılar.",
+                        "Temel hareket becerilerini kullanarak ritme uygun hareket eder.",
+                        "Temel hareket becerilerini kullanarak ritmik hareket becerilerini sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.3.2.",
+                    "metin": "Eşle veya grupla hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Eşle veya grupla hareket ederken rolleri tanımlar.",
+                        "Eşle veya grupla hareket ederken rolleri yerine getirir.",
+                        "Eşle veya grupla uyumlu hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.3.3.",
+                    "metin": "Takım veya grup liderliği sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Takım veya grup liderliği özelliklerini tanır.",
+                        "Takım veya grup liderliği özelliklerini gösterir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Fiziksel Aktiviteye Katılıyorum ve Sağlıklı Büyüyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.1.4.1.",
+                    "metin": "Fiziksel aktivite ve sağlık ilişkisini fark edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.1.4.2.",
+                    "metin": "Okul içi fiziksel aktiviteye katılabilme",
+                    "surec_bilesenleri": [
+                        "Fiziksel aktivite düzeyini fark eder.",
+                        "Fiziksel aktivite düzeyini geliştirmek için plan yapar.",
+                        "Fiziksel aktiviteye ilişkin planı uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

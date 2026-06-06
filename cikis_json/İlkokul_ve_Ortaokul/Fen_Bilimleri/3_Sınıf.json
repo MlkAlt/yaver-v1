@@ -1,0 +1,258 @@
+{
+    "okul_turu": "İlkokul ve Ortaokul",
+    "brans": "Fen Bilimleri",
+    "sinif_seviyesi": "3. Sınıf",
+    "temalar": [
+        {
+            "adi": "Bilimsel Keşif Yolculuğu",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.1.1.",
+                    "metin": "Bilimsel bilgiye ulaşma yollarını sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Merak ettiği bilimsel bir konuyu tanımlar.",
+                        "İlgili konu hakkında sorular sorar.",
+                        "Sorularını cevaplamaya yönelik bilgi toplar.",
+                        "Bilimsel bilgiye ulaşma yollarının uygunluğunu değerlendirir.",
+                        "Toplanan bilgiler üzerinden bilimsel bilgiye ulaşma yollarına ilişkin çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.1.2.",
+                    "metin": "Bilim insanlarının özelliklerine ilişkin genelleme yapabilme",
+                    "surec_bilesenleri": [
+                        "Bilim insanları hakkında bilgi toplar.",
+                        "Bilim insanlarının ortak özelliklerini belirler.",
+                        "Bilim insanlarının ortak olmayan özelliklerini belirler.",
+                        "Örüntüler üzerinden bilim insanlarının özellikleri hakkında önermede bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Canlılar Dünyasına Yolculuk",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.2.1.",
+                    "metin": "Canlıları; mikroskopla görülebilen canlılar, mantarlar, bitkiler ve hayvanlar olarak sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Canlıların benzer ve farklı niteliklerini belirler.",
+                        "Canlıları niteliklerine göre ayırır.",
+                        "Canlıları gruplandırır.",
+                        "Canlıları etiketler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Canlıların sınıflandırılmasında sistematik terim (âlem, cins, tür vb.) kullanılmaz. Canlılara örnekler verilir ancak onların yapısal ayrıntılarına girilmez. Mantar çeşitlerine girilmez. Doğada bulunan bazı mantarların zehirli olabileceği konusunda öğrenciler uyarılır (D13.1). Bitkilerde ve hayvanlarda sınıflandırmaya girilmez."
+                },
+                {
+                    "kod": "FB.3.2.2.",
+                    "metin": "Canlıların çevrelerini farklı yollarla algılamaları konusunda bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Canlıların çevrelerini algılama biçimlerine ilişkin nitelikleri tanımlar.",
+                        "Duyu organlarının işlevleri ile ilgili veri toplayarak kaydeder.",
+                        "Canlıların çevrelerini farklı biçimlerde algılamalarına ilişkin verileri yorumlayarak değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.2.3.",
+                    "metin": "Canlıların yaşam döngülerini açıklamada tümevarımsal akıl yürütebilme",
+                    "surec_bilesenleri": [
+                        "Canlıların yaşam döngüleri ile ilgili örüntüleri bulur.",
+                        "Canlıların yaşam döngüleri ile ilgili genelleme yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Yer Bilimciler İş Başında",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.3.1.",
+                    "metin": "Kayaçlar, madenler ve mineraller ile ilgili tümdengelimsel akıl yürütebilme",
+                    "surec_bilesenleri": [
+                        "Kayaçlar, madenler ve mineralleri belirler.",
+                        "Kayaçlar, madenler ve mineraller arasında ilişki kurar.",
+                        "Kayaçlar, madenler ve mineraller arasında genelden genele veya genelden özele çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.3.2.",
+                    "metin": "Fosil oluşumu ile ilgili sentez yapabilme",
+                    "surec_bilesenleri": [
+                        "Fosil oluşumunu gösteren sürecin bütün ve parçalarını belirler.",
+                        "Süreci oluşturan aşamalar arasında ilişki kurar.",
+                        "Fosillerin oluşum sürecini oluşturan aşamaları uygun sırayla bir bütün hâline getirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Paleontoloji ve paleontolog kavramlarına değinilir. Fosil çeşitlerine girilmez."
+                }
+            ]
+        },
+        {
+            "adi": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.4.1.",
+                    "metin": "Çevresindeki maddeleri hâllerine göre sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Çevresindeki maddelerin niteliklerini tanımlar.",
+                        "Çevresindeki maddeleri niteliklerine göre ayırır.",
+                        "Çevresindeki maddeleri hâllerine göre gruplandırır.",
+                        "Maddeleri hâllerine göre katı, sıvı ve gaz olarak etiketler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Maddenin hâllerine günlük yaşamdan örnekler verilir fakat yapılarına (tanecikli, boşluklu yapı, tanecikler arası uzaklık, akışkanlık vb.) değinilmez."
+                },
+                {
+                    "kod": "FB.3.4.2.",
+                    "metin": "Günlük yaşamda karşılaştığı karışımların ayrılmasında kullanılabilecek uygun yöntemleri kullanarak deney yapabilme",
+                    "surec_bilesenleri": [
+                        "Karışımların ayrılmasında kullanılabilecek yöntemlerle ilgili deney tasarlar.",
+                        "Karışımların ayrılmasına ilişkin deney sonucu ile hipotezi arasında uyumsuzluk olduğunda deneyini tekrar eder ve/veya hipotezini yeniler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.4.3.",
+                    "metin": "Atıkların ayrıştırılmasına ilişkin problem çözebilme",
+                    "surec_bilesenleri": [
+                        "Atıkların ayrıştırılmasına ilişkin problemi yapılandırır.",
+                        "Atıkların ayrıştırılmasına ilişkin problemi özetler.",
+                        "Atıkların ayrıştırılmasına ilişkin çözüm önerilerini gözleme ya da veriye dayalı tahmin eder.",
+                        "Atıkların ayrıştırılmasına ilişkin problemin çözümüne yönelik önermeler üzerinden akıl yürütür.",
+                        "Atıkların ayrıştırılmasına ilişkin problemin çözümüne yönelik yansıtmada/değerlendirmede bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Hareketi Keşfediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.5.1.",
+                    "metin": "Varlıkların hareket durumlarını gözleme dayalı tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Varlıkların hareket durumlarına ilişkin ön gözlem ve/veya deneyimlerini ilişkilendirir.",
+                        "Varlıkların hareket durumlarına ilişkin çıkarım yapar.",
+                        "Varlıkların hareket durumlarının sonuçlarına ilişkin yargıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.5.2.",
+                    "metin": "Kuvvetin varlıklar üzerindeki etkilerini bilimsel gözleme dayalı tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Varlıkların hareketinin ve şekil değiştirmesinin nedenine ilişkin ön bilgi ve deneyimleriyle önerme oluşturur.",
+                        "Varlıkların hareketinin ve şekil değiştirmesinin nedenine ilişkin gözleme dayalı olan önermeleri karşılaştırır.",
+                        "Kuvvetin varlıkların hareketine ve şekil değiştirmesine etkilerine ilişkin tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+                        "Kuvvetin varlıkların hareketine ve şekil değiştirmesine etkileri ile ilgili gözlemlenmemiş duruma ilişkin tahminde bulunur.",
+                        "Kuvvetin varlıkların hareketine ve şekil değiştirmesine etkileri ile ilgili tahminlerinin geçerliliğini sorgular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Yaşamımızı Kolaylaştıran Elektrik",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.6.1.",
+                    "metin": "Bazı araç gereçlerin elektrikli olduğuna ilişkin bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Farklı araç gereçlerin niteliklerini tanımlar.",
+                        "Elektrikli araç gereçlerle ilgili veri toplayarak kaydeder.",
+                        "Elektrikli araç gereçlerle ilgili verileri değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Pilli araç gereçlerin de elektrikli araç gereçler sınıfına girdiği bilgisi değinilir."
+                },
+                {
+                    "kod": "FB.3.6.2.",
+                    "metin": "Elektrikli araç gereçlerin güvenli kullanımı ile ilgili eleştirel düşünebilme",
+                    "surec_bilesenleri": [
+                        "Elektrikli araç gereçlerin güvenli kullanımı ile ilgili verilen bir olay/konu/problem veya durumu sorgular.",
+                        "Elektrikli araç gereçlerin kullanımında güvenliğin sağlanabileceğine yönelik akıl yürütür.",
+                        "Akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.6.3.",
+                    "metin": "Elektriği tasarruflu kullanma konusunda bilimsel veriye dayalı tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Elektriği tasarruflu kullanma konusunda verilere ve/veya ön bilgilere dayalı önerme oluşturur.",
+                        "Elektriği tasarruflu kullanma üzerine nicel ölçüm verilerine dayalı önermelerini gerekçelendirir.",
+                        "Hesaplamalarına dayalı olarak tahmin eder.",
+                        "Tahminlerin geçerliliğini sorgular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Toprağı Tanıyorum, Tarımı Keşfediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.7.1.",
+                    "metin": "Toprak oluşumuna ve yapısına ilişkin bilimsel gözlem yapabilme",
+                    "surec_bilesenleri": [
+                        "Toprağın oluşumuna ve yapısına ilişkin nitelikleri tanımlar.",
+                        "Toprağın yapısına ilişkin veri toplayarak kaydeder.",
+                        "Toprağın yapısına ilişkin topladığı verileri açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.7.2.",
+                    "metin": "Bir bitkinin yetişmesi için gerekenlere ilişkin genelleme yapabilme",
+                    "surec_bilesenleri": [
+                        "Çevresinde bulunan tarım ürünlerinin nasıl yetiştirildiği konusunda araştırma yaparak bilgi toplar.",
+                        "Bitki yetiştirmek için gerekli ortak özellikleri belirler.",
+                        "Farklı bitkilerin yetiştirilmesinde ortak olmayan özellikleri belirler.",
+                        "Bir bitki yetiştirmek için yapılması gerekenler konusunda önermede bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Canlıların Yaşam Alanlarına Yolculuk",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.3.8.1.",
+                    "metin": "Canlıların yaşam alanlarının özelliklerini belirlemeye yönelik kanıt kullanabilme",
+                    "surec_bilesenleri": [
+                        "Canlıların yaşam alanlarının özelliklerine ilişkin veri toplayarak kaydeder.",
+                        "Canlıların yaşam alanlarına ilişkin veri setleri oluşturur.",
+                        "Canlıların yaşam alanlarının özelliklerine ilişkin veriye dayalı açıklama yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.3.8.2.",
+                    "metin": "Yaşam alanındaki canlı çeşitliliğini operasyonel olarak tanımlayabilme",
+                    "surec_bilesenleri": [
+                        "Yaşam alanınının özelliklerini tanımlar.",
+                        "Yaşam alanındaki canlı çeşitliliği ile ilgili ölçüm yapar.",
+                        "Canlı çeşitliliğinin tanımını yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Canlı çeşitliliğinin bir yaşam alanındaki herhangi bir canlıya ait bireylerin sayısıyla değil yaşam alanındaki farklı canlıların sayısı ile tanımlanacağı belirtilebilir."
+                },
+                {
+                    "kod": "FB.3.8.3.",
+                    "metin": "Yaşam alanlarının korunması için yapılacakları sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Merak ettiği konuyu tanımlar.",
+                        "İlgili konu hakkında sorular sorar.",
+                        "İlgili konu hakkında bilgi toplar.",
+                        "Toplanan bilgilerin doğruluğunu değerlendirir.",
+                        "Toplanan bilgiler üzerinde çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

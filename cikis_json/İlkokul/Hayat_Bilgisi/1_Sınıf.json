@@ -1,0 +1,203 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "Hayat Bilgisi",
+    "sinif_seviyesi": "1. Sınıf",
+    "temalar": [
+        {
+            "adi": "Ben ve Okulum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.1.1.1.",
+                    "metin": "Öğretmeni ve arkadaşlarıyla tanışabilme",
+                    "surec_bilesenleri": [
+                        "Öğretmeni ve arkadaşları kendilerini tanıtırken onları etkin bir şekilde dinler.",
+                        "Öğretmenine ve arkadaşlarına kendisini tanıtırken sözlü ve sözsüz olarak etkileşim kurar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.1.2.",
+                    "metin": "Okul ortamını tanıyabilme",
+                    "surec_bilesenleri": [
+                        "Kendisi için yeni olan sınıfını, okulunun bölümlerini ve okul çalışanlarını fark eder.",
+                        "Okul ortamına ve çalışanlarına ilişkin gözlemlerini ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.1.3.",
+                    "metin": "Sınıf ve okul ortamında kurallara uygun davranabilme",
+                    "surec_bilesenleri": [
+                        "Sınıf ve okul ortamındaki kuralları fark eder.",
+                        "Sınıf ve okul ortamında kurallara uygun davranışlar sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.1.4.",
+                    "metin": "Fiziksel özelliklerini ve temel duygularını açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sağlığım ve Güvenliğim",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.1.2.1.",
+                    "metin": "Sağlıklı büyüme ve gelişme için yapması gerekenleri belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.2.2.",
+                    "metin": "Kişisel alanının sınırlarını belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.2.3.",
+                    "metin": "Temel trafik kurallarına uygun davranabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.2.4.",
+                    "metin": "Acil durumlarda yapılması gerekenleri belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Ailem ve Toplum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.1.3.1.",
+                    "metin": "Aile olmanın önemini fark edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.3.2.",
+                    "metin": "Aile yaşamında nezaket ve görgü kurallarına uygun davranabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.3.3.",
+                    "metin": "Aile bireylerinin görev ve sorumluluklarını çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Aile içindeki görev ve sorumlulukları belirler.",
+                        "Aile bireylerinin görev ve sorumluluklarını ilişkilendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Yaşadığım Yer ve Ülkem",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.1.4.1.",
+                    "metin": "Yaşadığı yerin ve ülkemizin genel özelliklerini açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.4.2.",
+                    "metin": "Türk Bayrağı ve İstiklâl Marşı'nın önemini ifade edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.4.3.",
+                    "metin": "Mustafa Kemal Atatürk'ün hayatıyla ilgili bilgileri ifade edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.4.4.",
+                    "metin": "Millî gün ve bayramlarda yaşadığı duyguları ifade edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.4.5.",
+                    "metin": "Dinî gün ve bayramlarda yaşadığı duyguları ifade edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Doğa ve Çevre",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.1.5.1.",
+                    "metin": "Yakın çevresinde bulunan doğadaki varlıkları gözlemleyebilme",
+                    "surec_bilesenleri": [
+                        "Yakın çevresinde bulunan doğadaki varlıklara ilişkin veri toplar.",
+                        "Yakın çevresinde bulunan doğadaki varlıklara ilişkin topladığı verileri sınıflandırır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.5.2.",
+                    "metin": "Modeller üzerinden gök cisimlerini karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) özelliklerini belirler.",
+                        "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) benzerlik ve farklılıklarını listeler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.5.3.",
+                    "metin": "Afet türlerini tanıyabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.5.4.",
+                    "metin": "Geri dönüştürülebilen atıkları sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Geri dönüştürülebilen atıkları belirler.",
+                        "Geri dönüştürülebilen atıkları ayrıştırır.",
+                        "Geri dönüştürülebilen atıkları adlandırır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Bilim, Teknoloji ve Sanat",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.1.6.1.",
+                    "metin": "Bilimle ilgili merak ettiklerini sorabilme",
+                    "surec_bilesenleri": [
+                        "Sunulan bilimsel bir konu hakkında merak ettiği soruları sorar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.6.2.",
+                    "metin": "Teknoloji ile ilgili merak ettiklerini sorabilme",
+                    "surec_bilesenleri": [
+                        "Sunulan teknolojik bir konu hakkında merak ettiği soruları sorar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.1.6.3.",
+                    "metin": "Sanatla ilgili merak ettiklerini sorabilme",
+                    "surec_bilesenleri": [
+                        "Sunulan sanatsal bir konu hakkında merak ettiği soruları sorar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

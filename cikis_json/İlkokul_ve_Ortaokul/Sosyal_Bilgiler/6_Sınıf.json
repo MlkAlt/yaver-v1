@@ -1,0 +1,224 @@
+{
+    "okul_turu": "İlkokul ve Ortaokul",
+    "brans": "Sosyal Bilgiler",
+    "sinif_seviyesi": "6. Sınıf",
+    "temalar": [
+        {
+            "adi": "1. BİRLİKTE YAŞAMAK",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "SB.6.1.1.",
+                    "metin": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Dâhil olduğu gruplar ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin varsayımda bulunur.",
+                        "Farklı grupları ve bu gruplardaki rolleri listeler.",
+                        "Farklı grupları ve bu gruplardaki rolleri karşılaştırır.",
+                        "Gelecekte dâhil olabileceği gruplar ve roller ile ilgili tahminlerde bulunur.",
+                        "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içinde değişebileceğini değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.1.2.",
+                    "metin": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini inceler.",
+                        "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisine ilişkin edindiği bilgileri yazılı, görsel veya dijital bir ürüne dönüştürür.",
+                        "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.1.3.",
+                    "metin": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini müzakere edebilme",
+                    "surec_bilesenleri": [
+                        "Toplumsal hayatta karşılaşılan sorunları fark eder.",
+                        "Toplumsal hayatta karşılaşılan sorunların nedenlerine yönelik farklı bakış açılarını karşılaştırır.",
+                        "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerileri geliştirir.",
+                        "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini farklı görüş ve düşünceleri dikkate alarak düzenler.",
+                        "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini savunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "2. EVİMİZ DÜNYA",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "SB.6.2.1.",
+                    "metin": "Ülkemizin, kıtaların ve okyanusların konum özelliklerini belirleyebilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizin göreceli ve mutlak konum özellikleri ile kıtaların ve okyanusların göreceli konum özelliklerini belirler.",
+                        "Ülkemizin göreceli ve mutlak konum özellikleri ile kıtaların ve okyanusların göreceli konum özelliklerini görselleştirir.",
+                        "Ülkemizin göreceli ve mutlak konum özellikleri ile kıtaların ve okyanusların göreceli konum özelliklerini özetler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.2.2.",
+                    "metin": "Ülkemizin doğal ve beşerî çevre özellikleri arasındaki ilişkiyi çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizdeki doğal ve beşerî çevre özelliklerini belirler.",
+                        "Ülkemizdeki doğal ve beşerî çevre özellikleri arasındaki ilişkiyi belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.2.3.",
+                    "metin": "Ülkemizin Türk dünyasıyla kültürel iş birliklerini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizin Türk dünyası ile kültürel iş birliklerini inceler.",
+                        "Ülkemizin Türk dünyası ile kültürel iş birliğine örnekler verir.",
+                        "Ülkemizin Türk dünyasıyla kültürel iş birliklerini ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "3. ORTAK MİRASIMIZ",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "SB.6.3.1.",
+                    "metin": "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkılarını sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkıları hakkında merak ettiği konuyu tanımlar.",
+                        "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkıları hakkında verilen kaynaklara dayanarak sorular sorar (5N1K).",
+                        "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkıları hakkında verilen kaynaklardan bilgi toplar.",
+                        "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkıları hakkında topladığı bilgilerin doğruluğunu değerlendirir.",
+                        "Türkistan’da kurulan ilk Türk devletlerinin medeniyetimize katkıları hakkında toplanan bilgiler üzerinden çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.3.2.",
+                    "metin": "VII-XIII. yüzyıllar arasında İslam medeniyetinin eğitim, bilim, hukuk, kültür, sanat ve mimari alanlarında insanlığın ortak mirasına katkılarına dair akıl yürütebilme",
+                    "surec_bilesenleri": [
+                        "İslam medeniyetinin insanlığın ortak mirasına katkılarını belirler.",
+                        "İslam medeniyetinin insanlığın ortak mirasına yaptığı katkıları eğitim, bilim, hukuk, kültür, sanat ve mimari alanları ile ilişkilendirir.",
+                        "İslam medeniyetinin insanlığın ortak mirasına yaptığı katkıları eğitim, bilim, hukuk, kültür, sanat ve mimari alanları açısından çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.3.3.",
+                    "metin": "İslamiyet’in kabulüyle Türklerin sosyal ve kültürel hayatlarında meydana gelen değişimi dönemin bakış açısıyla değerlendirebilme",
+                    "surec_bilesenleri": [
+                        "İslamiyet’in kabulüyle Türklerin sosyal ve kültürel hayatlarında meydana gelen değişimi kaynaklara dayanarak çözümler.",
+                        "İslamiyet’in kabulüyle Türklerin sosyal ve kültürel hayatlarında meydana gelen değişime ilişkin dönemin koşullarını fark eder.",
+                        "İslamiyet’in kabulüyle Türklerin sosyal ve kültürel hayatlarında meydana gelen değişimin sonuçlarını günümüz koşullarıyla karşılaştırır.",
+                        "İslamiyet’in kabulüyle Türklerin sosyal ve kültürel hayatlarında meydana gelen değişimin sonuçlarını dönemin koşulları içinde açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.3.4.",
+                    "metin": "XI-XIII. yüzyıllar arasında meydana gelen siyasi faaliyetler ve askerî mücadelelerin Anadolu’nun Türkleşmesi ve İslamlaşmasına etkisini özetleyebilme",
+                    "surec_bilesenleri": [
+                        "XI-XIII. yüzyıllar arasında Anadolu’nun Türkleşmesi ve İslamlaşmasına etkide bulunan siyasi faaliyetler ve askerî mücadeleleri çözümler.",
+                        "XI-XIII. yüzyıllar arasında Anadolu’nun Türkleşmesi ve İslamlaşmasına etkide bulunan siyasi faaliyetler ve askerî mücadeleleri sınıflandırır.",
+                        "XI-XIII. yüzyıllar arasında meydana gelen siyasi faaliyetler ve askerî mücadelelerin Anadolu’nun Türkleşmesi ve İslamlaşmasına etkisini yorumlar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "4. YAŞAYAN DEMOKRASİMİZ",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "SB.6.4.1.",
+                    "metin": "Yönetimin karar alma sürecini etkileyen unsurları çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Yönetimin karar alma sürecini etkileyen unsurları belirler.",
+                        "Yönetimin karar alma sürecini etkileyen unsurlar arasındaki ilişkiyi belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.4.2.",
+                    "metin": "Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini inceler.",
+                        "Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini yazılı, görsel veya dijital yollarla sunar.",
+                        "Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.4.3.",
+                    "metin": "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkilerini sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkilerini tanımlar.",
+                        "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkileri hakkında sorular sorar (5N1K).",
+                        "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkileri hakkında bilgi toplar.",
+                        "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkileri hakkında topladığı bilgileri güncellik ve bilimsellik açısından değerlendirir.",
+                        "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkileri hakkında doğruluğunu değerlendirdiği bilgilerden hareketle çıkarımlar yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "5. HAYATIMIZDAKİ EKONOMİ",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "SB.6.5.1.",
+                    "metin": "Ülkemizin kaynakları ile ekonomik faaliyetler arasındaki ilişkiyi çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizin kaynakları ve ekonomik faaliyetlerin özelliklerini belirler.",
+                        "Ülkemizin kaynakları ve ekonomik faaliyetler arasındaki ilişkileri belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.5.2.",
+                    "metin": "Ekonomik faaliyetler ve meslekler arasındaki ilişki hakkında çıkarımda bulunabilme",
+                    "surec_bilesenleri": [
+                        "Gözlem ve deneyimlerinden yola çıkarak ekonomik faaliyetler ve meslekleri ilişkilendirir.",
+                        "Ekonomik faaliyetlerdeki değişime bağlı olarak gelecekte ortaya çıkabilecek meslekler hakkında çıkarımda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.5.3.",
+                    "metin": "Tasarladığı bir ürün için yatırım ve pazarlama proje önerisi hazırlayabilme",
+                    "surec_bilesenleri": [
+                        "Tasarladığı bir ürün için yatırım ve pazarlama projelerini sorgular.",
+                        "Tasarladığı ürünün yatırım ve pazarlama alanlarına ilişkin gözlemlerine dayalı tahminlerde bulunur.",
+                        "Olası riskleri değerlendirerek tasarladığı ürünün yatırım ve pazarlama alanlarının belirlenmesine gerekçe sunarak karar verir.",
+                        "Tasarladığı ürünün yatırım ve pazarlama aşaması için gerekli kaynakları yönetir.",
+                        "Tasarladığı ürün için yatırım ve pazarlama proje öneri raporu oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "6. TEKNOLOJİ ve SOSYAL BİLİMLER",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "SB.6.6.1.",
+                    "metin": "Ulaşım ve iletişim teknolojilerindeki gelişmelerin kültürel etkileşimdeki rolünü yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Ulaşım ve iletişim teknolojilerindeki gelişmelerin kültürel etkileşimdeki rolüne yönelik nedensel ilişkileri ortaya koyar.",
+                        "Ulaşım ve iletişim teknolojilerindeki gelişmelerin kültürel etkileşimdeki rolüne ilişkin anlamlı bir bütün ortaya koyar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "SB.6.6.2.",
+                    "metin": "Bir ürün veya fikrin telif ve patent süreçleriyle ilgili bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Bir ürün veya fikrin telif ve patent süreçleriyle ilgili bilgi toplayacağı kaynakları belirler.",
+                        "Bir ürün veya fikrin telif ve patent süreçleriyle ilgili bilgileri belirlediği kaynaklardan toplar.",
+                        "Bir ürün veya fikrin telif ve patent süreçleriyle ilgili topladığı bilgileri doğrular.",
+                        "Bir ürün veya fikrin telif ve patent süreçleriyle ilgili doğruladığı bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

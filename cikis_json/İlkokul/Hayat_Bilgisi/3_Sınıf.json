@@ -1,0 +1,213 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "Hayat Bilgisi",
+    "sinif_seviyesi": "3. Sınıf",
+    "temalar": [
+        {
+            "adi": "Ben ve Okulum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.3.1.1.",
+                    "metin": "Kendini geliştirmek istediği alana ilişkin plan yapabilme",
+                    "surec_bilesenleri": [
+                        "Kendini geliştirmek istediği bir alanı belirler.",
+                        "Belirlediği alana ilişkin benzer deneyimleri inceler.",
+                        "Kendini geliştirmek istediği alana ilişkin yapılması gerekenlerle ilgili kısa ve uzun vadeli planlarını belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.1.2.",
+                    "metin": "Okuldaki hak ve sorumluluklarına uygun davranabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.1.3.",
+                    "metin": "Çocuk haklarını tanıtmak için fikirlerini eyleme dönüştürebilme",
+                    "surec_bilesenleri": [
+                        "Çocuk haklarını tanıtmak için farkındalık projeleri geliştirir.",
+                        "Çocuk haklarını tanıtmak için farkındalık projelerini paylaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sağlığım ve Güvenliğim",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.3.2.1.",
+                    "metin": "Sağlığını korumaya yönelik davranışlarını düzenleyebilme",
+                    "surec_bilesenleri": [
+                        "Sağlığını korumaya yönelik davranışları fark eder.",
+                        "Sağlığını korumak için uygun olmayan davranışlarında değişiklik yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.2.2.",
+                    "metin": "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenleri sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Güvenliğini tehdit eden durumları belirler.",
+                        "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenler hakkında soru sorar.",
+                        "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenler hakkında bilgi toplar.",
+                        "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenler hakkında çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.2.3.",
+                    "metin": "Trafik kurallarına uymanın önemine ilişkin özgün ürünler oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Trafik kurallarına uymanın önemini belirler.",
+                        "Trafik kurallarına uyma ile güvenliği arasında ilişki kurar.",
+                        "Trafik kurallarına uymanın önemine ilişkin özgün bir ürün oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Ailem ve Toplum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.3.3.1.",
+                    "metin": "Aile ve toplum arasındaki ilişkiyi çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Ailenin özelliklerini belirler.",
+                        "Toplumun özelliklerini belirler.",
+                        "Aile ve toplum arasındaki ilişkiyi belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.3.2.",
+                    "metin": "Yardıma ihtiyacı olan bireylerin yaşamını kolaylaştırmak için fikirlerini eyleme dönüştürebilme",
+                    "surec_bilesenleri": [
+                        "Yardıma ihtiyacı olan bireylerin yaşamını kolaylaştırmak için farkındalık projeleri geliştirir.",
+                        "Yardıma ihtiyacı olan bireylerin yaşamını kolaylaştırmak için geliştirdiği farkındalık projelerini paylaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.3.3.",
+                    "metin": "Mesleklerin toplumsal yaşamdaki önemini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Mesleklerin toplumsal yaşamdaki önemine ilişkin verilen örnekleri inceler.",
+                        "Mesleklerin toplumsal yaşamdaki önemine ilişkin yaptığı çıkarımları kendi cümleleri ile ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Yaşadığım Yer ve Ülkem",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.3.4.1.",
+                    "metin": "Yakın çevresindeki tarihî mekân ve doğal güzelliklerin korunmasının önemini fark edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.4.2.",
+                    "metin": "Ülkemizin yönetim şekli ile ilgili kaynaklardan bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizin yönetim şekli ile ilgili kaynaklardan bilgileri bulur.",
+                        "Ülkemizin yönetim şekli ile ilgili bulduğu bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.4.3.",
+                    "metin": "Mustafa Kemal Atatürk'ün kişilik özelliklerini çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Mustafa Kemal Atatürk'ün kişilik özelliklerini belirler.",
+                        "Mustafa Kemal Atatürk'ün başarılarını belirler.",
+                        "Mustafa Kemal Atatürk'ün kişilik özellikleri ile başarıları arasında ilişki kurar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.4.4.",
+                    "metin": "Millî birlik ve beraberliğimizin toplum hayatına katkılarını açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Doğa ve Çevre",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.3.5.1.",
+                    "metin": "Doğadaki varlıkların insan yaşamı için önemini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Doğadaki varlıkların insan yaşamındaki gerekliliğine dair örnekleri inceler.",
+                        "Doğadaki varlıkların insan yaşamına etkisini kendi cümleleri ile ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.5.2.",
+                    "metin": "Krokiyi kullanarak bulunduğu yerin konumunu algılayabilme",
+                    "surec_bilesenleri": [
+                        "Krokiyi kullanarak bulunduğu yerin konumunu belirler.",
+                        "Bulunduğu yerin konumsal görselleştirmesini yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.5.3.",
+                    "metin": "Afetlere yönelik yapılması gerekenleri sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Afetlere yönelik yapılması gerekenleri afet öncesi, sırası ve sonrasında yapılması gerekenler olarak ayırt eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.5.4.",
+                    "metin": "Çevresel sürdürülebilirliğe yönelik kaynaklardan bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Çevresel sürdürülebilirliğe yönelik kaynaklardan bilgileri bulur.",
+                        "Çevresel sürdürülebilirliğe yönelik bulduğu bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Bilim, Teknoloji ve Sanat",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "HB.3.6.1.",
+                    "metin": "Bilimsel gelişmelerin günlük yaşama etkisini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Bilimsel gelişmelerin günlük yaşama etkisini inceler.",
+                        "Bilimsel gelişmelerin günlük yaşama etkisini ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.6.2.",
+                    "metin": "Teknolojik gelişmelerin günlük yaşama etkisini çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Teknolojik gelişmelerin günlük yaşama etkisini belirler.",
+                        "Teknolojik gelişmelerle günlük yaşam arasında ilişki kurar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "HB.3.6.3.",
+                    "metin": "Sanatçıların sanata katkılarına yönelik verilen kaynaklardan bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Sanatçıların sanata katkılarına yönelik bilgileri bulur.",
+                        "Sanatçıların sanata katkılarına yönelik bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

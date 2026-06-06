@@ -1,0 +1,136 @@
+{
+    "okul_turu": "Ortaokul",
+    "brans": "Beden Eğitimi ve Spor",
+    "sinif_seviyesi": "8. Sınıf",
+    "temalar": [
+        {
+            "adi": "Egzersize Katılım",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.8.1.1.",
+                    "metin": "Egzersiz sırasında vücudunda meydana gelen fizyolojik değişimleri açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.1.2.",
+                    "metin": "Fiziksel uygunluğunu geliştirebilmek için egzersize katılabilme",
+                    "surec_bilesenleri": [
+                        "Fiziksel uygunluk düzeyini fark eder.",
+                        "Fiziksel uygunluk düzeyini geliştirmek için egzersiz planı yapar.",
+                        "Egzersiz planını uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Spor Eğitimi",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.8.2.1.",
+                    "metin": "Seçilen spor branşına ilişkin hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Seçilen spor branşına ilişkin hareket becerilerini algılar.",
+                        "Seçilen spor branşına ilişkin hareket becerilerinin basamaklarını gösterir.",
+                        "Seçilen spor branşına ilişkin hareket becerilerini farklı durumlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.2.2.",
+                    "metin": "Takımdaki sorumluluğuna uygun hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Takımdaki sorumluluğuna ilişkin rolleri tanımlar.",
+                        "Takımdaki sorumluluğuna ilişkin rolleri yerine getirir.",
+                        "Takımdaki sorumluluğuna uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.2.3.",
+                    "metin": "Seçilen spor branşına ilişkin oyunlarda grup liderliği sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Seçilen spor branşına ilişkin oyunlarda grup liderliği özelliklerini tanımlar.",
+                        "Seçilen spor branşına ilişkin oyunlarda grup liderliği özelliklerini davranışlarıyla gösterir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.2.4.",
+                    "metin": "Seçilen spor branşına ilişkin oyunlarda adil oyun anlayışına uygun davranabilme",
+                    "surec_bilesenleri": [
+                        "Seçilen spor branşına ilişkin oyunlarda adil oyun anlayışını açıklar.",
+                        "Seçilen spor branşına ilişkin oyunlarda adil oyun anlayışına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Turnuvaya Katılım",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.8.3.1.",
+                    "metin": "Seçilen spor branşına ilişkin hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Seçilen spor branşına ilişkin hareket becerilerini algılar.",
+                        "Seçilen spor branşına ilişkin hareket becerilerinin basamaklarını gösterir.",
+                        "Seçilen spor branşına ilişkin hareket becerilerini farklı durumlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.3.2.",
+                    "metin": "Seçilen spor branşına ilişkin taktik ve strateji geliştirebilme",
+                    "surec_bilesenleri": [
+                        "Seçilen spor branşına ilişkin taktiksel ya da stratejik problemi belirler.",
+                        "Seçilen spor branşına ilişkin belirlenen problemin çözümüne ilişkin öneri sunar.",
+                        "Seçilen spor branşına ilişkin taktiği ve stratejiyi uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.3.3.",
+                    "metin": "Turnuvadaki sorumluluğuna uygun hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Turnuvadaki rolüne ilişkin sorumluluğu tanımlar.",
+                        "Turnuvadaki rolüne ilişkin sorumluluğunu yerine getirir.",
+                        "Turnuvadaki sorumluluğuna uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.3.4.",
+                    "metin": "Turnuvada adil oyun anlayışına uygun davranabilme",
+                    "surec_bilesenleri": [
+                        "Turnuvada adil oyun anlayışını açıklar.",
+                        "Turnuvada adil oyun anlayışına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Spor Şenliği",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.8.4.1.",
+                    "metin": "Spor organizasyonlarını inceleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.8.4.2.",
+                    "metin": "Organizasyondaki sorumluluğuna uygun hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Organizasyondaki sorumluluğuna ilişkin rolleri tanımlar.",
+                        "Organizasyondaki sorumluluğuna ilişkin rolleri yerine getirir.",
+                        "Organizasyondaki sorumluluğuna uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "Beden Eğitimi ve Oyun Dersi",
+    "sinif_seviyesi": "2. Sınıf",
+    "temalar": [
+        {
+            "adi": "Hareketimi Geliştiriyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.2.1.1.",
+                    "metin": "Temel hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Yer değiştirme, nesne kontrolü ve denge becerileri arasındaki farkları algılar.",
+                        "Yer değiştirme, nesne kontrolü ve denge becerilerinin basamaklarını gösterir.",
+                        "Yer değiştirme, nesne kontrolü ve denge becerilerini farklı durumlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.1.2.",
+                    "metin": "Oyunlarda grupla hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Grupla hareket ederken rolleri tanımlar.",
+                        "Grupla hareket ederken rolleri yerine getirir.",
+                        "Grupla uyumlu hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Oyunun Kurallarını Uyguluyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.2.2.1.",
+                    "metin": "Oyunlarda hareket kavramlarını uygulayabilme",
+                    "surec_bilesenleri": [
+                        "Beden farkındalığı, alan farkındalığı, efor ve hareket ilişkileri kavram bileşenlerini ayırt eder.",
+                        "Temel hareket becerileri ile hareket kavramları arasında ilişki kurar.",
+                        "Oyunlarda hareket kavramlarına ve temel hareket becerilerine uygun olarak hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.2.2.",
+                    "metin": "Oyun kurallarını uygulayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.2.3.",
+                    "metin": "Oyunlarda belirlenen taktik ve stratejiyi geliştirebilme",
+                    "surec_bilesenleri": [
+                        "Oyunlarda taktiksel problemi belirler.",
+                        "Oyunlarda belirlenen problemin çözümüne ilişkin öneri sunar.",
+                        "Oyunlarda taktik ve stratejiyi uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Ritimle Hareket Ediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.2.3.1.",
+                    "metin": "Belirlenen tempodaki müziğe uygun hareket edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.3.2.",
+                    "metin": "Eşle veya grupla ritmik hareket etme becerisini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Eşle veya grupla temel hareket becerilerini kullanarak verilen ritmi algılar.",
+                        "Eşle veya grupla temel hareket becerilerini kullanarak ritme uygun hareket eder.",
+                        "Eşle veya grupla temel hareket becerilerini kullanarak ritmik hareket becerilerini sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sağlığım İçin Fiziksel Aktiviteye Katılıyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.2.4.1.",
+                    "metin": "Fiziksel aktivite sırasında vücudunda meydana gelen değişimleri açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.4.2.",
+                    "metin": "Kendisinin ve yakın çevresinin fiziksel aktiviteye katılımlarını karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Kendisinin ve yakın çevresinin fiziksel aktivite katılım durumlarını belirler.",
+                        "Kendisinin ve yakın çevresinin fiziksel aktivite katılım durumları arasındaki benzerlikleri listeler.",
+                        "Kendisinin ve yakın çevresinin fiziksel aktivite katılım durumları arasındaki farklılıkları listeler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.4.3.",
+                    "metin": "Fiziksel aktiviteye katılım hedefleri belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.4.4.",
+                    "metin": "Fiziksel aktivite ve sağlık arasındaki ilişkiyi açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.2.4.5.",
+                    "metin": "Oyun ve fiziksel aktiviteler sırasında güvenli ortam oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Oyun ve fiziksel aktiviteler sırasında ortaya çıkabilecek riskleri tanımlar.",
+                        "Oyun ve fiziksel aktiviteler sırasında ortaya çıkabilecek riskler karşısında önleyici tedbirler alır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

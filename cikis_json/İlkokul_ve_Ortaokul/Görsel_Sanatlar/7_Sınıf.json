@@ -1,0 +1,136 @@
+{
+    "okul_turu": "İlkokul ve Ortaokul",
+    "brans": "Görsel Sanatlar",
+    "sinif_seviyesi": "7. Sınıf",
+    "temalar": [
+        {
+            "adi": "Hayat ve Sanat",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.1.1.",
+                    "metin": "Toplum ve çevre bağlamında renk, doku ve biçim ilişkilerini kurarak biyofilik yapabilme",
+                    "surec_bilesenleri": [
+                        "Renk, doku ve biçim ilişkilerini temel alarak toplumsal mekânlara uygun biyofilik tasarlar.",
+                        "Renk, doku ve biçim ilişkilerini temel alarak toplumsal mekânlara uygun biyofilik oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sanatın Görsel Dili",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.2.1.",
+                    "metin": "Tasarım ürünleri ve logolardaki göstergelerin mesajlarını okuyabilme",
+                    "surec_bilesenleri": [
+                        "Tasarım ürünleri ve logolardaki görsel göstergelerin renk, biçim ve yazı tipine dayalı estetik mesajlarını algılar.",
+                        "Tasarım ürünleri ve logolardaki göstergelerin kültürel ve işlevsel mesajlarını anlamlandırır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "GS.7.2.2.",
+                    "metin": "Stilizasyon ve deformasyon tekniklerini kullanarak seçilen temaya uygun logo veya amblem yapabilme",
+                    "surec_bilesenleri": [
+                        "Stilizasyon ve deformasyon tekniklerini kullanarak seçilen temanın görsel mesajını ifade eden logo veya amblem tasarlar.",
+                        "Stilize veya deforme edilmiş biçimlerden hareketle logo veya amblem oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sanatçılar ve Eserleri",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.3.1.",
+                    "metin": "Çağdaş Türk resim sanatındaki izlenimci eserleri inceleyebilme",
+                    "surec_bilesenleri": [
+                        "İzlenimci eseri sanatsal açıdan betimler.",
+                        "İzlenimci eseri sanatsal açıdan çözümler.",
+                        "İzlenimci eseri sanatsal açıdan yorumlar.",
+                        "İzlenimci eseri hakkında sanatsal yargıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "GS.7.3.2.",
+                    "metin": "Doğa izlenimleri yansıtan resim yapabilme",
+                    "surec_bilesenleri": [
+                        "Işık ve renk etkilerini kullanarak doğa izlenimlerini yansıtan kompozisyon tasarlar.",
+                        "Işık ve renk etkilerini kullanarak doğa izlenimlerini yansıtan kompozisyon oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Çizim ve Görsel İfade",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.4.1.",
+                    "metin": "Perspektif kurallarına uygun iç mekân çizimi yapabilme",
+                    "surec_bilesenleri": [
+                        "İç mekândaki nesnelerin boyut ve yerleşimlerini, perspektif kurallarına uygun şekilde tasarlar.",
+                        "Derinlik etkisini vurgulayan iç mekân çizimi oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Renk ve Estetik",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.5.1.",
+                    "metin": "Mekân ile natürmortu birleştiren renkli resim yapabilme",
+                    "surec_bilesenleri": [
+                        "Mekân ile natürmortu asimetrik düzenle bütünleştiren kompozisyon tasarlar.",
+                        "Renk geçişleri ve tonlama tekniklerini kullanarak mekân ile natürmortu asimetrik düzenle bütünleştiren kompozisyon oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Millî Değerler ve Sanat",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.6.1.",
+                    "metin": "Dünya çocuklarına yönelik barış ve dostluk mesajlarını yansıtan sanatsal üretim yapabilme",
+                    "surec_bilesenleri": [
+                        "Barış ve dostluk mesajlarını yansıtan sanatsal ürün tasarlar.",
+                        "Barış ve dostluk mesajlarını yansıtan sanatsal ürün oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Müze ve Kültür",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "GS.7.7.1.",
+                    "metin": "Türk müzeciliğine ilişkin bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Türk müzeciliğine ilişkin bilgilere ulaşmak için kullanacağı araçları belirler.",
+                        "Belirlediği aracı kullanarak Türk müzeciliği hakkındaki bilgileri bulur.",
+                        "Türk müzeciliğiyle ilgili ulaştığı bilgileri doğrular.",
+                        "Türk müzeciliğiyle ilgili ulaştığı bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "GS.7.7.2.",
+                    "metin": "Dijital araçları kullanarak sanal müze yapabilme",
+                    "surec_bilesenleri": [
+                        "Belirlediği temaya uygun koleksiyon eserlerini içeren sanal müze tasarlar.",
+                        "Dijital araçlarla sanal müze oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

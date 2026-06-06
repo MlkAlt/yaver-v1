@@ -1,0 +1,218 @@
+[
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 1,
+    "unite_adi": "Ünite 1",
+    "kazanim_kodu": "TZHP.I.1.1",
+    "kazanim_metni": "Tezhip sanatının tanımı ve tarihi hakkında bilgi toplayabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 1,
+    "unite_adi": "Ünite 1",
+    "kazanim_kodu": "TZHP.I.1.2",
+    "kazanim_metni": "Tezhip sanatında kullanılan malzemeleri kullanım amaçlarına göre çözümleyebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 1,
+    "unite_adi": "Ünite 1",
+    "kazanim_kodu": "TZHP.I.1.3",
+    "kazanim_metni": "Temel çizimleri örneklere bakarak aslına uygun çizebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 1,
+    "unite_adi": "Ünite 1",
+    "kazanim_kodu": "TZHP.I.1.4",
+    "kazanim_metni": "Renkleri özelliklerine göre sınıflandırabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 2,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.I.2.1",
+    "kazanim_metni": "Motifleri özelliklerine göre sınıflandırabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 2,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.I.2.2",
+    "kazanim_metni": "Motif örneklerine bakarak bunları aslına uygun çizebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 3,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.I.3.1",
+    "kazanim_metni": "Uygulama tekniklerini algılayabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 3,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.I.3.2",
+    "kazanim_metni": "Uygulama tekniklerini kullanarak bir tezhip eseri oluşturabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 4,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.I.4.1",
+    "kazanim_metni": "Tezhip sanatına yön veren müzehhiplerin üsluplarını karşılaştırabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 9,
+    "unite_no": 4,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.I.4.2",
+    "kazanim_metni": "Müzehhiplere ait eserlerin çizimini (reprodüksiyo-n) yapabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 1,
+    "unite_adi": "2",
+    "kazanim_kodu": "TZHP.II.1.1",
+    "kazanim_metni": "Cetvel çekimi ve zencerek yapımını çözümleyebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 1,
+    "unite_adi": "2",
+    "kazanim_kodu": "TZHP.II.1.2",
+    "kazanim_metni": "Cetvel çekimi ve zencerek yapabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 2,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.II.2.1",
+    "kazanim_metni": "Rumi motifli kompozisyonları çözümleyebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 2,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.II.2.2",
+    "kazanim_metni": "Rumi motifli tezhip eseri oluşturabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 3,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.II.3.1",
+    "kazanim_metni": "Bulut motifli kompozisyonları çözümleyebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 3,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.II.3.2",
+    "kazanim_metni": "Bulut motifli tezhip eseri oluşturabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 4,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.II.4.1",
+    "kazanim_metni": "Desenleri çözümleyebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 10,
+    "unite_no": 4,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.II.4.2",
+    "kazanim_metni": "Tezhip eseri yapabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 11,
+    "unite_no": 1,
+    "unite_adi": "2",
+    "kazanim_kodu": "TZHP.III.1.1",
+    "kazanim_metni": "Tarihî dönemlere göre tezhip sanatını özetleyebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 11,
+    "unite_no": 1,
+    "unite_adi": "2",
+    "kazanim_kodu": "TZHP.III.1.2",
+    "kazanim_metni": "Selçuklu, Osmanlı ve Cumhuriyet dönemlerine ait bir eserin çizimini (reprodüksiyon) yapabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 11,
+    "unite_no": 2,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.III.2.1",
+    "kazanim_metni": "Tezhip sanatının uygulama alanları hakkında bilgi toplayabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 11,
+    "unite_no": 2,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.III.2.2",
+    "kazanim_metni": "Surebaşı çizimini (reprodüksiyon) yapabilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 11,
+    "unite_no": 3,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.III.3.1",
+    "kazanim_metni": "Sanat eserini aslına uygun çizebilme"
+  },
+  {
+    "brans_id": "ihl_meslek_dersleri",
+    "okul_turu": "ihl",
+    "sinif": 11,
+    "unite_no": 4,
+    "unite_adi": "8",
+    "kazanim_kodu": "TZHP.III.4.1",
+    "kazanim_metni": "Tezhip eseri yapabilme"
+  }
+]

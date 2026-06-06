@@ -1,0 +1,477 @@
+{
+    "okul_turu": "İlkokul ve Ortaokul",
+    "brans": "Fen Bilimleri",
+    "sinif_seviyesi": "8. Sınıf",
+    "temalar": [
+        {
+            "adi": "Mevsimler ve İklim",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.1.1.1.",
+                    "metin": "Dünya’nın Güneş etrafındaki hareketi ve eksen eğikliğinin sonuçları ile ilgili bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Dünya’nın Güneş etrafındaki hareketi ve eksen eğikliği ile ilgili nitelikleri tanımlar.",
+                        "Dünya’nın Güneş etrafındaki hareketi ve eksen eğikliği ile ilgili topladığı verileri kaydeder.",
+                        "Dünya’nın Güneş etrafındaki hareketi ve eksen eğikliği ile ilgili topladığı verileri değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.1.2.1.",
+                    "metin": "İklim ve hava olaylarını karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "İklim ve hava olaylarına ilişkin nitelikleri belirler.",
+                        "Belirlenen özelliklere ilişkin benzerlikleri listeler.",
+                        "Belirlenen özelliklere ilişkin farklılıkları listeler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Yaşamı Kolaylaştıran Kuvvet",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.2.1.1.",
+                    "metin": "Basit makineleri sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Basit makinelere ilişkin nitelikleri belirler.",
+                        "Basit makineleri niteliklerine göre ayrıştırır.",
+                        "Basit makineleri niteliklerine göre gruplandırır.",
+                        "Basit makineleri etiketlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Basit makine çeşitlerinden kaldıraç, sabit ve hareketli makara, makara sistemi, eğik düzlem, çıkrık, vida, çark ve kasnaklar günlük yaşamdaki kullanım amaçlarına uygun olarak formüllere girilmeden yalnızca oran-orantı kullanarak incelenir. Ayrıca giriş ve çıkış kuvvetlerine de değinilir. Bileşik makinelerin sadece günlük yaşamdaki avantajlarına, niteliklerine ve kullanım amaçlarına değinilerek matematiksel ifadelere girilmeden konu sınırlandırılır."
+                },
+                {
+                    "kod": "FB.8.2.1.2.",
+                    "metin": "Günlük yaşamda iş kolaylığı sağlayacak bilimsel model oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Günlük yaşamda iş kolaylığı sağlayacak basit makine modeli önerir.",
+                        "Günlük yaşamda iş kolaylığı sağlaması için hazırladığı modeli yeni kanıtlara göre geliştirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Yaşamın Gizemi",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.3.1.1.",
+                    "metin": "Nükleotid, gen, DNA ve kromozom kavramları arasındaki ilişkiyi yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Nükleotid, gen, DNA ve kromozom kavramlarını inceleyerek hiyerarşik ilişkileri ortaya koyar.",
+                        "Nükleotid, gen, DNA ve kromozom kavramlarının uyumlu bir bütün olduğunu açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.3.1.2.",
+                    "metin": "DNA’nın yapısını model üzerinde gözlemleyebilme",
+                    "surec_bilesenleri": [
+                        "DNA’nın yapısının niteliklerini tanımlar.",
+                        "DNA’nın yapısını model üzerinde inceleyerek verileri kaydeder.",
+                        "Elde edilen verileri açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "DNA’nın yapısındaki bağların adlarına ve özelliklerine girilmeden sadece nükleotidler arası bağlar olduğuna değinilir. Pürin ve pirimidin ayrımına girilmeden azotlu organik bazların isimleri ve eşleşmeleri ile şeker ve fosfat molekülleri tanıtılır. Nükleotid hesaplamalarına girilmez, DNA’nın kendini eşlemesi çift zincirli yapı üzerinden basit bir şekilde açıklanır."
+                },
+                {
+                    "kod": "FB.8.3.2.1.",
+                    "metin": "Mitoz ve mayoz kavramları arasındaki ilişkiyi karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Mitoz ve mayoz kavramlarına ilişkin özellikleri belirler.",
+                        "Mitoz ve mayoz kavramlarına ilişkin benzerlikleri listeler.",
+                        "Mitoz ve mayoz kavramlarına ilişkin farklılıkları listeler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Mitoz ve mayoz bölünmenin evrelerine girilmeden mayoz bölünmenin iki aşamadan oluştuğuna değinilir."
+                },
+                {
+                    "kod": "FB.8.3.3.1.",
+                    "metin": "Kalıtımla ilgili kavramları yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Kalıtımla ilgili kavramlar arasında mantıksal ilişkileri ortaya koyar.",
+                        "Kalıtımla ilgili kavramları uyumlu bir bütün olarak açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.3.3.2.",
+                    "metin": "Tek karakter çaprazlamaları ile ilgili problemler çözerek sonuçları değerlendirebilme",
+                    "surec_bilesenleri": [
+                        "Tek karakter çaprazlamaları ile ilgili nitelikleri tanımlar.",
+                        "Tek karakter çaprazlamaları ile ilgili problemler çözerek sonuçlara ilişkin verileri kaydeder.",
+                        "Sonuçlara ilişkin elde ettiği verileri değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Sadece bezelyelerdeki baskın ve çekinik aleller kullanılarak farklı problemler üretilir. Çaprazlamalara girmeden diğer canlılarda da karakter aktarımın benzer olduğu vurgulanır."
+                },
+                {
+                    "kod": "FB.8.3.3.3.",
+                    "metin": "Akraba evliliklerinin genetik sonuçlarını tartışabilme",
+                    "surec_bilesenleri": [
+                        "Akraba evliliklerinin genetik sonuçlarına yönelik mantıksal temellendirme yapar.",
+                        "Akraba evliliklerinin genetik sonuçlarına yönelik mantıksal tutarsızlıkları tespit eder.",
+                        "Akraba evliliklerinin genetik sonuçları konusunda geçerli bir fikir oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.3.4.1.",
+                    "metin": "Mutasyonla ilgili bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Mutasyon ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler.",
+                        "Mutasyon hakkındaki bilgileri bulur.",
+                        "Mutasyon hakkında bulduğu bilgileri doğrular.",
+                        "Mutasyon hakkında ulaşılan bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.3.4.2.",
+                    "metin": "Canlıların yaşadıkları çevreye uyumlarına ilişkin bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Canlıların yaşadıkları çevreye uyumlarına ilişkin ön gözlem ve deneyimi ilişkilendirir.",
+                        "Canlıların yaşadıkları çevreye uyumlarına ilişkin çıkarım yapar.",
+                        "Canlıların yaşadıkları çevreye uyumlarına ilişkin yargıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Canlıların tür içi çeşitliliği üzerinden varyasyon kavramını keşfetmeleri beklenir."
+                }
+            ]
+        },
+        {
+            "adi": "Sesin Dünyası",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.4.1.1.",
+                    "metin": "Sesin oluşumuna yönelik bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Sesi oluşturan nitelikleri tanımlar.",
+                        "Sesin oluşumuna ilişkin topladığı verileri kaydeder.",
+                        "Sesin titreşim sonucunda oluşarak dalgalar halinde yayıldığına yönelik değerlendirme yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.4.1.2.",
+                    "metin": "Sesin yayılabildiği ortamlara yönelik deney yapabilme",
+                    "surec_bilesenleri": [
+                        "Sesin yayılabildiği ortamlar ile ilgili deney yapar.",
+                        "Aynı sesin farklı ortamlarda farklı duyulması ile ilgili gözlem yaparak elde edilen verileri analiz eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Sesin boşlukta yayılmadığına değinilir. Benzer şekilde uzayda madde yoğunluğunun çok az (eser düzeyde) olmasından dolayı Güneş'ten gelen patlama seslerinin duyulmadığı ifade edilir."
+                },
+                {
+                    "kod": "FB.8.4.1.3.",
+                    "metin": "Sesin frekansına göre ince veya kalın olarak işitilmesine neden olan ses özellikleri ile ilgili deney yapabilme",
+                    "surec_bilesenleri": [
+                        "Çevresindeki seslerin, ince ve kalın işitilmesine neden olan özellikleri ile ilgili deney yapar.",
+                        "Deney ile ilgili ölçme yaparak elde edilen verileri analiz eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Frekans biriminin hertz olduğu belirtilir. Müzik aletlerinin ürettikleri seslerin farklı olduğu konusunda beyin fırtınası vb. tekniklerle tartışmaları sağlanır (SDB3.3). Öğrencilere farklı müzik aletlerine ait aynı frekanstaki sesleri kulağımızın nasıl ayırt ettiğine dair sorular yöneltilerek sesin bu özelliğine sesin tınısı adı verildiği belirtilir."
+                },
+                {
+                    "kod": "FB.8.4.2.1.",
+                    "metin": "Ses ile ilgili değişkenlerin işitmeye etkisi hakkında hipotez oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Ses kaynağından uzaklık ile ses şiddetinin işitmeye etkisi hakkında problemi tanımlar.",
+                        "Ses kaynağından uzaklık ile ses şiddetinin işitmeye etkisi ile ilgili neden sonuç ilişkilerini belirler.",
+                        "Ses kaynağından uzaklık ile ses şiddetinin işitmeye etkisini araştırmaya yönelik değişkenleri belirler.",
+                        "Ses kaynağından uzaklık ile ses şiddetinin işitmeye etkisini araştırmaya yönelik değişkenleri kontrol eder.",
+                        "Ses kaynağından uzaklık ile ses şiddetinin işitmeye etkisine ilişkin önerme sunar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Ses şiddeti ve uzaklık arasındaki matematiksel ilişki ve ses şiddetinin birimi verilmez."
+                },
+                {
+                    "kod": "FB.8.4.2.2.",
+                    "metin": "Farklı maddeler ile etkileşimi sonucunda sesin iletilmesi, yansıması ve soğurulmasına ilişkin bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Sesin iletilmesi, yansıması ve soğurulmasını tanımlar.",
+                        "Sesin iletilmesi, yansıması ve soğrulmasına ilişkin veri toplar ve kaydeder.",
+                        "Akustik uygulamalarının sesin özellikleri ile ilişkili olduğunu değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Yankı olayına girilmez. Sesin soğurulmasında ses yalıtım malzeme çeşitlerine girilmez."
+                },
+                {
+                    "kod": "FB.8.4.2.3.",
+                    "metin": "Ses kirliliğini önlemeye yönelik bilimsel sorgulama yapabilme",
+                    "surec_bilesenleri": [
+                        "Ses kirliliğinin canlılara etkisine ilişkin soru veya problem tanımlar.",
+                        "Sorusunu/problemini cevaplamada kullanabileceği ses kirliliğini önlemeye yönelik bir fikir/model geliştirir.",
+                        "Ses kirliliğini önlemeye yönelik araştırma planlayarak gerçekleştirir.",
+                        "Ses kirliliğini önlemeye yönelik fikir/modelle ilgili verileri analiz ederek yorumlar.",
+                        "Ses kirliliğini önlemeye yönelik fikir/modelle ilgili kanıta dayalı açıklama yaparak çözüm üretir.",
+                        "Ses kirliliğini önlemeye yönelik bilgiyi değerlendirerek paylaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Periyodik Tablo ve Maddenin Etkileşimi",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.5.1.1.",
+                    "metin": "Elementleri periyodik tablo üzerinde metal, ametal, yarımetal ve soy gaz olarak sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Elementleri metal, ametal, yarımetal ve soy gaz olarak tanımlar.",
+                        "Metal, ametal, yarımetal ve soy gazları özelliklerine göre ayrıştırır.",
+                        "Elementleri metal, ametal, yarımetal ve soy gaz olarak gruplandırır.",
+                        "Elementleri metal, ametal, yarımetal ve soy gaz olarak etiketler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.2.1.",
+                    "metin": "Fiziksel ve kimyasal değişimler ile ilgili bilimsel gözleme dayalı tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Ön bilgi ve deneyimlerini kullanarak maddelerin fiziksel ve kimyasal değişimine yönelik önermeler oluşturur.",
+                        "Gözleme dayalı olan ve olmayan günlük yaşam ile ilişkili önermeleri karşılaştırır.",
+                        "Tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+                        "Günlük yaşam ile ilişkili gözlenmemiş durumlara ilişkin tahminlerde bulunur.",
+                        "Tahminlerin geçerliğini oluşturulan ölçütlere göre sorgular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.3.1.",
+                    "metin": "Kimyasal tepkimelerle ilgili bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Kimyasal tepkimelerin niteliklerini tanımlar.",
+                        "Yaptığı deneyle ilgili gözlemlerini kaydeder.",
+                        "Deneyle ilgili verileri değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.3.2.",
+                    "metin": "Kimyasal tepkimelerin günlük yaşamdaki etkilerine yönelik bilgi toplayabilme",
+                    "surec_bilesenleri": [
+                        "Kimyasal tepkimelerin günlük yaşamdaki etkileri ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler.",
+                        "Belirlediği araçları kullanarak konu hakkında bilgilere ulaşır.",
+                        "Konu hakkında ulaştığı bilgileri doğrular.",
+                        "Ulaştığı bilgileri kaydeder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.4.1.",
+                    "metin": "Asit ve bazların genel özelliklerini karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Asit ve bazların özelliklerini belirler.",
+                        "Asit ve bazların benzer özelliklerini listeler.",
+                        "Asit ve bazların farklı özelliklerini listeler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.4.2.",
+                    "metin": "Maddelerin asit veya baz olduğunu çeşitli ayıraçlar kullanarak bilimsel gözleme dayalı tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Ön bilgi ve deneyimlerini kullanarak asit ve bazlarla ilgili önermeler oluşturur.",
+                        "Gözleme dayalı olan ve olmayan günlük yaşam ile ilişkili önermeleri karşılaştırır.",
+                        "Tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+                        "Günlük yaşam ile ilişkili gözlenmemiş duruma ilişkin tahminde bulunur.",
+                        "Tahminlerin geçerliğini sorgular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.4.3.",
+                    "metin": "Maddelerin asitlik ve bazlık durumlarına ilişkin “pH” değerlerini kullanarak tümevarımsal akıl yürütebilme",
+                    "surec_bilesenleri": [
+                        "Maddelerin “pH” değerleri ile ilgili örüntü bulur.",
+                        "Maddelerin “pH” değerlerini kullanarak genelleme yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.5.4.4.",
+                    "metin": "Asit ve bazların çeşitli maddeler üzerindeki etkilerine yönelik deney yapabilme",
+                    "surec_bilesenleri": [
+                        "Asit ve bazların çeşitli maddeler üzerindeki etkilerini gösteren deney tasarlar.",
+                        "Deney ile ilgili ölçme ve veri analizi yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Elektriğin Yolculuğu",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.6.1.1.",
+                    "metin": "Ampullerin bağlanma durumunun ampul parlaklığına etkisine yönelik deney yapabilme",
+                    "surec_bilesenleri": [
+                        "Ampullerin bağlanma durumuna göre parlaklıklarının değişimini gösteren deney tasarlar.",
+                        "Deney sonucuna ait verileri toplar ve analiz eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.1.2.",
+                    "metin": "Elektrik akımını tanımlayabilme",
+                    "surec_bilesenleri": [
+                        "Elektrik akımının niteliklerini tanımlar.",
+                        "Akımın büyüklüğünü ampermetre ile ölçer.",
+                        "Akımın büyüklüğünü amper birimi ile açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.1.3.",
+                    "metin": "Bir devre elemanının uçları arasındaki potansiyel farkı (gerilimi) tanımlayabilme",
+                    "surec_bilesenleri": [
+                        "Potansiyel farkın niteliklerini tanımlar.",
+                        "Potansiyel fark büyüklüğünü voltmetre ile ölçer.",
+                        "Potansiyel farkın büyüklüğünü volt birimi ile açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.1.4.",
+                    "metin": "Bir devre elemanının uçları arasındaki gerilim ile üzerinden geçen akım ilişkisine yönelik tümevarımsal akıl yürütebilme",
+                    "surec_bilesenleri": [
+                        "Elektrik devresinde akım ve gerilim arasında örüntü oluşturur.",
+                        "Bir elektrik devresi üzerinde akım-gerilim ilişkisine yönelik genelleme yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.1.5.",
+                    "metin": "Özgün bir aydınlatma aracı modeli oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Özgün bir aydınlatma aracı modeli önerir.",
+                        "Aydınlatma aracı modelini geliştirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.2.1.",
+                    "metin": "Elektrik enerjisinin dönüştüğü enerjileri sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Elektrik enerjisinin dönüşümüne ait nitelikleri belirler.",
+                        "Elektrik enerjisinin ısı, ışık, ses ve hareket enerjisine dönüşüm örneklerini ayrıştırır.",
+                        "Elektrik enerjisinin ısı, ışık, ses ve hareket enerjisine dönüşüm örneklerini gruplandırır.",
+                        "Elektrik enerjisinin ısı, ışık, ses ve hareket enerjisine dönüşüm örneklerini etiketlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.2.2.",
+                    "metin": "Elektrik enerjisinin ısı, ışık, ses veya hareket enerjisine dönüşümüne yönelik bir model oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Elektrik enerjisinin ısı, ışık, ses veya hareket enerjisine dönüşümüne yönelik bir model tasarlar.",
+                        "Tasarladığı modeli geliştirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.2.3.",
+                    "metin": "Elektrik enerjisi üretim santrallerini sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Elektrik üretimi için gerekli olan nitelikleri belirler.",
+                        "Elektrik üretim santrallerini kullanılan enerji kaynaklarına göre ayrıştırır.",
+                        "Elektrik üretim santrallerini kullanılan enerji kaynaklarına göre gruplandırır.",
+                        "Yenilenebilir ve yenilenemeyen enerji kaynaklarına göre elektrik üretim santrallerini etiketler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.2.4.",
+                    "metin": "Elektrik enerjisi üretim santrallerinin avantaj ve dezavantajlarını tartışabilme",
+                    "surec_bilesenleri": [
+                        "Elektrik üretim santralleri hakkında görüşlerini mantıksal temellendirme yapar.",
+                        "Elektrik üretim santralleri hakkında kendi görüşlerini başka görüşlerle mantıksal açıdan kıyaslar.",
+                        "Elektrik üretim santrallerini avantajları ve dezavantajları bakımından tartışır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.6.2.5.",
+                    "metin": "Elektrik enerjisinin bilinçli ve tasarruflu kullanılmasının önemini tartışabilme",
+                    "surec_bilesenleri": [
+                        "Elektrik enerjisinin kullanılması hakkında görüşlerini mantıksal çerçevede sunar.",
+                        "Elektrik enerjisinin kullanılması hakkında kendi görüşlerini başka görüşlerle kıyaslayarak mantıksal çelişkileri tespit eder.",
+                        "Elektrik enerjisinin bilinçli ve tasarruflu kullanılmasının aile ve ülke ekonomisine katkılarını kabul eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sürdürülebilir Yaşam ve Madde Döngüleri",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "FB.8.7.1.1.",
+                    "metin": "Bitkilerde besin üretiminde fotosentezin önemini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Fotosentez ile bitkilerdeki besin üretimi arasındaki nedensel ilişkileri ortaya koyar.",
+                        "Bitkilerde besin üretiminde fotosentezin önemi konusunda elde ettiği bilgileri uyumlu bir bütün olarak açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.7.1.2.",
+                    "metin": "Fotosentez hızını etkileyen faktörler ile ilgili hipotez oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Fotosentez hızını etkileyen faktörleri tanımlar.",
+                        "Fotosentez hızı ile onu etkileyen faktörler arasındaki neden sonuç ilişkilerini belirler.",
+                        "Fotosentez hızını etkileyen değişkenleri belirler.",
+                        "Fotosentez hızını etkileyen değişkenleri kontrol eder.",
+                        "Fotosentez hızını etkileyen faktörlere ait önerme sunar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Karbon dioksit miktarının fotosentez üzerindeki etkileri açıklanır."
+                },
+                {
+                    "kod": "FB.8.7.1.3.",
+                    "metin": "Canlılarda solunumun önemini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Solunumu inceleyerek canlılardaki önemi ile ilişkisini ortaya koyar.",
+                        "Canlılarda solunumun önemi konusunda elde ettiği bilgileri uyumlu bir bütün olarak açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Solunumun kimyasal denklemine, solunum türlerine ve solunum evrelerine girilmeden tüm canlılar için ortak bir özellik olduğu vurgulanır."
+                },
+                {
+                    "kod": "FB.8.7.2.1.",
+                    "metin": "Madde döngülerini şema üzerinde bilimsel çıkarım yapabilme",
+                    "surec_bilesenleri": [
+                        "Madde döngülerinin niteliklerini tanımlar.",
+                        "Madde döngülerini şema üzerinde inceler.",
+                        "Madde döngülerini yorumlayarak değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.7.2.2.",
+                    "metin": "Madde döngülerinin yaşam açısından önemini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Madde döngülerinin yaşam açısından önemi ile ilişkisini ortaya koyar.",
+                        "Madde döngülerinin yaşam açısından önemi konusunda elde ettiği bilgileri uyumlu bir bütün olarak açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.7.2.3.",
+                    "metin": "Küresel iklim değişikliklerinin nedenlerini ve olası sonuçlarını tartışabilme",
+                    "surec_bilesenleri": [
+                        "Küresel iklim değişikliklerinin nedenleri ve olası sonuçlarına yönelik mantıksal temellendirme yapar.",
+                        "Küresel iklim değişikliklerinin nedenleri ve olası sonuçlarına yönelik mantıksal tutarsızlıkları tespit eder.",
+                        "Küresel iklim değişikliklerinin nedenleri ve olası sonuçları konusunda geçerli bir fikir oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "FB.8.7.2.4.",
+                    "metin": "Ülkemizdeki küresel iklim değişikliğinin sebep olduğu bir probleme yönelik çözüm önerisi sunabilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizdeki küresel iklim değişikliğinin sebep olduğu problemi yapılandırır.",
+                        "Yapılandırılan problemi özetler.",
+                        "Problemin çözümüne yönelik gözleme ve veriye dayalı tahmin yürütür.",
+                        "Problemin çözümüne yönelik önermeler üzerinden akıl yürütür.",
+                        "Ülkemizdeki küresel iklim değişikliğinin sebep olduğu problemin çözümüne yönelik değerlendirme yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

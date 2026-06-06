@@ -1,0 +1,183 @@
+{
+    "okul_turu": "Ortaokul",
+    "brans": "Beden Eğitimi ve Spor",
+    "sinif_seviyesi": "5. Sınıf",
+    "temalar": [
+        {
+            "adi": "Hareket ve Zindelik",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.5.1.1.",
+                    "metin": "Fiziksel aktiviteler sırasında vücudunda meydana gelen değişimleri sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Fiziksel aktiviteler sırasında vücudunda meydana gelen değişimleri tanımlar.",
+                        "Vücudunda meydana gelen değişimler hakkında sorular sorar.",
+                        "Vücudunda meydana gelen değişimler hakkında bilgi toplar.",
+                        "Topladığı bilgilerin doğruluğunu değerlendirir.",
+                        "Topladığı bilgiler üzerinde çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.1.2.",
+                    "metin": "Fiziksel hareketsizliğin getirdiği sonuçları yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Fiziksel hareketsizliğin getirdiği sonuçları inceler.",
+                        "Fiziksel hareketsizliğin getirdiği sonuçları farklı örneklerle açıklar.",
+                        "Fiziksel hareketsizliğin getirdiği sonuçları yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.1.3.",
+                    "metin": "Fiziksel aktivite ve zindelik ilişkisini çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Fiziksel aktivite ve zindeliğe ilişkin bileşenleri belirler.",
+                        "Fiziksel aktivite ve zindeliğe ilişkin bileşenler arasındaki ilişkiyi belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.1.4.",
+                    "metin": "Fiziksel uygunluk kavramını açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "İş Birlikli Oyunlar",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.5.2.1.",
+                    "metin": "İş birlikli oyunlarda hareket kavramlarını uygulayabilme",
+                    "surec_bilesenleri": [
+                        "İş birlikli oyunlarda hareket kavramlarını ayırt eder.",
+                        "İş birlikli oyunlarda hareket becerileri ile hareket kavramları arasında ilişki kurar.",
+                        "İş birlikli oyunlarda kavramlara uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.2.2.",
+                    "metin": "İş birlikli oyunlarda hareket becerisi sergileyebilme",
+                    "surec_bilesenleri": [
+                        "İş birlikli oyunlarda hareket becerilerini algılar.",
+                        "İş birlikli oyunlarda hareket becerilerinin basamaklarını gösterir.",
+                        "İş birlikli oyunlarda hareket becerilerini farklı ortamlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.2.3.",
+                    "metin": "İş birlikli oyunlarda taktik ve strateji geliştirebilme",
+                    "surec_bilesenleri": [
+                        "İş birlikli oyunlarda taktiksel problemi belirler.",
+                        "İş birlikli oyunlarda belirlenen problemin çözümüne ilişkin öneri sunar.",
+                        "İş birlikli oyunlarda seçilen taktik ve stratejiyi uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Hayalimdeki Oyun",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.5.3.1.",
+                    "metin": "Tasarlayacakları oyunlarda güvenli ortam oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Tasarlayacakları oyunlarda ortaya çıkabilecek riskleri belirler.",
+                        "Tasarlayacakları oyunlarda belirlenen risklere yönelik önleyici tedbirler alır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.3.2.",
+                    "metin": "Oyunların farklı özelliklerinden yararlanarak özgün bir oyun sentezleyebilme",
+                    "surec_bilesenleri": [
+                        "Tasarlayacağı oyunun özelliklerini belirler.",
+                        "Tasarlayacağı oyunun özellikleri arasında ilişki kurar.",
+                        "Özgün bir oyun oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.3.3.",
+                    "metin": "Tasarlanan oyunlarda adil oyun anlayışına uygun davranabilme",
+                    "surec_bilesenleri": [
+                        "Tasarlanan oyunlarda adil oyun anlayışını açıklar.",
+                        "Tasarlanan oyunlarda adil oyun anlayışına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Hareketin Estetiği ve Ritmi",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.5.4.1.",
+                    "metin": "Jimnastiğe ilişkin hareket kavramlarını uygulayabilme",
+                    "surec_bilesenleri": [
+                        "Jimnastiğe ilişkin hareket kavramlarını ayırt eder.",
+                        "Jimnastiğe ilişkin hareket becerileri ile hareket kavramları arasında ilişki kurar.",
+                        "Jimnastiğe ilişkin hareket kavramlarına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.4.2.",
+                    "metin": "Jimnastiğe ilişkin hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Jimnastiğe ilişkin hareket becerilerini algılar.",
+                        "Jimnastiğe ilişkin hareket becerilerinin basamaklarını gösterir.",
+                        "Jimnastiğe ilişkin hareket becerilerini farklı ortamlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.4.3.",
+                    "metin": "Müzik eşliğinde dansa özgü ritmik hareket edebilme",
+                    "surec_bilesenleri": [
+                        "Harekete veya müziğe ilişkin ritmi algılar.",
+                        "Verilen ritme uygun hareket eder.",
+                        "Müzik eşliğinde dansa özgü ritmik hareket becerilerini sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Daha Hızlı, Daha Yükseğe, Daha Güçlü ve Birlikte",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BES.5.5.1.",
+                    "metin": "Çocuk atletizmine ilişkin hareket kavramlarını uygulayabilme",
+                    "surec_bilesenleri": [
+                        "Çocuk atletizmine ilişkin kavramları ayırt eder.",
+                        "Çocuk atletizmine ilişkin beceriler ile kavramlar arasında ilişki kurar.",
+                        "Çocuk atletizmine ilişkin kavramlara uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.5.2.",
+                    "metin": "Çocuk atletizmine ilişkin hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Çocuk atletizmine ilişkin hareket becerilerini algılar.",
+                        "Çocuk atletizmine ilişkin hareket becerilerinin basamaklarını gösterir.",
+                        "Çocuk atletizmine ilişkin hareket becerilerini farklı ortamlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BES.5.5.3.",
+                    "metin": "Olimpik ve paralimpik oyunların önemini açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

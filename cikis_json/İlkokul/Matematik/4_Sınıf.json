@@ -1,0 +1,380 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "Matematik",
+    "sinif_seviyesi": "4. Sınıf",
+    "temalar": [
+        {
+            "adi": "Sayılar ve Nicelikler (1)",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.1.1.",
+                    "metin": "Niceliklerin büyüklükleri için en fazla altı basamaklı olan sayıların temsillerinden yararlanabilme",
+                    "surec_bilesenleri": [
+                        "Niceliklerin büyüklüklerinin temsillerini tanır.",
+                        "Niceliklerin büyüklüklerine uygun sayı temsillerini belirler.",
+                        "Niceliklerin büyüklüklerine karşılık gelen uygun sayıları okur ve yazar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.2.",
+                    "metin": "En fazla altı basamaklı sayıları çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "En fazla altı basamaklı sayıların basamaklarını ve bölüklerini belirler.",
+                        "En fazla altı basamaklı sayıların basamak, bölük ile basamak ve sayı değerleri arasındaki ilişkileri belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.3.",
+                    "metin": "Sayıları sıralayabilme",
+                    "surec_bilesenleri": [
+                        "En fazla altı basamaklı sayıları öncelik/sonralık ilişkisine göre sembol kullanarak belirler.",
+                        "En fazla altı basamaklı sayıları onluklara, yüzlüklere ve binliklere göre basamaklarına ayırır.",
+                        "En fazla dört basamaklı sayıları en yakın onluğa, yüzlüğe ve binliğe göre yuvarlayarak tasnif eder.",
+                        "Tasnif edilen sayı gruplarını birler ve binler bölüğü şeklinde ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.4.",
+                    "metin": "İleriye ve geriye doğru ritmik saymayı yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Sayıları ileriye ve geriye doğru ritmik sayarken hiyerarşik ilişkiler ortaya koyar.",
+                        "Ritmik saymaya ilişkin öz bilgisine dayanarak yüzer ve biner ileriye ve geriye doğru hedeflenen sayıya ulaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.5.",
+                    "metin": "Artan azalan sayı örüntüleri ve şekil örüntülerindeki değişimi genelleyebilme",
+                    "surec_bilesenleri": [
+                        "Verilen örüntünün adımı ve örüntüde kullanılan sayılar ya da şekiller arasındaki ilişkiye yönelik bilgi toplar.",
+                        "Verilen örüntüde kullanılan sayıların ya da şekillerin ortak olan özelliklerini belirler.",
+                        "Verilen örüntüde kullanılan sayıların ya da şekillerin ortak olmayan özelliklerini belirler.",
+                        "Karşılaştırılan sayı ve şekil örüntülerindeki artma, azalma ve tekrar etme durumlarını sözlü olarak ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sayılar ve Nicelikler (2)",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.1.6.",
+                    "metin": "Basit, bileşik ve tam sayılı kesirleri kullanmak için matematiksel temsillerden yararlanabilme",
+                    "surec_bilesenleri": [
+                        "Basit, bileşik ve tam sayılı kesirlerin temsillerini tanır.",
+                        "Günlük yaşam durumuna uygun basit, bileşik ve tam sayılı kesir temsillerini belirler.",
+                        "Belirlediği basit, bileşik ve tam sayılı kesirlerin temsillerini kullanır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.7.",
+                    "metin": "Denk kesirleri kullanmak için matematiksel temsillerden yararlanabilme",
+                    "surec_bilesenleri": [
+                        "Denk kesirlerin temsillerini tanır.",
+                        "Denk kesirlere uygun temsilleri belirler.",
+                        "Belirlediği denk kesirlerin temsillerini kullanır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.8.",
+                    "metin": "Birim kesirlerin büyüklük küçüklük ilişkilerini çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Birim kesirleri büyüklük küçüklük bağlamında ifade eder.",
+                        "Birim kesirler arasındaki büyüklük küçüklük ilişkisini belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.9.",
+                    "metin": "Paydaları eşit olan kesirlerin büyüklük küçüklük ilişkilerini çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Paydaları eşit kesirleri büyüklük küçüklük bağlamında ifade eder.",
+                        "Paydaları eşit kesirler arasındaki büyüklük küçüklük ilişkisini belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.10.",
+                    "metin": "Bir çokluğun basit kesir kadarını ve bir basit kesir kadarı verilen çokluğun tamamını çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Bir çokluğu oluşturan eş parçaları ve eş parçaları verilen bir çokluğu kesire uygun olacak şekilde belirler.",
+                        "Çokluk ile eş parçalar ve eş parçalar ile çokluk arasındaki ilişkiyi belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Sayılar ile kesrin çarpma ve bölme işlemlerine girilmez."
+                },
+                {
+                    "kod": "MAT.4.1.11.",
+                    "metin": "Paydaları eşit kesirlerle toplama ve çıkarma işlemini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Paydaları eşit kesirlerle toplama ve çıkarma işleminde mantıksal ilişkileri ortaya koyar.",
+                        "Paydaları eşit kesirlerle toplama ve çıkarma işleminde kendi öz bilgisi ile elde ettiği ilişkilere dayalı bir bütün oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.12.",
+                    "metin": "Paydaları eşit kesirlerle toplama ve çıkarma işlemi gerektiren günlük yaşam problemlerini çözebilme",
+                    "surec_bilesenleri": [
+                        "Problemin çözümü için uygun stratejiyi oluşturur.",
+                        "Problemi çözmek için uygun stratejiyi kullanır.",
+                        "Problemin çözümünü kontrol eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.1.13.",
+                    "metin": "Uzunluk ve kütle birimlerinin kendi içerisindeki dönüşümlerini yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Uzunluk ve kütle birimlerinin kendi içindeki ilişkileri inceler.",
+                        "Uzunluk ve kütle birimlerini kendi içinde birbirine dönüştürür.",
+                        "Uzunluk ve kütle birimlerini kendi içinde farklı birim cinsinden yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Tüm katlar bu aşamada verilmeyeceği için kural olarak onar artma ve azalmadan bahsedilmez."
+                }
+            ]
+        },
+        {
+            "adi": "İşlemlerden Cebirsel Düşünmeye",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.2.1.",
+                    "metin": "Toplama ve çıkarma işlemlerini zihinden yaparak çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Zihinden toplama ve çıkarma işlemlerinde sayıların uygun bir biçimde parçalarını belirler.",
+                        "Sayıların parçalarına ait özellikleri ilişkilendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.2.",
+                    "metin": "En çok dört basamaklı sayılarla toplama ve çıkarma işlemlerini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Toplama ve çıkarma işlemlerinin algoritmasına yönelik hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koyar.",
+                        "Toplama ve çıkarma işlemlerinin algoritmasına yönelik kendi öz bilgisi ile elde ettiği ilişkilere dayalı bir bütün oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.3.",
+                    "metin": "Çarpma ve bölme işlemlerinin sonucunu tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Çarpma ve bölme işlemlerinin sonucunu deneyimleri ile ilişkilendirir.",
+                        "Çarpma ve bölme işlemlerinin sonucuna ilişkin çıkarım yapar.",
+                        "Çarpma ve bölme işlemlerinin sonucuna ilişkin yargıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.4.",
+                    "metin": "Zihinden çözümlenen çarpma ve bölme işlemleri ile bu işlemlerin kısa yollarını yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Zihinden çözümlenen çarpma ve bölme işlemlerinin algoritmasına yönelik hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koyar.",
+                        "Zihinden çözümlenen çarpma ve bölme işlemlerinin algoritmasına yönelik kendi öz bilgisi ile elde ettiği ilişkilere dayalı bir bütün oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.5.",
+                    "metin": "Çarpma ve bölme işlemlerini çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Çarpma ve bölme işlemlerini fark eder.",
+                        "Çarpma ve bölme işlemlerini birbiri ile ilişkilendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.6.",
+                    "metin": "Dört işlem içeren yönergeler oluşturarak süreci yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Dört işlem içeren durumları inceler.",
+                        "İncelediği durumları yönergelere dönüştürür.",
+                        "Oluşturduğu yönergeyi yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Yönergelerin adımlarında sayıların ve işlemlerin dışına çıkılmaması gerekir."
+                },
+                {
+                    "kod": "MAT.4.2.7.",
+                    "metin": "Dört işlem gerektiren problemleri çözebilme",
+                    "surec_bilesenleri": [
+                        "Problemi anlayarak verilenleri ve istenilenleri belirler.",
+                        "Problemde verilenlerin ve istenilenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler.",
+                        "Probleme ilişkin verilenleri belirleyerek uygun matematiksel temsillere dönüştürür.",
+                        "Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+                        "Problemlerin sonucuna ilişkin tahminde bulunarak işlemleri gerçekleştirmek için stratejiler geliştirir.",
+                        "Belirlenen strateji ya da stratejileri çözüm için uygular.",
+                        "Çözüm yollarını kontrol ederek çözüme ulaştırmayan stratejiyi değiştirir.",
+                        "Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek kısa yolları değerlendirir.",
+                        "Çözüme ulaştıran stratejilerin hangi problemlere uygulanabileceğini geneller.",
+                        "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.8.",
+                    "metin": "Dört işlem gerektiren problem durumlarını yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Dört işlem gerektiren problem durumlarına yönelik hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koyar.",
+                        "Dört işlem yapmayı gerektiren deneyimleriyle elde ettiği ilişkilere dayalı bir problem oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.2.9.",
+                    "metin": "Dört işlem bağlamında eşitliğin farklı anlamlarını yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Dört işlem bağlamında eşitlik kavramını inceler.",
+                        "Günlük yaşam durumlarını dört işleme dönüştürür.",
+                        "Dört işlem içeren günlük yaşam durumunu eşitlik kavramı bağlamında ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Nesnelerin Geometrisi (1)",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.3.1.",
+                    "metin": "Geometrik cisimlerin açınımlarını yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Geometrik cisimlerin açınımlarını inceleyerek yüzler arasında mantıksal ilişkiler ortaya koyar.",
+                        "Ortaya koyduğu ilişkilerden yola çıkarak geometrik cismi oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Geometrik cisimlerin temel açınımlarına yer verilir, farklı açınımlarına ise girilmez."
+                },
+                {
+                    "kod": "MAT.4.3.2.",
+                    "metin": "Geometrik şekilleri köşe ve kenarlarına göre yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Üçgen, kare ve dikdörtgenin köşe ve kenarlarını belirler.",
+                        "Üçgen, kare ve dikdörtgenin köşe ve kenarları arasında ilişki kurar.",
+                        "Kenarlarına göre üçgen çeşitlerini ve kare ile dikdörtgen ilişkisini ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Kare ve dikdörtgen arasındaki ilişkinin fark edilmesi sürecinde dikdörtgenin kenarlarını adlandırırken uzun ve kısa kenar ifadelerinden kaçınılır."
+                },
+                {
+                    "kod": "MAT.4.3.3.",
+                    "metin": "Geometrik şekillerin çevre uzunluğunu ölçmede matematiksel araç ve teknolojiden yararlanabilme",
+                    "surec_bilesenleri": [
+                        "Geometrik şekillerin çevre uzunluğunu ölçmede kullanılabilecek matematiksel araç ve teknolojiyi tanır.",
+                        "Üçgen, kare ve dikdörtgenin çevre uzunluğunu ölçmede kullanılabilecek matematiksel araç ve teknolojiyi belirler.",
+                        "Üçgen, kare ve dikdörtgenin çevre uzunluğunu ölçmek için ilgili matematiksel araç ve teknolojiyi kullanır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.3.4.",
+                    "metin": "Standart olmayan ölçü birimleri cinsinden şekillerin alanlarını tahmin edebilme",
+                    "surec_bilesenleri": [
+                        "Standart olmayan ölçü birimlerine ilişkin deneyimini, tahmine konu olan şeklin alanıyla ilişkilendirir.",
+                        "Belirlenen standart olmayan ölçü birimini kullanarak şeklin alanına ilişkin tahminde bulunur.",
+                        "Tahminini ölçüm sonuçlarıyla karşılaştırarak tahminine ilişkin yargıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Nesnelerin Geometrisi (2)",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.3.5.",
+                    "metin": "Günlük yaşamdan örneklerle açıyı bir dönme miktarı olarak yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Günlük hayattan örneklerle açıyı belirler.",
+                        "Açıları bağlamından koparmadan günlük yaşam durumlarına dönüştürür.",
+                        "Açıyı bir dönme miktarı olarak yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Açının kollarının uzunluğuna bağlı olmadığına, açının kolları ne kadar uzun olursa olsun açılma miktarının değişmediğine vurgu yapılır."
+                },
+                {
+                    "kod": "MAT.4.3.6.",
+                    "metin": "Açı ölçümüne ilişkin standart ölçme araçlarının gerekliliğini değerlendirebilme",
+                    "surec_bilesenleri": [
+                        "Açı ölçümü için bir ölçüt belirler.",
+                        "Ölçüte uygun olarak standart olmayan ölçü birimlerini kullanarak ölçme yapar.",
+                        "Standart olmayan ölçü birimlerine dayalı olarak elde ettiği sonuçları ölçüt ile karşılaştırır.",
+                        "Karşılaştırmalarına ilişkin olarak standart ölçme araçlarının gerekliliğine ilişkin yargıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Açı ölçer ile açı ölçme uygulamalarına girilmez."
+                },
+                {
+                    "kod": "MAT.4.3.7.",
+                    "metin": "Dik açıyı referans alarak açıları dar ve geniş olarak sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "Dik açının özelliklerini belirler.",
+                        "Dik açıyı referans alarak açı çeşitlerini dar ve geniş açı olarak ayırır.",
+                        "Dar ve geniş açının özelliklerini tasnif eder.",
+                        "Dar ve geniş açıyı adlandırır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Nesnelerin Geometrisi (3)",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.3.8.",
+                    "metin": "Geometrik nesneler ve şekiller üzerinden doğruya göre simetriyi yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Geometrik şekiller ve modeller üzerinden aynaya göre simetrinin özelliklerini inceler.",
+                        "Aynaya göre simetri ile doğruya göre simetri arasındaki ilişkiyi fark eder.",
+                        "Aynaya göre simetriyi, anlamını değiştirmeden kendi ifadeleriyle doğruya göre simetri olarak yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MAT.4.3.9.",
+                    "metin": "Bir şeklin doğruya göre simetrisini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Simetri doğrusunun özelliklerini inceleyerek doğruya göre simetriye ilişkin mantıksal ilişkiler ortaya koyar.",
+                        "Ortaya koyduğu ilişkilerden yola çıkarak şeklin doğruya göre simetrisini oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Eğik simetri doğrusuna göre simetri alma sürecine girilmez."
+                },
+                {
+                    "kod": "MAT.4.3.10.",
+                    "metin": "Geometrik şekillere dayalı bir yapı oluşturabilmek için kodlama stratejilerini yapılandırabilme",
+                    "surec_bilesenleri": [
+                        "Geometrik şekil ve yapı bilgisi arasında mantıksal ilişkiler ortaya koyar.",
+                        "Ortaya koyduğu ilişkilerden yola çıkarak kodlama stratejisi oluşturur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Olayların Olasılığı ve Veriye Dayalı Araştırma",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MAT.4.4.1.",
+                    "metin": "Günlük yaşamdan herhangi bir olayın olasılığını “imkânsız, olabilir, kesin” olarak belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": "Olasılık tahminlerinde oran, kesir ve yüzde gibi sayı temsilleri kullanmaları beklenmez."
+                },
+                {
+                    "kod": "MAT.4.4.2.",
+                    "metin": "Kategorik veriye ve sayma ile elde edilen nicel veriye dayalı en çok iki veri grubu ile çalışabilme ve veriye dayalı karar verebilme",
+                    "surec_bilesenleri": [
+                        "Kategorik ve nicel veriye dayalı istatistiksel araştırma gerektiren günlük yaşam ile ilgili bir problem belirler.",
+                        "Kategorik ve nicel veriye dayalı betimleme veya karşılaştırma gerektirebilecek araştırma soruları oluşturur.",
+                        "Kategorik ve nicel verileri toplamak için plan yapar.",
+                        "Kategorik ve nicel verileri toplar.",
+                        "Toplanan verileri analiz etmek için uygun görselleştirme araçlarını (çetele ve sıklık tablosu ile nesne, şekil ve nokta grafiği) seçer.",
+                        "Seçtiği araçlarla verileri görselleştirerek analiz eder.",
+                        "Araştırma sonuçlarını yorumlar.",
+                        "Araştırma sonuçlarını araştırma sorularına göre değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "Beden Eğitimi ve Oyun Dersi",
+    "sinif_seviyesi": "3. Sınıf",
+    "temalar": [
+        {
+            "adi": "İş Birlikli Oyunlarla Hareket Ediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.3.1.1.",
+                    "metin": "İş birlikli oyunlarda adil oyun anlayışına uygun davranabilme",
+                    "surec_bilesenleri": [
+                        "İş birlikli oyunlarda adil oyun anlayışını açıklar.",
+                        "İş birlikli oyunlarda adil oyun anlayışına uygun hareket eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.1.2.",
+                    "metin": "İş birlikli oyunlarda birleştirilmiş hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "İş birlikli oyunlarda birleştirilmiş hareket becerilerini algılar.",
+                        "İş birlikli oyunlarda birleştirilmiş hareket becerilerinin basamaklarını gösterir.",
+                        "İş birlikli oyunlarda birleştirilmiş hareket becerilerini farklı oyunlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.1.3.",
+                    "metin": "İş birlikli oyunlarda taktik ve strateji geliştirebilme",
+                    "surec_bilesenleri": [
+                        "İş birlikli oyunlarda taktiksel problemi belirler.",
+                        "İş birlikli oyunlarda belirlenen problemin çözümüne ilişkin öneri sunar.",
+                        "İş birlikli oyunlarda taktik ve stratejiyi uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Oyunun Kurallarını Yeniden Oluşturuyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.3.2.1.",
+                    "metin": "Oyunlarda birleştirilmiş hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Oyunlarda birleştirilmiş hareket becerilerini algılar.",
+                        "Oyunlarda birleştirilmiş hareket becerilerinin basamaklarını gösterir.",
+                        "Oyunlarda birleştirilmiş hareket becerilerini farklı durum veya ortamlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.2.2.",
+                    "metin": "Oyunun kurallarını yeniden belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Farklı Ritimlerle Hareket Ediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.3.3.1.",
+                    "metin": "Farklı tempodaki müziğe uygun hareket edebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.3.2.",
+                    "metin": "Eşle veya grupla ritmik hareket etme becerisini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Eşle veya grupla hareket ederek verilen ritmi algılar.",
+                        "Eşle veya grupla ritme uygun hareket eder.",
+                        "Eşle veya grupla uyumlu ritmik hareket becerilerini sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Sağlığım İçin Fiziksel Aktiviteye Katılıyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.3.4.1.",
+                    "metin": "Fiziksel Aktivite sırasında vücudunda meydana gelen değişimleri sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Fiziksel aktivite sırasında vücudunda meydana gelen değişimleri tanımlar.",
+                        "Fiziksel aktivite sırasında vücudunda meydana gelen değişimler hakkında sorular sorar.",
+                        "Fiziksel aktivite sırasında vücudunda meydana gelen değişimler hakkında bilgi toplar.",
+                        "Topladığı bilgilerin doğruluğunu değerlendirir.",
+                        "Topladığı bilgiler üzerinde çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.4.2.",
+                    "metin": "Fiziksel hareketsizliğin sonuçlarını açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Hareket Ederek Çevremi Keşfediyorum",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.3.5.1.",
+                    "metin": "Fiziksel aktiviteye katılabileceği farklı çevreleri belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.5.2.",
+                    "metin": "Farklı çevre koşullarında fiziksel aktiviteye katılabilme",
+                    "surec_bilesenleri": [
+                        "Farklı çevre koşullarında fiziksel aktivite ihtiyacını fark eder.",
+                        "Farklı çevre koşullarında fiziksel aktivite ihtiyacına yönelik plan yapar.",
+                        "Farklı çevre koşullarında fiziksel aktiviteye ilişkin hazırladığı planı uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Kültürel Birikimlerimiz ve Geleneksel Oyunlar",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "BEO.3.6.1.",
+                    "metin": "Geleneksel çocuk oyunlarında hareket becerilerini sergileyebilme",
+                    "surec_bilesenleri": [
+                        "Geleneksel çocuk oyunlarında yer alan hareket becerilerini algılar.",
+                        "Geleneksel çocuk oyunlarında yer alan hareket becerilerinin basamaklarını gösterir.",
+                        "Geleneksel çocuk oyunlarında yer alan hareket becerilerini farklı oyunlarda uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.6.2.",
+                    "metin": "Başarılı Türk sporcuları tanıyabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "BEO.3.6.3.",
+                    "metin": "Mustafa Kemal Atatürk’ün ilgilendiği sporları açıklayabilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+
+İşleniyor: 2025825154137627-fen bilimleri.pdf
+
+============================================================
+📁 fen_bilimleri_kazanimlar.json
+============================================================
+
+📊 İSTATİSTİK:
+   Toplam kayıt : 182
+    3. sınıf   :   20 kayıt | 8 ünite/tema
+    4. sınıf   :   19 kayıt | 8 ünite/tema
+    5. sınıf   :   28 kayıt | 7 ünite/tema
+    6. sınıf   :   36 kayıt | 7 ünite/tema
+    7. sınıf   :   36 kayıt | 7 ünite/tema
+    8. sınıf   :   43 kayıt | 7 ünite/tema
+
+✅ HATA YOK
+✅ UYARI YOK
+
+Sonuç: OK (182 kayıt, 0E 0W)

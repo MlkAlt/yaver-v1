@@ -1,0 +1,149 @@
+{
+    "okul_turu": "İlkokul",
+    "brans": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+    "sinif_seviyesi": "4. Sınıf",
+    "temalar": [
+        {
+            "adi": "Çocuk Olarak Haklarımla Varım",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İHVD.4.1.1.",
+                    "metin": "Çocuk olmanın özelliklerini belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.1.2.",
+                    "metin": "Çocuk haklarıyla ilgili kanıta dayalı olarak oluşturduğu ürünü paylaşabilme",
+                    "surec_bilesenleri": [
+                        "Verilen kanıtlara dayanarak çocuk haklarına ihtiyaç duyulma sebeplerini tespit eder.",
+                        "Tespitleri bağlamında kendi çocuk hakları sözleşmesini oluşturur.",
+                        "Çocuk Hakları Sözleşmesi'nin maddelerini sözlü veya görsel olarak yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.1.3.",
+                    "metin": "İnsan olmanın getirdiği temel hak ve özgürlükleri yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "İnsan olmanın getirdiği temel hak ve özgürlükleri örnekler üzerinden inceler.",
+                        "İnsan olmanın getirdiği temel hak ve özgürlükleri bağlamdan kopmadan yazılı veya sözlü olarak ifade eder.",
+                        "İnsan olmanın getirdiği temel hak ve özgürlükleri kendi cümleleri ile ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Hayatımda Eşitlik ve Adalet",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İHVD.4.2.1.",
+                    "metin": "Eşitlik kavramının anlamını sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Eşitlik kavramı ile ilgili merak ettiklerini tanımlar.",
+                        "Eşitlik kavramı hakkında sorular sorar (5N1K).",
+                        "Eşitlik hakkında farklı kaynaklardan bilgi toplar.",
+                        "Eşitlik hakkında edindiği bilgilerin doğruluğunu kontrol eder.",
+                        "Eşitlik hakkında topladığı bilgiler üzerinden çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.2.2.",
+                    "metin": "Adalet ve eşitlik arasındaki ilişkiyi yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Adalet ve eşitlik kavramları arasındaki ilişkiyi inceler.",
+                        "Adalet ve eşitlik kavramları arasındaki ilişkiyi bağlamdan kopmadan, sözlü veya görsel olarak ifade eder.",
+                        "Adalet ve eşitlik kavramlarını kendi hayatından örnekler vererek ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.2.3.",
+                    "metin": "Fırsat eşitliğinin anlamını yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Fırsat eşitliğine ilişkin durumları inceler.",
+                        "Fırsat eşitliğinin önemini sözlü, yazılı veya görsel olarak ifade eder.",
+                        "Fırsat eşitliği ile ilgili yakın çevresinden örnekler verir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Etkin Bir Vatandaşım",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İHVD.4.3.1.",
+                    "metin": "Vatandaş olmanın getirdiği hak ve özgürlükleri yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Vatandaş olmanın getirdiği hak ve özgürlükleri örnekler üzerinden inceler.",
+                        "Vatandaş olmanın getirdiği hak ve özgürlükleri sözlü, yazılı, görsel vb. şekillerde ifade eder.",
+                        "Vatandaş olmanın getirdiği hak ve özgürlükleri kendi hayatından örnekler kullanarak yeniden açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.3.2.",
+                    "metin": "Etkin vatandaş olmanın gerektirdiği sorumlulukları belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.3.3.",
+                    "metin": "Dijital vatandaşlığın gerektirdiği özellikleri belirleyebilme",
+                    "surec_bilesenleri": [],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.3.4.",
+                    "metin": "Etkin bir vatandaş olarak toplumsal yardımlaşma faaliyetleri ile ilgili fikir üretebilme",
+                    "surec_bilesenleri": [
+                        "Toplumsal yardımlaşma faaliyetlerinin önemini fark eder.",
+                        "Toplumsal yardımlaşma faaliyetlerine ilişkin örnekleri inceler.",
+                        "Toplumsal yardımlaşma faaliyetleriyle ilgili fikir üretir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "Hayatımda Demokrasi",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İHVD.4.4.1.",
+                    "metin": "Grup çalışmalarında karar alma süreçlerine katılarak grup dinamiğini sağlayabilme",
+                    "surec_bilesenleri": [
+                        "Yakın çevresindeki dâhil olduğu grup ile aldığı ortak kararlar doğrultusunda görev paylaşımı yapar.",
+                        "Dâhil olduğu grupta aldığı görevleri yerine getirerek gruba katkı sağlar.",
+                        "Dâhil olduğu grupta ekibin diğer üyelerine yardım ederek gruba katkıda bulunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.4.2.",
+                    "metin": "Grup arkadaşları ile farklı fikirler hakkında müzakere edebilme",
+                    "surec_bilesenleri": [
+                        "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin kendisinden farklı düşünebileceğini fark eder.",
+                        "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin düşüncelerindeki ortaklıkları ve farklılıkları karşılaştırır.",
+                        "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşünceleri doğrultusunda ortak amaç üzerinde uzlaşmak için çözüm arar.",
+                        "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşüncelerini dikkate alarak ortak amaca göre kendi görüşünü gözden geçirir.",
+                        "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşüncelerini dikkate alarak grubun ortak amaçlarını savunur."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İHVD.4.4.3.",
+                    "metin": "Seçme ve seçilme hakkı konusunda fikir üretebilme",
+                    "surec_bilesenleri": [
+                        "Seçme hakkının toplumsal yaşam için önemini fark eder.",
+                        "Seçme ve seçilme hakkıyla ilgili yakın çevresindeki deneyimleri inceler.",
+                        "Seçme ve seçilme hakkının yaşantısındaki farklı alanlara uygulanması hususunda fikir üretir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

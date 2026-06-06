@@ -1,0 +1,188 @@
+{
+    "okul_turu": "Ortaokul",
+    "brans": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
+    "sinif_seviyesi": "8. Sınıf",
+    "temalar": [
+        {
+            "adi": "MUSTAFA KEMAL'İN HAYATI",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İTA.8.1.1.",
+                    "metin": "Mustafa Kemal'in doğduğu dönemde Osmanlı Devleti'nin içinde bulunduğu siyasi, sosyal ve ekonomik durumu neden ve sonuçlarıyla yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Mustafa Kemal'in doğduğu dönemde Osmanlı Devleti'nin içinde bulunduğu siyasi, sosyal ve ekonomik duruma ilişkin koşulları inceler.",
+                        "Mustafa Kemal'in doğduğu dönemde Osmanlı Devleti'nin içinde bulunduğu siyasi, sosyal ve ekonomik durumu kendi cümleleriyle yeniden ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.1.2.",
+                    "metin": "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatına ilişkin oluşturduğu özgün ürünleri paylaşabilme",
+                    "surec_bilesenleri": [
+                        "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatına ilişkin merak ettiği konular hakkında sorular sorar.",
+                        "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatına ilişkin oluşturacağı ürün için belirlediği kaynaklardan bilgi toplar.",
+                        "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatına ilişkin oluşturacağı ürün için topladığı bilgileri araştırma konusuna uygunluğu açısından inceler.",
+                        "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatına ilişkin oluşturacağı ürün için kullanacağı kaynakların sınırlılığını sorgular.",
+                        "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatına ilişkin oluşturacağı ürün için kullanacağı kaynaklardaki bilgileri yorumlar.",
+                        "Çocuk, komutan ve devlet adamı olarak Atatürk'ün hayatı hakkında kanıta dayalı oluşturduğu ürünleri paylaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.1.3.",
+                    "metin": "Mustafa Kemal'in kişilik özelliklerini özetleyebilme",
+                    "surec_bilesenleri": [
+                        "Mustafa Kemal'in kişilik özelliklerini çözümler.",
+                        "Mustafa Kemal'in kişilik özelliklerini kendi cümleleri ile ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "BİRİNCİ DÜNYA SAVAŞI",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İTA.8.2.1.",
+                    "metin": "Birinci Dünya Savaşı'nın nedenlerini tarihsel bağlamına uygun olarak açıklayabilme",
+                    "surec_bilesenleri": [
+                        "Birinci Dünya Savaşı'nın nedenlerini kanıtlara dayalı olarak analiz eder.",
+                        "Birinci Dünya Savaşı'nın nedenlerini ortaya çıkaran koşulları belirler.",
+                        "Birinci Dünya Savaşı'nın nedenlerini ortaya çıkaran koşulları günümüz koşullarıyla karşılaştırır.",
+                        "Birinci Dünya Savaşı'nın nedenlerini dönemin koşulları içerisinde açıklar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.2.2.",
+                    "metin": "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin alternatif fikirler üretebilme",
+                    "surec_bilesenleri": [
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin tarihsel bir sorunu tanımlar.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin tarihsel sorun hakkında tarafların bakış açılarını çözümler.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin tarihsel sorunun çözümüne yönelik yapılan uygulamaları ve alınan kararları değerlendirir.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin tarihsel sorunun çözümüne yönelik yapılan uygulamaların ve alınan kararların güncel sorunların meydana gelmesine etkilerini belirler.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin tarihsel sorunu çözmeye yönelik alternatif öneriler geliştirir.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'na katılma sürecine ilişkin tarihsel sorunu çözmeye yönelik geliştirdiği alternatif önerilerin olası sonuçlarını yetkililerin yaptıkları uygulamalar ve aldıkları kararların sonuçlarıyla karşılaştırarak değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.2.3.",
+                    "metin": "Osmanlı Devleti'nin Birinci Dünya Savaşı'nda savaştığı cephelerin savaşın gidişatına etkisini sorgulayabilme",
+                    "surec_bilesenleri": [
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'nda savaştığı cephelerin savaşın gidişatına etkisi hakkında merak ettiği konuları belirler.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'nda savaştığı cepheler hakkında sorular sorar (5N1K).",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'nda savaştığı cepheler hakkında farklı kaynaklar üzerinden bilgi toplar.",
+                        "Osmanlı Devleti'nin Birinci Dünya Savaşı'nda savaştığı cepheler hakkında topladığı bilgilerin doğruluğunu değerlendirir.",
+                        "Topladığı bilgiler üzerinden Osmanlı Devleti'nin Birinci Dünya Savaşı'nda savaştığı cephelerin savaşın gidişatına etkisine ilişkin çıkarım yapar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.2.4.",
+                    "metin": "Birinci Dünya Savaşı'nın sonuçlarını tablo, grafik, şekil ve diyagram üzerinden yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Birinci Dünya Savaşı'nın sonuçlarıyla ilgili görsellerden anlam çıkarır.",
+                        "İlgili görsellerden yola çıkarak Birinci Dünya Savaşı'nın siyasi ve ekonomik etkilerini çözümler.",
+                        "Belirlediği etkilerden hareketle Birinci Dünya Savaşı'nın siyasi ve ekonomik sonuçları hakkında çıkarım yapar.",
+                        "Birinci Dünya Savaşı'nın siyasi ve ekonomik sonuçlarıyla ilgili yapmış olduğu çıkarımları karşılaştırır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.2.5.",
+                    "metin": "Birinci Dünya Savaşı'nın Türk toplumuna etkilerine yönelik bakış açısı geliştirebilme",
+                    "surec_bilesenleri": [
+                        "Birinci Dünya Savaşı'nın toplumsal etkilerini kaynaklar üzerinden inceler.",
+                        "Birinci Dünya Savaşı'nın toplumsal etkilerine dair kaynaklardan elde ettiği bilgileri kendi cümleleriyle ifade eder.",
+                        "Birinci Dünya Savaşı'nın Türk toplumuna etkilerini kaynaklara dayalı olarak analiz eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "MİLLÎ MÜCADELE",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İTA.8.3.1.",
+                    "metin": "Mondros Mütarekesi'ne karşı Osmanlı yönetiminin, Mustafa Kemal'in, aydınların ve halkın tutumunu karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Mondros Mütarekesi'ne karşı Osmanlı yönetimi, Mustafa Kemal, aydınlar ve halkın tutumunu kaynaklar üzerinden belirler.",
+                        "Mondros Mütarekesi'ne karşı Osmanlı yönetimi, Mustafa Kemal, aydınlar ve halkın tutumuna ilişkin benzerlik ve farklılıkları kaynaklar üzerinden belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.3.2.",
+                    "metin": "Millî Mücadele'nin hazırlık sürecinde yapılan çalışmaların etkilerini değerlendirebilme",
+                    "surec_bilesenleri": [
+                        "Millî Mücadele'nin hazırlık sürecinde yapılan çalışmaları etkileri bakımından karşılaştırır.",
+                        "Millî Mücadele'nin hazırlık sürecinde yapılan çalışmaları etkileri bakımından değerlendirir."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.3.3.",
+                    "metin": "Millî Mücadele sürecinde meydana gelen siyasi ve askerî gelişmeleri neden ve sonuçlarıyla birlikte yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Millî Mücadele sürecinde meydana gelen siyasi ve askerî gelişmelerin nedenlerini inceler.",
+                        "Millî Mücadele sürecinde meydana gelen siyasi ve askerî gelişmelerin etkilediği unsurları inceler.",
+                        "Millî Mücadele sürecinde meydana gelen siyasi ve askerî gelişmelerin bireye, topluma ve kurumlara etkilerini sorgular.",
+                        "Millî Mücadele sürecinde meydana gelen siyasi ve askerî gelişmelerin nedenlerini ve sonuçlarını özetler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.3.4.",
+                    "metin": "Türk milletinin Millî Mücadele sürecindeki rolüne ilişkin oluşturduğu özgün ürünleri paylaşabilme",
+                    "surec_bilesenleri": [
+                        "Türk milletinin Millî Mücadele sürecindeki rolüne ilişkin merak ettiği konular hakkında sorular sorar.",
+                        "Türk milletinin Millî Mücadele sürecindeki rolüne ilişkin kaynaklardan bilgi toplar.",
+                        "Türk milletinin Millî Mücadele sürecindeki rolüne ilişkin araştırması için topladığı bilgilerin araştırma konusu açısından uygunluğunu inceler.",
+                        "Türk milletinin Millî Mücadele sürecindeki rolüne ilişkin kullanacağı kaynakların sınırlılığını sorgular.",
+                        "Türk milletinin Millî Mücadele sürecindeki rolüne ilişkin kaynaklardan elde ettiği bilgileri yorumlar.",
+                        "Türk milletinin Millî Mücadele sürecindeki rolü hakkında kanıta dayalı oluşturduğu ürünleri paylaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "TÜRKİYE CUMHURİYETİ'NİN KURULUŞU VE İNKILAPLAR",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "İTA.8.4.1.",
+                    "metin": "Cumhuriyet'in ilanına kadar geçen süreçte meydana gelen siyasi ve diplomatik gelişmeleri özetleyebilme",
+                    "surec_bilesenleri": [
+                        "Cumhuriyet'e giden yolda gerçekleşen siyasi ve diplomatik olayları çözümler.",
+                        "Cumhuriyet'e giden yolda gerçekleşen siyasi ve diplomatik olayları sınıflandırır.",
+                        "Cumhuriyet'e giden yolda gerçekleşen siyasi ve diplomatik olayları anlamı değişmeyecek şekilde kendi ifadeleri ile yeniden yorumlar."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.4.2.",
+                    "metin": "Türk modernleşmesi çerçevesinde Atatürk'ün yaptığı inkılapları neden ve sonuçlarıyla yorumlayabilme",
+                    "surec_bilesenleri": [
+                        "Türk modernleşmesi çerçevesinde Atatürk Dönemi'nde yapılan inkılapların nedenlerini inceler.",
+                        "Türk modernleşmesi çerçevesinde Atatürk Dönemi'nde yapılan inkılaplardan etkilenen unsurları inceler.",
+                        "Türk modernleşmesi çerçevesinde Atatürk Dönemi'nde yapılan inkılapların etkilerinin niteliğini sorgular.",
+                        "Türk modernleşmesi çerçevesinde Atatürk Dönemi'nde yapılan inkılapların nedenlerini ve sonuçlarını bağlamından kopmadan ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "İTA.8.4.3.",
+                    "metin": "Atatürk ilke ve inkılapları arasındaki ilişkiyi ortaya koyan özgün bir ürün oluşturabilme",
+                    "surec_bilesenleri": [
+                        "Atatürk ilkelerinin temel özellikleri ile demokrasinin ilkeleri arasındaki ilişkiyi belirler.",
+                        "Cumhuriyet Dönemi'nde gerçekleştirilen inkılapları Atatürk ilkeleriyle ilişkilendirir.",
+                        "Cumhuriyet Dönemi'nde gerçekleştirilen inkılapların Atatürk ilkeleriyle ilişkisi hakkında oluşturduğu ürünü paylaşır."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}

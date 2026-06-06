@@ -1,0 +1,175 @@
+{
+    "okul_turu": "İlkokul ve Ortaokul",
+    "brans": "Müzik",
+    "sinif_seviyesi": "7. Sınıf",
+    "temalar": [
+        {
+            "adi": "MÜZİK DİLİ",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MÜZ.7.1.1.",
+                    "metin": "İstiklâl Marşı’nı gürlük basamaklarına dikkat ederek söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "İstiklâl Marşı’nın müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilere, İstiklâl Marşı’nı gürlük basamaklarına dikkat ederek söyleyebilmeleri için bedenlerini hazır hâle getirmeleri gerektiği belirtilir. Bu duruş, öğretmen tarafından gösterilir. Omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.1.2.",
+                    "metin": "Farklı türdeki eserleri söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "Eserin müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.1.3.",
+                    "metin": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "Eserin müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.1.4.",
+                    "metin": "Ortak repertuvardaki eserleri söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "Eserin müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.1.5.",
+                    "metin": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+                    "surec_bilesenleri": [
+                        "Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+                        "Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.1.6.",
+                    "metin": "Müzik yazısını çözümleyebilme",
+                    "surec_bilesenleri": [
+                        "Müzik yazısının parçalarını belirler.",
+                        "Müzik yazısının parçaları arasındaki ilişkileri belirler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        },
+        {
+            "adi": "MÜZİK KÜLTÜRÜ",
+            "ogrenme_ciktilari": [
+                {
+                    "kod": "MÜZ.7.2.1.",
+                    "metin": "Klasik Batı Müziği dönemlerini karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Klasik Batı Müziği dönemlerinin özelliklerini ifade eder.",
+                        "Klasik Batı Müziği dönemlerine ilişkin benzerlikleri ifade eder.",
+                        "Klasik Batı Müziği dönemlerine ilişkin farklılıkları ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.2.2.",
+                    "metin": "Klasik Batı Müziği topluluklarını karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Klasik Batı Müziği topluluklarının özelliklerini ifade eder.",
+                        "Klasik Batı Müziği topluluklarına ilişkin benzerlikleri ifade eder.",
+                        "Klasik Batı Müziği topluluklarına ilişkin farklılıkları ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.2.3.",
+                    "metin": "Farklı türdeki eserleri söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "Eserin müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilerin bedenlerini söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.2.4.",
+                    "metin": "İnsan seslerini sınıflandırabilme",
+                    "surec_bilesenleri": [
+                        "İnsan seslerine ilişkin değişkenleri belirler.",
+                        "İnsan seslerini ayrıştırır.",
+                        "İnsan seslerini tasnif eder.",
+                        "İnsan seslerini etiketler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.2.5.",
+                    "metin": "İnsan ses topluluklarını karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "İnsan ses topluluklarının özelliklerini ifade eder.",
+                        "İnsan ses topluluklarına ilişkin benzerlikleri ifade eder.",
+                        "İnsan ses topluluklarına ilişkin farklılıkları ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.2.6.",
+                    "metin": "Belirli gün ve haftalarla ilgili eserleri söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "Eserin müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.2.7.",
+                    "metin": "Ülkemizdeki mesleki müzik eğitimi kurumlarını karşılaştırabilme",
+                    "surec_bilesenleri": [
+                        "Ülkemizdeki mesleki müzik eğitimi kurumlarının özelliklerini ifade eder.",
+                        "Ülkemizdeki mesleki müzik eğitimi kurumlarına ilişkin benzerlikleri ifade eder.",
+                        "Ülkemizdeki mesleki müzik eğitimi kurumlarına ilişkin farklılıkları ifade eder."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.2.8.",
+                    "metin": "Atatürk’ün müzik eğitimine verdiği önemi özetleyebilme",
+                    "surec_bilesenleri": [
+                        "Atatürk’ün müzik eğitimine verdiği önemi çözümler.",
+                        "Atatürk’ün müzik eğitimine verdiği önemi sınıflandırır.",
+                        "Atatürk’ün müzik eğitimine verdiği önemi yorumlar (Kendi cümleleriyle aktarır.)."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                },
+                {
+                    "kod": "MÜZ.7.2.9.",
+                    "metin": "Ortak repertuvardaki eserleri söyleyebilme",
+                    "surec_bilesenleri": [
+                        "Bedenini söylemeye hazır hâle getirir.",
+                        "Uygun söyleme tekniklerini kullanır.",
+                        "Eserin müziksel bileşenlerini uygular."
+                    ],
+                    "sinirliliklar_ve_uyarilar": "Öğrencilerin bedenlerini şarkı söylemeye hazır hâle getirmeleri için “otururken veya ayakta; ayakların omuz hizasında açılarak vücudun dengeli ve dik bir şekilde durması” gerektiği söylenir. Bu duruş öğretmen tarafından gösterilir ve omurga sağlığı bakımından önemine dikkat çekilir (D13.4)."
+                },
+                {
+                    "kod": "MÜZ.7.2.10.",
+                    "metin": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+                    "surec_bilesenleri": [
+                        "Ritmik yapıya/eserin anlamına uygun hareketler belirler.",
+                        "Ritmik yapıya/eserin anlamına uygun hareketler sergiler."
+                    ],
+                    "sinirliliklar_ve_uyarilar": null
+                }
+            ]
+        }
+    ]
+}
