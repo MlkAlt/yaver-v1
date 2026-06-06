@@ -72772,6 +72772,20 @@
     "confidence": "high"
   },
   {
+    "kazanim_kodu": "SB.5.6.1",
+    "kazanim_metni": "Teknolojik gelişmelerin toplum hayatına etkilerini tartışabilme",
+    "sinif": 5,
+    "okul_turu": "ortaokul",
+    "brans_slug": "sosyal_bilgiler",
+    "ders": "Sosyal Bilgiler",
+    "unite_no": 6,
+    "unite_adi": "Ünite 6",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 61,
+    "extraction_yontemi": "regex_tipA",
+    "confidence": "high"
+  },
+  {
     "kazanim_kodu": "SB.5.6.2",
     "kazanim_metni": "Teknolojik ürünlerin bilinçli kullanımının önemine ilişkin ürün oluşturabilme",
     "sinif": 5,
@@ -73034,6 +73048,20 @@
     "unite_adi": "Ünite 6",
     "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
     "kaynak_sayfa": 87,
+    "extraction_yontemi": "regex_tipA",
+    "confidence": "high"
+  },
+  {
+    "kazanim_kodu": "SB.7.1.1",
+    "kazanim_metni": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemini sorgulayabilme",
+    "sinif": 7,
+    "okul_turu": "ortaokul",
+    "brans_slug": "sosyal_bilgiler",
+    "ders": "Sosyal Bilgiler",
+    "unite_no": 1,
+    "unite_adi": "Ünite 1",
+    "kaynak_pdf": "202582516728345-sosyal bilgiler.pdf",
+    "kaynak_sayfa": 90,
     "extraction_yontemi": "regex_tipA",
     "confidence": "high"
   },

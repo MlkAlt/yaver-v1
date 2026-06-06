@@ -1,5 +1,5 @@
 -- Migration 044: MEB 2025 müfredat kazanımları
--- 5465 kazanım — 2026-06-06
+-- 5467 kazanım — 2026-06-06
 
 ALTER TABLE kazanimlar ADD COLUMN IF NOT EXISTS ders TEXT;
 ALTER TABLE kazanimlar ADD COLUMN IF NOT EXISTS okul_tipi TEXT;
@@ -5203,6 +5203,7 @@ INSERT INTO kazanimlar (kod, brans_id, sinif, unite_no, unite_ad, ad, ders, okul
   ('SB.5.5.1', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 5, 5, 'Ünite 5', 'Kaynakları verimli kullanmanın doğa ve insanlar üzerindeki etkisini yorumlayabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.5.5.2', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 5, 5, 'Ünite 5', 'İhtiyaç ve isteklerini karşılamak için gerekli bütçeyi planlayabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.5.5.3', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 5, 5, 'Ünite 5', 'Yaşadığı ildeki ekonomik faaliyetleri özetleyebilme', 'Sosyal Bilgiler', 'ortaokul'),
+  ('SB.5.6.1', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 5, 6, 'Ünite 6', 'Teknolojik gelişmelerin toplum hayatına etkilerini tartışabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.5.6.2', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 5, 6, 'Ünite 6', 'Teknolojik ürünlerin bilinçli kullanımının önemine ilişkin ürün oluşturabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.6.1.1', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 6, 1, 'Ünite 1', 'Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin çıkarım yapabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.6.1.2', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 6, 1, 'Ünite 1', 'Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumlayabilme', 'Sosyal Bilgiler', 'ortaokul'),
@@ -5222,6 +5223,7 @@ INSERT INTO kazanimlar (kod, brans_id, sinif, unite_no, unite_ad, ad, ders, okul
   ('SB.6.5.3', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 6, 5, 'Ünite 5', 'Tasarladığı bir ürün için yatırım ve pazarlama proje önerisi hazırlayabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.6.6.1', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 6, 6, 'Ünite 6', 'Ulaşım ve iletişim teknolojilerindeki gelişmelerin kültürel etkileşimdeki rolünü yapılandırabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.6.6.2', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 6, 6, 'Ünite 6', 'Bir ürün veya fikrin telif ve patent süreçleriyle ilgili bilgi toplayabilme', 'Sosyal Bilgiler', 'ortaokul'),
+  ('SB.7.1.1', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 7, 1, 'Ünite 1', 'Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemini sorgulayabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.7.1.2', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 7, 1, 'Ünite 1', 'Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik fikir üretebilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.7.1.3', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 7, 1, 'Ünite 1', 'Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin çıkarım yapabilme', 'Sosyal Bilgiler', 'ortaokul'),
   ('SB.7.2.1', (SELECT id FROM branslar WHERE slug = 'sosyal_bilgiler' LIMIT 1), 7, 2, 'Ünite 2', 'Küreselleşmenin insan ve toplum hayatında meydana getirdiği değişimi yorumlayabilme', 'Sosyal Bilgiler', 'ortaokul'),
