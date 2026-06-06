@@ -38,11 +38,20 @@ PROGRESS_FILE = OUT_DIR / "_progress.txt"
 MIN_SEGMENTS_DEFAULT = 4  # örn. MAT.5.1.1 — ünite düzeyi MAT.5.1 elenir
 
 UNITE_HEADER_RE = re.compile(
-    r"(?:^|\s)(?:ÜNİTE|Ünite|Unite)\s*(\d+)\s*[-–:.]?\s*(.*)$",
+    r"(?:^|\s)(?:ÜNİTE|Ünite|Unite)\s+(\d+)\s*[-–:.]?\s*(.*)$",
     re.IGNORECASE,
 )
 UNITE_NUM_HEADER_RE = re.compile(
-    r"^(\d+)\.\s*(?:ÜNİTE|Ünite)\s*[-–:]?\s*(.*)$",
+    r"^(\d+)\.\s*(?:ÜNİTE|Ünite)\s*[-–:.]?\s*(.*)$",
+    re.IGNORECASE,
+)
+UNITE_COLON_HEADER_RE = re.compile(
+    r"^(\d+)\.\s*(?:ÜNİTE|Ünite)\s*[:\s]\s*(.+)$",
+    re.IGNORECASE,
+)
+# Sadece saf ünite başlıkları: "X. ÜNİTE: ADI" — tablo satırlarını eleyelim
+UNITE_STRICT_RE = re.compile(
+    r"^(\d+)\.\s*ÜNİTE\s*[:]\s*(.+)$",
     re.IGNORECASE,
 )
 
@@ -152,9 +161,50 @@ def extract_ad(line: str, m: re.Match, next_start: int | None, lines: list[str],
     after = clean_ad(line[m.end() : end])
     if len(after) < 15 and line_idx + 1 < len(lines):
         nxt = lines[line_idx + 1].strip()
-        if nxt and not re.match(r"^[A-ZÇĞİÖŞÜ]", nxt[:3]):
-            after = clean_ad((after + " " + nxt).strip())
+        if nxt:
+            # bos after veya kisa after ise buyuk harf kontrolu yapma
+            if not after or len(after) < 5:
+                after = clean_ad((after + " " + nxt).strip())
+            elif not re.match(r"^[A-ZÇĞİÖŞÜ]", nxt[:3]):
+                after = clean_ad((after + " " + nxt).strip())
     return after
+
+
+def extract_unite_ad(line: str, m: re.Match, lines: list[str], line_idx: int) -> str:
+    after = clean_ad(line[m.end() :])
+    if len(after) < 10 and line_idx + 1 < len(lines):
+        nxt = lines[line_idx + 1].strip()
+        if nxt and not re.match(r"^\d+\.\s*(ÜNİTE|SINIF|Sınıf)", nxt, re.IGNORECASE):
+            after = clean_ad((after + " " + nxt).strip())
+    return after[:200]
+
+
+def extract_unite_mapping(pdf_path: Path) -> dict[int, dict[int, str]]:
+    """PDF'ten ünite başlıklarını çıkar: {sinif: {ünite_no: ünite_adi}}."""
+    mapping: dict[int, dict[int, str]] = {}
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            current_sinif = 0
+            for page in pdf.pages:
+                text = page.extract_text() or ""
+                for line in text.split("\n"):
+                    l = line.strip()
+                    sm = re.match(r"^(\d+)\.\s*SINIF", l, re.IGNORECASE)
+                    if sm:
+                        current_sinif = int(sm.group(1))
+                        if current_sinif not in mapping:
+                            mapping[current_sinif] = {}
+                        continue
+                    if current_sinif:
+                        m = UNITE_STRICT_RE.match(l)
+                        if m:
+                            num = int(m.group(1))
+                            ad = clean_ad(m.group(2))
+                            if num not in mapping.get(current_sinif, {}) and len(ad) > 3:
+                                mapping[current_sinif][num] = ad[:200]
+    except Exception:
+        pass
+    return mapping
 
 
 def is_valid_kod(kod: str, min_segments: int) -> bool:
@@ -194,6 +244,8 @@ def process_pdf(pdf_name: str, info: dict, min_segments: int) -> list[dict]:
     prefixes = info.get("kod_prefixleri", [])
     patterns = [(p, re.compile(make_pattern(p))) for p in prefixes]
 
+    unite_map = extract_unite_mapping(pdf_path)
+
     current_unite_no: int | None = None
     current_unite_ad = ""
     found: list[dict] = []
@@ -203,11 +255,15 @@ def process_pdf(pdf_name: str, info: dict, min_segments: int) -> list[dict]:
         for pnum, page in enumerate(pdf.pages, 1):
             text = page.extract_text() or ""
             lines = text.split("\n")
-            for line in lines:
-                um = UNITE_HEADER_RE.search(line) or UNITE_NUM_HEADER_RE.search(line.strip())
+            for line_idx, line in enumerate(lines):
+                um = (
+                    UNITE_COLON_HEADER_RE.search(line)
+                    or UNITE_HEADER_RE.search(line)
+                    or UNITE_NUM_HEADER_RE.search(line.strip())
+                )
                 if um:
                     current_unite_no = int(um.group(1))
-                    current_unite_ad = (um.group(2) or "").strip()[:200]
+                    current_unite_ad = extract_unite_ad(line, um, lines, line_idx)
 
             for line_idx, line in enumerate(lines):
                 for prefix, pat in patterns:
@@ -223,6 +279,15 @@ def process_pdf(pdf_name: str, info: dict, min_segments: int) -> list[dict]:
                         ad = extract_ad(line, m, next_start, lines, line_idx)
                         if len(ad) < 8:
                             continue
+                        if ad.strip() and ad.strip()[0] in '(),-–':
+                            continue
+                        # tablo satiri filtresi: "4 20 11" gibi sayisal degerler iceriyorsa
+                        if re.search(r'\b\d{1,2}\s+\d{1,3}\s+\d{1,3}\b', ad):
+                            continue
+                        # tablo baslik filtresi: kod sonu harf iceriyorsa (ornegin MAT.5.2.İŞLEMLERLE)
+                        segments = kod.split('.')
+                        if len(segments) >= 4 and not segments[-1].isdigit():
+                            continue
 
                         sinif = derive_sinif(kod, info)
                         if sinif is None:
@@ -236,6 +301,10 @@ def process_pdf(pdf_name: str, info: dict, min_segments: int) -> list[dict]:
                             unite_no = current_unite_no
                         if unite_from_kod and not unite_ad:
                             unite_ad = ""
+
+                        mapped = unite_map.get(sinif, {}).get(unite_no)
+                        if mapped:
+                            unite_ad = mapped
 
                         okul_tipi = derive_okul_tipi(info, sinif, info["ders"])
 
@@ -366,6 +435,50 @@ def merge_all() -> dict:
     MERGED_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     write_progress(f"Birleşik JSON: {MERGED_FILE} — {len(merged_list)} benzersiz kazanım")
     return payload
+
+
+def save_flat_json(pdf_map: dict, out_dir: Path) -> Path:
+    """Düz formatta tek JSON: her satır bir kazanım."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    flat: list[dict] = []
+
+    for slug_path in sorted(OUT_DIR.glob("*.json")):
+        if slug_path.name.startswith("_"):
+            continue
+        rows = json.loads(slug_path.read_text(encoding="utf-8"))
+        for r in rows:
+            pdf_name = r.get("kaynak_pdf", "")
+            info = pdf_map.get(pdf_name, {})
+            brans_slug = info.get("brans_slug") or r.get("brans_slug", "")
+            sinif = r.get("sinif")
+            ders = r.get("ders", "")
+            okul_turu = r.get("okul_tipi") or derive_okul_tipi(info, sinif, ders)
+
+            unite_no = r.get("unite_no") or 0
+            unite_ad = r.get("unite_ad", "")
+            if unite_no and unite_ad and not re.match(r"^Ünite \d+$", unite_ad):
+                unite_label = f"Ünite {unite_no} - {unite_ad}"
+            elif unite_no:
+                unite_label = f"Ünite {unite_no}"
+            else:
+                unite_label = unite_ad or ""
+
+            flat.append({
+                "brans_id": brans_slug,
+                "okul_turu": okul_turu,
+                "sinif": sinif,
+                "unite_no": unite_no,
+                "unite_adi": unite_label,
+                "kazanim_kodu": r.get("kod", ""),
+                "kazanim_metni": r.get("ad", ""),
+            })
+
+    flat.sort(key=lambda x: (x["brans_id"], x["sinif"] or 0, x["unite_no"], x["kazanim_kodu"]))
+
+    merged_path = out_dir / "kazanimlar_v2.json"
+    merged_path.write_text(json.dumps(flat, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_progress(f"Düz JSON: {merged_path} — {len(flat)} kazanım")
+    return merged_path
 
 
 def quality_report(payload: dict) -> str:
@@ -527,6 +640,8 @@ def main() -> None:
     parser.add_argument("--force", action="store_true", help="Tüm PDF'leri yeniden işle")
     parser.add_argument("--audit-only", action="store_true", help="Sadece birleşik dosyada audit")
     parser.add_argument("--no-migrate", action="store_true", help="SQL üretme")
+    parser.add_argument("--flat", action="store_true", help="Düz formatta tek JSON üret (kazanimlar_v2)")
+    parser.add_argument("--output-dir", type=str, default=None, help="Çıktı klasörü (varsayılan: refs/kazanimlar_v2)")
     args = parser.parse_args()
 
     if args.audit_only:
@@ -547,7 +662,13 @@ def main() -> None:
     payload = merge_all()
     print(quality_report(payload))
     print(audit_diff(payload))
-    if not args.no_migrate:
+
+    if args.flat:
+        with open(MAP_FILE, encoding="utf-8") as f:
+            pdf_map = json.load(f)
+        flat_dir = Path(args.output_dir) if args.output_dir else ROOT / "refs" / "kazanimlar_v2"
+        save_flat_json(pdf_map, flat_dir)
+    elif not args.no_migrate:
         generate_migration(payload)
 
 
