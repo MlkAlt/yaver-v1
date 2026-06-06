@@ -24430,6 +24430,20 @@
     "confidence": "high"
   },
   {
+    "kazanim_kodu": "BEO.3.6.3",
+    "kazanim_metni": "Mustafa Kemal Atatürk’ün ilgilendiği sporları açıklayabilme",
+    "sinif": 3,
+    "okul_turu": "ilkokul",
+    "brans_slug": "sinif_ogretmenligi",
+    "ders": "Beden Eğitimi ve Oyun",
+    "unite_no": 6,
+    "unite_adi": "Kültürel",
+    "kaynak_pdf": "202582511143139-Beden_Egitimi_ve_Oyun_Dersi_Ogretim_Programi-23.07.2025.pdf",
+    "kaynak_sayfa": 71,
+    "extraction_yontemi": "regex_tipA",
+    "confidence": "high"
+  },
+  {
     "kazanim_kodu": "BEO.4.1.1",
     "kazanim_metni": "Koordinasyon ve denge içeren hareket becerilerini sergileyebilme",
     "sinif": 4,
