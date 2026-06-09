@@ -1,8 +1,74 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 06.06.2026 — Oturum 54
+**Son güncelleme:** 09.06.2026 — Oturum 57
 
 ## Şu An Ne Yapıyoruz
+
+**Manuel Kazanım Audit — Devam Ediyor**
+
+### Audit özeti (Oturum 56)
+Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_kazanim_audit_v2.md` dosyasında.
+
+**Migration durumu (henüz push edilmedi):**
+- Migration 047: -11 (garbage temizlik) → 5457
+- Migration 048: +27 (Kur'an'ın Ana Konuları, sınıf 11-12) → 5484
+- Migration 049: +10 (TT.7.5.1/3/4, TT.8.1.3, TT.8.3.2/3, TG.4.3.1/2, TG.4.4.1/2) → 5494
+- Migration 050: +10 (MÜZ.5/6/7.1.6, BES.7.4.1, İTA.8.2.5, BTY.6.4.2/4, MAT.1.3.3/4/5) → 5504
+- Migration 051: +17 (SBTK.4.1/2, HDS.10.4.3, KK.7.3.3/4.1, PH.8.2.2, DMUS I/II/III) → 5521
+
+**_all_kazanimlar.json:** 5732 giriş (Migration 050+051 eklendi ✅)
+
+**Önemli düzeltme:** TT sınıf 7 = PDF'de 27 (kullanıcı 31 saymıştı, PDF doğru kabul edildi)
+
+---
+
+### BEKLEYEN KARAR — Kullanıcıdan yanıt bekleniyor
+**Arapça ilkokul (sınıf 2,3,4):** Gerçek PDF var (`arapca24.pdf`, 72 kayıt). Tutulsun mu silinsin mi?
+
+---
+
+### YAPILACAKLAR LİSTESİ (öncelik sırasıyla)
+
+#### A) Araştırılacak / doğrulanacak (Claude yapacak)
+1. Kur'an'ın Ana Konuları PDF'inden sınıf doğrulama — katalog 11,12 diyor, kullanıcı 10,11 dedi → extraction yapılacak
+2. İngilizce ortaokul neden fazla (6:+24, 7:+23, 8:+24) → duplicate kaynak aranacak
+3. Kur'an-ı Kerim ihl vs lise seçmeli ayrımı → kk912.pdf extraction kalitesi kontrol edilecek
+4. Sağlık Bilgisi seçmeli/zorunlu → web araştırması
+
+#### B) Hızlı düzeltmeler — TAMAMLANDI ✅
+- Coğrafya 11: 19→9 (10 fazla silinecek) — Migration 047 ✅
+- Temel Dini Bilgiler lise 9: 16→12, 10: 16→13 — Migration 047 ✅
+- Temel Düzey Matematik 11, Tezhip 9, Din Kültürü 4 — Migration 047 ✅
+- ~~Teknoloji Tasarım 7: +3 (TT.7.5.1/3/4), 8: +3 (TT.8.1.3, TT.8.3.2/3) — Migration 049 ✅~~
+- ~~Trafik Güvenliği 4: +4 (TG.4.3.1/2, TG.4.4.1/2) — Migration 049 ✅~~
+- ~~Müzik 5/6/7: +1, BES.7.4.1, İTA.8.2.5, BTY.6.4.2/4, MAT.1.3.3/4/5 — Migration 050 ✅~~
+- ~~SBTK.4.1/2, HDS.10.4.3, KK.7.3.3/4.1, PH.8.2.2, DMUS I/II/III — Migration 051 ✅~~
+- BES 8: +2 → kullanıcı sayım hatası (PDF=10, DB=10) — atlandı
+- TDB iho 7,8 — kullanıcı sayım hatası — atlandı
+- İslam Felsefesi ihl 11 — kullanıcı sayım hatası — atlandı
+- DKAB lise 12: +1 → kullanıcı sayım hatası (PDF=19=DB) — atlandı
+
+#### C) Büyük re-extraction (yeni script + migration)
+- Türkçe ilkokul: ~+355 kazanım (tema alt-kazanımları)
+- Türkçe ortaokul: ~+210 kazanım (tema alt-kazanımları)
+- Arapça iho 5-8: ~+301 kazanım
+- Arapça ihl 9-10: ~+150 kazanım
+- İngilizce lise 9-12: +36 kazanım
+
+#### D) Yeni eklenmesi gerekenler (text + extraction gerekli)
+- Hazırlık sınıfı (sinif=0): Matematik:11, Görsel Sanatlar:24, Müzik:7, BES:6, KK-ihl:11
+- Kur'an'ın Ana Konuları: sınıf doğrulandıktan sonra extraction
+- İngilizce lise fazlaları temizlenip eksikler eklenecek
+
+---
+
+### Araştırma bulguları (Oturum 55)
+- Sağlık Bilgisi: lise, sınıf 9, beden_egitimi branşı (katalogda seçmeli notu yok)
+- İslam Bilim Tarihi 11: 28 — doğru (kullanıcı atladı ama PDF gerçek)
+- Dini Musiki / Hüsnühat / Ebru / Tezhip: ihl sınıf [9,10,11] — sınıflar doğru
+- Kur'an-ı Kerim: iki ayrı PDF → `kuranıkerimdöp.pdf` (lise seçmeli) + `kk912.pdf` (ihl) — ayrı tutulacak
+
+**Why:** Müfredat extraction pipeline tamamlandı ama script bazı alt-kazanımları (tema sonu, tablo format) atladı. Manuel audit en güvenilir yol.
 
 **Müfredat extraction pipeline TAMAMLANDI ✅**
 
