@@ -1,6 +1,6 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 09.06.2026 — Oturum 57
+**Son güncelleme:** 10.06.2026 — Oturum 58
 
 ## Şu An Ne Yapıyoruz
 
@@ -9,14 +9,17 @@
 ### Audit özeti (Oturum 56)
 Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_kazanim_audit_v2.md` dosyasında.
 
-**Migration durumu (henüz push edilmedi):**
-- Migration 047: -11 (garbage temizlik) → 5457
-- Migration 048: +27 (Kur'an'ın Ana Konuları, sınıf 11-12) → 5484
-- Migration 049: +10 (TT.7.5.1/3/4, TT.8.1.3, TT.8.3.2/3, TG.4.3.1/2, TG.4.4.1/2) → 5494
-- Migration 050: +10 (MÜZ.5/6/7.1.6, BES.7.4.1, İTA.8.2.5, BTY.6.4.2/4, MAT.1.3.3/4/5) → 5504
-- Migration 051: +17 (SBTK.4.1/2, HDS.10.4.3, KK.7.3.3/4.1, PH.8.2.2, DMUS I/II/III) → 5521
+**Migration durumu (tümü push edildi):**
+- Migration 047: -11 (garbage temizlik) ✅
+- Migration 048: +27 (Kur'an'ın Ana Konuları, sınıf 11-12) ✅
+- Migration 049: +10 (TT/TG eksik kazanımlar) ✅
+- Migration 050: +10 (MÜZ/BES/İTA/BTY/MAT eksikler) ✅
+- Migration 051: +17 (SBTK/HDS/KK.iho/PH.iho/DMUS) ✅
+- Migration 052: +2 yeni (SOS.11.3.1, DKAB.12.3.5) + 83 metin düzeltmesi (AST/İHVD/İÇYÇ/İBT) ✅
 
-**_all_kazanimlar.json:** 5732 giriş (Migration 050+051 eklendi ✅)
+**DB toplam:** 5524 kazanım (exact count)
+
+**_all_kazanimlar.json:** 5732 giriş (Migration 050+051 eklendi ✅, 052 JSON'a yansıtılmadı)
 
 **Önemli düzeltme:** TT sınıf 7 = PDF'de 27 (kullanıcı 31 saymıştı, PDF doğru kabul edildi)
 
