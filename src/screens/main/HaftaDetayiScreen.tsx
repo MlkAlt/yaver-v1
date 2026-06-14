@@ -153,7 +153,7 @@ export function HaftaDetayiScreen({ route, navigation }: Props) {
                         </View>
                       </View>
                       <Text style={styles.kazanimAd}>{k.ad}</Text>
-                      <Text style={styles.kazanimUnite}>{k.unite_ad}</Text>
+                      <Text style={styles.kazanimUnite}>{k.unite}</Text>
 
                       <TouchableOpacity
                         style={[styles.hazirlaBtn, isOpen && styles.hazirlaBtnOpen]}

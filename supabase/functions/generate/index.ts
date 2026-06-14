@@ -206,7 +206,6 @@ Deno.serve(async (req) => {
     // 3. Cache'e yaz
     await supabase.from('uretim_cache').insert({
       cache_key: cacheKey,
-      kazanim_kodu: kazanimKod,
       tip,
       parametreler_hash: paramsHash,
       icerik,

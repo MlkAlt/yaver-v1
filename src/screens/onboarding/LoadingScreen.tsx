@@ -25,7 +25,7 @@ const BENEFIT_TEXTS = [
 ];
 
 export function LoadingScreen({ route, navigation }: Props) {
-  const { brans, bransId, okulTipi, seciliDersler, dersFiltesi, siniflar, setSiniflar, setPlan } = useOnboarding();
+  const { brans, bransSlug, okulTipi, seciliDersler, dersFiltesi, siniflar, setSiniflar, setPlan } = useOnboarding();
   const [stepIdx, setStepIdx] = useState(0);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const navDone = useRef(false);
@@ -126,9 +126,9 @@ export function LoadingScreen({ route, navigation }: Props) {
 
     async function uret() {
       try {
-        const planBrans    = route.params?.brans   ?? brans;
-        const planBransId  = route.params?.bransId ?? bransId;
-        const planSiniflar = route.params?.siniflar?.length
+        const planBrans     = route.params?.brans   ?? brans;
+        const planBransSlug = bransSlug;
+        const planSiniflar  = route.params?.siniflar?.length
           ? route.params.siniflar
           : siniflar;
 
@@ -138,10 +138,10 @@ export function LoadingScreen({ route, navigation }: Props) {
         advanceText(1);
         if (cancelled) return;
 
-        if (!planBransId) throw new Error('Branş seçilmedi — bransId boş');
+        if (!planBransSlug) throw new Error('Branş seçilmedi — bransSlug boş');
         const plan = await planUret(
           planBrans || 'Matematik',
-          planBransId,
+          planBransSlug,
           planSiniflar.length ? planSiniflar : [9],
           okulTipi || undefined,
           seciliDersler?.length ? seciliDersler : undefined,

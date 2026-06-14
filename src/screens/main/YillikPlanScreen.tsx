@@ -119,7 +119,7 @@ function KazanimCard({ k, onPress }: { k: Kazanim; onPress: () => void }) {
           )}
         </View>
         <Text style={styles.kazanimAd} numberOfLines={3}>{k.ad}</Text>
-        <Text style={styles.kazanimKod}>{k.kod}  ·  Ünite {k.unite_no}</Text>
+        <Text style={styles.kazanimKod}>{k.kod}</Text>
       </View>
     </TouchableOpacity>
   );

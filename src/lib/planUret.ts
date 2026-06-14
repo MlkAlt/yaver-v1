@@ -1,10 +1,10 @@
 import { supabase } from './supabase';
 
 export interface Kazanim {
+  id: number;
   kod: string;
   ad: string;
-  unite_no: number;
-  unite_ad: string;
+  unite: string;
   sinif: number;
   ders: string | null;
 }
@@ -20,7 +20,7 @@ export interface PlanHaftasi {
 
 export interface YillikPlan {
   brans: string;
-  brans_id: string;
+  brans_slug: string;
   siniflar: number[];
   yil: string;
   toplam_kazanim: number;
@@ -35,7 +35,7 @@ interface UnitSlot {
 
 export async function planUret(
   bransAd: string,
-  bransId: string,
+  bransSlug: string,
   siniflar: number[],
   okulTipi?: string,
   seciliDersler?: string[],
@@ -43,16 +43,17 @@ export async function planUret(
 ): Promise<YillikPlan> {
   let q = supabase
     .from('kazanimlar')
-    .select('kod, ad, unite_no, unite_ad, sinif, ders')
+    .select('id, kod, ad, unite, sinif, ders')
     .in('sinif', siniflar)
+    .eq('sinif_tipi', 'normal')
     .order('sinif')
-    .order('unite_no')
+    .order('unite')
     .order('kod');
 
   if (seciliDersler && seciliDersler.length > 0) {
     q = q.in('ders', seciliDersler);
   } else {
-    q = q.eq('brans_id', bransId);
+    q = q.or(`brans.eq.${bransSlug},branslar.cs.{${bransSlug}}`);
     if (dersFiltesi && dersFiltesi.length > 0) {
       q = q.in('ders', dersFiltesi);
     }
@@ -104,11 +105,11 @@ export async function planUret(
 
     // Ünite bloklarına ayır (items zaten unite_no sıralı — sorgu ORDER BY garantisi)
     const units: Kazanim[][] = [];
-    let lastUniteNo = -1;
+    let lastUnite = '';
     for (const k of items) {
-      if (k.unite_no !== lastUniteNo) {
+      if (k.unite !== lastUnite) {
         units.push([]);
-        lastUniteNo = k.unite_no;
+        lastUnite = k.unite;
       }
       units[units.length - 1].push(k);
     }
@@ -174,7 +175,7 @@ export async function planUret(
 
   return {
     brans: bransAd,
-    brans_id: bransId,
+    brans_slug: bransSlug,
     siniflar,
     yil: '2025-2026',
     toplam_kazanim: tumKazanimlar.length,

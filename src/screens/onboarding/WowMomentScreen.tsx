@@ -113,7 +113,7 @@ export function WowMomentScreen({ navigation }: Props) {
                     </View>
                     <View style={{ flex: 1 }}>
                       <Text style={styles.previewKonu} numberOfLines={2}>
-                        {kazanim.ad ?? kazanim.unite_ad ?? `${sinif}. Sınıf`}
+                        {kazanim.ad ?? kazanim.unite ?? `${sinif}. Sınıf`}
                       </Text>
                     </View>
                   </View>

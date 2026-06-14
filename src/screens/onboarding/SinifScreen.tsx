@@ -48,11 +48,11 @@ export function SinifScreen({ navigation }: Props) {
       }
     }
     // Fallback: DB'den çek (Sınıf Öğretmenliği ve local data'da olmayan branşlar)
-    if (!bransId) return;
+    if (!bransSlug) return;
     supabase
       .from('kazanimlar')
       .select('sinif')
-      .eq('brans_id', bransId)
+      .or(`brans.eq.${bransSlug},branslar.cs.{${bransSlug}}`)
       .then(({ data, error }) => {
         if (!error && data) {
           const unique = [...new Set((data as { sinif: number }[]).map(r => r.sinif))].sort(
@@ -62,7 +62,7 @@ export function SinifScreen({ navigation }: Props) {
         }
         setLoading(false);
       });
-  }, [bransId, bransSlug]);
+  }, [bransSlug]);
 
   const handleOkulTipiSelect = (okulTipi: string) => {
     setSelectedOkulTipi(okulTipi);

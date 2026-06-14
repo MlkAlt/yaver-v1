@@ -126,7 +126,7 @@ export function BransScreen({ navigation }: Props) {
   useEffect(() => {
     supabase
       .from('branslar')
-      .select('id, ad, renk, kademe, slug')
+      .select('id, ad, renk, slug')
       .order('sira')
       .then(({ data, error }) => {
         if (!error && data) setBranslar(data as Brans[]);
