@@ -1,10 +1,10 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 14.06.2026 — Oturum 65
+**Son güncelleme:** 14.06.2026 — Oturum 65 (kapandı)
 
 ## Şu An Ne Yapıyoruz
 
-**v2 Schema Reset TAMAMLANDI — Uygulama geliştirmeye devam**
+**v2 DB geçişi bitti — Uygulamayı test et, geliştirmeye devam**
 
 ### Audit özeti (Oturum 56)
 Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_kazanim_audit_v2.md` dosyasında.
@@ -69,7 +69,16 @@ Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_k
 
 ---
 
-### YAPILACAKLAR LİSTESİ (öncelik sırasıyla)
+### SONRAKI ADIMLAR (öncelik sırasıyla)
+
+1. **Test**: `npx expo start --go --clear` → onboarding akışını baştan çalıştır (brans seç → sınıf → plan üret)
+2. **Supabase dashboard**: kazanimlar tablosunda 9077 satır + yeni kolonları doğrula
+3. **Edge Function**: `generate` deploy güncelle (kazanim_kodu kaldırıldı)
+4. Uygulama geliştirmeye devam
+
+---
+
+### ESKİ YAPILACAKLAR LİSTESİ (artık geçersiz)
 
 #### A) Tamamlandı ✅ (Oturum 56-60)
 - İTA-8 ders adı düzeltme → Migration 056 ✅
