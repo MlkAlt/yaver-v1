@@ -1,10 +1,10 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 13.06.2026 — Oturum 64
+**Son güncelleme:** 14.06.2026 — Oturum 65
 
 ## Şu An Ne Yapıyoruz
 
-**Manuel Kazanım Audit — Devam Ediyor**
+**v2 Schema Reset TAMAMLANDI — Uygulama geliştirmeye devam**
 
 ### Audit özeti (Oturum 56)
 Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_kazanim_audit_v2.md` dosyasında.
@@ -44,6 +44,28 @@ Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_k
 **_all_kazanimlar.json:** 5732 giriş (Migration 050+051 eklendi ✅, 052-059 JSON'a yansıtılmadı)
 
 **Önemli düzeltme:** TT sınıf 7 = PDF'de 27 (kullanıcı 31 saymıştı, PDF doğru kabul edildi)
+
+---
+
+## DB Durumu (14.06.2026) — v2 Schema
+
+**Migration sırası:** 001 (schema) → 002 (branslar) → 067 (v2 reset) → 068 (seed)
+
+| Parametre | Değer |
+|---|---|
+| Toplam kazanım | 9077 |
+| Dosya sayısı | 81 |
+| Unique branş (slug) | 23 |
+| Boş aciklama | 88 (known) |
+| Duplicate | 0 |
+
+**Kazanımlar tablosu yeni alanlar:** `id BIGSERIAL`, `sinif_tipi`, `okul_tipi`, `brans` (slug), `ders`, `program`, `yas_bandi`, `branslar[]`, `secmeli`, `iki_saat_kapsaminda`, `sinif_ogretmeni_gorunur`
+
+**uretimler/uretim_cache:** `kazanim_kodu` → `kazanim_id BIGINT FK`
+
+**plan_haftalari:** `kazanim_kodlari TEXT[]` → `kazanim_ids BIGINT[]`
+
+**Supabase reset için:** `supabase db reset` (local) veya migration 067+068 apply (prod)
 
 ---
 

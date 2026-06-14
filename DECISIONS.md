@@ -4,6 +4,13 @@
 
 ## Veri
 
+### 2026-06-14 — v2 JSON dosyaları DB'nin tek kaynağı kabul edildi
+Claude Opus vision ile PDF'den üretilen 81 `*_v2.json` dosyası (9077 kazanım) mevcut migration pipeline'ın yerini aldı.
+- Kazanım `ad` metinleri birebir doğrulandı (Türkçe ilkokul: 77/77 eşleşme)
+- Yeni schema: brans slug, okul_tipi, sinif_tipi, branslar[], 6'lı unique key
+- Migration 043-066 silindi; yerini 067 (schema) + 068 (seed) aldı
+- `uretimler.kazanim_id BIGINT`, `plan_haftalari.kazanim_ids BIGINT[]` yeni FK yapısı
+
 ### 2026-06-13 — Coğrafya 2-saat/4-saat: DB değil, config ile çözülecek
 11. ve 12. sınıf Coğrafya için 2 saatlik müfredat, 4 saatliğin tam alt kümesidir (PDF sayfa 12'de kodlar açıkça listelenmiş).
 - DB'de tüm kazanımlar 4-saat versiyonu olarak tutulur (11:19, 12:20)
