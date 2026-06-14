@@ -1,0 +1,122 @@
+[
+  {
+    "kod": "AKD.11.1.1",
+    "ad": "Akaid ilmini anlayabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: AKAİD İLMİ VE İMAN KAVRAMI",
+    "aciklama": "a) Akaid ilminin konusu ve amaçlarını fark eder. b) Akaid ilmini tanımlar. c) Akaid ilminin ortaya çıkış sebeplerini açıklar. ç) Akaid ilminin özelliklerini belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.1.2",
+    "ad": "İman ve imanın mahiyetiyle ilgili konuları müşahede edebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: AKAİD İLMİ VE İMAN KAVRAMI",
+    "aciklama": "a) İman ve imanın mahiyeti hakkında merak ettiği konuları belirler. b) İman ve imanın mahiyetiyle ilgili belirlenen konular hakkında soru sorar. c) İman ve imanın mahiyeti hakkında merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.2.1",
+    "ad": "Allah’ın (cc) varlığı ve birliğine ilişkin akli ve naklî delilleri kullanabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: ALLAH'A VE KADERE İMAN",
+    "aciklama": "a) Allah’ın (cc) varlığı ve birliğine ilişkin akli ve naklî delilleri toplar. b) Allah’ın (cc) varlığı ve birliğine ilişkin topladığı deliller arasında ilişki kurar. c) Allah’ın (cc) varlığı ve birliğiyle ilgili bir konuyu seçtiği akli veya naklî delile dayandırarak değerlendirir. ç) İlişki kurduğu akli veya naklî delile ilgili konuda amaca uygun şekilde yer verir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.2.2",
+    "ad": "Kader inancını idrak edebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: ALLAH'A VE KADERE İMAN",
+    "aciklama": "a) Kader inancıyla ilgili tefekkür sürecini gözden geçirir. b) Kader inancıyla ilgili tefekkür sürecine dayalı çıkarım yapar. c) Kader inancıyla ilgili ulaştığı çıkarımları değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.2.3",
+    "ad": "Kaderle ilişkilendirilen kavramları çözümleyebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: ALLAH'A VE KADERE İMAN",
+    "aciklama": "a) Kaderle ilişkilendirilen kavramları tespit eder. b) Kaderle ilişkilendirilen kavramlar arasındaki ilişkiyi belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.3.1",
+    "ad": "Peygamberlere imanla ilgili akli ve naklî delilleri kullanabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: PEYGAMBERLERE VE KİTAPLARA İMAN",
+    "aciklama": "a) Peygamberlere imanla ilgili akli ve naklî delilleri toplar. b) Peygamberlere imanla ilgili topladığı akli ve naklî deliller arasında ilişki kurar. c) Peygamberlere imanla ilgili akli ve naklî delillere dayalı değerlendirme yapar. ç) İlişki kurduğu akli ve naklî delillere peygamberlere imanla ilgili bir konuda amaca uygun olarak yer verir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.3.2",
+    "ad": "Peygamberlere gönderilen kitaplarla ilgili temel kaynakları kullanabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: PEYGAMBERLERE VE KİTAPLARA İMAN",
+    "aciklama": "a) Peygamberlere gönderilen kitaplarla ilgili aradığı ayet meallerini ve hadisleri bulur. b) Ayet ve hadislerde geçen kitapları belirler. c) Ayet ve hadisleri içeriklerine göre sınıflandırır. ç) Ayet ve hadis mealleri doğrultusunda peygamberlere gönderilen kitaplarla ilgili çıkarım yapar. d) Ayet ve hadislerle alakalı yaptığı çıkarımlara ilgili konularda yer verir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.4.1",
+    "ad": "Meleklere iman hakkında bilgi toplayabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: MELEKLERE VE AHİRETE İMAN",
+    "aciklama": "a) Meleklere iman hakkında bilgi sahibi olacağı kaynakları belirler. b) Belirlediği kaynaklardan yola çıkarak meleklere imanla ilgili bilgileri bulur. c) Meleklere iman hakkında ulaştığı bilgileri doğrular. ç) Meleklere iman hakkında ulaştığı bilgileri kaydeder.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.4.2",
+    "ad": "Dünya hayatı ve ahiret ilişkisini yorumlayabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: MELEKLERE VE AHİRETE İMAN",
+    "aciklama": "a) Dünya hayatı ve ahiret ilişkisini inceler. b) Dünya hayatı ve ahiret ilişkisini kendi hayatı için anlamlı hâle getirir. c) Dünya hayatı ve ahiret ilişkisini nesnel ve doğru bir şekilde yeniden ifade eder.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "AKD.11.4.3",
+    "ad": "Ahiret hayatının safhalarını özetleyebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: MELEKLERE VE AHİRETE İMAN",
+    "aciklama": "a) Ahiret hayatının safhalarıyla ilgili çözümleme yapar. b) Ahiret hayatının safhalarıyla ilgili sınıflandırma yapar. c) Ahiret hayatının safhalarını yorumlar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Akaid",
+    "okul_tipi": "ihl"
+  }
+]

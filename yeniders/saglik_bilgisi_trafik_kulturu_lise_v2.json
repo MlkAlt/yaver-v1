@@ -1,0 +1,317 @@
+[
+  {
+    "kod": "SBTK.1.1",
+    "ad": "Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkilerini sorgulayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: SAĞLIKLI İNSAN VE TOPLUM",
+    "aciklama": "a) Sağlığa ve sağlığı etkileyen faktörlere ilişkin merak ettiği konuyu tanımlar. b) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileriyle ilgili sorular sorar. c) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileri hakkında bilgi toplar. ç) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileri hakkında toplanan bilgilerin doğruluğunu değerlendirir. d) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileri hakkında toplanan bilgiler üzerinden çıkarım yapar.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.1.2",
+    "ad": "Halk sağlığı ve sağlık hizmetleri ile ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: SAĞLIKLI İNSAN VE TOPLUM",
+    "aciklama": "a) Halk sağlığı ve sağlık hizmetleri ile ilgili istenen bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak halk sağlığı ve sağlık hizmetleri ile ilgili bilgileri bulur. c) Halk sağlığı ve sağlık hizmetleri ile ilgili ulaşılan bilgileri doğrular. ç) Halk sağlığı ve sağlık hizmetleri ile ilgili ulaşılan bilgileri kaydeder.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.1.3",
+    "ad": "Kişisel hijyen ve temizliğin sağlığa etkileri ile ilgili eleştirel düşünebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: SAĞLIKLI İNSAN VE TOPLUM",
+    "aciklama": "a) Kişisel hijyen ve temizliğin sağlığa etkilerini sorgular. b) Kişisel hijyen ve temizliğin sağlığa etkileri hakkında akıl yürütür. c) Kişisel hijyen ve temizliğin sağlığa etkileri ile ilgili akıl yürütmeyle ulaştığı çıkarımları yansıtır.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.1.4",
+    "ad": "Hastalıklar ve engellilik ile ilgili güvenli ortam oluşturabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: SAĞLIKLI İNSAN VE TOPLUM",
+    "aciklama": "a) Hastalıklar ve engellilik ile ilgili riskleri tanımlar. b) Hastalık ve engellilik ile ilgili riskleri önleyici tedbirler alır.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.1.5",
+    "ad": "İlaçlar ve ilaçların etkileri ile ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: SAĞLIKLI İNSAN VE TOPLUM",
+    "aciklama": "a) İlaçlar ve ilaçların etkileri ile ilgili istenen bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak ilaçlar ve ilaçların etkileri ile ilgili bilgileri bulur. c) İlaçlar ilaçların etkileri ile ilgili ulaşılan bilgileri doğrular. ç) İlaçlar ve ilaçların etkileri ile ilgili ulaşılan bilgileri kaydeder.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.1.6",
+    "ad": "Psikolojinin biyopsikososyal yaklaşımı doğrultusunda, bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesinde yorumlayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: SAĞLIKLI İNSAN VE TOPLUM",
+    "aciklama": "a) Psikoloji ile sağlık arasındaki ilişkiyi, bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerine değerler ve maneviyat çerçevesinde odaklanarak inceler. b) Bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesiyle ilişkilendirerek biyopsikososyal yaklaşım doğrultusunda bağlamdan kopmadan dönüştürür. c) Bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesinde nesnel, doğru ve anlamı değişmeyecek biçimde yeniden ifade eder.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.2.1",
+    "ad": "Fiziksel aktivitenin sağlık üzerindeki etkilerine yönelik eleştirel düşünebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: SAĞLIKLI YAŞAM ALIŞKANLIKLARI",
+    "aciklama": "a) Fiziksel aktivitenin sağlık üzerindeki etkilerini sorgular. b) Fiziksel aktivitenin sağlık üzerindeki etkileri hakkında akıl yürütür. c) Fiziksel aktivitenin sağlık üzerindeki etkilerine dair akıl yürütmeyle ulaştığı çıkarımları yansıtır.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.2.2",
+    "ad": "Uykunun sağlık üzerindeki etkilerini sorgulayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: SAĞLIKLI YAŞAM ALIŞKANLIKLARI",
+    "aciklama": "a) Uyku döngüsünü, uyku kalitesini ve uyku kalitesine etki eden faktörleri kendi ifadeleri ile tanımlar. b) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileriyle ilgili soru sorar. c) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında bilgi toplar. ç) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında toplanan bilgileri değerlendirir. d) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında toplanan bilgilerle ilgili çıkarım yapar.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.2.3",
+    "ad": "Beslenme davranışlarını yapılandırabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: SAĞLIKLI YAŞAM ALIŞKANLIKLARI",
+    "aciklama": "a) Beslenme davranışlarını inceleyerek nedensel ya da mantıksal ilişkiler ortaya koyar. b) Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir beslenme düzeni bütünü oluşturur.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.2.4",
+    "ad": "Gıda kaynaklı hastalıklara ilişkin problemleri çözebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: SAĞLIKLI YAŞAM ALIŞKANLIKLARI",
+    "aciklama": "a) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemleri yapılandırır. b) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemleri özetler. c) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümü için mevcut bilgiye dayalı tahminde bulunur. ç) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümü için önermeler üzerinden akıl yürütür. d) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümüne ilişkin değerlendirmede bulunur.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.3.1",
+    "ad": "Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimleri çözümleyebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "3. TEMA: ERGENLİK VE SOSYAL YAŞAM",
+    "aciklama": "a) Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimleri belirler. b) Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimler arasındaki ilişkileri belirler.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.3.2",
+    "ad": "Stres ve stres kaynaklarına ilişkin problem çözebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "3. TEMA: ERGENLİK VE SOSYAL YAŞAM",
+    "aciklama": "a) Stres ve stres kaynaklarına ilişkin problemleri yapılandırır. b) Stres ve stres kaynaklarına ilişkin problemleri özetler. c) Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik mevcut bilgiye dayalı tahminde bulunur. ç) Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik önermeler üzerinden akıl yürütür. d) Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik değerlendirmede bulunur.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.3.3",
+    "ad": "Bağımlılığın birey, aile ve toplum üzerindeki etkilerine yönelik eleştirel düşü- nebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "3. TEMA: ERGENLİK VE SOSYAL YAŞAM",
+    "aciklama": "a) Bağımlılığın birey, aile ve toplum üzerindeki etkilerini sorgular. b) Bağımlılığın birey, aile ve toplum üzerindeki etkileri hakkında akıl yürütür. c) Bağımlılığın birey, aile ve toplum üzerindeki etkilerine yönelik akıl yürüterek ulaştığı çıkarımları yansıtır.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.4.1",
+    "ad": "İlk yardım bilgilerine dair deneyimleri yansıtabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "4. TEMA: HAYAT KURTARAN BİLGİLER",
+    "aciklama": "a) İlk yardım bilgilerine dair deneyimleri gözden geçirir. b) İlk yardım bilgilerine dair deneyimlerden hareketle çıkarımlar yapar. c) İlk yardım bilgilerine yönelik çıkarımları değerlendirir.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.4.2",
+    "ad": "Sağlıklı ve güvenli yaşam için güvenli ortam oluşturabilme.",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "4. TEMA: HAYAT KURTARAN BİLGİLER",
+    "aciklama": "a) Çevresindeki tehlikeleri ve riskleri belirler. b) Belirlediği tehlike ve risklere yönelik uygun koruyucu ve kontrol tedbirleri alır.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.5.1",
+    "ad": "Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkisine yönelik eleştirel düşünebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "5. TEMA: GÜVENLİ ULAŞIM VE TRAFİK BİLİNCİ",
+    "aciklama": "a) Trafikteki tutum ve davranışlarda etkili iletişim durumlarını sorgular. b) Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkileri hakkında akıl yürütür. c) Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkileri hakkında akıl yürütmeyle ulaştığı çıkarımları davranışlarına yansıtır.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.5.2",
+    "ad": "Trafik güvenliği bilincinin insan hayatına etkilerini sorgulayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "5. TEMA: GÜVENLİ ULAŞIM VE TRAFİK BİLİNCİ",
+    "aciklama": "a) Trafik güvenliği bilincinin insan hayatına etkilerini kendi ifadeleri ile tanımlar. b) Trafik güvenliği bilincinin insan hayatına etkileri ile ilgili sorular sorar. c) Trafik güvenliği bilincinin insan hayatına etkileri ile ilgili bilgi toplar. ç) Trafik güvenliği bilincinin insan hayatına etkileriyle ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Trafik güvenliği bilincinin insan hayatına etkileriyle ile ilgili topladığı bilgiler üzerinden çıkarım yapar.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.5.3",
+    "ad": "Yaya güvenliği ile ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "5. TEMA: GÜVENLİ ULAŞIM VE TRAFİK BİLİNCİ",
+    "aciklama": "a) Yaya güvenliği ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak yaya güvenliği hakkındaki bilgileri bulur. c) Yaya güvenliği ile ilgili ulaşılan bilgileri doğrular. ç) Yaya güvenliği ile ilgili ulaşılan bilgileri kaydeder.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.5.4",
+    "ad": "Yolcu güvenliği ile ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "5. TEMA: GÜVENLİ ULAŞIM VE TRAFİK BİLİNCİ",
+    "aciklama": "a) Yolcu güvenliği ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak yolcu güvenliği hakkındaki bilgileri bulur. c) Yolcu güvenliği ile ilgili ulaşılan bilgileri doğrular. ç) Yolcu güvenliği ile ilgili ulaşılan bilgileri kaydeder.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.5.5",
+    "ad": "Sürücü güvenliği ile ilgili bilgi toplayabilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "5. TEMA: GÜVENLİ ULAŞIM VE TRAFİK BİLİNCİ",
+    "aciklama": "a) Sürücü güvenliği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak sürücü güvenliği hakkındaki bilgileri bulur. c) Sürücü güvenliği ile ilgili ulaşılan bilgileri doğrular. ç) Sürücü güvenliği ile ilgili ulaşılan bilgileri kaydeder.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "SBTK.5.6",
+    "ad": "Trafiğin çevre üzerindeki etkileri ile ilgili tümevarımsal akıl yürütebilme",
+    "sinif": 9,
+    "sinif_tipi": "normal",
+    "unite": "5. TEMA: GÜVENLİ ULAŞIM VE TRAFİK BİLİNCİ",
+    "aciklama": "a) Trafiğin çevre üzerindeki etkileri ile ilgili gözlem yapar. b) Trafiğin çevre üzerindeki etkileri ile ilgili örüntüler bulur. c) Trafiğin çevre üzerindeki etkileri ile ilgili genellemeler yapar.",
+    "brans": "beden_egitimi",
+    "branslar": [
+      "beden_egitimi",
+      "biyoloji"
+    ],
+    "ders": "Sağlık Bilgisi ve Trafik Kültürü",
+    "okul_tipi": "lise"
+  }
+]

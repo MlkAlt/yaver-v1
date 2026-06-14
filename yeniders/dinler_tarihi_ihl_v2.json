@@ -1,0 +1,122 @@
+[
+  {
+    "kod": "DT.12.1.1",
+    "ad": "Dinler tarihiyle ilgili konuları müşahede edebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: DİNLER TARİHİNE GİRİŞ",
+    "aciklama": "a) Dinler tarihiyle ilgili merak ettiği konuları belirler. b) Dinler tarihiyle ilgili belirlediği konular hakkında soru sorar. c) Dinler tarihiyle ilgili merak ettiği konuları inceler. ç) Dinler tarihiyle ilgili inceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.1.2",
+    "ad": "Dinler tarihinin gelişim süreciyle ilgili bilgi toplayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: DİNLER TARİHİNE GİRİŞ",
+    "aciklama": "a) Dinler tarihinin gelişim süreciyle ilgili kullanacağı kaynakları belirler. b) Belirlediği kaynakları kullanarak dinler tarihinin gelişim süreciyle ilgili bilgileri bulur. c) Dinler tarihinin gelişim süreciyle ilgili ulaştığı bilgileri doğrular. ç) Dinler tarihinin gelişim süreciyle ilgili ulaştığı bilgileri kaydeder.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.2.1",
+    "ad": "İslam’ın tarihî sürecini sorgulayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: İSLAMİYET",
+    "aciklama": "a) İslam’ın tarihî süreciyle ilgili merak ettiği konuları tanımlar. b) İslam’ın tarihî süreci hakkında sorular sorar. c) İslam’ın tarihî süreci hakkında bilgi toplar. ç) İslam’ın tarihî süreciyle ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) İslam’ın tarihî süreciyle ilgili topladığı bilgiler üzerinden çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.2.2",
+    "ad": "İslam’ın inanç esasları, ibadetleri ve ahlaki ilkelerini anlayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: İSLAMİYET",
+    "aciklama": "a) İslam’ın inanç esasları, ibadetleri ve ahlaki ilkelerini fark eder. b) İslam’ın inanç esasları, ibadetleri ve ahlaki ilkelerini tanımlar. c) İslam’ın inanç esasları, ibadetleri ve ahlaki ilkelerinin ortaya çıkış sebeplerini açıklar. ç) İslam’ın inanç esasları, ibadetleri ve ahlaki ilkelerinin özelliklerini belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.2.3",
+    "ad": "İslam’ın diğer dinlere bakışını müşahede edebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: İSLAMİYET",
+    "aciklama": "a) İslam’ın diğer dinlere bakışıyla ilgili merak ettiği konuları belirler. b) İslam’ın diğer dinlere bakışıyla ilgili belirlediği konular hakkında soru sorar. c) İslam’ın diğer dinlere bakışıyla ilgili merak ettiği konuları inceler. ç) İslam’ın diğer dinlere bakışıyla ilgili inceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.3.1",
+    "ad": "Yahudilik ve Hristiyanlığın tarihî sürecini ve temel özelliklerini özetleyebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: YAŞAYAN BAZI DİNLER",
+    "aciklama": "a) Yahudilik ve Hristiyanlığın tarihî süreci ve temel özellikleriyle ilgili çözümleme yapar. b) Yahudilik ve Hristiyanlığın tarihî süreci ve temel özellikleriyle ilgili sınıflandırma yapar. c) Yahudilik ve Hristiyanlığın tarihî süreci ve temel özelliklerini yorumlar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.3.2",
+    "ad": "Hinduizm, Budizm ve Konfüçyanizm dinlerini anlayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: YAŞAYAN BAZI DİNLER",
+    "aciklama": "a) Hinduizm, Budizm ve Konfüçyanizm dinlerini fark eder. b) Hinduizm, Budizm ve Konfüçyanizm dinlerini tanımlar. c) Hinduizm, Budizm ve Konfüçyanizm dinlerinin ortaya çıkış sürecini açıklar. ç) Hinduizm, Budizm ve Konfüçyanizm dinlerinin özelliklerini belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.4.1",
+    "ad": "Misyonerlik faaliyetlerini anlayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: BAZI DİNÎ GRUP VE HAREKETLER",
+    "aciklama": "a) Misyonerlik faaliyetlerini fark eder. b) Misyonerlik faaliyetlerini tanımlar. c) Misyonerlik faaliyetlerinin ortaya çıkış sebeplerini açıklar. ç) Misyonerlik faaliyetlerinin özelliklerini belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.4.2",
+    "ad": "Bahailik ve Yezidiliğin tarihî süreci ve temel özelliklerini sorgulayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: BAZI DİNÎ GRUP VE HAREKETLER",
+    "aciklama": "a) Bahailik ve Yezidiliğin tarihî süreci ve temel özellikleriyle ilgili merak ettiklerini tanımlar. b) Bahailik ve Yezidiliğin tarihî süreci ve temel özellikleri hakkında sorular sorar. c) Bahailik ve Yezidiliğin tarihî süreci ve temel özellikleri hakkında bilgi toplar. ç) Bahailik ve Yezidiliğin tarihî süreci ve temel özellikleri hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Bahailik ve Yezidiliğin tarihî süreci ve temel özellikleriyle ilgili topladığı bilgiler üzerinden çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DT.12.4.3",
+    "ad": "Yeni dinî hareketleri anlayabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: BAZI DİNÎ GRUP VE HAREKETLER",
+    "aciklama": "a) Yeni dinî hareketleri fark eder. b) Yeni dinî hareketleri tanımlar. c) Yeni dinî hareketlerin ortaya çıkış sebeplerini açıklar. ç) Yeni dinî hareketlerin özelliklerini belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Dinler Tarihi",
+    "okul_tipi": "ihl"
+  }
+]

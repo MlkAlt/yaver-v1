@@ -1,0 +1,122 @@
+[
+  {
+    "kod": "DE.1.1",
+    "ad": "Din eğitimi ile ilgili temel kavramları bağlamına uygun kullanabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: DİN EĞİTİMİNDE TEMEL KAVRAMLAR",
+    "aciklama": "a) Din eğitimi ile ilgili temel kavramları fark eder. b) Din eğitimi ile ilgili temel kavramlar arasında ilişki kurar. c) Din eğitimi ile ilgili temel kavramların benzerliklerini ve farklılıklarını açıklar. ç) Din eğitimi ile ilgili temel kavramlara sözlü ve yazılı iletişimde bağlamına uygun olarak yer verir.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.1.2",
+    "ad": "Din eğitimi biliminin önemi ve gerekliliği konusunda analitik düşünebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: DİN EĞİTİMİNDE TEMEL KAVRAMLAR",
+    "aciklama": "a) Din eğitimi biliminin önemi ve gerekliliği arasında ilişki kurar. b) Din eğitimi biliminin önemi ve gerekliliği arasında kurduğu ilişkiyle ilgili akıl yürütür. c) Din eğitimi biliminin önemi ve gerekliliği hakkında akıl yürütme ile ulaştığı çıkarımları tartışır. ç) Din eğitimi biliminin önemi ve gerekliliği hakkında tercih edilebilir görüş ve argümanları gerekçeleriyle belirler.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.2.1",
+    "ad": "Gelişim dönemlerine göre din eğitimi uygulamalarını sınıflandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİM DÖNEMLERİNDE DİN EĞİTİMİ",
+    "aciklama": "a) Gelişim dönemlerine göre din eğitimi uygulamalarına ilişkin ölçütleri seçer. b) Gelişim dönemlerine göre din eğitimi uygulamalarını ayrıştırır. c) Gelişim dönemlerine göre din eğitimi uygulamalarını tasnif eder. ç) Gelişim dönemlerine göre din eğitimi uygulamalarına dair tasnifi isimlendirir.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.2.2",
+    "ad": "Gelişim dönemlerinde dinî anlayışı etkileyen unsurları özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİM DÖNEMLERİNDE DİN EĞİTİMİ",
+    "aciklama": "a) Gelişim dönemlerinde dinî anlayışı etkileyen unsurlar ile ilgili çözümleme yapar. b) Gelişim dönemlerinde dinî anlayışı etkileyen unsurları sınıflandırır. c) Gelişim dönemlerinde dinî anlayışı etkileyen unsurları yorumlar.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.2.3",
+    "ad": "Gençlik dönemi kimlik inşasında dinin etkisini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİM DÖNEMLERİNDE DİN EĞİTİMİ",
+    "aciklama": "a) Merak ettiği gençlik dönemi kimlik inşasında dinin etkisini belirler. b) Belirlenen gençlik dönemi kimlik inşasında dinin etkisi hakkında soru sorar. c) Merak ettiği gençlik dönemi kimlik inşasında dinin etkisini inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.3.1",
+    "ad": "Değer temelli ahlak eğitiminin önemini anlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: DEĞER TEMELLİ AHLAK EĞİTİMİ",
+    "aciklama": "a) Değer temelli ahlak eğitiminin önemini fark eder. b) Değer temelli ahlak eğitiminin önemini tanımlar. c) Değer temelli ahlak eğitiminin öneminin ortaya çıkış sebeplerini açıklar. ç) Değer temelli ahlak eğitiminin önemli özelliklerini belirler.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.3.2",
+    "ad": "Çevresel unsurların ahlak ve değer eğitimindeki rolünü yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: DEĞER TEMELLİ AHLAK EĞİTİMİ",
+    "aciklama": "a) Çevresel unsurların ahlak eğitimindeki rolünü inceler. b) Çevresel unsurların ahlak eğitimindeki rolünü kendi hayatı için anlamlı hâle getirir. c) Çevresel unsurların ahlak eğitimindeki rolünü nesnel ve doğru bir şekilde ifade eder.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.3.3",
+    "ad": "Ahlak ve değer eğitimi yaklaşımlarını temel alan din eğitimi uygulamaları hakkında",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: DEĞER TEMELLİ AHLAK EĞİTİMİ",
+    "aciklama": "mukayese yapabilme a) Ahlak ve değer eğitimi yaklaşımlarını temel alan din eğitimi uygulamalarına ilişkin özellikleri belirler. b) Belirlenen ahlak ve değer eğitimi yaklaşımlarını temel alan din eğitimi uygulamalarına ilişkin benzerlikleri ortaya koyar. c) Belirlenen ahlak ve değer eğitimi yaklaşımlarını temel alan din eğitimi uygulamalarına ilişkin farklılıkları ortaya koyar. ç) Belirlenen ahlak ve değer eğitimi yaklaşımını temel alan din eğitimi uygulamaları özellikleri arasında ilişki kurar. d) Ortaya konulan benzerlik ve farklılıklara dayalı olarak çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.4.1",
+    "ad": "Türkiye’de yürütülen örgün din eğitimi uygulamalarını yapılandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: TÜRKİYE'DE DİN EĞİTİMİ",
+    "aciklama": "a) Türkiye’de yürütülen örgün din eğitimi uygulamalarına yönelik nedensel ilişkileri ortaya koyar. b) Türkiye’de yürütülen örgün din eğitimi uygulamalarına yönelik tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir bütün ortaya koyar.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "DE.4.2",
+    "ad": "Türkiye’de yürütülen yaygın din eğitimi örneklerini mesleki olarak uygulayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: TÜRKİYE'DE DİN EĞİTİMİ",
+    "aciklama": "a) Türkiye’de yürütülen yaygın din eğitimi uygulama çeşitlerinin süreç ve kurallarını açıklar. b) Türkiye’de yürütülen yaygın din eğitimi uygulama çeşitlerini tatbik etmek için ön hazırlık yapar. c) Türkiye’de yürütülen yaygın din eğitimi uygulama çeşitlerini usulüne uygun biçimde tatbik eder. ç) Türkiye’de yürütülen yaygın din eğitimi uygulama süreçlerini değerlendirir.",
+    "brans": "dkab",
+    "branslar": ["dkab", "ihl_meslek_dersleri"],
+    "ders": "Din Eğitimi",
+    "okul_tipi": "ihl"
+  }
+]

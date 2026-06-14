@@ -1,0 +1,308 @@
+[
+  {
+    "kod": "İÇYÇ.1.1",
+    "ad": "Küresel iklim sisteminde meydana gelen değişiklikleri yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: İKLİM DEĞİŞİKLİĞİ",
+    "aciklama": "a) İklim değişikliğine neden olan unsurları inceler. b) İklim değişikliğinin etkilediği unsurları inceler. c) İklim değişikliğinin etkilerinin niteliğini sorgular. ç) İklim değişikliğinin nedenlerini ve sonuçlarını bağlamından kopmadan yeniden ifade eder.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.2.1",
+    "ad": "Çevre bilincinin gelişim sürecini neden ve sonuçlarıyla yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ÇEVRE VE İNSAN",
+    "aciklama": "a) Çevre bilincinin ortaya çıkmasına neden olan olayları inceler. b) Çevre bilincinin gelişim sürecini etkileyen unsurları inceler. c) Çevre bilincinin gelişim sürecinin niteliğini sorgular. ç) Çevre bilincinin gelişim sürecinin nedenlerini ve sonuçlarını bağlamından kopmadan yeniden ifade eder.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.2.2",
+    "ad": "Çevresel olay ya da olgu üzerinden çevre etiği yaklaşımlarını karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ÇEVRE VE İNSAN",
+    "aciklama": "a) Çevresel olay ya da olguya ilişkin çevre etiği yaklaşımlarının özelliklerini belirler. b) Çevresel olay ya da olguya ilişkin çevre etiği yaklaşımlarının benzerliklerini listeler. c) Çevresel olay ya da olguya ilişkin çevre etiği yaklaşımlarının farklılıklarını listeler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.2.3",
+    "ad": "Doğal kaynakların insan hayatındaki önemini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ÇEVRE VE İNSAN",
+    "aciklama": "a) Doğal kaynakların insan hayatındaki kullanım alanlarını çözümler. b) Doğal kaynakları kullanım alanlarına ve yenilenebilirlik özelliklerine göre sınıflandırılır. c) Doğal kaynakların önemini kullanım alanlarına ve yenilenebilirlik özelliklerine göre yorumlar.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.2.4",
+    "ad": "Ekolojik ayak izi ile biyolojik kapasite arasındaki ilişkiyi çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ÇEVRE VE İNSAN",
+    "aciklama": "a) Ekolojik ayak izi ile biyolojik kapasiteye ilişkin parçaları belirler. b) Ekolojik ayak izi ile biyolojik kapasite arasındaki ilişkiyi belirler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.3.1",
+    "ad": "Çevre sorunlarına neden olan beşeri faaliyetleri yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ÇEVRE SORUNLARI",
+    "aciklama": "a) Çevre sorunlarına neden olan beşeri faaliyetleri inceler. b) Beşerî faaliyetlerin etkilediği çevresel unsurları inceler. c) Beşerî faaliyetlerin etkilerinin niteliğini sorgular. ç) Beşerî faaliyetlerin çevresel etkilerini bağlamından kopmadan yeniden ifade eder.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.3.2",
+    "ad": "Hava kirliliğinin çevresel etkilerini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ÇEVRE SORUNLARI",
+    "aciklama": "a) Hava kirliliğinden etkilenen unsurları belirler. b) Hava kirliliğinden etkilenen unsurlar ile hava kirliliğinin çevresel etkileri arasındaki ilişkiyi belirler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.3.3",
+    "ad": "Su kıtlığı ve kirliliğinin çevresel etkilerini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ÇEVRE SORUNLARI",
+    "aciklama": "a) Su kıtlığı ve kirliliğinden etkilenen unsurları belirler. b) Su kıtlığı ve kirliliğinden etkilenen unsurlar ile su kıtlığı ve kirliliğinin çevresel etkileri arasındaki ilişkiyi belirler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.3.4",
+    "ad": "Toprak bozulmasının çevresel etkilerini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ÇEVRE SORUNLARI",
+    "aciklama": "a) Toprak bozulması tiplerini belirler. b) Toprak bozulması tipleri ile toprak bozulmasının çevresel etkileri arasındaki ilişkiyi belirler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.3.5",
+    "ad": "Biyoçeşitlilik kaybının çevresel etkilerini yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ÇEVRE SORUNLARI",
+    "aciklama": "a) Biyoçeşitlilik kaybına yönelik tehditleri inceler. b) Biyoçeşitlilik kaybından etkilenen unsurları inceler. c) Biyoçeşitlilik kaybının çevresel etkilerinin niteliğini sorgular. ç) Biyoçeşitlilik kaybının çevresel etkilerini bağlamından kopmadan yeniden ifade eder.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.4.1",
+    "ad": "Çevre hakkı ve katılımın önemini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLERİN TEMELLERİ",
+    "aciklama": "a) Çevre hakkı ve katılımın önemine ilişkin parçaları belirler. b) Çevre hakkı ve katılımın önemine ilişkin parçalar arasındaki ilişkileri belirler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.4.2",
+    "ad": "Mücadele stratejileri bağlamında çevre sorunlarına yönelik akıl yürütebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLERİN TEMELLERİ",
+    "aciklama": "a) Çevre sorunlarıyla mücadele stratejilerini belirler. b) Çevre sorunlarıyla mücadele stratejileri arasında bütün-bütün veya bütün-parça ilişkisi kurar. c) Çevre sorunlarıyla mücadele stratejilerini genelden genele veya genelden özele çıkarım yapar.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.4.3",
+    "ad": "Uluslararası çevre anlaşmalarının getirdiği sorumluluklar kapsamında ekonomik ve sosyal projeleri eleştirel düşünebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLERİN TEMELLERİ",
+    "aciklama": "a) Uluslararası çevre anlaşmalarının getirdiği sorumluluklar kapsamında ekonomik ve sosyal projeleri sorgular. b) Uluslararası çevre anlaşmalarının getirdiği sorumluluklar kapsamında ekonomik ve sosyal projeler hakkında akıl yürütür. c) Uluslararası çevre anlaşmalarının getirdiği sorumluluklar kapsamında ekonomik ve sosyal projelere yönelik akıl yürütmeyle ulaştığı çıkarımları yansıtır.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.4.4",
+    "ad": "Çevresel sürdürülebilirlik açısından yenilikçi projeleri neden ve sonuçlarıyla yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLERİN TEMELLERİ",
+    "aciklama": "a) Çevresel sürdürülebilirlik açısından yenilikçi projelere neden olan unsurları inceler. b) Çevresel sürdürülebilirlik açısından yenilikçi projelerin etkilediği unsurları inceler. c) Çevresel sürdürülebilirlik açısından yenilikçi projelerin etkilerinin niteliğini sorgular. ç) Çevresel sürdürülebilirliği sağlamak amacıyla geliştirilen yenilikçi projelerin nedenlerini ve sonuçlarını bağlamından kopmadan yeniden ifade eder.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.5.1",
+    "ad": "Gözlemlediği çevre sorunlarından etkilenen paydaşlarla kurduğu empatiyi yansıtabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "5. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLER GELİŞTİRME",
+    "aciklama": "a) Çevre sorunlarından etkilenen paydaşlarla empati kurmaya yönelik yaptığı deneyimi gözden geçirir. b) Deneyimlerinden elde ettiği gözlemlere dayalı çıkarım yapar. c) Paydaşlarla empati yaparak ulaştığı çıkarımları değerlendirir.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.5.2",
+    "ad": "Çevre sorunlarına yenilikçi çözüm geliştirmeye yönelik tanımladığı çalışma problemini eleştirel düşünebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "5. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLER GELİŞTİRME",
+    "aciklama": "a) Çevre sorunlarına yönelik temel problemi sorgular. b) Sorguladığı problemle ilgili akıl yürütür. c) Probleme yönelik akıl yürütmeyle ulaştığı çıkarımları yansıtır.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.5.3",
+    "ad": "Çevre sorunlarının çözümü için tanımladığı probleme yönelik yenilikçi fikirler ortaya koyarak problemi çözebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "5. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLER GELİŞTİRME",
+    "aciklama": "a) Tanımladığı problemi yapılandırır. b) Yapılandırmış olduğu problemi özetler. c) Özetlediği problemin çözümüne yönelik gözleme dayalı/mevcut bilgiye/veriye dayalı tahminde bulunur. ç) Problemin çözümüne yönelik ortaya koyduğu önermeler üzerinden akıl yürütür. d) Problemin çözümüne ilişkin ortaya koyduğu önermeleri değerlendirir.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "İÇYÇ.5.4",
+    "ad": "Çevre sorunlarının çözümünde tanımladığı problem için geliştirdiği yenilikçi fikre yönelik model oluşturabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "5. ÜNİTE: ÇEVRE SORUNLARINA YENİLİKÇİ ÇÖZÜMLER GELİŞTİRME",
+    "aciklama": "a) Geliştirmiş olduğu yenilikçi fikre yönelik model önerir. b) Önerdiği modeli yeni kanıtlarla yeniler.",
+    "brans": "biyoloji",
+    "branslar": [
+      "biyoloji",
+      "cografya",
+      "kimya",
+      "fizik"
+    ],
+    "ders": "İklim, Çevre ve Yenilikçi Çözümler",
+    "okul_tipi": "lise"
+  }
+]

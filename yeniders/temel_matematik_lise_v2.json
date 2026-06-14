@@ -1,0 +1,134 @@
+[
+  {
+    "kod": "MAT.T.11.1.1",
+    "ad": "Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonları bağlamında yorumlayabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+    "aciklama": "a) Niceliklerin doğru orantılı değişimlerini grafik veya tablo kullanarak inceler. b) Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonlarına dönüştürür. c) Niceliklerin doğru orantılı değişimleri ile gerçek sayılarda tanımlı f(x) = ax fonksiyonlarının eğimi ve nitel özellikleri (işareti, sıfırı, artanlığı-azalanlığı) arasındaki ilişkileri sözel olarak ifade eder.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.11.1.2",
+    "ad": "Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksix yonları bağlamında yorumlayabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+    "aciklama": "a) Niceliklerin ters orantılı değişimlerini grafik veya tablo kullanarak inceler. b) Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksiyonlarına x dönüştürür. c) Niceliklerin ters orantılı değişimleri ile ℝ - {0} da tanımlı g(x) = b fonksiyonlax rındaki a değeri ve fonksiyonların nitel özellikleri (işareti, artanlığı-azalanlığı) arasındaki ilişkileri sözel olarak ifade eder.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.11.1.3",
+    "ad": "Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonkx siyonları ile ifade edilebilen denklem ve eşitsizlikleri içeren problemleri çözebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+    "aciklama": "a) Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizliklere ilişkin matematik­sel bileşenleri (niceliklerdeki değişim miktarı, artma-azalma oranı gibi) matematiksel temsilleri kullanarak belirler. b) Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizliklere ilişkin matematik­sel bileşenlerin aralarındaki ilişkileri belirler. c) Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonlax rı ile ifade edilebilen denklem ve eşitsizliklerin problem bağla­mındaki temsillerini farklı temsillere dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder. d) Elde ettiği ve yorumladığı farklı temsillere dayalı problemin çözümü için strateji oluşturur. e) Belirlediği stratejiyi uygulayarak problemi çözer. f) Elde ettiği çözümü uygun yöntemleri seçerek doğrular.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.11.2.1",
+    "ad": "Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin açı, kenar, köşegen, simetri ve alan özelliklerine ilişkin çıkarım yapabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: GEOMETRİK ŞEKİLLER",
+    "aciklama": "a) Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımlarda bulunur. b) Varsayımlarını kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin örüntüleri geneller. c) Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemeleri kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin önermeler sunar. d) Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sunduğu önermeleri farklı problemlere ve yeni durumlara uyarlayarak değerlendirir.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.11.2.2",
+    "ad": "Çokgenlerin kenar, açı ve köşegen özelliklerine dair çıkarım yapabilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: GEOMETRİK ŞEKİLLER",
+    "aciklama": "a) Çokgenlerin kenar, açı ve köşegen özelliklerine dair varsayımlarda bulunur. b) Varsayımlarını kullanarak çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin örüntüleri geneller. c) Çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin genellemelerini varsayımları ile karşılaştırır. ç) Elde ettiği genellemeleri kullanarak çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin önermeler sunar. d) Çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin sunduğu önermeleri problem durumlarına uyarlayarak kullanışlılık açısından değerlendirir.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.11.3.1",
+    "ad": "İki nicel değişkenli veri ile çalışabilme ve iki nicel değişken arasındaki ilişkililiğe dayalı karar verebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+    "aciklama": "a) İki nicel değişkenli veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde iki nicel değişken arasındaki ilişkililiğe odaklanan araştırma soruları oluşturur. c) İki nicel değişkenli hazır veri setinin nasıl elde edilmiş olabileceğini sorgular. ç) Elde edilen/verilen iki nicel değişkenli hazır veri setini analize hazırlar. d) Araştırma sorusu bağlamında elde edilen/verilen iki nicel değişkenli verileri analiz etmek için görselleştirme ve/veya özetleme [tablo, serpme diyagramı (saçılım grafiği), bölgelere göre sayım oranı, korelasyon katsayısı] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında elde edilen verileri belirlediği araçlarla analiz eder. f) İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen sonuçları yorumlar. g) İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağlamında değerlendirir.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.12.1.1",
+    "ad": "Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+    "aciklama": "a) Sayı örüntülerinin ardışık terimlerini belirler. b) Ardışık terimler arasındaki ortak fark/oran ilişkisini belirler. c) Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder. ç) Ardışık terimler arasındaki ortak farkı/oranı sabit olan örüntülerin genel terimini aritmetik/geometrik dizi olarak açıklar.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.12.1.2",
+    "ad": "Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+    "aciklama": "a) Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler. b) Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin benzerlikleri listeler. c) Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin farklılıkları listeler.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.12.1.3",
+    "ad": "Aritmetik ve geometrik diziler ile ifade edilebilen problemleri çözebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+    "aciklama": "a) Aritmetik ve geometrik diziler ile ifade edilebilen problemlere ilişkin matematik­sel bileşenleri (ardışık terimlerin ortak farkı veya ortak oranı gibi) tablo temsili kullanarak belirler. b) Aritmetik ve geometrik diziler ile ifade edilebilen problemlere ilişkin matematik­sel bileşenlerin aralarındaki ilişkileri belirler. c) Aritmetik ve geometrik dizilerin problem bağla­mındaki temsillerini farklı temsillere dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder. d) Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur. e) Belirlediği stratejiyi uygulayarak problemi çözer. f) Elde ettiği çözümü uygun yöntemleri seçerek doğrular.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.12.2.1",
+    "ad": "Çemberle ilişkili elemanları (kesen, kiriş, teğet, çap, yay) çözümleyebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: GEOMETRİK ŞEKİLLER",
+    "aciklama": "a) Kesen, kiriş, teğet, çap ve yayı çemberin elemanları olarak belirler. b) Çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkileri belirler.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.12.2.2",
+    "ad": "Çemberin açı, kiriş, teğet özellikleri ile ilgili çıkarım yapabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. TEMA: GEOMETRİK ŞEKİLLER",
+    "aciklama": "a) Çemberde açı, kiriş ve teğetin özelliklerine ilişkin varsayımlarda bulunur. b) Varsayımlarından yararlanarak çemberde açı, kiriş ve teğetin özelliklerine ilişkin örüntüleri geneller. c) Genellemelerini varsayımlarıyla karşılaştırır. ç) Elde ettiği genellemelerden önermeler sunar. d) Önermelerini farklı problemlere ve yeni durumlara uyarlayarak kullanışlılığını değerlendirir.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAT.T.12.3.1",
+    "ad": "Toplumsal veya bilimsel durumlara ilişkin hazır veri ile çalışabilme ve hazır veriye dayalı karar verebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+    "aciklama": "a) İstatistiksel araştırma tasarlamayı gerektiren toplumsal veya bilimsel durumları belirler. b) Bağlam içerisinde ve tasarladığı istatistiksel araştırmaya yönelik veri dağılımlarını betimleyen, karşılaştıran veya değişkenler arasındaki ilişkililiğe odaklanan araştırma soruları oluşturur. c) Elde edilen/verilen hazır veri setinin nasıl elde edilmiş olabileceğini sorgular. ç) Elde edilen/verilen hazır veri setini analize hazırlar. d) Araştırma sorusu bağlamında verileri analiz etmek için görselleştirme ve/veya özetleme araçlarından uygun olanları seçer. e) Araştırma sorusu bağlamındaki verileri belirlediği araçlarla analiz eder. f) Tasarladığı istatistiksel araştırmadan elde ettiği çıktılardan hareketle sonuçları yorumlar. g) Tasarladığı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağlamında değerlendirir.",
+    "brans": "matematik",
+    "ders": "Temel Matematik",
+    "okul_tipi": "lise"
+  }
+]

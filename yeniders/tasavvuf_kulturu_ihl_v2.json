@@ -1,0 +1,98 @@
+[
+  {
+    "kod": "TK.1.1",
+    "ad": "Tasavvufun mahiyetini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: TASAVVUFU TANIYALIM",
+    "aciklama": "a) Tasavvufun mahiyetine ilişkin unsurları inceler. b) Tasavvufun mahiyetine dair unsurlar arasındaki ilişkileri belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.1.2",
+    "ad": "Tasavvufun tarihsel gelişimini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: TASAVVUFU TANIYALIM",
+    "aciklama": "a) Tasavvufun tarihsel gelişimine dair çözümleme yapar. b) Tasavvufun tarihsel gelişimine dair sınıflandırma yapar. c) Tasavvufun tarihsel gelişimini kendi cümleleriyle yorumlar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.2.1",
+    "ad": "Tasavvufta eğitimle ilgili dinî kavramları bağlamına uygun kullanabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: TASAVVUFİ EĞİTİM VE YORUMLAR",
+    "aciklama": "a) Tasavvufta eğitimle ilgili dinî kavramları fark eder. b) Tasavvufta eğitimle ilgili dinî kavramlar arasında ilişki kurar. c) Tasavvufta eğitimle ilgili dinî kavramların benzerliklerini ve farklılıklarını açıklar. ç) Tasavvufta eğitimle ilgili dinî kavramlara sözlü ve yazılı iletişimde bağlamına uygun olarak yer verir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.2.2",
+    "ad": "Kültürümüzde etkili olan tasavvufi yorumları mukayese yapabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: TASAVVUFİ EĞİTİM VE YORUMLAR",
+    "aciklama": "a) Kültürümüzde etkili olan tasavvufi yorumların temel özelliklerini inceler. b) İncelenen tasavvufi yorumların özellikleri arasındaki benzerlikleri ortaya koyar. c) İncelenen tasavvufi yorumların özellikleri arasındaki farklılıkları ortaya koyar. ç) Tasavvufi yorumların özellikleri arasında ilişki kurar. d) Ortaya koyulan benzerlik ve farklılıklara dayalı olarak çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.3.1",
+    "ad": "Ahlakın tasavvufi hayattaki yerini sentezleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: TASAVVUFTA AHLAK, BİLGİ VE VARLIK ANLAYIŞI",
+    "aciklama": "a) Tasavvufi hayattaki ahlaki unsurları belirler. b) Tasavvufi hayata yön veren ahlaki unsurlar arasında ilişki kurar. c) Tasavvufta ahlakın yerine dair bütünsel bir bakış açısı oluşturur.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.3.2",
+    "ad": "Tasavvufta bilgi ve varlık ile ilgili konuları idrak edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: TASAVVUFTA AHLAK, BİLGİ VE VARLIK ANLAYIŞI",
+    "aciklama": "a) Tasavvufta bilgi ve varlık ile ilgili konulara dair tefekkür sürecini gözden geçirir. b) Tasavvufta bilgi ve varlık konularında yaptığı tefekkür sürecine dayalı çıkarımda bulunur. c) Ulaştığı çıkarımları değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.4.1",
+    "ad": "Tasavvufun kültürümüze ve İslam medeniyetine yansımalarını müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: TASAVVUFUN HAYATA YANSIMALARI",
+    "aciklama": "a) Tasavvufun kültürümüze ve İslam medeniyetine etkileriyle ilgili merak ettiği konu ve olayları belirler. b) Tasavvufun kültürümüze ve İslam medeniyetine etkilerine dair soru sorar. c) Tasavvufun kültürümüz ve İslam medeniyetindeki yansımalarıyla ilgili merak ettiği konuları inceler. ç) Yaptığı inceleme sonuçları doğrultusunda çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "TK.4.2",
+    "ad": "Tasavvufun günlük hayata etkisini gözleme dayalı tahmin edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: TASAVVUFUN HAYATA YANSIMALARI",
+    "aciklama": "a) Tasavvufun günlük hayattaki yerini gözlemleriyle ilişkilendirir. b) Tasavvufun günlük hayattaki yerine ilişkin çıkarım yapar. c) Tasavvufun günlük hayattaki yerine ilişkin yargıda bulunur.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Tasavvuf Kültürü",
+    "okul_tipi": "ihl"
+  }
+]

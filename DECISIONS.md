@@ -2,6 +2,16 @@
 
 ---
 
+## Veri
+
+### 2026-06-13 — Coğrafya 2-saat/4-saat: DB değil, config ile çözülecek
+11. ve 12. sınıf Coğrafya için 2 saatlik müfredat, 4 saatliğin tam alt kümesidir (PDF sayfa 12'de kodlar açıkça listelenmiş).
+- DB'de tüm kazanımlar 4-saat versiyonu olarak tutulur (11:19, 12:20)
+- 2-saat kodu listesi: `src/data/cografya_2saat.json`
+- V1.5 uygulama: onboarding'de "Coğrafya — haftalık kaç saat: 2 / 4" sorusu → `planUret` bu listeye göre filtreler
+
+---
+
 ## Ürün Kapsamı
 
 ### 2026-04-17 — V1'de ders kitabı RAG kullanılmayacak

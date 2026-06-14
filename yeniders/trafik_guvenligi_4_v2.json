@@ -1,0 +1,134 @@
+[
+ {
+  "kod": "TG.4.1.1",
+  "ad": "Trafik ile ilgili temel kavramlar hakkında bilgi toplayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. TRAFİKTE GÜVENLİ ADIMLAR",
+  "aciklama": "a) Trafik ile ilgili temel kavramlara ulaşmak için kullanacağı araçları belirler. b) Trafik ile ilgili temel kavramlara ait bilgileri bulur. c) Trafik ile ilgili temel kavramlara ait ulaşılan bilgileri doğrular. ç) Trafik ile ilgili temel kavramlara ait ulaşılan bilgileri kaydeder.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.1.2",
+  "ad": "Trafik kurallarının gereği ve önemini özetleyebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. TRAFİKTE GÜVENLİ ADIMLAR",
+  "aciklama": "a) Trafik kurallarının gereği ve önemiyle ilgili çözümleme yapar. b) Trafik kurallarını (yaya, sürücü, yolcu için) sınıflandırır. c) Trafik kurallarının gereği ve önemini kendi cümleleriyle yorumlar.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.1.3",
+  "ad": "Trafik işaret levhalarını sınıflandırabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. TRAFİKTE GÜVENLİ ADIMLAR",
+  "aciklama": "a) Temel trafik işaret levhalarının şekilsel özelliklerini belirler. b) Temel trafik işaret levhalarını şekilsel özelliklerine göre ayırır. c) Temel trafik işaret levhalarını (bilgilendirme, uyarı, yasaklama amaçlı levhalar) tasnif eder. ç) Temel trafik işaret levhalarını etiketler.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.1.4",
+  "ad": "Temel trafik kurallarına uyabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. TRAFİKTE GÜVENLİ ADIMLAR",
+  "aciklama": "",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.2.1",
+  "ad": "Trafikteki ulaşım araçlarını karşılaştırabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ULAŞIM ARAÇLARI VE GÜVENLİ YOLCULUK",
+  "aciklama": "a) Trafikteki ulaşım araçlarının özelliklerini belirler. b) Trafikteki ulaşım araçlarının benzerliklerini listeler. c) Trafikteki ulaşım araçlarının farklılıklarını listeler.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.2.2",
+  "ad": "Trafikte geçiş üstünlüğü olan ulaşım araçlarını tanıyabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ULAŞIM ARAÇLARI VE GÜVENLİ YOLCULUK",
+  "aciklama": "",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.2.3",
+  "ad": "Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisini sorgulayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ULAŞIM ARAÇLARI VE GÜVENLİ YOLCULUK",
+  "aciklama": "a) Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisini tanımlar. b) Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisiyle ilgili sorular sorar. c) Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisi hakkında bilgi toplar. ç) Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Teknolojinin trafik güvenliği ve ulaşım araçları üzerindeki etkisine yönelik çıkarımda bulunur.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.2.4",
+  "ad": "Trafikte tehlike oluşturabilecek durumları güvenlik açısından gözleme dayalı tahmin edebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ULAŞIM ARAÇLARI VE GÜVENLİ YOLCULUK",
+  "aciklama": "a) Trafikte tehlike oluşturabilecek durumları ön gözlem ve/veya deneyimi ilişkilendirir. b) Trafikte tehlike oluşturabilecek durumlara ilişkin çıkarım yapar. c) Trafikte tehlike oluşturabilecek durumlara ilişkin yargıda bulunur.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.3.1",
+  "ad": "Trafikteki hak ve sorumluluklarını sorgulayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "3. TRAFİKTE HAKLAR, SORUMLULUKLAR VE İLETİŞİM",
+  "aciklama": "a) Trafikteki hak ve sorumluluklarını tanımlar. b) Trafikteki hak ve sorumluluklarıyla ilgili sorular sorar. c) Trafikteki hak ve sorumlulukları ile ilgili bilgi toplar. ç) Trafikteki hak ve sorumlulukları ile ilgili topladığı bilginin doğruluğunu değerlendirir. d) Trafikteki hak ve sorumlulukları ile ilgili topladığı bilgiler üzerinden çıkarım yapar.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.3.2",
+  "ad": "Davranış biçimlerinin trafikteki iletişime etkisini değerlendirebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "3. TRAFİKTE HAKLAR, SORUMLULUKLAR VE İLETİŞİM",
+  "aciklama": "a) Davranış biçimlerinin trafikteki iletişime etkisine ilişkin ölçüt belirler. b) Davranış biçimlerinin trafikteki iletişime etkisini gözlemleyerek ölçer. c) Davranış biçimlerinin trafikteki iletişime etkisine ilişkin gözlem sonuçlarını belirlediği ölçütlere göre karşılaştırır. ç) Davranış biçimlerinin trafikteki iletişime etkisine yönelik yapılan karşılaştırmalara ilişkin yargıda bulunur.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.4.1",
+  "ad": "Taşıtlarda bulunması gereken ilk yardım malzemelerine ilişkin bilgi toplayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "4. TRAFİKTE İLK YARDIM VE ACİL DURUMLAR",
+  "aciklama": "a) Taşıtlarda bulunması gereken ilk yardım malzemelerine ilişkin bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak taşıtlarda bulunması gereken ilk yardım malzemelerine dair bilgilere ulaşır. c) Taşıtlarda bulunması gereken ilk yardım malzemelerine ilişkin ulaşılan bilgileri doğrular. ç) Taşıtlarda bulunması gereken ilk yardım malzemelerine ilişkin ulaşılan bilgileri kaydeder.",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "TG.4.4.2",
+  "ad": "Trafikte acil durumlarda doğru davranış biçimlerini belirleyebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "4. TRAFİKTE İLK YARDIM VE ACİL DURUMLAR",
+  "aciklama": "",
+  "brans": "sinif_ogretmeni",
+  "ders": "Trafik Güvenliği",
+  "okul_tipi": "ilkokul"
+ }
+]

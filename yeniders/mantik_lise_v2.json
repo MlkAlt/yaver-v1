@@ -1,0 +1,189 @@
+[
+  {
+    "kod": "MAN.1.1",
+    "ad": "Mantığı formel bir bilim olarak sorgulayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: MANTIĞIN DOĞASI",
+    "aciklama": "a) Mantığı formel bir bilim dalı olarak tanımlar. b) Mantıklı olmanın koşulları ve mantık hakkında sorular sorar. c) Mantıklı olmanın koşulları ve mantık hakkında bilgi toplar. ç) Topladığı bilgilerin doğruluğunu değerlendirir. d) Topladığı bilgiler üzerinde çıkarım yapar.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.1.2",
+    "ad": "Mantığın tarihsel gelişim sürecini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: MANTIĞIN DOĞASI",
+    "aciklama": "a) Mantığın tarihsel gelişimini ilgili olduğu alanlarla sebep-sonuç ilişkisi içerisinde çözümler. b) Tarihsel dönemler dikkate alarak mantığın gelişimini sınıflandırır. c) Mantığın tarihsel gelişimine etki eden unsurları sonuçları ile birlikte yorumlar.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.1.3",
+    "ad": "Mantığın temel kavramsal çerçevesini yapılandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: MANTIĞIN DOĞASI",
+    "aciklama": "a) Tümce, önerme, yargı ve çıkarım kavramlarını inceleyerek aralarındaki mantıksal ilişkileri ortaya koyar. b) Mantığın temel kavramsal çerçevesini bir bütün olarak ortaya koyar.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.2.1",
+    "ad": "Aristotelesçi mantıkta terimlere ilişkin özellikleri özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ARİSTOTELESÇİ MANTIK",
+    "aciklama": "a) Terimin anlamını çözümler. b) Terim çeşitlerini sınıflandırır. c) Terimleri içlem-kaplam özellikleri açısından yorumlar.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.2.2",
+    "ad": "Önermeleri çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ARİSTOTELESÇİ MANTIK",
+    "aciklama": "a) Önermelerin nitelik ve niceliklerini belirler. b) Karşı olum/Aristoteles karesi aracılığı ile basit önermelerin parçaları arasındaki ilişkileri belirler.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.2.3",
+    "ad": "Çıkarım çeşitlerini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: ARİSTOTELESÇİ MANTIK",
+    "aciklama": "a) Çıkarımın yapısını çözümler. b) Çıkarım çeşitlerini sınıflandırır. c) Çıkarımları geçerlilikleri açısından yorumlar.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.3.1",
+    "ad": "Aristotelesçi mantık ile sembolik mantığı temel özellikleri açısından karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: SEMBOLİK MANTIK",
+    "aciklama": "a) Aristotelesçi mantık ile sembolik mantığa ilişkin temel özellikleri belirler. b) Aristotelesçi mantık ile sembolik mantığın benzer özelliklerini listeler. c) Aristotelesçi mantık ile sembolik mantığın farklı özelliklerini listeler.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.3.2",
+    "ad": "Doğruluk değeri tablosunu çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: SEMBOLİK MANTIK",
+    "aciklama": "a) Doğruluk değerleri tablosunun temel unsurlarını belirler. b) Önermelerin doğruluk değerlerini doğruluk değeri tablosuyla belirler.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.3.3",
+    "ad": "Önermelerin tutarlılığını, geçerliliğini ve eşdeğerliğini doğruluk değeri tablosu ile denetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: SEMBOLİK MANTIK",
+    "aciklama": "a) Önermeleri doğruluk değeri tablosuna dönüştürür. b) Tutarlılık, geçerlilik ve eşdeğerlik kurallarını uygular. c) Önermelerin tutarlılığı, geçerliliği ve eşdeğerliği hakkında yargıda bulunur.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.3.4",
+    "ad": "Çıkarımların geçerliliğini doğruluk değeri tablosu ile denetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: SEMBOLİK MANTIK",
+    "aciklama": "a) Çıkarımları doğruluk değeri tablosuna dönüştürür. b) Çıkarım kurallarını uygular. c) Çıkarımların geçerliliği hakkında yargıda bulunur.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.3.5",
+    "ad": "Niceleme mantığını yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: SEMBOLİK MANTIK",
+    "aciklama": "a) Niceleme mantığının sembolik ögelerini inceler. b) Günlük dil ifadesini niceleme mantığının formel diline dönüştürür. c) Niceleme mantığının formel dilinde verilen ifadeleri günlük dilde anlamlı bir biçimde yeniden ifade eder.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.4.1",
+    "ad": "Mantık ve bilgi alanları arasındaki ilişkiyi yapılandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: MANTIK ÇEŞİTLERİ VE UYGULAMALARI",
+    "aciklama": "a) Felsefe, matematik, bilim ve teknolojinin konularını ve özelliklerini inceleyerek mantık ile ilişkisini ortaya koyar. b) Mantığın bilgi alanları ile ilişkisini bir bütün olarak ortaya koyar.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.4.2",
+    "ad": "Mantık çeşitlerini karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: MANTIK ÇEŞİTLERİ VE UYGULAMALARI",
+    "aciklama": "a) Mantık çeşitlerinin özelliklerini belirler. b) Mantık çeşitlerinin belirlenen özellikleri üzerinden benzerliklerini listeler. c) Mantık çeşitlerinin belirlenen özellikleri üzerinden farklılıklarını listeler.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.4.3",
+    "ad": "Verilen bir görüşü mantıksal açıdan tartışabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: MANTIK ÇEŞİTLERİ VE UYGULAMALARI",
+    "aciklama": "a) Verilen görüş hakkında mantıksal temellendirme yapar. b) Verilen görüşteki çelişkileri/tutarsızlıkları ve/veya geçersizlikleri tespit eder. c) Verilen görüşleri çürütür veya kabul eder.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.4.4",
+    "ad": "İhtiyaçların karşılanmasında ve sorunların çözümünde mantıksal açıdan karar verebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: MANTIK ÇEŞİTLERİ VE UYGULAMALARI",
+    "aciklama": "a) İhtiyaçların karşılanmasında ve sorunların çözümünde mantıksal açıdan karar vermeyi amaç olarak belirler. b) Karar verme sürecinde bilgi toplar. c) Edindiği bilgilerden hareketle alternatif önermeler oluşturur. ç) Oluşturduğu önermeleri mantıksal açıdan denetler. d) Denetlemeler sonucunda ulaştığı yapıya dayalı seçim yapar. e) Kararının sonuçlarını yansıtır.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.4.5",
+    "ad": "Akıl yürütme biçimlerini verilen günlük hayat durumlarında uygulayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: MANTIK ÇEŞİTLERİ VE UYGULAMALARI",
+    "aciklama": "a) Parçadan bütüne ilişki kurarak sonuca varır. b) Genelden genele ilişki kurarak akıl yürütür. c) Genelden özele ilişki kurarak akıl yürütür. ç) Özelden özele ilişki kurarak akıl yürütür.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "MAN.4.6",
+    "ad": "Örnek metinleri mantıksal açıdan denetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: MANTIK ÇEŞİTLERİ VE UYGULAMALARI",
+    "aciklama": "a) Örnek metinlerde geçen yargıları önermelere dönüştürerek ifade eder. b) Örnek metinlerden elde ettiği önermelere tutarlılık ve geçerlilik kurallarını uygular. c) Tutarlılık ve geçerlilik kuralları bağlamında örnek metinler hakkında yargıda bulunur.",
+    "brans": "felsefe",
+    "ders": "Mantık",
+    "okul_tipi": "lise"
+  }
+]

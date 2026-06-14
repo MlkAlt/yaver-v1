@@ -1,0 +1,402 @@
+[
+  {
+    "kod": "TDB.1.1.1",
+    "ad": "İnsanın değeri ve sorumluluğu konusunda temel kaynakları kullanabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: HAYATIN ANLAMI",
+    "aciklama": "a) İnsanın değeri ve sorumluluğu konusunda Kur’an-ı Kerim meallerine başvurur. b) İnsanın değeri ve sorumluluğu konusunda hadis kaynaklarına başvurur.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.1.2",
+    "ad": "İlkeli yaşamanın önemini idrak edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: HAYATIN ANLAMI",
+    "aciklama": "a) İlkeli yaşamanın önemiyle ilgili tefekkür sürecini gözden geçirir. b) İlkeli yaşamanın önemiyle ilgili tefekkür sürecine dayalı çıkarım yapar. c) İlkeli yaşamanın önemiyle ilgili tefekkür sürecinde ulaştığı çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.1.3",
+    "ad": "Necmeddin Okyay’ın örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: HAYATIN ANLAMI",
+    "aciklama": "a) Necmeddin Okyay’ın örnekliğiyle ilgili merak ettiklerini belirler. b) Necmeddin Okyay’ın örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Necmeddin Okyay’ın örnekliğiyle ilgili merak ettiklerini inceler. ç) Necmeddin Okyay’ın örnekliğiyle ilgili incelemelerinden hareketle çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.2.1",
+    "ad": "Aile kurumunun önemini yapılandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: BİRLİKTE YAŞAMANIN İLKELERİ",
+    "aciklama": "a) Aile kurumunun bileşenlerini inceleyerek mantıksal ilişkiler ortaya koyar. b) Tespit ettiği ilişkilerle ilgili bilgilerden yararlanarak aile kurumunun yapısı hakkında uyumlu bir bütün ortaya koyar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.2.2",
+    "ad": "Huzurlu toplumun özelliklerini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: BİRLİKTE YAŞAMANIN İLKELERİ",
+    "aciklama": "a) Huzurlu topluma ilişkin parçaları belirler. b) Huzurlu topluma ilişkin parçalar arasındaki ilişkileri belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.2.3",
+    "ad": "Aliya İzzetbegoviç’in örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: BİRLİKTE YAŞAMANIN İLKELERİ",
+    "aciklama": "a) Aliya İzzetbegoviç’in örnekliğiyle ilgili merak ettiklerini belirler. b) Aliya İzzetbegoviç’in örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Aliya İzzetbegoviç’in örnekliğiyle ilgili merak ettiklerini inceler. ç) Aliya İzzetbegoviç’in örnekliğiyle ilgili incelemelerinden hareketle çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.3.1",
+    "ad": "İslam hukukunun mahiyetini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ADALETİN TEMİNATI: İSLAM HUKUKU",
+    "aciklama": "a) İslam hukukunun konu ve kavramlarıyla ilgili çözümleme yapar. b) İslam hukukunun konu ve kavramlarıyla ilgili sınıflandırma yapar. c) İslam hukukunun konu ve kavramlarını kendi cümleleriyle aktarır.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.3.2",
+    "ad": "İslam hukukunun temel ilkelerini yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ADALETİN TEMİNATI: İSLAM HUKUKU",
+    "aciklama": "a) İslam hukukunun temel ilkelerini inceler. b) İslam hukukunun temel ilkelerini bağlamından koparmadan hayatı için anlamlı hâle getirir. c) İslam hukukunun temel ilkelerini kendi ifadeleriyle nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.3.3",
+    "ad": "Hz. Ömer’in örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: ADALETİN TEMİNATI: İSLAM HUKUKU",
+    "aciklama": "a) Hz. Ömer’in örnekliğiyle ilgili merak ettiklerini belirler. b) Hz. Ömer’in örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Hz. Ömer’in örnekliğiyle ilgili merak ettiklerini inceler. ç) Hz. Ömer’in örnekliğiyle ilgili incelemelerinden hareketle çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.4.1",
+    "ad": "İslam ekonomisine ilişkin konuları çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: HELAL KAZANÇ VE İŞ AHLAKI",
+    "aciklama": "a) İslam ekonomisine ilişkin konuları belirler. b) İslam ekonomisine ilişkin konular arasındaki ilişkiyi belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.4.2",
+    "ad": "Ekonomik hayatı olumsuz etkileyen uygulamaları sorgulayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: HELAL KAZANÇ VE İŞ AHLAKI",
+    "aciklama": "a) Ekonomik hayatı olumsuz etkileyen uygulamalara ilişkin merak ettiklerini tanımlar. b) Ekonomik hayatı olumsuz etkileyen uygulamalarla ilgili sorular sorar. c) Ekonomik hayatı olumsuz etkileyen uygulamalarla ilgili bilgi toplar. ç) Ekonomik hayatı olumsuz etkileyen uygulamalarla ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Ekonomik hayatı olumsuz etkileyen uygulamalarla ilgili topladığı bilgiler üzerinden çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.1.4.3",
+    "ad": "Hz. Hatice’nin örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: HELAL KAZANÇ VE İŞ AHLAKI",
+    "aciklama": "a) Hz. Hatice’nin örnekliğiyle ilgili merak ettiklerini belirler. b) Hz. Hatice’nin örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Hz. Hatice’nin örnekliğiyle ilgili merak ettiklerini inceler. ç) Hz. Hatice’nin örnekliğiyle ilgili inceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_1"
+  },
+  {
+    "kod": "TDB.2.1.1",
+    "ad": "Manevi yolculuk konusunu sorgulayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: İSLAM’DA MANEVİ HAYAT",
+    "aciklama": "a) Manevi yolculukla ilgili merak ettiklerini tanımlar. b) Manevi yolculuk hakkında sorular sorar. c) Manevi yolculuk hakkında bilgi toplar. ç) Manevi yolculuk hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Manevi yolculuk hakkında topladığı bilgiler üzerinden çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.1.2",
+    "ad": "Manevi hayatın temel ilkelerini yorumlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: İSLAM’DA MANEVİ HAYAT",
+    "aciklama": "a) Manevi hayatın temel ilkelerini inceler. b) Manevi hayatın temel ilkelerini bağlamından koparmadan hayatı için anlamlı hâle getirir. c) Manevi hayatın temel ilkelerini kendi ifadeleriyle nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.1.3",
+    "ad": "Ahmet Yüksel Özemre’nin örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: İSLAM’DA MANEVİ HAYAT",
+    "aciklama": "a) Ahmet Yüksel Özemre’nin örnekliğiyle ilgili merak ettiklerini belirler. b) Ahmet Yüksel Özemre’nin örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Ahmet Yüksel Özemre’nin örnekliğiyle ilgili merak ettiklerini inceler. ç) Ahmet Yüksel Özemre’nin örnekliğiyle ilgili incelemelerinden hareketle çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.2.1",
+    "ad": "İbadetin hayattaki yeri ve önemini sorgulayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: KULLUĞUN ANLAMI: İBADET",
+    "aciklama": "a) İbadetin hayattaki yeri ve önemine ilişkin merak ettiği konuyu tanımlar. b) İbadetin hayattaki yeri ve önemi hakkında sorular sorar. c) İbadetin hayattaki yeri ve önemi hakkında bilgi toplar. ç) İbadetin hayattaki yeri ve önemi hakkında toplanan bilgilerin doğruluğunu değerlendirir. d) İbadetin hayattaki yeri ve önemi hakkında toplanan bilgiler üzerinden çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.2.2",
+    "ad": "İbadetlerin yapılışını özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: KULLUĞUN ANLAMI: İBADET",
+    "aciklama": "a) İbadetlerin yapılışıyla ilgili çözümleme yapar. b) İbadetleri yapılışlarına göre sınıflandırır. c) İbadetlerin yapılışını kendi cümleleriyle aktarır.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.2.3",
+    "ad": "Hz. Ali’nin örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: KULLUĞUN ANLAMI: İBADET",
+    "aciklama": "a) Hz. Ali’nin örnekliğiyle ilgili merak ettiklerini belirler. b) Hz. Ali’nin örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Hz. Ali’nin örnekliğiyle ilgili merak ettiklerini inceler. ç) Hz. Ali’nin örnekliğiyle ilgili incelemelerinden hareketle çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.3.1",
+    "ad": "İyilik yolunda mücadeleyi anlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: CİHAT VE GAYRET",
+    "aciklama": "a) İyilik yolunda mücadele konusunu fark eder. b) İyilik yolunda mücadeleyi tanımlar. c) İyilik yolunda mücadelenin gerekliliğini açıklar. ç) İyilik yolunda mücadelenin özelliklerini belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.3.2",
+    "ad": "Vatan, şehadet ve zafer konusunun önemini yapılandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: CİHAT VE GAYRET",
+    "aciklama": "a) Vatan, şehadet ve zafer konusunu inceleyerek nedensel ilişkiler ortaya koyar. b) Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir bütün oluşturur.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.3.3",
+    "ad": "Hz. Sümeyye’nin örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: CİHAT VE GAYRET",
+    "aciklama": "a) Hz. Sümeyye’nin örnekliğiyle ilgili merak ettiklerini belirler. b) Hz. Sümeyye’nin örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Hz. Sümeyye’nin örnekliğiyle ilgili merak ettiklerini inceler. ç) Hz. Sümeyye’nin örnekliğiyle ilgili incelemelerinden hareketle çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.4.1",
+    "ad": "Dünya ve ahiret ilişkisini idrak edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: AHİRET BİLİNCİ",
+    "aciklama": "a) Dünya ve ahiret ilişkisiyle ilgili tefekkür sürecini gözden geçirir. b) Dünya ve ahiret ilişkisiyle ilgili tefekkür sürecine dayalı çıkarım yapar. c) Dünya ve ahiret ilişkisiyle ilgili ulaştığı çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.4.2",
+    "ad": "Ahiret hayatına ilişkin konuları çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: AHİRET BİLİNCİ",
+    "aciklama": "a) Ahiret hayatına ilişkin konuları belirler. b) Ahiret hayatına ilişkin konular arasındaki ilişkiyi belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.4.3",
+    "ad": "Ahirete uğurlamayla ilgili hususları yansıtabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: AHİRET BİLİNCİ",
+    "aciklama": "a) Ahirete uğurlamaya dair deneyimlerini gözden geçirir. b) Ahirete uğurlamayla ilgili deneyimlerine dayalı çıkarım yapar. c) Ahirete uğurlamayla ilgili deneyimlerine dair ulaştığı çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  },
+  {
+    "kod": "TDB.2.4.4",
+    "ad": "Rabia Adeviyye’nin örnekliğini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: AHİRET BİLİNCİ",
+    "aciklama": "a) Rabia Adeviyye’nin örnekliğiyle ilgili merak ettiklerini belirler. b) Rabia Adeviyye’nin örnekliğiyle ilgili merak ettikleri hakkında soru sorar. c) Rabia Adeviyye’nin örnekliğiyle ilgili merak ettiklerini inceler. ç) Rabia Adeviyye’nin örnekliğiyle ilgili inceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "okul_tipi": "lise",
+    "program": "temel_dini_bilgiler_islam_2"
+  }
+]

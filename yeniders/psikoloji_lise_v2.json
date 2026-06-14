@@ -1,0 +1,145 @@
+[
+  {
+    "kod": "PSK.1.1",
+    "ad": "Psikolojinin tanımı, konusu ve temel bileşenlerini çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: PSİKOLOJİ İLE TANIŞMA",
+    "aciklama": "a) Psikolojinin tanımını, konusunu ve temel bileşenlerini belirler. b) Psikolojinin temel bileşenleri arasındaki ilişkileri belirler.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.2.1",
+    "ad": "Gelişim psikolojisinin temel kavramlarını, gelişimi etkileyen etmenleri ve gelişimin ilkelerini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİMİ ANLAMAK",
+    "aciklama": "a) Gelişim psikolojisi ile ilgili temel kavramları çözümler. b) Gelişimi etkileyen etmenleri sınıflandırır. c) Kendisinin ve çevresindeki kişilerin gelişim sürecini, gelişim ilkelerini dikkate alarak yorumlar.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.2.2",
+    "ad": "Gelişim dönemlerinde değişim ve sürekliliği algılayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİMİ ANLAMAK",
+    "aciklama": "a) Gelişim özelliklerini dikkate alarak gelişim dönemlerini karşılaştırır. b) Gelişim dönemlerine göre gelişim görevlerini sıralar. c) Gelişim dönemlerindeki değişim ve sürekliliği neden ve sonuçları ile yorumlar. ç) Gelişim dönemindeki değişim ve sürekliliği sentezler. d) Kendisinin ve çevresindeki kişilerin gelişim dönemlerine göre yaşayacakları değişim ve sürekliliğe ilişkin gözleme dayalı öngörüde bulunur.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.2.3",
+    "ad": "İnsan zekâsı ile yapay zekâyı karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİMİ ANLAMAK",
+    "aciklama": "a) İnsan zekâsı ile yapay zekânın özelliklerini belirler. b) İnsan zekâsı ve yapay zekânın benzerliklerini listeler. c) İnsan zekâsı ve yapay zekânın farklılıklarını listeler.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.2.4",
+    "ad": "Kişilik ve benlik-dijital benliği karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GELİŞİMİ ANLAMAK",
+    "aciklama": "a) Kişilik ve benlik-dijital benliğin özelliklerini belirler. b) Kişilik ve benlik-dijital benliğin benzerliklerini listeler. c) Kişilik ve benlik-dijital benliğin farklılıklarını listeler.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.3.1",
+    "ad": "Öğrenmenin temel kavramlarını çözümleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: NASIL ÖĞRENİRİZ?",
+    "aciklama": "a) Öğrenme ile ilgili temel kavramları belirler. b) Öğrenme ile ilgili temel kavramlar arasındaki ilişkiyi belirler.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.3.2",
+    "ad": "Öğrenmeyi etkileyen etmenleri özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: NASIL ÖĞRENİRİZ?",
+    "aciklama": "a) Doğuştan, geçici ve öğrenilmiş davranış türlerini çözümler. b) Öğrenmeyi etkileyen etmenleri sınıflandırır. c) Öğrenmeyi etkileyen etmenleri yorumlar.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.3.3",
+    "ad": "Öğrenme yaklaşımlarını özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: NASIL ÖĞRENİRİZ?",
+    "aciklama": "a) Öğrenme yaklaşımlarını çözümler. b) Öğrenme yaklaşımlarını sınıflandırır. c) Öğrenme yaklaşımlarını yorumlar.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.3.4",
+    "ad": "İnsan öğrenmesi ile makine öğrenmesini karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: NASIL ÖĞRENİRİZ?",
+    "aciklama": "a) İnsan öğrenmesi ve makine öğrenmesinin özelliklerini belirler. b) İnsan öğrenmesi ve makine öğrenmesinin benzerliklerini listeler. c) İnsan öğrenmesi ve makine öğrenmesinin farklılıklarını listeler.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.4.1",
+    "ad": "Uyum sorunlarını karşılaştırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: BİREYSEL VE SOSYAL UYUM",
+    "aciklama": "a) Uyum sorunlarının özelliklerini belirler. b) Uyum sorunlarının benzerliklerini listeler. c) Uyum sorunlarının farklılıklarını listeler.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.4.2",
+    "ad": "Uyum sağlamaya yönelik yaklaşım ve becerileri yapılandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: BİREYSEL VE SOSYAL UYUM",
+    "aciklama": "a) Uyum sağlamaya yönelik yaklaşım ve becerileri inceleyerek nedensel ilişkiler ortaya koyar. b) Belirlediği ilişkiler ve uyum sağlamada kullanılan farklı yöntemler arasında uyumlu bir bütün oluşturur.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.4.3",
+    "ad": "Uyum sağlama sürecinde kullanılan maruz bırakma yönteminde sanal gerçeklik ve artırılmış gerçeklik uygulamalarının yeri ve önemine ilişkin eleştirel düşünebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: BİREYSEL VE SOSYAL UYUM",
+    "aciklama": "a) Maruz bırakma yönteminde sanal gerçeklik ve artırılmış gerçeklik uygulamalarının yeri ve önemini sorgular. b) Yaşantısal olarak maruz bırakmanın mümkün olmadığı (afet, savaş vb.) durumlarda sanal gerçeklik ve artırılmış gerçekliğin kullanımına ilişkin akıl yürütür. c) Sanal gerçeklik ve artırılmış gerçekliğin psikoloji alanındaki kullanımında sınırlılıklara ilişkin çıkarımda bulunur.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  },
+  {
+    "kod": "PSK.4.4",
+    "ad": "Tutum ve olumlu-olumsuz sosyal davranışları gözlemleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: BİREYSEL VE SOSYAL UYUM",
+    "aciklama": "a) Sunulan örnek olaylardaki tutum ve olumlu-olumsuz sosyal davranışları gözlemlemenin amacını ve ölçütünü belirler. b) Uygun yöntemi kullanarak veri toplar. c) Verilerden hareketle örnek olaylardaki sosyal davranışları çatışma, kalıp yargı, önyargı ve ayrımcılık açısından sınıflar ve ulaştığı sonuçları kaydeder.",
+    "brans": "felsefe",
+    "ders": "Psikoloji",
+    "okul_tipi": "lise"
+  }
+]

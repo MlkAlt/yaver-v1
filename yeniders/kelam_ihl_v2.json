@@ -1,0 +1,122 @@
+[
+  {
+    "kod": "KLM.12.1.1",
+    "ad": "Kelam ilminin mahiyetini müşahede edebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: KELAM İLMİNE GİRİŞ",
+    "aciklama": "a) Kelam ilminin mahiyeti hakkında merak ettiği konuları belirler. b) Kelam ilminin mahiyetiyle ilgili merak ettiği konular hakkında soru sorar. c) Kelam ilminin mahiyeti hakkında merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.1.2",
+    "ad": "Kelam ilminin bilgi kaynaklarını ve yöntemlerini müşahede edebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: KELAM İLMİNE GİRİŞ",
+    "aciklama": "a) Kelam ilminin bilgi kaynakları ve yöntemlerine dair merak ettiği meseleleri belirler. b) Kelam ilminin bilgi kaynakları ve yöntemleri hakkında soru sorar. c) Kelam ilminin bilgi kaynakları ve yöntemlerine dair merak ettiği meseleleri inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.1.3",
+    "ad": "Kelam ilminin tarihsel gelişimini çözümleyebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: KELAM İLMİNE GİRİŞ",
+    "aciklama": "a) Kelam ilminin tarihsel gelişim dönemlerini inceler. b) Kelam ilminin dönemleri arasındaki ilişkileri belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.2.1",
+    "ad": "Din ve dinî yorumlar arasındaki ilişkiyi özetleyebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: DİNİN ANLAŞILMASINDA FARKLI YORUMLAR",
+    "aciklama": "a) Din ve dinî yorumlar arasındaki ilişkiyi çözümler. b) Din ve dinî yorum türleri arasındaki ilişkiyi sınıflandırır. c) Din ve dinî yorumlar arasındaki ilişkiyi yorumlar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.2.2",
+    "ad": "İtikadi ve siyasi mezheplerin özelliklerini mukayese yapabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: DİNİN ANLAŞILMASINDA FARKLI YORUMLAR",
+    "aciklama": "a) İtikadi ve siyasi mezheplerin öne çıkan özelliklerini belirler. b) Belirlenen özelliklere ilişkin benzerlikleri ortaya koyar. c) Belirlenen özelliklere ilişkin farklılıkları ortaya koyar. ç) Belirlenen özellikler arasında ilişki kurar. d) Ortaya konulan benzerlik ve farklılıklara dayalı olarak çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.3.1",
+    "ad": "Allah’a (cc) ve kadere imanın temellendirilmesini yapılandırabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: İNANÇ ESASLARININ TEMELLENDİRİLMESİ",
+    "aciklama": "a) Allah’a (cc) ve kadere imanın temellendirilmesinde mantıksal ilişkiler ortaya koyar. b) Allah’a (cc) ve kadere imanın temellendirilmesinde akli/naklî delillerden yararlanarak uyumlu bir bütün oluşturur.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.3.2",
+    "ad": "Peygamberlere ve kutsal kitaplara imanın temellendirilmesinde akli ve naklî delilleri kullanabilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: İNANÇ ESASLARININ TEMELLENDİRİLMESİ",
+    "aciklama": "a) Peygamberlere ve kutsal kitaplara imanın temellendirilmesinde akli ve naklî deliller toplar. b) Peygamberlere ve kutsal kitaplara imanın temellendirilmesinde topladığı akli ve naklî deliller arasında ilişki kurar. c) Peygamberlere ve kutsal kitaplara imanı temellendirmesinde akli ve naklî delillere dayalı değerlendirme yapar. ç) Peygamberlere ve kutsal kitaplara imanın temellendirilmesinde akli ve naklî delillere amaca uygun olarak yer verir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.3.3",
+    "ad": "Meleklere ve ahirete imanın temellendirilmesini idrak edebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: İNANÇ ESASLARININ TEMELLENDİRİLMESİ",
+    "aciklama": "a) Meleklere ve ahirete imanın temellendirilmesine dair meseleleri gözden geçirir. b) Meleklere ve ahirete imanın temellendirilmesinde tefekkür sürecine dayalı çıkarım yapar. c) Meleklere ve ahirete imanın temellendirilmesinde ulaşılan çıkarımları değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.4.1",
+    "ad": "Güncel kelam konularındaki görüşleri irdeleyebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: KELAM İLMİNİN GÜNCEL MESELELERİ",
+    "aciklama": "a) Güncel kelam konularındaki görüşleri tespit eder. b) Tespit ettiği görüşleri karşılaştırır. c) Güncel kelam konularındaki görüşleri temel dinî bilgi kaynaklarını ölçüt alarak inceler. ç) Güncel kelam konuları hakkında tercih edilebilir görüşleri gerekçeleriyle belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "KLM.12.4.2",
+    "ad": "Allah-insan-âlem ilişkisine dair yaklaşımlar hakkında eleştirel düşünebilme",
+    "sinif": 12,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: KELAM İLMİNİN GÜNCEL MESELELERİ",
+    "aciklama": "a) Allah-insan-âlem ilişkisine dair yaklaşımlardaki görüşleri sorgular. b) Allah-insan-âlem ilişkisine dair yaklaşımlardaki İslam’a aykırı görüşlere karşı cevap oluşturmak için akıl yürütür. c) Allah-insan-âlem ilişkisine dair yaklaşımlardaki görüşlerle ilgili ulaştığı çıkarımları yansıtır.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri", "dkab"],
+    "ders": "Kelam",
+    "okul_tipi": "ihl"
+  }
+]

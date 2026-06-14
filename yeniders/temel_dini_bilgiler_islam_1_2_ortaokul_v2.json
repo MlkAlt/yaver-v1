@@ -1,0 +1,514 @@
+[
+  {
+    "kod": "TDB.1.1.1",
+    "ad": "Kur’an ve sünnetin hayatındaki yerini özetleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: DİNİMİZ İSLAM",
+    "aciklama": "a) Kur’an ve sünnetin hayatındaki yeriyle ilgili çözümleme yapar. b) Kur’an ve sünnetin hayatındaki yerini sınıflandırır. c) Kur’an ve sünnetin hayatındaki yerini kendi ifadeleriyle yorumlar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.1.2",
+    "ad": "Niçin inandığıyla ilgili Kur’an-ı Kerim meallerine başvurabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: DİNİMİZ İSLAM",
+    "aciklama": "a) İman konusuyla ilgili aradığı ayetlerin meallerini bulur. b) Ayetlerde geçen konuları belirler. c) Ayetleri içeriklerine göre sınıflandırır. ç) Ayet mealleri doğrultusunda “Niçin inanıyorum?” sorusuyla ilgili çıkarım yapar. d) Ayetlerle ilgili yaptığı çıkarımlara konulara uygun yer verir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.1.3",
+    "ad": "Mümin kimliği hakkında müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: DİNİMİZ İSLAM",
+    "aciklama": "a) Mümin kimliği hakkında merak ettiği meseleleri belirler. b) Belirlediği meseleler hakkında soru sorar. c) Mümin kimliği hakkında merak ettiği meseleleri inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.1.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: DİNİMİZ İSLAM",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.2.1",
+    "ad": "İbadetle ilgili öğrendiklerini kendi hayatına yansıtabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: HAYATIMIZ İBADET",
+    "aciklama": "a) İbadetle ilgili öğrendiklerini gözden geçirir. b) İbadetle ilgili öğrendiklerine dayalı çıkarım yapar. c) İbadetle ilgili öğrendikleri hakkında ulaştığı çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.2.2",
+    "ad": "İbadetin temel ilkeleri konusunda analitik düşünebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: HAYATIMIZ İBADET",
+    "aciklama": "a) İbadetin temel ilkeleri arasında ilişki kurar. b) İbadetin temel ilkeleri arasında kurduğu ilişkiyle ilgili akıl yürütür. c) Akıl yürütme ile ulaştığı çıkarımları tartışır. ç) İbadetin temel ilkelerine uymanın gerekliliğini gerekçeleriyle belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.2.3",
+    "ad": "İbadetlerin hükümlerini mukayese yapabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: HAYATIMIZ İBADET",
+    "aciklama": "a) İbadetlerin hükümlerine ilişkin özellikleri belirler. b) Belirlenen özelliklere ilişkin benzerlikleri ortaya koyar. c) Belirlenen özelliklere ilişkin farklılıkları ortaya koyar. ç) Belirlenen özellikler arasında ilişki kurar. d) Ortaya konan benzerlik ve farklılıklara dayalı olarak ibadetlerin hükümleri hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.2.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: HAYATIMIZ İBADET",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.3.1",
+    "ad": "Mahremiyette ölçümüzü müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: İSLAM ÖLÇÜLÜ OLMAMIZI İSTER",
+    "aciklama": "a) Mahremiyette ölçü hakkında merak ettiği konuları belirler. b) Belirlediği konular hakkında sorular sorar. c) Mahremiyette ölçü hakkında merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.3.2",
+    "ad": "Kardeşlikte ölçümüzü idrak edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: İSLAM ÖLÇÜLÜ OLMAMIZI İSTER",
+    "aciklama": "a) Müslümanlar arasındaki kardeşlikle ilgili tefekkür sürecini gözden geçirir. b) Kardeşlikte ölçü konusuyla ilgili tefekkür sürecine dayalı çıkarım yapar. c) Kardeşlikte ölçü konusuyla ilgili ulaşılan çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.3.3",
+    "ad": "Tasarrufta ölçümüzle ilgili Kur’an-ı Kerim meallerine başvurabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: İSLAM ÖLÇÜLÜ OLMAMIZI İSTER",
+    "aciklama": "a) Tasarrufta ölçüyle ilgili ayetlerin meallerini bulur. b) Tasarrufta ölçüyle ilgili ayetlerde geçen kavramları belirler. c) Tasarrufta ölçüyle ilgili ayetleri içeriklerine göre sınıflandırır. ç) Tasarrufta ölçüyle ilgili ayet mealleri doğrultusunda konuyla ilgili çıkarım yapar. d) Tasarrufta ölçüyle ilgili yaptığı çıkarımlara günlük hayatında yer verir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.3.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: İSLAM ÖLÇÜLÜ OLMAMIZI İSTER",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.4.1",
+    "ad": "Müslüman’ın iradesine sahip çıkmasını ve onu bilinçli biçimde kullanmasını müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'LA DEĞERLENEN HAYATIMIZ",
+    "aciklama": "a) Müslüman’ın iradesine sahip çıkması ve onu bilinçli biçimde kullanmasıyla ilgili merak ettiği konuları belirler. b) Belirlediği konular hakkında soru sorar. c) Müslüman’ın iradesine sahip çıkması ve onu bilinçli biçimde kullanmasıyla ilgili merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.4.2",
+    "ad": "Müslüman’ın ilimle yücelmesini idrak edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'LA DEĞERLENEN HAYATIMIZ",
+    "aciklama": "a) Müslüman’ın ilimle yücelmesi hakkında tefekkür sürecini gözden geçirir. b) Müslüman’ın ilimle yücelmesi hakkındaki tefekkür sürecine dayalı çıkarım yapar. c) Ulaşılan çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.4.3",
+    "ad": "Müslüman’ın hayâ ile güzelleşmesini anlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'LA DEĞERLENEN HAYATIMIZ",
+    "aciklama": "a) Hayâ kavramını fark eder. b) Hayâ kavramını tanımlar. c) Hayânın Müslüman’a kattığı değerleri sebepleriyle açıklar. ç) Hayâ kavramının özelliklerini belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.1.4.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'LA DEĞERLENEN HAYATIMIZ",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_1",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.1.1",
+    "ad": "Allah’ın (cc) varlığını, birliğini ve sıfatlarını idrak edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: RABBİMİZE YÖNELMEK",
+    "aciklama": "a) Allah’ın (cc) varlığı, birliği ve sıfatlarıyla ilgili tefekkür sürecini gözden geçirir. b) Allah’ın (cc) varlığı, birliği ve sıfatlarıyla ilgili tefekkür sürecine dayalı çıkarım yapar. c) Allah’ın (cc) varlığı, birliği ve sıfatlarıyla ilgili ulaşılan çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.1.2",
+    "ad": "Dua ve zikrin İslam’daki önemini anlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: RABBİMİZE YÖNELMEK",
+    "aciklama": "a) Dua ve zikir kavramlarını fark eder. b) Dua ve zikir kavramlarını tanımlar. c) Dua ve zikre yönelmenin sebeplerini açıklar. ç) Dua ve zikir kavramlarının özelliklerini belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.1.3",
+    "ad": "Tövbe kavramı için Kur’an-ı Kerim meallerine başvurabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: RABBİMİZE YÖNELMEK",
+    "aciklama": "a) Tövbeyle ilgili aradığı ayetlerin meallerini bulur. b) Ayetlerde geçen konuları belirler. c) Ayetleri içeriklerine göre sınıflandırır. ç) Ayet mealleri doğrultusunda tövbeyle ilgili çıkarım yapar. d) Ayetlerle ilgili yaptığı çıkarımlara tövbe konusunda yer verir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.1.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "1. ÜNİTE: RABBİMİZE YÖNELMEK",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.2.1",
+    "ad": "Namaza hazırlığı müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GÖZÜMÜZÜN NURU NAMAZ",
+    "aciklama": "a) Namaza hazırlıkla ilgili merak ettiği konuları belirler. b) Namaza hazırlıkla ilgili belirlediği konular hakkında soru sorar. c) Namaza hazırlıkla ilgili merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.2.2",
+    "ad": "Namazın hükümlerini sınıflandırabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GÖZÜMÜZÜN NURU NAMAZ",
+    "aciklama": "a) Namazın hükümlerine ilişkin ölçütleri belirler. b) Namazın hükümlerini ayrıştırır. c) Namazın hükümlerini tasnif eder. ç) Namazın hükümlerini etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.2.3",
+    "ad": "Namazın kılınışını tatbik edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GÖZÜMÜZÜN NURU NAMAZ",
+    "aciklama": "a) Namazın kılınış sırasını ve temel kurallarını açıklar. b) Namaz kılmak için ön hazırlık yapar. c) Namazı usulüne uygun biçimde kılar. ç) Namazın uygulama süreçlerini değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.2.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "2. ÜNİTE: GÖZÜMÜZÜN NURU NAMAZ",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.3.1",
+    "ad": "Kul hakkı kavramını anlayabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: MÜSLÜMAN KUL HAKKINI GÖZETİR",
+    "aciklama": "a) Kul hakkı kavramını fark eder. b) Kul hakkı kavramını tanımlar. c) Kul hakkının ortaya çıktığı durumları sebepleriyle açıklar. ç) Kul hakkı kavramının özelliklerini belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.3.2",
+    "ad": "Sılayırahmin önemini hayatına yansıtabilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: MÜSLÜMAN KUL HAKKINI GÖZETİR",
+    "aciklama": "a) Sılayırahim ile ilgili tecrübelerini gözden geçirir. b) Sılayırahim ile ilgili tecrübelerinden hareketle sılayırahmin önemi hakkında çıkarım yapar. c) Sılayırahmin önemi hakkında ulaştığı çıkarımları değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.3.3",
+    "ad": "Topluma ve çevreye emanet bilinciyle yaklaşmanın etkilerini müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: MÜSLÜMAN KUL HAKKINI GÖZETİR",
+    "aciklama": "a) Topluma ve çevreye emanet bilinciyle yaklaşmanın etkileriyle ilgili merak ettiği konuları belirler. b) Topluma ve çevreye emanet bilinciyle yaklaşmanın etkileriyle ilgili belirlediği konular hakkında soru sorar. c) Topluma ve çevreye emanet bilinciyle yaklaşmanın etkileriyle ilgili merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.3.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "3. ÜNİTE: MÜSLÜMAN KUL HAKKINI GÖZETİR",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.4.1",
+    "ad": "İletişimde ahlakı irdeleyebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'I TEMSİL EDİYORUZ",
+    "aciklama": "a) İletişimde ahlaki tutumların neler olduğunu tespit eder. b) İletişimde ahlaki tutumları karşılaştırır. c) İletişimde ahlaki tutumları temel dinî bilgi kaynaklarını ölçüt alarak inceler. ç) İletişimde ahlaki tutumlardan tercih edilebilir olanları gerekçeleriyle belirler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.4.2",
+    "ad": "İyiliğe gönüllü olmayı müşahede edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'I TEMSİL EDİYORUZ",
+    "aciklama": "a) İyiliğe gönüllü olmayla ilgili merak ettiği konuları belirler. b) İyiliğe gönüllü olmayla ilgili belirlediği konular hakkında soru sorar. c) İyiliğe gönüllü olmayla ilgili merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.4.3",
+    "ad": "İslam’ı tebliği tatbik edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'I TEMSİL EDİYORUZ",
+    "aciklama": "a) İslam’ı tebliğin süreç ve kurallarını açıklar. b) İslam’ı tebliğ için ön hazırlık yapar. c) İslam’ı tebliği usulüne uygun biçimde icra eder. ç) İslam’ı tebliğ süreçlerini değerlendirir.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  },
+  {
+    "kod": "TDB.2.4.4",
+    "ad": "Allah’ın (cc) güzel isimlerini ayırt edebilme",
+    "sinif": 0,
+    "sinif_tipi": "secmeli",
+    "unite": "4. ÜNİTE: İSLAM'I TEMSİL EDİYORUZ",
+    "aciklama": "a) Metinlerde geçen Allah’ın (cc) güzel isimlerini tespit eder. b) Metinlerde geçen Allah’ın (cc) güzel isimlerinin İslam’daki yeri ve önemini araştırır. c) Allah’ın (cc) güzel isimlerini ilişkili olduğu alana göre etiketler.",
+    "brans": "dkab",
+    "branslar": [
+      "dkab",
+      "ihl_meslek_dersleri"
+    ],
+    "ders": "Temel Dinî Bilgiler (İslam 1-2)",
+    "program": "temel_dini_bilgiler_islam_2",
+    "okul_tipi": "ortaokul"
+  }
+]

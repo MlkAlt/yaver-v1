@@ -1,6 +1,6 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 10.06.2026 — Oturum 58
+**Son güncelleme:** 13.06.2026 — Oturum 64
 
 ## Şu An Ne Yapıyoruz
 
@@ -16,52 +16,58 @@ Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_k
 - Migration 050: +10 (MÜZ/BES/İTA/BTY/MAT eksikler) ✅
 - Migration 051: +17 (SBTK/HDS/KK.iho/PH.iho/DMUS) ✅
 - Migration 052: +2 yeni (SOS.11.3.1, DKAB.12.3.5) + 83 metin düzeltmesi (AST/İHVD/İÇYÇ/İBT) ✅
+- Migration 053: KK ihl/lise okul_tipi swap + 11 KK.H hazırlık kodu (sinif=0) ✅
+- Migration 054: TDE lise yeniden yapılandırma — 64 hatalı (sinif=9) → 299 grade-specific (HAZ:54, 9:54, 10:63, 11:64, 12:64) ✅
+- Migration 055: Hazırlık sınıfı eklendi — MAT.H:11, GS.H:24, MUZ.H:7, BES.H:6 (+48) ✅
+- Migration 056: İTA-8 ders adı: 'T.C. İnkılap Tarihi' → 'T.C. İnkılap Tarihi ve Atatürkçülük' ✅
+- Migration 057: KAK sinıf düzeltme — sinif=11,12 → sinif=10,11 + kod yenileme ✅
+- Migration 058: TDB iho-7,8 (32 kazanım) + TDB lise-9,10 (25 kazanım) eklendi ✅
+- Migration 059: BTY.6.6.3, BES.8.2.4, BES.8.3.4, TDE.10.4.4.4, ENG.7.5.W7 eklendi ✅
+- Migration 060: Türkçe ilkokul tema yapısı (432 kayıt, 1:99/2:108/3:111/4:114) ✅
+- Migration 061: Türkçe ortaokul tema yapısı (616 kayıt, 5:158/6:153/7:151/8:154) ✅
+- Migration 062: İngilizce lise yeniden yükleme — garbage kod düzeltme (720 kayıt, 9:192/10:192/11:192/12:144) ✅
 
-**DB toplam:** 5524 kazanım (exact count)
+**DB toplam:** 6657 kazanım (migration 066 sonrası — ENG.3.1.PC1 + Temel Dinî + ilkokul Arapça temizlik)
 
-**_all_kazanimlar.json:** 5732 giriş (Migration 050+051 eklendi ✅, 052 JSON'a yansıtılmadı)
+**Audit durumu (Oturum 64):** 204/204 ✓
+
+**Kesinleşenler (Oturum 64):**
+- Coğrafya-12 = 20 (4-saat versiyonu, DB doğru)
+- İslam Felsefesi-11 = 11 (PDF'de gerçekten 11, kapalı)
+- BTY 7-8 / TT 5-6 / Felsefe-9 / Hayat Bilgisi-4 → PDF'de de yok, kapsam dışı (kapalı)
+
+**Bekleyen (kullanıcı araştırıyor):**
+- Fransızca lise 9-12: PDF var mı?
+- Almanca lise 9-12: PDF var mı?
+- İslam Bilim Tarihi ihl-11: DB'de 28 var, doğru mu?
+
+**_all_kazanimlar.json:** 5732 giriş (Migration 050+051 eklendi ✅, 052-059 JSON'a yansıtılmadı)
 
 **Önemli düzeltme:** TT sınıf 7 = PDF'de 27 (kullanıcı 31 saymıştı, PDF doğru kabul edildi)
 
 ---
 
-### BEKLEYEN KARAR — Kullanıcıdan yanıt bekleniyor
-**Arapça ilkokul (sınıf 2,3,4):** Gerçek PDF var (`arapca24.pdf`, 72 kayıt). Tutulsun mu silinsin mi?
-
----
-
 ### YAPILACAKLAR LİSTESİ (öncelik sırasıyla)
 
-#### A) Araştırılacak / doğrulanacak (Claude yapacak)
-1. Kur'an'ın Ana Konuları PDF'inden sınıf doğrulama — katalog 11,12 diyor, kullanıcı 10,11 dedi → extraction yapılacak
-2. İngilizce ortaokul neden fazla (6:+24, 7:+23, 8:+24) → duplicate kaynak aranacak
-3. Kur'an-ı Kerim ihl vs lise seçmeli ayrımı → kk912.pdf extraction kalitesi kontrol edilecek
-4. Sağlık Bilgisi seçmeli/zorunlu → web araştırması
+#### A) Tamamlandı ✅ (Oturum 56-60)
+- İTA-8 ders adı düzeltme → Migration 056 ✅
+- KAK sinıf düzeltme (10,11 → 10,11 yeni kodlar) → Migration 057 ✅
+- TDB iho-7,8 + TDB lise-9,10 (57 kazanım) → Migration 058 ✅
+- BTY.6.6.3, BES.8.2.4/3.4, TDE.10.4.4.4, ENG.7.5.W7 → Migration 059 ✅
+- İslam Felsefesi audit target düzeltme: 12→11 ✅
 
-#### B) Hızlı düzeltmeler — TAMAMLANDI ✅
-- Coğrafya 11: 19→9 (10 fazla silinecek) — Migration 047 ✅
-- Temel Dini Bilgiler lise 9: 16→12, 10: 16→13 — Migration 047 ✅
-- Temel Düzey Matematik 11, Tezhip 9, Din Kültürü 4 — Migration 047 ✅
-- ~~Teknoloji Tasarım 7: +3 (TT.7.5.1/3/4), 8: +3 (TT.8.1.3, TT.8.3.2/3) — Migration 049 ✅~~
-- ~~Trafik Güvenliği 4: +4 (TG.4.3.1/2, TG.4.4.1/2) — Migration 049 ✅~~
-- ~~Müzik 5/6/7: +1, BES.7.4.1, İTA.8.2.5, BTY.6.4.2/4, MAT.1.3.3/4/5 — Migration 050 ✅~~
-- ~~SBTK.4.1/2, HDS.10.4.3, KK.7.3.3/4.1, PH.8.2.2, DMUS I/II/III — Migration 051 ✅~~
-- BES 8: +2 → kullanıcı sayım hatası (PDF=10, DB=10) — atlandı
-- TDB iho 7,8 — kullanıcı sayım hatası — atlandı
-- İslam Felsefesi ihl 11 — kullanıcı sayım hatası — atlandı
-- DKAB lise 12: +1 → kullanıcı sayım hatası (PDF=19=DB) — atlandı
+#### B) Audit hedef düzeltmeleri (tamamlandı)
+- TT-7: 31→27, İng ort 6/7/8: 160/168/168→184/192/192 (bunlar DB doğruydu)
+- İslamFel-11: 12→11 (İF.3.3 PDF'de yok)
 
-#### C) Büyük re-extraction (yeni script + migration)
-- Türkçe ilkokul: ~+355 kazanım (tema alt-kazanımları)
-- Türkçe ortaokul: ~+210 kazanım (tema alt-kazanımları)
-- Arapça iho 5-8: ~+301 kazanım
-- Arapça ihl 9-10: ~+150 kazanım
-- İngilizce lise 9-12: +36 kazanım
-
-#### D) Yeni eklenmesi gerekenler (text + extraction gerekli)
-- Hazırlık sınıfı (sinif=0): Matematik:11, Görsel Sanatlar:24, Müzik:7, BES:6, KK-ihl:11
-- Kur'an'ın Ana Konuları: sınıf doğrulandıktan sonra extraction
-- İngilizce lise fazlaları temizlenip eksikler eklenecek
+#### C) Büyük re-extraction (yeni script + migration) — V1.5 kapsamı
+- ~~Türkçe ilkokul~~ ✅ (Migration 060)
+- ~~Türkçe ortaokul~~ ✅ (Migration 061)
+- ~~İngilizce lise~~ ✅ (Migration 062)
+- ~~Arapça iho 5-8~~ ✅ (Migration 063, 310 kayıt)
+- ~~Arapça ihl 9-10~~ ✅ (Migration 064, 158 kayıt)
+- Migration 065: KK ihl-9 (14→12), İng ort-5 (160→138), TT-7 ünite 9 ekleme (27→31) ✅
+- Migration 066: ENG.3.1.PC1 sil, Temel Dinî Bilgiler (î) 50 garbage sil, ilkokul Arapça 72 sil ✅
 
 ---
 
@@ -99,14 +105,12 @@ Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_k
 - Migration 043 (TRUNCATE) + Migration 044 (seed) uygulandı ✅
 
 ### Ertelenenler (V1.5)
-- hazırlık İngilizcesi: 165 unique kod — artifact riski, ayrıca incelenmeli
-- Fransızca lise 9-12 → 0 kazanım (kritik)
-- Almanca lise 9-12 → 0 kazanım
-- Bilişim Teknolojileri 7-8 → 0 (5-6 var)
-- Teknoloji ve Tasarım 5-6 → 0 (7-8 var)
-- Felsefe 9 → 0 (10-12 var)
-- Hayat Bilgisi 4 → 0 (1-3 var)
+- Coğrafya 2-saat/4-saat: onboarding'de saat seçimi → planUret filtresi (`src/data/cografya_2saat.json` hazır)
+- Fransızca lise 9-12 → 0 kayıt (PDF var mı kontrol edilecek)
+- Almanca lise 9-12 → 0 kayıt (PDF var mı kontrol edilecek)
+- İslam Bilim Tarihi ihl-11 → DB'de 28 var ama audit'e eklenmedi (kullanıcı kontrol edecek)
 - secmeliDersler.ts uyarı düzeltmeleri
+- NOT: BTY 7-8 / TT 5-6 / Felsefe-9 / Hayat Bilgisi-4 → PDF'de de yok, kapsam dışı ✓
 
 ### Kritik audit aracı
 `scripts/audit-mufredat.cjs` — Supabase'den canlı sayım:

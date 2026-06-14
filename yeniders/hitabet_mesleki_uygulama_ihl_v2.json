@@ -1,0 +1,110 @@
+[
+  {
+    "kod": "HMU.11.1.1",
+    "ad": "Ülkemizdeki din hizmetlerini müşahede edebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: DİN HİZMETLERİ VE İLETİŞİM",
+    "aciklama": "a) Ülkemizdeki din hizmetleri ile ilgili merak ettiği konuları belirler. b) Ülkemizdeki din hizmetleri ile ilgili belirlediği konular hakkında sorular sorar. c) Ülkemizdeki din hizmetleri ile ilgili merak ettiği konuları inceler. ç) İnceleme sonuçları hakkında çıkarım yapar.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.1.2",
+    "ad": "Din hizmetlerinde iletişim ve hitabetin unsurlarını çözümleyebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "1. ÜNİTE: DİN HİZMETLERİ VE İLETİŞİM",
+    "aciklama": "a) Din hizmetlerinde iletişim ve hitabetin unsurlarını belirler. b) Din hizmetlerinde iletişim ve hitabetin unsurları arasındaki ilişkileri belirler.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.2.1",
+    "ad": "Vaazı usulüne uygun olarak yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: DİNÎ HİTABET UYGULAMALARI",
+    "aciklama": "a) Vaazı diğer hitabet türlerinden ayırt eder. b) Uygulayacağı vaaza yönelik ön hazırlık yapar. c) Vaazı usulüne uygun biçimde uygular. ç) Vaaz ile ilgili uygulama süreçlerini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.2.2",
+    "ad": "Hutbeyi usulüne uygun olarak yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: DİNÎ HİTABET UYGULAMALARI",
+    "aciklama": "a) Hutbeyi diğer hitabet türlerinden ayırt eder. b) Uygulayacağı hutbeye yönelik ön hazırlık yapar. c) Hutbeyi usulüne uygun biçimde uygular. ç) Hutbe ile ilgili uygulama süreçlerini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.2.3",
+    "ad": "4–6 yaş grubuna yönelik din eğitimini usulüne uygun olarak yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "2. ÜNİTE: DİNÎ HİTABET UYGULAMALARI",
+    "aciklama": "a) 4–6 yaş din eğitiminin temel ilkelerini ve uygulanma esaslarını açıklar. b) 4–6 yaş grubuna yönelik din eğitimi etkinliklerine ilişkin ön hazırlık yapar. c) 4–6 yaş grubuna uygun din eğitimi sürecini usulüne uygun biçimde tatbik eder. ç) 4–6 yaş din eğitimi uygulama sürecini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.3.1",
+    "ad": "Cami musikisi örneklerini usulüne uygun biçimde yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: TESBİHAT VE DUALAR",
+    "aciklama": "a) Cami musikisi örneklerinin süreç ve kurallarını açıklar. b) Cami musikisi örneklerini icra etmek için ön hazırlık yapar. c) Cami musikisi örneklerini usulüne uygun biçimde tatbik eder. ç) Cami musikisi örneklerinin süreçlerini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.3.2",
+    "ad": "Dua örneklerini usulüne uygun biçimde yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "3. ÜNİTE: TESBİHAT VE DUALAR",
+    "aciklama": "a) Dua örneklerinin süreç ve kurallarını açıklar. b) Dua örneklerini icra etmek için ön hazırlık yapar. c) Dua örneklerini usulüne uygun biçimde tatbik eder. ç) Dua örneklerinin süreçlerini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.4.1",
+    "ad": "Sosyal yaşamda yer alan dinî merasimleri usulüne uygun biçimde yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: DİNÎ MERASİMLER",
+    "aciklama": "a) Sosyal yaşamda yer alan dinî merasimlerin süreç ve kurallarını açıklar. b) Bu dinî merasimlerin uygulanışı için gerekli ön hazırlıkları yapar. c) Dinî merasimleri usulüne uygun biçimde tatbik eder. ç) Dinî merasimlerin uygulama süreçlerini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  },
+  {
+    "kod": "HMU.11.4.2",
+    "ad": "Cenazeyle ilgili dinî işlemleri usulüne uygun biçimde yerine getirebilme",
+    "sinif": 11,
+    "sinif_tipi": "normal",
+    "unite": "4. ÜNİTE: DİNÎ MERASİMLER",
+    "aciklama": "a) Cenazeyle ilgili dinî işlemlerin süreç ve kurallarını açıklar. b) Cenazeyle ilgili dinî işlemler için ön hazırlıkları yapar. c) Cenazeyle ilgili dinî işlemleri usulüne uygun biçimde tatbik eder. ç) Cenazeyle ilgili dinî işlemlerin süreçlerini değerlendirir.",
+    "brans": "ihl_meslek_dersleri",
+    "branslar": ["ihl_meslek_dersleri"],
+    "ders": "Hitabet ve Mesleki Uygulama",
+    "okul_tipi": "ihl"
+  }
+]

@@ -1,0 +1,145 @@
+[
+ {
+  "kod": "İHVD.4.1.1",
+  "ad": "Çocuk olmanın özelliklerini belirleyebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. ÖĞRENME ALANI: ÇOCUK OLARAK HAKLARIMLA VARIM",
+  "aciklama": "",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.1.2",
+  "ad": "Çocuk haklarıyla ilgili kanıta dayalı olarak oluşturduğu ürünü paylaşabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. ÖĞRENME ALANI: ÇOCUK OLARAK HAKLARIMLA VARIM",
+  "aciklama": "a) Verilen kanıtlara dayanarak çocuk haklarına ihtiyaç duyulma sebeplerini tespit eder. b) Tespitleri bağlamında kendi çocuk hakları sözleşmesini oluşturur. c) Çocuk Hakları Sözleşmesi’nin maddelerini sözlü veya görsel olarak yeniden ifade eder.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.1.3",
+  "ad": "İnsan olmanın getirdiği temel hak ve özgürlükleri yorumlayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "1. ÖĞRENME ALANI: ÇOCUK OLARAK HAKLARIMLA VARIM",
+  "aciklama": "a) İnsan olmanın getirdiği temel hak ve özgürlükleri örnekler üzerinden inceler. b) İnsan olmanın getirdiği temel hak ve özgürlükleri bağlamdan kopmadan yazılı veya sözlü olarak ifade eder. c) İnsan olmanın getirdiği temel hak ve özgürlükleri kendi cümleleri ile ifade eder.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.2.1",
+  "ad": "Eşitlik kavramının anlamını sorgulayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ÖĞRENME ALANI: HAYATIMDA EŞİTLİK VE ADALET",
+  "aciklama": "a) Eşitlik kavramı ile ilgili merak ettiklerini tanımlar. b) Eşitlik kavramı hakkında sorular sorar (5N1K). c) Eşitlik hakkında farklı kaynaklardan bilgi toplar. ç) Eşitlik hakkında edindiği bilgilerin doğruluğunu kontrol eder. d) Eşitlik hakkında topladığı bilgiler üzerinden çıkarım yapar.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.2.2",
+  "ad": "Adalet ve eşitlik arasındaki ilişkiyi yorumlayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ÖĞRENME ALANI: HAYATIMDA EŞİTLİK VE ADALET",
+  "aciklama": "a) Adalet ve eşitlik kavramları arasındaki ilişkiyi inceler. b) Adalet ve eşitlik kavramları arasındaki ilişkiyi bağlamdan kopmadan, sözlü veya görsel olarak ifade eder. c) Adalet ve eşitlik kavramlarını kendi hayatından örnekler vererek ifade eder.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.2.3",
+  "ad": "Fırsat eşitliğinin anlamını yorumlayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "2. ÖĞRENME ALANI: HAYATIMDA EŞİTLİK VE ADALET",
+  "aciklama": "a) Fırsat eşitliğine ilişkin durumları inceler. b) Fırsat eşitliğinin önemini sözlü, yazılı veya görsel olarak ifade eder. c) Fırsat eşitliği ile ilgili yakın çevresinden örnekler verir.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.3.1",
+  "ad": "Vatandaş olmanın getirdiği hak ve özgürlükleri yorumlayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+  "aciklama": "a) Vatandaş olmanın getirdiği hak ve özgürlükleri örnekler üzerinden inceler. b) Vatandaş olmanın getirdiği hak ve özgürlükleri sözlü, yazılı, görsel vb. şekillerde ifade eder. c) Vatandaş olmanın getirdiği hak ve özgürlükleri kendi hayatından örnekler kullanarak yeniden açıklar.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.3.2",
+  "ad": "Etkin vatandaş olmanın gerektirdiği sorumlulukları belirleyebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+  "aciklama": "",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.3.3",
+  "ad": "Dijital vatandaşlığın gerektirdiği özellikleri belirleyebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+  "aciklama": "",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.3.4",
+  "ad": "Etkin bir vatandaş olarak toplumsal yardımlaşma faaliyetleri ile ilgili fikir üretebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+  "aciklama": "a) Toplumsal yardımlaşma faaliyetlerinin önemini fark eder. b) Toplumsal yardımlaşma faaliyetlerine ilişkin örnekleri inceler. c) Toplumsal yardımlaşma faaliyetleriyle ilgili fikir üretir.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.4.1",
+  "ad": "Grup çalışmalarında karar alma süreçlerine katılarak grup dinamiğini sağlayabilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "4. ÖĞRENME ALANI: HAYATIMDA DEMOKRASİ",
+  "aciklama": "a) Yakın çevresindeki dâhil olduğu grup ile aldığı ortak kararlar doğrultusunda görev paylaşımı yapar. b) Dâhil olduğu grupta aldığı görevleri yerine getirerek gruba katkı sağlar. c) Dâhil olduğu grupta ekibin diğer üyelerine yardım ederek gruba katkıda bulunur.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.4.2",
+  "ad": "Grup arkadaşları ile farklı fikirler hakkında müzakere edebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "4. ÖĞRENME ALANI: HAYATIMDA DEMOKRASİ",
+  "aciklama": "a) Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin kendisinden farklı düşünebileceğini fark eder. b) Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin düşüncelerindeki ortaklıkları ve farklılıkları karşılaştırır. c) Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşünceleri doğrultusunda ortak amaç üzerinde uzlaşmak için çözüm arar. ç) Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşüncelerini dikkate alarak ortak amaca göre kendi görüşünü gözden geçirir. d) Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşüncelerini dikkate alarak grubun ortak amaçlarını savunur.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ },
+ {
+  "kod": "İHVD.4.4.3",
+  "ad": "Seçme ve seçilme hakkı konusunda fikir üretebilme",
+  "sinif": 4,
+  "sinif_tipi": "normal",
+  "unite": "4. ÖĞRENME ALANI: HAYATIMDA DEMOKRASİ",
+  "aciklama": "a) Seçme hakkının toplumsal yaşam için önemini fark eder. b) Seçme ve seçilme hakkıyla ilgili yakın çevresindeki deneyimleri inceler. c) Seçme ve seçilme hakkının yaşantısındaki farklı alanlara uygulanması hususunda fikir üretir.",
+  "brans": "sinif_ogretmeni",
+  "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+  "okul_tipi": "ilkokul"
+ }
+]
