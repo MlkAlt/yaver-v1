@@ -16,7 +16,7 @@ import { useOnboarding } from '../../context/OnboardingContext';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 import { supabase } from '../../lib/supabase';
 import {
-  getGradeRange, hasEkDers,
+  getGradeRange,
   getKademeTiles, getGradeRangeForOkulTipi, KademeTile,
 } from '../../data/secmeliDersler';
 
@@ -94,15 +94,13 @@ export function SinifScreen({ navigation }: Props) {
     if (selectedOkulTipi !== null) setOkulTipi(selectedOkulTipi);
     if (brans === 'Sınıf Öğretmenliği') {
       navigation.navigate('EkDersler', { siniflar: sortedActiveList });
-    } else if (bransSlug && hasEkDers(bransSlug, sortedActiveList, selectedOkulTipi ?? undefined)) {
-      navigation.navigate('Dersler', { siniflar: sortedActiveList });
     } else {
-      navigation.navigate('Loading', { brans, bransId, siniflar: sortedActiveList });
+      navigation.navigate('Dersler', { siniflar: sortedActiveList });
     }
   };
 
   const hepsiSubText = allSiniflar.length > 0
-    ? allSiniflar.map(s => `${s}.`).join(', ') + ' sınıf'
+    ? allSiniflar.map(s => s === 0 ? 'Hazırlık' : `${s}.`).join(', ') + (allSiniflar.some(s => s !== 0) ? ' sınıf' : '')
     : 'Tüm sınıflar';
 
   return (
@@ -186,10 +184,10 @@ export function SinifScreen({ navigation }: Props) {
                       </View>
                     )}
                     <Text style={[styles.sinifNum, isSelected && styles.sinifNumSelected]}>
-                      {s}.
+                      {s === 0 ? 'Haz.' : `${s}.`}
                     </Text>
                     <Text style={[styles.sinifLabel, isSelected && styles.sinifLabelSelected]}>
-                      Sınıf
+                      {s === 0 ? 'Sınıf' : 'Sınıf'}
                     </Text>
                   </TouchableOpacity>
                 );

@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { Calendar } from 'lucide-react-native';
+import { sinifLabel } from '../../lib/sinifLabel';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Screen } from '../../components/layout/Screen';
@@ -55,7 +56,7 @@ function groupBySinif(kazanimlar: Kazanim[]): Grup[] {
   }
   return [...map.entries()]
     .sort(([a], [b]) => a - b)
-    .map(([sinif, list]) => ({ sinif: `${sinif}. Sınıf`, kazanimlar: list }));
+    .map(([sinif, list]) => ({ sinif: sinifLabel(sinif), kazanimlar: list }));
 }
 
 export function HaftaDetayiScreen({ route, navigation }: Props) {
@@ -174,7 +175,7 @@ export function HaftaDetayiScreen({ route, navigation }: Props) {
                               activeOpacity={0.75}
                               onPress={() => navigation.navigate('Uretim', {
                                 kazanimKodu: k.kod,
-                                sinif:       `${k.sinif}. Sınıf`,
+                                sinif:       sinifLabel(k.sinif),
                                 kazanimAdi:  k.ad,
                                 icerikTuru:  t.id,
                               })}

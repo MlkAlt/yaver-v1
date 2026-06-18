@@ -7,6 +7,7 @@ import {
   User, Building2, CalendarDays, Bell, Sparkles,
   GraduationCap, Users, Send, CircleHelp, Lock, ChevronRight,
 } from 'lucide-react-native';
+import { sinifLabel } from '../../lib/sinifLabel';
 import { Screen } from '../../components/layout/Screen';
 import { colors } from '../../tokens/colors';
 import { fonts } from '../../tokens/typography';
@@ -62,7 +63,7 @@ export function ProfilScreen() {
   const { brans, siniflar } = useOnboarding();
   const [bildirimAcik, setBildirimAcik] = useState(true);
 
-  const sinifText = siniflar.length > 0 ? siniflar.map((s) => `${s}. Sınıf`).join(', ') : 'Seçilmedi';
+  const sinifText = siniflar.length > 0 ? siniflar.map(sinifLabel).join(', ') : 'Seçilmedi';
   const bransText = brans || 'Seçilmedi';
 
   return (

@@ -2,6 +2,7 @@ import React from 'react';
 import {
   View, Text, StyleSheet, ViewStyle, TextStyle, ScrollView,
 } from 'react-native';
+import { sinifLabel } from '../../lib/sinifLabel';
 import { StatusBar } from 'expo-status-bar';
 import { Check } from 'lucide-react-native';
 import Animated, {
@@ -47,7 +48,9 @@ export function WowMomentScreen({ navigation }: Props) {
   const { brans, siniflar, plan } = useOnboarding();
 
   const sinifText = siniflar.length
-    ? siniflar.map(s => `${s}`).join('-') + '. Sınıf'
+    ? siniflar.length === 1
+      ? sinifLabel(siniflar[0])
+      : `${siniflar.map(s => s === 0 ? 'Haz' : s).join('-')}. Sınıf`
     : '9. Sınıf';
 
   const toplamKazanim = plan?.toplam_kazanim ?? 0;

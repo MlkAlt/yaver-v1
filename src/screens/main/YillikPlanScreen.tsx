@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
+import { sinifLabel } from '../../lib/sinifLabel';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -110,7 +111,7 @@ function KazanimCard({ k, onPress }: { k: Kazanim; onPress: () => void }) {
       <View style={styles.kazanimIcerik}>
         <View style={styles.kazanimMeta}>
           <View style={[styles.sinifBadge, { backgroundColor: renk.bg }]}>
-            <Text style={[styles.sinifBadgeText, { color: renk.fg }]}>{k.sinif}. Sınıf</Text>
+            <Text style={[styles.sinifBadgeText, { color: renk.fg }]}>{sinifLabel(k.sinif)}</Text>
           </View>
           {k.ders && (
             <View style={styles.dersBadge}>
@@ -201,7 +202,7 @@ export function YillikPlanScreen() {
                 activeOpacity={0.7}
               >
                 <Text style={[styles.chipText, secilenSinif === s && styles.chipTextActive]}>
-                  {s}. Sınıf
+                  {sinifLabel(s)}
                 </Text>
               </TouchableOpacity>
             ))}

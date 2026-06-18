@@ -4,6 +4,7 @@ import {
   ScrollView, TouchableOpacity, Modal, Dimensions,
   StyleSheet as RNStyleSheet,
 } from 'react-native';
+import { sinifLabel } from '../../lib/sinifLabel';
 import {
   BookOpen, Pencil, Zap, ClipboardList,
   MonitorPlay, Notebook, ChevronRight, X,
@@ -102,7 +103,7 @@ function buildHaftaSections(plan: YillikPlan): HaftaSection[] {
           id: k.kod,
           kod: k.kod,
           ad: k.ad,
-          sinif: `${k.sinif}. Sınıf`,
+          sinif: sinifLabel(k.sinif),
         })),
       };
     });

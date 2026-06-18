@@ -1,10 +1,42 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 14.06.2026 — Oturum 65 (kapandı)
+**Son güncelleme:** 15.06.2026 — Oturum 67
 
 ## Şu An Ne Yapıyoruz
 
-**v2 DB geçişi bitti — Uygulamayı test et, geliştirmeye devam**
+**v2 DB geçişi bitti — UX & veri düzeltmeleri yapıldı, test aşaması**
+
+### Oturum 67 yapılanlar (15.06.2026)
+
+**secmeliDersler.ts temizliği:**
+- `yeniders/` klasöründe JSON dosyası olmayan tüm seçmeli dersler BRANS_DERSLER'den kaldırıldı
+- Kalan seçmeliler: Matematik Uygulamaları, Temel Matematik, Çağdaş Türk ve Dünya Tarihi, İslam Bilim Tarihi, Türk Kültür ve Medeniyet Tarihi, Sosyal Bilim Çalışmaları, İklim-Çevre-Yenilikçi Çözümler, Psikoloji, Sosyoloji, Mantık, Demokrasi ve İnsan Hakları, Astronomi ve Uzay Bilimleri, Kur'an-ı Kerim, Temel Dini Bilgiler, Peygamberimizin Hayatı (ortaokul+lise), Din Eğitimi, İslam Felsefesi, İslam'da Çocuk Eğitimi, Kur'an'ın Ana Konuları, Tasavvuf Kültürü, Takım Sporları
+- turkce, turk_dili_edebiyati, fen_bilimleri, sosyal_bilgiler, kimya, ingilizce, gorsel_sanatlar, muzik, bilisim_teknolojileri branşlarının secmeli dizisi boşaltıldı
+
+**Sonraki adımlar:**
+- Expo'da test: branşlar + sınıf seçimleri + plan üretimi
+- Seçmeli ders akışını uçtan uca test et (EkDerslerScreen → planUret)
+
+---
+
+### Oturum 66 yapılanlar (14.06.2026)
+
+**UX düzeltmeleri:**
+- `EkDerslerScreen`: `paylasimli: boolean` → `oncelik: 'zorunlu'|'genellikle'|'nadiren'` — Müzik/Görsel/BEO varsayılan seçili, İngilizce/DKAB altta seçisiz, öncelik sırasına göre listeleniyor (başlık yok)
+- `sinifLabel.ts` oluşturuldu — sinif=0 → "Hazırlık", diğerleri → "X. Sınıf" (6 ekranda kullanıldı)
+- `SinifScreen`: ingilizce lise için `SINIF_KISITLAMA`'ya `lise: [0, 9, 10, 11, 12]` eklendi (hazırlık seçilebilir)
+
+**Veri düzeltmeleri:**
+- İngilizce lise 384 kazanım sorunu: `planUret`'te `program` filtresi eklendi — sinif=0 seçildiyse `hazirlikli`, yoksa `hazirliksiz`
+- Migration 069: Mantık (sinif=10), Çağdaş Türk ve Dünya Tarihi (sinif=12), İklim-Çevre (sinif=10) → sinif=0'dan doğru değerlere güncellendi
+
+**planUret refactor:**
+- Seçmeli ders modunda `sinif_tipi IN ('normal','secmeli')` + `sinif=0 OR sinif IN (siniflar)` + post-fetch sinif=0→primarySinif remap
+- Branş modunda siniflar.includes(0) ise `hazirlik` tipi de dahil (TDE/Müzik/Görsel/BEO lise hazırlık)
+
+**Sonraki adımlar:**
+- Expo'da test: branşlar + sınıf seçimleri + plan üretimi
+- Edge Function `generate` deploy güncelle (kazanim_kodu kaldırıldı — opsiyonel)
 
 ### Audit özeti (Oturum 56)
 Kullanıcı tüm dersleri PDF'lerden manuel saydı. Tam sayım `memory/project_kazanim_audit_v2.md` dosyasında.

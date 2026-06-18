@@ -44,25 +44,40 @@ export async function planUret(
   let q = supabase
     .from('kazanimlar')
     .select('id, kod, ad, unite, sinif, ders')
-    .in('sinif', siniflar)
-    .eq('sinif_tipi', 'normal')
     .order('sinif')
     .order('unite')
     .order('kod');
 
   if (seciliDersler && seciliDersler.length > 0) {
+    // Seçmeli ders modu: normal + secmeli kayıtlar, sinif=0 (sınıf-bağımsız seçmeli) dahil
     q = q.in('ders', seciliDersler);
+    q = q.in('sinif_tipi', ['normal', 'secmeli']);
+    q = q.or(`sinif.in.(${siniflar.join(',')}),sinif.eq.0`);
   } else {
+    // Branş modu: yalnızca normal kayıtlar (hazırlık dahil eğer siniflar içinde 0 varsa)
+    const sinifTipleri = siniflar.includes(0) ? ['normal', 'hazirlik'] : ['normal'];
+    q = q.in('sinif_tipi', sinifTipleri);
+    q = q.in('sinif', siniflar);
     q = q.or(`brans.eq.${bransSlug},branslar.cs.{${bransSlug}}`);
     if (dersFiltesi && dersFiltesi.length > 0) {
       q = q.in('ders', dersFiltesi);
     }
   }
+
   if (okulTipi) q = q.eq('okul_tipi', okulTipi);
+
+  // İngilizce lise: 9-12 arası hazirlikli/hazirliksiz içerik aynı (Migration 070'de hazirlikli 9-12 silindi).
+  // Sinif=0 (hazırlık) ayrı sinif_tipi='hazirlik' ile ayrışıyor, program filtresi gerekmez.
 
   const { data: kazanimlar, error: kazErr } = await q;
   if (kazErr) throw new Error(`Kazanımlar alınamadı: ${kazErr.message}`);
   let tumKazanimlar = (kazanimlar ?? []) as Kazanim[];
+
+  // sinif=0 kayıtlar (sınıf-bağımsız seçmeli): öğretmenin birincil sinifına ata
+  if (tumKazanimlar.some(k => k.sinif === 0)) {
+    const primarySinif = siniflar.find(s => s > 0) ?? siniflar[0] ?? 9;
+    tumKazanimlar = tumKazanimlar.map(k => k.sinif === 0 ? { ...k, sinif: primarySinif } : k);
+  }
 
   // Çok-ders modunda İngilizce sınıf başına 20 kazanımla sınırla
   if (seciliDersler && seciliDersler.length > 1) {

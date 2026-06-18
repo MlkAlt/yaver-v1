@@ -2,6 +2,21 @@
 
 ---
 
+## UX & Veri
+
+### 2026-06-14 — Seçmeli ders / sinif=0 stratejisi
+- Tek sınıflı seçmeli (Mantık=10, Çağdaş Türk=12, İklim-Çevre=10): sinif DB'de düzeltildi (Migration 069)
+- Çok sınıflı seçmeli (Astronomi, Psikoloji, Dini Musiki, Ebru vb.): sinif=0 kaldı, planUret post-fetch remap ile öğretmenin `siniflar[0]`'ına atanıyor
+- planUret: seçmeli ders seçildiğinde `sinif_tipi IN ('normal','secmeli')` + sinif=0 OR filtresi
+
+### 2026-06-14 — EkDerslerScreen öncelik sistemi
+Müzik/Görsel/BEO: `oncelik:'genellikle'` → varsayılan seçili. İngilizce/DKAB: `oncelik:'nadiren'` → seçisiz, altta. Başlık yok, sıralama yeterli.
+
+### 2026-06-14 — sinifLabel util + İngilizce lise hazırlık
+`sinifLabel(0)` → "Hazırlık". İngilizce lise `SINIF_KISITLAMA`'ya `lise:[0,9,10,11,12]` eklendi. planUret: siniflar.includes(0) → `hazirlikli` program filtresi.
+
+---
+
 ## Veri
 
 ### 2026-06-14 — v2 JSON dosyaları DB'nin tek kaynağı kabul edildi

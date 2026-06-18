@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
+import { sinifLabel } from '../../lib/sinifLabel';
 import {
   Sunrise, Bell, BookOpen, Pencil, Zap, ClipboardList,
   Calendar, AlertCircle, ChevronRight, FolderOpen, CircleUser,
@@ -106,7 +107,7 @@ function buildHaftaList(haftalar: PlanHaftasi[]): { list: HaftaData[]; currentId
       tatilAdi: h.tatil_adi ?? undefined,
       kazanimlar: h.kazanimlar.map(k => ({
         kod: k.kod,
-        sinif: `${k.sinif}. Sınıf`,
+        sinif: sinifLabel(k.sinif),
         konu: k.ad,
         hazir: false,
       })),

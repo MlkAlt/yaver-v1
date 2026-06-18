@@ -17,23 +17,24 @@ import { RootStackParamList } from '../../navigation/RootNavigator';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'EkDersler'>;
 
-// Sınıf Öğretmeni: zorunlu dersler (tüm sınıf öğretmenleri girer)
-// + paylasimli dersler (okuldaki branş öğretmeni yoksa sınıf öğretmeni girer)
+// Sınıf Öğretmeni ders öncelik seviyeleri:
+// zorunlu  → her sınıf öğretmeni girer, varsayılan seçili
+// genellikle → çoğunlukla sınıf öğretmeni girer, varsayılan seçili
+// nadiren  → branş öğretmeni genellikle girer, varsayılan seçisiz
 // ders değerleri DB'deki kazanimlar.ders kolonuyla birebir eşleşmeli
-// V1.5: Trafik Güvenliği (4. sınıf) — MEB zorunlu ama kazanımlar henüz seed edilmedi
 const DERS_HAVUZU = [
-  { ders: 'Türkçe',          siniflar: [1, 2, 3, 4], paylasimli: false },
-  { ders: 'Matematik',       siniflar: [1, 2, 3, 4], paylasimli: false },
-  { ders: 'Hayat Bilgisi',   siniflar: [1, 2, 3],    paylasimli: false },
-  { ders: 'Fen Bilimleri',   siniflar: [3, 4],       paylasimli: false },
-  { ders: 'Sosyal Bilgiler', siniflar: [4],          paylasimli: false },
-  { ders: 'İnsan Hakları',   siniflar: [4],          paylasimli: false },
-  // Paylaşımlı: branş öğretmeni yoksa sınıf öğretmeni girer
-  { ders: 'İngilizce',                     siniflar: [2, 3, 4],    paylasimli: true },
-  { ders: 'Müzik',                         siniflar: [1, 2, 3, 4], paylasimli: true },
-  { ders: 'Görsel Sanatlar',               siniflar: [1, 2, 3, 4], paylasimli: true },
-  { ders: 'Beden Eğitimi ve Oyun',         siniflar: [1, 2, 3, 4], paylasimli: true },
-  { ders: 'Din Kültürü ve Ahlak Bilgisi',  siniflar: [4],          paylasimli: true },
+  { ders: 'Türkçe',          siniflar: [1, 2, 3, 4], oncelik: 'zorunlu'    as const },
+  { ders: 'Matematik',       siniflar: [1, 2, 3, 4], oncelik: 'zorunlu'    as const },
+  { ders: 'Hayat Bilgisi',   siniflar: [1, 2, 3],    oncelik: 'zorunlu'    as const },
+  { ders: 'Fen Bilimleri',   siniflar: [3, 4],       oncelik: 'zorunlu'    as const },
+  { ders: 'Sosyal Bilgiler', siniflar: [4],           oncelik: 'zorunlu'    as const },
+  { ders: 'İnsan Hakları',   siniflar: [4],           oncelik: 'zorunlu'    as const },
+  { ders: 'Müzik',                         siniflar: [1, 2, 3, 4], oncelik: 'genellikle' as const },
+  { ders: 'Görsel Sanatlar',               siniflar: [1, 2, 3, 4], oncelik: 'genellikle' as const },
+  { ders: 'Beden Eğitimi ve Oyun',         siniflar: [1, 2, 3, 4], oncelik: 'genellikle' as const },
+  // Nadiren: branş öğretmeni genellikle girer
+  { ders: 'İngilizce',                     siniflar: [2, 3, 4],    oncelik: 'nadiren'    as const },
+  { ders: 'Din Kültürü ve Ahlak Bilgisi',  siniflar: [4],          oncelik: 'nadiren'    as const },
 ];
 
 function sinifEtiket(siniflar: number[]): string {
@@ -47,14 +48,16 @@ export function EkDerslerScreen({ navigation, route }: Props) {
   const { brans, bransId, okulTipi, setSiniflar: ctxSetSiniflar, setSeciliDersler } = useOnboarding();
   const siniflar: number[] = route.params?.siniflar ?? [];
 
-  // Seçilen sınıflarla örtüşen dersler
-  const available = DERS_HAVUZU.filter(d =>
-    d.siniflar.some(s => siniflar.includes(s))
-  );
+  const ONCELIK_SIRA = { zorunlu: 0, genellikle: 1, nadiren: 2 };
 
-  // Varsayılan: yalnızca zorunlu dersler seçili
+  // Seçilen sınıflarla örtüşen dersler, öncelik sırasına göre
+  const available = DERS_HAVUZU
+    .filter(d => d.siniflar.some(s => siniflar.includes(s)))
+    .sort((a, b) => ONCELIK_SIRA[a.oncelik] - ONCELIK_SIRA[b.oncelik]);
+
+  // Varsayılan: zorunlu + genellikle dersler seçili
   const [secili, setSecili] = useState<Set<string>>(
-    new Set(available.filter(d => !d.paylasimli).map(d => d.ders))
+    new Set(available.filter(d => d.oncelik !== 'nadiren').map(d => d.ders))
   );
 
   const toggle = (ders: string) => {
@@ -93,16 +96,11 @@ export function EkDerslerScreen({ navigation, route }: Props) {
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
         >
-          {available.map((item, idx) => {
+          {available.map((item) => {
             const isSelected = secili.has(item.ders);
             const gosterilenSiniflar = item.siniflar.filter(s => siniflar.includes(s));
-            const prevItem = available[idx - 1];
-            const showDivider = item.paylasimli && (!prevItem || !prevItem.paylasimli);
             return (
               <React.Fragment key={item.ders}>
-                {showDivider && (
-                  <Text style={styles.dividerLabel}>Paylaşımlı — branş öğretmeni yoksa</Text>
-                )}
                 <TouchableOpacity
                   onPress={() => toggle(item.ders)}
                   activeOpacity={0.75}
@@ -180,15 +178,6 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.xl,
     gap: spacing.sm,
   } as ViewStyle,
-
-  dividerLabel: {
-    fontSize: 11,
-    fontFamily: fonts.semiBold,
-    color: colors.text3,
-    letterSpacing: 0.5,
-    textTransform: 'uppercase',
-    marginTop: spacing.sm,
-  } as TextStyle,
 
   card: {
     flexDirection: 'row',
