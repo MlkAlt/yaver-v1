@@ -122,17 +122,26 @@ export function BransScreen({ navigation }: Props) {
   const [search, setSearch]     = useState('');
   const [branslar, setBranslar] = useState<Brans[]>([]);
   const [loading, setLoading]   = useState(true);
+  const [hata, setHata]         = useState<string | null>(null);
 
-  useEffect(() => {
+  const fetchBranslar = () => {
+    setLoading(true);
+    setHata(null);
     supabase
       .from('branslar')
       .select('id, ad, renk, slug')
       .order('sira')
       .then(({ data, error }) => {
-        if (!error && data) setBranslar(data as Brans[]);
+        if (error) {
+          setHata(error.message || JSON.stringify(error));
+        } else if (data) {
+          setBranslar(data as Brans[]);
+        }
         setLoading(false);
       });
-  }, []);
+  };
+
+  useEffect(() => { fetchBranslar(); }, []);
 
   const filtered = branslar.filter(b =>
     b.ad.toLowerCase().includes(search.toLowerCase())
@@ -190,6 +199,15 @@ export function BransScreen({ navigation }: Props) {
         <View style={styles.gridPanel}>
           {loading ? (
             <ActivityIndicator color={colors.accent} style={{ marginTop: spacing.xl }} />
+          ) : hata ? (
+            <View style={{ alignItems: 'center', marginTop: spacing.xl, paddingHorizontal: spacing.xl }}>
+              <Text style={[styles.emptyText, { color: '#c0392b', marginBottom: spacing.md }]}>
+                Bağlantı hatası:{'\n'}{hata}
+              </Text>
+              <Pressable onPress={fetchBranslar} style={{ backgroundColor: colors.accent, paddingHorizontal: 24, paddingVertical: 10, borderRadius: 8 }}>
+                <Text style={{ color: '#fff', fontFamily: fonts.semiBold, fontSize: 14 }}>Tekrar dene</Text>
+              </Pressable>
+            </View>
           ) : (
             <FlatList
               data={filtered}
