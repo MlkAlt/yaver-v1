@@ -4,7 +4,7 @@ import {
   ScrollView, TouchableOpacity, TextInput, Alert,
   KeyboardAvoidingView, Platform,
 } from 'react-native';
-import { Sparkles, Plus, Trash2, ChevronRight, ChevronLeft, FileDown } from 'lucide-react-native';
+import { Plus, Trash2, ChevronRight, ChevronLeft, FileDown, RotateCcw } from 'lucide-react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import * as Print from 'expo-print';
 import * as Sharing from 'expo-sharing';
@@ -13,19 +13,27 @@ import { Screen } from '../../components/layout/Screen';
 import { AppBar } from '../../components/layout/AppBar';
 import { colors } from '../../tokens/colors';
 import { fonts } from '../../tokens/typography';
-import { spacing, radius, shadows } from '../../tokens/spacing';
+import { spacing, radius } from '../../tokens/spacing';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 import { getBransListesi, GUNDEM_MADDELERI } from '../../data/sokSablon';
 import { sokHtmlOlustur, SokFormData } from '../../data/sokHtmlSablon';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
+type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
 
 const STORAGE_OGRETMENLER = '@yaver/sok_ogretmenler';
-const STORAGE_OKUL = '@yaver/okul_adi';
-const STORAGE_OKUL_TIPI = '@yaver/okul_tipi';
+const STORAGE_OKUL        = '@yaver/okul_adi';
+const STORAGE_OKUL_TIPI   = '@yaver/okul_tipi';
+
+const OKUL_TIPLERI: { key: OkulTipi; label: string }[] = [
+  { key: 'ilkokul',  label: 'İlkokul'  },
+  { key: 'ortaokul', label: 'Ortaokul' },
+  { key: 'lise',     label: 'Lise'     },
+  { key: 'ihl',      label: 'İHL'      },
+];
 
 function bugunTarih(): string {
-  const d = new Date();
+  const d  = new Date();
   const ay = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
   return `${d.getDate()} ${ay[d.getMonth()]} ${d.getFullYear()}`;
 }
@@ -36,9 +44,13 @@ function donemHesapla(): 1 | 2 {
 }
 
 function egitimYiliHesapla(): string {
-  const y = new Date().getFullYear();
+  const y  = new Date().getFullYear();
   const ay = new Date().getMonth() + 1;
   return ay >= 9 ? `${y}-${y + 1}` : `${y - 1}-${y}`;
+}
+
+function varsayilanListeOlustur(okulTipi: OkulTipi) {
+  return getBransListesi(okulTipi).map(b => ({ brans: b.brans, ad: '' }));
 }
 
 // ─── ADIM 1: Temel Bilgiler ───────────────────────────────────────────────
@@ -47,16 +59,33 @@ function AdimTemelBilgi({
   sinif, setSinif,
   tarih, setTarih,
   saat, setSaat,
+  okulTipi, setOkulTipi,
 }: {
-  okulAdi: string; setOkulAdi: (v: string) => void;
-  sinif: string; setSinif: (v: string) => void;
-  tarih: string; setTarih: (v: string) => void;
-  saat: string; setSaat: (v: string) => void;
+  okulAdi: string;  setOkulAdi: (v: string) => void;
+  sinif: string;    setSinif: (v: string) => void;
+  tarih: string;    setTarih: (v: string) => void;
+  saat: string;     setSaat: (v: string) => void;
+  okulTipi: OkulTipi; setOkulTipi: (v: OkulTipi) => void;
 }) {
   return (
     <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
       <Text style={s.adimBaslik}>Temel Bilgiler</Text>
       <Text style={s.adimAlt}>Belge başlığı ve meta bilgileri</Text>
+
+      <Alan label="Okul Türü" zorunlu>
+        <View style={s.chipRow}>
+          {OKUL_TIPLERI.map(t => (
+            <TouchableOpacity
+              key={t.key}
+              style={[s.chip, okulTipi === t.key && s.chipActive]}
+              onPress={() => setOkulTipi(t.key)}
+              activeOpacity={0.7}
+            >
+              <Text style={[s.chipText, okulTipi === t.key && s.chipTextActive]}>{t.label}</Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+      </Alan>
 
       <Alan label="Okul Adı" zorunlu>
         <TextInput style={s.input} value={okulAdi} onChangeText={setOkulAdi}
@@ -76,7 +105,10 @@ function AdimTemelBilgi({
       </Alan>
 
       <View style={s.infoCard}>
-        <Text style={s.infoText}>Dönem ve eğitim yılı tarihe göre otomatik belirlendi: <Text style={s.infoVurgu}>{egitimYiliHesapla()} — {donemHesapla() === 1 ? 'I. Dönem' : 'II. Dönem'}</Text></Text>
+        <Text style={s.infoText}>
+          Dönem ve eğitim yılı tarihe göre otomatik belirlendi:{' '}
+          <Text style={s.infoVurgu}>{egitimYiliHesapla()} — {donemHesapla() === 1 ? 'I. Dönem' : 'II. Dönem'}</Text>
+        </Text>
       </View>
     </ScrollView>
   );
@@ -91,7 +123,7 @@ function AdimOgretmenler({
   rehber: string; setRehber: (v: string) => void;
   ogretmenler: { brans: string; ad: string }[];
   setOgretmenler: (v: { brans: string; ad: string }[]) => void;
-  okulTipi: string;
+  okulTipi: OkulTipi;
 }) {
   const update = (i: number, key: 'brans' | 'ad', val: string) => {
     const next = [...ogretmenler];
@@ -99,7 +131,18 @@ function AdimOgretmenler({
     setOgretmenler(next);
   };
   const remove = (i: number) => setOgretmenler(ogretmenler.filter((_, idx) => idx !== i));
-  const add = () => setOgretmenler([...ogretmenler, { brans: '', ad: '' }]);
+  const add    = () => setOgretmenler([...ogretmenler, { brans: '', ad: '' }]);
+
+  const sifirla = () => {
+    Alert.alert(
+      'Listeyi Sıfırla',
+      `${OKUL_TIPLERI.find(t => t.key === okulTipi)?.label} için standart branş listesine dön. Girdiğin isimler silinecek.`,
+      [
+        { text: 'İptal', style: 'cancel' },
+        { text: 'Sıfırla', style: 'destructive', onPress: () => setOgretmenler(varsayilanListeOlustur(okulTipi)) },
+      ],
+    );
+  };
 
   return (
     <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
@@ -111,7 +154,13 @@ function AdimOgretmenler({
           placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
       </Alan>
 
-      <Text style={s.listBaslik}>DİĞER ÖĞRETMENLER</Text>
+      <View style={s.listHeader}>
+        <Text style={s.listBaslik}>DİĞER ÖĞRETMENLER</Text>
+        <TouchableOpacity onPress={sifirla} style={s.sifirlaBtn} activeOpacity={0.7}>
+          <RotateCcw size={12} color={colors.text3} strokeWidth={2} />
+          <Text style={s.sifirlaBtnText}>Varsayılana sıfırla</Text>
+        </TouchableOpacity>
+      </View>
 
       {ogretmenler.map((o, i) => (
         <View key={i} style={s.ogretmenRow}>
@@ -120,7 +169,7 @@ function AdimOgretmenler({
               style={s.input}
               value={o.brans}
               onChangeText={v => update(i, 'brans', v)}
-              placeholder="Branş (örn. Matematik Öğretmeni)"
+              placeholder="Branş"
               placeholderTextColor={colors.text3}
             />
             <TextInput
@@ -143,7 +192,7 @@ function AdimOgretmenler({
       </TouchableOpacity>
 
       <View style={s.infoCard}>
-        <Text style={s.infoText}>Liste bir sonraki toplantıda hatırlanır. Sadece değişenleri güncellersin.</Text>
+        <Text style={s.infoText}>Liste kaydedilir. Bir sonraki toplantıda sadece değişenleri güncellersin.</Text>
       </View>
     </ScrollView>
   );
@@ -156,8 +205,7 @@ function AdimGundem({
   notlar: Record<number, string>;
   setNotlar: (v: Record<number, string>) => void;
 }) {
-  const guncelle = (no: number, val: string) => setNotlar({ ...notlar, [no]: val });
-
+  const guncelle  = (no: number, val: string) => setNotlar({ ...notlar, [no]: val });
   const ozelMaddeler = GUNDEM_MADDELERI.filter(m => !m.sabit);
 
   return (
@@ -188,30 +236,36 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const { sablonId, sablonAdi } = route.params;
   const isSok = sablonId === 'sok';
 
-  // ŞÖK state
-  const [adim, setAdim] = useState(0);
-  const [okulAdi, setOkulAdi] = useState('');
-  const [sinif, setSinif] = useState('');
-  const [tarih, setTarih] = useState(bugunTarih());
-  const [saat, setSaat] = useState('14:30');
-  const [rehber, setRehber] = useState('');
+  const [adim, setAdim]               = useState(0);
+  const [okulAdi, setOkulAdi]         = useState('');
+  const [okulTipi, setOkulTipi]       = useState<OkulTipi>('lise');
+  const [sinif, setSinif]             = useState('');
+  const [tarih, setTarih]             = useState(bugunTarih());
+  const [saat, setSaat]               = useState('14:30');
+  const [rehber, setRehber]           = useState('');
   const [ogretmenler, setOgretmenler] = useState<{ brans: string; ad: string }[]>([]);
   const [gundemNotlari, setGundemNotlari] = useState<Record<number, string>>({});
-  const [yukleniyor, setYukleniyor] = useState(false);
-
-  // Basit form state (ŞÖK dışı)
-  const [values, setValues] = useState<Record<string, string>>({});
+  const [yukleniyor, setYukleniyor]   = useState(false);
 
   useEffect(() => {
     if (!isSok) return;
-    AsyncStorage.getItem(STORAGE_OKUL).then(v => v && setOkulAdi(v));
-    AsyncStorage.getItem(STORAGE_OGRETMENLER).then(v => {
-      if (v) setOgretmenler(JSON.parse(v));
+    Promise.all([
+      AsyncStorage.getItem(STORAGE_OKUL),
+      AsyncStorage.getItem(STORAGE_OKUL_TIPI),
+      AsyncStorage.getItem(STORAGE_OGRETMENLER),
+    ]).then(([okul, tipi, ogretmenlerJson]) => {
+      if (okul) setOkulAdi(okul);
+      const savedTipi = (tipi as OkulTipi) || 'lise';
+      if (tipi) setOkulTipi(savedTipi);
+      if (ogretmenlerJson) {
+        setOgretmenler(JSON.parse(ogretmenlerJson));
+      } else {
+        setOgretmenler(varsayilanListeOlustur(savedTipi));
+      }
     });
   }, []);
 
   if (!isSok) {
-    // Basit form (ŞÖK dışı şablonlar için eski davranış)
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -224,8 +278,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
     );
   }
 
-  // ŞÖK akışı
   const ADIMLAR = ['Temel Bilgiler', 'Katılımcılar', 'Gündem Notları'];
+
   const ileri = () => {
     if (adim === 0 && (!okulAdi.trim() || !sinif.trim())) {
       Alert.alert('Eksik bilgi', 'Okul adı ve sınıf zorunlu.');
@@ -235,25 +289,22 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       Alert.alert('Eksik bilgi', 'Rehber öğretmen adı zorunlu.');
       return;
     }
-    if (adim < ADIMLAR.length - 1) {
-      setAdim(adim + 1);
-    } else {
-      olustur();
-    }
+    if (adim < ADIMLAR.length - 1) setAdim(adim + 1);
+    else olustur();
   };
   const geri = () => setAdim(adim - 1);
 
   async function olustur() {
     setYukleniyor(true);
     try {
-      // Okul adını ve öğretmenleri kaydet
       await AsyncStorage.setItem(STORAGE_OKUL, okulAdi);
+      await AsyncStorage.setItem(STORAGE_OKUL_TIPI, okulTipi);
       await AsyncStorage.setItem(STORAGE_OGRETMENLER, JSON.stringify(ogretmenler));
 
       const formData: SokFormData = {
         okulAdi,
         sinif,
-        okulTipi: 'lise',
+        okulTipi,
         egitimYili: egitimYiliHesapla(),
         donem: donemHesapla(),
         tarih,
@@ -263,8 +314,12 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         gundemNotlari,
       };
 
-      const html = sokHtmlOlustur(formData);
-      const { uri } = await Print.printToFileAsync({ html, base64: false });
+      const html      = sokHtmlOlustur(formData);
+      const { uri }   = await Print.printToFileAsync({
+        html,
+        base64: false,
+        margins: { top: 98, right: 118, bottom: 98, left: 118 },
+      });
       await Sharing.shareAsync(uri, {
         mimeType: 'application/pdf',
         dialogTitle: `ŞÖK Tutanağı — ${sinif}`,
@@ -281,7 +336,6 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
     <Screen bg={colors.surface}>
       <AppBar title="ŞÖK Tutanağı" back />
 
-      {/* Adım göstergesi */}
       <View style={s.stepper}>
         {ADIMLAR.map((a, i) => (
           <View key={i} style={s.stepItem}>
@@ -300,13 +354,14 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
             sinif={sinif} setSinif={setSinif}
             tarih={tarih} setTarih={setTarih}
             saat={saat} setSaat={setSaat}
+            okulTipi={okulTipi} setOkulTipi={setOkulTipi}
           />
         )}
         {adim === 1 && (
           <AdimOgretmenler
             rehber={rehber} setRehber={setRehber}
             ogretmenler={ogretmenler} setOgretmenler={setOgretmenler}
-            okulTipi="lise"
+            okulTipi={okulTipi}
           />
         )}
         {adim === 2 && (
@@ -314,7 +369,6 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         )}
       </KeyboardAvoidingView>
 
-      {/* Alt navigasyon */}
       <View style={s.altBar}>
         {adim > 0 ? (
           <TouchableOpacity style={s.geriBtn} onPress={geri} activeOpacity={0.7}>
@@ -381,35 +435,46 @@ const s = StyleSheet.create({
   } as TextStyle,
   textArea: { minHeight: 72, textAlignVertical: 'top', paddingTop: 10 } as TextStyle,
 
-  infoCard: {
+  chipRow: { flexDirection: 'row', gap: 8, flexWrap: 'wrap' } as ViewStyle,
+  chip: {
+    paddingHorizontal: 16, paddingVertical: 8,
+    borderRadius: 20, borderWidth: 1, borderColor: colors.border,
     backgroundColor: colors.bg,
-    borderRadius: radius.md,
-    padding: spacing.md,
-    marginTop: spacing.md,
+  } as ViewStyle,
+  chipActive: { backgroundColor: colors.accent, borderColor: colors.accent } as ViewStyle,
+  chipText: { fontSize: 13, fontFamily: fonts.medium, color: colors.text2 } as TextStyle,
+  chipTextActive: { color: '#fff', fontFamily: fonts.semiBold } as TextStyle,
+
+  infoCard: {
+    backgroundColor: colors.bg, borderRadius: radius.md,
+    padding: spacing.md, marginTop: spacing.md,
   } as ViewStyle,
   infoText: { fontSize: 12, fontFamily: fonts.regular, color: colors.text2, lineHeight: 18 } as TextStyle,
   infoVurgu: { fontFamily: fonts.semiBold, color: colors.accent } as TextStyle,
 
+  listHeader: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    marginBottom: spacing.md, marginTop: spacing.sm,
+  } as ViewStyle,
   listBaslik: {
-    fontSize: 11, fontFamily: fonts.bold, color: colors.text3,
-    letterSpacing: 0.8, marginBottom: spacing.md, marginTop: spacing.sm,
+    fontSize: 11, fontFamily: fonts.bold, color: colors.text3, letterSpacing: 0.8,
   } as TextStyle,
+  sifirlaBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: 4,
+    paddingVertical: 4, paddingHorizontal: 8,
+  } as ViewStyle,
+  sifirlaBtnText: { fontSize: 11, fontFamily: fonts.medium, color: colors.text3 } as TextStyle,
 
   ogretmenRow: {
     flexDirection: 'row', alignItems: 'flex-start', gap: spacing.sm,
     marginBottom: spacing.md,
-    backgroundColor: colors.bg, borderRadius: radius.md,
-    padding: spacing.sm,
+    backgroundColor: colors.bg, borderRadius: radius.md, padding: spacing.sm,
   } as ViewStyle,
-  deleteBtn: {
-    padding: 8, marginTop: 4,
-    alignSelf: 'flex-start',
-  } as ViewStyle,
+  deleteBtn: { padding: 8, marginTop: 4, alignSelf: 'flex-start' } as ViewStyle,
   addBtn: {
     flexDirection: 'row', alignItems: 'center', gap: 6,
     paddingVertical: 12, justifyContent: 'center',
-    borderRadius: radius.btn, borderWidth: 1, borderColor: colors.accent,
-    borderStyle: 'dashed',
+    borderRadius: radius.btn, borderWidth: 1, borderColor: colors.accent, borderStyle: 'dashed',
   } as ViewStyle,
   addBtnText: { fontSize: 14, fontFamily: fonts.semiBold, color: colors.accent } as TextStyle,
 
@@ -424,8 +489,7 @@ const s = StyleSheet.create({
   stepItem: { alignItems: 'center', flex: 1 } as ViewStyle,
   stepDot: {
     width: 28, height: 28, borderRadius: 14,
-    backgroundColor: colors.border, alignItems: 'center', justifyContent: 'center',
-    marginBottom: 4,
+    backgroundColor: colors.border, alignItems: 'center', justifyContent: 'center', marginBottom: 4,
   } as ViewStyle,
   stepDotActive: { backgroundColor: colors.accent } as ViewStyle,
   stepNo: { fontSize: 12, fontFamily: fonts.bold, color: colors.text3 } as TextStyle,
@@ -436,8 +500,7 @@ const s = StyleSheet.create({
   altBar: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
     paddingHorizontal: spacing.base, paddingVertical: spacing.md,
-    borderTopWidth: 1, borderTopColor: colors.border,
-    backgroundColor: colors.surface,
+    borderTopWidth: 1, borderTopColor: colors.border, backgroundColor: colors.surface,
   } as ViewStyle,
   geriBtn: {
     flexDirection: 'row', alignItems: 'center', gap: 4,

@@ -50,25 +50,27 @@ export function sokHtmlOlustur(form: SokFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
+  @page { size: A4; margin: 25mm 30mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Times New Roman', serif; font-size: 12pt; color: #000; padding: 20mm 25mm; }
+  body { font-family: 'Times New Roman', serif; font-size: 12pt; color: #000; }
   h1 { font-size: 13pt; text-align: center; margin-bottom: 4px; }
   h2 { font-size: 12pt; text-align: center; margin-bottom: 16px; }
   .baslik { text-align: center; margin-bottom: 20px; }
   .baslik p { font-size: 11pt; }
   table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  thead { display: table-header-group; }
   th, td { border: 1px solid #000; padding: 5px 8px; font-size: 11pt; }
   th { background: #f0f0f0; font-weight: bold; text-align: center; }
+  tr { page-break-inside: avoid; break-inside: avoid; }
   .imza-cell { min-height: 36px; width: 120px; }
   .meta-tablo td:first-child { font-weight: bold; width: 160px; }
-  .gundem-madde { margin: 10px 0; page-break-inside: avoid; }
+  .gundem-madde { margin: 10px 0; page-break-inside: avoid; break-inside: avoid; }
   .gundem-madde p { margin-bottom: 4px; line-height: 1.5; }
   .section-title { font-size: 12pt; font-weight: bold; text-align: center; margin: 16px 0 8px; border-bottom: 1px solid #000; padding-bottom: 4px; }
-  .davetiye { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #000; }
+  .davetiye { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #000; page-break-after: always; }
   .imza-alani { margin-top: 20px; display: flex; justify-content: space-between; }
   .imza-kutu { text-align: center; width: 45%; }
   .imza-kutu .cizgi { border-top: 1px solid #000; margin: 40px 0 4px; }
-  @media print { body { padding: 15mm 20mm; } }
 </style>
 </head>
 <body>
