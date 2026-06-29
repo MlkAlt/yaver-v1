@@ -67,7 +67,6 @@ export function sokHtmlOlustur(form: SokFormData): string {
   .gundem-madde { margin: 10px 0; page-break-inside: avoid; break-inside: avoid; }
   .gundem-madde p { margin-bottom: 4px; line-height: 1.5; }
   .section-title { font-size: 12pt; font-weight: bold; text-align: center; margin: 16px 0 8px; border-bottom: 1px solid #000; padding-bottom: 4px; }
-  .davetiye { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #000; page-break-after: always; }
   .imza-alani { margin-top: 20px; display: flex; justify-content: space-between; }
   .imza-kutu { text-align: center; width: 45%; }
   .imza-kutu .cizgi { border-top: 1px solid #000; margin: 40px 0 4px; }
@@ -75,32 +74,7 @@ export function sokHtmlOlustur(form: SokFormData): string {
 </head>
 <body>
 
-<!-- BÖLÜM 1: DAVETİYE -->
-<div class="davetiye">
-  <div class="baslik">
-    <h2>${okulAdi.toUpperCase()} MÜDÜRLÜĞÜNE</h2>
-  </div>
-  <p>${egitimYili} Eğitim-Öğretim Yılı ${donemAdi} Şube Öğretmenler Kurulu toplantısı ${toplantıAyi} ayı içinde okulumuz öğretmenler odasında saat ${saat} itibari ile aşağıdaki gündem maddelerini görüşmek üzere ${sinif} Sınıfı Şube Rehber Öğretmeni <strong>${rehberOgretmeni}</strong> başkanlığında toplanacaktır. Bilgilerinize arz ederim.</p>
-  <br/>
-  <p style="text-align:right"><strong>${sinif} Sınıf Rehber Öğretmeni</strong><br/>${rehberOgretmeni}</p>
-  <br/>
-  <p><strong>GÜNDEM MADDELERİ</strong></p>
-  <ol>
-    ${GUNDEM_MADDELERI.map(m => `<li>${m.baslik}</li>`).join('')}
-  </ol>
-  <br/>
-  <div class="imza-alani">
-    <div></div>
-    <div class="imza-kutu">
-      <div class="cizgi"></div>
-      <p>Okul Müdürü</p>
-      <p><strong>OLUR</strong></p>
-      <p>${tarih}</p>
-    </div>
-  </div>
-</div>
-
-<!-- BÖLÜM 2: TUTANAK BAŞLIĞI -->
+<!-- TUTANAK BAŞLIĞI -->
 <div class="baslik">
   <h1>${okulAdi.toUpperCase()}</h1>
   <h2>${egitimYili} EĞİTİM-ÖĞRETİM YILI ${donemAdi.toUpperCase()}</h2>

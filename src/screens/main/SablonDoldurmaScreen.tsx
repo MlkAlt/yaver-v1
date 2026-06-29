@@ -24,6 +24,7 @@ type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
 const STORAGE_OGRETMENLER = '@yaver/sok_ogretmenler';
 const STORAGE_OKUL        = '@yaver/okul_adi';
 const STORAGE_OKUL_TIPI   = '@yaver/okul_tipi';
+const STORAGE_SINIF       = '@yaver/sok_sinif';
 
 const OKUL_TIPLERI: { key: OkulTipi; label: string }[] = [
   { key: 'ilkokul',  label: 'İlkokul'  },
@@ -253,8 +254,10 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       AsyncStorage.getItem(STORAGE_OKUL),
       AsyncStorage.getItem(STORAGE_OKUL_TIPI),
       AsyncStorage.getItem(STORAGE_OGRETMENLER),
-    ]).then(([okul, tipi, ogretmenlerJson]) => {
+      AsyncStorage.getItem(STORAGE_SINIF),
+    ]).then(([okul, tipi, ogretmenlerJson, sinifKayitli]) => {
       if (okul) setOkulAdi(okul);
+      if (sinifKayitli) setSinif(sinifKayitli);
       const savedTipi = (tipi as OkulTipi) || 'lise';
       if (tipi) setOkulTipi(savedTipi);
       if (ogretmenlerJson) {
@@ -299,6 +302,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
     try {
       await AsyncStorage.setItem(STORAGE_OKUL, okulAdi);
       await AsyncStorage.setItem(STORAGE_OKUL_TIPI, okulTipi);
+      await AsyncStorage.setItem(STORAGE_SINIF, sinif);
       await AsyncStorage.setItem(STORAGE_OGRETMENLER, JSON.stringify(ogretmenler));
 
       const formData: SokFormData = {
