@@ -17,14 +17,21 @@ import { spacing, radius } from '../../tokens/spacing';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 import { getBransListesi, GUNDEM_MADDELERI } from '../../data/sokSablon';
 import { sokHtmlOlustur, SokFormData } from '../../data/sokHtmlSablon';
+import { ZUMRE_GUNDEM_MADDELERI, TOPLANTI_TIPLERI, ZumleToplantTipi } from '../../data/zumreSablon';
+import { zumreHtmlOlustur, ZumreFormData } from '../../data/zumreHtmlSablon';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
 type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
 
-const STORAGE_OGRETMENLER = '@yaver/sok_ogretmenler';
-const STORAGE_OKUL        = '@yaver/okul_adi';
-const STORAGE_OKUL_TIPI   = '@yaver/okul_tipi';
-const STORAGE_SINIF       = '@yaver/sok_sinif';
+const STORAGE_OGRETMENLER      = '@yaver/sok_ogretmenler';
+const STORAGE_OKUL             = '@yaver/okul_adi';
+const STORAGE_OKUL_TIPI        = '@yaver/okul_tipi';
+const STORAGE_SINIF            = '@yaver/sok_sinif';
+const STORAGE_KULLANICI_ADI    = '@yaver/kullanici_adi';
+const STORAGE_ZUMRE_BRANS      = '@yaver/zumre_brans';
+const STORAGE_ZUMRE_OGRETMENLER= '@yaver/zumre_ogretmenler';
+const STORAGE_ZUMRE_MUDUR      = '@yaver/zumre_mudur';
+const STORAGE_ZUMRE_MUDUR_YARD = '@yaver/zumre_mudur_yard';
 
 const OKUL_TIPLERI: { key: OkulTipi; label: string }[] = [
   { key: 'ilkokul',  label: 'İlkokul'  },
@@ -235,8 +242,10 @@ function AdimGundem({
 // ─── ANA EKRAN ────────────────────────────────────────────────────────────
 export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const { sablonId, sablonAdi } = route.params;
-  const isSok = sablonId === 'sok';
+  const isSok    = sablonId === 'sok';
+  const isZumre  = sablonId === 'zumre';
 
+  // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
   const [okulAdi, setOkulAdi]         = useState('');
   const [okulTipi, setOkulTipi]       = useState<OkulTipi>('lise');
@@ -248,27 +257,55 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [gundemNotlari, setGundemNotlari] = useState<Record<number, string>>({});
   const [yukleniyor, setYukleniyor]   = useState(false);
 
+  // ─── Zümre state ──────────────────────────────────────────────────────
+  const [zAdim, setZAdim]             = useState(0);
+  const [zOkulAdi, setZOkulAdi]       = useState('');
+  const [zBrans, setZBrans]           = useState('');
+  const [zTipi, setZTipi]            = useState<ZumleToplantTipi>('sene_basi');
+  const [zTarih, setZTarih]          = useState(bugunTarih());
+  const [zSaat, setZSaat]            = useState('14:30');
+  const [zBaskan, setZBaskan]        = useState('');
+  const [zMudur, setZMudur]          = useState('');
+  const [zMudurYard, setZMudurYard]  = useState('');
+  const [zOgretmenler, setZOgretmenler] = useState<{ ad: string }[]>([]);
+  const [zNotlar, setZNotlar]        = useState<Record<number, string>>({});
+  const [zYukleniyor, setZYukleniyor]= useState(false);
+
   useEffect(() => {
-    if (!isSok) return;
-    Promise.all([
-      AsyncStorage.getItem(STORAGE_OKUL),
-      AsyncStorage.getItem(STORAGE_OKUL_TIPI),
-      AsyncStorage.getItem(STORAGE_OGRETMENLER),
-      AsyncStorage.getItem(STORAGE_SINIF),
-    ]).then(([okul, tipi, ogretmenlerJson, sinifKayitli]) => {
-      if (okul) setOkulAdi(okul);
-      if (sinifKayitli) setSinif(sinifKayitli);
-      const savedTipi = (tipi as OkulTipi) || 'lise';
-      if (tipi) setOkulTipi(savedTipi);
-      if (ogretmenlerJson) {
-        setOgretmenler(JSON.parse(ogretmenlerJson));
-      } else {
-        setOgretmenler(varsayilanListeOlustur(savedTipi));
-      }
-    });
+    if (isSok) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_OKUL_TIPI),
+        AsyncStorage.getItem(STORAGE_OGRETMENLER),
+        AsyncStorage.getItem(STORAGE_SINIF),
+      ]).then(([okul, tipi, ogretmenlerJson, sinifKayitli]) => {
+        if (okul) setOkulAdi(okul);
+        if (sinifKayitli) setSinif(sinifKayitli);
+        const savedTipi = (tipi as OkulTipi) || 'lise';
+        if (tipi) setOkulTipi(savedTipi);
+        if (ogretmenlerJson) setOgretmenler(JSON.parse(ogretmenlerJson));
+        else setOgretmenler(varsayilanListeOlustur(savedTipi));
+      });
+    } else if (isZumre) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_BRANS),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR_YARD),
+        AsyncStorage.getItem(STORAGE_ZUMRE_OGRETMENLER),
+      ]).then(([okul, kulAdi, brans, mudur, mudurYard, ogretmenlerJson]) => {
+        if (okul)    setZOkulAdi(okul);
+        if (kulAdi)  setZBaskan(kulAdi);
+        if (brans)   setZBrans(brans);
+        if (mudur)   setZMudur(mudur);
+        if (mudurYard) setZMudurYard(mudurYard);
+        if (ogretmenlerJson) setZOgretmenler(JSON.parse(ogretmenlerJson));
+      });
+    }
   }, []);
 
-  if (!isSok) {
+  if (!isSok && !isZumre) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -277,6 +314,232 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
             <Text style={s.infoText}>Bu şablon yakında eklenecek.</Text>
           </View>
         </ScrollView>
+      </Screen>
+    );
+  }
+
+  // ─── Zümre akışı ──────────────────────────────────────────────────────
+  if (isZumre) {
+    const Z_ADIMLAR = ['Temel Bilgiler', 'Katılımcılar', 'Gündem Notları'];
+
+    const zIleri = () => {
+      if (zAdim === 0 && (!zOkulAdi.trim() || !zBrans.trim() || !zBaskan.trim())) {
+        Alert.alert('Eksik bilgi', 'Okul adı, branş ve adınız zorunlu.');
+        return;
+      }
+      if (zAdim < Z_ADIMLAR.length - 1) setZAdim(zAdim + 1);
+      else zOlustur();
+    };
+    const zGeri = () => setZAdim(zAdim - 1);
+
+    async function zOlustur() {
+      setZYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, zOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, zBaskan);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_BRANS, zBrans);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, zMudur);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR_YARD, zMudurYard);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_OGRETMENLER, JSON.stringify(zOgretmenler));
+
+        const formData: ZumreFormData = {
+          okulAdi: zOkulAdi,
+          brans: zBrans,
+          topTipi: zTipi,
+          egitimYili: egitimYiliHesapla(),
+          tarih: zTarih,
+          saat: zSaat,
+          zumreBaskani: zBaskan,
+          mudur: zMudur,
+          mudurYardimcisi: zMudurYard,
+          ogretmenler: zOgretmenler,
+          gundemNotlari: zNotlar,
+        };
+
+        const html    = zumreHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({
+          html, base64: false,
+          margins: { top: 98, right: 118, bottom: 98, left: 118 },
+        });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Zümre Tutanağı — ${zBrans}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch (e) {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setZYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Zümre Tutanağı" back />
+
+        <View style={s.stepper}>
+          {Z_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= zAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= zAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === zAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {zAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>Tutanak başlık bilgileri</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={zOkulAdi} onChangeText={setZOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Branş" zorunlu hint="Zümrenizin branş adı">
+                <TextInput style={s.input} value={zBrans} onChangeText={setZBrans}
+                  placeholder="Matematik" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Adınız Soyadınız (Zümre Başkanı)" zorunlu>
+                <TextInput style={s.input} value={zBaskan} onChangeText={setZBaskan}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <Alan label="Toplantı Türü" zorunlu>
+                <View style={s.chipRow}>
+                  {TOPLANTI_TIPLERI.map(t => (
+                    <TouchableOpacity
+                      key={t.key}
+                      style={[s.chip, zTipi === t.key && s.chipActive]}
+                      onPress={() => setZTipi(t.key)}
+                      activeOpacity={0.7}
+                    >
+                      <Text style={[s.chipText, zTipi === t.key && s.chipTextActive]}>{t.label}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </Alan>
+
+              <Alan label="Toplantı Tarihi" zorunlu>
+                <TextInput style={s.input} value={zTarih} onChangeText={setZTarih}
+                  placeholder="15 Kasım 2025" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Saat" zorunlu>
+                <TextInput style={s.input} value={zSaat} onChangeText={setZSaat}
+                  placeholder="14:30" placeholderTextColor={colors.text3} keyboardType="numeric" />
+              </Alan>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>
+                  Eğitim yılı:{' '}
+                  <Text style={s.infoVurgu}>{egitimYiliHesapla()}</Text>
+                </Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {zAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Katılımcılar</Text>
+              <Text style={s.adimAlt}>Toplantıya katılan okul yönetimi ve öğretmenler</Text>
+
+              <Alan label="Okul Müdürü">
+                <TextInput style={s.input} value={zMudur} onChangeText={setZMudur}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Okul Müdür Yardımcısı">
+                <TextInput style={s.input} value={zMudurYard} onChangeText={setZMudurYard}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <Text style={s.listBaslik}>{zBrans ? zBrans.toUpperCase() : 'BRANŞ'} ÖĞRETMENLERİ</Text>
+
+              {zOgretmenler.map((o, i) => (
+                <View key={i} style={s.ogretmenRow}>
+                  <TextInput
+                    style={[s.input, { flex: 1 }]}
+                    value={o.ad}
+                    onChangeText={v => {
+                      const next = [...zOgretmenler];
+                      next[i] = { ad: v };
+                      setZOgretmenler(next);
+                    }}
+                    placeholder="Ad Soyad"
+                    placeholderTextColor={colors.text3}
+                  />
+                  <TouchableOpacity
+                    onPress={() => setZOgretmenler(zOgretmenler.filter((_, idx) => idx !== i))}
+                    style={s.deleteBtn}
+                  >
+                    <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                  </TouchableOpacity>
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setZOgretmenler([...zOgretmenler, { ad: '' }])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Öğretmen Ekle</Text>
+              </TouchableOpacity>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>Yönetim ve öğretmen listesi kaydedilir, bir sonraki toplantıda güncelleme yapman yeterli.</Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {zAdim === 2 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Gündem Notları</Text>
+              <Text style={s.adimAlt}>Boş bıraktığın maddeler standart metinle doldurulur</Text>
+
+              {ZUMRE_GUNDEM_MADDELERI.filter(m => !m.sabit).map(madde => (
+                <View key={madde.no} style={s.gundemItem}>
+                  <Text style={s.gundemNo}>{madde.no}. {madde.baslik}</Text>
+                  <TextInput
+                    style={[s.input, s.textArea]}
+                    value={zNotlar[madde.no] || ''}
+                    onChangeText={v => setZNotlar({ ...zNotlar, [madde.no]: v })}
+                    placeholder="Toplantıda konuşulanları kısaca yaz (boş = standart metin)"
+                    placeholderTextColor={colors.text3}
+                    multiline
+                    numberOfLines={3}
+                  />
+                </View>
+              ))}
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {zAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={zGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, zYukleniyor && s.ileriDisabled]}
+            onPress={zIleri} activeOpacity={0.8} disabled={zYukleniyor}
+          >
+            {zAdim === Z_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{zYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
       </Screen>
     );
   }
