@@ -4,7 +4,7 @@ import {
   ScrollView, TouchableOpacity, Modal, TextInput, Dimensions,
 } from 'react-native';
 import {
-  FileText, Files, Mail, ChartBar, LayoutGrid, Plus, Search, Download, Trophy, X, ChevronRight,
+  FileText, Files, Mail, ChartBar, LayoutGrid, Plus, Search, Download, Trophy, X, ChevronRight, Users,
 } from 'lucide-react-native';
 import KULUPLER from '../../../kulupler/kulupler.json';
 import { useNavigation } from '@react-navigation/native';
@@ -31,6 +31,7 @@ type Sablon = {
 const SABLONLAR: Sablon[] = [
   { id: 'zumre',        Icon: FileText,   ad: 'Zümre Tutanağı', yeni: true, iconBg: colors.catBlueLt,   iconColor: colors.catBlue   },
   { id: 'sok',          Icon: Files,      ad: 'ŞÖK Belgesi',               iconBg: colors.catTealLt,   iconColor: colors.catTeal   },
+  { id: 'veli',         Icon: Users,      ad: 'Veli Toplantısı', yeni: true, iconBg: colors.catGreenLt, iconColor: colors.catGreen  },
   { id: 'dilekce',      Icon: Mail,       ad: 'Dilekçe',        yeni: true, iconBg: colors.catPurpleLt, iconColor: colors.catPurple },
   { id: 'sinav-analizi',Icon: ChartBar,   ad: 'Sınav Analizi',             iconBg: colors.catGreenLt,  iconColor: colors.catGreen  },
   { id: 'ders-plan',    Icon: LayoutGrid, ad: 'Ders Planı',                iconBg: colors.catOrangeLt, iconColor: colors.catOrange },

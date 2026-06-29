@@ -19,6 +19,8 @@ import { getBransListesi, GUNDEM_MADDELERI } from '../../data/sokSablon';
 import { sokHtmlOlustur, SokFormData } from '../../data/sokHtmlSablon';
 import { ZUMRE_GUNDEM_MADDELERI, TOPLANTI_TIPLERI, ZumleToplantTipi } from '../../data/zumreSablon';
 import { zumreHtmlOlustur, ZumreFormData } from '../../data/zumreHtmlSablon';
+import { VELI_GUNDEM_MADDELERI, VELI_DONEM_TIPLERI, VeliDonem } from '../../data/veliSablon';
+import { veliHtmlOlustur, VeliFormData } from '../../data/veliHtmlSablon';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
 type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
@@ -32,6 +34,7 @@ const STORAGE_ZUMRE_BRANS      = '@yaver/zumre_brans';
 const STORAGE_ZUMRE_OGRETMENLER= '@yaver/zumre_ogretmenler';
 const STORAGE_ZUMRE_MUDUR      = '@yaver/zumre_mudur';
 const STORAGE_ZUMRE_MUDUR_YARD = '@yaver/zumre_mudur_yard';
+const STORAGE_VELI_OGRETMENLER = '@yaver/veli_ogretmenler';
 
 const OKUL_TIPLERI: { key: OkulTipi; label: string }[] = [
   { key: 'ilkokul',  label: 'İlkokul'  },
@@ -244,6 +247,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const { sablonId, sablonAdi } = route.params;
   const isSok    = sablonId === 'sok';
   const isZumre  = sablonId === 'zumre';
+  const isVeli   = sablonId === 'veli';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -270,6 +274,20 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [zOgretmenler, setZOgretmenler] = useState<{ ad: string }[]>([]);
   const [zNotlar, setZNotlar]        = useState<Record<number, string>>({});
   const [zYukleniyor, setZYukleniyor]= useState(false);
+
+  // ─── Veli state ───────────────────────────────────────────────────────
+  const [vAdim, setVAdim]             = useState(0);
+  const [vOkulAdi, setVOkulAdi]       = useState('');
+  const [vSinif, setVSinif]           = useState('');
+  const [vDonem, setVDonem]           = useState<VeliDonem>('donem1');
+  const [vTarih, setVTarih]           = useState(bugunTarih());
+  const [vSaat, setVSaat]             = useState('17:00');
+  const [vRehber, setVRehber]         = useState('');
+  const [vMudur, setVMudur]           = useState('');
+  const [vMudurYard, setVMudurYard]   = useState('');
+  const [vOgretmenler, setVOgretmenler] = useState<{ brans: string; ad: string }[]>([]);
+  const [vNotlar, setVNotlar]         = useState<Record<number, string>>({});
+  const [vYukleniyor, setVYukleniyor] = useState(false);
 
   useEffect(() => {
     if (isSok) {
@@ -302,10 +320,26 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (mudurYard) setZMudurYard(mudurYard);
         if (ogretmenlerJson) setZOgretmenler(JSON.parse(ogretmenlerJson));
       });
+    } else if (isVeli) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_SINIF),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR_YARD),
+        AsyncStorage.getItem(STORAGE_VELI_OGRETMENLER),
+      ]).then(([okul, sinifKayitli, kulAdi, mudur, mudurYard, ogretmenlerJson]) => {
+        if (okul)          setVOkulAdi(okul);
+        if (sinifKayitli)  setVSinif(sinifKayitli);
+        if (kulAdi)        setVRehber(kulAdi);
+        if (mudur)         setVMudur(mudur);
+        if (mudurYard)     setVMudurYard(mudurYard);
+        if (ogretmenlerJson) setVOgretmenler(JSON.parse(ogretmenlerJson));
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre) {
+  if (!isSok && !isZumre && !isVeli) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -314,6 +348,246 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
             <Text style={s.infoText}>Bu şablon yakında eklenecek.</Text>
           </View>
         </ScrollView>
+      </Screen>
+    );
+  }
+
+  // ─── Veli akışı ───────────────────────────────────────────────────────
+  if (isVeli) {
+    const V_ADIMLAR = ['Temel Bilgiler', 'Katılımcılar', 'Gündem Notları'];
+
+    const vIleri = () => {
+      if (vAdim === 0 && (!vOkulAdi.trim() || !vSinif.trim() || !vRehber.trim())) {
+        Alert.alert('Eksik bilgi', 'Okul adı, sınıf ve adınız zorunlu.');
+        return;
+      }
+      if (vAdim < V_ADIMLAR.length - 1) setVAdim(vAdim + 1);
+      else vOlustur();
+    };
+    const vGeri = () => setVAdim(vAdim - 1);
+
+    async function vOlustur() {
+      setVYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, vOkulAdi);
+        await AsyncStorage.setItem(STORAGE_SINIF, vSinif);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, vRehber);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, vMudur);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR_YARD, vMudurYard);
+        await AsyncStorage.setItem(STORAGE_VELI_OGRETMENLER, JSON.stringify(vOgretmenler));
+
+        const formData: VeliFormData = {
+          okulAdi: vOkulAdi,
+          sinif: vSinif,
+          donem: vDonem,
+          egitimYili: egitimYiliHesapla(),
+          tarih: vTarih,
+          saat: vSaat,
+          rehber: vRehber,
+          mudur: vMudur,
+          mudurYardimcisi: vMudurYard,
+          ogretmenler: vOgretmenler,
+          gundemNotlari: vNotlar,
+        };
+
+        const html    = veliHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({
+          html, base64: false,
+          margins: { top: 98, right: 118, bottom: 98, left: 118 },
+        });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Veli Toplantısı — ${vSinif}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch (e) {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setVYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Veli Toplantısı Tutanağı" back />
+
+        <View style={s.stepper}>
+          {V_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= vAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= vAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === vAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {vAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>Toplantı başlık bilgileri</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={vOkulAdi} onChangeText={setVOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Sınıf" zorunlu hint="örn. 10/A, 5-B">
+                <TextInput style={s.input} value={vSinif} onChangeText={setVSinif}
+                  placeholder="10/A" placeholderTextColor={colors.text3} autoCapitalize="characters" />
+              </Alan>
+              <Alan label="Adınız Soyadınız (Rehber Öğretmen)" zorunlu>
+                <TextInput style={s.input} value={vRehber} onChangeText={setVRehber}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <Alan label="Dönem" zorunlu>
+                <View style={s.chipRow}>
+                  {VELI_DONEM_TIPLERI.map(d => (
+                    <TouchableOpacity
+                      key={d.key}
+                      style={[s.chip, vDonem === d.key && s.chipActive]}
+                      onPress={() => setVDonem(d.key)}
+                      activeOpacity={0.7}
+                    >
+                      <Text style={[s.chipText, vDonem === d.key && s.chipTextActive]}>{d.label}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </Alan>
+
+              <Alan label="Toplantı Tarihi" zorunlu>
+                <TextInput style={s.input} value={vTarih} onChangeText={setVTarih}
+                  placeholder="15 Kasım 2025" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Saat" zorunlu>
+                <TextInput style={s.input} value={vSaat} onChangeText={setVSaat}
+                  placeholder="17:00" placeholderTextColor={colors.text3} keyboardType="numeric" />
+              </Alan>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>
+                  Eğitim yılı:{' '}
+                  <Text style={s.infoVurgu}>{egitimYiliHesapla()}</Text>
+                  {'\n'}PDF'te tutanak + 30 satırlık veli katılım listesi birlikte oluşturulur.
+                </Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {vAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Katılımcılar</Text>
+              <Text style={s.adimAlt}>Toplantıya katılan okul yönetimi ve branş öğretmenleri</Text>
+
+              <Alan label="Okul Müdürü">
+                <TextInput style={s.input} value={vMudur} onChangeText={setVMudur}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Okul Müdür Yardımcısı">
+                <TextInput style={s.input} value={vMudurYard} onChangeText={setVMudurYard}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <Text style={s.listBaslik}>BRANŞ ÖĞRETMENLERİ</Text>
+
+              {vOgretmenler.map((o, i) => (
+                <View key={i} style={s.ogretmenRow}>
+                  <View style={{ flex: 1, gap: 6 }}>
+                    <TextInput
+                      style={s.input}
+                      value={o.brans}
+                      onChangeText={v => {
+                        const next = [...vOgretmenler];
+                        next[i] = { ...next[i], brans: v };
+                        setVOgretmenler(next);
+                      }}
+                      placeholder="Branş"
+                      placeholderTextColor={colors.text3}
+                    />
+                    <TextInput
+                      style={s.input}
+                      value={o.ad}
+                      onChangeText={v => {
+                        const next = [...vOgretmenler];
+                        next[i] = { ...next[i], ad: v };
+                        setVOgretmenler(next);
+                      }}
+                      placeholder="Ad Soyad"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </View>
+                  <TouchableOpacity
+                    onPress={() => setVOgretmenler(vOgretmenler.filter((_, idx) => idx !== i))}
+                    style={s.deleteBtn}
+                  >
+                    <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                  </TouchableOpacity>
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setVOgretmenler([...vOgretmenler, { brans: '', ad: '' }])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Öğretmen Ekle</Text>
+              </TouchableOpacity>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>Öğretmen listesi kaydedilir, bir sonraki toplantıda güncelleme yapman yeterli.</Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {vAdim === 2 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Gündem Notları</Text>
+              <Text style={s.adimAlt}>Boş bıraktığın maddeler standart metinle doldurulur</Text>
+
+              {VELI_GUNDEM_MADDELERI.filter(m => !m.sabit).map(madde => (
+                <View key={madde.no} style={s.gundemItem}>
+                  <Text style={s.gundemNo}>{madde.no}. {madde.baslik}</Text>
+                  <TextInput
+                    style={[s.input, s.textArea]}
+                    value={vNotlar[madde.no] || ''}
+                    onChangeText={v => setVNotlar({ ...vNotlar, [madde.no]: v })}
+                    placeholder="Toplantıda konuşulanları kısaca yaz (boş = standart metin)"
+                    placeholderTextColor={colors.text3}
+                    multiline
+                    numberOfLines={3}
+                  />
+                </View>
+              ))}
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {vAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={vGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, vYukleniyor && s.ileriDisabled]}
+            onPress={vIleri} activeOpacity={0.8} disabled={vYukleniyor}
+          >
+            {vAdim === V_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{vYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
       </Screen>
     );
   }
