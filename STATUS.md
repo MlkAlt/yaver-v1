@@ -1,10 +1,28 @@
 # Yaver V1 — Proje Durumu
 
-**Son güncelleme:** 15.06.2026 — Oturum 67
+**Son güncelleme:** 27.06.2026 — Oturum 71
 
 ## Şu An Ne Yapıyoruz
 
-**v2 DB geçişi bitti — UX & veri düzeltmeleri yapıldı, test aşaması**
+**APK hazır — kullanıcı manuel test yapıyor, sonra Evraklarım (S12)**
+
+### Oturum 71 yapılanlar (26-27.06.2026)
+
+**Almanca lise + Fransızca lise — Migration 071 ✅:**
+- Encoding sorunu çözüldü: Claude chat ile PDF'den orijinal UTF-8 dosyalar yeniden üretildi
+- Dönüşüm: CEFR (A1=9, A2=10, B1=11, B2=12) → sinif, sinif_tipi=normal, program=null
+- DB: 8309 → **9568** (+1259, sıfır conflict)
+- Almanca lise: 523 kayıt ✅ | Fransızca lise: 736 kayıt ✅
+
+**EAS Preview APK ✅:**
+- Build ID: `49a099c2-f5f8-4eac-9e8a-540b3993e9f7`
+- İndirme: `https://expo.dev/accounts/melik06s-organization/projects/yaver/builds/49a099c2-f5f8-4eac-9e8a-540b3993e9f7`
+- Düzeltmeler: `newArchEnabled: true` (reanimated 4.x zorunlu), SDK 54 paket versiyonları senkronize edildi, package-lock.json güncellendi
+- Android cihaza link/QR ile yüklenebilir, başkasıyla paylaşılabilir
+
+**Sonraki adımlar:**
+1. Kullanıcı APK'yı telefona yükler → kazanımları manuel test eder → hata varsa bildirir
+2. Hata yoksa veya düzeltmeler tamamlandıktan sonra → **Evraklarım (S12)** ekranına geç
 
 ### Oturum 67 yapılanlar (15.06.2026)
 

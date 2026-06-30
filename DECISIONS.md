@@ -2,6 +2,16 @@
 
 ---
 
+## Veri
+
+### 2026-06-20 — Almanca/Fransızca lise CEFR → sinif mapping
+CEFR seviyesi → sinif: A1=9, A2=10, B1=11, B2=12. Maarif modeli değil, yabancı dil müfredatı. Tüm sinif_tipi=normal, program=null.
+
+### 2026-06-20 — Encoding fix hatası (almanca/fransızca lise)
+Dosyalar UTF-8 + doğru karakterlerle geldi. Fix script yanlışlıkla doğru UTF-8 metni bozdu (ä/ü → U+FFFD). Kural: yeni JSON dosyalarda metne dokunma, sadece yapısal alanları (sinif, sinif_tipi, program, secmeli) düzelt.
+
+---
+
 ## UX & Veri
 
 ### 2026-06-14 — Seçmeli ders / sinif=0 stratejisi
@@ -35,6 +45,12 @@ Claude Opus vision ile PDF'den üretilen 81 `*_v2.json` dosyası (9077 kazanım)
 ---
 
 ## Ürün Kapsamı
+
+### 2026-06-20 — V2 pivot tartışıldı, geri çekildi (Oturum 69)
+**Ne:** Oturum 69'da V2 pivot stratejisi (4 sekme, freemium Model D, hibrit cache, 9 evrak, otonom GitHub Actions modu) tartışıldı. PLAN_V2.md ve `.github/workflows/yaver-cron.yml` yazıldı, sonra tamamen geri çekildi (`git reset --hard HEAD~1`).
+**Neden:** Karar fatigası + V1.4'ün %80 hazır olması. 15 ekran çalışıyor, 9077 kazanım seed edildi, plan üretim canlı, Edge Function deploy. Ship etmek pivot riskinden daha mantıklı geldi.
+**Korunan:** `STRATEJI_V2.md` taslağı diskte duruyor (Oturum 68'den). Sınav Analizi, "Yaver hazırlar" sloganı, 3 üretim tipi (Ders Planı atılır), 9 evrak listesi V1.5 referansı olarak değerlendirilebilir.
+**Ne zaman revize:** V1.4 lansman sonrası 100+ kullanıcı + retention datasıyla V1.5 roadmap yapılırken.
 
 ### 2026-04-17 — V1'de ders kitabı RAG kullanılmayacak
 Sadece kazanım datası. PDF telif riski + aşırı mühendislik. V1.5'te premium feature.

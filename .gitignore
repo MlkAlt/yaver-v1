@@ -35,6 +35,7 @@ supabase/.temp/
 # Claude Code settings (ortama özgü izinler)
 .claude/settings.json
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
 .expo/
 
 # Python virtual env
