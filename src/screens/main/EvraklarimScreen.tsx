@@ -130,7 +130,9 @@ export function EvraklarimScreen() {
               key={s.id}
               style={styles.sablonCard}
               activeOpacity={0.8}
-              onPress={() => navigation.navigate('SablonDoldurma', { sablonId: s.id, sablonAdi: s.ad })}
+              onPress={() => s.id === 'sinav-analizi'
+                ? navigation.navigate('SinavAnalizi')
+                : navigation.navigate('SablonDoldurma', { sablonId: s.id, sablonAdi: s.ad })}
             >
               {s.yeni ? (
                 <View style={styles.newBadge}><Text style={styles.newBadgeText}>YENİ</Text></View>

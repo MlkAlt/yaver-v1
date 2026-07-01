@@ -22,6 +22,7 @@ import { CiktiScreen } from '../screens/main/CiktiScreen';
 import { DersIcinScreen } from '../screens/main/DersIcinScreen';
 import { EvraklarimScreen } from '../screens/main/EvraklarimScreen';
 import { SablonDoldurmaScreen } from '../screens/main/SablonDoldurmaScreen';
+import { SinavAnaliziScreen } from '../screens/main/SinavAnaliziScreen';
 import { ProfilScreen } from '../screens/main/ProfilScreen';
 import { OkulBilgileriScreen } from '../screens/main/OkulBilgileriScreen';
 import { DersProgramiScreen } from '../screens/main/DersProgramiScreen';
@@ -40,6 +41,7 @@ export type RootStackParamList = {
   Uretim: { kazanimKodu?: string; sinif?: string; kazanimAdi?: string; icerikTuru?: string } | undefined;
   Cikti: { tip: string; icerik: string; baglam: string };
   SablonDoldurma: { sablonId: string; sablonAdi: string };
+  SinavAnalizi: undefined;
   OkulBilgileri: undefined;
   DersProgrami: { fromOnboarding?: boolean } | undefined;
   Profil: undefined;
@@ -82,6 +84,7 @@ export function RootNavigator() {
       <Stack.Screen name="Uretim" component={UretimScreen} />
       <Stack.Screen name="Cikti" component={CiktiScreen} />
       <Stack.Screen name="SablonDoldurma" component={SablonDoldurmaScreen} />
+      <Stack.Screen name="SinavAnalizi" component={SinavAnaliziScreen} />
       <Stack.Screen name="OkulBilgileri" component={OkulBilgileriScreen} />
       <Stack.Screen name="DersProgrami" component={DersProgramiScreen} />
       <Stack.Screen name="Profil" component={ProfilScreen} />

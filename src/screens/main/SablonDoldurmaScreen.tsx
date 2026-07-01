@@ -21,6 +21,10 @@ import { ZUMRE_GUNDEM_MADDELERI, TOPLANTI_TIPLERI, ZumleToplantTipi } from '../.
 import { zumreHtmlOlustur, ZumreFormData } from '../../data/zumreHtmlSablon';
 import { VELI_GUNDEM_MADDELERI, VELI_DONEM_TIPLERI, VeliDonem } from '../../data/veliSablon';
 import { veliHtmlOlustur, VeliFormData } from '../../data/veliHtmlSablon';
+import { KulupEtkinlikSatiri, bosEtkinlikSatiri } from '../../data/kulupSablon';
+import { kulupYillikPlanHtmlOlustur, KulupFormData } from '../../data/kulupHtmlSablon';
+import { kulupVarsayilanEtkinlikleri } from '../../data/kulupYillikPlanlari';
+import { turkceBuyuk } from '../../lib/turkce';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
 type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
@@ -248,6 +252,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const isSok    = sablonId === 'sok';
   const isZumre  = sablonId === 'zumre';
   const isVeli   = sablonId === 'veli';
+  const isKulup  = sablonId === 'kulup';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -288,6 +293,20 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [vOgretmenler, setVOgretmenler] = useState<{ brans: string; ad: string }[]>([]);
   const [vNotlar, setVNotlar]         = useState<Record<number, string>>({});
   const [vYukleniyor, setVYukleniyor] = useState(false);
+
+  // ─── Kulüp state ──────────────────────────────────────────────────────
+  const [kAdim, setKAdim]                       = useState(0);
+  const [kOkulAdi, setKOkulAdi]                 = useState('');
+  const [kKurulBaskani, setKKurulBaskani]       = useState('');
+  const [kDanismanOgretmen, setKDanismanOgretmen] = useState('');
+  const [kOgrenciTemsilcisi, setKOgrenciTemsilcisi] = useState('');
+  const [kMudur, setKMudur]                     = useState('');
+  const [kTarih, setKTarih]                     = useState(bugunTarih());
+  const [kEtkinlikler, setKEtkinlikler]         = useState<KulupEtkinlikSatiri[]>(() => {
+    const onerilen = kulupVarsayilanEtkinlikleri(sablonAdi);
+    return onerilen.length > 0 ? onerilen : [bosEtkinlikSatiri(1)];
+  });
+  const [kYukleniyor, setKYukleniyor]           = useState(false);
 
   useEffect(() => {
     if (isSok) {
@@ -336,10 +355,20 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (mudurYard)     setVMudurYard(mudurYard);
         if (ogretmenlerJson) setVOgretmenler(JSON.parse(ogretmenlerJson));
       });
+    } else if (isKulup) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+      ]).then(([okul, danisman, mudur]) => {
+        if (okul)     setKOkulAdi(okul);
+        if (danisman) setKDanismanOgretmen(danisman);
+        if (mudur)    { setKMudur(mudur); setKKurulBaskani(mudur); }
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre && !isVeli) {
+  if (!isSok && !isZumre && !isVeli && !isKulup) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -592,6 +621,209 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
     );
   }
 
+  // ─── Kulüp akışı (EK-7/b — Öğrenci Kulübü Sosyal Etkinlikler Yıllık Çalışma Planı) ──
+  if (isKulup) {
+    const K_ADIMLAR = ['Temel Bilgiler', 'Etkinlik Planı'];
+
+    const kIleri = () => {
+      if (kAdim === 0 && (!kOkulAdi.trim() || !kDanismanOgretmen.trim())) {
+        Alert.alert('Eksik bilgi', 'Okul adı ve danışman öğretmen adı zorunlu.');
+        return;
+      }
+      if (kAdim === 1 && kEtkinlikler.every(e => !e.tarih.trim() && !e.amac.trim() && !e.etkinlikler.trim())) {
+        Alert.alert('Eksik bilgi', 'En az bir etkinlik satırı doldurulmalı.');
+        return;
+      }
+      if (kAdim < K_ADIMLAR.length - 1) setKAdim(kAdim + 1);
+      else kOlustur();
+    };
+    const kGeri = () => setKAdim(kAdim - 1);
+
+    async function kOlustur() {
+      setKYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, kOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, kDanismanOgretmen);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, kMudur);
+
+        const formData: KulupFormData = {
+          okulAdi: kOkulAdi,
+          kulupAdi: sablonAdi,
+          egitimYili: egitimYiliHesapla(),
+          kurulBaskani: kKurulBaskani,
+          danismanOgretmen: kDanismanOgretmen,
+          ogrenciTemsilcisi: kOgrenciTemsilcisi,
+          mudur: kMudur,
+          tarih: kTarih,
+          etkinlikler: kEtkinlikler.filter(e => e.tarih.trim() || e.amac.trim() || e.etkinlikler.trim()),
+        };
+
+        const html    = kulupYillikPlanHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({
+          html, base64: false,
+          margins: { top: 98, right: 118, bottom: 98, left: 118 },
+        });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Kulüp Yıllık Çalışma Planı — ${sablonAdi}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch (e) {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setKYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title={sablonAdi} back />
+
+        <View style={s.stepper}>
+          {K_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= kAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= kAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === kAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {kAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>EK-7/b resmi formatı — {sablonAdi}</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={kOkulAdi} onChangeText={setKOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Sosyal Etkinlikler Kurul Başkanı" hint="Genellikle okul müdürü veya görevlendirdiği müdür yardımcısı">
+                <TextInput style={s.input} value={kKurulBaskani} onChangeText={setKKurulBaskani}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Danışman Öğretmen" zorunlu>
+                <TextInput style={s.input} value={kDanismanOgretmen} onChangeText={setKDanismanOgretmen}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Öğrenci Kulübü Temsilcisi">
+                <TextInput style={s.input} value={kOgrenciTemsilcisi} onChangeText={setKOgrenciTemsilcisi}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Eğitim Kurumu Müdürü">
+                <TextInput style={s.input} value={kMudur} onChangeText={setKMudur}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Onay Tarihi" zorunlu>
+                <TextInput style={s.input} value={kTarih} onChangeText={setKTarih}
+                  placeholder="15 Eylül 2025" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>
+                  Eğitim yılı: <Text style={s.infoVurgu}>{egitimYiliHesapla()}</Text>
+                  {'\n'}Bu belge, MEB Eğitim Kurumları Sosyal Etkinlikler Yönetmeliği EK-7/b formuna göre üretilir.
+                </Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {kAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Etkinlik Planı</Text>
+              <Text style={s.adimAlt}>
+                {kulupVarsayilanEtkinlikleri(sablonAdi).length > 0
+                  ? `${sablonAdi} için önerilen plan hazır — dilediğin satırı düzenle, sil veya yenisini ekle`
+                  : 'Yıl boyunca yapılacak etkinlikleri tarih sırasıyla ekle'}
+              </Text>
+
+              {kEtkinlikler.map((e, i) => (
+                <View key={e.no} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Etkinlik</Text>
+                    {kEtkinlikler.length > 1 && (
+                      <TouchableOpacity
+                        onPress={() => setKEtkinlikler(kEtkinlikler.filter((_, idx) => idx !== i))}
+                        style={s.deleteBtn}
+                      >
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <Alan label="Tarih" hint="örn. Ekim 2025, 29 Ekim 2025">
+                    <TextInput
+                      style={s.input}
+                      value={e.tarih}
+                      onChangeText={v => setKEtkinlikler(kEtkinlikler.map((x, idx) => idx === i ? { ...x, tarih: v } : x))}
+                      placeholder="Ekim 2025"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Amaç">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={e.amac}
+                      onChangeText={v => setKEtkinlikler(kEtkinlikler.map((x, idx) => idx === i ? { ...x, amac: v } : x))}
+                      placeholder="Öğrencilerde gönüllülük bilincini geliştirmek"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                  <Alan label="Yapılacak Etkinlikler">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={e.etkinlikler}
+                      onChangeText={v => setKEtkinlikler(kEtkinlikler.map((x, idx) => idx === i ? { ...x, etkinlikler: v } : x))}
+                      placeholder="Kızılay Haftası kapsamında bağış standı kurulması"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setKEtkinlikler([...kEtkinlikler, bosEtkinlikSatiri(kEtkinlikler.length + 1)])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Etkinlik Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {kAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={kGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, kYukleniyor && s.ileriDisabled]}
+            onPress={kIleri} activeOpacity={0.8} disabled={kYukleniyor}
+          >
+            {kAdim === K_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{kYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
   // ─── Zümre akışı ──────────────────────────────────────────────────────
   if (isZumre) {
     const Z_ADIMLAR = ['Temel Bilgiler', 'Katılımcılar', 'Gündem Notları'];
@@ -728,7 +960,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                   placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
               </Alan>
 
-              <Text style={s.listBaslik}>{zBrans ? zBrans.toUpperCase() : 'BRANŞ'} ÖĞRETMENLERİ</Text>
+              <Text style={s.listBaslik}>{zBrans ? turkceBuyuk(zBrans) : 'BRANŞ'} ÖĞRETMENLERİ</Text>
 
               {zOgretmenler.map((o, i) => (
                 <View key={i} style={s.ogretmenRow}>
@@ -1021,6 +1253,13 @@ const s = StyleSheet.create({
 
   gundemItem: { marginBottom: spacing.md } as ViewStyle,
   gundemNo: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1, marginBottom: 6 } as TextStyle,
+
+  soruCard: {
+    backgroundColor: colors.bg, borderRadius: radius.md,
+    padding: spacing.md, marginBottom: spacing.md, gap: spacing.sm,
+  } as ViewStyle,
+  soruHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' } as ViewStyle,
+  soruNo: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,
 
   stepper: {
     flexDirection: 'row', justifyContent: 'space-between',

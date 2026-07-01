@@ -6,6 +6,7 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
 import { sinifLabel } from '../../lib/sinifLabel';
+import { turkceBuyuk } from '../../lib/turkce';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -243,7 +244,7 @@ export function YillikPlanScreen() {
                 <View key={gi} style={styles.donemBlok}>
                   {/* Dönem başlığı */}
                   <View style={styles.donemHeader}>
-                    <Text style={styles.donemBaslik}>{grup.baslik.toUpperCase()}</Text>
+                    <Text style={styles.donemBaslik}>{turkceBuyuk(grup.baslik)}</Text>
                     <View style={styles.donemChip}>
                       <Text style={styles.donemChipText}>{grup.aktifSayac} aktif hafta</Text>
                     </View>
