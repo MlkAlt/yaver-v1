@@ -69,8 +69,25 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 
 **Build notu:** [[feedback_build_strateji]] — tüm evraklar bitmeden APK build yok, Expo Go test.
 
+### ACİL — PDF kenar boşluğu / sayfa yönü mimarisi (2026-07-02, kullanıcı tespit etti)
+
+**Sorun:** Performans Notu önizlemesinde (playwright screenshot) kenar boşluğu yok ve tablo yatay görünüyordu. Kök neden analizi:
+- Ham HTML'i tarayıcıda screenshot aldım — `@page` CSS kuralı (size/margin) SADECE gerçek print/PDF anında uygulanır, ekran render'ında hiç etkisi yok. Bu yüzden önizleme yanıltıcıydı.
+- **Ama asıl mimari soru hâlâ açık:** `SablonDoldurmaScreen.tsx`'teki her 7 `Print.printToFileAsync` çağrısı sabit `margins:{top:98,right:118,bottom:98,left:118}` (native, points) geçiyor — AYNI ZAMANDA her HTML şablonunun kendi `@page{margin:...}` kuralı da var (şablona göre 14mm-24mm arası değişken). Bu ikisi expo-print'te çakışıyor mu (çift boşluk), biri diğerini mi eziyor — gerçek cihazda test edilmeden bilinmiyor.
+
+**Plan (sıradaki oturumda yapılacak):**
+1. Playwright `page.pdf()` ile (raw HTML screenshot değil) gerçek `@page`'i uygulayan PDF önizleme üret — böylece gerçeğe yakın kontrol mümkün olur.
+2. Margin mimarisini TEK kaynağa indir: ya tüm şablonlardan `@page margin` kaldırılıp sadece JS `margins` param kullanılacak, ya da JS margin sıfırlanıp her şablonun kendi `@page` değeri tek kaynak olacak. Mümkünse gerçek cihaz/emülatörde expo-print davranışı doğrulanmalı.
+3. Bu düzeltme **8 evrak şablonunun tamamına** uygulanmalı (SOK, Zümre, Veli, Kulüp Yıllık Plan, Aylık Rapor, Toplum Hizmeti, Yoklama/Karar, Performans) — tek modüle özel yama değil, tutarlı kural.
+4. Sayfa yönü (dikey/yatay) muhtemelen sorun değil — hiçbir `@page` kuralında `landscape` yok — ama gerçek PDF render ile doğrulanacak.
+
+**Örnek çıktılar:** `evraklar/onizleme/performans_birinci.png`, `performans_ikinci.png` (+ .html) — henüz commit'lenmedi, kullanıcı inceledi.
+
+---
+
 ### Sıradaki Adımlar (genel — öncelik sırasıyla)
 
+0. **PDF kenar boşluğu/sayfa yönü mimarisi** — yukarıya bak, kullanıcı tarafından tespit edildi, sonraki oturumda ele alınacak
 1. **Rehberlik evrak ailesi** — kullanıcı 3 alt modül planlıyor, örnekleri sağlayacak (henüz gelmedi):
    - **Yıllık Rehberlik Planı**
    - **Aylık Rehberlik Raporu** — referans zaten var: `evraklar/rehberlik/melik-sibil-11-sinif-eylul-rehberlik-raporu-1782571914.docx` (sınıf/ay/rapor no/tarih, yıllık plana göre işlenen kazanımlar, yapılan etkinlikler, veli/öğrenci görüşme tablosu, imza)
