@@ -1,4 +1,4 @@
-// Kulüp Yıllık Çalışma Planı — EK-7/b içerik havuzu
+﻿// Kulüp Yıllık Çalışma Planı — EK-7/b içerik havuzu
 // Format: AYLIK (Ekim → Haziran, 9 satır) — gerçek okul planlarıyla hizalı.
 // Strateji: Ekim/Ocak/Haziran ortak şablondan, diğer 6 ay kulübe özgü.
 // İçerik kaynağı: gerçek okul belgelerinden türetildi (Karatay TMTAL, 2025-2026).
@@ -115,7 +115,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Kışa özgü afet risklerini tanıtmak\nAfet çantası hazırlığı bilincini yerleştirmek',
-      'Soğuk hava, buz ve yangın riskleri üzerine bilgilendirme semineri\nAfet çantası içeriği belirleme ve hazırlama atölyesi\nOkul afet planının incelenmesi',
+      'Soğuk hava, buz ve yangın riskleri üzerine bilgilendirme sunumu\nAfet çantası içeriği belirleme ve hazırlama çalışması\nOkul afet planının incelenmesi',
     ],
     subat: [
       'Sivil savunma uygulamaları konusunda deneyim kazandırmak\nTahliye prosedürlerini öğretmek',
@@ -123,7 +123,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Deprem bilinci ve dayanıklı yapı kavramını öğretmek\nOrman yangınlarına karşı farkındalık oluşturmak',
-      'Deprem riski ve güvenli davranış kuralları semineri\nOrman Haftası (21-26 Mart) kapsamında orman yangını önleme bilgilendirmesi\nAfet haritası hazırlama etkinliği',
+      'Deprem riski ve güvenli davranış kuralları sunumu\nOrman Haftası (21-26 Mart) kapsamında orman yangını önleme bilgilendirmesi\nAfet haritası hazırlama etkinliği',
     ],
     nisan: [
       'Temel ilk yardım becerisi kazandırmak\nAfet sonrası destek mekanizmalarını tanıtmak',
@@ -154,7 +154,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Girişimcilik ve Ahilik bağını pekiştirmek\nÜretim ve emek değerlerini kavratmak',
-      'Girişimcilik Haftası (Mart ayının ilk haftası) kapsamında Ahilik-girişimcilik ilişkisi sunumu\nÖğrencilerin meslek/iş fikri geliştirme atölyesi',
+      'Girişimcilik Haftası (Mart ayının ilk haftası) kapsamında Ahilik-girişimcilik ilişkisi sunumu\nÖğrencilerin meslek/iş fikri geliştirme çalışması',
     ],
     nisan: [
       'Ahilik geleneğini yaşayan örneklerle buluşturmak',
@@ -173,7 +173,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       "Uzay keşiflerinin tarihini ve Türkiye'nin uzay çalışmalarını tanıtmak",
-      "Atatürk Haftası kapsamında 'Modernleşme ve Bilim' sunumu\nTürkiye Uzay Ajansı ve yerli uzay çalışmaları tanıtım semineri\nGök cisimlerinden haberciler: meteor, kuyruklu yıldız sunumu",
+      "Atatürk Haftası kapsamında 'Modernleşme ve Bilim' sunumu\nTürkiye Uzay Ajansı ve yerli uzay çalışmaları tanıtım sunumu\nGök cisimlerinden haberciler: meteor, kuyruklu yıldız sunumu",
     ],
     aralik: [
       'Kış gökyüzünü ve takımyıldızları tanıtmak',
@@ -181,7 +181,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Güneş sistemi modelini uygulamalı olarak kavratmak',
-      'Maket güneş sistemi yapım atölyesi\nGezegen boyutları ve mesafeleri ölçek çalışması',
+      'Maket güneş sistemi yapım çalışması\nGezegen boyutları ve mesafeleri ölçek çalışması',
     ],
     mart: [
       'Bilim ve uzay teknolojileri arasındaki bağı pekiştirmek\nProje sunumu deneyimi kazandırmak',
@@ -231,7 +231,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Bilim Fen ve Teknoloji Kulübü': {
     ekimEkstra: [
       'Bilimsel düşünce ve gözlem yöntemlerini tanıtmak',
-      'Bilimsel yöntem adımları ve deney tasarımı atölyesi\nYıl içi proje konularının ön araştırması',
+      'Bilimsel yöntem adımları ve deney tasarımı çalışması\nYıl içi proje konularının ön araştırması',
     ],
     kasim: [
       "Türk ve dünya bilim insanlarını tanıtmak\nBilimin modernleşmedeki rolünü kavratmak",
@@ -239,11 +239,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Fen deneyleri aracılığıyla merak ve gözlem becerisi geliştirmek',
-      'Güvenli ve eğlenceli fen deneyleri atölyesi (yanardağ, balon roketi vb.)\nDeney günlüğü tutma uygulaması\nProje konusu belirleme ve planlama toplantısı',
+      'Güvenli ve eğlenceli fen deneyleri çalışması (yanardağ, balon roketi vb.)\nDeney günlüğü tutma uygulaması\nProje konusu belirleme ve planlama toplantısı',
     ],
     subat: [
       'Bilim fuarı projesi geliştirmek\nDeney ve araştırma becerisi pekiştirmek',
-      'Proje ekiplerinin oluşturulması ve deney planı hazırlama\nBilimsel hipotez kurma ve veri toplama atölyesi',
+      'Proje ekiplerinin oluşturulması ve deney planı hazırlama\nBilimsel hipotez kurma ve veri toplama çalışması',
     ],
     mart: [
       'Bilim ve Teknoloji Haftasında kulübü temsil etmek\nProje sergisi düzenlemek',
@@ -302,7 +302,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Afet ve insani yardım bilincini pekiştirmek',
-      'Afet senaryosu ve Kızılay\'ın afetlerdeki rolü semineri\nSivil Savunma Günü (28 Şubat) kapsamında kulüp faaliyeti',
+      'Afet senaryosu ve Kızılay\'ın afetlerdeki rolü sunumu\nSivil Savunma Günü (28 Şubat) kapsamında kulüp faaliyeti',
     ],
     mart: [
       'Toplumsal dayanışma kültürünü yaymak\nOrman ve çevre konusunda farkındalık oluşturmak',
@@ -348,15 +348,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Çevre Koruma Kulübü': {
     kasim: [
       'Çevre kirliliği ve korunması konusunda bilinç oluşturmak',
-      'Çevre kirliliğinin nedenleri ve çözümleri semineri\nAtatürk Haftası kapsamında "Atatürk ve Çevre" temalı pano',
+      'Çevre kirliliğinin nedenleri ve çözümleri sunumu\nAtatürk Haftası kapsamında "Atatürk ve Çevre" temalı pano',
     ],
     aralik: [
       'Geri dönüşüm bilincini yerleştirmek\nIsrafi önlemeyi teşvik etmek',
-      'Atık ayrıştırma ve geri dönüşüm atölyesi\nOkul genelinde çevre bilinci afiş çalışması',
+      'Atık ayrıştırma ve geri dönüşüm çalışması\nOkul genelinde çevre bilinci afiş çalışması',
     ],
     subat: [
       'İklim değişikliği konusunda farkındalık oluşturmak',
-      'İklim değişikliği ve küresel ısınma semineri\nEko-ayak izi hesaplama atölyesi',
+      'İklim değişikliği ve küresel ısınma sunumu\nEko-ayak izi hesaplama çalışması',
     ],
     mart: [
       'Orman ve doğa bilincini pekiştirmek\nUygulamalı çevre katkısı sağlamak',
@@ -364,7 +364,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     nisan: [
       'Çevre koruma sorumluluğunu davranışa dönüştürmek',
-      'Dünya Sağlık Haftası bağlantılı "temiz çevre, sağlıklı yaşam" etkinliği\nGeri dönüşüm malzemeleriyle sanat atölyesi',
+      'Dünya Sağlık Haftası bağlantılı "temiz çevre, sağlıklı yaşam" etkinliği\nGeri dönüşüm malzemeleriyle sanat çalışması',
     ],
     mayis: [
       'Yıl içi çevre katkısını değerlendirmek',
@@ -410,7 +410,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Temel sahne ve doğaçlama becerisi kazandırmak',
-      'Doğaçlama egzersizleri ve sahne duruşu atölyesi\nAtatürk Haftası için kısa anlamlı skeç çalışması',
+      'Doğaçlama egzersizleri ve sahne duruşu çalışması\nAtatürk Haftası için kısa anlamlı skeç çalışması',
     ],
     aralik: [
       'Prova disiplini ve metin ezber becerisi geliştirmek',
@@ -468,7 +468,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Matematik Kulübü': {
     kasim: [
       'Problem çözme becerisi geliştirmek\nMatematik tarihini tanıtmak',
-      'Yaratıcı problem çözme atölyesi\nAtatürk Haftası kapsamında "Modernleşme ve Bilim" sunumu',
+      'Yaratıcı problem çözme çalışması\nAtatürk Haftası kapsamında "Modernleşme ve Bilim" sunumu',
     ],
     aralik: [
       'Matematiği günlük hayatla ilişkilendirmek',
@@ -499,15 +499,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Turnuva deneyimi kazandırmak',
-      'Okul içi satranç turnuvası 1. tur maçları\nTurnuva kuralları ve etik değerler semineri',
+      'Okul içi satranç turnuvası 1. tur maçları\nTurnuva kuralları ve etik değerler sunumu',
     ],
     subat: [
       'Orta ve son oyun taktiklerini öğretmek',
-      'Orta oyun stratejileri atölyesi\n2. dönem turnuva takviminin oluşturulması',
+      'Orta oyun stratejileri çalışması\n2. dönem turnuva takviminin oluşturulması',
     ],
     mart: [
       'İleri teknik becerileri kazandırmak',
-      'Son oyun teknikleri ve mat kombinasyonları atölyesi\nOkul satranç turnuvası yarı final maçları',
+      'Son oyun teknikleri ve mat kombinasyonları çalışması\nOkul satranç turnuvası yarı final maçları',
     ],
     nisan: [
       'Turnuva finalini gerçekleştirmek',
@@ -530,7 +530,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Münazara stratejilerini geliştirmek',
-      '2. dönem turnuva konularının belirlenmesi\nÇapraz sorgulama teknikleri atölyesi',
+      '2. dönem turnuva konularının belirlenmesi\nÇapraz sorgulama teknikleri çalışması',
     ],
     mart: [
       'Okul içi münazara turnuvasını başlatmak',
@@ -555,15 +555,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Reklam okur-yazarlığı ve manipülasyon farkındalığı oluşturmak',
-      'Reklam dili ve tüketiciye yönelik manipülasyon teknikleri semineri\nAtatürk Haftası kapsamında "Millî Ekonomi ve Yerli Üretim" sunumu',
+      'Reklam dili ve tüketiciye yönelik manipülasyon teknikleri sunumu\nAtatürk Haftası kapsamında "Millî Ekonomi ve Yerli Üretim" sunumu',
     ],
     aralik: [
       'Yerli malı bilincini ve tasarruf alışkanlığını güçlendirmek',
-      'Tutum, Yatırım ve Türk Malları Haftası (12-18 Aralık) kapsamında yerli ürün tanıtım etkinliği\nİsraf önleme ve ekonomik tüketim alışkanlıkları atölyesi',
+      'Tutum, Yatırım ve Türk Malları Haftası (12-18 Aralık) kapsamında yerli ürün tanıtım etkinliği\nİsraf önleme ve ekonomik tüketim alışkanlıkları çalışması',
     ],
     subat: [
       'Tüketici aldatmacaları ve sahte ürün sorununu tanıtmak',
-      'Sahte ürün ve internet dolandırıcılığı farkındalık semineri\nTüketici şikâyet mekanizmaları araştırma etkinliği',
+      'Sahte ürün ve internet dolandırıcılığı farkındalık sunumu\nTüketici şikâyet mekanizmaları araştırma etkinliği',
     ],
     mart: [
       'Tüketiciyi Koruma Haftasında aktif etkinlik düzenlemek',
@@ -571,7 +571,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     nisan: [
       'Sürdürülebilir tüketim bilinci oluşturmak',
-      'Çevre dostu alışveriş ve geri dönüşüm ekonomisi semineri\n23 Nisan kapsamında "Geleceğin Bilinçli Tüketicileri" sunumu',
+      'Çevre dostu alışveriş ve geri dönüşüm ekonomisi sunumu\n23 Nisan kapsamında "Geleceğin Bilinçli Tüketicileri" sunumu',
     ],
     mayis: [
       'Yıl içi tüketici hakları çalışmalarını paylaşmak',
@@ -582,19 +582,19 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Bilişim ve İnternet Kulübü': {
     ekimEkstra: [
       'Dijital okuryazarlık ve internet güvenliği temellerini tanıtmak',
-      'İnternet güvenliği ve kişisel bilgi koruma konulu giriş semineri\nYıl içi proje konularının belirlenmesi',
+      'İnternet güvenliği ve kişisel bilgi koruma konulu giriş sunumu\nYıl içi proje konularının belirlenmesi',
     ],
     kasim: [
       'Siber güvenlik ve güvenli internet kullanımı bilinci oluşturmak',
-      'Güçlü şifre oluşturma, kimlik avı saldırıları konulu atölye\nAtatürk Haftası kapsamında "Teknoloji ve Modernleşme" sunumu',
+      'Güçlü şifre oluşturma, kimlik avı saldırıları konulu çalışma\nAtatürk Haftası kapsamında "Teknoloji ve Modernleşme" sunumu',
     ],
     aralik: [
       'Kişisel veri gizliliği ve dijital iz farkındalığı sağlamak',
-      'Kişisel Verileri Koruma Günü (7 Nisan öncesi hazırlık) için araştırma başlatma\nSosyal medyada mahremiyet ve dijital iz konulu seminer',
+      'Kişisel Verileri Koruma Günü (7 Nisan öncesi hazırlık) için araştırma başlatma\nSosyal medyada mahremiyet ve dijital iz konulu sunum',
     ],
     subat: [
       'Zararlı içerik ve siber zorbalıkla mücadele becerisi kazandırmak',
-      'Siber zorbalık tanıma ve başa çıkma yöntemleri atölyesi\nGüvenli internet kullanımı broşürü hazırlama etkinliği',
+      'Siber zorbalık tanıma ve başa çıkma yöntemleri çalışması\nGüvenli internet kullanımı broşürü hazırlama etkinliği',
     ],
     mart: [
       'Yazılım ve kodlama alanında uygulama deneyimi kazandırmak',
@@ -613,7 +613,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Çevre ve İklim Kulübü': {
     ekimEkstra: [
       'İklim değişikliği ve küresel ısınma kavramlarını tanıtmak',
-      'İklim değişikliğinin nedenleri ve sonuçları konulu giriş semineri\nEko-ayak izi hesaplama atölyesi',
+      'İklim değişikliğinin nedenleri ve sonuçları konulu giriş sunumu\nEko-ayak izi hesaplama çalışması',
     ],
     kasim: [
       'Küresel iklim krizinin farkındalığını artırmak\nİklim adaleti kavramını tanıtmak',
@@ -621,11 +621,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Enerji verimliliği ve yenilenebilir enerji bilincini yerleştirmek',
-      'Güneş, rüzgâr, jeotermal enerji kaynakları tanıtım semineri\nOkul enerji tasarrufu kampanyası planlama toplantısı',
+      'Güneş, rüzgâr, jeotermal enerji kaynakları tanıtım sunumu\nOkul enerji tasarrufu kampanyası planlama toplantısı',
     ],
     subat: [
       'Sürdürülebilir yaşam alışkanlıkları geliştirmek',
-      'Sıfır atık ve sürdürülebilir tüketim atölyesi\n2. dönem iklim projesi başlatma toplantısı',
+      'Sıfır atık ve sürdürülebilir tüketim çalışması\n2. dönem iklim projesi başlatma toplantısı',
     ],
     mart: [
       'Orman ve biyoçeşitliliği koruma bilincini güçlendirmek',
@@ -656,11 +656,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Dijital ortamda çocuk haklarını ve güvenliğini tanıtmak',
-      'İnternette çocuk hakları: mahremiyet, güvenlik ve siber zorbalık semineri\n2. dönem hak savunuculuğu projesi başlatma toplantısı',
+      'İnternette çocuk hakları: mahremiyet, güvenlik ve siber zorbalık sunumu\n2. dönem hak savunuculuğu projesi başlatma toplantısı',
     ],
     mart: [
       'Kız çocuklarının eğitim ve fırsat eşitliği hakkını güncellemek',
-      'Dünya Kadınlar Günü (8 Mart) bağlantılı "Kız Çocukları ve Eğitim" sunumu\nÇocuk hakları ihlalleri araştırma ve sunum atölyesi',
+      'Dünya Kadınlar Günü (8 Mart) bağlantılı "Kız Çocukları ve Eğitim" sunumu\nÇocuk hakları ihlalleri araştırma ve sunum çalışması',
     ],
     nisan: [
       '23 Nisan\'da çocukların hak ve bayramını kutlamak',
@@ -687,7 +687,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Saygı, hoşgörü ve empati değerlerini pekiştirmek',
-      'Empati ve bakış açısı alma oyunları atölyesi\n"Farklılıklarımız Zenginliğimiz" temalı etkinlik',
+      'Empati ve bakış açısı alma oyunları çalışması\n"Farklılıklarımız Zenginliğimiz" temalı etkinlik',
     ],
     mart: [
       'Adalet ve dürüstlük değerlerini günlük yaşamla ilişkilendirmek',
@@ -718,7 +718,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Seçim sistemi ve sivil katılım mekanizmalarını öğretmek',
-      'Model seçim simülasyonu atölyesi\n2. dönem okul meclisi etkinliklerini planlama toplantısı',
+      'Model seçim simülasyonu çalışması\n2. dönem okul meclisi etkinliklerini planlama toplantısı',
     ],
     mart: [
       'Kadın hakları ve toplumsal cinsiyet eşitliği konusunda farkındalık oluşturmak',
@@ -737,7 +737,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'e Twinning Kulübü': {
     ekimEkstra: [
       'eTwinning platformunu ve uluslararası proje ortaklıklarını tanıtmak',
-      'eTwinning platformu kullanımı ve proje kayıt süreci tanıtım semineri\nYıl içi uluslararası proje konusunun belirlenmesi',
+      'eTwinning platformu kullanımı ve proje kayıt süreci tanıtım sunumu\nYıl içi uluslararası proje konusunun belirlenmesi',
     ],
     kasim: [
       'Uluslararası ortak okullarla ilk iletişimi başlatmak\nKültürlerarası öğrenme becerisi geliştirmek',
@@ -768,7 +768,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Enerji Verimliliği Kulübü': {
     ekimEkstra: [
       'Enerji türleri ve verimliliğin önemini tanıtmak',
-      'Yenilenebilir ve yenilenmez enerji kaynakları karşılaştırmalı sunum\nOkul enerji tüketimini inceleme ve ölçüm atölyesi',
+      'Yenilenebilir ve yenilenmez enerji kaynakları karşılaştırmalı sunum\nOkul enerji tüketimini inceleme ve ölçüm çalışması',
     ],
     kasim: [
       'Türkiye\'nin enerji politikaları ve hedeflerini kavratmak',
@@ -780,7 +780,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Enerji tasarrufu kampanyası uygulamaya koymak',
-      'Enerji Tasarrufu Haftası (Ocak anısına Şubat uygulama etkinliği)\n2. dönem okul enerji izleme projesi başlatma',
+      'Enerji Tasarrufu Haftası (Ocak anısına Şubat uygulama etkinliği)\n2. dönem okul enerji tasarrufu farkındalık çalışması başlatma',
     ],
     mart: [
       'Güneş enerjisi ve yenilenebilir teknolojilere ilgi oluşturmak',
@@ -799,7 +799,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Engellilerle Dayanışma Kulübü': {
     ekimEkstra: [
       'Engel türleri ve sosyal model anlayışını tanıtmak',
-      'Engellilik yaklaşımları: tıbbi model vs. sosyal model semineri\nOkul çevresinde erişilebilirlik denetimi atölyesi',
+      'Engellilik yaklaşımları: tıbbi model vs. sosyal model sunumu\nOkul çevresinde erişilebilirlik denetimi çalışması',
     ],
     kasim: [
       'Engellerle yaşayan bireylere duyarlılık ve empati geliştirmek',
@@ -830,7 +830,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Felsefe ve Düşünce Eğitimi Kulübü': {
     ekimEkstra: [
       'Felsefenin ne olduğunu ve günlük yaşamdaki yerini tanıtmak',
-      'Felsefe nedir? Temel sorular ve filozoflar tanıtım sunumu\nSokrates\'in diyalog yöntemini deneme atölyesi',
+      'Felsefe nedir? Temel sorular ve filozoflar tanıtım sunumu\nSokrates\'in diyalog yöntemini deneme çalışması',
     ],
     kasim: [
       'Atatürk\'ün felsefi düşünce anlayışını ve pozitivizme yaklaşımını kavratmak',
@@ -838,15 +838,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Etik ve değerler felsefesini günlük yaşamla ilişkilendirmek',
-      'İnsan Hakları ve Demokrasi Haftası (10 Aralık) bağlantılı adalet felsefesi tartışması\nSosyal etik ikilemler: tartışma ve argüman atölyesi',
+      'İnsan Hakları ve Demokrasi Haftası (10 Aralık) bağlantılı adalet felsefesi tartışması\nSosyal etik ikilemler: tartışma ve argüman çalışması',
     ],
     subat: [
       'Mantıksal düşünme ve argüman analizi becerisi geliştirmek',
-      'Geçerli/geçersiz argüman analizi atölyesi\nSafsata türleri ve eleştirel düşünme egzersizleri',
+      'Geçerli/geçersiz argüman analizi çalışması\nSafsata türleri ve eleştirel düşünme egzersizleri',
     ],
     mart: [
       'Bilgi felsefesi ve bilimsel düşünce ilişkisini kavratmak',
-      'Bilim ve Teknoloji Haftası (8-14 Mart) bağlantılı "Bilim Nedir? Bilim Felsefesi" semineri\nKütüphaneler Haftası bağlantılı "Bilgi ve Doğruluk" tartışma oturumu',
+      'Bilim ve Teknoloji Haftası (8-14 Mart) bağlantılı "Bilim Nedir? Bilim Felsefesi" sunumu\nKütüphaneler Haftası bağlantılı "Bilgi ve Doğruluk" tartışma oturumu',
     ],
     nisan: [
       'Siyaset felsefesi ve demokrasi düşüncesini kavratmak',
@@ -900,7 +900,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'İç mekân geleneksel oyunlarını öğretmek ve oynamak',
-      'Dokuz taş, mangala gibi masa/zemin oyunları atölyesi\nKış temalı geleneksel oyunlar turnuvası (1. aşama)',
+      'Dokuz taş, mangala gibi masa/zemin oyunları çalışması\nKış temalı geleneksel oyunlar turnuvası (1. aşama)',
     ],
     subat: [
       'Geleneksel oyunları yazılı olarak derlemek',
@@ -958,19 +958,19 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Şiir yazma tekniklerini öğretmek\nAtatürk\'e adanmış edebî eserlerle tanışmak',
-      'Atatürk Haftası kapsamında "Atatürk ve Edebiyat" antoloji inceleme\n10 Kasım anma töreninde üyelerden seçilen şiirlerin okunması\n24 Kasım Öğretmenler Günü için öğretmene şiir/mektup yazma atölyesi',
+      'Atatürk Haftası kapsamında "Atatürk ve Edebiyat" antoloji inceleme\n10 Kasım anma töreninde üyelerden seçilen şiirlerin okunması\n24 Kasım Öğretmenler Günü için öğretmene şiir/mektup yazma çalışması',
     ],
     aralik: [
       'Öykü ve kısa roman tekniklerini uygulamalı öğretmek',
-      'Olay örgüsü, karakter ve mekân oluşturma atölyesi\nKısa öykü yazma yarışması (birinci tur)',
+      'Olay örgüsü, karakter ve mekân oluşturma çalışması\nKısa öykü yazma yarışması (birinci tur)',
     ],
     subat: [
       'Yazılan eserleri gözden geçirmek ve düzenlemek',
-      'Akran geri bildirimi ve düzeltme atölyesi\n2. dönem kulüp yayını için içerik toplama başlangıcı',
+      'Akran geri bildirimi ve düzeltme çalışması\n2. dönem kulüp yayını için içerik toplama başlangıcı',
     ],
     mart: [
       'Kütüphaneler Haftasında okuma-yazma kültürünü yaymak\nMehmet Akif Ersoy\'u edebî açıdan tanıtmak',
-      'İstiklâl Marşı\'nın Kabulü (12 Mart) kapsamında Mehmet Akif Ersoy şiir inceleme ve yazma atölyesi\nKütüphaneler Haftası kapsamında "En Sevdiğim Kitap" kısa yazı etkinliği',
+      'İstiklâl Marşı\'nın Kabulü (12 Mart) kapsamında Mehmet Akif Ersoy şiir inceleme ve yazma çalışması\nKütüphaneler Haftası kapsamında "En Sevdiğim Kitap" kısa yazı etkinliği',
     ],
     nisan: [
       'Kulüp yayınını (dergicik/broşür) hazırlamak ve dağıtmak',
@@ -993,11 +993,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Kış turizmi ve iç turizmin önemini kavratmak',
-      'Kış turizminin ekonomik katkısı ve çevre dostu turizm semineri\nTürkiye\'nin kayak merkezleri ve kış destinasyonları tanıtımı',
+      'Kış turizminin ekonomik katkısı ve çevre dostu turizm sunumu\nTürkiye\'nin kayak merkezleri ve kış destinasyonları tanıtımı',
     ],
     subat: [
       'Turizm meslek alanlarını ve kariyer fırsatlarını tanıtmak',
-      'Turizm ve otelcilik meslekleri kariyer paneli\nGezi rehberi olma simülasyon atölyesi',
+      'Turizm ve otelcilik meslekleri kariyer paneli\nGezi rehberi olma simülasyon çalışması',
     ],
     mart: [
       'Şehir tarihi ve kültürel mirası yerinde keşfetmek',
@@ -1024,11 +1024,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'İş fikri geliştirme ve pazar araştırması becerisi kazandırmak',
-      'Tutum, Yatırım ve Türk Malları Haftası bağlantılı yerli girişimci başarı hikayeleri\nBeyin fırtınası ve iş fikri havuzu oluşturma atölyesi',
+      'Tutum, Yatırım ve Türk Malları Haftası bağlantılı yerli girişimci başarı hikayeleri\nBeyin fırtınası ve iş fikri havuzu oluşturma çalışması',
     ],
     subat: [
       'İş planı hazırlama becerisi geliştirmek',
-      'Temel iş planı bileşenleri: pazar, maliyet, gelir modeli atölyesi\nProje ekiplerinin oluşturulması ve fikir seçimi',
+      'Temel iş planı bileşenleri: pazar, maliyet, gelir modeli çalışması\nProje ekiplerinin oluşturulması ve fikir seçimi',
     ],
     mart: [
       'Prototip ve sunum becerisi kazandırmak\nGirişimcilik Haftasında kulübü temsil etmek',
@@ -1051,19 +1051,19 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Atatürk portresi ve sanatsal anma geleneğini kavratmak',
-      'Atatürk Haftası kapsamında "Sanat ve Cumhuriyet" konulu çalışma\n10 Kasım anma için Atatürk portresi resim atölyesi',
+      'Atatürk Haftası kapsamında "Sanat ve Cumhuriyet" konulu çalışma\n10 Kasım anma için Atatürk portresi resim çalışması',
     ],
     aralik: [
       'Renk teorisi ve kompozisyon ilkelerini uygulamalı öğretmek',
-      'Renk çemberi ve zıt/uyumlu renk uygulamaları atölyesi\nKış temalı kart/afiş tasarımı çalışması',
+      'Renk çemberi ve zıt/uyumlu renk uygulamaları çalışması\nKış temalı kart/afiş tasarımı çalışması',
     ],
     subat: [
       'Farklı malzeme ve tekniklerle deneysel sanat pratiği kazandırmak',
-      'Kolaj, suluboya, guaj karşılaştırmalı teknik atölyesi\n2. dönem sergi hazırlığı planlama toplantısı',
+      'Kolaj, suluboya, guaj karşılaştırmalı teknik çalışması\n2. dönem sergi hazırlığı planlama toplantısı',
     ],
     mart: [
       'Doğa ve çevre temalı eserler üretmek',
-      'Orman Haftası (21-26 Mart) kapsamında doğa temalı resim/illüstrasyon çalışması\nKütüphaneler Haftası için kitap kapağı tasarım atölyesi',
+      'Orman Haftası (21-26 Mart) kapsamında doğa temalı resim/illüstrasyon çalışması\nKütüphaneler Haftası için kitap kapağı tasarım çalışması',
     ],
     nisan: [
       'Yıl içi eserleri geniş bir izleyici kitlesine sunmak',
@@ -1086,7 +1086,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Bölgesel kostüm ve kıyafet kültürünü öğretmek',
-      'Halk oyunları kostümleri tanıtım ve giyinme atölyesi\nYıl sonu gösterisi için oyun seçimi ve prova yoğunlaştırma',
+      'Halk oyunları kostümleri tanıtım ve giyinme çalışması\nYıl sonu gösterisi için oyun seçimi ve prova yoğunlaştırma',
     ],
     subat: [
       'Teknik performansı olgunlaştırmak\nBahara hazırlık provalarını yoğunlaştırmak',
@@ -1109,7 +1109,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Hareketli Yaşam Kulübü': {
     ekimEkstra: [
       'Fiziksel aktivitenin sağlığa katkısını ve hareketsiz yaşam risklerini tanıtmak',
-      'Fiziksel aktivite düzeyi ölçümü ve kişisel hedef belirleme atölyesi\nYıl içi hareketlilik takip programının tanıtımı',
+      'Fiziksel aktivite düzeyi ölçümü ve kişisel hedef belirleme çalışması\nYıl içi hareketlilik takip programının tanıtımı',
     ],
     kasim: [
       'Düzenli egzersiz alışkanlığı kazandırmak',
@@ -1117,11 +1117,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'İç mekân ve kış sporları seçeneklerini tanıtmak',
-      'Kış aylarında evde yapılabilecek egzersizler atölyesi\nOkul koridorlarında aktif mola noktaları oluşturma projesi',
+      'Kış aylarında evde yapılabilecek egzersizler çalışması\nOkul koridorlarında aktif mola noktaları için öneri listesi hazırlama',
     ],
     subat: [
       'Beslenme ve hareket ilişkisini kavratmak',
-      'Sağlıklı beslenme ve fiziksel aktivite dengesi semineri\n2. dönem kulüp hareketlilik yarışması başlatma',
+      'Sağlıklı beslenme ve fiziksel aktivite dengesi sunumu\n2. dönem kulüp hareketlilik yarışması başlatma',
     ],
     mart: [
       'Açık hava aktivitelerini ve doğa sporlarını tanıtmak',
@@ -1140,7 +1140,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Havacılık Kulübü': {
     ekimEkstra: [
       'Uçuşun fiziğini ve Türk havacılık tarihini tanıtmak',
-      'Bernoulli prensibi ve uçuşun temel ilkeleri deney atölyesi\nTürk Hava Kuvvetleri ve sivil havacılık tarihi sunumu',
+      'Bernoulli prensibi ve uçuşun temel ilkeleri deney çalışması\nTürk Hava Kuvvetleri ve sivil havacılık tarihi sunumu',
     ],
     kasim: [
       'Türkiye\'nin havacılık alanındaki gelişmelerini kavratmak',
@@ -1191,7 +1191,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     nisan: [
       'Hayvan hakları ve hukuki korumayı tanıtmak',
-      'Dünya Sağlık Haftası bağlantılı "Hayvan-İnsan-Çevre Sağlığı Üçgeni" semineri\n23 Nisan kapsamında "Canlı Dünya Ortak Yuvamız" sunumu',
+      'Dünya Sağlık Haftası bağlantılı "Hayvan-İnsan-Çevre Sağlığı Üçgeni" sunumu\n23 Nisan kapsamında "Canlı Dünya Ortak Yuvamız" sunumu',
     ],
     mayis: [
       'Yıl içi hayvan koruma çalışmalarını değerlendirmek',
@@ -1233,7 +1233,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'İş Sağlığı ve Güvenliği Kulübü': {
     ekimEkstra: [
       'İş sağlığı ve güvenliğinin temel kavramlarını tanıtmak',
-      'İSG nedir? Türkiye\'de iş kazası istatistikleri ve önemi sunumu\nOkul ortamında tehlike tanımlama ve risk değerlendirme atölyesi',
+      'İSG nedir? Türkiye\'de iş kazası istatistikleri ve önemi sunumu\nOkul ortamında tehlike tanımlama ve risk değerlendirme çalışması',
     ],
     kasim: [
       'İşyerinde güvenlik kültürü ve kişisel koruyucu ekipmanları öğretmek',
@@ -1249,7 +1249,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Ergonomi ve çalışma ortamı sağlığını kavratmak',
-      'Bilim ve Teknoloji Haftası bağlantılı "Teknoloji ve İSG" sunumu\nErgonomik çalışma ortamı tasarımı atölyesi',
+      'Bilim ve Teknoloji Haftası bağlantılı "Teknoloji ve İSG" sunumu\nErgonomik çalışma ortamı tasarımı çalışması',
     ],
     nisan: [
       'İş Sağlığı ve Güvenliği Haftasına hazırlık etkinliği düzenlemek',
@@ -1264,7 +1264,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'İzcilik Kulübü': {
     ekimEkstra: [
       'İzcilik ilke ve yeminini tanıtmak\nTemel izcilik becerilerini ve malzemelerini göstermek',
-      'İzcilik yemini, on parmak kanunu ve dünya izcilik hareketi sunumu\nTemel izcilik düğümleri ve oryantasyon araçları tanıtım atölyesi',
+      'İzcilik yemini, on parmak kanunu ve dünya izcilik hareketi sunumu\nTemel izcilik düğümleri ve oryantasyon araçları tanıtım çalışması',
     ],
     kasim: [
       'İzcilik değerleri ile Atatürkçü düşüncenin buluşmasını sağlamak',
@@ -1276,7 +1276,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'İlk yardım ve kurtarma becerisi kazandırmak',
-      'İzcilik ilk yardım teknikleri: yaralı taşıma, bandaj atölyesi\n2. dönem kamp planlama toplantısı',
+      'İzcilik ilk yardım teknikleri: yaralı taşıma, bandaj çalışması\n2. dönem kamp planlama toplantısı',
     ],
     mart: [
       'Doğa ve çevre koruma sorumluluğunu izcilik perspektifinden pekiştirmek',
@@ -1295,19 +1295,19 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Kişisel Verileri Koruma Kulübü': {
     ekimEkstra: [
       'Kişisel veri kavramı ve KVKK kapsamını tanıtmak',
-      'KVKK (6698 sayılı Kanun) ve GDPR\'ın temel prensipleri sunumu\nSosyal medyada kişisel veri paylaşım riskleri farkındalık atölyesi',
+      'KVKK (6698 sayılı Kanun) ve GDPR\'ın temel prensipleri sunumu\nSosyal medyada kişisel veri paylaşım riskleri farkındalık çalışması',
     ],
     kasim: [
       'Dijital kimlik ve çevrimiçi mahremiyet bilinci oluşturmak',
-      'Atatürk Haftası kapsamında "Çağdaşlaşma ve Dijital Haklar" sunumu\nŞifre güvenliği ve iki faktörlü kimlik doğrulama atölyesi',
+      'Atatürk Haftası kapsamında "Çağdaşlaşma ve Dijital Haklar" sunumu\nŞifre güvenliği ve iki faktörlü kimlik doğrulama çalışması',
     ],
     aralik: [
       'Çerezler, izleme ve reklam teknolojilerini tanıtmak',
-      'İnsan Hakları ve Demokrasi Haftası bağlantılı "Dijital Haklar ve Mahremiyet" sunumu\nÇerez yönetimi ve gizlilik ayarları uygulama atölyesi',
+      'İnsan Hakları ve Demokrasi Haftası bağlantılı "Dijital Haklar ve Mahremiyet" sunumu\nÇerez yönetimi ve gizlilik ayarları uygulama çalışması',
     ],
     subat: [
       'Siber güvenlik tehditlerini ve korunma yöntemlerini öğretmek',
-      'Kimlik avı (phishing) ve sosyal mühendislik saldırıları tanıma atölyesi\n2. dönem okul farkındalık kampanyası hazırlığı',
+      'Kimlik avı (phishing) ve sosyal mühendislik saldırıları tanıma çalışması\n2. dönem okul farkındalık kampanyası hazırlığı',
     ],
     mart: [
       'Veri güvenliği alanında kariyer fırsatlarını tanıtmak',
@@ -1338,7 +1338,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Kooperatif kayıt ve muhasebe temellerini öğretmek',
-      'Mini kooperatif yönetimi: görev dağılımı, kayıt, kâr paylaşımı atölyesi\n2. dönem kooperatif faaliyetlerini planlama toplantısı',
+      'Mini kooperatif yönetimi: görev dağılımı, kayıt, kâr paylaşımı çalışması\n2. dönem kooperatif faaliyetlerini planlama toplantısı',
     ],
     mart: [
       'Girişimcilik ve kooperatifçilik bağını pekiştirmek',
@@ -1357,7 +1357,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Kültür ve Tabiat Varlıklarını Koruma Kulübü': {
     ekimEkstra: [
       'Kültürel ve doğal miras kavramlarını tanıtmak',
-      'UNESCO Dünya Mirası listesindeki Türk varlıkları tanıtım sunumu\nOkul çevresindeki kültürel/doğal varlıkların tespiti atölyesi',
+      'UNESCO Dünya Mirası listesindeki Türk varlıkları tanıtım sunumu\nOkul çevresindeki kültürel/doğal varlıkların tespiti çalışması',
     ],
     kasim: [
       'Atatürk döneminde kültürel miras koruma çalışmalarını kavratmak',
@@ -1419,7 +1419,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Medeniyet ve Değerler Kulübü': {
     ekimEkstra: [
       'Medeniyet kavramı ve Anadolu uygarlıklarını tanıtmak',
-      'Anadolu\'dan geçen medeniyetler zaman çizelgesi atölyesi\nMedeniyet ve değer ilişkisi giriş tartışması',
+      'Anadolu\'dan geçen medeniyetler zaman çizelgesi çalışması\nMedeniyet ve değer ilişkisi giriş tartışması',
     ],
     kasim: [
       'Türk-İslam medeniyetinin evrensel değerlere katkısını kavratmak',
@@ -1427,7 +1427,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Medeniyetler arası diyaloğu ve hoşgörüyü pekiştirmek',
-      'İnsan Hakları ve Demokrasi Haftası bağlantılı "Medeniyetler Arası Diyalog" paneli\nFarklı medeniyetlerin mimarisi ve sanatı karşılaştırma atölyesi',
+      'İnsan Hakları ve Demokrasi Haftası bağlantılı "Medeniyetler Arası Diyalog" paneli\nFarklı medeniyetlerin mimarisi ve sanatı karşılaştırma çalışması',
     ],
     subat: [
       'Medeniyetin sürdürülmesinde eğitim ve bilimin rolünü kavratmak',
@@ -1454,15 +1454,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Atatürk\'ün düşünce sistemi ve pozitivizmi kavratmak',
-      'Atatürk Haftası kapsamında "Atatürkçülük: Akıl, Bilim, Laiklik" sunumu\nAtatürk\'ün nutuk ve konuşmalarından seçme okuma atölyesi',
+      'Atatürk Haftası kapsamında "Atatürkçülük: Akıl, Bilim, Laiklik" sunumu\nAtatürk\'ün nutuk ve konuşmalarından seçme okuma çalışması',
     ],
     aralik: [
       'Aydınlanma düşüncesi ve insan hakları bağını pekiştirmek',
-      'İnsan Hakları ve Demokrasi Haftası bağlantılı "Aydınlanma ve Modern Haklar" sunumu\nRousseau, Locke, Montesquieu kısa biyografi araştırma atölyesi',
+      'İnsan Hakları ve Demokrasi Haftası bağlantılı "Aydınlanma ve Modern Haklar" sunumu\nRousseau, Locke, Montesquieu kısa biyografi araştırma çalışması',
     ],
     subat: [
       'Türk düşünce tarihi öncülerini tanımak',
-      'Ziya Gökalp, Namık Kemal, Tevfik Fikret gibi Türk düşünürler semineri\nDüşünce akımları karşılaştırma haritası hazırlama atölyesi',
+      'Ziya Gökalp, Namık Kemal, Tevfik Fikret gibi Türk düşünürler sunumu\nDüşünce akımları karşılaştırma haritası hazırlama çalışması',
     ],
     mart: [
       'Çevre felsefesi ve doğa düşüncesini tartışmak',
@@ -1481,19 +1481,19 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Medya Okur Yazarlığı Kulübü': {
     ekimEkstra: [
       'Medya türleri ve medya okuryazarlığının önemini tanıtmak',
-      'Geleneksel ve dijital medya karşılaştırması tanıtım sunumu\nBir haber nasıl doğrulanır? Temel faktör kontrol atölyesi',
+      'Geleneksel ve dijital medya karşılaştırması tanıtım sunumu\nBir haber nasıl doğrulanır? Temel faktör kontrol çalışması',
     ],
     kasim: [
       'Dezenformasyon ve sahte haber (fake news) farkındalığı oluşturmak',
-      'Atatürk Haftası kapsamında "Basın Özgürlüğü ve Cumhuriyet" sunumu\nSahte haber tespit araçları (fact-checking) uygulamalı atölye',
+      'Atatürk Haftası kapsamında "Basın Özgürlüğü ve Cumhuriyet" sunumu\nSahte haber tespit araçları (fact-checking) uygulamalı çalışma',
     ],
     aralik: [
       'Reklam ve propaganda analizini öğretmek',
-      'İnsan Hakları Haftası bağlantılı "Medya, Haklar ve Özgürlük" sunumu\nReklam görsel analizi: hangi duygu/algı hedefleniyor? atölyesi',
+      'İnsan Hakları Haftası bağlantılı "Medya, Haklar ve Özgürlük" sunumu\nReklam görsel analizi: hangi duygu/algı hedefleniyor? çalışması',
     ],
     subat: [
       'Sosyal medya algoritmalarını ve filtre balonunu kavratmak',
-      'Filtre balonu ve yankı odası kavramları semineri\n2. dönem okul için medya okuryazarlığı broşürü hazırlama',
+      'Filtre balonu ve yankı odası kavramları sunumu\n2. dönem okul için medya okuryazarlığı broşürü hazırlama',
     ],
     mart: [
       'Haber üretim sürecini bizzat deneyimlemek',
@@ -1512,7 +1512,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Meslek Tanıtma Kulübü': {
     ekimEkstra: [
       'Mesleklerin sınıflandırılmasını ve kariyer planlamasını tanıtmak',
-      'Meslekler: beyaz yaka, mavi yaka, yaratıcı sektörler karşılaştırması\nKişilik özellikleri ve meslek uyumu kısa keşif atölyesi',
+      'Meslekler: beyaz yaka, mavi yaka, yaratıcı sektörler karşılaştırması\nKişilik özellikleri ve meslek uyumu kısa keşif çalışması',
     ],
     kasim: [
       'Eğitim alanında kariyer yollarını tanıtmak\nÖğretmen olmayı keşfetmek',
@@ -1528,7 +1528,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Teknoloji ve mühendislik alanı kariyer fırsatlarını tanıtmak',
-      'Bilim ve Teknoloji Haftası (8-14 Mart) kapsamında mühendislik ve bilişim meslekleri paneli\nGirişimcilik Haftası bağlantılı "Kendi İşini Kurmak" semineri',
+      'Bilim ve Teknoloji Haftası (8-14 Mart) kapsamında mühendislik ve bilişim meslekleri paneli\nGirişimcilik Haftası bağlantılı "Kendi İşini Kurmak" sunumu',
     ],
     nisan: [
       '"Bir Mesleği Tanıyorum" sunum etkinliğini gerçekleştirmek',
@@ -1547,15 +1547,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Mesleki beceri gelişiminde pratik uygulamanın önemini kavratmak',
-      'Atatürk Haftası kapsamında "Üretken Gençlik: Meslek ve Vatan" sunumu\nTatbikat alanına ilk teknik giriş atölyesi',
+      'Atatürk Haftası kapsamında "Üretken Gençlik: Meslek ve Vatan" sunumu\nTatbikat alanına ilk teknik giriş çalışması',
     ],
     aralik: [
       'Temel mesleki teknikleri uygulamalı öğretmek',
-      'Seçilen meslek dalında teknik beceri atölyesi (1. aşama)\nMesleki hata ve güvenlik riski analizi tartışması',
+      'Seçilen meslek dalında teknik beceri çalışması (1. aşama)\nMesleki hata ve güvenlik riski analizi tartışması',
     ],
     subat: [
       'Teknik uygulama derinliğini artırmak',
-      'Teknik beceri atölyesi (2. aşama: ileri uygulamalar)\n2. dönem proje tatbikatı planlama toplantısı',
+      'Teknik beceri çalışması (2. aşama: ileri uygulamalar)\n2. dönem proje tatbikatı planlama toplantısı',
     ],
     mart: [
       'Mesleki projeyi hayata geçirmek',
@@ -1574,7 +1574,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'MUN (Model United Nations) Kulübü': {
     ekimEkstra: [
       'BM sistemi, komiteleri ve MUN kurallarını tanıtmak',
-      'BM\'nin yapısı, Güvenlik Konseyi, Genel Kurul ve temel organlar sunumu\nMUN dil prosedürleri (posta kutusu, konuşma hakkı, karar taslaği) atölyesi',
+      'BM\'nin yapısı, Güvenlik Konseyi, Genel Kurul ve temel organlar sunumu\nMUN dil prosedürleri (posta kutusu, konuşma hakkı, karar taslaği) çalışması',
     ],
     kasim: [
       'Uluslararası gündem maddelerini araştırma ve analiz becerisi geliştirmek',
@@ -1582,11 +1582,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Ülke temsili ve diplomatik dil becerisi kazandırmak',
-      'İnsan Hakları ve Demokrasi Haftası bağlantılı BM İnsan Hakları Konseyi simülasyonu\nDiplomasik konuşma ve müzakere teknikleri atölyesi',
+      'İnsan Hakları ve Demokrasi Haftası bağlantılı BM İnsan Hakları Konseyi simülasyonu\nDiplomasik konuşma ve müzakere teknikleri çalışması',
     ],
     subat: [
       'Sınıf içi MUN oturumu hazırlığını tamamlamak',
-      'Karar taslağı (resolution) hazırlama atölyesi\nSınıf içi mini MUN oturumu planlama ve rol dağılımı',
+      'Karar taslağı (resolution) hazırlama çalışması\nSınıf içi mini MUN oturumu planlama ve rol dağılımı',
     ],
     mart: [
       'Sınıf içi MUN oturumunu gerçekleştirmek',
@@ -1636,15 +1636,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Sağlık Temizlik ve Beslenme Kulübü': {
     ekimEkstra: [
       'Sağlıklı yaşam alışkanlıklarının üç temel direğini tanıtmak',
-      'Sağlık, temizlik ve beslenme üçgeni: kısa girdi sunumu\nOkul kantin ürünleri besin değeri analizi atölyesi',
+      'Sağlık, temizlik ve beslenme üçgeni: kısa girdi sunumu\nOkul kantin ürünleri besin değeri analizi çalışması',
     ],
     kasim: [
       'El hijyeni ve kişisel temizliğin hastalık önlemedeki rolünü öğretmek',
-      'Atatürk Haftası kapsamında "Sağlıklı Nesil, Güçlü Millet" sunumu\nDoğru el yıkama tekniği ve hijyen alışkanlıkları atölyesi',
+      'Atatürk Haftası kapsamında "Sağlıklı Nesil, Güçlü Millet" sunumu\nDoğru el yıkama tekniği ve hijyen alışkanlıkları çalışması',
     ],
     aralik: [
       'Kış mevsiminde bağışıklık sistemini güçlendirmeyi öğretmek',
-      'Mevsimsel salgın hastalıklardan korunma yöntemleri semineri\nC vitamini ve kış besinleri: besin değerleri araştırma atölyesi',
+      'Mevsimsel salgın hastalıklardan korunma yöntemleri sunumu\nC vitamini ve kış besinleri: besin değerleri araştırma çalışması',
     ],
     subat: [
       'Dengeli beslenme piramidi ve sağlıklı öğün planlamasını öğretmek',
@@ -1652,7 +1652,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Yeşilay Haftasında sağlıklı yaşamı yaymak',
-      'Yeşilay Haftası (1 Mart) kapsamında "Bağımlılıksız Sağlıklı Yaşam" konulu sunum ve pano\nOrman Haftası bağlantılı "Doğadan Gelen Besinler" atölyesi',
+      'Yeşilay Haftası (1 Mart) kapsamında "Bağımlılıksız Sağlıklı Yaşam" konulu sunum ve pano\nOrman Haftası bağlantılı "Doğadan Gelen Besinler" çalışması',
     ],
     nisan: [
       'Dünya Sağlık Haftasında kapsamlı etkinlik düzenlemek',
@@ -1667,7 +1667,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Sağlık ve Güvenlik Kulübü': {
     ekimEkstra: [
       'Okul ortamında sağlık ve güvenlik risklerini tanıtmak',
-      'Okul kazaları ve önlenebilir riskler analizi atölyesi\nOkul ilk yardım çantası içeriği ve kullanımı tanıtımı',
+      'Okul kazaları ve önlenebilir riskler analizi çalışması\nOkul ilk yardım çantası içeriği ve kullanımı tanıtımı',
     ],
     kasim: [
       'İlk yardım temellerini öğretmek',
@@ -1675,7 +1675,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Yangın güvenliği ve ilk müdahaleyi kavratmak',
-      'Yangın güvenliği ve tahliye prosedürleri bilgilendirmesi\nYangın söndürücü kullanımı görsel atölyesi',
+      'Yangın güvenliği ve tahliye prosedürleri bilgilendirmesi\nYangın söndürücü kullanımı görsel çalışması',
     ],
     subat: [
       'Sivil savunma ve deprem güvenliğini pekiştirmek',
@@ -1683,7 +1683,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Trafik güvenliği farkındalığı oluşturmak',
-      'Trafik kazaları istatistikleri ve önlenebilir riskler semineri\nŞehitler Günü (18 Mart) bağlantılı "Güvenli Bir Gelecek İçin" etkinliği',
+      'Trafik kazaları istatistikleri ve önlenebilir riskler sunumu\nŞehitler Günü (18 Mart) bağlantılı "Güvenli Bir Gelecek İçin" etkinliği',
     ],
     nisan: [
       'Dünya Sağlık Haftasında okul sağlık taraması düzenlemek',
@@ -1698,7 +1698,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Şehir ve Medeniyet Kulübü': {
     ekimEkstra: [
       'Şehir kavramı ve Türk şehircilik tarihini tanıtmak',
-      'Osmanlı ve Cumhuriyet şehirciliği karşılaştırmalı sunumu\nOkul çevresindeki mahalle/şehir dokusunu inceleme atölyesi',
+      'Osmanlı ve Cumhuriyet şehirciliği karşılaştırmalı sunumu\nOkul çevresindeki mahalle/şehir dokusunu inceleme çalışması',
     ],
     kasim: [
       'Atatürk\'ün Ankara\'yı başkent yapmasının anlamını ve modern şehircilik vizyonunu kavratmak',
@@ -1714,7 +1714,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Şehir ve doğa ilişkisini kentsel yeşil alanlar üzerinden incelemek',
-      'Orman Haftası (21-26 Mart) bağlantılı şehirlerde yeşil koridor ve orman alanları semineri\nKütüphaneler Haftası kapsamında şehir tarihi kitap köşesi',
+      'Orman Haftası (21-26 Mart) bağlantılı şehirlerde yeşil koridor ve orman alanları sunumu\nKütüphaneler Haftası kapsamında şehir tarihi kitap köşesi',
     ],
     nisan: [
       '"İdeal Şehrim" tasarım projelerini sergilemek',
@@ -1733,11 +1733,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Siber saldırı ve savunma temellerini öğretmek',
-      'Atatürk Haftası kapsamında "Çağdaş Savaş Alanı: Siber Uzay" sunumu\nParola güvenliği ve ağ güvenliği temel uygulamaları atölyesi',
+      'Atatürk Haftası kapsamında "Çağdaş Savaş Alanı: Siber Uzay" sunumu\nParola güvenliği ve ağ güvenliği temel uygulamaları çalışması',
     ],
     aralik: [
       'Ağ güvenliği ve VPN/şifreleme kavramlarını tanıtmak',
-      'HTTPS, şifreleme ve güvenli iletişim protokolleri semineri\nKişisel Verileri Koruma Günü hazırlığı için farkındalık materyali üretimi',
+      'HTTPS, şifreleme ve güvenli iletişim protokolleri sunumu\nKişisel Verileri Koruma Günü hazırlığı için farkındalık materyali üretimi',
     ],
     subat: [
       'Etik hacking ve sızma testi kavramlarını tanıtmak',
@@ -1760,7 +1760,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Sıfır Atık Kulübü': {
     ekimEkstra: [
       'Sıfır atık felsefesi ve Türkiye\'deki politikaları tanıtmak',
-      'Sıfır Atık Türkiye Projesi ve yasal çerçeve sunumu\nOkul çöp analizi: ne kadar atık üretiyoruz? ölçüm atölyesi',
+      'Sıfır Atık Türkiye Projesi ve yasal çerçeve sunumu\nOkul çöp analizi: ne kadar atık üretiyoruz? ölçüm çalışması',
     ],
     kasim: [
       'Atık azaltma hiyerarşisini öğretmek (Redüce-Yeniden Kullan-Geri Dönüştür)',
@@ -1776,7 +1776,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Orman ve doğa kirliliğiyle mücadelede sıfır atık yaklaşımını pekiştirmek',
-      'Orman Haftası (21-26 Mart) kapsamında okul bahçesinde çöp toplama ve atık gözlemi etkinliği\nGeri dönüşüm malzemeleriyle sanat/tasarım atölyesi',
+      'Orman Haftası (21-26 Mart) kapsamında okul bahçesinde çöp toplama ve atık gözlemi etkinliği\nGeri dönüşüm malzemeleriyle sanat/tasarım çalışması',
     ],
     nisan: [
       'Dünya Sağlık Haftası bağlantılı "Temiz Çevre, Sağlıklı Yaşam" etkinliği düzenlemek',
@@ -1799,11 +1799,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Kış ve hüzün temalarını şiirle işlemek',
-      'Kış şiirleri okuma ve analiz atölyesi\nÖğrenci şiir yazma: kış imgelerini kullanma egzersizi',
+      'Kış şiirleri okuma ve analiz çalışması\nÖğrenci şiir yazma: kış imgelerini kullanma egzersizi',
     ],
     subat: [
       'Aşk ve doğa temalarını divan ve halk şiirinden örneklerle keşfetmek',
-      'Fuzuli ve Bâkî\'den divan şiiri örnekleri sesli okuma\nDoga ve sevgi imgelerini kullanan çağdaş şiir yazma atölyesi',
+      'Fuzuli ve Bâkî\'den divan şiiri örnekleri sesli okuma\nDoga ve sevgi imgelerini kullanan çağdaş şiir yazma çalışması',
     ],
     mart: [
       'Vatan ve özgürlük şiirlerini İstiklâl Marşı bağlamında keşfetmek',
@@ -1811,7 +1811,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     nisan: [
       'Okul geneline açık şiir dinletisi düzenlemek',
-      '23 Nisan kapsamında çocukların yazdığı şiirlerin sahne performansı\nMimar Sinan anısına mimarlık ve şiir bağlantısı atölyesi',
+      '23 Nisan kapsamında çocukların yazdığı şiirlerin sahne performansı\nMimar Sinan anısına mimarlık ve şiir bağlantısı çalışması',
     ],
     mayis: [
       'Yıl içi üretilen şiirleri kitapçık olarak derlemek',
@@ -1822,11 +1822,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Sivil Savunma Kulübü': {
     ekimEkstra: [
       'Sivil savunmanın tarihini ve günümüzdeki rolünü tanıtmak',
-      'Türk Sivil Savunma Teşkilatı tarihi ve AFAD\'ın görevleri sunumu\nRisk haritası oluşturma: okulumuzun tehlike noktaları atölyesi',
+      'Türk Sivil Savunma Teşkilatı tarihi ve AFAD\'ın görevleri sunumu\nRisk haritası oluşturma: okulumuzun tehlike noktaları çalışması',
     ],
     kasim: [
       'Doğal ve insan kaynaklı afetlere hazırlık bilincini oluşturmak',
-      'Atatürk Haftası kapsamında "Modernleşme ve Afet Yönetimi" sunumu\nDeprem, sel, yangın senaryolarında doğru davranış kuralları semineri',
+      'Atatürk Haftası kapsamında "Modernleşme ve Afet Yönetimi" sunumu\nDeprem, sel, yangın senaryolarında doğru davranış kuralları sunumu',
     ],
     aralik: [
       'Acil durum iletişimi ve alarm sistemlerini öğretmek',
@@ -1838,7 +1838,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Kimyasal, biyolojik ve radyolojik tehlike farkındalığı sağlamak',
-      'KBRN (Kimyasal-Biyolojik-Radyolojik-Nükleer) tehlikeler temel bilgi semineri\nŞehitler Günü (18 Mart) bağlantılı savunma ve fedakarlık değerleri etkinliği',
+      'KBRN (Kimyasal-Biyolojik-Radyolojik-Nükleer) tehlikeler temel bilgi sunumu\nŞehitler Günü (18 Mart) bağlantılı savunma ve fedakarlık değerleri etkinliği',
     ],
     nisan: [
       'Toplum gönüllülüğü ve sivil savunma katılımını teşvik etmek',
@@ -1861,7 +1861,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'İçerik üretimi ve görsel dil becerisi kazandırmak',
-      'Kişisel Verileri Koruma ve sosyal medya gizlilik ayarları atölyesi\nOkul etkinliklerini sosyal medyaya taşımak: fotoğraf + metin + hashtag atölyesi',
+      'Kişisel Verileri Koruma ve sosyal medya gizlilik ayarları çalışması\nOkul etkinliklerini sosyal medyaya taşımak: fotoğraf + metin + hashtag çalışması',
     ],
     subat: [
       'Video içerik üretimi ve montaj temellerini öğretmek',
@@ -1884,7 +1884,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Sosyal Sorumluluk Kulübü': {
     ekimEkstra: [
       'Sosyal sorumluluk kavramı ve proje döngüsünü tanıtmak',
-      'Sosyal sorumluluk projesi adımları: tanımlama, planlama, uygulama, değerlendirme\nOkul ve mahallede hangi sosyal ihtiyaçlar var? keşif atölyesi',
+      'Sosyal sorumluluk projesi adımları: tanımlama, planlama, uygulama, değerlendirme\nOkul ve mahallede hangi sosyal ihtiyaçlar var? keşif çalışması',
     ],
     kasim: [
       'Toplumsal dayanışma ve gönüllülük bilincini oluşturmak',
@@ -1896,7 +1896,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Proje yönetimi ve etki ölçümü becerisi kazandırmak',
-      'Sosyal etki ölçümü: projemizin etkisi ne oldu? atölyesi\n2. dönem büyük proje seçimi ve ekip kurma toplantısı',
+      'Sosyal etki ölçümü: projemizin etkisi ne oldu? çalışması\n2. dönem büyük proje seçimi ve ekip kurma toplantısı',
     ],
     mart: [
       'Çevre ve toplum iç içe: sosyal-çevre sorumluluğu projesini uygulamak',
@@ -1915,7 +1915,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Sosyal Yardımlaşma Kulübü': {
     ekimEkstra: [
       'Yardımlaşma kültürünün tarihini ve önemini tanıtmak',
-      'Türk yardımlaşma geleneği: imece, vakıf, dayanışma kavramları sunumu\nOkuldaki ve çevredeki ihtiyaç sahiplerini belirleme atölyesi',
+      'Türk yardımlaşma geleneği: imece, vakıf, dayanışma kavramları sunumu\nOkuldaki ve çevredeki ihtiyaç sahiplerini belirleme çalışması',
     ],
     kasim: [
       'Kızılay ve vakıf geleneğiyle yardımlaşma bilincini güçlendirmek',
@@ -1954,15 +1954,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Osmanlı Devleti\'nin son dönemini ve çöküş sürecini incelemek',
-      'Tanzimat\'tan Meşrutiyet\'e Osmanlı modernleşmesi kronoloji atölyesi\nBalkan Savaşları ve I. Dünya Savaşı Osmanlı cephesi araştırma sunumu',
+      'Tanzimat\'tan Meşrutiyet\'e Osmanlı modernleşmesi kronoloji çalışması\nBalkan Savaşları ve I. Dünya Savaşı Osmanlı cephesi araştırma sunumu',
     ],
     subat: [
       'Türk tarihinin köklü uygarlıklarını incelemek',
-      'Hitit, Frigler, Urartular: Anadolu\'nun kadim medeniyetleri sunumu\nTarihsel arkeoloji: nasıl araştırılır? atölyesi',
+      'Hitit, Frigler, Urartular: Anadolu\'nun kadim medeniyetleri sunumu\nTarihsel arkeoloji: nasıl araştırılır? çalışması',
     ],
     mart: [
       'Çanakkale Zaferi\'ni birincil kaynaklarla incelemek',
-      'Şehitler Günü (18 Mart) kapsamında Çanakkale: birincil kaynak (mektup/hatıra) okuma atölyesi\nKütüphaneler Haftası bağlantılı "Türk Tarihi Kitapları" tanıtım etkinliği',
+      'Şehitler Günü (18 Mart) kapsamında Çanakkale: birincil kaynak (mektup/hatıra) okuma çalışması\nKütüphaneler Haftası bağlantılı "Türk Tarihi Kitapları" tanıtım etkinliği',
     ],
     nisan: [
       '23 Nisan\'ın tarihsel bağlamını ve TBMM\'nin kuruluşunu kavratmak',
@@ -1981,7 +1981,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Fikir geliştirme ve problem tanımlama becerisi kazandırmak',
-      'Atatürk Haftası kapsamında "Bilim ve Teknolojide Türkiye\'nin Yükselişi" sunumu\nTasarım odaklı düşünme (design thinking) giriş atölyesi',
+      'Atatürk Haftası kapsamında "Bilim ve Teknolojide Türkiye\'nin Yükselişi" sunumu\nTasarım odaklı düşünme (design thinking) giriş çalışması',
     ],
     aralik: [
       'Proje fikrinin somutlaştırılması ve prototip planlaması yapmak',
@@ -2028,7 +2028,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     nisan: [
       'Sunum becerisi ve poster hazırlığını tamamlamak',
-      'Proje sunum becerisi atölyesi: beden dili, soru yanıtlama, zaman yönetimi\n23 Nisan kapsamında "Geleceğin Teknoloji Öncüleri" panosu',
+      'Proje sunum becerisi çalışması: beden dili, soru yanıtlama, zaman yönetimi\n23 Nisan kapsamında "Geleceğin Teknoloji Öncüleri" panosu',
     ],
     mayis: [
       'Yıl içi proje çalışmalarını sunmak ve değerlendirmek',
@@ -2039,7 +2039,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Teknoloji ve İnovasyon Kulübü': {
     ekimEkstra: [
       'İnovasyon kavramı ve teknolojinin topluma etkisini tanıtmak',
-      'Endüstri 4.0 ve beşinci nesil teknolojiler: yapay zekâ, IoT, blok zinciri tanıtımı\nOkul çevresinde hangi sorunları teknolojiyle çözebiliriz? keşif atölyesi',
+      'Endüstri 4.0 ve beşinci nesil teknolojiler: yapay zekâ, IoT, blok zinciri tanıtımı\nOkul çevresinde hangi sorunları teknolojiyle çözebiliriz? keşif çalışması',
     ],
     kasim: [
       'Türkiye\'nin teknoloji hamlelerini ve yerli ürünleri tanıtmak',
@@ -2047,11 +2047,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Yapay zekâ ve makine öğrenmesini kavramsal olarak tanıtmak',
-      'Yapay zekânın temel mantığı ve günlük hayattaki uygulamaları semineri\nAkıllı şehir ve akıllı tarım kavramları tartışma atölyesi',
+      'Yapay zekânın temel mantığı ve günlük hayattaki uygulamaları sunumu\nAkıllı şehir ve akıllı tarım kavramları tartışma çalışması',
     ],
     subat: [
       'İnovasyon proje fikri geliştirmek ve prototiplemek',
-      'Tasarım odaklı düşünme atölyesi: kullanıcı empati haritası ve çözüm tasarımı\n2. dönem inovasyon projesi ekip çalışması başlangıcı',
+      'Tasarım odaklı düşünme çalışması: kullanıcı empati haritası ve çözüm tasarımı\n2. dönem inovasyon projesi ekip çalışması başlangıcı',
     ],
     mart: [
       'Proje prototipini tamamlamak ve sergilemeye hazırlamak',
@@ -2070,7 +2070,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Telif Hakları Kulübü': {
     ekimEkstra: [
       'Fikri mülkiyet hakkı ve telif hukuku kavramlarını tanıtmak',
-      'Telif hakkı, patent, marka ve endüstriyel tasarım ayrımı sunumu\nGünlük hayatta telif: müzik, film, fotoğraf, yazılım örnekleri atölyesi',
+      'Telif hakkı, patent, marka ve endüstriyel tasarım ayrımı sunumu\nGünlük hayatta telif: müzik, film, fotoğraf, yazılım örnekleri çalışması',
     ],
     kasim: [
       'Atatürk\'ün eserleri ve telif bağlamını kavratmak',
@@ -2078,7 +2078,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'İnternet ortamında telif ihlallerini ve doğru kullanımı öğretmek',
-      'Creative Commons lisansları ve özgür yazılım kavramı semineri\nSosyal medyada fotoğraf, müzik ve video paylaşımında telif kuralları atölyesi',
+      'Creative Commons lisansları ve özgür yazılım kavramı sunumu\nSosyal medyada fotoğraf, müzik ve video paylaşımında telif kuralları çalışması',
     ],
     subat: [
       'Türk edebiyatı ve sanatında telif sorunlarını incelemek',
@@ -2101,15 +2101,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Trafik ve İlkyardım Kulübü': {
     ekimEkstra: [
       'Trafik kuralları ve yaya güvenliğini tanıtmak',
-      'Trafik işaretleri, zebra geçidi ve yaya önceliği konulu bilgilendirme\nOkul çevresi tehlikeli trafik noktaları haritalama atölyesi',
+      'Trafik işaretleri, zebra geçidi ve yaya önceliği konulu bilgilendirme\nOkul çevresi tehlikeli trafik noktaları haritalama çalışması',
     ],
     kasim: [
       'Trafik güvenliği farkındalığı ile Atatürk Haftası etkinliğini birleştirmek',
-      'Atatürk Haftası kapsamında "Atatürk ve Modern Ulaşım" sunumu\nTrafik kaza istatistikleri ve önlenebilir riskler semineri',
+      'Atatürk Haftası kapsamında "Atatürk ve Modern Ulaşım" sunumu\nTrafik kaza istatistikleri ve önlenebilir riskler sunumu',
     ],
     aralik: [
       'Kış aylarında araç ve yaya güvenliğini öğretmek',
-      'Karlı-buzlu yol güvenliği: sürücü ve yaya davranışları semineri\nOkul servis güvenliği kontrol listesi hazırlama atölyesi',
+      'Karlı-buzlu yol güvenliği: sürücü ve yaya davranışları sunumu\nOkul servis güvenliği kontrol listesi hazırlama çalışması',
     ],
     subat: [
       'İlkyardım temellerini uygulamalı öğretmek',
@@ -2171,15 +2171,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Proje tasarımını ve metodolojisini belirlemek',
-      'Araştırma sorusu + hipotez + yöntem üçgeni atölyesi\nİngilizce proje özeti yazma çalışması',
+      'Araştırma sorusu + hipotez + yöntem üçgeni çalışması\nİngilizce proje özeti yazma çalışması',
     ],
     subat: [
       'Prototip ve veri toplama aşamasını tamamlamak',
-      'Deney/prototip geliştirme çalışması\nVeri analizi ve bulguların görselleştirilmesi atölyesi',
+      'Deney/prototip geliştirme çalışması\nVeri analizi ve bulguların görselleştirilmesi çalışması',
     ],
     mart: [
       'Proje posterini ve İngilizce sunumunu hazırlamak',
-      'Bilim ve Teknoloji Haftası (8-14 Mart) kapsamında proje ön sunumu\nUluslararası standartlarda bilim posteri hazırlama atölyesi',
+      'Bilim ve Teknoloji Haftası (8-14 Mart) kapsamında proje ön sunumu\nUluslararası standartlarda bilim posteri hazırlama çalışması',
     ],
     nisan: [
       'Yarışma başvuru süreçlerini tanımak ve sunum pratiği yapmak',
@@ -2202,7 +2202,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'UNESCO Dünya Miras alanlarını kültürel turizm perspektifinden incelemek',
-      'İnsan Hakları Haftası bağlantılı "UNESCO ve İnsan Hakları" semineri\nTürkiye\'den Dünya Mirası: Efes, Çatalhöyük, Truva, Göbeklitepe derinlemesine inceleme',
+      'İnsan Hakları Haftası bağlantılı "UNESCO ve İnsan Hakları" sunumu\nTürkiye\'den Dünya Mirası: Efes, Çatalhöyük, Truva, Göbeklitepe derinlemesine inceleme',
     ],
     subat: [
       'UNESCO\'nun sürdürülebilir kalkınma hedefleriyle (SDG) bağlantısını kavratmak',
@@ -2229,15 +2229,15 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Çok dilli iletişim ve kültürel çeşitlilik bilinci oluşturmak',
-      'Atatürk Haftası kapsamında "Atatürk\'ün Dil Politikaları ve Çağdaşlaşma" sunumu\nFarklı dillerde "Merhaba/Teşekkür" öğrenme mini atölyesi',
+      'Atatürk Haftası kapsamında "Atatürk\'ün Dil Politikaları ve Çağdaşlaşma" sunumu\nFarklı dillerde "Merhaba/Teşekkür" öğrenme mini çalışması',
     ],
     aralik: [
       'Seçilen dillerde temel ifadeler ve günlük dil pratiği kazandırmak',
-      'Dil öğrenme uygulamaları (Duolingo, Babbel) tanıtımı ve kullanım atölyesi\nYabancı dilde Noel/yılbaşı geleneklerini tanıma kültür etkinliği',
+      'Dil öğrenme uygulamaları (Duolingo, Babbel) tanıtımı ve kullanım çalışması\nYabancı dilde Noel/yılbaşı geleneklerini tanıma kültür etkinliği',
     ],
     subat: [
       'Yabancı film ve müzikle dil öğrenimini pekiştirmek',
-      'Yabancı dil altyazılı kısa film/klip izleme ve tartışma atölyesi\n2. dönem sınıf içi konuşma partneri eşleştirmesi',
+      'Yabancı dil altyazılı kısa film/klip izleme ve tartışma çalışması\n2. dönem sınıf içi konuşma partneri eşleştirmesi',
     ],
     mart: [
       'Yabancı dilde sunum yapma becerisi kazandırmak',
@@ -2291,11 +2291,11 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     kasim: [
       'Haber yazma tekniklerini ve gazetecilik etiğini öğretmek',
-      'Atatürk Haftası kapsamında "Cumhuriyet Basını ve Atatürk" sunumu\n5N1K (ne, nerede, ne zaman, nasıl, neden, kim) haber yazma atölyesi',
+      'Atatürk Haftası kapsamında "Cumhuriyet Basını ve Atatürk" sunumu\n5N1K (ne, nerede, ne zaman, nasıl, neden, kim) haber yazma çalışması',
     ],
     aralik: [
       'Fotoğraf haberciliği ve görsel iletişim becerisi kazandırmak',
-      'Haber fotoğrafçılığı: çerçeveleme, an ve etik kurallar atölyesi\nOkul bülteni Aralık sayısı hazırlama ve yayınlama',
+      'Haber fotoğrafçılığı: çerçeveleme, an ve etik kurallar çalışması\nOkul bülteni Aralık sayısı hazırlama ve yayınlama',
     ],
     subat: [
       'Sesli anlatım ve haber sunma becerisi kazandırmak',
@@ -2303,7 +2303,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     mart: [
       'Soruşturma gazeteciliği ve kaynak doğrulamayı öğretmek',
-      'Kütüphaneler Haftası bağlantılı "Gerçeğin İzinde: Araştırmacı Gazetecilik" atölyesi\nBilim ve Teknoloji Haftası bağlantılı bilim haberciliği nasıl yapılır? semineri',
+      'Kütüphaneler Haftası bağlantılı "Gerçeğin İzinde: Araştırmacı Gazetecilik" çalışması\nBilim ve Teknoloji Haftası bağlantılı bilim haberciliği nasıl yapılır? sunumu',
     ],
     nisan: [
       '23 Nisan özel sayısı yayınlamak\nSınıf içi mini basın toplantısı canlandırması düzenlemek',
@@ -2318,19 +2318,19 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Yeşilay Kulübü': {
     ekimEkstra: [
       'Yeşilay\'ın tarihini ve bağımlılıkla mücadeledeki rolünü tanıtmak',
-      'Yeşilay\'ın kuruluşu (1920), misyonu ve okul kulüpleri programı sunumu\nBağımlılık türleri: madde, teknoloji, kumar farkındalık atölyesi',
+      'Yeşilay\'ın kuruluşu (1920), misyonu ve okul kulüpleri programı sunumu\nBağımlılık türleri: madde, teknoloji, kumar farkındalık çalışması',
     ],
     kasim: [
       'Sigara ve alkol bağımlılığı risklerini kavratmak',
-      'Atatürk Haftası kapsamında "Sağlıklı Nesil, Güçlü Türkiye" sunumu\nSigara ve alkol kullanımının beyin ve sağlığa etkileri semineri',
+      'Atatürk Haftası kapsamında "Sağlıklı Nesil, Güçlü Türkiye" sunumu\nSigara ve alkol kullanımının beyin ve sağlığa etkileri sunumu',
     ],
     aralik: [
       'Teknoloji bağımlılığı ve sağlıklı ekran süresi yönetimini öğretmek',
-      'Oyun ve sosyal medya bağımlılığı: belirtiler ve çözümler semineri\nDijital detoks denemesi: 24 saatlik sosyal medya molası atölyesi',
+      'Oyun ve sosyal medya bağımlılığı: belirtiler ve çözümler sunumu\nDijital detoks denemesi: 24 saatlik sosyal medya molası çalışması',
     ],
     subat: [
       'Akran baskısı ve reddedebilme becerisi kazandırmak',
-      '"Hayır diyebiliyorum" rol yapma ve senaryo atölyesi\n2. dönem Yeşilay farkındalık kampanyası başlatma',
+      '"Hayır diyebiliyorum" rol yapma ve senaryo çalışması\n2. dönem Yeşilay farkındalık kampanyası başlatma',
     ],
     mart: [
       'Yeşilay Haftasında kapsamlı etkinlik düzenlemek',
@@ -2338,7 +2338,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     nisan: [
       'Ruh sağlığı ve bağımlılık önleme ilişkisini kavratmak',
-      'Dünya Sağlık Haftası bağlantılı "Ruh Sağlığı ve Bağımlılık" semineri\n23 Nisan kapsamında "Bağımlılıksız Büyüyen Nesil" temalı program',
+      'Dünya Sağlık Haftası bağlantılı "Ruh Sağlığı ve Bağımlılık" sunumu\n23 Nisan kapsamında "Bağımlılıksız Büyüyen Nesil" temalı program',
     ],
     mayis: [
       'Yıl içi bağımlılık önleme çalışmalarını değerlendirmek',
@@ -2349,7 +2349,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Yeşili Koruma Kulübü': {
     ekimEkstra: [
       'Yeşil alanların önemi ve okul çevresindeki bitki örtüsünü tanıtmak',
-      'Okul bahçesi bitki türleri kataloglama atölyesi\nBitkisel yaşamın ekosistem hizmetleri sunumu',
+      'Okul bahçesi bitki türleri kataloglama çalışması\nBitkisel yaşamın ekosistem hizmetleri sunumu',
     ],
     kasim: [
       'Ağaç ve ormanın iklim düzenleme rolünü kavratmak',
@@ -2357,7 +2357,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     aralik: [
       'Kış bahçeciliği ve bitkileri koruma becerisi kazandırmak',
-      'Saksı bitkilerinin kış bakımı atölyesi\nOkul bahçesi kışlık koruma çalışması (don önleme, sulama)',
+      'Saksı bitkilerinin kış bakımı çalışması\nOkul bahçesi kışlık koruma çalışması (don önleme, sulama)',
     ],
     subat: [
       'Tohum bankası ve bitki çoğaltma yöntemlerini öğretmek',
@@ -2380,7 +2380,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Zeka Oyunları Kulübü': {
     ekimEkstra: [
       'Zekâ oyunlarının türlerini ve faydalarını tanıtmak',
-      'Sudoku, bulmaca, strateji oyunları, mantık bulmacaları tanıtım atölyesi\nZekâ oyunlarının beyin gelişimine katkısı sunumu',
+      'Sudoku, bulmaca, strateji oyunları, mantık bulmacaları tanıtım çalışması\nZekâ oyunlarının beyin gelişimine katkısı sunumu',
     ],
     kasim: [
       'Mantık bulmacaları ve problem çözme becerisi geliştirmek',
@@ -2392,7 +2392,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
     ],
     subat: [
       'Matematiksel düşünme ve sayı bulmacaları becerisi geliştirmek',
-      'Sudoku, Kakuro ve sayı bulmacaları yoğunlaştırılmış atölyesi\n2. dönem okul zekâ olimpiyatı planlama toplantısı',
+      'Sudoku, Kakuro ve sayı bulmacaları yoğunlaştırılmış çalışması\n2. dönem okul zekâ olimpiyatı planlama toplantısı',
     ],
     mart: [
       'Bilim ve mantık arasındaki köprüyü kurmak',
@@ -2411,7 +2411,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
   'Zeytin Ağacı Kulübü': {
     ekimEkstra: [
       'Zeytinin Anadolu kültüründeki yerini ve ekonomik önemini tanıtmak',
-      'Zeytin tarihçesi: 6.000 yıllık Anadolu kültürü sunumu\nTürkiye\'nin zeytin üretimi ve ihracatı araştırma atölyesi',
+      'Zeytin tarihçesi: 6.000 yıllık Anadolu kültürü sunumu\nTürkiye\'nin zeytin üretimi ve ihracatı araştırma çalışması',
     ],
     kasim: [
       'Zeytin hasadı dönemine özgü kültürel etkinlik düzenlemek',
@@ -2473,7 +2473,7 @@ function placeholderProfil(kulupAdi: string): KulupProfil {
   return {
     kasim:  [`${kulupAdi} kapsamında Atatürk Haftası etkinliğine katkı sağlamak\nÖğretmenler Günü etkinliğine destek olmak`, `Atatürk Haftası (10-16 Kasım) kapsamında kulüp etkinliği\n24 Kasım Öğretmenler Günü programına kulübün katkısı`],
     aralik: [`${kulupAdi} temasıyla ilgili farkındalık oluşturmak`, `Kulüp konusuyla ilgili araştırma ve sunum çalışması\nİnsan Hakları ve Demokrasi Haftası (10 Aralık) kapsamında kulüp etkinliği`],
-    subat:  [`2. yarıyıl çalışmalarını planlamak\n${kulupAdi} konusunda uygulamalı beceri geliştirmek`, `2. yarıyıl etkinlik takviminin hazırlanması\nUygulama atölyesi ve grup çalışması`],
+    subat:  [`2. yarıyıl çalışmalarını planlamak\n${kulupAdi} konusunda uygulamalı beceri geliştirmek`, `2. yarıyıl etkinlik takviminin hazırlanması\nUygulama çalışması ve grup çalışması`],
     mart:   [`${kulupAdi} teması kapsamında Mart ayı etkinliklerini gerçekleştirmek`, `Bilim ve Teknoloji Haftası ve Orman Haftası bağlantılı etkinlik\nKulüp konusuyla ilgili sunum ve tartışma`],
     nisan:  [`23 Nisan etkinliklerine kulübün katkısını sağlamak\n${kulupAdi} kapsamında proje/sunum hazırlamak`, `23 Nisan Ulusal Egemenlik ve Çocuk Bayramı kapsamında kulüp etkinliği\nProje/sunum hazırlama ve sergileme`],
     mayis:  [`19 Mayıs etkinliklerine katılım sağlamak\nYıl içi çalışmaları tamamlamak`, `19 Mayıs Atatürk\'ü Anma, Gençlik ve Spor Bayramı etkinliklerine kulübün katkısı\nEngelliler Haftası (10-16 Mayıs) kapsamında kulüp faaliyeti`],
