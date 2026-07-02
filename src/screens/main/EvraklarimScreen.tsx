@@ -4,7 +4,7 @@ import {
   ScrollView, TouchableOpacity, Modal, TextInput, Dimensions,
 } from 'react-native';
 import {
-  FileText, Files, Mail, ChartBar, LayoutGrid, Plus, Search, Download, Trophy, X, ChevronRight, Users,
+  FileText, Files, Mail, ChartBar, LayoutGrid, Plus, Search, Download, Trophy, X, ChevronRight, Users, Award,
 } from 'lucide-react-native';
 import KULUPLER from '../../../kulupler/kulupler.json';
 import { useNavigation } from '@react-navigation/native';
@@ -34,6 +34,7 @@ const SABLONLAR: Sablon[] = [
   { id: 'veli',         Icon: Users,      ad: 'Veli Toplantısı', yeni: true, iconBg: colors.catGreenLt, iconColor: colors.catGreen  },
   { id: 'dilekce',      Icon: Mail,       ad: 'Dilekçe',        yeni: true, iconBg: colors.catPurpleLt, iconColor: colors.catPurple },
   { id: 'sinav-analizi',Icon: ChartBar,   ad: 'Sınav Analizi',             iconBg: colors.catGreenLt,  iconColor: colors.catGreen  },
+  { id: 'performans',   Icon: Award,      ad: 'Performans Notu', yeni: true, iconBg: colors.catAmberLt, iconColor: colors.catAmber },
   { id: 'ders-plan',    Icon: LayoutGrid, ad: 'Ders Planı',                iconBg: colors.catOrangeLt, iconColor: colors.catOrange },
   { id: 'diger',        Icon: Plus,       ad: 'Diğer...',                  iconBg: colors.bg,          iconColor: colors.text3     },
 ];

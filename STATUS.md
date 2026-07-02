@@ -46,7 +46,21 @@
    - `SablonDoldurmaScreen.tsx`'te `isYoklamaKarar` akışı (3 adım: Temel Bilgiler → Öğrenci Listesi → Karar Kayıtları) — bu modülde plan verisinden ön doldurma yok (gerçek toplantı verisi, öğretmen elle girer)
    - `EvraklarimScreen.tsx`'te dördüncü Kulüp Evrakları kartı eklendi
    - TypeScript: 0 hata ✅
-3. **Dilekçe bankası** — izin/mazeret/nakil (genel evrak)
+3. **Dilekçe bankası** — bekliyor, referans belge yok, kullanıcı kararı: sonraya bırakıldı
+
+### Performans Notu modülü (bu oturumda eklendi) ✅
+
+Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performans'`).
+
+- Referans: `evraklar/performans/` — 2 gerçek okul belgesi (1./2. performans + DKAB performans ödevi cetveli), hücre hücre incelendi
+- Sadece 2 hazır şablon (kullanıcı kararı): **1. Performans Notu (Ödev)** — 10 kriter × 10 puan, **2. Performans Notu** — 8 kriter (20/20/10×6), gerçek MEB metniyle birebir
+- Yeni: `src/data/performansSablon.ts` (`PerformansKriter`, `PerformansOgrenciSatiri`, `PERFORMANS_SABLONLARI`, `notuKriterlereDagit`)
+  - **Otomatik dağıtım:** öğretmen tek bir "asıl not" girer, fonksiyon kriterlere ağırlıklı+rastgele dağıtır (toplam her zaman tam asilNot'a eşit, kriter üst sınırı aşılmaz) — test edildi (5 farklı not × 2 şablon, hepsi geçerli)
+  - Manuel giriş de mümkün (öğretmen her kriteri elle girer)
+- Yeni: `src/data/performansHtmlSablon.ts` — dikey (portrait) A4, dikey yazılı dar kriter sütunları (gerçek belgedeki gibi), müdür imzası opsiyonel (boşsa satır basılmaz), öğretmen imzası zorunlu
+- `SablonDoldurmaScreen.tsx`'te `isPerformans` akışı (3 adım: Temel Bilgiler → Şablon Seç → Öğrenciler ve Puanlama, öğrenci başına oto/manuel toggle)
+- `EvraklarimScreen.tsx` ana SABLONLAR gridine "Performans Notu" kartı eklendi (Award ikonu, catAmber)
+- TypeScript: 0 hata ✅ — tsx ile örnek veri üretilip HTML çıktısı manuel doğrulandı
 
 **Build notu:** [[feedback_build_strateji]] — tüm evraklar bitmeden APK build yok, Expo Go test.
 

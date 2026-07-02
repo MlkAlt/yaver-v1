@@ -30,10 +30,23 @@ import { kulupVarsayilanEtkinlikleri, kulupVarsayilanToplumHizmetSatirlari } fro
 import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, AylikRaporFormData } from '../../data/aylikRaporHtmlSablon';
 import { toplumHizmetHtmlOlustur, ToplumHizmetFormData } from '../../data/toplumHizmetHtmlSablon';
 import { yoklamaKararHtmlOlustur, YoklamaKararFormData } from '../../data/yoklamaKararHtmlSablon';
+import {
+  PERFORMANS_SABLONLARI, PerformansOgrenciSatiri, bosPerformansOgrencisi, notuKriterlereDagit,
+} from '../../data/performansSablon';
+import { performansHtmlOlustur, PerformansFormData } from '../../data/performansHtmlSablon';
 import { turkceBuyuk } from '../../lib/turkce';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
 type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
+
+type POgrenciUI = {
+  no: number;
+  okulNo: string;
+  adSoyad: string;
+  mod: 'oto' | 'manuel';
+  asilNot: string;
+  puanlar: number[];
+};
 
 const STORAGE_OGRETMENLER      = '@yaver/sok_ogretmenler';
 const STORAGE_OKUL             = '@yaver/okul_adi';
@@ -262,6 +275,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const isAylikRapor = sablonId === 'aylik_rapor';
   const isToplumHizmet = sablonId === 'toplum_hizmet';
   const isYoklamaKarar = sablonId === 'yoklama_karar';
+  const isPerformans   = sablonId === 'performans';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -352,6 +366,25 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [yKararlar, setYKararlar]               = useState<KararSatiri[]>([bosKararSatiri(1)]);
   const [yYukleniyor, setYYukleniyor]           = useState(false);
 
+  // ─── Performans Notu state ─────────────────────────────────────────────
+  const [pAdim, setPAdim]                       = useState(0);
+  const [pOkulAdi, setPOkulAdi]                 = useState('');
+  const [pSinif, setPSinif]                     = useState('');
+  const [pDersAdi, setPDersAdi]                 = useState('');
+  const [pEgitimYili]                           = useState(egitimYiliHesapla());
+  const [pTarih, setPTarih]                     = useState(bugunTarih());
+  const [pOgretmen, setPOgretmen]               = useState('');
+  const [pMudur, setPMudur]                     = useState('');
+  const [pSablonId, setPSablonId]               = useState<'birinci' | 'ikinci'>('birinci');
+  const [pOgrenciler, setPOgrenciler]           = useState<POgrenciUI[]>(() => {
+    const kriterSayisi = PERFORMANS_SABLONLARI[0].kriterler.length;
+    return [1, 2, 3].map(no => ({
+      no, okulNo: '', adSoyad: '', mod: 'oto' as const, asilNot: '',
+      puanlar: new Array(kriterSayisi).fill(0),
+    }));
+  });
+  const [pYukleniyor, setPYukleniyor]           = useState(false);
+
   useEffect(() => {
     if (isSok) {
       Promise.all([
@@ -435,10 +468,18 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (okul)     setYOkulAdi(okul);
         if (danisman) setYDanisman(danisman);
       });
+    } else if (isPerformans) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+      ]).then(([okul, ogretmen]) => {
+        if (okul)     setPOkulAdi(okul);
+        if (ogretmen) setPOgretmen(ogretmen);
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet && !isYoklamaKarar) {
+  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet && !isYoklamaKarar && !isPerformans) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -1632,6 +1673,302 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
     );
   }
 
+  // ─── Performans Notu akışı ─────────────────────────────────────────────
+  if (isPerformans) {
+    const P_ADIMLAR = ['Temel Bilgiler', 'Şablon Seç', 'Öğrenciler ve Puanlama'];
+    const pSablon   = PERFORMANS_SABLONLARI.find(sb => sb.id === pSablonId)!;
+    const kriterler = pSablon.kriterler;
+
+    const pSablonSec = (id: 'birinci' | 'ikinci') => {
+      setPSablonId(id);
+      const yeniKriterSayisi = PERFORMANS_SABLONLARI.find(sb => sb.id === id)!.kriterler.length;
+      setPOgrenciler(prev => prev.map(o => ({ ...o, puanlar: new Array(yeniKriterSayisi).fill(0) })));
+    };
+
+    const pDagit = (i: number) => {
+      const asilNot = Math.min(100, Math.max(0, parseInt(pOgrenciler[i].asilNot, 10) || 0));
+      const puanlar = notuKriterlereDagit(asilNot, kriterler);
+      setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, puanlar } : x));
+    };
+
+    const pIleri = () => {
+      if (pAdim === 0 && (!pDersAdi.trim() || !pOgretmen.trim())) {
+        Alert.alert('Eksik bilgi', 'Ders adı ve öğretmen adı zorunlu.');
+        return;
+      }
+      if (pAdim === 2 && pOgrenciler.every(o => !o.adSoyad.trim())) {
+        Alert.alert('Eksik bilgi', 'En az bir öğrenci eklenmeli.');
+        return;
+      }
+      if (pAdim < P_ADIMLAR.length - 1) setPAdim(pAdim + 1);
+      else pOlustur();
+    };
+    const pGeri = () => setPAdim(pAdim - 1);
+
+    async function pOlustur() {
+      setPYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, pOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, pOgretmen);
+
+        const ogrenciler: PerformansOgrenciSatiri[] = pOgrenciler
+          .filter(o => o.adSoyad.trim())
+          .map((o, i) => ({ no: i + 1, okulNo: o.okulNo, adSoyad: o.adSoyad, puanlar: o.puanlar }));
+
+        const formData: PerformansFormData = {
+          okulAdi: pOkulAdi,
+          sinif: pSinif,
+          dersAdi: pDersAdi,
+          egitimYili: pEgitimYili,
+          donemBaslik: pSablon.ad + ' Değerlendirme Çizelgesi',
+          tarih: pTarih,
+          ogretmen: pOgretmen,
+          mudur: pMudur,
+          kriterler,
+          ogrenciler,
+        };
+
+        const html    = performansHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({
+          html, base64: false,
+          margins: { top: 98, right: 118, bottom: 98, left: 118 },
+        });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Performans Notu — ${pDersAdi}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch (e) {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setPYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Performans Notu" back />
+
+        <View style={s.stepper}>
+          {P_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= pAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= pAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === pAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {pAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>Performans notu değerlendirme çizelgesi</Text>
+
+              <Alan label="Okul Adı">
+                <TextInput style={s.input} value={pOkulAdi} onChangeText={setPOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Sınıf">
+                <TextInput style={s.input} value={pSinif} onChangeText={setPSinif}
+                  placeholder="9/A" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Ders Adı" zorunlu>
+                <TextInput style={s.input} value={pDersAdi} onChangeText={setPDersAdi}
+                  placeholder="Matematik" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Ders Öğretmeni" zorunlu>
+                <TextInput style={s.input} value={pOgretmen} onChangeText={setPOgretmen}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Okul Müdürü" hint="Opsiyonel — boş bırakılırsa belgede müdür imza satırı yer almaz">
+                <TextInput style={s.input} value={pMudur} onChangeText={setPMudur}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Tarih" zorunlu>
+                <TextInput style={s.input} value={pTarih} onChangeText={setPTarih}
+                  placeholder="15 Ocak 2026" placeholderTextColor={colors.text3} />
+              </Alan>
+            </ScrollView>
+          )}
+
+          {pAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Şablon Seç</Text>
+              <Text style={s.adimAlt}>Kriterler ve ağırlıkları şablona göre otomatik gelir</Text>
+
+              <View style={s.chipRow}>
+                {PERFORMANS_SABLONLARI.map(sb => (
+                  <TouchableOpacity
+                    key={sb.id}
+                    style={[s.chip, pSablonId === sb.id && s.chipActive]}
+                    onPress={() => pSablonSec(sb.id)}
+                  >
+                    <Text style={[s.chipText, pSablonId === sb.id && s.chipTextActive]}>{sb.ad}</Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+
+              <View style={[s.infoCard, { marginTop: spacing.base }]}>
+                <Text style={s.infoText}>
+                  {kriterler.map(k => `• ${k.ad} (${k.puan} puan)`).join('\n')}
+                </Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {pAdim === 2 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Öğrenciler ve Puanlama</Text>
+              <Text style={s.adimAlt}>
+                Asıl notu gir ve "Dağıt" ile kriterlere otomatik böl, dilersen kriter kriter manuel gir
+              </Text>
+
+              {pOgrenciler.map((o, i) => {
+                const toplam = o.puanlar.reduce((a, b) => a + b, 0);
+                return (
+                  <View key={o.no} style={s.soruCard}>
+                    <View style={s.soruHeader}>
+                      <Text style={s.soruNo}>{i + 1}. Öğrenci</Text>
+                      {pOgrenciler.length > 1 && (
+                        <TouchableOpacity
+                          onPress={() => setPOgrenciler(pOgrenciler.filter((_, idx) => idx !== i))}
+                          style={s.deleteBtn}
+                        >
+                          <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                        </TouchableOpacity>
+                      )}
+                    </View>
+
+                    <Alan label="Adı Soyadı">
+                      <TextInput
+                        style={s.input}
+                        value={o.adSoyad}
+                        onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, adSoyad: v } : x))}
+                        placeholder="Ad Soyad"
+                        placeholderTextColor={colors.text3}
+                      />
+                    </Alan>
+                    <Alan label="Okul No">
+                      <TextInput
+                        style={s.input}
+                        value={o.okulNo}
+                        onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, okulNo: v } : x))}
+                        placeholder="123"
+                        placeholderTextColor={colors.text3}
+                        keyboardType="numeric"
+                      />
+                    </Alan>
+
+                    <View style={s.chipRow}>
+                      <TouchableOpacity
+                        style={[s.chip, o.mod === 'oto' && s.chipActive]}
+                        onPress={() => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, mod: 'oto' } : x))}
+                      >
+                        <Text style={[s.chipText, o.mod === 'oto' && s.chipTextActive]}>Otomatik Dağıt</Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        style={[s.chip, o.mod === 'manuel' && s.chipActive]}
+                        onPress={() => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, mod: 'manuel' } : x))}
+                      >
+                        <Text style={[s.chipText, o.mod === 'manuel' && s.chipTextActive]}>Manuel</Text>
+                      </TouchableOpacity>
+                    </View>
+
+                    {o.mod === 'oto' ? (
+                      <>
+                        <Alan label="Asıl Not (0-100)">
+                          <View style={{ flexDirection: 'row', gap: 8 }}>
+                            <TextInput
+                              style={[s.input, { flex: 1 }]}
+                              value={o.asilNot}
+                              onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, asilNot: v.replace(/[^0-9]/g, '') } : x))}
+                              placeholder="85"
+                              placeholderTextColor={colors.text3}
+                              keyboardType="numeric"
+                            />
+                            <TouchableOpacity style={s.dagitBtn} onPress={() => pDagit(i)} activeOpacity={0.8}>
+                              <Text style={s.dagitBtnText}>Dağıt</Text>
+                            </TouchableOpacity>
+                          </View>
+                        </Alan>
+                        {toplam > 0 && (
+                          <Text style={s.kriterOnizleme}>
+                            {kriterler.map((k, ki) => `${k.ad.split(' ').slice(0, 2).join(' ')}: ${o.puanlar[ki]}`).join('  ·  ')}
+                          </Text>
+                        )}
+                      </>
+                    ) : (
+                      <View style={s.kriterGrid}>
+                        {kriterler.map((k, ki) => (
+                          <View key={ki} style={s.kriterInputWrap}>
+                            <Text style={s.kriterLabel} numberOfLines={2}>{k.ad}</Text>
+                            <TextInput
+                              style={s.kriterInput}
+                              value={String(o.puanlar[ki] ?? 0)}
+                              onChangeText={v => {
+                                const n = Math.min(k.puan, Math.max(0, parseInt(v, 10) || 0));
+                                setPOgrenciler(pOgrenciler.map((x, idx) => idx === i
+                                  ? { ...x, puanlar: x.puanlar.map((p, pi) => pi === ki ? n : p) }
+                                  : x));
+                              }}
+                              keyboardType="numeric"
+                            />
+                            <Text style={s.kriterMax}>/ {k.puan}</Text>
+                          </View>
+                        ))}
+                      </View>
+                    )}
+
+                    <Text style={s.toplamText}>Toplam: {toplam} / 100</Text>
+                  </View>
+                );
+              })}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setPOgrenciler([...pOgrenciler, {
+                  no: pOgrenciler.length + 1, okulNo: '', adSoyad: '', mod: 'oto', asilNot: '',
+                  puanlar: new Array(kriterler.length).fill(0),
+                }])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Öğrenci Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {pAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={pGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, pYukleniyor && s.ileriDisabled]}
+            onPress={pIleri} activeOpacity={0.8} disabled={pYukleniyor}
+          >
+            {pAdim === P_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{pYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
   // ─── Zümre akışı ──────────────────────────────────────────────────────
   if (isZumre) {
     const Z_ADIMLAR = ['Temel Bilgiler', 'Katılımcılar', 'Gündem Notları'];
@@ -2025,6 +2362,26 @@ const s = StyleSheet.create({
   chipActive: { backgroundColor: colors.accent, borderColor: colors.accent } as ViewStyle,
   chipText: { fontSize: 13, fontFamily: fonts.medium, color: colors.text2 } as TextStyle,
   chipTextActive: { color: '#fff', fontFamily: fonts.semiBold } as TextStyle,
+
+  dagitBtn: {
+    paddingHorizontal: spacing.md, borderRadius: radius.md,
+    backgroundColor: colors.accent, alignItems: 'center', justifyContent: 'center',
+  } as ViewStyle,
+  dagitBtnText: { fontSize: 13, fontFamily: fonts.semiBold, color: '#fff' } as TextStyle,
+  kriterOnizleme: {
+    fontSize: 11, fontFamily: fonts.regular, color: colors.text2,
+    marginTop: 4, marginBottom: spacing.sm,
+  } as TextStyle,
+  kriterGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: spacing.sm } as ViewStyle,
+  kriterInputWrap: { width: '31%' } as ViewStyle,
+  kriterLabel: { fontSize: 9, fontFamily: fonts.regular, color: colors.text2, marginBottom: 4, minHeight: 26 } as TextStyle,
+  kriterInput: {
+    borderWidth: 1, borderColor: colors.border, borderRadius: radius.sm,
+    paddingVertical: 6, paddingHorizontal: 8, fontSize: 13, fontFamily: fonts.medium,
+    color: colors.text1, textAlign: 'center',
+  } as TextStyle,
+  kriterMax: { fontSize: 10, fontFamily: fonts.regular, color: colors.text3, textAlign: 'center', marginTop: 2 } as TextStyle,
+  toplamText: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1, marginTop: 4 } as TextStyle,
 
   infoCard: {
     backgroundColor: colors.bg, borderRadius: radius.md,
