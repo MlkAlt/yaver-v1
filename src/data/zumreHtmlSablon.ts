@@ -1,4 +1,5 @@
 import { ZUMRE_GUNDEM_MADDELERI, ZumleToplantTipi, TOPLANTI_TIPLERI } from './zumreSablon';
+import { turkceBuyuk } from '../lib/turkce';
 
 export type ZumreFormData = {
   okulAdi: string;
@@ -75,10 +76,10 @@ export function zumreHtmlOlustur(form: ZumreFormData): string {
 <body>
 
 <div class="baslik">
-  <h1>${okulAdi.toUpperCase()}</h1>
+  <h1>${turkceBuyuk(okulAdi)}</h1>
   <h2>${egitimYili} EĞİTİM-ÖĞRETİM YILI</h2>
-  <h2>${brans.toUpperCase()} ZÜMRESİ ÖĞRETMENLER KURULU</h2>
-  <h2>${topLabel.toUpperCase()} TOPLANTI TUTANAĞI</h2>
+  <h2>${turkceBuyuk(brans)} ZÜMRESİ ÖĞRETMENLER KURULU</h2>
+  <h2>${turkceBuyuk(topLabel)} TOPLANTI TUTANAĞI</h2>
 </div>
 
 <table class="meta-tablo">
