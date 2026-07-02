@@ -1,10 +1,64 @@
-# Yaver V1 — Proje Durumu
+# Yaver — Proje Durumu
 
-**Son güncelleme:** 27.06.2026 — Oturum 71
+**Son güncelleme:** 02.07.2026 — Oturum 73
 
 ## Şu An Ne Yapıyoruz
 
-**APK hazır — kullanıcı manuel test yapıyor, sonra Evraklarım (S12)**
+### Oturum 73 yapılanlar (01-02.07.2026) — Kulüp Evrakları Tamamlama
+
+**1. Kelime sadeleştirme (commit fa15887) ✅**
+- `src/data/kulupYillikPlanlari.ts` — 76 kulüp × 9 ay
+- "atölyesi" → "çalışması" (~120 geçiş, PowerShell toplu değiştirme)
+- "semineri" → "sunumu" (~39 geçiş)
+- Kalan 2 "atölye" formu ("konulu atölye", "uygulamalı atölye") → "çalışma"
+- Faaliyet ilkesi korunuyor: sınıf içi, ek bütçe/izin yok, raporda birkaç cümle ispat
+
+**2. Aylık Faaliyet Raporu modülü (commit c74c2d6) ✅**
+- **Yeni dosya:** `src/data/aylikRaporHtmlSablon.ts`
+  - `AylikRaporFormData` tipi
+  - `RAPOR_AYLARI` — Ekim(1)...Haziran(9) sıralama
+  - `planEtkinlikleriniRaporaCevir()` — her satıra "gerçekleştirildi" ekler
+  - `aylikRaporHtmlOlustur()` — MEB formatı HTML (okul→müdürlüğüne mektubu, madde listesi, toplum hizmeti, danışman imzası)
+- **SablonDoldurmaScreen.tsx** — `isAylikRapor` akışı eklendi (2 adım wizard):
+  - Adım 1: Ay seçici (9 chip) + okul adı + danışman + rapor tarihi → ay seçilince o ayın etkinlikleri otomatik yüklenir
+  - Adım 2: Yapılan çalışmalar listesi (düzenlenebilir) + toplum hizmeti textarea
+- **EvraklarimScreen.tsx** — Kulüp Evrakları bölümüne "Aylık Faaliyet Raporu" kartı eklendi
+
+**Referans:** Gerçek Kültür Edebiyat Kulübü raporları (Kasım + Şubat 2025-2026) incelenerek format doğrulandı.
+**Tüm TypeScript hataları:** 0 ✅
+
+---
+
+### Sıradaki Adımlar (Kulüp Evrakları)
+
+1. **Toplum Hizmet Planı** — Ayrı belge (AY | HAFTA | SÜRE | KONULAR | KATILANLAR | DEĞERLENDİRME)
+2. **Yoklama ve Karar Defteri** — Öğrenci listesi + toplantı başına devam/karar
+3. **Dilekçe bankası** — izin/mazeret/nakil (genel evrak)
+
+**Build notu:** [[feedback_build_strateji]] — tüm evraklar bitmeden APK build yok, Expo Go test.
+
+---
+
+**Strateji konsolide edildi → tek kaynak: `PLAN.md`.** Dört çakışan doküman (SPEC_FULL / PRD / STRATEJI_V2 / ROADMAP) tek uygulanabilir plana indirgendi; uygulama detayı (faz/şema/timeline) PLAN.md'ye katıldı, ROADMAP.md kaldırıldı; ilk üçü `archive/`'da.
+
+**Kilitlenen kararlar:**
+1. **Gelir:** yıllık abonelik (ana) + lifetime (çapa/erken-kuş).
+2. **İçerik:** önceden üretilmiş havuz, kullanıcı-başına canlı AI yok (marjinal maliyet ≈ 0).
+3. **Lansman:** dört sütun (defter görünümü · çalışma yaprağı/etkinlik · sınav analizi · resmi evrak) tam olunca tek seferde.
+4. **Canlı AI:** v1'de yok; v2'de tüketilebilir kredi paketi (lifetime'ı bozmaz).
+5. **Hedef:** Ağustos sonu store review, Eylül zirvesinde canlı (PLAN.md §11).
+
+**Kod durumu:** V1.x ~%80 hazır. APK test edilebilir (Build `49a099c2`). Evrak: zümre/ŞÖK/veli tutanak wizard'ları çalışıyor (doğru mimari — şablon + slot, AI yok).
+
+**Sınav Analizi (Faz 7) 🟡:** 5 adımlı sihirbaz + soru→kazanım eşleştirme + başarı hesabı + tedbir + PDF + sınıf bazlı öğrenci hafızası çalışıyor (Claude Code). **+ Bu oturumda uygulama-içi arşiv eklendi (yerel/AsyncStorage):** yeni `src/data/sinavArsiv.ts` + SinavAnaliziScreen'de otomatik kaydet, "Geçmiş Analizler" listesi (yeniden aç/sil), toast. Arşiv yeri kararı: **yerel** (login/sürtünme yok, offline; Supabase senkronu auth gelince). Kalan: Supabase `sinav_analizleri` senkronu, CSV (ertelendi), çalışma yaprağı önerisi (havuz), paywall (Faz 6).
+
+> ⚠️ Bu oturumun `src/` değişiklikleri (sinavArsiv.ts + SinavAnaliziScreen.tsx) commit'lenmeli. Tip kontrolünü kendi ortamında/Claude Code'da yap — buradaki sandbox tsc dosyaları kırpık okuduğu için güvenilmez sonuç veriyor.
+
+**Sıradaki (PLAN.md §10):** Faz 3 — sahte `hazirSayisi` sayaçlarını (PlanimScreen, 6 yer) kaldır + Bu Hafta'yı saf defter görünümüne sadeleştir. Paralel Faz 1 — içerik havuzu pilot (Matematik) → `uretim_cache` genişletme / `etkinlik_havuzu` + QC. Detaylı fazlar + Eylül timeline: `PLAN.md` §10-11.
+
+---
+
+### (Aşağısı: oturum 71 ve öncesi tarihsel kayıt)
 
 ### Oturum 71 yapılanlar (26-27.06.2026)
 

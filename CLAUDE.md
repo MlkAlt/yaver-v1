@@ -1,8 +1,11 @@
-# Öğretmen Yaver — V1.4 (Lean)
+# Öğretmen Yaver — V1.5 (Konsolide)
 
-> Tam spec: `SPEC_FULL.md`
+> **Tek kaynak: `PLAN.md`** — ürün, mimari, yol haritası; fazlar/şema/timeline dahil. Çakışmada PLAN.md kazanır.
+> Tarihsel referans (bağlayıcı değil): `archive/SPEC_FULL.md`, `archive/PRD.md`, `archive/STRATEJI_V2.md`.
 
-**Ürün:** Öğretmenin zihinsel yükünü alan asistan. Yıllık plan + haftalık kazanımlar + AI içerik üretimi.
+**Ürün:** Öğretmenin zihinsel yükünü alan asistan. "Yaver hazırlar, sen öğretirsin." Dört sütun: defter görünümü · çalışma yaprağı/etkinlik · sınav analizi · resmi evrak.
+
+**Mimari ilke:** Marjinal maliyet ≈ 0 → her özellik ya deterministik/offline ya da önceden üretilmiş havuzdan. Kullanıcı-başına canlı AI yok (lifetime için zorunlu).
 
 ---
 
@@ -66,12 +69,14 @@ fonts.*         Plus Jakarta Sans (regular/medium/semiBold/bold/extraBold/italic
 
 | Tab | Ekran |
 |---|---|
-| Planım | Timeline dashboard + Hafta Detayı |
-| Ders İçin | Üretim listesi + FAB |
-| Evraklarım | Şablon listesi + Doldurma |
-| Profil | Hesap + ayarlar |
+| Bu Hafta | Defter görünümü (kazanım kartları) + bugün vurgusu |
+| Plan | Yıllık plan (dönem→ay→hafta) + Hafta Detayı |
+| Hazırla | Çalışma yaprağı/etkinlik (havuzdan) + Sınav akışı |
+| Evrak | Resmi evraklar + sınav analizi çıktısı + arşiv |
 
-**Stack ekranlar:** Uretim, Cikti, HaftaDetayi, SablonDoldurma, YaverAsistani, OkulBilgileri, DersProgrami
+**Stack ekranlar:** Uretim, Cikti, HaftaDetayi, SablonDoldurma, OkulBilgileri, DersProgrami, SinavDagilim, SinavAnaliz
+
+> Ekran→tab geçiş haritası: `PLAN.md` §6.
 
 ---
 
@@ -115,17 +120,17 @@ fonts.*         Plus Jakarta Sans (regular/medium/semiBold/bold/extraBold/italic
 | S12 | Evraklarım | `screens/main/EvraklarimScreen.tsx` |
 | S13 | Şablon Doldurma | `screens/main/SablonDoldurmaScreen.tsx` |
 | S14 | Profil | `screens/main/ProfilScreen.tsx` |
-| S15 | Yaver Asistanı | `screens/main/YaverAsistaniScreen.tsx` |
 
 ---
 
 ## HAFIZA SİSTEMİ
 
-**3 dosya:**
-- `CLAUDE.md` — bu dosya (kurallar + teknik referans)
+**Dosyalar:**
+- `PLAN.md` — ürün + mimari + yol haritası + uygulama (faz/şema/timeline) (TEK KAYNAK, çakışmada kazanır)
+- `CLAUDE.md` — bu dosya (davranış + teknik kurallar)
 - `STATUS.md` — nerede kaldık, sıradaki adımlar
 - `DECISIONS.md` — karar günlüğü (append-only)
-- `SPEC_FULL.md` — tam ürün spec (referans için)
+- `archive/` → `SPEC_FULL.md`, `PRD.md`, `STRATEJI_V2.md` — tarihsel arşiv (bağlayıcı değil)
 
 **Oturum başı:** Kullanıcı "nerede kaldık" / "devam edelim" yazarsa → `STATUS.md` + `DECISIONS.md` oku, özet ver.
 
