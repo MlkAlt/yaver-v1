@@ -1,6 +1,6 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 02.07.2026 — Oturum 73
+**Son güncelleme:** 02.07.2026 — Oturum 73 (devam)
 
 ## Şu An Ne Yapıyoruz
 
@@ -62,7 +62,16 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 - `EvraklarimScreen.tsx` ana SABLONLAR gridine "Performans Notu" kartı eklendi (Award ikonu, catAmber)
 - TypeScript: 0 hata ✅ — tsx ile örnek veri üretilip HTML çıktısı manuel doğrulandı
 
+**Ölü kod temizliği:** `kulupYillikPlanlari.ts`'teki kullanılmayan `KULUP_ISIMLER` dizisi (66 isim, eski geliştirme aşamasından kalma, hiçbir yerde referans edilmiyordu) kaldırıldı. `placeholderProfil()` fonksiyonu korundu — `KULUP_PROFILLERI`'de karşılığı bulunamayan kulüp adları için güvenlik ağı olarak hâlâ gerekli (76/76 resmi kulübün tamamı `kulupler.json` ile birebir eşleşiyor, doğrulandı).
+
+**Bu oturumda push edildi:** Toplum Hizmeti + Yoklama/Karar + ölü kod temizliği + Performans Notu — 5 commit, `origin/main`'e gönderildi.
+
 **Build notu:** [[feedback_build_strateji]] — tüm evraklar bitmeden APK build yok, Expo Go test.
+
+### Sıradaki Adımlar (genel — öncelik sırasıyla)
+
+1. **Rehberlik Aylık Çalışma Raporu** — modül adayı, referans: `evraklar/rehberlik/melik-sibil-11-sinif-eylul-rehberlik-raporu-1782571914.docx`. Yapı: sınıf/ay/rapor no/tarih, yıllık plana göre işlenen kazanımlar, yapılan etkinlikler, veli/öğrenci görüşme tablosu, imza. Aylık Faaliyet Raporu modülüyle aynı desende (ay seç → içerik türet → düzenle → PDF) uygulanabilir.
+2. **Dilekçe bankası** — bekliyor, referans belge yok. Kullanıcı ya örnek dilekçe sağlayacak ya da kapsamı (izin/mazeret/nakil/başka) netleştirecek.
 
 ---
 

@@ -2,6 +2,22 @@
 
 ---
 
+## Evrak Modülleri
+
+### 2026-07-02 — Performans Notu: sadece 2 sabit şablon + otomatik dağıtım
+**Karar:** Performans Notu modülünde kriter özelleştirme yok — sadece "1. Performans Notu (Ödev)" (10 kriter × 10 puan) ve "2. Performans Notu" (8 kriter, 20/20/10×6) şablonları, gerçek MEB belge metniyle birebir. Öğretmen kriter ekleyip/çıkaramaz.
+**Sebep:** Kullanıcı net talep etti — kapsamı daraltmak istedi, özel kriter oluşturma karmaşıklık katardı.
+**Otomatik dağıtım:** Öğretmen tek bir "asıl not" girer, `notuKriterlereDagit()` kriterlere ağırlıklı+rastgele dağıtır (toplam her zaman tam nota eşit, kriter üst sınırı aşılmaz). Manuel giriş de destekleniyor (öğretmen isterse her kriteri elle girer).
+**Çıktı:** Dikey (portrait) A4 — kullanıcı yatayı reddetti. Öğretmen imzası zorunlu, okul müdürü imzası opsiyonel (boşsa PDF'te o satır hiç basılmaz).
+**Uygulama:** `src/data/performansSablon.ts` + `performansHtmlSablon.ts`, `SablonDoldurmaScreen.tsx` `isPerformans` akışı (3 adım). Ana Evraklarım gridinde ayrı kart — kulüp evrakı değil.
+
+### 2026-07-02 — Kulüp evrak modülleri: plan verisinden otomatik doldurma, sadece "gerçekten türetilebilirse"
+**Karar:** Toplum Hizmeti Çalışma Planı, `kulupYillikPlanlari.ts`'teki mevcut aylık plan verisinden otomatik ön doldurma alıyor (metin türetilebilir içerik). Yoklama ve Karar Defteri'nde ise otomatik doldurma YOK — çünkü içerik (kim geldi, hangi karar alındı) gerçek toplantı verisi, plandan türetilemez.
+**Sebep:** "Yaver hazırlar, öğretmen onaylar" ilkesi sadece gerçekten türetilebilir içerik için geçerli; uydurma/placeholder veri üretmek güven kırar.
+**Referans disiplini:** Her yeni kulüp evrak modülü öncesi `evraklar/` klasöründe gerçek okul belgesi arandı, hücre hücre/paragraf paragraf incelendi (antiword/openpyxl/python-docx ile), tahminle şablon yazılmadı.
+
+---
+
 ## Veri
 
 ### 2026-06-20 — Almanca/Fransızca lise CEFR → sinif mapping
