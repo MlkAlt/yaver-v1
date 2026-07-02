@@ -48,12 +48,12 @@ export function performansHtmlOlustur(form: PerformansFormData): string {
   h1 { font-size: 12pt; text-align: center; margin-bottom: 2px; }
   h2 { font-size: 12.5pt; text-align: center; font-weight: bold; margin: 4px 0 10px; }
   .ust-bilgi { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 10.5pt; }
-  table { width: 100%; border-collapse: collapse; margin: 8px 0 18px; table-layout: fixed; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0 18px; table-layout: fixed; }
   thead { display: table-header-group; }
   th, td { border: 1px solid #000; padding: 3px 2px; font-size: 8pt; vertical-align: middle; text-align: center; }
   .kriter-th {
     writing-mode: vertical-rl; transform: rotate(180deg);
-    white-space: nowrap; font-weight: bold; font-size: 7pt; padding: 4px 2px; height: 130px;
+    white-space: nowrap; font-weight: bold; font-size: 7pt; padding: 4px 6px;
   }
   .dar-cell { width: 6%; }
   .ad-cell { text-align: left; font-size: 8.5pt; padding-left: 4px; }

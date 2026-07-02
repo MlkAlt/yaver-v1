@@ -61,6 +61,7 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 - `SablonDoldurmaScreen.tsx`'te `isPerformans` akışı (3 adım: Temel Bilgiler → Şablon Seç → Öğrenciler ve Puanlama, öğrenci başına oto/manuel toggle)
 - `EvraklarimScreen.tsx` ana SABLONLAR gridine "Performans Notu" kartı eklendi (Award ikonu, catAmber)
 - TypeScript: 0 hata ✅ — tsx ile örnek veri üretilip HTML çıktısı manuel doğrulandı
+- **Görsel doğrulama (playwright ile ekran görüntüsü):** çıktıyı gerçekten render edip PNG'ye çevirerek kontrol edildi. Bulunan hata: `.kriter-th`'deki sabit `height:130px` uzun kriter metinlerinde taşıp h1/h2 başlığın üstüne biniyordu → sabit yükseklik kaldırıldı, satır içeriğe göre kendini büyütüyor artık. Düzeltme sonrası tekrar render edilip doğrulandı.
 
 **Ölü kod temizliği:** `kulupYillikPlanlari.ts`'teki kullanılmayan `KULUP_ISIMLER` dizisi (66 isim, eski geliştirme aşamasından kalma, hiçbir yerde referans edilmiyordu) kaldırıldı. `placeholderProfil()` fonksiyonu korundu — `KULUP_PROFILLERI`'de karşılığı bulunamayan kulüp adları için güvenlik ağı olarak hâlâ gerekli (76/76 resmi kulübün tamamı `kulupler.json` ile birebir eşleşiyor, doğrulandı).
 
@@ -70,7 +71,11 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 
 ### Sıradaki Adımlar (genel — öncelik sırasıyla)
 
-1. **Rehberlik Aylık Çalışma Raporu** — modül adayı, referans: `evraklar/rehberlik/melik-sibil-11-sinif-eylul-rehberlik-raporu-1782571914.docx`. Yapı: sınıf/ay/rapor no/tarih, yıllık plana göre işlenen kazanımlar, yapılan etkinlikler, veli/öğrenci görüşme tablosu, imza. Aylık Faaliyet Raporu modülüyle aynı desende (ay seç → içerik türet → düzenle → PDF) uygulanabilir.
+1. **Rehberlik evrak ailesi** — kullanıcı 3 alt modül planlıyor, örnekleri sağlayacak (henüz gelmedi):
+   - **Yıllık Rehberlik Planı**
+   - **Aylık Rehberlik Raporu** — referans zaten var: `evraklar/rehberlik/melik-sibil-11-sinif-eylul-rehberlik-raporu-1782571914.docx` (sınıf/ay/rapor no/tarih, yıllık plana göre işlenen kazanımlar, yapılan etkinlikler, veli/öğrenci görüşme tablosu, imza)
+   - **Dönem Sonu / Yıl Sonu Raporu**
+   - Kural: her biri için kullanıcıdan gerçek örnek belge alınacak, hücre/paragraf düzeyinde incelenip ona göre uygulanacak (tahminle şablon yazılmayacak — bkz. [[DECISIONS.md]] "referans disiplini" kararı)
 2. **Dilekçe bankası** — bekliyor, referans belge yok. Kullanıcı ya örnek dilekçe sağlayacak ya da kapsamı (izin/mazeret/nakil/başka) netleştirecek.
 
 ---
