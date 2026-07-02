@@ -24,6 +24,7 @@ import { veliHtmlOlustur, VeliFormData } from '../../data/veliHtmlSablon';
 import { KulupEtkinlikSatiri, bosEtkinlikSatiri } from '../../data/kulupSablon';
 import { kulupYillikPlanHtmlOlustur, KulupFormData } from '../../data/kulupHtmlSablon';
 import { kulupVarsayilanEtkinlikleri } from '../../data/kulupYillikPlanlari';
+import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, AylikRaporFormData } from '../../data/aylikRaporHtmlSablon';
 import { turkceBuyuk } from '../../lib/turkce';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
@@ -249,10 +250,11 @@ function AdimGundem({
 // ─── ANA EKRAN ────────────────────────────────────────────────────────────
 export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const { sablonId, sablonAdi } = route.params;
-  const isSok    = sablonId === 'sok';
-  const isZumre  = sablonId === 'zumre';
-  const isVeli   = sablonId === 'veli';
-  const isKulup  = sablonId === 'kulup';
+  const isSok        = sablonId === 'sok';
+  const isZumre      = sablonId === 'zumre';
+  const isVeli       = sablonId === 'veli';
+  const isKulup      = sablonId === 'kulup';
+  const isAylikRapor = sablonId === 'aylik_rapor';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -293,6 +295,18 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [vOgretmenler, setVOgretmenler] = useState<{ brans: string; ad: string }[]>([]);
   const [vNotlar, setVNotlar]         = useState<Record<number, string>>({});
   const [vYukleniyor, setVYukleniyor] = useState(false);
+
+  // ─── Aylık Rapor state ────────────────────────────────────────────────
+  const [arAdim, setArAdim]                     = useState(0);
+  const [arOkulAdi, setArOkulAdi]               = useState('');
+  const [arEgitimYili]                          = useState(egitimYiliHesapla());
+  const [arAy, setArAy]                         = useState('');
+  const [arRaporNo, setArRaporNo]               = useState(0);
+  const [arRaporTarihi, setArRaporTarihi]       = useState(bugunTarih());
+  const [arCalismalar, setArCalismalar]         = useState<string[]>([]);
+  const [arToplumHizmeti, setArToplumHizmeti]   = useState('');
+  const [arDanisman, setArDanisman]             = useState('');
+  const [arYukleniyor, setArYukleniyor]         = useState(false);
 
   // ─── Kulüp state ──────────────────────────────────────────────────────
   const [kAdim, setKAdim]                       = useState(0);
@@ -365,10 +379,18 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (danisman) setKDanismanOgretmen(danisman);
         if (mudur)    { setKMudur(mudur); setKKurulBaskani(mudur); }
       });
+    } else if (isAylikRapor) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+      ]).then(([okul, danisman]) => {
+        if (okul)     setArOkulAdi(okul);
+        if (danisman) setArDanisman(danisman);
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre && !isVeli && !isKulup) {
+  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -608,6 +630,221 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <>
                 <FileDown size={18} color="#fff" strokeWidth={2} />
                 <Text style={s.ileriBtnText}>{vYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Aylık Faaliyet Raporu akışı ─────────────────────────────────────────
+  if (isAylikRapor) {
+    const AR_ADIMLAR = ['Ay & Bilgiler', 'Yapılan Çalışmalar'];
+
+    function arAySecilince(ay: string, no: number) {
+      setArAy(ay);
+      setArRaporNo(no);
+      const etkinlikler = kulupVarsayilanEtkinlikleri(sablonAdi);
+      const satir = etkinlikler.find(e => e.tarih === ay);
+      if (satir) {
+        setArCalismalar(planEtkinlikleriniRaporaCevir(satir.etkinlikler));
+      } else {
+        setArCalismalar(['']);
+      }
+    }
+
+    const arIleri = () => {
+      if (arAdim === 0) {
+        if (!arOkulAdi.trim() || !arDanisman.trim()) {
+          Alert.alert('Eksik bilgi', 'Okul adı ve danışman öğretmen adı zorunlu.');
+          return;
+        }
+        if (!arAy) {
+          Alert.alert('Eksik bilgi', 'Faaliyet ayı seçilmeli.');
+          return;
+        }
+      }
+      if (arAdim === 1) {
+        if (arCalismalar.filter(s => s.trim()).length === 0) {
+          Alert.alert('Eksik bilgi', 'En az bir yapılan çalışma girilmeli.');
+          return;
+        }
+        arOlustur();
+        return;
+      }
+      setArAdim(arAdim + 1);
+    };
+    const arGeri = () => setArAdim(arAdim - 1);
+
+    async function arOlustur() {
+      setArYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, arOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, arDanisman);
+
+        const formData: AylikRaporFormData = {
+          okulAdi: arOkulAdi,
+          kulupAdi: sablonAdi,
+          egitimYili: arEgitimYili,
+          raporNo: arRaporNo,
+          faaliyetAyi: arAy,
+          raporTarihi: arRaporTarihi,
+          calismalar: arCalismalar.filter(s => s.trim()),
+          toplumHizmeti: arToplumHizmeti,
+          danismanOgretmen: arDanisman,
+        };
+
+        const html    = aylikRaporHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Aylık Faaliyet Raporu — ${sablonAdi} ${arAy}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setArYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title={`${sablonAdi} — Aylık Rapor`} back />
+
+        <View style={s.stepper}>
+          {AR_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= arAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= arAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === arAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {arAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Ay & Bilgiler</Text>
+              <Text style={s.adimAlt}>{sablonAdi} — {arEgitimYili}</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={arOkulAdi} onChangeText={setArOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Danışman Öğretmen" zorunlu>
+                <TextInput style={s.input} value={arDanisman} onChangeText={setArDanisman}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <Alan label="Faaliyet Ayı" zorunlu>
+                <View style={s.chipRow}>
+                  {RAPOR_AYLARI.map(({ ad, no }) => (
+                    <TouchableOpacity
+                      key={ad}
+                      style={[s.chip, arAy === ad && s.chipActive]}
+                      onPress={() => arAySecilince(ad, no)}
+                      activeOpacity={0.7}
+                    >
+                      <Text style={[s.chipText, arAy === ad && s.chipTextActive]}>{ad}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </Alan>
+
+              <Alan label="Rapor Tarihi" zorunlu>
+                <TextInput style={s.input} value={arRaporTarihi} onChangeText={setArRaporTarihi}
+                  placeholder="28 Kasım 2025" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              {arAy !== '' && (
+                <View style={s.infoCard}>
+                  <Text style={s.infoText}>
+                    Rapor No: <Text style={s.infoVurgu}>{arRaporNo}</Text>
+                    {' '}· Yıllık plandan {arCalismalar.length} etkinlik aktarıldı. Sonraki adımda düzenleyebilirsin.
+                  </Text>
+                </View>
+              )}
+            </ScrollView>
+          )}
+
+          {arAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Yapılan Çalışmalar</Text>
+              <Text style={s.adimAlt}>
+                {arAy} ayı yıllık plandan otomatik dolduruldu — her maddeyi düzenleyebilirsin
+              </Text>
+
+              {arCalismalar.map((calisma, i) => (
+                <View key={i} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Çalışma</Text>
+                    {arCalismalar.length > 1 && (
+                      <TouchableOpacity
+                        onPress={() => setArCalismalar(arCalismalar.filter((_, idx) => idx !== i))}
+                        style={s.deleteBtn}
+                        activeOpacity={0.7}
+                      >
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <TextInput
+                    style={[s.input, s.textArea]}
+                    value={calisma}
+                    onChangeText={v => setArCalismalar(arCalismalar.map((x, idx) => idx === i ? v : x))}
+                    placeholder="Etkinlik başlığı gerçekleştirildi."
+                    placeholderTextColor={colors.text3}
+                    multiline
+                  />
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setArCalismalar([...arCalismalar, ''])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Çalışma Ekle</Text>
+              </TouchableOpacity>
+
+              <Alan label="Toplum Hizmeti Çalışması">
+                <TextInput
+                  style={[s.input, s.textArea]}
+                  value={arToplumHizmeti}
+                  onChangeText={setArToplumHizmeti}
+                  placeholder="Okulun ve çevresinin güzelleştirilmesi yönünde çalışmalar yapıldı."
+                  placeholderTextColor={colors.text3}
+                  multiline
+                />
+              </Alan>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {arAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={arGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, arYukleniyor && s.ileriDisabled]}
+            onPress={arIleri} activeOpacity={0.8} disabled={arYukleniyor}
+          >
+            {arAdim === AR_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{arYukleniyor ? 'Oluşturuluyor...' : 'Raporu Oluştur'}</Text>
               </>
             ) : (
               <>

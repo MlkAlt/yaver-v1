@@ -104,11 +104,17 @@ const GECMIS = [
 
 export function EvraklarimScreen() {
   const navigation = useNavigation<Nav>();
-  const [kulupSheet, setKulupSheet] = useState(false);
+  const [kulupSheet, setKulupSheet]           = useState(false);
+  const [aylikRaporSheet, setAylikRaporSheet] = useState(false);
 
   function handleKulupSec(ad: string) {
     setKulupSheet(false);
     navigation.navigate('SablonDoldurma', { sablonId: 'kulup', sablonAdi: ad });
+  }
+
+  function handleAylikRaporSec(ad: string) {
+    setAylikRaporSheet(false);
+    navigation.navigate('SablonDoldurma', { sablonId: 'aylik_rapor', sablonAdi: ad });
   }
 
   return (
@@ -152,8 +158,18 @@ export function EvraklarimScreen() {
             <Trophy size={22} color={colors.catOrange} strokeWidth={1.5} />
           </View>
           <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Kulüp Evrakı Hazırla</Text>
-            <Text style={styles.kulupSub}>76 MEB kulübü · Faaliyet planı, üye listesi ve daha fazlası</Text>
+            <Text style={styles.kulupTitle}>Yıllık Çalışma Planı</Text>
+            <Text style={styles.kulupSub}>76 MEB kulübü · EK-7/b formatı · Ekim–Haziran</Text>
+          </View>
+          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+        </TouchableOpacity>
+        <TouchableOpacity style={[styles.kulupCard, { marginTop: 8 }]} onPress={() => setAylikRaporSheet(true)} activeOpacity={0.8}>
+          <View style={[styles.kulupIconBox, { backgroundColor: '#EFF6FF' }]}>
+            <Trophy size={22} color={colors.accent} strokeWidth={1.5} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.kulupTitle}>Aylık Faaliyet Raporu</Text>
+            <Text style={styles.kulupSub}>Kulüp seç · Ay seç · Plan'dan otomatik doldur</Text>
           </View>
           <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
         </TouchableOpacity>
@@ -192,6 +208,11 @@ export function EvraklarimScreen() {
         visible={kulupSheet}
         onClose={() => setKulupSheet(false)}
         onSelect={handleKulupSec}
+      />
+      <KulupSheet
+        visible={aylikRaporSheet}
+        onClose={() => setAylikRaporSheet(false)}
+        onSelect={handleAylikRaporSec}
       />
     </Screen>
   );
