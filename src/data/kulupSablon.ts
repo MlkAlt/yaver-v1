@@ -14,3 +14,18 @@ export interface KulupEtkinlikSatiri {
 export function bosEtkinlikSatiri(no: number): KulupEtkinlikSatiri {
   return { no, tarih: '', amac: '', etkinlikler: '', belirliGunler: '' };
 }
+
+// ─── Toplum Hizmeti Çalışma Planı ──────────────────────────────────────────
+export interface ToplumHizmetSatiri {
+  no: number;
+  ay: string;
+  hafta: string;
+  sure: string;
+  konular: string;        // Newline (\n) ile ayrılmış madde listesi
+  katilanlar: string;
+  degerlendirme: string;
+}
+
+export function bosToplumHizmetSatiri(no: number): ToplumHizmetSatiri {
+  return { no, ay: '', hafta: '', sure: '', konular: '', katilanlar: '', degerlendirme: '' };
+}

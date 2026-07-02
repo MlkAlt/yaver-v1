@@ -31,7 +31,14 @@
 
 ### Sıradaki Adımlar (Kulüp Evrakları)
 
-1. **Toplum Hizmet Planı** — Ayrı belge (AY | HAFTA | SÜRE | KONULAR | KATILANLAR | DEĞERLENDİRME)
+1. ~~**Toplum Hizmet Planı**~~ ✅ — Ayrı belge (AY | HAFTA | SÜRE | KONULAR VE ETKİNLİKLER | KATILANLAR | DÜŞÜNCE-DEĞERLENDİRME)
+   - Referans: `evraklar/kulup_planlari/gezi-tanitim-ve-turizm-kulubu-toplum-hizmet-plani.docx` (Karatay TMTAL)
+   - Yeni: `src/data/toplumHizmetHtmlSablon.ts` (`ToplumHizmetFormData`, `toplumHizmetHtmlOlustur`)
+   - `kulupSablon.ts`'e `ToplumHizmetSatiri` tipi + `bosToplumHizmetSatiri()` eklendi
+   - `kulupYillikPlanlari.ts`'e `kulupVarsayilanToplumHizmetSatirlari()` eklendi — mevcut yıllık plan verisinden (etkinlikler ilk satırı) otomatik türetir, HAFTA/SÜRE/KATILANLAR varsayılanlı
+   - `SablonDoldurmaScreen.tsx`'te `isToplumHizmet` akışı (2 adım: Temel Bilgiler → Çalışma Planı, `kulup` akışının deseni tekrarlandı)
+   - `EvraklarimScreen.tsx`'te üçüncü Kulüp Evrakları kartı eklendi
+   - TypeScript: 0 hata ✅
 2. **Yoklama ve Karar Defteri** — Öğrenci listesi + toplantı başına devam/karar
 3. **Dilekçe bankası** — izin/mazeret/nakil (genel evrak)
 

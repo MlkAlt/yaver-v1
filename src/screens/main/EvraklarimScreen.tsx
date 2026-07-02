@@ -106,6 +106,7 @@ export function EvraklarimScreen() {
   const navigation = useNavigation<Nav>();
   const [kulupSheet, setKulupSheet]           = useState(false);
   const [aylikRaporSheet, setAylikRaporSheet] = useState(false);
+  const [toplumHizmetSheet, setToplumHizmetSheet] = useState(false);
 
   function handleKulupSec(ad: string) {
     setKulupSheet(false);
@@ -115,6 +116,11 @@ export function EvraklarimScreen() {
   function handleAylikRaporSec(ad: string) {
     setAylikRaporSheet(false);
     navigation.navigate('SablonDoldurma', { sablonId: 'aylik_rapor', sablonAdi: ad });
+  }
+
+  function handleToplumHizmetSec(ad: string) {
+    setToplumHizmetSheet(false);
+    navigation.navigate('SablonDoldurma', { sablonId: 'toplum_hizmet', sablonAdi: ad });
   }
 
   return (
@@ -173,6 +179,16 @@ export function EvraklarimScreen() {
           </View>
           <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
         </TouchableOpacity>
+        <TouchableOpacity style={[styles.kulupCard, { marginTop: 8 }]} onPress={() => setToplumHizmetSheet(true)} activeOpacity={0.8}>
+          <View style={[styles.kulupIconBox, { backgroundColor: '#F0FDF4' }]}>
+            <Trophy size={22} color={colors.success} strokeWidth={1.5} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.kulupTitle}>Toplum Hizmeti Çalışma Planı</Text>
+            <Text style={styles.kulupSub}>Kulüp seç · Plan'dan otomatik doldur · Ekim–Haziran</Text>
+          </View>
+          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+        </TouchableOpacity>
 
         <Text style={[styles.sectionLabel, styles.historyLabel]}>GEÇMİŞ EVRAKLAR</Text>
         {GECMIS.map((b) => (
@@ -213,6 +229,11 @@ export function EvraklarimScreen() {
         visible={aylikRaporSheet}
         onClose={() => setAylikRaporSheet(false)}
         onSelect={handleAylikRaporSec}
+      />
+      <KulupSheet
+        visible={toplumHizmetSheet}
+        onClose={() => setToplumHizmetSheet(false)}
+        onSelect={handleToplumHizmetSec}
       />
     </Screen>
   );

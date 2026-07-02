@@ -21,10 +21,11 @@ import { ZUMRE_GUNDEM_MADDELERI, TOPLANTI_TIPLERI, ZumleToplantTipi } from '../.
 import { zumreHtmlOlustur, ZumreFormData } from '../../data/zumreHtmlSablon';
 import { VELI_GUNDEM_MADDELERI, VELI_DONEM_TIPLERI, VeliDonem } from '../../data/veliSablon';
 import { veliHtmlOlustur, VeliFormData } from '../../data/veliHtmlSablon';
-import { KulupEtkinlikSatiri, bosEtkinlikSatiri } from '../../data/kulupSablon';
+import { KulupEtkinlikSatiri, bosEtkinlikSatiri, ToplumHizmetSatiri, bosToplumHizmetSatiri } from '../../data/kulupSablon';
 import { kulupYillikPlanHtmlOlustur, KulupFormData } from '../../data/kulupHtmlSablon';
-import { kulupVarsayilanEtkinlikleri } from '../../data/kulupYillikPlanlari';
+import { kulupVarsayilanEtkinlikleri, kulupVarsayilanToplumHizmetSatirlari } from '../../data/kulupYillikPlanlari';
 import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, AylikRaporFormData } from '../../data/aylikRaporHtmlSablon';
+import { toplumHizmetHtmlOlustur, ToplumHizmetFormData } from '../../data/toplumHizmetHtmlSablon';
 import { turkceBuyuk } from '../../lib/turkce';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
@@ -255,6 +256,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const isVeli       = sablonId === 'veli';
   const isKulup      = sablonId === 'kulup';
   const isAylikRapor = sablonId === 'aylik_rapor';
+  const isToplumHizmet = sablonId === 'toplum_hizmet';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -322,6 +324,18 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   });
   const [kYukleniyor, setKYukleniyor]           = useState(false);
 
+  // ─── Toplum Hizmeti state ─────────────────────────────────────────────
+  const [thAdim, setThAdim]                     = useState(0);
+  const [thOkulAdi, setThOkulAdi]               = useState('');
+  const [thDanisman, setThDanisman]             = useState('');
+  const [thMudur, setThMudur]                   = useState('');
+  const [thTarih, setThTarih]                   = useState(bugunTarih());
+  const [thSatirlar, setThSatirlar]             = useState<ToplumHizmetSatiri[]>(() => {
+    const onerilen = kulupVarsayilanToplumHizmetSatirlari(sablonAdi);
+    return onerilen.length > 0 ? onerilen : [bosToplumHizmetSatiri(1)];
+  });
+  const [thYukleniyor, setThYukleniyor]         = useState(false);
+
   useEffect(() => {
     if (isSok) {
       Promise.all([
@@ -387,10 +401,20 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (okul)     setArOkulAdi(okul);
         if (danisman) setArDanisman(danisman);
       });
+    } else if (isToplumHizmet) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+      ]).then(([okul, danisman, mudur]) => {
+        if (okul)     setThOkulAdi(okul);
+        if (danisman) setThDanisman(danisman);
+        if (mudur)    setThMudur(mudur);
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor) {
+  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -1048,6 +1072,226 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <>
                 <FileDown size={18} color="#fff" strokeWidth={2} />
                 <Text style={s.ileriBtnText}>{kYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Toplum Hizmeti Çalışma Planı akışı ───────────────────────────────
+  if (isToplumHizmet) {
+    const TH_ADIMLAR = ['Temel Bilgiler', 'Çalışma Planı'];
+
+    const thIleri = () => {
+      if (thAdim === 0 && (!thOkulAdi.trim() || !thDanisman.trim())) {
+        Alert.alert('Eksik bilgi', 'Okul adı ve danışman öğretmen adı zorunlu.');
+        return;
+      }
+      if (thAdim === 1 && thSatirlar.every(s => !s.ay.trim() && !s.konular.trim())) {
+        Alert.alert('Eksik bilgi', 'En az bir satır doldurulmalı.');
+        return;
+      }
+      if (thAdim < TH_ADIMLAR.length - 1) setThAdim(thAdim + 1);
+      else thOlustur();
+    };
+    const thGeri = () => setThAdim(thAdim - 1);
+
+    async function thOlustur() {
+      setThYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, thOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, thDanisman);
+        await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, thMudur);
+
+        const formData: ToplumHizmetFormData = {
+          okulAdi: thOkulAdi,
+          kulupAdi: sablonAdi,
+          egitimYili: egitimYiliHesapla(),
+          danismanOgretmenler: thDanisman,
+          mudur: thMudur,
+          tarih: thTarih,
+          satirlar: thSatirlar.filter(s => s.ay.trim() || s.konular.trim()),
+        };
+
+        const html    = toplumHizmetHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({
+          html, base64: false,
+          margins: { top: 98, right: 118, bottom: 98, left: 118 },
+        });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Toplum Hizmeti Çalışma Planı — ${sablonAdi}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch (e) {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setThYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title={sablonAdi} back />
+
+        <View style={s.stepper}>
+          {TH_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= thAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= thAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === thAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {thAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>{sablonAdi} — Toplum Hizmeti Çalışma Planı</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={thOkulAdi} onChangeText={setThOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Danışman Öğretmen(ler)" zorunlu hint="Birden fazla danışman varsa her birini ayrı satıra yaz">
+                <TextInput style={[s.input, s.textArea]} value={thDanisman} onChangeText={setThDanisman}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} multiline />
+              </Alan>
+              <Alan label="Okul Müdürü">
+                <TextInput style={s.input} value={thMudur} onChangeText={setThMudur}
+                  placeholder="Ad Soyad" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Onay Tarihi" zorunlu>
+                <TextInput style={s.input} value={thTarih} onChangeText={setThTarih}
+                  placeholder="15 Eylül 2025" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>
+                  Eğitim yılı: <Text style={s.infoVurgu}>{egitimYiliHesapla()}</Text>
+                  {'\n'}Yıl boyunca yapılacak toplum hizmeti çalışmalarının aylık planı üretilir.
+                </Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {thAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Çalışma Planı</Text>
+              <Text style={s.adimAlt}>
+                {kulupVarsayilanToplumHizmetSatirlari(sablonAdi).length > 0
+                  ? `${sablonAdi} için önerilen plan hazır — dilediğin satırı düzenle, sil veya yenisini ekle`
+                  : 'Yıl boyunca yapılacak toplum hizmeti çalışmalarını ay sırasıyla ekle'}
+              </Text>
+
+              {thSatirlar.map((s2, i) => (
+                <View key={s2.no} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Satır</Text>
+                    {thSatirlar.length > 1 && (
+                      <TouchableOpacity
+                        onPress={() => setThSatirlar(thSatirlar.filter((_, idx) => idx !== i))}
+                        style={s.deleteBtn}
+                      >
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <Alan label="Ay" hint="örn. EKİM">
+                    <TextInput
+                      style={s.input}
+                      value={s2.ay}
+                      onChangeText={v => setThSatirlar(thSatirlar.map((x, idx) => idx === i ? { ...x, ay: v } : x))}
+                      placeholder="EKİM"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Hafta">
+                    <TextInput
+                      style={s.input}
+                      value={s2.hafta}
+                      onChangeText={v => setThSatirlar(thSatirlar.map((x, idx) => idx === i ? { ...x, hafta: v } : x))}
+                      placeholder="3. Hafta"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Süre">
+                    <TextInput
+                      style={s.input}
+                      value={s2.sure}
+                      onChangeText={v => setThSatirlar(thSatirlar.map((x, idx) => idx === i ? { ...x, sure: v } : x))}
+                      placeholder="1 Ders Saati"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Konular ve Etkinlikler">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={s2.konular}
+                      onChangeText={v => setThSatirlar(thSatirlar.map((x, idx) => idx === i ? { ...x, konular: v } : x))}
+                      placeholder="Toplum hizmetinin önemini anlatmak"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                  <Alan label="Katılanlar">
+                    <TextInput
+                      style={s.input}
+                      value={s2.katilanlar}
+                      onChangeText={v => setThSatirlar(thSatirlar.map((x, idx) => idx === i ? { ...x, katilanlar: v } : x))}
+                      placeholder="Kulüp öğrencileri ve Danışman öğretmen"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Düşünce-Değerlendirme" hint="Çalışma gerçekleştikten sonra doldurulur">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={s2.degerlendirme}
+                      onChangeText={v => setThSatirlar(thSatirlar.map((x, idx) => idx === i ? { ...x, degerlendirme: v } : x))}
+                      placeholder=""
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setThSatirlar([...thSatirlar, bosToplumHizmetSatiri(thSatirlar.length + 1)])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Satır Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {thAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={thGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, thYukleniyor && s.ileriDisabled]}
+            onPress={thIleri} activeOpacity={0.8} disabled={thYukleniyor}
+          >
+            {thAdim === TH_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{thYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
               </>
             ) : (
               <>

@@ -2,7 +2,7 @@
 // Format: AYLIK (Ekim → Haziran, 9 satır) — gerçek okul planlarıyla hizalı.
 // Strateji: Ekim/Ocak/Haziran ortak şablondan, diğer 6 ay kulübe özgü.
 // İçerik kaynağı: gerçek okul belgelerinden türetildi (Karatay TMTAL, 2025-2026).
-import { KulupEtkinlikSatiri } from './kulupSablon';
+import { KulupEtkinlikSatiri, ToplumHizmetSatiri } from './kulupSablon';
 
 type AyIkili = [amac: string, etkinlikler: string];
 
@@ -2506,5 +2506,18 @@ export function kulupVarsayilanEtkinlikleri(kulupAdi: string): KulupEtkinlikSati
 
   return aylar.map(([tarih, amac, etkinlikler, belirliGunler], i) => ({
     no: i + 1, tarih, amac, etkinlikler, belirliGunler,
+  }));
+}
+
+// ── Toplum Hizmeti Çalışma Planı — yıllık plandan türetilir ─────────────────
+export function kulupVarsayilanToplumHizmetSatirlari(kulupAdi: string): ToplumHizmetSatiri[] {
+  return kulupVarsayilanEtkinlikleri(kulupAdi).map((e, i) => ({
+    no: i + 1,
+    ay: e.tarih,
+    hafta: e.tarih === 'HAZİRAN' ? '2. Hafta' : '3. Hafta',
+    sure: '1 Ders Saati',
+    konular: e.etkinlikler.split('\n')[0]?.trim() ?? '',
+    katilanlar: 'Kulüp öğrencileri ve Danışman öğretmen',
+    degerlendirme: '',
   }));
 }
