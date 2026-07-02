@@ -107,6 +107,7 @@ export function EvraklarimScreen() {
   const [kulupSheet, setKulupSheet]           = useState(false);
   const [aylikRaporSheet, setAylikRaporSheet] = useState(false);
   const [toplumHizmetSheet, setToplumHizmetSheet] = useState(false);
+  const [yoklamaSheet, setYoklamaSheet]       = useState(false);
 
   function handleKulupSec(ad: string) {
     setKulupSheet(false);
@@ -121,6 +122,11 @@ export function EvraklarimScreen() {
   function handleToplumHizmetSec(ad: string) {
     setToplumHizmetSheet(false);
     navigation.navigate('SablonDoldurma', { sablonId: 'toplum_hizmet', sablonAdi: ad });
+  }
+
+  function handleYoklamaSec(ad: string) {
+    setYoklamaSheet(false);
+    navigation.navigate('SablonDoldurma', { sablonId: 'yoklama_karar', sablonAdi: ad });
   }
 
   return (
@@ -189,6 +195,16 @@ export function EvraklarimScreen() {
           </View>
           <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
         </TouchableOpacity>
+        <TouchableOpacity style={[styles.kulupCard, { marginTop: 8 }]} onPress={() => setYoklamaSheet(true)} activeOpacity={0.8}>
+          <View style={[styles.kulupIconBox, { backgroundColor: colors.catRedLt }]}>
+            <Users size={22} color={colors.catRed} strokeWidth={1.5} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.kulupTitle}>Yoklama ve Karar Defteri</Text>
+            <Text style={styles.kulupSub}>Kulüp seç · Öğrenci listesi · Toplantı karar kayıtları</Text>
+          </View>
+          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+        </TouchableOpacity>
 
         <Text style={[styles.sectionLabel, styles.historyLabel]}>GEÇMİŞ EVRAKLAR</Text>
         {GECMIS.map((b) => (
@@ -234,6 +250,11 @@ export function EvraklarimScreen() {
         visible={toplumHizmetSheet}
         onClose={() => setToplumHizmetSheet(false)}
         onSelect={handleToplumHizmetSec}
+      />
+      <KulupSheet
+        visible={yoklamaSheet}
+        onClose={() => setYoklamaSheet(false)}
+        onSelect={handleYoklamaSec}
       />
     </Screen>
   );

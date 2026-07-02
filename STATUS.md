@@ -39,7 +39,13 @@
    - `SablonDoldurmaScreen.tsx`'te `isToplumHizmet` akışı (2 adım: Temel Bilgiler → Çalışma Planı, `kulup` akışının deseni tekrarlandı)
    - `EvraklarimScreen.tsx`'te üçüncü Kulüp Evrakları kartı eklendi
    - TypeScript: 0 hata ✅
-2. **Yoklama ve Karar Defteri** — Öğrenci listesi + toplantı başına devam/karar
+2. ~~**Yoklama ve Karar Defteri**~~ ✅ — Öğrenci listesi + toplantı başına devam/karar
+   - Referans: `evraklar/kulup_planlari/1847518-yoklama-ve-karar-defteri.doc`
+   - Yeni: `src/data/yoklamaKararHtmlSablon.ts` (`YoklamaKararFormData`, `yoklamaKararHtmlOlustur`) — kapak sayfası + 28 satırlık öğrenci listesi tablosu + her toplantı için ayrı karar sayfası (gündem/karar metni/çalışma bilgisi/katılmayanlar/imza)
+   - `kulupSablon.ts`'e `OgrenciSatiri` + `KararSatiri` tipleri eklendi
+   - `SablonDoldurmaScreen.tsx`'te `isYoklamaKarar` akışı (3 adım: Temel Bilgiler → Öğrenci Listesi → Karar Kayıtları) — bu modülde plan verisinden ön doldurma yok (gerçek toplantı verisi, öğretmen elle girer)
+   - `EvraklarimScreen.tsx`'te dördüncü Kulüp Evrakları kartı eklendi
+   - TypeScript: 0 hata ✅
 3. **Dilekçe bankası** — izin/mazeret/nakil (genel evrak)
 
 **Build notu:** [[feedback_build_strateji]] — tüm evraklar bitmeden APK build yok, Expo Go test.

@@ -29,3 +29,38 @@ export interface ToplumHizmetSatiri {
 export function bosToplumHizmetSatiri(no: number): ToplumHizmetSatiri {
   return { no, ay: '', hafta: '', sure: '', konular: '', katilanlar: '', degerlendirme: '' };
 }
+
+// ─── Yoklama ve Karar Defteri ───────────────────────────────────────────────
+export interface OgrenciSatiri {
+  no: number;
+  adSoyad: string;
+  okulNo: string;
+  sinifSube: string;
+  gorev: string;
+}
+
+export function bosOgrenciSatiri(no: number): OgrenciSatiri {
+  return { no, adSoyad: '', okulNo: '', sinifSube: '', gorev: '' };
+}
+
+export interface KararSatiri {
+  no: number;
+  kararNo: string;
+  kararTarihi: string;
+  gundemMaddeleri: string;  // Newline (\n) ile ayrılmış madde listesi
+  kararMetni: string;       // Newline (\n) ile ayrılmış madde listesi
+  calismaTarihi: string;
+  calismaSaati: string;
+  kulupMevcudu: string;
+  islenenKonu: string;
+  katilmayanlar: string;    // Newline ile ayrılmış "Okul No - Sınıf Şube" listesi
+}
+
+export function bosKararSatiri(no: number): KararSatiri {
+  return {
+    no, kararNo: String(no), kararTarihi: '',
+    gundemMaddeleri: '', kararMetni: '',
+    calismaTarihi: '', calismaSaati: '', kulupMevcudu: '', islenenKonu: '',
+    katilmayanlar: '',
+  };
+}

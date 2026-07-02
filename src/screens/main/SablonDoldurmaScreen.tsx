@@ -21,11 +21,15 @@ import { ZUMRE_GUNDEM_MADDELERI, TOPLANTI_TIPLERI, ZumleToplantTipi } from '../.
 import { zumreHtmlOlustur, ZumreFormData } from '../../data/zumreHtmlSablon';
 import { VELI_GUNDEM_MADDELERI, VELI_DONEM_TIPLERI, VeliDonem } from '../../data/veliSablon';
 import { veliHtmlOlustur, VeliFormData } from '../../data/veliHtmlSablon';
-import { KulupEtkinlikSatiri, bosEtkinlikSatiri, ToplumHizmetSatiri, bosToplumHizmetSatiri } from '../../data/kulupSablon';
+import {
+  KulupEtkinlikSatiri, bosEtkinlikSatiri, ToplumHizmetSatiri, bosToplumHizmetSatiri,
+  OgrenciSatiri, bosOgrenciSatiri, KararSatiri, bosKararSatiri,
+} from '../../data/kulupSablon';
 import { kulupYillikPlanHtmlOlustur, KulupFormData } from '../../data/kulupHtmlSablon';
 import { kulupVarsayilanEtkinlikleri, kulupVarsayilanToplumHizmetSatirlari } from '../../data/kulupYillikPlanlari';
 import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, AylikRaporFormData } from '../../data/aylikRaporHtmlSablon';
 import { toplumHizmetHtmlOlustur, ToplumHizmetFormData } from '../../data/toplumHizmetHtmlSablon';
+import { yoklamaKararHtmlOlustur, YoklamaKararFormData } from '../../data/yoklamaKararHtmlSablon';
 import { turkceBuyuk } from '../../lib/turkce';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
@@ -257,6 +261,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const isKulup      = sablonId === 'kulup';
   const isAylikRapor = sablonId === 'aylik_rapor';
   const isToplumHizmet = sablonId === 'toplum_hizmet';
+  const isYoklamaKarar = sablonId === 'yoklama_karar';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -336,6 +341,17 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   });
   const [thYukleniyor, setThYukleniyor]         = useState(false);
 
+  // ─── Yoklama ve Karar Defteri state ───────────────────────────────────
+  const [yAdim, setYAdim]                       = useState(0);
+  const [yOkulAdi, setYOkulAdi]                 = useState('');
+  const [yEgitimYili]                           = useState(egitimYiliHesapla());
+  const [yDanisman, setYDanisman]               = useState('');
+  const [yOgrenciler, setYOgrenciler]           = useState<OgrenciSatiri[]>(
+    () => Array.from({ length: 5 }, (_, i) => bosOgrenciSatiri(i + 1))
+  );
+  const [yKararlar, setYKararlar]               = useState<KararSatiri[]>([bosKararSatiri(1)]);
+  const [yYukleniyor, setYYukleniyor]           = useState(false);
+
   useEffect(() => {
     if (isSok) {
       Promise.all([
@@ -411,10 +427,18 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (danisman) setThDanisman(danisman);
         if (mudur)    setThMudur(mudur);
       });
+    } else if (isYoklamaKarar) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+      ]).then(([okul, danisman]) => {
+        if (okul)     setYOkulAdi(okul);
+        if (danisman) setYDanisman(danisman);
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet) {
+  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet && !isYoklamaKarar) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -1292,6 +1316,309 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <>
                 <FileDown size={18} color="#fff" strokeWidth={2} />
                 <Text style={s.ileriBtnText}>{thYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Yoklama ve Karar Defteri akışı ───────────────────────────────────
+  if (isYoklamaKarar) {
+    const Y_ADIMLAR = ['Temel Bilgiler', 'Öğrenci Listesi', 'Karar Kayıtları'];
+
+    const yIleri = () => {
+      if (yAdim === 0 && (!yOkulAdi.trim() || !yDanisman.trim())) {
+        Alert.alert('Eksik bilgi', 'Okul adı ve danışman öğretmen adı zorunlu.');
+        return;
+      }
+      if (yAdim === 2 && yKararlar.every(k => !k.kararTarihi.trim() && !k.kararMetni.trim())) {
+        Alert.alert('Eksik bilgi', 'En az bir karar kaydı doldurulmalı.');
+        return;
+      }
+      if (yAdim < Y_ADIMLAR.length - 1) setYAdim(yAdim + 1);
+      else yOlustur();
+    };
+    const yGeri = () => setYAdim(yAdim - 1);
+
+    async function yOlustur() {
+      setYYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, yOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, yDanisman);
+
+        const formData: YoklamaKararFormData = {
+          okulAdi: yOkulAdi,
+          kulupAdi: sablonAdi,
+          egitimYili: yEgitimYili,
+          danismanOgretmen: yDanisman,
+          ogrenciler: yOgrenciler.filter(o => o.adSoyad.trim()),
+          kararlar: yKararlar.filter(k => k.kararTarihi.trim() || k.kararMetni.trim()),
+        };
+
+        const html    = yoklamaKararHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({
+          html, base64: false,
+          margins: { top: 98, right: 118, bottom: 98, left: 118 },
+        });
+        await Sharing.shareAsync(uri, {
+          mimeType: 'application/pdf',
+          dialogTitle: `Yoklama ve Karar Defteri — ${sablonAdi}`,
+          UTI: 'com.adobe.pdf',
+        });
+      } catch (e) {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setYYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title={sablonAdi} back />
+
+        <View style={s.stepper}>
+          {Y_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= yAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= yAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === yAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {yAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>{sablonAdi} — Yoklama ve Karar Defteri</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={yOkulAdi} onChangeText={setYOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Danışman Öğretmen" zorunlu>
+                <TextInput style={s.input} value={yDanisman} onChangeText={setYDanisman}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>
+                  Eğitim yılı: <Text style={s.infoVurgu}>{yEgitimYili}</Text>
+                  {'\n'}Öğrenci listesi ve her toplantı için karar kaydı bu defterde tutulur.
+                </Text>
+              </View>
+            </ScrollView>
+          )}
+
+          {yAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Öğrenci Listesi</Text>
+              <Text style={s.adimAlt}>Kulüp üyesi öğrencileri ekle</Text>
+
+              {yOgrenciler.map((o, i) => (
+                <View key={o.no} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Öğrenci</Text>
+                    {yOgrenciler.length > 1 && (
+                      <TouchableOpacity
+                        onPress={() => setYOgrenciler(yOgrenciler.filter((_, idx) => idx !== i))}
+                        style={s.deleteBtn}
+                      >
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <Alan label="Adı Soyadı">
+                    <TextInput
+                      style={s.input}
+                      value={o.adSoyad}
+                      onChangeText={v => setYOgrenciler(yOgrenciler.map((x, idx) => idx === i ? { ...x, adSoyad: v } : x))}
+                      placeholder="Ad Soyad"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Okul No">
+                    <TextInput
+                      style={s.input}
+                      value={o.okulNo}
+                      onChangeText={v => setYOgrenciler(yOgrenciler.map((x, idx) => idx === i ? { ...x, okulNo: v } : x))}
+                      placeholder="123"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Sınıf ve Şubesi">
+                    <TextInput
+                      style={s.input}
+                      value={o.sinifSube}
+                      onChangeText={v => setYOgrenciler(yOgrenciler.map((x, idx) => idx === i ? { ...x, sinifSube: v } : x))}
+                      placeholder="9/A"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Kulüpteki Görevi">
+                    <TextInput
+                      style={s.input}
+                      value={o.gorev}
+                      onChangeText={v => setYOgrenciler(yOgrenciler.map((x, idx) => idx === i ? { ...x, gorev: v } : x))}
+                      placeholder="Üye / Temsilci"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setYOgrenciler([...yOgrenciler, bosOgrenciSatiri(yOgrenciler.length + 1)])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Öğrenci Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+
+          {yAdim === 2 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Karar Kayıtları</Text>
+              <Text style={s.adimAlt}>Her toplantı için ayrı bir karar kaydı ekle</Text>
+
+              {yKararlar.map((k, i) => (
+                <View key={k.no} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Karar Kaydı</Text>
+                    {yKararlar.length > 1 && (
+                      <TouchableOpacity
+                        onPress={() => setYKararlar(yKararlar.filter((_, idx) => idx !== i))}
+                        style={s.deleteBtn}
+                      >
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <Alan label="Karar Numarası">
+                    <TextInput
+                      style={s.input}
+                      value={k.kararNo}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, kararNo: v } : x))}
+                      placeholder="1"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Karar Tarihi">
+                    <TextInput
+                      style={s.input}
+                      value={k.kararTarihi}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, kararTarihi: v } : x))}
+                      placeholder="15/10/2025"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Gündem Maddeleri" hint="Her maddeyi ayrı satıra yaz">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={k.gundemMaddeleri}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, gundemMaddeleri: v } : x))}
+                      placeholder="Kulüp çalışma takviminin görüşülmesi"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                  <Alan label="Karar Metni" hint="Her kararı ayrı satıra yaz">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={k.kararMetni}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, kararMetni: v } : x))}
+                      placeholder="Çalışma takviminin oy birliğiyle kabulüne karar verildi"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                  <Alan label="Çalışma Tarihi">
+                    <TextInput
+                      style={s.input}
+                      value={k.calismaTarihi}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, calismaTarihi: v } : x))}
+                      placeholder="15/10/2025"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Çalışma Saati">
+                    <TextInput
+                      style={s.input}
+                      value={k.calismaSaati}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, calismaSaati: v } : x))}
+                      placeholder="14:00"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="Kulüp Mevcudu">
+                    <TextInput
+                      style={s.input}
+                      value={k.kulupMevcudu}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, kulupMevcudu: v } : x))}
+                      placeholder="18"
+                      placeholderTextColor={colors.text3}
+                    />
+                  </Alan>
+                  <Alan label="İşlenen Konu, Yapılan Etkinlik">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={k.islenenKonu}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, islenenKonu: v } : x))}
+                      placeholder="Kulüp tanıtımı ve görev dağılımı"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                  <Alan label="Katılamayan Kulüp Üyeleri" hint="Her öğrenciyi ayrı satıra yaz (örn. 123 - 9/A)">
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={k.katilmayanlar}
+                      onChangeText={v => setYKararlar(yKararlar.map((x, idx) => idx === i ? { ...x, katilmayanlar: v } : x))}
+                      placeholder="123 - 9/A"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </Alan>
+                </View>
+              ))}
+
+              <TouchableOpacity
+                style={s.addBtn}
+                onPress={() => setYKararlar([...yKararlar, bosKararSatiri(yKararlar.length + 1)])}
+                activeOpacity={0.7}
+              >
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Karar Kaydı Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {yAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={yGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, yYukleniyor && s.ileriDisabled]}
+            onPress={yIleri} activeOpacity={0.8} disabled={yYukleniyor}
+          >
+            {yAdim === Y_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{yYukleniyor ? 'Oluşturuluyor...' : 'Evrakı Oluştur'}</Text>
               </>
             ) : (
               <>
