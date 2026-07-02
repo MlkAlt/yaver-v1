@@ -2441,34 +2441,7 @@ const KULUP_PROFILLERI: Record<string, KulupProfil> = {
 
 };
 
-// Kalan 66 kulüp için temel profil (içerik sonraki turda zenginleştirilecek)
-const KULUP_ISIMLER = [
-  'Afet Hazırlık Kulübü','Ahilik Kulübü','Astronomi ve Uzay Kulübü','Atatürkçü Düşünce Kulübü',
-  'Bilim Fen ve Teknoloji Kulübü','Bilinçli Tüketici Kulübü','Bilişim ve İnternet Kulübü',
-  'Çevre ve İklim Kulübü','Çocuk Hakları Kulübü','Değerler Kulübü',
-  'Demokrasi ve İnsan Hakları Kulübü','e Twinning Kulübü','Enerji Verimliliği Kulübü',
-  'Engellilerle Dayanışma Kulübü','Felsefe ve Düşünce Eğitimi Kulübü','Fotoğrafçılık Kulübü',
-  'Geleneksel Çocuk Oyunları Kulübü','Geleneksel El Sanatları Kulübü',
-  'Genç Yazarlar ve Şairler Kulübü','Gezi Tanıtım ve Turizm Kulübü','Girişimcilik Kulübü',
-  'Görsel Sanatlar Kulübü','Halk Oyunları Kulübü','Hareketli Yaşam Kulübü','Havacılık Kulübü',
-  'Hayvanları Sevme ve Koruma Kulübü','İngilizce Kulübü','İş Sağlığı ve Güvenliği Kulübü',
-  'İzcilik Kulübü','Kişisel Verileri Koruma Kulübü','Kooperatifçilik Kulübü',
-  'Kültür ve Tabiat Varlıklarını Koruma Kulübü','Kütüphanecilik Kulübü',
-  'Medeniyet ve Değerler Kulübü','Medeniyet ve Düşünce Kulübü','Medya Okur Yazarlığı Kulübü',
-  'Meslek Tanıtma Kulübü','Mesleki Tatbikat Kulübü','MUN (Model United Nations) Kulübü',
-  'Örnek ve Öncü Şahsiyetler Tanıtım Kulübü','Sağlık Temizlik ve Beslenme Kulübü',
-  'Sağlık ve Güvenlik Kulübü','Şehir ve Medeniyet Kulübü','Siberay Kulübü','Sıfır Atık Kulübü',
-  'Şiir ve Tefekkür Kulübü','Sivil Savunma Kulübü','Sosyal Medya Kulübü',
-  'Sosyal Sorumluluk Kulübü','Sosyal Yardımlaşma Kulübü','Tarih Kulübü',
-  'Teknofest ve Bilim Kulübü','Teknofest ve Bilim Kulübü (Proje Uygulaması)',
-  'Teknoloji ve İnovasyon Kulübü','Telif Hakları Kulübü',
-  'Trafik ve İlkyardım Kulübü','Türk Silahlı Kuvvetlerini Güçlendirme ve Tanıtma Kulübü',
-  'Uluslararası Teknoloji Yarışmaları ve Projeleri Kulübü','UNESCO Kulübü','Yabancı Diller Kulübü',
-  'Yapay Zekâ Kulübü','Yayın ve İletişim Kulübü','Yeşilay Kulübü','Yeşili Koruma Kulübü',
-  'Zeka Oyunları Kulübü','Zeytin Ağacı Kulübü',
-];
-
-// Placeholder profil — 6 ay için genel şablon, içerik sonraki turda eklenir
+// Placeholder profil — KULUP_PROFILLERI'de karşılığı bulunamayan kulüp adları için güvenlik ağı
 function placeholderProfil(kulupAdi: string): KulupProfil {
   return {
     kasim:  [`${kulupAdi} kapsamında Atatürk Haftası etkinliğine katkı sağlamak\nÖğretmenler Günü etkinliğine destek olmak`, `Atatürk Haftası (10-16 Kasım) kapsamında kulüp etkinliği\n24 Kasım Öğretmenler Günü programına kulübün katkısı`],
