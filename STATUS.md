@@ -83,6 +83,8 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 
 **Örnek çıktılar:** `evraklar/onizleme/performans_birinci.png`, `performans_ikinci.png` (+ .html) — henüz commit'lenmedi, kullanıcı inceledi.
 
+**Karar (2026-07-03):** Mimari A seçildi — `@page` CSS tek kaynak. `SablonDoldurmaScreen.tsx`'teki 7 `Print.printToFileAsync` çağrısından sabit native `margins:{98,118}` kaldırıldı; her şablonun kendi `@page margin` değeri (12-30mm) artık tek kaynak. Commit `3b218d2`, branch `feature/evrak-pdf-margin-mimarisi`, push edildi. TypeScript 0 hata. **Bekliyor:** kullanıcı gerçek cihazda test edecek (Expo Go). Sorun çıkmazsa main'e merge.
+
 ---
 
 ### Sıradaki Adımlar (genel — öncelik sırasıyla)
