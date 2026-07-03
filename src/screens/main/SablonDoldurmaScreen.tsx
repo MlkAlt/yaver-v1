@@ -31,7 +31,7 @@ import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, Ayl
 import { toplumHizmetHtmlOlustur, ToplumHizmetFormData } from '../../data/toplumHizmetHtmlSablon';
 import { yoklamaKararHtmlOlustur, YoklamaKararFormData } from '../../data/yoklamaKararHtmlSablon';
 import {
-  PERFORMANS_SABLONLARI, PerformansOgrenciSatiri, bosPerformansOgrencisi, notuKriterlereDagit,
+  PERFORMANS_SABLONLARI, PerformansOgrenciSatiri, notuKriterlereDagit,
 } from '../../data/performansSablon';
 import { performansHtmlOlustur, PerformansFormData } from '../../data/performansHtmlSablon';
 import { turkceBuyuk } from '../../lib/turkce';
@@ -43,7 +43,6 @@ type POgrenciUI = {
   no: number;
   okulNo: string;
   adSoyad: string;
-  mod: 'oto' | 'manuel';
   asilNot: string;
   puanlar: number[];
 };
@@ -58,6 +57,17 @@ const STORAGE_ZUMRE_OGRETMENLER= '@yaver/zumre_ogretmenler';
 const STORAGE_ZUMRE_MUDUR      = '@yaver/zumre_mudur';
 const STORAGE_ZUMRE_MUDUR_YARD = '@yaver/zumre_mudur_yard';
 const STORAGE_VELI_OGRETMENLER = '@yaver/veli_ogretmenler';
+const STORAGE_PERFORMANS_LISTE_PREFIX = '@yaver/performans_liste_';
+
+const performansRosterKey = (sinif: string) =>
+  `${STORAGE_PERFORMANS_LISTE_PREFIX}${sinif.trim().toUpperCase() || '_genel'}`;
+
+function parsePerformansSatirlari(metin: string): { okulNo: string; adSoyad: string }[] {
+  return metin.split('\n').map(s => s.trim()).filter(Boolean).map(satir => {
+    const m = satir.match(/^(\d+)\s+(.+)$/);
+    return m ? { okulNo: m[1], adSoyad: m[2].trim() } : { okulNo: '', adSoyad: satir };
+  });
+}
 
 const OKUL_TIPLERI: { key: OkulTipi; label: string }[] = [
   { key: 'ilkokul',  label: 'İlkokul'  },
@@ -376,13 +386,9 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [pOgretmen, setPOgretmen]               = useState('');
   const [pMudur, setPMudur]                     = useState('');
   const [pSablonId, setPSablonId]               = useState<'birinci' | 'ikinci'>('birinci');
-  const [pOgrenciler, setPOgrenciler]           = useState<POgrenciUI[]>(() => {
-    const kriterSayisi = PERFORMANS_SABLONLARI[0].kriterler.length;
-    return [1, 2, 3].map(no => ({
-      no, okulNo: '', adSoyad: '', mod: 'oto' as const, asilNot: '',
-      puanlar: new Array(kriterSayisi).fill(0),
-    }));
-  });
+  const [pOgrenciMetni, setPOgrenciMetni]       = useState('');
+  const [pMod, setPMod]                         = useState<'oto' | 'manuel'>('oto');
+  const [pOgrenciler, setPOgrenciler]           = useState<POgrenciUI[]>([]);
   const [pYukleniyor, setPYukleniyor]           = useState(false);
 
   useEffect(() => {
@@ -1663,7 +1669,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
   // ─── Performans Notu akışı ─────────────────────────────────────────────
   if (isPerformans) {
-    const P_ADIMLAR = ['Temel Bilgiler', 'Şablon Seç', 'Öğrenciler ve Puanlama'];
+    const P_ADIMLAR = ['Temel Bilgiler', 'Şablon Seç', 'Öğrenci Listesi', 'Puanlama'];
     const pSablon   = PERFORMANS_SABLONLARI.find(sb => sb.id === pSablonId)!;
     const kriterler = pSablon.kriterler;
 
@@ -1679,13 +1685,51 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, puanlar } : x));
     };
 
+    const pTumunuDagit = () => {
+      setPOgrenciler(pOgrenciler.map(o => {
+        const asilNot = Math.min(100, Math.max(0, parseInt(o.asilNot, 10) || 0));
+        if (!o.asilNot.trim()) return o;
+        return { ...o, puanlar: notuKriterlereDagit(asilNot, kriterler) };
+      }));
+    };
+
+    // Öğrenci Listesi adımına ilk girişte, aynı sınıf için kaydedilmiş liste varsa otomatik doldur.
+    const pListeYukle = async () => {
+      if (pOgrenciMetni.trim()) return;
+      const kayitli = await AsyncStorage.getItem(performansRosterKey(pSinif));
+      if (kayitli) setPOgrenciMetni(kayitli);
+    };
+
+    // Puanlama adımına geçerken listeyi kaydet + pOgrenciler'i (var olan notları koruyarak) yeniden kur.
+    const pListeyiUygula = async () => {
+      const satirlar = parsePerformansSatirlari(pOgrenciMetni);
+      setPOgrenciler(satirlar.map((satir, i) => {
+        const eski = pOgrenciler[i];
+        const ayniIsim = eski?.adSoyad === satir.adSoyad;
+        return {
+          no: i + 1,
+          okulNo: satir.okulNo || eski?.okulNo || '',
+          adSoyad: satir.adSoyad,
+          asilNot: ayniIsim ? eski.asilNot : '',
+          puanlar: ayniIsim ? eski.puanlar : new Array(kriterler.length).fill(0),
+        };
+      }));
+      await AsyncStorage.setItem(performansRosterKey(pSinif), pOgrenciMetni);
+    };
+
     const pIleri = () => {
       if (pAdim === 0 && (!pDersAdi.trim() || !pOgretmen.trim())) {
         Alert.alert('Eksik bilgi', 'Ders adı ve öğretmen adı zorunlu.');
         return;
       }
-      if (pAdim === 2 && pOgrenciler.every(o => !o.adSoyad.trim())) {
-        Alert.alert('Eksik bilgi', 'En az bir öğrenci eklenmeli.');
+      if (pAdim === 1) { pListeYukle(); setPAdim(pAdim + 1); return; }
+      if (pAdim === 2) {
+        if (!pOgrenciMetni.trim()) {
+          Alert.alert('Eksik bilgi', 'En az bir öğrenci eklenmeli.');
+          return;
+        }
+        pListeyiUygula();
+        setPAdim(pAdim + 1);
         return;
       }
       if (pAdim < P_ADIMLAR.length - 1) setPAdim(pAdim + 1);
@@ -1805,63 +1849,53 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
           {pAdim === 2 && (
             <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
-              <Text style={s.adimBaslik}>Öğrenciler ve Puanlama</Text>
+              <Text style={s.adimBaslik}>Öğrenci Listesi</Text>
               <Text style={s.adimAlt}>
-                Asıl notu gir ve "Dağıt" ile kriterlere otomatik böl, dilersen kriter kriter manuel gir
+                Her satıra bir öğrenci — istersen okul no ile başlat (örn. "123 Ahmet Yılmaz"). Bu liste "{pSinif || 'sınıf'}" için kaydedilir, sonraki seferde otomatik gelir.
               </Text>
+
+              <Alan label="Öğrenciler">
+                <TextInput
+                  style={[s.input, s.textArea, { minHeight: 220 }]}
+                  value={pOgrenciMetni}
+                  onChangeText={setPOgrenciMetni}
+                  placeholder={'123 Ahmet Yılmaz\n124 Ayşe Kaya\nMehmet Demir'}
+                  placeholderTextColor={colors.text3}
+                  multiline
+                />
+              </Alan>
+            </ScrollView>
+          )}
+
+          {pAdim === 3 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Puanlama</Text>
+              <Text style={s.adimAlt}>Tüm sınıf için tek yöntem seç — sonra notları gir</Text>
+
+              <View style={s.chipRow}>
+                <TouchableOpacity style={[s.chip, pMod === 'oto' && s.chipActive]} onPress={() => setPMod('oto')}>
+                  <Text style={[s.chipText, pMod === 'oto' && s.chipTextActive]}>Otomatik Dağıt</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={[s.chip, pMod === 'manuel' && s.chipActive]} onPress={() => setPMod('manuel')}>
+                  <Text style={[s.chipText, pMod === 'manuel' && s.chipTextActive]}>Kriter Kriter Manuel</Text>
+                </TouchableOpacity>
+              </View>
+
+              {pMod === 'oto' && (
+                <TouchableOpacity style={[s.dagitBtn, s.tumunuDagitBtn]} onPress={pTumunuDagit} activeOpacity={0.8}>
+                  <Text style={s.dagitBtnText}>Tümünü Dağıt</Text>
+                </TouchableOpacity>
+              )}
 
               {pOgrenciler.map((o, i) => {
                 const toplam = o.puanlar.reduce((a, b) => a + b, 0);
                 return (
                   <View key={o.no} style={s.soruCard}>
                     <View style={s.soruHeader}>
-                      <Text style={s.soruNo}>{i + 1}. Öğrenci</Text>
-                      {pOgrenciler.length > 1 && (
-                        <TouchableOpacity
-                          onPress={() => setPOgrenciler(pOgrenciler.filter((_, idx) => idx !== i))}
-                          style={s.deleteBtn}
-                        >
-                          <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
-                        </TouchableOpacity>
-                      )}
+                      <Text style={s.soruNo}>{i + 1}. {o.adSoyad}{o.okulNo ? ` (${o.okulNo})` : ''}</Text>
                     </View>
 
-                    <Alan label="Adı Soyadı">
-                      <TextInput
-                        style={s.input}
-                        value={o.adSoyad}
-                        onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, adSoyad: v } : x))}
-                        placeholder="Ad Soyad"
-                        placeholderTextColor={colors.text3}
-                      />
-                    </Alan>
-                    <Alan label="Okul No">
-                      <TextInput
-                        style={s.input}
-                        value={o.okulNo}
-                        onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, okulNo: v } : x))}
-                        placeholder="123"
-                        placeholderTextColor={colors.text3}
-                        keyboardType="numeric"
-                      />
-                    </Alan>
-
-                    <View style={s.chipRow}>
-                      <TouchableOpacity
-                        style={[s.chip, o.mod === 'oto' && s.chipActive]}
-                        onPress={() => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, mod: 'oto' } : x))}
-                      >
-                        <Text style={[s.chipText, o.mod === 'oto' && s.chipTextActive]}>Otomatik Dağıt</Text>
-                      </TouchableOpacity>
-                      <TouchableOpacity
-                        style={[s.chip, o.mod === 'manuel' && s.chipActive]}
-                        onPress={() => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, mod: 'manuel' } : x))}
-                      >
-                        <Text style={[s.chipText, o.mod === 'manuel' && s.chipTextActive]}>Manuel</Text>
-                      </TouchableOpacity>
-                    </View>
-
-                    {o.mod === 'oto' ? (
+                    {pMod === 'oto' ? (
                       <>
                         <Alan label="Asıl Not (0-100)">
                           <View style={{ flexDirection: 'row', gap: 8 }}>
@@ -1910,18 +1944,6 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                   </View>
                 );
               })}
-
-              <TouchableOpacity
-                style={s.addBtn}
-                onPress={() => setPOgrenciler([...pOgrenciler, {
-                  no: pOgrenciler.length + 1, okulNo: '', adSoyad: '', mod: 'oto', asilNot: '',
-                  puanlar: new Array(kriterler.length).fill(0),
-                }])}
-                activeOpacity={0.7}
-              >
-                <Plus size={16} color={colors.accent} strokeWidth={2} />
-                <Text style={s.addBtnText}>Öğrenci Ekle</Text>
-              </TouchableOpacity>
             </ScrollView>
           )}
         </KeyboardAvoidingView>
@@ -2345,6 +2367,7 @@ const s = StyleSheet.create({
     paddingHorizontal: spacing.md, borderRadius: radius.md,
     backgroundColor: colors.accent, alignItems: 'center', justifyContent: 'center',
   } as ViewStyle,
+  tumunuDagitBtn: { paddingVertical: 12, marginBottom: spacing.md } as ViewStyle,
   dagitBtnText: { fontSize: 13, fontFamily: fonts.semiBold, color: '#fff' } as TextStyle,
   kriterOnizleme: {
     fontSize: 11, fontFamily: fonts.regular, color: colors.text2,

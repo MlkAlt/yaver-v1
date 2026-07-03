@@ -85,6 +85,15 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 
 **Karar (2026-07-03):** Mimari A seçildi — `@page` CSS tek kaynak. `SablonDoldurmaScreen.tsx`'teki 7 `Print.printToFileAsync` çağrısından sabit native `margins:{98,118}` kaldırıldı; her şablonun kendi `@page margin` değeri (12-30mm) artık tek kaynak. Commit `3b218d2`, branch `feature/evrak-pdf-margin-mimarisi`, push edildi. TypeScript 0 hata. **Bekliyor:** kullanıcı gerçek cihazda test edecek (Expo Go). Sorun çıkmazsa main'e merge.
 
+**Sayfa yönü (2026-07-03):** Kulüp Yıllık Planı `@page` → `A4 landscape` (16mm 18mm) — başlığı zaten "YILLIK ÇALIŞMA PLANI", 4 sütunlu geniş tablo yatayda daha rahat okunuyor. Toplum Hizmeti Planı ve Yoklama/Karar Defteri'ne dokunulmadı (yıllık plan değiller, kullanıcı onayı bekleniyor — istenirse ayrıca yatay yapılabilir). Aylık Faaliyet Raporu zaten dikeydi.
+
+**Performans Notu UX sadeleştirmesi (2026-07-03):** Sürtünme şikayeti üzerine akış 3 adımdan 4 adıma çıkarıldı ama tıklama sayısı azaldı: `['Temel Bilgiler','Şablon Seç','Öğrenci Listesi','Puanlama']`.
+- **Öğrenci Listesi** adımı: tek bir çok satırlı textarea, her satır bir öğrenci (`123 Ahmet Yılmaz` veya sadece `Ahmet Yılmaz`). Liste sınıf adına göre (`@yaver/performans_liste_<SINIF>`) AsyncStorage'a otomatik kaydediliyor, aynı sınıfa tekrar girildiğinde otomatik geri yükleniyor.
+- **Puanlama** adımı: öğrenci başına ayrı "Otomatik/Manuel" seçimi kaldırıldı — tüm sınıf için tek, baştan seçilen global mod var. Otomatik modda tek "Tümünü Dağıt" butonu tüm öğrencilerin asıl notlarını aynı anda kriterlere dağıtıyor (öğrenci başına ayrı "Dağıt" tuşuna basma gerekmiyor, istenirse yine tek tek de düzeltilebilir).
+- İsim/okul no artık listeden geldiği için Puanlama adımında ekleme/silme yok — düzenleme Öğrenci Listesi adımına geri dönülerek yapılır.
+- `POgrenciUI.mod` alanı kaldırıldı, kullanılmayan `bosPerformansOgrencisi` import'u temizlendi. TypeScript 0 hata.
+- Aynı branch'e (`feature/evrak-pdf-margin-mimarisi`) commit'lenecek — henüz push edilmedi.
+
 ---
 
 ### Sıradaki Adımlar (genel — öncelik sırasıyla)
