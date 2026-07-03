@@ -51,7 +51,7 @@ export function sokHtmlOlustur(form: SokFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4; margin: 25mm 30mm; }
+  @page { size: A4; margin: 25mm 20mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 12pt; color: #000; }
   h1 { font-size: 13pt; text-align: center; margin-bottom: 4px; }

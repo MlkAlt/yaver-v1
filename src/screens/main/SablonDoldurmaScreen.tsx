@@ -7,7 +7,6 @@ import {
 import { Plus, Trash2, ChevronRight, ChevronLeft, FileDown, RotateCcw } from 'lucide-react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import * as Print from 'expo-print';
-import * as Sharing from 'expo-sharing';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Screen } from '../../components/layout/Screen';
 import { AppBar } from '../../components/layout/AppBar';
@@ -538,11 +537,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = veliHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Veli Toplantısı — ${vSinif}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -794,11 +789,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = aylikRaporHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Aylık Faaliyet Raporu — ${sablonAdi} ${arAy}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -989,11 +980,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = kulupYillikPlanHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Kulüp Yıllık Çalışma Planı — ${sablonAdi}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1187,11 +1174,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = toplumHizmetHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Toplum Hizmeti Çalışma Planı — ${sablonAdi}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1402,11 +1385,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = yoklamaKararHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Yoklama ve Karar Defteri — ${sablonAdi}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1762,11 +1741,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = performansHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Performans Notu — ${pDersAdi}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -2016,11 +1991,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = zumreHtmlOlustur(formData);
         const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Sharing.shareAsync(uri, {
-          mimeType: 'application/pdf',
-          dialogTitle: `Zümre Tutanağı — ${zBrans}`,
-          UTI: 'com.adobe.pdf',
-        });
+        await Print.printAsync({ uri });
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -2238,11 +2209,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
       const html      = sokHtmlOlustur(formData);
       const { uri }   = await Print.printToFileAsync({ html, base64: false });
-      await Sharing.shareAsync(uri, {
-        mimeType: 'application/pdf',
-        dialogTitle: `ŞÖK Tutanağı — ${sinif}`,
-        UTI: 'com.adobe.pdf',
-      });
+      await Print.printAsync({ uri });
     } catch (e) {
       Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
     } finally {

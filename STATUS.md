@@ -94,6 +94,11 @@ Kulüp evrakı değil, ana Evraklarım gridinde ayrı kart (`sablonId: 'performa
 - `POgrenciUI.mod` alanı kaldırıldı, kullanılmayan `bosPerformansOgrencisi` import'u temizlendi. TypeScript 0 hata.
 - Aynı branch'e (`feature/evrak-pdf-margin-mimarisi`) commit'lenecek — henüz push edilmedi.
 
+**PDF önizleme + kenar boşluğu ince ayarı (2026-07-03):** Kullanıcı geri bildirdi — PDF oluşturulur oluşturulmaz direkt paylaşım açılıyordu, önce görebilmek istedi; SOK/veli/zümre/aylık rapor sağ-sol kenar boşlukları da fazla açıktı.
+- 8 evrak türünün tamamında `Sharing.shareAsync(...)` → `Print.printAsync({ uri })`: artık native PDF önizleme ekranı açılıyor (sayfalı, yakınlaştırılabilir), paylaşım otomatik değil — kullanıcı önizlemeden kendi seçiyor. Yeni paket eklenmedi. `expo-sharing` import'u `SablonDoldurmaScreen.tsx`'ten kaldırıldı (başka ekranda — `SinavAnaliziScreen.tsx` — hâlâ kullanılıyor, paket kaldırılmadı).
+- Sağ/sol kenar boşluğu 20mm'yi aşan 4 şablon düzeltildi: SOK, Veli Tutanağı, Zümre Tutanağı (30mm→20mm), Aylık Faaliyet Raporu (24mm→20mm). Kulüp/Toplum Hizmeti/Yoklama-Karar/Performans zaten ≤20mm'ydi.
+- TypeScript 0 hata.
+
 ---
 
 ### Sıradaki Adımlar (genel — öncelik sırasıyla)
