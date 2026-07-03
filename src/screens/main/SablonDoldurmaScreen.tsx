@@ -531,10 +531,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = veliHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({
-          html, base64: false,
-          margins: { top: 98, right: 118, bottom: 98, left: 118 },
-        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
         await Sharing.shareAsync(uri, {
           mimeType: 'application/pdf',
           dialogTitle: `Veli Toplantısı — ${vSinif}`,
@@ -985,10 +982,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = kulupYillikPlanHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({
-          html, base64: false,
-          margins: { top: 98, right: 118, bottom: 98, left: 118 },
-        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
         await Sharing.shareAsync(uri, {
           mimeType: 'application/pdf',
           dialogTitle: `Kulüp Yıllık Çalışma Planı — ${sablonAdi}`,
@@ -1186,10 +1180,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = toplumHizmetHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({
-          html, base64: false,
-          margins: { top: 98, right: 118, bottom: 98, left: 118 },
-        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
         await Sharing.shareAsync(uri, {
           mimeType: 'application/pdf',
           dialogTitle: `Toplum Hizmeti Çalışma Planı — ${sablonAdi}`,
@@ -1404,10 +1395,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = yoklamaKararHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({
-          html, base64: false,
-          margins: { top: 98, right: 118, bottom: 98, left: 118 },
-        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
         await Sharing.shareAsync(uri, {
           mimeType: 'application/pdf',
           dialogTitle: `Yoklama ve Karar Defteri — ${sablonAdi}`,
@@ -1729,10 +1717,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = performansHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({
-          html, base64: false,
-          margins: { top: 98, right: 118, bottom: 98, left: 118 },
-        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
         await Sharing.shareAsync(uri, {
           mimeType: 'application/pdf',
           dialogTitle: `Performans Notu — ${pDersAdi}`,
@@ -2008,10 +1993,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = zumreHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({
-          html, base64: false,
-          margins: { top: 98, right: 118, bottom: 98, left: 118 },
-        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
         await Sharing.shareAsync(uri, {
           mimeType: 'application/pdf',
           dialogTitle: `Zümre Tutanağı — ${zBrans}`,
@@ -2233,11 +2215,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       };
 
       const html      = sokHtmlOlustur(formData);
-      const { uri }   = await Print.printToFileAsync({
-        html,
-        base64: false,
-        margins: { top: 98, right: 118, bottom: 98, left: 118 },
-      });
+      const { uri }   = await Print.printToFileAsync({ html, base64: false });
       await Sharing.shareAsync(uri, {
         mimeType: 'application/pdf',
         dialogTitle: `ŞÖK Tutanağı — ${sinif}`,
