@@ -4,6 +4,26 @@
 
 ## Evrak Modülleri
 
+### 2026-07-03 — PDF margin mimarisi: `@page` CSS tek kaynak
+**Karar:** `SablonDoldurmaScreen.tsx`'teki 7 `Print.printToFileAsync` çağrısından sabit native `margins:{top:98,right:118,bottom:98,left:118}` kaldırıldı. Her şablonun kendi `@page margin` değeri (HTML dosyasında tanımlı) artık tek kaynak.
+**Sebep:** İki farklı margin mekanizması (native param + CSS `@page`) aynı anda vardı, hangisinin kazandığı/çakıştığı platforma göre belirsizdi. `@page` zaten her belgeye özel düşünülerek ayarlanmıştı (dar tablolu Performans 12mm, resmi tutanaklar 25-30mm) — tek kaynak olması daha esnek.
+**Ek düzeltme (aynı oturum):** SOK/Veli/Zümre/Aylık Rapor'da sağ-sol kenar boşluğu 30mm/24mm idi, kullanıcı "maksimum 2cm" dedi → hepsi 20mm'ye çekildi.
+
+### 2026-07-03 — Kulüp Yıllık Planı yatay (landscape)
+**Karar:** Sadece Kulüp Yıllık Planı `@page` → `A4 landscape`. Toplum Hizmeti Planı ve Yoklama/Karar Defteri'ne dokunulmadı.
+**Sebep:** Kullanıcı "yıllık planlar yatay olacak, raporlar dikey olacak" dedi. Kulüp Yıllık Planı'nın başlığı zaten "YILLIK ÇALIŞMA PLANI" — net eşleşme. Diğer ikisi geniş tablolu olsa da "yıllık plan" değil (biri çalışma planı, biri defter) — netleştirme sorusu yanıtsız kaldı, dokunulmadı. **Açık:** kullanıcı onayı gelirse bu ikisi de yatay yapılabilir.
+
+### 2026-07-03 — Performans Notu: öğrenci listesi kalıcı + sınıf geneli puanlama modu
+**Karar:** Öğrenci isimleri artık tek bir çok satırlı metin alanına (bir satır = bir öğrenci, `123 Ahmet Yılmaz` veya sade `Ahmet Yılmaz`) toplu giriliyor ve sınıf adına göre (`@yaver/performans_liste_<SINIF>`) AsyncStorage'da saklanıp aynı sınıfa tekrar girildiğinde otomatik geri yükleniyor. Otomatik/Manuel puanlama modu öğrenci başına değil, tüm sınıf için tek seferde seçiliyor; Otomatik modda "Tümünü Dağıt" tek tuşla tüm öğrencilerin notlarını aynı anda dağıtıyor.
+**Sebep:** Kullanıcı sürtünme şikayeti: her öğrenci için ayrı kart açıp isim girme + tek tek "Dağıt" tuşuna basma gereksiz tekrar. İsim girişi ile not girişi ayrı adımlara bölündü (`P_ADIMLAR`: Temel Bilgiler → Şablon Seç → Öğrenci Listesi → Puanlama).
+**Uygulama:** `POgrenciUI.mod` alanı kaldırıldı (global `pMod` state'e taşındı), `bosPerformansOgrencisi` (kullanılmayan) import'u temizlendi.
+
+### 2026-07-03 — PDF paylaşımı yerine önce native önizleme
+**Karar:** 8 evrak türünün tamamında `Sharing.shareAsync(uri, {...})` → `Print.printAsync({ uri })`. `expo-sharing` importu `SablonDoldurmaScreen.tsx`'ten kaldırıldı (paket kendisi kaldırılmadı — `SinavAnaliziScreen.tsx` hâlâ kullanıyor).
+**Sebep:** Kullanıcı: "PDF oluşturur oluşturmaz direkt paylaşıma açıyor, önce görebilmemiz lazım." `Print.printAsync` yeni paket gerektirmeden OS'un native PDF önizleme/print ekranını açıyor (sayfalı, yakınlaştırılabilir); paylaşım artık otomatik değil, kullanıcı önizlemeden sonra kendi seçiyor.
+
+---
+
 ### 2026-07-02 — Performans Notu: sadece 2 sabit şablon + otomatik dağıtım
 **Karar:** Performans Notu modülünde kriter özelleştirme yok — sadece "1. Performans Notu (Ödev)" (10 kriter × 10 puan) ve "2. Performans Notu" (8 kriter, 20/20/10×6) şablonları, gerçek MEB belge metniyle birebir. Öğretmen kriter ekleyip/çıkaramaz.
 **Sebep:** Kullanıcı net talep etti — kapsamı daraltmak istedi, özel kriter oluşturma karmaşıklık katardı.

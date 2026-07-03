@@ -1,6 +1,31 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 02.07.2026 — Oturum 73 (devam)
+**Son güncelleme:** 03.07.2026 — Oturum 74
+
+## ŞU AN NEREDEYİZ (oturum 74 özeti)
+
+**Branch:** `feature/evrak-pdf-margin-mimarisi` (main'e merge edilmedi, henüz PR açılmadı) — son commit `635a99b`.
+
+**Bu oturumda yapıldı (hepsi push edildi):**
+1. PDF margin mimarisi: `@page` CSS tek kaynak oldu, 7 `printToFileAsync` çağrısındaki çakışan sabit native `margins` parametresi kaldırıldı.
+2. Kulüp Yıllık Planı → yatay (A4 landscape), diğer plan/rapor şablonları dikey kaldı.
+3. Performans Notu modülü sadeleştirildi: öğrenci isimleri artık tek seferde (satır satır, sınıfa göre AsyncStorage'da) giriliyor, tekrar tekrar kart açıp isim girme yok. Otomatik/Manuel puanlama modu öğrenci başına değil sınıf geneli seçiliyor, "Tümünü Dağıt" tek tuşla tüm sınıfı dağıtıyor.
+4. PDF üretilir üretilmez direkt paylaşım açma sorunu çözüldü: `Sharing.shareAsync` → `Print.printAsync({ uri })`, artık önce native PDF önizlemesi açılıyor.
+5. Sağ/sol kenar boşluğu 20mm'yi aşan 4 şablon (SOK, Veli, Zümre, Aylık Rapor) 20mm'ye çekildi.
+
+**BEKLİYOR — sıradaki adım:** Kullanıcı gerçek cihazda (Expo Go, tunnel modu ile farklı WiFi) test edecek. Sorun çıkmazsa `feature/evrak-pdf-margin-mimarisi` → `main`'e merge/PR.
+
+**Test sırasında özellikle bakılacaklar:**
+- 8 evrak türünde kenar boşlukları görsel olarak dengeli mi (özellikle SOK/veli/zümre/aylık rapor artık 20mm)
+- Kulüp Yıllık Planı gerçekten yatay ve tablo okunur şekilde sığıyor mu
+- Performans Notu: öğrenci listesi girip aynı sınıfa tekrar girince liste otomatik geliyor mu, "Tümünü Dağıt" doğru çalışıyor mu
+- PDF önizleme ekranı (Print.printAsync) her 8 evrak türünde de açılıyor mu, sonra paylaşım/yazdırma seçenekleri erişilebilir mi
+
+**Onay bekleyen açık soru:** Toplum Hizmeti Çalışma Planı ve Yoklama/Karar Defteri de yatay yapılsın mı? (Geniş tablolu ama "yıllık plan" değiller — kullanıcıya soruldu, yanıt gelmedi, dokunulmadı.)
+
+**Ayrıca bu oturumda görüldü, dokunulmadı (kullanıcıya ait, muhtemelen Rehberlik evrak ailesi çalışması):** `src/data/bepHtmlSablon.ts`, `bepSablon.ts`, `rehberlikHtmlSablon.ts`, `rehberlikSablon.ts` — untracked, commit'lenmedi.
+
+---
 
 ## Şu An Ne Yapıyoruz
 
