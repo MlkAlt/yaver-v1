@@ -4,7 +4,7 @@ import {
   ScrollView, TouchableOpacity, Modal, TextInput, Dimensions,
 } from 'react-native';
 import {
-  FileText, Files, Mail, ChartBar, LayoutGrid, Plus, Search, Download, Trophy, X, ChevronRight, Users, Award,
+  FileText, Files, Mail, ChartBar, LayoutGrid, Plus, Search, Download, Trophy, X, ChevronRight, Users, Award, ClipboardList,
 } from 'lucide-react-native';
 import KULUPLER from '../../../kulupler/kulupler.json';
 import { useNavigation } from '@react-navigation/native';
@@ -203,6 +203,51 @@ export function EvraklarimScreen() {
           <View style={{ flex: 1 }}>
             <Text style={styles.kulupTitle}>Yoklama ve Karar Defteri</Text>
             <Text style={styles.kulupSub}>Kulüp seç · Öğrenci listesi · Toplantı karar kayıtları</Text>
+          </View>
+          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+        </TouchableOpacity>
+
+        {/* Rehberlik Evrakları */}
+        <Text style={[styles.sectionLabel, styles.historyLabel]}>REHBERLİK EVRAKları</Text>
+        <TouchableOpacity
+          style={styles.kulupCard}
+          onPress={() => navigation.navigate('SablonDoldurma', { sablonId: 'rehberlik_aylik', sablonAdi: 'Aylık Rehberlik Raporu' })}
+          activeOpacity={0.8}
+        >
+          <View style={[styles.kulupIconBox, { backgroundColor: colors.catPurpleLt }]}>
+            <ClipboardList size={22} color={colors.catPurple} strokeWidth={1.5} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.kulupTitle}>Aylık Rehberlik Raporu</Text>
+            <Text style={styles.kulupSub}>Sınıf rehber öğretmeni · Ay seç · Çalışma, kazanım, görüşme</Text>
+          </View>
+          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.kulupCard, { marginTop: 8 }]}
+          onPress={() => navigation.navigate('SablonDoldurma', { sablonId: 'donem_sonu', sablonAdi: 'Dönem Sonu Raporu' })}
+          activeOpacity={0.8}
+        >
+          <View style={[styles.kulupIconBox, { backgroundColor: colors.catTealLt }]}>
+            <ClipboardList size={22} color={colors.catTeal} strokeWidth={1.5} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.kulupTitle}>Dönem Sonu Raporu</Text>
+            <Text style={styles.kulupSub}>Dönem/yıl sonu · Kazanım, faaliyet, yönlendirme, veli</Text>
+          </View>
+          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.kulupCard, { marginTop: 8 }]}
+          onPress={() => navigation.navigate('SablonDoldurma', { sablonId: 'rehberlik_yillik', sablonAdi: 'Yıllık Rehberlik Planı' })}
+          activeOpacity={0.8}
+        >
+          <View style={[styles.kulupIconBox, { backgroundColor: colors.catGreenLt }]}>
+            <ClipboardList size={22} color={colors.catGreen} strokeWidth={1.5} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.kulupTitle}>Yıllık Rehberlik Planı</Text>
+            <Text style={styles.kulupSub}>1–12. sınıf · Sınıfını seç · MEB planı hazır (yatay)</Text>
           </View>
           <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
         </TouchableOpacity>

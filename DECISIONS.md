@@ -4,6 +4,26 @@
 
 ## Evrak Modülleri
 
+### 2026-07-04 — Ajan organizasyonu + şef-conductor modeli
+**Karar:** Kalan işler için dünya-çapı mobil stüdyo gibi 5 rollü ajan ekibi kuruldu (`.claude/agents/`: delivery-lead, evrak-engineer, ui-craftsman, qa-verifier, refactor-engineer) + dosya-tabanlı koordinasyon (`.claude/orchestration/board.json` + handoff/ + `OPERATING_MODEL.md`) + `scripts/board.cjs` (status/next/gate).
+**Orkestrasyon gerçeği:** Claude Code'da alt-ajanı yalnızca ana oturum (şef) başlatır; "biri bitince sıradakini tetikle" = ajan biter → harness şefe haber verir → şef sıradakini başlatır. Script daemon DEĞİL, durum panosu + tsc geçidi. Paralellik yalnız **ayrık dosya setlerinde** (ör. PlanimScreen ↔ SablonDoldurma). Paylaşılan hot dosyaların (SablonDoldurma/Evraklarim) wiring'i hep şef tarafından serileştirildi — sıfır çakışma.
+
+### 2026-07-04 — Rehberlik + Dilekçe evrak ailesi (E1–E4), hepsi referanstan
+**Karar:** Dört yeni evrak modülü, her biri `evraklar/` altındaki gerçek okul belgesinden hücre/paragraf düzeyinde çıkarılarak yazıldı; tahminle şablon yok.
+- **E1 Aylık Rehberlik Raporu:** önceki oturumda tahminle yazılmış `rehberlik*Sablon.ts` çöpe atıldı, gerçek Eylül raporu docx'inden YENİDEN yazıldı (3 bölümlü AY tablosu + veli/öğrenci görüşme + 3 imza).
+- **E2 Yıllık Rehberlik Planı:** 12 xlsx ekstraksiyon → `rehberlikYillikPlanlari.ts`; yatay HTML (plan=yatay). 9-12'de 36 etkinlik, 1-8'de numaralandırma kaynakta yok → `etkinlikNo=null` (uydurulmadı).
+- **E3 Dönem Sonu Raporu:** 7 bölümlü doldurulabilir form; faaliyet tablolarında otomatik toplam.
+- **E4 Dilekçe:** curated 4 tür (mazeret/ücretsiz/nakil/genel) — performans modülü mantığı (az+net). Mevcut "Dilekçe" grid kartına bağlandı.
+**BEP silindi:** `bep*.ts` referanssızdı (gerçek dolu örnek yoktu), tahminle yazılmıştı → silindi. Kural: gerçek örnek yoksa modül yazılmaz.
+
+### 2026-07-04 — E2 yıllık plan: kaynak verisi AYNEN korunur
+**Karar:** MEB xlsx'lerindeki hatalar (lise bahar dönemi yıl typo'su 2025→2026, yanıltıcı sheet adları, "ÖRNEK PLAN" bayat sheet'leri) düzeltilmedi/atlandı; metin ve tarih birebir alındı. Tek normalizasyon: hücre-içi word-wrap newline'ları tek boşluğa indirildi.
+**Sebep:** Referans disiplini — kaynağı "düzeltmek" güven/izlenebilirlik riski. Yıl typo'su bilinçli açık bırakıldı; istenirse ayrı bir pass ile yalnız lise düzeltilebilir.
+
+### 2026-07-04 — Toplum Hizmeti Çalışma Planı yatay (oturum 74 açık sorusu kapandı)
+**Karar:** Toplum Hizmeti Çalışma Planı `@page` → `A4 landscape`. Yoklama/Karar Defteri dikey kaldı.
+**Sebep:** Kullanıcı netleştirdi: "bütün planlar yatay; rapor-defter-tutanak-dilekçe dikey." Toplum Hizmeti bir plan → yatay; defter → dikey.
+
 ### 2026-07-03 — PDF margin mimarisi: `@page` CSS tek kaynak
 **Karar:** `SablonDoldurmaScreen.tsx`'teki 7 `Print.printToFileAsync` çağrısından sabit native `margins:{top:98,right:118,bottom:98,left:118}` kaldırıldı. Her şablonun kendi `@page margin` değeri (HTML dosyasında tanımlı) artık tek kaynak.
 **Sebep:** İki farklı margin mekanizması (native param + CSS `@page`) aynı anda vardı, hangisinin kazandığı/çakıştığı platforma göre belirsizdi. `@page` zaten her belgeye özel düşünülerek ayarlanmıştı (dar tablolu Performans 12mm, resmi tutanaklar 25-30mm) — tek kaynak olması daha esnek.

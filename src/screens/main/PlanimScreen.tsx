@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import {
   View, Text, StyleSheet, ViewStyle, TextStyle,
-  ScrollView, TouchableOpacity, ActivityIndicator,
+  TouchableOpacity, ActivityIndicator,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
 import { sinifLabel } from '../../lib/sinifLabel';
 import {
   Sunrise, Bell, BookOpen, Pencil, Zap, ClipboardList,
-  Calendar, AlertCircle, ChevronRight, FolderOpen, CircleUser,
+  Calendar, ChevronRight, FolderOpen, CircleUser,
 } from 'lucide-react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -35,12 +35,6 @@ const HIZLI_TIPLER: { id: string; label: string; Icon: LucideIconType; bg: strin
   { id: 'sorular',  label: 'Sınav',            Icon: Pencil,   bg: colors.catPurpleLt, fg: colors.catPurple },
   { id: 'etkinlik', label: 'Etkinlik',         Icon: Zap,    bg: colors.catOrangeLt, fg: colors.catOrange },
   { id: 'yaprak',   label: 'Çalışma Yaprağı', Icon: ClipboardList, bg: colors.catGreenLt, fg: colors.catGreen  },
-];
-
-const SON_HAZIRLANLAR: { id: string; tip: string; baslik: string; sinif: string; tarih: string; Icon: LucideIconType; bg: string; fg: string }[] = [
-  { id: '1', tip: 'Sınav',      baslik: 'Üslü İfadeler', sinif: '9-A',  tarih: 'Bugün',      Icon: Pencil,    bg: colors.catPurpleLt, fg: colors.catPurple },
-  { id: '2', tip: 'Ders Planı', baslik: 'Polinomlar',    sinif: '10-B', tarih: 'Dün',        Icon: BookOpen,      bg: colors.catBlueLt,   fg: colors.catBlue   },
-  { id: '3', tip: 'Etkinlik',   baslik: 'Trigonometri',  sinif: '11-A', tarih: '2 gün önce', Icon: Zap,     bg: colors.catOrangeLt, fg: colors.catOrange },
 ];
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -70,13 +64,12 @@ function formatAralik(bas: string, bit: string): string {
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-type KazanimPeek = { kod: string; sinif: string; konu: string; hazir: boolean };
+type KazanimPeek = { kod: string; sinif: string; konu: string };
 
 type HaftaData = {
   no: number;
   tarihAraligi: string;
   kazanimSayisi: number;
-  hazirSayisi: number;
   tamamlandi: boolean;
   simdiki: boolean;
   tatil?: boolean;
@@ -100,7 +93,6 @@ function buildHaftaList(haftalar: PlanHaftasi[]): { list: HaftaData[]; currentId
       no: h.hafta_no,
       tarihAraligi: formatAralik(h.baslangic, h.bitis),
       kazanimSayisi: h.kazanimlar.length,
-      hazirSayisi: 0,
       tamamlandi,
       simdiki: isCurrentWeek,
       tatil: h.tatil_mi,
@@ -109,7 +101,6 @@ function buildHaftaList(haftalar: PlanHaftasi[]): { list: HaftaData[]; currentId
         kod: k.kod,
         sinif: sinifLabel(k.sinif),
         konu: k.ad,
-        hazir: false,
       })),
     };
   });
@@ -213,24 +204,9 @@ function TatilUyarisi({ tatilAdi }: { tatilAdi: string }) {
   );
 }
 
-// ─── Proaktif Öneri ───────────────────────────────────────────────────────────
-
-function ProaktifOneri({ kalan, onPress }: { kalan: number; onPress: () => void }) {
-  return (
-    <TouchableOpacity style={styles.oneriStrip} onPress={onPress} activeOpacity={0.8}>
-      <AlertCircle size={15} color={colors.accent} strokeWidth={2.5} />
-      <Text style={styles.oneriText}>
-        Bu hafta {kalan} kazanım henüz hazırlanmadı.
-      </Text>
-      <ChevronRight size={14} color={colors.accent} strokeWidth={2.5} />
-    </TouchableOpacity>
-  );
-}
-
 // ─── Bu Hafta kartı ───────────────────────────────────────────────────────────
 
 function BuHaftaCard({ hafta, onDetay }: { hafta: HaftaData; onDetay: () => void }) {
-  const progress = hafta.kazanimSayisi > 0 ? hafta.hazirSayisi / hafta.kazanimSayisi : 0;
   const peek = hafta.kazanimlar.slice(0, 3);
   const remaining = hafta.kazanimSayisi - peek.length;
 
@@ -247,23 +223,12 @@ function BuHaftaCard({ hafta, onDetay }: { hafta: HaftaData; onDetay: () => void
         </TouchableOpacity>
       </View>
 
-      <Text style={styles.progressLabel}>
-        {hafta.hazirSayisi} / {hafta.kazanimSayisi} kazanım hazır
-      </Text>
-      <View style={styles.progressTrack}>
-        <View style={[styles.progressFill, { width: `${Math.max(progress * 100, 1)}%` as any }]} />
-      </View>
-
       {peek.length > 0 && (
         <View style={styles.peekList}>
           {peek.map((k, i) => (
             <View key={i} style={[styles.peekRow, i < peek.length - 1 && styles.peekRowDivider]}>
-              <View style={[
-                styles.peekDot,
-                { backgroundColor: k.hazir ? colors.success : colors.warning },
-              ]} />
               <Text style={styles.peekKonu} numberOfLines={1}>{k.konu}</Text>
-              <Text style={styles.peekSinif}>{k.sinif}</Text>
+              <Text style={styles.peekMeta}>{k.sinif} · {k.kod}</Text>
             </View>
           ))}
           {remaining > 0 && (
@@ -298,35 +263,6 @@ function HizliHazirla({ onTipSec }: { onTipSec: (id: string) => void }) {
           ))}
         </View>
       ))}
-    </View>
-  );
-}
-
-// ─── Son Hazırlananlar ────────────────────────────────────────────────────────
-
-function SonHazirlanlar() {
-  return (
-    <View style={styles.sonSection}>
-      <Text style={styles.sectionTitle}>Son Hazırlananlar</Text>
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.sonScroll}
-      >
-        {SON_HAZIRLANLAR.map(item => (
-          <TouchableOpacity key={item.id} style={styles.sonCard} activeOpacity={0.8}>
-            <View style={[styles.sonIcon, { backgroundColor: item.bg }]}>
-              <item.Icon size={18} color={item.fg} />
-            </View>
-            <Text style={styles.sonTip}>{item.tip}</Text>
-            <Text style={styles.sonBaslik} numberOfLines={2}>{item.baslik}</Text>
-            <View style={styles.sonMeta}>
-              <Text style={styles.sonSinif}>{item.sinif}</Text>
-              <Text style={styles.sonTarih}>{item.tarih}</Text>
-            </View>
-          </TouchableOpacity>
-        ))}
-      </ScrollView>
     </View>
   );
 }
@@ -440,13 +376,6 @@ export function PlanimScreen() {
         >
           {tatilUyari && <TatilUyarisi tatilAdi={tatilUyari} />}
 
-          {aktifHafta && aktifHafta.hazirSayisi < aktifHafta.kazanimSayisi && (
-            <ProaktifOneri
-              kalan={aktifHafta.kazanimSayisi - aktifHafta.hazirSayisi}
-              onPress={handleDetay}
-            />
-          )}
-
           {aktifHafta && <BuHaftaCard hafta={aktifHafta} onDetay={handleDetay} />}
 
           <TouchableOpacity
@@ -466,7 +395,6 @@ export function PlanimScreen() {
             />
           </View>
 
-          <SonHazirlanlar />
           <OnumUzdekiHaftalar haftalar={haftalar} />
 
           <View style={{ height: 100 }} />
@@ -586,40 +514,13 @@ const styles = StyleSheet.create({
   } as TextStyle,
   tatilBold: { fontFamily: fonts.bold } as TextStyle,
 
-  // Proaktif öneri
-  oneriStrip: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    backgroundColor: colors.accentLt,
-    borderWidth: 1,
-    borderColor: colors.accentMd,
-    borderRadius: radius.card,
-    paddingVertical: 11,
-    paddingHorizontal: 14,
-    marginBottom: 12,
-  } as ViewStyle,
-  oneriText: {
-    flex: 1,
-    fontSize: 13,
-    fontFamily: fonts.medium,
-    color: colors.accent,
-  } as TextStyle,
-
-  // Bu Hafta — neon glow
+  // Bu Hafta — defter sayfası (sakin anchor kart)
   buHaftaCard: {
     backgroundColor: colors.surface,
     borderRadius: radius.card,
-    borderWidth: 2,
-    borderColor: colors.accent,
-    padding: 14,
+    padding: 18,
     marginBottom: 14,
-    gap: 8,
-    shadowColor: colors.accent,
-    shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: 0.28,
-    shadowRadius: 14,
-    elevation: 6,
+    ...shadows.card,
   } as ViewStyle,
   buHaftaTop: {
     flexDirection: 'row',
@@ -632,10 +533,10 @@ const styles = StyleSheet.create({
     color: colors.accent,
     letterSpacing: 0.6,
     textTransform: 'uppercase',
-    marginBottom: 2,
+    marginBottom: 3,
   } as TextStyle,
   buHaftaNo: {
-    fontSize: 15,
+    fontSize: 16,
     fontFamily: fonts.semiBold,
     color: colors.text1,
     letterSpacing: -0.2,
@@ -653,59 +554,35 @@ const styles = StyleSheet.create({
     fontFamily: fonts.semiBold,
     color: colors.accent,
   } as TextStyle,
-  progressLabel: {
-    fontSize: 12,
-    fontFamily: fonts.medium,
-    color: colors.text2,
-  } as TextStyle,
-  progressTrack: {
-    height: 5,
-    borderRadius: 3,
-    backgroundColor: colors.border,
-    overflow: 'hidden',
-  } as ViewStyle,
-  progressFill: {
-    height: 5,
-    borderRadius: 3,
-    backgroundColor: colors.accent,
-  } as ViewStyle,
   peekList: {
     borderTopWidth: 1,
     borderTopColor: colors.border,
-    marginTop: 2,
+    marginTop: 16,
   } as ViewStyle,
   peekRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingVertical: 9,
-    gap: 9,
+    paddingVertical: 11,
+    gap: 3,
   } as ViewStyle,
   peekRowDivider: {
     borderBottomWidth: 1,
     borderBottomColor: colors.border,
   } as ViewStyle,
-  peekDot: {
-    width: 7,
-    height: 7,
-    borderRadius: 4,
-    flexShrink: 0,
-  } as ViewStyle,
   peekKonu: {
-    flex: 1,
-    fontSize: 13,
-    fontFamily: fonts.medium,
-    color: colors.text1,
-  } as TextStyle,
-  peekSinif: {
-    fontSize: 11,
+    fontSize: 14,
     fontFamily: fonts.semiBold,
+    color: colors.text1,
+    letterSpacing: -0.1,
+  } as TextStyle,
+  peekMeta: {
+    fontSize: 11,
+    fontFamily: fonts.medium,
     color: colors.text3,
-    flexShrink: 0,
+    marginTop: 1,
   } as TextStyle,
   peekMore: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingTop: 10,
+    paddingTop: 12,
     gap: 3,
   } as ViewStyle,
   peekMoreText: {
@@ -759,57 +636,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontFamily: fonts.semiBold,
     textAlign: 'center',
-  } as TextStyle,
-
-  // Son Hazırlananlar
-  sonSection: { marginBottom: 14 } as ViewStyle,
-  sonScroll:  { gap: 10, paddingRight: 4 } as ViewStyle,
-  sonCard: {
-    width: 148,
-    backgroundColor: colors.surface,
-    borderRadius: radius.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-    padding: 12,
-    gap: 6,
-    ...shadows.card,
-  } as ViewStyle,
-  sonIcon: {
-    width: 36,
-    height: 36,
-    borderRadius: 10,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 2,
-  } as ViewStyle,
-  sonTip: {
-    fontSize: 10,
-    fontFamily: fonts.bold,
-    color: colors.text3,
-    letterSpacing: 0.4,
-    textTransform: 'uppercase',
-  } as TextStyle,
-  sonBaslik: {
-    fontSize: 13,
-    fontFamily: fonts.semiBold,
-    color: colors.text1,
-    lineHeight: 18,
-  } as TextStyle,
-  sonMeta: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: 2,
-  } as ViewStyle,
-  sonSinif: {
-    fontSize: 11,
-    fontFamily: fonts.semiBold,
-    color: colors.accent,
-  } as TextStyle,
-  sonTarih: {
-    fontSize: 11,
-    fontFamily: fonts.regular,
-    color: colors.text3,
   } as TextStyle,
 
   // Önümüzdeki Haftalar

@@ -1,0 +1,96 @@
+{
+  "updated": "2026-07-04",
+  "branch": "feature/evrak-pdf-margin-mimarisi",
+  "gate": "npx tsc --noEmit",
+  "roles": ["delivery-lead", "evrak-engineer", "ui-craftsman", "qa-verifier", "refactor-engineer"],
+  "tasks": [
+    {
+      "id": "E0",
+      "title": "Rehberlik Aylık Rapor data+HTML + Toplum Hizmeti landscape + BEP sil",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "Referanstan yeniden yazıldı; referanssız BEP silindi."
+    },
+    {
+      "id": "E1",
+      "title": "Rehberlik Aylık Rapor — UI entegrasyonu",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": ["E0"],
+      "note": "3 adımlı sihirbaz + native önizleme. tsc 0. Yapı doğrulandı (Q1)."
+    },
+    {
+      "id": "Q1",
+      "title": "Rehberlik Aylık Rapor yapı/mantık doğrulama",
+      "owner": "qa-verifier",
+      "status": "done",
+      "deps": ["E1"],
+      "note": "tsx render — referansa birebir. Görsel print Q2'de."
+    },
+    {
+      "id": "F3a",
+      "title": "PlanimScreen sahte hazirSayisi sayaçlarını kaldır + audit",
+      "owner": "refactor-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "7 sahte sayaç + ölü stil kaldırıldı. handoff/F3a.md."
+    },
+    {
+      "id": "F3b",
+      "title": "Bu Hafta -> saf defter görünümü",
+      "owner": "ui-craftsman",
+      "status": "done",
+      "deps": ["F3a"],
+      "note": "Neon glow -> nötr kart, editoryal peek. ux-critic OK. handoff/F3b.md."
+    },
+    {
+      "id": "F3c",
+      "title": "PlanimScreen SON_HAZIRLANLAR uydurma veri -> KALDIR",
+      "owner": "ui-craftsman",
+      "status": "done",
+      "deps": [],
+      "note": "Kaldırıldı (F3b ajanıyla)."
+    },
+    {
+      "id": "E2",
+      "title": "Rehberlik Yıllık Planı — data (ajan) + HTML + wiring (yatay)",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "rehberlikYillikPlanlari.ts (ajan, 12 sınıf) + rehberlikYillikPlanHtmlSablon.ts (yatay, AY rowspan) + wiring + Evraklarim kart. 9-12: 36 etkinlik, 1-8: numarasız. render OK, tsc 0. NOT: kaynak yıl typo'ları (Ocak-Haziran 2025→2026) aynen korundu."
+    },
+    {
+      "id": "E3",
+      "title": "Rehberlik Dönem Sonu Raporu — data+HTML+wiring (7 bölümlü form)",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "4 adımlı sihirbaz + donemSonuSablon.ts + donemSonuHtmlSablon.ts + Evraklarim kart. tsc 0, render doğrulandı."
+    },
+    {
+      "id": "E4",
+      "title": "Dilekçe bankası — data+HTML (ajan) + wiring",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "dilekceSablon.ts + dilekceHtmlSablon.ts (ajan, 4 tür) + wiring (mevcut Dilekçe kartı -> isDilekce, 2 adım + tür seçimi). render OK, tsc 0."
+    },
+    {
+      "id": "Q2",
+      "title": "Cihaz testi (Expo Go) — margin + evraklar + rehberlik + yeni Bu Hafta",
+      "owner": "user",
+      "status": "ready",
+      "deps": ["E1", "Q1"],
+      "note": "Kullanıcı gerçek cihazda."
+    },
+    {
+      "id": "R1",
+      "title": "feature/evrak-pdf-margin-mimarisi -> main merge/PR",
+      "owner": "delivery-lead",
+      "status": "blocked",
+      "deps": ["Q2"],
+      "note": "Cihaz testi geçince."
+    }
+  ]
+}

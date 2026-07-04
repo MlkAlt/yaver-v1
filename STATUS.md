@@ -1,6 +1,31 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 03.07.2026 — Oturum 74
+**Son güncelleme:** 04.07.2026 — Oturum 75
+
+## ŞU AN NEREDEYİZ (oturum 75 özeti)
+
+**Branch:** `feature/evrak-pdf-margin-mimarisi` (main'e merge edilmedi) — bu oturumda büyük ilerleme, tek commit.
+
+**Bu oturumda yapıldı:**
+1. **Ajan organizasyonu kuruldu** — `.claude/agents/` 5 rol (delivery-lead, evrak-engineer, ui-craftsman, qa-verifier, refactor-engineer) + `.claude/orchestration/board.json` + operating model + handoff/ + `scripts/board.cjs` (status/next/gate). Şef-conductor modeli: alt-ajanları ana oturum başlatır, handoff dosya-tabanlı, paralellik yalnız ayrık dosya setlerinde. Bu oturumda 4 ajan koştu (F3a refactor, F3b/c ui, E2 ekstraksiyon, E4 dilekçe).
+2. **Rehberlik + Dilekçe evrak ailesi tamamlandı (E1–E4)** — hepsi gerçek referans belgeden (referans disiplini):
+   - **E1 Aylık Rehberlik Raporu** — `rehberlikSablon.ts`+`rehberlikHtmlSablon.ts` (referanstan YENİDEN yazıldı; önceki tahmin-şablon atıldı). `isRehberlikAylik` 3 adım + Evraklarim "REHBERLİK EVRAKLARI" bölümü. 3 imza, otomatik kazanım/etkinlik numaralandırma.
+   - **E2 Yıllık Rehberlik Planı** — `rehberlikYillikPlanlari.ts` (ajan, 12 sınıf xlsx ekstraksiyon) + `rehberlikYillikPlanHtmlSablon.ts` (yatay, AY rowspan). 9-12: 36 etkinlik; 1-8: numarasız (kaynakta yok). `isYillikPlan` + sınıf seçici + kart.
+   - **E3 Dönem Sonu Raporu** — `donemSonuSablon.ts`+`donemSonuHtmlSablon.ts` (7 bölüm: kazanım durumu X-kutu, teknikler, faaliyet+otomatik toplam, yönlendirme, veli anne/baba/diğer, güçlükler, PDR). `isDonemSonu` 4 adım + kart.
+   - **E4 Dilekçe Bankası** — `dilekceSablon.ts`+`dilekceHtmlSablon.ts` (ajan, 4 tür: mazeret/ücretsiz/nakil/genel). Mevcut "Dilekçe" gridi kartı `isDilekce` 2 adım + tür seçimine bağlandı.
+   - **BEP dosyaları silindi** (referanssızdı, tahminle yazılmıştı).
+3. **Toplum Hizmeti Çalışma Planı → yatay** (plan=yatay / rapor-defter-tutanak-dilekçe=dikey kuralı netleşti; Yoklama/Karar Defteri dikey kaldı). Oturum 74'ün açık sorusu böyle kapandı.
+4. **Faz 3 (PlanimScreen):** F3a — 7 sahte `hazirSayisi` sayacı + ölü stil/import kaldırıldı. F3b — Bu Hafta saf defter görünümüne indi (neon glow→nötr kart, iki-satır editoryal peek, gerçek kazanım kodu). F3c — uydurma "Son Hazırlananlar" bölümü kaldırıldı.
+
+**Doğrulama:** `tsc` 0 (tam proje). Her HTML üreticisi tsx ile örnek veriyle render edilip yapı gözle doğrulandı. Görsel PRINT doğrulaması (sayfa kırılımı/margin) yerel renderer olmadığı için **Q2 cihaz testine** bırakıldı.
+
+**BEKLİYOR — sıradaki adım (Q2):** Kullanıcı Expo Go'da test edecek (tüm evraklar + rehberlik ailesi + dilekçe + sadeleşen Bu Hafta). Sorunsuzsa R1 → main merge/PR. Canlı durum: `node scripts/board.cjs`.
+
+**Bilinen kaynak sorunu:** Lise (9-12) yıllık planlarında bahar dönemi (Ocak-Haziran) tarihleri kaynak xlsx'te "2025" (2026 olmalı) — MEB dosyasının kendi typo'su, referans disiplini gereği aynen korundu. İstenirse tek pass düzeltilebilir (yalnız lise).
+
+**Referans belgeler** kullanıcı tarafından eklendi: `evraklar/rehberlik/` (12 xlsx yıllık plan + dönem sonu/aylık docx), `evraklar/dilekce/`, `evraklar/sube ogretmenler kurulu/`.
+
+---
 
 ## ŞU AN NEREDEYİZ (oturum 74 özeti)
 

@@ -28,6 +28,14 @@ import { kulupYillikPlanHtmlOlustur, KulupFormData } from '../../data/kulupHtmlS
 import { kulupVarsayilanEtkinlikleri, kulupVarsayilanToplumHizmetSatirlari } from '../../data/kulupYillikPlanlari';
 import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, AylikRaporFormData } from '../../data/aylikRaporHtmlSablon';
 import { toplumHizmetHtmlOlustur, ToplumHizmetFormData } from '../../data/toplumHizmetHtmlSablon';
+import { aylikRehberlikHtmlOlustur, AylikRehberlikFormData } from '../../data/rehberlikHtmlSablon';
+import { REHBERLIK_AYLARI, VeliGorusmeSatiri, OgrenciGorusmeSatiri, bosVeliGorusmeSatiri, bosOgrenciGorusmeSatiri } from '../../data/rehberlikSablon';
+import { donemSonuHtmlOlustur, DonemSonuFormData } from '../../data/donemSonuHtmlSablon';
+import { KAZANIM_DURUMLARI, KazanimDurumu, DONEM_SECENEKLERI, FaaliyetSatiri, VeliFaaliyetSatiri, YonlendirmeSatiri, bosFaaliyetSatiri, bosVeliFaaliyetSatiri, bosYonlendirmeSatiri, varsayilanVeliFaaliyetleri } from '../../data/donemSonuSablon';
+import { dilekceHtmlOlustur } from '../../data/dilekceHtmlSablon';
+import { DilekceTuru, DilekceFormData, DILEKCE_SABLONLARI, getDilekceSablonu } from '../../data/dilekceSablon';
+import { yillikPlanHtmlOlustur } from '../../data/rehberlikYillikPlanHtmlSablon';
+import { REHBERLIK_YILLIK_PLAN } from '../../data/rehberlikYillikPlanlari';
 import { yoklamaKararHtmlOlustur, YoklamaKararFormData } from '../../data/yoklamaKararHtmlSablon';
 import {
   PERFORMANS_SABLONLARI, PerformansOgrenciSatiri, notuKriterlereDagit,
@@ -285,6 +293,10 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const isToplumHizmet = sablonId === 'toplum_hizmet';
   const isYoklamaKarar = sablonId === 'yoklama_karar';
   const isPerformans   = sablonId === 'performans';
+  const isRehberlikAylik = sablonId === 'rehberlik_aylik';
+  const isDonemSonu    = sablonId === 'donem_sonu';
+  const isDilekce      = sablonId === 'dilekce';
+  const isYillikPlan   = sablonId === 'rehberlik_yillik';
 
   // ─── ŞÖK state ────────────────────────────────────────────────────────
   const [adim, setAdim]               = useState(0);
@@ -390,6 +402,68 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [pOgrenciler, setPOgrenciler]           = useState<POgrenciUI[]>([]);
   const [pYukleniyor, setPYukleniyor]           = useState(false);
 
+  // ─── Rehberlik Aylık Rapor state ──────────────────────────────────────
+  const [rbAdim, setRbAdim]                     = useState(0);
+  const [rbOkulAdi, setRbOkulAdi]               = useState('');
+  const [rbEgitimYili]                          = useState(egitimYiliHesapla());
+  const [rbSinif, setRbSinif]                   = useState('');
+  const [rbAy, setRbAy]                         = useState('');
+  const [rbRaporNo, setRbRaporNo]               = useState(1);
+  const [rbRaporTarihi, setRbRaporTarihi]       = useState(bugunTarih());
+  const [rbSinifMevcudu, setRbSinifMevcudu]     = useState('');
+  const [rbSinifOgretmeni, setRbSinifOgretmeni] = useState('');
+  const [rbRehberOgretmeni, setRbRehberOgretmeni] = useState('');
+  const [rbMudur, setRbMudur]                   = useState('');
+  const [rbCalismalar, setRbCalismalar]         = useState<string[]>(['']);
+  const [rbKazanimlar, setRbKazanimlar]         = useState<string[]>(['']);
+  const [rbEtkinlikler, setRbEtkinlikler]       = useState<string[]>(['']);
+  const [rbVeliGorusmeleri, setRbVeliGorusmeleri]       = useState<VeliGorusmeSatiri[]>([]);
+  const [rbOgrenciGorusmeleri, setRbOgrenciGorusmeleri] = useState<OgrenciGorusmeSatiri[]>([]);
+  const [rbYukleniyor, setRbYukleniyor]         = useState(false);
+
+  // ─── Dönem Sonu Raporu state ──────────────────────────────────────────
+  const [dsAdim, setDsAdim]                     = useState(0);
+  const [dsOkulAdi, setDsOkulAdi]               = useState('');
+  const [dsEgitimYili]                          = useState(egitimYiliHesapla());
+  const [dsDonem, setDsDonem]                   = useState('donem2');
+  const [dsSinif, setDsSinif]                   = useState('');
+  const [dsRehber, setDsRehber]                 = useState('');
+  const [dsMudur, setDsMudur]                   = useState('');
+  const [dsTarih, setDsTarih]                   = useState(bugunTarih());
+  const [dsKazanimDurumu, setDsKazanimDurumu]   = useState<KazanimDurumu>('evet');
+  const [dsKazanimAciklama, setDsKazanimAciklama] = useState('');
+  const [dsTeknikler, setDsTeknikler]           = useState('');
+  const [dsFaaliyetler, setDsFaaliyetler]       = useState<FaaliyetSatiri[]>([bosFaaliyetSatiri()]);
+  const [dsVeliFaaliyetler, setDsVeliFaaliyetler] = useState<VeliFaaliyetSatiri[]>(() => varsayilanVeliFaaliyetleri());
+  const [dsYonlendirmeler, setDsYonlendirmeler] = useState<YonlendirmeSatiri[]>([]);
+  const [dsGuclukler, setDsGuclukler]           = useState('');
+  const [dsCozum, setDsCozum]                   = useState('');
+  const [dsPdrIsbirligi, setDsPdrIsbirligi]     = useState('');
+  const [dsPdrBeklenti, setDsPdrBeklenti]       = useState('');
+  const [dsYukleniyor, setDsYukleniyor]         = useState(false);
+
+  // ─── Dilekçe state ────────────────────────────────────────────────────
+  const [dlAdim, setDlAdim]                     = useState(0);
+  const [dlTuru, setDlTuru]                     = useState<DilekceTuru>('mazeret');
+  const [dlOkul, setDlOkul]                     = useState('');
+  const [dlMakam, setDlMakam]                   = useState(getDilekceSablonu('mazeret').makamVarsayilan);
+  const [dlAdSoyad, setDlAdSoyad]               = useState('');
+  const [dlGorev, setDlGorev]                   = useState('');
+  const [dlTc, setDlTc]                         = useState('');
+  const [dlImzaYeri, setDlImzaYeri]             = useState('');
+  const [dlTarih, setDlTarih]                   = useState(bugunTarih());
+  const [dlGovde, setDlGovde]                   = useState(getDilekceSablonu('mazeret').govdeKalibi);
+  const [dlEkler, setDlEkler]                   = useState('');
+  const [dlYukleniyor, setDlYukleniyor]         = useState(false);
+
+  // ─── Yıllık Rehberlik Planı state ─────────────────────────────────────
+  const [ypOkulAdi, setYpOkulAdi]               = useState('');
+  const [ypEgitimYili]                          = useState(egitimYiliHesapla());
+  const [ypSinif, setYpSinif]                   = useState(0);
+  const [ypRehber, setYpRehber]                 = useState('');
+  const [ypMudur, setYpMudur]                   = useState('');
+  const [ypYukleniyor, setYpYukleniyor]         = useState(false);
+
   useEffect(() => {
     if (isSok) {
       Promise.all([
@@ -481,10 +555,51 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (okul)     setPOkulAdi(okul);
         if (ogretmen) setPOgretmen(ogretmen);
       });
+    } else if (isRehberlikAylik) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+      ]).then(([okul, ad, mudur]) => {
+        if (okul) setRbOkulAdi(okul);
+        if (ad)   setRbSinifOgretmeni(ad);
+        if (mudur) setRbMudur(mudur);
+      });
+    } else if (isDonemSonu) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+      ]).then(([okul, ad, mudur]) => {
+        if (okul) setDsOkulAdi(okul);
+        if (ad)   setDsRehber(ad);
+        if (mudur) setDsMudur(mudur);
+      });
+    } else if (isDilekce) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+      ]).then(([okul, ad]) => {
+        if (ad) setDlAdSoyad(ad);
+        if (okul) {
+          setDlOkul(okul);
+          setDlMakam(m => m.replace('[OKUL ADI]', okul));
+        }
+      });
+    } else if (isYillikPlan) {
+      Promise.all([
+        AsyncStorage.getItem(STORAGE_OKUL),
+        AsyncStorage.getItem(STORAGE_KULLANICI_ADI),
+        AsyncStorage.getItem(STORAGE_ZUMRE_MUDUR),
+      ]).then(([okul, ad, mudur]) => {
+        if (okul) setYpOkulAdi(okul);
+        if (ad)   setYpRehber(ad);
+        if (mudur) setYpMudur(mudur);
+      });
     }
   }, []);
 
-  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet && !isYoklamaKarar && !isPerformans) {
+  if (!isSok && !isZumre && !isVeli && !isKulup && !isAylikRapor && !isToplumHizmet && !isYoklamaKarar && !isPerformans && !isRehberlikAylik && !isDonemSonu && !isDilekce && !isYillikPlan) {
     return (
       <Screen bg={colors.surface}>
         <AppBar title={sablonAdi} back />
@@ -928,6 +1043,833 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <>
                 <FileDown size={18} color="#fff" strokeWidth={2} />
                 <Text style={s.ileriBtnText}>{arYukleniyor ? 'Oluşturuluyor...' : 'Raporu Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Yıllık Rehberlik Planı akışı (Sınıf Rehberlik Hizmetleri Yıllık Çalışma Planı) ──
+  if (isYillikPlan) {
+    const ypSiniflar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+    async function ypOlustur() {
+      if (!ypOkulAdi.trim() || !ypRehber.trim()) {
+        Alert.alert('Eksik bilgi', 'Okul adı ve sınıf rehber öğretmeni zorunlu.');
+        return;
+      }
+      if (!ypSinif) {
+        Alert.alert('Eksik bilgi', 'Sınıf seçilmeli.');
+        return;
+      }
+      setYpYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, ypOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, ypRehber);
+        if (ypMudur.trim()) await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, ypMudur);
+
+        const html    = yillikPlanHtmlOlustur({
+          okulAdi: ypOkulAdi, egitimYili: ypEgitimYili, sinif: ypSinif,
+          sinifRehberOgretmeni: ypRehber, okulMuduru: ypMudur,
+        });
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
+        await Print.printAsync({ uri });
+      } catch {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setYpYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Yıllık Rehberlik Planı" back />
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+            <Text style={s.adimBaslik}>Sınıf Rehberlik Yıllık Planı</Text>
+            <Text style={s.adimAlt}>{ypEgitimYili} · Sınıfını seç, plan hazır gelsin</Text>
+
+            <Alan label="Okul Adı" zorunlu>
+              <TextInput style={s.input} value={ypOkulAdi} onChangeText={setYpOkulAdi}
+                placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+            </Alan>
+            <Alan label="Sınıf" zorunlu>
+              <View style={s.chipRow}>
+                {ypSiniflar.map(n => (
+                  <TouchableOpacity key={n} style={[s.chip, ypSinif === n && s.chipActive]}
+                    onPress={() => setYpSinif(n)} activeOpacity={0.7}>
+                    <Text style={[s.chipText, ypSinif === n && s.chipTextActive]}>{n}. Sınıf</Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+            </Alan>
+            <Alan label="Sınıf Rehber Öğretmeni" zorunlu>
+              <TextInput style={s.input} value={ypRehber} onChangeText={setYpRehber}
+                placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+            </Alan>
+            <Alan label="Okul Müdürü">
+              <TextInput style={s.input} value={ypMudur} onChangeText={setYpMudur}
+                placeholder="Müdür adı" placeholderTextColor={colors.text3} />
+            </Alan>
+
+            {ypSinif > 0 && (
+              <View style={s.infoCard}>
+                <Text style={s.infoText}>
+                  {ypSinif}. sınıf planı hazır — <Text style={s.infoVurgu}>{(REHBERLIK_YILLIK_PLAN[ypSinif] || []).length}</Text> haftalık çalışma. "Planı Oluştur"a bas, düzenlemeden yatay PDF gelir.
+                </Text>
+              </View>
+            )}
+          </ScrollView>
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          <View />
+          <TouchableOpacity style={[s.ileriBtn, ypYukleniyor && s.ileriDisabled]}
+            onPress={ypOlustur} activeOpacity={0.8} disabled={ypYukleniyor}>
+            <FileDown size={18} color="#fff" strokeWidth={2} />
+            <Text style={s.ileriBtnText}>{ypYukleniyor ? 'Oluşturuluyor...' : 'Planı Oluştur'}</Text>
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Dilekçe akışı (Öğretmen dilekçe bankası — 4 tür) ──
+  if (isDilekce) {
+    const DL_ADIMLAR = ['Tür & Kimlik', 'Gövde & Ekler'];
+    const dlSablon = getDilekceSablonu(dlTuru);
+    const dlTcVar = dlSablon.alanlar.includes('tc');
+
+    function dlTurSec(turu: DilekceTuru) {
+      const t = getDilekceSablonu(turu);
+      setDlTuru(turu);
+      setDlGovde(t.govdeKalibi);
+      setDlMakam(dlOkul ? t.makamVarsayilan.replace('[OKUL ADI]', dlOkul) : t.makamVarsayilan);
+    }
+
+    const dlIleri = () => {
+      if (dlAdim === 0) {
+        if (!dlAdSoyad.trim() || !dlGorev.trim()) {
+          Alert.alert('Eksik bilgi', 'Ad soyad ve görev/branş zorunlu.');
+          return;
+        }
+        if (!dlMakam.trim()) {
+          Alert.alert('Eksik bilgi', 'Hitap edilen makam boş olamaz.');
+          return;
+        }
+      }
+      if (dlAdim === DL_ADIMLAR.length - 1) { dlOlustur(); return; }
+      setDlAdim(dlAdim + 1);
+    };
+    const dlGeri = () => setDlAdim(dlAdim - 1);
+
+    async function dlOlustur() {
+      setDlYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, dlAdSoyad);
+
+        const formData: DilekceFormData = {
+          turu: dlTuru,
+          adSoyad: dlAdSoyad,
+          gorev: dlGorev,
+          tc: dlTcVar ? dlTc : undefined,
+          tarih: dlTarih || bugunTarih(),
+          makam: dlMakam,
+          govde: dlGovde,
+          ekler: dlEkler.split('\n').map(x => x.trim()).filter(Boolean),
+          imzaYeri: dlImzaYeri,
+        };
+
+        const html    = dilekceHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
+        await Print.printAsync({ uri });
+      } catch {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setDlYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Dilekçe" back />
+
+        <View style={s.stepper}>
+          {DL_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= dlAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= dlAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === dlAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {dlAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Dilekçe Türü</Text>
+              <Text style={s.adimAlt}>{dlSablon.aciklama}</Text>
+              <View style={s.chipRow}>
+                {DILEKCE_SABLONLARI.map(t => (
+                  <TouchableOpacity key={t.id} style={[s.chip, dlTuru === t.id && s.chipActive]} onPress={() => dlTurSec(t.id)} activeOpacity={0.7}>
+                    <Text style={[s.chipText, dlTuru === t.id && s.chipTextActive]}>{t.ad}</Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+
+              <View style={{ height: 8 }} />
+              <Alan label="Hitap Edilen Makam" zorunlu>
+                <TextInput style={s.input} value={dlMakam} onChangeText={setDlMakam}
+                  placeholder="… Müdürlüğüne" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Ad Soyad" zorunlu>
+                <TextInput style={s.input} value={dlAdSoyad} onChangeText={setDlAdSoyad}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Görev / Branş" zorunlu>
+                <TextInput style={s.input} value={dlGorev} onChangeText={setDlGorev}
+                  placeholder="Matematik Öğretmeni" placeholderTextColor={colors.text3} />
+              </Alan>
+              {dlTcVar && (
+                <Alan label="T.C. Kimlik No">
+                  <TextInput style={s.input} value={dlTc} onChangeText={setDlTc}
+                    placeholder="(opsiyonel)" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                </Alan>
+              )}
+              <Alan label="Yer">
+                <TextInput style={s.input} value={dlImzaYeri} onChangeText={setDlImzaYeri}
+                  placeholder="Konya (opsiyonel)" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Tarih">
+                <TextInput style={s.input} value={dlTarih} onChangeText={setDlTarih}
+                  placeholder="04.07.2026" placeholderTextColor={colors.text3} />
+              </Alan>
+            </ScrollView>
+          )}
+
+          {dlAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Dilekçe Metni</Text>
+              <Text style={s.adimAlt}>Köşeli parantezli [...] kısımları kendine göre düzenle</Text>
+              <TextInput
+                style={[s.input, s.textArea, { minHeight: 220, textAlignVertical: 'top' }]}
+                value={dlGovde} onChangeText={setDlGovde} multiline
+                placeholder="Dilekçe gövdesi" placeholderTextColor={colors.text3}
+              />
+              <Alan label="Ekler">
+                <TextInput style={[s.input, s.textArea]} value={dlEkler} onChangeText={setDlEkler}
+                  placeholder="Her satıra bir ek — opsiyonel" placeholderTextColor={colors.text3} multiline />
+              </Alan>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {dlAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={dlGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity style={[s.ileriBtn, dlYukleniyor && s.ileriDisabled]} onPress={dlIleri} activeOpacity={0.8} disabled={dlYukleniyor}>
+            {dlAdim === DL_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{dlYukleniyor ? 'Oluşturuluyor...' : 'Dilekçeyi Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Dönem Sonu Raporu akışı (Sınıf Rehberlik Hizmetleri Dönem Sonu Faaliyet Raporu) ──
+  if (isDonemSonu) {
+    const DS_ADIMLAR = ['Temel Bilgiler', 'Kazanımlar', 'Faaliyetler', 'Değerlendirme'];
+    const dsDonemLabel = DONEM_SECENEKLERI.find(d => d.key === dsDonem)?.label ?? '';
+
+    const dsIleri = () => {
+      if (dsAdim === 0) {
+        if (!dsOkulAdi.trim() || !dsSinif.trim() || !dsRehber.trim()) {
+          Alert.alert('Eksik bilgi', 'Okul adı, sınıf/şube ve sınıf rehber öğretmeni zorunlu.');
+          return;
+        }
+      }
+      if (dsAdim === DS_ADIMLAR.length - 1) { dsOlustur(); return; }
+      setDsAdim(dsAdim + 1);
+    };
+    const dsGeri = () => setDsAdim(dsAdim - 1);
+
+    async function dsOlustur() {
+      setDsYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, dsOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, dsRehber);
+        if (dsMudur.trim()) await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, dsMudur);
+
+        const formData: DonemSonuFormData = {
+          okulAdi: dsOkulAdi, egitimYili: dsEgitimYili, donemLabel: dsDonemLabel,
+          sinif: dsSinif, sinifRehberOgretmeni: dsRehber, okulMuduru: dsMudur, tarih: dsTarih,
+          kazanimDurumu: dsKazanimDurumu, kazanimAciklama: dsKazanimAciklama,
+          uygulananTeknikler: dsTeknikler,
+          rehberlikFaaliyetleri: dsFaaliyetler,
+          veliFaaliyetleri: dsVeliFaaliyetler,
+          yonlendirmeler: dsYonlendirmeler,
+          guclukler: dsGuclukler, cozumOnerileri: dsCozum,
+          pdrIsbirligi: dsPdrIsbirligi, pdrBeklenti: dsPdrBeklenti,
+        };
+
+        const html    = donemSonuHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
+        await Print.printAsync({ uri });
+      } catch {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setDsYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Dönem Sonu Raporu" back />
+
+        <View style={s.stepper}>
+          {DS_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= dsAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= dsAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === dsAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {dsAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Temel Bilgiler</Text>
+              <Text style={s.adimAlt}>{dsEgitimYili} · Sınıf rehberlik dönem sonu raporu</Text>
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={dsOkulAdi} onChangeText={setDsOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Dönem" zorunlu>
+                <View style={s.chipRow}>
+                  {DONEM_SECENEKLERI.map(({ key, label }) => (
+                    <TouchableOpacity key={key} style={[s.chip, dsDonem === key && s.chipActive]}
+                      onPress={() => setDsDonem(key)} activeOpacity={0.7}>
+                      <Text style={[s.chipText, dsDonem === key && s.chipTextActive]}>{label}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </Alan>
+              <Alan label="Sınıf / Şube" zorunlu>
+                <TextInput style={s.input} value={dsSinif} onChangeText={setDsSinif}
+                  placeholder="11 / C" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Sınıf Rehber Öğretmeni" zorunlu>
+                <TextInput style={s.input} value={dsRehber} onChangeText={setDsRehber}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Okul Müdürü">
+                <TextInput style={s.input} value={dsMudur} onChangeText={setDsMudur}
+                  placeholder="Müdür adı" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Rapor Tarihi">
+                <TextInput style={s.input} value={dsTarih} onChangeText={setDsTarih}
+                  placeholder="20.06.2025" placeholderTextColor={colors.text3} />
+              </Alan>
+            </ScrollView>
+          )}
+
+          {dsAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Kazanımlar & Teknikler</Text>
+              <Alan label="Tüm kazanımlar (yıllık plana göre) gerçekleştirilebildi mi?">
+                <View style={s.chipRow}>
+                  {KAZANIM_DURUMLARI.map(({ key, label }) => (
+                    <TouchableOpacity key={key} style={[s.chip, dsKazanimDurumu === key && s.chipActive]}
+                      onPress={() => setDsKazanimDurumu(key)} activeOpacity={0.7}>
+                      <Text style={[s.chipText, dsKazanimDurumu === key && s.chipTextActive]}>{label}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </Alan>
+              {dsKazanimDurumu !== 'evet' && (
+                <Alan label="Gerçekleştirilemeyen kazanımlar">
+                  <TextInput style={[s.input, s.textArea]} value={dsKazanimAciklama} onChangeText={setDsKazanimAciklama}
+                    placeholder="Zaman yetersizliği nedeniyle ... kazanımları işlenemedi." placeholderTextColor={colors.text3} multiline />
+                </Alan>
+              )}
+              <Alan label="Uygulanan Teknikler">
+                <TextInput style={[s.input, s.textArea]} value={dsTeknikler} onChangeText={setDsTeknikler}
+                  placeholder="Otobiyografi, öğrenci tanıma formu, sosyometri..." placeholderTextColor={colors.text3} multiline />
+              </Alan>
+            </ScrollView>
+          )}
+
+          {dsAdim === 2 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Yapılan Rehberlik Faaliyetleri</Text>
+              <Text style={s.adimAlt}>Çalışma + katılan kız/erkek sayısı</Text>
+              {dsFaaliyetler.map((f, i) => (
+                <View key={i} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Çalışma</Text>
+                    {dsFaaliyetler.length > 1 && (
+                      <TouchableOpacity onPress={() => setDsFaaliyetler(dsFaaliyetler.filter((_, idx) => idx !== i))} style={s.deleteBtn} activeOpacity={0.7}>
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={f.calisma}
+                    onChangeText={t => setDsFaaliyetler(dsFaaliyetler.map((x, idx) => idx === i ? { ...x, calisma: t } : x))}
+                    placeholder="Oryantasyon / motivasyon çalışması" placeholderTextColor={colors.text3} />
+                  <View style={{ flexDirection: 'row', gap: 8 }}>
+                    <TextInput style={[s.input, { flex: 1 }]} value={f.kiz}
+                      onChangeText={t => setDsFaaliyetler(dsFaaliyetler.map((x, idx) => idx === i ? { ...x, kiz: t } : x))}
+                      placeholder="Kız" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                    <TextInput style={[s.input, { flex: 1 }]} value={f.erkek}
+                      onChangeText={t => setDsFaaliyetler(dsFaaliyetler.map((x, idx) => idx === i ? { ...x, erkek: t } : x))}
+                      placeholder="Erkek" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                  </View>
+                </View>
+              ))}
+              <TouchableOpacity style={s.addBtn} onPress={() => setDsFaaliyetler([...dsFaaliyetler, bosFaaliyetSatiri()])} activeOpacity={0.7}>
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Çalışma Ekle</Text>
+              </TouchableOpacity>
+
+              <View style={{ height: 20 }} />
+              <Text style={s.adimBaslik}>Velilere Yönelik Faaliyetler</Text>
+              <Text style={s.adimAlt}>Çalışma + katılan anne/baba/diğer sayısı</Text>
+              {dsVeliFaaliyetler.map((v, i) => (
+                <View key={i} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Çalışma</Text>
+                    {dsVeliFaaliyetler.length > 1 && (
+                      <TouchableOpacity onPress={() => setDsVeliFaaliyetler(dsVeliFaaliyetler.filter((_, idx) => idx !== i))} style={s.deleteBtn} activeOpacity={0.7}>
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={v.calisma}
+                    onChangeText={t => setDsVeliFaaliyetler(dsVeliFaaliyetler.map((x, idx) => idx === i ? { ...x, calisma: t } : x))}
+                    placeholder="Veli Toplantısı" placeholderTextColor={colors.text3} />
+                  <View style={{ flexDirection: 'row', gap: 8 }}>
+                    <TextInput style={[s.input, { flex: 1 }]} value={v.anne}
+                      onChangeText={t => setDsVeliFaaliyetler(dsVeliFaaliyetler.map((x, idx) => idx === i ? { ...x, anne: t } : x))}
+                      placeholder="Anne" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                    <TextInput style={[s.input, { flex: 1 }]} value={v.baba}
+                      onChangeText={t => setDsVeliFaaliyetler(dsVeliFaaliyetler.map((x, idx) => idx === i ? { ...x, baba: t } : x))}
+                      placeholder="Baba" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                    <TextInput style={[s.input, { flex: 1 }]} value={v.diger}
+                      onChangeText={t => setDsVeliFaaliyetler(dsVeliFaaliyetler.map((x, idx) => idx === i ? { ...x, diger: t } : x))}
+                      placeholder="Diğer" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                  </View>
+                </View>
+              ))}
+              <TouchableOpacity style={s.addBtn} onPress={() => setDsVeliFaaliyetler([...dsVeliFaaliyetler, bosVeliFaaliyetSatiri()])} activeOpacity={0.7}>
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Veli Çalışması Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+
+          {dsAdim === 3 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>PDR'ye Yönlendirilenler</Text>
+              <Text style={s.adimAlt}>İsteğe bağlı</Text>
+              {dsYonlendirmeler.map((y, i) => (
+                <View key={i} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Öğrenci</Text>
+                    <TouchableOpacity onPress={() => setDsYonlendirmeler(dsYonlendirmeler.filter((_, idx) => idx !== i))} style={s.deleteBtn} activeOpacity={0.7}>
+                      <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                    </TouchableOpacity>
+                  </View>
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={y.adSoyad}
+                    onChangeText={t => setDsYonlendirmeler(dsYonlendirmeler.map((x, idx) => idx === i ? { ...x, adSoyad: t } : x))}
+                    placeholder="Öğrenci adı soyadı" placeholderTextColor={colors.text3} />
+                  <View style={{ flexDirection: 'row', gap: 8, marginBottom: 8 }}>
+                    <TextInput style={[s.input, { flex: 1 }]} value={y.no}
+                      onChangeText={t => setDsYonlendirmeler(dsYonlendirmeler.map((x, idx) => idx === i ? { ...x, no: t } : x))}
+                      placeholder="No" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                    <TextInput style={[s.input, { flex: 2 }]} value={y.veli}
+                      onChangeText={t => setDsYonlendirmeler(dsYonlendirmeler.map((x, idx) => idx === i ? { ...x, veli: t } : x))}
+                      placeholder="Veli adı" placeholderTextColor={colors.text3} />
+                  </View>
+                  <TextInput style={s.input} value={y.neden}
+                    onChangeText={t => setDsYonlendirmeler(dsYonlendirmeler.map((x, idx) => idx === i ? { ...x, neden: t } : x))}
+                    placeholder="Yönlendirme nedeni" placeholderTextColor={colors.text3} />
+                </View>
+              ))}
+              <TouchableOpacity style={s.addBtn} onPress={() => setDsYonlendirmeler([...dsYonlendirmeler, bosYonlendirmeSatiri()])} activeOpacity={0.7}>
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Yönlendirme Ekle</Text>
+              </TouchableOpacity>
+
+              <View style={{ height: 20 }} />
+              <Alan label="Karşılaşılan Güçlükler ve Nedenleri">
+                <TextInput style={[s.input, s.textArea]} value={dsGuclukler} onChangeText={setDsGuclukler}
+                  placeholder="Dönem içinde karşılaşılan güçlükler..." placeholderTextColor={colors.text3} multiline />
+              </Alan>
+              <Alan label="Çözüm Önerileri">
+                <TextInput style={[s.input, s.textArea]} value={dsCozum} onChangeText={setDsCozum}
+                  placeholder="Öneriler..." placeholderTextColor={colors.text3} multiline />
+              </Alan>
+              <Alan label="Okul PDR Servisi ile İşbirliği">
+                <TextInput style={[s.input, s.textArea]} value={dsPdrIsbirligi} onChangeText={setDsPdrIsbirligi}
+                  placeholder="Servis ile yürütülen işbirliği..." placeholderTextColor={colors.text3} multiline />
+              </Alan>
+              <Alan label="PDR Servisinden Beklentiler">
+                <TextInput style={[s.input, s.textArea]} value={dsPdrBeklenti} onChangeText={setDsPdrBeklenti}
+                  placeholder="Beklentiler..." placeholderTextColor={colors.text3} multiline />
+              </Alan>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {dsAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={dsGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity style={[s.ileriBtn, dsYukleniyor && s.ileriDisabled]} onPress={dsIleri} activeOpacity={0.8} disabled={dsYukleniyor}>
+            {dsAdim === DS_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{dsYukleniyor ? 'Oluşturuluyor...' : 'Raporu Oluştur'}</Text>
+              </>
+            ) : (
+              <>
+                <Text style={s.ileriBtnText}>İleri</Text>
+                <ChevronRight size={18} color="#fff" strokeWidth={2} />
+              </>
+            )}
+          </TouchableOpacity>
+        </View>
+      </Screen>
+    );
+  }
+
+  // ─── Rehberlik Aylık Rapor akışı (Sınıf Rehber Öğretmeni Aylık Çalışma Raporu) ──
+  if (isRehberlikAylik) {
+    const RB_ADIMLAR = ['Sınıf & Bilgiler', 'Çalışmalar', 'Görüşmeler'];
+
+    const rbListEditor = (
+      baslik: string,
+      alt: string,
+      liste: string[],
+      setListe: (v: string[]) => void,
+      tekil: string,
+      placeholder: string,
+    ) => (
+      <View style={{ marginBottom: 18 }}>
+        <Text style={s.adimBaslik}>{baslik}</Text>
+        <Text style={s.adimAlt}>{alt}</Text>
+        {liste.map((deger, i) => (
+          <View key={i} style={s.soruCard}>
+            <View style={s.soruHeader}>
+              <Text style={s.soruNo}>{i + 1}. {tekil}</Text>
+              {liste.length > 1 && (
+                <TouchableOpacity
+                  onPress={() => setListe(liste.filter((_, idx) => idx !== i))}
+                  style={s.deleteBtn}
+                  activeOpacity={0.7}
+                >
+                  <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                </TouchableOpacity>
+              )}
+            </View>
+            <TextInput
+              style={[s.input, s.textArea]}
+              value={deger}
+              onChangeText={v => setListe(liste.map((x, idx) => idx === i ? v : x))}
+              placeholder={placeholder}
+              placeholderTextColor={colors.text3}
+              multiline
+            />
+          </View>
+        ))}
+        <TouchableOpacity style={s.addBtn} onPress={() => setListe([...liste, ''])} activeOpacity={0.7}>
+          <Plus size={16} color={colors.accent} strokeWidth={2} />
+          <Text style={s.addBtnText}>{tekil} Ekle</Text>
+        </TouchableOpacity>
+      </View>
+    );
+
+    function rbAySecilince(ay: string, no: number) {
+      setRbAy(ay);
+      setRbRaporNo(no);
+    }
+
+    const rbIleri = () => {
+      if (rbAdim === 0) {
+        if (!rbOkulAdi.trim() || !rbSinif.trim() || !rbSinifOgretmeni.trim()) {
+          Alert.alert('Eksik bilgi', 'Okul adı, sınıf ve sınıf öğretmeni zorunlu.');
+          return;
+        }
+        if (!rbAy) {
+          Alert.alert('Eksik bilgi', 'Rapor ayı seçilmeli.');
+          return;
+        }
+      }
+      if (rbAdim === 1) {
+        if (rbCalismalar.filter(t => t.trim()).length === 0) {
+          Alert.alert('Eksik bilgi', 'En az bir yapılan çalışma girilmeli.');
+          return;
+        }
+      }
+      if (rbAdim === RB_ADIMLAR.length - 1) {
+        rbOlustur();
+        return;
+      }
+      setRbAdim(rbAdim + 1);
+    };
+    const rbGeri = () => setRbAdim(rbAdim - 1);
+
+    async function rbOlustur() {
+      setRbYukleniyor(true);
+      try {
+        await AsyncStorage.setItem(STORAGE_OKUL, rbOkulAdi);
+        await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, rbSinifOgretmeni);
+        if (rbMudur.trim()) await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, rbMudur);
+
+        const formData: AylikRehberlikFormData = {
+          okulAdi: rbOkulAdi,
+          egitimYili: rbEgitimYili,
+          sinif: rbSinif,
+          ay: rbAy,
+          raporNo: rbRaporNo,
+          raporTarihi: rbRaporTarihi,
+          sinifMevcudu: parseInt(rbSinifMevcudu, 10) || 0,
+          sinifOgretmeni: rbSinifOgretmeni,
+          okulRehberOgretmeni: rbRehberOgretmeni,
+          okulMuduru: rbMudur,
+          yapilanCalismalar: rbCalismalar.filter(t => t.trim()),
+          islenenKazanimlar: rbKazanimlar.filter(t => t.trim()),
+          yapilanEtkinlikler: rbEtkinlikler.filter(t => t.trim()),
+          veliGorusmeleri: rbVeliGorusmeleri
+            .filter(v => v.adSoyad.trim() || v.konu.trim())
+            .map((v, i) => ({ ...v, sira: i + 1 })),
+          ogrenciGorusmeleri: rbOgrenciGorusmeleri
+            .filter(o => o.adSoyad.trim() || o.konu.trim())
+            .map((o, i) => ({ ...o, sira: i + 1 })),
+        };
+
+        const html    = aylikRehberlikHtmlOlustur(formData);
+        const { uri } = await Print.printToFileAsync({ html, base64: false });
+        await Print.printAsync({ uri });
+      } catch {
+        Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
+      } finally {
+        setRbYukleniyor(false);
+      }
+    }
+
+    return (
+      <Screen bg={colors.surface}>
+        <AppBar title="Aylık Rehberlik Raporu" back />
+
+        <View style={s.stepper}>
+          {RB_ADIMLAR.map((a, i) => (
+            <View key={i} style={s.stepItem}>
+              <View style={[s.stepDot, i <= rbAdim && s.stepDotActive]}>
+                <Text style={[s.stepNo, i <= rbAdim && s.stepNoActive]}>{i + 1}</Text>
+              </View>
+              <Text style={[s.stepLabel, i === rbAdim && s.stepLabelActive]}>{a}</Text>
+            </View>
+          ))}
+        </View>
+
+        <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          {rbAdim === 0 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Sınıf & Bilgiler</Text>
+              <Text style={s.adimAlt}>{rbEgitimYili} · Aylık rehberlik çalışma raporu</Text>
+
+              <Alan label="Okul Adı" zorunlu>
+                <TextInput style={s.input} value={rbOkulAdi} onChangeText={setRbOkulAdi}
+                  placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Sınıf" zorunlu>
+                <TextInput style={s.input} value={rbSinif} onChangeText={setRbSinif}
+                  placeholder="11/C" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              <Alan label="Rapor Ayı" zorunlu>
+                <View style={s.chipRow}>
+                  {REHBERLIK_AYLARI.map(({ ad, no }) => (
+                    <TouchableOpacity
+                      key={ad}
+                      style={[s.chip, rbAy === ad && s.chipActive]}
+                      onPress={() => rbAySecilince(ad, no)}
+                      activeOpacity={0.7}
+                    >
+                      <Text style={[s.chipText, rbAy === ad && s.chipTextActive]}>{ad}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </Alan>
+
+              <Alan label="Rapor Tarihi" zorunlu>
+                <TextInput style={s.input} value={rbRaporTarihi} onChangeText={setRbRaporTarihi}
+                  placeholder="30.09.2025" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Sınıf Mevcudu">
+                <TextInput style={s.input} value={rbSinifMevcudu} onChangeText={setRbSinifMevcudu}
+                  placeholder="22" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+              </Alan>
+              <Alan label="Sınıf Öğretmeni" zorunlu>
+                <TextInput style={s.input} value={rbSinifOgretmeni} onChangeText={setRbSinifOgretmeni}
+                  placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Okul Rehber Öğretmeni">
+                <TextInput style={s.input} value={rbRehberOgretmeni} onChangeText={setRbRehberOgretmeni}
+                  placeholder="Rehber öğretmen adı" placeholderTextColor={colors.text3} />
+              </Alan>
+              <Alan label="Okul Müdürü">
+                <TextInput style={s.input} value={rbMudur} onChangeText={setRbMudur}
+                  placeholder="Müdür adı" placeholderTextColor={colors.text3} />
+              </Alan>
+
+              {rbAy !== '' && (
+                <View style={s.infoCard}>
+                  <Text style={s.infoText}>
+                    Rapor No: <Text style={s.infoVurgu}>{rbRaporNo}</Text>
+                    {'  '}· {rbAy} ayı. Sonraki adımda çalışmaları, kazanımları ve etkinlikleri gireceksin.
+                  </Text>
+                </View>
+              )}
+            </ScrollView>
+          )}
+
+          {rbAdim === 1 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              {rbListEditor(
+                'Yapılan Rehberlik Çalışmaları',
+                'Bu ay sınıfta yürütülen çalışmalar — her madde ayrı kart',
+                rbCalismalar, setRbCalismalar, 'Çalışma',
+                'Sınıf rehberlik planı hazırlandı.',
+              )}
+              {rbListEditor(
+                'Yıllık Plana Göre İşlenen Kazanımlar',
+                'Numaralandırma çıktıda otomatik eklenir',
+                rbKazanimlar, setRbKazanimlar, 'Kazanım',
+                'Başarılı olduğu durumlarda kendini takdir eder.',
+              )}
+              {rbListEditor(
+                'Yapılan Etkinlikler (ORGM 1. Cilt)',
+                'Numaralandırma çıktıda otomatik eklenir',
+                rbEtkinlikler, setRbEtkinlikler, 'Etkinlik',
+                'YAŞAM KARNEM',
+              )}
+            </ScrollView>
+          )}
+
+          {rbAdim === 2 && (
+            <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+              <Text style={s.adimBaslik}>Velilerle Yapılan Görüşmeler</Text>
+              <Text style={s.adimAlt}>İsteğe bağlı — görüşme yoksa boş bırakabilirsin</Text>
+              {rbVeliGorusmeleri.map((v, i) => (
+                <View key={i} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Veli</Text>
+                    <TouchableOpacity
+                      onPress={() => setRbVeliGorusmeleri(rbVeliGorusmeleri.filter((_, idx) => idx !== i))}
+                      style={s.deleteBtn} activeOpacity={0.7}
+                    >
+                      <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                    </TouchableOpacity>
+                  </View>
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={v.adSoyad}
+                    onChangeText={t => setRbVeliGorusmeleri(rbVeliGorusmeleri.map((x, idx) => idx === i ? { ...x, adSoyad: t } : x))}
+                    placeholder="Veli adı soyadı" placeholderTextColor={colors.text3} />
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={v.ogrencisi}
+                    onChangeText={t => setRbVeliGorusmeleri(rbVeliGorusmeleri.map((x, idx) => idx === i ? { ...x, ogrencisi: t } : x))}
+                    placeholder="Öğrencisi (ad soyad)" placeholderTextColor={colors.text3} />
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={v.konu}
+                    onChangeText={t => setRbVeliGorusmeleri(rbVeliGorusmeleri.map((x, idx) => idx === i ? { ...x, konu: t } : x))}
+                    placeholder="Görüşme konusu" placeholderTextColor={colors.text3} />
+                  <TextInput style={s.input} value={v.tarih}
+                    onChangeText={t => setRbVeliGorusmeleri(rbVeliGorusmeleri.map((x, idx) => idx === i ? { ...x, tarih: t } : x))}
+                    placeholder="Tarih" placeholderTextColor={colors.text3} />
+                </View>
+              ))}
+              <TouchableOpacity style={s.addBtn}
+                onPress={() => setRbVeliGorusmeleri([...rbVeliGorusmeleri, bosVeliGorusmeSatiri(rbVeliGorusmeleri.length + 1)])}
+                activeOpacity={0.7}>
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Veli Görüşmesi Ekle</Text>
+              </TouchableOpacity>
+
+              <View style={{ height: 20 }} />
+              <Text style={s.adimBaslik}>Öğrencilerle Yapılan Görüşmeler</Text>
+              <Text style={s.adimAlt}>İsteğe bağlı</Text>
+              {rbOgrenciGorusmeleri.map((o, i) => (
+                <View key={i} style={s.soruCard}>
+                  <View style={s.soruHeader}>
+                    <Text style={s.soruNo}>{i + 1}. Öğrenci</Text>
+                    <TouchableOpacity
+                      onPress={() => setRbOgrenciGorusmeleri(rbOgrenciGorusmeleri.filter((_, idx) => idx !== i))}
+                      style={s.deleteBtn} activeOpacity={0.7}
+                    >
+                      <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                    </TouchableOpacity>
+                  </View>
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={o.adSoyad}
+                    onChangeText={t => setRbOgrenciGorusmeleri(rbOgrenciGorusmeleri.map((x, idx) => idx === i ? { ...x, adSoyad: t } : x))}
+                    placeholder="Öğrenci adı soyadı" placeholderTextColor={colors.text3} />
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={o.konu}
+                    onChangeText={t => setRbOgrenciGorusmeleri(rbOgrenciGorusmeleri.map((x, idx) => idx === i ? { ...x, konu: t } : x))}
+                    placeholder="Görüşme konusu" placeholderTextColor={colors.text3} />
+                  <TextInput style={s.input} value={o.tarih}
+                    onChangeText={t => setRbOgrenciGorusmeleri(rbOgrenciGorusmeleri.map((x, idx) => idx === i ? { ...x, tarih: t } : x))}
+                    placeholder="Tarih" placeholderTextColor={colors.text3} />
+                </View>
+              ))}
+              <TouchableOpacity style={s.addBtn}
+                onPress={() => setRbOgrenciGorusmeleri([...rbOgrenciGorusmeleri, bosOgrenciGorusmeSatiri(rbOgrenciGorusmeleri.length + 1)])}
+                activeOpacity={0.7}>
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Öğrenci Görüşmesi Ekle</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          )}
+        </KeyboardAvoidingView>
+
+        <View style={s.altBar}>
+          {rbAdim > 0 ? (
+            <TouchableOpacity style={s.geriBtn} onPress={rbGeri} activeOpacity={0.7}>
+              <ChevronLeft size={18} color={colors.text1} strokeWidth={2} />
+              <Text style={s.geriBtnText}>Geri</Text>
+            </TouchableOpacity>
+          ) : <View />}
+          <TouchableOpacity
+            style={[s.ileriBtn, rbYukleniyor && s.ileriDisabled]}
+            onPress={rbIleri} activeOpacity={0.8} disabled={rbYukleniyor}
+          >
+            {rbAdim === RB_ADIMLAR.length - 1 ? (
+              <>
+                <FileDown size={18} color="#fff" strokeWidth={2} />
+                <Text style={s.ileriBtnText}>{rbYukleniyor ? 'Oluşturuluyor...' : 'Raporu Oluştur'}</Text>
               </>
             ) : (
               <>
