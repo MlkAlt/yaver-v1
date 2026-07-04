@@ -4,6 +4,18 @@
 
 ## Evrak Modülleri
 
+### 2026-07-04 — Q2 cihaz testi geri bildirimi: 7 iş kalemi (oturum 76'da işlenecek)
+**Kullanıcı testi:** `feature/evrak-pdf-margin-mimarisi` gerçek cihazda Expo Go ile test edildi. Push/merge YAPILMADI — önce geri bildirim işlenecek.
+**Bulgular ve kararlar (detay STATUS.md "oturum 76"):**
+1. Form input'lar "düz yazı" gibi, taşan gri kutu var → gerçek form-input UI/UX gerekiyor (tüm sihirbazları etkileyen merkezi düzeltme).
+2. Sınav Analizi'nde önizleme yok, direkt paylaşıma açıyor — diğer 10 evrak `Print.printAsync` önizlemesine geçmişken bu ekran unutulmuş.
+3. **Yatay (@page landscape) render'da dikey çıkıyor** — expo-print native tarafı CSS orientation'ı görmezden geliyor olabilir; muhtemel çözüm `printToFileAsync`'e explicit width/height. **Kural netleşti: "plan" olan her evrak yatay, rapor/defter/tutanak/dilekçe dikey.**
+4. **Rehberlik veri zinciri kurulacak:** Yıllık Plan → Aylık Rapor (AsyncStorage'da sınıf+ay bazlı kalıcı, öğretmen düzenleyebilir) → Dönem Sonu Raporu (dönemin ilgili aylarını otomatik toplar, manuel varsa manuel'i kullanır yoksa plandakini).
+5. **Kulüp Karar Defteri'ne hazır varsayılan içerik eklenecek** — önceki "gerçek toplantı verisi türetilemez, boş kalsın" kararı kısmen revize edildi: en azından tipik/örnek gündem-karar şablonu ile öğretmen hiç dokunmadan da kullanabilmeli. **Genel felsefe (kullanıcı vurguladı):** çoğu evrak zaten hazır-varsayılanlı gelmeli, öğretmen sadece onaylasın.
+6. Margin'ler hâlâ fazla geniş hissediyor — önceki "≤20mm" kuralı yetersiz, daha dar standart gerekiyor.
+7. EvraklarimScreen'de Kulüp/Rehberlik bölümleri ayrı/altta/farklı stilde — ana ızgaradaki chip/kart formatına taşınacak.
+**Sıra:** P1(input)+P7(IA) → P3(landscape)+P6(margin) → P2(sınav analizi) → P4(veri zinciri) → P5(karar defteri içerik).
+
 ### 2026-07-04 — Ajan organizasyonu + şef-conductor modeli
 **Karar:** Kalan işler için dünya-çapı mobil stüdyo gibi 5 rollü ajan ekibi kuruldu (`.claude/agents/`: delivery-lead, evrak-engineer, ui-craftsman, qa-verifier, refactor-engineer) + dosya-tabanlı koordinasyon (`.claude/orchestration/board.json` + handoff/ + `OPERATING_MODEL.md`) + `scripts/board.cjs` (status/next/gate).
 **Orkestrasyon gerçeği:** Claude Code'da alt-ajanı yalnızca ana oturum (şef) başlatır; "biri bitince sıradakini tetikle" = ajan biter → harness şefe haber verir → şef sıradakini başlatır. Script daemon DEĞİL, durum panosu + tsc geçidi. Paralellik yalnız **ayrık dosya setlerinde** (ör. PlanimScreen ↔ SablonDoldurma). Paylaşılan hot dosyaların (SablonDoldurma/Evraklarim) wiring'i hep şef tarafından serileştirildi — sıfır çakışma.

@@ -1,6 +1,26 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 04.07.2026 — Oturum 75
+**Son güncelleme:** 04.07.2026 — Oturum 76 (Q2 cihaz testi geri bildirimi)
+
+## ŞU AN NEREDEYİZ (oturum 76 — Q2 test sonucu + sıradaki plan)
+
+**Durum:** Kullanıcı `feature/evrak-pdf-margin-mimarisi` branch'ini Expo Go ile gerçek cihazda test etti (Q2). **Push edilmedi, main'e merge edilmedi** — önce aşağıdaki geri bildirim işlenecek, sonra "her şeyi push et" denilecek.
+
+**Test sonucu — 7 iş kalemi (öncelik sırasıyla, henüz hiçbiri kodlanmadı):**
+
+1. **P1 — Form input tasarımı (en kritik):** `SablonDoldurmaScreen.tsx`'teki `s.input`/`s.textArea` "düz yazı" gibi görünüyor, bazı yerde taşan gri rounded kutu var. Gerçek form-input görünümüne çevrilecek (ui-craftsman: `/yaver-ui-kit`+`/ui-redesign`+`/ux-critic`). Merkezi stil olduğu için tek düzeltme tüm sihirbazlara yansır.
+2. **P2 — Sınav Analizi'nde PDF önizleme yok:** direkt paylaşıma açıyor (diğer 10 evrak `Print.printAsync` önizlemesine geçmişti, bu ekran unutulmuş/eski `Sharing.shareAsync` deseninde kalmış). İzole hızlı fix.
+3. **P3 — Yatay (landscape) print bug (kritik, mimari):** `@page A4 landscape` render'da DİKEY çıkıyor. Kök neden: muhtemelen expo-print native tarafı `@page` orientation'ı yok sayıyor; çözüm muhtemelen `Print.printToFileAsync`'e açık `width/height` (points, landscape=width>height) geçmek. **Etkilenen:** Kulüp Yıllık Planı, Toplum Hizmeti Planı, Yıllık Rehberlik Planı. Kural netleşti: **"plan" olan her evrak yatay, diğerleri (rapor/defter/tutanak/dilekçe) dikey.**
+4. **P4 — Rehberlik veri zinciri (en büyük iş):** Yıllık Plan → Aylık Rapor → Dönem Sonu Raporu şu an birbirinden kopuk. Olması gereken: Aylık Rapor açılınca o ayın Yıllık Plan verisi öneri olarak gelir (kulüp aylık rapor deseni gibi) → öğretmen düzenlerse **AsyncStorage'da sınıf+ay bazlı kalıcı saklanır** → Dönem Sonu Raporu, dönemin (I=Eylül-Ocak/ay 1-5, II=Şubat-Haziran/ay 6-10, Yılsonu=tümü — `REHBERLIK_AYLARI` sırasına göre) ilgili aylarını otomatik toplar: öğretmen o ay için manuel kayıt girmişse onu, girmemişse plandan geleni kullanır.
+5. **P5 — Kulüp Karar Defteri'ne hazır varsayılan içerik:** Şu an bilinçli boş (önceki karar: "gerçek toplantı verisi türetilemez"). Yeni istek: öğretmen hiç dokunmadan da kullanabilmeli → tipik/örnek gündem-karar metni (gerçek veri değil, şablon). Referans yoksa kullanıcıdan istenecek ya da web araştırması yapılacak. **Genel felsefe hatırlatması (kullanıcı vurguladı):** çoğu evrak zaten hazır-varsayılanlı gelmeli, bu gözle diğer modüller de gözden geçirilecek.
+6. **P6 — Margin standardizasyonu:** Önceki oturumun "≤20mm" kuralı yetersiz, hâlâ fazla boşluklu. Tüm şablonlar tek seferde daha dar/tutarlı bir standarda çekilecek (P3 ile aynı @page dosyalarına dokunulacağı için birlikte yapılabilir).
+7. **P7 — EvraklarimScreen bilgi mimarisi:** Kulüp + Rehberlik evrakları şu an ayrı/altta/farklı stilde (liste kartı) duruyor. Ana ızgaradaki chip/kart formatına çevrilip yukarı taşınacak.
+
+**Planlanan sıra:** P1+P7 (tek UI redesign geçişi) → P3+P6 (print mimarisi) → P2 (hızlı) → P4 (veri zinciri) → P5 (içerik).
+
+**Test edilip SORUN BULUNMAYAN kısımlar (dokunma):** Diğer evrakların (Aylık Rehberlik Raporu, Dönem Sonu form akışı, Dilekçe, Zümre/ŞÖK/Veli/Performans/Kulüp Yıllık Plan içeriği) önizlemesi kullanıcıya göre "güzel" — sadece kenar boşluğu (P6) ve input stili (P1) genel sorun.
+
+---
 
 ## ŞU AN NEREDEYİZ (oturum 75 özeti)
 
