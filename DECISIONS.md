@@ -2,7 +2,60 @@
 
 ---
 
+## Repo Hijyeni
+
+### 2026-07-06 — Büyük referans dosyaları git'e commit edilmeyecek (repo şişirme protokolü)
+**Olay:** Rehberlik etkinlik kitabı taraması için eklenen 7 PDF (~400MB toplam, 9-76MB/dosya) yanlışlıkla `git add -A` ile commit'e girdi, push zaman aşımına uğradı. Repodaki diğer referans belgeler (xlsx/docx/doc) hepsi <400KB — bu PDF'ler örüntünün tamamen dışındaydı.
+**Karar/Protokol:**
+1. Referans/kaynak dosyası eklerken (PDF/xlsx/docx/görsel tarama vb.) commit'ten önce boyut kontrol edilir. **~5MB üstü tek dosya asla düşünmeden commit edilmez.**
+2. Bir kaynak dosya yalnızca tek-seferlik veri çıkarımı için kullanılıyorsa (script ile `.ts`'e işleniyorsa, bkz. `scripts/extract-*.cjs`) ham dosyanın kendisi git geçmişinde tutulmaz — çıkarılan veri (`src/data/*.ts`) tek kaynaktır, ham dosya yerelde/`.gitignore`'da kalır.
+3. `git add -A` sonrası commit'ten ÖNCE `git status`/`git diff --stat` ile büyük/beklenmedik dosya var mı gözle kontrol edilir — özellikle büyük oturumlarda çok sayıda dosya birikmişse.
+**Uygulama:** `.gitignore`'a `evraklar/rehberlik/*.pdf` eklendi (yorum: neden). Zaten önceki bir commit'te push edilmiş 9.6MB'lık tek PDF (`11. sınıf rehberlik etkinlikleri.pdf`) geriye dönük temizlenmedi (history rewrite kapsam dışı, kullanıcı istemedi) — sadece ileriye dönük tekrarı önleniyor.
+
+---
+
+## Ajan Organizasyonu
+
+### 2026-07-05 — ui-craftsman'ın "sadece stil" kısıtı kaldırıldı, zorunlu plan-onay süreci eklendi
+**Karar:** Kullanıcı, ui-craftsman'ın UX/UI kalitesini zayıf bulduğunu belirtti — kök neden, agent'ın kendi kuralının ("fonksiyonu ASLA bozma, sadece stil/hiyerarşi") onu kozmetik cilayla sınırlamasıydı; component yapısı, etkileşim modeli, bilgi mimarisi değiştiremiyordu. `ui-craftsman.md` güncellendi: artık veri/iş mantığı dışında (Supabase, PDF üretim, business logic) her şeyde tam yetkili — ama HER GÖREVDE önce plan+gerekçe sunup onay almadan kod yazamaz (Faz 1: plan, Faz 2: sadece onay sonrası uygulama). `/ux-critic` hem plan öncesi denetim hem iş-sonrası kalite kontrolü için kullanılıyor.
+**Sebep:** Ayrı bir "UX mimarisi" ajanı kurmak yerine (koordinasyon yükü + token/stil kararlarında çelişki riski) tek ajanın yetkisini genişletip onay kapısıyla dengelemek tercih edildi. Kullanıcı: "tamamen özgür olsun ama kendi kendine değişiklik yapmasın, yapılacaklar listesini her seferinde onayıma sunsun."
+**Not:** `ux-critic` bir skill (proje dışı/plugin kaynaklı), içeriği düzenlenemedi — süreç ui-craftsman'ın orkestrasyonu üzerinden kontrol ediliyor.
+
+---
+
 ## Evrak Modülleri
+
+### 2026-07-05 — Rehberlik Aylık Rapor: Eylül formatından Haziran (haftalık tablo) formatına geçiş
+**Karar:** İki farklı gerçek referans belge bulundu — Eylül raporu (3 serbest liste: Çalışmalar/Kazanımlar/Etkinlikler, ilk build bu formata göre yapılmıştı) ve Haziran raporu (`evraklar/rehberlik/haziran aylık rehberlik.doc`, tamamen farklı: SIRA|TARİH|YETERLİK ALANI|KAZANIM|ETKİNLİĞİN ADI haftalık tablo + Test/Anket + Diğer Çalışmalar). Kullanıcı Haziran formatını seçti, tüm modül buna göre yeniden yazıldı (`rehberlikSablon.ts`, `rehberlikHtmlSablon.ts`, `rehberlikVeriZinciri.ts`, `SablonDoldurmaScreen.tsx`).
+**Veri kaynağı sorunu ve çözümü:** "Yeterlik Alanı"/"Etkinlik Adı" hiçbir mevcut kaynakta (xlsx yıllık planlar) yoktu — kullanıcı 7 ORGM etkinlik kitabı PDF'i ekledi. `pdftotext` (poppler) Türkçe karakterleri bozduğu için (ş/ğ/ı/ü/ö/ç kayboluyor) `pdfjs-dist` kullanıldı (doğru çıkarıyor, doğrulandı). Koordinat-bazlı etiket/değer eşleştirmesiyle (sol sütun x≈47 etiket, sağ sütun değer, aynı y) 432/562 plan satırı için gerçek veri çıkarılıp entegre edildi. Script kalıcı: `scripts/extract-rehberlik-etkinlik.cjs`.
+**Referans disiplini notu:** Eşleşmeyen ~130 satırın çoğu zaten kazanım değil (idari/tatil/form); yalnızca ~6 gerçek kazanım ifade farkından eşleşmedi, uydurulmadı, boş bırakıldı.
+**Cihazda doğrulanmadı** — sıradaki test turunda kontrol edilecek.
+
+### 2026-07-05 — PDF margin mimarisi güncellemesi: @page tek kaynak YETERSİZ, width/height de gerekli
+**Karar:** 2026-07-03'teki "@page CSS tek kaynak" kararı geçersiz kılınmadı ama eksikti. Kök neden: `expo-print`'in `printToFileAsync` API'si `orientation` parametresi almıyor — sayfa boyutu native tarafta yalnızca `width`/`height` (px, 72 PPI) ile belirleniyor, varsayılan 612×792 (US Letter dikey). `@page { size: A4 landscape }` CSS'i bu native page-size'ı override etmiyor. Bu yüzden yatay olması gereken 3 belge (Kulüp Yıllık Planı, Toplum Hizmeti Planı, Yıllık Rehberlik Planı) gerçek cihazda dikey çıkıyordu.
+**Çözüm:** Yeni ortak `src/lib/pdfOnizleme.ts` → `pdfOnizlemeAc(html, yatay)`. A4 dikey=595×842, A4 yatay=842×595 (px). Tüm `printToFileAsync` çağrıları (SablonDoldurmaScreen 12 + SinavAnaliziScreen 1) bu helper'a geçirildi.
+**Güncel kural:** `@page margin` hâlâ kenar boşluğu için tek kaynak; sayfa BOYUTU/YÖNÜ için native `width/height` de zorunlu — ikisi birlikte çalışıyor, biri diğerinin yerini tutmuyor.
+
+### 2026-07-05 — Margin standardı sıkılaştırıldı
+**Karar:** Kullanıcı ikinci turda da "kenarlarda çok boşluk var" dedi — önceki "≤20mm" kuralı yetersizdi. Yeni standart: **dikey 14mm/16mm, yatay 12mm/14mm** (13 şablonun tamamına uygulandı). `performansHtmlSablon.ts` zaten daha dardı (14mm/12mm), dokunulmadı.
+
+### 2026-07-05 — Rehberlik veri zinciri: Yıllık Plan → Aylık Rapor → Dönem Sonu
+**Karar:** Üç modül artık AsyncStorage üzerinden bağlı. Aylık Rapor'da sınıf+ay girilince: önce o sınıf+ay için daha önce kaydedilmiş manuel veri (varsa) yüklenir; yoksa Yıllık Plan'dan o ayın numaralı kazanımları öneri olarak gelir. "Raporu Oluştur"da güncel veri `@yaver/rehberlik_aylik_<sinif>_<ay>` anahtarıyla kalıcı saklanır. Dönem Sonu Raporu'nda sınıf+dönem seçilince, dönemin ilgili aylarının (I=Eylül-Ocak/ay no 1-5, II=Şubat-Haziran/ay no 6-10, Yıl Sonu=1-10) kayıtları toplanır: her ay için manuel kayıt varsa o kullanılır, yoksa plandan türetilen otomatik "işlenmiş" sayılır. Toplanan kazanımlarla plandaki tüm kazanımlar karşılaştırılıp işlenmeyenler "Kısmen/Hayır" + açıklama olarak otomatik öneriliyor.
+**Sebep:** Kullanıcı: "aylık raporlarda rehberlik planından gelen içerik ile otomatik oluşacak, manuel faaliyetler varsa onlar çekilir yoksa plan-aylık rapor-dönem sonu raporu yolu izlenir." Zaten doldurulmuş alanların üzerine yazılmıyor (pristine-check).
+**Uygulama:** `src/data/rehberlikVeriZinciri.ts`.
+
+### 2026-07-05 — Kulüp Karar Defteri: ilk toplantı için gerçek örnekten varsayılan içerik
+**Karar:** Yerel referans belge (`1847518-yoklama-ve-karar-defteri.doc`) tamamen boş bir MEB şablonuydu, gerçek gündem/karar metni içermiyordu. Kullanıcı izniyle web araştırması yapıldı, gerçek dolu bir kulüp karar defteri örneği bulundu (Bilim Fen ve Teknoloji Kulübü, gerçek okul, 5 toplantı kaydı). İlk toplantının evrensel deseni (Yoklama → temsilci/sekreter seçimi → yıllık çalışma programı → görev/usul açıklaması → dilek ve temenniler) `kulupSablon.ts`'e `ilkToplantiVarsayilanGundem()`/`ilkToplantiVarsayilanKarar()` olarak eklendi; `bosKararSatiri(1)` artık bunları döndürüyor.
+**Sebep — genel felsefe netleşti:** "Çoğu evrak hazır-varsayılanlı gelmeli, öğretmen mümkün olduğunca sadece onaylasın." Referans yoksa artık sırasıyla: (1) kullanıcıdan iste, (2) kullanıcı izin verirse web araştırması yap — tamamen referanssız/boş bırakmak yerine.
+**Kapsam sınırı:** Yalnızca ilk toplantı (no=1) şablonlu; sonraki toplantılar gerçekten o toplantıya özel olduğundan (kim geldi, hangi karar alındı) hâlâ boş — bu, önceki "gerçek toplantı verisi türetilemez" kararıyla çelişmiyor, sadece İLK toplantının MEB'de standart/tekrarlayan olduğunu kabul ediyor.
+
+### 2026-07-05 — Form input tasarımı: pill radius bug
+**Karar:** `SablonDoldurmaScreen.tsx`'teki paylaşılan `s.input` stili `borderRadius: radius.btn` (=100, tam pill) kullanıyordu — bu değer buton için doğruydu ama text input'a (özellikle çok satırlı `textArea`) uygulanınca yazı yuvarlak köşelere taşıyordu. `radius.sm` (10) ile değiştirildi. Ayrıca input'u saran kartlar (`soruCard`, `ogretmenRow`) input ile AYNI krem arka plana (`colors.bg`) sahipti — sınır görünmüyordu ("düz yazı gibi" hissi). Kartlar artık beyaz+border (`colors.surface` + `colors.border`), input krem sabit kaldı — hem beyaz ekranda hem kart içinde kontrastlı görünüyor.
+**Kapsam:** Tek `s` StyleSheet objesi 12 sihirbazın hepsinde paylaşıldığı için düzeltme hepsine yansıdı. Açık: focus state (onFocus/onBlur ring) eklenmedi.
+
+### 2026-07-05 — EvraklarimScreen: Kulüp/Rehberlik evrakları ana ızgaraya taşındı
+**Karar:** Kulüp (4) + Rehberlik (3) evrak kartları, ayrı bir yatay liste-satırı stilinden (`kulupCard`) çıkarılıp ana `SABLONLAR` ile aynı kare chip grid stiline (`sablonCard`) geçirildi. Alt başlıklar (KULÜP/REHBERLİK EVRAKLARI) korundu ama artık grid render ediyor.
+**Sebep:** Kullanıcı: "diğerleri gibi kendi chip'lerinin içinde olsa yukarıda gözükse iyi olur." KulupSheet açma davranışı ve navigation param'ları aynen korundu.
 
 ### 2026-07-04 — Q2 cihaz testi geri bildirimi: 7 iş kalemi (oturum 76'da işlenecek)
 **Kullanıcı testi:** `feature/evrak-pdf-margin-mimarisi` gerçek cihazda Expo Go ile test edildi. Push/merge YAPILMADI — önce geri bildirim işlenecek.

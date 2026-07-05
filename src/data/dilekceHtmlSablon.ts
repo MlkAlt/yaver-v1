@@ -46,7 +46,7 @@ export function dilekceHtmlOlustur(form: DilekceFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4 portrait; margin: 20mm; }
+  @page { size: A4 portrait; margin: 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 12pt; color: #000; line-height: 1.5; }
 

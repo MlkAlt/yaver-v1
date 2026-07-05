@@ -36,7 +36,7 @@ export function kulupYillikPlanHtmlOlustur(form: KulupFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4 landscape; margin: 16mm 18mm; }
+  @page { size: A4 landscape; margin: 12mm 14mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 10.5pt; color: #000; }
   .ek-etiket { text-align: right; font-weight: bold; font-size: 11pt; margin-bottom: 4px; }

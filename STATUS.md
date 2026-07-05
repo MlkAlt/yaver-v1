@@ -1,6 +1,97 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 04.07.2026 — Oturum 76 (Q2 cihaz testi geri bildirimi)
+**Son güncelleme:** 05.07.2026 — Oturum 76 devamı (Rehberlik Aylık Rapor crash fix, cihazda DOĞRULANDI — commit/push durumu için en üst bölüme bak)
+
+## ŞU AN NEREDEYİZ (Rehberlik Aylık Rapor — crash fix, cihazda doğrulandı, 05.07.2026)
+
+Kullanıcı Haziran-format geçişinden sonra hâlâ "elle giriş istiyor" diye bildirdi. Kök neden bulundu ve düzeltildi:
+
+1. **Kök neden:** `SablonDoldurmaScreen.tsx` içindeki `rbVeriyiUygula` fonksiyonu `kayit?.haftalar.length` gibi güvensiz zincirleme kullanıyordu. Kullanıcının önceki test turlarından kalan, ESKİ formatlı (Haziran-geçişi öncesi `calismalar/kazanimlar/etkinlikler` şekilli) bir AsyncStorage kaydı aynı sınıf+ay anahtarıyla varsa, `kayit` dolu ama `kayit.haftalar` undefined oluyordu → `undefined.length` **TypeError fırlatıyordu**. Bu, "sessizce yok sayılan eski kayıt" değil, gerçek bir crash'ti — haftalık tablo hiç doldurulmadan `rbVeriyiUygula` çöküyordu. Aynı güvensiz erişim `testAnketler` ve `digerCalismalar` için de vardı. Üçü de `?.` zinciri tamamlanarak (`kayit?.haftalar?.length` vb.) düzeltildi.
+2. **Ek sağlamlaştırma:** Önceden doldurma sadece "Sınıf" alanından `onEndEditing` ile tetikleniyordu (sıralamaya bağımlı — kullanıcı ayı sınıftan önce seçerse veya blur olmadan "İleri"ye basarsa tetiklenmeyebilirdi). Artık Adım 1→2 geçişinde (`rbIleri`) de garanti olarak çağrılıyor.
+3. **tsc 0 hata. Kullanıcı cihazda test etti, ÇALIŞTI onayı verdi** ("bu sefer oldu eline sağlık").
+4. **Açık/ertelenen soru:** Yıllık plandaki idari satırlar (örn. "1./2. Dönem Sınıf Rehberlik Faaliyet Raporu Hazırlama İşlemi", "RPD Hizmetleri Yürütme Komisyonu Toplantı", "Öğrenci Tanıma Formu" — hepsi `yeterlikAlani`/`etkinlikAdi` boş, gerçek kazanım değil) şu an haftalık kazanım tablosunda gerçek bir aktiviteymiş gibi görünüyor çünkü filtre sadece `tatil` bayrağına bakıyor. Kullanıcı: "yıllık planda öyle belirtiliyorsa öyle kalsın, sonra tekrar kontrol ederim" dedi — **kod değiştirilmedi, kullanıcı kararı bekleniyor.**
+
+**Değişen dosya:** `SablonDoldurmaScreen.tsx` (rbVeriyiUygula + rbIleri).
+
+## ŞU AN NEREDEYİZ (Rehberlik Aylık Rapor — Haziran formatına tam geçiş, 05.07.2026)
+
+Kullanıcı, Aylık Rehberlik Raporu'nun eski (Eylül referanslı, 3 serbest liste) formatını Haziran referans belgesindeki gerçek MEB formatına ("haftalık tablo") çevirmemizi istedi. Yapılanlar:
+
+1. **PDF veri çıkarımı (evrak-engineer, arka plan ajanı):** 7 ORGM etkinlik kitabı PDF'i (`evraklar/rehberlik/*.pdf`) `pdfjs-dist` ile (pdftotext Türkçe karakterleri bozuyordu, pdfjs-dist doğru çıkarıyor) tarandı, 432/562 yıllık plan satırı için gerçek "Yeterlik Alanı" + "Etkinlik Adı" bulunup `rehberlikYillikPlanlari.ts`'e eklendi (`RehberlikPlanHaftasi.yeterlikAlani?`/`etkinlikAdi?`). Script kalıcı: `scripts/extract-rehberlik-etkinlik.cjs`.
+2. **Veri modeli:** `rehberlikSablon.ts`'e `RehberlikHaftaSatiri` (sıra/tarih/yeterlikAlani/kazanim/etkinlikAdi) ve `TestAnketSatiri` eklendi, `OgrenciGorusmeSatiri`'ye `ogrenciNo` eklendi. Eski `numaralaKazanim`/`numaralaEtkinlik`/`rehberlikGirisCumlesi` kaldırıldı (yeni formatta kullanılmıyor).
+3. **HTML şablonu (`rehberlikHtmlSablon.ts`):** Tamamen yeniden yazıldı — SIRA|TARİH|YETERLİK ALANI|KAZANIM|ETKİNLİĞİN ADI haftalık tablosu, UYGULANAN TEST VE ANKETLER tablosu, DİĞER ÇALIŞMALAR, veli/öğrenci görüşmeleri (öğrenciye NO sütunu eklendi), 3 imza (Sınıf Öğretmeni/Okul Rehber Öğretmeni/Okul Müdürü — Haziran referansı tek imza gösteriyordu ama muhtemelen antiword kesintisi, Eylül referansındaki 3 imza korundu).
+4. **Veri zinciri (`rehberlikVeriZinciri.ts`):** `RehberlikAylikKayit` yeni yapıya taşındı (`haftalar`/`testAnketler`/`digerCalismalar`). Yeni `yillikPlandanHaftaOnerisi()` — tam satır (tarih+yeterlikAlani+kazanim+etkinlikAdi) üretiyor. `donemVeriOzetiOlustur` yeni alan adlarına güncellendi (Dönem Sonu Raporu otomatik uyumlu).
+5. **Wizard (`SablonDoldurmaScreen.tsx`, `isRehberlikAylik`):** "Çalışmalar" adımı artık 3 ayrı serbest liste yerine: haftalık satır kartları (plandan otomatik dolu, düzenlenebilir) + test/anket kartları (manuel) + diğer çalışmalar (manuel). Görüşmeler adımına öğrenci okul no alanı eklendi.
+
+**tsc 0 hata (tüm proje).** Cihazda hiç doğrulanmadı — bir sonraki testte özellikle bakılacak: haftalık tablo gerçekten plandan dolu geliyor mu (özellikle daha önce hiç test edilmemiş yeni bir sınıf+ay ile), PDF çıktısında tablo okunur mü, eski AsyncStorage kayıtları (eski `calismalar/kazanimlar/etkinlikler` şeklinde) artık okunmuyor olacak (veri şekli değişti) — bu normal, eski kayıtlar sessizce yok sayılır.
+
+---
+
+## ŞU AN NEREDEYİZ (Q3 cihaz testi geri bildirimi — devam ediyor)
+
+Kullanıcı P1-P7'yi Expo Go ile (tunnel modu, farklı WiFi) gerçek cihazda test etti. Bulunanlar ve durumları:
+
+1. **Sınav analizi kazanım listesi boş geliyor** — `SinavAnaliziScreen.tsx`: `kazanimlariGetir()` hatayı sessizce yutuyordu (`catch {} → []`). Artık `console.warn` ile gerçek Supabase hatası + kullanılan filtreler (bransSlug/okulTipi/siniflar/dersFiltesi/sinif) Metro terminaline loglanıyor. Sorgu mantığı `planUret.ts` ile birebir aynı olduğu için kök neden statik incelemeyle bulunamadı — **bir sonraki testte terminal logu gerekiyor.**
+2. **Yatay şablonlar (Kulüp Yıllık Planı, Yıllık Rehberlik Planı) önizlemede dikey açılıyordu** — kök neden bulundu: `src/lib/pdfOnizleme.ts`'teki `Print.printAsync({ uri })` çağrısı `orientation` parametresi almıyordu; Android'in native print dialog'u sayfa boyutundan bağımsız kendi yön seçicisine sahip ve varsayılan dikey açılıyordu. `orientation: Print.Orientation.landscape/portrait` eklendi, dosyanın gerçek width/height'ıyla artık eşleşiyor. **Düzeltildi, cihazda doğrulanmadı.**
+3. **Rehberlik Aylık Raporu hâlâ elle doldurulmak zorundaydı** — iki kök neden: (a) `yillikPlandanKazanimOnerisi` (`rehberlikVeriZinciri.ts`) yalnızca `etkinlikNo` dolu satırları kullanıyordu, bu alan sadece lise 9-12'de dolu — 1-8. sınıflarda öneri hep boş dönüyordu; artık `etkinlikNo` yoksa plan içindeki doğal sıra kullanılıyor. (b) "Yapılan Çalışmalar" alanı hiç plandan beslenmiyordu, sadece "Kazanımlar" besleniyordu — ikisi de artık aynı öneriden doluyor. Dönem Sonu Raporu bu fonksiyonu dolaylı kullandığı için o da otomatik düzeldi. Kulüp Aylık Faaliyet Raporu, Kulüp Yıllık Plan (EK-7/b) ve Toplum Hizmeti Planı taraması yapıldı — onlarda zaten prefill vardı, ek iş çıkmadı. **Düzeltildi, cihazda doğrulanmadı.**
+4. **Kulüp/Rehberlik chip yapısı** — kullanıcı P7'nin ayrı-ayrı 7 kart yaklaşımını istemiyor, tek "Kulüp Evrakları"/"Rehberlik Evrakları" chip'i + üstüne basınca alt liste açan sheet istiyor. ui-craftsman'a plan-onay-kod akışıyla verildi, kullanıcı planı onayladı, **şu an kodlanıyor (arka plan ajanı).**
+5. **Performans Notu UX** — öğrenci listesi textarea'sı ilkel, puanlama ekranında kriter/puan düz metin gibi diziliyor, butonlar sıkışık, "Kriter Kriter Manuel" metni amatörce. Aynı ui-craftsman görevinin parçası, **şu an kodlanıyor.**
+
+**Ajan mimarisi notu:** `ui-craftsman.md`'nin "sadece stil/hiyerarşi, fonksiyon bozma" kısıtı bu iki iş (IA değişikliği + form etkileşim redesign'ı) için görev bazlı genişletildi (component yapısı/etkileşim değiştirebilir, veri/iş mantığına dokunmaz). Kalıcı bir "UX mimarisi" ajanı ayrımı şimdilik gerekli görülmedi — sık tekrarlanırsa değerlendirilecek.
+
+**İş 4+5 tamamlandı (ui-craftsman, arka plan ajanı):** Kulüp/Rehberlik tek-chip + `KategoriSheet` alt-liste; Performans Notu satır-kartı öğrenci listesi + tablo puanlama görünümü + spacing + "Elle Puanla" metni. `EvraklarimScreen.tsx` + `SablonDoldurmaScreen.tsx`. tsc 0 hata.
+
+## Q3 testinin 2. turu — yeni bulgular + kök neden düzeltmeleri (05.07.2026, aynı oturum)
+
+Kullanıcı Q3'ün ilk turundaki düzeltmeleri (chip IA hariç, o zaman henüz kodlanmamıştı) test etti, yeni sorunlar bildirdi. Hepsi kök nedeniyle düzeltildi:
+
+1. **Sınav Analizi "Alınacak Tedbirler" kutusu amatörce/metin taşıyor** — `SinavAnaliziScreen.tsx` kendi ayrı `s` StyleSheet'ine sahip ve P1 düzeltmesi (radius.btn→radius.sm) ona hiç yansımamıştı. Aynı düzeltme burada da uygulandı.
+2. **Sınav Analizi PDF'i yatay geliyor, dikey olmalıydı** — hem `sinavAnaliziHtmlSablon.ts`'teki `@page` (landscape idi) hem `disaAktar()`'daki `pdfOnizlemeAc(html, true)` çağrısı dikeye çevrildi. Bu, bugünkü oturumda yapılan bir regresyon değildi — muhtemelen önceden hiç gerçek PDF önizlemesi görülmemiş (P2 bu ekrana yeni eklendi), ilk kez ortaya çıktı.
+3. **Kulüp Aylık Faaliyet Raporu hâlâ elle dolduruluyor** — gerçek kök neden bulundu: `kulupVarsayilanEtkinlikleri()` ay isimlerini büyük harfle (`"EKİM"`) döndürüyor, `RAPOR_AYLARI` ise başlık formatında (`"Ekim"`) — karşılaştırma `e.tarih === ay` hiçbir zaman eşleşmiyordu, otomatik doldurma hiç çalışmamıştı (P4/oturum notlarındaki "zaten çalışıyor" değerlendirmesi yanlıştı). Türkçe locale-aware karşılaştırmaya (`toLocaleUpperCase('tr-TR')`) çevrildi.
+4. **Rehberlik Aylık Raporu hâlâ elle dolduruluyor (önceki fix'ten sonra da)** — muhtemel neden: kullanıcının daha önceki (buglu) bir denemeden kalma boş bir AsyncStorage kaydı, yeni plan-tabanlı öneriyi kalıcı olarak engelliyordu ("manuel varsa manuel" kuralı, boş "manuel" kaydı da manuel sayıyordu). Artık tamamen boş kayıtlar yok sayılıp plana düşülüyor. **Doğrulanmadı — kullanıcı aynı sınıf+ay ile tekrar denemeli, mümkünse daha önce hiç denenmemiş bir kombinasyonla da test edilmeli.**
+
+tsc 0 hata (tüm proje). Cihazda doğrulanmadı — sıradaki adım kullanıcının bu 4 düzeltmeyi + İş 4/5'i tekrar test etmesi.
+
+## Q3 testinin 3. turu — 3 yeni kalem (05.07.2026, aynı oturum)
+
+1. **Kulüp Yıllık Planı Ekim'den başlıyor, Eylül'den başlamalı** — `kulupYillikPlanlari.ts` dosyasının başlığı bunun BİLİNÇLİ bir tasarım kararı olduğunu gösteriyor ("Format: AYLIK Ekim→Haziran, gerçek okul planıyla hizalı", Karatay TMTAL referansı). Referans disiplini gereği Eylül içeriği eklemek için kaynak/karar gerekiyor — **kullanıcı kontrol edecek, henüz dokunulmadı.**
+2. **Rehberlik Yıllık Planı PDF'inde TARİH sütunu yerine HAFTA sütunu** — `rehberlikYillikPlanHtmlSablon.ts`: sütun artık "N. Hafta" (dikey/rotate metin) + altında parantez içinde tarih aralığı. Ay içi sıraya göre hesaplanıyor. **Düzeltildi, cihazda doğrulanmadı.**
+3. **Rehberlik Aylık Rapor'da 7. sınıf etkinlikleri gelmiyor, 6. sınıf geliyordu** — izole test (`npx tsx`) ile `yillikPlandanKazanimOnerisi`'nin kendisinin HER sınıf/ay için doğru çalıştığı doğrulandı; asıl hata `rbVeriyiUygula`'daydı: kayıt kısmen doluysa (örn. sadece çalışmalar girilmiş eski bir denemeden) tüm kayıt "manuel" sayılıp diğer boş alanlar (kazanımlar) plana düşmüyordu. Artık çalışma/kazanım/etkinlik alanları birbirinden bağımsız: her biri kendi kayıtlı verisi yoksa plana düşüyor. **Düzeltildi, cihazda doğrulanmadı.**
+
+tsc 0 hata (tüm proje).
+
+## Q3 testinin 4. turu (05.07.2026, aynı oturum)
+
+1. **Rehberlik Aylık Rapor hâlâ dolu gelmiyor (kullanıcı ısrarcı)** — kod mantığı yeniden izole test edildi, doğru çalışıyor; component kodu da mantık olarak doğru görünüyor. Kesin kanıt olmadan daha fazla spekülatif değişiklik yapılmadı. Bunun yerine ekrana **görünür geri bildirim** eklendi: "Sınıf & Bilgiler" adımında artık "Yıllık plandan N kazanım aktarıldı" ya da "öneri bulunamadı" mesajı var — bir sonraki testte bu mesaj neyi gösteriyor, ona göre kesin teşhis konacak. **Şüphe:** Fast Refresh sırasında ekran state'i sıfırlanmadan kod değişmiş olabilir — test etmeden önce ekrandan çıkıp tam yeniden girmek veya uygulamayı tam kapatıp açmak gerekebilir.
+2. **Rehberlik Yıllık Planı PDF çıktısı "tamamen bozulmuş"** — önceki turda eklenen `writing-mode: vertical-rl` CSS'i muhtemelen PDF render motorunda tabloyu bozdu. Daha güvenli bir yönteme (`transform: rotate(-90deg)` tek blok, writing-mode yok) geçildi. **Önemli:** gerçek referans xlsx'leri (`evraklar/rehberlik/*.xlsx`) incelendi — asıl MEB formatı bizim uzun-liste tablomuzdan çok farklı (aylar yan yana 3'erli gruplar, mini tablo). Şimdilik sadece kullanıcının açıkça istediği (hafta no + tarih, ikisi de dikey) uygulandı, büyük grid redesign'ı YAPILMADI (kapsam kararı kullanıcıya soruldu, henüz yanıt yok). **Cihazda doğrulanamadı, PDF render'ı burada önizlenemiyor — kullanıcının ekran görüntüsü/tarifiyle iterasyon gerekiyor.**
+
+tsc 0 hata.
+
+---
+
+## ŞU AN NEREDEYİZ (P1-P7 uygulandı, Q3 cihaz testi bekleniyor — önceki tur, tarihsel)
+
+**Durum:** Aynı oturumun devamında (bkz. aşağıdaki "oturum 76 — Q2 test sonucu" bölümü) P1-P7'nin **hepsi kodlandı, `npx tsc --noEmit` 0 hata (tüm proje).** Henüz commit/push YAPILMADI — kullanıcı "ara verelim, kaldığımız yerden devam ederiz" dedi. Sıradaki adım: kullanıcı **Q3 cihaz testi** yapacak, sonra "kaydet" denilince commit+push edilecek.
+
+**Tamamlanan 7 iş kalemi:**
+1. **P1 — Form input tasarımı:** Kök neden bulundu: `s.input`'un `borderRadius: radius.btn` (=100, tam pill) olması — çok satırlı `textArea`'da yazı köşelerden taşıyordu (kullanıcının "gri rounded kutu taşmış" şikayetinin birebir kaynağı). `radius.sm`(10)'a çekildi + input/kart renk ilişkisi düzeltildi (`soruCard`/`ogretmenRow` artık beyaz+border, input krem sabit — kart içinde de dışında da görünür). Tek `s` StyleSheet objesi 12 sihirbaza da yansıdı. Dosya: `SablonDoldurmaScreen.tsx` (`s` bloğu). **Açık:** focus state (onFocus/onBlur ring) eklenmedi, istenirse ayrı görev.
+2. **P2 — Sınav Analizi önizleme yoktu:** `SinavAnaliziScreen.tsx` hâlâ eski `Sharing.shareAsync` + çakışan native `margins` parametresinde kalmıştı (önceki oturumun "@page tek kaynak" mimari kararı bu ekrana hiç yansımamış). Yeni ortak `src/lib/pdfOnizleme.ts` (`pdfOnizlemeAc(html, yatay)`) hem bu ekranda hem SablonDoldurmaScreen'de kullanılıyor artık — kod tekrarı da önlendi. `expo-sharing` artık hiçbir yerde import edilmiyor (paket silinmedi).
+3. **P3 — Yatay (landscape) print bug (kritik kök neden):** `expo-print`'in `printToFileAsync` API'si **`orientation` parametresi almıyor** — sayfa boyutu yalnızca `width`/`height` (px, 72 PPI, varsayılan 612×792 = US Letter dikey). HTML'deki `@page { size: A4 landscape }` CSS'i native tarafta yön belirlemiyor. Çözüm: `pdfOnizlemeAc` helper'ı artık her çağrıda açık `width/height` geçiyor — A4 dikey (595×842) / A4 yatay (842×595). **Bu, önceki oturumun "tek kaynak @page" mimari kararını GEÇERSİZ KILMADI ama YETERSİZ olduğunu gösterdi** — @page hâlâ margin için tek kaynak, ama sayfa boyutu/yönü için native width/height de gerekli. 12+1 (Sınav Analizi) çağrı düzeltildi.
+4. **P4 — Rehberlik veri zinciri:** Yeni `src/data/rehberlikVeriZinciri.ts`: `rehberlikAylikKaydiOku/Yaz` (AsyncStorage `@yaver/rehberlik_aylik_<sinif>_<ay>`), `yillikPlandanKazanimOnerisi` (plan→kazanım türetme, testte doğrulandı), `donemVeriOzetiOlustur` (dönem1=Eylül-Ocak/ay no 1-5, dönem2=Şubat-Haziran/ay no 6-10, yılsonu=tümü). Aylık Rapor'da sınıf+ay girilince önce kayıtlı manuel veri yoksa plan önerisi geliyor; kayıt "Raporu Oluştur"da kalıcı saklanıyor. Dönem Sonu'nda sınıf+dönem seçilince ilgili ayların faaliyetleri+kazanım durumu otomatik doluyor (manuel>plan önceliği, pristine-check ile üzerine yazmıyor). **AsyncStorage native modül olduğu için tam zincir gerçek cihazda (Q3) doğrulanmalı** — saf mantık (kazanım türetme, sınıf parse) node'da test edildi ve doğru.
+5. **P5 — Kulüp Karar Defteri hazır içerik:** Yerel referans (`1847518-yoklama-ve-karar-defteri.doc`) tamamen boş şablondu, gerçek gündem/karar örneği yoktu. Web araştırması yapıldı (kullanıcı izin verdi), gerçek dolu bir MEB kulüp karar defteri bulundu (Bilim Fen ve Teknoloji Kulübü, 5 toplantı kaydı). `kulupSablon.ts`'e `ilkToplantiVarsayilanGundem()`/`ilkToplantiVarsayilanKarar()` eklendi — `bosKararSatiri(1)` (ilk toplantı) artık bu gerçek desenle dolu geliyor, öğretmen isterse hiç dokunmadan kullanabilir. Sonraki toplantılar (no>1) hâlâ boş (gerçekten toplantıya özel, uydurulamaz).
+6. **P6 — Margin standardizasyonu:** 13 `@page` kuralı dağınıktı (12mm-25mm) → dikey **14mm/16mm**, yatay **12mm/14mm** standardına çekildi (`performansHtmlSablon.ts` zaten dar, dokunulmadı).
+7. **P7 — EvraklarimScreen IA:** Kulüp (4) + Rehberlik (3) evrakları eski yatay liste kartından (`kulupCard`) çıkarılıp ana `SABLONLAR` ile aynı `sablonCard` kare chip grid'ine taşındı. Alt başlıklar (KULÜP/REHBERLİK EVRAKLARI) korundu, artık grid render ediyor. `KulupSheet` açma davranışı + navigation param'ları aynen.
+
+**Yeni dosyalar:** `src/lib/pdfOnizleme.ts`, `src/data/rehberlikVeriZinciri.ts`.
+**Değişen dosyalar:** `SablonDoldurmaScreen.tsx`, `EvraklarimScreen.tsx`, `SinavAnaliziScreen.tsx`, `kulupSablon.ts`, 12 `*HtmlSablon.ts` (margin).
+
+**BEKLİYOR — sıradaki adım (Q3):** Kullanıcı gerçek cihazda test edecek — özellikle: form inputların görünümü, 3 yatay belgenin (Kulüp Yıllık Planı, Toplum Hizmeti Planı, Yıllık Rehberlik Planı) GERÇEKTEN yatay çıkıp çıkmadığı, Sınav Analizi'nin artık önizleme açması, rehberlik veri zincirinin AsyncStorage kısmı (Aylık Rapor'da sınıf+ay girince plan önerisi geliyor mu, Dönem Sonu'nda toplama çalışıyor mu), Karar Defteri ilk toplantının otomatik dolu gelmesi, ve EvraklarimScreen'in yeni grid görünümü.
+
+**Onay bekleyen:** Sorun çıkmazsa kullanıcı "kaydet" diyecek → commit + `origin`'e push (main'e merge ayrı onay gerektirir, R1 görevi hâlâ blocked).
+
+**Ajan organizasyonu notu:** Bu turda P1(ui-craftsman)+P7(ui-craftsman) arka planda paralel ajanlarla yapıldı; P2/P3/P4/P5/P6 şef (ana oturum) tarafından doğrudan yapıldı (mimari/veri işleri, tek dosya zinciri). Pano: `node scripts/board.cjs`.
+
+---
 
 ## ŞU AN NEREDEYİZ (oturum 76 — Q2 test sonucu + sıradaki plan)
 

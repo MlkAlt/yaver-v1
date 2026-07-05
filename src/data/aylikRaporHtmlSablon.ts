@@ -51,7 +51,7 @@ export function aylikRaporHtmlOlustur(form: AylikRaporFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4; margin: 22mm 20mm; }
+  @page { size: A4; margin: 14mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 11pt; color: #000; line-height: 1.6; }
   .mudurbaslik { text-align: center; font-weight: bold; font-size: 12pt; margin-bottom: 18px; }

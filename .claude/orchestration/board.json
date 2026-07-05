@@ -80,17 +80,81 @@
       "id": "Q2",
       "title": "Cihaz testi (Expo Go) — margin + evraklar + rehberlik + yeni Bu Hafta",
       "owner": "user",
-      "status": "ready",
+      "status": "done",
       "deps": ["E1", "Q1"],
-      "note": "Kullanıcı gerçek cihazda."
+      "note": "Kullanıcı test etti, 7 iş kalemli geri bildirim verdi (P1-P7). STATUS.md 'oturum 76'."
+    },
+    {
+      "id": "P3",
+      "title": "Yatay (landscape) print bug fix + P6 margin standardizasyonu",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "Kök neden: expo-print printToFileAsync 'orientation' almıyor, sadece width/height (px). Tüm 12 çağrı tek pdfOnizlemeAc(html, yatay) helper'ına indirildi, A4_DIKEY(595x842)/A4_YATAY(842x595) explicit geçiliyor. Şef yaptı. tsc 0."
+    },
+    {
+      "id": "P6",
+      "title": "Margin standardizasyonu — tüm şablonlar tutarlı standarda",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "Dikey 14mm/16mm, yatay 12mm/14mm standardına çekildi (13 @page kuralı). performansHtmlSablon zaten dar, dokunulmadı. Şef yaptı (P3 ile aynı geçiş). tsc 0."
+    },
+    {
+      "id": "P1",
+      "title": "Form input tasarımı (s.input/textArea/soruCard vb.) — gerçek form-input hissi",
+      "owner": "ui-craftsman",
+      "status": "done",
+      "deps": [],
+      "note": "Asıl kök neden: s.input borderRadius=radius.btn(100) tam pill idi -> textArea'da yazı taşıyordu. radius.sm(10)'a çekildi + input/kart renk ilişkisi (soruCard/ogretmenRow beyaz+border, input krem sabit) düzeltildi. 12 sihirbaza yansıdı. tsc 0. Açık: focus state (onFocus/onBlur ring) eklenmedi, istenirse ayrı görev. handoff/P1.md."
+    },
+    {
+      "id": "P7",
+      "title": "EvraklarimScreen IA — Kulüp/Rehberlik kartları ana ızgara stiline",
+      "owner": "ui-craftsman",
+      "status": "done",
+      "deps": [],
+      "note": "7 evrak sablonCard grid'e taşındı, alt başlıklar korundu. KulupSheet+navigation davranışı aynen. ux-critic PASS. tsc 0 (tüm proje). handoff/P7.md."
+    },
+    {
+      "id": "P2",
+      "title": "Sınav Analizi'nde PDF önizleme yok (direkt paylaşıma açıyor)",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "Şef yaptı. Sharing.shareAsync + eski native margins parametresi -> ortak pdfOnizlemeAc(html,true) helper (src/lib/pdfOnizleme.ts, SablonDoldurmaScreen'den de oraya taşındı, kod tekrarı önlendi). Landscape orientation bug bu belgede de düzeltildi. expo-sharing artık hiçbir yerde import edilmiyor (paket silinmedi). tsc 0."
+    },
+    {
+      "id": "P4",
+      "title": "Rehberlik veri zinciri: Yıllık Plan -> Aylık Rapor -> Dönem Sonu otomatik",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "Şef yaptı. Yeni src/data/rehberlikVeriZinciri.ts: rehberlikAylikKaydiOku/Yaz (AsyncStorage sınıf+ay), yillikPlandanKazanimOnerisi (doğrulandı), donemVeriOzetiOlustur (dönem1=ay1-5/dönem2=ay6-10/yılsonu=tümü). Aylık Rapor + Dönem Sonu ekranlarına pristine-check korumalı wiring. tsc 0. AsyncStorage native modül olduğu için tam zincir Q3 cihaz testinde doğrulanacak."
+    },
+    {
+      "id": "P5",
+      "title": "Kulüp Karar Defteri'ne hazır varsayılan içerik",
+      "owner": "evrak-engineer",
+      "status": "done",
+      "deps": [],
+      "note": "Şef yaptı. Referans yoktu (yerel dosya boş şablondu) -> web araştırması yapıldı, gerçek dolu bir MEB kulüp karar defteri örneği bulundu (Bilim Fen ve Teknoloji Kulübü). İlk toplantı (no=1) için kulupSablon.ts'e ilkToplantiVarsayilanGundem()/ilkToplantiVarsayilanKarar() eklendi, bosKararSatiri(1) artık bunları döndürüyor. Sonraki toplantılar toplantıya özel olduğundan boş kaldı. tsc 0."
     },
     {
       "id": "R1",
       "title": "feature/evrak-pdf-margin-mimarisi -> main merge/PR",
       "owner": "delivery-lead",
       "status": "blocked",
-      "deps": ["Q2"],
-      "note": "Cihaz testi geçince."
+      "deps": ["Q3"],
+      "note": "P1-P7 tamamlandı (tsc 0). Main'e merge etmeden önce kullanıcının Q3 cihaz testi bekleniyor."
+    },
+    {
+      "id": "Q3",
+      "title": "Cihaz testi (Expo Go) — P1-P7 sonrası ikinci tur",
+      "owner": "user",
+      "status": "ready",
+      "deps": [],
+      "note": "Form input tasarımı, EvraklarimScreen IA, yatay print, margin, rehberlik veri zinciri, karar defteri varsayılanı — hepsi test edilmeli."
     }
   ]
 }

@@ -83,7 +83,7 @@ ${maddeler(k.kararMetni)}
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4; margin: 18mm 20mm; }
+  @page { size: A4; margin: 14mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 10.5pt; color: #000; line-height: 1.5; }
   h1 { font-size: 12pt; text-align: center; margin-bottom: 2px; }

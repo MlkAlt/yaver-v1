@@ -46,3 +46,8 @@ extracted/
 
 # Birleşik kazanım JSON (yeniden üretilir)
 refs/kazanimlar_meb_2025.json
+
+# Büyük tek-seferlik kaynak taramaları (>5MB) — veri koddan çıkarılır (bkz. scripts/extract-*.cjs
+# + src/data/*.ts), ham dosyanın git geçmişinde tutulmasına gerek yok. Bkz. DECISIONS.md
+# "repo şişirme protokolü".
+evraklar/rehberlik/*.pdf

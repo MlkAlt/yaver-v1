@@ -7,8 +7,7 @@ import {
 import { Plus, Trash2, ChevronRight, ChevronLeft, FileDown, Search, X } from 'lucide-react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import * as Print from 'expo-print';
-import * as Sharing from 'expo-sharing';
+import { pdfOnizlemeAc } from '../../lib/pdfOnizleme';
 import { Screen } from '../../components/layout/Screen';
 import { AppBar } from '../../components/layout/AppBar';
 import { colors } from '../../tokens/colors';
@@ -125,7 +124,8 @@ export function SinavAnaliziScreen({ navigation }: Props) {
       const { data, error } = await q;
       if (error) throw error;
       setKazanimListesi((data ?? []) as Kazanim[]);
-    } catch {
+    } catch (e) {
+      console.warn('kazanimlariGetir hata:', e, { bransSlug, okulTipi, siniflar, dersFiltesi, sinif });
       setKazanimListesi([]);
     } finally {
       setKazanimYukleniyor(false);
@@ -266,15 +266,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
       await analiziArsivle();
 
       const html = sinavAnaliziHtmlOlustur(formData, sonuclar);
-      const { uri } = await Print.printToFileAsync({
-        html, base64: false,
-        margins: { top: 56, right: 64, bottom: 56, left: 64 },
-      });
-      await Sharing.shareAsync(uri, {
-        mimeType: 'application/pdf',
-        dialogTitle: `Sınav Analizi — ${sinif}`,
-        UTI: 'com.adobe.pdf',
-      });
+      await pdfOnizlemeAc(html, false);
     } catch {
       Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
     } finally {
@@ -700,7 +692,7 @@ const s = StyleSheet.create({
   alanHint: { fontSize: 11, fontFamily: fonts.regular, color: colors.text3, marginBottom: 4 } as TextStyle,
   input: {
     backgroundColor: colors.bg,
-    borderRadius: radius.btn,
+    borderRadius: radius.sm,
     borderWidth: 1,
     borderColor: colors.border,
     paddingHorizontal: spacing.md,

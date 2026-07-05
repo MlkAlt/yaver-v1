@@ -1,12 +1,14 @@
 import {
   VeliGorusmeSatiri,
   OgrenciGorusmeSatiri,
-  rehberlikGirisCumlesi,
-  numaralaKazanim,
-  numaralaEtkinlik,
+  RehberlikHaftaSatiri,
+  TestAnketSatiri,
 } from './rehberlikSablon';
 import { turkceBuyuk } from '../lib/turkce';
 
+// Format: gerçek okul belgesi referans alındı (evraklar/rehberlik/haziran aylık rehberlik.doc) —
+// haftalık tablo (Sıra | Tarih | Yeterlik Alanı | Kazanım | Etkinliğin Adı), test/anket, veli/öğrenci
+// görüşmeleri, diğer çalışmalar. Önceki (Eylül referanslı) 3-liste format tamamen bu yapıyla değişti.
 export type AylikRehberlikFormData = {
   okulAdi: string;
   egitimYili: string;      // "2025-2026"
@@ -18,32 +20,45 @@ export type AylikRehberlikFormData = {
   sinifOgretmeni: string;
   okulRehberOgretmeni: string;
   okulMuduru: string;
-  yapilanCalismalar: string[];    // madde listesi (numaralanmaz)
-  islenenKazanimlar: string[];    // ham metin — numaralaKazanim ile otomatik numaralanır
-  yapilanEtkinlikler: string[];   // ham metin — numaralaEtkinlik ile otomatik numaralanır
+  haftalar: RehberlikHaftaSatiri[];
+  testAnketler: TestAnketSatiri[];
+  digerCalismalar: string[];
   veliGorusmeleri: VeliGorusmeSatiri[];
   ogrenciGorusmeleri: OgrenciGorusmeSatiri[];
 };
-
-function maddeSatirlari(maddeler: string[]): string {
-  return maddeler
-    .map(s => s.trim())
-    .filter(Boolean)
-    .map(m => `<tr><td class="ay-cell"></td><td>${m}</td></tr>`)
-    .join('');
-}
 
 export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string {
   const {
     okulAdi, egitimYili, sinif, ay, raporNo, raporTarihi, sinifMevcudu,
     sinifOgretmeni, okulRehberOgretmeni, okulMuduru,
-    yapilanCalismalar, islenenKazanimlar, yapilanEtkinlikler,
+    haftalar, testAnketler, digerCalismalar,
     veliGorusmeleri, ogrenciGorusmeleri,
   } = form;
 
-  const giris = rehberlikGirisCumlesi(sinif, ay);
-  const kazanimlar = numaralaKazanim(islenenKazanimlar);
-  const etkinlikler = numaralaEtkinlik(yapilanEtkinlikler);
+  const haftaSatirlari = haftalar.map((h, i) => `
+    <tr>
+      <td class="sira-cell">${i + 1}</td>
+      <td class="tarih-cell">${h.tarih}</td>
+      <td>${h.yeterlikAlani}</td>
+      <td>${h.kazanim}</td>
+      <td>${h.etkinlikAdi}</td>
+    </tr>`).join('');
+
+  const testSatirlari = testAnketler.map((t, i) => `
+    <tr>
+      <td class="sira-cell">${i + 1}</td>
+      <td>${t.adi}</td>
+      <td class="tarih-cell">${t.tarih}</td>
+      <td class="sayi-cell">${t.kiz}</td>
+      <td class="sayi-cell">${t.erkek}</td>
+      <td class="sayi-cell">${t.toplam}</td>
+    </tr>`).join('');
+
+  const digerSatirlari = digerCalismalar
+    .map(s => s.trim())
+    .filter(Boolean)
+    .map((m, i) => `<tr><td class="sira-cell">${i + 1}</td><td>${m}</td></tr>`)
+    .join('');
 
   const veliSatirlari = veliGorusmeleri.map(v => `
     <tr>
@@ -57,6 +72,7 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   const ogrenciSatirlari = ogrenciGorusmeleri.map(o => `
     <tr>
       <td class="sira-cell">${o.sira}</td>
+      <td class="sira-cell">${o.ogrenciNo}</td>
       <td>${o.adSoyad}</td>
       <td>${o.konu}</td>
       <td class="tarih-cell">${o.tarih}</td>
@@ -67,11 +83,11 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4; margin: 18mm 20mm; }
+  @page { size: A4; margin: 14mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 10.5pt; color: #000; }
   table { width: 100%; border-collapse: collapse; }
-  th, td { border: 1px solid #000; padding: 5px 7px; font-size: 10pt; vertical-align: top; }
+  th, td { border: 1px solid #000; padding: 5px 7px; font-size: 9.5pt; vertical-align: top; }
   tr { page-break-inside: avoid; break-inside: avoid; }
 
   .baslik-tablo { margin-bottom: 14px; }
@@ -80,17 +96,12 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   .baslik-tablo .etiket { font-weight: bold; width: 24%; }
   .baslik-tablo .deger { width: 26%; }
 
-  .icerik-tablo { margin-bottom: 14px; }
-  .icerik-tablo .baslik-satir th { background: #f0f0f0; font-weight: bold; text-align: center; }
-  .icerik-tablo .bolum-satir td { font-weight: bold; background: #f7f7f7; }
-  .ay-cell { width: 10%; text-align: center; font-weight: bold; }
-
-  .gorusme-tablo { margin-bottom: 14px; }
-  .gorusme-tablo .baslik-satir th { background: #f0f0f0; font-weight: bold; text-align: center; }
-  .gorusme-tablo .kolon-satir th { font-weight: bold; text-align: center; font-size: 9.5pt; }
+  .bolum-tablo { margin-bottom: 14px; }
+  .bolum-tablo .baslik-satir th { background: #f0f0f0; font-weight: bold; text-align: center; }
+  .bolum-tablo .kolon-satir th { font-weight: bold; text-align: center; font-size: 9.5pt; }
   .sira-cell { width: 6%; text-align: center; }
-  .tarih-cell { width: 16%; text-align: center; }
-  .bos-satir td { height: 20px; }
+  .tarih-cell { width: 15%; text-align: center; }
+  .sayi-cell { width: 8%; text-align: center; }
 
   .onay-tablo td { border: none; padding: 4px; }
   .onay-tablo .uygundur-blok { text-align: center; }
@@ -110,24 +121,36 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
     <td class="etiket">RAPOR NO</td><td class="deger">${raporNo}</td>
   </tr>
   <tr>
-    <td class="etiket">SINIF MEVCUDU</td><td class="deger">${sinifMevcudu}</td>
+    <td class="etiket">SINIF</td><td class="deger">${sinif}</td>
     <td class="etiket">RAPOR TARİHİ</td><td class="deger">${raporTarihi}</td>
+  </tr>
+  <tr>
+    <td class="etiket">SINIF MEVCUDU</td><td class="deger" colspan="3">${sinifMevcudu}</td>
   </tr>
 </table>
 
-<table class="icerik-tablo">
-  <tr class="baslik-satir"><th class="ay-cell">AY</th><th>YAPILAN REHBERLİK ÇALIŞMALARI</th></tr>
-  <tr class="bolum-satir"><td class="ay-cell">${turkceBuyuk(ay)}</td><td>${giris}</td></tr>
-  ${maddeSatirlari(yapilanCalismalar)}
-  <tr class="bolum-satir"><td class="ay-cell">${turkceBuyuk(ay)}</td><td>YILLIK PLANA GÖRE İŞLENEN KAZANIMLAR</td></tr>
-  <tr><td class="ay-cell">${turkceBuyuk(ay)}</td><td>${giris}</td></tr>
-  ${maddeSatirlari(kazanimlar)}
-  <tr class="bolum-satir"><td class="ay-cell">${turkceBuyuk(ay)}</td><td>YAPILAN ETKİNLİKLER (ORGM ORTAÖĞRETİM SINIF REHBERLİK ETKİNLİKLERİ 1. CİLT)</td></tr>
-  <tr><td class="ay-cell">${turkceBuyuk(ay)}</td><td>${giris}</td></tr>
-  ${maddeSatirlari(etkinlikler)}
+<table class="bolum-tablo">
+  <tr class="kolon-satir">
+    <th class="sira-cell">SIRA</th><th class="tarih-cell">TARİH</th><th>YETERLİK ALANI</th><th>KAZANIM</th><th>ETKİNLİĞİN ADI</th>
+  </tr>
+  ${haftaSatirlari}
 </table>
 
-<table class="gorusme-tablo">
+<table class="bolum-tablo">
+  <tr class="baslik-satir"><th colspan="6">UYGULANAN TEST VE ANKETLER</th></tr>
+  <tr class="kolon-satir">
+    <th class="sira-cell">SIRA</th><th>ADI</th><th class="tarih-cell">UYGULAMA TARİHİ</th><th class="sayi-cell">KIZ</th><th class="sayi-cell">ERKEK</th><th class="sayi-cell">TOPLAM</th>
+  </tr>
+  ${testSatirlari}
+</table>
+
+${digerSatirlari ? `
+<table class="bolum-tablo">
+  <tr class="baslik-satir"><th colspan="2">DİĞER ÇALIŞMALAR</th></tr>
+  ${digerSatirlari}
+</table>` : ''}
+
+<table class="bolum-tablo">
   <tr class="baslik-satir"><th colspan="5">VELİLERLE YAPILAN GÖRÜŞMELER</th></tr>
   <tr class="kolon-satir">
     <th class="sira-cell">SIRA</th><th>ADSOYAD</th><th>ÖĞRENCİSİ</th><th>GÖRÜŞME KONUSU</th><th class="tarih-cell">TARİH</th>
@@ -135,10 +158,10 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   ${veliSatirlari}
 </table>
 
-<table class="gorusme-tablo">
-  <tr class="baslik-satir"><th colspan="4">ÖĞRENCİLERLE YAPILAN GÖRÜŞMELER</th></tr>
+<table class="bolum-tablo">
+  <tr class="baslik-satir"><th colspan="5">ÖĞRENCİLERLE YAPILAN GÖRÜŞMELER</th></tr>
   <tr class="kolon-satir">
-    <th class="sira-cell">SIRA</th><th>ADSOYAD</th><th>GÖRÜŞME KONUSU</th><th class="tarih-cell">TARİH</th>
+    <th class="sira-cell">SIRA</th><th class="sira-cell">NO</th><th>ADI VE SOYADI</th><th>GÖRÜŞME KONUSU</th><th class="tarih-cell">TARİH</th>
   </tr>
   ${ogrenciSatirlari}
 </table>

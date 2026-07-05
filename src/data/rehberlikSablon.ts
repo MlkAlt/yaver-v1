@@ -11,9 +11,29 @@ export type VeliGorusmeSatiri = {
 
 export type OgrenciGorusmeSatiri = {
   sira: number;
+  ogrenciNo: string;
   adSoyad: string;
   konu: string;
   tarih: string;
+};
+
+// Aylık raporun haftalık tablosu — yıllık plandan otomatik türetilir (bkz. rehberlikVeriZinciri.ts),
+// öğretmen isterse düzenler. Referans: evraklar/rehberlik/haziran aylık rehberlik.doc
+export type RehberlikHaftaSatiri = {
+  sira: number;
+  tarih: string;
+  yeterlikAlani: string;
+  kazanim: string;
+  etkinlikAdi: string;
+};
+
+export type TestAnketSatiri = {
+  sira: number;
+  adi: string;
+  tarih: string;
+  kiz: string;
+  erkek: string;
+  toplam: string;
 };
 
 export const bosVeliGorusmeSatiri = (sira: number): VeliGorusmeSatiri => ({
@@ -21,7 +41,15 @@ export const bosVeliGorusmeSatiri = (sira: number): VeliGorusmeSatiri => ({
 });
 
 export const bosOgrenciGorusmeSatiri = (sira: number): OgrenciGorusmeSatiri => ({
-  sira, adSoyad: '', konu: '', tarih: '',
+  sira, ogrenciNo: '', adSoyad: '', konu: '', tarih: '',
+});
+
+export const bosHaftaSatiri = (sira: number): RehberlikHaftaSatiri => ({
+  sira, tarih: '', yeterlikAlani: '', kazanim: '', etkinlikAdi: '',
+});
+
+export const bosTestAnketSatiri = (sira: number): TestAnketSatiri => ({
+  sira, adi: '', tarih: '', kiz: '', erkek: '', toplam: '',
 });
 
 // Referans belgede rapor no 1 = Eylül. Eğitim-öğretim yılı Eylül'de başlar.
@@ -38,21 +66,3 @@ export const REHBERLIK_AYLARI: { ad: string; no: number }[] = [
   { ad: 'Haziran', no: 10 },
 ];
 
-// Referans belgedeki sabit geçiş cümlesi — her üç bölümde de aynen tekrarlanıyor.
-export function rehberlikGirisCumlesi(sinif: string, ay: string): string {
-  return `${sinif} Sınıfı ${ay} ayı rehberlik faaliyetleri kapsamında aşağıda sıralanmış olan çalışmalar, Okul Rehberlik Servisi ile koordineli şekilde yapılmıştır.`;
-}
-
-export function numaralaKazanim(maddeler: string[]): string[] {
-  return maddeler
-    .map(s => s.trim())
-    .filter(Boolean)
-    .map((m, i) => `${m} (${i + 1} numaralı kazanım işlendi.)`);
-}
-
-export function numaralaEtkinlik(maddeler: string[]): string[] {
-  return maddeler
-    .map(s => s.trim())
-    .filter(Boolean)
-    .map((m, i) => `${m} (${i + 1} numaralı etkinlik yapıldı.)`);
-}

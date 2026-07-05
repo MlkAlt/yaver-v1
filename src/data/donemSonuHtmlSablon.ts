@@ -75,7 +75,7 @@ export function donemSonuHtmlOlustur(form: DonemSonuFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4; margin: 16mm 18mm; }
+  @page { size: A4; margin: 14mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 10.5pt; color: #000; }
   .baslik { text-align: center; margin-bottom: 12px; }

@@ -29,7 +29,10 @@ import { kulupVarsayilanEtkinlikleri, kulupVarsayilanToplumHizmetSatirlari } fro
 import { RAPOR_AYLARI, planEtkinlikleriniRaporaCevir, aylikRaporHtmlOlustur, AylikRaporFormData } from '../../data/aylikRaporHtmlSablon';
 import { toplumHizmetHtmlOlustur, ToplumHizmetFormData } from '../../data/toplumHizmetHtmlSablon';
 import { aylikRehberlikHtmlOlustur, AylikRehberlikFormData } from '../../data/rehberlikHtmlSablon';
-import { REHBERLIK_AYLARI, VeliGorusmeSatiri, OgrenciGorusmeSatiri, bosVeliGorusmeSatiri, bosOgrenciGorusmeSatiri } from '../../data/rehberlikSablon';
+import {
+  REHBERLIK_AYLARI, VeliGorusmeSatiri, OgrenciGorusmeSatiri, bosVeliGorusmeSatiri, bosOgrenciGorusmeSatiri,
+  RehberlikHaftaSatiri, TestAnketSatiri, bosHaftaSatiri, bosTestAnketSatiri,
+} from '../../data/rehberlikSablon';
 import { donemSonuHtmlOlustur, DonemSonuFormData } from '../../data/donemSonuHtmlSablon';
 import { KAZANIM_DURUMLARI, KazanimDurumu, DONEM_SECENEKLERI, FaaliyetSatiri, VeliFaaliyetSatiri, YonlendirmeSatiri, bosFaaliyetSatiri, bosVeliFaaliyetSatiri, bosYonlendirmeSatiri, varsayilanVeliFaaliyetleri } from '../../data/donemSonuSablon';
 import { dilekceHtmlOlustur } from '../../data/dilekceHtmlSablon';
@@ -42,6 +45,8 @@ import {
 } from '../../data/performansSablon';
 import { performansHtmlOlustur, PerformansFormData } from '../../data/performansHtmlSablon';
 import { turkceBuyuk } from '../../lib/turkce';
+import { pdfOnizlemeAc } from '../../lib/pdfOnizleme';
+import { rehberlikAylikKaydiOku, rehberlikAylikKaydiYaz, yillikPlandanHaftaOnerisi, donemVeriOzetiOlustur } from '../../data/rehberlikVeriZinciri';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'SablonDoldurma'>;
 type OkulTipi = 'ilkokul' | 'ortaokul' | 'lise' | 'ihl';
@@ -397,7 +402,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [pOgretmen, setPOgretmen]               = useState('');
   const [pMudur, setPMudur]                     = useState('');
   const [pSablonId, setPSablonId]               = useState<'birinci' | 'ikinci'>('birinci');
-  const [pOgrenciMetni, setPOgrenciMetni]       = useState('');
+  const [pRoster, setPRoster]                   = useState<{ okulNo: string; adSoyad: string }[]>([]);
   const [pMod, setPMod]                         = useState<'oto' | 'manuel'>('oto');
   const [pOgrenciler, setPOgrenciler]           = useState<POgrenciUI[]>([]);
   const [pYukleniyor, setPYukleniyor]           = useState(false);
@@ -414,9 +419,9 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [rbSinifOgretmeni, setRbSinifOgretmeni] = useState('');
   const [rbRehberOgretmeni, setRbRehberOgretmeni] = useState('');
   const [rbMudur, setRbMudur]                   = useState('');
-  const [rbCalismalar, setRbCalismalar]         = useState<string[]>(['']);
-  const [rbKazanimlar, setRbKazanimlar]         = useState<string[]>(['']);
-  const [rbEtkinlikler, setRbEtkinlikler]       = useState<string[]>(['']);
+  const [rbHaftalar, setRbHaftalar]             = useState<RehberlikHaftaSatiri[]>([bosHaftaSatiri(1)]);
+  const [rbTestAnketler, setRbTestAnketler]     = useState<TestAnketSatiri[]>([]);
+  const [rbDigerCalismalar, setRbDigerCalismalar] = useState<string[]>(['']);
   const [rbVeliGorusmeleri, setRbVeliGorusmeleri]       = useState<VeliGorusmeSatiri[]>([]);
   const [rbOgrenciGorusmeleri, setRbOgrenciGorusmeleri] = useState<OgrenciGorusmeSatiri[]>([]);
   const [rbYukleniyor, setRbYukleniyor]         = useState(false);
@@ -651,8 +656,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = veliHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -853,7 +857,10 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       setArAy(ay);
       setArRaporNo(no);
       const etkinlikler = kulupVarsayilanEtkinlikleri(sablonAdi);
-      const satir = etkinlikler.find(e => e.tarih === ay);
+      // kulupVarsayilanEtkinlikleri 'tarih' alanını büyük harfle ('EKİM') döndürüyor,
+      // RAPOR_AYLARI ise başlık formatında ('Ekim') — Türkçe locale ile eşleştirilmeli
+      // yoksa .toUpperCase() 'i'yi 'I' yapıp 'İ' ile eşleşmeyi kaçırır.
+      const satir = etkinlikler.find(e => e.tarih.toLocaleUpperCase('tr-TR') === ay.toLocaleUpperCase('tr-TR'));
       if (satir) {
         setArCalismalar(planEtkinlikleriniRaporaCevir(satir.etkinlikler));
       } else {
@@ -903,8 +910,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = aylikRaporHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1079,8 +1085,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
           okulAdi: ypOkulAdi, egitimYili: ypEgitimYili, sinif: ypSinif,
           sinifRehberOgretmeni: ypRehber, okulMuduru: ypMudur,
         });
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, true);
       } catch {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1188,8 +1193,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = dilekceHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1302,6 +1306,28 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
     const DS_ADIMLAR = ['Temel Bilgiler', 'Kazanımlar', 'Faaliyetler', 'Değerlendirme'];
     const dsDonemLabel = DONEM_SECENEKLERI.find(d => d.key === dsDonem)?.label ?? '';
 
+    // Sınıf+dönem doluysa: dönemin aylarındaki Aylık Rapor kayıtlarını (yoksa yıllık plandan
+    // gelen öneriyi) toplayıp Faaliyetler + Kazanımlar adımlarını otomatik doldurur. Öğretmen
+    // zaten bir şey girmişse (pristine değilse) üzerine yazmaz.
+    async function dsVeriyiUygula(sinifDeger: string, donemDeger: string) {
+      if (!sinifDeger.trim()) return;
+      const ozet = await donemVeriOzetiOlustur(sinifDeger, donemDeger);
+
+      if (dsFaaliyetler.every(f => !f.calisma.trim())) {
+        setDsFaaliyetler(ozet.faaliyetler.length
+          ? ozet.faaliyetler.map(m => ({ calisma: m, kiz: '', erkek: '' }))
+          : [bosFaaliyetSatiri()]);
+      }
+      if (dsKazanimDurumu === 'evet' && !dsKazanimAciklama.trim()) {
+        if (ozet.islenmeyenKazanimlar.length === 0) {
+          setDsKazanimDurumu('evet');
+        } else {
+          setDsKazanimDurumu(ozet.islenenKazanimSayisi > 0 ? 'kismen' : 'hayir');
+          setDsKazanimAciklama(ozet.islenmeyenKazanimlar.map(k => `- ${k}`).join('\n'));
+        }
+      }
+    }
+
     const dsIleri = () => {
       if (dsAdim === 0) {
         if (!dsOkulAdi.trim() || !dsSinif.trim() || !dsRehber.trim()) {
@@ -1334,8 +1360,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = donemSonuHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1371,14 +1396,15 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                 <View style={s.chipRow}>
                   {DONEM_SECENEKLERI.map(({ key, label }) => (
                     <TouchableOpacity key={key} style={[s.chip, dsDonem === key && s.chipActive]}
-                      onPress={() => setDsDonem(key)} activeOpacity={0.7}>
+                      onPress={() => { setDsDonem(key); dsVeriyiUygula(dsSinif, key); }} activeOpacity={0.7}>
                       <Text style={[s.chipText, dsDonem === key && s.chipTextActive]}>{label}</Text>
                     </TouchableOpacity>
                   ))}
                 </View>
               </Alan>
-              <Alan label="Sınıf / Şube" zorunlu>
+              <Alan label="Sınıf / Şube" zorunlu hint="Aylık raporlardan (yoksa yıllık plandan) otomatik doldurulur">
                 <TextInput style={s.input} value={dsSinif} onChangeText={setDsSinif}
+                  onEndEditing={() => dsVeriyiUygula(dsSinif, dsDonem)}
                   placeholder="11 / C" placeholderTextColor={colors.text3} />
               </Alan>
               <Alan label="Sınıf Rehber Öğretmeni" zorunlu>
@@ -1573,54 +1599,35 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   if (isRehberlikAylik) {
     const RB_ADIMLAR = ['Sınıf & Bilgiler', 'Çalışmalar', 'Görüşmeler'];
 
-    const rbListEditor = (
-      baslik: string,
-      alt: string,
-      liste: string[],
-      setListe: (v: string[]) => void,
-      tekil: string,
-      placeholder: string,
-    ) => (
-      <View style={{ marginBottom: 18 }}>
-        <Text style={s.adimBaslik}>{baslik}</Text>
-        <Text style={s.adimAlt}>{alt}</Text>
-        {liste.map((deger, i) => (
-          <View key={i} style={s.soruCard}>
-            <View style={s.soruHeader}>
-              <Text style={s.soruNo}>{i + 1}. {tekil}</Text>
-              {liste.length > 1 && (
-                <TouchableOpacity
-                  onPress={() => setListe(liste.filter((_, idx) => idx !== i))}
-                  style={s.deleteBtn}
-                  activeOpacity={0.7}
-                >
-                  <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
-                </TouchableOpacity>
-              )}
-            </View>
-            <TextInput
-              style={[s.input, s.textArea]}
-              value={deger}
-              onChangeText={v => setListe(liste.map((x, idx) => idx === i ? v : x))}
-              placeholder={placeholder}
-              placeholderTextColor={colors.text3}
-              multiline
-            />
-          </View>
-        ))}
-        <TouchableOpacity style={s.addBtn} onPress={() => setListe([...liste, ''])} activeOpacity={0.7}>
-          <Plus size={16} color={colors.accent} strokeWidth={2} />
-          <Text style={s.addBtnText}>{tekil} Ekle</Text>
-        </TouchableOpacity>
-      </View>
-    );
+    const rbHaftaPristine = () => rbHaftalar.every(h => !h.kazanim.trim() && !h.tarih.trim() && !h.etkinlikAdi.trim());
+
+    // Sınıf+ay ikisi de doluysa: haftalık tablo için kayıtlı manuel veri varsa o, yoksa
+    // yıllık plandan öneri kullanılır. Test/anket ve diğer çalışmalar plandan türetilemez
+    // (kaynak yok), sadece kayıtlı manuel veri varsa geri yüklenir. Zaten doldurulmuş
+    // (pristine olmayan) alanların üzerine yazılmaz.
+    async function rbVeriyiUygula(sinifDeger: string, ayDeger: string) {
+      if (!sinifDeger.trim() || !ayDeger) return;
+      const kayit = await rehberlikAylikKaydiOku(sinifDeger, ayDeger);
+
+      if (rbHaftaPristine()) {
+        const deger = kayit?.haftalar?.length ? kayit.haftalar : yillikPlandanHaftaOnerisi(sinifDeger, ayDeger);
+        if (deger.length) setRbHaftalar(deger);
+      }
+      if (rbTestAnketler.length === 0 && kayit?.testAnketler?.length) {
+        setRbTestAnketler(kayit.testAnketler);
+      }
+      if (rbDigerCalismalar.every(t => !t.trim()) && kayit?.digerCalismalar?.length) {
+        setRbDigerCalismalar(kayit.digerCalismalar);
+      }
+    }
 
     function rbAySecilince(ay: string, no: number) {
       setRbAy(ay);
       setRbRaporNo(no);
+      rbVeriyiUygula(rbSinif, ay);
     }
 
-    const rbIleri = () => {
+    const rbIleri = async () => {
       if (rbAdim === 0) {
         if (!rbOkulAdi.trim() || !rbSinif.trim() || !rbSinifOgretmeni.trim()) {
           Alert.alert('Eksik bilgi', 'Okul adı, sınıf ve sınıf öğretmeni zorunlu.');
@@ -1630,10 +1637,13 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
           Alert.alert('Eksik bilgi', 'Rapor ayı seçilmeli.');
           return;
         }
+        // Sınıf/ay onEndEditing sırasına bağlı kalmadan, adımdan çıkmadan hemen önce
+        // garantili uygulanır (kullanıcı chip'i alan bulanıklaşmadan seçmiş olabilir).
+        await rbVeriyiUygula(rbSinif, rbAy);
       }
       if (rbAdim === 1) {
-        if (rbCalismalar.filter(t => t.trim()).length === 0) {
-          Alert.alert('Eksik bilgi', 'En az bir yapılan çalışma girilmeli.');
+        if (rbHaftalar.filter(h => h.kazanim.trim()).length === 0) {
+          Alert.alert('Eksik bilgi', 'En az bir haftalık kazanım girilmeli.');
           return;
         }
       }
@@ -1652,6 +1662,14 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         await AsyncStorage.setItem(STORAGE_KULLANICI_ADI, rbSinifOgretmeni);
         if (rbMudur.trim()) await AsyncStorage.setItem(STORAGE_ZUMRE_MUDUR, rbMudur);
 
+        const haftalar = rbHaftalar
+          .filter(h => h.kazanim.trim())
+          .map((h, i) => ({ ...h, sira: i + 1 }));
+        const testAnketler = rbTestAnketler
+          .filter(t => t.adi.trim())
+          .map((t, i) => ({ ...t, sira: i + 1 }));
+        const digerCalismalar = rbDigerCalismalar.filter(t => t.trim());
+
         const formData: AylikRehberlikFormData = {
           okulAdi: rbOkulAdi,
           egitimYili: rbEgitimYili,
@@ -1663,9 +1681,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
           sinifOgretmeni: rbSinifOgretmeni,
           okulRehberOgretmeni: rbRehberOgretmeni,
           okulMuduru: rbMudur,
-          yapilanCalismalar: rbCalismalar.filter(t => t.trim()),
-          islenenKazanimlar: rbKazanimlar.filter(t => t.trim()),
-          yapilanEtkinlikler: rbEtkinlikler.filter(t => t.trim()),
+          haftalar, testAnketler, digerCalismalar,
           veliGorusmeleri: rbVeliGorusmeleri
             .filter(v => v.adSoyad.trim() || v.konu.trim())
             .map((v, i) => ({ ...v, sira: i + 1 })),
@@ -1674,9 +1690,10 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
             .map((o, i) => ({ ...o, sira: i + 1 })),
         };
 
+        await rehberlikAylikKaydiYaz(rbSinif, rbAy, { haftalar, testAnketler, digerCalismalar });
+
         const html    = aylikRehberlikHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -1711,6 +1728,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               </Alan>
               <Alan label="Sınıf" zorunlu>
                 <TextInput style={s.input} value={rbSinif} onChangeText={setRbSinif}
+                  onEndEditing={() => rbVeriyiUygula(rbSinif, rbAy)}
                   placeholder="11/C" placeholderTextColor={colors.text3} />
               </Alan>
 
@@ -1754,7 +1772,11 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                 <View style={s.infoCard}>
                   <Text style={s.infoText}>
                     Rapor No: <Text style={s.infoVurgu}>{rbRaporNo}</Text>
-                    {'  '}· {rbAy} ayı. Sonraki adımda çalışmaları, kazanımları ve etkinlikleri gireceksin.
+                    {'  '}· {rbAy} ayı ·{' '}
+                    {rbHaftalar.filter(h => h.kazanim.trim()).length > 0
+                      ? <Text style={s.infoVurgu}>Yıllık plandan {rbHaftalar.filter(h => h.kazanim.trim()).length} haftalık kazanım aktarıldı.</Text>
+                      : 'Yıllık plandan öneri bulunamadı, elle gireceksin.'}
+                    {' '}Sonraki adımda düzenleyebilirsin.
                   </Text>
                 </View>
               )}
@@ -1763,24 +1785,116 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
           {rbAdim === 1 && (
             <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
-              {rbListEditor(
-                'Yapılan Rehberlik Çalışmaları',
-                'Bu ay sınıfta yürütülen çalışmalar — her madde ayrı kart',
-                rbCalismalar, setRbCalismalar, 'Çalışma',
-                'Sınıf rehberlik planı hazırlandı.',
-              )}
-              {rbListEditor(
-                'Yıllık Plana Göre İşlenen Kazanımlar',
-                'Numaralandırma çıktıda otomatik eklenir',
-                rbKazanimlar, setRbKazanimlar, 'Kazanım',
-                'Başarılı olduğu durumlarda kendini takdir eder.',
-              )}
-              {rbListEditor(
-                'Yapılan Etkinlikler (ORGM 1. Cilt)',
-                'Numaralandırma çıktıda otomatik eklenir',
-                rbEtkinlikler, setRbEtkinlikler, 'Etkinlik',
-                'YAŞAM KARNEM',
-              )}
+              <View style={{ marginBottom: 18 }}>
+                <Text style={s.adimBaslik}>Haftalık Çalışmalar</Text>
+                <Text style={s.adimAlt}>Yıllık plandan aktarıldı — yeterlik alanı/etkinlik adı boşsa kaynakta eşleşme bulunamadı, elle girebilirsin</Text>
+                {rbHaftalar.map((h, i) => (
+                  <View key={i} style={s.soruCard}>
+                    <View style={s.soruHeader}>
+                      <Text style={s.soruNo}>{i + 1}. Hafta</Text>
+                      {rbHaftalar.length > 1 && (
+                        <TouchableOpacity
+                          onPress={() => setRbHaftalar(rbHaftalar.filter((_, idx) => idx !== i))}
+                          style={s.deleteBtn} activeOpacity={0.7}
+                        >
+                          <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                        </TouchableOpacity>
+                      )}
+                    </View>
+                    <TextInput style={[s.input, { marginBottom: 8 }]} value={h.tarih}
+                      onChangeText={t => setRbHaftalar(rbHaftalar.map((x, idx) => idx === i ? { ...x, tarih: t } : x))}
+                      placeholder="Tarih (ör. 8-12 Eylül 2025)" placeholderTextColor={colors.text3} />
+                    <TextInput style={[s.input, { marginBottom: 8 }]} value={h.yeterlikAlani}
+                      onChangeText={t => setRbHaftalar(rbHaftalar.map((x, idx) => idx === i ? { ...x, yeterlikAlani: t } : x))}
+                      placeholder="Yeterlik alanı (ör. Benlik Farkındalığı)" placeholderTextColor={colors.text3} />
+                    <TextInput style={[s.input, s.textArea, { marginBottom: 8 }]} value={h.kazanim}
+                      onChangeText={t => setRbHaftalar(rbHaftalar.map((x, idx) => idx === i ? { ...x, kazanim: t } : x))}
+                      placeholder="Kazanım" placeholderTextColor={colors.text3} multiline />
+                    <TextInput style={s.input} value={h.etkinlikAdi}
+                      onChangeText={t => setRbHaftalar(rbHaftalar.map((x, idx) => idx === i ? { ...x, etkinlikAdi: t } : x))}
+                      placeholder="Etkinliğin adı (ör. YAŞAM KARNEM)" placeholderTextColor={colors.text3} />
+                  </View>
+                ))}
+                <TouchableOpacity style={s.addBtn}
+                  onPress={() => setRbHaftalar([...rbHaftalar, bosHaftaSatiri(rbHaftalar.length + 1)])}
+                  activeOpacity={0.7}>
+                  <Plus size={16} color={colors.accent} strokeWidth={2} />
+                  <Text style={s.addBtnText}>Hafta Ekle</Text>
+                </TouchableOpacity>
+              </View>
+
+              <View style={{ marginBottom: 18 }}>
+                <Text style={s.adimBaslik}>Uygulanan Test ve Anketler</Text>
+                <Text style={s.adimAlt}>İsteğe bağlı — uygulanmadıysa boş bırakabilirsin</Text>
+                {rbTestAnketler.map((t, i) => (
+                  <View key={i} style={s.soruCard}>
+                    <View style={s.soruHeader}>
+                      <Text style={s.soruNo}>{i + 1}. Test/Anket</Text>
+                      <TouchableOpacity
+                        onPress={() => setRbTestAnketler(rbTestAnketler.filter((_, idx) => idx !== i))}
+                        style={s.deleteBtn} activeOpacity={0.7}
+                      >
+                        <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                      </TouchableOpacity>
+                    </View>
+                    <TextInput style={[s.input, { marginBottom: 8 }]} value={t.adi}
+                      onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, adi: v } : x))}
+                      placeholder="Test/anket adı (ör. RİBA)" placeholderTextColor={colors.text3} />
+                    <TextInput style={[s.input, { marginBottom: 8 }]} value={t.tarih}
+                      onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, tarih: v } : x))}
+                      placeholder="Uygulama tarihi" placeholderTextColor={colors.text3} />
+                    <View style={{ flexDirection: 'row', gap: 8 }}>
+                      <TextInput style={[s.input, { flex: 1 }]} value={t.kiz}
+                        onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, kiz: v } : x))}
+                        placeholder="Kız" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                      <TextInput style={[s.input, { flex: 1 }]} value={t.erkek}
+                        onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, erkek: v } : x))}
+                        placeholder="Erkek" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                      <TextInput style={[s.input, { flex: 1 }]} value={t.toplam}
+                        onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, toplam: v } : x))}
+                        placeholder="Toplam" placeholderTextColor={colors.text3} keyboardType="number-pad" />
+                    </View>
+                  </View>
+                ))}
+                <TouchableOpacity style={s.addBtn}
+                  onPress={() => setRbTestAnketler([...rbTestAnketler, bosTestAnketSatiri(rbTestAnketler.length + 1)])}
+                  activeOpacity={0.7}>
+                  <Plus size={16} color={colors.accent} strokeWidth={2} />
+                  <Text style={s.addBtnText}>Test/Anket Ekle</Text>
+                </TouchableOpacity>
+              </View>
+
+              <View style={{ marginBottom: 18 }}>
+                <Text style={s.adimBaslik}>Diğer Çalışmalar</Text>
+                <Text style={s.adimAlt}>İsteğe bağlı</Text>
+                {rbDigerCalismalar.map((deger, i) => (
+                  <View key={i} style={s.soruCard}>
+                    <View style={s.soruHeader}>
+                      <Text style={s.soruNo}>{i + 1}. Çalışma</Text>
+                      {rbDigerCalismalar.length > 1 && (
+                        <TouchableOpacity
+                          onPress={() => setRbDigerCalismalar(rbDigerCalismalar.filter((_, idx) => idx !== i))}
+                          style={s.deleteBtn} activeOpacity={0.7}
+                        >
+                          <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                        </TouchableOpacity>
+                      )}
+                    </View>
+                    <TextInput
+                      style={[s.input, s.textArea]}
+                      value={deger}
+                      onChangeText={v => setRbDigerCalismalar(rbDigerCalismalar.map((x, idx) => idx === i ? v : x))}
+                      placeholder="Diğer çalışma"
+                      placeholderTextColor={colors.text3}
+                      multiline
+                    />
+                  </View>
+                ))}
+                <TouchableOpacity style={s.addBtn} onPress={() => setRbDigerCalismalar([...rbDigerCalismalar, ''])} activeOpacity={0.7}>
+                  <Plus size={16} color={colors.accent} strokeWidth={2} />
+                  <Text style={s.addBtnText}>Çalışma Ekle</Text>
+                </TouchableOpacity>
+              </View>
             </ScrollView>
           )}
 
@@ -1834,6 +1948,9 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                       <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
                     </TouchableOpacity>
                   </View>
+                  <TextInput style={[s.input, { marginBottom: 8 }]} value={o.ogrenciNo}
+                    onChangeText={t => setRbOgrenciGorusmeleri(rbOgrenciGorusmeleri.map((x, idx) => idx === i ? { ...x, ogrenciNo: t } : x))}
+                    placeholder="Okul no" placeholderTextColor={colors.text3} keyboardType="number-pad" />
                   <TextInput style={[s.input, { marginBottom: 8 }]} value={o.adSoyad}
                     onChangeText={t => setRbOgrenciGorusmeleri(rbOgrenciGorusmeleri.map((x, idx) => idx === i ? { ...x, adSoyad: t } : x))}
                     placeholder="Öğrenci adı soyadı" placeholderTextColor={colors.text3} />
@@ -1921,8 +2038,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = kulupYillikPlanHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, true);
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -2115,8 +2231,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = toplumHizmetHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, true);
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -2326,8 +2441,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = yoklamaKararHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -2614,28 +2728,38 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       }));
     };
 
+    // Roster satırlarını depolama formatına ("123 Ahmet Yılmaz") serileştir.
+    const rosterMetni = (r: { okulNo: string; adSoyad: string }[]) =>
+      r.map(x => `${x.okulNo ? x.okulNo + ' ' : ''}${x.adSoyad.trim()}`.trim()).filter(Boolean).join('\n');
+
+    const pRosterEkle = () => setPRoster([...pRoster, { okulNo: '', adSoyad: '' }]);
+    const pRosterSil = (i: number) => setPRoster(pRoster.filter((_, idx) => idx !== i));
+    const pRosterGuncelle = (i: number, alan: 'okulNo' | 'adSoyad', deger: string) =>
+      setPRoster(pRoster.map((r, idx) => idx === i ? { ...r, [alan]: deger } : r));
+
     // Öğrenci Listesi adımına ilk girişte, aynı sınıf için kaydedilmiş liste varsa otomatik doldur.
     const pListeYukle = async () => {
-      if (pOgrenciMetni.trim()) return;
+      if (pRoster.length > 0) return;
       const kayitli = await AsyncStorage.getItem(performansRosterKey(pSinif));
-      if (kayitli) setPOgrenciMetni(kayitli);
+      const parsed = kayitli ? parsePerformansSatirlari(kayitli) : [];
+      setPRoster(parsed.length > 0 ? parsed : [{ okulNo: '', adSoyad: '' }]);
     };
 
     // Puanlama adımına geçerken listeyi kaydet + pOgrenciler'i (var olan notları koruyarak) yeniden kur.
     const pListeyiUygula = async () => {
-      const satirlar = parsePerformansSatirlari(pOgrenciMetni);
+      const satirlar = pRoster.filter(r => r.adSoyad.trim());
       setPOgrenciler(satirlar.map((satir, i) => {
         const eski = pOgrenciler[i];
         const ayniIsim = eski?.adSoyad === satir.adSoyad;
         return {
           no: i + 1,
           okulNo: satir.okulNo || eski?.okulNo || '',
-          adSoyad: satir.adSoyad,
+          adSoyad: satir.adSoyad.trim(),
           asilNot: ayniIsim ? eski.asilNot : '',
           puanlar: ayniIsim ? eski.puanlar : new Array(kriterler.length).fill(0),
         };
       }));
-      await AsyncStorage.setItem(performansRosterKey(pSinif), pOgrenciMetni);
+      await AsyncStorage.setItem(performansRosterKey(pSinif), rosterMetni(satirlar));
     };
 
     const pIleri = () => {
@@ -2645,7 +2769,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       }
       if (pAdim === 1) { pListeYukle(); setPAdim(pAdim + 1); return; }
       if (pAdim === 2) {
-        if (!pOgrenciMetni.trim()) {
+        if (!pRoster.some(r => r.adSoyad.trim())) {
           Alert.alert('Eksik bilgi', 'En az bir öğrenci eklenmeli.');
           return;
         }
@@ -2682,8 +2806,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = performansHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -2768,19 +2891,37 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
             <ScrollView contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
               <Text style={s.adimBaslik}>Öğrenci Listesi</Text>
               <Text style={s.adimAlt}>
-                Her satıra bir öğrenci — istersen okul no ile başlat (örn. "123 Ahmet Yılmaz"). Bu liste "{pSinif || 'sınıf'}" için kaydedilir, sonraki seferde otomatik gelir.
+                Öğrencileri tek tek ekle. Bu liste "{pSinif || 'sınıf'}" için kaydedilir, sonraki seferde otomatik gelir.
               </Text>
 
-              <Alan label="Öğrenciler">
-                <TextInput
-                  style={[s.input, s.textArea, { minHeight: 220 }]}
-                  value={pOgrenciMetni}
-                  onChangeText={setPOgrenciMetni}
-                  placeholder={'123 Ahmet Yılmaz\n124 Ayşe Kaya\nMehmet Demir'}
-                  placeholderTextColor={colors.text3}
-                  multiline
-                />
-              </Alan>
+              {pRoster.map((r, i) => (
+                <View key={i} style={s.ogrenciRow}>
+                  <Text style={s.ogrenciSira}>{i + 1}</Text>
+                  <TextInput
+                    style={[s.input, s.ogrenciNoInput]}
+                    value={r.okulNo}
+                    onChangeText={v => pRosterGuncelle(i, 'okulNo', v.replace(/[^0-9]/g, ''))}
+                    placeholder="No"
+                    placeholderTextColor={colors.text3}
+                    keyboardType="numeric"
+                  />
+                  <TextInput
+                    style={[s.input, { flex: 1 }]}
+                    value={r.adSoyad}
+                    onChangeText={v => pRosterGuncelle(i, 'adSoyad', v)}
+                    placeholder="Ad Soyad"
+                    placeholderTextColor={colors.text3}
+                  />
+                  <TouchableOpacity onPress={() => pRosterSil(i)} style={s.ogrenciDeleteBtn} activeOpacity={0.7}>
+                    <Trash2 size={16} color={colors.text3} strokeWidth={1.5} />
+                  </TouchableOpacity>
+                </View>
+              ))}
+
+              <TouchableOpacity style={s.addBtn} onPress={pRosterEkle} activeOpacity={0.7}>
+                <Plus size={16} color={colors.accent} strokeWidth={2} />
+                <Text style={s.addBtnText}>Öğrenci Ekle</Text>
+              </TouchableOpacity>
             </ScrollView>
           )}
 
@@ -2789,12 +2930,13 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <Text style={s.adimBaslik}>Puanlama</Text>
               <Text style={s.adimAlt}>Tüm sınıf için tek yöntem seç — sonra notları gir</Text>
 
+              <Text style={s.puanlamaModLabel}>YÖNTEM</Text>
               <View style={s.chipRow}>
                 <TouchableOpacity style={[s.chip, pMod === 'oto' && s.chipActive]} onPress={() => setPMod('oto')}>
                   <Text style={[s.chipText, pMod === 'oto' && s.chipTextActive]}>Otomatik Dağıt</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={[s.chip, pMod === 'manuel' && s.chipActive]} onPress={() => setPMod('manuel')}>
-                  <Text style={[s.chipText, pMod === 'manuel' && s.chipTextActive]}>Kriter Kriter Manuel</Text>
+                  <Text style={[s.chipText, pMod === 'manuel' && s.chipTextActive]}>Elle Puanla</Text>
                 </TouchableOpacity>
               </View>
 
@@ -2830,9 +2972,17 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                           </View>
                         </Alan>
                         {toplam > 0 && (
-                          <Text style={s.kriterOnizleme}>
-                            {kriterler.map((k, ki) => `${k.ad.split(' ').slice(0, 2).join(' ')}: ${o.puanlar[ki]}`).join('  ·  ')}
-                          </Text>
+                          <View style={s.dagilimGrid}>
+                            {kriterler.map((k, ki) => (
+                              <View key={ki} style={s.dagilimRow}>
+                                <Text style={s.dagilimAd} numberOfLines={1}>{k.ad}</Text>
+                                <View style={s.dagilimPill}>
+                                  <Text style={s.dagilimPuan}>{o.puanlar[ki]}</Text>
+                                  <Text style={s.dagilimMax}> / {k.puan}</Text>
+                                </View>
+                              </View>
+                            ))}
+                          </View>
                         )}
                       </>
                     ) : (
@@ -2932,8 +3082,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         };
 
         const html    = zumreHtmlOlustur(formData);
-        const { uri } = await Print.printToFileAsync({ html, base64: false });
-        await Print.printAsync({ uri });
+        await pdfOnizlemeAc(html, false);
       } catch (e) {
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
@@ -3150,8 +3299,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       };
 
       const html      = sokHtmlOlustur(formData);
-      const { uri }   = await Print.printToFileAsync({ html, base64: false });
-      await Print.printAsync({ uri });
+      await pdfOnizlemeAc(html, false);
     } catch (e) {
       Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
     } finally {
@@ -3251,16 +3399,16 @@ const s = StyleSheet.create({
   alanHint: { fontSize: 11, fontFamily: fonts.regular, color: colors.text3, marginBottom: 4 } as TextStyle,
   input: {
     backgroundColor: colors.bg,
-    borderRadius: radius.btn,
+    borderRadius: radius.sm,
     borderWidth: 1,
     borderColor: colors.border,
     paddingHorizontal: spacing.md,
-    paddingVertical: 12,
-    fontSize: 14,
+    paddingVertical: 11,
+    fontSize: 15,
     fontFamily: fonts.regular,
     color: colors.text1,
   } as TextStyle,
-  textArea: { minHeight: 72, textAlignVertical: 'top', paddingTop: 10 } as TextStyle,
+  textArea: { minHeight: 84, textAlignVertical: 'top', paddingTop: 11, lineHeight: 21 } as TextStyle,
 
   chipRow: { flexDirection: 'row', gap: 8, flexWrap: 'wrap' } as ViewStyle,
   chip: {
@@ -3276,8 +3424,25 @@ const s = StyleSheet.create({
     paddingHorizontal: spacing.md, borderRadius: radius.md,
     backgroundColor: colors.accent, alignItems: 'center', justifyContent: 'center',
   } as ViewStyle,
-  tumunuDagitBtn: { paddingVertical: 12, marginBottom: spacing.md } as ViewStyle,
+  tumunuDagitBtn: { paddingVertical: 13, marginTop: spacing.md, marginBottom: spacing.lg } as ViewStyle,
   dagitBtnText: { fontSize: 13, fontFamily: fonts.semiBold, color: '#fff' } as TextStyle,
+  puanlamaModLabel: {
+    fontSize: 11, fontFamily: fonts.bold, color: colors.text3, letterSpacing: 0.8,
+    marginBottom: spacing.sm,
+  } as TextStyle,
+  dagilimGrid: {
+    marginTop: spacing.sm, marginBottom: spacing.sm,
+    backgroundColor: colors.bg, borderRadius: radius.md,
+    paddingHorizontal: spacing.md, paddingVertical: 4,
+  } as ViewStyle,
+  dagilimRow: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  dagilimAd: { flex: 1, fontSize: 12, fontFamily: fonts.medium, color: colors.text2, marginRight: spacing.sm } as TextStyle,
+  dagilimPill: { flexDirection: 'row', alignItems: 'baseline' } as ViewStyle,
+  dagilimPuan: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,
+  dagilimMax: { fontSize: 11, fontFamily: fonts.regular, color: colors.text3 } as TextStyle,
   kriterOnizleme: {
     fontSize: 11, fontFamily: fonts.regular, color: colors.text2,
     marginTop: 4, marginBottom: spacing.sm,
@@ -3286,6 +3451,7 @@ const s = StyleSheet.create({
   kriterInputWrap: { width: '31%' } as ViewStyle,
   kriterLabel: { fontSize: 9, fontFamily: fonts.regular, color: colors.text2, marginBottom: 4, minHeight: 26 } as TextStyle,
   kriterInput: {
+    backgroundColor: colors.bg,
     borderWidth: 1, borderColor: colors.border, borderRadius: radius.sm,
     paddingVertical: 6, paddingHorizontal: 8, fontSize: 13, fontFamily: fonts.medium,
     color: colors.text1, textAlign: 'center',
@@ -3316,9 +3482,20 @@ const s = StyleSheet.create({
   ogretmenRow: {
     flexDirection: 'row', alignItems: 'flex-start', gap: spacing.sm,
     marginBottom: spacing.md,
-    backgroundColor: colors.bg, borderRadius: radius.md, padding: spacing.sm,
+    backgroundColor: colors.surface, borderRadius: radius.md, padding: spacing.md,
+    borderWidth: 1, borderColor: colors.border,
   } as ViewStyle,
   deleteBtn: { padding: 8, marginTop: 4, alignSelf: 'flex-start' } as ViewStyle,
+  ogrenciRow: {
+    flexDirection: 'row', alignItems: 'center', gap: spacing.sm,
+    marginBottom: spacing.sm,
+  } as ViewStyle,
+  ogrenciSira: {
+    width: 22, textAlign: 'center',
+    fontSize: 13, fontFamily: fonts.semiBold, color: colors.text3,
+  } as TextStyle,
+  ogrenciNoInput: { width: 64, textAlign: 'center' } as ViewStyle,
+  ogrenciDeleteBtn: { padding: 8 } as ViewStyle,
   addBtn: {
     flexDirection: 'row', alignItems: 'center', gap: 6,
     paddingVertical: 12, justifyContent: 'center',
@@ -3330,8 +3507,9 @@ const s = StyleSheet.create({
   gundemNo: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1, marginBottom: 6 } as TextStyle,
 
   soruCard: {
-    backgroundColor: colors.bg, borderRadius: radius.md,
+    backgroundColor: colors.surface, borderRadius: radius.md,
     padding: spacing.md, marginBottom: spacing.md, gap: spacing.sm,
+    borderWidth: 1, borderColor: colors.border,
   } as ViewStyle,
   soruHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' } as ViewStyle,
   soruNo: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,

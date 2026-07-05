@@ -43,7 +43,7 @@ export function sinavAnaliziHtmlOlustur(form: SinavFormData, sonuclar: SinavSonu
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4 landscape; margin: 14mm 16mm; }
+  @page { size: A4 portrait; margin: 14mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 10pt; color: #000; }
   h1 { font-size: 13pt; text-align: center; margin-bottom: 2px; }

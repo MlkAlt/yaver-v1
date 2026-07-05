@@ -56,10 +56,36 @@ export interface KararSatiri {
   katilmayanlar: string;    // Newline ile ayrılmış "Okul No - Sınıf Şube" listesi
 }
 
+// İlk toplantı gündem/karar deseni — gerçek bir MEB kulüp karar defterinden
+// (Bilim Fen ve Teknoloji Kulübü örneği, RG 30090 Sosyal Etkinlikler Yönetmeliği
+// doğrultusunda) alınmıştır. Yalnızca ilk toplantı için uygulanabilir; sonraki
+// toplantıların gündem/kararı gerçekten toplantıya özel olduğundan boş bırakılır.
+export function ilkToplantiVarsayilanGundem(): string {
+  return [
+    'Yoklama',
+    'Kulüp temsilcisi, temsilci yardımcısı ve sekreterin belirlenmesi',
+    'Yıllık çalışma programının hazırlanması',
+    'Kulüp temsilcisinin görevleri ile kulübün çalışma usullerinin açıklanması',
+    'Dilek ve temenniler',
+  ].join('\n');
+}
+
+export function ilkToplantiVarsayilanKarar(): string {
+  return [
+    'Kulüp rehber öğretmeni tarafından öğrencilerin isimleri okunarak yoklama alındı, salt çoğunluğun bulunduğu görüldü.',
+    'Kulüp temsilcisi, temsilci yardımcısı ve sekreteri gizli oy açık tasnif usulüyle seçildi.',
+    'Kulübün yıllık çalışma planının, Millî Eğitim Bakanlığı Sosyal Etkinlikler Yönetmeliği doğrultusunda danışman öğretmen rehberliğinde hazırlanmasına karar verildi.',
+    'Kulüp temsilcisinin görevleri ve kulübün çalışma usulleri danışman öğretmen tarafından açıklandı.',
+    'Bu yılın verimli ve güzel geçmesi dilek ve temennileriyle kulüp toplantısı bitirilmiştir.',
+  ].join('\n');
+}
+
 export function bosKararSatiri(no: number): KararSatiri {
+  const ilkToplanti = no === 1;
   return {
     no, kararNo: String(no), kararTarihi: '',
-    gundemMaddeleri: '', kararMetni: '',
+    gundemMaddeleri: ilkToplanti ? ilkToplantiVarsayilanGundem() : '',
+    kararMetni: ilkToplanti ? ilkToplantiVarsayilanKarar() : '',
     calismaTarihi: '', calismaSaati: '', kulupMevcudu: '', islenenKonu: '',
     katilmayanlar: '',
   };

@@ -36,8 +36,12 @@ const SABLONLAR: Sablon[] = [
   { id: 'sinav-analizi',Icon: ChartBar,   ad: 'Sınav Analizi',             iconBg: colors.catGreenLt,  iconColor: colors.catGreen  },
   { id: 'performans',   Icon: Award,      ad: 'Performans Notu', yeni: true, iconBg: colors.catAmberLt, iconColor: colors.catAmber },
   { id: 'ders-plan',    Icon: LayoutGrid, ad: 'Ders Planı',                iconBg: colors.catOrangeLt, iconColor: colors.catOrange },
+  { id: 'kulup-evrak',  Icon: Trophy,     ad: 'Kulüp Evrakları', yeni: true, iconBg: colors.catRedLt,   iconColor: colors.catRed    },
+  { id: 'rehberlik-evrak', Icon: ClipboardList, ad: 'Rehberlik Evrakları', yeni: true, iconBg: colors.catTealLt, iconColor: colors.catTeal },
   { id: 'diger',        Icon: Plus,       ad: 'Diğer...',                  iconBg: colors.bg,          iconColor: colors.text3     },
 ];
+
+type KategoriKalem = { id: string; Icon: IconComp; ad: string; iconBg: string; iconColor: string; onPress: () => void };
 
 const SHEET_H = Dimensions.get('window').height * 0.8;
 
@@ -98,6 +102,41 @@ function KulupSheet({
   );
 }
 
+function KategoriSheet({
+  visible, baslik, kalemler, onClose, onSelect,
+}: {
+  visible: boolean;
+  baslik: string;
+  kalemler: KategoriKalem[];
+  onClose: () => void;
+  onSelect: (kalem: KategoriKalem) => void;
+}) {
+  return (
+    <Modal transparent animationType="slide" visible={visible} onRequestClose={onClose}>
+      <View style={ss.overlay}>
+        <TouchableOpacity style={StyleSheet.absoluteFillObject as any} onPress={onClose} activeOpacity={1} />
+        <View style={ss.sheet}>
+          <View style={ss.handle} />
+          <Text style={ss.sheetTitle}>{baslik}</Text>
+
+          <ScrollView showsVerticalScrollIndicator={false}>
+            {kalemler.map(k => (
+              <TouchableOpacity key={k.id} style={ss.kategoriRow} onPress={() => onSelect(k)} activeOpacity={0.7}>
+                <View style={[ss.kategoriIcon, { backgroundColor: k.iconBg }]}>
+                  <k.Icon size={18} color={k.iconColor} strokeWidth={1.5} />
+                </View>
+                <Text style={ss.kategoriRowText}>{k.ad}</Text>
+                <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
+              </TouchableOpacity>
+            ))}
+            <View style={{ height: 32 }} />
+          </ScrollView>
+        </View>
+      </View>
+    </Modal>
+  );
+}
+
 const GECMIS = [
   { id: 'g1', ad: 'Zümre Toplantı Tutanağı', tip: 'Zümre', tarih: '14 Nisan 2025' },
   { id: 'g2', ad: 'Dilekçe — İzin Talebi', tip: 'Dilekçe', tarih: '2 Nisan 2025' },
@@ -109,6 +148,7 @@ export function EvraklarimScreen() {
   const [aylikRaporSheet, setAylikRaporSheet] = useState(false);
   const [toplumHizmetSheet, setToplumHizmetSheet] = useState(false);
   const [yoklamaSheet, setYoklamaSheet]       = useState(false);
+  const [kategoriSheet, setKategoriSheet]     = useState<'kulup' | 'rehberlik' | null>(null);
 
   function handleKulupSec(ad: string) {
     setKulupSheet(false);
@@ -130,6 +170,19 @@ export function EvraklarimScreen() {
     navigation.navigate('SablonDoldurma', { sablonId: 'yoklama_karar', sablonAdi: ad });
   }
 
+  const KULUP_EVRAK: KategoriKalem[] = [
+    { id: 'kulup_yillik',  Icon: Trophy, ad: 'Yıllık Çalışma Planı',         iconBg: colors.catOrangeLt, iconColor: colors.catOrange, onPress: () => setKulupSheet(true) },
+    { id: 'kulup_aylik',   Icon: Trophy, ad: 'Aylık Faaliyet Raporu',        iconBg: colors.catBlueLt,   iconColor: colors.catBlue,   onPress: () => setAylikRaporSheet(true) },
+    { id: 'kulup_toplum',  Icon: Trophy, ad: 'Toplum Hizmeti Planı',         iconBg: colors.catGreenLt,  iconColor: colors.catGreen,  onPress: () => setToplumHizmetSheet(true) },
+    { id: 'kulup_yoklama', Icon: Users,  ad: 'Yoklama ve Karar Defteri',     iconBg: colors.catRedLt,    iconColor: colors.catRed,    onPress: () => setYoklamaSheet(true) },
+  ];
+
+  const REHBERLIK_EVRAK: KategoriKalem[] = [
+    { id: 'rehberlik_aylik',  Icon: ClipboardList, ad: 'Aylık Rehberlik Raporu', iconBg: colors.catPurpleLt, iconColor: colors.catPurple, onPress: () => navigation.navigate('SablonDoldurma', { sablonId: 'rehberlik_aylik', sablonAdi: 'Aylık Rehberlik Raporu' }) },
+    { id: 'donem_sonu',       Icon: ClipboardList, ad: 'Dönem Sonu Raporu',       iconBg: colors.catTealLt,   iconColor: colors.catTeal,   onPress: () => navigation.navigate('SablonDoldurma', { sablonId: 'donem_sonu', sablonAdi: 'Dönem Sonu Raporu' }) },
+    { id: 'rehberlik_yillik', Icon: ClipboardList, ad: 'Yıllık Rehberlik Planı',  iconBg: colors.catGreenLt,  iconColor: colors.catGreen,  onPress: () => navigation.navigate('SablonDoldurma', { sablonId: 'rehberlik_yillik', sablonAdi: 'Yıllık Rehberlik Planı' }) },
+  ];
+
   return (
     <Screen bg={colors.bg}>
       <View style={styles.topBar}>
@@ -149,9 +202,12 @@ export function EvraklarimScreen() {
               key={s.id}
               style={styles.sablonCard}
               activeOpacity={0.8}
-              onPress={() => s.id === 'sinav-analizi'
-                ? navigation.navigate('SinavAnalizi')
-                : navigation.navigate('SablonDoldurma', { sablonId: s.id, sablonAdi: s.ad })}
+              onPress={() => {
+                if (s.id === 'sinav-analizi') { navigation.navigate('SinavAnalizi'); return; }
+                if (s.id === 'kulup-evrak') { setKategoriSheet('kulup'); return; }
+                if (s.id === 'rehberlik-evrak') { setKategoriSheet('rehberlik'); return; }
+                navigation.navigate('SablonDoldurma', { sablonId: s.id, sablonAdi: s.ad });
+              }}
             >
               {s.yeni ? (
                 <View style={styles.newBadge}><Text style={styles.newBadgeText}>YENİ</Text></View>
@@ -163,94 +219,6 @@ export function EvraklarimScreen() {
             </TouchableOpacity>
           ))}
         </View>
-
-        {/* Kulüp Evrakları */}
-        <Text style={[styles.sectionLabel, styles.historyLabel]}>KULÜP EVRAKları</Text>
-        <TouchableOpacity style={styles.kulupCard} onPress={() => setKulupSheet(true)} activeOpacity={0.8}>
-          <View style={styles.kulupIconBox}>
-            <Trophy size={22} color={colors.catOrange} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Yıllık Çalışma Planı</Text>
-            <Text style={styles.kulupSub}>76 MEB kulübü · EK-7/b formatı · Ekim–Haziran</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
-        <TouchableOpacity style={[styles.kulupCard, { marginTop: 8 }]} onPress={() => setAylikRaporSheet(true)} activeOpacity={0.8}>
-          <View style={[styles.kulupIconBox, { backgroundColor: '#EFF6FF' }]}>
-            <Trophy size={22} color={colors.accent} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Aylık Faaliyet Raporu</Text>
-            <Text style={styles.kulupSub}>Kulüp seç · Ay seç · Plan'dan otomatik doldur</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
-        <TouchableOpacity style={[styles.kulupCard, { marginTop: 8 }]} onPress={() => setToplumHizmetSheet(true)} activeOpacity={0.8}>
-          <View style={[styles.kulupIconBox, { backgroundColor: '#F0FDF4' }]}>
-            <Trophy size={22} color={colors.success} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Toplum Hizmeti Çalışma Planı</Text>
-            <Text style={styles.kulupSub}>Kulüp seç · Plan'dan otomatik doldur · Ekim–Haziran</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
-        <TouchableOpacity style={[styles.kulupCard, { marginTop: 8 }]} onPress={() => setYoklamaSheet(true)} activeOpacity={0.8}>
-          <View style={[styles.kulupIconBox, { backgroundColor: colors.catRedLt }]}>
-            <Users size={22} color={colors.catRed} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Yoklama ve Karar Defteri</Text>
-            <Text style={styles.kulupSub}>Kulüp seç · Öğrenci listesi · Toplantı karar kayıtları</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
-
-        {/* Rehberlik Evrakları */}
-        <Text style={[styles.sectionLabel, styles.historyLabel]}>REHBERLİK EVRAKları</Text>
-        <TouchableOpacity
-          style={styles.kulupCard}
-          onPress={() => navigation.navigate('SablonDoldurma', { sablonId: 'rehberlik_aylik', sablonAdi: 'Aylık Rehberlik Raporu' })}
-          activeOpacity={0.8}
-        >
-          <View style={[styles.kulupIconBox, { backgroundColor: colors.catPurpleLt }]}>
-            <ClipboardList size={22} color={colors.catPurple} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Aylık Rehberlik Raporu</Text>
-            <Text style={styles.kulupSub}>Sınıf rehber öğretmeni · Ay seç · Çalışma, kazanım, görüşme</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.kulupCard, { marginTop: 8 }]}
-          onPress={() => navigation.navigate('SablonDoldurma', { sablonId: 'donem_sonu', sablonAdi: 'Dönem Sonu Raporu' })}
-          activeOpacity={0.8}
-        >
-          <View style={[styles.kulupIconBox, { backgroundColor: colors.catTealLt }]}>
-            <ClipboardList size={22} color={colors.catTeal} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Dönem Sonu Raporu</Text>
-            <Text style={styles.kulupSub}>Dönem/yıl sonu · Kazanım, faaliyet, yönlendirme, veli</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.kulupCard, { marginTop: 8 }]}
-          onPress={() => navigation.navigate('SablonDoldurma', { sablonId: 'rehberlik_yillik', sablonAdi: 'Yıllık Rehberlik Planı' })}
-          activeOpacity={0.8}
-        >
-          <View style={[styles.kulupIconBox, { backgroundColor: colors.catGreenLt }]}>
-            <ClipboardList size={22} color={colors.catGreen} strokeWidth={1.5} />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.kulupTitle}>Yıllık Rehberlik Planı</Text>
-            <Text style={styles.kulupSub}>1–12. sınıf · Sınıfını seç · MEB planı hazır (yatay)</Text>
-          </View>
-          <ChevronRight size={16} color={colors.text3} strokeWidth={1.5} />
-        </TouchableOpacity>
 
         <Text style={[styles.sectionLabel, styles.historyLabel]}>GEÇMİŞ EVRAKLAR</Text>
         {GECMIS.map((b) => (
@@ -301,6 +269,14 @@ export function EvraklarimScreen() {
         visible={yoklamaSheet}
         onClose={() => setYoklamaSheet(false)}
         onSelect={handleYoklamaSec}
+      />
+
+      <KategoriSheet
+        visible={kategoriSheet !== null}
+        baslik={kategoriSheet === 'kulup' ? 'Kulüp Evrakları' : 'Rehberlik Evrakları'}
+        kalemler={kategoriSheet === 'kulup' ? KULUP_EVRAK : REHBERLIK_EVRAK}
+        onClose={() => setKategoriSheet(null)}
+        onSelect={(kalem) => { setKategoriSheet(null); kalem.onPress(); }}
       />
     </Screen>
   );
@@ -415,25 +391,6 @@ const styles = StyleSheet.create({
   } as ViewStyle,
   tipTitle: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,
   tipSub: { fontSize: 12, fontFamily: fonts.regular, color: colors.text3 } as TextStyle,
-
-  kulupCard: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: colors.surface,
-    borderRadius: radius.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-    padding: spacing.md,
-    gap: spacing.md,
-    ...shadows.card,
-  } as ViewStyle,
-  kulupIconBox: {
-    width: 44, height: 44, borderRadius: 12,
-    backgroundColor: colors.catOrangeLt,
-    alignItems: 'center', justifyContent: 'center',
-  } as ViewStyle,
-  kulupTitle: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,
-  kulupSub: { fontSize: 12, fontFamily: fonts.regular, color: colors.text2, marginTop: 2 } as TextStyle,
 });
 
 // ---- Bottom sheet styles ----
@@ -471,6 +428,16 @@ const ss = StyleSheet.create({
     borderBottomWidth: 1, borderBottomColor: colors.border,
   } as ViewStyle,
   rowText: { flex: 1, fontSize: 14, fontFamily: fonts.medium, color: colors.text1 } as TextStyle,
+  kategoriRow: {
+    flexDirection: 'row', alignItems: 'center', gap: spacing.md,
+    marginHorizontal: spacing.base, paddingVertical: 14,
+    borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  kategoriIcon: {
+    width: 40, height: 40, borderRadius: 12,
+    alignItems: 'center', justifyContent: 'center',
+  } as ViewStyle,
+  kategoriRowText: { flex: 1, fontSize: 15, fontFamily: fonts.semiBold, color: colors.text1 } as TextStyle,
   emptyText: {
     fontSize: 14, fontFamily: fonts.regular, color: colors.text3,
     textAlign: 'center', marginTop: spacing.xl,

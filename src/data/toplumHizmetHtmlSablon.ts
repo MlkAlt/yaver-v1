@@ -39,7 +39,7 @@ export function toplumHizmetHtmlOlustur(form: ToplumHizmetFormData): string {
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4 landscape; margin: 16mm 18mm; }
+  @page { size: A4 landscape; margin: 12mm 14mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 10.5pt; color: #000; }
   h1 { font-size: 12pt; text-align: center; margin-bottom: 2px; }
