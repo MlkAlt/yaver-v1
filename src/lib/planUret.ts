@@ -55,7 +55,10 @@ export async function planUret(
     q = q.or(`sinif.in.(${siniflar.join(',')}),sinif.eq.0`);
   } else {
     // Branş modu: yalnızca normal kayıtlar (hazırlık dahil eğer siniflar içinde 0 varsa)
-    const sinifTipleri = siniflar.includes(0) ? ['normal', 'hazirlik'] : ['normal'];
+    // Okul Öncesi izole kategori: sinif_tipi='okul_oncesi' (normal/hazırlık ile karışmaz)
+    const sinifTipleri = bransSlug === 'okul_oncesi'
+      ? ['okul_oncesi']
+      : siniflar.includes(0) ? ['normal', 'hazirlik'] : ['normal'];
     q = q.in('sinif_tipi', sinifTipleri);
     q = q.in('sinif', siniflar);
     q = q.or(`brans.eq.${bransSlug},branslar.cs.{${bransSlug}}`);
@@ -64,7 +67,13 @@ export async function planUret(
     }
   }
 
-  if (okulTipi) q = q.eq('okul_tipi', okulTipi);
+  if (okulTipi) {
+    // DKAB + İHO: ana ders + İHO'da zorunlu 3 meslek dersi (Kur'an-ı Kerim, Peygamberimizin
+    // Hayatı, Temel Dini Bilgiler) Supabase'de tek kaynaktan 'ortaokul' etiketiyle geliyor
+    // (normal ortaokulda seçmeli, İHO'da zorunlu — MEB'de aynı kazanımlar, veri çoğaltılmadı).
+    const okulTipleri = bransSlug === 'dkab' && okulTipi === 'iho' ? ['iho', 'ortaokul'] : [okulTipi];
+    q = q.in('okul_tipi', okulTipleri);
+  }
 
   // İngilizce lise: 9-12 arası hazirlikli/hazirliksiz içerik aynı (Migration 070'de hazirlikli 9-12 silindi).
   // Sinif=0 (hazırlık) ayrı sinif_tipi='hazirlik' ile ayrışıyor, program filtresi gerekmez.

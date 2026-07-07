@@ -22,8 +22,12 @@ import {
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Sinif'>;
 
+// Okul Öncesi: sinif sütunu yaş bandını kodluyor (bkz. migration 072) — MEB sınıf değil.
+const OKUL_ONCESI_YAS_ETIKET: Record<number, string> = { 1: '3 Yaş', 2: '4 Yaş', 3: '5 Yaş' };
+
 export function SinifScreen({ navigation }: Props) {
   const { brans, bransId, bransSlug, setSiniflar, setOkulTipi } = useOnboarding();
+  const isOkulOncesi = bransSlug === 'okul_oncesi';
   const [kademeTiles, setKademeTiles] = useState<KademeTile[]>([]);
   const [selectedOkulTipi, setSelectedOkulTipi] = useState<string | null>(null);
   const [allSiniflar, setAllSiniflar] = useState<number[]>([]);
@@ -94,12 +98,17 @@ export function SinifScreen({ navigation }: Props) {
     if (selectedOkulTipi !== null) setOkulTipi(selectedOkulTipi);
     if (brans === 'Sınıf Öğretmenliği') {
       navigation.navigate('EkDersler', { siniflar: sortedActiveList });
+    } else if (isOkulOncesi) {
+      // Okul Öncesi'nde "ders" kavramı yok — Dersler ekranı atlanır.
+      navigation.navigate('Loading', { brans, bransId, siniflar: sortedActiveList });
     } else {
       navigation.navigate('Dersler', { siniflar: sortedActiveList });
     }
   };
 
-  const hepsiSubText = allSiniflar.length > 0
+  const hepsiSubText = isOkulOncesi
+    ? allSiniflar.map(s => OKUL_ONCESI_YAS_ETIKET[s] ?? `${s}`).join(', ')
+    : allSiniflar.length > 0
     ? allSiniflar.map(s => s === 0 ? 'Hazırlık' : `${s}.`).join(', ') + (allSiniflar.some(s => s !== 0) ? ' sınıf' : '')
     : 'Tüm sınıflar';
 
@@ -184,11 +193,13 @@ export function SinifScreen({ navigation }: Props) {
                       </View>
                     )}
                     <Text style={[styles.sinifNum, isSelected && styles.sinifNumSelected]}>
-                      {s === 0 ? 'Haz.' : `${s}.`}
+                      {isOkulOncesi ? (OKUL_ONCESI_YAS_ETIKET[s] ?? `${s}`) : (s === 0 ? 'Haz.' : `${s}.`)}
                     </Text>
-                    <Text style={[styles.sinifLabel, isSelected && styles.sinifLabelSelected]}>
-                      {s === 0 ? 'Sınıf' : 'Sınıf'}
-                    </Text>
+                    {!isOkulOncesi && (
+                      <Text style={[styles.sinifLabel, isSelected && styles.sinifLabelSelected]}>
+                        Sınıf
+                      </Text>
+                    )}
                   </TouchableOpacity>
                 );
               })}
@@ -200,18 +211,21 @@ export function SinifScreen({ navigation }: Props) {
             {activeList.length > 0 && (
               <View style={styles.subeSection}>
                 <Text style={styles.subeLabel}>Şubeler — opsiyonel</Text>
-                {sortedActiveList.map((s) => (
-                  <View key={s} style={styles.subeRow}>
-                    <View style={styles.subeBadge}>
-                      <Text style={styles.subeBadgeText}>{s}</Text>
+                {sortedActiveList.map((s) => {
+                  const badge = isOkulOncesi ? (OKUL_ONCESI_YAS_ETIKET[s] ?? `${s}`) : `${s}`;
+                  return (
+                    <View key={s} style={styles.subeRow}>
+                      <View style={[styles.subeBadge, isOkulOncesi && styles.subeBadgeWide]}>
+                        <Text style={styles.subeBadgeText}>{badge}</Text>
+                      </View>
+                      <TextInput
+                        style={styles.subeInput}
+                        placeholder={`${badge}A, ${badge}B, ${badge}C...`}
+                        placeholderTextColor={colors.text3}
+                      />
                     </View>
-                    <TextInput
-                      style={styles.subeInput}
-                      placeholder={`${s}A, ${s}B, ${s}C...`}
-                      placeholderTextColor={colors.text3}
-                    />
-                  </View>
-                ))}
+                  );
+                })}
               </View>
             )}
           </ScrollView>
@@ -438,10 +452,15 @@ const styles = StyleSheet.create({
     width: 44,
     alignItems: 'center',
     justifyContent: 'center',
+    paddingHorizontal: 4,
     backgroundColor: colors.bg,
     paddingVertical: spacing.md,
     borderRightWidth: 1,
     borderRightColor: colors.border,
+  } as ViewStyle,
+
+  subeBadgeWide: {
+    width: 64,
   } as ViewStyle,
 
   subeBadgeText: {

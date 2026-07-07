@@ -2,6 +2,50 @@
 
 ---
 
+## Onboarding
+
+### 2026-07-07 — DKAB+İHO "0 kazanım" bugı: okul_tipi filtresi genişletildi + Temel Dini Bilgiler seed edildi
+**Olay:** Kullanıcı Din Kültürü branşı + İmam Hatip Ortaokulu seçince plan 0 kazanımla kuruldu bildirdi. Kök neden: `planUret.ts`'teki `okul_tipi` filtresi `okulTipi==='iho'` için `.eq('okul_tipi','iho')` kesin eşleşmesi kullanıyordu, ama Supabase'de DKAB'ın ana dersi (Din Kültürü ve Ahlak Bilgisi) VE İHO'da zorunlu 3 meslek dersi (Kur'an-ı Kerim, Peygamberimizin Hayatı, Temel Dini Bilgiler) hep `okul_tipi='ortaokul'` etiketliydi — web araştırmasıyla doğrulandı: bu içerik MEB'de normal ortaokulda SEÇMELİ, İHO'da ZORUNLU (aynı kazanım, iki farklı bağlamda sunuluyor, ayrı bir "iho" veri seti yok). Ayrıca **Temel Dini Bilgiler dersi Supabase'de hiç seed edilmemişti** (0 satır) — kaynağı (`/yeniders/temel_dini_bilgiler_islam_1_2_ortaokul_v2.json`, 32 kazanım, İslam 1+2 üniteleri) bulundu.
+**Karar:**
+1. `planUret.ts`: `bransSlug==='dkab' && okulTipi==='iho'` durumunda `okul_tipi` filtresi `.eq` yerine `.in(['iho','ortaokul'])`'a genişletildi — veri çoğaltılmadı, sadece sorgu genişletildi. Diğer branş/okul-tipi kombinasyonları etkilenmedi.
+2. Temel Dini Bilgiler'in 32 kazanımı yeni migration (`20260707000073`) ile sınıf 5-6-7-8'in **hepsine** eklendi (İslam 1/İslam 2 ayrımı MEB'de sınıf seviyesine değil dersin kaçıncı kez alındığına göre — kullanıcı kararı: "5-6-7-8 hepsine koyalım, öğretmen zaten vermiyorsa butona basmaz").
+**Doğrulama:** Kullanıcı cihazda "tüm sınıflar + tüm dersler" seçip 238 kazanımla plan kurdu, ÇALIŞTI onayı verdi.
+**Etkilenen dosyalar:** `src/lib/planUret.ts`, `supabase/migrations/20260707000073_seed_temel_dini_bilgiler_iho.sql`. Detay: `STATUS.md` "Oturum 78".
+
+### 2026-07-06 — DKAB/TDE slug rename + Okul Öncesi'ne izole yaş bandı desteği
+**Olay:** Kullanıcı onboarding testinde 3 bug bildirdi: Din Kültürü'nde okul türü chip'i yok, Din Kültürü ve (ayrı olarak) Okul Öncesi branşlarında "Yılımı kur" hiç çalışmıyor, Okul Öncesi'nde sınıf ekranında sadece "Hazırlık Sınıfı" çıkıyor. Kök neden: `src/data/secmeliDersler.ts`'teki yerel branş-eşleme verisi, Supabase'in v2 şema migration'ıyla (branş slug'ları `din_kulturu`→`dkab`, `turk_dili_edebiyati`→`turk_dili_ve_edebiyati` olarak değişmişti) senkronize kalmamıştı — stale kod. Ayrıca Okul Öncesi'nin 213 kazanımı `sinif=0` sabit tutuyordu, gerçek ayrım `yas_bandi` sütunundaydı ve hem `planUret.ts` hem `SinifScreen` bunu hiç kullanmıyordu.
+**Karar:**
+1. **Slug rename güvenli kabul edildi** (veri kaybı yok) — `secmeliDersler.ts`'teki üç anahtar gerçek Supabase slug'larıyla eşleşecek şekilde düzeltildi.
+2. **Okul Öncesi için "tam entegrasyon" yerine "izole çözüm" tercih edildi** (kullanıcı: "başka olumsuz etki yaratacak çözümlerin peşinden gitme"). Çözüm ana plan motorunun (`planUret.ts`) genel mantığına dokunmadan, sadece `bransSlug==='okul_oncesi'` şartına bağlı özel dallarla uygulandı: (a) migration ile `sinif_tipi='okul_oncesi'` satırlarına `yas_bandi`'dan türetilmiş `sinif=1/2/3` atandı, (b) `planUret.ts`'e izole bir `sinif_tipi` dalı eklendi, (c) `SinifScreen` bu branş için "yaş" etiketleri gösterip `DerslerScreen`'i atlıyor. Diğer hiçbir branşın sorgu/filtre davranışı değişmedi.
+3. **Migration `20260706000072`, kullanıcı tarafından `supabase db push` ile production'a uygulandı** (Claude Code production'a direkt bağlanmıyor — CLAUDE.md K7 kuralı; CLI zaten kurulu ve projeye linkliydi, sadece push adımı kullanıcıya bırakıldı).
+**Etkilenen dosyalar:** `src/data/secmeliDersler.ts`, `src/lib/planUret.ts`, `src/screens/onboarding/SinifScreen.tsx`, `supabase/migrations/20260706000072_patch_okul_oncesi_yas_bandi_sinif.sql`. Detay: `STATUS.md` "Oturum 77 devamı".
+
+---
+
+## Rehberlik Evrak Ailesi
+
+### 2026-07-07 — Etkinlik eşleştirme (sınıf,hafta) anahtarına geçti + Yıllık Plan gerçek takvime kenetlendi
+**Olay:** Kullanıcı Yıllık Plan PDF'inde imza taşması/hücre hizası bildirdi, ardından Aylık Rapor'da aynı kazanımın ("İlgi ve hobilerini ayırt eder.") iki kez, ikincisi tarihsiz göründüğünü fark etti. İnceleme: 05.07.2026'da yapılan `yeterlikAlani`/`etkinlikAdi` eşleştirmesi kazanım METNİNE göreydi — aynı metin yılda birden fazla haftada tekrarlanabildiği için (bu örnekte 7. VE 8. hafta) iki farklı gerçek etkinlik aynı (ve bazen tamamen yanlış, başka sınıftan) isimle gösteriliyordu. Ayrıca "Veli Toplantısı" gibi idari satırların tarihi okul yönetiminin inisiyatifine bağlı olduğu için hiç sabitlenemiyordu, kaynak xlsx'in kendi hafta sayısı (bazı aylarda 5) gerçek takvimin o ayki hafta sayısıyla (genelde 4) uyuşmuyordu.
+**Karar:**
+1. **Eşleştirme anahtarı (sınıf, hafta) oldu** — tüm kademe etkinlik kitapları (ilkokul/ortaokul/lise 1.+2. cilt + 11. sınıf ayrı tek kitap, `evraklar/rehberlik/*.pdf`) `scripts/extract-rehberlik-etkinlik.cjs` ile yeniden çıkarıldı; her kazanımın `etkinlikNo`'su kitaptaki `hafta` alanıyla birebir eşleşiyor. 432 kazanımın 176'sı düzeltildi (468/468 artık dolu). Kaynak önceliği: kademe başına "1. cilt" birincil, "2. cilt" yedek; 11. sınıfta ayrı tek kitap önce. Okul öncesi zaten pozisyon-bazlı doğruydu, dokunulmadı.
+2. **İdari (takdire bağlı zamanlı) satırlar plandan tamamen kaldırıldı** (Veli Toplantısı/Ziyaretleri, Bilgi Fişleri, Rehberlik Yürütme Komisyonu Toplantısı vb. — 129 satır, tüm kademeler) — kullanıcı kararı: "veli toplantısı gibi şeyleri plana dahil etmeyelim, sadece boş kalan tarihlerin takvime göre uyarlamasını yapalım."
+3. **Takvim modeli: tüm yıl tek kesintisiz zaman çizgisi (planUret.ts'in ders planlarında kullandığı mantıkla aynı felsefe).** Her sınıfın kalan kazanım sırası, gerçek takvimin (`egitimTakvimi2025.ts`) 36 aktif haftasına baştan sona atlamadan yerleştirildi; bir ayın taşan son kazanımı otomatik bir sonraki ayın ilk gerçek haftasına kayıyor. Alternatif (bir haftaya 2 etkinlik sığdırıp ay sınırını koruma) kullanıcıya soruldu, reddedildi — gerekçe: "rehberlik dersi haftada 1 saat, aynı haftaya 2 etkinlik gerçekte imkansız." Tatil satırları (ARA TATİL vb.) aynı mantıkla takvimin gerçek 5 tatil haftasına ayrıca sırayla eşlendi. `ay`/`hafta` (N.HAFTA) etiketleri gerçek düşülen haftaya göre yeniden hesaplandı.
+4. **Yıllık Plan PDF'indeki ayrı/kırılgan takvim hesaplaması (`gercekTakvimTarihi`, `AY_TAKVIM_HAFTALARI`) kaldırıldı** — artık PDF de doğrudan veriye gömülü `tarih`i (kısaltılmış biçimde) gösteriyor. Bu, Yıllık Plan PDF'i ile Aylık Rapor'un aynı kazanım için farklı tarih göstermesi riskini ortadan kaldırdı (tek kaynak).
+5. **Kalıcı, idempotent script:** `scripts/rehberlik-yillik-plan-takvim-uyarla.ts` — gelecek yıl `egitimTakvimi2025.ts` güncellenince tekrar çalıştırılacak. Kullanıcı: "her yıl yeniden güncellenen takvimle birebir uyumlu bir plan çıkması ve aylık raporların buna göre kendiliğinden sağlıklı oluşması önemli."
+**Doğrulama:** tsc 0 hata, 7. sınıf Ekim örneği (İLGİ HOBİ TABUSU/SENİN YILDIZIN artık iki farklı gerçek hafta+tarihte) elle doğrulandı, script aynı takvimle tekrar çalıştırılınca dosyada 0 fark üretti (idempotent). Cihazda henüz test edilmedi.
+**Etkilenen dosyalar:** `src/data/rehberlikYillikPlanlari.ts`, `src/data/rehberlikYillikPlanHtmlSablon.ts`, yeni `scripts/rehberlik-yillik-plan-takvim-uyarla.ts`. Detay: `STATUS.md` "Oturum 78".
+
+### 2026-07-06 — Yıllık Rehberlik Planı: yeni xlsx kaynağına geçiş + gerçek MEB grid formatı
+**Olay:** Kullanıcı `evraklar/rehberlik/`'e 13 yeni, daha temiz yıllık plan xlsx'i ekledi (okul öncesi dahil tüm kademeler), eskilerini arşivledi. Yeni dosyalarda gerçek kazanım satırları `"N- "` numarayla başlıyor, idari/tatil satırlarında hiç numara yok — bu ayrım TÜM kademelerde tutarlı. Ayrıca kullanıcı, Yıllık Plan PDF çıktısının o güne kadarki tek-sütunlu uzun liste yerine gerçek MEB'in "3 ay yan yana" grid görünümüne (kaynaktaki gibi) çevrilmesini istedi — gerekçe: "çıktıların düzgün görünümü kullanıcının kalite algısı açısından çok önemli."
+**Karar:**
+1. **İdari/gerçek kazanım ayrımı artık numaralandırmaya (`/^\d+-\s*/`) dayanıyor**, önceden hardcode edilmiş anahtar kelime listesine değil. Bu, önceki oturumların açık bıraktığı "idari satırlar haftalık tabloda gerçek aktiviteymiş gibi görünüyor" sorusunu kapatıyor.
+2. **Yıllık Plan PDF'i MEB kaynağının gerçek grid yapısını birebir yansıtır**, ekstra bilgi (yeterlikAlani/etkinlikAdi) eklenmez — o bilgi bilinçli olarak sadece Aylık Rapor'da kalır, çünkü MEB'in gerçek Yıllık Plan formunda o sütunlar yok (referans disiplini: kaynakta olmayanı ekleme).
+3. **Hafta etiketinin altına gerçek takvim tarihi** (`egitimTakvimi2025.ts`'teki 41 haftalık gerçek takvimden) eklendi — kaynak xlsx sadece "N.HAFTA" veriyor, tarih yok; kullanıcı çıktıda gerçek tarihi de görmek istedi.
+4. **Okul öncesi** yeni bir kademe olarak eklendi (`REHBERLIK_YILLIK_PLAN[0]`), Aylık Rapor/Dönem Sonu akışına da bağlandı — `sinifNumarasiCikar()` artık rakamsız "Okul Öncesi/Anasınıfı" girişini tanıyor.
+**Etkilenen dosyalar:** `src/data/rehberlikYillikPlanlari.ts`, `src/data/rehberlikYillikPlanHtmlSablon.ts`, `src/data/rehberlikVeriZinciri.ts`, `src/screens/main/SablonDoldurmaScreen.tsx`. Detay: `STATUS.md` "Oturum 77".
+
+---
+
 ## Repo Hijyeni
 
 ### 2026-07-06 — Büyük referans dosyaları git'e commit edilmeyecek (repo şişirme protokolü)

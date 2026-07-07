@@ -7,7 +7,7 @@ export interface DersBilgi {
 
 // Branch-specific grade restrictions (overrides OKUL_TIPI_ARALIK in SinifScreen)
 export const SINIF_KISITLAMA: Record<string, Partial<Record<string, number[]>>> = {
-  din_kulturu:        { ilkokul: [4] },
+  dkab:               { ilkokul: [4] },
   ingilizce:          { ilkokul: [2, 3, 4], lise: [0, 9, 10, 11, 12] }, // 0 = hazırlık
   ihl_meslek_dersleri: { ihl: [0, 9, 10, 11, 12] }, // 0 = IHL hazırlık (KK hazırlık)
   // Almanca ortaokul kısıtlaması kaldırıldı — MEB [5-8] tüm sınıflarda
@@ -23,7 +23,7 @@ const BRANS_DERSLER: Record<string, BransDersler> = {
     zorunlu: [{ ad: 'Türkçe', siniflar: [5,6,7,8], okul_tipleri: ['ortaokul'] }],
     secmeli: [],
   },
-  turk_dili_edebiyati: {
+  turk_dili_ve_edebiyati: {
     zorunlu: [{ ad: 'Türk Dili ve Edebiyatı', siniflar: [9,10,11,12], okul_tipleri: ['lise','ihl'] }],
     secmeli: [],
   },
@@ -95,7 +95,7 @@ const BRANS_DERSLER: Record<string, BransDersler> = {
     zorunlu: [{ ad: 'İngilizce', siniflar: [2,3,4,5,6,7,8,9,10,11,12], okul_tipleri: ['ilkokul','ortaokul','iho','lise','ihl'] }],
     secmeli: [],
   },
-  din_kulturu: {
+  dkab: {
     zorunlu: [
       { ad: 'Din Kültürü ve Ahlak Bilgisi', siniflar: [4],          okul_tipleri: ['ilkokul'] },
       { ad: 'Din Kültürü ve Ahlak Bilgisi', siniflar: [5,6,7,8],    okul_tipleri: ['ortaokul','iho'] },
@@ -279,7 +279,7 @@ const KADEME_GRADES: Record<string, number[]> = {
 };
 
 export function getKademeTiles(slug: string): KademeTile[] {
-  if (slug === 'din_kulturu') return [
+  if (slug === 'dkab') return [
     { label: 'İlkokul', okulTipi: 'ilkokul' },
     { label: 'Ortaokul', okulTipi: 'ortaokul' },
     { label: 'Lise', okulTipi: 'lise' },

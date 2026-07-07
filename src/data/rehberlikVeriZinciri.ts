@@ -28,9 +28,17 @@ export async function rehberlikAylikKaydiYaz(sinif: string, ay: string, kayit: R
 }
 
 // "11/C", "11-A", "11" gibi serbest metinlerden sınıf numarasını çıkarır.
+// Rakam yoksa ve metin okul öncesi ifadesi içeriyorsa ("Okul Öncesi", "Anasınıfı",
+// "Ana Sınıfı A") 0 döner — REHBERLIK_YILLIK_PLAN'da okul öncesi anahtarı 0'dır.
 export function sinifNumarasiCikar(sinif: string): number | null {
   const m = sinif.match(/\d+/);
-  return m ? parseInt(m[0], 10) : null;
+  if (m) return parseInt(m[0], 10);
+  const norm = sinif
+    .toLocaleLowerCase('tr')
+    .replace(/ı/g, 'i').replace(/ş/g, 's').replace(/ğ/g, 'g')
+    .replace(/ü/g, 'u').replace(/ö/g, 'o').replace(/ç/g, 'c');
+  if (/okul oncesi|anasinif|ana sinif/.test(norm)) return 0;
+  return null;
 }
 
 // Yıllık plandan o ayın tatil olmayan satırlarını sırayla türetir. etkinlikNo yalnızca

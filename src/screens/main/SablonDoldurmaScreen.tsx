@@ -464,8 +464,9 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   // ─── Yıllık Rehberlik Planı state ─────────────────────────────────────
   const [ypOkulAdi, setYpOkulAdi]               = useState('');
   const [ypEgitimYili]                          = useState(egitimYiliHesapla());
-  const [ypSinif, setYpSinif]                   = useState(0);
+  const [ypSinif, setYpSinif]                   = useState(-1); // -1 = seçilmedi, 0 = okul öncesi, 1-12 = sınıf
   const [ypRehber, setYpRehber]                 = useState('');
+  const [ypOkulRehber, setYpOkulRehber]          = useState('');
   const [ypMudur, setYpMudur]                   = useState('');
   const [ypYukleniyor, setYpYukleniyor]         = useState(false);
 
@@ -1064,14 +1065,15 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
   // ─── Yıllık Rehberlik Planı akışı (Sınıf Rehberlik Hizmetleri Yıllık Çalışma Planı) ──
   if (isYillikPlan) {
-    const ypSiniflar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    const ypSiniflar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    const ypSinifEtiket = (n: number) => (n === 0 ? 'Okul Öncesi' : `${n}. Sınıf`);
 
     async function ypOlustur() {
       if (!ypOkulAdi.trim() || !ypRehber.trim()) {
         Alert.alert('Eksik bilgi', 'Okul adı ve sınıf rehber öğretmeni zorunlu.');
         return;
       }
-      if (!ypSinif) {
+      if (ypSinif < 0) {
         Alert.alert('Eksik bilgi', 'Sınıf seçilmeli.');
         return;
       }
@@ -1083,7 +1085,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = yillikPlanHtmlOlustur({
           okulAdi: ypOkulAdi, egitimYili: ypEgitimYili, sinif: ypSinif,
-          sinifRehberOgretmeni: ypRehber, okulMuduru: ypMudur,
+          sinifRehberOgretmeni: ypRehber, okulRehberOgretmeni: ypOkulRehber, okulMuduru: ypMudur,
         });
         await pdfOnizlemeAc(html, true);
       } catch {
@@ -1110,7 +1112,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                 {ypSiniflar.map(n => (
                   <TouchableOpacity key={n} style={[s.chip, ypSinif === n && s.chipActive]}
                     onPress={() => setYpSinif(n)} activeOpacity={0.7}>
-                    <Text style={[s.chipText, ypSinif === n && s.chipTextActive]}>{n}. Sınıf</Text>
+                    <Text style={[s.chipText, ypSinif === n && s.chipTextActive]}>{ypSinifEtiket(n)}</Text>
                   </TouchableOpacity>
                 ))}
               </View>
@@ -1119,15 +1121,19 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <TextInput style={s.input} value={ypRehber} onChangeText={setYpRehber}
                 placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
             </Alan>
+            <Alan label="Okul Rehber Öğretmeni">
+              <TextInput style={s.input} value={ypOkulRehber} onChangeText={setYpOkulRehber}
+                placeholder="Rehber öğretmen adı" placeholderTextColor={colors.text3} />
+            </Alan>
             <Alan label="Okul Müdürü">
               <TextInput style={s.input} value={ypMudur} onChangeText={setYpMudur}
                 placeholder="Müdür adı" placeholderTextColor={colors.text3} />
             </Alan>
 
-            {ypSinif > 0 && (
+            {ypSinif >= 0 && (
               <View style={s.infoCard}>
                 <Text style={s.infoText}>
-                  {ypSinif}. sınıf planı hazır — <Text style={s.infoVurgu}>{(REHBERLIK_YILLIK_PLAN[ypSinif] || []).length}</Text> haftalık çalışma. "Planı Oluştur"a bas, düzenlemeden yatay PDF gelir.
+                  {ypSinifEtiket(ypSinif)} planı hazır — <Text style={s.infoVurgu}>{(REHBERLIK_YILLIK_PLAN[ypSinif] || []).length}</Text> satırlık çalışma. "Planı Oluştur"a bas, düzenlemeden yatay PDF gelir.
                 </Text>
               </View>
             )}
