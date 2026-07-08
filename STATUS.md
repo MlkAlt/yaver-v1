@@ -1,6 +1,14 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 08.07.2026 — Oturum 80 (Oturum 79 cihaz testi geri bildirimi: Sınıf/Şube dropdown, not girişi auto-focus, kriter+not görünürlüğü, imza sayfa-sonu koruması, evrak sıkılaştırma — KODLANDI, tsc 0 hata, COMMIT/PUSH EDİLDİ)
+**Son güncelleme:** 09.07.2026 — Oturum 82 (Fen Bilimleri seçmeli kazanımları main'e merge edildi — main artık en güncel)
+
+## ŞU AN NEREDEYİZ (Oturum 82 — Fen Bilimleri seçmeli branch main'e merge, 09.07.2026)
+
+Oturum 81'de hazırlanan Fen Bilimleri seçmeli kazanım işi (Çevre Eğitimi ve İklim Değişikliği + Matematik ve Bilim Uygulamaları, 136 kazanım) — migration Supabase'e push edilmiş, `secmeliDersler.ts` bağlanmış, tsc 0 hata, REST API ile DB doğrulanmıştı. Kullanıcı cihaz testini beklemeden (görsel onay gelmeden) doğrudan **main'e merge** etmeyi tercih etti — tsc + DB doğrulaması yeterli görüldü. `feature/fen-bilimleri-secmeli-kazanim-json` main'e fast-forward merge edilip push edildi (`12d0016..2860ec5`).
+
+**main artık en güncel.** Hâlâ ayrı duran tek dal: `feature/kulup-plan-eylul-baslangici` (Kulüp Yıllık Planı Eylül düzeltmesi) — bu hâlâ cihaz testi bekliyor, merge edilmedi.
+
+---
 
 ## ŞU AN NEREDEYİZ (Oturum 80 — Oturum 79 cihaz testi geri bildirimi, 6 iş kalemi, 08.07.2026)
 
