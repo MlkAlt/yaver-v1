@@ -142,7 +142,7 @@ export function yillikPlanHtmlOlustur(form: YillikPlanFormData): string {
   colgroup .cbanner { width: 3.2%; }
   colgroup .ckaz { width: 27.1%; }
   colgroup .ctar { width: 5.2%; }
-  .imza { margin-top: 5px; display: flex; justify-content: space-around; }
+  .imza { margin-top: 5px; display: flex; justify-content: space-around; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza .kutu { text-align: center; width: 30%; }
   .imza .kutu .ad { margin-top: 14px; font-weight: bold; font-size: 8pt; }
   .imza .kutu .rol { font-size: 7.5pt; }

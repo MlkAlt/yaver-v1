@@ -52,7 +52,7 @@ export function toplumHizmetHtmlOlustur(form: ToplumHizmetFormData): string {
   ul { margin: 3px 0 0 14px; padding: 0; }
   li { margin-bottom: 2px; }
   tr { page-break-inside: avoid; break-inside: avoid; }
-  .imza-alani { margin-top: 24px; }
+  .imza-alani { margin-top: 24px; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-baslik { font-weight: bold; margin-bottom: 6px; }
   .imza-isim { margin: 4px 0 4px 8px; }
   .olur { text-align: center; margin-top: 36px; font-size: 10.5pt; }

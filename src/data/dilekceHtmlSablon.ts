@@ -55,7 +55,7 @@ export function dilekceHtmlOlustur(form: DilekceFormData): string {
   .govde { text-align: justify; }
   .govde-p { text-indent: 1.25cm; margin-bottom: 8px; }
 
-  .imza { margin-top: 16mm; text-align: right; }
+  .imza { margin-top: 16mm; text-align: right; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza .tarih { margin-bottom: 20mm; }   /* ıslak imza için boşluk (tarih ile isim arası) */
   .imza .ad { font-weight: bold; }
   .imza-tc { font-size: 10.5pt; }

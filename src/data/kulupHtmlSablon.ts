@@ -52,7 +52,7 @@ export function kulupYillikPlanHtmlOlustur(form: KulupFormData): string {
   ul { margin: 3px 0 0 14px; padding: 0; }
   li { margin-bottom: 2px; }
   tr { page-break-inside: avoid; break-inside: avoid; }
-  .imza-alani { display: flex; justify-content: space-around; text-align: center; margin-top: 28px; }
+  .imza-alani { display: flex; justify-content: space-around; text-align: center; margin-top: 28px; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-kutu { width: 30%; font-size: 10.5pt; }
   .imza-kutu .baslik { font-weight: bold; margin-bottom: 36px; }
   .olur { text-align: center; margin-top: 36px; font-size: 10.5pt; }

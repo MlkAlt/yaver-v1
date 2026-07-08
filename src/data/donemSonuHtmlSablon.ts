@@ -34,7 +34,7 @@ function toplam(kiz: string, erkek: string): string {
 function bosSatirlar(kolonSayisi: number, adet: number): string {
   let html = '';
   for (let i = 1; i <= adet; i++) {
-    const hucreler = Array.from({ length: kolonSayisi }, () => '<td>&nbsp;</td>').join('');
+    const hucreler = Array.from({ length: kolonSayisi }, () => '<td class="bos-hucre">-</td>').join('');
     html += `<tr><td class="sn">${i}</td>${hucreler}</tr>`;
   }
   return html;
@@ -57,47 +57,49 @@ export function donemSonuHtmlOlustur(form: DonemSonuFormData): string {
 
   const faaliyetDolu = rehberlikFaaliyetleri.filter(f => f.calisma.trim());
   const faaliyetRows = faaliyetDolu.length
-    ? faaliyetDolu.map((f, i) => `<tr><td class="sn">${i + 1}</td><td>${f.calisma}</td><td class="say">${f.kiz}</td><td class="say">${f.erkek}</td><td class="say">${toplam(f.kiz, f.erkek)}</td></tr>`).join('')
-    : bosSatirlar(4, 5);
+    ? faaliyetDolu.map((f, i) => `<tr><td class="sn">${i + 1}</td><td>${f.calisma}</td><td class="say">${f.kiz || '-'}</td><td class="say">${f.erkek || '-'}</td><td class="say">${toplam(f.kiz, f.erkek) || '-'}</td></tr>`).join('')
+    : bosSatirlar(4, 3);
 
   const veliDolu = veliFaaliyetleri.filter(v => v.calisma.trim());
   const veliRows = veliDolu.length
-    ? veliDolu.map((v, i) => `<tr><td class="sn">${i + 1}</td><td>${v.calisma}</td><td class="say">${v.anne}</td><td class="say">${v.baba}</td><td class="say">${v.diger}</td></tr>`).join('')
-    : bosSatirlar(4, 3);
+    ? veliDolu.map((v, i) => `<tr><td class="sn">${i + 1}</td><td>${v.calisma}</td><td class="say">${v.anne || '-'}</td><td class="say">${v.baba || '-'}</td><td class="say">${v.diger || '-'}</td></tr>`).join('')
+    : bosSatirlar(4, 2);
 
   const yonDolu = yonlendirmeler.filter(y => y.adSoyad.trim() || y.neden.trim());
   const yonRows = yonDolu.length
-    ? yonDolu.map((y, i) => `<tr><td class="sn">${i + 1}</td><td>${y.adSoyad}</td><td class="say">${y.no}</td><td>${y.veli}</td><td>${y.neden}</td></tr>`).join('')
-    : bosSatirlar(4, 4);
+    ? yonDolu.map((y, i) => `<tr><td class="sn">${i + 1}</td><td>${y.adSoyad}</td><td class="say">${y.no || '-'}</td><td>${y.veli || '-'}</td><td>${y.neden}</td></tr>`).join('')
+    : bosSatirlar(4, 2);
 
   return `<!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8"/>
 <style>
-  @page { size: A4; margin: 14mm 16mm; }
+  @page { size: A4; margin: 12mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Times New Roman', serif; font-size: 10.5pt; color: #000; }
-  .baslik { text-align: center; margin-bottom: 12px; }
-  .baslik h1 { font-size: 12pt; margin-bottom: 2px; }
-  .baslik h2 { font-size: 11pt; }
-  .ust-satir { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: bold; }
-  .bolum-baslik { font-weight: bold; font-size: 10.5pt; margin: 12px 0 5px; }
-  .durum-satiri { margin: 4px 0 8px; }
+  body { font-family: 'Times New Roman', serif; font-size: 10pt; color: #000; }
+  .baslik { text-align: center; margin-bottom: 8px; }
+  .baslik h1 { font-size: 11.5pt; margin-bottom: 2px; }
+  .baslik h2 { font-size: 10.5pt; }
+  .ust-satir { display: flex; justify-content: space-between; margin-bottom: 7px; font-weight: bold; }
+  .bolum-baslik { font-weight: bold; font-size: 10pt; margin: 8px 0 4px; }
+  .durum-satiri { margin: 3px 0 6px; }
   .durum-satiri .secenek { margin-right: 18px; font-weight: bold; }
-  table { width: 100%; border-collapse: collapse; margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 4px; }
   thead { display: table-header-group; }
-  th, td { border: 1px solid #000; padding: 4px 6px; font-size: 9.5pt; vertical-align: top; }
+  th, td { border: 1px solid #000; padding: 3px 5px; font-size: 9pt; vertical-align: top; }
   th { background: #f0f0f0; font-weight: bold; text-align: center; }
   tr { page-break-inside: avoid; break-inside: avoid; }
   td.sn { width: 6%; text-align: center; }
   td.say { width: 12%; text-align: center; }
-  .metin { border: 1px solid #000; padding: 6px 8px; line-height: 1.5; min-height: 34px; }
-  .metin.bos { min-height: 48px; }
-  .not { font-size: 8.5pt; font-style: italic; margin-top: 12px; }
-  .imza-alani { margin-top: 26px; display: flex; justify-content: space-between; }
+  td.bos-hucre { text-align: center; color: #666; }
+  .metin { border: 1px solid #000; padding: 4px 7px; line-height: 1.35; min-height: 24px; }
+  .metin.bos { min-height: 30px; }
+  .not { font-size: 8pt; font-style: italic; margin-top: 8px; }
+  .son-blok { page-break-inside: avoid; break-inside: avoid; }
+  .imza-alani { margin-top: 16px; display: flex; justify-content: space-between; }
   .imza-kutu { text-align: center; width: 46%; }
-  .imza-kutu .cizgi { border-top: 1px solid #000; margin: 34px 0 4px; }
+  .imza-kutu .cizgi { border-top: 1px solid #000; margin: 24px 0 4px; }
 </style>
 </head>
 <body>
@@ -149,6 +151,8 @@ ${metinKutusu(guclukler)}
 <div style="margin-top:6px">Çözüm önerileri:</div>
 ${metinKutusu(cozumOnerileri)}
 
+
+<div class="son-blok">
 <div class="bolum-baslik">7. Okul PDR Servisi İle İşbirliği</div>
 <div>Okul PDR Servisi ve sınıf rehber öğretmenleri arasındaki işbirliği:</div>
 ${metinKutusu(pdrIsbirligi)}
@@ -169,6 +173,7 @@ ${metinKutusu(pdrBeklenti)}
     <p>${okulMuduru}</p>
     <p>Okul Müdürü</p>
   </div>
+</div>
 </div>
 
 </body>

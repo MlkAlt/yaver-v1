@@ -106,7 +106,7 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   .onay-tablo td { border: none; padding: 4px; }
   .onay-tablo .uygundur-blok { text-align: center; }
   .onay-tablo .uygundur { font-weight: bold; }
-  .imza-satir { margin-top: 8px; }
+  .imza-satir { margin-top: 8px; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-satir td { border: none; text-align: center; padding-top: 36px; }
   .imza-isim { font-weight: bold; }
 </style>

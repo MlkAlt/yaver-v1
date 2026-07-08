@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   View, Text, StyleSheet, ViewStyle, TextStyle,
   ScrollView, TouchableOpacity, TextInput, Alert,
@@ -15,6 +15,7 @@ import { fonts } from '../../tokens/typography';
 import { spacing, radius } from '../../tokens/spacing';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 import { useOnboarding } from '../../context/OnboardingContext';
+import { SinifSecici } from '../../components/SinifSecici';
 import { supabase } from '../../lib/supabase';
 import { Kazanim } from '../../lib/planUret';
 import {
@@ -76,6 +77,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
   const [kazanimListesi, setKazanimListesi] = useState<Kazanim[]>([]);
   const [kazanimYukleniyor, setKazanimYukleniyor] = useState(false);
   const [kazanimSheetSoruNo, setKazanimSheetSoruNo] = useState<number | null>(null);
+  const [acikKazanimSoruNo, setAcikKazanimSoruNo] = useState<number | null>(null); // salt-UI: puan girişi tablosunda kazanımı açık soru
 
   // ─── Öğrenciler ───────────────────────────────────────────────────────
   const [ogrenciler, setOgrenciler] = useState<SinavOgrenci[]>([]);
@@ -83,6 +85,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
 
   // ─── Puanlar ──────────────────────────────────────────────────────────
   const [puanlar, setPuanlar] = useState<Record<number, Record<number, string>>>({});
+  const puanInputRefs = useRef<Array<Array<TextInput | null>>>([]);
 
   // ─── Sonuç ────────────────────────────────────────────────────────────
   const [tedbirler, setTedbirler] = useState<string[]>([]);
@@ -318,9 +321,8 @@ export function SinavAnaliziScreen({ navigation }: Props) {
               <TextInput style={s.input} value={okulAdi} onChangeText={setOkulAdi}
                 placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
             </Alan>
-            <Alan label="Sınıf" zorunlu hint="örn. 10/A, 5-B">
-              <TextInput style={s.input} value={sinif} onChangeText={setSinif}
-                placeholder="10/A" placeholderTextColor={colors.text3} autoCapitalize="characters" />
+            <Alan label="Sınıf" zorunlu>
+              <SinifSecici value={sinif} onChange={setSinif} />
             </Alan>
             <Alan label="Ders Adı" zorunlu>
               <TextInput style={s.input} value={dersAdi} onChangeText={setDersAdi}
@@ -453,18 +455,36 @@ export function SinavAnaliziScreen({ navigation }: Props) {
           <ScrollView contentContainerStyle={s.scroll}>
             <Text style={s.adimBaslik}>Puan Girişi</Text>
             <Text style={s.adimAlt}>Sınava girmeyen öğrencileri işaretle, diğerlerinin soru puanlarını gir</Text>
+            <Text style={s.kazanimIpucu}>Bir sorunun kazanımını görmek için S1, S2… başlığına dokun</Text>
+
+            {acikKazanimSoruNo !== null && (
+              <View style={s.kazanimBanner}>
+                <Text style={s.kazanimBannerEtiket}>S{acikKazanimSoruNo}</Text>
+                <Text style={s.kazanimBannerMetin}>
+                  {sorular.find(x => x.no === acikKazanimSoruNo)?.kazanimAd || 'Kazanım seçilmedi'}
+                </Text>
+              </View>
+            )}
 
             <ScrollView horizontal showsHorizontalScrollIndicator>
               <View>
                 <View style={s.tabloHeaderRow}>
                   <View style={[s.tabloHucre, s.tabloAdHucre]}><Text style={s.tabloHeaderText}>Öğrenci</Text></View>
                   {sorular.map(soru => (
-                    <View key={soru.no} style={s.tabloHucre}><Text style={s.tabloHeaderText}>S{soru.no}</Text></View>
+                    <TouchableOpacity
+                      key={soru.no}
+                      style={[s.tabloHucre, acikKazanimSoruNo === soru.no && s.tabloHucreAktif]}
+                      onPress={() => setAcikKazanimSoruNo(prev => prev === soru.no ? null : soru.no)}
+                      activeOpacity={0.7}
+                    >
+                      <Text style={[s.tabloHeaderText, s.tabloHeaderTextTiklanabilir, acikKazanimSoruNo === soru.no && s.tabloHeaderTextAktif]}>S{soru.no}</Text>
+                      <Text style={s.tabloHeaderPuan}>/{soru.puan || 0}</Text>
+                    </TouchableOpacity>
                   ))}
                   <View style={s.tabloHucre}><Text style={s.tabloHeaderText}>Toplam</Text></View>
                 </View>
 
-                {ogrenciler.map(o => (
+                {ogrenciler.map((o, oi) => (
                   <View key={o.no} style={s.tabloRow}>
                     <View style={[s.tabloHucre, s.tabloAdHucre]}>
                       <Text style={s.tabloAdText} numberOfLines={1}>{o.adSoyad || `Öğrenci ${o.no}`}</Text>
@@ -480,9 +500,16 @@ export function SinavAnaliziScreen({ navigation }: Props) {
                         <Text style={s.girmediText}>Girmedi</Text>
                       </TouchableOpacity>
                     </View>
-                    {sorular.map(soru => (
+                    {sorular.map((soru, si) => {
+                      const sonSoru = si === sorular.length - 1;
+                      const sonOgrenci = oi === ogrenciler.length - 1;
+                      return (
                       <View key={soru.no} style={s.tabloHucre}>
                         <TextInput
+                          ref={r => {
+                            if (!puanInputRefs.current[oi]) puanInputRefs.current[oi] = [];
+                            puanInputRefs.current[oi][si] = r;
+                          }}
                           style={[s.puanInput, o.girmedi && s.puanInputDisabled]}
                           value={puanlar[o.no]?.[soru.no] ?? ''}
                           onChangeText={v => puanGuncelle(o.no, soru.no, v)}
@@ -490,9 +517,16 @@ export function SinavAnaliziScreen({ navigation }: Props) {
                           editable={!o.girmedi}
                           placeholder="-"
                           placeholderTextColor={colors.text3}
+                          returnKeyType={sonSoru && sonOgrenci ? 'done' : 'next'}
+                          blurOnSubmit={sonSoru && sonOgrenci}
+                          onSubmitEditing={() => {
+                            if (!sonSoru) { puanInputRefs.current[oi]?.[si + 1]?.focus(); return; }
+                            if (!sonOgrenci) puanInputRefs.current[oi + 1]?.[0]?.focus();
+                          }}
                         />
                       </View>
-                    ))}
+                      );
+                    })}
                     <View style={s.tabloHucre}>
                       <Text style={s.toplamText}>{o.girmedi ? '—' : sonuclar.ogrenciToplamlari[o.no] ?? 0}</Text>
                     </View>
@@ -763,6 +797,18 @@ const s = StyleSheet.create({
   tabloHucre: { width: 64, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 4 } as ViewStyle,
   tabloAdHucre: { width: 160, alignItems: 'flex-start', gap: 4 } as ViewStyle,
   tabloHeaderText: { fontSize: 11, fontFamily: fonts.bold, color: colors.text3, textAlign: 'center' } as TextStyle,
+  tabloHeaderTextTiklanabilir: { textDecorationLine: 'underline', textDecorationStyle: 'dotted', textDecorationColor: colors.text3 } as TextStyle,
+  tabloHeaderPuan: { fontSize: 9.5, fontFamily: fonts.medium, color: colors.text3, textAlign: 'center', marginTop: 1 } as TextStyle,
+  kazanimIpucu: { fontSize: 11.5, fontFamily: fonts.medium, color: colors.accent, marginTop: -spacing.md, marginBottom: spacing.md } as TextStyle,
+  tabloHucreAktif: { backgroundColor: colors.accentLt, borderRadius: radius.sm } as ViewStyle,
+  tabloHeaderTextAktif: { color: colors.accent } as TextStyle,
+  kazanimBanner: {
+    flexDirection: 'row', alignItems: 'flex-start', gap: spacing.sm,
+    backgroundColor: colors.accentLt, borderRadius: radius.md,
+    paddingHorizontal: spacing.md, paddingVertical: spacing.sm, marginBottom: spacing.sm,
+  } as ViewStyle,
+  kazanimBannerEtiket: { fontSize: 12, fontFamily: fonts.bold, color: colors.accent } as TextStyle,
+  kazanimBannerMetin: { flex: 1, fontSize: 12.5, fontFamily: fonts.medium, color: colors.text1, lineHeight: 17 } as TextStyle,
   tabloAdText: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1 } as TextStyle,
   girmediToggle: { flexDirection: 'row', alignItems: 'center', gap: 6 } as ViewStyle,
   girmediText: { fontSize: 11, fontFamily: fonts.medium, color: colors.text3 } as TextStyle,

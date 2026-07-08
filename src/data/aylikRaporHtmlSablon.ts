@@ -54,7 +54,7 @@ export function aylikRaporHtmlOlustur(form: AylikRaporFormData): string {
   @page { size: A4; margin: 14mm 16mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Times New Roman', serif; font-size: 11pt; color: #000; line-height: 1.6; }
-  .mudurbaslik { text-align: center; font-weight: bold; font-size: 12pt; margin-bottom: 18px; }
+  .mudurbaslik { text-align: center; font-weight: bold; font-size: 12pt; margin-top: 24px; margin-bottom: 22px; }
   .giris { text-align: justify; margin-bottom: 18px; }
   .meta { width: 100%; border-collapse: collapse; margin-bottom: 18px; font-size: 10.5pt; }
   .meta td { padding: 3px 10px 3px 0; }
@@ -64,19 +64,13 @@ export function aylikRaporHtmlOlustur(form: AylikRaporFormData): string {
   li { margin-bottom: 3px; }
   .toplum { margin: 16px 0; }
   .toplum strong { font-weight: bold; }
-  .imza { margin-top: 36px; }
+  .imza { margin-top: 36px; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-baslik { font-weight: bold; margin-bottom: 32px; }
 </style>
 </head>
 <body>
 
 <div class="mudurbaslik">${turkceBuyuk(okulAdi)} MÜDÜRLÜĞÜNE</div>
-
-<p class="giris">
-  Rehberlik görevini yürütmekte olduğum <strong>${kulupAdi}</strong> Kulübünün
-  ${egitimYili} Eğitim ve Öğretim Yılı ${faaliyetAyi} ayına ait olan çalışma raporu
-  aşağıya çıkartılmıştır. Bilgilerinize arz ederim.
-</p>
 
 <table class="meta">
   <tr>
@@ -87,6 +81,12 @@ export function aylikRaporHtmlOlustur(form: AylikRaporFormData): string {
     <td class="etiket">Rapor Tarihi:</td><td>${raporTarihi}</td>
   </tr>
 </table>
+
+<p class="giris">
+  Rehberlik görevini yürütmekte olduğum <strong>${kulupAdi}</strong> Kulübünün
+  ${egitimYili} Eğitim ve Öğretim Yılı ${faaliyetAyi} ayına ait olan çalışma raporu
+  aşağıya çıkartılmıştır. Bilgilerinize arz ederim.
+</p>
 
 <div class="bolum">YAPILAN ÇALIŞMALAR</div>
 <ul>${maddeler || '<li>—</li>'}</ul>

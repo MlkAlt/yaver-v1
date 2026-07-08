@@ -1,6 +1,34 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 07.07.2026 — Oturum 78 (DKAB+İHO kazanım bugı düzeltildi + Rehberlik Yıllık Planı gerçek takvime kenetlendi — TAMAMLANDI, commit/push yapıldı)
+**Son güncelleme:** 08.07.2026 — Oturum 80 (Oturum 79 cihaz testi geri bildirimi: Sınıf/Şube dropdown, not girişi auto-focus, kriter+not görünürlüğü, imza sayfa-sonu koruması, evrak sıkılaştırma — KODLANDI, tsc 0 hata, COMMIT/PUSH EDİLDİ)
+
+## ŞU AN NEREDEYİZ (Oturum 80 — Oturum 79 cihaz testi geri bildirimi, 6 iş kalemi, 08.07.2026)
+
+Kullanıcı Oturum 79'un cihaz testinde 6 ayrı UX/kalite sorunu bildirdi. 5'i bu oturumda kodlandı, 1'i (PDF önizleme ekranı özelleştirme) bilinçli olarak ertelendi:
+
+1. **Sınıf/Şube birleşik seçici:** `SinifSecici` artık ortak component (`src/components/SinifSecici.tsx`, önceden `SablonDoldurmaScreen.tsx`'e özeldi) — sınıf artık dokununca açılan bir modal/seçici, yanında `/` ile şube kutusu aynı satırda. `SablonDoldurmaScreen.tsx`'teki 5 ekrana ek olarak **Sınav Analizi ekranına da uygulandı** (kullanıcı ilk turda unutulduğunu fark etti — kapsam genişletildi, "tüm ekranlarda olmalıydı" geri bildirimi).
+2. **Not girişlerinde otomatik sonraki-alana geçiş:** Performans Notu (oto+manuel) ve Sınav Analizi puan tablosunda `useRef` dizisi + `onSubmitEditing` ile not girilip Enter/Next'e basınca imleç otomatik bir sonraki öğrenci/kritere geçiyor.
+3. **Kriter+not tablosu görünürlüğü** (ui-craftsman planı + ux-critic onayı): Performans Notu oto modda not cetvelinin üstüne katlanabilir "Kriterler (N madde)" referansı eklendi; bir öğrencinin notu girilip alandan çıkılınca (blur) o öğrencinin kriter kırılımı otomatik açılıyor (diğerleri kapalı kalıyor, jitter yok). Sınav Analizi'nde soru başlıklarına max puan (`S1 /10`) + dokununca kazanım banner'ı eklendi — **ayrıca keşfedilebilirlik için** ("kullanıcı bunu kendi kendine keşfedemez" geri bildirimi) başlıklara noktalı alt çizgi + üstte açık ipucu metni eklendi.
+4. **Sayı input etiketleri:** Anne/Baba/Diğer + Kız/Erkek inputlarındaki "(sayı)" placeholder'ı kaldırıldı, üstlerine belirgin (semiBold, text2) "Katılan kişi/öğrenci sayısı" etiketi eklendi.
+5. **İmza bloğu sayfa-sonu koruması (13 şablon) + Dönem Sonu Rehberlik sıkılaştırma:** Tüm `*HtmlSablon.ts` dosyalarında imza alanına `page-break-inside/before: avoid` eklendi. Kullanıcı yine de Dönem Sonu Rehberlik Raporu'nda "kısa dipnot + imza + koca boş sayfa 2" gördü — kök neden: sayfa 1 tam dolunca imza tek başına kalıyordu, CSS "avoid" tek başına yetmiyordu. Düzeltme iki katmanlı: (a) son bölüm (7. PDR İşbirliği) + dipnot + imza tek `.son-blok` wrapper'ında birlikte tutuluyor (sığmazsa hepsi birlikte sayfa 2'ye kayıyor, sayfa 2 artık boş kalmıyor), (b) **şablon genel olarak sıkılaştırıldı**: boş satır sayısı azaltıldı (5→3, 3→2, 4→2), boş hücrelere `&nbsp;` yerine `-`, font/padding/margin/min-height değerleri küçültüldü. Kullanıcı geri bildirimi: "keşke bunları sen akıl edebilsen" — kalıcı hafızaya not düşüldü (`feedback_evrak_sablon_sikilastirma`), gelecekte benzer sayfa-taşması sorunlarında bu 5 teknik sorulmadan uygulanacak.
+6. **PDF önizleme ekranı — ERTELENDİ:** Native `Print.printAsync` dialog'u yerine custom (kaydet/paylaş butonlu, pinch-zoom'lu) bir ekran istendi. Bunun `react-native-pdf` gibi bir native kütüphane gerektirdiği ve muhtemelen Expo Go uyumsuz olacağı (custom dev build gerektirebilir) tespit edildi, kullanıcı onayıyla en sona bırakıldı — henüz araştırılmadı/denenmedi.
+
+**tsc 0 hata (her adımda doğrulandı).** Değişen dosyalar: `src/components/SinifSecici.tsx` (yeni), `src/screens/main/SablonDoldurmaScreen.tsx`, `src/screens/main/SinavAnaliziScreen.tsx`, 13 `*HtmlSablon.ts` (imza page-break), `src/data/donemSonuHtmlSablon.ts` (ek sıkılaştırma). **COMMIT + PUSH edildi bu oturumda** (`feature/evrak-pdf-margin-mimarisi` branch'ine, main'e merge hâlâ ayrı onay bekliyor — bkz. `project_main_merge_bekliyor`). **BEKLİYOR:** kullanıcı bu 5 düzeltmeyi cihazda tekrar test edecek.
+
+---
+
+## ŞU AN NEREDEYİZ (Oturum 79 — küçük düzeltmeler + Sınıf/Ders picker + Performans Notu redesign, 08.07.2026)
+
+Kullanıcı Oturum 78'in cihaz testine geçmeden önce 4 yeni tespit/istek getirdi, hepsi kodlandı ama **henüz cihazda test edilmedi, commit atılmadı:**
+
+1. **Kulüp Aylık Rapor başlığı** (`aylikRaporHtmlSablon.ts`) — `MÜDÜRLÜĞÜNE` başlığı üstten boşluklu hale getirildi, Rapor No/Faaliyet Ayı/Rapor Tarihi meta bilgisi başlığın hemen altına (giriş paragrafından önce) taşındı.
+2. **Veli Çalışma Tutanağı** — anne/baba/diğer kutularının üstüne "Katılan kişi sayısı" ipucu eklendi, placeholder'lar "Anne (sayı)" vb. oldu.
+3. **Sınıf/Ders manuel giriş → seçilebilir chip:** `SablonDoldurmaScreen.tsx`'e iki yeni yerel component eklendi — `SinifSecici` (onboarding'deki `siniflar: number[]`'dan chip + şube serbest metin kutusu, birleşik `"5/A"` formatında) ve `DersSecici` (onboarding'deki `dersFiltesi: string[]`'ten chip). Context boşsa (uygulama yeniden açılmışsa, `OnboardingContext` persist edilmiyor) ikisi de eski serbest metin `TextInput`'a otomatik düşüyor — regresyon yok. 5 ekranda (ŞÖK, Veli Toplantısı, Dönem Sonu Raporu, Rehberlik Aylık Rapor, Performans Notu) Sınıf alanı + Performans Notu'nda Ders Adı alanı değiştirildi. Dönem Sonu/Rehberlik Aylık'taki otomatik-doldurma tetikleyicileri (`dsVeriyiUygula`/`rbVeriyiUygula`) `onEndEditing`'den chip `onChange`'ine taşındı. Yıllık Plan (zaten chip'liydi) ve Yoklama/Karar Defteri öğrenci listesi (farklı UX ihtiyacı, per-öğrenci) kasıtlı dokunulmadı.
+4. **Performans Notu ekran redesign** (ui-craftsman, plan-onay akışıyla): öğrenci başı ayrı "Dağıt" butonu kaldırıldı (`pDagit` fonksiyonu silindi) — artık tek yol üstteki "Tümünü Dağıt" (tam genişlik, ikonlu, birincil buton). YÖNTEM seçici → segmented control. Otomatik moddaki N adet ağır kart → tek "not cetveli" tablosu (öğrenci başına kompakt satır), dağıtım sonrası toplam pill'i — 10 kriterlik kırılım varsayılan gizli, pill'e dokununca açılıyor (yeni salt-UI state, iş mantığı/PDF etkilenmiyor). Şablon Seç ekranındaki düz kriter metni → ağırlık pill'li yapılandırılmış liste. Temel Bilgiler ekranına "BELGE BİLGİLERİ"/"ÖĞRETMEN & İMZA" grup başlıkları eklendi. `/ux-critic` ile onaylandı (PASS, 3 kapsam-dışı WARN — tüm evrak sihirbazlarında ortak konvansiyon).
+
+**tsc 0 hata.** Değişen dosyalar: `src/data/aylikRaporHtmlSablon.ts`, `src/screens/main/SablonDoldurmaScreen.tsx`. **BEKLİYOR:** kullanıcı cihazda (Expo Go) test edecek — özellikle Performans Notu akışının tamamı (segmented control, not cetveli, kırılım aç/kapa, uzun listede scroll), Sınıf/Ders chip'lerinin 5 ekranda doğru göründüğü, Dönem Sonu/Rehberlik Aylık otomatik-doldurma zincirinin chip seçimiyle hâlâ çalıştığı. Sorunsuzsa "kaydet" → commit (henüz push edilmemiş, Oturum 78'in commit'i de main'e merge edilmemiş — bkz. altındaki bölüm ve kalıcı hafıza notu `project_main_merge_bekliyor`).
+
+---
 
 ## ŞU AN NEREDEYİZ (Oturum 78 — DKAB+İHO fix + Rehberlik Yıllık Planı takvim mimarisi, 07.07.2026)
 

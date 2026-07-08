@@ -60,7 +60,7 @@ export function performansHtmlOlustur(form: PerformansFormData): string {
   .puan-cell { font-weight: normal; }
   .toplam-cell { font-weight: bold; background: #f5f5f5; }
   tr { page-break-inside: avoid; break-inside: avoid; }
-  .imza-alani { display: flex; justify-content: space-around; text-align: center; margin-top: 30px; }
+  .imza-alani { display: flex; justify-content: space-around; text-align: center; margin-top: 30px; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-kutu { width: 45%; font-size: 10.5pt; }
   .imza-kutu .baslik { font-weight: bold; margin-bottom: 32px; }
 </style>

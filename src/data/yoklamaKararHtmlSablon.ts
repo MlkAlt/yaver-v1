@@ -111,7 +111,7 @@ ${maddeler(k.kararMetni)}
   .calisma-sol { width: 55%; }
   .calisma-sol p { margin-bottom: 6px; }
   .calisma-sag { width: 45%; border-left: 1px solid #000; padding-left: 14px; }
-  .imza-alani { display: flex; justify-content: space-around; text-align: center; margin-top: 32px; }
+  .imza-alani { display: flex; justify-content: space-around; text-align: center; margin-top: 32px; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-kutu { width: 30%; font-size: 10.5pt; }
   .imza-kutu .baslik { font-weight: bold; margin-bottom: 32px; }
 </style>

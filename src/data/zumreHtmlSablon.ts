@@ -68,7 +68,7 @@ export function zumreHtmlOlustur(form: ZumreFormData): string {
   .gundem-madde { margin: 10px 0; page-break-inside: avoid; break-inside: avoid; }
   .gundem-madde p { margin-bottom: 4px; line-height: 1.5; }
   .section-title { font-size: 12pt; font-weight: bold; text-align: center; margin: 16px 0 8px; border-bottom: 1px solid #000; padding-bottom: 4px; }
-  .imza-alani { margin-top: 20px; display: flex; justify-content: space-between; }
+  .imza-alani { margin-top: 20px; display: flex; justify-content: space-between; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-kutu { text-align: center; width: 45%; }
   .imza-kutu .cizgi { border-top: 1px solid #000; margin: 40px 0 4px; }
 </style>

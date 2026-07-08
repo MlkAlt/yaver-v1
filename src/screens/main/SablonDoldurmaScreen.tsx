@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   View, Text, StyleSheet, ViewStyle, TextStyle,
   ScrollView, TouchableOpacity, TextInput, Alert,
   KeyboardAvoidingView, Platform,
 } from 'react-native';
-import { Plus, Trash2, ChevronRight, ChevronLeft, FileDown, RotateCcw } from 'lucide-react-native';
+import { Plus, Trash2, ChevronRight, ChevronLeft, ChevronDown, FileDown, RotateCcw, Shuffle } from 'lucide-react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import * as Print from 'expo-print';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -38,6 +38,9 @@ import { KAZANIM_DURUMLARI, KazanimDurumu, DONEM_SECENEKLERI, FaaliyetSatiri, Ve
 import { dilekceHtmlOlustur } from '../../data/dilekceHtmlSablon';
 import { DilekceTuru, DilekceFormData, DILEKCE_SABLONLARI, getDilekceSablonu } from '../../data/dilekceSablon';
 import { yillikPlanHtmlOlustur } from '../../data/rehberlikYillikPlanHtmlSablon';
+import { useOnboarding } from '../../context/OnboardingContext';
+import { sinifLabel } from '../../lib/sinifLabel';
+import { SinifSecici } from '../../components/SinifSecici';
 import { REHBERLIK_YILLIK_PLAN } from '../../data/rehberlikYillikPlanlari';
 import { yoklamaKararHtmlOlustur, YoklamaKararFormData } from '../../data/yoklamaKararHtmlSablon';
 import {
@@ -147,9 +150,8 @@ function AdimTemelBilgi({
         <TextInput style={s.input} value={okulAdi} onChangeText={setOkulAdi}
           placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
       </Alan>
-      <Alan label="Sınıf" zorunlu hint="örn. 10/A, 5-B">
-        <TextInput style={s.input} value={sinif} onChangeText={setSinif}
-          placeholder="10/A" placeholderTextColor={colors.text3} autoCapitalize="characters" />
+      <Alan label="Sınıf" zorunlu>
+        <SinifSecici value={sinif} onChange={setSinif} />
       </Alan>
       <Alan label="Toplantı Tarihi" zorunlu>
         <TextInput style={s.input} value={tarih} onChangeText={setTarih}
@@ -405,6 +407,10 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   const [pRoster, setPRoster]                   = useState<{ okulNo: string; adSoyad: string }[]>([]);
   const [pMod, setPMod]                         = useState<'oto' | 'manuel'>('oto');
   const [pOgrenciler, setPOgrenciler]           = useState<POgrenciUI[]>([]);
+  const pNotInputRefs = useRef<Array<TextInput | null>>([]);
+  const pKriterInputRefs = useRef<Array<Array<TextInput | null>>>([]);
+  const [pAcikKirilim, setPAcikKirilim]         = useState<Set<number>>(new Set()); // salt-UI: dağıtım kırılımı açık öğrenci indeksleri
+  const [pKriterlerAcik, setPKriterlerAcik]     = useState(false); // salt-UI: Puanlama adımında kriter referansı açık mı
   const [pYukleniyor, setPYukleniyor]           = useState(false);
 
   // ─── Rehberlik Aylık Rapor state ──────────────────────────────────────
@@ -690,9 +696,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                 <TextInput style={s.input} value={vOkulAdi} onChangeText={setVOkulAdi}
                   placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
               </Alan>
-              <Alan label="Sınıf" zorunlu hint="örn. 10/A, 5-B">
-                <TextInput style={s.input} value={vSinif} onChangeText={setVSinif}
-                  placeholder="10/A" placeholderTextColor={colors.text3} autoCapitalize="characters" />
+              <Alan label="Sınıf" zorunlu>
+                <SinifSecici value={vSinif} onChange={setVSinif} />
               </Alan>
               <Alan label="Adınız Soyadınız (Rehber Öğretmen)" zorunlu>
                 <TextInput style={s.input} value={vRehber} onChangeText={setVRehber}
@@ -1409,9 +1414,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                 </View>
               </Alan>
               <Alan label="Sınıf / Şube" zorunlu hint="Aylık raporlardan (yoksa yıllık plandan) otomatik doldurulur">
-                <TextInput style={s.input} value={dsSinif} onChangeText={setDsSinif}
-                  onEndEditing={() => dsVeriyiUygula(dsSinif, dsDonem)}
-                  placeholder="11 / C" placeholderTextColor={colors.text3} />
+                <SinifSecici value={dsSinif} onChange={v => { setDsSinif(v); dsVeriyiUygula(v, dsDonem); }} />
               </Alan>
               <Alan label="Sınıf Rehber Öğretmeni" zorunlu>
                 <TextInput style={s.input} value={dsRehber} onChangeText={setDsRehber}
@@ -1471,6 +1474,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                   <TextInput style={[s.input, { marginBottom: 8 }]} value={f.calisma}
                     onChangeText={t => setDsFaaliyetler(dsFaaliyetler.map((x, idx) => idx === i ? { ...x, calisma: t } : x))}
                     placeholder="Oryantasyon / motivasyon çalışması" placeholderTextColor={colors.text3} />
+                  <Text style={s.alanHint}>Katılan öğrenci sayısı</Text>
                   <View style={{ flexDirection: 'row', gap: 8 }}>
                     <TextInput style={[s.input, { flex: 1 }]} value={f.kiz}
                       onChangeText={t => setDsFaaliyetler(dsFaaliyetler.map((x, idx) => idx === i ? { ...x, kiz: t } : x))}
@@ -1502,6 +1506,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                   <TextInput style={[s.input, { marginBottom: 8 }]} value={v.calisma}
                     onChangeText={t => setDsVeliFaaliyetler(dsVeliFaaliyetler.map((x, idx) => idx === i ? { ...x, calisma: t } : x))}
                     placeholder="Veli Toplantısı" placeholderTextColor={colors.text3} />
+                  <Text style={s.alanHint}>Katılan kişi sayısı</Text>
                   <View style={{ flexDirection: 'row', gap: 8 }}>
                     <TextInput style={[s.input, { flex: 1 }]} value={v.anne}
                       onChangeText={t => setDsVeliFaaliyetler(dsVeliFaaliyetler.map((x, idx) => idx === i ? { ...x, anne: t } : x))}
@@ -1733,9 +1738,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                   placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
               </Alan>
               <Alan label="Sınıf" zorunlu>
-                <TextInput style={s.input} value={rbSinif} onChangeText={setRbSinif}
-                  onEndEditing={() => rbVeriyiUygula(rbSinif, rbAy)}
-                  placeholder="11/C" placeholderTextColor={colors.text3} />
+                <SinifSecici value={rbSinif} onChange={v => { setRbSinif(v); rbVeriyiUygula(v, rbAy); }} />
               </Alan>
 
               <Alan label="Rapor Ayı" zorunlu>
@@ -1849,6 +1852,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                     <TextInput style={[s.input, { marginBottom: 8 }]} value={t.tarih}
                       onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, tarih: v } : x))}
                       placeholder="Uygulama tarihi" placeholderTextColor={colors.text3} />
+                    <Text style={s.alanHint}>Katılan öğrenci sayısı</Text>
                     <View style={{ flexDirection: 'row', gap: 8 }}>
                       <TextInput style={[s.input, { flex: 1 }]} value={t.kiz}
                         onChangeText={v => setRbTestAnketler(rbTestAnketler.map((x, idx) => idx === i ? { ...x, kiz: v } : x))}
@@ -2720,11 +2724,11 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       setPOgrenciler(prev => prev.map(o => ({ ...o, puanlar: new Array(yeniKriterSayisi).fill(0) })));
     };
 
-    const pDagit = (i: number) => {
-      const asilNot = Math.min(100, Math.max(0, parseInt(pOgrenciler[i].asilNot, 10) || 0));
-      const puanlar = notuKriterlereDagit(asilNot, kriterler);
-      setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, puanlar } : x));
-    };
+    const pKirilimAcKapa = (i: number) => setPAcikKirilim(prev => {
+      const next = new Set(prev);
+      next.has(i) ? next.delete(i) : next.add(i);
+      return next;
+    });
 
     const pTumunuDagit = () => {
       setPOgrenciler(pOgrenciler.map(o => {
@@ -2732,6 +2736,20 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         if (!o.asilNot.trim()) return o;
         return { ...o, puanlar: notuKriterlereDagit(asilNot, kriterler) };
       }));
+    };
+
+    // Asıl not girişi bitince (alandan çıkınca): o öğrenciye otomatik dağıt +
+    // kırılımını aç, diğerlerini kapat. Not değişmemişse yeniden randomize etme.
+    const pNotCommit = (i: number) => {
+      const o = pOgrenciler[i];
+      if (!o.asilNot.trim()) return;
+      const asilNot = Math.min(100, Math.max(0, parseInt(o.asilNot, 10) || 0));
+      if (asilNot <= 0) return;
+      setPAcikKirilim(new Set([i]));
+      const mevcutToplam = o.puanlar.reduce((a, b) => a + b, 0);
+      if (mevcutToplam === asilNot) return;
+      setPOgrenciler(pOgrenciler.map((x, idx) => idx === i
+        ? { ...x, puanlar: notuKriterlereDagit(asilNot, kriterler) } : x));
     };
 
     // Roster satırlarını depolama formatına ("123 Ahmet Yılmaz") serileştir.
@@ -2841,18 +2859,19 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <Text style={s.adimBaslik}>Temel Bilgiler</Text>
               <Text style={s.adimAlt}>Performans notu değerlendirme çizelgesi</Text>
 
+              <Text style={s.grupBaslik}>BELGE BİLGİLERİ</Text>
               <Alan label="Okul Adı">
                 <TextInput style={s.input} value={pOkulAdi} onChangeText={setPOkulAdi}
                   placeholder="Atatürk Anadolu Lisesi" placeholderTextColor={colors.text3} />
               </Alan>
               <Alan label="Sınıf">
-                <TextInput style={s.input} value={pSinif} onChangeText={setPSinif}
-                  placeholder="9/A" placeholderTextColor={colors.text3} />
+                <SinifSecici value={pSinif} onChange={setPSinif} />
               </Alan>
               <Alan label="Ders Adı" zorunlu>
-                <TextInput style={s.input} value={pDersAdi} onChangeText={setPDersAdi}
-                  placeholder="Matematik" placeholderTextColor={colors.text3} />
+                <DersSecici value={pDersAdi} onChange={setPDersAdi} />
               </Alan>
+
+              <Text style={[s.grupBaslik, { marginTop: spacing.lg }]}>ÖĞRETMEN & İMZA</Text>
               <Alan label="Ders Öğretmeni" zorunlu>
                 <TextInput style={s.input} value={pOgretmen} onChangeText={setPOgretmen}
                   placeholder="Adınız Soyadınız" placeholderTextColor={colors.text3} />
@@ -2885,10 +2904,23 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                 ))}
               </View>
 
-              <View style={[s.infoCard, { marginTop: spacing.base }]}>
-                <Text style={s.infoText}>
-                  {kriterler.map(k => `• ${k.ad} (${k.puan} puan)`).join('\n')}
-                </Text>
+              <View style={[s.kriterListe, { marginTop: spacing.base }]}>
+                <View style={s.kriterListeHeader}>
+                  <Text style={s.kriterListeBaslik}>KRİTERLER</Text>
+                  <Text style={s.kriterListeSayi}>{kriterler.length} madde</Text>
+                </View>
+                {kriterler.map((k, ki) => (
+                  <View key={ki} style={[s.kriterListeRow, ki === kriterler.length - 1 && s.kriterListeRowSon]}>
+                    <Text style={s.kriterListeAd}>{k.ad}</Text>
+                    <View style={s.kriterListePill}>
+                      <Text style={s.kriterListePuan}>{k.puan}</Text>
+                    </View>
+                  </View>
+                ))}
+                <View style={s.kriterListeFooter}>
+                  <Text style={s.kriterListeToplamLabel}>Toplam</Text>
+                  <Text style={s.kriterListeToplamPuan}>100 puan</Text>
+                </View>
               </View>
             </ScrollView>
           )}
@@ -2936,67 +2968,135 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
               <Text style={s.adimBaslik}>Puanlama</Text>
               <Text style={s.adimAlt}>Tüm sınıf için tek yöntem seç — sonra notları gir</Text>
 
-              <Text style={s.puanlamaModLabel}>YÖNTEM</Text>
-              <View style={s.chipRow}>
-                <TouchableOpacity style={[s.chip, pMod === 'oto' && s.chipActive]} onPress={() => setPMod('oto')}>
-                  <Text style={[s.chipText, pMod === 'oto' && s.chipTextActive]}>Otomatik Dağıt</Text>
+              <View style={s.segmentedTrack}>
+                <TouchableOpacity
+                  style={[s.segment, pMod === 'oto' && s.segmentActive]}
+                  onPress={() => setPMod('oto')} activeOpacity={0.8}
+                >
+                  <Text style={[s.segmentText, pMod === 'oto' && s.segmentTextActive]}>Otomatik Dağıt</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={[s.chip, pMod === 'manuel' && s.chipActive]} onPress={() => setPMod('manuel')}>
-                  <Text style={[s.chipText, pMod === 'manuel' && s.chipTextActive]}>Elle Puanla</Text>
+                <TouchableOpacity
+                  style={[s.segment, pMod === 'manuel' && s.segmentActive]}
+                  onPress={() => setPMod('manuel')} activeOpacity={0.8}
+                >
+                  <Text style={[s.segmentText, pMod === 'manuel' && s.segmentTextActive]}>Elle Puanla</Text>
                 </TouchableOpacity>
               </View>
 
-              {pMod === 'oto' && (
-                <TouchableOpacity style={[s.dagitBtn, s.tumunuDagitBtn]} onPress={pTumunuDagit} activeOpacity={0.8}>
-                  <Text style={s.dagitBtnText}>Tümünü Dağıt</Text>
-                </TouchableOpacity>
-              )}
-
-              {pOgrenciler.map((o, i) => {
-                const toplam = o.puanlar.reduce((a, b) => a + b, 0);
-                return (
-                  <View key={o.no} style={s.soruCard}>
-                    <View style={s.soruHeader}>
-                      <Text style={s.soruNo}>{i + 1}. {o.adSoyad}{o.okulNo ? ` (${o.okulNo})` : ''}</Text>
+              {pMod === 'oto' ? (
+                <>
+                  <TouchableOpacity style={s.tumunuDagitBtn} onPress={pTumunuDagit} activeOpacity={0.85}>
+                    <Shuffle size={18} color="#fff" strokeWidth={1.5} />
+                    <View style={{ flex: 1 }}>
+                      <Text style={s.tumunuDagitText}>Tümünü Dağıt</Text>
+                      <Text style={s.tumunuDagitAlt}>Girdiğin notları kriterlere otomatik böler</Text>
                     </View>
+                  </TouchableOpacity>
 
-                    {pMod === 'oto' ? (
-                      <>
-                        <Alan label="Asıl Not (0-100)">
-                          <View style={{ flexDirection: 'row', gap: 8 }}>
-                            <TextInput
-                              style={[s.input, { flex: 1 }]}
-                              value={o.asilNot}
-                              onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, asilNot: v.replace(/[^0-9]/g, '') } : x))}
-                              placeholder="85"
-                              placeholderTextColor={colors.text3}
-                              keyboardType="numeric"
-                            />
-                            <TouchableOpacity style={s.dagitBtn} onPress={() => pDagit(i)} activeOpacity={0.8}>
-                              <Text style={s.dagitBtnText}>Dağıt</Text>
-                            </TouchableOpacity>
-                          </View>
-                        </Alan>
-                        {toplam > 0 && (
-                          <View style={s.dagilimGrid}>
-                            {kriterler.map((k, ki) => (
-                              <View key={ki} style={s.dagilimRow}>
-                                <Text style={s.dagilimAd} numberOfLines={1}>{k.ad}</Text>
-                                <View style={s.dagilimPill}>
-                                  <Text style={s.dagilimPuan}>{o.puanlar[ki]}</Text>
-                                  <Text style={s.dagilimMax}> / {k.puan}</Text>
-                                </View>
+                  <TouchableOpacity
+                    style={s.kriterRefHead}
+                    onPress={() => setPKriterlerAcik(v => !v)}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={s.kriterRefBaslik}>Kriterler</Text>
+                    <View style={s.kriterRefSag}>
+                      <Text style={s.kriterRefSayi}>{kriterler.length} madde</Text>
+                      <ChevronDown size={15} color={colors.text2} strokeWidth={1.5}
+                        style={{ transform: [{ rotate: pKriterlerAcik ? '180deg' : '0deg' }] }} />
+                    </View>
+                  </TouchableOpacity>
+                  {pKriterlerAcik && (
+                    <View style={s.kriterRefListe}>
+                      {kriterler.map((k, ki) => (
+                        <View key={ki} style={[s.kriterRefRow, ki === kriterler.length - 1 && s.kriterRefRowSon]}>
+                          <Text style={s.kriterRefAd} numberOfLines={2}>{k.ad}</Text>
+                          <Text style={s.kriterRefPuan}>{k.puan}</Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
+
+                  <View style={s.notCetveliCard}>
+                    <View style={s.notCetveliHead}>
+                      <Text style={s.notCetveliHeadAd}>ÖĞRENCİ</Text>
+                      <Text style={s.notCetveliHeadNot}>ASIL NOT</Text>
+                    </View>
+                    {pOgrenciler.map((o, i) => {
+                      const toplam = o.puanlar.reduce((a, b) => a + b, 0);
+                      const acik = pAcikKirilim.has(i);
+                      return (
+                        <View key={o.no}>
+                          <View style={[s.notRow, (acik || i === pOgrenciler.length - 1) && s.notRowSon]}>
+                            <View style={s.notRowSol}>
+                              <Text style={s.notSira}>{i + 1}</Text>
+                              <View style={{ flex: 1 }}>
+                                <Text style={s.notAd} numberOfLines={1}>{o.adSoyad}</Text>
+                                {o.okulNo ? <Text style={s.notNo}>No {o.okulNo}</Text> : null}
                               </View>
-                            ))}
+                            </View>
+                            <View style={s.notRowSag}>
+                              <TextInput
+                                ref={r => { pNotInputRefs.current[i] = r; }}
+                                style={s.notInput}
+                                value={o.asilNot}
+                                onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, asilNot: v.replace(/[^0-9]/g, '') } : x))}
+                                placeholder="85"
+                                placeholderTextColor={colors.text3}
+                                keyboardType="numeric"
+                                maxLength={3}
+                                returnKeyType={i < pOgrenciler.length - 1 ? 'next' : 'done'}
+                                blurOnSubmit={i === pOgrenciler.length - 1}
+                                onBlur={() => pNotCommit(i)}
+                                onSubmitEditing={() => pNotInputRefs.current[i + 1]?.focus()}
+                              />
+                              {toplam > 0 && (
+                                <TouchableOpacity style={s.toplamPill} onPress={() => pKirilimAcKapa(i)} activeOpacity={0.7}>
+                                  <Text style={s.toplamPillPuan}>{toplam}</Text>
+                                  <ChevronDown size={13} color={colors.text2} strokeWidth={1.5}
+                                    style={{ transform: [{ rotate: acik ? '180deg' : '0deg' }] }} />
+                                </TouchableOpacity>
+                              )}
+                            </View>
                           </View>
-                        )}
-                      </>
-                    ) : (
+                          {toplam > 0 && acik && (
+                            <View style={[s.kirilimBox, i === pOgrenciler.length - 1 && s.notRowSon]}>
+                              {kriterler.map((k, ki) => (
+                                <View key={ki} style={s.dagilimRow}>
+                                  <Text style={s.dagilimAd} numberOfLines={1}>{k.ad}</Text>
+                                  <View style={s.dagilimPill}>
+                                    <Text style={s.dagilimPuan}>{o.puanlar[ki]}</Text>
+                                    <Text style={s.dagilimMax}> / {k.puan}</Text>
+                                  </View>
+                                </View>
+                              ))}
+                            </View>
+                          )}
+                        </View>
+                      );
+                    })}
+                  </View>
+                </>
+              ) : (
+                pOgrenciler.map((o, i) => {
+                  const toplam = o.puanlar.reduce((a, b) => a + b, 0);
+                  return (
+                    <View key={o.no} style={s.soruCard}>
+                      <View style={s.soruHeader}>
+                        <Text style={s.soruNo}>{i + 1}. {o.adSoyad}{o.okulNo ? ` (${o.okulNo})` : ''}</Text>
+                        <Text style={s.toplamText}>{toplam} / 100</Text>
+                      </View>
                       <View style={s.kriterGrid}>
-                        {kriterler.map((k, ki) => (
+                        {kriterler.map((k, ki) => {
+                          const sonKriter = ki === kriterler.length - 1;
+                          const sonOgrenci = i === pOgrenciler.length - 1;
+                          return (
                           <View key={ki} style={s.kriterInputWrap}>
                             <Text style={s.kriterLabel} numberOfLines={2}>{k.ad}</Text>
                             <TextInput
+                              ref={r => {
+                                if (!pKriterInputRefs.current[i]) pKriterInputRefs.current[i] = [];
+                                pKriterInputRefs.current[i][ki] = r;
+                              }}
                               style={s.kriterInput}
                               value={String(o.puanlar[ki] ?? 0)}
                               onChangeText={v => {
@@ -3006,17 +3106,22 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                                   : x));
                               }}
                               keyboardType="numeric"
+                              returnKeyType={sonKriter && sonOgrenci ? 'done' : 'next'}
+                              blurOnSubmit={sonKriter && sonOgrenci}
+                              onSubmitEditing={() => {
+                                if (!sonKriter) { pKriterInputRefs.current[i]?.[ki + 1]?.focus(); return; }
+                                if (!sonOgrenci) pKriterInputRefs.current[i + 1]?.[0]?.focus();
+                              }}
                             />
                             <Text style={s.kriterMax}>/ {k.puan}</Text>
                           </View>
-                        ))}
+                          );
+                        })}
                       </View>
-                    )}
-
-                    <Text style={s.toplamText}>Toplam: {toplam} / 100</Text>
-                  </View>
-                );
-              })}
+                    </View>
+                  );
+                })
+              )}
             </ScrollView>
           )}
         </KeyboardAvoidingView>
@@ -3382,6 +3487,29 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
   );
 }
 
+// ─── Ders seçici ──────────────────────────────────────────────────────────
+function DersSecici({ value, onChange }: { value: string; onChange: (v: string) => void }) {
+  const { dersFiltesi } = useOnboarding();
+
+  if (!dersFiltesi || dersFiltesi.length === 0) {
+    return (
+      <TextInput style={s.input} value={value} onChangeText={onChange}
+        placeholder="Ders adı" placeholderTextColor={colors.text3} />
+    );
+  }
+
+  return (
+    <View style={s.chipRow}>
+      {dersFiltesi.map(d => (
+        <TouchableOpacity key={d} style={[s.chip, value === d && s.chipActive]}
+          onPress={() => onChange(d)} activeOpacity={0.7}>
+          <Text style={[s.chipText, value === d && s.chipTextActive]}>{d}</Text>
+        </TouchableOpacity>
+      ))}
+    </View>
+  );
+}
+
 // ─── Alan bileşeni ────────────────────────────────────────────────────────
 function Alan({ label, zorunlu, hint, children }: {
   label: string; zorunlu?: boolean; hint?: string; children: React.ReactNode;
@@ -3402,7 +3530,7 @@ const s = StyleSheet.create({
 
   alan: { marginBottom: spacing.md } as ViewStyle,
   alanLabel: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1, marginBottom: 6 } as TextStyle,
-  alanHint: { fontSize: 11, fontFamily: fonts.regular, color: colors.text3, marginBottom: 4 } as TextStyle,
+  alanHint: { fontSize: 12.5, fontFamily: fonts.semiBold, color: colors.text2, marginBottom: 6 } as TextStyle,
   input: {
     backgroundColor: colors.bg,
     borderRadius: radius.sm,
@@ -3417,6 +3545,7 @@ const s = StyleSheet.create({
   textArea: { minHeight: 84, textAlignVertical: 'top', paddingTop: 11, lineHeight: 21 } as TextStyle,
 
   chipRow: { flexDirection: 'row', gap: 8, flexWrap: 'wrap' } as ViewStyle,
+
   chip: {
     paddingHorizontal: 16, paddingVertical: 8,
     borderRadius: 20, borderWidth: 1, borderColor: colors.border,
@@ -3426,20 +3555,129 @@ const s = StyleSheet.create({
   chipText: { fontSize: 13, fontFamily: fonts.medium, color: colors.text2 } as TextStyle,
   chipTextActive: { color: '#fff', fontFamily: fonts.semiBold } as TextStyle,
 
-  dagitBtn: {
-    paddingHorizontal: spacing.md, borderRadius: radius.md,
-    backgroundColor: colors.accent, alignItems: 'center', justifyContent: 'center',
-  } as ViewStyle,
-  tumunuDagitBtn: { paddingVertical: 13, marginTop: spacing.md, marginBottom: spacing.lg } as ViewStyle,
-  dagitBtnText: { fontSize: 13, fontFamily: fonts.semiBold, color: '#fff' } as TextStyle,
-  puanlamaModLabel: {
+  // Ekran 1 — mantıksal grup başlıkları
+  grupBaslik: {
     fontSize: 11, fontFamily: fonts.bold, color: colors.text3, letterSpacing: 0.8,
-    marginBottom: spacing.sm,
+    marginBottom: spacing.sm, marginTop: 4,
   } as TextStyle,
-  dagilimGrid: {
-    marginTop: spacing.sm, marginBottom: spacing.sm,
-    backgroundColor: colors.bg, borderRadius: radius.md,
-    paddingHorizontal: spacing.md, paddingVertical: 4,
+
+  // Ekran 2 — yapılandırılmış kriter listesi (ağırlık pill + toplam ayağı)
+  kriterListe: {
+    backgroundColor: colors.surface, borderRadius: radius.md,
+    borderWidth: 1, borderColor: colors.border, overflow: 'hidden',
+  } as ViewStyle,
+  kriterListeHeader: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    paddingHorizontal: spacing.md, paddingVertical: spacing.sm,
+    backgroundColor: colors.bg, borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  kriterListeBaslik: { fontSize: 10, fontFamily: fonts.bold, color: colors.text3, letterSpacing: 0.6 } as TextStyle,
+  kriterListeSayi: { fontSize: 11, fontFamily: fonts.medium, color: colors.text2 } as TextStyle,
+  kriterListeRow: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    paddingHorizontal: spacing.md, paddingVertical: 10,
+    borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  kriterListeRowSon: { borderBottomWidth: 0 } as ViewStyle,
+  kriterListeAd: { flex: 1, fontSize: 13, fontFamily: fonts.regular, color: colors.text1, marginRight: spacing.sm, lineHeight: 18 } as TextStyle,
+  kriterListePill: {
+    minWidth: 34, alignItems: 'center', backgroundColor: colors.bg,
+    borderRadius: radius.sm, borderWidth: 1, borderColor: colors.border, paddingVertical: 3, paddingHorizontal: 8,
+  } as ViewStyle,
+  kriterListePuan: { fontSize: 13, fontFamily: fonts.bold, color: colors.accent } as TextStyle,
+  kriterListeFooter: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    paddingHorizontal: spacing.md, paddingVertical: spacing.md,
+    backgroundColor: colors.bg, borderTopWidth: 1, borderTopColor: colors.border,
+  } as ViewStyle,
+  kriterListeToplamLabel: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1 } as TextStyle,
+  kriterListeToplamPuan: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,
+
+  // Ekran 3 — YÖNTEM segmented control
+  segmentedTrack: {
+    flexDirection: 'row', backgroundColor: colors.bg,
+    borderRadius: radius.md, padding: 3, gap: 3,
+    borderWidth: 1, borderColor: colors.border,
+  } as ViewStyle,
+  segment: {
+    flex: 1, paddingVertical: 9, borderRadius: radius.sm,
+    alignItems: 'center', justifyContent: 'center',
+  } as ViewStyle,
+  segmentActive: { backgroundColor: colors.accent } as ViewStyle,
+  segmentText: { fontSize: 13, fontFamily: fonts.medium, color: colors.text2 } as TextStyle,
+  segmentTextActive: { color: '#fff', fontFamily: fonts.semiBold } as TextStyle,
+
+  // Ekran 3 — birincil toplu dağıtım aksiyonu
+  tumunuDagitBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: spacing.md,
+    backgroundColor: colors.accent, borderRadius: radius.md,
+    paddingVertical: 14, paddingHorizontal: spacing.base,
+    marginTop: spacing.base, marginBottom: spacing.base,
+  } as ViewStyle,
+  tumunuDagitText: { fontSize: 15, fontFamily: fonts.bold, color: '#fff' } as TextStyle,
+  tumunuDagitAlt: { fontSize: 12, fontFamily: fonts.regular, color: 'rgba(255,255,255,0.82)', marginTop: 1 } as TextStyle,
+
+  // Ekran 3 (otomatik) — tek "not cetveli" kartı + satırlar
+  kriterRefHead: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    backgroundColor: colors.surface, borderRadius: radius.md,
+    borderWidth: 1, borderColor: colors.border,
+    paddingHorizontal: spacing.md, paddingVertical: spacing.sm, marginBottom: spacing.sm,
+  } as ViewStyle,
+  kriterRefBaslik: { fontSize: 13, fontFamily: fonts.semiBold, color: colors.text1 } as TextStyle,
+  kriterRefSag: { flexDirection: 'row', alignItems: 'center', gap: 6 } as ViewStyle,
+  kriterRefSayi: { fontSize: 12, fontFamily: fonts.medium, color: colors.text2 } as TextStyle,
+  kriterRefListe: {
+    backgroundColor: colors.surface, borderRadius: radius.md,
+    borderWidth: 1, borderColor: colors.border, overflow: 'hidden',
+    marginBottom: spacing.sm,
+  } as ViewStyle,
+  kriterRefRow: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    paddingHorizontal: spacing.md, paddingVertical: 10,
+    borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  kriterRefRowSon: { borderBottomWidth: 0 } as ViewStyle,
+  kriterRefAd: { flex: 1, fontSize: 12.5, fontFamily: fonts.regular, color: colors.text2, marginRight: spacing.sm, lineHeight: 17 } as TextStyle,
+  kriterRefPuan: { fontSize: 13, fontFamily: fonts.bold, color: colors.accent } as TextStyle,
+  notCetveliCard: {
+    backgroundColor: colors.surface, borderRadius: radius.md,
+    borderWidth: 1, borderColor: colors.border, overflow: 'hidden',
+  } as ViewStyle,
+  notCetveliHead: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    paddingHorizontal: spacing.md, paddingVertical: spacing.sm,
+    backgroundColor: colors.bg, borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  notCetveliHeadAd: { fontSize: 10, fontFamily: fonts.bold, color: colors.text3, letterSpacing: 0.6 } as TextStyle,
+  notCetveliHeadNot: { fontSize: 10, fontFamily: fonts.bold, color: colors.text3, letterSpacing: 0.6 } as TextStyle,
+  notRow: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    paddingHorizontal: spacing.md, paddingVertical: spacing.sm,
+    borderBottomWidth: 1, borderBottomColor: colors.border,
+  } as ViewStyle,
+  notRowSon: { borderBottomWidth: 0 } as ViewStyle,
+  notRowSol: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, flex: 1, marginRight: spacing.sm } as ViewStyle,
+  notSira: { width: 20, textAlign: 'center', fontSize: 12, fontFamily: fonts.bold, color: colors.text3 } as TextStyle,
+  notAd: { fontSize: 14, fontFamily: fonts.semiBold, color: colors.text1 } as TextStyle,
+  notNo: { fontSize: 11, fontFamily: fonts.regular, color: colors.text3, marginTop: 1 } as TextStyle,
+  notRowSag: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm } as ViewStyle,
+  notInput: {
+    width: 58, textAlign: 'center',
+    backgroundColor: colors.bg, borderRadius: radius.sm,
+    borderWidth: 1, borderColor: colors.border,
+    paddingVertical: 8, fontSize: 15, fontFamily: fonts.semiBold, color: colors.text1,
+  } as TextStyle,
+  toplamPill: {
+    flexDirection: 'row', alignItems: 'center', gap: 2,
+    backgroundColor: colors.bg, borderRadius: radius.sm,
+    borderWidth: 1, borderColor: colors.border,
+    paddingHorizontal: 8, paddingVertical: 6, minWidth: 46, justifyContent: 'center',
+  } as ViewStyle,
+  toplamPillPuan: { fontSize: 14, fontFamily: fonts.bold, color: colors.text1 } as TextStyle,
+  kirilimBox: {
+    paddingLeft: 32, paddingRight: spacing.md, paddingBottom: spacing.xs,
+    backgroundColor: colors.bg, borderBottomWidth: 1, borderBottomColor: colors.border,
   } as ViewStyle,
   dagilimRow: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
@@ -3455,7 +3693,7 @@ const s = StyleSheet.create({
   } as TextStyle,
   kriterGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: spacing.sm } as ViewStyle,
   kriterInputWrap: { width: '31%' } as ViewStyle,
-  kriterLabel: { fontSize: 9, fontFamily: fonts.regular, color: colors.text2, marginBottom: 4, minHeight: 26 } as TextStyle,
+  kriterLabel: { fontSize: 10, fontFamily: fonts.regular, color: colors.text2, marginBottom: 5, minHeight: 28, lineHeight: 13 } as TextStyle,
   kriterInput: {
     backgroundColor: colors.bg,
     borderWidth: 1, borderColor: colors.border, borderRadius: radius.sm,

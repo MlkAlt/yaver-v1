@@ -61,7 +61,7 @@ export function sinavAnaliziHtmlOlustur(form: SinavFormData, sonuclar: SinavSonu
   .toplam-cell { font-weight: bold; }
   .section-title { font-size: 11pt; font-weight: bold; margin: 14px 0 6px; border-bottom: 1px solid #000; padding-bottom: 3px; }
   .tedbirler { font-size: 10pt; line-height: 1.6; padding-left: 18px; margin-top: 4px; }
-  .imza-alani { margin-top: 28px; display: flex; justify-content: space-between; }
+  .imza-alani { margin-top: 28px; display: flex; justify-content: space-between; page-break-inside: avoid; break-inside: avoid; page-break-before: avoid; break-before: avoid; }
   .imza-kutu { text-align: center; width: 40%; }
   .imza-kutu .cizgi { border-top: 1px solid #000; margin: 36px 0 4px; }
 </style>
