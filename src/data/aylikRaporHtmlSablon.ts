@@ -13,15 +13,16 @@ export type AylikRaporFormData = {
 };
 
 export const RAPOR_AYLARI: { ad: string; no: number }[] = [
-  { ad: 'Ekim',    no: 1 },
-  { ad: 'Kasım',   no: 2 },
-  { ad: 'Aralık',  no: 3 },
-  { ad: 'Ocak',    no: 4 },
-  { ad: 'Şubat',   no: 5 },
-  { ad: 'Mart',    no: 6 },
-  { ad: 'Nisan',   no: 7 },
-  { ad: 'Mayıs',   no: 8 },
-  { ad: 'Haziran', no: 9 },
+  { ad: 'Eylül',   no: 1 },
+  { ad: 'Ekim',    no: 2 },
+  { ad: 'Kasım',   no: 3 },
+  { ad: 'Aralık',  no: 4 },
+  { ad: 'Ocak',    no: 5 },
+  { ad: 'Şubat',   no: 6 },
+  { ad: 'Mart',    no: 7 },
+  { ad: 'Nisan',   no: 8 },
+  { ad: 'Mayıs',   no: 9 },
+  { ad: 'Haziran', no: 10 },
 ];
 
 export function planEtkinlikleriniRaporaCevir(etkinliklerMetni: string): string[] {
