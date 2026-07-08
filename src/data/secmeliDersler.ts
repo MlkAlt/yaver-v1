@@ -36,7 +36,10 @@ const BRANS_DERSLER: Record<string, BransDersler> = {
   },
   fen_bilimleri: {
     zorunlu: [{ ad: 'Fen Bilimleri', siniflar: [5,6,7,8], okul_tipleri: ['ortaokul','iho'] }],
-    secmeli: [],
+    secmeli: [
+      { ad: 'Çevre Eğitimi ve İklim Değişikliği', siniflar: [6,7,8], okul_tipleri: ['ortaokul'] },
+      { ad: 'Matematik ve Bilim Uygulamaları',    siniflar: [6,7],   okul_tipleri: ['ortaokul'] },
+    ],
   },
   sosyal_bilgiler: {
     // migration 000012: sinif=8 T.C. İnkılap Tarihi kazanımları bu branşa taşındı
