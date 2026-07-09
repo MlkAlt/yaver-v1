@@ -45,7 +45,7 @@ export function kulupYillikPlanHtmlOlustur(form: KulupFormData): string {
   .ust-bilgi { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 10.5pt; }
   table { width: 100%; border-collapse: collapse; margin: 6px 0 20px; }
   thead { display: table-header-group; }
-  th, td { border: 1px solid #000; padding: 5px 7px; font-size: 9.5pt; vertical-align: top; }
+  th, td { border: 1px solid #000; padding: 5px 7px; font-size: 9.5pt; vertical-align: middle; }
   th { background: #f0f0f0; font-weight: bold; text-align: center; }
   .ay-cell { width: 9%; text-align: center; font-weight: bold; }
   .gun-cell { width: 22%; font-size: 8.5pt; }

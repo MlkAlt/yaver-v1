@@ -270,7 +270,8 @@ export function SinavAnaliziScreen({ navigation }: Props) {
 
       const html = sinavAnaliziHtmlOlustur(formData, sonuclar);
       await pdfOnizlemeAc(html, false, navigation);
-    } catch {
+    } catch (e) {
+      console.error('PDF olusturma hatasi:', e);
       Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
     } finally {
       setYukleniyor(false);

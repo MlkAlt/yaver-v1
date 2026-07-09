@@ -665,6 +665,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         const html    = veliHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
       } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setVYukleniyor(false);
@@ -917,7 +918,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = aylikRaporHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
-      } catch {
+      } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setArYukleniyor(false);
@@ -1093,7 +1095,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
           sinifRehberOgretmeni: ypRehber, okulRehberOgretmeni: ypOkulRehber, okulMuduru: ypMudur,
         });
         await pdfOnizlemeAc(html, true, navigation);
-      } catch {
+      } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setYpYukleniyor(false);
@@ -1205,7 +1208,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = dilekceHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
-      } catch {
+      } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setDlYukleniyor(false);
@@ -1372,7 +1376,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = donemSonuHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
-      } catch {
+      } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setDsYukleniyor(false);
@@ -1705,7 +1710,8 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 
         const html    = aylikRehberlikHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
-      } catch {
+      } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setRbYukleniyor(false);
@@ -2050,6 +2056,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         const html    = kulupYillikPlanHtmlOlustur(formData);
         await pdfOnizlemeAc(html, true, navigation);
       } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setKYukleniyor(false);
@@ -2243,6 +2250,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         const html    = toplumHizmetHtmlOlustur(formData);
         await pdfOnizlemeAc(html, true, navigation);
       } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setThYukleniyor(false);
@@ -2453,6 +2461,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         const html    = yoklamaKararHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
       } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setYYukleniyor(false);
@@ -2845,6 +2854,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         const html    = performansHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
       } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setPYukleniyor(false);
@@ -3208,6 +3218,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
         const html    = zumreHtmlOlustur(formData);
         await pdfOnizlemeAc(html, false, navigation);
       } catch (e) {
+        console.error('PDF olusturma hatasi:', e);
         Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
       } finally {
         setZYukleniyor(false);
@@ -3425,6 +3436,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       const html      = sokHtmlOlustur(formData);
       await pdfOnizlemeAc(html, false, navigation);
     } catch (e) {
+      console.error('PDF olusturma hatasi:', e);
       Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
     } finally {
       setYukleniyor(false);

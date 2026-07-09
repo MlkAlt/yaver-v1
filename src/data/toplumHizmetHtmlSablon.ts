@@ -46,7 +46,7 @@ export function toplumHizmetHtmlOlustur(form: ToplumHizmetFormData): string {
   h2 { font-size: 12.5pt; text-align: center; font-weight: bold; margin: 4px 0; }
   table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; }
   thead { display: table-header-group; }
-  th, td { border: 1px solid #000; padding: 5px 6px; font-size: 9pt; vertical-align: top; }
+  th, td { border: 1px solid #000; padding: 5px 6px; font-size: 9pt; vertical-align: middle; }
   th { background: #f0f0f0; font-weight: bold; text-align: center; }
   .dar-cell { width: 8%; text-align: center; font-weight: bold; }
   ul { margin: 3px 0 0 14px; padding: 0; }
