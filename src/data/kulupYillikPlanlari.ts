@@ -1,7 +1,12 @@
 ﻿// Kulüp Yıllık Çalışma Planı — EK-7/b içerik havuzu
-// Format: AYLIK (Ekim → Haziran, 9 satır) — gerçek okul planlarıyla hizalı.
-// Strateji: Ekim/Ocak/Haziran ortak şablondan, diğer 6 ay kulübe özgü.
-// İçerik kaynağı: gerçek okul belgelerinden türetildi (Karatay TMTAL, 2025-2026).
+// Format: AYLIK (Eylül → Haziran, 10 satır) — gerçek okul planlarıyla hizalı.
+// Strateji: Eylül/Ekim/Ocak/Haziran ortak şablondan, diğer 6 ay kulübe özgü.
+// İçerik kaynağı: gerçek okul belgelerinden türetildi (Karatay TMTAL, 2025-2026;
+// Eylül içeriği KULUP_YILLIK_1_0.docx + KULUP_YILLIK_2_142670.docx örneklerinden —
+// iki farklı kulübün Eylül satırları birebir aynı temayı taşıyor: kulübün
+// tanıtılması, üye/öğrenci seçimi, iç tüzük ve yönetim/denetleme kurulunun
+// belirlenmesi, sosyal kulüp panosunun hazırlanması — bu yüzden tüm kulüplerde
+// ortak kullanılabilir).
 import { KulupEtkinlikSatiri, ToplumHizmetSatiri } from './kulupSablon';
 
 type AyIkili = [amac: string, etkinlikler: string];
@@ -19,6 +24,13 @@ interface KulupProfil {
 
 // ── EK-8 Belirli Gün ve Haftalar (ay başına sabit referans) ─────────────────
 const EK8: Record<string, string> = {
+  EYLÜL:
+    'Uluslararası Temiz Hava Günü (7 Eylül)\n' +
+    'İlköğretim Haftası (Eylül ayının 3. haftası)\n' +
+    'Mevlid-i Nebî Haftası\n' +
+    'Öğrenciler Günü (17 Eylül)\n' +
+    'Gaziler Günü (19 Eylül)\n' +
+    'Dünya Disleksi Günü (Eylül ayının son haftası)',
   EKİM:
     'Hayvanları Koruma Günü (4 Ekim)\n' +
     'Ahilik Kültürü Haftası (8-12 Ekim)\n' +
@@ -70,7 +82,19 @@ const EK8: Record<string, string> = {
     'Çevre Koruma Haftası (Haziran ayının 2. haftası)',
 };
 
-// ── Ortak Ekim/Ocak/Haziran şablonları ──────────────────────────────────────
+// ── Ortak Eylül/Ekim/Ocak/Haziran şablonları ────────────────────────────────
+const ORTAK_EYLUL: AyIkili = [
+  'Kulübün amacının açıklanması ve tanıtılması\n' +
+  'Kulübe üye/öğrenci seçiminin yapılması\n' +
+  'Kulüp iç tüzüğünün hazırlanması\n' +
+  'Yönetim kurulu ve denetleme kurulunun seçilmesi',
+  'Kulübün amacının açıklanması ve tanıtılması\n' +
+  'Kulübe üye/öğrenci seçiminin yapılması\n' +
+  'Kulüp iç tüzüğü ve kulüp çalışma programının hazırlanması\n' +
+  'Yönetim kurulu ve denetleme kurulunun seçilmesi\n' +
+  'Sosyal kulüp panosunun hazırlanması',
+];
+
 const ORTAK_EKIM_AMAC =
   'Kulübü tanıtmak ve üyeleri belirlemek\n' +
   'Kulüp genel kurulunun toplanması ve temsilci seçimi\n' +
@@ -2466,6 +2490,7 @@ export function kulupVarsayilanEtkinlikleri(kulupAdi: string): KulupEtkinlikSati
     : ORTAK_EKIM_ETKINLIK;
 
   const aylar: Array<[string, string, string, string]> = [
+    ['EYLÜL',   ORTAK_EYLUL[0],      ORTAK_EYLUL[1],        EK8.EYLÜL],
     ['EKİM',    ekimAmac,            ekimEtkinlik,          EK8.EKİM],
     ['KASIM',   profil.kasim[0],     profil.kasim[1],       EK8.KASIM],
     ['ARALIK',  profil.aralik[0],    profil.aralik[1],      EK8.ARALIK],

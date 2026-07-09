@@ -1,12 +1,39 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 09.07.2026 — Oturum 82 (Fen Bilimleri seçmeli kazanımları main'e merge edildi — main artık en güncel)
+**Son güncelleme:** 09.07.2026 — Oturum 82 (Fen Bilimleri seçmeli + Kulüp Eylül düzeltmesi, ikisi de main'e merge edildi — main artık en güncel)
 
-## ŞU AN NEREDEYİZ (Oturum 82 — Fen Bilimleri seçmeli branch main'e merge, 09.07.2026)
+## ŞU AN NEREDEYİZ (Oturum 82 — Fen Bilimleri seçmeli + Kulüp Eylül branch'leri main'e merge, 09.07.2026)
 
-Oturum 81'de hazırlanan Fen Bilimleri seçmeli kazanım işi (Çevre Eğitimi ve İklim Değişikliği + Matematik ve Bilim Uygulamaları, 136 kazanım) — migration Supabase'e push edilmiş, `secmeliDersler.ts` bağlanmış, tsc 0 hata, REST API ile DB doğrulanmıştı. Kullanıcı cihaz testini beklemeden (görsel onay gelmeden) doğrudan **main'e merge** etmeyi tercih etti — tsc + DB doğrulaması yeterli görüldü. `feature/fen-bilimleri-secmeli-kazanim-json` main'e fast-forward merge edilip push edildi (`12d0016..2860ec5`).
+Oturum 81'de hazırlanan iki iş de kullanıcı onayıyla cihaz testini beklemeden **main'e merge edildi**:
+1. **Fen Bilimleri seçmeli kazanımları** (Çevre Eğitimi ve İklim Değişikliği + Matematik ve Bilim Uygulamaları, 136 kazanım) — migration Supabase'e push edilmiş, `secmeliDersler.ts` bağlanmış, tsc 0 hata, REST API ile DB doğrulanmıştı. `feature/fen-bilimleri-secmeli-kazanim-json` main'e fast-forward merge edilip push edildi (`12d0016..2860ec5`).
+2. **Kulüp Yıllık Planı Eylül düzeltmesi** — `feature/kulup-plan-eylul-baslangici` main'in gerisinde kaldığı için (fen bilimleri merge'i araya girdi) düz fast-forward olmadı, gerçek merge commit'i ile birleştirildi (bu dosyadaki çakışma dahil, elle çözüldü).
 
-**main artık en güncel.** Hâlâ ayrı duran tek dal: `feature/kulup-plan-eylul-baslangici` (Kulüp Yıllık Planı Eylül düzeltmesi) — bu hâlâ cihaz testi bekliyor, merge edilmedi.
+**main artık en güncel, açık/merge bekleyen dal kalmadı.** İkisi de cihazda henüz test edilmedi — sorun çıkarsa küçük düzeltme yapılacak.
+
+---
+
+**Son güncelleme (Oturum 81 arşivi):** 08.07.2026 — Oturum 81 (main merge + Kulüp Yıllık Planı Eylül'den başlıyor — KODLANDI, tsc 0 hata, COMMIT/PUSH EDİLDİ)
+
+## ŞU AN NEREDEYİZ (Oturum 81 — main merge + açık işlerin taranması + Kulüp Yıllık Planı Eylül düzeltmesi, 08.07.2026)
+
+Kullanıcı "nerede kaldık" + "yapmayı unuttuğumuz bir şey var mı" diye sorunca STATUS.md/DECISIONS.md/hafıza tam taranıp 7 açık kalem listelendi, kullanıcı hepsine karar verdi:
+
+1. **Main merge — TAMAMLANDI:** `feature/evrak-pdf-margin-mimarisi` (main'in 10 commit ilerisindeydi, main'de fazladan hiçbir şey yoktu) `main`'e fast-forward merge edilip `origin/main`'e push edildi (commit `12d0016`). Artık `main` = güncel garanti-çalışan sürüm. `project_main_merge_bekliyor` hafıza notu kapandı.
+2. **Toplum Hizmeti/Yoklama-Karar yatay mı sorusu — KAPANDI:** Kullanıcı onayladı, mevcut durum zaten doğru (planlar yatay, Karar Defteri dikey kalıyor) — ekstra iş yok.
+3. **Fen Bilimleri seçmeli dersler — web taramasıyla kısmen düzeltme gerektiği bulundu, henüz kodlanmadı:** Eski hafıza notu (`project_fen_bilimleri_secmeli_eksik`) hatalıymış — "Proje Tasarımı ve Uygulamaları" aslında ortaokul değil **lise (9-12)** dersi, Fen Bilimleri ortaokul seçmeli listesine girmiyor. "Matematik ve Bilim Uygulamaları" sınıf aralığı 5-8 değil sadece **6-7**. "Afet Bilinci" branş ataması kaynaklar arası çelişkili (Sosyal Bilgiler mi Fen Bilimleri mi net değil). Sadece "Çevre Eğitimi ve İklim Değişikliği" (6-7-8, Fen Bilimleri) net doğrulandı. **Sıradaki adım:** gerçek MEB Öğretim Programı PDF'lerinden (linkler bulundu, mufredat.meb.gov.tr) kazanım metni çıkarımı yapılıp JSON hazırlanacak — kullanıcı onayı bekleniyor.
+4. **Müfredat'ta ertelenen 4 PDF — 3'ü zaten çözülmüş çıktı:** `yeniders/` klasöründe okul_oncesi_v2.json, turk_kultur_medeniyet_tarihi_lise_v2.json, demokrasi_insan_haklari_lise_v2.json hepsi mevcut VE migration 068'de seed edilmiş VE `secmeliDersler.ts`'te branşa bağlanmış — ekstra iş yok, eski hafıza notu güncel değilmiş. **Sadece "Çoklu Yaşantılı Program" hâlâ hiç JSON'u yok** (`yeniders/` taramasında bulunamadı) — kaynak PDF/veri bekleniyor.
+5. **Lise rehberlik yıllık planı tarih typo'su — zaten çözülmüş çıktı:** Oturum 78'deki takvim mimarisi yeniden yazımı (egitimTakvimi2025.ts kaynaklı) sırasında tüm bahar dönemi tarihleri zaten doğru 2026'ya güncellenmiş. Kalan tek "2025" eşleşmeleri (13 tane) hepsi "29 Aralık-2 Ocak 2025" sınır haftası — doğru (Aralık'ın içinde başlıyor). Ekstra iş yok.
+6. **CSV/e-Okul import — açıklandı, iş durumu değişmedi:** Sınav notu girişindeki sürtünmeyi azaltmak için planlanmıştı (e-Okul Excel/CSV export'unu Yaver'e toplu yükleme). Hâlâ ertelenmiş, manuel giriş çalışıyor.
+7. **PDF önizleme özelleştirme — hâlâ ertelenmiş**, çözüm aranmadı.
+
+**Ekstra bulunan unutulmuş madde:** Kulüp Yıllık Planı'nın Eylül'den mi Ekim'den mi başlaması gerektiği sorusu (Oturum 74'ten beri açık) önceki listede atlanmıştı, kullanıcı bunu fark edip düzeltti.
+
+**Kulüp Yıllık Planı Eylül düzeltmesi — TAMAMLANDI, commit+push edildi (`feature/kulup-plan-eylul-baslangici`, main'e merge edilmedi):** Kullanıcı `evraklar/kulup_planlari/` altına iki gerçek örnek belge ekledi (`KULUP_YILLIK_1_0.docx` — Atatürkçü Düşünceyi Geliştirme Kulübü, `KULUP_YILLIK_2_142670.docx` — Afete Hazırlık Kulübü). İkisi de gerçek MEB formatının HAFTALIK (Ay\|Hafta\|Amaç\|Yapılacak Etkinlikler\|Belirli Gün ve Haftalar, Eylül 08-12'den başlayarak) olduğunu gösterdi — mevcut uygulama AYLIK (9 satır, Ekim→Haziran). Kullanıcıya kapsam soruldu (haftalık mimariye tam geçiş mi, sadece Eylül eklensin mi); kullanıcı **mimariyi aylık bırak, sadece Eylül ekle** dedi — çünkü iki örnekte de Eylül içeriği neredeyse birebir aynıydı (kulüp tanıtımı/üye seçimi/iç tüzük/pano), yani kulübe özgü olmayan tek ay. Uygulandı:
+- `src/data/kulupYillikPlanlari.ts`: yeni `ORTAK_EYLUL` bloğu (76 kulübün hepsinde ortak, placeholder dahil) + `EK8.EYLÜL` (Belirli Gün ve Haftalar) + `aylar` dizisine ilk satır olarak eklendi (artık 10 satır, no:1-10).
+- `src/data/aylikRaporHtmlSablon.ts`: `RAPOR_AYLARI` — Eylül no:1, diğerleri 2-10'a kaydı.
+- tsc 0 hata, `npx tsx` ile örnek kulüp render edilip Eylül satırının doğru geldiği + placeholder kulüplerin de aldığı doğrulandı.
+
+**BEKLİYOR (Oturum 82'de main'e merge edildi, cihaz testi hâlâ ayrı bekliyor):** kullanıcı cihazda (Aylık Faaliyet Raporu ay seçici + Yıllık Plan PDF'i) Eylül satırının doğru göründüğünü test edecek.
 
 ---
 
