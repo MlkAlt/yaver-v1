@@ -2,6 +2,18 @@
 
 ---
 
+## Auth / KVKK
+
+### 2026-07-09 — Auth yöntemi: Apple/Google Sign-In + KVKK/hesap-silme planı PLAN.md'ye işlendi
+**Olay:** "Nerede kaldık" taramasında PLAN.md §14 risk tablosundaki iki madde (Supabase Auth hâlâ mock/AsyncStorage, KVKK/gizlilik politikası hazır değil) atlanmış bulundu — kullanıcı ikisini de mutlaka planlamak istedi.
+**Karar:**
+1. **Auth yöntemi: Apple/Google Sign-In** (email+şifre değil) — daha az sürtünme, iOS'ta sosyal login sunuluyorsa zaten zorunlu olan "Sign in with Apple" kuralına baştan uyumlu.
+2. Detaylı adım planı (profiles tablosu, OnboardingContext kalıcılık düzeltmesi, RLS, hesap silme akışı) `PLAN.md` Faz 0 (Auth) ve Faz 9 (KVKK) altına işlendi — henüz kodlanmadı, sadece plan.
+3. Sıralama: Auth (Faz 0) önce, KVKK'nın hesap-silme kısmı buna bağımlı; KVKK'nın metin/envanter kısmı paralel yürüyebilir.
+**Etkilenen dosyalar:** `PLAN.md` (Faz 0 + Faz 9 genişletildi). Henüz kod değişikliği yok.
+
+---
+
 ## Onboarding
 
 ### 2026-07-07 — DKAB+İHO "0 kazanım" bugı: okul_tipi filtresi genişletildi + Temel Dini Bilgiler seed edildi

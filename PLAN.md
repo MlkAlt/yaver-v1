@@ -261,6 +261,15 @@ Paywall'ın **yüzü evrak olsun**, etkinlik değil.
 ### FAZ 0 — Temel ✅
 Expo+TS repo, tokenlar (Plus Jakarta Sans), 17 ekran iskeleti, navigasyon, şema (001+067). **Kalan 🟡:** Supabase Auth wire (şu an veri AsyncStorage/mock) — soft-auth olarak Faz 6 öncesi.
 
+**Auth planı (2026-07-09 karar, Faz 6'dan önce yapılmalı):**
+1. **Yöntem:** Apple/Google Sign-In (kullanıcı tercihi — email+şifre'den daha az sürtünme, store review'da avantajlı; iOS'ta sosyal login sunuluyorsa "Sign in with Apple" zorunlu kuralına da bu şekilde baştan uyulmuş olur).
+2. **`profiles` tablosu** (Supabase, `auth.users` FK) — okul adı, branş, sınıf, plan verisi buraya taşınır.
+3. **Kalıcılık düzeltmesi (yan etki, ayrı ama ilişkili bug):** `OnboardingContext` şu an hiç persist edilmiyor (salt React state, uygulama kapanınca sıfırlanıyor) — bu işle birlikte AsyncStorage (yerel-öncelik) + hesaplıysa Supabase senkronuna geçirilir.
+4. **"Soft" tanımı:** hesapsız da temel özellikler kullanılabilir; satın alma öncesi hesap istenir (yoksa RevenueCat entitlement cihaza kilitli kalır, telefon değişince kaybolur).
+5. **Yeni ekranlar:** Giriş (Apple/Google buton) + Profil'de "Çıkış yap" + hesap bilgisi.
+6. **RLS politikaları:** `auth.uid()` bazlı, herkes yalnız kendi verisini görür.
+7. **Hesap silme akışı** (bkz. Faz 9 KVKK) bu auth'a bağımlı, birlikte kodlanmalı.
+
 ### FAZ 1 — Veri + içerik havuzu 🟡
 ✅ 9.568 kazanım seed, ✅ `egitim_takvimi` 41 hafta. ⬜ **Etkinlik havuzunu üret** (§5 batch) + QC `qa_onay=true`.
 **DONE:** "9. sınıf Matematik, 3. hafta" → doğru kazanım + onaylı etkinlik.
@@ -297,6 +306,13 @@ Profil + okul bilgileri + ders programı + **upgrade** + entitlement durumu. **L
 ### FAZ 9 — Lansman ⬜
 Store assets · gizlilik + KVKK (rakip zayıflığı, temiz) · EAS Build (Android+iOS) · internal/TestFlight · hesap/sözleşme/banka · submit.
 **DONE:** İki store'da review'da (Eylül öncesi).
+
+**KVKK/Gizlilik planı (2026-07-09 karar, Faz 0 auth ile paralel yürüyebilir):**
+1. **Veri envanteri:** hangi veri toplanıyor — email/Apple-Google ID, okul adı, branş/sınıf, kullanım istatistiği, RevenueCat işlem kaydı — somut liste çıkarılacak.
+2. **Metin:** KVKK (Türkiye) uyumlu + Apple/Google gereksinimleri, özellikle **hesap silme hakkı** (Apple 2024+ zorunlu tutuyor).
+3. **Barındırma:** statik bir sayfa (GitHub Pages vb.) — store başvurusu bir gizlilik politikası URL'si istiyor.
+4. **Uygulama içi:** Onboarding'de "Şartları kabul ediyorum" + Profil'de linkler.
+5. **Hesap silme akışı:** Faz 0 auth'a bağımlı — Profil ekranından tetiklenir, `auth.users` + `profiles` + ilişkili veri silinir.
 
 ---
 
