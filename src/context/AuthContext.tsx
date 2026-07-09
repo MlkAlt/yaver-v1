@@ -9,10 +9,11 @@ import { supabase } from '../lib/supabase';
 
 WebBrowser.maybeCompleteAuthSession();
 
-// Google Cloud Console'da oluşturulacak "Web application" tipi OAuth client ID —
+// Google Cloud Console'da oluşturulan "Web application" tipi OAuth client ID —
 // Supabase signInWithIdToken(google) bu client ID'yi bekliyor (Android/iOS client
-// ID'leri değil). Değer boşken Google girişi denenirse anlaşılır bir hata verir.
-const GOOGLE_WEB_CLIENT_ID = '';
+// ID'leri değil). Public bir değer (uygulama koduna gömülmesi tasarım gereği
+// normal), gizli olan yalnızca Client Secret — o sadece Supabase Dashboard'a girildi.
+const GOOGLE_WEB_CLIENT_ID = '1068574719813-73m5b838e3ke9mbtsa48ob0csv5but33.apps.googleusercontent.com';
 
 interface AuthState {
   session: Session | null;
