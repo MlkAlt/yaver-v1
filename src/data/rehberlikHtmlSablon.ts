@@ -27,6 +27,14 @@ export type AylikRehberlikFormData = {
   ogrenciGorusmeleri: OgrenciGorusmeSatiri[];
 };
 
+// Boş bırakılan alanları çıktıdan tamamen kaldırmak yerine daraltılmış bir
+// "-" ile göstermek için — bkz. proje kuralı: boş hücrelerde &nbsp;/tamamen
+// boş bırakmak yerine "-" kullanılır.
+const bos = (v: string | number | undefined | null): string => {
+  const s = v === undefined || v === null ? '' : String(v).trim();
+  return s === '' ? '-' : s;
+};
+
 export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string {
   const {
     okulAdi, egitimYili, sinif, ay, raporNo, raporTarihi, sinifMevcudu,
@@ -38,45 +46,46 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   const haftaSatirlari = haftalar.map((h, i) => `
     <tr>
       <td class="sira-cell">${i + 1}</td>
-      <td class="tarih-cell">${h.tarih}</td>
-      <td>${h.yeterlikAlani}</td>
-      <td>${h.kazanim}</td>
-      <td>${h.etkinlikAdi}</td>
+      <td class="tarih-cell">${bos(h.tarih)}</td>
+      <td>${bos(h.yeterlikAlani)}</td>
+      <td>${bos(h.kazanim)}</td>
+      <td>${bos(h.etkinlikAdi)}</td>
     </tr>`).join('');
 
   const testSatirlari = testAnketler.map((t, i) => `
     <tr>
       <td class="sira-cell">${i + 1}</td>
-      <td>${t.adi}</td>
-      <td class="tarih-cell">${t.tarih}</td>
-      <td class="sayi-cell">${t.kiz}</td>
-      <td class="sayi-cell">${t.erkek}</td>
-      <td class="sayi-cell">${t.toplam}</td>
+      <td>${bos(t.adi)}</td>
+      <td class="tarih-cell">${bos(t.tarih)}</td>
+      <td class="sayi-cell">${bos(t.kiz)}</td>
+      <td class="sayi-cell">${bos(t.erkek)}</td>
+      <td class="sayi-cell">${bos(t.toplam)}</td>
     </tr>`).join('');
 
-  const digerSatirlari = digerCalismalar
-    .map(s => s.trim())
-    .filter(Boolean)
+  const digerListe = digerCalismalar.map(s => s.trim()).filter(Boolean);
+  const digerSatirlari = (digerListe.length > 0 ? digerListe : ['-'])
     .map((m, i) => `<tr><td class="sira-cell">${i + 1}</td><td>${m}</td></tr>`)
     .join('');
 
-  const veliSatirlari = veliGorusmeleri.map(v => `
+  const veliBosSatir = `<tr><td class="sira-cell">-</td><td>-</td><td>-</td><td>-</td><td class="tarih-cell">-</td></tr>`;
+  const veliSatirlari = veliGorusmeleri.length > 0 ? veliGorusmeleri.map(v => `
     <tr>
       <td class="sira-cell">${v.sira}</td>
-      <td>${v.adSoyad}</td>
-      <td>${v.ogrencisi}</td>
-      <td>${v.konu}</td>
-      <td class="tarih-cell">${v.tarih}</td>
-    </tr>`).join('');
+      <td>${bos(v.adSoyad)}</td>
+      <td>${bos(v.ogrencisi)}</td>
+      <td>${bos(v.konu)}</td>
+      <td class="tarih-cell">${bos(v.tarih)}</td>
+    </tr>`).join('') : veliBosSatir;
 
-  const ogrenciSatirlari = ogrenciGorusmeleri.map(o => `
+  const ogrenciBosSatir = `<tr><td class="sira-cell">-</td><td class="sira-cell">-</td><td>-</td><td>-</td><td class="tarih-cell">-</td></tr>`;
+  const ogrenciSatirlari = ogrenciGorusmeleri.length > 0 ? ogrenciGorusmeleri.map(o => `
     <tr>
       <td class="sira-cell">${o.sira}</td>
-      <td class="sira-cell">${o.ogrenciNo}</td>
-      <td>${o.adSoyad}</td>
-      <td>${o.konu}</td>
-      <td class="tarih-cell">${o.tarih}</td>
-    </tr>`).join('');
+      <td class="sira-cell">${bos(o.ogrenciNo)}</td>
+      <td>${bos(o.adSoyad)}</td>
+      <td>${bos(o.konu)}</td>
+      <td class="tarih-cell">${bos(o.tarih)}</td>
+    </tr>`).join('') : ogrenciBosSatir;
 
   return `<!DOCTYPE html>
 <html lang="tr">
@@ -117,15 +126,15 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   <tr><td colspan="4" class="okul-satiri">${egitimYili} EĞİTİM-ÖĞRETİM YILI ${turkceBuyuk(okulAdi)}</td></tr>
   <tr><td colspan="4" class="rapor-satiri">REHBERLİK HİZMETLERİ ${turkceBuyuk(sinif)} SINIFI ${turkceBuyuk(ay)} AYI ÇALIŞMA RAPORU</td></tr>
   <tr>
-    <td class="etiket">SINIF ÖĞRETMENİ</td><td class="deger">${sinifOgretmeni}</td>
-    <td class="etiket">RAPOR NO</td><td class="deger">${raporNo}</td>
+    <td class="etiket">SINIF ÖĞRETMENİ</td><td class="deger">${bos(sinifOgretmeni)}</td>
+    <td class="etiket">RAPOR NO</td><td class="deger">${bos(raporNo)}</td>
   </tr>
   <tr>
-    <td class="etiket">SINIF</td><td class="deger">${sinif}</td>
-    <td class="etiket">RAPOR TARİHİ</td><td class="deger">${raporTarihi}</td>
+    <td class="etiket">SINIF</td><td class="deger">${bos(sinif)}</td>
+    <td class="etiket">RAPOR TARİHİ</td><td class="deger">${bos(raporTarihi)}</td>
   </tr>
   <tr>
-    <td class="etiket">SINIF MEVCUDU</td><td class="deger" colspan="3">${sinifMevcudu}</td>
+    <td class="etiket">SINIF MEVCUDU</td><td class="deger" colspan="3">${bos(sinifMevcudu)}</td>
   </tr>
 </table>
 
@@ -144,11 +153,10 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
   ${testSatirlari}
 </table>
 
-${digerSatirlari ? `
 <table class="bolum-tablo">
   <tr class="baslik-satir"><th colspan="2">DİĞER ÇALIŞMALAR</th></tr>
   ${digerSatirlari}
-</table>` : ''}
+</table>
 
 <table class="bolum-tablo">
   <tr class="baslik-satir"><th colspan="5">VELİLERLE YAPILAN GÖRÜŞMELER</th></tr>
@@ -176,9 +184,9 @@ ${digerSatirlari ? `
     </td>
   </tr>
   <tr class="imza-satir">
-    <td><div class="imza-isim">${sinifOgretmeni}</div><div>Sınıf Öğretmeni</div></td>
-    <td><div class="imza-isim">${okulRehberOgretmeni}</div><div>Okul Rehber Öğretmeni</div></td>
-    <td><div class="imza-isim">${okulMuduru}</div><div>Okul Müdürü</div></td>
+    <td><div class="imza-isim">${bos(sinifOgretmeni)}</div><div>Sınıf Öğretmeni</div></td>
+    <td><div class="imza-isim">${bos(okulRehberOgretmeni)}</div><div>Okul Rehber Öğretmeni</div></td>
+    <td><div class="imza-isim">${bos(okulMuduru)}</div><div>Okul Müdürü</div></td>
   </tr>
 </table>
 
