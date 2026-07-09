@@ -269,7 +269,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
       await analiziArsivle();
 
       const html = sinavAnaliziHtmlOlustur(formData, sonuclar);
-      await pdfOnizlemeAc(html, false);
+      await pdfOnizlemeAc(html, false, navigation);
     } catch {
       Alert.alert('Hata', 'PDF oluşturulurken bir sorun oluştu.');
     } finally {

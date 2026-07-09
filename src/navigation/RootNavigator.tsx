@@ -28,6 +28,7 @@ import { OkulBilgileriScreen } from '../screens/main/OkulBilgileriScreen';
 import { DersProgramiScreen } from '../screens/main/DersProgramiScreen';
 import { YillikPlanScreen } from '../screens/main/YillikPlanScreen';
 import { GirisScreen } from '../screens/auth/GirisScreen';
+import { PdfOnizlemeScreen } from '../screens/main/PdfOnizlemeScreen';
 
 export type RootStackParamList = {
   Welcome: undefined;
@@ -47,6 +48,7 @@ export type RootStackParamList = {
   DersProgrami: { fromOnboarding?: boolean } | undefined;
   Profil: undefined;
   Giris: undefined;
+  PdfOnizleme: { uri: string; base64: string };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -91,6 +93,7 @@ export function RootNavigator() {
       <Stack.Screen name="DersProgrami" component={DersProgramiScreen} />
       <Stack.Screen name="Profil" component={ProfilScreen} />
       <Stack.Screen name="Giris" component={GirisScreen} options={{ presentation: 'modal' }} />
+      <Stack.Screen name="PdfOnizleme" component={PdfOnizlemeScreen} options={{ presentation: 'modal' }} />
     </Stack.Navigator>
   );
 }
