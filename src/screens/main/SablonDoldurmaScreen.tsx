@@ -41,6 +41,7 @@ import { yillikPlanHtmlOlustur } from '../../data/rehberlikYillikPlanHtmlSablon'
 import { useOnboarding } from '../../context/OnboardingContext';
 import { sinifLabel } from '../../lib/sinifLabel';
 import { SinifSecici } from '../../components/SinifSecici';
+import { DersSecici } from '../../components/DersSecici';
 import { REHBERLIK_YILLIK_PLAN } from '../../data/rehberlikYillikPlanlari';
 import { yoklamaKararHtmlOlustur, YoklamaKararFormData } from '../../data/yoklamaKararHtmlSablon';
 import {
@@ -3513,28 +3514,6 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
 }
 
 // ─── Ders seçici ──────────────────────────────────────────────────────────
-function DersSecici({ value, onChange }: { value: string; onChange: (v: string) => void }) {
-  const { dersFiltesi } = useOnboarding();
-
-  if (!dersFiltesi || dersFiltesi.length === 0) {
-    return (
-      <TextInput style={s.input} value={value} onChangeText={onChange}
-        placeholder="Ders adı" placeholderTextColor={colors.text3} />
-    );
-  }
-
-  return (
-    <View style={s.chipRow}>
-      {dersFiltesi.map(d => (
-        <TouchableOpacity key={d} style={[s.chip, value === d && s.chipActive]}
-          onPress={() => onChange(d)} activeOpacity={0.7}>
-          <Text style={[s.chipText, value === d && s.chipTextActive]}>{d}</Text>
-        </TouchableOpacity>
-      ))}
-    </View>
-  );
-}
-
 // ─── Alan bileşeni ────────────────────────────────────────────────────────
 function Alan({ label, zorunlu, hint, children }: {
   label: string; zorunlu?: boolean; hint?: string; children: React.ReactNode;

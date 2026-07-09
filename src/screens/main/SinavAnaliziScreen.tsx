@@ -16,6 +16,7 @@ import { spacing, radius } from '../../tokens/spacing';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 import { useOnboarding } from '../../context/OnboardingContext';
 import { SinifSecici } from '../../components/SinifSecici';
+import { DersSecici } from '../../components/DersSecici';
 import { supabase } from '../../lib/supabase';
 import { Kazanim } from '../../lib/planUret';
 import {
@@ -65,7 +66,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
   // ─── Temel bilgiler ───────────────────────────────────────────────────
   const [okulAdi, setOkulAdi]     = useState('');
   const [sinif, setSinif]         = useState('');
-  const [dersAdi, setDersAdi]     = useState(brans || '');
+  const [dersAdi, setDersAdi]     = useState(dersFiltesi?.[0] ?? brans ?? '');
   const [donem, setDonem]         = useState<1 | 2>(donemHesapla());
   const [sinavNo, setSinavNo]     = useState('1');
   const [tarih, setTarih]         = useState(bugunTarih());
@@ -113,12 +114,18 @@ export function SinavAnaliziScreen({ navigation }: Props) {
     try {
       const grade = sinifSayisiniCikar(sinif);
       let q = supabase.from('kazanimlar').select('id, kod, ad, unite, sinif, ders').order('unite').order('kod');
+      // sinif_tipi'ne 'secmeli' eklendi — planUret.ts'in seçmeli-ders modundaki
+      // gibi (bkz. dersFiltesi filtresi aşağıda), yoksa seçmeli derslerin
+      // (Fen Bilimleri'nin Çevre Eğitimi'i, Matematik Uygulamaları vb.)
+      // kazanımları burada hiç görünmüyordu. sinif=0 de dahil edildi —
+      // "6/7/8 serbest seçim" gibi seçmeli derslerde kazanımlar sinif=0 ile
+      // kayıtlı (planUret.ts'teki primarySinif remap mantığı burada da geçerli).
       if (grade !== null) {
-        q = q.eq('sinif', grade);
-        q = q.in('sinif_tipi', grade === 0 ? ['hazirlik'] : ['normal']);
+        q = q.or(`sinif.eq.${grade},sinif.eq.0`);
+        q = q.in('sinif_tipi', grade === 0 ? ['hazirlik'] : ['normal', 'secmeli']);
       } else if (siniflar.length > 0) {
-        q = q.in('sinif', siniflar);
-        q = q.in('sinif_tipi', siniflar.includes(0) ? ['normal', 'hazirlik'] : ['normal']);
+        q = q.or(`sinif.in.(${siniflar.join(',')}),sinif.eq.0`);
+        q = q.in('sinif_tipi', siniflar.includes(0) ? ['normal', 'hazirlik', 'secmeli'] : ['normal', 'secmeli']);
       }
       q = q.or(`brans.eq.${bransSlug},branslar.cs.{${bransSlug}}`);
       if (okulTipi) {
@@ -332,8 +339,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
               <SinifSecici value={sinif} onChange={setSinif} />
             </Alan>
             <Alan label="Ders Adı" zorunlu>
-              <TextInput style={s.input} value={dersAdi} onChangeText={setDersAdi}
-                placeholder="Matematik" placeholderTextColor={colors.text3} />
+              <DersSecici value={dersAdi} onChange={setDersAdi} />
             </Alan>
 
             <Alan label="Dönem" zorunlu>
