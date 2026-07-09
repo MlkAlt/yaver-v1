@@ -2738,18 +2738,31 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
       }));
     };
 
-    // Asıl not girişi bitince (alandan çıkınca): o öğrenciye otomatik dağıt +
-    // kırılımını aç, diğerlerini kapat. Not değişmemişse yeniden randomize etme.
+    // Asıl not girişi bitince (alandan çıkınca): o öğrenciye otomatik dağıt.
+    // Kırılım artık burada otomatik AÇILMIYOR — odak bir sonraki kutucuğa
+    // geçerken aynı anda akordiyon açılması ekranı karıştırıyordu (kullanıcı
+    // geri bildirimi); kırılımı görmek isteyen "toplam" pill'ine dokunur.
+    // Not değişmemişse yeniden randomize etme.
     const pNotCommit = (i: number) => {
       const o = pOgrenciler[i];
       if (!o.asilNot.trim()) return;
       const asilNot = Math.min(100, Math.max(0, parseInt(o.asilNot, 10) || 0));
       if (asilNot <= 0) return;
-      setPAcikKirilim(new Set([i]));
       const mevcutToplam = o.puanlar.reduce((a, b) => a + b, 0);
       if (mevcutToplam === asilNot) return;
       setPOgrenciler(pOgrenciler.map((x, idx) => idx === i
         ? { ...x, puanlar: notuKriterlereDagit(asilNot, kriterler) } : x));
+    };
+
+    // İki (veya maksimum uzunluk) haneye ulaşınca otomatik bir sonraki öğrenciye
+    // geç — "10" özel durumu hariç (100 olma ihtimaline karşı bir hane daha bekler).
+    const pNotDegisti = (i: number, ham: string) => {
+      const v = ham.replace(/[^0-9]/g, '');
+      setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, asilNot: v } : x));
+      const tamamlandi = v.length === 3 || (v.length === 2 && v !== '10');
+      if (tamamlandi && i < pOgrenciler.length - 1) {
+        requestAnimationFrame(() => pNotInputRefs.current[i + 1]?.focus());
+      }
     };
 
     // Roster satırlarını depolama formatına ("123 Ahmet Yılmaz") serileştir.
@@ -3039,7 +3052,7 @@ export function SablonDoldurmaScreen({ route, navigation }: Props) {
                                 ref={r => { pNotInputRefs.current[i] = r; }}
                                 style={s.notInput}
                                 value={o.asilNot}
-                                onChangeText={v => setPOgrenciler(pOgrenciler.map((x, idx) => idx === i ? { ...x, asilNot: v.replace(/[^0-9]/g, '') } : x))}
+                                onChangeText={v => pNotDegisti(i, v)}
                                 placeholder="85"
                                 placeholderTextColor={colors.text3}
                                 keyboardType="numeric"

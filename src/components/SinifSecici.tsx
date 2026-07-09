@@ -37,10 +37,10 @@ export function SinifSecici({ value, onChange }: { value: string; onChange: (v: 
         <ChevronDown size={16} color={colors.text3} strokeWidth={2} />
       </TouchableOpacity>
       <Text style={st.sinifSubeAyrac}>/</Text>
-      <TextInput style={[st.input, { flex: 1 }]} value={sube}
+      <TextInput style={[st.input, st.subeInput]} value={sube}
         onChangeText={t => setSube(t.toUpperCase())}
-        placeholder="Şube (A)" placeholderTextColor={colors.text3}
-        maxLength={2} autoCapitalize="characters" />
+        placeholder="A" placeholderTextColor={colors.text3}
+        maxLength={2} autoCapitalize="characters" textAlign="center" />
 
       <Modal transparent animationType="fade" visible={acik} onRequestClose={() => setAcik(false)}>
         <TouchableOpacity style={st.sinifModalOverlay} activeOpacity={1} onPress={() => setAcik(false)}>
@@ -81,6 +81,7 @@ const st = StyleSheet.create({
   } as ViewStyle,
   sinifDropdownText: { fontSize: 15, fontFamily: fonts.medium, color: colors.text1 } as TextStyle,
   sinifSubeAyrac: { fontSize: 16, fontFamily: fonts.medium, color: colors.text3 } as TextStyle,
+  subeInput: { width: 52, paddingHorizontal: 0 } as ViewStyle,
   sinifModalOverlay: {
     flex: 1, backgroundColor: 'rgba(0,0,0,0.42)', justifyContent: 'center', alignItems: 'center',
     paddingHorizontal: spacing.xl,

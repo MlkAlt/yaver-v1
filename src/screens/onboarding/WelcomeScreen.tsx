@@ -8,6 +8,7 @@ import Animated, {
   withSpring, withDelay, withTiming, Easing,
 } from 'react-native-reanimated';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { AntDesign } from '@expo/vector-icons';
 import { Screen } from '../../components/layout/Screen';
 import { colors } from '../../tokens/colors';
 import { fonts } from '../../tokens/typography';
@@ -87,7 +88,8 @@ export function WelcomeScreen({ navigation }: Props) {
           onPress={() => navigation.navigate('Giris')}
           style={({ pressed }) => [styles.loginLink, pressed && { opacity: 0.5 }]}
         >
-          <Text style={styles.loginText}>Zaten hesabım var — Giriş yap</Text>
+          <AntDesign name="google" size={16} color={colors.text2} />
+          <Text style={styles.loginText}>Google ile kaydol / giriş yap</Text>
         </Pressable>
       </Animated.View>
     </Screen>
@@ -242,7 +244,10 @@ const styles = StyleSheet.create({
     letterSpacing: 0.2,
   } as TextStyle,
   loginLink: {
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
     paddingVertical: 14,
   } as ViewStyle,
   loginText: {

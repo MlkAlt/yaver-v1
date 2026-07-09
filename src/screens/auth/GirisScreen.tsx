@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet, ViewStyle, TextStyle, Alert, ActivityIndicator, Platform } from 'react-native';
 import * as AppleAuthentication from 'expo-apple-authentication';
+import { AntDesign } from '@expo/vector-icons';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { Screen } from '../../components/layout/Screen';
 import { colors } from '../../tokens/colors';
@@ -62,6 +63,7 @@ export function GirisScreen({ navigation }: Props) {
             onPress={handleGoogle}
             disabled={girisYapiliyor}
           >
+            <AntDesign name="google" size={18} color={colors.text1} />
             <Text style={styles.googleBtnText}>Google ile devam et</Text>
           </Pressable>
 
@@ -98,12 +100,15 @@ const styles = StyleSheet.create({
   btnGroup: { gap: spacing.sm } as ViewStyle,
   appleBtn: { height: 52, width: '100%' } as ViewStyle,
   googleBtn: {
+    flexDirection: 'row',
     backgroundColor: colors.surface,
     borderWidth: 1,
     borderColor: colors.border,
     borderRadius: radius.btn,
     paddingVertical: 17,
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
   } as ViewStyle,
   googleBtnText: {
     fontSize: 16,
