@@ -1,4 +1,4 @@
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type AylikRaporFormData = {
   okulAdi: string;
@@ -71,7 +71,7 @@ export function aylikRaporHtmlOlustur(form: AylikRaporFormData): string {
 </head>
 <body>
 
-<div class="mudurbaslik">${turkceBuyuk(okulAdi)} MÜDÜRLÜĞÜNE</div>
+<div class="mudurbaslik">${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))} MÜDÜRLÜĞÜNE</div>
 
 <table class="meta">
   <tr>

@@ -1,5 +1,5 @@
 import { PerformansKriter, PerformansOgrenciSatiri } from './performansSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type PerformansFormData = {
   okulAdi: string;
@@ -67,7 +67,7 @@ export function performansHtmlOlustur(form: PerformansFormData): string {
 </head>
 <body>
 
-<h1>${turkceBuyuk(okulAdi)} ${egitimYili} EĞİTİM-ÖĞRETİM YILI</h1>
+<h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))} ${egitimYili} EĞİTİM-ÖĞRETİM YILI</h1>
 <h2>${turkceBuyuk(donemBaslik)}</h2>
 
 <div class="ust-bilgi">

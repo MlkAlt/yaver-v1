@@ -1,5 +1,5 @@
 import { KazanimDurumu, FaaliyetSatiri, VeliFaaliyetSatiri, YonlendirmeSatiri } from './donemSonuSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type DonemSonuFormData = {
   okulAdi: string;
@@ -106,7 +106,7 @@ export function donemSonuHtmlOlustur(form: DonemSonuFormData): string {
 
 <div class="baslik">
   <h1>${egitimYili} EĞİTİM-ÖĞRETİM YILI</h1>
-  <h1>${turkceBuyuk(okulAdi)}</h1>
+  <h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</h1>
   <h2>SINIF REHBERLİK HİZMETLERİ ${turkceBuyuk(donemLabel)} FAALİYET RAPORU</h2>
 </div>
 

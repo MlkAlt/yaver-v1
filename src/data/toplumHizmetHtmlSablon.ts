@@ -1,5 +1,5 @@
 import { ToplumHizmetSatiri } from './kulupSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type ToplumHizmetFormData = {
   okulAdi: string;
@@ -62,7 +62,7 @@ export function toplumHizmetHtmlOlustur(form: ToplumHizmetFormData): string {
 </head>
 <body>
 
-<h1>${turkceBuyuk(okulAdi)}</h1>
+<h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</h1>
 <h2>${egitimYili} EĞİTİM-ÖĞRETİM YILI</h2>
 <h2>${turkceBuyuk(kulupAdi)} TOPLUM HİZMETİ ÇALIŞMA PLANI</h2>
 

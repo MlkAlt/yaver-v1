@@ -1,5 +1,5 @@
 import { SinavFormData, SinavSonuclari } from './sinavAnaliziSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 const DONEM_METNI: Record<1 | 2, string> = { 1: '1. Dönem', 2: '2. Dönem' };
 
@@ -69,7 +69,7 @@ export function sinavAnaliziHtmlOlustur(form: SinavFormData, sonuclar: SinavSonu
 <body>
 
 <div class="baslik">
-  <h1>${turkceBuyuk(okulAdi)}</h1>
+  <h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</h1>
   <h2>SINAV ANALİZ VE DEĞERLENDİRME ÇİZELGESİ</h2>
 </div>
 

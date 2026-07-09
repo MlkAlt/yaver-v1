@@ -1,5 +1,5 @@
 import { OgrenciSatiri, KararSatiri } from './kulupSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type YoklamaKararFormData = {
   okulAdi: string;
@@ -120,7 +120,7 @@ ${maddeler(k.kararMetni)}
 
 <div class="kapak">
   <h1>${egitimYili} EĞİTİM-ÖĞRETİM YILI</h1>
-  <p>${turkceBuyuk(okulAdi)} MÜDÜRLÜĞÜ</p>
+  <p>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))} MÜDÜRLÜĞÜ</p>
   <h2>SOSYAL KULÜPLER<br/>YOKLAMA VE KARAR DEFTERİ</h2>
   <p><strong>Kulübün Adı:</strong> ${kulupAdi}</p>
   <p><strong>Çalışma Yeri:</strong> Okul</p>

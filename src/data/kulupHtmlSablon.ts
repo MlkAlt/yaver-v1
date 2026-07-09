@@ -1,5 +1,5 @@
 import { KulupEtkinlikSatiri } from './kulupSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type KulupFormData = {
   okulAdi: string;
@@ -64,7 +64,7 @@ export function kulupYillikPlanHtmlOlustur(form: KulupFormData): string {
 
 <div class="ek-etiket">EK-7/b</div>
 
-<h1>${turkceBuyuk(okulAdi)} MÜDÜRLÜĞÜ</h1>
+<h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))} MÜDÜRLÜĞÜ</h1>
 <h2>ÖĞRENCİ KULÜBÜ SOSYAL ETKİNLİKLER YILLIK ÇALIŞMA PLANI</h2>
 
 <div class="ust-bilgi">

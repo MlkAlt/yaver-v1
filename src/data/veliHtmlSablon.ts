@@ -1,5 +1,5 @@
 import { VELI_GUNDEM_MADDELERI, VELI_DONEM_TIPLERI, VeliDonem } from './veliSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type VeliFormData = {
   okulAdi: string;
@@ -83,7 +83,7 @@ export function veliHtmlOlustur(form: VeliFormData): string {
 <body>
 
 <div class="baslik">
-  <h1>${turkceBuyuk(okulAdi)}</h1>
+  <h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</h1>
   <h2>${egitimYili} EĞİTİM-ÖĞRETİM YILI</h2>
   <h2>${sinif} SINIFI ${turkceBuyuk(donemBilgi.donem)} VELİ TOPLANTISI TUTANAĞI</h2>
 </div>
@@ -134,7 +134,7 @@ ${gundemGorusmesi}
 <div class="sayfa-sonu"></div>
 
 <div class="baslik" style="margin-top: 0;">
-  <h1>${turkceBuyuk(okulAdi)}</h1>
+  <h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</h1>
   <h2>${egitimYili} EĞİTİM-ÖĞRETİM YILI — ${sinif} SINIFI</h2>
   <h2>${turkceBuyuk(donemBilgi.donem)} VELİ TOPLANTISI KATILIM LİSTESİ</h2>
 </div>

@@ -4,7 +4,7 @@ import {
   RehberlikHaftaSatiri,
   TestAnketSatiri,
 } from './rehberlikSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 // Format: gerçek okul belgesi referans alındı (evraklar/rehberlik/haziran aylık rehberlik.doc) —
 // haftalık tablo (Sıra | Tarih | Yeterlik Alanı | Kazanım | Etkinliğin Adı), test/anket, veli/öğrenci
@@ -123,7 +123,7 @@ export function aylikRehberlikHtmlOlustur(form: AylikRehberlikFormData): string 
 <body>
 
 <table class="baslik-tablo">
-  <tr><td colspan="4" class="okul-satiri">${egitimYili} EĞİTİM-ÖĞRETİM YILI ${turkceBuyuk(okulAdi)}</td></tr>
+  <tr><td colspan="4" class="okul-satiri">${egitimYili} EĞİTİM-ÖĞRETİM YILI ${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</td></tr>
   <tr><td colspan="4" class="rapor-satiri">REHBERLİK HİZMETLERİ ${turkceBuyuk(sinif)} SINIFI ${turkceBuyuk(ay)} AYI ÇALIŞMA RAPORU</td></tr>
   <tr>
     <td class="etiket">SINIF ÖĞRETMENİ</td><td class="deger">${bos(sinifOgretmeni)}</td>

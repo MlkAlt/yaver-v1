@@ -1,5 +1,5 @@
 import { REHBERLIK_YILLIK_PLAN, RehberlikPlanHaftasi } from './rehberlikYillikPlanlari';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 const TAM_AY_KISA: Record<string, string> = {
   Ocak: 'Oca', Şubat: 'Şub', Mart: 'Mar', Nisan: 'Nis', Mayıs: 'May', Haziran: 'Haz',
@@ -150,7 +150,7 @@ export function yillikPlanHtmlOlustur(form: YillikPlanFormData): string {
 </head>
 <body>
   <div class="ust">
-    <div class="okul">${egitimYili} EĞİTİM-ÖĞRETİM YILI ${turkceBuyuk(okulAdi)}</div>
+    <div class="okul">${egitimYili} EĞİTİM-ÖĞRETİM YILI ${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</div>
     <div class="baslik">${planBaslik(sinif)}</div>
   </div>
   <table>

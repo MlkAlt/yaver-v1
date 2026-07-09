@@ -1,5 +1,5 @@
 import { GUNDEM_MADDELERI } from './sokSablon';
-import { turkceBuyuk } from '../lib/turkce';
+import { turkceBuyuk, sarkanKelimeyiKoru } from '../lib/turkce';
 
 export type SokFormData = {
   okulAdi: string;
@@ -77,7 +77,7 @@ export function sokHtmlOlustur(form: SokFormData): string {
 
 <!-- TUTANAK BAŞLIĞI -->
 <div class="baslik">
-  <h1>${turkceBuyuk(okulAdi)}</h1>
+  <h1>${sarkanKelimeyiKoru(turkceBuyuk(okulAdi))}</h1>
   <h2>${egitimYili} EĞİTİM-ÖĞRETİM YILI ${turkceBuyuk(donemAdi)}</h2>
   <h2>${sinif} SINIFI ŞUBE ÖĞRETMENLERİ KURULU TOPLANTI TUTANAĞI</h2>
 </div>
