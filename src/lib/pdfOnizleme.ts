@@ -1,5 +1,8 @@
 import * as Print from 'expo-print';
-import * as FileSystem from 'expo-file-system';
+// SDK 54'te expo-file-system yeni bir File/Directory API'sine geçti, eski
+// readAsStringAsync artık kök modülden import edilirse çalışma anında hata
+// veriyor (deprecated) — legacy alt modülden import edilmesi gerekiyor.
+import * as FileSystem from 'expo-file-system/legacy';
 import { NavigationProp } from '@react-navigation/native';
 // `import type`: RootNavigator ekranlar üzerinden (SablonDoldurmaScreen vb.)
 // bu dosyayı dolaylı içe aktarıyor — normal bir value import burada gerçek
