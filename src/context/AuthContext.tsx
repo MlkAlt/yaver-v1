@@ -46,8 +46,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     })();
   }, []);
 
+  // expo-auth-session Android/iOS'ta webClientId'yi değil, platforma özel
+  // androidClientId/iosClientId alanını okuyor (auth.expo.io proxy'si bu sürümde
+  // kaldırıldı). Supabase yalnızca Web client ID'yi doğruladığı için üçüne de
+  // aynı değer veriliyor — gerçek bir ek Google Cloud client'ı gerekmiyor.
   const [, googleResponse, googleIstekBaslat] = Google.useIdTokenAuthRequest({
     webClientId: GOOGLE_WEB_CLIENT_ID,
+    androidClientId: GOOGLE_WEB_CLIENT_ID,
+    iosClientId: GOOGLE_WEB_CLIENT_ID,
     responseType: ResponseType.IdToken,
     extraParams: googleNonce ? { nonce: googleNonce.hashli } : undefined,
   });
