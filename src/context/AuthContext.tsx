@@ -2,7 +2,9 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import { Session } from '@supabase/supabase-js';
 import * as AppleAuthentication from 'expo-apple-authentication';
 import * as WebBrowser from 'expo-web-browser';
+import * as Crypto from 'expo-crypto';
 import * as Google from 'expo-auth-session/providers/google';
+import { ResponseType } from 'expo-auth-session';
 import { supabase } from '../lib/supabase';
 
 WebBrowser.maybeCompleteAuthSession();
@@ -30,8 +32,23 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [girisYapiliyor, setGirisYapiliyor] = useState(false);
   const [appleGirisiMevcut, setAppleGirisiMevcut] = useState(false);
 
-  const [, googleResponse, googleIstekBaslat] = Google.useAuthRequest({
+  // Supabase Google girişinde nonce'ın SHA-256 hash'ini bekliyor: ham (hash'lenmemiş)
+  // hâli Google'a değil signInWithIdToken'a verilir, Google'a giden hash'lenmiş
+  // olandır — expo-auth-session'ın kendi otomatik nonce'ı bu hash adımını yapmıyor,
+  // bu yüzden elle üretilip extraParams ile geçiriliyor.
+  const [googleNonce, setGoogleNonce] = useState<{ ham: string; hashli: string } | null>(null);
+  useEffect(() => {
+    (async () => {
+      const ham = Crypto.randomUUID();
+      const hashli = await Crypto.digestStringAsync(Crypto.CryptoDigestAlgorithm.SHA256, ham);
+      setGoogleNonce({ ham, hashli });
+    })();
+  }, []);
+
+  const [, googleResponse, googleIstekBaslat] = Google.useIdTokenAuthRequest({
     webClientId: GOOGLE_WEB_CLIENT_ID,
+    responseType: ResponseType.IdToken,
+    extraParams: googleNonce ? { nonce: googleNonce.hashli } : undefined,
   });
 
   useEffect(() => {
@@ -45,13 +62,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    if (googleResponse?.type !== 'success') return;
-    const idToken = googleResponse.authentication?.idToken;
+    if (googleResponse?.type !== 'success' || !googleNonce) return;
+    const idToken = googleResponse.params.id_token;
     if (!idToken) return;
     (async () => {
       setGirisYapiliyor(true);
       try {
-        const { error } = await supabase.auth.signInWithIdToken({ provider: 'google', token: idToken });
+        const { error } = await supabase.auth.signInWithIdToken({
+          provider: 'google',
+          token: idToken,
+          nonce: googleNonce.ham,
+        });
         if (error) throw error;
       } finally {
         setGirisYapiliyor(false);
@@ -82,6 +103,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   async function googleIleGiris() {
     if (!GOOGLE_WEB_CLIENT_ID) {
       throw new Error('Google girişi henüz yapılandırılmadı (Google Cloud Console OAuth client ID eksik).');
+    }
+    if (!googleNonce) {
+      throw new Error('Giriş hazırlanıyor, birkaç saniye sonra tekrar dene.');
     }
     await googleIstekBaslat();
   }
