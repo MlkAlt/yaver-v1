@@ -15,6 +15,7 @@ import { View, ActivityIndicator, Text, ScrollView } from 'react-native';
 import { colors } from './src/tokens/colors';
 import { RootNavigator } from './src/navigation/RootNavigator';
 import { OnboardingProvider } from './src/context/OnboardingContext';
+import { AuthProvider } from './src/context/AuthContext';
 
 class ErrorBoundary extends React.Component<
   { children: React.ReactNode },
@@ -68,9 +69,11 @@ export default function App() {
       <GestureHandlerRootView style={{ flex: 1 }}>
         <SafeAreaProvider>
           <NavigationContainer>
-            <OnboardingProvider>
-              <RootNavigator />
-            </OnboardingProvider>
+            <AuthProvider>
+              <OnboardingProvider>
+                <RootNavigator />
+              </OnboardingProvider>
+            </AuthProvider>
           </NavigationContainer>
         </SafeAreaProvider>
       </GestureHandlerRootView>

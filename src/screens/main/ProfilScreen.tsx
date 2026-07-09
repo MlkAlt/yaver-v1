@@ -16,6 +16,7 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 import { useOnboarding } from '../../context/OnboardingContext';
+import { useAuth } from '../../context/AuthContext';
 
 type Nav = NativeStackNavigationProp<RootStackParamList>;
 
@@ -61,6 +62,7 @@ function SettingRow({ Icon, label, value, toggle, toggleValue, onToggle, onPress
 export function ProfilScreen() {
   const navigation = useNavigation<Nav>();
   const { brans, siniflar } = useOnboarding();
+  const { session, cikisYap } = useAuth();
   const [bildirimAcik, setBildirimAcik] = useState(true);
 
   const sinifText = siniflar.length > 0 ? siniflar.map(sinifLabel).join(', ') : 'Seçilmedi';
@@ -84,11 +86,19 @@ export function ProfilScreen() {
           </View>
           <View style={{ flex: 1 }}>
             <Text style={styles.hesapBrans}>{bransText} Öğretmeni</Text>
-            <Text style={styles.hesapSiniflar}>{sinifText}</Text>
+            <Text style={styles.hesapSiniflar}>
+              {session ? session.user.email ?? 'Giriş yapıldı' : sinifText}
+            </Text>
           </View>
-          <TouchableOpacity style={styles.duzenleBtn}>
-            <Text style={styles.duzenleBtnText}>Düzenle →</Text>
-          </TouchableOpacity>
+          {session ? (
+            <TouchableOpacity style={styles.duzenleBtn}>
+              <Text style={styles.duzenleBtnText}>Düzenle →</Text>
+            </TouchableOpacity>
+          ) : (
+            <TouchableOpacity style={styles.duzenleBtn} onPress={() => navigation.navigate('Giris')}>
+              <Text style={styles.duzenleBtnText}>Giriş yap →</Text>
+            </TouchableOpacity>
+          )}
         </View>
 
         {/* Kullanım kartı */}
@@ -141,9 +151,11 @@ export function ProfilScreen() {
           <View style={styles.divider} />
           <SettingRow Icon={Lock} label="Gizlilik Politikası" onPress={() => {}} />
           <View style={styles.divider} />
-          <TouchableOpacity style={styles.cikisBtn}>
-            <Text style={styles.cikisBtnText}>Çıkış Yap</Text>
-          </TouchableOpacity>
+          {session && (
+            <TouchableOpacity style={styles.cikisBtn} onPress={cikisYap}>
+              <Text style={styles.cikisBtnText}>Çıkış Yap</Text>
+            </TouchableOpacity>
+          )}
         </View>
 
         <View style={{ height: 32 }} />

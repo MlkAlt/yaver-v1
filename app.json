@@ -36,7 +36,9 @@
     },
     "owner": "melik06s-organization",
     "plugins": [
-      "expo-font"
+      "expo-font",
+      "expo-web-browser",
+      "expo-apple-authentication"
     ]
   }
 }

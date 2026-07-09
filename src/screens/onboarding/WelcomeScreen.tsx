@@ -84,7 +84,7 @@ export function WelcomeScreen({ navigation }: Props) {
           <Text style={styles.btnText}>Başlayalım →</Text>
         </Pressable>
         <Pressable
-          onPress={() => {}}
+          onPress={() => navigation.navigate('Giris')}
           style={({ pressed }) => [styles.loginLink, pressed && { opacity: 0.5 }]}
         >
           <Text style={styles.loginText}>Zaten hesabım var — Giriş yap</Text>

@@ -27,6 +27,7 @@ import { ProfilScreen } from '../screens/main/ProfilScreen';
 import { OkulBilgileriScreen } from '../screens/main/OkulBilgileriScreen';
 import { DersProgramiScreen } from '../screens/main/DersProgramiScreen';
 import { YillikPlanScreen } from '../screens/main/YillikPlanScreen';
+import { GirisScreen } from '../screens/auth/GirisScreen';
 
 export type RootStackParamList = {
   Welcome: undefined;
@@ -45,6 +46,7 @@ export type RootStackParamList = {
   OkulBilgileri: undefined;
   DersProgrami: { fromOnboarding?: boolean } | undefined;
   Profil: undefined;
+  Giris: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -88,6 +90,7 @@ export function RootNavigator() {
       <Stack.Screen name="OkulBilgileri" component={OkulBilgileriScreen} />
       <Stack.Screen name="DersProgrami" component={DersProgramiScreen} />
       <Stack.Screen name="Profil" component={ProfilScreen} />
+      <Stack.Screen name="Giris" component={GirisScreen} options={{ presentation: 'modal' }} />
     </Stack.Navigator>
   );
 }
