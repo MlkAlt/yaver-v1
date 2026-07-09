@@ -1,6 +1,32 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 09.07.2026 — Oturum 82 (Fen Bilimleri seçmeli + Kulüp Eylül düzeltmesi, ikisi de main'e merge edildi — main artık en güncel)
+**Son güncelleme:** 09.07.2026 — Oturum 83 (Auth altyapısı + uygulama-içi PDF önizleme + çok sayıda cihaz testi düzeltmesi — `feature/auth-profiles-tablosu` branch'inde, main'e merge edilmedi)
+
+## ŞU AN NEREDEYİZ (Oturum 83 — Auth + PDF önizleme + cihaz testi düzeltmeleri, 09.07.2026)
+
+Uzun bir oturum — `feature/auth-profiles-tablosu` branch'inde 16 commit birikti, kullanıcı çoğunu cihazda test edip onayladı. **main'e henüz merge edilmedi.**
+
+**Büyük işler:**
+1. **Apple/Google Sign-In altyapısı:** Supabase `profiles` tablosu (eski, hiç kullanılmayan 7 tablo temizlenip yerine kuruldu). `AuthContext` — Apple girişi tam çalışıyor (cihaz/geliştirici hesabı olmadığı için test edilemedi ama kod hazır, buton `isAvailableAsync` ile güvenli şekilde gizleniyor). **Google girişi uçtan uca doğrulandı** — Google Cloud Console (Web OAuth client) + Supabase Dashboard provider aktif, nonce hash'leme + androidClientId sorunları çözüldü. Kalıcı hafızada not: Play Store build'i alınırken ek "Android" tipi OAuth client gerekecek.
+2. **Uygulama-içi PDF önizleme ekranı:** İki ara-çözüm (native print dialog, sonra doğrudan paylaşım sheet'i) kullanıcı testinde yetersiz kalınca WebView+PDF.js (jsDelivr CDN, pdfjs-dist@3.11.174) ile gerçek bir önizleme ekranına geçildi — zoom, İndir (Android SAF), büyük Paylaş butonu, yatay dönüş desteği. Kullanıcı "harika olmuş" dedi.
+
+**Cihaz testinde bulunup düzeltilen ~10 küçük/orta bug:**
+- Performans Notu: 2 haneli not girişinde otomatik ilerleme + akordiyon açılma karışıklığı
+- SinifSecici şube kutusu genişliği
+- PDF circular-import hatası + expo-file-system deprecated API hatası (iki ayrı runtime crash, ikisi de düzeltildi)
+- Sınav Analizi: DKAB+İHO kazanım bugı (Oturum 78'in planUret.ts düzeltmesi buraya hiç taşınmamıştı) + **seçmeli derslerin (sinif_tipi='secmeli') hiç görünmemesi** + sinif=0 serbest-seçim kazanımlarının eşleşmemesi — üçü birden düzeltildi
+- Sınav Analizi ders adı artık serbest metin değil, `DersSecici` (paylaşılan component, SablonDoldurmaScreen'den çıkarıldı) ile chip seçimi; **asıl kök bug**: kazanım sorgusu dersAdi değil dersFiltesi (tüm dersler) ile filtreleniyordu, bu yüzden örn. Fen Bilimleri+Çevre Eğitimi ikisi seçiliyken "Çevre Eğitimi" seçilse bile ikisi karışık geliyordu — düzeltildi
+- Profil → Okul Bilgileri ekranı hiç kaydetmiyordu (TODO stub) — artık evrak sihirbazlarıyla aynı paylaşılan AsyncStorage anahtarlarına bağlı, iki yönlü çalışıyor
+- Aylık Rehberlik Raporu: boş alanlar (özellikle "Diğer Çalışmalar" bölümü) PDF'ten tamamen kayboluyordu — artık hepsi "-" ile gösteriliyor
+- Okul adı başlıklarında sarkan son kelime sorunu ("...ANADOLU\nLİSESİ" gibi) — `sarkanKelimeyiKoru()` ile tüm 12 evrak şablonunda otomatik çözüldü (&nbsp; ile son iki kelime hep birlikte)
+
+**Ayrıca (kod dışı bulgular, hafızaya kaydedildi):**
+- 23 branştan sadece 10'unda seçmeli ders var — kalan 13'ü için derin araştırma kullanıcı isteğiyle lansman sonrasına ertelendi
+- Word/Excel export + premium fikri `PLAN.md`'ye not düşüldü (Faz 6)
+
+**tsc 0 hata (her commit'te doğrulandı).** **BEKLİYOR:** Bu son turdaki düzeltmelerin (okul bilgileri, aylık rapor boş alan, sarkan kelime) cihaz testi — sonra main'e merge.
+
+---
 
 ## ŞU AN NEREDEYİZ (Oturum 82 — Fen Bilimleri seçmeli + Kulüp Eylül branch'leri main'e merge, 09.07.2026)
 
