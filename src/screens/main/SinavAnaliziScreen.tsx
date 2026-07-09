@@ -87,6 +87,7 @@ export function SinavAnaliziScreen({ navigation }: Props) {
   // ─── Puanlar ──────────────────────────────────────────────────────────
   const [puanlar, setPuanlar] = useState<Record<number, Record<number, string>>>({});
   const puanInputRefs = useRef<Array<Array<TextInput | null>>>([]);
+  const sonGetirilenAnahtar = useRef<string | null>(null);
 
   // ─── Sonuç ────────────────────────────────────────────────────────────
   const [tedbirler, setTedbirler] = useState<string[]>([]);
@@ -135,7 +136,12 @@ export function SinavAnaliziScreen({ navigation }: Props) {
         const okulTipleri = bransSlug === 'dkab' && okulTipi === 'iho' ? ['iho', 'ortaokul'] : [okulTipi];
         q = q.in('okul_tipi', okulTipleri);
       }
-      if (dersFiltesi && dersFiltesi.length > 0) q = q.in('ders', dersFiltesi);
+      // dersFiltesi (onboarding'de seçilen TÜM dersler) değil, formda seçilen
+      // TEK dersAdi ile filtrelenmeli — yoksa örn. Fen Bilimleri + Çevre Eğitimi
+      // ikisi de seçiliyken "Çevre Eğitimi" seçilse bile ikisinin kazanımları
+      // birlikte geliyordu (Fen Bilimleri kazanımı sayıca daha fazla olduğu
+      // için baskın görünüyordu).
+      if (dersAdi.trim()) q = q.eq('ders', dersAdi.trim());
 
       const { data, error } = await q;
       if (error) throw error;
@@ -251,7 +257,13 @@ export function SinavAnaliziScreen({ navigation }: Props) {
         Alert.alert('Eksik bilgi', 'Okul adı, sınıf ve ders adı zorunlu.');
         return;
       }
-      if (kazanimListesi.length === 0) kazanimlariGetir();
+      // dersAdi (veya sınıf) değiştiyse yeniden çek — sadece liste boşken değil,
+      // yoksa kullanıcı geri dönüp farklı bir ders seçse bile eski liste kalıyordu.
+      const anahtarSimdi = `${dersAdi}|${sinif}`;
+      if (kazanimListesi.length === 0 || sonGetirilenAnahtar.current !== anahtarSimdi) {
+        sonGetirilenAnahtar.current = anahtarSimdi;
+        kazanimlariGetir();
+      }
     }
     if (adim === 1) {
       if (sorular.length === 0) {
