@@ -121,7 +121,13 @@ export function SinavAnaliziScreen({ navigation }: Props) {
         q = q.in('sinif_tipi', siniflar.includes(0) ? ['normal', 'hazirlik'] : ['normal']);
       }
       q = q.or(`brans.eq.${bransSlug},branslar.cs.{${bransSlug}}`);
-      if (okulTipi) q = q.eq('okul_tipi', okulTipi);
+      if (okulTipi) {
+        // DKAB + İHO: ana ders + İHO'da zorunlu 3 meslek dersi Supabase'de tek
+        // kaynaktan 'ortaokul' etiketiyle geliyor (planUret.ts'teki aynı düzeltme
+        // — bkz. Oturum 78 — burada da uygulanmalıydı, unutulmuştu).
+        const okulTipleri = bransSlug === 'dkab' && okulTipi === 'iho' ? ['iho', 'ortaokul'] : [okulTipi];
+        q = q.in('okul_tipi', okulTipleri);
+      }
       if (dersFiltesi && dersFiltesi.length > 0) q = q.in('ders', dersFiltesi);
 
       const { data, error } = await q;
