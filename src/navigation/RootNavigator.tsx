@@ -48,7 +48,7 @@ export type RootStackParamList = {
   DersProgrami: { fromOnboarding?: boolean } | undefined;
   Profil: undefined;
   Giris: undefined;
-  PdfOnizleme: { uri: string; base64: string };
+  PdfOnizleme: { uri: string; base64: string; dosyaAdi?: string };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();

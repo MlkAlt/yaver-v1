@@ -249,8 +249,11 @@ Kalan ~12-15 evrak tipini bir kez toplu üret. Infra yok, tam kontrol.
 | ③ | Çıktı | "yazdırmaya hazır indir" | Export anı |
 | ④ | Evrak | BEP/zümre/günlük plan seç | **EN GÜÇLÜ dönüşüm** |
 | ⑤ | Şablon Doldurma | doldurduktan sonra indir | Kayıp kaçınması |
+| ⑥ | PDF Önizleme | Word/Excel formatında indir *(fikir, 2026-07-09)* | PDF ücretsiz kalır, düzenlenebilir format premium |
 
 Paywall'ın **yüzü evrak olsun**, etkinlik değil.
+
+**⑥ notu:** Kullanıcı fikri — PDF önizleme ekranına ileride Word/Excel export seçenekleri eklenip bunlar paywall arkasına konabilir (PDF her zaman ücretsiz/temel kalır, düzenlenebilir format premium değeri olur). Henüz teknik tasarım/uygulama yapılmadı — Faz 6 (paywall) zamanı detaylandırılacak.
 
 ---
 
