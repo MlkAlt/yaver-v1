@@ -2,6 +2,20 @@
 
 ---
 
+## Evrak Kalitesi
+
+### 2026-07-11 — PDF kalite iyileştirmesi: aile aile geçiş + "yeniden tasarım değil, sınırlı cila" ilkesi
+**Olay:** Kullanıcı evrakların resmi/kaliteli görünmesinin çok önemli olduğunu belirtti, sistematik bir PDF kalite çalışması istedi. Codex'in kod incelemesi de (dolaylı olarak) evrak modüllerinin büyüklüğüne/karmaşıklığına dikkat çekmişti.
+**Karar:**
+1. **Yöntem: aile aile sistematik geçiş.** Her evrak ailesi (Rehberlik, Sınav Analizi, Kulüp, Dilekçe...) için: gerçek MEB referansıyla karşılaştır → uç senaryo veriyle render et → qa-verifier'a playwright `page.pdf()` ile kanıtlat → düzelt. 12+ şablonu aynı anda "genel iyileştirme" olarak ele almak yerine tek tek kapatılıyor.
+2. **Yeni teknik: A4 Artifact önizleme.** Gerçek `*HtmlSablon.ts` fonksiyonu tsx ile çalıştırılıp çıkan HTML, kendi CSS'iyle 210mm×297mm bir div'e sarılıp Artifact'ta gösteriliyor — Expo/cihaz gerekmeden sohbet içi kağıt-görünümü inceleme. Kullanıcı onayladı, kalıcı yöntem oldu (bkz. `feedback_evrak_a4_onizleme_yontemi`).
+3. **Kritik ilke — resmi evrakta "daha güzel tasarım" ≠ daha iyi:** Bu belgeler gerçek okul müdürü tarafından imzalanan/idareye sunulan resmi evraklar. Kullanıcı "ajanlar özgürce çalışsa daha kaliteli görünüm tasarlar mı" diye sorunca, ajanlara (ui-craftsman dahil) yapısal yeniden tasarım YAPTIRILMADI — idarenin tanımadığı bir format reddedilme riski taşır. Bunun yerine izin verilen kapsam **yapı/grid/veri sabit kalacak şekilde sadece mikro-tipografi/renk cilası** olarak sınırlandı. evrak-engineer bu sınırla çalıştı.
+4. **Kod değişikliğinden önce görsel onay akışı:** Ajan önce planını (hangi CSS değişecek, neden) rapor ediyor, kullanıcı onaylamadan kod yazmıyor; kullanıcı "önce gözümle göreyim" dediğinde şef önce/sonra karşılaştırma Artifact'ı hazırlayıp kod dosyasına dokunmadan gösteriyor, onay sonrası gerçek dosyada uygulanıyor.
+**Uygulama:** Rehberlik Yıllık Planı'nda pilot uygulandı (gri hiyerarşi düzeltmesi + kazanım no vurgusu), `git diff` + `tsc` + playwright kanıtıyla şef tarafından doğrulandı. Detay: `STATUS.md` "Oturum 84".
+**Etkilenen dosyalar:** `src/data/rehberlikYillikPlanHtmlSablon.ts`. Yöntem ileride diğer evrak ailelerine (Sınav Analizi vd.) aynen uygulanacak.
+
+---
+
 ## Auth / KVKK
 
 ### 2026-07-09 — Auth yöntemi: Apple/Google Sign-In + KVKK/hesap-silme planı PLAN.md'ye işlendi

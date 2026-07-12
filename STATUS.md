@@ -1,6 +1,54 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 09.07.2026 — Oturum 83 (Auth altyapısı + uygulama-içi PDF önizleme + çok sayıda cihaz testi düzeltmesi — `feature/auth-profiles-tablosu` branch'inde, main'e merge edilmedi)
+**Son güncelleme:** 12.07.2026 — Oturum 85 (Çalışma yaprağı skill'i olgunlaştırıldı + uygulama entegrasyon planı çıkarıldı — henüz kod yazılmadı, plan aşamasında duruldu)
+
+## ŞU AN NEREDEYİZ (Oturum 85 — Çalışma yaprağı skill'i + uygulama entegrasyon planı, 11-12.07.2026)
+
+Bu oturum Yaver uygulama koduna hiç dokunmadı — çalışma alanı `worksheet creator` (proje dışı) ve planlama. Konu: kullanıcının fable/mythos ile kendi başına geliştirdiği `calisma-yapragi` skill'ini (MEB kazanımından çalışma yaprağı üreten pipeline) inceleyip olgunlaştırmak, sonra Yaver'e nasıl entegre edileceğini planlamak.
+
+**1. Skill incelemesi + düzeltmeler (worksheet creator/calisma-yapragi, ayrıca yaver-v1/calisma-yapragi kopyası senkron tutuldu):**
+- İlk örnek (FIZ.9.1.2) incelendi: içerik/pedagoji iyi ama 10 soru sayfa bütçesini aşıyordu, "Hatırlayalım" bölüm adı kavramsal olarak yanlıştı (konu yeni işleniyor, hatırlatma değil).
+- **"Hatırlayalım" → "Tanıyalım"** olarak değiştirildi (SKILL.md, pedagoji.md, worksheet_schema.md) — pekiştirme durumunda "Hatırlayalım" hâlâ kullanılabilir notu eklendi.
+- **WeasyPrint Windows'ta çalışmıyordu** (GTK/Pango eksik, kaba tahmine düşüyordu) — kullanıcı onayıyla `winget install tschoonj.GTKForWindows` ile GTK3 Runtime kuruldu, artık `render_html.py` gerçek sayfa sayısı ölçüyor.
+- **Çift oval/kenarlık render bug'ı bulundu ve düzeltildi:** `.chip` ve `.havuz span` elemanları flex konteyner içinde `border-radius`+`border` kullanıyordu ama açık `display` değeri yoktu — WeasyPrint bu kombinasyonda kenarlığı iki kez çiziyordu. `display: inline-block` eklenerek düzeltildi (izole test dosyalarıyla doğrulandı).
+- **Boşluk doldurma sorularındaki küçük numaralar kaldırıldı** (kullanıcı isteği — sorular zaten sıralı, cevap anahtarı aynı sırayı izliyor). Bölüm başlıklarına eklenen numaralı rozetler (görsel cila) kullanıcı "karmaşa" dediği için geri alındı.
+- Yeni örnek üretildi: **FİZ.9.4.2 (Isı, Öz Isı, Isı Sığası)** — sayısal/hesaplama ağırlıklı, 6 soru/100 puan, gerçek weasyprint ölçümüyle "öğrenci 1 sayfa" doğrulandı, gerçek PDF üretilip kullanıcı tarafından incelendi ve onaylandı.
+- Maliyet analizi: Sonnet 5 ile ~$0,14/yaprak, tüm 9077 kazanıma gidilirse ~$1.260 — Fable 5'in (~$0,70/yaprak, ~$6.300) beşte biri. **Karar: bulk üretimde Sonnet 5 kullanılacak, Fable 5 sadece pilot/kalite karşılaştırması için.**
+
+**2. Kazanım veritabanı gerçek sayıları çıkarıldı:** `supabase/migrations/20260614000068_seed_kazanimlar_v2.sql`'den branş başına kazanım sayısı sayıldı (toplam ~9077 satır, 66 ders). En yüksekten: İngilizce (şişkin, hazırlık tekrarları var), Sınıf Öğretmenliği (836), Türkçe (616), Arapça (468, niş-İHL), DKAB (395), TDE (300), Almanca (264), Görsel Sanatlar (244), Matematik (222), İHL Meslek Dersleri (220, niş), Okul Öncesi (213, format farklı), Beden Eğitimi (167), Fen Bilimleri (143), Fizik (130), Felsefe/Müzik/Tarih/Biyoloji/Kimya/Coğrafya/Sosyal Bilgiler (69-117).
+
+**3. Uygulama entegrasyon planı çıkarıldı (kullanıcı onayladı, kalıcı hafıza: `project_calisma_yapragi_uygulama_entegrasyonu`):**
+- Mimari araştırması (Explore ajanı): `kazanimlar` tablosu şeması bulundu; evrak ailesinin tamamen cihazda render ettiği (`*HtmlSablon.ts` → `pdfOnizlemeAc()` → `PdfOnizlemeScreen` WebView+PDF.js) doğrulandı; `UretimScreen`'in hâlâ canlı `supabase.functions.invoke('generate')` çağrısı yaptığı (bilinen açık iş, `project_canli_ai_havuz_gecisi`) teyit edildi; PLAN.md'de zaten "çalışma yaprağı" bölümü ve havuz-fetch hedefinin var olduğu görüldü.
+- **Karar: worksheet UretimScreen'in canlı-AI yoluna hiç girmeyecek.** Tamamen offline (skill ile) üretilen HTML, yeni `calisma_yapraklari` tablosuna (`kazanim_kod`, `varyasyon_no`, `baslik`, `tahmini_sure_dk`, `toplam_puan`, `html_icerik` text, `meta` jsonb) yazılacak; uygulama sadece bu HTML'i çekip **evrak ailesindeki `pdfOnizlemeAc()` fonksiyonunu aynen kullanacak** — yeni bir render motoru YOK. JSON (skill'in kaynak çıktısı) sadece üretim/QA katmanında kalıyor, uygulamaya hiç gitmiyor (opsiyonel: `meta` jsonb'de yedeklenebilir).
+- **UX akış planı** (`ui-craftsman`, arka plan ajanı, plan sundu — kod yazmadı): yeni `CalismaYapragiScreen` hub ekranı; iki giriş noktası var ama ikisi de şu an yanlışlıkla `UretimScreen`'e gidiyor (HaftaDetayiScreen kazanım kartı chip'i + DersIcinScreen "Hazırla" tile'ı) — düzeltilip yeni hub'a yönlendirilecek; yükleniyor/boş(henüz üretilmedi)/hata/dolu durumları; **tek varyasyon olsa bile hub her zaman gösterilecek** (kullanıcı onayladı); `CiktiScreen` bu akışta kullanılmayacak (worksheet HTML, Cikti düz metin gösteriyor); **paywall tasarımı bu fazda MVP dışı bırakıldı** (Play Store öncesi mutlaka eklenecek, unutulmaması için hafızaya not düşüldü).
+- **Yeni iş kuralı (PLAN.md'yi etkiliyor, henüz oraya işlenmedi):** ücretsiz kullanım "kazanım başı 1"den **"özellik başı 3 ücretsiz"**e değişti (çalışma yaprağı 3, kulüp evrakları 3, ayrı ayrı sayaçlar) — kalıcı hafıza: `project_ucretsiz_kullanim_kurali_degisikligi`.
+- **Faz 1 üretim sırası onaylandı:** Sınıf Öğretmenliği → Türkçe → Matematik → Fen Bilimleri → İngilizce → Sosyal Bilgiler. Faz 2: TDE, Fizik/Kimya/Biyoloji/Tarih/Coğrafya/Felsefe, Beden Eğitimi, Görsel Sanatlar/Müzik. Faz 3: Almanca/Fransızca, Bilişim Teknolojileri, Teknoloji Tasarım. Faz 4 (ertelendi): Arapça, DKAB, İHL Meslek Dersleri, Okul Öncesi.
+- **Uygulama sırası kararlaştırıldı (henüz başlanmadı):** (1) `calisma_yapraklari` migration'ı → (2) `CalismaYapragiScreen` + iki giriş noktasının yönlendirmesi, test verisi olarak FIZ.9.4.2 HTML'i elle eklenip uçtan uca denenecek → (3) gerçek cihazda/Expo Go'da doğrulama → (4) doğrulama sonrası Faz 1 branşlarının toplu üretimine geçiş.
+
+**BEKLİYOR — sıradaki adım (kullanıcı: "ara verelim, aynen bu sırayla devam ederiz"):** Yukarıdaki 4 adımlı uygulama sırasının 1. maddesinden (`calisma_yapraklari` migration'ı) başlanacak. Henüz hiçbir kod yazılmadı, commit yok.
+
+---
+
+## ŞU AN NEREDEYİZ (Oturum 84 — Codex incelemesi + evrak PDF kalite aile-aile geçişi başladı, 10-11.07.2026)
+
+**1. Codex'in proje incelemesi değerlendirildi:**
+Kullanıcı Codex'e projeyi analiz ettirdi, üç bulgu öne çıktı: (a) canlı AI/lifetime maliyet çelişkisi, (b) `SablonDoldurmaScreen.tsx`'in 183KB'a büyümesi, (c) repo'da ürün kodu + ham kaynak arşivinin karışık olması. İkisi (dosya boyutu, canlı AI kod varlığı) doğrulandı, biri (öncelik sıralaması) düzeltildi.
+
+**Canlı AI bulgusu doğrulandı ve netleştirildi:** `supabase/functions/generate/index.ts` gerçekten cache-miss'te canlı Anthropic çağrısı yapıyor, `UretimScreen.tsx:57` bunu tetikliyor. Ama bu bir "kararsızlık" değil — PLAN.md zaten net (`v1'de YOK`, "canlı AI → havuz-fetch" bilinen açık iş, satır 45/222/288). FAZ 1 (etkinlik havuzu üretimi) henüz ⬜ tamamlanmadığı için eski kod hâlâ yerinde duruyor. **Kullanıcı kararı: uygulama henüz yayına alınmadı, evraklar bitip etkinlik havuzu işine geçince bakılacak — acil değil.** Kalıcı hafıza: `project_canli_ai_havuz_gecisi`.
+
+**2. Evrak PDF kalite çalışması başladı — "aile aile sistematik geçiş" metodolojisi kabul edildi:**
+Her evrak ailesi için: gerçek MEB referansıyla karşılaştır → uç senaryo veriyle render et → qa-verifier'a kanıtlat (playwright page.pdf()) → düzelt. Yeni teknik: **A4 Artifact önizleme** — gerçek `*HtmlSablon.ts` fonksiyonu tsx ile örnek/gerçek veriyle çalıştırılıp çıkan HTML, şablonun kendi `@page`/tablo CSS'iyle birebir 210mm×297mm (veya yatay 297mm×210mm) bir `.a4` div'ine sarılıp Artifact ile gösteriliyor — Expo/cihaz gerekmeden kağıt görünümünde inceleme. Kullanıcı onayladı ("mükemmel olmuş"). Kalıcı hafıza: `feedback_evrak_a4_onizleme_yontemi`.
+
+**3. Rehberlik ailesi PDF kalite geçişi — TAMAMLANDI (commit atılmadı):**
+- **Aylık Rehberlik Raporu:** A4 önizlemesi gösterildi, kullanıcı onayladı, değişiklik gerekmedi.
+- **Yıllık Rehberlik Planı:** A4 (yatay) önizlemesi gösterildi (11. sınıf gerçek MEB verisiyle), kullanıcı genel olarak beğendi ama "ajanlar özgürce çalışsa daha kaliteli olur mu" diye sordu. Değerlendirme: bu resmi bir MEB evrakı, idarenin tanıdığı formattan sapma reddedilme riski taşıyor — **yeniden tasarım değil, sınırlı kapsamlı görsel cila** (yapı/grid/veri sabit, sadece tipografi/renk) olarak çerçevelendi, kullanıcı onayladı.
+- `evrak-engineer` ajanı (arka planda) plan sundu: gri hiyerarşi tutarsızlığı (ay başlığı `#e8e8e8` tatilden `#e3e3e3`'ten daha açık — ters sıra) ana bulgu. 4 madde önerdi, kullanıcı sadece **madde 1 (gri hiyerarşi düzeltme) + madde 2 (kazanım numarası bold)** onayladı — madde 3/4 (tatil italik kaldırma, tarih rengi) opsiyonel bırakıldı, uygulanmadı.
+- Kod dosyasına yazmadan önce kullanıcı "önce gözümle göreyim" dedi — şef (ana oturum) önce/sonra karşılaştırma Artifact'ı hazırladı (kod dosyasına dokunmadan, sadece önizleme HTML'inde), kullanıcı onayladıktan sonra evrak-engineer gerçek dosyada uyguladı.
+- **Uygulandı, doğrulandı:** `src/data/rehberlikYillikPlanHtmlSablon.ts` — `.ayad`/`.tarad` bg `#e8e8e8→#dadada`, `.tatil` bg `#e3e3e3→#eeeeee`, `.banner` bg `#d9d9d9→#cfcfcf`, yeni `.kazno{font-weight:bold}` + `hucreMetni`'de "N-" span'e sarıldı. `git diff` ile sadece bu dosyanın değiştiği, `tsc --noEmit` 0 hata, playwright PNG kanıtı (6. sınıf gerçek veri) şef tarafından bizzat doğrulandı.
+
+**BEKLİYOR:** Rehberlik ailesi kapandı (commit atılmadı, henüz cihaz testi yok). **Sıradaki adım: Sınav Analizi ailesi** ile aynı "aile aile" sürece devam edilecek.
+
+---
 
 ## ŞU AN NEREDEYİZ (Oturum 83 — Auth + PDF önizleme + cihaz testi düzeltmeleri, 09.07.2026)
 

@@ -46,7 +46,7 @@ function esc(s: string): string {
 
 // Bir kazanım/idari hücresinin metni: kaynaktaki gibi "N- metin"; idari satırlarda sadece metin.
 function hucreMetni(h: RehberlikPlanHaftasi): string {
-  return h.etkinlikNo != null ? `${h.etkinlikNo}- ${esc(h.metin)}` : esc(h.metin);
+  return h.etkinlikNo != null ? `<span class="kazno">${h.etkinlikNo}-</span> ${esc(h.metin)}` : esc(h.metin);
 }
 
 function planBaslik(sinif: number): string {
@@ -122,16 +122,17 @@ export function yillikPlanHtmlOlustur(form: YillikPlanFormData): string {
   table { width: 100%; border-collapse: collapse; table-layout: fixed; }
   th, td { border: 1px solid #000; padding: 1.5px 4px; vertical-align: middle; font-size: 7.3pt; }
   tr { page-break-inside: avoid; break-inside: avoid; }
-  th.ayad { background: #e8e8e8; text-align: center; font-weight: bold; font-size: 8.2pt; }
-  th.tarad { background: #e8e8e8; text-align: center; font-weight: bold; font-size: 7.2pt; width: 5.2%; }
+  th.ayad { background: #dadada; text-align: center; font-weight: bold; font-size: 8.2pt; }
+  th.tarad { background: #dadada; text-align: center; font-weight: bold; font-size: 7.2pt; width: 5.2%; }
   th.bos, td.bos { background: #fafafa; border-color: #bbb; }
   td.kaz { text-align: left; line-height: 1.1; }
+  .kazno { font-weight: bold; }
   td.tar { text-align: center; vertical-align: middle; font-size: 7.1pt; width: 5.2%; white-space: nowrap; line-height: 1.05; }
   td.tar .hafta-no { display: block; font-weight: bold; }
   td.tar .hafta-tarih-gercek { display: block; white-space: normal; font-size: 6.2pt; font-weight: normal; color: #333; margin-top: 1px; }
-  td.tatil { background: #e3e3e3; font-weight: bold; font-style: italic; text-align: center; }
+  td.tatil { background: #eeeeee; font-weight: bold; font-style: italic; text-align: center; }
   th.banner {
-    width: 3.2%; background: #d9d9d9; padding: 0; position: relative; overflow: hidden;
+    width: 3.2%; background: #cfcfcf; padding: 0; position: relative; overflow: hidden;
   }
   th.banner span {
     position: absolute; top: 50%; left: 50%;

@@ -51,3 +51,5 @@ refs/kazanimlar_meb_2025.json
 # + src/data/*.ts), ham dosyanın git geçmişinde tutulmasına gerek yok. Bkz. DECISIONS.md
 # "repo şişirme protokolü".
 evraklar/rehberlik/*.pdf
+calisma-yapragi/scripts/__pycache__/
+__pycache__/

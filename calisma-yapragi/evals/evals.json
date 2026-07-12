@@ -1,0 +1,47 @@
+{
+ "skill_name": "calisma-yapragi",
+ "evals": [
+  {
+   "id": 0,
+   "name": "fizik-tekli",
+   "prompt": "FİZ.9.1.2 kazanımı için bir çalışma yaprağı üretir misin? Mobil uygulamada kullanacağım, json formatında olsun.",
+   "expected_output": "Şemaya uygun tek JSON dosyası; sınıflandırma odaklı sorular (kazanım fiili 'sınıflandırabilme'), tüm süreç bileşenleri kapsanmış, cevap anahtarı eksiksiz, QA yapılmış.",
+   "files": [],
+   "expectations": [
+    "Çıktı geçerli JSON ve skill şemasına uygun: validate_worksheet.py 0 hata veriyor",
+    "Kazanımın 4 süreç bileşeni (a,b,c,ç) de en az bir soruyla kapsanmış ve her soru geçerli bir bileşen etiketi taşıyor",
+    "Sorular ağırlıkla sınıflandırma davranışı yaptırıyor (gruplama/eşleştirme/ayrıştırma); yaprak salt tanım ezberinden ibaret değil",
+    "Cevap anahtarı eksiksiz ve içerik olarak doğru: fizik alt dalları ile inceleme alanları/örnekleri doğru eşlenmiş (bilimsel hata yok)",
+    "QA kanıtı mevcut: yapısal doğrulama + bağımsız crosscheck yapıldığına dair iz var"
+   ]
+  },
+  {
+   "id": 1,
+   "name": "fizik-hesaplama",
+   "prompt": "10. sınıf fizik mekanik enerji kazanımı için çalışma yaprağı lazım (FİZ.10.2.4). Hesaplama soruları da olsun, cevap anahtarının doğruluğu önemli.",
+   "expected_output": "problem_cozme tipli sorular içeren JSON; tüm sayısal cevaplar çözümle tutarlı ve fiziksel olarak doğru; crosscheck yapılmış.",
+   "files": [],
+   "expectations": [
+    "Çıktı geçerli JSON ve skill şemasına uygun: validate_worksheet.py 0 hata veriyor",
+    "En az 3 hesaplamalı soru var ve TÜM sayısal cevaplar bağımsız hesapla doğru (python ile yeniden hesaplandığında anahtar tutuyor)",
+    "Müfredat sınırı korunmuş: yay/esneklik potansiyel enerjisi ve sürtünmenin matematiksel modeli (üst sınıf konuları) kullanılmamış",
+    "Çözümler (cozum_md/açıklamalar) adım adım ve nihai cevapla tutarlı",
+    "QA kanıtı mevcut: yapısal doğrulama + bağımsız crosscheck yapıldığına dair iz var"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "cografya-toplu",
+   "prompt": "Coğrafya 9. sınıf 1. ünitedeki (Coğrafyanın Doğası) kazanımların hepsi için ayrı ayrı çalışma yaprağı üret.",
+   "expected_output": "3 kazanım (COĞ.9.1.1, COĞ.9.1.2, COĞ.9.1.3) için 3 ayrı şemaya uygun JSON; her biri kendi kazanımına odaklı.",
+   "files": [],
+   "expectations": [
+    "Tam olarak 3 kazanım (COĞ.9.1.1, 9.1.2, 9.1.3) için 3 ayrı çalışma yaprağı üretilmiş",
+    "Yapraklar tek tutarlı, programatik olarak ayrıştırılabilir yapılandırılmış formatta (mobil uygulama hedefine uygun)",
+    "Her yaprak kendi kazanımına odaklı; süreç bileşenleri karşılanmış, başka ünite konuları sızmamış",
+    "Cevap anahtarları eksiksiz ve olgusal olarak doğru (bilim insanları, alt dallar vb. doğru eşlenmiş)",
+    "QA kanıtı mevcut: doğrulama/crosscheck yapıldığına dair iz var"
+   ]
+  }
+ ]
+}
