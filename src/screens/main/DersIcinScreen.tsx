@@ -241,6 +241,14 @@ export function DersIcinScreen() {
   function handleKazanimSec(kaz: Kazanim) {
     const tipId = aktivTip?.id;
     setAktivTip(null);
+    if (tipId === 'yaprak') {
+      navigation.navigate('CalismaYapragi', {
+        kazanimKodu: kaz.kod,
+        kazanimAdi: kaz.ad,
+        sinif: kaz.sinif,
+      });
+      return;
+    }
     navigation.navigate('Uretim', {
       kazanimKodu: kaz.kod,
       kazanimAdi: kaz.ad,

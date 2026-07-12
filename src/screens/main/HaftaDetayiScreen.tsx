@@ -173,12 +173,18 @@ export function HaftaDetayiScreen({ route, navigation }: Props) {
                               key={t.id}
                               style={styles.chip}
                               activeOpacity={0.75}
-                              onPress={() => navigation.navigate('Uretim', {
-                                kazanimKodu: k.kod,
-                                sinif:       sinifLabel(k.sinif),
-                                kazanimAdi:  k.ad,
-                                icerikTuru:  t.id,
-                              })}
+                              onPress={() => t.id === 'calisma_yapragi'
+                                ? navigation.navigate('CalismaYapragi', {
+                                    kazanimKodu: k.kod,
+                                    kazanimAdi:  k.ad,
+                                    sinif:       sinifLabel(k.sinif),
+                                  })
+                                : navigation.navigate('Uretim', {
+                                    kazanimKodu: k.kod,
+                                    sinif:       sinifLabel(k.sinif),
+                                    kazanimAdi:  k.ad,
+                                    icerikTuru:  t.id,
+                                  })}
                             >
                               <Text style={styles.chipText}>{t.label}</Text>
                             </TouchableOpacity>

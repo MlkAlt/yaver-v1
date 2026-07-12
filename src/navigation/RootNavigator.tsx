@@ -29,6 +29,7 @@ import { DersProgramiScreen } from '../screens/main/DersProgramiScreen';
 import { YillikPlanScreen } from '../screens/main/YillikPlanScreen';
 import { GirisScreen } from '../screens/auth/GirisScreen';
 import { PdfOnizlemeScreen } from '../screens/main/PdfOnizlemeScreen';
+import { CalismaYapragiScreen } from '../screens/main/CalismaYapragiScreen';
 
 export type RootStackParamList = {
   Welcome: undefined;
@@ -41,6 +42,7 @@ export type RootStackParamList = {
   MainTabs: undefined;
   HaftaDetayi: { haftaNo: number };
   Uretim: { kazanimKodu?: string; sinif?: string; kazanimAdi?: string; icerikTuru?: string } | undefined;
+  CalismaYapragi: { kazanimKodu: string; kazanimAdi: string; sinif?: string };
   Cikti: { tip: string; icerik: string; baglam: string };
   SablonDoldurma: { sablonId: string; sablonAdi: string };
   SinavAnalizi: undefined;
@@ -86,6 +88,7 @@ export function RootNavigator() {
       <Stack.Screen name="MainTabs" component={MainTabs} />
       <Stack.Screen name="HaftaDetayi" component={HaftaDetayiScreen} />
       <Stack.Screen name="Uretim" component={UretimScreen} />
+      <Stack.Screen name="CalismaYapragi" component={CalismaYapragiScreen} />
       <Stack.Screen name="Cikti" component={CiktiScreen} />
       <Stack.Screen name="SablonDoldurma" component={SablonDoldurmaScreen} />
       <Stack.Screen name="SinavAnalizi" component={SinavAnaliziScreen} />
