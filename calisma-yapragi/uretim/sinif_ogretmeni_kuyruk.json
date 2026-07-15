@@ -1,6 +1,6 @@
 ﻿{
     "brans":  "sinif_ogretmeni",
-    "toplam_essiz_kod":  350,
+    "toplam_essiz_kod":  337,
     "dalga_boyutu":  20,
     "kuyruk":  [
                    {
@@ -637,79 +637,79 @@
                        "kod":  "İHVD.4.1.1",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.1.2",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.1.3",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.2.1",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.2.2",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.2.3",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.3.1",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.3.2",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.3.3",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.3.4",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.4.1",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.4.2",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "İHVD.4.4.3",
                        "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi",
                        "sinif":  4,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga5"
                    },
                    {
                        "kod":  "MAT.1.1.1",
@@ -745,121 +745,121 @@
                        "kod":  "MAT.1.1.6",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.1.7",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.1.8",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.1.9",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.2.1",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.2.2",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.2.3",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.2.4",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.3.1",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.3.2",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.3.3",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.3.4",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.3.5",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.1.4.1",
                        "ders":  "Matematik",
                        "sinif":  1,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.1",
                        "ders":  "Matematik",
                        "sinif":  2,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.10",
                        "ders":  "Matematik",
                        "sinif":  2,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.11",
                        "ders":  "Matematik",
                        "sinif":  2,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.2",
                        "ders":  "Matematik",
                        "sinif":  2,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.3",
                        "ders":  "Matematik",
                        "sinif":  2,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.4",
                        "ders":  "Matematik",
                        "sinif":  2,
-                       "durum":  "bekliyor"
+                       "durum":  "tamamlandi_dalga6"
                    },
                    {
                        "kod":  "MAT.2.1.5",
@@ -2012,84 +2012,6 @@
                        "ders":  "Türkçe",
                        "sinif":  4,
                        "durum":  "bekliyor"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.1.1",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.1.2",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.1.3",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.2.1",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.2.2",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.2.3",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.3.1",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.3.2",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.3.3",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.3.4",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.4.1",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.4.2",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
-                   },
-                   {
-                       "sinif":  4,
-                       "kod":  "IHVD.4.4.3",
-                       "durum":  "tamamlandi_dalga5",
-                       "ders":  "İnsan Hakları, Vatandaşlık ve Demokrasi"
                    },
                    {
                        "sinif":  2,
