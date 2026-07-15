@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Günlük Yaşam Problemlerini Çözüyorum",
+    "kazanim": {
+      "kod": "MAT.2.2.1",
+      "ad": "Toplama ve çıkarma işlemleri gerektiren günlük yaşam problemlerini çözebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "3. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Problemi anlayarak verilen ve istenilenleri belirler.",
+        "b": "Problemde verilenler ile istenilenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler.",
+        "c": "Probleme ilişkin verileri belirleyerek uygun matematiksel temsillere dönüştürür.",
+        "d": "Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar.",
+        "e": "Problemlerin sonucuna ilişkin tahminde bulunarak işlemler için stratejiler geliştirir.",
+        "f": "Belirlenen stratejiyi uygular.",
+        "g": "Çözüm yollarını kontrol ederek ulaşmayan stratejiyi değiştirir.",
+        "h": "Ulaştıran stratejinin hangi problemlere uygulanabileceğini geneller."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir problemsen önce ne yapmalısın? Aşağıdaki ifadeleri oku ve doğru mu yanlış mı olduğunu işaretle.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Problemi okuyup verilenleri ve istenilenleri bulmalıyım.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Problemi okumadan hemen işlem yapmaya başlamalıyım.", "cevap": false, "gerekce_md": "Problemi okumadan işlem yaparsak hangi sayıyı hangi işleme sokacağımızı bilemeyiz."},
+            {"no": 3, "metin_md": "Problemi kendi kelimelerimle anlatabilmeliyim.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru: Problemi anlayarak verilenleri ve istenilenleri bulmak ilk adımdır. 2-Yanlış: Önce problemi okumalı, sonra işlem yapmalıyız. 3-Doğru: Problemi kendi kelimelerimizle anlayabilmek önemli bir adımdır."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Problemi çözerken ____(1)____ ile ____(2)____ arasındaki ilişkiyi bulmalıyız. Sonra ____(3)____ stratejisi geliştirip uygularız.",
+          "gorsel": null,
+          "kelime_havuzu": ["verilenler", "istenilenler", "işlem", "tahmin", "kontrol"],
+          "cevap": {"1": "verilenler", "2": "istenilenler", "3": "işlem"},
+          "cozum_md": "Verilenler ve istenilenler arasındaki ilişkiyi bulmak, doğru işlemi seçmenin anahtarıdır. İşlem stratejisi belirlendikten sonra uygulanır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Problemleri okuyup doğru cevabı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Sınıfta 12 kız ve 8 erkek öğrenci var. Sınıftaki toplam öğrenci sayısı kaçtır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "12 - 8 = 4"},
+            {"harf": "B", "metin_md": "12 + 8 = 20"},
+            {"harf": "C", "metin_md": "12 × 8 = 96"},
+            {"harf": "D", "metin_md": "8 + 4 = 12"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kız ve erkek öğrencilerin toplamını bulmak için toplama işlemi yapılır: 12 + 8 = 20. Doğru cevap B'dir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Ayşe'nin 15 kitabı vardı. 4 tanesini arkadaşına verdi. Ayşe'nin kitaplarını kendi kelimeleriyle nasıl anlatırız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ayşe 15 kitabından 4'ünü verince elinde kitap kalmadı."},
+            {"harf": "B", "metin_md": "Ayşe'nin 15 kitabı vardı, 4 tanesini verince elinde 11 kitap kaldı."},
+            {"harf": "C", "metin_md": "Ayşe'ye 4 kitap verildi."},
+            {"harf": "D", "metin_md": "Ayşe 4 kitap aldı."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Problemi kendi kelimelerimizle anlatalım: 15 kitap vardı, 4'ü verildi, 11 kaldı. Doğru cevap B'dir."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "e",
+          "puan": 20,
+          "govde_md": "Her problemle uygun tahmini eşleştiriniz.",
+          "sol": [
+            {"no": 1, "metin_md": "8 tane elma var, 3'ü çürüdü. Kaç tane sağlıklı elma kaldı?"},
+            {"no": 2, "metin_md": "Oyuncakçıda 20 araba var. 7'sini sattı. Kaç araba kaldı?"},
+            {"no": 3, "metin_md": "Sınıfta 14 öğrenci var. 6'sı teneffüse çıktı. Sınıfta kaç öğrenci kaldı?"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Tahmin: 5 civarında (8'den 3 çıkarsak 5 eder)"},
+            {"harf": "B", "metin_md": "Tahmin: 13 civarında (20'den 7 çıkarsak 13 eder)"},
+            {"harf": "C", "metin_md": "Tahmin: 8 civarında (14'ten 6 çıkarsak 8 eder)"},
+            {"harf": "D", "metin_md": "Tahmin: 10 civarında"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1-A: 8-3=5, tahminimiz tutarlı. 2-B: 20-7=13, tahminimiz tutarlı. 3-C: 14-6=8, tahminimiz tutarlı."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Problemleri çözünüz ve kontrol ediniz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "orta",
+          "surec_bileseni": "f",
+          "puan": 15,
+          "govde_md": "Bakkalda 25 bardak çikolata vardı. Ali 9 tanesini aldı. Bakkalda kaç bardak çikolata kaldı?",
+          "gorsel": null,
+          "cevap": {"deger": 16, "birim": "bardak"},
+          "cozum_md": "25 - 9 = 16 bardak çikolata kalmıştır. Kontrol: 16 + 9 = 25, doğrudur."
+        },
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "g",
+          "puan": 15,
+          "govde_md": "Zeynep'in 18 boyası var. 7 tanesini kız kardeşine verdi. Ancak sonradan 5 tane yeni boya aldı. Zeynep'in şimdi kaç boyası var?",
+          "gorsel": null,
+          "cevap": {"deger": 16, "birim": "tane"},
+          "cozum_md": "18 - 7 = 11, sonra 11 + 5 = 16. Alternatif: 18 + 5 = 23, 23 - 7 = 16. Her iki yol da 16 sonucunu verir. Stratejiyi kontrol ettik, ikisi de ulaştırdı."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "h",
+          "puan": 10,
+          "govde_md": "Bir市场ta 30 portakal vardı. 12 tanesi satıldı. Bu problemi hangi günlük yaşam durumlarında da kullanabiliriz? Bir örnek yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kütüphanede 30 kitap vardı. 12 tanesi ödünç alındı. Kaç kitap kaldı? Aynı strateji (toplam - alınan = kalan) her 'başlangıç - ayrılan = kalan' problemasine uygulanabilir.",
+            "kabul_kriterleri": ["Günlük yaşamdan farklı bir örnek vermesi", "Aynı toplama/çıkarma stratejisinin uygulanabilirliğini göstermesi"]
+          },
+          "cozum_md": "Bu tür problemlerde 'toplam - ayrılan = kalan' stratejisini kullanırız. Market, kütüphane, sınıf gibi birçok alanda aynı strateji geçerlidir."
+        }
+      ]
+    }
+  ]
+}

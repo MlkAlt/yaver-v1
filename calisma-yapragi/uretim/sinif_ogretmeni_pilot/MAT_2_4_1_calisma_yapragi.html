@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Veriye Dayalı Araştırma</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Veriye Dayalı Araştırma</h1><div class='chips'><span class='chip dolu'>MAT.2.4.1</span><span class='chip'>Matematik • 2. Sınıf</span><span class='chip'>6. Tema: Veri̇ye Dayali Araştirma</span><span class='chip'>30 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Kategorik veriye dayalı en çok iki veri grubu ile çalışabilme ve veriye dayalı karar verebilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları inceleyip yanıtlayınız.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki günlük yaşam durumlarını, veri toplamaya uygun olup olmadıkları ile eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Sınıftaki öğrencilerin en sevdiği meyveyi sormak</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Havanın bugün sıcak olup olmadığını hissetmek</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Sınıftaki öğrencilerin göz rengini saymak</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> Bir arkadaşın bugün ne yediğini sormak</div></div><div><div><b>A)</b> Veri toplanabilir</div><div><b>B)</b> Veri toplanamaz</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki araştırma sorularından hangisi kategorik veri ile cevaplanabilecek doğru bir sorudur?</div></div><div class='sec tek'><div><b>A)</b> Sınıftaki en uzun öğrenci kimdir?</div><div><b>B)</b> Sınıftaki öğrencilerin en sevdiği renk nedir?</div><div><b>C)</b> Bugün kaç derece sıcaklıktır?</div><div><b>D)</b> Bir kalemin ağırlığı kaç gramdır?</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları veri toplama ve gösterme adımlarını düşünerek cevaplayınız.</em><span class='bpuan'>30 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">10p</span><div class="smetin">Sınıf olarak bir araştırma yapacaksınız. Verileri toplamak için hangisini yapmanız gerekir?</div></div><div class='sec tek'><div><b>A)</b> Doğrudan sonuçları yazmak</div><div><b>B)</b> Kime ne soracağınızı ve nasıl soracağınızı planlamak</div><div><b>C)</b> Sadece öğretmenin sorduğu soruları cevaplamak</div><div><b>D)</b> Arkadaşlarınızın cevaplarını dinlememek</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">10p</span><div class="smetin">Verileri göstermek için kullanılan tablolardan biri <span class='bosluk'></span> tablosudur. Verilerin sütunlarla gösterildiği grafiğe <span class='bosluk'></span> grafik denir.</div></div><div class='havuz'><span>çetele</span><span>sıklık</span><span>çizgi</span><span>sütun</span></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">10p</span><div class="smetin">Sınıftaki öğrencilerin en sevdiği meyveler sorulmuştur. Aşağıdaki çetele tablosunu doldurunuz.</div></div><table><tr><th>Meyve</th><th>Oy Sayısı</th></tr><tr><td>Elma</td><td>III</td></tr><tr><td>Muz</td><td>IIII I</td></tr><tr><td></td><td>III</td></tr><tr><td>Portakal</td><td>II</td></tr></table></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları verileri analiz ederek ve yorumlayarak cevaplayınız.</em><span class='bpuan'>50 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Sınıftaki öğrencilerin göz renkleri sorulmuştur. Sonuçlar: Kahverengi 8, Mavi 5, Yeşil 3, Koyu Kahverengi 6. Aşağıdaki ifadeleri D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>En çok tekrar eden göz rengi Kahverengi&#x27;dir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Mavi ve Yeşil&#x27;in toplamı, Kahverengi&#x27;den fazladır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>En az tekrar eden göz rengi Yeşil&#x27;dir.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Sınıftaki 20 öğrenciye &#x27;En sevdiğin kış aktivitesi hangisi?&#x27; sorulmuştur. Sonuçlar: Kayak 6, Kardan adam yapma 5, Kar topu oynamak 4, Sinema 3, Evde kalmak 2. Aşağıdaki ifadeleri D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>En çok sevilen kış aktivitesi Kayak&#x27;tır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Kar topu oynamak, Sinema&#x27;dan daha az oy almıştır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Evde kalmak, en az oy alan aktivitedir.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">20p</span><div class="smetin">Sınıfça düzenlenen şenlik için hangi meyve ikramı yapılacağına karar verilecek. Yukarıdaki verilere (Elma 8, Muz 6, Çilek 4, Kavun 2) dayanarak hangi meyveyi önerirsin? Neden?</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.2.4.1</span><span class='chip'>Veriye Dayalı Araştırma</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-A, 2-B, 3-A, 4-B<div class='ak-cozum'>En sevdiği meyveyi sormak ve göz rengini saymak veri toplama işidir. Hissederek sıcaklığını bilmek ve bir arkadaşın ne yediğini sormak ise istatistiksel veri toplama değildir.</div></div><div class='ak-soru'><b>2.</b> <b>B</b><div class='ak-cozum'>Renk kategorik bir veridir (kırmızı, mavi, yeşil...). Uzunluk, sıcaklık ve ağırlık ise sayısal veridir. Bu yüzden sadece B seçeneği kategorik veri ile cevaplanabilir.</div></div><div class='ak-soru'><b>3.</b> <b>B</b><div class='ak-cozum'>Veri toplamadan önce kime sorulacağı, nasıl sorulacağı ve hangi bilginin kaydedileceği planlanmalıdır. Doğrudan sonuç yazmak veya başkalarının cevaplarını dinlemek planlama değildir.</div></div><div class='ak-soru'><b>4.</b> (1) çetele, (2) sütun<div class='ak-cozum'>Verileri toplarken kullanılan tabloya çetele tablosu denir. Verileri sütunlarla gösteren grafik türüne sütun grafiği denir.</div></div><div class='ak-soru'><b>5.</b> {&quot;r2c0&quot;: &quot;Çilek&quot;}<div class='ak-cozum'>Tabloda eksik kalan Meyve adı bulunmalıdır. 3 tane çetele işareti olan satırın Meyve adı yazılmalıdır. Soruda 4 farklı meyve verildiği için eksik olan meyve adı Çilek&#x27;tir.</div></div><div class='ak-soru'><b>6.</b> 1-D, 2-Y, 3-D<div class='ak-cozum'>1. Doğrudur: Kahverengi 8 ile en çok tekrar eden renktir. 2. Yanlıştır: Mavi+Yeşil=8, Kahverengi ile eşittir. 3. Doğrudur: Yeşil 3 ile en az tekrar eden renktir.</div></div><div class='ak-soru'><b>7.</b> 1-D, 2-Y, 3-D<div class='ak-cozum'>1. Doğrudur: Kayak 6 oy ile en çok oy alan aktivitedir. 2. Yanlıştır: Kar topu 4, Sinema 3&#x27;ten fazladır. 3. Doğrudur: Evde kalmak 2 oy ile en az oy alan aktivitedir.</div></div><div class='ak-soru'><b>8.</b> Elma ikramı yapılmasını öneririm. Çünkü 20 öğrenciden 8&#x27;i (en fazla) Elma&#x27;yı sevdiğini belirtmiştir. Elma, en çok oy alan meyve olduğu için en fazla öğrencinin keyif alacağı seçim budur.<div class='ak-cozum'>Bu soruda verileri yorumlayıp karar vermek beklenmektedir. En çok oy alan meyve Elma (8 oy) olduğu için en mantıklı öneri budur.</div></div></div></body></html>

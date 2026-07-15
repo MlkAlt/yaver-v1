@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Paraları Değerlerine Göre İlişkilendirme",
+    "kazanim": {
+      "kod": "MAT.2.1.8",
+      "ad": "Paraları değerlerine göre ilişkilendirerek çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Paraları değerlerine göre inceleyerek madeni paraları belirler.",
+        "b": "Kuruş ve Türk lirası arasındaki ilişkileri belirler."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf para birimi kazanımı incelendi",
+      "notlar": [
+        "Güncel Türk lirası ve kuruş değerleri kullanıldı",
+        "Madeni paralar görsel betimleme ile verildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki madeni paraları değerleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Küçük, gümüş renkli, üzerinde 5 yazan para"},
+            {"no": 2, "metin_md": "Orta boy, altın renkli, üzerinde 50 yazan para"},
+            {"no": 3, "metin_md": "Büyük, gümüş renkli, üzerinde 1 yazan para"},
+            {"no": 4, "metin_md": "Küçük, altın renkli, üzerinde 25 yazan para"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "5 kuruş"},
+            {"harf": "B", "metin_md": "50 kuruş"},
+            {"harf": "C", "metin_md": "1 lira"},
+            {"harf": "D", "metin_md": "25 kuruş"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "5 yazan para 5 kuruştur (A). 50 yazan para 50 kuruştur (B). 1 yazan para 1 liradır (C). 25 yazan para 25 kuruştur (D)."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "1 lira kaç kuruş eder?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "5 kuruş"},
+            {"harf": "B", "metin_md": "10 kuruş"},
+            {"harf": "C", "metin_md": "50 kuruş"},
+            {"harf": "D", "metin_md": "100 kuruş"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "1 lira = 100 kuruştur. Doğru yanıt D seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki pariteşmelerini tamamlayınız.\n\n2 lira = ____(1)____ kuruş\n150 kuruş = ____(2)____ lira ____(3)____ kuruş\n75 kuruş = ____(4)____ lira ____(5)____ kuruş",
+          "gorsel": null,
+          "kelime_havuzu": ["200", "1", "50", "0", "75"],
+          "cevap": {"1": "200", "2": "1", "3": "50", "4": "0", "5": "75"},
+          "cozum_md": "2 lira = 2×100=200 kuruş. 150 kuruş = 1 lira 50 kuruş. 75 kuruş = 0 lira 75 kuruş."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "50 kuruş, 1 liranın yarısıdır.", "cevap": true, "gerekce_md": "1 lira=100 kuruştur. 50 kuruş, 100'ün yarısıdır."},
+            {"no": 2, "metin_md": "25 kuruş, 1 liranın çeyreğidir.", "cevap": true, "gerekce_md": "100÷4=25. 25 kuruş 1 liranın çeyreğidir."},
+            {"no": 3, "metin_md": "3 tane 50 kuruş, 2 lira eder.", "cevap": false, "gerekce_md": "3×50=150 kuruş=1 lira 50 kuruş. 2 lira değil."},
+            {"no": 4, "metin_md": "4 tane 25 kuruş, 1 lira eder.", "cevap": true, "gerekce_md": "4×25=100 kuruş=1 lira. Doğrudur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "1. Doğru: 50 kuruş yarım liradır. 2. Doğru: 25 kuruş çeyrek liradır. 3. Yanlış: 3×50=150 kuruş=1.5 liradır. 4. Doğru: 4×25=100 kuruş=1 liradır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Cebinde 1 lira ve 50 kuruş var. Toplam paran kaç liradır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "1.50 lira"},
+            {"harf": "B", "metin_md": "2 lira"},
+            {"harf": "C", "metin_md": "1.25 lira"},
+            {"harf": "D", "metin_md": "0.75 lira"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "1 lira + 50 kuruş = 1 lira + 0.50 lira = 1.50 lira. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kumbarada 2 lira 50 kuruş var. Arkadaşın sana 1 lira 75 kuruş verdi. Kumbarandaki toplam para kaç liradır?",
+          "gorsel": null,
+          "cevap": {"deger": 4.25, "birim": "lira", "tolerans_yuzde": 0},
+          "cozum_md": "2.50 + 1.75 = 4.25 lira. Kumbarandaki toplam para 4.25 liradır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Bir dükkanda 3 lira 50 kuruşluk bir oyuncak var. Cebinde 2 lira ve 50 kuruş var. Oyuncağı alabilmen için ne kadar paraya ihtiyacın var? Açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Oyuncağın fiyatı 3.50 lira. Cebimde 2.50 lira var. 3.50-2.50=1.00 lira eksik. 1 lira paraya ihtiyacım var.",
+            "kabul_kriterleri": [
+              "Fiyat ile cebindeki parayı doğru söylemiş",
+              "Farkı doğru hesaplamış",
+              "Sonucu açıkça ifade etmiş"
+            ]
+          },
+          "cozum_md": "3.50-2.50=1.00 lira. 1 lira paraya ihtiyaç vardır."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "50 kuruşluk 4 tane para 2 lira eder.", "cevap": true, "gerekce_md": "4×50=200 kuruş=2 lira."},
+            {"no": 2, "metin_md": "25 kuruşluk 3 tane para 1 lira eder.", "cevap": false, "gerekce_md": "3×25=75 kuruş=0.75 lira. 1 lira değil."},
+            {"no": 3, "metin_md": "1 liralık 5 tane madeni para 5 lira eder.", "cevap": true, "gerekce_md": "5×1=5 lira. Doğrudur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Doğru: 4×50=200 kuruş=2 lira. 2. Yanlış: 3×25=75 kuruş=0.75 lira. 3. Doğru: 5×1=5 lira."
+        }
+      ]
+    }
+  ]
+}

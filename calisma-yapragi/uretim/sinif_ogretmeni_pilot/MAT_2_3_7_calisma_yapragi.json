@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Simetrik Şekilleri Ayırt Etme",
+    "kazanim": {
+      "kod": "MAT.2.3.7",
+      "ad": "Verilen şekiller arasından simetrik olanları ayırt edebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ (2)",
+      "surec_bilesenleri": {
+        "a": "Simetrik ve asimetrik şekilleri tanır.",
+        "b": "Simetrik şekillerde simetri eksenini belirler.",
+        "c": "Simetrik olan şekilleri diğerlerinden ayırt eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf geometri ünitesi incelendi",
+      "notlar": [
+        "2. sınıf düzeyine uygun olarak basit simetri örnekleri kullanıldı",
+        "Simetri: kağıdı ikiye katladığında iki tarafın birbirinin aynısı olması"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir kağıdı ortadan ikiye katladığımızda iki taraf birbirinin aynısıysa bu şekle ne deriz?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Asimetrik"},
+            {"harf": "B", "metin_md": "Simetrik"},
+            {"harf": "C", "metin_md": "Düzgün"},
+            {"harf": "D", "metin_md": "Kesik"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kağıdı katladığında iki taraf birbirinin aynısıysa bu şekil simetriktir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki şekillerin simetrik olup olmadığını eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kelebek"},
+            {"no": 2, "metin_md": "Yaprak"},
+            {"no": 3, "metin_md": "Araba (yan görünüş)"},
+            {"no": 4, "metin_md": "Yüz"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Simetrik"},
+            {"harf": "B", "metin_md": "Asimetrik"},
+            {"harf": "C", "metin_md": "Simetrik"},
+            {"harf": "D", "metin_md": "Simetrik"}
+          ],
+          "cevap": {"1": "A", "2": "C", "3": "B", "4": "D"},
+          "cozum_md": "Kelebek simetriktir (sol-sağ). Yaprak simetriktir (sol-sağ). Araba yan görünüşte asimetriktir. Yüz simetriktir (sol-sağ)."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Simetrik bir şekli kağıdı ortadan katladığımızda sol taraf ____(1)____ tarafın aynısıdır. Simetri ekseni kağıdın ____(2)____ ortasından geçen bir çizgidir.",
+          "gorsel": null,
+          "kelime_havuzu": ["sağ", "sol", "dikey", "yatay"],
+          "cevap": {"1": "sağ", "2": "dikey"},
+          "cozum_md": "Simetrik şekillerde sol taraf sağ tarafın aynısıdır. Simetri ekseni genellikle dikey (dikey) ortadan geçen bir çizgidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kareyi ortadan dikey olarak katladığımızda simetri ekseni hangi yöndedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yatay"},
+            {"harf": "B", "metin_md": "Dikey"},
+            {"harf": "C", "metin_md": "Çapraz"},
+            {"harf": "D", "metin_md": "Simetri ekseni yoktur"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kareyi dikey olarak katladığımızda simetri ekseni dikeydir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki şekillerden hangisi simetrik **değildir**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kalp"},
+            {"harf": "B", "metin_md": "Yıldız"},
+            {"harf": "C", "metin_md": "Rastgele leke"},
+            {"harf": "D", "metin_md": "Daire"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Rastgele lekenin simetri ekseni yoktur. Kalp, yıldız ve daire simetriktir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Günlük hayatta simetrik olan 3 nesne ve asimetrik olan 2 nesne sayınız. Her biri için neden simetrik/asimetrik olduğunu açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Simetrik: Yüz (sol ve sağ tarafı aynı), Kelebek (kanatlar simetrik), Daire (her yönden aynı). Asimetrik: Rastgele leke (düzgün bir simetri ekseni yok), Kırık cam (düzensiz şekil).",
+            "kabul_kriterleri": [
+              "En az 2 simetrik nesne saymış",
+              "En az 1 asimetrik nesne saymış",
+              "Her biri için simetri durumunu açıklamış"
+            ]
+          },
+          "cozum_md": "Simetrik: yüz, kelebek, daire. Asimetrik: rastgele leke, kırık cam."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir dairenin simetri ekseni kaç tane olabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece 1 tane"},
+            {"harf": "B", "metin_md": "Sadece 2 tane"},
+            {"harf": "C", "metin_md": "Sonsuz sayıda"},
+            {"harf": "D", "metin_md": "Hiç yok"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Dairenin merkezinden geçen her çizgi bir simetri eksenidir. Sonsuz sayıda simetri ekseni vardır."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir şeklin simetrik olması için sadece sol-sağ simetrisinin olması yeterlidir.", "cevap": true, "gerekce_md": "Sol-sağ simetrisi olan bir şekil simetriktir."},
+            {"no": 2, "metin_md": "Tüm çokgenler simetriktir.", "cevap": false, "gerekce_md": "Birçok çokgen simetrik değildir, düzensiz çokgenler simetrik olmayabilir."},
+            {"no": 3, "metin_md": "Simetri ekseninin iki tarafı birbirinin aynısıdır.", "cevap": true, "gerekce_md": "Simetri ekseninin iki tarafındaki kısımlar birbirinin aynısıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Doğrudur: Sol-sağ simetrisi olan şekil simetriktir. 2. Yanlıştır: Tüm çokgenler simetrik değildir. 3. Doğrudur: Simetri ekseninin iki tarafı birbirinin aynısıdır."
+        }
+      ]
+    }
+  ]
+}

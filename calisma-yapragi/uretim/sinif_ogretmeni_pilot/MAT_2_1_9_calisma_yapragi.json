@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Zaman Ölçü Birimleri",
+    "kazanim": {
+      "kod": "MAT.2.1.9",
+      "ad": "Zaman ölçü birimlerini okuyabilme ve yazabilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Zaman ölçü birimlerini (saat, dakika, saniye) tanır.",
+        "b": "Saat ve dakika ilişkisini kavrar.",
+        "c": "Zamanı dijital ve analog saat gösteriminde okur ve yazar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf zaman ölçü birimleri kazanımı incelendi",
+      "notlar": [
+        "Analog ve dijital saat gösterimi görsel betimleme ile verildi",
+        "Günlük zaman dilimlerine örnekler verildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki zaman birimlerini kullanıldıkları yere göre eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Okulun başlama saati"},
+            {"no": 2, "metin_md": "Bir dersin süresi"},
+            {"no": 3, "metin_md": "Yarışlarda zaman ölçümü"},
+            {"no": 4, "metin_md": "Akşam yemeği saati"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "8.00"},
+            {"harf": "B", "metin_md": "40 dakika"},
+            {"harf": "C", "metin_md": "Saniye"},
+            {"harf": "D", "metin_md": "18.30"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Okul genellikle 8.00'de başlar (A). Bir ders 40 dakika sürer (B). Yarışlarda saniye ölçülür (C). Akşam yemeği 18.30'da yenir (D)."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "1 saat kaç dakikadır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "10 dakika"},
+            {"harf": "B", "metin_md": "30 dakika"},
+            {"harf": "C", "metin_md": "45 dakika"},
+            {"harf": "D", "metin_md": "60 dakika"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "1 saat = 60 dakikadır. Doğru yanıt D seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki zaman dönüşümlerini tamamlayınız.\n\n2 saat = ____(1)____ dakika\n90 dakika = ____(2)____ saat ____(3)____ dakika\n1 saat 15 dakika = ____(4)____ dakika",
+          "gorsel": null,
+          "kelime_havuzu": ["120", "1", "30", "75"],
+          "cevap": {"1": "120", "2": "1", "3": "30", "4": "75"},
+          "cozum_md": "2×60=120 dakika. 90÷60=1 saat 30 dakika. 1×60+15=75 dakika."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki saat gösterimlerini inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Saat 3:00 gösterdiğinde akrep 3'te, yelkovan 12'dedir.", "cevap": true, "gerekce_md": "Tam saatlerde yelkovan 12'de, akrep ilgili sayıda olur."},
+            {"no": 2, "metin_md": "Saat 6:30 gösterdiğinde akrep 6'da, yelkovan 6'dadır.", "cevap": false, "gerekce_md": "30'da yelkovan 6'da olur ama akrep 6 ile 7 arasındadır, tam 6'da değil."},
+            {"no": 3, "metin_md": "Akşam 20.00, gece saat 8.00'dir.", "cevap": true, "gerekce_md": "24'lük sistemde 20.00, 12'lik sistemde 8.00 PM'e karşılık gelir."},
+            {"no": 4, "metin_md": "Bir ders 40 dakika sürer. 3 ders 2 saat eder.", "cevap": true, "gerekce_md": "3×40=120 dakika=2 saat. İfade doğrudur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": true}},
+          "cozum_md": "1. Doğru: Tam 3:00'te akrep 3'te, yelkovan 12'dedir. 2. Yanlış: Akrep 6 ile 7 arasındadır. 3. Doğru: 20.00=8.00 PM. 4. Doğru: 3×40=120 dk=2 saat."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Saat 10:15 gösterdiğinde yelkovan hangi sayıyı gösterir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3'te"},
+            {"harf": "B", "metin_md": "10'da"},
+            {"harf": "C", "metin_md": "12'de"},
+            {"harf": "D", "metin_md": "6'da"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "15 dakika = çeyrek saat. Yelkovan 3'ü gösterir. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Sabah 8.00'de okula başladın. Okul 3 saat sürdü. Kaçta bitti?",
+          "gorsel": null,
+          "cevap": {"deger": 11, "birim": "00", "tolerans_yuzde": 0},
+          "cozum_md": "8.00 + 3 saat = 11.00. Okul saat 11.00'de bitti."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Teyzen sana 'Akşam yemeğine 45 dakika kaldı. Şimdi saat 17:30. Yemek saat kaçta olacak?' dedi. Saati hesaplayınız ve açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Saat 17:30. 45 dakika eklersek: 30+45=75 dakika. 75 dakika=1 saat 15 dakika. 17+1=18 saat, 00+15=15 dakika. Yemek saat 18.15'te olacak.",
+            "kabul_kriterleri": [
+              "17:30'dan başladığını belirtmiş",
+              "45 dakika eklediğini göstermiş",
+              "Sonucun 18:15 olduğunu söylemiş"
+            ]
+          },
+          "cozum_md": "17:30 + 45 dk = 17:75 = 18:15. Yemek saat 18.15'te olacak."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir film 1 saat 40 dakika sürüyor. Film saat 19.00'da başlıyor. Film saat kaçta bitiyor?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "20.00"},
+            {"harf": "B", "metin_md": "20.30"},
+            {"harf": "C", "metin_md": "20.40"},
+            {"harf": "D", "metin_md": "21.00"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "19.00 + 1 saat = 20.00. 20.00 + 40 dakika = 20.40. Film saat 20.40'ta biter. Doğru yanıt C seçeneğidir."
+        }
+      ]
+    }
+  ]
+}

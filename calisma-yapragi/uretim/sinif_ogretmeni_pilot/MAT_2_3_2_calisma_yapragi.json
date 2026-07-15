@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Cisim Modelleriyle Yapılar Sentezleme",
+    "kazanim": {
+      "kod": "MAT.2.3.2",
+      "ad": "Geometrik cisim modellerini kullanarak yapılar sentezleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "4. TEMA: NESNELERİN GEOMETRİSİ (1)",
+      "surec_bilesenleri": {
+        "a": "Geometrik yapılardaki geometrik cisimleri belirler.",
+        "b": "Geometrik cisimler arasında ilişki kurar.",
+        "c": "Geometrik cisimleri birleştirerek özgün bir yapı oluşturur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf geometri ünitesi incelendi",
+      "notlar": [
+        "2. sınıf düzeyine uygun olarak somut nesne ve yapı örnekleri kullanıldı",
+        "Geometrik cisim modelleri: küp, küre, silindir, koni"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir evin maketi yapılacak. Aşağıdaki cisimlerden hangisi evin **çatısı** için en uygun olanıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Küp"},
+            {"harf": "B", "metin_md": "Küre"},
+            {"harf": "C", "metin_md": "Koni"},
+            {"harf": "D", "metin_md": "Silindir"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Koni, çatı yapmak için en uygun cisimdir. Küp duvarlar, silindir baca, küre ise dekoratif öğe olabilir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki yapılardaki geometrik cisimleri eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kule (lego)"},
+            {"no": 2, "metin_md": "Tren"},
+            {"no": 3, "metin_md": "Kalem kutusu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Küp + küp + küp (üst üste)"},
+            {"harf": "B", "metin_md": "Silindir + küp"},
+            {"harf": "C", "metin_md": "Küre + silindir"}
+          ],
+          "cevap": {"1": "A", "2": "C", "3": "B"},
+          "cozum_md": "Kule üst üste konmuş küplerden oluşur. Tren silindir tekerlekler ve küp vagonlardan oluşur. Kalem kutusu silindir kalem ve küp kutudan oluşur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir robot yapıldı. Robotun kafası ____(1)____ cisminde, gövdesi ____(2)____ cisminde, kolları ____(3)____ cisimlerinden yapılmıştır.",
+          "gorsel": null,
+          "kelime_havuzu": ["küp", "küre", "silindir", "koni"],
+          "cevap": {"1": "küre", "2": "küp", "3": "silindir"},
+          "cozum_md": "Robotun kafası küre, gövdesi küp, kolları silindir cisimlerinden yapılmıştır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kale inşa edilecek. Kuleler yuvarlak olacak, duvarlar ise düzgün olacak. Aşağıdaki cisimlerden hangisi kule için, hangisi duvar için kullanılmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kule: küp, Duvar: silindir"},
+            {"harf": "B", "metin_md": "Kule: silindir, Duvar: küp"},
+            {"harf": "C", "metin_md": "Kule: küre, Duvar: küp"},
+            {"harf": "D", "metin_md": "Kule: koni, Duvar: silindir"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Silindir yuvarlak kuleler için, küp ise düz duvarlar için en uygun cisimlerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Her yapının altında hangi geometrik cisimlerin kullanıldığını belirleyiniz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Yapı", "Geometrik Cisimler", "Amaç"],
+            "satirlar": [
+              ["Ev", "Küp + Koni", "__?__"],
+              ["Robot", "__?__", "Eğlenceli oyuncak"],
+              ["Kule", "Silindir + Silindir", "__?__"]
+            ]
+          },
+          "cevap": {"r0c2": "Yaşam alanı", "r1c1": "Küre + Küp + Silindir", "r2c2": "Yüksek yapı"},
+          "cozum_md": "Ev yapısında küp (duvarlar) ve koni (çatı) kullanılır. Robot yapısında küre (kafa), küp (gövde) ve silindir (kol) kullanılır. Kule yapısında silindirler üst üste konularak yüksek yapı oluşturulur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Elinize 3 küp, 2 silindir ve 1 küre verdik. Bu cisimleri kullanarak özgün bir yapı tasarlayınız. Hangi cisimleri nereye koyduğunuzu açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "3 küpü alt alta koyarak gövdeyi, 2 silindiri yanlara kol olarak, 1 küreyi de başına koyarak bir robot yaptım. Küpler gövdeyi oluşturdu, silindirler kolları, küre de kafayı temsil etti.",
+            "kabul_kriterleri": [
+              "En az 2 farklı geometrik cisim kullanmış",
+              "Her cismin yerini belirtmiş",
+              "Cisimlerin birlikte nasıl bir yapı oluşturduğunu açıklamış"
+            ]
+          },
+          "cozum_md": "Örnek çözüm: 3 küp üst üste gövde, 2 silindir yanlara kol, 1 küre baş. Birlikte bir robot yapısı oluşur."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir yapıda 2 küp, 1 silindir ve 1 koni kullanılmıştır. Bu yapı aşağıdakilerden hangisine benzeyebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir ev (küp duvarlar + silindir baca + koni çatı)"},
+            {"harf": "B", "metin_md": "Bir araba (küp tekerlek + silindir gövde)"},
+            {"harf": "C", "metin_md": "Bir masa (küp ayak + silindir tabla)"},
+            {"harf": "D", "metin_md": "Bir sandalye (küp oturak + silindir ayak)"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "2 küp (duvarlar), 1 silindir (baca), 1 koni (çatı) bir ev yapısını oluşturur."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadelerden hangisi **yanlıştır**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Geometrik cisimler birleştirilerek yeni yapılar oluşturulabilir."},
+            {"harf": "B", "metin_md": "Bir yapıda sadece bir tür geometrik cisim kullanılabilir."},
+            {"harf": "C", "metin_md": "Farklı geometrik cisimler bir yapının farklı bölümlerinde kullanılabilir."},
+            {"harf": "D", "metin_md": "Cisimlerin bir araya gelmesiyle özgün yapılar sentezlenebilir."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "B seçeneği yanlıştır. Yapılarda küp, silindir, küre gibi farklı geometrik cisimler birlikte kullanılabilir."
+        }
+      ]
+    }
+  ]
+}

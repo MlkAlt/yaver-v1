@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Geometrik Cisim ve Şekillerin Biçimsel Özellikleri</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Geometrik Cisim ve Şekillerin Biçimsel Özellikleri</h1><div class='chips'><span class='chip dolu'>MAT.2.3.4</span><span class='chip'>Matematik • 2. Sınıf</span><span class='chip'>4. Tema: Nesneleri̇n Geometri̇si̇ (1)</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Geometrik cisim ve şekillerin yön, konum veya büyüklükleri değiştiğinde biçimsel özelliklerinin değişmediğini yorumlayabilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları inceleyip yanıtlayınız.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Bir kare kağıdı 45 derece döndürdüğümüzde şeklin özelliği değişir mi?</div></div><div class='sec'><div><b>A)</b> Evet, artık üçgen olur</div><div><b>B)</b> Hayır, hâlâ karedir</div><div><b>C)</b> Evet, artık daire olur</div><div><b>D)</b> Evet, artık dikdörtgen olur</div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Bir küpü ters çevirdiğimizde artık küp olmaz.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Bir daireyi büyüttüğümüzde artık daire olmaz.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Bir üçgeni farklı bir yere koyduğumuzda üçgen olarak kalır.</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">Bir silindir kutusu yatay konumdan dikey konuma getirildiğinde aşağıdakilerden hangisi doğrudur?</div></div><div class='sec'><div><b>A)</b> Artık küp olmuştur</div><div><b>B)</b> Hâlâ silindirdir</div><div><b>C)</b> Artık koni olmuştur</div><div><b>D)</b> Artık küre olmuştur</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki dönüşüm örneklerini eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Küçük kare → Büyük kare</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Yatay dikdörtgen → Dikey dikdörtgen</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Masa üstünde küp → Sandalye üstünde küp</div></div><div><div><b>A)</b> Büyüklük değişimi</div><div><b>B)</b> Yön değişimi</div><div><b>C)</b> Konum değişimi</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">10p</span><div class="smetin">Bir daireyi küçükten büyüğe çevirdiğimizde daire <span class='bosluk'></span> olur. Bir üçgeni döndürdüğümüzde üçgen <span class='bosluk'></span> olur.</div></div><div class='havuz'><span>aynı</span><span>değişir</span><span>farklı</span><span>dönüşür</span></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Elinizde küçük bir küp var. Bu küpü yere bırakın, sonra ters çevirin, sonra da büyük bir kutunun içine koyun. Her adımda küpün biçimsel özellikleri değişti mi? Açıklayınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Bir dikdörtgeni kıvırdığımızda (bükerek yuvarlak yaptığımızda) aşağıdakilerden hangisi doğrudur?</div></div><div class='sec'><div><b>A)</b> Artık silindir olmuştur</div><div><b>B)</b> Dikdörtgen olarak kalmıştır</div><div><b>C)</b> Daire olmuştur</div><div><b>D)</b> Koni olmuştur</div></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">10p</span><div class="smetin">Bir daireyi kağıda çizip kestik. Bu daireyi farklı boyutlarda 3 kez daha çizip kestik. Tüm daireler aynı mıdır?</div></div><div class='sec tek'><div><b>A)</b> Hayır, boyutları farklı olduğu için farklıdır</div><div><b>B)</b> Evet, hepsi daire olduğu için aynıdır</div><div><b>C)</b> Sadece ikisi aynıdır</div><div><b>D)</b> Hiçbiri diğerine benzemez</div></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.2.3.4</span><span class='chip'>Geometrik Cisim ve Şekillerin Biçimsel Özellikleri</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> <b>B</b><div class='ak-cozum'>Kare döndürülse de hâlâ karedir. Yön değişimi şeklin özelliğini değiştirmez.</div></div><div class='ak-soru'><b>2.</b> 1-Y, 2-Y, 3-D<div class='ak-cozum'>1. Yanlıştır: Küp ters çevrildiğinde hâlâ küptür. 2. Yanlıştır: Daire büyüdüğünde hâlâ dairedir. 3. Doğrudur: Üçgenin konumu değişse de üçgen olarak kalır.</div></div><div class='ak-soru'><b>3.</b> <b>B</b><div class='ak-cozum'>Silindirin yönü değişse de hâlâ silindirdir. Yön değişimi şeklin türünü değiştirmez.</div></div><div class='ak-soru'><b>4.</b> 1-A, 2-B, 3-C<div class='ak-cozum'>Küçük karenin büyümesi büyüklük değişimidir. Yatay dikdörtgenin dikey olması yön değişimidir. Masa üstünden sandalye üstüne geçiş konum değişimidir.</div></div><div class='ak-soru'><b>5.</b> (1) aynı, (2) aynı<div class='ak-cozum'>Daire büyüdüğünde hâlâ dairedir (aynı). Üçgen döndürülse de hâlâ üçgendir (aynı).</div></div><div class='ak-soru'><b>6.</b> Küpü yere bıraktığımda hâlâ küptür. Ters çevirdiğimde yine küptür, sadece yönü değişmiştir. Büyük kutunun içine koyduğumda ise hâlâ küptür, sadece konumu değişmiştir. Hiçbir adımda küpün biçimsel özellikleri (6 yüzey, 12 kenar, 8 köşe) değişmemiştir.<div class='ak-cozum'>Küp herhangi bir dönüşümde (döndürme, taşıma, büyütme) hâlâ küptür. Biçimsel özellikleri değişmez.</div></div><div class='ak-soru'><b>7.</b> <b>A</b><div class='ak-cozum'>Dikdörtgen kâğıdı kıvırdığımızda silindir (tüp) şekli oluşur. Dikdörtgenin biçimsel özellikleri değişerek silindire dönüşmüştür.</div></div><div class='ak-soru'><b>8.</b> <b>B</b><div class='ak-cozum'>Tüm daireler daire oldukları için aynı geometrik shapedir. Boyutları farklı olsa da hepsi dairedir.</div></div></div></body></html>

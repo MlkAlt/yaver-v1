@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Hedefe Ulaşmak İçin Strateji Belirleme</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Hedefe Ulaşmak İçin Strateji Belirleme</h1><div class='chips'><span class='chip dolu'>MAT.2.3.6</span><span class='chip'>Matematik • 2. Sınıf</span><span class='chip'>5. Tema: Nesneleri̇n Geometri̇si̇ (2)</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Mesafe ve yönleri içerecek şekilde hedefe ulaşmak için uygun stratejilere karar verebilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları inceleyip yanıtlayınız.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Ali okula gitmek istiyor. Okul evinin doğusunda. Ali hangi yöne gitmelidir?</div></div><div class='sec'><div><b>A)</b> Kuzeye</div><div><b>B)</b> Doğuya</div><div><b>C)</b> Batıya</div><div><b>D)</b> Güneye</div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki nesnelerin yönlerini harita üzerindeki konumlarıyla eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Kuzey yıldızı</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Güneş (öğlen)</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Deniz (haritada sol taraf)</div></div><div><div><b>A)</b> Üst kısım</div><div><b>B)</b> Alt kısım</div><div><b>C)</b> Sol kısım</div></div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">Haritada A noktası B&#x27;nin kuzeyindedir. B noktası C&#x27;nin <span class='bosluk'></span>undadır. C noktası D&#x27;nin batısındadır. D noktası A&#x27;nın <span class='bosluk'></span>undadır.</div></div><div class='havuz'><span>kuzey</span><span>güney</span><span>doğu</span><span>batı</span></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">10p</span><div class="smetin">Mehmet parka gitmek için 3 yol biliyor. Yol A: 100 metre, Yol B: 150 metre, Yol C: 80 metre. En kısa yolu seçerse hangi yolu seçmelidir?</div></div><div class='sec'><div><b>A)</b> Yol A (100 m)</div><div><b>B)</b> Yol B (150 m)</div><div><b>C)</b> Yol C (80 m)</div><div><b>D)</b> Fark etmez</div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">10p</span><div class="smetin">Bir haritada okulun kuzeyinde park, batısında kütüphane, doğusunda market vardır. Zeynep kütüphaneden okula gitmek istiyor. Hangi yöne gitmelidir?</div></div><div class='sec'><div><b>A)</b> Kuzeye</div><div><b>B)</b> Güneye</div><div><b>C)</b> Doğuya</div><div><b>D)</b> Batıya</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">20p</span><div class="smetin">Can evinden okula gitmek için iki yol bulmuştur: Yol A doğrudan 200 metre, Yol B ise 150 metre + 100 metre (iki koldan). Ancak Yol B&#x27;nin 100 metrelik kısmı kapalıdır. Can şimdi ne yapmalıdır?</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Bir haritada 3 nokta var: Ev, Okul, Park. Ev→Okul 300m doğu, Ev→Park 200m kuzey. Okul→Park ise 250m kuzey-batı. Ali evinden parka gidecek. En kısa yol hangisidir?</div></div><div class='sec tek'><div><b>A)</b> Ev → Park (200m kuzey)</div><div><b>B)</b> Ev → Okul → Park (300m + 250m = 550m)</div><div><b>C)</b> Ev → Okul (300m) + Okul → Park (250m)</div><div><b>D)</b> İki yol da aynı</div></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Hedefe ulaşmak için her zaman en kısa yolu seçmek gerekir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Ölçüt değiştiğinde planı güncellemek gerekir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Yönleri bilmek hedefe ulaşmada yardımcı olur.</div></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.2.3.6</span><span class='chip'>Hedefe Ulaşmak İçin Strateji Belirleme</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> <b>B</b><div class='ak-cozum'>Okul evin doğusunda olduğu için Ali doğuya gitmelidir.</div></div><div class='ak-soru'><b>2.</b> 1-A, 2-B, 3-C<div class='ak-cozum'>Kuzey yıldızı kuzeyi (üst) gösterir. Güneş öğlen güneydedir (alt). Deniz haritada sol tarafta (batı) olabilir.</div></div><div class='ak-soru'><b>3.</b> (1) güney, (2) doğu<div class='ak-cozum'>A B&#x27;nin kuzeyindeyse B A&#x27;nın güneyindedir. C D&#x27;nin batısındaysa D C&#x27;nin doğusundadır.</div></div><div class='ak-soru'><b>4.</b> <b>C</b><div class='ak-cozum'>80 metre en kısa mesafedir. Yol C en kısa yoldur.</div></div><div class='ak-soru'><b>5.</b> <b>C</b><div class='ak-cozum'>Kütüphane okulun batısındaysa, kütüphaneden okula gitmek için doğuya gitmek gerekir.</div></div><div class='ak-soru'><b>6.</b> Yol B&#x27;nin 100 metrelik kısmı kapalı olduğu için Yol B&#x27;yi kullanamaz. Can Yol A&#x27;yı seçmelidir. Yol A 200 metre olmasına rağmen kullanılabilecek tek yoldur. Ölçüt değişikliği (kapalı yol) nedeniyle planını değiştirmiştir.<div class='ak-cozum'>Yol B kapalı olduğu için Yol A (200 m) tek seçenektir.</div></div><div class='ak-soru'><b>7.</b> <b>A</b><div class='ak-cozum'>Ev→Park 200m, Ev→Okul→Park ise 550m&#x27;dir. 200m daha kısa olduğu için direkt gidilir.</div></div><div class='ak-soru'><b>8.</b> 1-Y, 2-D, 3-D<div class='ak-cozum'>1. Yanlıştır: Bazen en kısa yol kullanılamaz. 2. Doğrudur: Ölçüt değiştiğinde plan güncellenir. 3. Doğrudur: Yönler yardımı sağlar.</div></div></div></body></html>

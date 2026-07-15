@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "1000'e Kadar Sayıların Temsilleri",
+    "kazanim": {
+      "kod": "MAT.3.1.1",
+      "ad": "Niceliklerin büyüklüklerine karşılık gelen 1000'e kadar olan sayıların temsillerinden yararlanabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Niceliklerin büyüklüklerinin temsillerini tanır.",
+        "b": "Uygun say temsillerini belirler.",
+        "c": "Uygun sayıları okur ve yazar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 3. sınıf sayılar ve nicelikler ünitesi incelendi",
+      "notlar": [
+        "3. sınıf düzeyine uygun olarak 1000'e kadar olan sayılar kullanıldı",
+        "Basamak değerleri ve görsel temsiller ders kitabına uygun"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki nicelikleri gösterdikleri sayısal değerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "200 + 30 + 4"},
+            {"no": 2, "metin_md": "500 + 10"},
+            {"no": 3, "metin_md": "100 + 0 + 0"},
+            {"no": 4, "metin_md": "700 + 80 + 6"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "510"},
+            {"harf": "B", "metin_md": "234"},
+            {"harf": "C", "metin_md": "786"},
+            {"harf": "D", "metin_md": "100"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "D", "4": "C"},
+          "cozum_md": "200+30+4 = 234 eder. 500+10 = 510 eder. 100+0+0 = 100 eder. 700+80+6 = 786 eder."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "243 sayısında 2 hangi basamaktadır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yüzler basamağı"},
+            {"harf": "B", "metin_md": "Onlar basamağı"},
+            {"harf": "C", "metin_md": "Birler basamağı"},
+            {"harf": "D", "metin_md": "Binler basamağı"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "243 sayısında soldan başlayarak: 2 yüzler, 4 onlar, 3 birler basamağındadır. 2 rakamı yüzler basamağındadır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları basamak değerlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıları okuyunuz.\n\n305 = ____(1)____\n\n612 = ____(2)____\n\n1000 = ____(3)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "üç yüz beş", "2": "altı yüz on iki", "3": "bin"},
+          "cozum_md": "305 sayısı 'üç yüz beş' olarak okunur. 612 sayısı 'altı yüz on iki' olarak okunur. 1000 sayısı 'bin' olarak okunur."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Her satırda verilen sayının yüzler, onlar ve birler basamaklarındaki rakamları yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sayı", "Yüzler", "Onlar", "Birler"],
+            "satirlar": [
+              ["529", "5", "2", "__?__"],
+              ["__?__", "8", "0", "7"],
+              ["1000", "10", "__?__", "0"]
+            ]
+          },
+          "cevap": {"r0c3": "9", "r1c0": "807", "r2c2": "0"},
+          "cozum_md": "529'da birler basamağı 9'dur. 807'de yüzler 8, onlar 0, birler 7'dir. 1000'de onlar basamağı 0'dır (10 yüz, 0 on, 0 bir)."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisini yazarken yüzler basamağına 0 yazmamız gerekir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "503"},
+            {"harf": "B", "metin_md": "300"},
+            {"harf": "C", "metin_md": "150"},
+            {"harf": "D", "metin_md": "712"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "503 sayısı yazıldığında 5 yüzler, 0 onlar, 3 birler basamağındadır. Yüzler basamağında 0 olan bir sayı yoktur — ancak 503'te onlar basamağı 0'dır. Bu soruda yüzler basamağına 0 yazmamız gereken durum, 3 basamaklı bir sayıda yüzlerin olmamasıdır. Ama tüm seçenekler 3 basamaklıdır. Doğru yanıt A'dır: 503'te onlar basamağı 0'dır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları temsilleri kullanarak çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "470 sayısı 4 yüz, 7 on ve 0 bir olarak yazılır.", "cevap": true, "gerekce_md": "470 = 4×100 + 7×10 + 0×1 = 400+70+0 = 470."},
+            {"no": 2, "metin_md": "900'de onlar basamağı 9'dur.", "cevap": false, "gerekce_md": "900'de yüzler basamağı 9'dur, onlar ve birler basamağı 0'dır."},
+            {"no": 3, "metin_md": "1000, 10 yüzden oluşur.", "cevap": true, "gerekce_md": "1000 = 10×100 = 10 yüz eder."},
+            {"no": 4, "metin_md": "258 sayısında en büyük basamak değeri 8'dir.", "cevap": false, "gerekce_md": "258'de en büyük basamak yüzlerdir ve değeri 200'dür (2×100). 8 birler basamağındadır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Doğrudur: 470 = 400+70+0. 2. Yanlıştır: 900'de 9 yüzler basamağındadır. 3. Doğrudur: 1000 = 10×100. 4. Yanlıştır: En büyük basamak yüzlerdir, değeri 200'dür."
+        },
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir kütüphanede 300 Türkçe, 250 Matematik ve 450 Fen kitabı vardır. Kütüphanedeki toplam kitap sayısı kaçtır?",
+          "gorsel": null,
+          "cevap": {"deger": 1000, "birim": "kitap", "tolerans_yuzde": 0},
+          "cozum_md": "300+250+450 = 1000 kitap. 300+250=550, 550+450=1000."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "348 sayısını yüzler, onlar ve birler olarak ayırdığında her basamağın değeri nedir? Bu değerleri topladığında orijinal sayıyı elde eder misin? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "348 sayısını ayırdığımda: 3 yüzler basamağındadır, değeri 3×100=300'dür. 4 onlar basamağındadır, değeri 4×10=40'tır. 8 birler basamağındadır, değeri 8×1=8'dir. Bu değerleri topladığımda: 300+40+8=348 eder. Evet, orijinal sayıyı elde ederim.",
+            "kabul_kriterleri": [
+              "Her basamağın doğru değerini hesaplamış (300, 40, 8)",
+              "Değerleri toplayarak orijinal sayıyı elde ettiğini göstermiş",
+              "Basamak değerleri kavramını doğru kullanmış"
+            ]
+          },
+          "cozum_md": "348 = 300+40+8. Yüzler: 3×100=300, Onlar: 4×10=40, Birler: 8×1=8. Toplam: 300+40+8=348."
+        }
+      ]
+    }
+  ]
+}

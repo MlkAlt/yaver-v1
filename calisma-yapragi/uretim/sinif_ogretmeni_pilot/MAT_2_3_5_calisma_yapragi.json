@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Standart Olmayan Sıvı Ölçme Araçlarıyla Tahmin",
+    "kazanim": {
+      "kod": "MAT.2.3.5",
+      "ad": "Standart olmayan sıvı ölçme araçları ile sıvı miktarını tahmin edebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "4. TEMA: NESNELERİN GEOMETRİSİ (1)",
+      "surec_bilesenleri": {
+        "a": "Standart olmayan sıvı ölçme araçlarına ilişkin deneyimini, tahmine konu olan sıvı miktarı ile ilişkilendirir.",
+        "b": "Belirlenen standart olmayan sıvı ölçme araçlarına göre sıvının miktarını tahmin eder.",
+        "c": "Tahminini ölçüm sonuçlarıyla karşılaştırarak tahminine ilişkin yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf ölçme ünitesi incelendi",
+      "notlar": [
+        "2. sınıf düzeyine uygun olarak bardak, şişe gibi somut örnekler kullanıldı",
+        "Standart olmayan ölçme araçları: su bardağı, çorba kasesi, şişe"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir su bardağına su doldurup başka bir kaba boşalttığımızda, bardak kaba kaç kez sığar? Bu durumda ne ölçmüş oluruz?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Suyun sıcaklığını ölçmüş oluruz"},
+            {"harf": "B", "metin_md": "Suyun ağırlığını ölçmüş oluruz"},
+            {"harf": "C", "metin_md": "Suyun hacmini (miktarını) ölçmüş oluruz"},
+            {"harf": "D", "metin_md": "Suyun rengini ölçmüş oluruz"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Bir kabın içine su doldurup başka bir kaba boşaltmak, suyun hacmini (miktarını) ölçmektir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sıvı ölçme araçlarını amaçlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Su bardağı"},
+            {"no": 2, "metin_md": "Çorba kasesi"},
+            {"no": 3, "metin_md": "Şişe"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Az miktarda sıvı ölçmek için"},
+            {"harf": "B", "metin_md": "Çok miktarda sıvı ölçmek için"},
+            {"harf": "C", "metin_md": "Orta miktarda sıvı ölçmek için"}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B"},
+          "cozum_md": "Su bardağı orta, çorba kasesi az, şişe çok miktarda sıvı ölçmek için kullanılır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir kovaya su dolduruyoruz. Su bardağı ile ölçtüğümüzde 8 bardak su dolduğunu görüyoruz. Bu durumda kovanın hacmi ____(1)____ bardak su almaktadır. Eğer kovayı çorba kasesi ile ölçseydik daha ____(2)____ sayı çıkardı.",
+          "gorsel": null,
+          "kelime_havuzu": ["8", "az", "fazla", "16"],
+          "cevap": {"1": "8", "2": "fazla"},
+          "cozum_md": "Kovanın hacmi 8 bardak su almaktadır. Çorba kasesi bardaktan daha küçük olduğu için daha fazla kase su doldurur."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kaba 5 bardak su doldurulmuştur. Aynı kaba çorba kasesiyle su doldurulsa aşağıdakilerden hangisi daha doğru bir tahmindir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "5 kase su dolar"},
+            {"harf": "B", "metin_md": "Daha az kase su dolar"},
+            {"harf": "C", "metin_md": "Daha fazla kase su dolar"},
+            {"harf": "D", "metin_md": "Aynı miktarda su dolar"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Çorba kasesi bardaktan daha küçük olduğu için, aynı kaba daha fazla kase su doldurulur."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Tahmin ve ölçüm sonuçlarını karşılaştırınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Kap", "Tahminim (kaç bardak)", "Ölçüm Sonucu", "Tahmin Doğru mu?"],
+            "satirlar": [
+              ["Büyük kova", "__?__", "12 bardak", "Evet"],
+              ["Orta kova", "6 bardak", "__?__", "__?__"],
+              ["Küçük kova", "3 bardak", "4 bardak", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "12 bardak", "r1c2": "5 bardak", "r1c3": "Hayır", "r2c3": "Hayır"},
+          "cozum_md": "Büyük kova için 12 bardak tahmini doğru olmuştur. Orta kova için 6 bardak tahmini yanlıştır (5 bardak çıkmıştır). Küçük kova için 3 bardak tahmini yanlıştır (4 bardak çıkmıştır)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfta bir deney yapılacak: Bir kaba su doldurulacak ve su bardağı ile ölçülerek kaç bardak su olduğu bulunacak. Daha sonra aynı su çorba kasesi ile ölçülecek. Bu deneyin sonucunda ne beklersiniz? Neden?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bardak ile ölçüldüğünde 10 bardak su çıktığını varsayalım. Çorba kasesi bardaktan daha küçük olduğu için daha fazla kase su çıkacaktır (örneğin 20 kase). Çünkü küçük ölçüm aracı ile aynı miktarda sıvıyı ölçmek için daha fazla kez ölçmek gerekir.",
+            "kabul_kriterleri": [
+              "Farklı ölçüm araçlarının farklı sonuçlar vereceğini belirtmiş",
+              "Küçük aracın daha fazla sayı vereceğini açıklamış",
+              "Mantıklı bir örnek veya karşılaştırma yapmış"
+            ]
+          },
+          "cozum_md": "Örnek: 10 bardak su = 20 kase su. Çorba kasesi daha küçük olduğu için daha fazla kase çıkar."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir şişeye 3 bardak su doldurulmuştur. Bu suyu çorba kasesiyle ölçseydik aşağıdakilerden hangisi doğru olurdu?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3 kase su çıkardı"},
+            {"harf": "B", "metin_md": "3'ten az kase su çıkardı"},
+            {"harf": "C", "metin_md": "3'ten fazla kase su çıkardı"},
+            {"harf": "D", "metin_md": "Ölçülemez"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Çorba kasesi bardaktan daha küçük olduğu için, 3 bardak suyu kaseye döktüğümüzde 3'ten fazla kase su çıkar."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir kaptaki suyu ölçmek için hangi sıralama doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ölç → Tahmin et → Karşılaştır"},
+            {"harf": "B", "metin_md": "Tahmin et → Ölç → Karşılaştır"},
+            {"harf": "C", "metin_md": "Karşılaştır → Tahmin et → Ölç"},
+            {"harf": "D", "metin_md": "Tahmin et → Karşılaştır → Ölç"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Önce tahmin ederiz, sonra ölçeriz, en sonunda tahminimizle ölçüm sonucunu karşılaştırırız."
+        }
+      ]
+    }
+  ]
+}

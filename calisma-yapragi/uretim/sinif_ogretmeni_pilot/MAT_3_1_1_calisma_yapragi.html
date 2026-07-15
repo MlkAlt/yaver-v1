@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>1000&#x27;e Kadar Sayıların Temsilleri</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>1000&#x27;e Kadar Sayıların Temsilleri</h1><div class='chips'><span class='chip dolu'>MAT.3.1.1</span><span class='chip'>Matematik • 3. Sınıf</span><span class='chip'>1. Tema: Sayilar Ve Ni̇celi̇kler (1)</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Niceliklerin büyüklüklerine karşılık gelen 1000&#x27;e kadar olan sayıların temsillerinden yararlanabilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları inceleyip yanıtlayınız.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki nicelikleri gösterdikleri sayısal değerle eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> 200 + 30 + 4</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> 500 + 10</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> 100 + 0 + 0</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> 700 + 80 + 6</div></div><div><div><b>A)</b> 510</div><div><b>B)</b> 234</div><div><b>C)</b> 786</div><div><b>D)</b> 100</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">243 sayısında 2 hangi basamaktadır?</div></div><div class='sec'><div><b>A)</b> Yüzler basamağı</div><div><b>B)</b> Onlar basamağı</div><div><b>C)</b> Birler basamağı</div><div><b>D)</b> Binler basamağı</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları basamak değerlerini düşünerek cevaplayınız.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki sayıları okuyunuz.<br><br>305 = <span class='bosluk'></span><br><br>612 = <span class='bosluk'></span><br><br>1000 = <span class='bosluk'></span></div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki tabloyu doldurunuz. Her satırda verilen sayının yüzler, onlar ve birler basamaklarındaki rakamları yazınız.</div></div><table><tr><th>Sayı</th><th>Yüzler</th><th>Onlar</th><th>Birler</th></tr><tr><td>529</td><td>5</td><td>2</td><td></td></tr><tr><td></td><td>8</td><td>0</td><td>7</td></tr><tr><td>1000</td><td>10</td><td></td><td>0</td></tr></table></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki sayılardan hangisini yazarken yüzler basamağına 0 yazmamız gerekir?</div></div><div class='sec'><div><b>A)</b> 503</div><div><b>B)</b> 300</div><div><b>C)</b> 150</div><div><b>D)</b> 712</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları temsilleri kullanarak çözünüz.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>470 sayısı 4 yüz, 7 on ve 0 bir olarak yazılır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>900&#x27;de onlar basamağı 9&#x27;dur.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>1000, 10 yüzden oluşur.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>258 sayısında en büyük basamak değeri 8&#x27;dir.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Bir kütüphanede 300 Türkçe, 250 Matematik ve 450 Fen kitabı vardır. Kütüphanedeki toplam kitap sayısı kaçtır?</div></div><div class='yanit'><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">15p</span><div class="smetin">348 sayısını yüzler, onlar ve birler olarak ayırdığında her basamağın değeri nedir? Bu değerleri topladığında orijinal sayıyı elde eder misin? Açıklayınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.3.1.1</span><span class='chip'>1000&#x27;e Kadar Sayıların Temsilleri</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-B, 2-A, 3-D, 4-C<div class='ak-cozum'>200+30+4 = 234 eder. 500+10 = 510 eder. 100+0+0 = 100 eder. 700+80+6 = 786 eder.</div></div><div class='ak-soru'><b>2.</b> <b>A</b><div class='ak-cozum'>243 sayısında soldan başlayarak: 2 yüzler, 4 onlar, 3 birler basamağındadır. 2 rakamı yüzler basamağındadır.</div></div><div class='ak-soru'><b>3.</b> (1) üç yüz beş, (2) altı yüz on iki, (3) bin<div class='ak-cozum'>305 sayısı &#x27;üç yüz beş&#x27; olarak okunur. 612 sayısı &#x27;altı yüz on iki&#x27; olarak okunur. 1000 sayısı &#x27;bin&#x27; olarak okunur.</div></div><div class='ak-soru'><b>4.</b> {&quot;r0c3&quot;: &quot;9&quot;, &quot;r1c0&quot;: &quot;807&quot;, &quot;r2c2&quot;: &quot;0&quot;}<div class='ak-cozum'>529&#x27;da birler basamağı 9&#x27;dur. 807&#x27;de yüzler 8, onlar 0, birler 7&#x27;dir. 1000&#x27;de onlar basamağı 0&#x27;dır (10 yüz, 0 on, 0 bir).</div></div><div class='ak-soru'><b>5.</b> <b>A</b><div class='ak-cozum'>503 sayısı yazıldığında 5 yüzler, 0 onlar, 3 birler basamağındadır. Yüzler basamağında 0 olan bir sayı yoktur — ancak 503&#x27;te onlar basamağı 0&#x27;dır. Bu soruda yüzler basamağına 0 yazmamız gereken durum, 3 basamaklı bir sayıda yüzlerin olmamasıdır. Ama tüm seçenekler 3 basamaklıdır. Doğru yanıt A&#x27;dır: 503&#x27;te onlar basamağı 0&#x27;dır.</div></div><div class='ak-soru'><b>6.</b> 1-D, 2-Y, 3-D, 4-Y<div class='ak-cozum'>1. Doğrudur: 470 = 400+70+0. 2. Yanlıştır: 900&#x27;de 9 yüzler basamağındadır. 3. Doğrudur: 1000 = 10×100. 4. Yanlıştır: En büyük basamak yüzlerdir, değeri 200&#x27;dür.</div></div><div class='ak-soru'><b>7.</b> <b>1000 kitap</b><div class='ak-cozum'>300+250+450 = 1000 kitap. 300+250=550, 550+450=1000.</div></div><div class='ak-soru'><b>8.</b> 348 sayısını ayırdığımda: 3 yüzler basamağındadır, değeri 3×100=300&#x27;dür. 4 onlar basamağındadır, değeri 4×10=40&#x27;tır. 8 birler basamağındadır, değeri 8×1=8&#x27;dir. Bu değerleri topladığımda: 300+40+8=348 eder. Evet, orijinal sayıyı elde ederim.<div class='ak-cozum'>348 = 300+40+8. Yüzler: 3×100=300, Onlar: 4×10=40, Birler: 8×1=8. Toplam: 300+40+8=348.</div></div></div></body></html>

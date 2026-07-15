@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Simetrik Şekilleri Ayırt Etme</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Simetrik Şekilleri Ayırt Etme</h1><div class='chips'><span class='chip dolu'>MAT.2.3.7</span><span class='chip'>Matematik • 2. Sınıf</span><span class='chip'>5. Tema: Nesneleri̇n Geometri̇si̇ (2)</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Verilen şekiller arasından simetrik olanları ayırt edebilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları inceleyip yanıtlayınız.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Bir kağıdı ortadan ikiye katladığımızda iki taraf birbirinin aynısıysa bu şekle ne deriz?</div></div><div class='sec'><div><b>A)</b> Asimetrik</div><div><b>B)</b> Simetrik</div><div><b>C)</b> Düzgün</div><div><b>D)</b> Kesik</div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki şekillerin simetrik olup olmadığını eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Kelebek</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Yaprak</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Araba (yan görünüş)</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> Yüz</div></div><div><div><b>A)</b> Simetrik</div><div><b>B)</b> Asimetrik</div><div><b>C)</b> Simetrik</div><div><b>D)</b> Simetrik</div></div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">Simetrik bir şekli kağıdı ortadan katladığımızda sol taraf <span class='bosluk'></span> tarafın aynısıdır. Simetri ekseni kağıdın <span class='bosluk'></span> ortasından geçen bir çizgidir.</div></div><div class='havuz'><span>sağ</span><span>sol</span><span>dikey</span><span>yatay</span></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">10p</span><div class="smetin">Bir kareyi ortadan dikey olarak katladığımızda simetri ekseni hangi yöndedir?</div></div><div class='sec'><div><b>A)</b> Yatay</div><div><b>B)</b> Dikey</div><div><b>C)</b> Çapraz</div><div><b>D)</b> Simetri ekseni yoktur</div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki şekillerden hangisi simetrik <b>değildir</b>?</div></div><div class='sec'><div><b>A)</b> Kalp</div><div><b>B)</b> Yıldız</div><div><b>C)</b> Rastgele leke</div><div><b>D)</b> Daire</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">20p</span><div class="smetin">Günlük hayatta simetrik olan 3 nesne ve asimetrik olan 2 nesne sayınız. Her biri için neden simetrik/asimetrik olduğunu açıklayınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">10p</span><div class="smetin">Bir dairenin simetri ekseni kaç tane olabilir?</div></div><div class='sec'><div><b>A)</b> Sadece 1 tane</div><div><b>B)</b> Sadece 2 tane</div><div><b>C)</b> Sonsuz sayıda</div><div><b>D)</b> Hiç yok</div></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Bir şeklin simetrik olması için sadece sol-sağ simetrisinin olması yeterlidir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Tüm çokgenler simetriktir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Simetri ekseninin iki tarafı birbirinin aynısıdır.</div></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.2.3.7</span><span class='chip'>Simetrik Şekilleri Ayırt Etme</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> <b>B</b><div class='ak-cozum'>Kağıdı katladığında iki taraf birbirinin aynısıysa bu şekil simetriktir.</div></div><div class='ak-soru'><b>2.</b> 1-A, 2-C, 3-B, 4-D<div class='ak-cozum'>Kelebek simetriktir (sol-sağ). Yaprak simetriktir (sol-sağ). Araba yan görünüşte asimetriktir. Yüz simetriktir (sol-sağ).</div></div><div class='ak-soru'><b>3.</b> (1) sağ, (2) dikey<div class='ak-cozum'>Simetrik şekillerde sol taraf sağ tarafın aynısıdır. Simetri ekseni genellikle dikey (dikey) ortadan geçen bir çizgidir.</div></div><div class='ak-soru'><b>4.</b> <b>B</b><div class='ak-cozum'>Kareyi dikey olarak katladığımızda simetri ekseni dikeydir.</div></div><div class='ak-soru'><b>5.</b> <b>C</b><div class='ak-cozum'>Rastgele lekenin simetri ekseni yoktur. Kalp, yıldız ve daire simetriktir.</div></div><div class='ak-soru'><b>6.</b> Simetrik: Yüz (sol ve sağ tarafı aynı), Kelebek (kanatlar simetrik), Daire (her yönden aynı). Asimetrik: Rastgele leke (düzgün bir simetri ekseni yok), Kırık cam (düzensiz şekil).<div class='ak-cozum'>Simetrik: yüz, kelebek, daire. Asimetrik: rastgele leke, kırık cam.</div></div><div class='ak-soru'><b>7.</b> <b>C</b><div class='ak-cozum'>Dairenin merkezinden geçen her çizgi bir simetri eksenidir. Sonsuz sayıda simetri ekseni vardır.</div></div><div class='ak-soru'><b>8.</b> 1-D, 2-Y, 3-D<div class='ak-cozum'>1. Doğrudur: Sol-sağ simetrisi olan şekil simetriktir. 2. Yanlıştır: Tüm çokgenler simetrik değildir. 3. Doğrudur: Simetri ekseninin iki tarafı birbirinin aynısıdır.</div></div></div></body></html>

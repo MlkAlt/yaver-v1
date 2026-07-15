@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Şekillerle Model Sentezleme",
+    "kazanim": {
+      "kod": "MAT.2.3.3",
+      "ad": "Geometrik şekiller kullanarak modeller sentezleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "4. TEMA: NESNELERİN GEOMETRİSİ (1)",
+      "surec_bilesenleri": {
+        "a": "Geometrik yapılardaki geometrik şekilleri belirler.",
+        "b": "Geometrik şekiller arasında ilişki kurar.",
+        "c": "Geometrik şekilleri birleştirerek özgün model oluşturur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf geometri ünitesi incelendi",
+      "notlar": [
+        "2. sınıf düzeyine uygun olarak geometrik şekiller kullanıldı",
+        "Şekiller: daire, kare, dikdörtgen, üçgen"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki nesnelerden hangisi bir **daire** (çember) şeklinde çizilmiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kitap sayfası"},
+            {"harf": "B", "metin_md": "Saat"},
+            {"harf": "C", "metin_md": "Masa"},
+            {"harf": "D", "metin_md": "Pencere"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Saat yüzü daire (çember) şeklindedir. Kitap sayfası dikdörtgen, masa dikdörtgen, pencere dikdörtgen şeklindedir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki geometrik şekilleri isimleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "4 kenarı eşit olan şekel"},
+            {"no": 2, "metin_md": "Yuvarlak, çizgisiz şekil"},
+            {"no": 3, "metin_md": "3 kenarlı şekil"},
+            {"no": 4, "metin_md": "4 kenarı olan, karşılıklı kenarları eşit şekil"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Üçgen"},
+            {"harf": "B", "metin_md": "Kare"},
+            {"harf": "C", "metin_md": "Dikdörtgen"},
+            {"harf": "D", "metin_md": "Daire"}
+          ],
+          "cevap": {"1": "B", "2": "D", "3": "A", "4": "C"},
+          "cozum_md": "4 kenarı eşit olan şekil karedir. Yuvarlak şekil dairedir. 3 kenarlı şekil üçgendir. Karşılıklı kenarları eşit olan şekil dikdörtgendir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki nesnelerin yüzeylerindeki geometrik şekilleri belirleyiniz.\n\nKitap kapağı: ____(1)____\n\nTrafik lambası ışığı: ____(2)____\n\nÇatı üçgeni: ____(3)____",
+          "gorsel": null,
+          "kelime_havuzu": ["kare", "daire", "üçgen", "dikdörtgen"],
+          "cevap": {"1": "dikdörtgen", "2": "daire", "3": "üçgen"},
+          "cozum_md": "Kitap kapağı dikdörtgen şeklindedir. Trafik lambası ışığı daire şeklindedir. Çatı üçgeni üçgen şeklindedir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir resimde kare, daire ve üçgen kullanılmıştır. Hangi şekil en az köşe sayısına sahiptir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kare (4 köşe)"},
+            {"harf": "B", "metin_md": "Üçgen (3 köşe)"},
+            {"harf": "C", "metin_md": "Daire (0 köşe)"},
+            {"harf": "D", "metin_md": "Dikdörtgen (4 köşe)"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Dairenin hiç köşesi yoktur (0). Üçgenin 3, kare ve dikdörtgenin 4'er köşesi vardır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Her şeklin kenar ve köşe sayısını yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Şekil", "Kenar Sayısı", "Köşe Sayısı"],
+            "satirlar": [
+              ["Kare", "4", "__?__"],
+              ["Üçgen", "__?__", "3"],
+              ["Daire", "__?__", "__?__"]
+            ]
+          },
+          "cevap": {"r0c2": "4", "r1c1": "3", "r2c1": "0 (kenar yok)", "r2c2": "0"},
+          "cozum_md": "Kare 4 kenarlı ve 4 köşelidir. Üçgen 3 kenarlı ve 3 köşelidir. Dairenin kenarı ve köşesi yoktur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Kare, daire ve üçgen şekillerini kullanarak basit bir ev resmi çiziniz (kafatasıyla). Hangi şekilleri nereye koyduğunuzu açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kareyi evin gövdesi, üçgeni çatı, daireyi pencere olarak kullandım. Kare evin ana gövdesini oluşturur, üçgen çatıyı temsil eder, daire ise yuvarlak pencereyi gösterir.",
+            "kabul_kriterleri": [
+              "En az 2 farklı geometrik şekil kullanmış",
+              "Her şeklin yerini belirtmiş",
+              "Şekillerin birlikte nasıl bir model oluşturduğunu açıklamış"
+            ]
+          },
+          "cozum_md": "Örnek: Kare = ev gövdesi, Üçgen = çatı, Daire = pencere."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir modelde 3 daire, 2 kare ve 1 üçgen kullanılmıştır. Bu model aşağıdakilerden hangisine benzeyebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir bisiklet (3 tekerlek + 2 kare gövde + 3gen sepet)"},
+            {"harf": "B", "metin_md": "Bir ev (3 daire pencere + 2 kare duvar + 3gen çatı)"},
+            {"harf": "C", "metin_md": "Bir telefon (3 daire düğme + 2 kare ekran)"},
+            {"harf": "D", "metin_md": "Bir gemi (3 daire tekerlek + 2 kare gövde)"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "3 daire (pencere), 2 kare (duvar), 1 üçgen (çatı) bir ev modelini oluşturur."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "BirShapes adlı oyun için bir karakter tasarlanacak. Karakterin yuvarlak kafası, kare gövdesi ve üçgen şapkası olacak. Bu bilgiye göre karakter hangi geometrik şekillerden oluşmuştur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3 kare"},
+            {"harf": "B", "metin_md": "1 daire, 1 kare, 1 üçgen"},
+            {"harf": "C", "metin_md": "2 daire, 2 kare"},
+            {"harf": "D", "metin_md": "1 daire, 2 üçgen"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Yuvarlak kafa = daire, kare gövde = kare, üçgen şapka = üçgen. Toplam: 1 daire, 1 kare, 1 üçgen."
+        }
+      ]
+    }
+  ]
+}

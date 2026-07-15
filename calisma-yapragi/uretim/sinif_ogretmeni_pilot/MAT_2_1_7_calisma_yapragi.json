@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bütün, Yarım ve Çeyrek",
+    "kazanim": {
+      "kod": "MAT.2.1.7",
+      "ad": "Bütün, yarım ve çeyrek arasındaki ilişkiyi çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Bir bütünün yarım ve çeyrek parçalarını belirler.",
+        "b": "Bütün, yarım ve çeyrek arasındaki ilişkileri belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf bütün-yarım-çeyrek kazanımı incelendi",
+      "notlar": [
+        "Görsel betimlemelerle somut nesneler kullanıldı",
+        "Basit kesirlerle ilişkilendirildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki nesneleri parçalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Bir bütün pizza (8 dilim)"},
+            {"no": 2, "metin_md": "Pizza yarısı (4 dilim)"},
+            {"no": 3, "metin_md": "Pizza çeyreği (2 dilim)"},
+            {"no": 4, "metin_md": "Bir bütün pasta (8 dilim)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "4 dilim"},
+            {"harf": "B", "metin_md": "2 dilim"},
+            {"harf": "C", "metin_md": "8 dilim"},
+            {"harf": "D", "metin_md": "8 dilim"}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B", "4": "D"},
+          "cozum_md": "Bütün pizza 8 dilimdir (C). Yarısı 8÷2=4 dilimdir (A). Çeyreği 8÷4=2 dilimdir (B). Bütün pasta 8 dilimdir (D)."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir kutuda 12 kurabiye var. Kurabiyelerin yarısını yedin. Kaç kurabiye kaldı?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3 kurabiye"},
+            {"harf": "B", "metin_md": "4 kurabiye"},
+            {"harf": "C", "metin_md": "6 kurabiye"},
+            {"harf": "D", "metin_md": "8 kurabiye"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "12 kurabiyenin yarısı 12÷2=6 kurabiyedir. 6 kurabiye kalmıştır. Doğru yanıt C seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir bütün 8 parçadan oluşuyorsa:\n\nYarısı = ____(1)____ parça\nÇeyreği = ____(2)____ parça\nİki katı = ____(3)____ parça",
+          "gorsel": null,
+          "kelime_havuzu": ["4", "2", "16"],
+          "cevap": {"1": "4", "2": "2", "3": "16"},
+          "cozum_md": "8 parçanın yarısı 8÷2=4, çeyreği 8÷4=2, iki katı 8×2=16 parçadır."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir bütünün yarısı, çeyreğinin iki katıdır.", "cevap": true, "gerekce_md": "Yarısı 4 ise çeyreği 2'dir. 4, 2'nin iki katıdır."},
+            {"no": 2, "metin_md": "İki çeyrek, bir yarım eder.", "cevap": true, "gerekce_md": "Çeyrek+çeyrek=yarım. 2+2=4 ve 4, 8'in yarısıdır."},
+            {"no": 3, "metin_md": "Bütünün dörtte biri, yarısının iki katıdır.", "cevap": false, "gerekce_md": "Dörtte biri 2, yarısı 4'tür. 2, 4'ün iki katı değil, yarısıdır."},
+            {"no": 4, "metin_md": "Dört çeyrek bir bütün eder.", "cevap": true, "gerekce_md": "2+2+2+2=8 ve 8, bütünün kendisidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "1. Doğru: Yarısı 4, çeyreği 2; 4=2×2. 2. Doğru: 2+2=4 yarım eder. 3. Yanlış: Dörtte biri yarısının iki katı değil, yarısıdır. 4. Doğru: Dört çeyrek bütün eder."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Birbardak 8 yemek kaşığı su alıyor. Bardağın çeyreğine kadar su doldurulursa kaç kaşık su konulur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2 kaşık"},
+            {"harf": "B", "metin_md": "4 kaşık"},
+            {"harf": "C", "metin_md": "6 kaşık"},
+            {"harf": "D", "metin_md": "8 kaşık"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "8 kaşığın çeyreği 8÷4=2 kaşıktır. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir bahçede 24 çiçek vardır. Çiçeklerin yarısı kırmızı, çeyreği sarıdır. Kırmızı ve sarı çiçeklerin toplamı kaçtır?",
+          "gorsel": null,
+          "cevap": {"deger": 18, "birim": "çiçek", "tolerans_yuzde": 0},
+          "cozum_md": "Kırmızı: 24÷2=12. Sarı: 24÷4=6. Toplam: 12+6=18 çiçek."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Bir kitap 48 sayfadır. Kitabın yarısını bugün, çeyreğini yarın okuyacaksın. Kaç sayfa okumuş olursun? Açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bugün yarısını: 48÷2=24 sayfa. Yarın çeyreğini: 48÷4=12 sayfa. Toplam: 24+12=36 sayfa okumuş olurum.",
+            "kabul_kriterleri": [
+              "Yarısının 24 sayfa olduğunu hesaplamış",
+              "Çeyreğinin 12 sayfa olduğunu hesaplamış",
+              "Toplamın 36 sayfa olduğunu söylemiş"
+            ]
+          },
+          "cozum_md": "48÷2=24 bugün, 48÷4=12 yarın. 24+12=36 sayfa toplam."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir kumaş 20 cm uzunluğundadır. Kumaşın yarısından çeyreği kesilirse, kesilen parça kaç cm'dir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2.5 cm"},
+            {"harf": "B", "metin_md": "5 cm"},
+            {"harf": "C", "metin_md": "10 cm"},
+            {"harf": "D", "metin_md": "15 cm"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Yarısı 20÷2=10 cm. 10 cm'nin çeyreği 10÷4=2.5 cm. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    }
+  ]
+}
