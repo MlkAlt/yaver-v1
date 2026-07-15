@@ -1,10 +1,26 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 15.07.2026 — Oturum 86 (Çalışma yaprağı üretimi devam — Dalga 5 tamamlandı, kuyruk güncellendi, Durum tespiti)
+**Son güncelleme:** 15.07.2026 — Oturum 86+87 (Çalışma yaprağı üretimi: Dalga 5+6 tamamlandı, 147/337 kazanım, pilot 150+ dosya)
 
-## ŞU AN NEREDEYİZ (Oturum 86 — CalismaYapragiScreen + üretim kuyruk güncellemesi, 15.07.2026)
+## ŞU AN NEREDEYİZ (Oturum 87 — Dalga 6 Matematik üretimi, 15.07.2026)
 
-Önceki oturumlarda üretilmiş 38 untracked dosya (19 JSON + 19 HTML) incelendi, doğrulandı ve commit edildi. Kuyruk durumu güncellendi.
+Dalga 6 ile Matematik 1-2. sınıf kazanımları üretildi. Toplu üretim subagent ile paralel çalıştırıldı, 0 hata ile doğrulandı.
+
+**Üretim durumu (sinif_ogretmeni kuyruğu):**
+- Toplam benzersiz kazanım: 337
+- **Tamamlanan (dalga1-6): 147** (FB 37 + HB 63 + MAT 27 + IHVD 13 + SB 1 + Türkçe 2 + GS 1 + MUZ 1 + diğer 2)
+- Bekleyen: 187
+- Pilot (test): 3
+- Pilot dosya sayısı: ~170 JSON + HTML çifti
+
+**Dalga 6 detayı:** MAT.1.1.6 → MAT.2.1.11 (20 kazanım, Matematik 1-2. sınıf). Tümü 1 A4 sayfası, 6-9 soru, 100 puan. `validate_worksheet.py` ile 0 hata doğrulandı.
+
+**Sıradaki dalga önerisi:** Kuyrukta en çok bekleyen: Matematik (84), Türkçe (75), Sosyal Bilgiler (16). Bir sonraki dalga için Matematik 3-4. sınıf veya Türkçe başlanabilir.
+
+**BEKLİYOR:**
+1. CalismaYapragiScreen cihazda test edilecek (Expo Go)
+2. Üretilen HTML'leri Supabase `calisma_yapraklari` tablosuna seed et (migration 077'de sadece tek test verisi var)
+3. Dalga 7 üretimi
 
 **1. CalismaYapragiScreen hub ekranı — TAMAMLANDI (commit edilmiş, test edilmemiş):**
 - `src/screens/main/CalismaYapragiScreen.tsx` (408 satır): Supabase'den `calisma_yapraklari` tablosunu çeker, kazanım koduna göre varyasyonları listeler, HTML'yi `pdfOnizlemeAc()` ile gösterir.
