@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çarpma ve Bölme ile Problem Çözme",
+    "kazanim": {
+      "kod": "MAT.3.2.4",
+      "ad": "Çarpma ve bölme işlemlerini çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Çarpma ve bölme işlemlerine ait problemleri model eder.",
+        "b": "Çarpma ve bölme işlemlerini çözer.",
+        "c": "Problemlerin çözümlerini kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Problemleri model etmeyi ve doğru işlemi seçmeyi hatırlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sınıfta 5 sıra vardır. Her sırada 6 sandalye vardır. Toplam kaç sandalye vardır? Bu problem için hangi işlem yapılmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Toplama (+)"},
+            {"harf": "B", "metin_md": "Çıkarma (-)"},
+            {"harf": "C", "metin_md": "Çarpma (×)"},
+            {"harf": "D", "metin_md": "Bölme (÷)"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Eşit gruplar olduğu için **çarpma** yapılır: 5 × 6 = 30."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 12,
+          "govde_md": "Aşağıdaki kontrol işlemlerinin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "4 × 7 = 28 işleminin kontrolü: 28 ÷ 7 = 4 olmalıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "36 ÷ 6 = 6 işleminin kontrolü: 6 × 6 = 36 olmalıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "8 × 5 = 40 işleminin kontrolü: 40 + 5 = 45 olmalıdır.", "cevap": false, "gerekce_md": "Kontrol için çarpma yerine bölme yapılmalıdır: 40 ÷ 5 = 8 olmalıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1) Doğru: Bölme ile kontrol. 2) Doğru: Çarpma ile kontrol. 3) Yanlış: Doğru kontrol 40 ÷ 5 = 8 olmalıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Problemleri model etme ve çözme adımlarını kavrayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 12,
+          "govde_md": "Bir kitapçıda 72 kitap vardır ve bunlar 8 rafta eşit olarak dizilmiştir. Her rafta kaç kitap vardır? Doğru denklem hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "72 × 8 = 576"},
+            {"harf": "B", "metin_md": "72 ÷ 8 = 9"},
+            {"harf": "C", "metin_md": "8 ÷ 72 = 0,11"},
+            {"harf": "D", "metin_md": "72 + 8 = 80"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Eşit paylaştırmada **bölme** yapılır: 72 ÷ 8 = **9**."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 14,
+          "govde_md": "48 kalem 6 kutuya eşit olarak dağıtılmıştır.\n1. Adım: Toplam ____(1)____ sayısı bulunur: 48.\n2. Adım: ____(2)____ sayısı bulunur: 6.\n3. Adım: Bölme yapılır: 48 ÷ 6 = ____(3)____.\nSonuç: Her kutuda 8 kalem vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["kalem", "kutu", "8", "toplam", "bölüm"],
+          "cevap": {"1": "kalem", "2": "kutu", "3": "8"},
+          "cozum_md": "Toplam kalem 48, kutu sayısı 6. 48 ÷ 6 = 8. Her kutuda **8** kalem vardır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 12,
+          "govde_md": "Ali 5 × 9 = 45 sonucunu bulmuştur. Kontrol etmek için hangisini yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "45 + 9 = 54 hesaplasın"},
+            {"harf": "B", "metin_md": "45 ÷ 9 = 5 olduğunu kontrol etsin"},
+            {"harf": "C", "metin_md": "45 - 9 = 36 hesaplasın"},
+            {"harf": "D", "metin_md": "45 × 9 = 405 hesaplasın"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Çarpmanın kontrolü için sonucu çarpanlardan birine böleriz: 45 ÷ 9 = 5 olmalıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Problemleri model et, çöz ve kontrol et.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 14,
+          "govde_md": "Okulda her sınıfta 32 öğrenci vardır. 5 sınıf vardır. Toplam kaç öğrenci vardır?",
+          "gorsel": null,
+          "cevap": {"deger": 160, "birim": "öğrenci"},
+          "cozum_md": "Her sınıfta 32 öğrenci, 5 sınıf: 32 × 5 = **160** öğrenci."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 14,
+          "govde_md": "Bir öğrenci 7 × 8 = 56 sonucunu bulmuştur. Bu sonucun doğru olup olmadığını iki farklı yöntemle nasıl kontrol edebilir? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1. Yöntem: 56 ÷ 8 = 7 olup olmadığını kontrol eder. 56 ÷ 8 = 7 çıktığı görülür. 2. Yöntem: 8 × 7 = 56 olduğunu kontrol eder. Sıranın değişmesi sonucu değiştirmez. İki yöntem de sonucun doğru olduğunu gösterir.",
+            "kabul_kriterleri": ["Bölme ile kontrol yöntemini açıklaması", "Sıra değiştirme ile kontrolü açıklaması", "Her iki yöntemde de hesaplama yapması"]
+          },
+          "cozum_md": "1) 56 ÷ 8 = 7 kontrolü. 2) 8 × 7 = 56 sıra değiştirme kontrolü."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 12,
+          "govde_md": "Aşağıdaki çözüm ve kontrol işlemlerinin doğru mu yanlış mı olduğunu değerlendiriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "6 × 7 = 42 hesaplanmıştır. Kontrol: 42 ÷ 7 = 6. Çözüm doğrudur.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "56 ÷ 8 = 8 hesaplanmıştır. Kontrol: 8 × 8 = 64. Çözüm yanlıştır.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "9 × 4 = 32 hesaplanmıştır. Kontrol: 32 ÷ 4 = 9. Çözüm doğrudur.", "cevap": false, "gerekce_md": "9 × 4 = 36'dır, 32 değil. Kontrol de yanlıştır: 32 ÷ 4 = 8, 9 değildir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1) Doğru: 42 ÷ 7 = 6, kontrol tutarlı. 2) Doğru: 8 × 8 = 64 ≠ 56, çözüm yanlış. 3) Yanlış: 9 × 4 = 36, 32 değil."
+        }
+      ]
+    }
+  ]
+}

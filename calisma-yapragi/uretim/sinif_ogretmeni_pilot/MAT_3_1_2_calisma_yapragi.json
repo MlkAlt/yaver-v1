@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "1000'e Kadar Sayıları Çözümleyebilme",
+    "kazanim": {
+      "kod": "MAT.3.1.2",
+      "ad": "1000'e kadar olan sayıları çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "1000'e kadar olan sayıları onlar ve binlikler basamağına göre analiz eder.",
+        "b": "Sayıları basamak değerine göre oluşturur ve tanımlar.",
+        "c": "Sayıları okur ve yazar.",
+        "d": "Sayıları genişletilmiş modelleri kullanarak modeller.",
+        "e": "Karşılaştırmaları yapar.",
+        "f": "Sayıları sıralar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "345 sayısında yüzler basamağındaki rakam ____(1)____, onlar basamağındaki rakam ____(2)____, birler basamağındaki rakam ____(3)____dur.",
+          "gorsel": null,
+          "kelime_havuzu": ["3", "4", "5"],
+          "cevap": {"1": "3", "2": "4", "3": "5"},
+          "cozum_md": "345 sayısında soldan sağa ilk rakam yüzler basamağıdır: 3. İkinci rakam onlar basamağıdır: 4. Üçüncü rakam birler basamağıdır: 5."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi **yediyüz seksen üç** olarak yazılır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "783"},
+            {"harf": "B", "metin_md": "738"},
+            {"harf": "C", "metin_md": "873"},
+            {"harf": "D", "metin_md": "378"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Yediyüz seksen üç = 700 + 80 + 3 = 783. Doğru seçenek A'dır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Soruları dikkatlice okuyunuz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "452 sayısında 4 yüzler basamağındadır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "600 sayısında onlar basamağında 0 vardır.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "231 sayısında 2 birler basamağındadır.", "cevap": false, "gerekce_md": "2 yüzler basamağındadır, birler basamağında 1 vardır."},
+            {"no": 4, "metin_md": "999 sayısında 9 binler basamağındadır.", "cevap": false, "gerekce_md": "999 üç basamaklı bir sayıdır, binler basamağı yoktur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "1. Doğru: 452'de 4 yüzlerdedir. 2. Doğru: 600'de onlar basamağı 0'dır. 3. Yanlış: 2 yüzler basamağındadır. 4. Yanlış: 999 üç basamaklıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Sayıları genişletilmiş modeliyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "125"},
+            {"no": 2, "metin_md": "340"},
+            {"no": 3, "metin_md": "507"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "1 yüz + 2 on + 5 bir"},
+            {"harf": "B", "metin_md": "3 yüz + 4 on + 0 bir"},
+            {"harf": "C", "metin_md": "5 yüz + 0 on + 7 bir"},
+            {"harf": "D", "metin_md": "2 yüz + 3 on + 1 bir"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "125 = 1 yüz + 2 on + 5 bir (A). 340 = 3 yüz + 4 on + 0 bir (B). 507 = 5 yüz + 0 on + 7 bir (C)."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "e",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayı çiftlerinden hangisinde birinci sayı ikinciden **büyüktür**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "342 — 432"},
+            {"harf": "B", "metin_md": "567 — 576"},
+            {"harf": "C", "metin_md": "891 — 819"},
+            {"harf": "D", "metin_md": "234 — 243"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "891 > 819 porque yüzler basamağı aynı (8), onlar basamağında 9 > 1. Diğer seçeneklerde birinci sayı küçüktür."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "f",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları **küçükten büyüğe** sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["578", "587", "758", "785", "857"],
+          "cevap": {"dogru_sira": [0, 1, 2, 3, 4]},
+          "cozum_md": "Yüzler basamağına göre sırala: 500'ler (578, 587), 700'ler (758, 785), 800'ler (857). Aynı yüzlerde onlar basamağına bak: 578 < 587, 758 < 785."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir sayının yüzler basamağında 6, onlar basamağında 0, birler basamağında 3 vardır. Bu sayıyı yazınız ve basamak değerlerini açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sayı 603'tür. 6 yüzler basamağında = 600, 0 onlar basamağındadır, 3 birler basamağındadır.",
+            "kabul_kriterleri": ["Sayıyı 603 olarak yazması", "Her bir rakamın basamak değerini belirtmesi"]
+          },
+          "cozum_md": "6 yüzler, 0 onlar, 3 birler → 600 + 0 + 3 = 603."
+        },
+        {
+          "id": "s8",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "840 sayısını okurken ____(1)____ deriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["sekiz yüz kırk", "dört yüz seksen", "sekiz kırk"],
+          "cevap": {"1": "sekiz yüz kırk"},
+          "cozum_md": "840 = sekiz yüz kırk olarak okunur."
+        }
+      ]
+    }
+  ]
+}

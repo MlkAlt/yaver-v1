@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıları İleriye ve Geriye Doğru Ritmik Sayabilme",
+    "kazanim": {
+      "kod": "MAT.3.1.4",
+      "ad": "Sayıları ileriye ve geriye doğru ritmik sayabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Verilen bir sayıdan başlayarak ileriye doğru ritmik sayar.",
+        "b": "Verilen bir sayıdan başlayarak geriye doğru ritmik sayar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "45'ten başlayarak 5'er 5'er sayarsak: 45, ____(1)____, ____(2)____, ____(3)____, 65 olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["50", "55", "60"],
+          "cevap": {"1": "50", "2": "55", "3": "60"},
+          "cozum_md": "45 + 5 = 50, 50 + 5 = 55, 55 + 5 = 60, 60 + 5 = 65."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "80'den başlayarak geriye 10'ar 10'ar saydığımızda ilk 3 sayı hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "80, 70, 60"},
+            {"harf": "B", "metin_md": "80, 75, 70"},
+            {"harf": "C", "metin_md": "80, 70, 65"},
+            {"harf": "D", "metin_md": "80, 90, 100"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "80 - 10 = 70, 70 - 10 = 60. Doğru seri: 80, 70, 60."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sayı serilerini inceleyerek soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "23'ten başlayarak 3'er 3'er sayarsak 5. sayı 35'tir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "50'den başlayarak 5'er 5'er sayarsak 10. sayı 100'dür.", "cevap": false, "gerekce_md": "50 + 9×5 = 50 + 45 = 95 olur, 100 değil."},
+            {"no": 3, "metin_md": "İleriye doğru sayarken sayılar her zaman artar.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. 23, 26, 29, 32, 35. Doğru. 2. 50, 55, 60, ..., 95. 10. sayı 95'tir. Yanlış. 3. Doğru, ileriye sayınca sayılar artar."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki başlangıç noktalarını, geriye sayıldığında ulaşılan son sayıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "30'dan başla, 10'ar azalt"},
+            {"no": 2, "metin_md": "50'den başla, 5'er azalt"},
+            {"no": 3, "metin_md": "25'ten başla, 2'şer azalt"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "0"},
+            {"harf": "B", "metin_md": "15"},
+            {"harf": "C", "metin_md": "10"}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B"},
+          "cozum_md": "30 - 10×3 = 0. 50 - 5×10 = 0. 25 - 2×5 = 15."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "12'den başlayarak 4'er 4'er ileriye saydığımızda 5. sayı kaç olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "24"},
+            {"harf": "B", "metin_md": "28"},
+            {"harf": "C", "metin_md": "32"},
+            {"harf": "D", "metin_md": "36"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "12, 16, 20, 24, 28. 5. sayı 28'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki görevleri tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayı serisinde eksik sayıları bularak doğru sırayı yazınız.",
+          "gorsel": null,
+          "ogeler": ["5", "10", "__?__", "20", "__?__", "30"],
+          "cevap": {"dogru_sira": [0, 1, 2, 3, 4, 5]},
+          "cozum_md": "5'er 5'er artan seri: 5, 10, 15, 20, 25, 30."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "60'tan başlayarak geriye doğru 8'er 8'eri sayınız. İlk 5 sayıyı yazınız. Bu sayılarda hangi basamak değişimini gözlemliyorsunuz?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "60, 52, 44, 36, 28. Onlar basamağı azalıyor, birler basamağı artıyor.",
+            "kabul_kriterleri": ["60'tan başlayarak 8'er azalması", "İlk 5 sayıyı doğru yazması"]
+          },
+          "cozum_md": "60 - 8 = 52, 52 - 8 = 44, 44 - 8 = 36, 36 - 8 = 28."
+        },
+        {
+          "id": "s8",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "7'den başlayarak 7'er 7'er sayarsak 4. sayı ____(1)____ olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["21", "28", "35"],
+          "cevap": {"1": "28"},
+          "cozum_md": "7, 14, 21, 28. 4. sayı 28'dir."
+        },
+        {
+          "id": "s9",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "100'den başlayarak geriye 25'er 25'er saydığımızda 4. sayı kaç olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "50"},
+            {"harf": "B", "metin_md": "75"},
+            {"harf": "C", "metin_md": "25"},
+            {"harf": "D", "metin_md": "0"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "100, 75, 50, 25. 4. sayı 25'tir."
+        }
+      ]
+    }
+  ]
+}

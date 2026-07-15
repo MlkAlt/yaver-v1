@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Günlük Yaşam Problemleri",
+    "kazanim": {
+      "kod": "MAT.3.2.6",
+      "ad": "Dört işlem gerektiren günlük yaşam problemlerini çözebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Dört işlem gerektiren günlük yaşam problemlerini anlayarak verilen ve istenilenleri belirler.",
+        "b": "Problemin gerektirdiği işlemi belirler.",
+        "c": "Problemi çözer.",
+        "d": "Çözümünü kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 3. sınıf matematik 4. tema",
+      "notlar": [
+        "Market, ev ve okul senaryoları kullanıldı",
+        "Toplama, çıkarma, çarpma ve bölme işlemleri dahil edildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Problemleri okuyunuz, verilenleri ve istenilenleri belirleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Emre'nin kalemi var. Annesi ona 6 kalem daha almış. Şimdi Emre'nin 10 kalemi olmuştur. Emre'nin başlangıçta kaç kalemi vardı?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3 kalemi vardı"},
+            {"harf": "B", "metin_md": "4 kalemi vardı"},
+            {"harf": "C", "metin_md": "16 kalemi vardı"},
+            {"harf": "D", "metin_md": "6 kalemi vardı"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "10 - 6 = 4. Emre başlangıçta 4 kalemi vardı."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir pastanede 24 pasta vardır. Sabah 9 tanesi satılmıştır.\n\nVerilen: ____(1)____ pasta, ____(2)____ tanesi satılmıştır.\n\nİstenilen: ____(3)____ pasta kalmıştır?",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "24", "2": "9", "3": "15"},
+          "cozum_md": "24 - 9 = 15 pasta kalmıştır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Problemleri okuyunuz, gerekli işlemi seçiniz ve çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Sınıfta 30 öğrenci vardır. Öğretmen 8'ini tahtaya kaldırmıştır. Kaç öğrenci yerinde oturmaktadır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "30 + 8 = 38"},
+            {"harf": "B", "metin_md": "30 - 8 = 22"},
+            {"harf": "C", "metin_md": "30 × 8 = 240"},
+            {"harf": "D", "metin_md": "30 ÷ 8 = ?"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "30 - 8 = 22 öğrenci yerinde oturmaktadır. Çıkarma işlemi yapılır."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki problemler için doğru işlem seçilmiş mi kontrol ediniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Problem: \"3 kutu çikolata, her kutuda 12 tane var. Toplam kaç çikolata var?\" İşlem: 3 × 12", "cevap": true, "gerekce_md": "Her kutuda 12 tane varsa ve 3 kutu varsa çarpma yapılır."},
+            {"no": 2, "metin_md": "Problem: \"48 elma 6 sepete eşit dağıtıldı. Her sepette kaç elma var?\" İşlem: 48 - 6", "cevap": false, "gerekce_md": "Eşit dağıtmak için bölme yapılmalıdır: 48 ÷ 6."},
+            {"no": 3, "metin_md": "Problem: \"Bahçede 15 çiçek vardı, 7 tanesi soldu. Kaç çiçek kaldı?\" İşlem: 15 - 7", "cevap": true, "gerekce_md": "Solan çiçekleri çıkarmak için çıkarma yapılır."},
+            {"no": 4, "metin_md": "Problem: \"Ali'nin 20 TL'si var, 5 TL daha buldu. Toplam ne kadar var?\" İşlem: 20 × 5", "cevap": false, "gerekce_md": "Para bulmak toplamaya işaret eder: 20 + 5."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1: Doğru — çarpma. 2: Yanlış — bölme yapılmalı (48÷6). 3: Doğru — çıkarma. 4: Yanlış — toplama yapılmalı (20+5)."
+        },
+        {
+          "id": "s5",
+          "tip": "problem_cozme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir aile tatil için 4 gece otelde kalmıştır. Her gecelik oda ücreti 120 TL'dir. Aile toplam ne kadar otel ücreti ödemiştir?",
+          "gorsel": null,
+          "cevap": {"deger": 480, "birim": "TL", "tolerans_yuzde": 0},
+          "cozum_md": "4 × 120 = 480 TL. 120+120+120+120 = 480."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Günlük yaşam problemlerini okuyunuz, çözünüz ve kontrol ediniz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ayşe, marketten 3 kg domates (kg'sı 4 TL), 2 kg salatalık (kg'sı 3 TL) ve 1 kg peynir (15 TL) almıştır. Ayşe kasaya toplam ne kadar ödemeiştir?",
+          "gorsel": null,
+          "cevap": {"deger": 33, "birim": "TL", "tolerans_yuzde": 0},
+          "cozum_md": "Domates: 3×4=12 TL. Salatalık: 2×3=6 TL. Peynir: 15 TL. Toplam: 12+6+15=33 TL."
+        },
+        {
+          "id": "s7",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Aşağıdaki çözümleri kontrol ediniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Soru: 56 öğrenci 8'li sınıflara ayrıldı. Kaç sınıf oluştu? Çözüm: 56 ÷ 8 = 7 sınıf.", "cevap": true, "gerekce_md": "Bölme doğru: 56÷8=7."},
+            {"no": 2, "metin_md": "Soru: Kütüphanede 120 kitap var, 45'i ödünç alındı. Kaç kitap kaldı? Çözüm: 120 + 45 = 165 kitap.", "cevap": false, "gerekce_md": "Ödünç almak kitap sayısını azaltır: 120 - 45 = 75 kitap."},
+            {"no": 3, "metin_md": "Soru: 4 kutuda her kutuda 9 bisküvi var. Toplam kaç bisküvi? Çözüm: 4 × 9 = 36 bisküvi.", "cevap": true, "gerekce_md": "4×9=36 doğrudur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1: Doğru — 56÷8=7. 2: Yanlış — çıkarma yapılmalı: 120-45=75. 3: Doğru — 4×9=36."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Bir pastanede 63 dilim pasta vardır. Bu pastalar 7 masaya eşit olarak paylaştırılmıştır. Her masada kaç dilim pasta vardır? Çözümünü kontrol etmek için hangi işlemi yaparsın? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "63 ÷ 7 = 9 dilim. Her masada 9 dilim pasta vardır.\n\nKontrol: 9 × 7 = 63 eder. 7 masada toplam 63 dilim olur, doğrudur.",
+            "kabul_kriterleri": [
+              "Bölme işlemini doğru yapmış (63÷7=9)",
+              "Kontrol için çarpma işlemi kullanmış (9×7=63)",
+              "Sonucun orijinal sayıya eşit olduğunu göstermiş"
+            ]
+          },
+          "cozum_md": "63÷7=9 dilim. Kontrol: 9×7=63. Doğru."
+        }
+      ]
+    }
+  ]
+}

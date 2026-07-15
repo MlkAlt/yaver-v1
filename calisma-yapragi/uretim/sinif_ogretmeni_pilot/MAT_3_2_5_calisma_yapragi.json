@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dört İşlemle Yorumlama ve Modelleme",
+    "kazanim": {
+      "kod": "MAT.3.2.5",
+      "ad": "Dört işlem gerektiren durumlar için, verilen yönergeleri takip ederek yorumlayabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Dört işlem gerektiren yönergeleri takip ederek yorumlar.",
+        "b": "Dört işlem gerektiren durumları model eder.",
+        "c": "Modellenen durumları çözer."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 3. sınıf matematik 4. tema",
+      "notlar": [
+        "Günlük yaşam senaryoları kullanıldı (market, okul, ev)",
+        "3. sınıf düzeyine uygun sayı aralığı (0-1000)"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki yönergeleri dikkatlice okuyunuz ve soruları yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki yönerge ve yorumlamaları inceleyiniz.\n\nYönerge: \"Markette 3 kutu süt alınız, her kutunun fiyatı 8 TL'dir. Kasaya giderken yanınıza 30 TL alınız.\"\n\n**İfadeler:**",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Toplam harcama 24 TL'dir.", "cevap": true, "gerekce_md": "3 × 8 = 24 TL. 3 kutu sütün toplam fiyatı 24 TL'dir."},
+            {"no": 2, "metin_md": "Kasaya 30 TL ile giderseniz para üstü alırsınız.", "cevap": true, "gerekce_md": "30 - 24 = 6 TL para üstü alınır."},
+            {"no": 3, "metin_md": "4 kutu süt alsaydınız toplam 28 TL öderdiniz.", "cevap": false, "gerekce_md": "4 × 8 = 32 TL olur. 28 değil, 32 TL ödenir."},
+            {"no": 4, "metin_md": "30 TL yetmez, 2 kutu süt almanız gerekir.", "cevap": false, "gerekce_md": "3 kutu süt 24 TL'dir, 30 TL yeterlidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "3 × 8 = 24 TL (toplam harcama). 30 - 24 = 6 TL (para üstü). 4 kutu olsa 4 × 8 = 32 TL olurdu."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ali, okul kantininden 2 simit ve 1 çay aldı. Simit 5 TL, çay 3 TL ise Ali toplam ne kadar ödemeiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "8 TL"},
+            {"harf": "B", "metin_md": "10 TL"},
+            {"harf": "C", "metin_md": "13 TL"},
+            {"harf": "D", "metin_md": "15 TL"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "2 simit = 2 × 5 = 10 TL. 1 çay = 3 TL. Toplam = 10 + 3 = 13 TL."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Verilen durumları model ederek soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Sınıfta 24 kız ve 18 erkek öğrenci vardır.\n\nToplam öğrenci sayısı = ____(1)____\n\nKız öğrenciler erkeklerden ____(2)____ fazladır.\n\nHer gruptan 3'er öğrenci teneffüse çıkarsa sınıfta ____(3)____ öğrenci kalır.",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "42", "2": "6", "3": "36"},
+          "cozum_md": "24+18=42 toplam öğrenci. 24-18=6 kız fazlası. 42-6=36 öğrenci kalır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir anne,孩子们 için 6 brownie pişirdi. Her brownie'yi 4'e böldü. Toplam kaç dilim brownie olmuştur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "10 dilim"},
+            {"harf": "B", "metin_md": "20 dilim"},
+            {"harf": "C", "metin_md": "24 dilim"},
+            {"harf": "D", "metin_md": "28 dilim"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "6 brownie × 4 dilim = 24 dilim."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki günlük yaşam durumlarını doğru işlemle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "3 paket makarna, her biri 6 TL"},
+            {"no": 2, "metin_md": "12 elma, 3 sepette eşit dağıtıldı"},
+            {"no": 3, "metin_md": "45 şekerden 12'si yenildi, geri kalanı kutuya konuldu"},
+            {"no": 4, "metin_md": "2 kutu çikolata, her kutuda 8 tane var"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "3 × 6 = 18 TL"},
+            {"harf": "B", "metin_md": "12 ÷ 3 = 4 elma"},
+            {"harf": "C", "metin_md": "45 - 12 = 33 şeker"},
+            {"harf": "D", "metin_md": "2 × 8 = 16 çikolata"},
+            {"harf": "E", "metin_md": "45 + 12 = 57 şeker"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1: 3×6=18 TL (toplam fiyat). 2: 12÷3=4 elma (sepette). 3: 45-12=33 şeker (kalan). 4: 2×8=16 çikolata (toplam)."
+        },
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Okul gezisi için 3 otobüs kiralandı. Her otobüse 35 öğrenci bindi. Geziye toplam kaç öğrenci katılmıştır?",
+          "gorsel": null,
+          "cevap": {"deger": 105, "birim": "öğrenci", "tolerans_yuzde": 0},
+          "cozum_md": "3 × 35 = 105 öğrenci. 35+35+35 = 105."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki problem durumlarını yönergeleri takip ederek çözünüz.",
+      "sorular": [
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Zeynep'in çantasında 50 TL vardır. Marketten 2 kilo portakal (her kilosu 7 TL) ve 1 litre süt (9 TL) almıştır. Zeynep'in cebinde kaç TL para kalmıştır?",
+          "gorsel": null,
+          "cevap": {"deger": 27, "birim": "TL", "tolerans_yuzde": 0},
+          "cozum_md": "2 × 7 = 14 TL (portakal). 14 + 9 = 23 TL (toplam harcama). 50 - 23 = 27 TL (kalan para)."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfta bir etkinlik düzenleniyor. Öğretmen her masaya 8 kurabiye ve 4 meyve suyu koyuyor. 5 masa var. Bütün malzemeler toplam kaç tanedir? İşlemlerini adım adım açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Her masada 8 kurabiye + 4 meyve suyu = 12 malzeme vardır. 5 masa × 12 = 60 malzeme vardır.\n\nAlternatif çözüm: Toplam kurabiye = 5 × 8 = 40. Toplam meyve suyu = 5 × 4 = 20. Toplam = 40 + 20 = 60 malzeme.",
+            "kabul_kriterleri": [
+              "Toplam kurabiye sayısını doğru hesaplamış (40)",
+              "Toplam meyve suyu sayısını doğru hesaplamış (20)",
+              "İkisini toplayarak 60 sonucuna ulaşmış",
+              "Adımları açıkça göstermiş"
+            ]
+          },
+          "cozum_md": "Her masa: 8+4=12 malzeme. 5 masa: 5×12=60. Ya da: 5×8=40 kurabiye, 5×4=20 meyve suyu, 40+20=60."
+        }
+      ]
+    }
+  ]
+}

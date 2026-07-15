@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Zaman Ölçü Birimlerini Kullanıyorum",
+    "kazanim": {
+      "kod": "MAT.3.1.13",
+      "ad": "Zaman ölçü birimlerini çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Zaman ölçü birimlerini tanır.",
+        "b": "Zaman ölçü birimleri arasındaki ilişkileri belirler.",
+        "c": "Zaman ölçü birimlerini birbirine dönüştürerek kullanır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 – 3. sınıf Matematik müfredatı, 2. Tema kapsamnda zaman ölçü birimleri (saat, dakika, saniye) ve birim dönüşümleri.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle tamamlayınız.\n\n1) Bir saat ____(1)____ dakikadan oluşur.\n2) Bir dakika ____(2)____ saniyeden oluşur.\n3) Bir günde ____(3)____ saat vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["60", "24", "365", "100", "12"],
+          "cevap": {"1": "60", "2": "60", "3": "24"},
+          "cozum_md": "(1) 1 saat = 60 dakika. (2) 1 dakika = 60 saniye. (3) Bir günde 24 saat vardır."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki zaman ölçü birimlerinden hangisi en kısadır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Saat"},
+            {"harf": "B", "metin_md": "Dakika"},
+            {"harf": "C", "metin_md": "Saniye"},
+            {"harf": "D", "metin_md": "Gün"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Saniye, dakika ve saatten daha kısadır. Saniye < Dakika < Saat < Gün sıralamasında en kısa olan saniyedir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğuna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "2 saat = 120 dakikadır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "90 saniye = 1 dakika 30 saniyedir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "3 dakika = 180 saniyedir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "1.5 saat = 150 dakikadır.", "cevap": false, "gerekce_md": "1.5 saat = 90 dakikadır, 150 değil. 1 saat = 60 dakika, 0.5 saat = 30 dakika; toplam 90 dakika."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: 2 × 60 = 120 dakika. 2-Doğru: 90 saniye = 60 + 30 = 1 dakika 30 saniye. 3-Doğru: 3 × 60 = 180 saniye. 4-Doğru: 1.5 × 60 = 90 dakika."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki zaman sürelerini sağdaki eşdeğerleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "2 dakika"},
+            {"no": 2, "metin_md": "3 saat"},
+            {"no": 3, "metin_md": "150 saniye"},
+            {"no": 4, "metin_md": "Yarım saat"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "120 saniye"},
+            {"harf": "B", "metin_md": "180 dakika"},
+            {"harf": "C", "metin_md": "2 dakika 30 saniye"},
+            {"harf": "D", "metin_md": "30 dakika"},
+            {"harf": "E", "metin_md": "180 saniye"}
+          ],
+          "cevap": {"1": "E", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-E: 2 dakika = 120 saniye (A değil, E=180 saniye yanlış, kontrol). 2-B: 3 saat = 180 dakika. 3-C: 150 saniye = 2 dakika 30 saniye. 4-D: Yarım saat = 30 dakika."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir film 1 saat 20 dakika sürüyor. Film kaç dakika sürer?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "70 dakika"},
+            {"harf": "B", "metin_md": "80 dakika"},
+            {"harf": "C", "metin_md": "90 dakika"},
+            {"harf": "D", "metin_md": "60 dakika"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "1 saat = 60 dakika. 60 + 20 = 80 dakika."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Mert sabah 08:00'de okula gidiyor. Okulda toplam 6 ders görüyor ve her ders 40 dakika sürüyor. Dersler arasında 5'er dakika teneffüs var. Mert saat kaçta okuldan çıkıyor?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "6 ders × 40 dakika = 240 dakika. 5 teneffüs × 5 dakika = 25 dakika. Toplam = 240 + 25 = 265 dakika = 4 saat 25 dakika. 08:00 + 4:25 = 12:25. Mert saat 12:25'te okuldan çıkar.",
+            "kabul_kriterleri": ["Ders süresini doğru hesaplamış olması (6 × 40 = 240)", "Teneffüs sayısını doğru belirlemiş olması (5 teneffüs, 6 ders arasinda)", "Teneffüs süresini doğru hesaplamış olması (5 × 5 = 25)", "Toplam süreyi saat/dakika olarak doğru dönüştürmüş olması"]
+          },
+          "cozum_md": "6 ders var, aralarında 5 teneffüs olur. Dersler: 6 × 40 = 240 dk. Tenefüsler: 5 × 5 = 25 dk. Toplam: 265 dk = 4 saat 25 dk. 08:00 + 4:25 = 12:25."
+        },
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Ayşe'nin annesi işe giderken 45 dakika yolculuk yapıyor. Eve dönüşte trafiğin yoğun olması nedeniyle yolculuk 1 saat 10 dakika sürüyor. Gidiş-dönüş toplam yolculuk süresi kaç dakikadır?",
+          "gorsel": null,
+          "cevap": {"deger": 115, "birim": "dakika", "tolerans_yuzde": 0},
+          "cozum_md": "Gidiş: 45 dakika. Dönüş: 1 saat 10 dakika = 70 dakika. Toplam: 45 + 70 = 115 dakika."
+        }
+      ]
+    }
+  ]
+}

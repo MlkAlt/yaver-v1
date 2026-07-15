@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıları Sıralayabilme",
+    "kazanim": {
+      "kod": "MAT.3.1.3",
+      "ad": "Sayıları sıralayabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Sayıları karşılaştırır.",
+        "b": "Sayıları sıralar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "456, 465'ten küçüktür.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "789, 798'den büyüktür.", "cevap": false, "gerekce_md": "789 < 798, çünkü onlar basamağında 8 < 9 vardır."},
+            {"no": 3, "metin_md": "321 ve 312 sayılarında yüzler basamağı aynıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "500, 501'den büyüktür.", "cevap": false, "gerekce_md": "500 < 501, birler basamağında 0 < 1 vardır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Doğru: 456 < 465. 2. Yanlış: 789 < 798. 3. Doğru: İkisinin de yüzler basamağı 3'tür. 4. Yanlış: 500 < 501."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi **en küçüktür**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "234"},
+            {"harf": "B", "metin_md": "243"},
+            {"harf": "C", "metin_md": "324"},
+            {"harf": "D", "metin_md": "342"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Yüzler basamağı 2 olanlar (234, 243) 3 olanlardan küçüktür. 234 ve 243'te onlar basamağında 3 < 4, bu yüzden 234 en küçüğüdür."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sayıları dikkatlice karşılaştırınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sayıları karşılaştırma işaretleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "345 — 354"},
+            {"no": 2, "metin_md": "678 — 687"},
+            {"no": 3, "metin_md": "999 — 998"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "< (küçüktür)"},
+            {"harf": "B", "metin_md": "> (büyüktür)"},
+            {"harf": "C", "metin_md": "= (eşittir)"}
+          ],
+          "cevap": {"1": "A", "2": "A", "3": "B"},
+          "cozum_md": "345 < 354 (onlarda 4 < 5). 678 < 687 (onlarda 7 < 8). 999 > 998 (birlerde 9 > 8)."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "456 ve 465 sayılarını karşılaştırdığımızda ____(1)____ < ____(2)____ yazarız.",
+          "gorsel": null,
+          "kelime_havuzu": ["456", "465"],
+          "cevap": {"1": "456", "2": "465"},
+          "cozum_md": "456 ve 465'te yüzler basamağı aynıdır. Onlar basamağında 5 < 6 olduğu için 456 < 465'tir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sıralamalardan hangisi **doğrudur**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "123 > 132 > 213"},
+            {"harf": "B", "metin_md": "321 > 312 > 231"},
+            {"harf": "C", "metin_md": "555 > 550 > 505"},
+            {"harf": "D", "metin_md": "999 > 990 > 909"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "555 > 550 > 505 doğrudur. Diğerlerinde sıralama yanlıştır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki sıralama görevlerini tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıları **büyükten küçüğe** sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["432", "423", "342", "324", "243"],
+          "cevap": {"dogru_sira": [0, 1, 2, 3, 4]},
+          "cozum_md": "Yüzler basamağına göre büyükten küçüğe: 400'ler (432, 423), 300'ler (342, 324), 200'ler (243). Aynı yüzlerde onlar basamağına bakılır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "200 ile 300 arasında bulunan ve rakamları toplamı 9 olan bir sayı yazınız. Bu sayıyı neden seçtinizi açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "270 seçebilirim. Çünkü 2+7+0=9 ve 200 ile 300 arasındadır. Başka seçenekler: 261, 252, 243, 234, 225, 216, 207.",
+            "kabul_kriterleri": ["200-300 arasında bir sayı yazması", "Rakamlar toplamının 9 olması"]
+          },
+          "cozum_md": "200-300 arasında yüzlere basamağı 2 olmalıdır. Diğer iki rakamın toplamı 7 olmalıdır: (2,5), (3,4), (4,3), (5,2), (6,1), (7,0) vb."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayı çiftlerinden hangisinde birinci sayı ikinciden **küçüktür**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "567 — 576"},
+            {"harf": "B", "metin_md": "891 — 819"},
+            {"harf": "C", "metin_md": "432 — 423"},
+            {"harf": "D", "metin_md": "654 — 645"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "567 < 576, çünkü onlar basamağında 6 < 7 vardır. Diğerlerinde birinci sayı büyüktür."
+        },
+        {
+          "id": "s9",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "100'den küçük en büyük üç basamaklı sayı ____(1)____, 1000'den küçük en büyük üç basamaklı sayı ____(2)____dur.",
+          "gorsel": null,
+          "kelime_havuzu": ["999", "100"],
+          "cevap": {"1": "999", "2": "999"},
+          "cozum_md": "100'den küçük en büyük üç basamaklı sayı 999'dur. 1000'den küçük en büyük üç basamaklı sayı da 999'dur."
+        }
+      ]
+    }
+  ]
+}

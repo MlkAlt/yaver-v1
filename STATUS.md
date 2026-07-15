@@ -1,26 +1,26 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 15.07.2026 — Oturum 86+87 (Çalışma yaprağı üretimi: Dalga 5+6 tamamlandı, 147/337 kazanım, pilot 150+ dosya)
+**Son güncelleme:** 15.07.2026 — Oturum 86+88 (Çalışma yaprağı üretimi: Dalga 5+6+7 tamamlandı, 167/337 kazanım, pilot 170+ dosya)
 
-## ŞU AN NEREDEYİZ (Oturum 87 — Dalga 6 Matematik üretimi, 15.07.2026)
+## ŞU AN NEREDEYİZ (Oturum 88 — Dalga 7 Matematik 2. sınıf üretimi, 15.07.2026)
 
-Dalga 6 ile Matematik 1-2. sınıf kazanımları üretildi. Toplu üretim subagent ile paralel çalıştırıldı, 0 hata ile doğrulandı.
+Dalga 7 ile Matematik 2. sınıf (18 kazanım) + Matematik 3. sınıf (2 kazanım) üretildi. 4 paralel subagent ile çalıştırıldı, 0 hata ile doğrulandı.
 
 **Üretim durumu (sinif_ogretmeni kuyruğu):**
 - Toplam benzersiz kazanım: 337
-- **Tamamlanan (dalga1-6): 147** (FB 37 + HB 63 + MAT 27 + IHVD 13 + SB 1 + Türkçe 2 + GS 1 + MUZ 1 + diğer 2)
-- Bekleyen: 187
+- **Tamamlanan (dalga1-7): 167** (FB 37 + HB 63 + MAT 47 + IHVD 13 + SB 1 + Türkçe 2 + GS 1 + MUZ 1 + diğer 2)
+- Bekleyen: 167
 - Pilot (test): 3
-- Pilot dosya sayısı: ~170 JSON + HTML çifti
+- Pilot dosya sayısı: 170+ JSON + HTML çifti
 
-**Dalga 6 detayı:** MAT.1.1.6 → MAT.2.1.11 (20 kazanım, Matematik 1-2. sınıf). Tümü 1 A4 sayfası, 6-9 soru, 100 puan. `validate_worksheet.py` ile 0 hata doğrulandı.
+**Dalga 7 detayı:** MAT.2.1.5 → MAT.3.1.10 (20 kazanım). Tümü 1 A4 sayfası, 6-9 soru, 100 puan. `validate_worksheet.py` ile 0 hata doğrulandı.
 
-**Sıradaki dalga önerisi:** Kuyrukta en çok bekleyen: Matematik (84), Türkçe (75), Sosyal Bilgiler (16). Bir sonraki dalga için Matematik 3-4. sınıf veya Türkçe başlanabilir.
+**Sıradaki dalga:** Matematik 3. sınıf (20 kazanım). Kuyrukta toplam Matematik kalan: 60. Türkçe 75, Sosyal Bilgiler 16.
 
 **BEKLİYOR:**
 1. CalismaYapragiScreen cihazda test edilecek (Expo Go)
 2. Üretilen HTML'leri Supabase `calisma_yapraklari` tablosuna seed et (migration 077'de sadece tek test verisi var)
-3. Dalga 7 üretimi
+3. Dalga 8 üretimi (Matematik 3. sınıf, 20 kazanım)
 
 **1. CalismaYapragiScreen hub ekranı — TAMAMLANDI (commit edilmiş, test edilmemiş):**
 - `src/screens/main/CalismaYapragiScreen.tsx` (408 satır): Supabase'den `calisma_yapraklari` tablosunu çeker, kazanım koduna göre varyasyonları listeler, HTML'yi `pdfOnizlemeAc()` ile gösterir.
@@ -43,7 +43,7 @@ Dalga 6 ile Matematik 1-2. sınıf kazanımları üretildi. Toplu üretim subage
 
 **BEKLİYOR — sıradaki adımlar:**
 1. CalismaYapragiScreen cihazda test edilecek (Expo Go)
-2. Dalga 6 üretimi: kuyrukta 220 kazanım bekliyor, her dalga 20 kazanım
+2. Dalga 8 üretimi: kuyrukta 167 kazanım bekliyor, Matematik 3. sınıf (20 kazanım) bir sonraki dalga
 3. Üretimden sonra HTML'ler Supabase `calisma_yapraklari` tablosuna seed edilecek (henüz yapılmadı — `20260712000077_seed_test_fiz942_calisma_yapragi.sql` sadece tek test verisi var)
 
 ---

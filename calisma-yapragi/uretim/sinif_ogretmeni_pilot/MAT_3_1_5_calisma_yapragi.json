@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıları Tek-Çift Olarak Sınıflandırabilme",
+    "kazanim": {
+      "kod": "MAT.3.1.5",
+      "ad": "Sayıları tek-çift olarak sınıflandırabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Tek ve çift sayıları tanımlar.",
+        "b": "Verilen sayıları tek ve çift olarak sınıflandırır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "2, 4, 6, 8 çift sayılarıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "1, 3, 5, 7 çift sayılarıdır.", "cevap": false, "gerekce_md": "1, 3, 5, 7 tek sayılarıdır."},
+            {"no": 3, "metin_md": "Çift sayılar 2'ye tam bölünür.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Doğru: 2, 4, 6, 8 çifttir. 2. Yanlış: 1, 3, 5, 7 tektir. 3. Doğru: Çift sayılar 2'ye tam bölünür."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi **tek** sayıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "12"},
+            {"harf": "B", "metin_md": "15"},
+            {"harf": "C", "metin_md": "20"},
+            {"harf": "D", "metin_md": "28"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "15 tek sayıdır. Diğerleri (12, 20, 28) çift sayılardır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sayıları tek ve çift olarak sınıflandırınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıları tek veya çift olarak eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "34"},
+            {"no": 2, "metin_md": "57"},
+            {"no": 3, "metin_md": "82"},
+            {"no": 4, "metin_md": "91"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Tek"},
+            {"harf": "B", "metin_md": "Çift"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "B", "4": "A"},
+          "cozum_md": "34 çift (son rakamı 4), 57 tek (son rakamı 7), 82 çift (son rakamı 2), 91 tek (son rakamı 1)."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir sayının son rakamı ____(1)____ ise bu sayı çifttir. Son rakamı ____(2)____ ise bu sayı tektir.",
+          "gorsel": null,
+          "kelime_havuzu": ["0, 2, 4, 6, 8", "1, 3, 5, 7, 9"],
+          "cevap": {"1": "0, 2, 4, 6, 8", "2": "1, 3, 5, 7, 9"},
+          "cozum_md": "Son rakamı 0, 2, 4, 6, 8 olan sayılar çifttir. Son rakamı 1, 3, 5, 7, 9 olan sayılar tektir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi **çift** sayıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "135"},
+            {"harf": "B", "metin_md": "247"},
+            {"harf": "C", "metin_md": "380"},
+            {"harf": "D", "metin_md": "509"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "380 çifttir, çünkü son rakamı 0'dır. Diğerleri tek sayılardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki görevleri tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıları tek ve çift olarak iki gruba ayırınız. Önce tekleri, sonra çiftleri küçükten büyüğe sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["45", "32", "67", "18", "93", "56"],
+          "cevap": {"dogru_sira": [4, 2, 0, 1, 5, 3]},
+          "cozum_md": "Tekler: 45, 67, 93 → 45, 67, 93. Çiftler: 32, 18, 56 → 18, 32, 56. Sıralı: 45, 67, 93, 18, 32, 56."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "50 ile 70 arasında kaç tane tek sayı vardır? Bu sayıları listeleyerek gösteriniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "50 ile 70 arasında 10 tane tek sayı vardır: 51, 53, 55, 57, 59, 61, 63, 65, 67, 69.",
+            "kabul_kriterleri": ["Doğru sayıda tek sayıyı bulması", "Tüm tek sayıları listelemesi"]
+          },
+          "cozum_md": "50-70 arası tek sayılar: 51, 53, 55, 57, 59, 61, 63, 65, 67, 69. Toplam 10 tane."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "0 çift sayıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "En küçük çift sayı 2'dir.", "cevap": false, "gerekce_md": "En küçük çift sayı 0'dır."},
+            {"no": 3, "metin_md": "Her tek sayının ardından gelen sayı çifttir.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Doğru: 0 çifttir. 2. Yanlış: En küçük çift 0'dır. 3. Doğru: Tek sayının ardından çift gelir."
+        },
+        {
+          "id": "s9",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "1'den 20'ye kadar olan tek sayıların toplamı kaçtır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "80"},
+            {"harf": "B", "metin_md": "90"},
+            {"harf": "C", "metin_md": "100"},
+            {"harf": "D", "metin_md": "110"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "1+3+5+7+9+11+13+15+17+19 = 100."
+        }
+      ]
+    }
+  ]
+}

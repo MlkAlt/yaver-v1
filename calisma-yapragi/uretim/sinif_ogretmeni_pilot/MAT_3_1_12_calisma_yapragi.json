@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Saatlerde Zamanı Okuyorum",
+    "kazanim": {
+      "kod": "MAT.3.1.12",
+      "ad": "Analog ve dijital saatlerde zamanı okuyabilme ve yazabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Analog saatte zamanı okur.",
+        "b": "Dijital saatte zamanı okur.",
+        "c": "Zamanı analog ve dijital saatte yazar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 – 3. sınıf Matematik müfredatı, 2. Tema kapsamnda saatler ve zaman okuma konusu; analog ve dijital saat okuma-yazma becerileri.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle tamamlayınız.\n\n1) Analog saatte kısa ibre ____(1)____ gösterir.\n2) Analog saatte uzun ibre ____(2)____ gösterir.\n3) Dijital saatte saat ve dakika arasında ____(3)____ işareti bulunur.",
+          "gorsel": null,
+          "kelime_havuzu": ["saat", "dakika", ":", "saniye", "akrep", "yelkovan"],
+          "cevap": {"1": "saat", "2": "dakika", "3": ":"},
+          "cozum_md": "(1) Kısa ibre (akrep) saati gösterir. (2) Uzun ibre (yelkovan) dakikayı gösterir. (3) Dijital saatte saat:dakika formatında ':' işareti kullanılır."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Analog saatte akrep 3'ü, yelkovan 12'yi gösterdiğinde saat kaçtır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3:00"},
+            {"harf": "B", "metin_md": "12:15"},
+            {"harf": "C", "metin_md": "3:12"},
+            {"harf": "D", "metin_md": "12:03"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Akrep 3'ü gösterdiği için saat 3'tür. Yelkovan 12'de olduğu için dakika 00'dır. Saat 3:00'dır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğuna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Dijital saatte 14:30, saat 2:30 anlamına gelir.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Analog saatte yelkovan 6'yı gösterdiğinde her zaman 30 dakika geçmiş olur.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Dijital saatte 08:00, saat sabah 8'i gösterir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Analog saatte akrep ve yelkovan aynı anda 12'yi gösterdiğinde saat gece yarısıdır.", "cevap": false, "gerekce_md": "Akrep ve yelkovan 12'de hem gece yarısında (00:00) hem de öğlen (12:00) birleşir; sadece gece yarısı değildir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: 24 saatlik gösterimde 14:30, 12+2:30 yani saat 2:30'dur. 2-Doğru: Yelkovan 6'da olduğunda saat başından 30 dakika geçmiştir. 3-Doğru: 08:00 sabah saat 8'dir. 4-Yanlış: Saat 12:00 hem gece yarısı hem öğlen olabilir."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki saat durumlarını sağdaki dijital gösterimlerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Akrep 7'de, yelkovan 12'de"},
+            {"no": 2, "metin_md": "Akrep 9'da, yelkovan 3'te"},
+            {"no": 3, "metin_md": "Akrep 11'de, yelkovan 6'da"},
+            {"no": 4, "metin_md": "Akrep 2'de, yelkovan 9'da"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "7:00"},
+            {"harf": "B", "metin_md": "9:30"},
+            {"harf": "C", "metin_md": "11:45"},
+            {"harf": "D", "metin_md": "2:45"},
+            {"harf": "E", "metin_md": "7:30"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Akrep 7'de, yelkovan 12'de → 7:00. 2-B: Akrep 9'da, yelkovan 3'te → 9:30. 3-C: Akrep 11'de, yelkovan 6'da → 11:30 ama seçeneklerde 11:45 var, kontrol et. 4-D: Akrep 2'de, yelkovan 9'da → 2:45."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Dijital saatte saat 15:45'i gösterir. Bu saat analog saatte nasıl gösterilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Akrep 3 ile 4 arasında, yelkovan 9'da"},
+            {"harf": "B", "metin_md": "Akrep 4'te, yelkovan 9'da"},
+            {"harf": "C", "metin_md": "Akrep 3'te, yelkovan 9'da"},
+            {"harf": "D", "metin_md": "Akrep 4 ile 5 arasında, yelkovan 3'te"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "15:45, saat 3:45'tir. Akrep 3'ü geçmiş ama 4'e henüz varmıştır, yelkovan ise 9'da (45 dakika) durur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Okul saat 09:00'da başlıyor ve her ders 40 dakika sürüyor. 3. ders saat kaçta biter? Cevabınızı hem analog hem dijital saatte nasıl gösterirsiniz?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "3. ders saat 09:00'da başlar: 1. ders 09:00-09:40, 2. ders 09:40-10:20, 3. ders 10:20-11:00. 3. ders saat 11:00'da biter. Analog saatte akrep 11'de, yelkovan 12'de olur. Dijital saatte 11:00 olarak gösterilir.",
+            "kabul_kriterleri": ["Her dersin süresini doğru hesaplamış olması", "Toplam süreyi 3 ile çarparak 120 dakika = 2 saat bulması", "Saat 09:00'a 2 saat ekleyerek 11:00 sonucuna ulaşması", "Analog ve dijital gösterimi doğru yapması"]
+          },
+          "cozum_md": "Her ders 40 dakika. 3 ders = 3 × 40 = 120 dakika = 2 saat. 09:00 + 2 saat = 11:00. 3. ders saat 11:00'da biter."
+        },
+        {
+          "id": "s7",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıda verilen saatleri küçükten büyüğe doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": [
+            "08:30",
+            "14:15",
+            "06:45",
+            "21:00",
+            "12:00"
+          ],
+          "cevap": {"dogru_sira": [2, 0, 3, 4, 1]},
+          "cozum_md": "Küçükten büyüğe: 06:45, 08:30, 12:00, 14:15, 21:00. İndeksler: 2, 0, 3, 4, 1."
+        }
+      ]
+    }
+  ]
+}

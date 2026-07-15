@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Paralari Taniyorum ve Kullaniyorum",
+    "kazanim": {
+      "kod": "MAT.3.1.16",
+      "ad": "Madeni ve kagit paralari degerlerine gore iliskilendirerek yorumlayabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "3. TEMA: ÖLÇME",
+      "surec_bilesenleri": {
+        "a": "Madeni paralari degerlerine gore belirler.",
+        "b": "Kagit paralari degerlerine gore belirler.",
+        "c": "Paralari degerlerine gore birbirine donusturerek kullanir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 – 3. sinif Matematik müfredati, 3. Tema (Olcme) kapsaminda para birimleri; T.C. Merkez Bankasi madeni ve kagit para degerleri.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Taniyalim",
+      "yonerge": "Asagidaki sorulari cozunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Asagidaki_cumlelerde_bos_birakilan_yerleri_kelime_havuzundan_uygun_kelimelerle_tamamlayiniz.\n\n1) Bir TL'nin kac kurus eder: ____(1)____ kurus.\n2) 5 TL'nin 2 katindan kucuk olan kagit para ____(2)____ dur.\n3) 100 kuruş = ____(3)____ TL eder.",
+          "gorsel": null,
+          "kelime_havuzu": ["100", "5 TL", "1"],
+          "cevap": {"1": "100", "2": "5 TL", "3": "1"},
+          "cozum_md": "(1) 1 TL = 100 kurus. (2) 5 TL'nin 2 katindan kucuk olan kagit para 5 TL'dir (kendisi). (3) 100 kurus = 1 TL."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Asagidaki madeni paralardan hangisi en kucuk degerdedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "1 TL"},
+            {"harf": "B", "metin_md": "50 kurus"},
+            {"harf": "C", "metin_md": "25 kurus"},
+            {"harf": "D", "metin_md": "5 kurus"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "5 kurus, 25, 50 kurus ve 1 TL'den (100 kurus) kucuktur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalim",
+      "yonerge": "Asagidaki sorulari dikkatle okuyup cevaplayiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Asagidaki ifadelerin dogru mu yanlis mi olduguna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "2 adet 50 kurus = 1 TL eder.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "4 adet 25 kurus = 1 TL eder.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "10 adet 5 kurus = 50 kurus eder.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "200 kurus = 5 TL eder.", "cevap": false, "gerekce_md": "200 kurus = 2 TL eder, 5 TL degil."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": true, "4": false}},
+          "cozum_md": "1-Dogru: 2 x 50 = 100 kurus = 1 TL. 2-Dogru: 4 x 25 = 100 kurus = 1 TL. 3-Dogru: 10 x 5 = 50 kurus. 4-Yanlis: 200 kurus = 2 TL'dir."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki tutarlari sagdaki para birimleriyle eslestiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "3 TL"},
+            {"no": 2, "metin_md": "150 kurus"},
+            {"no": 3, "metin_md": "5 TL"},
+            {"no": 4, "metin_md": "75 kurus"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "3 adet 50 kurus"},
+            {"harf": "B", "metin_md": "1 adet 5 TL"},
+            {"harf": "C", "metin_md": "7 adet 10 kurus + 1 adet 5 kurus"},
+            {"harf": "D", "metin_md": "1 adet 2 TL + 1 adet 1 TL"},
+            {"harf": "E", "metin_md": "3 adet 25 kurus"}
+          ],
+          "cevap": {"1": "D", "2": "A", "3": "B", "4": "E"},
+          "cozum_md": "1-D: 2 + 1 = 3 TL. 2-A: 3 x 50 = 150 kurus. 3-B: 5 TL. 4-E: 3 x 25 = 75 kurus."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Elif'in 1 TL'si, 50 kurusu ve 25 kurusu var. Toplam kac TL'si vardir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "1 TL 75 kurus"},
+            {"harf": "B", "metin_md": "2 TL 25 kurus"},
+            {"harf": "C", "metin_md": "1 TL 50 kurus"},
+            {"harf": "D", "metin_md": "2 TL"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "1 TL + 50 kurus + 25 kurus = 1 TL 75 kurus."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalim",
+      "yonerge": "Asagidaki sorulari cozunuz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Mehmet markete gitti ve 2 TL'lik bir su, 1 TL 50 kurusluk bir cikolata ve 75 kurusluk bir sakiz aldi. Toplam kac TL harcamistir? Odemeyi sadece 1 TL ve 50 kurusluk paralarla yapmak istese kac adet 1 TL ve kac adet 50 kurus kullanir?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Toplam: 2 TL + 1 TL 50 kurus + 75 kurus = 4 TL 25 kurus. 4 adet 1 TL = 4 TL. Kalan 25 kurus 50 kurusla odenebilecek en yakin tutardir ama tam eslesmez. Soruda tam tutar sorulmamis, yaklasik olarak 4 adet 1 TL + 1 adet 50 kurus = 4.50 TL olur.",
+            "kabul_kriterleri": ["Urun degerlerini toplamis olmasi (4.25 TL)", "Toplam tutari dogru hesaplamis olmasi", "Para birimi donusumlerini dogru yapmis olmasi"]
+          },
+          "cozum_md": "2 + 1.50 + 0.75 = 4.25 TL. 4 adet 1 TL = 4 TL, kalan 0.25 TL icin 1 adet 50 kurus kullanilir (0.25 < 0.50 oldugu icin ustunde verilir)."
+        },
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Bir ogrenci kantinde 3 TL 75 kurusluk bir atistirmalik aldi. 10 TL verdi. Kac kurus para ustü alir?",
+          "gorsel": null,
+          "cevap": {"deger": 625, "birim": "kurus", "tolerans_yuzde": 0},
+          "cozum_md": "10 TL = 1000 kurus. 3 TL 75 kurus = 375 kurus. 1000 - 375 = 625 kurus."
+        }
+      ]
+    }
+  ]
+}

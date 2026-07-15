@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Toplama ve Çıkarmada Tahmin ve Zihinden İşlem",
+    "kazanim": {
+      "kod": "MAT.3.2.1",
+      "ad": "Toplama ve çıkarma işlemlerinin sonuçlarını tahminde bulunarak ve zihinden işlem yaparak muhakeme edebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Toplama ve çıkarma işlemlerine ilişkin elemanları belirler.",
+        "b": "Toplama ve çıkarma işlemlerine ilişkin elemanlar arasındaki ilişkileri belirler.",
+        "c": "Toplama ve çıkarma işlemine yönelik tahmin ve zihinden işlem sonuçları arasında ilişki kurar.",
+        "d": "Tahmin ve zihinden işlem sonuçlarının tutarlılığını ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Toplama ve çıkarma işlemlerindeki elemanları tanıyınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "72 + 45 = 117 işleminde **72** ve **45** sayılarına ne denir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Toplam"},
+            {"harf": "B", "metin_md": "Terimler"},
+            {"harf": "C", "metin_md": "Fark"},
+            {"harf": "D", "metin_md": "Çıkan"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Toplama işleminde toplanan sayılara **terim** denir. 72 ve 45 bu işlemin iki terimidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 12,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Toplama işleminde toplam, terimlerden her zaman büyüktür.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Çıkarma işleminde çıkan artarsa fark da artar.", "cevap": false, "gerekce_md": "Çıkan artarsa eksilenden daha fazla çıkarılır, fark azalır."},
+            {"no": 3, "metin_md": "Toplama işleminde terimlerin sırası değişse bile toplam değişmez.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1) Doğru: Toplam iki terimin toplamıdır, her zaman büyüktür. 2) Yanlış: Çıkan artarsa fark azalır. 3) Doğru: Toplama işleminde sıra değişimi sonucu değiştirmez."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Toplama ve çıkarma işlemlerindeki ilişkileri ve tahmin kavramını kavrayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 12,
+          "govde_md": "____(1)____ işleminde iki ____(2)____ toplanarak ____(3)____ bulunur.\n\nÖrnek: 45 + 38 = 83",
+          "gorsel": null,
+          "kelime_havuzu": ["Toplama", "Çıkarma", "terim", "toplam", "fark"],
+          "cevap": {"1": "Toplama", "2": "terim", "3": "toplam"},
+          "cozum_md": "**Toplama** işleminde iki **terim** toplanarak **toplam** bulunur."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 14,
+          "govde_md": "İşlem elemanlarını tanımlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Toplam"},
+            {"no": 2, "metin_md": "Fark"},
+            {"no": 3, "metin_md": "Terim"},
+            {"no": 4, "metin_md": "Çıkan"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Toplama işleminin sonucu"},
+            {"harf": "B", "metin_md": "Çıkarma işleminin sonucu"},
+            {"harf": "C", "metin_md": "Toplamada yer alan sayı"},
+            {"harf": "D", "metin_md": "Çıkarmada eksilenden çıkarılan sayı"},
+            {"harf": "E", "metin_md": "Çıkarmada en büyük sayı"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Toplam → toplama sonucu. Fark → çıkarma sonucu. Terim → toplamadaki sayı. Çıkan → eksilenden çıkarılan."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 12,
+          "govde_md": "Zeynep 189 + 342 işlemini yaptı. 200 + 300 = 500 olarak tahmin etmişti. Sonuç 531 çıktı. Zeynep'in tahmini hakkında ne söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Tahmini tam tutmuştur"},
+            {"harf": "B", "metin_md": "Tahmin, sonuca yakın bir değer olmalıdır"},
+            {"harf": "C", "metin_md": "Tahmin her zaman küçüktür"},
+            {"harf": "D", "metin_md": "Tahmin ile sonuçun alakası yoktur"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tahmin 500, sonuç 531'dir. İkisi de birbirine yakındır. Tahmin, sonuca yakın bir değer olmalıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiğin bilgileri kullanarak aşağıdaki problemleri çöz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 14,
+          "govde_md": "Can 523 - 267 işlemini yaptı ve 256 buldu. 500 - 300 = 200 olarak tahmin etmişti. Can'ın tahmin ile işlem sonucu arasındaki fark hakkında ne söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Tahmini çok iyi tutmuştur çünkü sonuç tahmine çok yakındır"},
+            {"harf": "B", "metin_md": "Tahmin ile sonuç arasında fark vardır ama tahmin yine de iyi bir başlangıçtır"},
+            {"harf": "C", "metin_md": "Tahmini tamamen yanlıştır"},
+            {"harf": "D", "metin_md": "Bu işlemde tahmin yapılamaz"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tahmin 200, sonuç 256'dır. Aralarında 56 fark vardır. Tahmin tam tutmamıştır ama yüzer basamakta iyi bir yaklaşım olmuştur."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 14,
+          "govde_md": "346 + 527 işlemini zihinden yapmadan önce nasıl bir tahminde bulunursun? Tahminini ve işlemini adım adım yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "346'yı 350'ye, 527'yi 530'a yuvarlarım. 350 + 530 = 880 olur. Tahminim yaklaşık 880'dir. Gerçek sonuç 873'tür. Tahminim çok yakındır.",
+            "kabul_kriterleri": ["Sayıları yuvarlama yöntemini kullanması", "Tahmin değerini belirtmesi", "Gerçek sonucu kontrol etmesi"]
+          },
+          "cozum_md": "Yuvarlama yöntemiyle: 346 = 350, 527 = 530. 350 + 530 = 880. Gerçek: 346 + 527 = 873."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 12,
+          "govde_md": "456 + 378 = 834 işleminde 500 + 400 = 900 tahmin edilmiştir. Tahmin ile işlem sonucu arasındaki ilişki hakkında ne söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Tahmin tam tutmuştur"},
+            {"harf": "B", "metin_md": "Tahmin ile sonuç arasında büyük bir fark vardır"},
+            {"harf": "C", "metin_md": "Tahmin sonuca yakın bir değer vermiştir"},
+            {"harf": "D", "metin_md": "Tahmin ile sonuç arasında ilişki yoktur"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Tahmin 900, sonuç 834'tür. 500 ve 400, 456 ve 378'in yüzer basamak yuvarlamalarıdır. Tahmin sonuca yakındır."
+        }
+      ]
+    }
+  ]
+}

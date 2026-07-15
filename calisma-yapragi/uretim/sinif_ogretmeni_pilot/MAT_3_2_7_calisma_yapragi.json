@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Problem Durumlarını Yapılandırma",
+    "kazanim": {
+      "kod": "MAT.3.2.7",
+      "ad": "Dört işlem gerektiren problem durumlarını yapılandırabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Problem durumlarını yapılandırır.",
+        "b": "Yapılandırılan problem durumlarını çözer.",
+        "c": "Çözümleri yorumlar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 3. sınıf matematik 4. tema",
+      "notlar": [
+        "Problem yapılandırma becerisi ön planda",
+        "Verilen→işlem→sonuç akışı sorularda"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Verilen durumlardan problem oluşturunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "\"Bir kasede 12 çilek vardı. Kardeşi 3 tanesini yedi.\" Bu durumdan aşağıdakilerden hangisi oluşturulabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "12 + 3 = ? (toplam kaç çilek var)"},
+            {"harf": "B", "metin_md": "12 - 3 = ? (kaç çilek kaldı)"},
+            {"harf": "C", "metin_md": "12 × 3 = ? (kaç çilek yendi)"},
+            {"harf": "D", "metin_md": "12 ÷ 3 = ? (kaç çilek bölündü)"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "3 tanesi yendiyse kalan çilek sayısını bulmak için çıkarma yapılır: 12 - 3 = 9."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki durumları oluşabilecek problemlerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "45 dakikalık ders saati, 10 dakika erken bitti"},
+            {"no": 2, "metin_md": "Her gün 7 sayfa okuyan öğrenci, 5 günde kaç sayfa okur?"},
+            {"no": 3, "metin_md": "3 kutuda 18 çikolata eşit dağıtıldı"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "7 × 5 = 35 sayfa"},
+            {"harf": "B", "metin_md": "45 - 10 = 35 dakika"},
+            {"harf": "C", "metin_md": "18 ÷ 3 = 6 çikolata"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1: 45-10=35 dakika kalan süre. 2: 7×5=35 sayfa toplam. 3: 18÷3=6 çikolata."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Problemleri yapılandırınız ve çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Öğretmen tahtaya \"Toplam 40 kalemi 8 öğrenciye eşit dağıtacağım\" yazmıştır. Bu cümleden aşağıdakilerden hangisi çıkarılabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Her öğrenci 5 kalem alır"},
+            {"harf": "B", "metin_md": "Her öğrenci 8 kalem alır"},
+            {"harf": "C", "metin_md": "Her öğrenci 32 kalem alır"},
+            {"harf": "D", "metin_md": "Toplam 48 kalem vardır"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "40 ÷ 8 = 5. Her öğrenci 5 kalem alır."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "\"Bir kütüphanede 96 kitap vardır. 4 rafa eşit olarak yerleştirilmiştir.\"\n\nToplam kitap sayısı: ____(1)____\n\nRaf sayısı: ____(2)____\n\nHer raftaki kitap sayısı: ____(3)____\n\nİşlem: 96 ÷ ____(4)____ = ____(5)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "96", "2": "4", "3": "24", "4": "4", "5": "24"},
+          "cozum_md": "96 kitap 4 rafla bölünür: 96÷4=24 kitap."
+        },
+        {
+          "id": "s5",
+          "tip": "problem_cozme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir fırında sabah 35 ekmek pişirilmiştir. Öğleden sonra 28 ekmek daha pişirilmiştir. Fırında toplam kaç ekmek olmuştur?",
+          "gorsel": null,
+          "cevap": {"deger": 63, "birim": "ekmek", "tolerans_yuzde": 0},
+          "cozum_md": "35 + 28 = 63 ekmek."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Verilenlerden problem oluşturunuz, çözünüz ve yorumlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Verilenler: \"30 öğrenci, her öğrenci 3 tane boya kalemi istiyor. Her pakette 5 boya kalemi var.\"\n\nBu verilerden bir problem oluşturunuz ve çözümü yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Problem: 30 öğrenci, her biri 3 boya kalemi istiyor. Toplam kaç boya kalemi gerekir? Kaç paket alınmalıdır?\n\nÇözüm: 30 × 3 = 90 boya kalemi gerekir. Her pakette 5 tane varsa: 90 ÷ 5 = 18 paket alınmalıdır.\n\nYorum: 18 paket alarak her öğrenciye 3 boya kalemi dağıtılabilir.",
+            "kabul_kriterleri": [
+              "Anlamlı bir problem cümlesi kurmuş",
+              "Toplam ihtiyacı hesaplamış (30×3=90)",
+              "Paket sayısını bulmuş (90÷5=18)",
+              "Sonucu yorumlamış"
+            ]
+          },
+          "cozum_md": "30×3=90 kalem, 90÷5=18 paket."
+        },
+        {
+          "id": "s7",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki problem çözümlerini ve yorumlarını inceleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Problemi çöz: 72 öğrenci 9'lu sınıflara ayrıldı. Kaç sınıf? Çözüm: 72÷9=8 sınıf. Yorum: Daha az öğrenci olsa 2 sınıf yetmezdi.", "cevap": true, "gerekce_md": "72÷9=8 doğrudur. Yorum da mantıklıdır — 18 öğrenci 2 sınıfa sığmaz."},
+            {"no": 2, "metin_md": "Problemi çöz: 45 kalem 6 kıza ve 9 erkeğe verildi. Her birine kaç kalem düştü? Çözüm: 45÷15=3 kalem. Yorum: Kız ve erkek sayısı toplanarak öğrenci sayısı bulunmuş.", "cevap": true, "gerekce_md": "6+9=15 öğrenci, 45÷15=3 kalem. Doğru."},
+            {"no": 3, "metin_md": "Problemi çöz: Bir sepette 24 portakal var. 5 tanesi çürük. Sağlıklı portakal sayısı? Çözüm: 24+5=29 portakal. Yorum: Çürük portakallar çıkarılmış.", "cevap": false, "gerekce_md": "Çürük portakallar çıkarılmalıdır: 24-5=19. Toplama yapılmaz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1: Doğru — 72÷9=8. 2: Doğru — 45÷15=3. 3: Yanlış — 24-5=19 olmalı."
+        },
+        {
+          "id": "s8",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir okulda 4 sınıf之间 resim yarışması düzenleniyor. Her sınıftan 9 öğrenci katılıyor. Her öğrenci 2 resim yapıyor. Toplam kaç resim yapılmıştır?",
+          "gorsel": null,
+          "cevap": {"deger": 72, "birim": "resim", "tolerans_yuzde": 0},
+          "cozum_md": "4×9=36 öğrenci. 36×2=72 resim. Ya da: her sınıftan 9×2=18 resim, 4×18=72 resim."
+        }
+      ]
+    }
+  ]
+}

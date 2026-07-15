@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Uzunluk ve Kütle Birimlerini Kullanıyorum",
+    "kazanim": {
+      "kod": "MAT.3.1.15",
+      "ad": "Uzunluk ve kütle birimleri arasındaki ilişkileri kullanarak bu birimleri kendi içerisinde çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "3. TEMA: ÖLÇME",
+      "surec_bilesenleri": {
+        "a": "Uzunluk ölçme birimleri arasındaki ilişkileri belirler.",
+        "b": "Uzunluk ölçme birimlerini birbirine dönüştürerek kullanır.",
+        "c": "Kütle ölçme birimleri arasındaki ilişkileri belirler.",
+        "d": "Kütle ölçme birimlerini birbirine dönüştürerek kullanır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 – 3. sinif Matematik müfredati, 3. Tema (Olcme) kapsaminda uzunluk birimleri (mm, cm, m, km) ve kütlesel birimler (g, kg, ton) donusümleri.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Taniyalim",
+      "yonerge": "Asagidaki sorulari cozunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Asagidaki_cumlelerde_bos_birakilan_yerleri_kelime_havuzundan_uygun_kelimelerle_tamamlayiniz.\n\n1) 1 metre = ____(1)____ santimetredir.\n2) 1 kilometre = ____(2)____ metredir.\n3) 1 kilogram = ____(3)____ gramdir.\n4) 1 ton = ____(4)____ kilogramdir.\n5) 1 santimetre = ____(5)____ milimetredir.",
+          "gorsel": null,
+          "kelime_havuzu": ["100", "1000", "1000", "1000", "10"],
+          "cevap": {"1": "100", "2": "1000", "3": "1000", "4": "1000", "5": "10"},
+          "cozum_md": "(1) 1 m = 100 cm. (2) 1 km = 1000 m. (3) 1 kg = 1000 g. (4) 1 ton = 1000 kg. (5) 1 cm = 10 mm."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Asagidaki kütlesel birimlerden hangisi en buyuktur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "500 gram"},
+            {"harf": "B", "metin_md": "2 kilogram"},
+            {"harf": "C", "metin_md": "3 ton"},
+            {"harf": "D", "metin_md": "1500 gram"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "3 ton = 3000 kg = 3.000.000 g. Diger seceneklerin hepsi 3 tondan kucuktur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalim",
+      "yonerge": "Asagidaki sorulari dikkatle okuyup cevaplayiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Asagidaki ifadelerin dogru mu yanlis mi olduguna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "3 metre = 300 santimetredir.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "2500 metre = 2 kilometre 500 metredir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "4 kilogram = 400 gramdir.", "cevap": false, "gerekce_md": "4 kg = 4000 g dir, 400 g degil."},
+            {"no": 4, "metin_md": "7 santimetre = 70 milimetredir.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "1-Dogru: 3 x 100 = 300 cm. 2-Dogru: 2500 m = 2 km + 500 m. 3-Yanlis: 4 kg = 4000 g. 4-Dogru: 7 x 10 = 70 mm."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki olcümleri sagdaki esdegerleriyle eslestiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "5 km"},
+            {"no": 2, "metin_md": "250 cm"},
+            {"no": 3, "metin_md": "3000 g"},
+            {"no": 4, "metin_md": "2 ton"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "3 kg"},
+            {"harf": "B", "metin_md": "2000 kg"},
+            {"harf": "C", "metin_md": "5000 m"},
+            {"harf": "D", "metin_md": "2 m 50 cm"},
+            {"harf": "E", "metin_md": "500 cm"}
+          ],
+          "cevap": {"1": "C", "2": "D", "3": "A", "4": "B"},
+          "cozum_md": "1-C: 5 km = 5000 m. 2-D: 250 cm = 2 m 50 cm. 3-A: 3000 g = 3 kg. 4-B: 2 ton = 2000 kg."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Bir kargo kutusu 2 kg 500 gr agirligindadir. Kutunun toplam agirligi kac gramdir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2500 gram"},
+            {"harf": "B", "metin_md": "2050 gram"},
+            {"harf": "C", "metin_md": "3500 gram"},
+            {"harf": "D", "metin_md": "250 gram"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "2 kg = 2000 g. 2000 + 500 = 2500 g."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalim",
+      "yonerge": "Asagidaki sorulari cozunuz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Ali'nin bisikleti 15 kilometre yol alabiliyor. Ali bugun bisikletiyle 3500 metre yol gitti. Kalan yol kac kilometredir?",
+          "gorsel": null,
+          "cevap": {"deger": 11.5, "birim": "kilometre", "tolerans_yuzde": 0},
+          "cozum_md": "3500 m = 3.5 km. 15 - 3.5 = 11.5 km."
+        },
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Ayse'nin annesi ise giderken 45 dakika yolculuk yapiyor. Eve donuste trafigin yogun olmasi nedeniyle yolculuk 1 saat 10 dakika suruyor. Gidis-donus toplam yolculuk suresi kac dakikadir?",
+          "gorsel": null,
+          "cevap": {"deger": 115, "birim": "dakika", "tolerans_yuzde": 0},
+          "cozum_md": "Gidis: 45 dakika. Donus: 1 saat 10 dakika = 70 dakika. Toplam: 45 + 70 = 115 dakika."
+        }
+      ]
+    }
+  ]
+}
