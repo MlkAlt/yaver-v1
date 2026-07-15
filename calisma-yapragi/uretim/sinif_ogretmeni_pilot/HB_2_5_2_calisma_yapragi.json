@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Doğadan Yararlanarak Yön Bulma",
+    "kazanim": {
+      "kod": "HB.2.5.2",
+      "ad": "Doğadan yararlanarak yönünü belirleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Güneşin doğuş ve batış konumundan, ayrıca gölgenin düştüğü yönden yararlanarak ana yönleri belirler.",
+        "b": "Doğadaki izlerden (yosun, karınca yuvası, Kutup Yıldızı) yararlanarak yönünü bulur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/246 (5. Öğrenme Alanı: Doğa ve Çevre) incelendi; resmi metinde HB.2.5.2 için alt madde (a,b,c) bulunmuyor. Üst düzey kazanım ve öğrenme-öğretme uygulamalarında geçen örnekler (güneşin doğuş/batış konumu, gölgenin düştüğü yön, yosun, karınca yuvası, Kutup Yıldızı) doğrulandı ve süreç bileşenleri bunlardan türetildi.",
+      "notlar": [
+        "Kaynak veri setinde bu kazanımın 'aciklama' alanı null. Süreç bileşenleri (a,b) MEB'in resmi kazanım sayfasında alt madde olmadığı için ad'dan ve web araştırmasından (tymm.meb.gov.tr) türetilmiştir.",
+        "validate_worksheet.py: 0 hata, 1 uyarı (s2: eşleştirmede 'Kuzey' (A) iki kez kullanılmış — yosun ve Kutup Yıldızı'nın ikisi de kuzeyi gösterdiği için bilinçli bir tercih).",
+        "Bağımsız crosscheck (subagent): karar=onay, kritik sorun yok. Tek düşük önemli not: s3'teki 'sağ kolu doğuya uzat → yüz nereyi gösterir' çıkarımı 2. sınıf için biraz soyut olabilir; cevap ve mantık doğru olduğundan değiştirilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları güneşin doğuş-batış yönünü ve doğadaki yön ipuçlarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Güneş her sabah ____(1)____ yönünden doğar, akşam ____(2)____ yönünde batar.",
+          "gorsel": null,
+          "kelime_havuzu": ["Doğu", "Batı", "Kuzey", "Güney"],
+          "cevap": {"1": "Doğu", "2": "Batı"},
+          "cozum_md": "Güneş her gün doğu yönünden doğar ve batı yönünde batar; bu, en bilinen ve gözlemi en kolay yön bulma ipucudur."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki doğa ipuçlarını gösterdikleri yönle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Yosunun daha bol tutunduğu taraf"},
+            {"no": 2, "metin_md": "Karınca yuvasının kapısının baktığı taraf"},
+            {"no": 3, "metin_md": "Kutup Yıldızı'nın gösterdiği yön"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kuzey"},
+            {"harf": "B", "metin_md": "Güney"},
+            {"harf": "C", "metin_md": "Doğu"},
+            {"harf": "D", "metin_md": "Batı"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "A"},
+          "cozum_md": "Yosun, az güneş alan ve nemli olan kuzey yönünde daha bol bulunur. Karınca yuvasının kapısı, sıcak ve güneşli olan güney yönüne bakar. Kutup Yıldızı ise gökyüzünde her zaman kuzey yönünü gösterir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları öğrendiğiniz yön bulma yöntemlerini ilişkilendirerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sabah güneş doğarken sağ kolunuzu güneşin doğduğu yöne doğru uzatırsanız yüzünüz hangi yönü gösterir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Doğu"},
+            {"harf": "B", "metin_md": "Batı"},
+            {"harf": "C", "metin_md": "Kuzey"},
+            {"harf": "D", "metin_md": "Güney"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Sağ kol güneşin doğduğu doğuyu gösterdiğinde, sol kol batıyı, yüz kuzeyi, sırt ise güneyi gösterir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki doğa ipucu - yön eşleştirmelerinden hangisi YANLIŞTIR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yosun - Kuzey yönünde daha bol bulunur"},
+            {"harf": "B", "metin_md": "Karınca yuvasının kapısı - Kuzey yönüne bakar"},
+            {"harf": "C", "metin_md": "Kutup Yıldızı - Her zaman kuzeyi gösterir"},
+            {"harf": "D", "metin_md": "Güneş - Doğu yönünden doğar"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Karınca yuvalarının kapısı, güneş ışığını daha çok alan ve sıcak olan güney yönüne bakacak şekilde yapılır; bu yüzden B seçeneği yanlıştır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Doğa Öğesi", "Yön İpucu"],
+            "satirlar": [
+              ["Yosun", "__?__"],
+              ["__?__", "Kapısı güneşli ve sıcak olan yöne bakar"],
+              ["Kutup Yıldızı", "__?__"],
+              ["Güneşin doğduğu yer", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Kuzey yönünde daha bol bulunur",
+            "r1c0": "Karınca yuvası",
+            "r2c1": "Her zaman kuzey yönünü gösterir",
+            "r3c1": "Doğu yönünü gösterir"
+          },
+          "cozum_md": "Yosun kuzeyde, karınca yuvasının kapısı güneyde, Kutup Yıldızı her zaman kuzeyde, güneşin doğduğu yer ise doğu yönündedir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki durumları doğadaki yön ipuçlarını kullanarak açıklayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Okul bahçesinde öğle vaktinde gölgenize bakarak yönünüzü nasıl belirlersiniz? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Öğle vaktinde güneş gökyüzünde güney yönünde en yüksek noktadadır. Bu yüzden gölgem tam tersi yöne, yani kuzeye doğru düşer. Gölgemin ucunun gösterdiği yöne bakarak kuzeyi bulurum; arkamı dönersem güney kalır, sağ elim doğuyu, sol elim batıyı gösterir.",
+            "kabul_kriterleri": [
+              "Öğle vakti güneşin güneyde/en yüksekte olduğunu belirtmesi",
+              "Gölgenin kuzeye doğru düştüğünü belirtmesi",
+              "Diğer üç yönü buna göre tutarlı çıkarması"
+            ]
+          },
+          "cozum_md": "Öğrencinin gölge-güneş ilişkisini doğru kurup dört yönü tutarlı biçimde çıkarması yeterlidir; birebir aynı cümle beklenmez."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Pusulanız olmadan bir ormanda kaybolduğunuzu düşünün. Doğadaki hangi iki ipucundan yararlanarak yönünüzü bulabilirsiniz? Nasıl kullanacağınızı açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ağaç gövdelerindeki yosunlara bakarım; yosun genelde güneş almayan, nemli olan kuzey tarafında daha bol olur. Ayrıca karınca yuvalarının kapısına bakarım; karıncalar yuvalarının ağzını güneşli ve sıcak olan güney yönüne yaparlar. Bu iki ipucunu birlikte kullanarak kuzey-güney yönünü belirlerim.",
+            "kabul_kriterleri": [
+              "Yosun ipucunu ve kuzeyle ilişkisini doğru açıklaması",
+              "Karınca yuvası ipucunu ve güneyle ilişkisini doğru açıklaması",
+              "İki farklı doğa ipucu seçmesi"
+            ]
+          },
+          "cozum_md": "Öğrenci yosun-kuzey ve karınca yuvası-güney ilişkisini gerekçesiyle birlikte kurmalıdır; Kutup Yıldızı da (gece için) kabul edilebilir alternatif bir ipucudur."
+        }
+      ]
+    }
+  ]
+}

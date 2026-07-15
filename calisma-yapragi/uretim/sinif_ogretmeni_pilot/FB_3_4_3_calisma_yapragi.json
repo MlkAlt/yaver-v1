@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Atıkların Ayrıştırılmasına İlişkin Problem Çözüyorum",
+    "kazanim": {
+      "kod": "FB.3.4.3",
+      "ad": "Atıkların ayrıştırılmasına ilişkin problem çözebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "4. ÜNİTE: MADDEYİ TANIYALIM, KARIŞTIRIP AYIRALIM",
+      "surec_bilesenleri": {
+        "a": "Atıkların ayrıştırılmasına ilişkin problemi yapılandırır.",
+        "b": "Atıkların ayrıştırılmasına ilişkin problemi özetler.",
+        "c": "Atıkların ayrıştırılmasına ilişkin çözüm önerilerini gözleme ya da veriye dayalı tahmin eder.",
+        "ç": "Atıkların ayrıştırılmasına ilişkin problemin çözümüne yönelik önermeler üzerinden akıl yürütür.",
+        "d": "Atıkların ayrıştırılmasına ilişkin problemin çözümüne yönelik yansıtmada/değerlendirmede bulunur."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 4. Ünite (Maddeyi Tanıyalım, Karıştırıp Ayıralım) program sayfası incelendi: FB.3.4.3'ün, ünitenin karışım ayırma yöntemleriyle (eleme, süzme vb.) ilişkilendirilen bir problem çözme kazanımı olduğu, öğretim uygulamasının 'atıkların ayrıştırılmadan atılmasının çevreye etkisi' üzerine kurulu bir problem durumu ile başladığı doğrulandı. Geri dönüşüm kutusu renk kodları (kağıt-mavi, cam-yeşil, plastik-sarı, organik atık ayrı kutu) MEB kaynağında somut olarak teyit edilemedi; bu genel bilgi Türkiye'de yaygın geri dönüşüm uygulaması olarak kullanıldı, kesin renk kodu iddiası yapılmadı (s2'de sadece atık türü–kutu türü eşleştirmesi var, renk belirtilmedi).",
+      "notlar": ["Geri dönüşüm kutu renkleri MEB ders kitabından birebir doğrulanamadı; s2'de renksiz, tür bazlı eşleştirme tercih edildi (kağıt kutusu, cam kutusu, plastik kutusu, organik atık kutusu). validate_worksheet.py 3 acik_uclu için WARN veriyor (öneri ≤2); bilinçli tercih edildi çünkü kazanımın süreç bileşenleri (özetleme, veriye dayalı öneri, değerlendirme) doğası gereği açık uçlu ifade gerektiriyor — çoktan seçmeliyle ölçülemez. render_html.py ile GERÇEK sayfa ölçümü yapıldı: öğrenci kısmı 1 sayfa (bütçe içinde), bu yüzden kısaltma yapılmadı. Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki doğru/yanlış ve eşleştirme sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Atıklar cinsine göre ayrı kutulara atılırsa geri dönüştürülmesi kolaylaşır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Kağıt, cam ve plastik atıkları hep birlikte aynı kutuya atmak çevreye zarar vermez.", "cevap": false, "gerekce_md": "Atıklar ayrıştırılmadan atılırsa geri dönüştürülemez, bu da doğal kaynakların boşa gitmesine ve çevre kirliliğine yol açar."},
+            {"no": 3, "metin_md": "Meyve-sebze kabuğu gibi atıklar da kağıt, cam, plastik gibi ayrı bir grupta toplanmalıdır.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Bir çöp kutusuyla ilgili problemi çözmeye başlamadan önce problemin ne olduğunu anlamaya gerek yoktur.", "cevap": false, "gerekce_md": "Bir problemi çözebilmek için önce problemin ne olduğunu doğru biçimde anlamak (yapılandırmak) gerekir; aksi hâlde yanlış bir çözüm üretilebilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: Ayrıştırılan atık geri dönüşüm tesisinde daha kolay işlenir. 2-Yanlış: Ayrıştırılmayan atıklar geri dönüştürülemez ve çevreye zarar verir. 3-Doğru: Organik atıklar (meyve-sebze kabuğu vb.) da ayrı toplanması gereken bir atık grubudur. 4-Yanlış: Problem çözme sürecinin ilk adımı, problemi doğru anlamaktır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Soldaki atık türünü, atılması gereken sağdaki kutuyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Gazete, karton kutu"},
+            {"no": 2, "metin_md": "Cam şişe, kavanoz"},
+            {"no": 3, "metin_md": "Plastik pet şişe"},
+            {"no": 4, "metin_md": "Elma, portakal kabuğu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kağıt-karton atık kutusu"},
+            {"harf": "B", "metin_md": "Cam atık kutusu"},
+            {"harf": "C", "metin_md": "Plastik atık kutusu"},
+            {"harf": "D", "metin_md": "Organik atık kutusu"},
+            {"harf": "E", "metin_md": "Elektronik atık kutusu"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Gazete ve karton kutu kağıt-karton atıktır. 2-B: Cam şişe ve kavanoz cam atıktır. 3-C: Pet şişe plastik atıktır. 4-D: Meyve-sebze kabukları organik (doğada çürüyebilen) atıktır. E seçeneği (elektronik atık kutusu) burada verilen atıkların hiçbiriyle eşleşmediği için çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki durumu okuyup soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "**Durum:** 3-A sınıfında öğrenciler teneffüste yedikleri meyvelerin kabuklarını, içtikleri suların pet şişelerini ve kullandıkları kağıtları hep aynı tek çöp kutusuna atıyor. Sınıf öğretmenleri, atıklar ayrıştırılmadan atılırsa çevreye zarar verildiğini anlatıyor ama sınıfta hâlâ sadece bir tane çöp kutusu var.\n\nBu durumda çözülmesi gereken problem aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Öğrencilerin teneffüste meyve yememesi gerektiği"},
+            {"harf": "B", "metin_md": "Sınıfta atıkların ayrıştırılmadan tek kutuya atılmasının çevreye zarar vermesi"},
+            {"harf": "C", "metin_md": "Öğretmenin sınıfa yeni bir sıra alması gerektiği"},
+            {"harf": "D", "metin_md": "Öğrencilerin teneffüste su içmemesi gerektiği"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Durumda anlatılan asıl sorun, farklı türdeki atıkların ayrıştırılmadan tek bir kutuya atılması ve bunun çevreye zarar vermesidir. A, C ve D seçenekleri durumda geçen ayrıntılara (meyve, su, sınıf eşyaları) takılıp asıl problemi yanlış yerde arayan tipik öğrenci hatalarını yansıtan çeldiricilerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "s3'teki 3-A sınıfının atık problemini **kendi cümlelerinle** özetle. Özetinde problemin ne olduğunu ve bu problemin neden önemli olduğunu belirt.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "3-A sınıfında atıklar ayrıştırılmadan tek bir kutuya atılıyor. Bu önemli bir problem çünkü ayrıştırılmayan atıklar geri dönüştürülemiyor ve çevreye zarar veriyor.",
+            "kabul_kriterleri": ["Atıkların ayrıştırılmadan tek kutuya atıldığını belirtmesi", "Bunun çevreye zarar verdiğini/önemli bir sorun olduğunu ifade etmesi"]
+          },
+          "cozum_md": "Öğrenci, örnek cevapta olduğu gibi 'atıklar ayrıştırılmadan tek kutuya atılıyor' problemini kendi cümleleriyle ifade edip bunun çevreye zarar verdiğini/önemini belirtmişse doğru kabul edilir; birebir aynı cümle aranmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "3-A sınıfı öğrencileri bir hafta boyunca çöp kutusuna attıkları atıkları sayıp aşağıdaki tabloyu oluşturdu:\n\n| Atık Türü | Adet (1 haftalık) |\n|---|---|\n| Kağıt | 12 |\n| Plastik şişe | 8 |\n| Meyve-sebze kabuğu | 5 |\n\nBu verilere bakarak, sınıfın çöp kutusu düzeni için ne önerirsin? Önerini tablodaki verilere dayandırarak açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tabloya göre en çok kağıt (12), sonra plastik şişe (8) ve meyve-sebze kabuğu (5) birikmiş. Bu yüzden sınıfa en az kağıt, plastik ve organik atık için ayrı üç kutu konulmalı; en çok kağıt biriktiği için kağıt kutusunun büyük olması gerekir.",
+            "kabul_kriterleri": ["Tablodaki sayılara/verilere açıkça atıfta bulunması", "Verilere dayanan en az bir somut çözüm önerisi sunması (örn. atık türüne göre ayrı kutular)"]
+          },
+          "cozum_md": "Tabloda kağıt (12) en çok, plastik şişe (8) ikinci sırada, meyve-sebze kabuğu (5) en az birikmiş atıktır. Bu veriye dayanarak sınıfa en az üç ayrı kutu (kağıt, plastik, organik) önerilmesi ve en çok biriken kağıt için daha büyük bir kutu düşünülmesi verilere dayalı, tutarlı bir çözüm önerisidir. Öğrenci farklı ama veriye dayalı ve tutarlı bir öneri sunmuşsa da doğru kabul edilir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Aşağıdaki önermeler, atık ayrıştırma problemine bir çözüm önerisine ulaşan bir akıl yürütme zinciri oluşturuyor ancak karışık sırada verilmiştir. Önermeleri, birbirinden mantıklı biçimde çıkacak şekilde doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Ayrı kutular konulursa atıklar kolayca ayrıştırılabilir.",
+            "Sınıfta atıklar ayrıştırılmazsa geri dönüştürülemez.",
+            "O hâlde sınıfa atık türüne göre ayrı kutular konulmalıdır.",
+            "Geri dönüştürülemeyen atıklar çevreye zarar verir."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Mantık zinciri şöyle kurulur: (1) 'Sınıfta atıklar ayrıştırılmazsa geri dönüştürülemez' → (2) 'Geri dönüştürülemeyen atıklar çevreye zarar verir' → (3) 'Ayrı kutular konulursa atıklar kolayca ayrıştırılabilir' → (4) 'O hâlde sınıfa atık türüne göre ayrı kutular konulmalıdır'. İlk iki önerme problemi (ayrıştırmamanın zararını) ortaya koyar, üçüncü önerme bir çözüm yolunu gösterir, dördüncü önerme bunların ışığında sonuca (öneriye) ulaşır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Sınıfa ayrı atık kutuları konulduktan bir ay sonra öğretmen, atıkların bazen hâlâ karışık atıldığını fark ediyor.\n\nBu çözümün ne kadar işe yaradığını **değerlendir**: Sence çözüm tamamen mi, kısmen mi, yoksa hiç mi işe yaramıştır? Bu değerlendirmeni yaparken en az bir iyileştirme önerisi de sun.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Çözüm kısmen işe yaramıştır; kutular konulduğu için bir gelişme olmuş ama öğrenciler hangi atığın hangi kutuya gideceğini tam bilmediği için hâlâ hatalar yapılıyor. Kutuların üzerine resimli etiketler asılabilir ve öğrencilere kısa bir hatırlatma yapılabilir.",
+            "kabul_kriterleri": ["Çözümün ne ölçüde işe yaradığına dair açık bir değerlendirme yapması (tamamen/kısmen/hiç)", "Değerlendirmesini bir gerekçeyle desteklemesi", "En az bir iyileştirme/geliştirme önerisi sunması"]
+          },
+          "cozum_md": "Verilen bilgiye göre (kutular var ama atıklar hâlâ bazen karışık atılıyor) en tutarlı değerlendirme çözümün 'kısmen' işe yaradığıdır: kutular bir iyileşme sağlamış ama tek başına yeterli olmamıştır. Öğrenci bu değerlendirmeyi gerekçelendirip (örn. bilgi eksikliği, alışkanlık) etiketleme, hatırlatma, ödüllendirme gibi bir iyileştirme önerisi sunmuşsa doğru kabul edilir; 'tamamen' ya da 'hiç' cevabı da tutarlı bir gerekçeyle desteklenmişse kabul edilebilir."
+        }
+      ]
+    }
+  ]
+}

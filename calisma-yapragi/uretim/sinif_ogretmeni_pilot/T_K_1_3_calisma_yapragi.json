@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Konuşma Kurallarını Uyguluyorum",
+    "kazanim": {
+      "kod": "T.K.1.3",
+      "ad": "Konuşma kurallarını uygulayabilme",
+      "ders": "Türkçe",
+      "sinif": 1,
+      "unite": "1. TEMA: GÜZEL DAVRANIŞLARIMIZ",
+      "surec_bilesenleri": {
+        "a": "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde söyler.",
+        "c": "Dinlediğini/izlediğini telaffuza dikkat ederek anlatır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr resmî müfredat sayfası (İlkokul Türkçe 1. Sınıf, 1. Tema: Güzel Davranışlarımız) incelendi; temanın anahtar kavramları (ahlâk, azim, cömertlik, dostluk, dürüstlük, merhamet, nezaket, paylaşma, saygı, sevgi, yardımseverlik) ve T.K.1.3 kazanım ifadeleri (a, c bileşenleri) buradan doğrulandı. ogmmateryal.eba.gov.tr'de bu spesifik kazanım/sınıf için ayrı bir materyal bulunamadı; genel müfredat sayfası kaynak alındı.",
+      "notlar": [
+        "Bu, 1. sınıfın ilk teması: öğrenciler henüz okuma yazmaya yeni başlıyor (temada sadece a, n, e, t harfleri ve 1-4 rakamları öğretiliyor). Bu yüzden yaprak öğrencinin tek başına okuyup dolduracağı bir kâğıt değil; öğretmen rehberliğinde sesli/görsel olarak uygulanacak şekilde tasarlandı (yönergeler öğretmene okutulmak üzere yazıldı).",
+        "S5 ve S6 performans/gözlem görevleridir (konuşma becerisi kâğıt üstünde tek doğru cevapla ölçülemez); cevap anahtarı örnek cevap ve gözlem kriterleri içerir.",
+        "Deterministik doğrulama (validate_worksheet.py): 0 hata, 1 uyarı (s4'te sağ taraftaki 'B' seçeneği kasıtlı olarak iki kez eşleştirildi — kütüphane dışındaki iki durumun ikisi de normal ses gerektirdiği için bilinçli bir tercih).",
+        "Bağımsız crosscheck (ayrı geçiş, önce cevap anahtarına bakmadan çözüldü): s1, s2, s3, s4'ün bağımsız çözümü anahtarla birebir uyuştu, uyuşmazlık yok. K1-K6 kontrolleri uygulandı: kazanım fiili ile soru davranışı uyumlu (ezber tanım sorusu yok), sınıf/müfredat sınırı aşılmamış (temanın kendi kelime dağarcığı ve harfleri kullanıldı, öğrenci bağımsız okuma yapmıyor), çeldiriciler işlevsel (s4'teki 'C' bağırma seçeneği hiçbir durumda doğru olmayan bilinçli çeldirici), açık uçlu kabul kriterleri somut/gözlemlenebilir. Küçük not: süreç bileşeni dağılımı 'a' ağırlıklı (5/6 soru), 'c' yalnızca s6'da — bu temadaki kazanım kaydında zaten yalnızca a ve c bileşenleri var ve 'a' asıl genel kural olduğu için kasıtlı, ancak sonraki bir incelemede dengelenebilir."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Öğretmenin bu bölümü seninle birlikte sesli olarak yapacak.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Öğretmenin okuyacağı cümlelerin doğru mu yanlış mı olduğuna karar ver.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Arkadaşımla konuşurken herkes duysun diye olabildiğince bağırarak konuşurum.",
+              "cevap": false,
+              "gerekce_md": "Bağırmak yerine karşımdakinin rahatça duyabileceği bir sesle konuşmalıyız."
+            },
+            {
+              "no": 2,
+              "metin_md": "Konuşurken sesimi, karşımdaki arkadaşımın duyabileceği kadar ayarlarım.",
+              "cevap": true,
+              "gerekce_md": "Sesini karşındakinin duyabileceği düzeyde ayarlamak konuşma kuralına uygundur."
+            },
+            {
+              "no": 3,
+              "metin_md": "Kimse duymasın diye çok kısık sesle, neredeyse fısıldayarak konuşurum.",
+              "cevap": false,
+              "gerekce_md": "Sesimiz çok kısık olursa arkadaşımız bizi duyamaz; işitilebilir bir düzeyde konuşmalıyız."
+            }
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false}},
+          "cozum_md": "1: Yanlış — bağırmak yerine duyulabilir sesle konuşulur. 2: Doğru — sesini karşındakinin duyabileceği şekilde ayarlamak kurala uygundur. 3: Yanlış — çok kısık konuşmak anlaşılmayı zorlaştırır."
+        },
+        {
+          "id": "s2",
+          "tip": "siralama",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Öğretmenin sırayla söyleyeceklerini dinle: önce tek bir ses, sonra bir hece, sonra bir sözcük, sonra bir cümle duyacaksın. Duyduklarını en küçükten en büyüğe doğru sırala.",
+          "gorsel": null,
+          "ogeler": ["anne (sözcük)", "a (tek ses)", "Annemi çok seviyorum. (cümle)", "an (hece)"],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Doğru sıra: önce tek ses (a) → sonra hece (an) → sonra sözcük (anne) → sonra cümle (Annemi çok seviyorum.). Dilin en küçük biriminden en büyüğüne doğru gidilir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Resimlere ve durumlara bakarak doğru ses düzeyini bul.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Resme bak. Hangi çocuk, konuşma kurallarına uygun biçimde sesini herkesin rahatça duyabileceği bir düzeyde ayarlamış?",
+          "gorsel": {
+            "betimleme": "Sınıf ortamında üç çocuk görülüyor. Soldaki çocuk ağzını büyük açmış, ağzından büyük bir ünlem işareti çıkıyor gibi bağırıyor. Ortadaki çocuk arkadaşına dönmüş, gülümseyerek küçük bir konuşma balonuyla rahatça konuşuyor. Sağdaki çocuk elini ağzına kapatmış çok kısık konuşuyor, karşısındaki arkadaşı kulağını uzatıp 'Ne dedin?' der gibi bakıyor.",
+            "zorunlu": true
+          },
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bağıran çocuk"},
+            {"harf": "B", "metin_md": "Normal, rahat duyulabilen bir sesle konuşan çocuk"},
+            {"harf": "C", "metin_md": "Çok kısık sesle fısıldayan çocuk"},
+            {"harf": "D", "metin_md": "Hiç konuşmayan çocuk"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Ortadaki çocuk ne bağırıyor ne de fısıldıyor; arkadaşının rahatça duyabileceği, işitilebilir bir ses düzeyinde konuşuyor. Bağırmak ve çok kısık konuşmak konuşma kurallarına uygun değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumları, o durumda kullanman gereken uygun ses düzeyiyle eşleştir.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kütüphanede arkadaşına bir şey sormak istiyorsun."},
+            {"no": 2, "metin_md": "Teneffüste bahçede arkadaşınla oyun oynarken konuşuyorsun."},
+            {"no": 3, "metin_md": "Sınıfta öğretmenin sorusuna cevap veriyorsun."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Alçak ama arkadaşımın duyabileceği bir sesle konuşurum."},
+            {"harf": "B", "metin_md": "Normal, rahatça duyulabilen bir sesle konuşurum."},
+            {"harf": "C", "metin_md": "Olabildiğince yüksek sesle bağırarak konuşurum."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "B"},
+          "cozum_md": "1-A: Kütüphanede herkesi rahatsız etmeden, alçak ama duyulabilir bir sesle konuşulur. 2-B ve 3-B: Bahçede oyun oynarken ve sınıfta cevap verirken normal, rahat duyulabilen bir sesle konuşulur. C seçeneği (bağırmak) hiçbir durumda uygun değildir, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Şimdi sıra sende! Öğretmenine veya ailene sesli olarak anlat.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Resme bak. Resimde çocuklar ne yapıyor? Öğretmenine veya ailene, sesini ne çok bağırıp ne de çok kısarak, herkesin duyabileceği bir düzeyde ayarlayarak en az 2 cümleyle anlat.",
+          "gorsel": {
+            "betimleme": "İki çocuk yerde oturmuş, aralarındaki bir oyuncak arabayı birlikte paylaşarak, gülümseyerek oynuyor. İkisi de arabaya elini uzatmış ama kavga etmiyorlar, mutlu görünüyorlar.",
+            "zorunlu": true
+          },
+          "cevap": {
+            "ornek_cevap_md": "Resimde iki arkadaş bir oyuncak arabayı paylaşıyor. Birlikte mutlu bir şekilde oynuyorlar. Paylaşmak güzel bir davranıştır.",
+            "kabul_kriterleri": [
+              "Sesini işitilebilir bir düzeyde ayarlamış (ne bağırmış ne fısıldamış)",
+              "En az 2 cümle kurarak anlatmış",
+              "Resimdeki olayı (paylaşma/birlikte oynama) doğru şekilde ifade etmiş"
+            ]
+          },
+          "cozum_md": "Bu bir gözlem görevidir; öğretmen/aile öğrenciyi dinlerken kabul kriterlerini işaretler. Örnek cevap yukarıdaki gibidir; öğrencinin kendi cümleleri de resme uygunsa kabul edilir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Öğretmenin sana şu kısa hikâyeyi okumasını dinle: \"Küçük kedi topunu kaybetmişti. Bahçede aradı, bulamadı. Sonunda topu masanın altında buldu ve çok sevindi.\" Şimdi dinlediğin bu hikâyeyi, sözcükleri doğru ve anlaşılır söyleyerek arkadaşına anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Küçük kedinin topu kaybolmuş. Bahçede aramış ama bulamamış. Sonunda topu masanın altında bulmuş ve çok sevinmiş.",
+            "kabul_kriterleri": [
+              "Hikâyenin ana olayını (kaybolma - arama - bulma) doğru sırayla anlatmış",
+              "Sözcükleri doğru telaffuz etmiş (yutmadan, karıştırmadan söylemiş)",
+              "Anlaşılır ve akıcı bir şekilde anlatmış"
+            ]
+          },
+          "cozum_md": "Bu bir dinleme-anlatma gözlem görevidir. Öğretmen hikâyeyi okurken öğrencinin dinlemesini, ardından anlatırken telaffuzuna dikkat etmesini gözlemler. Kabul kriterleri bir gözlem formu gibi kullanılabilir."
+        }
+      ]
+    }
+  ]
+}

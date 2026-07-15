@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Elektriği Tasarruflu Kullanma",
+    "kazanim": {
+      "kod": "FB.3.6.3",
+      "ad": "Elektriği tasarruflu kullanma konusunda bilimsel veriye dayalı tahmin edebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "6. ÜNİTE: YAŞAMIMIZI KOLAYLAŞTIRAN ELEKTRİK",
+      "surec_bilesenleri": {
+        "a": "Elektriği tasarruflu kullanma konusunda verilere ve/veya ön bilgilere dayalı önerme oluşturur.",
+        "b": "Elektriği tasarruflu kullanma üzerine nicel ölçüm verilerine dayalı önermelerini gerekçelendirir.",
+        "c": "Hesaplamalarına dayalı olarak tahmin eder.",
+        "ç": "Tahminlerin geçerliliğini sorgular."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. sınıf 6. ünite (Yaşamımızı Kolaylaştıran Elektrik) sayfası incelendi: kazanım uygulaması olarak öğrencilerden geçmiş aylara ait elektrik faturası getirmeleri, tüketim verilerinden tablo/grafik oluşturmaları, tasarruf tedbirlerini tartışmaları ve verilere dayalı önerme oluşturmaları önerilmektedir. Yaprak bu çerçeveyi (aylık kWh tüketim tablosu + tasarruf önlemleri) temel alır.",
+      "notlar": [
+        "s1 ve s2, 'a' bileşenini (önerme oluşturma) doğrudan bir üretim eylemiyle değil, tasarruf davranışlarına dair ön bilgiyi kurma/yargılama yoluyla dolaylı olarak destekler; asıl veri temelli önerme oluşturma ve gerekçelendirme s5'te birlikte gerçekleşir (tek soru iki bileşene hizmet ediyor, tag 'b' olarak seçildi)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Elektriği tasarruflu kullanmak için bazı davranışlar önemlidir. Kullanılmayan odaların ışıkları ____(1)____. Şarjı dolan cihazların fişi prizden ____(2)____. Gün ışığından yararlanmak için gündüz perdeler ____(3)____.",
+          "kelime_havuzu": ["kapatılmalı", "çekilmeli", "açılmalı", "açık bırakılmalı"],
+          "gorsel": null,
+          "cevap": {"1": "kapatılmalı", "2": "çekilmeli", "3": "açılmalı"},
+          "cozum_md": "Elektrik tasarrufu için kullanılmayan ışıklar kapatılmalı, dolu cihazların fişi çekilmeli, gündüz gün ışığından yararlanmak için perdeler açılmalıdır."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": null,
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Kullanılmayan bir odanın ışığını söndürmek elektrik tasarrufu sağlar.", "cevap": true, "gerekce_md": "Kullanılmayan bir yerde ışığın açık kalması gereksiz elektrik tüketimine yol açar; söndürmek tüketimi azaltır."},
+            {"no": 2, "metin_md": "Buzdolabının kapısını uzun süre açık tutmak elektrik tasarrufu sağlar.", "cevap": false, "gerekce_md": "Kapı açık kaldığında buzdolabının motoru içeriyi soğuk tutmak için sürekli çalışır ve daha fazla elektrik harcanır."},
+            {"no": 3, "metin_md": "Kullanılmayan elektronik cihazların fişini prizden çekmek tasarruf sağlar.", "cevap": true, "gerekce_md": "Prize takılı duran cihazlar kapalıyken bile az miktarda elektrik çekebilir; fişi çekmek bu tüketimi tamamen keser."},
+            {"no": 4, "metin_md": "Gündüz güneş ışığı yeterliyken odanın lambalarını açık tutmak elektrik faturasını azaltır.", "cevap": false, "gerekce_md": "Gün ışığı yeterliyken lambaları açık tutmak gereksiz tüketimdir; bu davranış faturayı azaltmaz, artırır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1 ve 3 numaralı ifadeler tasarruf sağlayan davranışları anlatır (doğru). 2 ve 4 numaralı ifadeler aslında tüketimi artıran davranışları tasarruf gibi göstermektedir (yanlış)."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Yılmaz ailesinin son 4 aya ait elektrik faturası tablosunu inceleyip soruları yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Yılmaz ailesi Şubat ayından itibaren elektrik tasarrufu için önlemler almaya başlamıştır. Tabloda her ay tüketim bir öncekinden 30 kWh azalmaktadır. Bu örüntüye göre boş hücreyi tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Ay", "Tüketilen Elektrik (kWh)"],
+            "satirlar": [
+              ["Ocak", "240"],
+              ["Şubat", "210"],
+              ["Mart", "__?__"],
+              ["Nisan", "150"]
+            ]
+          },
+          "cevap": {"r2c1": "180"},
+          "cozum_md": "Örüntüye göre her ay tüketim bir öncekinden 30 kWh azalıyor: Şubat 210 kWh olduğuna göre Mart = 210 - 30 = 180 kWh."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Tablodaki verilere göre aşağıdaki önermelerden hangisi ölçüm verileriyle desteklenir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yılmaz ailesi her ay aynı miktarda elektrik kullanmıştır."},
+            {"harf": "B", "metin_md": "Yılmaz ailesinin elektrik tüketimi Ocak'tan Nisan'a doğru düzenli olarak azalmıştır."},
+            {"harf": "C", "metin_md": "Yılmaz ailesi Nisan ayında hiç elektrik kullanmamıştır."},
+            {"harf": "D", "metin_md": "Yılmaz ailesinin tüketimi her ay artmıştır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tablodaki kWh değerleri 240, 210, 180, 150 şeklinde her ay 30 kWh azalarak ilerlemektedir; bu da tüketimin düzenli olarak azaldığını gösterir. Diğer seçenekler veriyle çelişir."
+        },
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Tablodaki verilere bakarak elektriği tasarruflu kullanma hakkında ölçüm verilerine dayalı bir önerme oluşturunuz ve önerinizi tablodaki sayılarla gerekçelendiriniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Yılmaz ailesi tasarruf önlemleri aldıkça elektrik tüketimi azalmıştır. Şubat ayında önlemler almaya başlamadan önce Ocak'ta 240 kWh tüketen aile, önlemlerden sonra Nisan'da 150 kWh tüketmiştir; yani tüketim 90 kWh azalmıştır. Bu da alınan tasarruf önlemlerinin işe yaradığını gösteren bir kanıttır.",
+            "kabul_kriterleri": [
+              "Tablodaki sayısal (kWh) verilere açıkça atıfta bulunur",
+              "Tasarruf önlemleri ile tüketimin azalması arasında veri temelli bir ilişki kurar",
+              "Önerme net ve verilerle destekli, sadece kişisel görüş değil"
+            ]
+          },
+          "cozum_md": "Beklenen yanıt, öğrencinin tablodaki kWh değerlerini (240 → 150) kullanarak tasarruf önlemlerinin tüketimi azalttığı yönünde veri temelli bir önerme kurmasıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları tablodaki verilerden yararlanarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Tablodaki örüntüye göre her ay tüketim bir öncekinden 30 kWh azalmaktadır. Bu örüntü aynı şekilde devam ederse Mayıs ayında kaç kWh elektrik tüketilmesi beklenir?",
+          "gorsel": null,
+          "cevap": {"deger": 120, "birim": "kWh", "tolerans_yuzde": 0},
+          "cozum_md": "Nisan ayı tüketimi 150 kWh'dir. Örüntüye göre her ay 30 kWh azalmaktadır: 150 - 30 = 120 kWh. Mayıs ayında yaklaşık 120 kWh tüketim beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 20,
+          "govde_md": "Ahmet, tabloyu inceledikten sonra şöyle diyor: **\"Bu örüntüye göre birkaç ay sonra elektrik faturamız hiç gelmeyecek çünkü tüketim sürekli azalıyor.\"** Ahmet'in bu tahmini geçerli midir? Nedenini açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ahmet'in tahmini geçerli değildir. Bir evde aydınlatma, buzdolabı gibi temel ihtiyaçlar için her zaman bir miktar elektrik kullanılır; tüketim sıfıra inemez. Ayrıca tüketimin her ay tam olarak aynı miktarda (30 kWh) azalacağının bir garantisi yoktur; mevsim, hava sıcaklığı ya da ailenin alışkanlıkları değiştikçe tüketim farklı şekilde değişebilir.",
+            "kabul_kriterleri": [
+              "Tüketimin sıfıra inemeyeceğini belirtir (temel ihtiyaçlar her zaman elektrik gerektirir)",
+              "Örüntünün sonsuza kadar aynı şekilde devam etmeyebileceğini belirtir (tahminin sınırlılığını sorgular)",
+              "Yalnızca veriyi tekrar etmek yerine tahminin geçerliliğini gerekçeyle değerlendirir"
+            ]
+          },
+          "cozum_md": "Beklenen yanıt, öğrencinin bir örüntünün sınırsız şekilde devam edemeyeceğini ve gerçek yaşamda tüketimin sıfıra inemeyeceğini fark ederek Ahmet'in tahminini sorgulamasıdır."
+        }
+      ]
+    }
+  ]
+}

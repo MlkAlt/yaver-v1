@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Ailemizde Görev ve Sorumluluklar",
+    "kazanim": {
+      "kod": "HB.1.3.3",
+      "ad": "Aile bireylerinin görev ve sorumluluklarını çözümleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "3. ÖĞRENME ALANI: AİLEM VE TOPLUM",
+      "surec_bilesenleri": {
+        "a": "Aile içindeki görev ve sorumlulukları belirler.",
+        "b": "Aile bireylerinin görev ve sorumluluklarını ilişkilendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "mufredat.meb.gov.tr Hayat Bilgisi Dersi Öğretim Programı (2018) ve MEB 1. Sınıf Hayat Bilgisi ders kitabı 'Ailem ve Ben' / 'Ailemizdeki Görev ve Sorumluluklar' konusu incelendi (örn. egitimera.com üzerinden kitap sayfası özeti): görevlerin anne, baba, çocuk ve 'ailece' olarak sınıflandığı, örnek görevlerin (oyuncak toplama, sofra kurmaya yardım, çöp atma, birlikte temizlik) kitapla uyumlu tutulduğu doğrulandı.",
+      "notlar": ["Bağımsız crosscheck yapıldı, karar: onay, kritik sorun yok. K4 kapsamında orta önemli tek not: s1'deki 'yemek pişirmek→anne' ve 'çöpü atmak→baba' eşleşmeleri ders kitabındaki tasvire dayanıyor ama gerçek hayatta değişken olabilir; kazanımın kendisi cinsiyete dayalı rol atfetmiyor."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve doğru-yanlış sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki görevleri sağda kimin yaptığıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Oyuncaklarını toplamak"},
+            {"no": 2, "metin_md": "Yemek pişirmek"},
+            {"no": 3, "metin_md": "Çöpü dışarı atmak"},
+            {"no": 4, "metin_md": "Evi birlikte temizlemek"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Çocuk"},
+            {"harf": "B", "metin_md": "Anne"},
+            {"harf": "C", "metin_md": "Baba"},
+            {"harf": "D", "metin_md": "Ailece"},
+            {"harf": "E", "metin_md": "Komşu"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Oyuncaklarını toplamak çocuğun kendi görevidir. 2-B: Yemek pişirmek genelde annenin üstlendiği bir görevdir. 3-C: Çöpü dışarı atmak genelde babanın üstlendiği bir görevdir. 4-D: Evi birlikte temizlemek ailenin hep beraber yaptığı bir görevdir. E seçeneği (komşu) aile bireyi olmadığı için kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümleler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Evdeki bütün işleri sadece anne yapar.", "cevap": false, "gerekce_md": "Ev işleri aile bireyleri arasında paylaşılır; sadece anneye ait değildir."},
+            {"no": 2, "metin_md": "Çocuklar da evde küçük görevler üstlenebilir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Oyuncaklarını toplamak babanın görevidir.", "cevap": false, "gerekce_md": "Oyuncaklarını toplamak, onları kullanan çocuğun görevidir."},
+            {"no": 4, "metin_md": "Aile bireyleri birbirine yardım edebilir.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1-Yanlış: Ev işleri aile içinde paylaşılır. 2-Doğru: Çocuklar da yaşına uygun küçük görevler üstlenebilir. 3-Yanlış: Oyuncaklarını toplamak çocuğun kendi görevidir. 4-Doğru: Aile bireyleri görevlerinde birbirine yardımcı olabilir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyup doğru seçeneği işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi bir çocuğun evde yapabileceği görevlerden biridir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Faturaları ödemek"},
+            {"harf": "B", "metin_md": "Arabayı sürmek"},
+            {"harf": "C", "metin_md": "Odasını toplamak"},
+            {"harf": "D", "metin_md": "Ailenin market alışverişini tek başına yapmak"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Doğru cevap C'dir. Odasını toplamak, bir çocuğun yaşına uygun ve kendi başına yapabileceği bir görevdir. A, B ve D seçenekleri yetişkinlerin yaptığı işlerdir; bir çocuk için uygun değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ali'nin annesi yemek pişiriyor. Ali de sofra kurmaya yardım ediyor. Bu durumda Ali ne yapmış olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Annesinin görevini tek başına üstlenmiştir."},
+            {"harf": "B", "metin_md": "Aile içindeki bir göreve yardımcı olmuştur."},
+            {"harf": "C", "metin_md": "Hiçbir görev üstlenmemiştir."},
+            {"harf": "D", "metin_md": "Görevi yanlış yapmıştır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Ali, annesinin görevini üstlenmemiş; sofra kurarak aile içindeki bir göreve yardımcı olmuştur. Bu, aile bireylerinin görevlerinin birbiriyle ilişkili olduğunu gösterir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Sen evde ailene hangi görevde yardımcı oluyorsun? Bu görevi kiminle birlikte yapıyorsun? Yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben odamı topluyorum. Bazen kardeşimle birlikte topluyoruz.",
+            "kabul_kriterleri": ["Kendi yaptığı bir görevi belirtmesi", "Bu görevi kiminle yaptığını belirtmesi"]
+          },
+          "cozum_md": "Bu soruda tek bir doğru cevap yoktur; öğrencinin kendi ailesinden gerçek bir görev örneği vermesi ve bu görevi kiminle yaptığını belirtmesi yeterlidir."
+        },
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Bir ailenin kahvaltı hazırlığını doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Yiyecekler masaya konur", "Herkes elini yıkar", "Sofra kurulur", "Aile birlikte kahvaltı yapar"],
+          "cevap": {"dogru_sira": [1, 2, 0, 3]},
+          "cozum_md": "Doğru sıra: önce herkes elini yıkar, sonra sofra kurulur, ardından yiyecekler masaya konur, en sonunda aile birlikte kahvaltı yapar. Bu sıra, aile bireylerinin görevlerinin birbiriyle nasıl ilişkili olduğunu gösterir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geri Dönüştürülebilen Atıklar",
+    "kazanim": {
+      "kod": "HB.1.5.4",
+      "ad": "Geri dönüştürülebilen atıkları sınıflandırabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Geri dönüştürülebilen atıkları belirler.",
+        "b": "Geri dönüştürülebilen atıkları ayrıştırır.",
+        "c": "Geri dönüştürülebilen atıkları adlandırır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": false,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 5. Öğrenme Alanı: Doğa ve Çevre ünitesi incelendi (kağıt, cam, plastik, metal, pil kategorileri ve öğretim uygulamaları doğrulandı)",
+      "notlar": [
+        "Geri dönüşüm kutu renkleri (mavi-kağıt, yeşil-cam, sarı-plastik/metal) okullarda yaygın kullanılan genel bilgiye dayanıyor; MEB kaynağında renk kodu teyidi bulunamadı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi geri dönüşüm kutusuna atılır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Muz kabuğu"},
+            {"harf": "B", "metin_md": "Cam kavanoz"},
+            {"harf": "C", "metin_md": "Ekmek kırıntısı"},
+            {"harf": "D", "metin_md": "Yumurta kabuğu"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Cam kavanoz geri dönüştürülebilen bir atıktır, geri dönüşüm kutusuna atılır. Muz kabuğu, ekmek kırıntısı ve yumurta kabuğu doğal atıktır; geri dönüşüm kutusuna atılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki cümleler doğru mu, yanlış mı? İşaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Plastik şişe geri dönüştürülebilir.", "cevap": true, "gerekce_md": "Plastik şişe geri dönüşüm kutusuna atılabilen bir atıktır."},
+            {"no": 2, "metin_md": "Pil çöpe atılabilir.", "cevap": false, "gerekce_md": "Pil zararlıdır, çöpe atılmaz; özel pil kutusuna atılır."},
+            {"no": 3, "metin_md": "Gazete kağıdı geri dönüştürülebilir.", "cevap": true, "gerekce_md": "Kağıt geri dönüşüm kutusuna atılabilen bir atıktır."},
+            {"no": 4, "metin_md": "Yediğimiz elmanın çekirdeği geri dönüşüm kutusuna atılır.", "cevap": false, "gerekce_md": "Elma çekirdeği doğal atıktır, geri dönüşüm kutusuna atılmaz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1 ve 3 doğrudur: plastik ve kağıt geri dönüştürülebilir atıklardır. 2 ve 4 yanlıştır: pil özel kutuya atılır, elma çekirdeği doğal atıktır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 25,
+          "govde_md": "Aşağıdaki eşyaları yapıldıkları malzeme türü ile eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Gazete kağıdı"},
+            {"no": 2, "metin_md": "Cam şişe"},
+            {"no": 3, "metin_md": "Plastik su şişesi"},
+            {"no": 4, "metin_md": "Konserve kutusu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kağıt"},
+            {"harf": "B", "metin_md": "Cam"},
+            {"harf": "C", "metin_md": "Plastik"},
+            {"harf": "D", "metin_md": "Metal"},
+            {"harf": "E", "metin_md": "Doğal (organik) atık"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Gazete kağıttandır, şişe camdandır, su şişesi plastiktendir, konserve kutusu metaldendir. \"Doğal (organik) atık\" seçeneği bu eşyalardan hiçbiriyle eşleşmez, çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Geri dönüşüm kutuları renklidir. Boşlukları uygun renk adıyla doldurunuz.\n\nKağıtlar ____(1)____ renkli kutuya atılır.\n\nCam eşyalar ____(2)____ renkli kutuya atılır.\n\nPlastik ve metal eşyalar ____(3)____ renkli kutuya atılır.",
+          "gorsel": null,
+          "kelime_havuzu": ["mavi", "yeşil", "sarı", "kırmızı"],
+          "cevap": {"1": "mavi", "2": "yeşil", "3": "sarı"},
+          "cozum_md": "Kağıt için mavi kutu, cam için yeşil kutu, plastik ve metal için sarı kutu kullanılır. \"Kırmızı\" bu üçünde kullanılmaz, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir plastik şişenin geri dönüşüm yolculuğunu doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Diğer plastiklerden ayır", "Geri dönüşüm tesisine gönder", "Şişeyi topla", "Sarı kutuya at"],
+          "cevap": {"dogru_sira": [2, 0, 3, 1]},
+          "cozum_md": "Doğru sıra: Önce şişe toplanır, sonra diğer atıklardan ayrılır, sonra sarı kutuya atılır, en son geri dönüşüm tesisine gönderilir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Evinde veya okulunda gördüğün, geri dönüştürülebilen bir atık yaz. Bu atık hangi kutuya atılır?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Cam süt şişesi geri dönüştürülebilir bir atıktır. Yeşil renkli kutuya atılır.",
+            "kabul_kriterleri": [
+              "Gerçek bir geri dönüştürülebilen atık ismi yazması (kağıt, cam, plastik veya metal)",
+              "Atığın doğru türünü veya doğru renkli kutuyu belirtmesi"
+            ]
+          },
+          "cozum_md": "Öğrenci gerçek bir geri dönüştürülebilen atık (kağıt, cam, plastik, metal) yazmalı ve doğru kutuyu (mavi, yeşil, sarı) belirtmelidir."
+        }
+      ]
+    }
+  ]
+}

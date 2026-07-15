@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Maddeleri Niteliklerine ve Hâllerine Göre Sınıflandırıyorum",
+    "kazanim": {
+      "kod": "FB.3.4.1",
+      "ad": "Çevresindeki maddeleri hâllerine göre sınıflandırabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "4. ÜNİTE: MADDEYİ TANIYALIM, KARIŞTIRIP AYIRALIM",
+      "surec_bilesenleri": {
+        "a": "Çevresindeki maddelerin niteliklerini tanımlar.",
+        "b": "Çevresindeki maddeleri niteliklerine göre ayırır.",
+        "c": "Çevresindeki maddeleri hâllerine göre gruplandırır.",
+        "ç": "Maddeleri hâllerine göre katı, sıvı ve gaz olarak etiketler."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 4. Ünite (Maddeyi Tanıyalım, Karıştırıp Ayıralım) program sayfası incelendi. Maddenin nitelikleri için müfredatın kullandığı terimler (sertlik, yumuşaklık, esneklik, kırılganlık; renk, koku, tat; pürüzlülük/düzgünlük) ve hâllere göre sınıflandırma (katı, sıvı, gaz) birebir eşleştirildi.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: s1 eşleştirmede 'Cam bardak' çeldiricisi 'sert' niteliğiyle de savunulabilir eşleşiyordu (K4), çeldirici çıkarılarak 1:1 eşleştirmeye düzeltildi. Diğer tüm cevaplar uyuştu."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve doğru/yanlış sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki niteliği sağdaki maddeyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Sert bir madde"},
+            {"no": 2, "metin_md": "Esnek bir madde"},
+            {"no": 3, "metin_md": "Pürüzlü yüzeyli bir madde"},
+            {"no": 4, "metin_md": "Yumuşak bir madde"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Taş"},
+            {"harf": "B", "metin_md": "Lastik top"},
+            {"harf": "C", "metin_md": "Zımpara kâğıdı"},
+            {"harf": "D", "metin_md": "Pamuk"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Taş elle sıkıştırıldığında şekli değişmez, bu yüzden **sert**tir. 2-B: Lastik top sıkıldığında şekli değişip eski hâline döner, bu yüzden **esnek**tir. 3-C: Zımpara kâğıdının yüzeyine dokunulduğunda pürüzlü olduğu hissedilir. 4-D: Pamuk elle kolayca şekil değiştirir, bu yüzden **yumuşak**tır."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi bir maddenin niteliği (özelliği) **DEĞİLDİR**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Rengi"},
+            {"harf": "B", "metin_md": "Kokusu"},
+            {"harf": "C", "metin_md": "Sertliği"},
+            {"harf": "D", "metin_md": "Adı"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "Doğru cevap D'dir. Renk, koku ve sertlik; bir maddeyi gözlemleyerek fark edebileceğimiz niteliklerdir. Maddenin adı (ör. \"taş\", \"su\") ise maddeyi tanımlamak için kullandığımız bir isimdir, gözlemlenebilir bir nitelik değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki maddelerin hangi hâlde olduğunu tabloya yazarak tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Madde", "Hâli (Katı / Sıvı / Gaz)"],
+            "satirlar": [
+              ["Taş", "__?__"],
+              ["Su", "__?__"],
+              ["Balondaki hava", "__?__"],
+              ["Tuz", "__?__"],
+              ["Süt", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Katı", "r1c1": "Sıvı", "r2c1": "Gaz", "r3c1": "Katı", "r4c1": "Sıvı"},
+          "cozum_md": "Taş ve tuz kendi şeklini koruduğu için **katı**dır. Su ve süt, konuldukları kabın şeklini aldığı için **sıvı**dır. Balonun içindeki hava, gözle görülmez ve bulunduğu kabı (balonu) tamamen doldurur; bu yüzden **gaz**dır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi gaz hâlde bir maddeye örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Buz küpü"},
+            {"harf": "B", "metin_md": "Sabun köpüğü içindeki hava"},
+            {"harf": "C", "metin_md": "Zeytinyağı"},
+            {"harf": "D", "metin_md": "Tebeşir"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Sabun köpüğünün içini dolduran hava gözle görülmez, belirli bir şekli yoktur ve bulunduğu boşluğu doldurur; bu özellikler **gaz** hâlin özellikleridir. Buz küpü ve tebeşir katı, zeytinyağı ise sıvıdır."
+        },
+        {
+          "id": "s5",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Öğretmen sınıfa taş, sünger, cam bilye ve yastık getiriyor. Bu maddeler **sertlik** niteliğine göre ayrılırsa; taş ve cam bilye ____(1)____ grubuna, sünger ve yastık ise ____(2)____ grubuna girer.",
+          "gorsel": null,
+          "kelime_havuzu": ["sert", "yumuşak", "esnek", "pürüzlü"],
+          "cevap": {"1": "sert", "2": "yumuşak"},
+          "cozum_md": "(1) sert — taş ve cam bilye elle sıkıldığında şekli değişmez, bu yüzden sert grubuna girer. (2) yumuşak — sünger ve yastık elle kolayca şekil değiştirir, bu yüzden yumuşak grubuna girer. 'Esnek' ve 'pürüzlü' bu dört madde için sertlik niteliğine göre yapılan ayrımı karşılamadığından kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Evinde veya sınıfında gördüğün **4 farklı madde** seç. Bu maddeleri seçtiğin bir niteliğe (sertlik, renk, koku vb.) göre iki gruba ayır. Hangi maddeleri hangi gruba koyduğunu ve hangi niteliği kullandığını yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kullandığım nitelik: Sertlik.\nSert grubu: Kaşık, anahtar.\nYumuşak grubu: Yastık, oyuncak ayı.",
+            "kabul_kriterleri": ["4 farklı madde belirtmiş olması", "Tek bir niteliği açıkça seçip belirtmesi", "Maddeleri seçtiği niteliğe göre tutarlı biçimde iki gruba ayırmış olması"]
+          },
+          "cozum_md": "Örnek cevapta olduğu gibi, öğrenci herhangi bir niteliği (sertlik, renk, koku vb.) seçip 4 maddeyi bu niteliğe göre iki tutarlı gruba ayırmışsa doğru kabul edilir; birebir aynı madde/nitelik seçimi aranmaz."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Deniz kenarında oynayan Emir, ıslak kumu eline alıyor, deniz suyuna dokunuyor ve derin bir nefes alıyor. Emir'in dokunduğu ve soluduğu maddelerden hangisi **sıvı** hâldedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kum"},
+            {"harf": "B", "metin_md": "Deniz suyu"},
+            {"harf": "C", "metin_md": "Hava"},
+            {"harf": "D", "metin_md": "Kum ve hava"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Kum kendi şeklini koruduğu için katı, deniz suyu bulunduğu kabın (burada elin) şeklini aldığı için sıvı, nefes alırken solunan hava ise gözle görülmediği ve şekli olmadığı için gazdır. Sorulan sıvı hâldeki madde deniz suyudur."
+        }
+      ]
+    }
+  ]
+}

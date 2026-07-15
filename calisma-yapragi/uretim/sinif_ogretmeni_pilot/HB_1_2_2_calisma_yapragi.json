@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kişisel Alanımın Sınırları",
+    "kazanim": {
+      "kod": "HB.1.2.2",
+      "ad": "Kişisel alanının sınırlarını belirleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Kişisel alanının sınırlarını belirler (KB1)."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 2. Öğrenme Alanı (Sağlığım ve Güvenliğim) ünite sayfası taraması: kazanımın tek süreç bileşeni KB1 olarak doğrulandı; öğretmen açıklamasında her bireyin kişisel bir alanı olduğu, bireyler arası fiziksel mesafe sınırları, duygu/fikir paylaşımının sınırları ve mahremiyet (D8) değeri vurgulanıyor; önerilen etkinlikler rol yapma, hulahop oyunu ve örnek olay tartışmaları; değerlendirme gözlem formu ile yapılıyor. Veri kaynağında (data/) bu kazanım için 'aciklama' alanı boş olduğundan süreç bileşeni tek madde (a) olarak bu araştırmaya dayanarak tanımlandı ve bu duruma ilişkin not aşağıya eklendi.",
+      "notlar": [
+        "data/sinif_ogretmeni_v2.json içinde HB.1.2.2 kaydının 'aciklama' alanı null; süreç bileşeni (a) tymm.meb.gov.tr kaynağındaki KB1 tanımına dayanılarak eklendi.",
+        "Bağımsız crosscheck (rubrik K1-K6) yapıldı: onay — kritik sorun yok. s2 eşleştirmede 'A' seçeneğinin iki kez kullanılması bilinçli tercih (kategori sınıflandırma mantığı)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları kişisel alanımızı düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Her insanın etrafında görünmeyen bir kişisel alanı vardır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Tanımadığımız biri bize çok yaklaşırsa hiçbir şey demeden izin veririz.", "cevap": false, "gerekce_md": "Rahatsız olursak 'hayır' diyebilir, uzaklaşabiliriz."},
+            {"no": 3, "metin_md": "Sevdiklerimizle sarılmak bizi güvende hissettirebilir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Kişisel alanımızın sınırını sadece başkaları belirler.", "cevap": false, "gerekce_md": "Kişisel alanımızın sınırını kendimiz belirleriz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — her insanın kişisel alanı vardır. 2) Yanlış — rahatsız olduğumuzda hayır diyebilir, uzaklaşabiliriz. 3) Doğru — sevdiklerimizle sarılmak bizi güvende hissettirebilir. 4) Yanlış — kişisel alanımızın sınırını biz kendimiz belirleriz."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumları, sana hissettirdiği duyguyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Annen sana iyi geceler öpücüğü veriyor."},
+            {"no": 2, "metin_md": "Tanımadığın biri sana çok yaklaşıp elini tutmak istiyor."},
+            {"no": 3, "metin_md": "Arkadaşın sana sarılmadan önce izin istiyor."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Güvende hissederim"},
+            {"harf": "B", "metin_md": "Rahatsız hissederim"},
+            {"harf": "C", "metin_md": "Kızgın hissederim"},
+            {"harf": "D", "metin_md": "Şaşırırım"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "A"},
+          "cozum_md": "1) Ailemizle yakınlık genelde bizi güvende hissettirir (A). 2) Tanımadığımız birinin izinsiz yaklaşması rahatsız edicidir (B). 3) İzin isteyerek yapılan bir sarılma güvende hissettirir (A). 'Kızgın hissederim' (C) ve 'Şaşırırım' (D) bu soruda kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları kişisel alana uygun davranışları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfta yanındaki arkadaşın senden izin almadan çantana dokunuyor. Ne yapmalısın?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Hiçbir şey söylemem."},
+            {"harf": "B", "metin_md": "\"Lütfen izin almadan dokunma.\" derim."},
+            {"harf": "C", "metin_md": "Arkadaşıma kızıp vururum."},
+            {"harf": "D", "metin_md": "Sınıftan dışarı kaçarım."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "B seçeneği doğrudur; kişisel alanımıza uygun olmayan bir davranışı nazik ama net bir şekilde söylemek doğrudur. A, C ve D kişisel alanı korumanın doğru bir yolu değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Her insanın çevresinde görünmeyen bir ____(1)____ vardır. Bu alana kişisel alan denir. Kişisel alanımıza çok yaklaşan biri bizi ____(2)____ hissettirebilir. Rahatsız olduğumuzda ____(3)____ diyebiliriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["alan", "rahatsız", "hayır", "hızlı", "renkli"],
+          "cevap": {"1": "alan", "2": "rahatsız", "3": "hayır"},
+          "cozum_md": "1) Her insanın kişisel bir alanı vardır. 2) Bu alana çok yaklaşan biri bizi rahatsız hissettirebilir. 3) Rahatsız olduğumuzda hayır diyebiliriz. 'Hızlı' ve 'renkli' bu cümlelerle uyuşmadığı için kullanılmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdakilerden hangisi kişisel alana saygı gösteren bir davranıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşına sormadan sarılmak."},
+            {"harf": "B", "metin_md": "Arkadaşına \"Sana sarılabilir miyim?\" diye sormak."},
+            {"harf": "C", "metin_md": "Arkadaşının çantasını izinsiz karıştırmak."},
+            {"harf": "D", "metin_md": "Arkadaşının sözünü kesip konuşmak."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "B seçeneği doğrudur; birine dokunmadan önce izin istemek onun kişisel alanına saygı göstermektir. A, C ve D kişisel alana veya sıraya saygısızlık örnekleridir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Kendini güvende ve rahat hissettiğin bir anını kısaca anlat. O sırada yanında kim vardı?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: Akşam annemle battaniyenin altında kitap okurken kendimi güvende hissettim. Yanımda annem vardı.",
+            "kabul_kriterleri": [
+              "Güvende/rahat hissettiği bir durumu anlatması",
+              "Yanında kim olduğunu belirtmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin güvende hissettiği gerçek bir anı, yanındaki kişiyle birlikte anlatması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Biri senin kişisel alanına çok yaklaşıp seni rahatsız ederse ne yaparsın? Kısaca yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: Ona 'Lütfen bana biraz mesafe bırak.' derim. Gerekirse bir büyüğümden yardım isterim.",
+            "kabul_kriterleri": [
+              "Kendini ifade etme veya uzaklaşma gibi bir tepki belirtmesi",
+              "Gerekirse büyüklerden/yetişkinden yardım isteme fikrine değinmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin durumu söze dökmesi ya da bir yetişkinden yardım isteme fikrine değinmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

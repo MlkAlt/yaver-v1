@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Besinlerde Vitamin ve Mineral Var mı?",
+    "kazanim": {
+      "kod": "FB.4.2.2",
+      "ad": "Besinlerde vitamin ve/veya mineral bulunduğuna ilişkin genelleme yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "2. ÜNİTE: SAĞLIKLI BESLENİYORUM",
+      "surec_bilesenleri": {
+        "a": "Besinlerdeki vitamin ve mineraller ile ilgili bilgi toplar.",
+        "b": "Besinlerdeki ortak olan özellikleri belirler.",
+        "c": "Besinlerdeki ortak olmayan özellikleri belirler.",
+        "ç": "Örüntüler üzerinden besinlerde vitamin ve/veya minerallerin bulunduğu önermesinde bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 2. Ünite: Sağlıklı Besleniyorum) ünite sayfası incelendi. Doğrulanan kapsam sınırı: 'Protein, karbohidrat, yağ, vitamin, su ve minerallerin ayrıntılı yapısına girilmez. Vitamin ve mineral çeşitlerinden örnekler verilebilir.' — bu yüzden yaprakta besin gruplarının (protein/karbonhidrat/yağ) ayrıntılı yapısına girilmedi, yalnızca yaygın vitamin/mineral örnekleri (C vitamini, D vitamini, kalsiyum, demir, iyot) ve ambalajlı besin etiketleri (ünitede önerilen giriş etkinliği) kullanıldı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. K1-K6 kontrolleri uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, besinlerde bulunan vitamin ve mineraller hakkında bildiklerini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sol taraftaki besinleri, sağ taraftaki en çok içerdikleri vitamin veya mineralle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Portakal"},
+            {"no": 2, "metin_md": "Süt"},
+            {"no": 3, "metin_md": "Ispanak"},
+            {"no": 4, "metin_md": "İyotlu tuz"},
+            {"no": 5, "metin_md": "Havuç"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kalsiyum"},
+            {"harf": "B", "metin_md": "C Vitamini"},
+            {"harf": "C", "metin_md": "Demir"},
+            {"harf": "D", "metin_md": "İyot"},
+            {"harf": "E", "metin_md": "A Vitamini"},
+            {"harf": "F", "metin_md": "D Vitamini"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D", "5": "E"},
+          "cozum_md": "1-B: Portakal C vitamini bakımından zengindir. 2-A: Süt kalsiyum bakımından zengindir. 3-C: Ispanak demir bakımından zengindir. 4-D: İyotlu tuz iyot içerir. 5-E: Havuç A vitamini bakımından zengindir. F (D Vitamini) bu beş besin için kullanılmayan bir çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Kemiklerimizin ve dişlerimizin sağlıklı gelişmesi için gerekli olan mineral ____(1)____ dır.\n2) Vücudumuzun hastalıklara karşı direncini güçlendiren ve portakalda bol miktarda bulunan vitamin ____(2)____ dir.\n3) Kanımızın görevini yerine getirmesine yardımcı olan ve ıspanakta bulunan mineral ____(3)____ dir.",
+          "gorsel": null,
+          "kelime_havuzu": ["Kalsiyum", "C Vitamini", "Demir", "İyot", "Potasyum"],
+          "cevap": {"1": "Kalsiyum", "2": "C Vitamini", "3": "Demir"},
+          "cozum_md": "1) Kalsiyum — kemik ve diş gelişimi için gereklidir, süt ve süt ürünlerinde bol bulunur. 2) C Vitamini — bağışıklık sistemini güçlendirir, portakal gibi turunçgillerde boldur. 3) Demir — kanla ilgili görevlere yardımcı olur, ıspanak gibi yeşil yapraklı sebzelerde bulunur. 'İyot' ve 'Potasyum' bu üç boşluk için kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki tabloyu inceleyerek soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "| Besin | İçerdiği Vitamin/Mineral |\n|---|---|\n| Süt | Kalsiyum |\n| Yoğurt | Kalsiyum |\n| Peynir | Kalsiyum |\n| Balık | D Vitamini |\n\nTablodaki bilgilere göre aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Süt ile yoğurt, ortak olarak kalsiyum içerir.", "cevap": true, "gerekce_md": "Tabloda hem sütün hem yoğurdun kalsiyum içerdiği yazmaktadır; bu bir ortak özelliktir."},
+            {"no": 2, "metin_md": "Peynir ile balık, ortak olarak aynı minerali içerir.", "cevap": false, "gerekce_md": "Peynir kalsiyum içerirken balık D vitamini içerir; bu ikisi ortak değil, farklı bir özelliktir."},
+            {"no": 3, "metin_md": "Süt, yoğurt ve peynirin üçü de ortak olarak kalsiyum içerir.", "cevap": true, "gerekce_md": "Tabloya göre bu üç besnin de içerdiği vitamin/mineral kalsiyumdur, dolayısıyla ortak bir özelliktir."},
+            {"no": 4, "metin_md": "Tablodaki dört besinin hepsi birbiriyle ortak olarak aynı vitamin veya minerali içerir.", "cevap": false, "gerekce_md": "Balık, diğer üç besinden farklı olarak kalsiyum yerine D vitamini içerir; bu yüzden dördü ortak değildir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Süt, yoğurt ve peynir üçü de kalsiyum içerdiği için birbirleriyle ortak özellik taşır (1 ve 3 doğru). Balık ise D vitamini içerdiği için diğer üçünden farklıdır, bu yüzden balıkla ilgili ortaklık iddiaları (2 ve 4) yanlıştır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Yukarıdaki tabloya göre aşağıdaki besinlerden hangisi, diğer üçünden farklı bir vitamin veya mineral içerir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Süt"},
+            {"harf": "B", "metin_md": "Yoğurt"},
+            {"harf": "C", "metin_md": "Peynir"},
+            {"harf": "D", "metin_md": "Balık"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "Süt, yoğurt ve peynir kalsiyum içerirken balık D vitamini içerir. Bu yüzden balık, diğer üç besinden farklı bir vitamin/mineral içeren besindir; doğru cevap D'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, verilerdeki örüntüleri (tekrar eden durumları) fark ederek ve bir genelleme yaparak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Bir öğrenci, market rafındaki üç ambalajlı besinin üzerindeki etiketleri incelemiştir:\n\n- Portakal suyu etiketi: \"C vitamini kaynağıdır.\"\n- Süt etiketi: \"Kalsiyum kaynağıdır.\"\n- Tam tahıllı ekmek etiketi: \"Demir kaynağıdır.\"\n\nBu üç etiketi inceleyen öğrenci, aşağıdaki genellemelerden hangisini yapabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bütün ambalajlı besinlerin etiketinde sadece C vitamini yazar."},
+            {"harf": "B", "metin_md": "Ambalajlı besinlerin etiketlerinde, o besinde bulunan vitamin veya mineraller belirtilebilir."},
+            {"harf": "C", "metin_md": "Ambalajlı besinlerin hiçbirinde vitamin veya mineral bulunmaz."},
+            {"harf": "D", "metin_md": "Sadece süt ürünlerinin etiketinde vitamin veya mineral bilgisi yer alır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Üç farklı besinin etiketinde üç farklı vitamin/mineral bilgisi görülmüştür; bu örüntüden çıkarılabilecek uygun genelleme, ambalajlı besin etiketlerinde o besindeki vitamin/mineralin belirtilebileceğidir (B). A ve C verilerle çelişir (etiketlerde farklı vitamin/mineraller yazmaktadır, hiçbiri boş değildir); D ise yalnızca sütten yola çıkan, portakal suyu ve ekmeği görmezden gelen eksik/aşırı özel bir genellemedir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 17,
+          "govde_md": "Aşağıdaki tabloda beş ambalajlı besinin etiketinde yazan bilgiler verilmiştir.\n\n| Ambalajlı Besin | Etiketteki Bilgi |\n|---|---|\n| Portakal suyu | C vitamini kaynağıdır. |\n| Yoğurt | Kalsiyum kaynağıdır. |\n| Balık kraker | D vitamini kaynağıdır. |\n| Gazlı içecek | Şeker, renklendirici ve aroma verici içerir. |\n| Tam tahıllı bisküvi | Demir kaynağıdır. |\n\nTabloyu inceleyerek besinlerde vitamin ve/veya mineral bulunmasıyla ilgili fark ettiğin örüntüyü açıkla ve buna dayanarak bir genelleme (önerme) yaz. (En az 2 cümle)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tablodaki beş besinden dördünün etiketinde bir vitamin veya mineral kaynağı olduğu yazmaktadır, ancak gazlı içeceğin etiketinde vitamin veya mineral bilgisi yer almamaktadır. Buradan şu genelleme yapılabilir: Besinlerin bir kısmında vitamin ve/veya mineral bulunur, ama her besinde bulunmayabilir; ayrıca besinlerde bulunan vitamin veya mineral çeşidi de birbirinden farklı olabilir.",
+            "kabul_kriterleri": [
+              "Örüntüyü tabloya dayandırması (en az iki besni örnek göstererek)",
+              "Bütün besinlerin vitamin/mineral içermediğini (gazlı içecek örneği) fark etmesi",
+              "Besinlerin farklı vitamin/mineral içerdiğine dair genel, tabloyla tutarlı bir önermede bulunması",
+              "Veriyle çelişen aşırı genelleme yapmaması (örn. 'hiçbir besinde vitamin yoktur' veya 'bütün besinlerde aynı vitamin vardır' gibi)"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir genelleme (tümevarım) sorusudur; tek doğru cümle yoktur. Beklenen, öğrencinin tablodaki tekrar eden durumu (çoğu besinde vitamin/mineral bilgisi olması, gazlı içeceğinkinin olmaması, çeşitlerin farklılığı) fark edip veriyle tutarlı bir genelleme yazmasıdır. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 18,
+          "govde_md": "Elif, dolabındaki üç meyveyi inceliyor: portakal, mandalina ve greyfurt. Üçünün de etiketinde/ambalajında \"C vitamini kaynağıdır\" yazdığını görüyor. Bunun üzerine Elif, \"Bütün meyveler C vitamini içerir.\" genellemesini yapıyor.\n\nElif'in yaptığı bu genelleme, örüntüye dayalı uygun bir genelleme midir? Neden? Cevabını açıkla. (En az 2 cümle)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Hayır, uygun bir genelleme değildir. Elif yalnızca üç turunçgil meyveyi incelemiştir, bu yüzden vardığı sonuç en fazla turunçgiller için geçerli olabilir. 'Bütün meyveler C vitamini içerir' demek aşırı genellemedir; çünkü muz gibi turunçgil olmayan başka meyveler farklı vitamin veya mineraller içerebilir. Elif'in doğru bir genelleme yapabilmesi için turunçgil olmayan meyveleri de incelemesi gerekirdi.",
+            "kabul_kriterleri": [
+              "Genellemenin sınırlı/tek çeşit örnekten (yalnızca turunçgiller) yapıldığını fark etmesi",
+              "'Bütün meyveler' ifadesinin aşırı genelleme olduğunu belirtmesi",
+              "En az bir gerekçe veya karşı örnekle (farklı bir meyve grubu gibi) desteklemesi",
+              "En az 2 cümle yazması"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın en üst basamağı olan örüntüden genelleme yapmayı ve bu genellemenin geçerliliğini sorgulamayı ölçer. Elif'in örneklemi (yalnızca turunçgiller) genellemesini desteklemek için yetersizdir; bu, aşırı genellemenin (hatalı tümevarımın) tipik bir örneğidir. Tek doğru cümle yoktur, kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

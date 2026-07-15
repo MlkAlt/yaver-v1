@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Yardıma İhtiyacı Olan Bireyler İçin Farkındalık Projesi",
+    "kazanim": {
+      "kod": "HB.3.3.2",
+      "ad": "Yardıma ihtiyacı olan bireylerin yaşamını kolaylaştırmak için fikirlerini eyleme dönüştürebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "3. ÖĞRENME ALANI: AİLEM VE TOPLUM",
+      "surec_bilesenleri": {
+        "a": "Yardıma ihtiyacı olan bireylerin yaşamını kolaylaştırmak için farkındalık projeleri geliştirir.",
+        "b": "Yardıma ihtiyacı olan bireylerin yaşamını kolaylaştırmak için geliştirdiği farkındalık projelerini paylaşır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, Hayat Bilgisi 3. sınıf 3. Öğrenme Alanı: Ailem ve Toplum) programı incelendi: kazanımın öğretim yöntemi olarak yaşlı/özel gereksinimli bireylerle ilgili örnek olaylar, canlandırma/rol oynama ile empati kurdurma, grup çalışmasıyla sosyal sorumluluk projesi hazırlatma ve projeyi tanıtım metniyle paylaştırma önerilmiş; bu bilgiler yaprağın senaryo ve proje adımı sorularına temel alındı.",
+      "notlar": [
+        "Kazanım duyuşsal/proje temelli bir beceri kazanımıdır (sayısal/olgusal veri içermez); bu yüzden ağırlık senaryo, sıralama ve açık uçlu proje tasarımı sorularına verildi, ezber bilgi sorusu kullanılmadı.",
+        "Uygulayalım bölümündeki iki açık uçlu soru öğrencinin kendi farkındalık projesini tasarlamasını (a) ve bu projeyi nasıl paylaşacağını anlatmasını (b) ayrı ayrı ister; böylece her iki süreç bileşeni de üretim/uygulama düzeyinde kapsanmıştır.",
+        "Bağımsız crosscheck (subagent): karar 'onay', uyuşmazlık yok. Tek düşük önemli not: s1 (eşleştirme) 'a' bileşenine (farkındalık projesi geliştirme) etiketli ama içerik ağırlıklı olarak bireysel/anlık yardım eylemlerini test ediyor, genel yardımseverlik/empati düzeyinde kalıyor — kritik değil, ısınma sorusu olarak kabul edildi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 12,
+          "govde_md": "Aşağıdaki durumları, o kişiye en uygun yardım fikriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Bacağı kırık olan komşumuz merdivenlerden inip çıkamıyor."},
+            {"no": 2, "metin_md": "Görme engelli bir yakınımız markette ürünleri bulmakta zorlanıyor."},
+            {"no": 3, "metin_md": "Yaşlı komşumuz ağır poşetleri taşımakta güçlük çekiyor."},
+            {"no": 4, "metin_md": "İşitme engelli bir arkadaşımız sınıftaki sözlü duyuruları kaçırıyor."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Alışverişte ürünleri bulmasına eşlik etmek"},
+            {"harf": "B", "metin_md": "Poşetlerini kapıya kadar taşımaya yardım etmek"},
+            {"harf": "C", "metin_md": "Binaya rampa ya da asansör gibi bir çözüm önermek"},
+            {"harf": "D", "metin_md": "Duyuruları yazılı olarak da paylaşmak"},
+            {"harf": "E", "metin_md": "Ona her gün telefonla hava durumunu söylemek"}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B", "4": "D"},
+          "cozum_md": "1: Merdiven inip çıkamayan biri için rampa/asansör çözümü uygundur (C). 2: Görme engelli biri için alışverişte eşlik etmek uygundur (A). 3: Ağır poşet taşıyamayan yaşlı komşu için poşetleri taşımaya yardım etmek uygundur (B). 4: Sözlü duyuruyu kaçıran işitme engelli arkadaş için duyuruyu yazılı da paylaşmak uygundur (D). E seçeneği kişinin asıl ihtiyacıyla ilgili olmadığı için kullanılmayan bir çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 12,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Yardıma ihtiyacı olan biri gördüğümde onun yerine her işi ben yapmalıyım, ne istediğini sormama gerek yok.",
+              "cevap": false,
+              "gerekce_md": "Yardım ederken kişinin ne istediğini ve neye ihtiyacı olduğunu sormak, ona saygı göstermek ve doğru yardımı yapmak için gereklidir."
+            },
+            {
+              "no": 2,
+              "metin_md": "Bir farkındalık projesi, yardıma ihtiyacı olan bireylerin yaşamını kolaylaştıran somut bir fikri hayata geçirmektir.",
+              "cevap": true,
+              "gerekce_md": "Farkındalık projesi, bir sorunu fark edip buna gerçek bir çözüm önermeyi ve bunu uygulamayı içerir."
+            },
+            {
+              "no": 3,
+              "metin_md": "Geliştirdiğimiz bir farkındalık projesini kimseyle paylaşmadan sadece kendimize saklamalıyız.",
+              "cevap": false,
+              "gerekce_md": "Proje paylaşıldığında başka insanlara da örnek olur ve daha çok kişiye fayda sağlar."
+            },
+            {
+              "no": 4,
+              "metin_md": "Yaşlı ya da engelli bireylere şefkatli ve sabırlı davranmak, farkındalık projelerinin temelini oluşturur.",
+              "cevap": true,
+              "gerekce_md": "Empati kurmak ve şefkatli davranmak, ihtiyacı doğru anlayıp uygun bir proje geliştirmenin ilk adımıdır."
+            }
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1 ve 3 numaralı ifadeler yanlıştır: yardım ederken kişinin görüşü alınmalı ve geliştirilen proje mutlaka paylaşılmalıdır. 2 ve 4 numaralı ifadeler doğrudur: farkındalık projesi somut bir çözümdür ve şefkat/sabır bu projelerin temelidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları metni/senaryoyu dikkatlice okuyarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 14,
+          "govde_md": "Mahalledeki parkta tekerlekli sandalye kullanan çocuklar oyun alanına giremiyor çünkü girişte yüksek bir basamak var. Bunu fark eden bir öğrenci grubu ne yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sorunu görmezden gelip başka bir parkta oynamalı"},
+            {"harf": "B", "metin_md": "Durumu anlatan bir yazı hazırlayıp belediyeye basamağın yerine rampa yapılmasını önermeli"},
+            {"harf": "C", "metin_md": "Tekerlekli sandalye kullanan çocuklardan o parka gelmemelerini istemeli"},
+            {"harf": "D", "metin_md": "Yalnızca kendi aralarında konuşup hiçbir adım atmamalı"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Farkındalık projesi, fark edilen bir sorunu görmezden gelmek yerine somut bir çözüm önerip bunu ilgili yerlere iletmeyi gerektirir. Bu yüzden basamağın yerine rampa yapılmasını öneren bir yazı hazırlamak (B) doğru davranıştır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 14,
+          "govde_md": "Bir farkındalık projesi geliştirme sürecinin adımlarını doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Fikri hayata geçirmek için bir plan yapar",
+            "Yardıma ihtiyacı olan bireyin sorununu belirler",
+            "Planı uygulayarak projeyi hayata geçirir",
+            "Soruna çözüm olacak bir fikir üretir"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Önce yaşanan sorun/ihtiyaç belirlenir, ardından bu soruna bir çözüm fikri üretilir, sonra fikri hayata geçirecek bir plan yapılır ve son olarak plan uygulanarak proje hayata geçirilir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 14,
+          "govde_md": "Bir öğrenci, geliştirdiği farkındalık projesini paylaşmak istiyor. Aşağıdakilerden hangisi bu projeyi paylaşmanın uygun bir yoludur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Projeyi kimseye anlatmadan bir çekmecede saklamak"},
+            {"harf": "B", "metin_md": "Projeyi sınıf panosuna asıp arkadaşlarına ve okul idaresine anlatmak"},
+            {"harf": "C", "metin_md": "Projeyi sadece bir kişiye fısıldayıp sonra unutmak"},
+            {"harf": "D", "metin_md": "Projeyi tamamlamadan yarım bırakmak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bir projeyi paylaşmak, onu başkalarının görüp öğrenebileceği bir yolla (pano, sunum, anlatı vb.) duyurmayı gerektirir. Sınıf panosuna asıp arkadaşlarına ve okul idaresine anlatmak (B) buna uygun bir paylaşım yoludur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi düşüncelerinizi kullanarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 17,
+          "govde_md": "Çevrende yardıma ihtiyacı olan bir bireyi düşün (yaşlı bir komşu, engelli bir yakının, hasta bir arkadaşın vb.). Onun yaşamını kolaylaştıracak bir farkındalık projesi fikri yaz. Kime yardımcı olacağını ve bu fikrin onun yaşamını nasıl kolaylaştıracağını belirt.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sokağımızdaki yaşlı komşumuz için bir 'yardım kutusu' projesi hazırlarım. Mahalledeki çocuklarla nöbetleşe onun market alışverişini yapar ve çöplerini atarız. Böylece komşumuz her gün tek başına ağır işlerle uğraşmak zorunda kalmaz.",
+            "kabul_kriterleri": [
+              "Yardıma ihtiyacı olan belirli bir kişi/grup belirtilmiş",
+              "Somut ve uygulanabilir bir proje fikri sunulmuş",
+              "Fikrin kişinin yaşamını nasıl kolaylaştıracağı açıklanmış"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin gerçekçi bir ihtiyaç sahibi kişi/grup belirlemesi, bu kişiye yönelik somut bir proje fikri üretmesi ve fikrin yaşamı nasıl kolaylaştıracağını açıklaması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 17,
+          "govde_md": "Bir önceki soruda yazdığın farkındalık projesini kimlerle ve nasıl paylaşacağını anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Projemi önce sınıf arkadaşlarıma anlatırım, sonra sınıf panosuna bir afiş asarım. Ayrıca okul idaresine de anlatıp diğer sınıfların da katılmasını isteyebilirim.",
+            "kabul_kriterleri": [
+              "Paylaşılacak bir yöntem belirtilmiş (pano, sunum, afiş, sözlü anlatım vb.)",
+              "Projenin paylaşılacağı kişi/grup belirtilmiş (arkadaşlar, sınıf, okul idaresi vb.)"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin projesini kimlerle (arkadaş, sınıf, okul idaresi vb.) ve hangi yöntemle (anlatarak, pano/afiş, sunum vb.) paylaşacağını somut biçimde belirtmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

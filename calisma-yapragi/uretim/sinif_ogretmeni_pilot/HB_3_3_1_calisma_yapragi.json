@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Aile ve Toplum Arasındaki İlişki",
+    "kazanim": {
+      "kod": "HB.3.3.1",
+      "ad": "Aile ve toplum arasındaki ilişkiyi çözümleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "3. ÖĞRENME ALANI: AİLEM VE TOPLUM",
+      "surec_bilesenleri": {
+        "a": "Ailenin özelliklerini belirler.",
+        "b": "Toplumun özelliklerini belirler.",
+        "c": "Aile ve toplum arasındaki ilişkiyi belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr üzerindeki Hayat Bilgisi 3. sınıf '3. Öğrenme Alanı: Ailem ve Toplum' ünite sayfası incelendi. Ailenin toplumun en küçük birimi olması, komşuluk/akrabalık/mahalle gibi toplumsal kavramlar ve ailenin israftan kaçınma, bilinçli tüketim, vergi ödeme gibi davranışlarının toplum düzenine etkisi bu kaynaktan alınarak sorulara yansıtıldı.",
+      "notlar": [
+        "Bağımsız crosscheck: cevap anahtarında uyuşmazlık bulunmadı (s1-s7 hepsi bağımsız çözümle örtüştü).",
+        "Crosscheck sonrası düzeltme: s1 blank(3) parantez örnekleri ('anne, baba, kardeş gibi') 'görevi' cevabıyla anlamsal olarak tam örtüşmüyordu; somut görev örnekleriyle ('yemek pişirme, temizlik yapma, market alışverişi gibi') değiştirildi.",
+        "Crosscheck sonrası düzeltme: s2 ifade 4 ('Aile, bireyin doğduğu ve büyüdüğü ilk toplumsal gruptur.') aile-toplum ilişkisini kurduğu için surec_bileseni 'a'dan 'c'ye taşındı.",
+        "'Vergi ödeme' kavramı (s6) 3. sınıf için soyut olabilir; tymm.meb.gov.tr kaynağında aile-toplum ilişkisi örneği olarak doğrudan geçtiği için korundu."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ailemizde bireyler birbirine ____(1)____ ve saygı duyar. Ev işleri, aile üyeleri arasında ____(2)____ edilir. Ailede herkesin bir ____(3)____ vardır (yemek pişirme, temizlik yapma, market alışverişi gibi). Aile, toplumun en küçük ____(4)____ birimidir.",
+          "gorsel": null,
+          "kelime_havuzu": ["sevgi", "paylaşılır", "görevi", "sosyal", "kavga", "yalnızlık"],
+          "cevap": {"1": "sevgi", "2": "paylaşılır", "3": "görevi", "4": "sosyal"},
+          "cozum_md": "Ailenin temel özellikleri; bireyler arası sevgi-saygı, iş bölümü (paylaşma), herkesin bir görevinin olması ve ailenin toplumun en küçük sosyal (toplumsal) birimi olmasıdır. 'Kavga' ve 'yalnızlık' aile özelliğini anlatmadığı için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Ailede herkesin görev ve sorumlulukları vardır.",
+              "cevap": true,
+              "gerekce_md": "Aile içinde iş bölümü olması, ailenin temel bir özelliğidir; herkesin üstlendiği görevler vardır."
+            },
+            {
+              "no": 2,
+              "metin_md": "Aile üyeleri birbirine sevgi ve saygı göstermek zorunda değildir.",
+              "cevap": false,
+              "gerekce_md": "Sevgi ve saygı, sağlıklı bir ailenin en temel özelliklerindendir; aile bireyleri birbirine sevgi ve saygı göstermelidir."
+            },
+            {
+              "no": 3,
+              "metin_md": "Bir ailede sadece büyükler karar alır, çocukların fikri hiç sorulmaz.",
+              "cevap": false,
+              "gerekce_md": "Ailede herkesin fikri değerlidir; kararlara birlikte katılım aile içi bağı güçlendirir."
+            },
+            {
+              "no": 4,
+              "metin_md": "Aile, bireyin doğduğu ve büyüdüğü ilk toplumsal gruptur.",
+              "cevap": true,
+              "gerekce_md": "Çocuk önce ailesi içinde toplumsal kuralları ve ilişkileri öğrenir; bu yüzden aile ilk toplumsal gruptur."
+            }
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true}},
+          "cozum_md": "1 ve 4 numaralı ifadeler doğrudur: ailede görev paylaşımı vardır ve aile ilk toplumsal gruptur. 2 ve 3 numaralı ifadeler yanlıştır: sevgi-saygı zorunludur ve kararlara herkes katılabilir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki toplumla ilgili kavramları doğru açıklamayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Komşuluk"},
+            {"no": 2, "metin_md": "Akrabalık"},
+            {"no": 3, "metin_md": "Kural"},
+            {"no": 4, "metin_md": "Mahalle"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Aynı sokakta veya binada yaşayan insanlar arasındaki ilişki"},
+            {"harf": "B", "metin_md": "Kan veya evlilik bağıyla birbirine bağlı olan kişiler arasındaki ilişki"},
+            {"harf": "C", "metin_md": "Toplum düzenini sağlamak için herkesin uyması gereken davranış ilkesi"},
+            {"harf": "D", "metin_md": "İnsanların bir arada yaşadığı küçük yerleşim bölgesi"},
+            {"harf": "E", "metin_md": "Bir ürünün alınıp satıldığı yer"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Komşuluk aynı sokak/binadaki ilişkidir (A), akrabalık kan/evlilik bağıdır (B), kural toplum düzenini sağlayan ilkedir (C), mahalle küçük yerleşim bölgesidir (D). E seçeneği (pazar yeri) bu kavramlarla ilgisiz bir çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi toplumun bir özelliği DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "İnsanların bir arada, kurallara uyarak yaşaması"},
+            {"harf": "B", "metin_md": "Bireylerin birbirine yardımcı olması"},
+            {"harf": "C", "metin_md": "Herkesin istediği zaman istediği kuralı çiğnemesi"},
+            {"harf": "D", "metin_md": "Ortak değerlere ve geleneklere sahip olunması"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Toplum; kurallara uyan, birbirine yardım eden ve ortak değerleri paylaşan bireylerden oluşur. Kuralların herkes tarafından istenildiği gibi çiğnenmesi toplum düzenini bozar, bu yüzden toplumun bir özelliği değildir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir ailede bireyler israftan kaçınıp suyu ve elektriği bilinçli kullanırsa bu davranış toplumu nasıl etkiler?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece o ailenin faturasını azaltır, toplumu hiç etkilemez"},
+            {"harf": "B", "metin_md": "Doğal kaynaklar korunur, bundan tüm toplum yararlanır"},
+            {"harf": "C", "metin_md": "Toplumdaki diğer aileleri olumsuz etkiler"},
+            {"harf": "D", "metin_md": "Hiçbir etkisi yoktur"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Su ve elektrik gibi doğal kaynaklar sınırlıdır ve tüm toplum tarafından ortak kullanılır. Bir ailenin bu kaynakları bilinçli kullanması, kaynakların korunmasına ve dolayısıyla tüm toplumun yararına olur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi düşüncelerinizi kullanarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aslı'nın ailesi her ay vergisini zamanında ödüyor, çöpleri geri dönüşüm kutularına atıyor ve komşularıyla yardımlaşıyor.\n\nAslı'nın ailesinin bu davranışları toplum düzenine nasıl katkı sağlar? En az iki örnek vererek açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Vergi ödemek; devletin okul, hastane ve yol gibi hizmetler sunmasını sağlar, bu da tüm toplumun yararınadır. Geri dönüşüm çevrenin korunmasına yardımcı olur, böylece herkes daha temiz bir çevrede yaşar. Komşularla yardımlaşmak ise toplumda güveni ve dayanışmayı artırır.",
+            "kabul_kriterleri": [
+              "Vergi ödemenin toplumsal hizmetlere katkısını belirtmesi",
+              "Geri dönüşüm/çevre ile toplum ilişkisini kurması",
+              "Yardımlaşmanın toplumsal dayanışmaya etkisini belirtmesi",
+              "En az iki farklı örnek sunması"
+            ]
+          },
+          "cozum_md": "Aile içindeki bu üç davranış da toplumu doğrudan etkiler: vergi kamu hizmetlerini, geri dönüşüm çevreyi, yardımlaşma ise toplumsal dayanışmayı besler. Öğrencinin bu üç örnekten en az ikisini kendi cümleleriyle açıklaması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Kendi ailenizi düşünün: Aileniz, toplum düzenine olumlu katkı sağlayan hangi davranışları gösteriyor? En az iki örnek yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ailem çöpleri sokağa atmıyor, çöp kutusuna atıyor; bu çevrenin temiz kalmasını sağlıyor. Ailem ayrıca komşularımızla selamlaşıyor ve gerektiğinde birbirimize yardım ediyoruz; bu da mahallemizde güveni artırıyor.",
+            "kabul_kriterleri": [
+              "En az iki gerçekçi ve somut davranış örneği vermesi",
+              "Verdiği örnekleri aile-toplum ilişkisiyle bağlantılı biçimde açıklaması"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin kendi ailesinden gözlemlediği, toplum düzenine katkı sağlayan (kurallara uyma, çevreyi koruma, komşuluk ilişkileri gibi) en az iki gerçek davranışı yazması beklenir."
+        }
+      ]
+    }
+  ]
+}

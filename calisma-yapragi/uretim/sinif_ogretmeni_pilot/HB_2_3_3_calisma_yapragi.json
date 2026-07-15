@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Yakın Çevremde Görev ve Sorumluluklarım",
+    "kazanim": {
+      "kod": "HB.2.3.3",
+      "ad": "Yakın çevresinde üzerine düşen görev ve sorumlulukları günlük yaşamına yansıtabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "3. ÖĞRENME ALANI: AİLEM VE TOPLUM",
+      "surec_bilesenleri": {
+        "a": "Yakın çevresinde üzerine düşen görev ve sorumluluklarını gözden geçirir.",
+        "b": "Yakın çevresinde üzerine düşen görev ve sorumluluklarına ilişkin çıkarımda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 2. sınıf 'Ailem ve Toplum' ünite sayfası ve mufredat.meb.gov.tr Hayat Bilgisi (1-2-3. sınıflar) Türkiye Yüzyılı Maarif Modeli öğretim programı incelendi; kazanımın ev/okul/mahalle bağlamlı görev-sorumluluk örnekleri buradan alındı.",
+      "notlar": ["Bağımsız crosscheck (2026-07-15): karar=onay, kritik sorun yok. s4 (sıralama) için 'a bileşenine dolaylı bağ' ve 'sıra belirsizliği' önerileri geldi; soru ipucu bağlaçlarıyla netleştirilip a bileşenine daha açık bağlandı."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları görev ve sorumluluklarımızı hatırlayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki görevleri, ait olduğu yerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Oyuncaklarımı ve eşyalarımı toplamak"},
+            {"no": 2, "metin_md": "Sınıfı ve okul araç gereçlerini temiz kullanmak"},
+            {"no": 3, "metin_md": "Komşularımla nazik ve saygılı konuşmak"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Ev"},
+            {"harf": "B", "metin_md": "Okul"},
+            {"harf": "C", "metin_md": "Mahalle"},
+            {"harf": "D", "metin_md": "Market"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1-A: Oyuncak ve eşyalarını toplamak evdeki bir sorumluluktur. 2-B: Sınıf ve okul eşyalarına özen göstermek okuldaki bir sorumluluktur. 3-C: Komşularla nazik konuşmak mahalledeki (yakın çevredeki) bir sorumluluktur. D seçeneği (Market) bu görevlerden hiçbiriyle eşleşmeyen çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı, işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Evde odamı ve eşyalarımı düzenli tutmak benim sorumluluğumdur.", "cevap": true, "gerekce_md": "Kendi eşyalarına bakmak yakın çevremizdeki (evdeki) bir görevimizdir."},
+            {"no": 2, "metin_md": "Sorumluluklarımızı sadece bir büyüğümüz hatırlattığında yerine getiririz.", "cevap": false, "gerekce_md": "Sorumluluklarımızı hatırlatılmasa da kendiliğimizden yerine getirmeliyiz."},
+            {"no": 3, "metin_md": "Görevlerimizi gözden geçirmek, onları daha iyi yapmamıza yardımcı olur.", "cevap": true, "gerekce_md": "Sorumluluklarımızı zaman zaman gözden geçirmek, eksik yaptığımız yerleri fark etmemizi sağlar."},
+            {"no": 4, "metin_md": "Sorumluluklarımızı yerine getirmesek de yakın çevremizdeki insanlar bundan etkilenmez.", "cevap": false, "gerekce_md": "Sorumluluklarımızı yerine getirmediğimizde ailemiz, arkadaşlarımız ve komşularımız bundan olumsuz etkilenir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru, 2-Yanlış, 3-Doğru, 4-Yanlış. Gerekçeler her ifadenin yanında verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları görev ve sorumluluklarımızı düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Evde odamı düzenli tutmak bir ____(1)____ örneğidir. Sorumluluklarımızı iyi yerine getirebilmek için önce onları ____(2)____ gerekir. Görevlerimizi zamanında yerine getirirsek yakın çevremizdeki insanlar bizden ____(3)____ olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["sorumluluk", "gözden geçirmemiz", "memnun", "kızgın"],
+          "cevap": {"1": "sorumluluk", "2": "gözden geçirmemiz", "3": "memnun"},
+          "cozum_md": "1: 'sorumluluk' — odayı düzenli tutmak bir görev/sorumluluk örneğidir. 2: 'gözden geçirmemiz' — sorumluluklarımızı iyi yapabilmek için önce onları gözden geçirmemiz gerekir. 3: 'memnun' — görevini zamanında yapan biri çevresindekileri memnun eder; 'kızgın' çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir öğrencinin sabah okula gitmeden önce üzerine düşen sorumlulukları gözden geçirerek yerine getirdiği sırayı, aşağıdaki ipuçlarından yararlanarak doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Evden çıkmadan hemen önce ayakkabılarını giyer",
+            "Uyanır uyanmaz yatağını toplar",
+            "Kahvaltısını bitirir bitirmez çantasını kontrol eder",
+            "Yatağını topladıktan hemen sonra kahvaltısını yapar"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 2, 0]},
+          "cozum_md": "İpuçlarındaki sıra bağlaçları doğru sırayı belirler: önce 'uyanır uyanmaz yatağını toplar' (2. öge), sonra 'yatağını topladıktan hemen sonra kahvaltısını yapar' (4. öge), ardından 'kahvaltısını bitirir bitirmez çantasını kontrol eder' (3. öge) ve son olarak 'evden çıkmadan hemen önce ayakkabılarını giyer' (1. öge). Bu sıralama, öğrencinin sorumluluklarını gözden geçirip günlük yaşamına aksatmadan yansıtmasının bir örneğidir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ece her sabah okula gitmeden önce kendi çantasını hazırlıyor ve odasını topluyor. Bir gün annesi hasta olduğunda evin işlerine de yardım ediyor. Bu bilgilere göre Ece için aşağıdakilerden hangisi söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ece sadece okulda sorumluluk alır."},
+            {"harf": "B", "metin_md": "Ece yakın çevresindeki sorumluluklarını günlük yaşamına yansıtıyor."},
+            {"harf": "C", "metin_md": "Ece sorumluluklarını yalnızca annesi hasta olduğunda yerine getirir."},
+            {"harf": "D", "metin_md": "Ece'nin üzerine düşen herhangi bir sorumluluğu yoktur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ece'nin hem her sabah hem de annesi hasta olduğunda sorumluluk alması, sorumluluklarını sürekli olarak günlük yaşamına yansıttığını gösterir. A ve C, verilen bilgilerin yalnızca bir kısmına dayandığı için eksiktir; D metinle çelişir. Doğru cevap B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları örneklerden yola çıkarak kendi cümlelerinizle cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mahallenizde bazı komşular çöplerini sokağa atıyor ve diğer komşular bundan rahatsız oluyor. Bu durumu gözlemleyen bir çocuğun üzerine düşen sorumluluk ne olabilir? Bir çıkarımda bulunarak yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bu durumu gözlemleyen bir çocuk, çöplerin doğru yere atılmadığını fark ederek kendi çöpünü çöp kutusuna atmaya özen gösterebilir, ailesine ve komşularına bu durumu nazikçe hatırlatabilir. Çünkü mahallesinin temiz kalması da onun üzerine düşen bir sorumluluktur.",
+            "kabul_kriterleri": [
+              "Gözlemden (çöplerin yanlış atılması) yola çıkarak bir çıkarımda bulunması",
+              "Kendi üzerine düşen somut bir sorumluluk/davranış belirtmesi",
+              "Yakın çevre (mahalle) bağlamıyla ilişkilendirmesi"
+            ]
+          },
+          "cozum_md": "Örnek cevap ve kabul kriterleri 'cevap' alanında verilmiştir; öğretmen bu kriterlere göre puanlar."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Yakın çevrende (evinde, okulunda ya da mahallende) üzerine düşen bir görevini yaz. Bu görevi yerine getirmezsen neler olabileceğini düşünerek anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Benim üzerime düşen görevlerden biri her akşam okul çantamı hazırlamaktır. Eğer bu görevi yapmazsam ertesi gün okula eksik malzemeyle gidebilirim ve dersimi aksatabilirim.",
+            "kabul_kriterleri": [
+              "Gerçekçi ve kişisel bir görev/sorumluluk belirtmesi",
+              "Görevi yerine getirmemenin olası bir sonucuna dair çıkarımda bulunması",
+              "Yakın çevre (ev/okul/mahalle) bağlamıyla tutarlı olması"
+            ]
+          },
+          "cozum_md": "Örnek cevap ve kabul kriterleri 'cevap' alanında verilmiştir; öğretmen bu kriterlere göre puanlar."
+        }
+      ]
+    }
+  ]
+}

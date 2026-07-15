@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Hava Olayları ve Mevsimler Arasındaki İlişki",
+    "kazanim": {
+      "kod": "HB.2.5.1",
+      "ad": "Hava olayları ve mevsimler arasındaki ilişkiyi çözümleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Hava olaylarının özelliklerini belirler.",
+        "b": "Mevsimlerin özelliklerini belirler.",
+        "c": "Hava olayları ve mevsimler arasındaki ilişkiyi belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '5. Öğrenme Alanı: Doğa ve Çevre' ünite sayfası ve mufredat.meb.gov.tr Hayat Bilgisi (1,2,3. sınıflar) öğretim programı incelendi; ünitenin hava olayları-mevsim ilişkisi vurgusu doğrulandı. OGM Materyal'de bu kazanıma özel doğrudan bir PDF bulunamadı; genel kabul görmüş mevsim-hava olayı eşleşmeleri (kışın soğuk hava ve kar/don, yazın sıcak-güneşli hava ve kuraklık, ilkbaharda ılık hava ve sık yağmur, sonbaharda serinleme ve rüzgâr/yaprak dökümü) temel alındı. Sorular 2. sınıf (7-8 yaş) dil düzeyine göre kısa ve somut örneklerle kuruldu.",
+      "notlar": [
+        "validate_worksheet.py alan-yoğun tip sayısı (dogru_yanlis, eslestirme, tablo_doldurma = 3) için WARN verdi; render_html.py ile GERÇEK ölçüm öğrenci kısmının 1 sayfaya sığdığını gösterdi (toplam 2 sayfa, anahtar dahil), bu yüzden içerik kısaltılmadı.",
+        "Bağımsız crosscheck (subagent) sonucu: karar 'onay', kritik sorun yok. İki düşük önemli not verildi: (1) s3'ün etiketi 'b' yerine 'c' olmalıydı çünkü boşluklar mevsim-hava olayı ilişkisini kuruyor — düzeltildi. (2) s5 tablo sütun başlığı ('Sık Görülen Hava Olayı') ile bazı cevapların genel hava tanımı içermesi arasında hafif tutarsızlık — başlık 'Mevsimin Öne Çıkan Hava Özelliği' olarak güncellendi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Yağmur, havadaki su buharının yoğuşarak yağış hâlinde yere düşmesidir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Kar, havanın sıcak olduğu günlerde oluşan bir yağış çeşididir.", "cevap": false, "gerekce_md": "Kar, havanın soğuk olduğu günlerde su buharının donarak yağmasıyla oluşur."},
+            {"no": 3, "metin_md": "Rüzgâr, havanın bir yerden başka bir yere hareket etmesiyle oluşan bir hava olayıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Sis, gökten düşen katı su damlacıklarından oluşan bir yağış çeşididir.", "cevap": false, "gerekce_md": "Sis bir yağış değildir; havada asılı kalan küçük su damlacıklarının görüş uzaklığını azaltmasıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — yağmur, su buharının yoğuşup yağış olarak düşmesidir. 2) Yanlış — kar, soğuk havada su buharının donmasıyla oluşur, sıcak havada değil. 3) Doğru — rüzgâr havanın yer değiştirmesidir. 4) Yanlış — sis yağış değildir, havada asılı su damlacıklarının görüşü azaltmasıdır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mevsimleri, özellikleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kış"},
+            {"no": 2, "metin_md": "İlkbahar"},
+            {"no": 3, "metin_md": "Yaz"},
+            {"no": 4, "metin_md": "Sonbahar"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Hava sıcak ve genellikle güneşlidir, kurak günler çoktur."},
+            {"harf": "B", "metin_md": "Hava soğuktur, kar yağışı ve don görülebilir."},
+            {"harf": "C", "metin_md": "Hava ılımandır, yağmur sık görülür, bitkiler çiçek açar."},
+            {"harf": "D", "metin_md": "Hava serinlemeye başlar, rüzgârlı günler artar, yapraklar dökülür."},
+            {"harf": "E", "metin_md": "Hava yıl boyunca hiç değişmez, her gün aynı kalır."}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+          "cozum_md": "1) Kış → B, soğuk hava ve kar. 2) İlkbahar → C, ılıman hava ve sık yağmur, çiçeklenme. 3) Yaz → A, sıcak-güneşli ve kurak günler. 4) Sonbahar → D, serinleme ve rüzgâr, yaprak dökümü. 'E' seçeneği bu soruda kullanılmayan çeldiricidir; mevsimler hava olaylarını değiştirir, sabit kalmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları hava olayları ve mevsimleri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Kışın hava ____(1)____ olur ve ____(2)____ yağışı görülebilir. Yazın ise hava ____(3)____ olur ve günler genellikle ____(4)____ geçer.",
+          "gorsel": null,
+          "kelime_havuzu": ["soğuk", "kar", "sıcak", "kurak", "yağmurlu", "serin"],
+          "cevap": {"1": "soğuk", "2": "kar", "3": "sıcak", "4": "kurak"},
+          "cozum_md": "1) Kışın hava soğuk olur. 2) Kışın kar yağışı görülebilir. 3) Yazın hava sıcak olur. 4) Yazın günler genellikle kurak geçer, yağış azdır. 'Yağmurlu' ve 'serin' bu boşluklara uymaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki hava olaylarından hangisinin kış mevsiminde görülme olasılığı EN yüksektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kar yağışı"},
+            {"harf": "B", "metin_md": "Şiddetli güneş çarpması"},
+            {"harf": "C", "metin_md": "Uzun süreli kuraklık"},
+            {"harf": "D", "metin_md": "Sıcak ve nemli hava"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Kış mevsiminde hava soğuktur, bu yüzden kar yağışı görülme olasılığı en yüksektir. Diğer seçenekler sıcak/kurak havayla ilgilidir ve yaz mevsimiyle ilişkilidir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Mevsim", "Mevsimin Öne Çıkan Hava Özelliği"],
+            "satirlar": [
+              ["Kış", "__?__"],
+              ["__?__", "Yağmur, ılık rüzgâr"],
+              ["Yaz", "__?__"],
+              ["Sonbahar", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Kar yağışı, soğuk hava", "r1c0": "İlkbahar", "r2c1": "Sıcak ve güneşli hava", "r3c1": "Rüzgârlı ve serin hava"},
+          "cozum_md": "Kışın soğuk hava ve kar; ılık rüzgâr ile sık yağmur ilkbaharın özelliğidir; yazın sıcak ve güneşli hava; sonbaharda rüzgârlı ve serinleyen hava görülür."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları hava olayları ile mevsimler arasındaki ilişkiyi düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ayşe bir sabah okula giderken havanın çok soğuk olduğunu, ağaçların üzerinde kar bulunduğunu ve nefesinin buğulandığını fark ediyor. Bu gözlemlere göre Ayşe'nin içinde bulunduğu mevsim muhtemelen hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yaz"},
+            {"harf": "B", "metin_md": "İlkbahar"},
+            {"harf": "C", "metin_md": "Kış"},
+            {"harf": "D", "metin_md": "Sonbahar"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Soğuk hava, kar ve nefesin buğulanması kış mevsiminin tipik hava olaylarındandır; bu yüzden Ayşe kış mevsimindedir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir gün dışarıda sürekli sıcak, güneşli hava olduğunu ve uzun süredir yağmur yağmadığını fark ediyorsun. Bu gözlemlere göre hangi mevsimde olduğumuzu düşünürsün? Neden bu sonuca vardığını bir iki cümleyle açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Yaz mevsiminde olduğumuzu düşünürüm çünkü yazın hava sıcak ve güneşli olur, yağış azalır ve kuraklık görülebilir.",
+            "kabul_kriterleri": [
+              "Yaz mevsimini doğru belirtmesi",
+              "Hava olayını (sıcaklık, güneşlilik, kuraklık) mevsimle ilişkilendirmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek geçerli cevap yoktur. Öğrencinin sıcak-güneşli ve kurak havayı yaz mevsimiyle ilişkilendirmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

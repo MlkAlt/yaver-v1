@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kuvvetin Etkilerini Gözlemle Tahmin Ediyorum",
+    "kazanim": {
+      "kod": "FB.3.5.2",
+      "ad": "Kuvvetin varlıklar üzerindeki etkilerini bilimsel gözleme dayalı tahmin edebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "5. ÜNİTE: HAREKETİ KEŞFEDİYORUM",
+      "surec_bilesenleri": {
+        "a": "Varlıkların hareketinin ve şekil değiştirmesinin nedenine ilişkin ön bilgi ve deneyimleriyle önerme oluşturur.",
+        "b": "Varlıkların hareketinin ve şekil değiştirmesinin nedenine ilişkin gözleme dayalı olan önermeleri karşılaştırır.",
+        "c": "Kuvvetin varlıkların hareketine ve şekil değiştirmesine etkilerine ilişkin tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+        "ç": "Kuvvetin varlıkların hareketine ve şekil değiştirmesine etkileri ile ilgili gözlemlenmemiş duruma ilişkin tahminde bulunur.",
+        "d": "Kuvvetin varlıkların hareketine ve şekil değiştirmesine etkileri ile ilgili tahminlerinin geçerliliğini sorgular."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 5. Ünite (Hareketi Keşfediyorum / Kuvveti Tanıyalım teması) programı incelendi: kuvvetin varlıklar üzerindeki etkileri hareket ettirme, durdurma, hızlandırma, yavaşlatma, yön değiştirme ve şekil değiştirme olarak sınıflandırılıyor; itme-çekme temel terimler. Sorularda bu terminoloji ve sınıflandırma birebir kullanıldı.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki cümleleri, kuvvetle ilgili gördükleriniz ve yaşadıklarınızdan yola çıkarak uygun kelimelerle tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Duran bir bisiklete pedal çevrilmeye başlandığında bisiklet ____(1)____ başlar.\n\nHızla giden bir arabanın frenine basıldığında araba yavaşlayıp ____(2)____.\n\nYumuşak bir oyun hamuruna elle bastırıldığında hamurun ____(3)____ değişir.",
+          "gorsel": null,
+          "kelime_havuzu": ["hareket etmeye", "durur", "şekli", "rengi", "hızı"],
+          "cevap": {"1": "hareket etmeye", "2": "durur", "3": "şekli"},
+          "cozum_md": "(1) hareket etmeye — pedal çevirmek bisiklete kuvvet uygular, duran bisiklet bu kuvvetle hareket etmeye başlar. (2) durur — frene basmak arabaya ters yönde kuvvet uygular, araba yavaşlayıp durur. (3) şekli — elle bastırmak hamura kuvvet uygular, hamurun şekli değişir (biçimi bozulur). 'rengi' ve 'hızı' bu cümlelerde kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ali ve Ayşe bir salıncağı gözlemliyor. Ali: **\"Salıncağı ittiğimde hareket ediyor; itmeyi bırakınca yavaşlayıp duruyor.\"** diyor. Ayşe: **\"Salıncak kendi kendine, kuvvet uygulanmadan da sürekli hareket eder.\"** diyor. Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ali'nin önermesi, salıncağın gözlenen hareketiyle tutarlıdır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Ayşe'nin önermesi, gözlenen duruma dayanmaktadır.", "cevap": false, "gerekce_md": "Salıncak kuvvet uygulanmadığında yavaşlayıp durur; Ayşe'nin önermesi bu gözlemle çelişir, gerçek gözleme dayanmaz."},
+            {"no": 3, "metin_md": "İki önerme karşılaştırıldığında Ali'nin önermesi gözlem verileriyle daha uyumludur.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Bir önermenin doğru kabul edilebilmesi için gözlemle desteklenmesi gerekmez.", "cevap": false, "gerekce_md": "Bilimsel bir önermenin geçerli sayılabilmesi için gözlemle/deneyimle desteklenmesi gerekir; aksi hâlde yalnızca kişisel bir görüştür."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: Ali'nin gözlemi (itince hareket, bırakınca durma) kuvvetin etkisiyle uyumludur. 2-Yanlış: Ayşe'nin iddiası gözlenen durumla çelişir. 3-Doğru: Ali'nin önermesi gözlem verisiyle örtüşürken Ayşe'ninki örtüşmez. 4-Yanlış: Önermeler gözlemle desteklenmelidir."
+        },
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Deniz, aynı büyüklükteki bir topa üç farklı kuvvetle vuruyor ve topun gittiği mesafeyi ölçüyor:\n\n| Uygulanan Kuvvet | Topun Gittiği Mesafe |\n|---|---|\n| Az | 2 metre |\n| Orta | 5 metre |\n| Çok | 9 metre |\n\nBu gözlem verilerine göre aşağıdakilerden hangisi doğru bir sonuçtur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Topa uygulanan kuvvet arttıkça topun gittiği mesafe artar."},
+            {"harf": "B", "metin_md": "Topa uygulanan kuvvetin, topun gittiği mesafeyle ilgisi yoktur."},
+            {"harf": "C", "metin_md": "Topa uygulanan kuvvet arttıkça topun gittiği mesafe azalır."},
+            {"harf": "D", "metin_md": "Top, uygulanan kuvvetten bağımsız olarak her zaman aynı mesafeye gider."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Tablodaki verilere bakıldığında kuvvet az-orta-çok olarak arttıkça mesafe de 2-5-9 metre olarak artmaktadır. Bu, kuvvet ile mesafe arasında artan yönde bir ilişki olduğunu gösterir. B, C ve D seçenekleri gözlem verileriyle çelişir."
+        },
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 20,
+          "govde_md": "Zeynep önceki denemelerinde şunu gözlemlemiştir: yayı az gerip bıraktığında top yavaş fırlıyor, yayı çok gerip bıraktığında top hızlı fırlıyor. Zeynep, yayı hiç germeden (geri çekmeden) bırakırsa topun ne olacağını henüz denememiştir.\n\nZeynep'in önceki gözlemlerine dayanarak, yayı hiç germeden bıraktığında topun ne olacağını **tahmin ediniz** ve tahmininizi gerekçelendiriniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Top neredeyse hiç fırlamaz, olduğu yerde kalır ya da çok az hareket eder. Çünkü önceki gözlemlerde yay ne kadar çok gerilirse top o kadar hızlı fırlıyordu; yay hiç gerilmezse topa neredeyse hiç kuvvet uygulanmamış olur, bu yüzden top da harekete geçmez ya da çok az hareket eder.",
+            "kabul_kriterleri": ["Önceki gözlemlerdeki örüntüyü (kuvvet arttıkça hız artıyor) kullanarak tahmin yapması", "Tahminin gerekçesini önceki gözlemlere dayandırması"]
+          },
+          "cozum_md": "Önceki gözlemlerde yayın gerilme miktarı arttıkça topun hızı artıyordu. Bu örüntüye göre, yay hiç gerilmezse topa uygulanan kuvvet de neredeyse sıfıra yakın olur; dolayısıyla top ya hiç fırlamaz ya da çok az hareket eder."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Mert, ince bir lastik bandı gözlemliyor: bandı az gerdiğinde bandın az uzadığını, çok gerdiğinde ise çok uzadığını görmüştür. Mert bu bandı daha önce hiç denemediği kadar çok gererse bant ne olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bant hiç uzamaz, aynı boyunda kalır."},
+            {"harf": "B", "metin_md": "Bant öncekilerden daha fazla uzar ya da kopabilir."},
+            {"harf": "C", "metin_md": "Bant kısalır."},
+            {"harf": "D", "metin_md": "Bandın rengi değişir."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Önceki gözlemlerde bant ne kadar çok gerilirse o kadar çok uzuyordu. Bu örüntü sürdürülürse, hiç denenmemiş kadar büyük bir kuvvet uygulandığında bant öncekilerden daha fazla uzar; hatta dayanma sınırını aşarsa kopabilir. A, C ve D seçenekleri gözlenen örüntüyle çelişir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Can, bir denemede sadece kağıttan yapılmış hafif bir uçağı hafifçe iterek fırlatmış ve uçağın uzağa gittiğini görmüştür. Bu tek gözleme dayanarak Can şu tahmini yapıyor: **\"Bir nesneye ne kadar az kuvvet uygulanırsa, o nesne o kadar uzağa gider.\"**\n\nCan'ın bu tahmininin **geçerli olup olmadığını sorgulayınız**. Tahminin doğru olup olmadığını gerekçesiyle açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Can'ın tahmini geçerli değildir. Çünkü genel gözlemler bunun tam tersini göstermektedir: bir nesneye ne kadar çok kuvvet uygulanırsa nesne genellikle o kadar uzağa/hızlı gider (örneğin topa çok vurursa top daha uzağa gider). Can sadece tek bir deneyden (hafif kağıt uçak, az kuvvet) yola çıkarak genel bir sonuca varmıştır; bu tek gözlem yeterli değildir. Tahminin geçerliliğini sınamak için Can'ın farklı nesnelerle ve farklı büyüklükte kuvvetlerle tekrar denemeler yapması gerekir.",
+            "kabul_kriterleri": ["Can'ın tahmininin tek/sınırlı bir gözleme dayandığını fark etmesi", "Tahminin diğer gözlemlerle (kuvvet arttıkça mesafe/hız artıyor) çeliştiğini belirtmesi", "Geçerliliği sorgulayan bir gerekçe sunması (ör. daha fazla deneme/farklı nesnelerle test gerektiği)"]
+          },
+          "cozum_md": "Can'ın tahmini, yalnızca bir kez ve hafif bir nesneyle yapılmış tek bir gözleme dayanmaktadır. Oysa bu yaprağın önceki sorularında da görüldüğü gibi genel örüntü, kuvvet arttıkça mesafe/hızın da artmasıdır. Bu nedenle Can'ın tahmini geçerli değildir; geçerliliğini sınamak için farklı nesnelerle ve farklı kuvvetlerle tekrar denemeler yapılmalıdır."
+        }
+      ]
+    }
+  ]
+}

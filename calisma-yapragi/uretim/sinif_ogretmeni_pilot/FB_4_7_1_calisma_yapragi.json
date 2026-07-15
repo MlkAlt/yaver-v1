@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Görme Olayında Işığın Rolü",
+    "kazanim": {
+      "kod": "FB.4.7.1",
+      "ad": "Görme olayının gerçekleşebilmesi için ışığın rolüne ilişkin deney yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "7. ÜNİTE: IŞIĞIN PEŞİNDE",
+      "surec_bilesenleri": {
+        "a": "Görme olayının gerçekleşebilmesi için ışığın rolüne ilişkin deney tasarlar.",
+        "b": "Görme olayında ışığın rolüne ilişkin deneyde veri analizi yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "ogmmateryal.eba.gov.tr ve tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, Fen Bilimleri Dersi 4. Sınıf 7. Ünite: Işığın Peşinde) ünite sayfaları incelendi. Ünitenin bu kazanıma özgü hedefi doğrulandı: görme olayının gerçekleşmesi için ışığın gerekliliğini gösteren bir deney tasarlama ve bu deneyde elde edilen verileri (karanlık/aydınlık durumunda cismin görülüp görülmemesi) analiz etme. Ünitenin diğer kazanımlarına ait konular (doğal/yapay ışık kaynaklarının karşılaştırılması hariç — bu kavram s3'te ön bilgi olarak kullanıldı — ve ışık kirliliği) kapsam dışı bırakıldı, spiral müfredat sınırına uyuldu.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, görme olayı ile ışık arasındaki ilişkiyi düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Kapkaranlık bir odada hiçbir cismi ____(1)____.\n2) Bir cismi görebilmemiz için ortamda mutlaka bir ____(2)____ kaynağı bulunmalıdır.\n3) Güneş, dünyamızın en büyük ____(3)____ ışık kaynağıdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["göremeyiz", "ışık", "doğal", "yapay", "duyarız"],
+          "cevap": {"1": "göremeyiz", "2": "ışık", "3": "doğal"},
+          "cozum_md": "1) göremeyiz — ışık olmayan bir ortamda cisimler görülemez. 2) ışık — görme olayının gerçekleşmesi için mutlaka bir ışık kaynağı gerekir. 3) doğal — Güneş insan yapımı olmadığı için doğal bir ışık kaynağıdır. 'yapay' ve 'duyarız' kelimeleri bu cümlelere uymadığı için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir cismi görebilmemiz için o cisimden yansıyan ışığın gözümüze ulaşması gerekir.", "cevap": true, "gerekce_md": "Görme olayı, cisimden yansıyan ışığın göze ulaşmasıyla gerçekleşir."},
+            {"no": 2, "metin_md": "Güneş yapay bir ışık kaynağıdır.", "cevap": false, "gerekce_md": "Güneş insan yapımı değildir; doğal bir ışık kaynağıdır. Ampul, mum gibi insan yapımı kaynaklar yapay ışık kaynağıdır."},
+            {"no": 3, "metin_md": "Tamamen karanlık, ışığın hiç girmediği bir ortamda hiçbir cisim görülemez.", "cevap": true, "gerekce_md": "Ortamda hiç ışık yoksa cisimden yansıyacak ışık olmadığından görme gerçekleşmez."},
+            {"no": 4, "metin_md": "Bir cismi görebilmemiz için o cismin kendisinin ışık üretmesi şart değildir.", "cevap": true, "gerekce_md": "Çoğu cisim kendi ışığını üretmez; başka bir kaynaktan gelen ışığı yansıtarak görülür."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": true}},
+          "cozum_md": "Her ifade, görme olayının gerçekleşmesi için ışığın gerekliliği ilkesiyle karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, ışık kaynakları ve karanlık kutu deneyiyle ilgili bilgilerinizi kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ışık kaynaklarından hangisi doğal bir ışık kaynağıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mum"},
+            {"harf": "B", "metin_md": "Ampul"},
+            {"harf": "C", "metin_md": "Güneş"},
+            {"harf": "D", "metin_md": "El feneri"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Güneş, insan yapımı olmayan doğal bir ışık kaynağıdır. Mum, ampul ve el feneri insan yapımı olduğu için yapay ışık kaynağıdır; bu yüzden C doğru cevaptır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Öğretmen, içi tamamen ışık geçirmeyen bir kutunun içine küçük bir oyuncak koyuyor. Kutunun kapağı kapalı ve içeride hiç ışık kaynağı yok. Bir öğrenci kutunun yan tarafındaki küçük bir delikten bakıyor.\n\nAşağıdakilerden hangisi bu durumun en doğru açıklamasıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Öğrenci oyuncağı görür, çünkü delik gözün görme gücünü artırır."},
+            {"harf": "B", "metin_md": "Öğrenci oyuncağı göremez, çünkü kutunun içinde ışık kaynağı yoktur ve oyuncaktan yansıyacak ışık bulunmaz."},
+            {"harf": "C", "metin_md": "Öğrenci oyuncağı görür, çünkü oyuncak kendiliğinden ışık üretir."},
+            {"harf": "D", "metin_md": "Öğrenci oyuncağı göremez, çünkü delik çok küçüktür."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kutunun içinde ışık kaynağı olmadığından oyuncaktan yansıyacak ışık yoktur; delik büyük olsa da bakan öğrenci oyuncağı göremez. Bu yüzden B doğru cevaptır. D yanıltıcıdır çünkü sorunun sebebi delik boyutu değil, ortamda ışık bulunmamasıdır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Bir grup öğrenci, karanlık kutu deneyini üç farklı durumda tekrarlayıp gözlemlerini bir tabloya kaydetmiştir. Tabloda boş bırakılan hücreleri, deney verilerini yorumlayarak doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Deney Durumu", "Kutunun İçinde Işık Var mı?", "Oyuncak Görülüyor mu?"],
+            "satirlar": [
+              ["Kapak kapalı, kutunun içinde ışık kaynağı yok", "Hayır", "__?__"],
+              ["Kapak açık, güneş ışığı kutunun içine giriyor", "__?__", "Evet"],
+              ["Kapak kapalı ama kutunun içine küçük bir el feneri yerleştirilmiş", "Evet", "__?__"]
+            ]
+          },
+          "cevap": {"r0c2": "Hayır", "r1c1": "Evet", "r2c2": "Evet"},
+          "cozum_md": "1. satır: Işık yokken oyuncaktan yansıyacak ışık olmadığından oyuncak görülemez → Hayır. 2. satır: Oyuncak görülebiliyorsa kutunun içine mutlaka ışık girmiş olmalıdır → Evet. 3. satır: Kutunun içinde el feneri (ışık kaynağı) olduğundan oyuncaktan ışık yansır ve oyuncak görülür → Evet. Bu üç durum, ışığın var olduğu her durumda oyuncağın görülebildiğini, ışık olmadığında ise görülemediğini gösterir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, görme olayında ışığın rolünü test eden bir deney tasarlayarak ve deney sonuçlarını yorumlayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Görme olayında ışığın rolünü test etmek için yapılan karanlık kutu deneyinin adımları karışık sırada verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Kutunun kapağını kapatıp içine bakılır ve ışık yokken oyuncağın görülüp görülmediği gözlenir.",
+            "Işık geçirmeyen bir kutunun içine bir oyuncak yerleştirilir.",
+            "Karanlıktaki ve aydınlıktaki gözlemler karşılaştırılıp bir sonuca varılır.",
+            "Kutunun kapağı açılır, ışık girmesi sağlanır ve oyuncağın görülüp görülmediği tekrar gözlenir."
+          ],
+          "cevap": {"dogru_sira": [1, 0, 3, 2]},
+          "cozum_md": "Doğru sıra: önce kutunun içine oyuncak yerleştirilir → sonra kapak kapalıyken (ışık yokken) gözlem yapılır → ardından kapak açılıp ışık girerken tekrar gözlem yapılır → son olarak iki gözlem karşılaştırılıp sonuca varılır. Verilen listede bu sıra, indeks numaralarıyla [1, 0, 3, 2] şeklindedir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Görme olayının gerçekleşebilmesi için ışığın gerekli olduğunu göstermek amacıyla kendi deneyinizi tasarlayınız. Kullanacağınız malzemeleri, deney adımlarınızı ve gözleyeceğiniz sonucu yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Malzemeler: içi ışık geçirmeyen bir kutu, bir oyuncak, bir el feneri. Adımlar: 1) Oyuncağı kutunun içine koyarım. 2) Kutunun kapağını kapatırım ve içeride hiç ışık yokken küçük bir delikten bakıp oyuncağı görüp göremediğimi not ederim. 3) Kapağı kapalı tutarak kutunun içine el fenerini yakıp yerleştiririm, tekrar bakarım. Beklenen sonuç: Işık yokken oyuncağı göremem, kutunun içine ışık girince (el feneriyle) oyuncağı görebilirim. Bu, görme olayı için ışığın gerekli olduğunu gösterir.",
+            "kabul_kriterleri": [
+              "En az iki farklı ışık durumunu (karanlık / aydınlık) karşılaştıran bir deney tasarlamış",
+              "Kullanacağı malzemeleri açıkça belirtmiş",
+              "Deney adımlarını sıralı ve anlaşılır şekilde yazmış",
+              "Beklenen gözlemi/sonucu açıkça belirtmiş"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir deney tasarımı sorusudur; tek doğru cevap yoktur. Beklenen, öğrencinin karanlık ve aydınlık durumları karşılaştıran, malzeme ve adımları belirten, ışığın görme için gerekli olduğunu gösterecek bir deney kurgulamasıdır. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir öğrenci ışık geçirmeyen bir kutunun içine bir oyuncak koyuyor. Kutunun kapağı kapalıyken oyuncağı göremiyor; kapağı açıp içine ışık girmesini sağladığında ise oyuncağı görebiliyor.\n\nBu gözlemlere dayanarak, ışığın görme olayındaki rolü hakkında ne söyleyebilirsiniz? Yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kutunun içinde ışık olmadığında oyuncak görülemedi, ışık girdiğinde ise görülebildi. Bu iki durum karşılaştırıldığında, bir cismi görebilmemiz için ortamda mutlaka ışık bulunması gerektiği anlaşılır; ışık cisme çarpıp yansır ve gözümüze ulaşarak görme olayının gerçekleşmesini sağlar.",
+            "kabul_kriterleri": [
+              "Işığın görme olayı için gerekli olduğunu açıkça belirtmiş",
+              "Gözlem sonuçlarına (karanlık/aydınlık farkı) referans vererek karşılaştırma yapmış",
+              "Bir genelleme/sonuç cümlesi kurmuş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın veri analizi bileşenini ölçer. Öğrenci, deneyde gözlemlenen iki farklı durumu (ışıksız/ışıklı) karşılaştırarak ışığın görme için gerekli olduğu sonucuna ulaşmalıdır. Tek doğru cümle yoktur, kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

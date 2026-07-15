@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sınıfımızda Karar Alıyoruz",
+    "kazanim": {
+      "kod": "HB.2.1.4",
+      "ad": "Sınıf içi karar alma süreçlerine katılım sağlayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Sınıf içi karar alma süreçlerine katılır.",
+        "b": "Sınıf içi karar alma süreçlerine katkıda bulunur.",
+        "c": "Sınıf içi karar alma sürecini değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "MEB Hayat Bilgisi 2. sınıf öğretim programı (Ben ve Okulum öğrenme alanı) ve web araştırması incelendi: sınıf içi karar alma süreci ders kitaplarında sınıf kuralları oluşturma, pano/etkinlik konusu seçimi, oylama ve görüş bildirme bağlamlarında işleniyor; karar alma sürecinde uygun iletişim dili kullanılması vurgulanıyor. Yaprak bu bağlamlarla (oylama, görüş bildirme, sıra bekleme, sonucu kabul etme) uyumlu kuruldu.",
+      "notlar": [
+        "Crosscheck sonrası s7'deki senaryo öğretmen-öznesinden akran (sınıf başkanı) öznesine çevrildi; dil basitleştirildi (2. sınıf için otorite sorgulatan çerçeve hassas bulundu).",
+        "Crosscheck sonrası s4 soyut adım listesi yerine somut piknik senaryosuyla bağlamsallaştırıldı (bilişsel yük azaltıldı).",
+        "s5 eşleştirmede sağ taraf (A/B) bilinçli olarak tekrar kullanılıyor — sadece iki kategori (katkı sağlar/sağlamaz) olduğu için validate uyarısı beklenen bir durum."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları sınıfımızda kararların nasıl alındığını düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfımızda bir karar alınırken aşağıdaki cümlelerdeki boşlukları uygun kelimelerle doldurunuz.\n\n1. Karara katılmak için önce arkadaşlarımızı ____(1)____ dinleriz.\n2. Görüşümüzü belirtmek istediğimizde ____(2)____ kaldırırız.\n3. Birden çok görüş varsa en çok oyu alan görüş ____(3)____ ile seçilir.",
+          "gorsel": null,
+          "kelime_havuzu": ["dikkatle", "el", "oylama", "bağırarak"],
+          "cevap": {"1": "dikkatle", "2": "el", "3": "oylama"},
+          "cozum_md": "1. Karara katılmanın ilk adımı arkadaşlarımızı **dikkatle** dinlemektir. 2. Söz almak istediğimizde **el** kaldırırız. 3. Farklı görüşler arasında seçim yapmak için **oylama** yapılır ve en çok oy alan görüş seçilir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler sınıf içi karar alma sürecine katılma ile ilgilidir. Doğru mu Yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Sınıf kararı alınırken sırasını bekleyip görüşünü söylemek doğru bir davranıştır.", "cevap": true, "gerekce_md": "Sırasını bekleyip görüşünü söylemek, karar alma sürecine düzenli katılmanın doğru yoludur."},
+            {"no": 2, "metin_md": "Arkadaşımız konuşurken sözünü kesmek karara katılmanın doğru yoludur.", "cevap": false, "gerekce_md": "Sözünü kesmek doğru değildir; herkesin görüşünü rahatça söyleyebilmesi için sırasını beklemek gerekir."},
+            {"no": 3, "metin_md": "Oylamada kendi görüşümüz kazanmasa da sonucu kabul etmeliyiz.", "cevap": true, "gerekce_md": "Karara katılmak, sonucun herkes tarafından benimsenmesini de içerir."},
+            {"no": 4, "metin_md": "Sınıf içi karar alma sürecine sadece sınıf başkanı katılabilir.", "cevap": false, "gerekce_md": "Sınıftaki her öğrenci karar alma sürecine katılabilir ve görüşünü söyleyebilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru, 2-Yanlış, 3-Doğru, 4-Yanlış. Gerekçeler her ifadenin yanında verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları sınıf içi karara katkıda bulunmayı düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfımız hafta sonu yapılacak bir gezi için üç yer arasında karar verecek. Aşağıdakilerden hangisi bu karara katkı sağlamanın en uygun yoludur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sessizce oturup hiçbir şey söylememek"},
+            {"harf": "B", "metin_md": "Kendi önerdiğim yer seçilmezse küsmek"},
+            {"harf": "C", "metin_md": "Görüşümü nedenleriyle anlatmak ve arkadaşlarımı dinlemek"},
+            {"harf": "D", "metin_md": "Öğretmenin kararını beklemeden konuşmaya başlamak"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Karara katkı sağlamak, görüşünü nedenleriyle anlatmayı ve arkadaşlarını dinlemeyi gerektirir. Bu yüzden doğru seçenek **C**'dir. Sessiz kalmak (A) katkı sağlamaz, küsmek (B) uygun bir davranış değildir, sırasını beklememek (D) ise dinleme kuralına aykırıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfımız hafta sonu pikniğe nereye gideceğine karar veriyor. Bu kararı alırken izlenen adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Oylama yapılır", "Seçilen yere gidilir", "Arkadaşların fikirleri dinlenir", "Yer önerileri söylenir"],
+          "cevap": {"dogru_sira": [2, 3, 0, 1]},
+          "cozum_md": "Doğru sıra: Önce **arkadaşların fikirleri dinlenir**, sonra **yer önerileri söylenir**, ardından **oylama yapılır** ve son olarak **seçilen yere gidilir**. Verilen listede bu sıra indeks olarak [2, 3, 0, 1]'dir."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki davranışları, karara katkı sağlayıp sağlamadığına göre eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Görüşünü nedenleriyle anlatmak"},
+            {"no": 2, "metin_md": "Arkadaşının fikrini alaycı bulup gülmek"},
+            {"no": 3, "metin_md": "Oylama sonucuna saygı göstermek"},
+            {"no": 4, "metin_md": "Sırasını beklemeden bağırmak"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Karara katkı sağlar"},
+            {"harf": "B", "metin_md": "Karara katkı sağlamaz"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "A", "4": "B"},
+          "cozum_md": "Görüşünü nedenleriyle anlatmak (1) ve oylama sonucuna saygı göstermek (3) karara katkı sağlar (A). Arkadaşının fikrini alaycı bulup gülmek (2) ve sırasını beklemeden bağırmak (4) karara katkı sağlamaz (B)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları sınıf içi karar alma sürecini değerlendirerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfınız, hafta sonu yapılacak geziye nereye gidileceğine oylama yaparak karar verdi. Herkesin görüşü dinlendi ve en çok oyu alan yer seçildi. Sence bu karar alma yöntemi adil bir yöntem miydi? Neden düşündüğünü yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Evet, adil bir yöntemdi çünkü herkesin görüşü dinlendi ve karar, oy çokluğuna göre yani herkese eşit söz hakkı tanınarak alındı.",
+            "kabul_kriterleri": ["Herkesin görüşünün dinlendiğine değinmesi", "Oylamanın adil/eşit bir yöntem olduğunu belirtmesi", "Kendi gerekçesini açıkça yazması"]
+          },
+          "cozum_md": "Örnek cevap yukarıdaki gibidir. Öğrencinin görüşlerin dinlenmesine ve oylamanın eşitliğine değinen, kendi gerekçesini içeren her makul cevabı kabul edilebilir."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir sınıfta pano konusu oylamayla belirlenecek. Ama sınıf başkanı oylamadan önce herkese \"Benim dediğim konuya oy verin!\" diyor ve başka görüşleri dinlemiyor. Bu karar alma süreciyle ilgili aşağıdakilerden hangisi doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Süreç adildir çünkü sonunda oylama yapılmıştır."},
+            {"harf": "B", "metin_md": "Arkadaşlar özgürce kendi görüşlerini söyleyemediği için süreç adil değildir."},
+            {"harf": "C", "metin_md": "Sınıf başkanının dediği her zaman doğru olduğu için bir sorun yoktur."},
+            {"harf": "D", "metin_md": "Oylama yapıldığı için sonuç hiçbir zaman değiştirilemez."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Karar alma sürecinin adil olması için herkesin kendi görüşünü özgürce söyleyebilmesi gerekir. Sınıf başkanının başka görüşleri dinlemeden kendi fikrini dayatması, arkadaşlarının özgürce konuşmasını engeller. Bu yüzden doğru seçenek **B**'dir."
+        }
+      ]
+    }
+  ]
+}

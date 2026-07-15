@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sosyal Bilgiler Dersi Hayatımıza Neler Katıyor?",
+    "kazanim": {
+      "kod": "SB.4.1.1",
+      "ad": "Sosyal bilgiler dersinin hayatına sunacağı katkıları yorumlayabilme",
+      "ders": "Sosyal Bilgiler",
+      "sinif": 4,
+      "unite": "1. ÖĞRENME ALANI: BİRLİKTE YAŞAMAK",
+      "surec_bilesenleri": {
+        "a": "Örnek olaylardan hareketle sosyal bilgiler dersinin bireysel ve toplumsal katkılarını inceler.",
+        "b": "Sosyal bilgiler dersinin bireysel ve toplumsal katkılarına günlük hayattan örnekler verir.",
+        "c": "Sosyal bilgiler dersinin bireysel ve toplumsal katkılarını kendi cümleleriyle ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr resmi müfredat sayfası (Sosyal Bilgiler 4. Sınıf, Birlikte Yaşamak / SB.4.1.1) incelendi. Kazanımın örnek olay kapsamı resmi kaynakta şöyle sınırlandırılmış: kendini tanıma, özgüven kazanma, kişiler arası ilişkiler, hak ve sorumluluklar, yaşadığımız yerin özellikleri. Sorular bu beş temayla sınırlı tutuldu; harita/yön bulma (SB.4.2.1) ve ortak miras (SB.4.3.3) gibi SONRAKİ kazanımlara ait kavramlar bilinçli olarak kullanılmadı (spiral müfredat / kapsam sızıntısını önlemek için).",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı zihinsel geçişle) yapıldı: 6 soru govde/seçenek metninden bakılarak çözüldü, sonra cevap anahtarıyla kıyaslandı — uyuşmazlık bulunmadı.",
+        "s4 ve s6'daki çeldiriciler (A/C/D) bilinçli olarak açık/bariz yanlış tutuldu (4. sınıf 9-10 yaş seviyesi için uygun görüldü); daha ince çeldiriciler istenirse gözden geçirilebilir.",
+        "Sayfa bütçesi (öğrenci kısmı 1 A4) nedeniyle açık_uclu soru sayısı şemanın izin verdiği 2 yerine 1'de tutuldu; ikinci açık uçlu soru (Can örnek olayı, bileşen a) çıkarıldı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Bu bölümde sosyal bilgiler dersinin hayatımıza nasıl bir katkısı olduğunu fark edeceğiz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 14,
+          "govde_md": "Aşağıdaki örnek olayları okuyunuz. Olay, sosyal bilgiler dersinin bir katkısına örnek oluyorsa **D**, oluşturmuyorsa **Y** kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Mert, sosyal bilgiler dersinde öğrendiği gibi arkadaşlarının da konuşma hakkı olduğunu hatırlayıp söz aldı.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Elif, fen bilimleri dersinde öğrendiği mıknatısın özelliklerini kullanarak bir deney yaptı.", "cevap": false, "gerekce_md": "Bu, fen bilimleri dersinin bir katkısıdır; sosyal bilgiler dersiyle ilgili değildir."},
+            {"no": 3, "metin_md": "Sınıfça mahallelerinin özelliklerini konuşan öğrenciler, çevrelerini daha iyi tanıdıklarını fark ettiler.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Sosyal bilgiler dersi sadece geçmişte yaşanan olayları ezberlemek için vardır, günlük hayatla ilgisi yoktur.", "cevap": false, "gerekce_md": "Sosyal bilgiler dersi; kendimizi, haklarımızı ve çevremizi tanımamıza yardımcı olarak günlük hayatımıza doğrudan katkı sağlar."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — hak bilgisini günlük hayatta kullanmıştır. 2) Yanlış — bu fen bilimleri dersinin katkısıdır. 3) Doğru — yaşadığı yerin özelliklerini tanımak sosyal bilgiler dersinin katkısıdır. 4) Yanlış — ders, günlük hayata doğrudan katkı sağlar."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 14,
+          "govde_md": "Aşağıdakilerden hangisi sosyal bilgiler dersinin **günlük hayattan** bir örneğidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir öğrencinin fen bilimleri dersinde bitkilerin büyümesini gözlemlemesi"},
+            {"harf": "B", "metin_md": "Bir öğrencinin, sosyal bilgiler dersinde öğrendiği kendini tanıma becerisiyle hangi konularda iyi olduğunu fark etmesi"},
+            {"harf": "C", "metin_md": "Bir öğrencinin müzik dersinde yeni bir şarkı öğrenmesi"},
+            {"harf": "D", "metin_md": "Bir öğrencinin beden eğitimi dersinde ip atlamayı öğrenmesi"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kendini tanıma, sosyal bilgiler dersinin kapsamındaki bir konudur; bu beceriyi günlük hayatta kullanmak dersin bireysel katkısına örnektir. Diğer seçenekler başka derslerin katkılarıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sosyal bilgiler dersinde öğrendiklerimizi günlük hayattaki karşılıklarıyla ilişkilendirelim.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 16,
+          "govde_md": "Soldaki sosyal bilgiler konularını, sağdaki günlük hayat örnekleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kendini tanıma"},
+            {"no": 2, "metin_md": "Özgüven kazanma"},
+            {"no": 3, "metin_md": "Kişiler arası ilişkiler"},
+            {"no": 4, "metin_md": "Hak ve sorumluluklar"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sınıf önünde konuşurken heyecanını yenip rahat konuşabilme"},
+            {"harf": "B", "metin_md": "Kendi güçlü ve gelişmesi gereken yönlerini fark etme"},
+            {"harf": "C", "metin_md": "Arkadaşıyla anlaşmazlığını konuşarak çözme"},
+            {"harf": "D", "metin_md": "Odasını toplama gibi üzerine düşen görevi zamanında yapma"},
+            {"harf": "E", "metin_md": "Yeni bir yabancı dil kelimesi öğrenme"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1-B: Kendini tanıma, güçlü/gelişmesi gereken yönleri fark etmeyi kapsar. 2-A: Özgüven, topluluk önünde rahat konuşabilmeyle ilişkilidir. 3-C: Kişiler arası ilişkiler, anlaşmazlığı konuşarak çözmeyi içerir. 4-D: Hak ve sorumluluk, üzerine düşen görevi yapmaktır. E seçeneği (yabancı dil) bu kazanımla ilgili değildir, çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 16,
+          "govde_md": "Aşağıdaki örnek olayı okuyunuz:\n\n*\"Aslı, yeni taşındıkları evde önce kendini yalnız hissetti. Ailesiyle birlikte mahallelerindeki parkı, marketi ve komşularını tanıdıktan sonra kendini daha güvende ve mutlu hissetti.\"*\n\nBu örnek olay, sosyal bilgiler dersinin daha çok hangi katkısını gösterir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece matematiksel işlem yapma becerisini geliştirir"},
+            {"harf": "B", "metin_md": "Yaşadığı yeri tanımanın kişiye güven ve aidiyet duygusu kazandırdığını gösterir"},
+            {"harf": "C", "metin_md": "Sadece resim yapma becerisini geliştirir"},
+            {"harf": "D", "metin_md": "Yabancı dil öğrenmeyi kolaylaştırır"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Aslı'nın yaşadığı yeri tanıdıkça kendini daha güvende hissetmesi, sosyal bilgiler dersinin \"yaşadığımız yerin özellikleri\" konusunun bireysel katkısına örnektir. Diğer seçenekler olayla ilgisizdir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Şimdi sosyal bilgiler dersinin katkılarını kendi cümlelerinle yorumla.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 18,
+          "govde_md": "Sosyal bilgiler dersinde öğrendiğin bir konuyu (örneğin: kendimi tanımak, haklarım ve sorumluluklarım, yaşadığım yerin özellikleri) düşün. Bu konunun günlük hayatına ne gibi bir katkısı oldu? Kendi cümlelerinle, bir örnek vererek anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sosyal bilgiler dersinde haklarımı ve sorumluluklarımı öğrendim. Bir gün kardeşimle oyuncak paylaşırken onun da benim gibi hakları olduğunu hatırladım ve sırayla oynamaya karar verdik. Bu ders sayesinde başkalarının haklarına saygı göstermeyi öğrendim.",
+            "kabul_kriterleri": [
+              "Sosyal bilgiler dersinin kapsamındaki somut bir konuya (kendini tanıma, özgüven, kişiler arası ilişkiler, hak-sorumluluk, yaşadığı yer) atıfta bulunmuş",
+              "Günlük hayattan gerçekçi/inandırıcı bir örnek olay anlatmış",
+              "Katkıyı kendi cümleleriyle, ezbere olmayan bir ifadeyle anlatmış"
+            ]
+          },
+          "cozum_md": "Öğrencinin cevabı, örnek cevaptaki gibi kendine ait somut bir olayı, dersin kapsamındaki bir konuyla (kendini tanıma, özgüven, kişiler arası ilişkiler, hak-sorumluluk, yaşadığı yer) ilişkilendirip kendi cümleleriyle anlatmasına göre puanlanır; kabul kriterlerinin en az ikisi karşılanmalıdır."
+        },
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 22,
+          "govde_md": "Öğretmeni Ayşe'ye \"Sosyal bilgiler dersi sana ne kazandırdı?\" diye sorduğunda Ayşe şöyle cevap veriyor:\n\n*\"Bu ders sayesinde kendimi daha iyi tanıdım; arkadaşlarımla anlaşmazlık yaşadığımda onları dinleyip saygı göstermeyi öğrendim.\"*\n\nAyşe'nin bu cevabı, sosyal bilgiler dersinin katkısını nasıl ifade ediyor?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece ders notlarını ezberlediğini söylüyor"},
+            {"harf": "B", "metin_md": "Dersin ona kendini tanıma ve kişiler arası ilişkiler konusunda kazanım sağladığını kendi cümleleriyle ifade ediyor"},
+            {"harf": "C", "metin_md": "Dersin hiçbir işine yaramadığını anlatıyor"},
+            {"harf": "D", "metin_md": "Sadece sınavda başarılı olduğunu anlatıyor"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ayşe, kendi cümleleriyle dersin kendini tanıma ve kişiler arası ilişkiler konusundaki katkısını anlatmaktadır; bu da kazanımın \"kendi cümleleriyle ifade eder\" bileşenine örnektir."
+        }
+      ]
+    }
+  ]
+}

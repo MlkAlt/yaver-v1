@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Tarihî Mekânlarımızı ve Doğal Güzelliklerimizi Koruyalım",
+    "kazanim": {
+      "kod": "HB.3.4.1",
+      "ad": "Yakın çevresindeki tarihî mekân ve doğal güzelliklerin korunmasının önemini fark edebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Yakın çevresindeki tarihî mekân (müze, cami, kale, ören yeri vb.) ve doğal güzellikleri (orman, göl, deniz vb.) tanır.",
+        "b": "Tarihî mekân ve doğal güzelliklerin korunmasının önemini açıklar.",
+        "c": "Tarihî mekân ve doğal güzellikleri korumaya yönelik duyarlı davranışlara örnekler verir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/320 (HB.3.4.1 kazanım detay sayfası) incelendi: öğretim programında müze/cami/kale gibi tarihî mekân örnekleri, deniz ve ormanların korunmasının önemi vurgusu, kısa film/belgesel ile duyarlılık kazandırma ve öğrencilerin duyarlı davranış/ülke varlıklarına sahip çıkma örnekleri vermesi beklentisi doğrulandı. mufredat.meb.gov.tr Hayat Bilgisi (1-3. sınıflar) öğretim programı PDF'i referans olarak kontrol edildi. Kazanım verisinde `aciklama` alanı null olduğundan süreç bileşenleri (a, b, c) bu araştırmaya dayanarak türetildi — bkz. notlar.",
+      "notlar": [
+        "Kazanım veri dosyasında `aciklama` alanı boş (null) geldi. Süreç bileşenleri a/b/c, MEB öğretim programı kazanım detay sayfasındaki tanıma → önem açıklama → duyarlı davranış örneği veriş sırası temel alınarak türetildi; resmi programda harf harf ayrılmış bir madde listesi yoktur.",
+        "2. sınıf HB.2.4.1 yaprağı (uretim/sinif_ogretmeni_pilot/HB_2_4_1_calisma_yapragi.json) aynı üniteyi 'tanıma/belirleme' düzeyinde işliyor; bu yaprak tekrara düşmemek için ağırlığı 'korumanın önemi' ve 'duyarlı davranış' bileşenlerine (b, c) verdi.",
+        "Bağımsız crosscheck (subagent) sonucu: karar 'onay', cevap anahtarında uyuşmazlık yok. Tek not: a/b/c süreç bileşenleri kaynak veri (aciklama=null) yerine dış araştırmayla türetildiği için resmi kazanım metniyle bire bir doğrulanamıyor — izlenmesi önerildi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle doldurunuz.\n\n1. Geçmişten günümüze ulaşan cami, kale, saray gibi yerlere ____(1)____ denir.\n2. Ormanlar, göller ve denizler gibi doğanın bize sunduğu güzelliklere ____(2)____ denir.\n3. Bir yerin tarihî ve doğal güzelliklerini bozmadan gelecek kuşaklara aktarmaya ____(3)____ denir.\n4. Çöpleri çevreye atmamak, çevreye karşı ____(4)____ davranmaktır.",
+          "gorsel": null,
+          "kelime_havuzu": ["tarihî mekân", "doğal güzellik", "koruma", "duyarlı", "kirletici"],
+          "cevap": {"1": "tarihî mekân", "2": "doğal güzellik", "3": "koruma", "4": "duyarlı"},
+          "cozum_md": "1) Cami, kale, saray gibi geçmişten kalan yapılara tarihî mekân denir. 2) Orman, göl, deniz gibi doğada kendiliğinden bulunan güzelliklere doğal güzellik denir. 3) Bu yerleri bozmadan gelecek kuşaklara aktarmaya koruma denir. 4) Çevreye zarar vermemek duyarlı davranmaktır. 'Kirletici' hiçbir boşluğa uymaz, çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki yer adlarını sağdaki doğru tanımla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ayasofya Camii"},
+            {"no": 2, "metin_md": "Efes Ören Yeri"},
+            {"no": 3, "metin_md": "Kaçkar Dağları"},
+            {"no": 4, "metin_md": "Salda Gölü"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Doğal güzellik — yüksek dağlar"},
+            {"harf": "B", "metin_md": "Tarihî mekân — ibadet amaçlı yapı"},
+            {"harf": "C", "metin_md": "Tarihî mekân — antik kent kalıntısı"},
+            {"harf": "D", "metin_md": "Doğal güzellik — göl"},
+            {"harf": "E", "metin_md": "Doğal güzellik — orman"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+          "cozum_md": "Ayasofya Camii ibadet amaçlı yapılmış bir tarihî mekândır (B). Efes Ören Yeri geçmişten kalan bir antik kent kalıntısıdır (C). Kaçkar Dağları doğada kendiliğinden oluşmuş yüksek dağlardır (A). Salda Gölü doğal bir göldür (D). 'Orman' (E) seçeneği bu dört yer için kullanılmaz, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyup en uygun cevabı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Tarihî mekânların ve doğal güzelliklerin korunması neden önemlidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Çünkü bu yerler yalnızca turistlerin ilgisini çeker."},
+            {"harf": "B", "metin_md": "Çünkü geçmişimizi öğrenmemizi sağlarlar ve gelecek kuşaklara aktarılmaları gerekir."},
+            {"harf": "C", "metin_md": "Çünkü korunmazlarsa yerlerine daha yeni binalar yapılabilir."},
+            {"harf": "D", "metin_md": "Çünkü bu yerleri korumak yalnızca devletin görevidir, bizi ilgilendirmez."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tarihî mekân ve doğal güzellikler; geçmişimizi, kültürümüzü ve doğal zenginliklerimizi tanımamızı sağlar. Bozulup yok olurlarsa bir daha geri gelmezler; bu yüzden gelecek kuşaklara aktarılmaları için herkesin, yani bizim de, duyarlı davranması gerekir. A, C ve D seçenekleri bu önemi küçümseyen veya sorumluluğu yalnızca başkasına yükleyen yanlış değerlendirmelerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir ören yerindeki taşlardan birini hatıra olarak evimize götürebiliriz.", "cevap": false, "gerekce_md": "Tarihî eserlerin bir parçasını almak esere zarar verir ve yasaktır; tarihî mekânlar oldukları gibi korunmalıdır."},
+            {"no": 2, "metin_md": "Piknik yaptığımız ormanlık alanda ateşi tamamen söndürmeden bırakmak doğaya zarar verebilir.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Denize çöp atmak balıklara ve deniz canlılarına zarar vermez.", "cevap": false, "gerekce_md": "Deniz kirliliği balıklara ve diğer canlılara zarar verir, doğal güzelliği bozar."},
+            {"no": 4, "metin_md": "Yakın çevremizdeki tarihî mekânları ziyaret ederken kurallara uymak koruma bilincine katkı sağlar.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1) Yanlış — tarihî eserden parça almak esere zarar verir, yasaktır. 2) Doğru — söndürülmeyen ateş orman yangınına ve doğa tahribatına yol açabilir. 3) Yanlış — deniz kirliliği canlılara ciddi zarar verir. 4) Doğru — kurallara uymak (dokunmama, çöp bırakmama vb.) korumaya katkı sağlar."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi çevreni düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aile olarak bir kaleyi gezmeye giden Efe, kale duvarındaki taşlardan birine adını kazımak istiyor. Efe'nin bu isteği hakkında en doğru değerlendirme hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Efe adını yazarsa kale daha çok tanınır, bu yüzden yazabilir."},
+            {"harf": "B", "metin_md": "Bu davranış tarihî esere zarar verir; Efe bunu yapmamalıdır."},
+            {"harf": "C", "metin_md": "Taşa yazı yazmak kalenin görünümünü güzelleştirir."},
+            {"harf": "D", "metin_md": "Sadece büyükler taş oyarsa sorun olur, çocuklar için sakıncası yoktur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kale duvarına yazı kazımak, o tarihî esere kalıcı olarak zarar verir. Eserler geçmişten geldikleri hâlleriyle korunmalıdır; bu davranış kimin yaptığına bakılmaksızın (çocuk ya da yetişkin) yanlıştır ve eseri 'güzelleştirmez', bozar."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Yaşadığın çevrede bulunan bir tarihî mekânı ya da doğal güzelliği yaz. Bu yerin korunması neden önemlidir? Kısaca açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Evimin yakınındaki eski taş köprü. Bu köprü çok eskiden yapılmış; korunmazsa yıkılır ve bir daha geri gelmez. Bizden sonraki çocuklar da onu görebilsin diye korunmalı.",
+            "kabul_kriterleri": [
+              "Gerçek veya gerçekçi bir tarihî mekân/doğal güzellik adı yazması",
+              "Korumanın önemine dair en az bir gerekçe belirtmesi (geri gelmemesi, gelecek kuşaklara aktarılması, doğaya/canlılara zarar vermemesi vb.)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin gerçek veya gerçekçi bir yer belirtip korunmasının önemine dair makul bir gerekçe (kaybolduğunda geri gelmemesi, gelecek kuşaklara aktarılması vb.) yazması yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Tarihî mekânları ve doğal güzellikleri korumak için sen neler yapabilirsin? En az iki öneri yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Gezdiğim tarihî yerlere ve doğaya çöp atmam, çöpümü yanımda taşırım.\n2) Tarihî eserlere dokunup zarar vermem, kurallara uyarım.",
+            "kabul_kriterleri": [
+              "En az iki somut, davranış düzeyinde öneri yazması (çöp atmama, esere zarar vermeme, kurallara uyma, başkalarını uyarma vb.)",
+              "Önerilerin tarihî mekân veya doğal güzelliklerin korunmasıyla doğrudan ilgili olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin en az iki somut ve koruma davranışına dönük öneri (çöp atmama, esere zarar vermeme, kurallara uyma, ailesini/arkadaşlarını uyarma vb.) yazması yeterlidir; tek doğru cevap listesi yoktur."
+        }
+      ]
+    }
+  ]
+}

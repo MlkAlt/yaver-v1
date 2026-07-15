@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "sema_surumu": "1.0",
+  "tur": "calisma_yapragi",
+  "baslik": "Fiziksel Özelliklerim ve Duygularım",
+  "kazanim": {
+   "kod": "HB.1.1.4",
+   "ad": "Fiziksel özelliklerini ve temel duygularını açıklayabilme",
+   "ders": "Hayat Bilgisi",
+   "sinif": 1,
+   "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+   "surec_bilesenleri": {
+    "a": "Fiziksel özelliklerini (saç rengi, göz rengi, boy gibi) fark eder ve ifade eder.",
+    "b": "Çeşitli olay ve durumlar karşısında yaşadığı temel duyguları (sevinç, üzüntü, korku, şaşkınlık, kızgınlık) fark eder ve ifade eder."
+   }
+  },
+  "tahmini_sure_dk": 25,
+  "toplam_puan": 100,
+  "olusturulma": "2026-07-14",
+  "qa": {
+   "yapisal_dogrulama": true,
+   "crosscheck": true,
+   "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 1. Öğrenme Alanı (Ben ve Okulum) ünite sayfası incelendi: kazanımda fiziksel özellikler için saç/göz rengi gibi özelliklerin ayna/fotoğraf/resim ile fark ettirilmesi, temel duygular için 'konuşma halkası', 'kartopu', kukla oyunu ve pandomim gibi tekniklerle duygu paylaşımı önerildiği görüldü; bu bağlamlar sorulara yansıtıldı.",
+   "notlar": [
+    "data/sinif_ogretmeni_v2.json içinde bu kazanımın aciklama alanı null; süreç bileşenleri (a, b) kazanımın 've' bağlacıyla ayrılan iki parçasından (fiziksel özellikler / temel duygular) ve tymm.meb.gov.tr araştırmasından türetildi.",
+    "validate_worksheet.py uyarısı: alan-yoğun tip sayısı 3 (eslestirme x2, dogru_yanlis x1), önerilen ≤2'nin üzerinde — bilinçli tercih; render_html.py gerçek ölçümde öğrenci kısmı yine de 1 sayfada kaldığı için sayfa bütçesi ihlali yok.",
+    "Crosscheck (subagent yok, manuel rubrik uygulaması): K5 dil kontrolünde s6/s7 govde_md'de informal 'yaz'/'anlat' kullanımı tespit edildi, pedagoji.md'deki '-ınız' emir kipi kuralına uyum için 'yazınız'/'anlatınız' olarak düzeltildi. K1-K4, K6 kontrollerinde kritik sorun bulunmadı: süreç bileşenleri (a,b) her biri en az 3 soruyla kapsanıyor, tek doğru cevaplar net, çeldiriciler işlevsel, sayfa/şema tutarlı."
+   ]
+  }
+ },
+ "konu_ozeti": null,
+ "bolumler": [
+  {
+   "ad": "Tanıyalım",
+   "yonerge": "Aşağıdaki soruları fiziksel özelliklerimizi düşünerek cevaplayınız.",
+   "sorular": [
+    {
+     "id": "s1",
+     "tip": "eslestirme",
+     "zorluk": "kolay",
+     "surec_bileseni": "a",
+     "puan": 15,
+     "govde_md": "Aşağıdaki fiziksel özellikleri, doğru örnekle eşleştiriniz.",
+     "gorsel": null,
+     "sol": [
+      {"no": 1, "metin_md": "Saç rengi"},
+      {"no": 2, "metin_md": "Göz rengi"},
+      {"no": 3, "metin_md": "Boy"},
+      {"no": 4, "metin_md": "Ten rengi"}
+     ],
+     "sag": [
+      {"harf": "A", "metin_md": "Uzun ya da kısa olabilir"},
+      {"harf": "B", "metin_md": "Siyah, sarı, kumral gibi olabilir"},
+      {"harf": "C", "metin_md": "Ela, mavi, kahverengi gibi olabilir"},
+      {"harf": "D", "metin_md": "Esmer, buğday gibi olabilir"},
+      {"harf": "E", "metin_md": "Tatlı ya da ekşi olabilir"}
+     ],
+     "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+     "cozum_md": "1) Saç rengi siyah, sarı, kumral gibi olur (B). 2) Göz rengi ela, mavi, kahverengi gibi olur (C). 3) Boy uzun ya da kısa olabilir (A). 4) Ten rengi esmer, buğday gibi olur (D). 'Tatlı ya da ekşi olabilir' (E) bir fiziksel özellik olmadığı için bu soruda kullanılmayan çeldiricidir."
+    },
+    {
+     "id": "s2",
+     "tip": "bosluk_doldurma",
+     "zorluk": "kolay",
+     "surec_bileseni": "a",
+     "puan": 15,
+     "govde_md": "Her insanın fiziksel özellikleri birbirinden farklıdır. Biri uzun boylu ise biri ____(1)____ boylu olabilir. Birinin saç rengi sarı ise birinin saç rengi ____(2)____ olabilir. Bu yüzden herkesin fiziksel özellikleri birbirinden ____(3)____dir.",
+     "gorsel": null,
+     "kelime_havuzu": ["kısa", "siyah", "farklı", "aynı", "büyük"],
+     "cevap": {"1": "kısa", "2": "siyah", "3": "farklı"},
+     "cozum_md": "1) Uzun boylunun karşıtı kısa boyludur. 2) Sarı saçın yanında siyah saç örnek olarak verilebilir. 3) İnsanların fiziksel özellikleri birbirinden farklıdır. 'Aynı' ve 'büyük' bu cümlelere uymadığı için kullanılmayan çeldiricilerdir."
+    }
+   ]
+  },
+  {
+   "ad": "Kavrayalım",
+   "yonerge": "Aşağıdaki soruları temel duygularımızı düşünerek cevaplayınız.",
+   "sorular": [
+    {
+     "id": "s3",
+     "tip": "coktan_secmeli",
+     "zorluk": "orta",
+     "surec_bileseni": "b",
+     "puan": 15,
+     "govde_md": "Ayşe'ye çok sevdiği bir doğum günü hediyesi geldi. Ayşe muhtemelen nasıl hisseder?",
+     "gorsel": null,
+     "secenekler": [
+      {"harf": "A", "metin_md": "Mutlu"},
+      {"harf": "B", "metin_md": "Üzgün"},
+      {"harf": "C", "metin_md": "Korkmuş"},
+      {"harf": "D", "metin_md": "Kızgın"}
+     ],
+     "cevap": {"dogru": "A"},
+     "cozum_md": "Sevdiği bir hediye alan bir çocuk genellikle sevinir, yani mutlu olur (A). Üzgün, korkmuş ve kızgın duyguları bu durumla uyuşmaz."
+    },
+    {
+     "id": "s4",
+     "tip": "eslestirme",
+     "zorluk": "orta",
+     "surec_bileseni": "b",
+     "puan": 15,
+     "govde_md": "Aşağıdaki duyguları, uygun durumla eşleştiriniz.",
+     "gorsel": null,
+     "sol": [
+      {"no": 1, "metin_md": "Sevindim"},
+      {"no": 2, "metin_md": "Üzüldüm"},
+      {"no": 3, "metin_md": "Korktum"},
+      {"no": 4, "metin_md": "Şaşırdım"}
+     ],
+     "sag": [
+      {"harf": "A", "metin_md": "Doğum günümde arkadaşlarımla oyun oynadığımda"},
+      {"harf": "B", "metin_md": "En sevdiğim oyuncağımı kaybettiğimde"},
+      {"harf": "C", "metin_md": "Karanlık bir odaya tek başıma girdiğimde"},
+      {"harf": "D", "metin_md": "Beklemediğim bir hediye aldığımda"},
+      {"harf": "E", "metin_md": "Kahvaltı yaptığımda"}
+     ],
+     "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+     "cozum_md": "1) Sevinç, oyun oynamak gibi güzel bir olayda hissedilir (A). 2) Üzüntü, sevdiğimiz bir şeyi kaybettiğimizde hissedilir (B). 3) Korku, karanlık gibi bilmediğimiz durumlarda hissedilir (C). 4) Şaşkınlık, beklemediğimiz bir olay karşısında hissedilir (D). 'Kahvaltı yaptığımda' (E) bu soruda kullanılmayan çeldiricidir."
+    },
+    {
+     "id": "s5",
+     "tip": "dogru_yanlis",
+     "zorluk": "orta",
+     "surec_bileseni": "b",
+     "puan": 15,
+     "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+     "gorsel": null,
+     "ifadeler": [
+      {"no": 1, "metin_md": "Duygularımızı sözlerle anlatabiliriz.", "cevap": true, "gerekce_md": ""},
+      {"no": 2, "metin_md": "Herkes her olayda aynı duyguyu hisseder.", "cevap": false, "gerekce_md": "İnsanlar aynı olay karşısında farklı duygular hissedebilir."},
+      {"no": 3, "metin_md": "Kızgın olduğumuzda arkadaşımızı itebiliriz.", "cevap": false, "gerekce_md": "Kızgın olduğumuzda kimseye zarar vermeden duygumuzu sözlerle anlatmalıyız."},
+      {"no": 4, "metin_md": "Yüzümüzün ifadesiyle de duygularımızı gösterebiliriz.", "cevap": true, "gerekce_md": ""}
+     ],
+     "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true}},
+     "cozum_md": "1) Doğru — duygular sözlerle ifade edilebilir. 2) Yanlış — herkes aynı olayda farklı duygular hissedebilir. 3) Yanlış — kızgınlığımızı arkadaşımıza zarar vermeden anlatmalıyız. 4) Doğru — yüz ifadeleri de duyguları gösterir."
+    }
+   ]
+  },
+  {
+   "ad": "Uygulayalım",
+   "yonerge": "Aşağıdaki soruları kendi özelliklerini ve duygularını düşünerek cevaplayınız.",
+   "sorular": [
+    {
+     "id": "s6",
+     "tip": "acik_uclu",
+     "zorluk": "zor",
+     "surec_bileseni": "a",
+     "puan": 12,
+     "govde_md": "Aynaya baktığını düşün. Kendine ait üç fiziksel özelliğini yazınız.",
+     "gorsel": null,
+     "cevap": {
+      "ornek_cevap_md": "Saçım siyah renkte, gözlerim kahverengi, boyum arkadaşlarımdan biraz kısa.",
+      "kabul_kriterleri": ["En az üç fiziksel özellik belirtmesi (saç rengi, göz rengi, boy, ten rengi gibi)", "Her özelliği kendine göre doğru şekilde tanımlaması"]
+     },
+     "cozum_md": "Öğrenci; saç rengi, göz rengi, boy, ten rengi gibi fiziksel özelliklerinden en az üçünü kendi gözlemine göre yazmalıdır. Tek doğru cevap yoktur, öğretmen öğrencinin kendi özelliklerine uygunluğunu değerlendirir."
+    },
+    {
+     "id": "s7",
+     "tip": "acik_uclu",
+     "zorluk": "zor",
+     "surec_bileseni": "b",
+     "puan": 13,
+     "govde_md": "Bugün nasıl hissediyorsun? Hissettiğin duygunun adını yazınız ve bu duyguyu neden hissettiğini anlatınız.",
+     "gorsel": null,
+     "cevap": {
+      "ornek_cevap_md": "Bugün mutlu hissediyorum çünkü en yakın arkadaşımla birlikte oyun oynadım.",
+      "kabul_kriterleri": ["Bir duygu adı belirtmesi (mutlu, üzgün, kızgın, korkmuş, şaşkın gibi)", "Bu duyguyu neden hissettiğini kısa bir sebeple açıklaması"]
+     },
+     "cozum_md": "Öğrenci bir duygu adı yazmalı ve o duyguyu hissetmesine neden olan olayı kısaca belirtmelidir. Tek doğru cevap yoktur, öğretmen duygu-sebep ilişkisinin tutarlılığını değerlendirir."
+    }
+   ]
+  }
+ ]
+}

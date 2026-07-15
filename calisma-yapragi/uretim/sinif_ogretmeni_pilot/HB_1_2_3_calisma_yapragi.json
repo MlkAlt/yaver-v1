@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Trafik Kurallarına Uyuyorum",
+    "kazanim": {
+      "kod": "HB.1.2.3",
+      "ad": "Temel trafik kurallarına uygun davranabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Yaya olarak trafikte uyulması gereken kuralları bilir ve uygular (karşıdan karşıya geçme, trafik ışıkları, yaya/üst-alt geçit).",
+        "b": "Yolcu olarak trafikte uyulması gereken kuralları bilir ve uygular (emniyet kemeri, arka koltukta oturma, sürücünün dikkatini dağıtmama)."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Veri dosyasında bu kazanımın aciklama alanı boştu (harf bazlı süreç bileşeni yok). tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 2. Öğrenme Alanı (Sağlığım ve Güvenliğim) ünite sayfası taranarak resmî kazanım metni doğrulandı: kazanım 1. sınıfta tek bir davranış çıktısı olarak tanımlanmış (a/b/c maddeleri yok), öğrenme-öğretme sürecinde yaya olma (karşıdan karşıya geçerken sağa-sola bakma, alt/üst geçit kullanma, trafik ışıklarına dikkat) ve yolcu olma (emniyet kemeri, arka koltukta oturma, sürücünün dikkatini dağıtmama) durumları ayrı ayrı vurgulanıyor. Bu ayrım, yaprağın pedagojik olarak iki süreç bileşenine (a: yaya, b: yolcu) bölünmesi için kaynak alındı.",
+      "notlar": ["Kazanımın resmî aciklama alanı MEB kaynağında da harf bazlı (a,b,c) süreç bileşeni içermiyor; a/b etiketleri üretim sırasında öğretim içeriğinden (yaya/yolcu ayrımı) türetildi.", "Bağımsız crosscheck (subagent olmadan, ayrı geçişte) yapıldı: K1-K6 kontrolleri geçti, cevap anahtarı uyuşmazlığı veya kritik sorun bulunmadı."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeleri trafikte uyduğumuz kuralları düşünerek doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Karşıdan karşıya geçerken önce sağımıza, sonra solumuza bakarız.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Kırmızı ışık yanınca yürüyerek karşıya geçebiliriz.", "cevap": false, "gerekce_md": "Kırmızı ışıkta dururuz, geçmeyiz; yeşil ışıkta geçeriz."},
+            {"no": 3, "metin_md": "Yaya geçidi varsa oradan geçeriz.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Karşıya geçerken koşarak geçmeliyiz.", "cevap": false, "gerekce_md": "Koşarak değil, etrafı kontrol ederek yürüyerek geçeriz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — karşıya geçmeden önce sağa ve sola bakmak temel kuraldır. 2) Yanlış — kırmızı ışıkta dururuz, yeşil ışıkta geçeriz. 3) Doğru — yaya geçidi varken oradan geçilir. 4) Yanlış — karşıya koşarak değil, dikkatle yürüyerek geçilir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumları, doğru davranışla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kırmızı ışık yanıyor."},
+            {"no": 2, "metin_md": "Karşıya geçeceğiz."},
+            {"no": 3, "metin_md": "Yaya geçidi yok, üst geçit var."},
+            {"no": 4, "metin_md": "Yeşil ışık yandı."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sağımıza ve solumuza bakarız."},
+            {"harf": "B", "metin_md": "Dururuz, geçmeyiz."},
+            {"harf": "C", "metin_md": "Üst geçidi kullanırız."},
+            {"harf": "D", "metin_md": "Etrafımıza bakarak yürüyerek geçeriz."},
+            {"harf": "E", "metin_md": "Koşarak geçeriz."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1) Kırmızı ışıkta dururuz (B). 2) Karşıya geçmeden önce sağımıza ve solumuza bakarız (A). 3) Yaya geçidi yoksa üst geçidi kullanırız (C). 4) Yeşil ışıkta etrafımıza bakarak yürüyerek geçeriz (D). 'Koşarak geçeriz' (E) bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları trafik kurallarına uygun davranışları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Karşıdan karşıya geçmeden önce ne yaparız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Önce sağımıza, sonra solumuza bakarız."},
+            {"harf": "B", "metin_md": "Gözlerimizi kaparız."},
+            {"harf": "C", "metin_md": "Koşarak geçeriz."},
+            {"harf": "D", "metin_md": "Arkadaşımızı iterek geçeriz."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği doğrudur; karşıya geçmeden önce sağımıza ve solumuza bakarız. B, C ve D güvenli olmayan ve trafik kuralına aykırı davranışlardır."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Arabaya bindiğimizde ____(1)____ takarız. Yolculuk sırasında arabanın ____(2)____ koltuğunda otururuz. Sürücü araç kullanırken onunla ____(3)____ konuşup dikkatini dağıtmayız.",
+          "gorsel": null,
+          "kelime_havuzu": ["emniyet kemeri", "arka", "yüksek sesle", "ön", "sessizce"],
+          "cevap": {"1": "emniyet kemeri", "2": "arka", "3": "yüksek sesle"},
+          "cozum_md": "1) Arabaya binince emniyet kemeri takarız. 2) Çocuklar arabada arka koltukta oturur. 3) Sürücüyle yüksek sesle konuşup onu rahatsız etmeyiz, dikkatini dağıtmayız. 'Ön' ve 'sessizce' bu boşluklara uymadığı için kullanılmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Ailenle arabayla yolculuk yapıyorsun. Aşağıdakilerden hangisi DOĞRU bir davranıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arka koltukta emniyet kemerimi takarım."},
+            {"harf": "B", "metin_md": "Sürücüyle yüksek sesle şakalaşıp onu güldürürüm."},
+            {"harf": "C", "metin_md": "Ön koltukta ayakta dururum."},
+            {"harf": "D", "metin_md": "Kemerimi çıkarıp koltukta zıplarım."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği doğrudur; yolculukta arka koltukta emniyet kemeri takılı olarak oturulur. B, C ve D sürücünün dikkatini dağıtan veya güvensiz davranışlardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Karşıdan karşıya geçerken hangi kurallara dikkat edersin? İki tane yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Önce sağıma, sonra soluma bakarım. Trafik ışığı yeşil olunca geçerim.",
+            "kabul_kriterleri": [
+              "En az iki doğru trafik kuralı yazması (sağa-sola bakma, ışık, geçit vb.)",
+              "Kendi cümlesiyle anlatması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin karşıdan karşıya geçerken uyulan en az iki kuralı (bakma, ışık, geçit kullanma gibi) kendi cümlesiyle yazması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir arkadaşın arabada emniyet kemerini takmadan oturuyor. Ona ne söylersin?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ona 'Emniyet kemerini tak, güvenliğin için önemli.' derim.",
+            "kabul_kriterleri": [
+              "Emniyet kemeri takması gerektiğini hatırlatması",
+              "Cümlenin arkadaşça ve anlaşılır olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin arkadaşına emniyet kemeri takması gerektiğini nazikçe hatırlatması beklenir."
+        }
+      ]
+    }
+  ]
+}

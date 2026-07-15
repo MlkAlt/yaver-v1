@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Mıknatısların Kutupları ve Etkileşimleri",
+    "kazanim": {
+      "kod": "FB.4.5.1",
+      "ad": "Mıknatısın kutupları ve birbirleriyle etkileşimleri ile ilgili tümevarımsal akıl yürütebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "5. ÜNİTE: MIKNATISI KEŞFEDİYORUM",
+      "surec_bilesenleri": {
+        "a": "Mıknatıs çeşitlerinin kutupları ve birbiriyle etkileşimleri ile ilgili örüntü bulur.",
+        "b": "Mıknatısın kutupları ve birbiriyle etkileşimleri ile ilgili genelleme yapar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 5. Ünite: Mıknatısı Keşfediyorum) ünite sayfası ve morpakampus.com 'Mıknatıs ve Kutupları' konu sayfası incelendi. Doğrulanan noktalar: mıknatısların doğal/yapay çeşitleri (çubuk, at nalı/U, halka, silindir/düğme) hepsinin iki kutbu (N=kuzey, S=güney) olduğu; çekim gücünün kutuplarda en yoğun, orta kısımda en az olduğu; aynı kutupların (N-N, S-S) birbirini ittiği, farklı kutupların (N-S) birbirini çektiği; ünitenin merkezi öğretim yönteminin tümevarımsal akıl yürütme (birden çok gözlemden örüntü bulup genellemeye ulaşma) olduğu. Bu terminoloji ve yöntem, tablo_doldurma ve acik_uclu sorularının kurgusunda birebir kullanıldı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. qa_rubric.md kontrolleri (K1-K6) uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, mıknatısların kutupları hakkında bildiklerinizi düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Mıknatısların üzerinde kutup adı verilen iki bölge bulunur. Bunlardan biri ____(1)____ kutup olup N harfiyle gösterilir, diğeri ____(2)____ kutuptur ve S harfiyle gösterilir.\n\nBir mıknatısın çekme gücü en fazla ____(3)____ yakın bölgelerde, en az ise mıknatısın ____(4)____ bölgesinde hissedilir.",
+          "gorsel": null,
+          "kelime_havuzu": ["kuzey", "güney", "kutuplarına", "orta", "doğu", "batı"],
+          "cevap": {"1": "kuzey", "2": "güney", "3": "kutuplarına", "4": "orta"},
+          "cozum_md": "1) kuzey — N harfi kuzey kutbunu gösterir. 2) güney — S harfi güney kutbunu gösterir. 3) kutuplarına — mıknatısın çekim gücü kutuplarına yakın bölgelerde en fazladır. 4) orta — mıknatısın orta kısmında çekim gücü en azdır. 'doğu' ve 'batı' mıknatıs kutbu adlandırmasında kullanılmadığı için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıda dört farklı mıknatıs çeşidi ve kutupları verilmiştir:\n\n- Çubuk mıknatıs: bir ucu N, diğer ucu S\n- At nalı (U) mıknatıs: bir ucu N, diğer ucu S\n- Halka mıknatıs: bir yüzeyi N, diğer yüzeyi S\n- Silindir (düğme) mıknatıs: bir yüzeyi N, diğer yüzeyi S\n\nBu dört farklı mıknatıs çeşidini incelediğimizde hangi örüntüye (kalıba) ulaşırız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece çubuk mıknatısların kutbu vardır."},
+            {"harf": "B", "metin_md": "Şekli ne olursa olsun, her mıknatısın mutlaka iki kutbu (N ve S) vardır."},
+            {"harf": "C", "metin_md": "Mıknatısların kutup sayısı şekline göre değişir."},
+            {"harf": "D", "metin_md": "Sadece halka ve silindir biçimli mıknatısların kutbu olur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Verilen dört farklı şekildeki mıknatısın (çubuk, at nalı, halka, silindir) hepsinde bir N ve bir S kutbu olduğu görülüyor. Şekil farklı olsa da tekrar eden ortak özellik 'her mıknatısın iki kutbu olması'dır; bu yüzden doğru cevap B'dir. A, C ve D seçenekleri verilen dört örnekle çelişir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, deney sonuçlarından bir örüntü bularak ve bu örüntüyü genelleyerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir öğrenci, iki mıknatısın kutuplarını farklı kombinasyonlarda yaklaştırıp sonuçları not ediyor. İlk deney sonucu verilmiştir. Verilen örüntüye dayanarak tablodaki boş hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["1. Mıknatısın Kutbu", "2. Mıknatısın Kutbu", "Sonuç"],
+            "satirlar": [
+              ["N", "S", "Çekti"],
+              ["N", "N", "__?__"],
+              ["S", "S", "__?__"],
+              ["S", "N", "__?__"]
+            ]
+          },
+          "cevap": {"r1c2": "İtti", "r2c2": "İtti", "r3c2": "Çekti"},
+          "cozum_md": "İlk satırdan (N-S → Çekti) yola çıkarak farklı kutupların çektiği görülür. N-N ve S-S satırlarında kutuplar aynı olduğu için mıknatıslar birbirini iter. S-N satırında kutuplar yine farklı olduğu için (N-S ile aynı örüntü) sonuç 'Çekti' olur."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir mıknatısın N kutbu, başka bir mıknatısın S kutbuna yaklaştırıldığında itme kuvveti oluşur.", "cevap": false, "gerekce_md": "N kutbu ile S kutbu farklı kutuplardır; farklı kutuplar birbirini iter değil, çeker."},
+            {"no": 2, "metin_md": "Aynı cins iki kutup (N-N ya da S-S) yan yana getirildiğinde birbirini iter.", "cevap": true, "gerekce_md": "Deney sonuçlarından çıkan genellemeye göre aynı kutuplar birbirini iter."},
+            {"no": 3, "metin_md": "Mıknatısların kutupları, şekli çubuk, halka ya da at nalı olsun fark etmeksizin aynı çekme-itme kuralına uyar.", "cevap": true, "gerekce_md": "Kutup etkileşimi mıknatısın şekline değil kutbun cinsine (aynı mı farklı mı olduğuna) bağlıdır."},
+            {"no": 4, "metin_md": "Mıknatısların kutupları arasındaki çekme ya da itme, mıknatısın rengine göre değişir.", "cevap": false, "gerekce_md": "Renk, mıknatısın kutup etkileşimini belirleyen bir özellik değildir; etkileşimi belirleyen kutupların aynı ya da farklı olmasıdır."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "Her ifade, deneylerden çıkarılan 'aynı kutuplar iter, farklı kutuplar çeker' genellemesiyle karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Öğretmen, öğrencilerinden farklı kutup kombinasyonlarını deneyerek sonuçları not etmelerini istiyor. Öğrenciler şu sonuçlara ulaşıyor:\n\n1. deney: S kutbu – N kutbu yaklaştırıldı → Çekti\n2. deney: N kutbu – S kutbu yaklaştırıldı → Çekti\n3. deney: N kutbu – N kutbu yaklaştırıldı → İtti\n\nBu üç deney sonucuna bakarak öğrencilerin ulaşabileceği en doğru genelleme aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece N kutbu diğer kutupları çeker."},
+            {"harf": "B", "metin_md": "Farklı kutuplar birbirini çeker, aynı kutuplar birbirini iter."},
+            {"harf": "C", "metin_md": "Mıknatıslar birbirini her zaman çeker."},
+            {"harf": "D", "metin_md": "Kutupların adı sonucu etkilemez."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "1. ve 2. deneyde kutuplar farklıdır (S-N, N-S) ve sonuç 'Çekti'dir. 3. deneyde kutuplar aynıdır (N-N) ve sonuç 'İtti'dir. Üç deneyi birlikte değerlendirince ulaşılan genelleme B seçeneğidir. A, C ve D seçenekleri verilen üç deney sonucuyla çelişir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki senaryoları okuyarak öğrendiğiniz genellemeyi kullanınız ve cevabınızı yazınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Defne, üç farklı mıknatıs çiftini masaya yerleştirip birbirine yaklaştırıyor ve şu sonuçları not ediyor:\n\n- 1. çift: S kutbu ile N kutbu yaklaştırıldı → birbirini çekti.\n- 2. çift: S kutbu ile S kutbu yaklaştırıldı → birbirini itti.\n- 3. çift: N kutbu ile S kutbu yaklaştırıldı → birbirini çekti.\n\nDefne'nin bu üç deney sonucuna bakarak yazabileceği genellemeyi (genel kuralı) kendi cümlelerinle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Mıknatısların aynı kutupları (N-N ya da S-S) birbirine yaklaştırıldığında birbirini iter; farklı kutupları (N-S ya da S-N) birbirine yaklaştırıldığında ise birbirini çeker.",
+            "kabul_kriterleri": [
+              "Aynı kutupların birbirini ittiğini belirtmiş",
+              "Farklı kutupların birbirini çektiğini belirtmiş",
+              "Sonucu tek bir deneye değil üç deneyin tümüne dayandırarak genellemiş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın 'genelleme yapma' basamağını doğrudan ölçer. Öğrenci, verilen üç gözlemden (S-N çekti, S-S itti, N-S çekti) yola çıkarak 'aynı kutuplar iter, farklı kutuplar çeker' genellemesine ulaşmalıdır. Tek doğru cümle yoktur, kabul kriterlerine göre değerlendirilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir çubuk mıknatısın N kutbunu, bir halka mıknatısın S kutbuna yaklaştırıyorsun. Ardından aynı çubuk mıknatısın N kutbunu bu kez bir at nalı mıknatısın N kutbuna yaklaştırıyorsun.\n\na) Her iki durumda ne olacağını, öğrendiğin genellemeyi kullanarak tahmin et.\nb) Bu iki farklı sonucun mıknatısın şekline mi yoksa kutup çeşidine mi bağlı olduğunu açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Birinci durumda çubuk mıknatısın N kutbu ile halka mıknatısın S kutbu farklı kutuplar olduğu için birbirini çeker. İkinci durumda ise çubuk mıknatısın N kutbu ile at nalı mıknatısın N kutbu aynı kutup olduğu için birbirini iter. Bu sonuç mıknatısların şekline değil kutup çeşidine (aynı mı farklı mı olduğuna) bağlıdır; çünkü genelleme her mıknatıs şekli için aynı şekilde geçerlidir.",
+            "kabul_kriterleri": [
+              "Birinci durumda çekme, ikinci durumda itme olacağını doğru tahmin etmiş",
+              "Genellemeyi (aynı kutup iter, farklı kutup çeker) doğru kullanmış",
+              "Sonucun mıknatısın şekline değil kutup türüne bağlı olduğunu belirtmiş"
+            ]
+          },
+          "cozum_md": "Bu soru, genellemenin farklı mıknatıs şekillerine transfer edilip edilemeyeceğini sınar. Öğrenci, şeklin (çubuk, halka, at nalı) sonucu değiştirmediğini, belirleyici etkenin sadece kutupların aynı ya da farklı olması olduğunu fark etmelidir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Türk Bayrağımız ve İstiklâl Marşımız",
+    "kazanim": {
+      "kod": "HB.1.4.2",
+      "ad": "Türk Bayrağı ve İstiklâl Marşı’nın önemini ifade edebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Türk Bayrağı ve İstiklâl Marşı'nın önemini ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf ders kitabı ve ilgili MEB/EBA kaynakları incelendi: bayrağın rengi (kırmızı zemin, beyaz ay-yıldız), İstiklâl Marşı'nın millî marşımız olduğu ve şair Mehmet Âkif Ersoy tarafından yazıldığı, bayrak törenlerinde ve marş okunurken gösterilmesi gereken saygı davranışları (esas duruş, sessizlik) doğrulandı.",
+      "notlar": [
+        "Kazanımın 'aciklama' alanı veri kaynağında NULL — süreç bileşenleri ayrıştırılmamış. HB.1.4.4 ile aynı yaklaşım izlendi: kazanımın 'ad' metni tek bileşen ('a') olarak kullanıldı, tüm sorular 'a' etiketiyle işaretlendi.",
+        "1. sınıf düzeyi gözetilerek çok kısa cümleler, somut ve tanıdık kelimeler tercih edildi; problem_cozme ve siralama gibi soyut tipler kullanılmadı.",
+        "Crosscheck'te s1'de boşluk+ek yazımı ('____(1)____ dır') düzeltildi; cümle eki gerektirmeyecek şekilde yeniden kuruldu ('rengi ____(1)____.')."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları bayrağımızı ve marşımızı düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bayrağımızın rengi ____(1)____. Üzerinde beyaz ____(2)____ ve ____(3)____ vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["kırmızı", "ay", "yıldız", "yeşil"],
+          "cevap": {"1": "kırmızı", "2": "ay", "3": "yıldız"},
+          "cozum_md": "Türk bayrağının zemini kırmızıdır (1). Üzerinde beyaz renkte bir ay (2) ve bir yıldız (3) bulunur. 'Yeşil' bu soruda kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakileri doğru eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Millî marşımızın adı"},
+            {"no": 2, "metin_md": "İstiklâl Marşı'nı yazan şair"},
+            {"no": 3, "metin_md": "Bayrağımızın rengi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Mehmet Âkif Ersoy"},
+            {"harf": "B", "metin_md": "İstiklâl Marşı"},
+            {"harf": "C", "metin_md": "Kırmızı"},
+            {"harf": "D", "metin_md": "Türk Bayrağı"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "Millî marşımızın adı İstiklâl Marşı'dır (1 → B). İstiklâl Marşı'nı Mehmet Âkif Ersoy yazmıştır (2 → A). Bayrağımızın rengi kırmızıdır (3 → C). 'Türk Bayrağı' (D) bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları bayrağımızın ve marşımızın önemini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bayrak töreninde arkadaşlarımızla konuşup gülebiliriz.", "cevap": false, "gerekce_md": "Bayrak töreninde sessiz ve saygılı durmalıyız."},
+            {"no": 2, "metin_md": "İstiklâl Marşı okunurken esas duruşta dururuz.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Bayrağımızı yere atabiliriz.", "cevap": false, "gerekce_md": "Bayrağımıza her zaman saygı göstermeliyiz, onu yere atmayız."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false}},
+          "cozum_md": "1) Yanlış — tören sırasında sessiz ve saygılı durulur. 2) Doğru — marş okunurken esas duruşta durulur. 3) Yanlış — bayrağımıza her zaman saygı gösterilir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bayrağımız bize neyi hatırlatır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sevdiğimiz bir oyuncağı"},
+            {"harf": "B", "metin_md": "Bağımsız ve özgür ülkemizi"},
+            {"harf": "C", "metin_md": "Yaz tatilini"},
+            {"harf": "D", "metin_md": "Doğum günümüzü"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bayrağımız, bağımsız ve özgür ülkemizin simgesidir; bu yüzden bize vatanımızı hatırlatır. Diğer seçenekler bayrağın anlamıyla ilgili değildir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "İstiklâl Marşı'mız hangi duyguyu anlatır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bağımsızlığımızı ve vatan sevgimizi"},
+            {"harf": "B", "metin_md": "Doğa güzelliklerini"},
+            {"harf": "C", "metin_md": "Spor müsabakalarını"},
+            {"harf": "D", "metin_md": "Yemek tariflerini"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "İstiklâl Marşı, milletimizin bağımsızlık mücadelesini ve vatan sevgisini anlatır. Diğer seçenekler marşın konusuyla ilgili değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinle cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bayrak töreninde nasıl davranman gerektiğini iki cümleyle anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bayrak töreninde sessiz ve dik dururum. İstiklâl Marşı okunurken saygıyla dinlerim.",
+            "kabul_kriterleri": [
+              "Sessiz/saygılı durma davranışını belirtmesi",
+              "Esas duruşta durma ya da dikkatle dinleme gibi bir davranış yazması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin sessizlik, esas duruş veya saygılı dinleme gibi en az bir doğru tören davranışı yazması yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bayrağımıza ve İstiklâl Marşımıza neden saygı duymalıyız? Bir cümleyle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bayrağımız ve marşımız bağımsızlığımızın simgesi olduğu için onlara saygı duyarız.",
+            "kabul_kriterleri": [
+              "Bağımsızlık, vatan sevgisi veya millî değer kavramına değinmesi",
+              "Saygı duyulması gerektiğini ifade etmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin bayrak ve marşı bağımsızlık, vatan sevgisi gibi bir değerle ilişkilendirmesi yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

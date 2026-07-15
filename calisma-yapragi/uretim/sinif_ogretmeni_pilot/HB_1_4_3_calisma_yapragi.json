@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Mustafa Kemal Atatürk'ün Hayatı",
+    "kazanim": {
+      "kod": "HB.1.4.3",
+      "ad": "Mustafa Kemal Atatürk'ün hayatıyla ilgili bilgileri ifade edebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Atatürk'ün doğduğu yeri ve ailesini söyler.",
+        "b": "Atatürk'ün ülkemiz için yaptığı önemli işleri söyler.",
+        "c": "Atatürk'ün anısını yaşatmak için yapılanları söyler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "MEB kaynaklı çevrimiçi 1. sınıf Hayat Bilgisi 'Atatürk'ün Hayatı' konu özetleri (mebders.com, caldiran.meb.gov.tr PDF) incelendi: doğum yeri Selanik, annesi Zübeyde Hanım, babası Ali Rıza Efendi, Türkiye Cumhuriyeti'nin kurucusu ve ilk Cumhurbaşkanı, 10 Kasım 1938'de İstanbul'da vefat, Anıtkabir Ankara'da — bilgiler bu kaynaklarla doğrulandı ve 1. sınıf düzeyine sadeleştirildi.",
+      "notlar": [
+        "Kazanım verisinde 'aciklama' alanı NULL — süreç bileşenleri ayrıştırılmamış. Kazanımın 'ifade edebilme' fiiline ve MEB kaynaklarındaki temel içerik başlıklarına (doğum/aile, ülkemiz için yaptıkları, anısını yaşatma) göre üç bileşen (a, b, c) üretici tarafından oluşturuldu; bu bir varsayımdır, insan kontrolünde önceliklendirilmeli.",
+        "Crosscheck (onay, kritik sorun yok): s5'in 'b' bileşenine (ülkemiz için yaptıkları) bağı dolaylı — askerlik başarısı doğrudan iş değil, zemin hazırlayan özellik (düşük önem, değişiklik zorunlu değil).",
+        "Crosscheck: s6'daki 4 olayı kronolojik sıralama 1. sınıf için bilişsel olarak talepkar olabilir; bilinçli 'zor' etiketiyle uyumlu, öğretmen rehberliğiyle kullanılması önerilir (düşük önem)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları Atatürk'ün doğumu ve ailesini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\nMustafa Kemal Atatürk ____(1)____ şehrinde doğmuştur.\n\nAnnesinin adı ____(2)____'dır.\n\nBabasının adı ____(3)____'dir.",
+          "gorsel": null,
+          "kelime_havuzu": ["Selanik", "Zübeyde Hanım", "Ali Rıza Efendi", "Ankara"],
+          "cevap": {"1": "Selanik", "2": "Zübeyde Hanım", "3": "Ali Rıza Efendi"},
+          "cozum_md": "Atatürk 1881 yılında Selanik'te doğmuştur (1). Annesinin adı Zübeyde Hanım'dır (2). Babasının adı Ali Rıza Efendi'dir (3). 'Ankara' bu cümlelerde kullanılmayan çeldiricidir; Ankara Atatürk'ün doğduğu yer değil, Anıtkabir'in bulunduğu şehirdir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki isimleri doğru açıklamalarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Selanik"},
+            {"no": 2, "metin_md": "Zübeyde Hanım"},
+            {"no": 3, "metin_md": "Ali Rıza Efendi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Atatürk'ün annesi"},
+            {"harf": "B", "metin_md": "Atatürk'ün doğduğu şehir"},
+            {"harf": "C", "metin_md": "Atatürk'ün babası"},
+            {"harf": "D", "metin_md": "Atatürk'ün kız kardeşi"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "Selanik → Atatürk'ün doğduğu şehir (B). Zübeyde Hanım → Atatürk'ün annesi (A). Ali Rıza Efendi → Atatürk'ün babası (C). 'D' seçeneği (kız kardeşi Makbule Hanım'ı işaret eder) bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları Atatürk'ün ülkemiz için yaptıklarını ve anısının yaşatılmasını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mustafa Kemal Atatürk ülkemiz için aşağıdakilerden hangisini yapmıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Türkiye Cumhuriyeti'ni kurmuştur."},
+            {"harf": "B", "metin_md": "İlk uçağı icat etmiştir."},
+            {"harf": "C", "metin_md": "İlk okulu açmıştır."},
+            {"harf": "D", "metin_md": "İlk treni yapmıştır."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Mustafa Kemal Atatürk, Kurtuluş Savaşı'nı kazanıp Türkiye Cumhuriyeti'ni kurmuş ve ülkemizin ilk Cumhurbaşkanı olmuştur. Diğer seçenekler Atatürk'ün yaptığı işler değildir, tipik yanlış bilgilerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Atatürk'ün mezarı Ankara'da Anıtkabir'dedir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Atatürk 10 Kasım'da doğmuştur.", "cevap": false, "gerekce_md": "Atatürk 10 Kasım'da doğmamış, bu tarihte İstanbul'da vefat etmiştir."},
+            {"no": 3, "metin_md": "Her yıl 10 Kasım'da ülkemizde Atatürk anılır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Anıtkabir İstanbul'dadır.", "cevap": false, "gerekce_md": "Anıtkabir Ankara'dadır, İstanbul'da değildir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — Atatürk'ün mezarı Ankara'daki Anıtkabir'dedir. 2) Yanlış — 10 Kasım Atatürk'ün vefat ettiği gündür, doğum günü değildir. 3) Doğru — 10 Kasım'da ülkemizde Atatürk saygıyla anılır. 4) Yanlış — Anıtkabir İstanbul'da değil, Ankara'dadır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mustafa Kemal Atatürk, askerlik hayatında nasıl bir asker olmuştur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Çok başarılı bir asker olmuştur."},
+            {"harf": "B", "metin_md": "Askerlikten hoşlanmamıştır."},
+            {"harf": "C", "metin_md": "Hiç okula gitmemiştir."},
+            {"harf": "D", "metin_md": "Asker olmamıştır."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Atatürk askerî okullarda okumuş ve çok başarılı bir asker olmuştur; bu başarısı sonradan ülkemizi kurtarma mücadelesinde ona liderlik görevi kazandırmıştır. Diğer seçenekler gerçek dışıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları öğrendiklerini hatırlayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki olayları yaşanış sırasına göre sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["Cumhuriyeti kurdu.", "İstanbul'da vefat etti.", "Selanik'te doğdu.", "Asker okuluna gitti."],
+          "cevap": {"dogru_sira": [2, 3, 0, 1]},
+          "cozum_md": "Doğru sıra: Selanik'te doğdu → Asker okuluna gitti → Cumhuriyeti kurdu → İstanbul'da vefat etti. Bir insanın hayatı önce doğum, sonra eğitim/çalışma, sonra yaptığı büyük işler, en son vefatıyla sıralanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Mustafa Kemal Atatürk hakkında öğrendiğin bir bilgiyi kısaca yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Mustafa Kemal Atatürk Selanik'te doğdu ve Türkiye Cumhuriyeti'ni kurdu.",
+            "kabul_kriterleri": [
+              "Atatürk ile ilgili doğru bir bilgi yazması (doğum yeri, ailesi, yaptığı işler veya Anıtkabir ile ilgili)",
+              "Cümlenin kısa ve anlaşılır olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin Atatürk hakkında doğru ve anlamlı bir bilgi yazması yeterlidir."
+        }
+      ]
+    }
+  ]
+}

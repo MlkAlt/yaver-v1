@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Aile Olmanın Önemi",
+    "kazanim": {
+      "kod": "HB.1.3.1",
+      "ad": "Aile olmanın önemini fark edebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "3. ÖĞRENME ALANI: AİLEM VE TOPLUM",
+      "surec_bilesenleri": {
+        "a": "Ailenin kendisi için taşıdığı önemi (sevgi, güven, yardımlaşma) günlük yaşamından örneklerle fark eder."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 3. Öğrenme Alanı (Ailem ve Toplum) ünite sayfası taraması: konu kapsamının ailenin önemi, çekirdek ve geniş aile bireyleri, aile yaşamında sevgi/saygı/yardımlaşma/fedakârlık değerleri olduğu doğrulandı; öğretimde konuşma halkası ve tek cümlelik özetlerle aile bireylerine örnekler verilmesi, aile albümü gibi performans görevleriyle pekiştirilmesi öneriliyor — bu bağlamlar sorulara yansıtıldı.",
+      "notlar": [
+        "Kazanım veri dosyasında (data/sinif_ogretmeni_v2.json) bu kazanımın 'aciklama' alanı boş (süreç bileşenleri verilmemiş); kazanımın 'ad' metni tek süreç bileşeni ('a') olarak ele alındı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeleri okuyunuz. Doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ailemizde birbirimizi severiz.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Aile bireyleri birbirine yardım etmez.", "cevap": false, "gerekce_md": "Aile bireyleri zor günde birbirine yardım eder."},
+            {"no": 3, "metin_md": "Üzüldüğümde ailem beni teselli eder.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Ailenin bize hiçbir önemi yoktur.", "cevap": false, "gerekce_md": "Aile çok önemlidir; bize sevgi, güven ve yardım verir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — ailede sevgi vardır. 2) Yanlış — aile bireyleri birbirine yardım eder. 3) Doğru — aile üzüntülü anda destek olur. 4) Yanlış — aile bize sevgi, güven ve yardım kazandırdığı için önemlidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aile büyüklerini, bize verdikleri güzel duygularla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Annem"},
+            {"no": 2, "metin_md": "Babam"},
+            {"no": 3, "metin_md": "Kardeşim"},
+            {"no": 4, "metin_md": "Büyükannem/Büyükbabam"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bana sarılır, beni sever."},
+            {"harf": "B", "metin_md": "Benimle sohbet eder, bana yol gösterir."},
+            {"harf": "C", "metin_md": "Benimle oyun oynar, oyuncaklarını paylaşır."},
+            {"harf": "D", "metin_md": "Bana eski günlerden masallar, anılar anlatır."},
+            {"harf": "E", "metin_md": "Sınıfta bana ders anlatır."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1) Annem — bana sarılır, beni sever (A). 2) Babam — benimle sohbet eder, yol gösterir (B). 3) Kardeşim — benimle oynar, paylaşır (C). 4) Büyükannem/Büyükbabam — masal ve anı anlatır (D). 'Sınıfta bana ders anlatır' (E) bir aile bireyinin değil öğretmenin davranışı olduğu için kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları ailenin önemini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ailem beni çok ____(1)____. Ailede birbirimize ____(2)____ ederiz. Ailem bana ____(3)____ ve güven verir.",
+          "gorsel": null,
+          "kelime_havuzu": ["sever", "yardım", "sevgi", "kızar", "unutur"],
+          "cevap": {"1": "sever", "2": "yardım", "3": "sevgi"},
+          "cozum_md": "1) Ailem beni çok sever. 2) Ailede birbirimize yardım ederiz. 3) Ailem bana sevgi ve güven verir. 'Kızar' ve 'unutur' cümlelerin anlamına uymadığı için kullanılmaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aile bize aşağıdakilerden hangisini kazandırır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sevgi ve güven duygusu"},
+            {"harf": "B", "metin_md": "Sadece oyuncak"},
+            {"harf": "C", "metin_md": "Sadece yemek"},
+            {"harf": "D", "metin_md": "Hiçbir şey"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği doğrudur; aile bize sevgi ve güven duygusu kazandırır. B ve C aileyi sadece eşya/ihtiyaç sağlayan bir yer gibi gösterdiği için eksiktir, D ise ailenin önemini yok saydığı için yanlıştır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi ailenin önemli olduğunu **GÖSTERMEZ**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Aile bireyleri birbirine yardım eder."},
+            {"harf": "B", "metin_md": "Aile bireyleri birbirini sever."},
+            {"harf": "C", "metin_md": "Aile bireyleri birbiriyle hiç konuşmaz."},
+            {"harf": "D", "metin_md": "Aile bireyleri zor günde yanımızda olur."}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "C seçeneği doğrudur (soru olumsuz sorulduğu için); aile bireylerinin birbiriyle hiç konuşmaması ailenin önemini göstermez, aksine sevgi ve iletişim eksikliğidir. A, B ve D ailenin önemini gösteren davranışlardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi ailenle yaşadıklarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ailenle birlikte yaptığın güzel bir anını kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Geçen hafta sonu ailemle parka gittik, birlikte oyun oynadık ve çok eğlendik.",
+            "kabul_kriterleri": [
+              "Bir aile üyesinden bahsetmesi",
+              "Birlikte yapılan bir etkinliği anlatması",
+              "Cümlenin anlamlı ve olumlu bir anı içermesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin bir aile üyesiyle birlikte yaşadığı olumlu bir anıyı kendi cümlesiyle anlatması yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sence ailen sana neden önemlidir? Bir cümleyle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ailem bana önemlidir çünkü beni sever ve her zaman yanımda olur.",
+            "kabul_kriterleri": [
+              "Sevgi, güven veya yardım gibi bir değere değinmesi",
+              "Aile ile ilgili anlamlı bir cümle kurması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin sevgi, güven, yardımlaşma gibi bir değere değinerek ailenin kendisi için neden önemli olduğunu kendi cümlesiyle anlatması yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

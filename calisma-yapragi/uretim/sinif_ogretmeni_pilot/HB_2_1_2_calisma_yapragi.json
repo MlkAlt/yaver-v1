@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Güçlü ve Gelişime Açık Olduğumuz Alanlara Karar Verelim",
+    "kazanim": {
+      "kod": "HB.2.1.2",
+      "ad": "Güçlü ve gelişime açık olduğu alanlara karar verebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Güçlü ve gelişime açık olduğu alanlara ilişkin bilgi toplar.",
+        "b": "Güçlü ve gelişime açık olduğu alanlara ilişkin seçenekler oluşturur.",
+        "c": "Güçlü ve gelişime açık olduğu alanlara ilişkin seçenekleri değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr HB.2.1.2 kazanım sayfası (Ben ve Okulum ünitesi, 2. sınıf) ve mufredat.meb.gov.tr Hayat Bilgisi öğretim programı PDF'i incelendi; kazanımın bilim insanı/sporcu/sanatçı örnekleri ve öz değerlendirme formu bağlamı buradan alındı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri okuyup **Doğru** ya da **Yanlış** olduğuna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Güçlü olduğumuz alanları öğrenmek için ailemizle ve öğretmenimizle konuşabiliriz.",
+              "cevap": true,
+              "gerekce_md": "Yakınlarımızla konuşup onların gözlemlerini dinlemek, bilgi toplamanın en kolay yollarından biridir."
+            },
+            {
+              "no": 2,
+              "metin_md": "Hangi alanda iyi olduğumuzu anlamak için hiçbir şey araştırmamıza gerek yoktur.",
+              "cevap": false,
+              "gerekce_md": "Doğru karar verebilmek için önce bilgi toplamamız gerekir; sadece tahmin etmek yeterli değildir."
+            },
+            {
+              "no": 3,
+              "metin_md": "Başarılı olmuş kişilerin hikâyelerini anlatan kitap ya da belgeselleri incelemek, bize fikir verebilir.",
+              "cevap": true,
+              "gerekce_md": "Bilim insanları, sporcular ve sanatçıların hayatlarını incelemek de bilgi toplama yollarından biridir."
+            }
+          ],
+          "cevap": { "ozet": { "1": true, "2": false, "3": true } },
+          "cozum_md": "1) Doğru — yakınlarımızın gözlemleri güvenilir bir bilgi kaynağıdır. 2) Yanlış — karar vermeden önce bilgi toplamak gerekir. 3) Doğru — başarılı kişilerin hikâyelerini incelemek bilgi toplamanın bir yoludur."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ece, hangi alanda güçlü olduğunu merak ediyor. Aşağıdakilerden hangisi Ece'nin **bilgi toplamasına yardımcı olmaz**?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "Ailesiyle konuşup onların fikirlerini alması" },
+            { "harf": "B", "metin_md": "Sevdiği bir sporcunun hayatını anlatan kitabı okuması" },
+            { "harf": "C", "metin_md": "Hiç denemeden \"Ben bunu hiç yapamam.\" deyip vazgeçmesi" },
+            { "harf": "D", "metin_md": "Öğretmeninin kendisiyle ilgili gözlemlerini dinlemesi" }
+          ],
+          "cevap": { "dogru": "C" },
+          "cozum_md": "Doğru cevap C'dir. Denemeden ve araştırmadan vazgeçmek bilgi toplamak değildir; bilgi toplamak için konuşmak, okumak ve gözlem almak gerekir (A, B, D bilgi toplama yollarıdır)."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sol sütundaki kişileri, sağ sütundaki alanlarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            { "no": 1, "metin_md": "Yeni buluşlar yapan, deneyler gerçekleştiren kişi" },
+            { "no": 2, "metin_md": "Sahada antrenman yapıp maç oynayan kişi" },
+            { "no": 3, "metin_md": "Resim, heykel ya da müzik yapan kişi" },
+            { "no": 4, "metin_md": "Kitap ve hikâye yazan kişi" }
+          ],
+          "sag": [
+            { "harf": "A", "metin_md": "Sanat" },
+            { "harf": "B", "metin_md": "Bilim" },
+            { "harf": "C", "metin_md": "Spor" },
+            { "harf": "D", "metin_md": "Edebiyat" },
+            { "harf": "E", "metin_md": "Yemek pişirme" }
+          ],
+          "cevap": { "1": "B", "2": "C", "3": "A", "4": "D" },
+          "cozum_md": "1-B (bilim insanı), 2-C (sporcu), 3-A (sanatçı), 4-D (yazar). E seçeneği bu soruda kullanılmayan bir çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Güçlü ve gelişime açık olduğumuz bir alana karar verirken izlediğimiz adımları **doğru sıraya** koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Seçenekleri değerlendirme", "Bilgi toplama", "Seçenekler oluşturma"],
+          "cevap": { "dogru_sira": [1, 2, 0] },
+          "cozum_md": "Doğru sıra: önce Bilgi toplama, sonra Seçenekler oluşturma, en son Seçenekleri değerlendirme. Bu yüzden 'ogeler' listesindeki indeksler sırasıyla 1, 2, 0 olur."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mert, boş zamanlarında neyi daha çok sevdiğine karar vermeye çalışıyor. Bilgi topladıktan sonra sırada ne yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "Hemen bir alanı seçip diğerlerini hiç düşünmemeli" },
+            { "harf": "B", "metin_md": "Deneyebileceği birkaç farklı seçeneği (spor, resim, müzik gibi) listelemeli" },
+            { "harf": "C", "metin_md": "Arkadaşının seçtiği alanı olduğu gibi kopyalamalı" },
+            { "harf": "D", "metin_md": "Bilgi toplamayı unutup rastgele karar vermeli" }
+          ],
+          "cevap": { "dogru": "B" },
+          "cozum_md": "Doğru cevap B'dir. Bilgi topladıktan sonraki adım, denenebilecek birkaç seçenek oluşturmaktır; tek bir alana hemen karar vermek ya da başkasını kopyalamak seçenek oluşturma değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ayşe hem resim yapmayı hem de basketbol oynamayı çok seviyor. Hangisine daha çok zaman ayıracağına karar veremiyor. Ayşe'ye, güçlü ve gelişime açık olduğu alana karar verirken izleyebileceği adımları anlatan bir öneri yazınız. (İpucu: önce ne yapmalı, sonra ne yapmalı, en son ne yapmalı?)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ayşe önce resim ve basketbolla ilgili bilgi toplayabilir; örneğin bu alanlarda başarılı olan kişileri araştırabilir ya da bir süre her ikisini de deneyebilir. Sonra hangi alanda kendini daha mutlu ve başarılı hissettiğini düşünerek seçenekler oluşturabilir. En son, bu seçenekleri karşılaştırıp hangisinin kendisine daha çok uyduğuna karar vermelidir.",
+            "kabul_kriterleri": [
+              "Bilgi toplama adımını belirtir (araştırma, gözlem ya da deneme)",
+              "Seçenekler oluşturma/karşılaştırma adımını belirtir",
+              "Değerlendirip karar verme adımını belirtir"
+            ]
+          },
+          "cozum_md": "Cevapta üç adım da (bilgi toplama → seçenekler oluşturma → değerlendirme) sırayla yer almalıdır; öğrencinin kendi cümleleriyle ifade etmesi yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Senin güçlü olduğunu düşündüğün bir alan nedir? Bu alanı seçerken hangi bilgileri topladın ve neden bu alanı diğerlerine tercih ettin? Kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: Ben futbol oynamakta güçlü olduğumu düşünüyorum. Ailem ve öğretmenim beni gözlemleyip bana geri bildirim verdi. Ayrıca farklı sporları denedim ve futbolda kendimi daha mutlu hissettim. Bu yüzden diğer seçeneklere göre futbolu tercih ettim.",
+            "kabul_kriterleri": [
+              "Kişisel bir alan/ilgi belirtir",
+              "Bilgi toplama sürecinden bir örnek verir (gözlem, deneme ya da araştırma)",
+              "Bir tercih/karar gerekçesi sunar"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin kendi alanını belirtip bilgi toplama ve değerlendirme sürecini kısaca açıklaması beklenir."
+        }
+      ]
+    }
+  ]
+}

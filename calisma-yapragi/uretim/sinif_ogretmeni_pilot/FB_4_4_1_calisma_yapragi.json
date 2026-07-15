@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Maddelerin Hâl Değişimi",
+    "kazanim": {
+      "kod": "FB.4.4.1",
+      "ad": "Maddelerin hâl değişimine yönelik bilimsel çıkarım yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "4. ÜNİTE: MADDENİN DEĞİŞİMİ",
+      "surec_bilesenleri": {
+        "a": "Maddelerin hâllerine yönelik nitelikleri tanımlar.",
+        "b": "Maddelerin hâl değişimine yönelik verileri kaydeder.",
+        "c": "Maddelerin hâl değişimine yönelik verileri yorumlayarak değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 4. Ünite: Maddenin Değişimi) ünite sayfası incelendi. Programın bu düzeyde yalnızca dört hâl değişimi türünü (erime, donma, buharlaşma, yoğuşma) kapsadığı ve 'ısının maddenin tanecikli yapısı üzerindeki etkisinin verilmediği' doğrulandı; bu yüzden yaprakta tanecik/parçacık modeline hiç değinilmedi, sadece gözlemlenebilir ısı alma/verme ve hâl değişimi ilişkisi işlendi. Kaynaklı örnek olaylar (buzun erimesi, çimlerde çiy/yoğuşma, ıslak çamaşırın kuruması, kışın suyun donması) ünite sayfasındaki örneklerle uyumlu seçildi.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. K1-K6 kontrolleri uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, maddelerin hâlleri ve hâl değişimi kavramlarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kutudaki uygun kavramlarla tamamlayınız.\n\n1) Katı hâldeki bir madde ısı aldığında sıvı hâle geçer. Bu olaya ____(1)____ denir.\n2) Sıvı hâldeki bir madde ısı verdiğinde katı hâle geçer. Bu olaya ____(2)____ denir.\n3) Sıvı hâldeki bir madde ısı aldığında gaz hâline geçer. Bu olaya ____(3)____ denir.\n4) Gaz hâlindeki bir madde ısı verdiğinde sıvı hâle geçer. Bu olaya ____(4)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["erime", "donma", "buharlaşma", "yoğuşma", "ısınma"],
+          "cevap": {"1": "erime", "2": "donma", "3": "buharlaşma", "4": "yoğuşma"},
+          "cozum_md": "1) erime — katı bir madde ısı alarak sıvı hâle geçer. 2) donma — sıvı bir madde ısı vererek katı hâle geçer. 3) buharlaşma — sıvı bir madde ısı alarak gaz hâline geçer. 4) yoğuşma — gaz hâlindeki bir madde ısı vererek sıvı hâle geçer. 'ısınma' bir hâl değişimi türü olmadığı için çeldiricidir; bir maddenin ısınması hâl değiştirmeden sadece sıcaklığının artması anlamına da gelebilir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Katı hâldeki maddelerin belirli ve sabit bir şekli vardır.", "cevap": true, "gerekce_md": "Katı maddeler kendi şekillerini korur, bulundukları kabın şeklini almazlar."},
+            {"no": 2, "metin_md": "Sıvı hâldeki maddeler bulundukları kabın şeklini alır.", "cevap": true, "gerekce_md": "Sıvıların kendine ait sabit bir şekli yoktur; konuldukları kabın şeklini alırlar."},
+            {"no": 3, "metin_md": "Gaz hâlindeki maddelerin belirli bir hacmi vardır ve bulundukları kabı asla tam doldurmazlar.", "cevap": false, "gerekce_md": "Gazların belirli bir hacmi yoktur; bulundukları kabın tamamını doldururlar."},
+            {"no": 4, "metin_md": "Isı alan her madde mutlaka hâl değiştirir.", "cevap": false, "gerekce_md": "Isı alan bir madde bazen sadece ısınır (sıcaklığı artar) ama erime/buharlaşma noktasına ulaşmadığı sürece hâl değiştirmez."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "1 ve 2. ifadeler katı ve sıvıların temel niteliğini doğru tanımlar, bu yüzden Doğru'dur. 3. ifade yanlıştır çünkü gazların belirli bir hacmi yoktur, bulundukları kabı doldururlar. 4. ifade yanlıştır çünkü ısı almak her zaman hâl değişimine yol açmaz; madde önce ısınır, hâl değişimi belirli bir noktada gerçekleşir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, bir deney veya günlük hayat gözlemine ait verileri kaydederek/işleyerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir öğrenci, buzdolabından çıkardığı bir buz küpünü bir tabağa koyup oda sıcaklığında bekletiyor ve belirli aralıklarla gözlemlerini kaydediyor. Aşağıdaki gözlem tablosunu deney sonucuna göre tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Süre", "Buzun Durumu"],
+            "satirlar": [
+              ["0. dakika", "Tamamen katı (buz)"],
+              ["10. dakika", "__?__"],
+              ["25. dakika", "__?__"]
+            ]
+          },
+          "cevap": {"r1c1": "Kısmen erimiş, katı ve sıvı bir arada", "r2c1": "Tamamen erimiş, sıvı hâlde (su)"},
+          "cozum_md": "Buz oda sıcaklığında ısı aldığı için zamanla erir. 10. dakikada erime süreci henüz tamamlanmadığından tabakta hem katı hem sıvı bir arada bulunur. 25. dakikaya gelindiğinde erime tamamlanmış olur ve tabakta yalnızca sıvı hâlde su kalır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir öğrencinin hâl değişimiyle ilgili bir deney yaparken izlediği adımlar karışık sırada verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Elde ettiği verileri yorumlar ve bir sonuca (çıkarıma) varır.",
+            "Deneyi yapar ve maddede olan değişimi gözlemler.",
+            "Gözlemlerini bir tabloya kaydeder.",
+            "Araştıracağı hâl değişimiyle ilgili bir soru belirler."
+          ],
+          "cevap": {"dogru_sira": [3, 1, 2, 0]},
+          "cozum_md": "Doğru sıra: önce araştırılacak soru belirlenir → sonra deney yapılıp gözlem yapılır → gözlemler bir tabloya kaydedilir → son olarak kaydedilen veriler yorumlanarak bir sonuca varılır. Verilen listede bu sıra, indeks numaralarıyla [3, 1, 2, 0] şeklindedir."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sol taraftaki günlük hayat olaylarını, sağ taraftaki en uygun hâl değişimi türüyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Güneş çıkınca bahçedeki ıslak çimlerin kuruması"},
+            {"no": 2, "metin_md": "Kışın musluktan damlayan suyun donması"},
+            {"no": 3, "metin_md": "Buzdolabından çıkan soğuk bir şişenin dış yüzeyinde su damlacıkları oluşması"},
+            {"no": 4, "metin_md": "Dondurucudan çıkarılan dondurulmuş etin oda sıcaklığında yumuşaması"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Buharlaşma"},
+            {"harf": "B", "metin_md": "Donma"},
+            {"harf": "C", "metin_md": "Yoğuşma"},
+            {"harf": "D", "metin_md": "Erime"},
+            {"harf": "E", "metin_md": "Isınma"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Islak çimlerdeki su ısı alarak buharlaşır. 2-B: Sıvı su, soğuk havada ısı vererek donar. 3-C: Havadaki su buharı, soğuk şişe yüzeyiyle temas edip ısı vererek yoğuşur ve damlacık oluşturur. 4-D: Katı hâldeki dondurulmuş et, oda sıcaklığında ısı alarak erir/yumuşar. 'Isınma' (E) tek başına bir hâl değişimi türü olmadığı için kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki senaryoları okuyarak gözlemlerden hareketle bilimsel çıkarım yapınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Kaynayan bir çorba tenceresinin kapağının iç yüzeyinde küçük su damlacıkları oluştuğu gözlemleniyor. Bu olayla ilgili en doğru bilimsel çıkarım aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kapak ısı vererek erimiştir."},
+            {"harf": "B", "metin_md": "Çorbadan yükselen su buharı, soğuk kapakla temas edip ısı vererek yoğuşmuştur."},
+            {"harf": "C", "metin_md": "Kapaktaki su damlacıkları donma sonucu oluşmuştur."},
+            {"harf": "D", "metin_md": "Bu olayın hâl değişimiyle bir ilgisi yoktur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Çorbadan yükselen gaz hâlindeki su buharı, kendisinden daha soğuk olan kapağa değince ısı verir ve sıvı hâle geçer; bu olay yoğuşmadır. A yanlıştır çünkü kapak erimemiştir, sadece su buharı ona temas etmiştir. C yanlıştır çünkü donma su buharının doğrudan katı hâle geçmesi değildir, burada sıvı su damlacığı oluşmuştur. D yanlıştır çünkü olay tam olarak bir hâl değişimidir (yoğuşma)."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Yazın ıslak mayoyla dışarı çıkan bir çocuğun mayosu, bir süre güneşte durunca kuruyor. Bu olayla ilgili aşağıdaki yorumlardan hangisi doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mayodaki su donarak katı hâle geçmiştir."},
+            {"harf": "B", "metin_md": "Mayodaki su, ısı alarak buharlaşmış ve gaz hâline geçmiştir."},
+            {"harf": "C", "metin_md": "Mayodaki su, ısı vererek yoğuşmuştur."},
+            {"harf": "D", "metin_md": "Mayo hiçbir hâl değişimi geçirmemiştir, su sadece ortadan kaybolmuştur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Mayodaki sıvı su, güneşten ısı alarak buharlaşır ve gaz hâlinde havaya karışır; bu yüzden mayo kurumuş görünür. A ve C yanlıştır çünkü olayda ısı alınmaktadır, verilmemektedir. D yanlıştır çünkü su ortadan kaybolmamış, sadece gözle görülmeyen gaz hâline (su buharına) geçmiştir; bu da bir hâl değişimidir."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Buzdolabından çıkarılan bir buz parçası bir tabağa konulup 20 dakika oda sıcaklığında bekletiliyor. 20 dakika sonunda buz parçasının olduğu yerde sadece sıvı su bulunuyor.\n\nBu gözlemden yola çıkarak; (1) maddenin hangi hâl değişimini geçirdiğini ve (2) bu sırada ısı alıp almadığını yazarak yorumlayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Buz, katı hâldeki bir maddedir. Oda sıcaklığında bekletildiğinde çevresinden ısı alır ve bu ısı sayesinde katı hâlden sıvı hâle geçer. Bu olaya erime denir. Yani buz parçası ısı alarak erimiş ve sıvı suya dönüşmüştür.",
+            "kabul_kriterleri": [
+              "Olayın 'erime' olduğunu doğru belirtmiş",
+              "Maddenin ısı aldığını (ısı vermediğini) belirtmiş",
+              "Katı hâlden sıvı hâle geçişi açıkça ifade etmiş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın temel becerisi olan 'gözlemden hareketle bilimsel çıkarım yapma'yı ölçer. Katı bir maddenin (buz) belirli bir sürede tamamen sıvıya (su) dönüşmesi, maddenin ısı aldığını ve erime olayının gerçekleştiğini gösterir. Tek doğru cümle beklenmez; kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

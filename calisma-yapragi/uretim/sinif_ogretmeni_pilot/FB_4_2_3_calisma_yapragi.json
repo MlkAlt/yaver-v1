@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Besinlerin İşlevleri İle İlgili Hipotez Oluşturuyoruz",
+    "kazanim": {
+      "kod": "FB.4.2.3",
+      "ad": "Besinlerin işlevleri ile ilgili hipotez oluşturabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "2. ÜNİTE: SAĞLIKLI BESLENİYORUM",
+      "surec_bilesenleri": {
+        "a": "Besinlerin işlevleri ile ilgili problemi tanımlar.",
+        "b": "Besinlerin işlevleri ve vücudumuzdaki görevleri arasındaki neden-sonuç ilişkilerini belirler.",
+        "c": "Besinlerin içerikleri ile ilgili verilen değişkenleri belirler.",
+        "ç": "Besinlerin işlevleri ile ilgili değişkenleri kontrol eder.",
+        "d": "Besinlerin işlevleri ve sağlıklı yaşam arasındaki ilişkiye yönelik önerme sunar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 2. Ünite: Sağlıklı Besleniyorum) ünite sayfası incelendi; kazanımın dört süreç bileşeni (problem tanımlama, neden-sonuç ilişkisi belirleme, değişken belirleme/kontrol etme, önerme sunma), önerilen 'Her gün yumurta yiyen biri sağlıklı beslenmiş olur mu?' senaryosu ve kanıt kartları/menü hazırlama etkinlik yaklaşımı doğrulandı. Temel besin grupları (karbonhidrat, protein, yağ, vitamin, mineral, su) ve görevleri ile ilgili terminoloji ek web taramasıyla (OGM Materyal, ders kitabı özetleri) çapraz kontrol edildi; ünitede besin gruplarının kimyasal yapısına girilmediği, işlev-sağlık ilişkisine odaklanıldığı görüldü ve sorular bu çerçevede tutuldu.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. K1-K6 kontrolleri uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, bilimsel araştırma sürecinin temel kavramlarını (problem, hipotez) düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bilim insanları bir konuyu araştırırken önce merak ettikleri durumu bir araştırma ____(1)____ hâline getirirler. Sonra bu soruya olası bir cevap olarak, deneyerek test edebilecekleri bir ____(2)____ (önerme) kurarlar.",
+          "gorsel": null,
+          "kelime_havuzu": ["problemi/sorusu", "hipotez", "sonuç", "gözlem"],
+          "cevap": {"1": "problemi/sorusu", "2": "hipotez"},
+          "cozum_md": "1) problemi/sorusu — merak edilen durum, araştırılabilir bir soruya (probleme) dönüştürülür. 2) hipotez — probleme verilen, deneyle test edilebilir olası cevaba hipotez (önerme) denir. 'sonuç' araştırmanın bitiminde elde edilir, 'gözlem' ise araştırmanın başında fark edilen durumdur; bu yüzden çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Öğretmen sınıfa şu durumu anlatıyor: “Merve her sabah kahvaltıda sadece reçelli ekmek yiyor. Kardeşi Kaan ise kahvaltıda yumurta, peynir, zeytin ve ekmek yiyor.”\n\nBu duruma bakarak besinlerin işlevleriyle ilgili aşağıdakilerden hangisi uygun bir araştırma problemi (sorusu) olabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Merve kahvaltısını sever mi, sevmez mi?"},
+            {"harf": "B", "metin_md": "Farklı içerikte kahvaltı yapmak, çocukların günlük enerji ve sağlık düzeyini nasıl etkiler?"},
+            {"harf": "C", "metin_md": "Kaan'ın kahvaltısı Merve'ninkinden daha lezzetli midir?"},
+            {"harf": "D", "metin_md": "Reçel hangi meyveden yapılır?"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "B seçeneği, besinlerin işlevleri ile sağlık/enerji arasındaki ilişkiyi gözlemlenebilir ve test edilebilir şekilde sorar; bu yüzden uygun bir araştırma problemidir. A ve C kişisel beğeniyle ilgilidir, D ise besinlerin işlevleriyle değil kaynağıyla ilgilidir; bilimsel bir araştırma problemi değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, besinlerin vücudumuzdaki görevlerini ve araştırmadaki değişkenleri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sol taraftaki besin içeriklerini, sağ taraftaki vücudumuzdaki görevleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Karbonhidratlar"},
+            {"no": 2, "metin_md": "Proteinler"},
+            {"no": 3, "metin_md": "Yağlar"},
+            {"no": 4, "metin_md": "Mineraller (örn. kalsiyum)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Vücuda hızlı ve kolay kullanılabilir enerji sağlar"},
+            {"harf": "B", "metin_md": "Hücrelerin büyümesi, gelişmesi ve onarımı için yapı taşı görevi görür"},
+            {"harf": "C", "metin_md": "Uzun süreli enerji depolar ve vücut ısısının korunmasına yardımcı olur"},
+            {"harf": "D", "metin_md": "Kemik ve diş yapısının güçlenmesine katkı sağlar"},
+            {"harf": "E", "metin_md": "Vücuttaki suyun dengede tutulmasını sağlar"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Karbonhidratlar vücuda hızlı enerji sağlar. 2-B: Proteinler büyüme, gelişme ve hücre onarımında yapı taşıdır. 3-C: Yağlar uzun süreli enerji deposu olur ve vücut ısısını korumaya yardımcı olur. 4-D: Mineraller (kalsiyum gibi) kemik ve diş yapısını güçlendirir. E seçeneği su ile ilgilidir ve bu dört örnekten hiçbirine tam uymadığı için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Yeterli protein almayan bir çocuğun büyümesi ve gelişmesi olumsuz etkilenebilir.", "cevap": true, "gerekce_md": "Proteinler hücrelerin büyümesi ve onarımı için gereklidir; yetersiz alım büyümeyi ve gelişmeyi olumsuz etkiler."},
+            {"no": 2, "metin_md": "Karbonhidrat tüketmek, kemiklerin ve dişlerin güçlenmesini doğrudan sağlar.", "cevap": false, "gerekce_md": "Kemik ve diş gelişimini doğrudan sağlayan besin öğesi kalsiyum gibi minerallerdir; karbonhidratların temel görevi enerji sağlamaktır."},
+            {"no": 3, "metin_md": "Vitaminler vücuda doğrudan enerji vermez ama vücut işlevlerinin düzenli çalışmasına yardımcı olur.", "cevap": true, "gerekce_md": "Vitaminler enerji kaynağı değildir; bağışıklık ve vücut işlevlerinin düzenli çalışması gibi görevleri destekler."},
+            {"no": 4, "metin_md": "Yağ tüketmek vücut için tamamen gereksizdir, hiç tüketilmemelidir.", "cevap": false, "gerekce_md": "Yağlar da uzun süreli enerji deposu ve vücut ısısının korunması için gereklidir; sorun aşırı tüketimdir, tamamen kaçınmak değil."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Her ifade, besinlerin işlevleri ile vücuttaki görevleri arasındaki neden-sonuç ilişkisi karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ali, “Her sabah yumurta yiyen öğrenciler ile yumurta yemeyen öğrencilerin gün içindeki enerji düzeyleri farklı mıdır?” sorusunu araştırıyor. Aşağıdaki tabloda boş bırakılan yerleri, bu araştırmaya uygun şekilde doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Değişken Türü", "Bu Araştırmadaki Örneği"],
+            "satirlar": [
+              ["Bağımsız değişken (araştırmacının değiştirdiği/karşılaştırdığı durum)", "__?__"],
+              ["Bağımlı değişken (sonuçta ölçülen/gözlenen durum)", "__?__"],
+              ["__?__", "Öğrencilerin yaşı, uyku süresi, diğer öğünlerdeki besinler gibi durumların her iki grupta da benzer tutulması"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Öğrencilerin yumurta yeme durumu (yiyen / yemeyen)",
+            "r1c1": "Öğrencilerin gün içindeki enerji düzeyi",
+            "r2c0": "Kontrol edilmesi gereken değişkenler (sabit tutulanlar)"
+          },
+          "cozum_md": "Bağımsız değişken, araştırmacının karşılaştırmak için değiştirdiği durumdur: burada yumurta yeme durumu. Bağımlı değişken, bu değişime bağlı olarak ölçülen sonuçtur: burada enerji düzeyi. Üçüncü satırda örneği verilen (yaş, uyku süresi, diğer besinler) durumların ortak adı 'kontrol edilmesi gereken değişkenler'dir; bunlar sabit tutulmazsa sonucu etkileyip araştırmayı yanıltabilir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki senaryoları okuyarak besinlerin işlevleriyle ilgili değişkenleri kontrol etmeyi ve önerme (hipotez) kurmayı uygulayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Deniz, “Her gün kahvaltıda yumurta yiyen çocuklar, yumurta yemeyenlere göre daha güçlü/enerjik olur mu?” sorusunu araştırmak istiyor.\n\nBu araştırmayı sağlıklı bir şekilde yapabilmesi için, karşılaştırdığı çocuklar arasında hangi değişkenleri sabit tutması (kontrol etmesi) gerekir? En az iki örnek ver ve bu değişkenlerin neden kontrol edilmesi gerektiğini açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Deniz, karşılaştırdığı çocukların yaşını, günlük fiziksel aktivite (spor) düzeyini, diğer öğünlerde yedikleri besinleri ve uyku sürelerini birbirine yakın/aynı tutmalıdır. Çünkü bu etkenler de çocukların enerji ve güç düzeyini etkileyebilir; bunlar kontrol edilmezse sonucun sadece yumurta yemekten mi yoksa başka bir etkenden mi kaynaklandığı anlaşılamaz.",
+            "kabul_kriterleri": [
+              "En az iki kontrol değişkeni örneği vermiş (yaş, fiziksel aktivite düzeyi, diğer öğünler/besinler, uyku süresi vb.)",
+              "Bu değişkenlerin sonucu etkileyebileceği için sabit tutulması gerektiğini açıklamış"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir uygulama sorusudur. Beklenen, öğrencinin karşılaştırmayı bozabilecek (yumurta dışındaki) etkenleri fark edip bunları kontrol değişkeni olarak belirtmesi ve neden sabit tutulmaları gerektiğini (sonucu yumurtadan bağımsız olarak etkileyebilecekleri için) gerekçelendirmesidir. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Aşağıdaki senaryoyu oku:\n\n“Yumurta sağlıklı bir besin midir? Her öğün ve her gün sadece yumurta yiyen biri sağlıklı beslenmiş olur mu?”\n\nBesinlerin işlevleri ile sağlıklı yaşam arasındaki ilişkiyi kullanarak bu duruma yönelik, deneyle test edilebilecek bir hipotez (önerme) yaz. (İpucu: “Eğer ... ise ...” yapısını kullanabilirsin.)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Eğer bir kişi sadece yumurta yiyip meyve, sebze ve tahıl gibi diğer besin gruplarını tüketmezse, o kişi dengeli beslenmemiş olur; çünkü vücudun ihtiyaç duyduğu bazı vitaminleri ve karbonhidratları yeterince alamaz ve bu durum sağlığını olumsuz etkileyebilir.",
+            "kabul_kriterleri": [
+              "Test edilebilir, neden-sonuç ilişkisi içeren bir hipotez/önerme cümlesi kurmuş (tercihen 'eğer... ise...' yapısında)",
+              "Besinlerin işlevleri ile sağlıklı yaşam arasında açık bir ilişki kurmuş",
+              "Dengeli/çeşitli beslenmenin gerekliliğine değinmiş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın son basamağı olan 'önerme sunma'yı ölçer. Öğrenci, önceki sorularda öğrendiği besin-işlev ilişkilerini kullanarak, tek bir besinle beslenmenin dengeli olmayacağını test edilebilir bir hipotez cümlesiyle ifade etmelidir. Tek doğru cümle yoktur, kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

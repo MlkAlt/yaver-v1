@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Yaşam Alanlarını Araştırıyorum</title><style>
+:root { --koyu: #334155; --acik: #eaeef3; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Yaşam Alanlarını Araştırıyorum</h1><div class='chips'><span class='chip dolu'>FB.3.8.3</span><span class='chip'>Fen Bilimleri • 3. Sınıf</span><span class='chip'>8. Üni̇te: Canlilarin Yaşam Alanlarina Yolculuk</span><span class='chip'>30 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Yaşam alanlarının korunması için yapılacakları sorgulayabilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları, bilimsel araştırma sürecini düşünerek cevaplayınız.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Ayşe, evlerinin yakınındaki gölette bu yıl kurbağa sesi duymadığını fark ediyor ve bu durumu merak ediyor. Ayşe&#x27;nin bilimsel bir araştırmaya başlarken belirlediği <b>merak konusu</b> aşağıdakilerden hangisidir?</div></div><div class='sec tek'><div><b>A)</b> Gölette artık kurbağa sesi duyulmuyor, neden olmuş olabilir?</div><div><b>B)</b> Kurbağalar çok gürültücü hayvanlardır.</div><div><b>C)</b> Ayşe gölete gitmeyi çok sever.</div><div><b>D)</b> Gölün suyu yeşil renklidir.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki cümlelerin, <b>yaşam alanlarının korunmasıyla ilgili iyi bir araştırma sorusu</b> olup olmadığını değerlendiriniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>&#x27;Kurbağalar neden azaldı?&#x27; araştırılabilir bir sorudur.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>&#x27;Kurbağalar sevimli midir?&#x27; bilimsel bir araştırma sorusudur.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>&#x27;Gölette hangi bitkiler var, bunlar kurbağalara nasıl yardımcı olur?&#x27; araştırılabilir bir sorudur.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>&#x27;Kurbağa mı yoksa kaplumbağa mı daha hızlı koşar?&#x27; yaşam alanının korunmasıyla ilgili bir araştırma sorusudur.</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları, bilgi toplama ve bilgiyi değerlendirme adımlarını düşünerek cevaplayınız.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">Zeynep, bahçedeki kelebek sayısının geçen yıla göre azaldığını fark etti. Aşağıdaki araştırma sorusunu tamamlayınız: &#x27;<span class='bosluk'></span> kelebek sayısı azaldı? Bu azalma bahçedeki çiçekleri <span class='bosluk'></span> etkiler? Kelebekleri korumak için <span class='bosluk'></span> yapılabilir?&#x27;</div></div><div class='havuz'><span>Neden</span><span>nasıl</span><span>neler</span><span>hangi renk</span><span>kaç kilo</span></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Bir araştırma yaparken bilgi toplamanın farklı yolları vardır. Aşağıdaki tabloyu, verilen örneklere veya yollara uygun şekilde doldurunuz.</div></div><table><tr><th>Bilgi Toplama Yolu</th><th>Örnek</th></tr><tr><td>Gözlem yapma</td><td></td></tr><tr><td></td><td>Bir öğretmenle veya uzmanla konuşup sormak</td></tr><tr><td>Kitap veya güvenilir bir internet sitesinden okuma</td><td></td></tr></table></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">Can, gölette kurbağa sayısının neden azaldığını araştırıyor. İki farklı bilgiye ulaşıyor:<br><br>1) Bir çevre bilimcinin yazdığı kitapta, göldeki kirliliğin kurbağaları etkilediği yazıyor.<br>2) Bir arkadaşı, &#x27;komşum öyle duymuş&#x27; diyerek kurbağaların büyücüler tarafından götürüldüğünü söylüyor.<br><br>Can&#x27;ın araştırmasında hangi bilgiye güvenmesi daha doğru olur?</div></div><div class='sec tek'><div><b>A)</b> Arkadaşının duyduğu söylenti, çünkü arkadaşı ona yakın bir kişidir.</div><div><b>B)</b> Çevre bilimcinin kitabındaki bilgi, çünkü uzman bir kaynaktan ve gözleme dayalıdır.</div><div><b>C)</b> İkisi de aynı derecede güvenilirdir.</div><div><b>D)</b> Hiçbiri; Can kendi hayal gücünü kullanmalıdır.</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları, topladığınız bilgileri değerlendirerek ve çıkarım yaparak cevaplayınız.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Bir araştırmacı, &#x27;ormanlardaki ağaç sayısı azalırsa kuşlar da azalır&#x27; diyor ve bunu 10 yıllık gözlem verileriyle destekliyor. Bir çizgi film karakteri ise &#x27;ormanı hayvanlar sihirle korur, insanların yapacağı bir şey yok&#x27; diyor. Bu iki bilgiden hangisinin daha güvenilir olduğunu, nedenini de belirterek açıklayınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">20p</span><div class="smetin">Sınıfça 4 hafta boyunca okul bahçesindeki gölette gözlem yaptınız ve gördüğünüz kurbağa sayısını kaydettiniz:<br><br><table><tr><th>Hafta</th><th>Görülen Kurbağa Sayısı</th></tr><tr><td>1. Hafta</td><td>12</td></tr><tr><td>2. Hafta</td><td>9</td></tr><tr><td>3. Hafta</td><td>5</td></tr><tr><td>4. Hafta</td><td>2</td></tr></table><br>Bu verilere bakarak gölette neler olabileceğine dair bir <b>çıkarım</b> yazınız. Çıkarımınızı verilerle destekleyiniz ve yaşam alanını korumak için önerebileceğiniz bir çözüm ekleyiniz.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>FB.3.8.3</span><span class='chip'>Yaşam Alanlarını Araştırıyorum</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> <b>A</b><div class='ak-cozum'>Merak konusu, araştırılmak istenen ve cevabı henüz bilinmeyen bir durumdur. <b>A</b> seçeneği &#x27;neden olmuş olabilir?&#x27; sorusuyla araştırılabilir bir merak konusu tanımlar; <b>B</b> bir görüş, <b>C</b> kişisel bir tercih, <b>D</b> ise basit bir gözlem cümlesidir, araştırılacak bir merak konusu değildir.</div></div><div class='ak-soru'><b>2.</b> 1-D, 2-Y, 3-D, 4-Y<div class='ak-cozum'>İyi bir araştırma sorusu; kişisel görüş sormaz, konuyla ilgilidir ve gözlem/araştırmayla cevaplanabilir. 1 ve 3 bu ölçütlere uyar; 2 kişisel görüş sorusu, 4 ise konu dışıdır.</div></div><div class='ak-soru'><b>3.</b> (1) Neden, (2) nasıl, (3) neler<div class='ak-cozum'>İyi bir araştırma sorusu &#x27;neden, nasıl, neler&#x27; gibi soru kelimeleriyle kurulur; bu kelimeler gözlem ve araştırmayla cevaplanabilecek sorular oluşturmayı sağlar. &#x27;Hangi renk&#x27; ve &#x27;kaç kilo&#x27; bu bağlamla ilgisiz çeldiricilerdir.</div></div><div class='ak-soru'><b>4.</b> {&quot;r0c1&quot;: &quot;Gölete gidip kurbağaları ve suyu dikkatle izlemek&quot;, &quot;r1c0&quot;: &quot;Görüşme yapma (bir uzmana sormak)&quot;, &quot;r2c1&quot;: &quot;Yaşam alanları hakkında yazılmış bir kitaptan veya EBA gibi güvenilir bir siteden bilgi okumak&quot;}<div class='ak-cozum'>Bilgi toplamanın başlıca yolları: gözlem yapma (doğrudan izleme), görüşme yapma (uzmana/bilen kişiye sorma) ve okuma (kitap, güvenilir internet kaynağı). Her yol farklı bir örnekle eşleşir.</div></div><div class='ak-soru'><b>5.</b> <b>B</b><div class='ak-cozum'>Bilginin doğruluğunu değerlendirirken kaynağın uzmanlığına ve gözlem/kanıta dayanıp dayanmadığına bakılır. Söylenti (&#x27;öyle duymuş&#x27;) kanıta dayanmadığı için güvenilir değildir; uzman bir kaynağın gözleme dayalı bilgisi daha güvenilirdir.</div></div><div class='ak-soru'><b>6.</b> Araştırmacının bilgisi daha güvenilirdir çünkü 10 yıllık gerçek gözlem verilerine dayanmaktadır ve konusunda uzman biri tarafından söylenmiştir. Çizgi film karakterinin sözü hayal ürünüdür, gerçek bir kanıta dayanmaz ve yaşam alanlarını korumak için insanların sorumluluğunu göz ardı eder.<div class='ak-cozum'>Güvenilir bilgi; uzman kaynaklardan gelir ve gözlem/kanıta dayanır. Araştırmacının 10 yıllık gözlem verisi bu ölçütü karşılarken, çizgi film karakterinin sözü hayal ürünüdür ve kanıta dayanmaz.</div></div><div class='ak-soru'><b>7.</b> Veriler, haftadan haftaya kurbağa sayısının sürekli azaldığını gösteriyor (12&#x27;den 2&#x27;ye düştü). Bu durum, gölette kurbağaların yaşamasını zorlaştıran bir sorun olduğunu düşündürüyor; su kirliliği, kuraklık ya da yaşam alanının bozulması bu azalmaya neden olmuş olabilir. Bunu önlemek için gölün çevresine çöp atılması engellenebilir, göl düzenli olarak kontrol edilebilir ve çevredeki bitki örtüsü korunabilir.<div class='ak-cozum'>Tablodaki sayılar sürekli azalıyor (12 → 9 → 5 → 2); bu düzenli azalış, gölde kurbağaların yaşamasını zorlaştıran bir değişiklik olduğuna işaret eder. Çıkarım, bu veri örüntüsüne dayanmalı ve bir koruma önerisiyle desteklenmelidir.</div></div></div></body></html>

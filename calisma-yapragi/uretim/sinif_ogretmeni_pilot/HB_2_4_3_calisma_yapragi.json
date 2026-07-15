@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Atatürk'ün Öğrencilik Yılları",
+    "kazanim": {
+      "kod": "HB.2.4.3",
+      "ad": "Mustafa Kemal Atatürk'ün öğrencilik yıllarına ait anılarını yorumlayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Mustafa Kemal Atatürk'ün öğrencilik yıllarına ilişkin anıları inceler.",
+        "b": "Mustafa Kemal Atatürk'ün öğrencilik yıllarına ilişkin anıları ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "meb.gov.tr resmi 'Atatürk'ün Hayatı' sayfası (Öğrenim Yılları, Çocukluk Yılları) ve tymm.meb.gov.tr Hayat Bilgisi 2. sınıf '4. Öğrenme Alanı: Yaşadığım Yer ve Ülkem' ünite sayfası incelendi. Doğrulanan olgular: Mustafa Kemal, Şemsi Efendi Mektebi'nde (ailesi arasında mahalle mektebi/modern okul tartışması sonrası) okumaya başlamıştır; Selanik Askeri Rüştiyesi'ndeki matematik öğretmeni Yüzbaşı Mustafa Efendi, sınıfta birden fazla Mustafa olduğu için öğrencisine 'Kemal' adını eklemiştir; bu ad 'olgun ve eksiksiz' anlamına gelir. Yaprak bu iki doğrulanmış anı üzerine kurulmuştur; okul kronolojisinde sadeleştirme yapılmış (Selanik Mülkiye Rüştiyesi gibi ara adımlar 2. sınıf düzeyinde karmaşıklık yaratmasın diye metne dahil edilmemiştir).",
+      "notlar": [
+        "2. sınıf düzeyi gözetilerek metin kısa ve basit cümlelerle yazılmıştır; olayların tam tarihsel sıralaması (örn. Selanik Mülkiye Rüştiyesi ara dönemi) sadeleştirilmiş, sadece kazanımla doğrudan ilgili iki anı (okul seçimi anlaşmazlığı ve 'Kemal' adının kökeni) işlenmiştir.",
+        "Kazanım fiili 'yorumlayabilme' olduğu için Uygulayalım bölümünde iki açık uçlu soru ile öğrencinin olayı kendi cümleleriyle anlatması ve yorumlaması hedeflenmiştir; sadece ezber/hatırlama sorusuna yer verilmemiştir."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki metni okuyunuz. Sonra soruları cevaplayınız.\n\n**Mustafa Kemal'in Okul Yılları**\n\nMustafa Kemal küçükken Selanik'te yaşıyordu. Annesi onu mahalle mektebine göndermek istedi. Babası ise yeni açılan Şemsi Efendi Mektebi'ne gitmesini istedi. Sonunda Mustafa Kemal, Şemsi Efendi Mektebi'nde okumaya başladı. Bu okulda öğretmenler dersleri farklı ve eğlenceli anlatıyordu.\n\nDaha sonra Mustafa Kemal askeri okula gitti. Buradaki matematik öğretmeninin adı da Mustafa'ydı. Öğretmen, öğrencisini diğer Mustafa'lardan ayırmak için ona \"Kemal\" adını verdi. Bu ad \"olgun ve eksiksiz\" anlamına gelir. Böylece Mustafa Kemal adını aldı.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Metne göre aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Mustafa Kemal'in annesi, onu mahalle mektebine göndermek istemiştir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Mustafa Kemal, Şemsi Efendi Mektebi'nde hiç okumamıştır.", "cevap": false, "gerekce_md": "Metne göre Mustafa Kemal, Şemsi Efendi Mektebi'nde okumaya başlamıştır."},
+            {"no": 3, "metin_md": "Askeri okuldaki matematik öğretmeninin adı da Mustafa'dır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "\"Kemal\" adı \"tembel\" anlamına gelir.", "cevap": false, "gerekce_md": "Metne göre \"Kemal\" adı \"olgun ve eksiksiz\" anlamına gelir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — metinde annesinin mahalle mektebine göndermek istediği açıkça yazar. 2) Yanlış — Mustafa Kemal Şemsi Efendi Mektebi'nde okumaya başlamıştır. 3) Doğru — metinde askeri okuldaki matematik öğretmeninin adının da Mustafa olduğu belirtilir. 4) Yanlış — \"Kemal\" adı \"olgun ve eksiksiz\" anlamına gelir, \"tembel\" değil."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Mustafa Kemal'in babası, onun ____(1)____ Mektebi'ne gitmesini istemiştir. Askeri okuldaki matematik öğretmeni ona ____(2)____ adını vermiştir.",
+          "gorsel": null,
+          "kelime_havuzu": ["Şemsi Efendi", "Kemal", "Harp", "Manastır"],
+          "cevap": {"1": "Şemsi Efendi", "2": "Kemal"},
+          "cozum_md": "Metinde babasının Şemsi Efendi Mektebi'ni istediği ve matematik öğretmeninin öğrencisine \"Kemal\" adını verdiği anlatılır. \"Harp\" ve \"Manastır\" metinde geçmeyen çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları metni düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Metne göre öğretmeni, Mustafa Kemal'e neden \"Kemal\" adını vermiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sınıfta başka öğrenci olmadığı için"},
+            {"harf": "B", "metin_md": "Onu diğer Mustafa'lardan ayırmak için"},
+            {"harf": "C", "metin_md": "Kendi adını beğenmediği için"},
+            {"harf": "D", "metin_md": "Ailesi bu adı istediği için"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Metinde matematik öğretmeninin, sınıftaki diğer Mustafa'lardan ayırt etmek için öğrencisine \"Kemal\" adını verdiği anlatılmaktadır."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakileri anlamlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Şemsi Efendi Mektebi"},
+            {"no": 2, "metin_md": "Matematik öğretmeni"},
+            {"no": 3, "metin_md": "\"Kemal\" kelimesi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Ona \"Kemal\" adını vermiştir."},
+            {"harf": "B", "metin_md": "Mustafa Kemal'in okumaya başladığı okuldur."},
+            {"harf": "C", "metin_md": "\"Olgun ve eksiksiz\" anlamına gelir."},
+            {"harf": "D", "metin_md": "Mustafa Kemal'in yüzbaşı olduğu okuldur."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "Şemsi Efendi Mektebi → B, Mustafa Kemal'in okumaya başladığı okuldur. Matematik öğretmeni → A, ona \"Kemal\" adını vermiştir. \"Kemal\" kelimesi → C, \"olgun ve eksiksiz\" anlamına gelir. \"D\" seçeneği metinde geçmeyen bir çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları okuduğun metni düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki olayları, Mustafa Kemal'in yaşadığı sıraya göre diziniz.",
+          "gorsel": null,
+          "ogeler": [
+            "Askeri okulda matematik öğretmeni ona \"Kemal\" adını vermiştir.",
+            "Annesi ile babası, gideceği okul konusunda anlaşamamıştır.",
+            "Şemsi Efendi Mektebi'nde okumaya başlamıştır."
+          ],
+          "cevap": {"dogru_sira": [1, 2, 0]},
+          "cozum_md": "Önce ailesi okul konusunda anlaşamamış, sonra Şemsi Efendi Mektebi'nde okumaya başlamış, daha sonra askeri okulda matematik öğretmeni ona \"Kemal\" adını vermiştir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Mustafa Kemal'in öğrencilik yıllarında yaşadığı bir olayı kendi cümlelerinle anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Mustafa Kemal küçükken annesi ile babası, onun hangi okula gideceği konusunda anlaşamamıştır. Sonunda babasının istediği gibi Şemsi Efendi Mektebi'ne gitmiş ve orada okumaya başlamıştır.",
+            "kabul_kriterleri": [
+              "Metindeki bir olayı doğru şekilde anlatması",
+              "Kendi cümleleriyle yazması",
+              "En az bir ayrıntı (kişi, okul veya olay adı) içermesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin metinde geçen bir olayı (okul anlaşmazlığı veya \"Kemal\" adının verilişi) kendi cümleleriyle doğru şekilde anlatması yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sence öğretmeninin ona \"Kemal\" adını vermesi, Mustafa Kemal'i nasıl hissettirmiş olabilir? Düşünceni yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bence Mustafa Kemal bu adı aldığı için mutlu ve gururlu hissetmiş olabilir çünkü \"Kemal\" adı \"olgun ve eksiksiz\" gibi güzel bir anlam taşımaktadır.",
+            "kabul_kriterleri": [
+              "Kendi görüşünü mantıklı bir gerekçeyle ifade etmesi",
+              "Metinle ilgili olması",
+              "Bir duygu bildiren kelime kullanması"
+            ]
+          },
+          "cozum_md": "Serbest yorum sorusudur; kesin tek doğru cevap yoktur. Öğrencinin \"Kemal\" adının anlamıyla ilişkilendirerek mantıklı bir duygu/düşünce ifade etmesi yeterlidir."
+        }
+      ]
+    }
+  ]
+}

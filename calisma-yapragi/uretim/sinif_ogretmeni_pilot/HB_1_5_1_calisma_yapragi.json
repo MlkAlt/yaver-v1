@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Doğadaki Varlıkları Tanıyalım",
+    "kazanim": {
+      "kod": "HB.1.5.1",
+      "ad": "Yakın çevresinde bulunan doğadaki varlıkları gözlemleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Yakın çevresinde bulunan doğadaki varlıklara ilişkin veri toplar.",
+        "b": "Yakın çevresinde bulunan doğadaki varlıklara ilişkin topladığı verileri sınıflandırır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr üzerindeki 1. sınıf Hayat Bilgisi 5. Öğrenme Alanı (Doğa ve Çevre) sayfası incelendi. Kazanımın veri toplama (gözlem, not alma, resim çizme, fotoğraf çekme; okul bahçesi/yakın çevre gözlemi) ve sınıflandırma (canlı/cansız varlık ayrımı) bileşenleri doğrulandı; örnek doğa varlığı listesi olarak bitki, hayvan, taş, toprak, su terimleri kullanıldı.",
+      "notlar": ["Bağımsız crosscheck (subagent olmadan, manuel) yapıldı: tüm sorular anahtara bakmadan çözüldü, uyuşmazlık yok. Tek düşük önemli bulgu — 's1' ve s2/ifade-1 metninde '1. sınıf için biraz soyut olan 'kendiliğinden' kelimesi sadeleştirildi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi doğada bulunan bir varlıktır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Silgi"},
+            {"harf": "B", "metin_md": "Ağaç"},
+            {"harf": "C", "metin_md": "Bilgisayar"},
+            {"harf": "D", "metin_md": "Sıra"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ağaç doğada yetişir. Silgi, bilgisayar ve sıra ise insanların yaptığı eşyalardır. Doğru cevap B'dir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz, doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Taş, doğada bulunan bir varlıktır.", "cevap": true, "gerekce_md": "Taş, insan yapmaz; doğada kendisi bulunur."},
+            {"no": 2, "metin_md": "Kalem, doğada bulunan bir varlıktır.", "cevap": false, "gerekce_md": "Kalem, insanların yaptığı bir eşyadır; doğal varlık değildir."},
+            {"no": 3, "metin_md": "Kedi, doğada bulunan canlı bir varlıktır.", "cevap": true, "gerekce_md": "Kedi, kendiliğinden yaşayan ve hareket eden bir canlıdır."},
+            {"no": 4, "metin_md": "Sıra, doğada bulunan bir varlıktır.", "cevap": false, "gerekce_md": "Sıra, okulda kullandığımız insan yapımı bir eşyadır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Taş doğada kendiliğinden bulunur → Doğru. 2. Kalem insan yapımıdır → Yanlış. 3. Kedi kendiliğinden yaşayan bir canlıdır → Doğru. 4. Sıra insan yapımıdır → Yanlış."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki etkinlikleri tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ağaç, çiçek ve kedi gibi büyüyen ve hareket eden varlıklara ____(1)____ varlık denir. Taş, toprak ve su gibi kendiliğinden büyümeyen varlıklara ____(2)____ varlık denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["canlı", "cansız", "büyük"],
+          "cevap": {"1": "canlı", "2": "cansız"},
+          "cozum_md": "Büyüyen, hareket eden, yiyip içen varlıklara canlı varlık denir (ağaç, çiçek, kedi). Kendiliğinden büyümeyen, hareket etmeyen varlıklara cansız varlık denir (taş, toprak, su)."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 25,
+          "govde_md": "Aşağıdaki tabloda verilen doğa varlıklarının canlı mı, cansız mı olduğunu yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Varlık", "Canlı mı, Cansız mı?"],
+            "satirlar": [
+              ["Kedi", "__?__"],
+              ["Taş", "__?__"],
+              ["Çiçek", "__?__"],
+              ["Su", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Canlı", "r1c1": "Cansız", "r2c1": "Canlı", "r3c1": "Cansız"},
+          "cozum_md": "Kedi ve çiçek büyüyüp hareket ettiği için canlıdır. Taş ve su kendiliğinden büyümediği, hareket etmediği için cansızdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki etkinlikleri yapınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Evinin ya da okulunun çevresine bak. Gördüğün 3 doğa varlığını yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ağaç, taş, kedi",
+            "kabul_kriterleri": ["En az 3 doğa varlığının adını yazması", "Yazdığı varlıkların insan yapımı eşya değil, gerçek doğa varlığı olması (ağaç, taş, kedi, kuş, çiçek, toprak, su gibi)"]
+          },
+          "cozum_md": "Öğrenci, çevresini gözlemleyerek gördüğü doğa varlıklarını (ağaç, taş, kedi, kuş, çiçek, toprak, su gibi) yazmalıdır. Araba, top gibi insan yapımı eşyalar doğru cevap sayılmaz."
+        },
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Doğadaki varlıkları incelerken sırasıyla ne yaparız? Doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Not al", "Sınıflandır", "Gözlemle", "Arkadaşlarınla paylaş"],
+          "cevap": {"dogru_sira": [2, 0, 1, 3]},
+          "cozum_md": "Önce çevremizdeki varlıkları gözlemleriz. Sonra gördüklerimizi not alırız. Ardından bu varlıkları canlı/cansız olarak sınıflandırırız. Son olarak öğrendiklerimizi arkadaşlarımızla paylaşırız. Doğru sıra: Gözlemle, Not al, Sınıflandır, Arkadaşlarınla paylaş."
+        }
+      ]
+    }
+  ]
+}

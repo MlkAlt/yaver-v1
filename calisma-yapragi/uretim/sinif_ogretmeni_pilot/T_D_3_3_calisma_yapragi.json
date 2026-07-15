@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kumanya — Dinlediğimizi/İzlediğimizi Çözümleyelim",
+    "kazanim": {
+      "kod": "T.D.3.3",
+      "ad": "Dinlediklerini/izlediklerini çözümleyebilme",
+      "ders": "Türkçe",
+      "sinif": 3,
+      "unite": "1. TEMA: DEĞERLERİMİZLE YAŞIYORUZ",
+      "surec_bilesenleri": {
+        "b": "Dinlediği/izlediği metinde ana fikri/ana duyguyu bulur.",
+        "c": "Dinlediği/izlediği metnin konusunu bulur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Web erişimi bu oturumda kullanılamadı; üretim kazanımın aciklama alanına ve 3. sınıf Türkçe dersi (Değerlerimizle Yaşıyoruz teması) müfredat bilgisine dayanılarak yapıldı.",
+      "notlar": [
+        "data/sinif_ogretmeni_v2.json içindeki T.D.3.3 kaydı 8 farklı temada tekrarlanıyor (her tema için ayrı aciklama). Kullanıcı tema belirtmediği için en yaygın/sade varyant (yalnızca b, c bileşenleri) ve 1. TEMA: DEĞERLERİMİZLE YAŞIYORUZ seçildi.",
+        "Kaynak veri dosyasındaki Türkçe karakterler bozuk kodlanmış (mojibake, ör. 'Dinledi�i'); bu üretimde doğru Türkçe karakterlerle ('Dinlediği') düzeltilerek kullanıldı, orijinal veri dosyasına dokunulmadı.",
+        "Gerçek bir dinleme/izleme kaydı sunulamadığı için Tanıyalım bölümünün başında kısa bir okuma/dinleme metni yazıldı; öğretmenin bu metni sınıfta yüksek sesle okuması veya benzer bir video/ses ile değiştirmesi önerilir.",
+        "Bağımsız crosscheck bu oturumda ayrı bir zihinsel geçişte, cevap anahtarına bakılmadan sorular tek tek çözülüp sonra anahtarla kıyaslanarak yapıldı (references/qa_rubric.md K1-K6). Karar: 'onay' — bağımsız çözümlerle anahtar arasında uyuşmazlık bulunmadı, tüm süreç bileşenleri (b, c) en az iki soruyla kapsandı, çoktan seçmelilerde tek savunulabilir doğru var, açık uçlularda kabul kriterleri net. Tek not: s5'te aynı sağ öğe (Efe) iki kez kullanılmış — metindeki iki farklı ayrıntının (unutma, üzgün oturma) ikisi de Efe'ye ait olduğu için bilinçli bir tercih, validator'da WARN olarak görünür."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki metni öğretmeninizin okuyuşunu dikkatle dinleyiniz (ya da kendiniz sessizce okuyunuz). Ardından soruları cevaplayınız.\n\n**Kumanya**\n\nAli her sabah okula severek gidiyordu. Bir gün, en yakın arkadaşı Efe'nin o gün çok dalgın olduğunu fark etti. Teneffüste Efe, bahçenin kenarında tek başına, üzgün bir şekilde oturuyordu. Ali yanına gidip ne olduğunu sordu. Efe, kumanyasını evde unuttuğunu ve çok acıktığını söyledi.\n\nAli hiç düşünmeden kendi kumanyasını çıkardı. Ekmek arasını ikiye böldü, meyveyi de paylaştırdı. \"Gel, birlikte yiyelim,\" dedi gülümseyerek. Efe önce utandı ama sonra teşekkür etti. İkisi de gölgelik bir ağacın altına oturup kumanyayı paylaştılar.\n\nO gün ikisi de karnını doyurdu. Ama Efe'yi en çok mutlu eden, karnının doyması değil, arkadaşının onu yalnız bırakmamasıydı. Ali de bir arkadaşına yardım etmenin ne kadar güzel bir duygu olduğunu o gün anladı.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Metne göre boşlukları uygun kelimelerle doldurunuz.\n\n1) Efe, kumanyasını ____(1)____ unutmuştu.\n2) Ali, kumanyasını ikiye bölüp arkadaşıyla ____(2)____.\n3) İkisi birlikte ____(3)____ altında oturup yediler.",
+          "gorsel": null,
+          "kelime_havuzu": ["evde", "paylaştı", "gölgelik bir ağacın", "okulda", "sakladı", "sınıfın penceresi"],
+          "cevap": {
+            "1": "evde",
+            "2": "paylaştı",
+            "3": "gölgelik bir ağacın"
+          },
+          "cozum_md": "Metinde açıkça geçer: \"Efe, kumanyasını evde unuttuğunu... söyledi.\", \"Ekmek arasını ikiye böldü... paylaştırdı.\", \"İkisi de gölgelik bir ağacın altına oturup kumanyayı paylaştılar.\""
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Metne göre aşağıdaki ifadeler doğru mu yanlış mı, işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Efe, teneffüste bahçede tek başına oturuyordu.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Ali, kumanyasını evde unutmuştu.", "cevap": false, "gerekce_md": "Kumanyasını unutan Ali değil, Efe'ydi."},
+            {"no": 3, "metin_md": "Ali, kumanyasını Efe ile paylaştı.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Efe, Ali'nin yardımını reddetti.", "cevap": false, "gerekce_md": "Efe önce utandı ama sonra teşekkür edip yardımı kabul etti."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Her ifade metindeki cümlelerle karşılaştırılarak değerlendirilir; yanlış ifadelerin doğrusu gerekce_md alanında verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Metni tekrar hatırlayarak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bu metnin konusu aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ali'nin okula gitmeyi sevmesi"},
+            {"harf": "B", "metin_md": "Bir arkadaşın kumanyasını unutan arkadaşıyla paylaşması"},
+            {"harf": "C", "metin_md": "Efe'nin ders çalışmayı sevmemesi"},
+            {"harf": "D", "metin_md": "Okul bahçesindeki ağaçların gölgesi"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Metin baştan sona Ali'nin, kumanyasını unutan Efe ile kendi kumanyasını paylaşmasını anlatır; diğer seçenekler metnin küçük ayrıntılarıdır, konusu değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bu metinde okuyucuya asıl aktarılmak istenen ana fikir/ana duygu aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşımızın zor anında yanında olmak ve paylaşmak mutluluk verir."},
+            {"harf": "B", "metin_md": "Okula her zaman kumanya götürmek gerekir."},
+            {"harf": "C", "metin_md": "Ağaç gölgesinde oturmak yemeği daha lezzetli yapar."},
+            {"harf": "D", "metin_md": "Yalnız kalan çocuklar kimseyle konuşmamalıdır."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Metnin son paragrafı bunu açıkça vurgular: \"Efe'yi en çok mutlu eden... arkadaşının onu yalnız bırakmamasıydı. Ali de bir arkadaşına yardım etmenin ne kadar güzel bir duygu olduğunu o gün anladı.\" Diğer seçenekler metnin ayrıntısı olsa da ana fikri/ana duyguyu taşımaz."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Metindeki kişileri, onlarla ilgili ifadelerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kumanyasını evde unuttu."},
+            {"no": 2, "metin_md": "Kumanyasını ikiye bölüp paylaştı."},
+            {"no": 3, "metin_md": "Bahçenin kenarında üzgün oturuyordu."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Ali"},
+            {"harf": "B", "metin_md": "Efe"},
+            {"harf": "C", "metin_md": "Öğretmen"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "B"},
+          "cozum_md": "Kumanyasını unutan ve üzgün oturan Efe'dir (1 ve 3 → B); kumanyasını paylaşan Ali'dir (2 → A). \"Öğretmen\" metinde geçmeyen bir çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle, 2-3 cümle kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 13,
+          "govde_md": "Ali'nin Efe için yaptığı davranış size ne hissettirdi? Metnin size aktardığı duyguyu kendi cümlelerinizle açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ali'nin davranışı beni mutlu etti; çünkü bir arkadaşının zor durumda olduğunu görüp ona hemen yardım etti. Bu davranış bana paylaşmanın ve arkadaşına destek olmanın güzel bir duygu olduğunu hissettirdi.",
+            "kabul_kriterleri": [
+              "Metindeki ana duyguyu (paylaşmanın/yardımlaşmanın verdiği mutluluk) doğru yakalamış olması",
+              "Kendi cümleleriyle, metinden birebir kopyalamadan ifade etmesi",
+              "En az bir gerekçe/örnek içermesi"
+            ]
+          },
+          "cozum_md": "Bu soruda tek bir 'doğru' cümle yoktur; öğrencinin metnin ana duygusunu (paylaşmanın/yardımlaşmanın mutluluğu) doğru biçimde yakalayıp kendi ifadesiyle anlatması beklenir. Puanlama kabul_kriterleri üzerinden yapılır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 12,
+          "govde_md": "Bu metne \"Kumanya\" dışında, konusunu yansıtan başka bir başlık öneriniz ve neden bu başlığı seçtiğinizi kısaca açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Başlık: \"İyi Bir Arkadaş\". Bu başlığı seçtim çünkü metin, bir arkadaşın diğerine zor anında yardım etmesini, yani iyi bir arkadaşlık örneğini anlatıyor.",
+            "kabul_kriterleri": [
+              "Önerilen başlığın metnin konusuyla (kumanya paylaşımı/arkadaşlık/yardımlaşma) ilgili olması",
+              "Gerekçenin metindeki olaya dayanması",
+              "Metinle ilgisiz, rastgele bir başlık önerilmemiş olması"
+            ]
+          },
+          "cozum_md": "Öğrencinin önerdiği başlığın metnin konusunu (paylaşma/yardımlaşma teması) yansıtması ve gerekçenin metne dayanması aranır; tek doğru başlık yoktur."
+        }
+      ]
+    }
+  ]
+}

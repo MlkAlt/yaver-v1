@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bir Bitkinin Yetişmesi İçin Gerekenler",
+    "kazanim": {
+      "kod": "FB.3.7.2",
+      "ad": "Bir bitkinin yetişmesi için gerekenlere ilişkin genelleme yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "7. ÜNİTE: TOPRAĞI TANIYORUM, TARIMI KEŞFEDİYORUM",
+      "surec_bilesenleri": {
+        "a": "Çevresinde bulunan tarım ürünlerinin nasıl yetiştirildiği konusunda araştırma yaparak bilgi toplar.",
+        "b": "Bitki yetiştirmek için gerekli ortak özellikleri belirler.",
+        "c": "Farklı bitkilerin yetiştirilmesinde ortak olmayan özellikleri belirler.",
+        "ç": "Bir bitki yetiştirmek için yapılması gerekenler konusunda önermede bulunur."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr FB.3.7.2 ünite sayfası (7. Ünite: Toprağı Tanıyorum, Tarımı Keşfediyorum) incelendi: anahtar kavramlar (toprak, tohum, fide, tarım), ortak ihtiyaçlar (su, uygun sıcaklık, ışık) ve bitkiler arası farklılıklar (su miktarı, mevsim, toprak yapısı, ürün verme süresi) doğrulandı.",
+      "notlar": [
+        "Crosscheck sonrası s1'de ve s3/ifade1 gerekçesinde geçen 'fotosentez' terimi (3. sınıf müfredat dışı, üst sınıf kavramı) 'büyüyüp gelişebilme' ifadesiyle değiştirildi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözerek bitkilerin yetişme koşullarını hatırlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları, parantez içindeki ipucuna göre kutudaki kelimelerle tamamlayınız.\n\n1) Bitkiler büyüyebilmek için toprak, hava ve ____(1)____'ye ihtiyaç duyar. *(İçmemiz gereken sıvı)*\n2) Bitkilerin büyüyüp gelişebilmesi için ____(2)____'a ihtiyacı vardır. *(Güneşten gelir)*\n3) Her bitki kendi türüne uygun bir ____(3)____ ortamında daha iyi gelişir. *(Ne çok soğuk ne çok sıcak)*\n4) Bitkinin kök salıp beslenebilmesi için uygun bir ____(4)____ gerekir. *(Kökler buraya tutunur)*",
+          "gorsel": null,
+          "kelime_havuzu": ["su", "ışık", "sıcaklık", "toprak", "gübre", "taş"],
+          "cevap": {"1": "su", "2": "ışık", "3": "sıcaklık", "4": "toprak"},
+          "cozum_md": "Bitkilerin ortak ihtiyaçları su, ışık, uygun sıcaklık ve topraktır. Cümlelerdeki ipuçları (içilen sıvı → su; güneşten gelen → ışık; ne çok soğuk ne çok sıcak → sıcaklık; köklerin tutunduğu yer → toprak) her boşluğun cevabını belirler."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Çevremizde yetiştirilen tarım ürünlerini, nasıl yetiştirildikleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Buğday"},
+            {"no": 2, "metin_md": "Domates"},
+            {"no": 3, "metin_md": "Çeltik (pirinç)"},
+            {"no": 4, "metin_md": "Çay"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Su dolu tarlalarda yetiştirilir; öğütülüp pirinç elde edilir."},
+            {"harf": "B", "metin_md": "Serada, sık sulanarak ve desteklenerek yetiştirilir."},
+            {"harf": "C", "metin_md": "Tarlaya ekilip biçilir; unu ekmekte kullanılır."},
+            {"harf": "D", "metin_md": "Nemli, eğimli yamaçlarda yetişir; yaprakları toplanır."},
+            {"harf": "E", "metin_md": "Çölde, kumlu toprakta çok az suyla yetiştirilir."}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "A", "4": "D"},
+          "cozum_md": "Buğday tarlada ekilip biçilerek yetiştirilir (C). Domates serada/bahçede sık sulanarak yetiştirilir (B). Çeltik su dolu tarlalarda yetişir (A). Çay yağışlı, nemli yamaçlarda yetiştirilir (D). E seçeneği (kaktüs benzeri kurak bitki) bu dört ürünle ilgili değildir, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, bitkilerin ortak ve farklı ihtiyaçlarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bütün bitkilerin büyümesi için ışık gereklidir.", "cevap": true, "gerekce_md": "Bitkiler büyüyüp gelişebilmek için ışığa ihtiyaç duyar; bu ortak bir gereksinimdir."},
+            {"no": 2, "metin_md": "Bitkiler yaşamak için suya ihtiyaç duymaz.", "cevap": false, "gerekce_md": "Yanlıştır; bütün bitkilerin yaşamak ve büyümek için belli miktarda suya ihtiyacı vardır."},
+            {"no": 3, "metin_md": "Toprak, bitkinin köklerini tutmasına ve beslenmesine yardımcı olur.", "cevap": true, "gerekce_md": "Toprak, kökün tutunmasını sağlar ve bitkinin ihtiyaç duyduğu bazı maddeleri sunar."},
+            {"no": 4, "metin_md": "Bitkiler için ortamın sıcaklığının uygun olması önemli değildir.", "cevap": false, "gerekce_md": "Yanlıştır; bitkiler ancak kendi türüne uygun sıcaklıkta sağlıklı gelişebilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1 ve 3 doğrudur: ışık ve toprak bitkilerin ortak ihtiyaçlarındandır. 2 ve 4 yanlıştır çünkü su ve uygun sıcaklık da bitkilerin ortak, vazgeçilmez ihtiyaçlarındandır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Ayşe, evinin bahçesinde kaktüs ve nilüfer yetiştirmek istiyor. Kaktüsü kumlu, kuru bir saksıya dikiyor ve çok seyrek suluyor; nilüferi ise su dolu bir kaba yerleştiriyor. Bu durum bitkilerle ilgili hangi bilgiyi destekler?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bütün bitkiler aynı miktarda suya ihtiyaç duyar."},
+            {"harf": "B", "metin_md": "Bitkilerin su ihtiyacı türden türe farklılık gösterir."},
+            {"harf": "C", "metin_md": "Bitkiler suya hiç ihtiyaç duymaz."},
+            {"harf": "D", "metin_md": "Sadece çölde yetişen bitkiler suya ihtiyaç duyar."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kaktüs çok az suyla, nilüfer ise bol suyla yaşayabilir. Bu, bitkilerin su ihtiyacının türden türe farklılık gösterdiğini kanıtlar; A, C ve D seçenekleri bu gözlemle çelişir."
+        },
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir öğrencinin, bir tarım ürününün nasıl yetiştirildiğini araştırırken izlediği adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Bilgileri bir çizelgeye kaydeder.",
+            "Bir tarım ürünü seçer.",
+            "Bilgileri arkadaşlarıyla paylaşır.",
+            "Büyüklerine sorarak araştırır."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Doğru sıra: önce ürün seçilir (\"Bir tarım ürünü seçer.\"), sonra araştırma yapılır (\"Büyüklerine sorarak araştırır.\"), sonra bulgular kaydedilir (\"Bilgileri bir çizelgeye kaydeder.\"), son olarak sonuçlar paylaşılır (\"Bilgileri arkadaşlarıyla paylaşır.\"). Bu sırayla ogeler dizisindeki indeksler [1, 3, 0, 2] olur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, öğrendiklerinizden genelleme ve öneri yaparak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir grup öğrenci üç farklı bitkiyi (fasulye, biber, ay çiçeği) sınıfta yetiştirmiş ve gözlemlerini şu çizelgeye kaydetmiştir:\n\n| Bitki | Işık | Su | Büyüdü mü? |\n|---|---|---|---|\n| Fasulye | Var | Var | Evet |\n| Biber | Yok (karanlıkta) | Var | Hayır |\n| Ay çiçeği | Var | Yok (susuz) | Hayır |\n\nBu çizelgeye göre, bir bitkinin büyüyebilmesiyle ilgili hangi genelleme yapılabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bitkiler sadece toprakta olduğunda büyür; ışık ve su gerekmez."},
+            {"harf": "B", "metin_md": "Bir bitkinin büyümesi için hem ışığa hem de suya aynı anda ihtiyacı vardır."},
+            {"harf": "C", "metin_md": "Bitkiler ışık almadan da büyüyebilir, yeter ki sulansın."},
+            {"harf": "D", "metin_md": "Bitkiler sulanmadan da büyüyebilir, yeter ki ışık alsın."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Fasulye hem ışık hem su aldığı için büyümüş. Biber ışık almadığı için, ay çiçeği sulanmadığı için büyüyememiş. Yani ışıktan veya sudan biri eksik olduğunda bitki büyümüyor; bu da bir bitkinin büyümesi için hem ışığa hem de suya aynı anda ihtiyacı olduğunu gösterir (B). A, C, D seçenekleri çizelgedeki verilerle çelişir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Mehmet'in dedesi bahçesine domates fidesi dikmiş ama fideler sararıp solmaya başlamış. Dedesi fideleri gölge, serin bir köşeye koymuş ve çok az sulamış. Mehmet, öğrendiklerine göre dedesine fidelerin sağlıklı büyümesi için ne önerebilir? Bitkinin ihtiyaç duyduğu en az iki şeyi belirterek önerinizi yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Dedeme, domates fidelerini güneş ışığı alan bir yere koymasını ve düzenli olarak sulamasını önerebilirim. Çünkü domates gibi bitkilerin sağlıklı büyüyebilmesi için hem yeterli ışığa hem de düzenli suya ihtiyacı vardır; gölgede ve susuz kalan fideler bu yüzden sararıp solmuştur.",
+            "kabul_kriterleri": [
+              "Işık ihtiyacını belirtmesi (güneşli/aydınlık bir yer önerisi)",
+              "Su ihtiyacını belirtmesi (düzenli sulama önerisi)",
+              "Öneriyi fidelerin mevcut durumuyla (sararma, solma) ilişkilendiren bir gerekçe sunması"
+            ]
+          },
+          "cozum_md": "Fideler gölgede ve az sulanmış durumda sararıp solmuş; bu da ışık ve su eksikliğine işaret eder. Doğru öneri, fidelerin ışıklı bir yere taşınması ve düzenli sulanmasıdır."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Kaktüs çölde çok az suyla yaşayabilirken nilüfer suyun içinde yetişir. Bu iki bitkinin su ihtiyacı neden farklıdır? Bildiklerinize dayanarak açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kaktüs ve nilüfer farklı ortamlara uyum sağlamıştır. Kaktüs kurak ve sıcak yerlerde yaşadığı için gövdesinde su depolayarak az suyla yaşayabilir. Nilüfer ise sulak bir ortamda yaşadığı için bol suya ihtiyaç duyar. Yani bitkinin yaşadığı ortam, su ihtiyacını farklılaştırır.",
+            "kabul_kriterleri": [
+              "Kaktüsün az suyla yaşayabildiğini belirtmesi",
+              "Nilüferin bol suya ihtiyaç duyduğunu belirtmesi",
+              "Farkı bitkinin yaşadığı ortama/türüne bağlaması"
+            ]
+          },
+          "cozum_md": "Kaktüs kurak ortama, nilüfer sulak ortama uyum sağlamıştır; bu yüzden su ihtiyaçları farklıdır. Bu, farklı bitkilerin ortak olmayan özellikler gösterebileceğinin bir örneğidir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sürdürülebilir Bir Yaşam Alanı Kuruyoruz",
+    "kazanim": {
+      "kod": "FB.4.8.1",
+      "ad": "Sürdürülebilir bir yaşam alanı kurmaya ilişkin bilimsel sorgulama yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "8. ÜNİTE: SÜRDÜRÜLEBİLİR ŞEHİRLER VE TOPLULUKLAR",
+      "surec_bilesenleri": {
+        "a": "Sürdürülebilir bir yaşam alanı kurmaya ilişkin soru veya problem tanımlar.",
+        "b": "Sorusunu/problemini cevaplamada kullanabileceği bir sürdürülebilir yaşam alanı modeli geliştirir.",
+        "c": "Sürdürülebilir bir yaşam alanı kurmaya ilişkin araştırma planlayarak modelini gerçekleştirir.",
+        "ç": "Yaşam alanının sürdürülebilirliğine ilişkin verileri analiz ederek yorumlar.",
+        "d": "Yaşam alanının sürdürülebilir olup olmadığına ilişkin kanıta dayalı açıklama yaparak çözüm üretir.",
+        "e": "Sürdürülebilir bir yaşam alanı kurmaya ilişkin bilgiyi değerlendirerek paylaşır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 8. Ünite: Sürdürülebilir Şehirler ve Topluluklar, unite/366) incelendi. Ünitenin anahtar kavramları (sürdürülebilirlik, enerji verimliliği, su verimliliği, gıda erişimi, temiz enerji) ve öğrenci etkinlik yaklaşımı (kendi yaşam alanında -okul, ev, mahalle, park- sürdürülebilirlikle ilgili problem tanımlama, fiziksel/dijital model tasarlama, araştırma planlayıp veriyi analiz etme, kanıta dayalı çözüm önerme ve paylaşma) sorulara birebir yansıtıldı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı; s5'teki tablo hesapları python ile doğrulandı. K1-K6 kontrolleri uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, sürdürülebilir bir yaşam alanı için bir soru/problem tanımlama sürecini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Elif, yaşadığı mahalledeki parkın sulama sisteminin çok fazla su harcadığını fark etti ve bunun sürdürülebilirlik açısından bir sorun olabileceğini düşündü.\n\n1) Elif'in fark ettiği bu durum, araştıracağı bir ____(1)____ hâline gelmiştir.\n2) Elif bu durumu bilimsel olarak incelemek istiyorsa önce kendi ____(2)____ ile ilgili net bir araştırma sorusu oluşturmalıdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["problem", "yaşam alanı", "oyun", "tatil"],
+          "cevap": {"1": "problem", "2": "yaşam alanı"},
+          "cozum_md": "1) problem — Elif'in fark ettiği durum, araştıracağı bir probleme dönüşmüştür. 2) yaşam alanı — bilimsel sorgulama, öğrencinin kendi yaşam alanıyla (mahalle, okul, ev, park) ilgili somut bir soruya dayanmalıdır. 'oyun' ve 'tatil' sürdürülebilirlik problemiyle ilgisi olmadığı için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi, bir öğrencinin kendi yaşam alanında (okul, ev, mahalle) sürdürülebilirlikle ilgili bilimsel olarak araştırabileceği uygun bir soru/problemdir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Okulumuzun bahçesindeki musluklardan boşa akan suyu azaltmak için hangi önlemler alınabilir?"},
+            {"harf": "B", "metin_md": "Keşke okulumuzda hiç musluk olmasa, o zaman hiç su boşa gitmezdi."},
+            {"harf": "C", "metin_md": "Bizim okulumuzun bahçesi diğer okullardan daha güzel mi?"},
+            {"harf": "D", "metin_md": "Su neden ıslaktır?"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği, gözlemlenebilir ve araştırmayla cevaplanabilir gerçek bir sürdürülebilirlik problemidir. B bir dilek cümlesidir, C sürdürülebilirlikle ilgisi olmayan öznel bir kıyaslamadır, D ise bu ünitenin kapsamına girmeyen genel bir fen sorusudur; bu yüzden A doğru cevaptır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, sürdürülebilir bir yaşam alanı modeli geliştirme, araştırma planlama ve veri analiz etme sürecini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 12,
+          "govde_md": "Sol taraftaki sürdürülebilirlik kavramlarını, sağ taraftaki en uygun model/çözüm örneğiyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Enerji verimliliği"},
+            {"no": 2, "metin_md": "Su verimliliği"},
+            {"no": 3, "metin_md": "Gıda erişimi"},
+            {"no": 4, "metin_md": "Temiz enerji"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Işıkları gereksiz yere açık bırakmamak, enerji tasarruflu ampul kullanmak"},
+            {"harf": "B", "metin_md": "Musluğu kullanmadığında kapatmak, yağmur suyunu bitkileri sulamak için biriktirmek"},
+            {"harf": "C", "metin_md": "Okul bahçesinde sebze ve meyve yetiştirerek çevredeki insanların taze gıdaya kolay ulaşmasını sağlamak"},
+            {"harf": "D", "metin_md": "Güneş panelleriyle elektrik üretmek"},
+            {"harf": "E", "metin_md": "Yeni çıkan bir oyuncağı satın almak için para biriktirmek"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Işık israfını önlemek ve tasarruflu ampul kullanmak enerji verimliliği örneğidir. 2-B: Musluğu kapatmak ve yağmur suyunu biriktirmek su verimliliği örneğidir. 3-C: Yerelde sebze/meyve yetiştirmek gıda erişimini kolaylaştırır. 4-D: Güneş panelleri temiz (yenilenebilir) enerji üretimidir. E seçeneği sürdürülebilirlikle ilgisiz olduğu için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 12,
+          "govde_md": "Sürdürülebilir bir yaşam alanı kurmaya yönelik bilimsel sorgulama adımları karışık sırada verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Elde ettiği verileri inceleyerek sonuç çıkarma",
+            "Sürdürülebilir yaşam alanıyla ilgili bir problem belirleme",
+            "Problemi çözecek bir model tasarlama",
+            "Modelini uygulamak için bir araştırma planı hazırlama ve uygulama",
+            "Ulaştığı sonuçları başkalarıyla paylaşma"
+          ],
+          "cevap": {"dogru_sira": [1, 2, 3, 0, 4]},
+          "cozum_md": "Doğru sıra: önce problem belirlenir → sonra bu problemi çözecek bir model tasarlanır → modeli uygulamak için araştırma planı hazırlanıp uygulanır → elde edilen veriler incelenerek sonuç çıkarılır → son olarak sonuçlar paylaşılır. Verilen listede bu sıra, indeks numaralarıyla [1, 2, 3, 0, 4] şeklindedir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 12,
+          "govde_md": "Bir okulun 4. sınıf öğrencileri, bahçedeki musluklara damlama önleyici conta taktıktan sonra günlük su tüketimini bir hafta boyunca ölçüp tabloya kaydetmiştir. Pazartesi günü önlem sonrası tüketim, önlem öncesine göre 30 litre azalmıştır. Çarşamba günü önlem öncesi tüketim, önlem sonrasından 34 litre fazladır. Bu bilgilere göre tablodaki boş hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Gün", "Önlem Öncesi Su Tüketimi (L)", "Önlem Sonrası Su Tüketimi (L)"],
+            "satirlar": [
+              ["Pazartesi", "80", "__?__"],
+              ["Salı", "78", "50"],
+              ["Çarşamba", "__?__", "48"]
+            ]
+          },
+          "cevap": {"r0c2": "50", "r2c1": "82"},
+          "cozum_md": "Pazartesi: önlem sonrası tüketim, önlem öncesinden 30 litre az olduğu için 80 - 30 = 50 L. Çarşamba: önlem öncesi tüketim, önlem sonrasından 34 litre fazla olduğu için 48 + 34 = 82 L. Tablodaki üç günün verisi birlikte incelendiğinde, önlem sonrası su tüketiminin her gün önlem öncesine göre daha düşük olduğu görülür; bu da alınan önlemin işe yaradığını gösteren bir kanıttır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, verilere dayanarak kanıta dayalı bir çözüm üretme ve bilgiyi paylaşma sürecini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 12,
+          "govde_md": "Bir önceki sorudaki (s5) tablodaki verilere göre aşağıdaki yorumlardan hangisi kanıta dayalı bir çözüm önerisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Musluklara damlama önleyici conta takmak su tüketimini azaltmıştır; bu yüzden okulun diğer musluklarına da aynı önlem uygulanmalıdır."},
+            {"harf": "B", "metin_md": "Su tüketimi zaten önemli değildir, önlem almaya gerek yoktur."},
+            {"harf": "C", "metin_md": "Belki o hafta rastgele az su harcanmıştır; önlemin gerçek bir etkisi olmayabilir."},
+            {"harf": "D", "metin_md": "Su tüketimini tamamen bitirmek için okulun tüm bahçesi betonla kaplanmalıdır."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği, tablodaki üç günlük veriyle (önlem sonrası tüketimin her gün daha düşük olması) doğrudan desteklenen, uygulanabilir bir çözüm önerisidir. B veriyi yok sayar, C tutarlı bir örüntüyü (üç günün tamamında düşüş) rastlantı sayarak kanıtı göz ardı eder, D ise veriyle ilgisiz ve sürdürülebilirlikle çelişen aşırı bir öneridir; bu yüzden A doğru cevaptır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 17,
+          "govde_md": "Bir mahalledeki aileler, 3 ay boyunca elektrik faturalarını not etmiştir. Gündüz güneş ışığından daha çok yararlanan (perdelerini açık tutan, evlerini güneşe göre konumlandıran) evlerin elektrik tüketiminin, diğer evlere göre daha düşük olduğu görülmüştür.\n\nBu verilere dayanarak mahalle sakinlerine sürdürülebilir bir çözüm öner ve önerini hangi kanıta dayandırdığını açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Veriler, gündüz güneş ışığından daha çok yararlanan evlerin elektrik tüketiminin daha düşük olduğunu göstermektedir. Bu nedenle mahalle sakinlerine, gündüz perdelerini açık tutmalarını, mümkünse evlerini güneş ışığından daha çok faydalanacak şekilde düzenlemelerini ve isteyenlerin çatılarına güneş paneli taktırmalarını önerebilirim. Bu öneri, 3 ay boyunca ölçülen elektrik fatura verilerine dayanmaktadır.",
+            "kabul_kriterleri": [
+              "Verilen veriye (güneş ışığı kullanımı ile elektrik tüketimi ilişkisine) açıkça referans vermiş",
+              "Somut ve uygulanabilir bir çözüm önerisi sunmuş (doğal ışık kullanımı, güneş paneli gibi)",
+              "Önerisini ölçülen veriyle/kanıtla gerekçelendirmiş"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir kanıta dayalı açıklama sorusudur; tek doğru cümle yoktur. Beklenen, öğrencinin 3 aylık fatura verisindeki örüntüyü (güneş ışığı - düşük tüketim ilişkisi) fark edip buna dayanan somut bir çözüm önermesidir. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "e",
+          "puan": 15,
+          "govde_md": "Kendi yaşam alanın (okul, ev, mahalle) için sürdürülebilirlikle ilgili bir problem belirlediğini ve bunun için bir çözüm/model geliştirdiğini düşün. Bunu sınıf arkadaşlarınla paylaşacak olsan, sunumunda hangi bilgileri mutlaka anlatırdın? En az üç madde yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Öncelikle hangi problemi/soruyu araştırdığımı anlatırdım. Sonra geliştirdiğim modeli ve bunu nasıl test ettiğimi (araştırma planımı) açıklardım. Ardından topladığım verileri ve bu verilerden çıkardığım sonucu paylaşırdım. Son olarak bu sonuca dayanarak önerdiğim çözümü ve bu çözümün yaşam alanımı nasıl daha sürdürülebilir kılacağını anlatırdım.",
+            "kabul_kriterleri": [
+              "Araştırdığı problem/soruyu belirtmiş",
+              "Geliştirdiği model ve araştırma sürecini açıklamış",
+              "Elde ettiği veri/sonucu paylaşmış",
+              "Kanıta dayalı çözüm önerisini sunmuş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın son basamağı olan 'bilgiyi değerlendirerek paylaşma'yı ölçer. Öğrenci, önceki sorularda uyguladığı süreci (problem, model, veri, çözüm) özetleyip bir sunum planına dönüştürmelidir. Tek doğru cevap yoktur, kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

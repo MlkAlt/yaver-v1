@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Okuldaki Hak ve Sorumluluklarım",
+    "kazanim": {
+      "kod": "HB.3.1.2",
+      "ad": "Okuldaki hak ve sorumluluklarına uygun davranabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Okuldaki haklarını ve sorumluluklarını tanır.",
+        "b": "Hak ile sorumluluk arasındaki ilişkiyi kurar.",
+        "c": "Günlük okul yaşamında hak ve sorumluluğa uygun davranışları ayırt eder ve sergiler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile MEB kaynakları tarandı: tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310 (Türkiye Yüzyılı Maarif Modeli kazanım sayfası) WebFetch ile incelendi. Sayfada kazanımın 'iş birliği, hak, sorumluluk' anahtar kavramları; sosyal-duygusal öğrenme boyutunda iletişim ve iş birliği; değer olarak adalet ve sorumluluk vurgusu; örnek etkinlik olarak beyin fırtınası, röportaj/görüşme ve hak-sorumluluk listesi hazırlama belirtiliyor.",
+      "notlar": [
+        "Kazanımın data/ dosyasındaki 'aciklama' alanı null; resmi MEB kaynağında da (tymm.meb.gov.tr) bu kazanım için alt madde (a, b, c) listelenmemiş — 'Bu kazanımın alt maddeleri bulunmamaktadır' ifadesi doğrulandı.",
+        "Süreç bileşenleri (a, b, c) bu nedenle tarafımca türetildi: kazanım fiili 'uygun davranabilme' olduğu için önce kavramları tanıma (a), sonra hak-sorumluluk ilişkisini kurma (b), son olarak günlük yaşamda davranışa dönüştürme (c) sırası izlendi; MEB kaynağındaki anahtar kavramlar (hak, sorumluluk, iş birliği, adalet) ve örnek etkinlikler (liste hazırlama, öz değerlendirme) bu bileşenlere yansıtıldı.",
+        "Bağımsız crosscheck yapıldı (subagent olmadan, ayrı geçişte önce çözüp sonra anahtarla kıyaslama yöntemiyle): tüm sorular kazanım süreç bileşenleriyle uyumlu, tek doğru cevaplı, sınıf seviyesine uygun bulundu; kritik sorun tespit edilmedi.",
+        "validate_worksheet.py 'alan-yoğun tip sayısı 3' uyarısı verdi (dogru_yanlis bloğu, eslestirme, tablo_doldurma); bilinçli tercih — render_html.py ile gerçek ölçüm öğrenci kısmının 1 A4 sayfaya sığdığını doğruladı, bu yüzden içerik kısaltılmadı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki etkinlikleri dikkatlice tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Okulda her öğrencinin sahip olduğu bazı ____(1)____ vardır. Bu hakların yanında yerine getirmemiz gereken ____(2)____ da bulunur. Sınıf arkadaşlarımızla ____(3)____ içinde çalışmak, ortak görevleri paylaşmamızı ve okulumuzu daha güzel bir yer yapmamızı sağlar.",
+          "gorsel": null,
+          "kelime_havuzu": ["hak", "sorumluluk", "iş birliği", "kural", "adalet"],
+          "cevap": {"1": "hak", "2": "sorumluluk", "3": "iş birliği"},
+          "cozum_md": "Metinde önce öğrencinin sahip olduğu şeyden (hak), sonra yerine getirmesi gerekenden (sorumluluk) söz edilmektedir. Arkadaşlarla birlikte çalışmayı anlatan üçüncü boşluk 'iş birliği' kavramıyla tamamlanır. 'Kural' ve 'adalet' metnin akışına uymadığı için kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Ders kitaplarını ve okul eşyalarını temiz kullanmak bir sorumluluktur.",
+              "cevap": true,
+              "gerekce_md": "Okul eşyalarını özenli kullanmak, hem kendimize hem başkalarına karşı yerine getirmemiz gereken bir sorumluluktur."
+            },
+            {
+              "no": 2,
+              "metin_md": "Okulda sadece öğretmenlerin hakkı vardır, öğrencilerin hiçbir hakkı yoktur.",
+              "cevap": false,
+              "gerekce_md": "Öğrencilerin de öğrenme, görüşünü söyleme, güvenli bir ortamda bulunma gibi hakları vardır."
+            },
+            {
+              "no": 3,
+              "metin_md": "Teneffüste güvenli oyunlar oynamak, arkadaşlarımızın hakkına saygı göstermenin bir yoludur.",
+              "cevap": true,
+              "gerekce_md": "Güvenli oyunlar oynamak, hem kendi hem de arkadaşlarımızın güvenli bir ortamda bulunma hakkını korur."
+            },
+            {
+              "no": 4,
+              "metin_md": "Bir öğrenci hakkını kullanırken başka bir arkadaşının hakkını çiğnemesi normaldir.",
+              "cevap": false,
+              "gerekce_md": "Haklarımızı kullanırken başkalarının hakkına zarar vermememiz gerekir; bu adaletli davranışın gereğidir."
+            }
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1 ve 3 numaralı ifadeler doğrudur çünkü eşyaları özenli kullanmak ve güvenli oyunlar oynamak, hak-sorumluluk dengesini gözeten davranışlardır. 2 ve 4 numaralı ifadeler yanlıştır çünkü öğrencilerin de hakları vardır ve haklar kullanılırken başkalarının hakkına zarar verilmemelidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları hak ve sorumluluk arasındaki ilişkiyi düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki hakları, o hakla birlikte yerine getirilmesi gereken sorumlulukla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Derste görüşünü söyleme hakkı"},
+            {"no": 2, "metin_md": "Temiz bir okulda eğitim alma hakkı"},
+            {"no": 3, "metin_md": "Güvenli oyun alanlarında oynama hakkı"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sınıf kurallarına uyup arkadaşlarının konuşma sırasını beklemek"},
+            {"harf": "B", "metin_md": "Okul bahçesini ve sınıfı temiz tutmak"},
+            {"harf": "C", "metin_md": "Oyun kurallarına uyup arkadaşlarına zarar vermemek"},
+            {"harf": "D", "metin_md": "Ders programını öğretmenin hazırlaması"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "Her hak, kullanılırken gözetilmesi gereken bir sorumlulukla birlikte var olur: görüşünü söyleme hakkı sıraya uymayı (A), temiz okulda eğitim alma hakkı temizliği korumayı (B), güvenli oynama hakkı kurallara uymayı (C) gerektirir. D seçeneği bir öğrenci sorumluluğu olmadığı için çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi okuldaki hak ve sorumluluk dengesine en uygun örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ali kütüphaneden kitap okuma hakkını kullanır ama kitabı yırtıp geri getirir."},
+            {"harf": "B", "metin_md": "Zeynep teneffüste oyun oynama hakkını kullanır ve oyun bittiğinde malzemeleri toplar."},
+            {"harf": "C", "metin_md": "Mert sınıfta söz hakkını herkesin konuşmasına fırsat vermeden sürekli kullanır."},
+            {"harf": "D", "metin_md": "Ayşe ödev yapma sorumluluğunu unutup arkadaşının ödevini aynen kopyalar."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Zeynep hem hakkını kullanmış (oyun oynama) hem de sorumluluğunu yerine getirmiştir (malzemeleri toplama). Diğer seçeneklerde ya sorumluluk yerine getirilmemiş ya da başkasının hakkına saygısızlık edilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi gözlem ve düşüncelerinizi kullanarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri, verilen bilgiye uygun şekilde doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Durum", "Değerlendirme"],
+            "satirlar": [
+              ["Kitaplığı düzenli kullanıp kitabı yerine geri koymak", "__?__"],
+              ["Arkadaşının sırasını beklemeden derste sürekli konuşmak", "__?__"],
+              ["Nöbetçi olduğunda sınıfı havalandırmak", "__?__"],
+              ["Ödünç aldığı kalemi arkadaşına geri vermemek", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Uygun",
+            "r1c1": "Uygun Değil",
+            "r2c1": "Uygun",
+            "r3c1": "Uygun Değil"
+          },
+          "cozum_md": "Kitaplığı düzenli kullanmak ve nöbetçilik görevini yerine getirmek, hak ve sorumluluğa uygun davranışlardır (Uygun). Arkadaşının sırasını beklememek ve ödünç aldığı eşyayı geri vermemek ise başkasının hakkına saygısızlık eden, sorumluluğu yerine getirmeyen davranışlardır (Uygun Değil)."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 25,
+          "govde_md": "Sınıfının en sevdiği oyuncağı teneffüste kırıldı. Arkadaşın 'Oyuncağı ben de kullandım ama kırılmasında suçum yok.' diyor ve konuyu konuşmak istemiyor.\n\nBu durumda hangi hakkını nasıl kullanırsın, hangi sorumluluğunu nasıl yerine getirirsin? En az iki cümleyle açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Öğretmenime durumu anlatma hakkımı kullanırım çünkü yaşadığım bir sorunu ifade etme hakkım vardır. Aynı zamanda arkadaşımı suçlamadan olayı sakin bir şekilde anlatma sorumluluğumu da yerine getiririm.",
+            "kabul_kriterleri": [
+              "Kullanacağı bir hakkı (görüşünü söyleme, yetişkine anlatma vb.) açıkça belirtmesi",
+              "Yerine getireceği bir sorumluluğu (sakin konuşma, suçlamadan anlatma, sorunu çözmeye katkı sunma vb.) açıkça belirtmesi",
+              "Cevabın en az iki cümleden oluşması"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin hem bir hakkını (örneğin bir yetişkine anlatma, görüşünü söyleme) hem de bir sorumluluğunu (sakin ve adil davranma, suçlamadan konuşma) somut biçimde ifade etmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

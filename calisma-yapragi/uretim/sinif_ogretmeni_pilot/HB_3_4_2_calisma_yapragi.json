@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Ülkemizin Yönetim Şekli",
+    "kazanim": {
+      "kod": "HB.3.4.2",
+      "ad": "Ülkemizin yönetim şekli ile ilgili kaynaklardan bilgi toplayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Ülkemizin yönetim şekli ile ilgili kaynaklardan bilgileri bulur.",
+        "b": "Ülkemizin yönetim şekli ile ilgili bulduğu bilgileri kaydeder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile '3. sınıf Hayat Bilgisi Ülkemizin Yönetimi' konu anlatım sayfaları (hurriyet.com.tr eğitim, ilkokuldokumanlari.com, turuncusinif.com) ve MEB müfredat programı taranarak konunun temel çekirdek olguları doğrulandı: ülkemizin yönetim şeklinin Cumhuriyet olduğu, Cumhuriyetin 29 Ekim 1923'te Mustafa Kemal Atatürk önderliğinde ilan edildiği, Cumhuriyet öncesinde padişahlıkla yönetildiği (yönetimin babadan oğula/miras yoluyla geçtiği) ve Cumhuriyetle birlikte halkın seçme hakkına, düşüncesini özgürce söyleme hakkına kavuştuğu birden fazla kaynakta tutarlı biçimde tekrarlandı. ogmmateryal.eba.gov.tr üzerinde 3. sınıf Hayat Bilgisi'ne özgü doğrudan materyal bulunamadı (arama sonuçları üst sınıf/lise materyalleriyle döndü); bu nedenle içerik yukarıdaki genel kaynaklara ve kazanımın 'aciklama' alanına dayandırıldı.",
+      "notlar": [
+        "'b' süreç bileşeni (bilgi kaydetme) kağıt üzerinde doğrudan gözlemlenemeyen bir davranıştır; s5 (kaydetme yönteminin farkındalığını ölçen çoktan seçmeli) ve s7 (öğrencinin okuduğu/araştırdığı bir bilgiyi kendi cümleleriyle kaydettiği açık uçlu soru) ile temsil edildi — 3. sınıf düzeyi için makul bir vekil ölçüt olarak değerlendirildi.",
+        "ogmmateryal.eba.gov.tr'de 3. sınıf Hayat Bilgisi'ne özel doğrudan bir materyal sayfasına ulaşılamadı; içerik birden fazla bağımsız konu anlatım kaynağıyla çapraz doğrulanan genel olgulara (Cumhuriyetin ilan tarihi, padişahlıktan Cumhuriyete geçiş, kazanılan haklar) dayandırıldı.",
+        "Bağımsız crosscheck subagent'ı onay verdi (kritik sorun yok, tüm cevap anahtarları bağımsız çözümle uyuştu). Tek düşük önemli not: s2'deki 4. doğru/yanlış ifadesi ('bilgi toplarken tek kaynağa bakmak yeterlidir') kazanımın 'a' bileşenine dolaylı bağlanıyor; savunulabilir bulunduğu için değiştirilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları ülkemizin yönetim şekliyle ilgili bildiklerinizi düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki kavramları doğru açıklamalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Cumhuriyet"},
+            {"no": 2, "metin_md": "Padişahlık"},
+            {"no": 3, "metin_md": "Seçim"},
+            {"no": 4, "metin_md": "29 Ekim 1923"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yöneticinin babadan oğula geçtiği yönetim şeklidir"},
+            {"harf": "B", "metin_md": "Halkın kendi yöneticilerini kendisinin seçtiği yönetim şeklidir"},
+            {"harf": "C", "metin_md": "Ülkemizde Cumhuriyetin ilan edildiği tarihtir"},
+            {"harf": "D", "metin_md": "Halkın oy kullanarak yöneticilerini belirlediği yöntemdir"},
+            {"harf": "E", "metin_md": "Ülkenin başka bir ülke tarafından yönetilmesidir"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "D", "4": "C"},
+          "cozum_md": "1) Cumhuriyet → B, halkın yöneticilerini kendisinin seçtiği yönetim şeklidir. 2) Padişahlık → A, yönetimin babadan oğula geçtiği yönetim şeklidir. 3) Seçim → D, halkın oy kullanarak yöneticilerini belirlediği yöntemdir. 4) 29 Ekim 1923 → C, Cumhuriyetin ilan edildiği tarihtir. 'E' bu soruda kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ülkemizin yönetim şekli Cumhuriyettir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Cumhuriyette yöneticiler babadan oğula geçerek belirlenir.", "cevap": false, "gerekce_md": "Cumhuriyette yöneticiler halkın oyuyla seçilir, miras yoluyla geçmez."},
+            {"no": 3, "metin_md": "Cumhuriyet, 29 Ekim 1923 tarihinde ilan edilmiştir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Bilgi toplarken yalnızca tek bir kaynağa bakmak yeterlidir, başka kaynaklara bakmaya gerek yoktur.", "cevap": false, "gerekce_md": "Doğru ve eksiksiz bilgiye ulaşmak için birden fazla kaynağa bakmak daha faydalıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — ülkemiz Cumhuriyetle yönetilir. 2) Yanlış — Cumhuriyette yöneticiler seçimle belirlenir, miras yoluyla değil. 3) Doğru — Cumhuriyet 29 Ekim 1923'te ilan edilmiştir. 4) Yanlış — birden fazla kaynağa bakmak bilgiyi daha güvenilir kılar."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki metinleri okuyup istenen bilgileri bulup yazınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki bilgi metnini okuyunuz. Metinden bulduğunuz bilgileri tabloya kaydediniz.\n\n*\"Ülkemiz, Cumhuriyetten önce padişahlıkla yönetiliyordu. Padişahlıkta yönetim babadan oğula geçerdi, halkın yöneticisini seçme hakkı yoktu. 29 Ekim 1923'te Mustafa Kemal Atatürk önderliğinde Cumhuriyet ilan edildi. Cumhuriyetle birlikte ülkemizin adı Türkiye Cumhuriyeti oldu ve halk, yöneticilerini seçme hakkına kavuştu.\"*",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Soru", "Metinden Bulunan Bilgi"],
+            "satirlar": [
+              ["Cumhuriyet öncesinde ülkemiz nasıl yönetiliyordu?", "__?__"],
+              ["Cumhuriyet hangi tarihte ilan edildi?", "__?__"],
+              ["Cumhuriyetle birlikte halk hangi hakka kavuştu?", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Padişahlıkla", "r1c1": "29 Ekim 1923", "r2c1": "Yöneticilerini seçme (oy kullanma) hakkı"},
+          "cozum_md": "Metinde geçen bilgiler sırayla bulunur: Cumhuriyet öncesi yönetim şekli (padişahlık), Cumhuriyetin ilan tarihi (29 Ekim 1923) ve Cumhuriyetle kazanılan hak (yöneticileri seçme hakkı) tabloya kaydedilir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki metni okuyup boşlukları uygun kelimelerle doldurunuz.\n\n*\"Cumhuriyet, ülkemize pek çok hak ve özgürlük kazandırmıştır. Cumhuriyetle birlikte insanlar düşüncelerini daha özgürce ____(1)____ imkânı bulmuştur. Ayrıca halk, seçim yoluyla kendi ____(2)____ seçme hakkına sahip olmuştur.\"*",
+          "gorsel": null,
+          "kelime_havuzu": ["söyleme", "yöneticilerini", "gizleme", "komşularını"],
+          "cevap": {"1": "söyleme", "2": "yöneticilerini"},
+          "cozum_md": "Metinde 'düşüncelerini özgürce' ifadesinin devamı 'söyleme' imkânına işaret eder; halkın seçim yoluyla sahip olduğu hak 'yöneticilerini' seçmektir. 'Gizleme' ve 'komşularını' metinle ilgisiz çeldiricilerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ülkemizin yönetim şekliyle ilgili bir kaynaktan öğrendiğin bilgileri kalıcı hâle getirmek (kaydetmek) istiyorsun. Aşağıdakilerden hangisi bunun için en uygun yoldur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bilgiyi okuduktan hemen sonra düşünmeden unutmak"},
+            {"harf": "B", "metin_md": "Önemli bilgileri kısa notlar hâlinde deftere veya karta yazmak"},
+            {"harf": "C", "metin_md": "Bilgiyi kimseyle paylaşmadan sadece aklında tutmaya çalışmak"},
+            {"harf": "D", "metin_md": "Metindeki resimlere bakıp yazıları hiç okumamak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bilgiyi kaydetmenin amacı onu kalıcı hâle getirmektir; bunun en uygun yolu önemli noktaları not almaktır. Diğer seçenekler bilgiyi kaydetmemiş, sadece unutmaya veya eksik öğrenmeye yol açar."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları verilen metinleri ve kendi bilgilerini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki metni okuyunuz:\n\n*\"Cumhuriyet öncesinde ülkemizi padişahlar yönetiyordu. Padişahlık düzeninde yönetim babadan oğula geçiyor, halkın yöneticisini seçme hakkı bulunmuyordu. Cumhuriyetin ilanıyla birlikte bu durum değişti; artık ülkeyi halkın seçtiği kişiler yönetmeye başladı.\"*\n\nBu metinden ülkemizin yönetim şekliyle ilgili iki bilgi bulup yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Cumhuriyet öncesinde ülkemiz padişahlıkla yönetiliyordu, yönetim babadan oğula geçiyordu. 2) Cumhuriyetin ilanıyla birlikte ülkeyi halkın seçtiği kişiler yönetmeye başladı.",
+            "kabul_kriterleri": [
+              "Padişahlık düzeninde yönetimin babadan oğula/miras yoluyla geçtiğini belirtmesi",
+              "Cumhuriyetle birlikte ülkeyi halkın seçtiği kişilerin yönetmeye başladığını, ayrı bir bilgi olarak belirtmesi"
+            ]
+          },
+          "cozum_md": "Metinden iki ayrı bilgi bulunabilir: (1) Cumhuriyet öncesinde padişahlık vardı ve yönetim babadan oğula geçerdi, (2) Cumhuriyetle birlikte ülkeyi halkın seçtiği kişiler yönetmeye başladı. Tek doğru cevap yoktur; bu iki bilgiye eşdeğer başka ifadeler de kabul edilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ailenden büyük birine \"Ülkemiz Cumhuriyetten önce nasıl yönetiliyordu?\" diye sor ya da bu sayfada öğrendiklerini kullan. Ülkemizin yönetim şekli hakkında öğrendiğin bir bilgiyi 2-3 cümleyle aşağıya kaydet.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ülkemizin yönetim şekli Cumhuriyettir. Cumhuriyet 29 Ekim 1923'te ilan edilmiştir. Cumhuriyette halk, yöneticilerini kendisi seçer.",
+            "kabul_kriterleri": [
+              "Cumhuriyet kavramını doğru biçimde kullanması",
+              "En az bir doğru bilgiyi (ilan tarihi, seçimle belirlenme, padişahlıktan farkı vb.) yazılı olarak kaydetmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin ülkemizin yönetim şekliyle ilgili doğru bir bilgiyi (araştırarak ya da bu sayfadan) kendi cümleleriyle yazılı biçimde kaydetmesi (bilgiyi kalıcı hâle getirmesi) beklenir."
+        }
+      ]
+    }
+  ]
+}

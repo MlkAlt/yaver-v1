@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Teknolojik Ürünlerin Zaman İçindeki Değişimi",
+    "kazanim": {
+      "kod": "HB.2.6.2",
+      "ad": "Günlük yaşamda kullanılan teknolojik bir ürünün zaman içerisindeki değişimini karşılaştırabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Teknolojik bir ürünün zaman içindeki değişimini belirler.",
+        "b": "Teknolojik bir ürünün zaman içindeki değişiminin benzer ve farklı yönlerini listeler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '6. Öğrenme Alanı: Bilim, Teknoloji ve Sanat' ünite sayfası incelendi; sayfada bu kazanım için sınıfa geçmiş dönemde kullanılmış teknolojik araçlara yönelik örnekler sunularak ürünlerin zaman içindeki değişiminin ele alındığı, örnek olarak telefonun (eski: büyük, sabit, sadece arama; yeni: küçük, hafif, internete bağlanabilen akıllı telefon) ve lambanın (eski: akkor ampul; yeni: enerji tasarruflu LED) verildiği doğrulandı. Değerlendirme önerisi olarak öğrencinin kullandığı bir ürünün zaman içindeki değişimini gösteren görselleri sıralaması örneği geçiyor; bu bilgi worksheet'teki tablo/sıralama tarzı sorularda temel alındı. Çamaşır yıkama (elde-makineyle) örneği MEB kaynağında birebir geçmiyor; genel bilgiye ve kazanımın 'benzer/farklı yön listeleme' beklentisine dayanılarak s5'te kullanıldı.",
+      "notlar": [
+        "s5'teki çamaşır makinesi örneği MEB'in resmi örnekleri (telefon, lamba) arasında değil; genel bilgiyle türetildi, bu nedenle burada ayrıca belirtildi.",
+        "Bağımsız crosscheck (üretimden ayrı geçişte, cevap anahtarına bakılmadan) yapıldı: tüm sorular yeniden çözüldü ve anahtarla birebir uyuştu (uyuşmazlık yok). K1 (kazanım uyumu: a-bileşeni s1-s4, b-bileşeni s5-s6 ile kapsanmış), K3 (2. sınıf seviyesine uygun, üst sınıf kavramı sızmamış), K4 (tek doğru cevap, çeldiriciler işlevsel — özellikle s4'te 'söylenemez' sorusunun C seçeneği metinle doğrudan çelişiyor), K5 (emir kipi yönergeler, 'söylenemez' vurgusu belirgin), K6 (markdown/boşluk-tablo işaretleri tutarlı, s6'daki opsiyonel görsel zorunlu değil) kontrollerinde kritik/orta sorun bulunmadı. Karar: onay."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları teknolojik ürünlerin eski ve yeni hâllerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıda bazı ürünlerin eski hâlleri verilmiştir. Bunları, aynı işi yapan yeni hâlleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Evde bir yere sabit duran, kablolu telefon"},
+            {"no": 2, "metin_md": "Gaz lambası ya da mum"},
+            {"no": 3, "metin_md": "Elle yazı yazılan mektup, postayla gönderilir"},
+            {"no": 4, "metin_md": "Tuşlarına basılarak kâğıda yazı yazılan daktilo"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bilgisayarda yazı yazma"},
+            {"harf": "B", "metin_md": "Her yere taşınabilen, kablosuz akıllı telefon"},
+            {"harf": "C", "metin_md": "Elektrikle çalışan, uzun ömürlü LED ampul"},
+            {"harf": "D", "metin_md": "Telefon veya bilgisayardan anında gönderilen mesaj"},
+            {"harf": "E", "metin_md": "Yiyecekleri soğuk tutup bozulmasını önleyen buzdolabı"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "D", "4": "A"},
+          "cozum_md": "1) Sabit, kablolu telefonun yerini bugün her yere taşınabilen kablosuz akıllı telefon almıştır → B. 2) Gaz lambası/mumun yerini elektrikle çalışan LED ampul almıştır → C. 3) Elle yazılıp postayla gönderilen mektubun yerini anında gönderilen mesaj almıştır → D. 4) Daktiloyla yazmanın yerini bilgisayarda yazmak almıştır → A. 'E' (buzdolabı) bu dört ürünle eşleşmeyen çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki metni okuyup boşlukları uygun kelimelerle doldurunuz.\n\n*\"İnsanlar günlük yaşamlarını kolaylaştırmak için teknolojik ürünler kullanır. Zaman geçtikçe bilim insanlarının çalışmaları sayesinde bu ürünler ____(1)____ ve daha kullanışlı hâle gelir. Eskiden kullanılan bir ürünle bugün kullanılan, aynı işi yapan ürün birbirinden ____(2)____ olabilir.\"*",
+          "gorsel": null,
+          "kelime_havuzu": ["gelişir", "farklı", "aynı", "eskir"],
+          "cevap": {"1": "gelişir", "2": "farklı"},
+          "cozum_md": "Teknolojik ürünler zamanla 'gelişir' ve daha kullanışlı hâle gelir. Eski ve yeni hâli aynı işi yapsa da görünüş, özellik gibi yönlerden 'farklı' olabilir. 'Aynı' ve 'eskir' metnin anlamıyla uyuşmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki bilgi metinlerini okuyup istenenleri yapınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki metni okuyunuz. Metinden bulduğunuz bilgilerle tabloyu tamamlayınız.\n\n*\"Eski telefonlar genellikle evde bir yerde sabit dururdu, kablosu vardı ve taşınamazdı; sadece konuşmaya yarardı. Günümüzde kullanılan akıllı telefonlar ise küçük, hafif ve kablosuzdur; her yere taşınabilir. Konuşmanın yanında mesaj göndermeye, fotoğraf çekmeye ve internete girmeye de yarar.\"*",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Özellik", "Eski Telefon", "Yeni (Akıllı) Telefon"],
+            "satirlar": [
+              ["Taşınabilirlik", "__?__", "Her yere taşınabilir"],
+              ["Bağlantı şekli", "__?__", "Kablosuz"],
+              ["Kullanım amacı", "Sadece konuşma", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Bir yerde sabit durur, taşınamaz",
+            "r1c1": "Kablolu",
+            "r2c2": "Konuşmanın yanında mesaj gönderme, fotoğraf çekme, internete girme gibi birçok iş"
+          },
+          "cozum_md": "Metinde eski telefonun 'sabit, kablolu, sadece konuşmaya yarayan' bir araç olduğu; yeni telefonun ise 'taşınabilir, kablosuz, konuşma dışında da birçok işe yarayan' bir araç olduğu anlatılır. Bu bilgiler ilgili hücrelere yazılır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Eskiden evler gaz lambası ya da mumla aydınlatılırdı. Bu ışık kaynakları çabuk sönebilir, yangın çıkarma tehlikesi taşır ve az ışık verirdi. Günümüzde evler, elektrikle çalışan LED ampullerle aydınlatılıyor. LED ampuller daha uzun ömürlü ve daha güvenlidir, ayrıca daha az enerji harcar.\n\nBu bilgilere göre, aşağıdakilerden hangisi **söylenemez**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "LED ampuller, gaz lambasına göre daha güvenlidir."},
+            {"harf": "B", "metin_md": "Aydınlatma teknolojisi zamanla gelişmiştir."},
+            {"harf": "C", "metin_md": "Gaz lambası, LED ampulden daha az enerji harcar."},
+            {"harf": "D", "metin_md": "LED ampuller gaz lambasına göre daha uzun süre kullanılabilir."}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Metne göre daha az enerji harcayan LED ampuldür, gaz lambası için böyle bir bilgi verilmemiştir; bu yüzden C ifadesi metinle desteklenmez ve söylenemez. A, B ve D ifadeleri doğrudan metinden çıkarılabilir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları verilen bilgileri ve kendi gözlemlerini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Eskiden çamaşırlar elde, sabun ve suyla ovularak yıkanırdı; bu iş çok zaman alır ve yorucu olurdu. Günümüzde ise çamaşırlar, elektrikle çalışan çamaşır makinesinde yıkanıyor; sadece düğmeye basmak yeterli oluyor ve daha az zaman alıyor.\n\nBuna göre eski ve yeni çamaşır yıkama yönteminin bir **benzer**, bir de **farklı** yönünü yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Benzer yön: İkisinde de amaç çamaşırları temizlemektir, su ve sabun/deterjan kullanılır. Farklı yön: Eskiden çamaşırlar elde yıkanırdı ve çok zaman/emek gerektirirdi; şimdi makineyle yıkanıyor, daha az zaman ve emek gerektiriyor.",
+            "kabul_kriterleri": [
+              "Amacın (temizlemenin) veya su/sabun kullanımının ortak olduğunu belirten bir benzer yön yazması",
+              "Yöntem, süre veya emek açısından doğru bir farklı yön yazması"
+            ]
+          },
+          "cozum_md": "Benzer yön olarak her iki yöntemde de çamaşırların temizlenmek istenmesi ve su/sabun-deterjan kullanılması söylenebilir. Farklı yön olarak elde yıkamanın zaman/emek gerektirmesi, makineyle yıkamanın ise daha hızlı ve kolay olması söylenebilir. Öğrencinin anlamca eşdeğer başka doğru yanıtları da kabul edilir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Evinde ya da çevrende gördüğün bir teknolojik ürünü düşün (örneğin televizyon, buzdolabı, bilgisayar, aydınlatma araçları...). Bu ürünün adını yaz. Sonra eski hâli ile bugünkü hâli arasında bir **benzer**, bir de **farklı** yön yazınız.",
+          "gorsel": {"betimleme": "Öğrencinin seçtiği ürünün eski ve yeni hâlini isterse çizebileceği, yazının altında iki küçük çerçeve (kutu) bırakılmalı. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Ürün: Televizyon. Benzer yön: İkisi de görüntü izlemeyi sağlar. Farklı yön: Eski televizyonlar büyük, ağır ve renksizdi; yeni televizyonlar ince, hafif ve renkli görüntü sunuyor.",
+            "kabul_kriterleri": [
+              "Bir teknolojik ürün adı belirtmesi",
+              "O ürünün eski ve yeni hâli için en az bir doğru benzer ve bir doğru farklı yön yazması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin seçtiği ürünün amacının/işlevinin genelde aynı kaldığını (benzer yön), görünüş/özellik/kullanım kolaylığı gibi bir noktada değiştiğini (farklı yön) doğru biçimde belirtmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

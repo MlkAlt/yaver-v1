@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sağlığımı Nasıl Korurum?",
+    "kazanim": {
+      "kod": "HB.3.2.1",
+      "ad": "Sağlığını korumaya yönelik davranışlarını düzenleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Sağlığını korumaya yönelik davranışları fark eder.",
+        "b": "Sağlığını korumak için uygun olmayan davranışlarında değişiklik yapar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 3. Sınıf 2. Öğrenme Alanı (Sağlığım ve Güvenliğim) ünite sayfası incelendi; kazanımın b bileşeninin uyku düzeni, dengeli beslenme, ağız-diş sağlığı, mevsimine göre giyinme ve kişisel temizlik konularına odaklandığı doğrulandı.",
+      "notlar": [
+        "validate_worksheet.py alan-yoğun tip sayısı için WARN veriyor (3 adet: dogru_yanlis, eslestirme, tablo_doldurma — her biri tek örnekte). Gerçek render_html.py ölçümünde öğrenci kısmı yine de 1 A4 sayfaya sığdı, bu yüzden bilinçli olarak kabul edildi.",
+        "Bağımsız crosscheck (subagent yok, ayrı geçişte kendim uyguladım): tüm sorular cevap anahtarına bakmadan çözüldü, sonuçlar anahtarla birebir uyuştu (s5 sıralaması dahil). qa_rubric.md K1-K6 kontrollerinde kritik sorun bulunmadı; karar: onay."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeleri okuyunuz ve doğru ya da yanlış olduğuna karar veriniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler sağlığımızı koruyan davranışlarla ilgilidir.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Her gün aynı saatte uyumak, sağlığımızı korumaya yardımcı olur.", "cevap": true, "gerekce_md": "Düzenli uyku, vücudun dinlenmesini ve sağlıklı büyümesini sağlar."},
+            {"no": 2, "metin_md": "Dişlerimizi sadece hafta sonu fırçalamamız yeterlidir.", "cevap": false, "gerekce_md": "Ağız ve diş sağlığı için dişler sabah ve akşam olmak üzere her gün fırçalanmalıdır."},
+            {"no": 3, "metin_md": "Kışın ince giysilerle dışarı çıkmak sağlığımıza zarar verebilir.", "cevap": true, "gerekce_md": "Mevsimine uygun giyinmemek, üşütmeye ve hastalanmaya yol açabilir."},
+            {"no": 4, "metin_md": "Yemekten önce ellerimizi yıkamamıza gerek yoktur.", "cevap": false, "gerekce_md": "Kirli ellerle yemek yemek, mikropların vücuda girmesine ve hastalanmaya neden olabilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — düzenli uyku sağlığı korur. 2) Yanlış — dişler her gün fırçalanmalı. 3) Doğru — mevsimine uygun giyinmemek zararlıdır. 4) Yanlış — yemekten önce eller mutlaka yıkanmalıdır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki davranışları ilgili olduğu sağlık alanı ile eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Her gece erken saatte yatmak"},
+            {"no": 2, "metin_md": "Sebze ve meyve ağırlıklı beslenmek"},
+            {"no": 3, "metin_md": "Sabah ve akşam diş fırçalamak"},
+            {"no": 4, "metin_md": "Kışın kalın, yazın ince giysiler giymek"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Uyku düzeni"},
+            {"harf": "B", "metin_md": "Dengeli beslenme"},
+            {"harf": "C", "metin_md": "Ağız ve diş sağlığı"},
+            {"harf": "D", "metin_md": "Mevsimine göre giyinme"},
+            {"harf": "E", "metin_md": "Kişisel temizlik"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Erken yatmak uyku düzenine katkı sağlar. 2-B: Sebze-meyve dengeli beslenmenin parçasıdır. 3-C: Diş fırçalamak ağız-diş sağlığını korur. 4-D: Mevsime uygun giyinmek soğuk/sıcaktan korur. (E seçeneği bu turda kullanılmamıştır.)"
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi sağlığı koruyan bir davranıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ellerini yıkamadan yemek yemek"},
+            {"harf": "B", "metin_md": "Her gün aynı saatte uyumaya çalışmak"},
+            {"harf": "C", "metin_md": "Gece geç saatlere kadar ekran başında kalmak"},
+            {"harf": "D", "metin_md": "Sadece canı istediğinde diş fırçalamak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Düzenli uyku saatleri sağlığı korur; diğer seçenekler sağlığa zarar veren davranışlardır."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri sağlık alanına ya da örnek davranışa uygun şekilde doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sağlık Alanı", "Sağlıklı Davranış Örneği"],
+            "satirlar": [
+              ["Uyku düzeni", "__?__"],
+              ["Dengeli beslenme", "Sebze, meyve ve tahıllarla beslenmek"],
+              ["__?__", "Sabah ve akşam diş fırçalamak"],
+              ["Mevsimine göre giyinme", "__?__"],
+              ["Kişisel temizlik", "Eller kirlendiğinde sabunla yıkamak"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Her gece erken yatıp yeterince uyumak",
+            "r2c0": "Ağız ve diş sağlığı",
+            "r3c1": "Kışın kalın, yazın ince giysiler giymek"
+          },
+          "cozum_md": "Tablodaki boşluklar, kazanımda geçen beş sağlık alanına (uyku düzeni, dengeli beslenme, ağız-diş sağlığı, mevsimine göre giyinme, kişisel temizlik) uygun örneklerle doldurulur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki etkinlikleri yaparken sağlıklı davranışları düşününüz.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki davranışları sağlıklı bir günün akışına göre 1'den 4'e kadar sıralayınız.",
+          "gorsel": null,
+          "ogeler": [
+            "Akşam erken saatte uyumaya hazırlanır",
+            "Uyandığında dişlerini fırçalar",
+            "Okulda ellerini yıkayarak yemek yer",
+            "Dengeli bir kahvaltı yapar"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 2, 0]},
+          "cozum_md": "Sağlıklı bir günün akışı: önce dişlerini fırçalar (2. öge), sonra kahvaltı yapar (4. öge), okulda ellerini yıkayarak yemek yer (3. öge), akşam erken saatte uyumaya hazırlanır (1. öge). Bu nedenle doğru sıra: 2-4-3-1 (indeks: 1,3,2,0)."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Mert her gece geç saatlere kadar tablet ile oynuyor ve sabah okula çok yorgun gidiyor. Mert'in sağlığını korumak için hangi davranışını, nasıl değiştirmesi gerektiğini yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Mert, gece geç saatlere kadar tabletle oynama davranışını değiştirmelidir. Tableti akşam erken saatte bırakıp örneğin saat 21:00'de yatağa girmelidir. Böylece yeterli ve düzenli uyku alarak sabah dinç uyanır.",
+            "kabul_kriterleri": [
+              "Mert'in sağlıksız davranışını doğru belirtmesi (geç saatte tablet/ekran kullanımı, düzensiz uyku)",
+              "Bu davranışın yerine geçecek somut, sağlıklı bir davranış önermesi (erken yatma, uyku düzeni kurma)"
+            ]
+          },
+          "cozum_md": "Kazanımın b bileşeni gereği öğrenci, uygun olmayan bir davranışı (geç saatte ekran kullanımı) tanıyıp yerine sağlıklı bir davranış (erken ve düzenli uyku) önermelidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Sağlığını korumak için değiştirmek istediğin bir davranışını yaz. Bu davranışı nasıl değiştireceğini kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bazen yemekten önce ellerimi yıkamayı unutuyorum. Bundan sonra sofraya oturmadan önce mutlaka sabunla ellerimi yıkayacağım.",
+            "kabul_kriterleri": [
+              "Uyku, beslenme, ağız-diş sağlığı, giyinme ya da kişisel temizlik alanlarından birine ait gerçekçi bir davranış belirtmesi",
+              "Bu davranışı nasıl değiştireceğine dair somut bir plan yazması"
+            ]
+          },
+          "cozum_md": "Bu soru bireysel yansıtmaya dayalıdır; kesin bir 'doğru cevap' yoktur. Öğrencinin beş sağlık alanından birine ait gerçekçi bir davranış ve değişim planı yazması yeterlidir."
+        }
+      ]
+    }
+  ]
+}

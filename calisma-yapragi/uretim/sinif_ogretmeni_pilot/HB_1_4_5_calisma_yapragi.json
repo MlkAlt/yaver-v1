@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dinî Gün ve Bayramlarımız",
+    "kazanim": {
+      "kod": "HB.1.4.5",
+      "ad": "Dinî gün ve bayramlarda yaşadığı duyguları ifade edebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Dinî gün ve bayramlarda yaşadığı duyguları ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 4. Öğrenme Alanı ünite sayfası incelendi; kazanımın kapsamı dinî günler (Regaib, Miraç, Berat kandilleri, Kadir Gecesi, Aşure Günü) ve dinî bayramlar (Ramazan Bayramı, Kurban Bayramı) olarak doğrulandı; öğretim yaklaşımı (duygu paylaşımı, video/hikâye/şiir, pano çalışması, resim/şiir ürünleri) sorulara yansıtıldı.",
+      "notlar": [
+        "Kazanımın 'aciklama' alanı veri kaynağında NULL — süreç bileşenleri ayrıştırılmamış. Kardeş kazanım HB.1.4.4 ile aynı yöntemle, kazanımın 'ad' metni tek bileşen ('a') olarak kullanıldı; tüm sorular 'a' etiketiyle işaretlendi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dinî gün ve bayramlarımızı düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ramazan Bayramı ve Kurban Bayramı, dinî bayramlarımızdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Kadir Gecesi, dinî günlerimizden biridir.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Dinî bayramlarda üzgün ve mutsuz oluruz.", "cevap": false, "gerekce_md": "Dinî bayramlarda sevinç, mutluluk ve huzur gibi güzel duygular yaşarız."},
+            {"no": 4, "metin_md": "Aşure Günü'nde aşure tatlısı yapılıp komşularla paylaşılır.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "1) Doğru — Ramazan Bayramı ve Kurban Bayramı dinî bayramlarımızdır. 2) Doğru — Kadir Gecesi dinî günlerimizden biridir. 3) Yanlış — dinî bayramlarda sevinç ve mutluluk duyarız, üzülmeyiz. 4) Doğru — Aşure Günü'nde aşure yapılıp paylaşılır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Dinî gün ve bayramları, doğru açıklamayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ramazan Bayramı"},
+            {"no": 2, "metin_md": "Kurban Bayramı"},
+            {"no": 3, "metin_md": "Kadir Gecesi"},
+            {"no": 4, "metin_md": "Aşure Günü"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kurban kestiğimiz bayram"},
+            {"harf": "B", "metin_md": "Şeker ve ikramların paylaşıldığı bayram"},
+            {"harf": "C", "metin_md": "Kur'an'ın indirilmeye başladığı kutsal gece"},
+            {"harf": "D", "metin_md": "Aşure tatlısının komşularla paylaşıldığı gün"},
+            {"harf": "E", "metin_md": "Yılbaşı kutlaması"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "Ramazan Bayramı → şeker ve ikramların paylaşıldığı bayram (B). Kurban Bayramı → kurban kestiğimiz bayram (A). Kadir Gecesi → Kur'an'ın indirilmeye başladığı kutsal gece (C). Aşure Günü → aşure tatlısının komşularla paylaşıldığı gün (D). 'E' seçeneği (Yılbaşı kutlaması) dinî bir gün/bayram olmadığı için bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dinî gün ve bayramlarda yaşadığımız duyguları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Oruç ayının sonunda kutladığımız bayrama ____(1)____ Bayramı denir. Bu günde kalbimizde büyük bir ____(2)____ duygusu hissederiz. Büyüklerimizin elini öper, onlarla ____(3)____ oluruz.",
+          "gorsel": null,
+          "kelime_havuzu": ["Ramazan", "sevinç", "mutlu", "üzüntü", "korku"],
+          "cevap": {"1": "Ramazan", "2": "sevinç", "3": "mutlu"},
+          "cozum_md": "Oruç ayının sonunda Ramazan Bayramı kutlanır (1). Dinî bayramlarda sevinç duyarız (2) ve bu günler bizi mutlu eder (3). 'Üzüntü' ve 'korku' bu duyguları anlatmadığı için kullanılmaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Kurban Bayramı'nda ailemizle birlikte olduğumuzda genellikle nasıl hissederiz?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mutlu ve sevgi dolu"},
+            {"harf": "B", "metin_md": "Kızgın ve öfkeli"},
+            {"harf": "C", "metin_md": "Korkmuş ve endişeli"},
+            {"harf": "D", "metin_md": "Üzgün ve yalnız"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Kurban Bayramı'nda ailece bir araya gelmek, büyüklerin elini öpmek ve ikram paylaşmak çocuklarda mutluluk ve sevgi duygusu uyandırır. Diğer seçenekler bu bayramın ruhuna uymayan olumsuz duygulardır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi dinî günlerimizden biri DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kadir Gecesi"},
+            {"harf": "B", "metin_md": "Aşure Günü"},
+            {"harf": "C", "metin_md": "23 Nisan"},
+            {"harf": "D", "metin_md": "Regaib Kandili"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "23 Nisan bir millî bayramdır, dinî gün değildir. Kadir Gecesi, Aşure Günü ve Regaib Kandili dinî günlerimizdendir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi duygu ve deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Katıldığın bir dinî bayramda neler hissettin? Bir iki cümleyle anlat. (İstersen o günü aşağıya resmedebilirsin.)",
+          "gorsel": {"betimleme": "Öğrencinin çizim yapabilmesi için sayfanın altında boş, çerçeveli bir kutu bırakılmalı; kutunun içine ipucu olarak bayram ikramı ve aile bir aradalığını ima eden ince bir çizgi eskizi konabilir. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Bayram sabahı büyüklerimin elini öptüğümde çok sevindim ve mutlu oldum.",
+            "kabul_kriterleri": [
+              "Bir duygu adı kullanmış olması (sevinç, mutluluk, heyecan vb.)",
+              "Dinî bir gün/bayramla ilişkili bir durumdan söz etmesi (bayramlaşma, aşure, kandil vb.)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin en az bir duygu ifadesi kullanması ve bunu bir dinî gün/bayram deneyimiyle ilişkilendirmesi beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sence dinî bayramlar neden önemlidir? Bir cümleyle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Dinî bayramlar, sevdiklerimizle bir arada olup birbirimize sevgi gösterdiğimiz için önemlidir.",
+            "kabul_kriterleri": [
+              "Bayramı bir değerle ilişkilendirmesi (sevgi, paylaşma, birlik vb.)",
+              "Cümlenin anlaşılır ve 1. sınıf düzeyine uygun olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin dinî bayramların önemini sevgi, paylaşma veya birlik gibi bir değerle ilişkilendirmesi yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

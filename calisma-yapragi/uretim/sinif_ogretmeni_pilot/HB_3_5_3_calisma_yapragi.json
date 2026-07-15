@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Afetlere Yönelik Yapılması Gerekenler",
+    "kazanim": {
+      "kod": "HB.3.5.3",
+      "ad": "Afetlere yönelik yapılması gerekenleri sınıflandırabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Afet öncesinde yapılması gereken hazırlıkları belirler.",
+        "b": "Afet sırasında yapılması gereken güvenli davranışları açıklar.",
+        "c": "Afet sonrasında yapılması gerekenleri ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Kazanımın 'aciklama' alanı veri kaynağında boştu; 'ad' alanındaki tam kazanım cümlesi ('...afet öncesi, sırası ve sonrasında yapılması gerekenler olarak ayırt eder') temel alındı. MEB 3. Sınıf Hayat Bilgisi ders kitabı (Güvenli Hayat/Doğa ve Çevre üniteleri, mufredat.meb.gov.tr) ve OGM/EBA afet eğitimi kaynakları web araştırmasıyla tarandı: deprem çantası (su, fener, düdük, ilk yardım malzemeleri), ağır eşyaların sabitlenmesi (afet öncesi); çök-kapan-tutun pozisyonu, asansör kullanılmaması, pencereden uzak durma (afet sırası); gaz vanası kapatma, sakin binadan çıkma, aile toplanma alanına gitme (afet sonrası) içerikleri doğrulandı.",
+      "notlar": [
+        "Kaynak veri dosyasında bu kazanımın 'aciklama' alanı null idi; süreç bileşenleri (a/b/c) kazanımın tam cümlesinden (öncesi/sırası/sonrası ayrımı) ve web araştırmasından türetildi, resmi MEB açıklama metniyle birebir eşleşmeyebilir — insan kontrolünde önceliklendirilmeli.",
+        "Bağımsız crosscheck (subagent olmadan, manuel prosedürle: qa_rubric.md K1-K6) uygulandı — tüm sorular cevap anahtarına bakılmadan ayrıca çözüldü, uyuşmazlık bulunmadı. Karar: onay, kritik sorun yok."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Deprem gibi bir afete hazırlıklı olmak için evimizde **önceden** yapmamız gereken en doğru hazırlık aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Deprem olduktan sonra bir çanta hazırlamaya başlamak"},
+            {"harf": "B", "metin_md": "Ağır dolapları duvara sabitlemeden istediğimiz yere koymak"},
+            {"harf": "C", "metin_md": "Evde su, fener, düdük ve ilk yardım malzemeleri olan bir afet çantası hazırlayıp kolay ulaşılan bir yerde bulundurmak"},
+            {"harf": "D", "metin_md": "Ne yapacağımızı sarsıntı başladığında düşünmek"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Afet öncesi hazırlık, sarsıntı başlamadan **önce** yapılır. Su, fener, düdük ve ilk yardım malzemeleri içeren bir afet ve acil durum çantası önceden hazırlanıp kolay ulaşılabilecek bir yerde tutulmalıdır. Bu yüzden doğru cevap C'dir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerden doğru olanlara **D**, yanlış olanlara **Y** yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Deprem sırasında sağlam bir masanın altına çökmeli, başımızı ve boynumuzu elimizle korumalıyız.", "cevap": true, "gerekce_md": "Bu davranış \"Çök-Kapan-Tutun\" kuralına uygundur ve doğrudur."},
+            {"no": 2, "metin_md": "Deprem sırasında hemen asansöre binip aşağı inmeliyiz.", "cevap": false, "gerekce_md": "Asansör deprem sırasında durup içeride sıkışmaya yol açabileceği için kesinlikle kullanılmamalıdır."},
+            {"no": 3, "metin_md": "Sarsıntı olurken pencerelerden ve camlardan uzak durmalıyız.", "cevap": true, "gerekce_md": "Kırılan camlar yaralanmaya yol açabileceği için pencerelerden uzak durulmalıdır."},
+            {"no": 4, "metin_md": "Deprem sırasında bağırıp koşarak hemen dışarı çıkmaya çalışmalıyız.", "cevap": false, "gerekce_md": "Sarsıntı sürerken koşmak düşüp yaralanmaya sebep olabilir; sakin kalıp güvenli bir noktada çök-kapan-tutun yapılmalıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Deprem sırasında güvenli davranış; sağlam bir eşyanın altına çökmek, başı korumak ve sakin kalmaktır. Asansöre binmek ve koşarak dışarı çıkmaya çalışmak tehlikeli olduğu için yanlıştır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki etkinlikleri tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 25,
+          "govde_md": "Bir deprem **sonrasında** karşılaşabileceğin durumları, yapılması gereken doğru davranışlarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Evde gaz kokusu hissedersen"},
+            {"no": 2, "metin_md": "Sarsıntı tamamen bittiğinde"},
+            {"no": 3, "metin_md": "Ailenle bir arada değilsen"},
+            {"no": 4, "metin_md": "Evde hasar olup olmadığını kontrol ederken"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Pencereleri aç, gaz vanasını kapat, kibrit veya çakmak yakma"},
+            {"harf": "B", "metin_md": "Ailece önceden kararlaştırılan toplanma alanına git"},
+            {"harf": "C", "metin_md": "Kırık cam ve düşme tehlikesi olan eşyalara karşı dikkatli ol"},
+            {"harf": "D", "metin_md": "Sakince binadan çıkıp açık bir alana geç"},
+            {"harf": "E", "metin_md": "Hemen eve geri dönüp eşyalarını toplamaya başla"}
+          ],
+          "cevap": {"1": "A", "2": "D", "3": "B", "4": "C"},
+          "cozum_md": "Gaz kokusu varsa vana kapatılıp pencere açılır (A). Sarsıntı bitince bina sakince terk edilir (D). Aile bir arada değilse önceden belirlenen toplanma alanına gidilir (B). Hasar kontrolünde kırık cam/düşen eşyalara dikkat edilir (C). E seçeneği çeldiricidir; sarsıntı tekrarlayabileceği için hemen eve dönmek güvenli değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki cümleleri kutudaki kelimelerle tamamlayınız.\n\n1) Evimizde olası bir afete hazırlıklı olmak için önceden bir afet ve acil durum ____(1)____ hazırlamalıyız.\n\n2) Bu çantada su, fener, düdük ve ____(2)____ malzemeleri bulunmalıdır.\n\n3) Devrilip yaralanmaya yol açmaması için ağır dolap ve kitaplıkları duvara ____(3)____ gerekir.",
+          "gorsel": null,
+          "kelime_havuzu": ["çantası", "ilk yardım", "sabitlemek", "toplanma alanı", "panik"],
+          "cevap": {"1": "çantası", "2": "ilk yardım", "3": "sabitlemek"},
+          "cozum_md": "Afet öncesi hazırlıkta bir afet çantası hazırlanır (su, fener, düdük, ilk yardım malzemeleri içerir) ve ağır eşyalar devrilmemesi için duvara sabitlenir. \"Toplanma alanı\" ve \"panik\" kelimeleri bu cümlelerde kullanılmadığı için çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir deprem yaşandığında yapılması gereken davranışları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Sarsıntı bitince binadan sakince çıkmak",
+            "Deprem başlar başlamaz çök-kapan-tutun pozisyonu almak",
+            "Ailece önceden belirlenen toplanma alanına gitmek",
+            "Sarsıntı sürerken güvenli noktada sakin kalmak"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Deprem sırasında ilk yapılması gereken çök-kapan-tutun pozisyonu almaktır (1. adım). Sarsıntı sürerken bu pozisyonda sakin kalınır (2. adım). Sarsıntı tamamen bitince bina sakince terk edilir (3. adım). Son olarak ailece önceden belirlenen toplanma alanına gidilir (4. adım)."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir deprem sonrasında ailenle hemen buluşamadığını düşün. Böyle bir durumda ne yapman gerektiğini ve önceden bir toplanma/buluşma yeri belirlemenin neden önemli olduğunu 2-3 cümleyle yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ailemle önceden belirlediğimiz toplanma alanına giderim ve orada beklerim. Herkes farklı yerlerde birbirini aramak yerine aynı yere gidersek birbirimizi daha kolay ve hızlı buluruz. Bu yüzden afet öncesinden bir buluşma yeri kararlaştırmak, aile bireylerinin birbirini kaybetmemesi için önemlidir.",
+            "kabul_kriterleri": [
+              "Önceden belirlenmiş toplanma/buluşma alanına gitme fikrini içermesi",
+              "Bunun neden (birbirini bulma/güven içinde olma) önemli olduğunu açıklaması"
+            ]
+          },
+          "cozum_md": "Örnek cevapta olduğu gibi, aile üyelerinin afet sonrası birbirini kolayca bulabilmesi için önceden bir toplanma alanı belirlenmiş olması gerekir."
+        }
+      ]
+    }
+  ]
+}

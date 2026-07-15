@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bazı Araç Gereçlerin Elektrikli Olduğuna İlişkin Bilimsel Çıkarım Yapıyorum",
+    "kazanim": {
+      "kod": "FB.3.6.1",
+      "ad": "Bazı araç gereçlerin elektrikli olduğuna ilişkin bilimsel çıkarım yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "6. ÜNİTE: YAŞAMIMIZI KOLAYLAŞTIRAN ELEKTRİK",
+      "surec_bilesenleri": {
+        "a": "Farklı araç gereçlerin niteliklerini tanımlar.",
+        "b": "Elektrikli araç gereçlerle ilgili veri toplayarak kaydeder.",
+        "c": "Elektrikli araç gereçlerle ilgili verileri değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 6. Ünite (Yaşamımızı Kolaylaştıran Elektrik) program sayfası incelendi: ünitenin üç kazanımından biri olan bu kazanımın 'araç gereçlerin niteliklerini tanımlama → veri toplama → veri değerlendirme' sıralı süreç bileşenlerine sadık kalındı. Kaynakta özellikle vurgulanan nüans (pille çalışan araçların da elektrikli sayılması) s1, s2 ve s3'te doğrudan işlendi. Ders kitabı örnek listesi (aydınlatma, temizlik, iletişim-eğlence, ısıtma-soğutma cihazları) web taramasından (ders.bilimsenligi.com, fenokulu.net özetleri) doğrulanarak günlük hayattan somut örneklerle (çamaşır makinesi, el feneri, makas, cetvel vb.) eşleştirildi.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: s1-s7 tüm cevaplar cevap anahtarıyla uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki boşluk doldurma ve doğru-yanlış sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1. Çalışmak için elektrik enerjisine ihtiyaç duyan araç gereçlere ____(1)____ araç gereç denir.\n2. Pille çalışan bir el feneri de bir ____(2)____ araç gereçtir; çünkü çalışmak için enerjiye ihtiyaç duyar.\n3. Makas gibi elektriğe ihtiyaç duymadan elimizle kullandığımız araçlara ____(3)____ araç gereç denir.\n4. Bir araç gerecin elektrikli olup olmadığını anlamak için önce onun nasıl çalıştığını ____(4)____.",
+          "gorsel": null,
+          "kelime_havuzu": ["elektrikli", "elektrikli olmayan", "gözlemleriz", "ağır", "renkli"],
+          "cevap": {"1": "elektrikli", "2": "elektrikli", "3": "elektrikli olmayan", "4": "gözlemleriz"},
+          "cozum_md": "(1) elektrikli — çalışmak için elektrik enerjisine ihtiyaç duyar. (2) elektrikli — pil de elektrik enerjisi sağladığı için pille çalışan araçlar elektriklidir. (3) elektrikli olmayan — elektriğe ihtiyaç duymadan elle kullanılır. (4) gözlemleriz — bir aracın elektrikli olup olmadığını anlamanın ilk yolu onu gözlemlemektir. 'Ağır' ve 'renkli' kelimeleri bu cümlelerde kullanılmayan çeldiricilerdir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Pille çalışan bir el feneri elektrikli araç gereç değildir.", "cevap": false, "gerekce_md": "Pil de elektrik enerjisi sağladığı için pille çalışan araçlar elektrikli araç gereçtir."},
+            {"no": 2, "metin_md": "Bir araç gerecin fişi ya da pili varsa çalışmak için elektrik enerjisine ihtiyaç duyuyor demektir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Süpürgeye yardımcı olarak kullanılan faraş ve fırça elektrikli araç gereçtir.", "cevap": false, "gerekce_md": "Faraş ve fırça elle kullanılır, çalışmak için elektrik enerjisine ihtiyaç duymaz."},
+            {"no": 4, "metin_md": "Bir buzdolabı, içindekileri sürekli soğuk tutabilmek için elektrik enerjisi kullanır.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1-Yanlış: Pille çalışan araçlar da elektrik enerjisi kullandığı için elektriklidir. 2-Doğru: Fiş ya da pil, elektrik enerjisi ihtiyacının işaretidir. 3-Yanlış: Faraş ve fırça elle kullanılır, enerjiye ihtiyaç duymaz. 4-Doğru: Buzdolabı sürekli çalışarak soğutma yapabilmek için elektrik enerjisi kullanır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda bazı araç gereçler ve onlarla ilgili gözlemler verilmiştir. Boş bırakılan hücreleri doldurarak veri tablosunu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Araç Gereç", "Elektrikli mi?", "Nasıl anladım (kanıt)"],
+            "satirlar": [
+              ["Çamaşır makinesi", "__?__", "Fişle prize takılıp çalışıyor"],
+              ["Makas", "Hayır", "__?__"],
+              ["El feneri (pilli)", "__?__", "Pille çalışıyor"],
+              ["Süpürge (kablolu)", "Evet", "__?__"],
+              ["Tahta kaşık", "Hayır", "Elle kullanılıyor, enerjiye ihtiyacı yok"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Evet",
+            "r1c2": "Elle sıkılıp kesme hareketi yapılıyor; prize veya pile ihtiyaç yok",
+            "r2c1": "Evet",
+            "r3c2": "Kabloyla prize takılıp çalışıyor"
+          },
+          "cozum_md": "Çamaşır makinesi ve süpürge (kablolu) prize takılarak, el feneri ise pille çalıştığı için ikisi de elektrik enerjisi kullanır, dolayısıyla elektriklidir. Makas ve tahta kaşık ise elle kullanılır, herhangi bir enerji kaynağına ihtiyaç duymaz; bu yüzden elektrikli değildir. Kanıt sütununda, aracın çalışması için neye ihtiyaç duyduğu (fiş, pil ya da sadece el) yazılmalıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki araç gereç gruplarından hangisinin tamamı elektriklidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Makas, cetvel, televizyon"},
+            {"harf": "B", "metin_md": "Buzdolabı, çamaşır makinesi, pilli el feneri"},
+            {"harf": "C", "metin_md": "Süpürge (pilsiz, kablosuz), tahta kaşık, fırça"},
+            {"harf": "D", "metin_md": "Bilgisayar, makas, ütü"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Buzdolabı ve çamaşır makinesi prize takılarak, pilli el feneri ise pille çalıştığı için üçü de elektrik enerjisi kullanır. A ve D seçeneklerinde makas; C seçeneğinde ise pilsiz kablosuz süpürge (elle sıkıştırma ile çalışan tür), tahta kaşık ve fırça elektrikli değildir; bu yüzden gruplar tamamen elektrikli sayılmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıftaki araç gereçlerin elektrikli olup olmadığını araştırmak isteyen bir öğrencinin izlediği adımlar karışık verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Elde ettiğim sonuçları arkadaşlarımla karşılaştırırım.",
+            "Sınıftaki araç gereçleri tek tek incelerim.",
+            "Her aracın elektrikli olup olmadığını bir tabloya kaydederim.",
+            "İncelediğim araçların nasıl çalıştığını gözlemlerim."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 2, 0]},
+          "cozum_md": "Veri toplama süreci şu sırayla ilerler: önce araçlar tek tek incelenir, sonra her birinin nasıl çalıştığı (fişle mi, pille mi, elle mi) gözlemlenir, ardından sonuçlar bir tabloya kaydedilir ve en sonunda elde edilen sonuçlar arkadaşlarla karşılaştırılarak veri değerlendirilir. Doğru sıra: 'İncelerim' → 'Gözlemlerim' → 'Kaydederim' → 'Karşılaştırırım'."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Öğretmeni, sınıfça topladıkları verileri tahtaya yazdırıyor:\n\n| Araç Gereç | Çalışması için gereken şey | Gözlem |\n|---|---|---|\n| Masa lambası | Fişle prize takılıyor | Işık veriyor, fişi çekilince sönüyor |\n| Cetvel | Hiçbir şeye ihtiyaç yok | Sadece çizim yapmaya yarıyor |\n| Oyuncak araba (pilli) | İçine pil takılıyor | Pil bitince durdu |\n\nBu verilere göre masa lambası ile pilli oyuncak arabanın elektrikli araç gereç olduğunu, cetvelin ise olmadığını bilimsel bir çıkarımla açıklayınız. Açıklamanızda **\"enerji\"** kelimesini kullanınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Masa lambası ve pilli oyuncak araba çalışmak için elektrik enerjisine ihtiyaç duyar; biri bu enerjiyi prizden, diğeri pilden alır. Enerjileri kesilince ya da bitince çalışmayı durdururlar. Cetvel ise hiçbir enerjiye ihtiyaç duymadan sadece elle kullanılır; bu yüzden elektrikli araç gereç değildir.",
+            "kabul_kriterleri": ["Masa lambası ve oyuncak arabanın enerji ihtiyacını (priz/pil) belirtmesi", "Cetvelin enerjiye ihtiyaç duymadığını belirtmesi", "'enerji' kelimesinin kullanılması", "Verilere dayanarak gerekçelendirme yapması"]
+          },
+          "cozum_md": "Tablodaki verilere göre masa lambası fişle prize takılınca çalışıyor ve fiş çekilince sönüyor; bu, elektrik enerjisine ihtiyaç duyduğunun kanıtıdır. Oyuncak araba ise içine pil takılınca çalışıyor, pil bitince duruyor; bu da pilin sağladığı elektrik enerjisine ihtiyaç duyduğunu gösterir. Cetvel ise hiçbir enerji kaynağına ihtiyaç duymadan sadece elle kullanılıyor, bu yüzden elektrikli değildir."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir araç gerecin çalışması için pil takılması ya da prize bağlanması gerekiyorsa, bu araç gereçle ilgili hangi bilimsel çıkarımı yapabiliriz?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Araç gereç ağırdır."},
+            {"harf": "B", "metin_md": "Araç gereç elektrik enerjisine ihtiyaç duyar."},
+            {"harf": "C", "metin_md": "Araç gereç sadece evde kullanılır."},
+            {"harf": "D", "metin_md": "Araç gereç renklidir."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Pil takılması ya da prize bağlanması, o aracın çalışmak için elektrik enerjisine ihtiyaç duyduğunun kanıtıdır; bu da onun elektrikli bir araç gereç olduğu çıkarımını sağlar. Ağırlık, kullanım yeri ve renk, elektrikli olup olmadığıyla ilgili bir kanıt değildir."
+        }
+      ]
+    }
+  ]
+}

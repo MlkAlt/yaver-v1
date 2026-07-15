@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Okulumuzu Tanıyalım",
+    "kazanim": {
+      "kod": "HB.1.1.2",
+      "ad": "Okul ortamını tanıyabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Kendisi için yeni olan sınıfını, okulunun bölümlerini ve okul çalışanlarını fark eder.",
+        "b": "Okul ortamına ve çalışanlarına ilişkin gözlemlerini ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "TYMM Hayat Bilgisi 1. sınıf 'Ben ve Okulum' teması ve genel 1. sınıf Hayat Bilgisi kaynakları (okulun bölümleri: kütüphane, kantin, spor salonu, öğretmenler odası, rehberlik servisi, tuvalet; okul çalışanları: okul müdürü, sınıf öğretmeni, rehber öğretmen, temizlik görevlisi, kantin çalışanı) incelendi; terminoloji buna göre seçildi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okulunu düşünerek yanıtla.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Boşlukları kelime havuzundan uygun kelimelerle doldur.\n\nKitap okuduğumuz yere ____(1)____ denir. Yemek ve içecek aldığımız yere ____(2)____ denir. Elimizi yıkamak istediğimizde ____(3)____ ye gideriz.",
+          "kelime_havuzu": ["kütüphane", "kantin", "tuvalet", "bahçe"],
+          "gorsel": null,
+          "cevap": {"1": "kütüphane", "2": "kantin", "3": "tuvalet"},
+          "cozum_md": "Kitap okuduğumuz yer kütüphanedir. Yiyecek ve içecek aldığımız yer kantindir. El yıkamak için tuvalete gideriz. 'Bahçe' bu üç cümleden hiçbirine uymadığı için kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Okul çalışanlarını yaptıkları işle eşleştir.",
+          "sol": [
+            {"no": 1, "metin_md": "Okul Müdürü"},
+            {"no": 2, "metin_md": "Sınıf Öğretmeni"},
+            {"no": 3, "metin_md": "Temizlik Görevlisi"},
+            {"no": 4, "metin_md": "Kantin Çalışanı"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bize ders anlatır."},
+            {"harf": "B", "metin_md": "Okulu temiz tutar."},
+            {"harf": "C", "metin_md": "Okulu yönetir."},
+            {"harf": "D", "metin_md": "Yiyecek ve içecek satar."},
+            {"harf": "E", "metin_md": "Trafik ışıklarını çalıştırır."}
+          ],
+          "gorsel": null,
+          "cevap": {"1": "C", "2": "A", "3": "B", "4": "D"},
+          "cozum_md": "Okul müdürü okulu yönetir (C). Sınıf öğretmeni bize ders anlatır (A). Temizlik görevlisi okulu temiz tutar (B). Kantin çalışanı yiyecek ve içecek satar (D). 'Trafik ışıklarını çalıştırır' (E) hiçbir okul çalışanının görevi olmadığı için kullanılmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle oku ve yanıtla.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi okulun bir bölümü **değildir**?",
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kütüphane"},
+            {"harf": "B", "metin_md": "Spor Salonu"},
+            {"harf": "C", "metin_md": "Market"},
+            {"harf": "D", "metin_md": "Öğretmenler Odası"}
+          ],
+          "gorsel": null,
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Market okulun bir bölümü değildir; market okulun dışında, mahallemizde bulunan bir yerdir. Kütüphane, spor salonu ve öğretmenler odası ise okulun içindeki bölümlerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı? İşaretle.",
+          "ifadeler": [
+            {"no": 1, "metin_md": "Rehber öğretmen, öğrencilerin okula uyum sağlamasına yardımcı olur.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Spor salonunda kitap okuruz.", "cevap": false, "gerekce_md": "Kitap okumak için kütüphaneye gideriz; spor salonunda spor yaparız."},
+            {"no": 3, "metin_md": "Okul müdürü okulu yönetir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Temizlik görevlisi bize ders anlatır.", "cevap": false, "gerekce_md": "Bize ders anlatan kişi sınıf öğretmenimizdir; temizlik görevlisi okulu temizler."}
+          ],
+          "gorsel": null,
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. doğru: rehber öğretmenin görevi budur. 2. yanlış: kitap kütüphanede okunur. 3. doğru: okulu yöneten kişi okul müdürüdür. 4. yanlış: ders anlatan kişi sınıf öğretmenidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi okulunu ve sınıfını düşünerek yanıtla.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ayşe okula yeni başladı. Bir kitap okumak istiyor. Ayşe nereye gitmelidir?",
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kantin"},
+            {"harf": "B", "metin_md": "Kütüphane"},
+            {"harf": "C", "metin_md": "Spor Salonu"},
+            {"harf": "D", "metin_md": "Öğretmenler Odası"}
+          ],
+          "gorsel": null,
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kitap okumak için kütüphaneye gidilir. Kantine yemek için, spor salonuna spor yapmak için gidilir; öğretmenler odası ise öğretmenlerin dinlendiği bir yerdir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Okulunda en çok sevdiğin bölüm neresidir? Orada ne yaptığını yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "En çok kütüphaneyi seviyorum. Orada resimli kitaplar okuyorum.",
+            "kabul_kriterleri": [
+              "Okulun bir bölümünü doğru isimlendirmesi",
+              "O bölümde yaptığı bir etkinliği belirtmesi"
+            ]
+          },
+          "cozum_md": "Öğrenci, okulda gerçekten var olan bir bölümü (kütüphane, kantin, spor salonu, bahçe vb.) adlandırıp orada yaptığı bir etkinliği (kitap okuma, oynama, yemek yeme vb.) yazmalıdır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Sınıfında gördüğün iki eşyayı yaz. Bu eşyaları ne için kullandığını da anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sınıfımda tahta ve sıra var. Tahtaya öğretmenim yazı yazıyor, sırada ben oturup çalışıyorum.",
+            "kabul_kriterleri": [
+              "İki farklı sınıf eşyasını doğru isimlendirmesi",
+              "Her eşyanın kullanım amacını belirtmesi"
+            ]
+          },
+          "cozum_md": "Öğrenci, sınıfta gerçekten bulunan iki eşyayı (tahta, sıra, dolap, pano vb.) adlandırıp her birinin ne işe yaradığını kısaca anlatmalıdır."
+        }
+      ]
+    }
+  ]
+}

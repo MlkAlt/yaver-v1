@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çevre Dostu Bir Mahalle: Bilgi Toplayalım",
+    "kazanim": {
+      "kod": "HB.3.5.4",
+      "ad": "Çevresel sürdürülebilirliğe yönelik kaynaklardan bilgi toplayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Çevresel sürdürülebilirliğe yönelik kaynaklardan bilgileri bulur.",
+        "b": "Çevresel sürdürülebilirliğe yönelik bulduğu bilgileri kaydeder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 3. sınıf 5. Öğrenme Alanı (Doğa ve Çevre, ünite 324) sayfası incelendi: kazanımın kısa film/belgesel/animasyon gibi kaynaklardan bilgi toplama ve tablo/afiş/broşür/kavram haritası/zihin haritası gibi ürünlerle kaydetme sürecini kapsadığı, örnek konuların güneş panelleri, çevre dostu araçlar ve yeşil çatılar olduğu buradan doğrulandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Güneş panelleri, güneş ışığını elektriğe çevirerek enerji tasarrufu sağlar.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Yeşil çatılarda hiçbir bitki yetiştirilmez, sadece boya yapılır.", "cevap": false, "gerekce_md": "Yeşil çatılarda bitki yetiştirilir; bitkiler havayı temizlemeye yardımcı olur."},
+            {"no": 3, "metin_md": "Cam, kağıt ve plastik gibi atıkları ayrı kutulara atmak geri dönüşümü kolaylaştırır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Çevresel sürdürülebilirlikle ilgili bilgi toplarken kısa film, belgesel veya kitap gibi kaynaklardan yararlanılamaz.", "cevap": false, "gerekce_md": "Kısa film, belgesel, animasyon ve kitap gibi kaynaklardan bilgi toplanabilir; bunlar bilgi toplama sürecinin önemli kaynaklarıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1 ve 3. ifadeler çevre dostu uygulamaları doğru anlatır, bu yüzden doğrudur. 2. ifade yanlıştır çünkü yeşil çatılarda gerçekten bitki yetiştirilir. 4. ifade yanlıştır çünkü kısa film, belgesel ve kitap gibi kaynaklar bilgi toplamada tam olarak kullanılabilir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle tamamlayınız.\n\n1. Güneşin ışığını elektriğe çeviren araca ____(1)____ denir.\n2. Suyu gereksiz yere akıtmamaya, musluğu boşuna açık bırakmamaya ____(2)____ denir.\n3. Cam, kağıt ve plastik gibi atıkları yeniden kullanılabilir hale getirmeye ____(3)____ denir.\n4. Üzerinde bitki yetiştirilen, havayı temizlemeye yardımcı olan çatılara ____(4)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["güneş paneli", "su tasarrufu", "geri dönüşüm", "yeşil çatı", "hava kirliliği"],
+          "cevap": {"1": "güneş paneli", "2": "su tasarrufu", "3": "geri dönüşüm", "4": "yeşil çatı"},
+          "cozum_md": "Kelime havuzundaki 'hava kirliliği' bir çeldiricidir; cümlelerin anlamına en uygun kelimeler sırasıyla güneş paneli, su tasarrufu, geri dönüşüm ve yeşil çatıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki metni okuyunuz. Soruları metne göre cevaplayınız.\n\n**Çevre Dostu Bir Mahalle**\n\nAyşe'nin yaşadığı mahallede birçok evin çatısına güneş paneli takılmış. Bu paneller güneş ışığını elektriğe çevirir ve enerji tasarrufu sağlar. Bazı binaların çatısı ise yeşil çatı olarak düzenlenmiş; üzerinde bitkiler yetiştirilir ve bu bitkiler havayı temizlemeye yardımcı olur. Mahalledeki herkes çöplerini cam, kağıt ve plastik olarak ayrı kutulara atar; böylece geri dönüşüm kolaylaşır. Ayşe'nin ailesi bulaşık yıkarken suyu boşuna akıtmaz, diş fırçalarken musluğu kapatır. Ayşe okula giderken arabayla değil bisikletle gider; bu hem sağlığına hem çevreye iyi gelir.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Metne göre bazı binaların çatısına bitki yetiştirilmesinin sebebi nedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Çatının daha güzel görünmesini sağlamak"},
+            {"harf": "B", "metin_md": "Havayı temizlemeye yardımcı olmak"},
+            {"harf": "C", "metin_md": "Yağmur suyunu depolamak"},
+            {"harf": "D", "metin_md": "Güneş ışığını tamamen engellemek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Metinde yeşil çatılarda bitki yetiştirildiği ve bu bitkilerin havayı temizlemeye yardımcı olduğu açıkça belirtilmiştir. Doğru cevap B'dir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Metinde geçen çevre dostu uygulamaları ve bu uygulamaların sağladığı faydayı bularak tabloyu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Uygulama", "Sağladığı Fayda"],
+            "satirlar": [
+              ["Güneş paneli", "__?__"],
+              ["__?__", "Havayı temizlemeye yardımcı olur"],
+              ["Atıkları ayrı kutulara atmak", "__?__"],
+              ["__?__", "Suyun boşa harcanmasını önler"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Güneş ışığını elektriğe çevirir, enerji tasarrufu sağlar",
+            "r1c0": "Yeşil çatı",
+            "r2c1": "Geri dönüşümü kolaylaştırır",
+            "r3c0": "Musluğu gereksiz yere açık bırakmamak, suyu dikkatli kullanmak"
+          },
+          "cozum_md": "Metindeki her uygulama ile faydası eşleştirilerek tablo tamamlanır: güneş paneli enerji tasarrufu sağlar, yeşil çatı havayı temizler, atıkların ayrılması geri dönüşümü kolaylaştırır, suyun dikkatli kullanılması suyun boşa harcanmasını önler."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir konuda kaynaklardan bilgi toplarken izlenecek adımlar karışık verilmiştir. Doğru sıraya diziniz.",
+          "gorsel": null,
+          "ogeler": [
+            "Bulduğun bilgileri bir tabloya veya deftere kaydet.",
+            "Konuyla ilgili bir belgesel, kısa film ya da kitap bul.",
+            "İzlediğin ya da okuduğun kaynaktan önemli bilgileri seç.",
+            "Araştıracağın konunun ne olduğunu belirle."
+          ],
+          "cevap": {"dogru_sira": [3, 1, 2, 0]},
+          "cozum_md": "Önce araştırılacak konu belirlenir, sonra o konuyla ilgili bir kaynak (belgesel, kısa film, kitap) bulunur, ardından bu kaynaktan önemli bilgiler seçilir ve en son bu bilgiler bir tabloya veya deftere kaydedilir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Çevresel sürdürülebilirlikle ilgili topladığın bilgileri kaydetmek için tablo, afiş, broşür veya kavram haritasından birini seçsen hangisini seçerdin? Neden bu ürünü seçtiğini 2-3 cümleyle açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben afiş hazırlamayı seçerdim çünkü afişte hem yazı hem resim kullanarak bilgiyi kısa ve çekici biçimde gösterebilirim. Böylece arkadaşlarım da bilgileri kolayca okuyup öğrenebilir.",
+            "kabul_kriterleri": [
+              "Kaydetme ürünlerinden (tablo/afiş/broşür/kavram haritası/zihin haritası) birini açıkça seçmiş olması",
+              "Seçimini en az bir gerekçeyle açıklaması"
+            ]
+          },
+          "cozum_md": "Kabul edilir cevap, verilen ürünlerden birini seçip bu seçimi kaydetme amacına uygun bir gerekçeyle (görsel anlatım, kolay okunma, kısa ve öz olma vb.) desteklemelidir. Ürün seçilmeden sadece 'kaydederim' denmesi yeterli kabul edilmez."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Kendi evinde veya çevrende gördüğün, çevreyi korumaya yönelik bir uygulamayı yaz. Bu bilgiyi nasıl kaydedersin (nereye, hangi şekilde) kısaca belirt.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Evimizde kullanmadığımız odaların ışıklarını söndürüyoruz. Bu bilgiyi defterime küçük bir tablo yaparak, uygulamanın adını ve sağladığı faydayı yazarak kaydederim.",
+            "kabul_kriterleri": [
+              "Gerçekçi bir çevre dostu uygulama belirtmesi",
+              "Bilgiyi kaydetme şeklini (tablo, not, defter vb.) açıkça belirtmesi"
+            ]
+          },
+          "cozum_md": "Kabul edilir cevap, gerçekçi bir çevre dostu uygulama içermeli ve bu bilgiyi nasıl kaydedeceğini (örneğin deftere tablo yaparak, kısa not alarak) açıkça belirtmelidir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Acil Durumlarda Yetkililerle İletişim",
+    "kazanim": {
+      "kod": "HB.2.2.4",
+      "ad": "Acil bir durumda yetkililerle etkili iletişim kurabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Acil bir durumu yetkililere ifade ederken dikkat edilmesi gerekenleri açıklar.",
+        "b": "Acil bir durumda yetkililerin yönlendirmelerini dinlerken dikkat edilmesi gerekenleri açıklar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '2. Öğrenme Alanı: Sağlığım ve Güvenliğim' ünite sayfası incelendi. Sayfa, kazanımın iki bileşenini somut olarak açıklıyor: (a) acil durumu bildirirken durumun türü, yeri, zamanı ve etkilenen kişi sayısının söylenmesi, kısa-net ve sakin konuşulması; (b) yönlendirmeleri dinlerken görevlinin sözünün kesilmemesi, görevli izin vermeden telefonun kapatılmaması, dikkatle dinlenmesi ve hattın gereksiz yere meşgul edilmemesi. Ayrıca genel bilgi olarak acil çağrı numaraları (110 itfaiye, 112 acil sağlık, 155 polis, 156 jandarma) web araştırmasıyla doğrulandı.",
+      "notlar": [
+        "Acil çağrı numaraları (110/112/155/156) kazanımın `aciklama`sında yer almıyor; ısınma sorularında (s1-s2) ön bilgi/bağlam olarak kullanıldı, asıl ölçülen beceri numarayı ezberlemek değil doğru bilgiyi doğru şekilde iletmek/dinlemektir.",
+        "153 (su arıza ihbar hattı) s1'de kasıtlı olarak kullanılmayan bir çeldirici harf olarak sağ sütuna eklendi; kazanımla ilgisi yoktur, sadece eşleştirme çeldiricisidir.",
+        "Bağımsız crosscheck s2'nin 4. boşluğunda ('...kaç ____(4)____ olduğunu söyledi') gramatik çakışma tespit etti; şablon 'En son da kaç ____(4)____ söyledi.' olarak düzeltildi (cümle sonundaki fazladan 'olduğunu' kaldırıldı)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Durumları, aranması gereken acil çağrı numarasıyla eşleştiriniz. (Sağdaki numaralardan biri kullanılmayacak.)",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Bir binada yangın çıkması"},
+            {"no": 2, "metin_md": "Birinin aniden hastalanması ya da kaza geçirmesi"},
+            {"no": 3, "metin_md": "Şehirde bir hırsızlık ya da trafik kazası görülmesi"},
+            {"no": 4, "metin_md": "Kırsal (köy) bir bölgede güvenlik için yardım gerekmesi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "110"},
+            {"harf": "B", "metin_md": "112"},
+            {"harf": "C", "metin_md": "155"},
+            {"harf": "D", "metin_md": "156"},
+            {"harf": "E", "metin_md": "153"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1) Yangında 110 İtfaiye aranır. 2) Sağlık acil durumunda 112 Acil Sağlık aranır. 3) Şehirde hırsızlık/trafik kazasında 155 Polis aranır. 4) Kırsal bölgede 156 Jandarma aranır. 'E' (153) bu soruda kullanılmayan bir çeldiricidir, acil durumla ilgili değildir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ayşe'nin evinde küçük bir yangın çıktı. Ayşe hemen telefonu eline aldı ve önce ____(1)____ numarasını aradı. Görevli açınca ilk önce acil durumun bir ____(2)____ olduğunu söyledi. Sonra evinin ____(3)____ verdi. En son da kaç ____(4)____ söyledi.",
+          "gorsel": null,
+          "kelime_havuzu": ["110", "yangın", "adresini", "kişinin etkilendiğini", "112", "sakin"],
+          "cevap": {"1": "110", "2": "yangın", "3": "adresini", "4": "kişinin etkilendiğini"},
+          "cozum_md": "1) Yangın için doğru numara 110'dur. 2) Görevliye önce durumun ne olduğu (yangın) söylenir. 3) Sonra olay yerinin adresi verilir. 4) Son olarak kaç kişinin etkilendiği belirtilir. '112' burada yanlış numaradır (yangın için değil), 'sakin' ise bir boşluğa değil genel bir tutuma işaret eder; ikisi de çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Mert bir trafik kazası gördü ve 112'yi aradı. Görevli telefonu açtığında Mert'in söylemesi gereken **en doğru** cevap hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "\"Alo, bugün hava çok güzel değil mi?\""},
+            {"harf": "B", "metin_md": "\"Bir trafik kazası oldu, yer Atatürk Caddesi, iki kişi yaralı.\""},
+            {"harf": "C", "metin_md": "\"Bilmiyorum, ne diyeceğimi şaşırdım.\""},
+            {"harf": "D", "metin_md": "\"Önemli değil, siz nasılsanız öyle gelin.\""}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Acil durumu bildirirken durumun ne olduğu, yeri ve kaç kişinin etkilendiği kısa ve net söylenmelidir. B seçeneği bunların hepsini içerir. Diğer seçenekler ya konuyla ilgisizdir ya da gerekli bilgiyi vermez."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Görevli konuşurken onun sözünü kesmemeliyiz.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Görevli daha sorusunu bitirmeden telefonu kapatabiliriz.", "cevap": false, "gerekce_md": "Görevli izin vermeden telefon kapatılmamalıdır; önemli bir bilgi ya da yönlendirme kaçabilir."},
+            {"no": 3, "metin_md": "Görevlinin söylediklerini dikkatle dinlemeliyiz.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Acil bir durum olmasa da arkadaşlarımızla eğlenmek için 112'yi arayabiliriz.", "cevap": false, "gerekce_md": "Gereksiz aramalar hattı meşgul eder; gerçek bir acil durumda başkalarına yardım gecikebilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — görevlinin sözü kesilmez. 2) Yanlış — görevli izin vermeden kapatılmaz. 3) Doğru — yönlendirmeler dikkatle dinlenir. 4) Yanlış — 112 sadece gerçek acil durumlarda aranır, aksi hâlde hat meşgul olur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Acil bir durumda yardım isterken izlenmesi gereken doğru sırayı bulunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Görevlinin sorularını sakin ve net biçimde cevaplar.",
+            "Doğru acil durum numarasını arar.",
+            "Olayın yaşandığı yerin adresini söyler.",
+            "Acil durumun ne olduğunu söyler."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 2, 0]},
+          "cozum_md": "Doğru sıra: önce doğru numara aranır → sonra durumun ne olduğu söylenir → sonra olay yerinin adresi verilir → son olarak görevlinin soruları sakin ve net cevaplanır."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Kardeşin bahçede düştü ve ayağını incitti. Sen de 112'yi aradın. Görevli sana sırayla sorular soruyor ama sen çok heyecanlısın. Görevlinin yönlendirmelerini dinlerken ve cevap verirken nelere dikkat etmelisin? En az iki tane yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Görevlinin sözünü kesmemeliyim, sorularını dikkatle dinlemeliyim, heyecanlansam da sakin olmaya çalışmalıyım ve o izin vermeden telefonu kapatmamalıyım.",
+            "kabul_kriterleri": [
+              "Görevlinin sözünü kesmeme veya sorularını dikkatle dinleme ifade edilmiş",
+              "Sakin olma veya görevli izin vermeden telefonu kapatmama ifade edilmiş"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek geçerli cevap yoktur. Öğrencinin görevlinin sözünü kesmeyeceğini, dikkatle dinleyeceğini, sakin kalacağını ve izinsiz telefonu kapatmayacağını belirten en az iki ölçütü karşılaması yeterlidir."
+        }
+      ]
+    }
+  ]
+}

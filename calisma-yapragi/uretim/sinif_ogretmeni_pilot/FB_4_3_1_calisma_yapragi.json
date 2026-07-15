@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dünya'nın Şekli: Gözleme Dayalı Tahminler",
+    "kazanim": {
+      "kod": "FB.4.3.1",
+      "ad": "Dünya'nın şekli ile ilgili bilimsel gözleme dayalı tahmin yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "3. ÜNİTE: DÜNYA'MIZI KEŞFEDELİM",
+      "surec_bilesenleri": {
+        "a": "Dünya'nın şekli ile ilgili ön bilgi ve deneyimlerine dayalı önerme oluşturur.",
+        "b": "Dünya'nın şekli ile ilgili gözleme dayalı olan önermeleri karşılaştırır.",
+        "c": "Dünya'nın şekli ile ilgili tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+        "ç": "Dünya'nın şekli ile ilgili veriye dayalı tahminde bulunur.",
+        "d": "Dünya'nın şekli ile ilgili verilere dayalı tahminlerin geçerliğini sorgular."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 3. Ünite: Dünya'mızı Keşfedelim) ünite sayfası incelendi. Kazanımın süreç bileşenleri (önerme oluşturma → karşılaştırma → sonuç çıkarma → tahmin → sorgulama) ve önerilen gözlem örnekleri (Güneş'in gün içindeki hareketi, gölge boyu/yönünün değişmesi, uzaydan çekilen görüntüler) doğrulandı. Ek olarak klasik bir gözlem kanıtı (ufukta yaklaşan geminin önce bacasının, sonra gövdesinin görünmesi) genel bilinen bilimsel gözlem olarak eklendi. Kapsam sınırı: sayfada yalnızca 'küre' terimi kullanılıyor; 'geoid', 'enlem-boylam' gibi ileri kavramlar bu sınıf düzeyinde YOK, sorularda kullanılmadı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. K1-K6 kontrolleri uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, Dünya'nın şekliyle ilgili önerme oluşturma ve gözlemleri karşılaştırma sürecini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Elif, bahçede oynarken güneşin battığı yeri izliyor. Daha önce elindeki küre şeklindeki bir topu ve düz bir masayı incelemiş; şimdi arkadaşlarına \"Bence Dünya'nın şekli ...'ya benziyor.\" diyor.\n\n1) Elif'in, ön bilgi ve deneyimlerine dayanarak Dünya'nın şekli hakkında ortaya attığı bu düşünceye ____(1)____ denir.\n2) Bu düşüncenin doğru olup olmadığını anlamak için Elif'in daha sonra ilgili ____(2)____ yapması gerekir.",
+          "gorsel": null,
+          "kelime_havuzu": ["önerme", "gözlem", "kanun", "şaka"],
+          "cevap": {"1": "önerme", "2": "gözlem"},
+          "cozum_md": "1) önerme — ön bilgi ve deneyimlere dayanarak ortaya konan düşünceye önerme denir. 2) gözlem — bir önermenin doğru olup olmadığını anlamak için gözlem yapmak gerekir. 'kanun' bu düzeyde ve bağlamda kullanılmaz, 'şaka' bilimsel süreçle ilgisizdir; ikisi de çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi, gözleme dayanmadığı için Dünya'nın şekliyle ilgili bilimsel bir önerme oluştururken KULLANILAMAZ?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ufuktan yaklaşan bir geminin önce bacasının, sonra gövdesinin görünmesi"},
+            {"harf": "B", "metin_md": "Güneşin gün boyunca gökyüzündeki konumunun değişmesi ve gölgelerin buna göre uzayıp kısalması"},
+            {"harf": "C", "metin_md": "Uzaydan çekilen fotoğraflarda Dünya'nın kenarlarının kavisli (yuvarlak) görünmesi"},
+            {"harf": "D", "metin_md": "Bir arkadaşının, hiçbir şey gözlemlemeden sadece \"Bence Dünya düzdür.\" demesi"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "A, B ve C seçenekleri gerçek gözlemlere dayanan verilerdir. D seçeneğinde ise hiçbir gözleme dayanmayan, sadece kişisel bir görüş vardır; bu yüzden bilimsel bir önerme oluşturmak için kullanılamaz. Doğru cevap D'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, gözlem verilerinden sonuç çıkarma ve veriye dayalı tahminde bulunma sürecini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sol taraftaki gözlemleri, sağ taraftaki en uygun sonuç ifadesiyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ufukta yaklaşan bir geminin önce bacasının, sonra gövdesinin görünmesi"},
+            {"no": 2, "metin_md": "Uzaydan çekilen fotoğraflarda Dünya'nın kenarlarının kavisli görünmesi"},
+            {"no": 3, "metin_md": "Bir gezginin hep aynı yöne (örneğin hep doğuya) ilerleyerek sonunda başlangıç noktasına dönebilmesi"},
+            {"no": 4, "metin_md": "Öğlen saatinde farklı şehirlerdeki gölgelerin boylarının birbirinden farklı olması"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Dünya'nın yüzeyi uzaydan bakıldığında da doğrudan kavisli/yuvarlak görünür"},
+            {"harf": "B", "metin_md": "Geminin ufuk çizgisinde kademeli görünmesi, Dünya yüzeyinin düz değil kavisli olduğunu gösterir"},
+            {"harf": "C", "metin_md": "Yüzeyde kesintisiz aynı yönde ilerlendiğinde başlangıç noktasına dönülmesi, yüzeyin kapalı bir eğri (küre) üzerinde olduğunu gösterir"},
+            {"harf": "D", "metin_md": "Güneş ışınlarının farklı noktalara farklı açılarla ulaşması, Dünya yüzeyinin düz olmadığını gösterir"},
+            {"harf": "E", "metin_md": "Dünya'nın kendi ekseni etrafında döndüğünü doğrudan gösterir"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1-B: Geminin ufuktan kademeli görünmesi yüzeyin kavisli olduğunu gösterir. 2-A: Uzay fotoğrafları Dünya'nın kavisli/yuvarlak görünümünü doğrudan gösterir. 3-C: Aynı yönde ilerleyip başa dönülmesi, yüzeyin kapalı bir eğri üzerinde olduğunu gösterir. 4-D: Gölge boylarının farklı olması, Güneş ışınlarının yüzeye farklı açılarla ulaştığını, dolayısıyla yüzeyin düz olmadığını gösterir. E seçeneği bu dört gözlemden hiçbirinin doğrudan sonucu olmadığı için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Sadece tek bir gözlem yapıp o gözleme dayanarak kesin bir tahminde bulunmak, bilimsel bir yaklaşımdır.", "cevap": false, "gerekce_md": "Güvenilir bir tahminde bulunmak için birden fazla gözlem verisinin karşılaştırılması gerekir; tek gözlem yanıltıcı olabilir."},
+            {"no": 2, "metin_md": "Dünya'nın şekliyle ilgili tahminde bulunurken farklı gözlemlerden elde edilen verilerin birbirini desteklemesi, tahminin güvenilirliğini artırır.", "cevap": true, "gerekce_md": "Birden fazla bağımsız gözlemin aynı sonucu göstermesi, o sonuca duyulan güveni artırır."},
+            {"no": 3, "metin_md": "Uzaydan çekilen fotoğraflar, Dünya'nın küreye benzediği tahminini destekleyen bir veridir.", "cevap": true, "gerekce_md": "Uzay fotoğraflarında Dünya'nın kavisli/yuvarlak görünmesi, küre şeklini destekleyen doğrudan bir gözlem verisidir."},
+            {"no": 4, "metin_md": "Bir tahmin bir kez oluşturulduktan sonra yeni veriler elde edilse bile hiç değiştirilmemelidir.", "cevap": false, "gerekce_md": "Bilimsel tahminler, yeni gözlem verileri elde edildikçe yeniden gözden geçirilebilir ve gerekirse değiştirilebilir."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "Her ifade, veriye dayalı tahminde bulunma ilkeleriyle (birden fazla gözlemin karşılaştırılması, verilerin birbirini desteklemesi, tahminin yeni verilerle güncellenebilir olması) karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Mert, farklı kaynaklardan topladığı şu gözlem verilerini inceliyor:\n- \"Ufuktan yaklaşan gemilerin önce bacası görünüyor.\"\n- \"Uzaydan çekilen fotoğraflarda Dünya'nın kenarları kavisli görünüyor.\"\n- \"Hep aynı yöne giden bir gezgin, sonunda başlangıç noktasına dönebiliyor.\"\n\nMert bu verilerden hangi sonucu çıkarabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Dünya'nın yüzeyi düzdür ve kenarları vardır."},
+            {"harf": "B", "metin_md": "Dünya'nın yüzeyi kavisli/yuvarlaktır, bu yüzden Dünya küreye benzer bir şekle sahip olabilir."},
+            {"harf": "C", "metin_md": "Dünya'nın şekli zamana göre değişmektedir."},
+            {"harf": "D", "metin_md": "Bu veriler Dünya'nın şekli hakkında hiçbir sonuca ulaştırmaz."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Üç gözlem de (geminin kademeli görünmesi, uzay fotoğraflarındaki kavisli kenar, aynı yönde ilerleyip başa dönülmesi) yüzeyin düz değil kavisli olduğuna işaret eder; bu verilerden çıkarılabilecek en uygun sonuç Dünya'nın küreye benzediğidir. Doğru cevap B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki senaryoları okuyarak veriye dayalı tahminde bulununuz ve tahminlerin geçerliğini sorgulayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Kerem, sadece tek bir fotoğrafa bakarak \"Dünya kesinlikle küreye benziyor, başka hiçbir kanıta gerek yok.\" şeklinde kesin bir yargıya varıyor.\n\nKerem'in bu yaklaşımı, bilimsel bir tahminde bulunma sürecine uygun mudur? Neden? Cevabını, veriye dayalı tahminlerin geçerliğinin nasıl sorgulanması gerektiğini açıklayarak yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kerem'in yaklaşımı tam olarak uygun değildir. Bilimsel bir tahminde bulunurken tek bir gözleme/veriye güvenmek yeterli değildir; farklı kaynaklardan elde edilen birden fazla gözlem verisinin (örneğin gemi gözlemi, gölge değişimi, uzay fotoğrafı) karşılaştırılması ve birbirini destekleyip desteklemediğinin sorgulanması gerekir. Kerem, sadece bir fotoğrafa dayanarak kesin bir yargıya varmak yerine tahminini başka verilerle de desteklemeli ve yeni veriler ortaya çıktıkça tahmininin geçerliğini yeniden sorgulamalıdır.",
+            "kabul_kriterleri": [
+              "Tek bir veriye/gözleme dayanmanın yetersiz olduğunu belirtmiş",
+              "Birden fazla gözlem verisinin karşılaştırılması gerektiğine değinmiş",
+              "Tahminin geçerliğinin yeni verilerle sürekli sorgulanabileceğini/güncellenebileceğini ifade etmiş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın son basamağı olan 'tahminlerin geçerliğini sorgulama'yı ölçer. Açık uçlu bir değerlendirme sorusudur; tek doğru cümle yoktur. Beklenen, öğrencinin tek bir veriye güvenmenin yetersizliğini fark etmesi ve birden fazla gözlemin karşılaştırılması gerektiğini gerekçelendirmesidir. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Zeynep bir deniz kıyısında dürbünle ufku gözlemliyor. Uzaklaşan bir teknenin önce gövdesinin, sonra da direğinin görünmez olduğunu fark ediyor. Ayrıca okulda öğretmeninin gösterdiği uydu fotoğraflarında Dünya'nın kenarlarının kavisli olduğunu da hatırlıyor.\n\nZeynep bu verilere dayanarak aşağıdaki tahminlerden hangisini yapması bilimsel açıdan en uygun olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "\"Dünya'nın şekli hakkında hiçbir tahminde bulunulamaz, çünkü kimse Dünya'yı bir bütün olarak gözüyle görmemiştir.\""},
+            {"harf": "B", "metin_md": "\"Bu gözlemler Dünya'nın yüzeyinin kavisli/yuvarlak olduğunu destekliyor, dolayısıyla Dünya küreye benzer bir şekle sahip olabilir.\""},
+            {"harf": "C", "metin_md": "\"Teknenin görünmez olması sadece dürbünün net görmemesinden kaynaklanır, Dünya'nın şekliyle ilgisi yoktur.\""},
+            {"harf": "D", "metin_md": "\"Dünya'nın şekli düzdür; tekne uzaklaştıkça küçüldüğü için görünmez olur.\""}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Zeynep'in gözlemlediği veriler (teknenin kademeli kaybolması, uydu fotoğraflarındaki kavisli kenar) tutarlı bir şekilde yüzeyin kavisli olduğuna işaret eder. Bu verilere dayanarak yapılabilecek en bilimsel tahmin, Dünya'nın küreye benzediğidir. A tahminden tamamen kaçınıyor, C ve D ise mevcut verileri göz ardı ederek yanlış açıklamalar sunuyor. Doğru cevap B'dir."
+        }
+      ]
+    }
+  ]
+}

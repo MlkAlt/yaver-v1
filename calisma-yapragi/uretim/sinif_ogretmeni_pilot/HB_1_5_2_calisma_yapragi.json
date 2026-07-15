@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Gök Cisimlerini Tanıyalım: Güneş, Dünya ve Ay",
+    "kazanim": {
+      "kod": "HB.1.5.2",
+      "ad": "Modeller üzerinden gök cisimlerini karşılaştırabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) özelliklerini belirler.",
+        "b": "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) benzerlik ve farklılıklarını listeler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "ogmmateryal.eba.gov.tr'de 1. sınıf Hayat Bilgisi'ne özel gök cisimleri materyali bulunamadı (site sonuçları çoğunlukla lise düzeyi). Bunun yerine genel arama ile mebders.com ve morpakampus.com üzerindeki 1. sınıf Hayat Bilgisi 'Güneş, Ay, Dünya ve Yıldızlar' konu anlatımları taranarak sınıf düzeyine uygun temel bilgiler (Güneş'in kendi ışığı olan bir yıldız olması, Dünya'da canlıların yaşaması, Ay'ın kendi ışığı olmayıp Güneş ışığını yansıtması, üçünün de küre biçiminde olması) doğrulandı. İçerik ayrıca kazanımın aciklama alanına dayanır.",
+      "notlar": ["Crosscheck subagent yerine üreticiden bağımsız ikinci geçişte manuel yapıldı (kullanıcı talimatı): sorular cevap anahtarına bakmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık çıkmadı. K1-K6 kontrolleri uygulandı, kritik sorun bulunmadı, karar: onay."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Gök cisimlerini özellikleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Güneş"},
+            {"no": 2, "metin_md": "Dünya"},
+            {"no": 3, "metin_md": "Ay"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Üzerinde canlılar yaşar."},
+            {"harf": "B", "metin_md": "Kendi ışığı vardır, çok sıcaktır."},
+            {"harf": "C", "metin_md": "Kendi ışığı yoktur, geceleri parlar."},
+            {"harf": "D", "metin_md": "Kuyruklu bir yıldızdır."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "Güneş kendi ışığını üretir ve çok sıcaktır (B). Dünya'da su, hava ve toprak olduğu için canlılar yaşar (A). Ay'ın kendi ışığı yoktur; Güneş'ten aldığı ışığı yansıttığı için geceleri parlar (C). D seçeneği çeldiricidir, hiçbiriyle eşleşmez."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Güneş, Dünya ve Ay birer ____(1)____ cismidir. Güneş, kendi ____(2)____ olan bir yıldızdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["gök", "ışığı", "su", "hava"],
+          "cevap": {"1": "gök", "2": "ışığı"},
+          "cozum_md": "Güneş, Dünya ve Ay gökyüzünde bulunan cisimlerdir, bu yüzden gök cismi denir. Güneş kendi ışığını üretebilen bir yıldızdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki ifadeleri okuyunuz, doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz. Sonraki soruda doğru seçeneği işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Gök cisimleri hakkındaki ifadeleri değerlendiriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Güneş, Dünya'dan çok daha büyüktür.", "cevap": true, "gerekce_md": "Güneş, Dünya'dan yüzlerce kat daha büyüktür."},
+            {"no": 2, "metin_md": "Ay'ın kendi ışığı vardır.", "cevap": false, "gerekce_md": "Ay'ın kendi ışığı yoktur; Güneş'in ışığını yansıtır."},
+            {"no": 3, "metin_md": "Dünya üzerinde canlılar yaşar.", "cevap": true, "gerekce_md": "Dünya'da su, hava ve toprak olduğu için canlılar yaşayabilir."},
+            {"no": 4, "metin_md": "Ay, Güneş'ten daha büyüktür.", "cevap": false, "gerekce_md": "Ay, üçü arasında en küçük olan gök cismidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Güneş çok büyüktür → Doğru. 2. Ay ışık üretmez, yansıtır → Yanlış. 3. Dünya'da canlılar yaşar → Doğru. 4. Ay en küçüğüdür, Güneş'ten büyük değildir → Yanlış."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi sadece Dünya'ya ait bir özelliktir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Küre biçiminde olması"},
+            {"harf": "B", "metin_md": "Gökyüzünde bulunması"},
+            {"harf": "C", "metin_md": "Üzerinde canlıların yaşaması"},
+            {"harf": "D", "metin_md": "Geceleri gökyüzünde görünmesi"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Güneş ve Ay da küre biçimindedir ve gökyüzündedir; ama sadece Dünya'da su ve hava olduğu için canlılar yaşayabilir. Doğru cevap C'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle çözünüz.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Güneş, Dünya ve Ay ile ilgili aşağıdakilerden hangisi üçü için de ortak bir özelliktir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Hepsi küre biçimindedir."},
+            {"harf": "B", "metin_md": "Hepsinin kendi ışığı vardır."},
+            {"harf": "C", "metin_md": "Hepsinde canlılar yaşar."},
+            {"harf": "D", "metin_md": "Hepsi aynı büyüklüktedir."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Güneş, Dünya ve Ay'ın üçü de yuvarlak, yani küre biçimindedir. Bu, üçünün ortak özelliğidir; ışık üretme, canlı barındırma ve büyüklük bakımından birbirlerinden farklıdırlar."
+        },
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Gök cisimlerini küçükten büyüğe doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["Dünya", "Güneş", "Ay"],
+          "cevap": {"dogru_sira": [2, 0, 1]},
+          "cozum_md": "Ay, üçü arasında en küçüğüdür. Dünya, Ay'dan büyük ama Güneş'ten küçüktür. Güneş ise en büyüğüdür. Küçükten büyüğe doğru sıra: Ay, Dünya, Güneş."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Güneş ile Ay arasındaki bir farkı yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Güneşin kendi ışığı vardır ama Ay'ın kendi ışığı yoktur.",
+            "kabul_kriterleri": ["Güneş ve Ay arasında en az bir doğru fark belirtmesi (ışık, büyüklük ya da sıcaklık farkı gibi)"]
+          },
+          "cozum_md": "Güneş kendi ışığını üretir ve çok sıcaktır; Ay ise kendi ışığı olmayan, Güneş'in ışığını yansıtan, daha küçük bir gök cismidir. Öğrenci bu farklardan en az birini doğru biçimde ifade etmelidir."
+        }
+      ]
+    }
+  ]
+}

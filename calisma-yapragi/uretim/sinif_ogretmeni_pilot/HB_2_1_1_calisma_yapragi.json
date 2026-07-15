@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Arkadaşlık İlişkilerimiz",
+    "kazanim": {
+      "kod": "HB.2.1.1",
+      "ad": "Arkadaşlık ilişkilerini düzenleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Arkadaşlık ilişkilerini etkileyen duygu, düşünce ve davranışları fark eder.",
+        "b": "Arkadaşlık ilişkilerini etkileyebilecek duygu, düşünce ve davranışlarında gerekli değişiklikleri yapar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '1. Öğrenme Alanı: Ben ve Okulum' ünite sayfası ve mufredat.meb.gov.tr Hayat Bilgisi (1,2,3. sınıflar) öğretim programı incelendi; ünitenin arkadaşlık ilişkileri, duygu/düşünce/davranış farkındalığı ve gerekli değişiklikleri yapma vurgusu doğrulandı. Sorular 2. sınıf (7-8 yaş) dil düzeyine göre kısa ve somut örnek olaylarla kuruldu.",
+      "notlar": [
+        "'b' süreç bileşeni (gerekli değişiklikleri yapma) kağıt üzerinde gözlemlenemeyen bir davranıştır; s4 (senaryo temelli çoktan seçmeli) ve s6-s7 (senaryo temelli açık uçlu) ile temsil edildi — öğrenci doğru davranışı seçer/önerir, fiilen uygulamaz. 2. sınıf düzeyi için makul bir vekil ölçüt olarak değerlendirildi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Arkadaşımızın oyuncağını izinsiz almak arkadaşlığımızı olumsuz etkiler.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Kızgın olduğumuzda arkadaşımıza bağırmak dostluğumuzu güçlendirir.", "cevap": false, "gerekce_md": "Bağırmak yerine kızgınlığımızı sakin biçimde anlatmak dostluğumuzu korur."},
+            {"no": 3, "metin_md": "Arkadaşımızı dinlemek ve onu anlamaya çalışmak dostluğumuzu güçlendirir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Bir arkadaşımız üzgünse onunla ilgilenmemize gerek yoktur.", "cevap": false, "gerekce_md": "Üzgün bir arkadaşımızı dinlemek ve ona destek olmak arkadaşlığımızı güçlendirir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — izinsiz eşya almak güveni zedeler. 2) Yanlış — bağırmak değil sakin konuşmak dostluğu korur. 3) Doğru — dinlemek ve anlamaya çalışmak dostluğu güçlendirir. 4) Yanlış — üzgün bir arkadaşımızla ilgilenmek arkadaşlığı güçlendirir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Davranışları, arkadaşlığa etkisiyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Arkadaşının başarısını kutlamak"},
+            {"no": 2, "metin_md": "Arkadaşının eşyasını sormadan almak"},
+            {"no": 3, "metin_md": "Arkadaşının sözünü kesip onu dinlememek"},
+            {"no": 4, "metin_md": "Üzgün bir arkadaşını dinlemek"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Arkadaşlığı güçlendirir çünkü paylaşılan mutluluğu gösterir"},
+            {"harf": "B", "metin_md": "Arkadaşlığı zedeler çünkü güveni sarsar"},
+            {"harf": "C", "metin_md": "Arkadaşlığı zedeler çünkü saygısızlık gösterir"},
+            {"harf": "D", "metin_md": "Arkadaşlığı güçlendirir çünkü değer verdiğimizi gösterir"},
+            {"harf": "E", "metin_md": "Arkadaşlığı zedeler çünkü ilgisizlik gösterir"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1) Başarıyı kutlamak → A, paylaşılan mutluluğu gösterir. 2) Eşyayı sormadan almak → B, güveni sarsar. 3) Sözünü kesip dinlememek → C, saygısızlık gösterir. 4) Üzgün arkadaşını dinlemek → D, değer verdiğimizi gösterir. 'E' seçeneği bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları arkadaşlık ilişkilerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Arkadaşımız bizimle oyuncağını paylaştığında ____(1)____ oluruz. Arkadaşımıza kaba davranırsak dostluğumuz ____(2)____ olabilir. Bir arkadaşımızla tartıştığımızda sakin biçimde ____(3)____ ilişkimizi düzeltebiliriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["mutlu", "zarar görebilir", "konuşarak", "kızgın", "unutarak"],
+          "cevap": {"1": "mutlu", "2": "zarar görebilir", "3": "konuşarak"},
+          "cozum_md": "1) Paylaşım bizi mutlu eder. 2) Kaba davranış dostluğa zarar verebilir. 3) Sakin biçimde konuşarak anlaşmazlığı çözebilir, ilişkiyi düzeltebiliriz. 'Kızgın' ve 'unutarak' bu boşluklara uymaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ece, arkadaşı Ali'nin en sevdiği kalemini yanlışlıkla kırdığını fark etti. Ece'nin arkadaşlığını korumak için yapması gereken en doğru davranış hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ali'ye söylemeden kalemi çöpe atmak"},
+            {"harf": "B", "metin_md": "Ali'den özür dileyip yeni bir kalem bulmasına yardım etmek"},
+            {"harf": "C", "metin_md": "Ali'yi suçlayıp kendisinin kırmadığını söylemek"},
+            {"harf": "D", "metin_md": "Konuyu görmezden gelip oynamaya devam etmek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bir hata yapıldığında özür dilemek ve telafi etmeye çalışmak, davranışımızı düzeltip arkadaşlığı korumamızı sağlar. Diğer seçenekler sorumluluktan kaçmak veya arkadaşlığa zarar vermektir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi arkadaşlık ilişkisini OLUMSUZ etkileyen bir davranıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşının fikrini dinlemek"},
+            {"harf": "B", "metin_md": "Oyunda sırasını beklemek"},
+            {"harf": "C", "metin_md": "Arkadaşıyla alay etmek"},
+            {"harf": "D", "metin_md": "Arkadaşına yardım etmek"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Alay etmek arkadaşımızı üzer ve güvenini sarsar, bu yüzden arkadaşlığı olumsuz etkiler. Dinlemek, sıra beklemek ve yardım etmek arkadaşlığı güçlendiren davranışlardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir arkadaşınla küçük bir anlaşmazlık yaşadığını düşün. Arkadaşlığınızı korumak için hangi davranışını ya da duygunu değiştirebilirsin? Bir iki cümleyle yaz.",
+          "gorsel": {"betimleme": "Yazma satırlarının altında, öğrencinin isterse çizim yapabileceği küçük, çerçeveli boş bir kutu bırakılmalı; iki gülen/düşünen çocuk figürünün ince çizgi eskizi ipucu olarak konabilir. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Kızdığımda bağırmak yerine sakin biçimde ne hissettiğimi anlatırım, böylece arkadaşlığımız zarar görmez.",
+            "kabul_kriterleri": [
+              "Bir davranış veya duygu değişikliği belirtmesi (bağırmayı bırakma, sakin konuşma, özür dileme vb.)",
+              "Bunu arkadaşlığı koruma amacıyla ilişkilendirmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin kendi davranış/duygusunda somut bir değişiklik önermesi ve bunu arkadaşlığı koruma amacıyla ilişkilendirmesi beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıf arkadaşın Zeynep, oyun oynarken kaybedince ağlıyor ve kimseyle konuşmak istemiyor. Onunla arkadaşlığını sürdürmek için ne yapardın? Yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Yanına gidip onu dinler, üzüldüğünü anladığımı söylerim ve tekrar birlikte oynamayı teklif ederim.",
+            "kabul_kriterleri": [
+              "Empatik/destekleyici bir davranış önermesi (yanına gitme, dinleme, teselli etme vb.)",
+              "Arkadaşlığı sürdürmeye yönelik somut bir adım belirtmesi (tekrar oynamayı teklif etme vb.)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin üzgün arkadaşına empati göstermesi ve arkadaşlığı sürdürecek somut bir davranış önermesi yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

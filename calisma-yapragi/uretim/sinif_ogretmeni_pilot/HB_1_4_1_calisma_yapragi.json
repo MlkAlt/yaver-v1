@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Yaşadığım Yer ve Ülkem",
+    "kazanim": {
+      "kod": "HB.1.4.1",
+      "ad": "Yaşadığı yerin ve ülkemizin genel özelliklerini açıklayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Yaşadığı yerin adını ve genel özelliklerini (tarihi yerler, doğal güzellikler, yöresel yiyecek ve kıyafetler) söyler.",
+        "b": "Ülkemizin adını, başkentini ve para birimini söyler.",
+        "c": "Ülkemizin üç tarafının hangi denizlerle (Karadeniz, Ege, Akdeniz) çevrili olduğunu söyler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Kazanım veri dosyasında (data/sinif_ogretmeni_v2.json) 'aciklama' alanı NULL; süreç bileşenleri tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, Hayat Bilgisi Dersi 1. Sınıf 4. Öğrenme Alanı, HB.1.4.1 açıklaması) kaynağından türetildi: yaşadığı yerin adı/tarihî yerleri/doğal güzellikleri/yöresel yiyecek-kıyafetleri, ülkemizin adı-başkenti-para birimi, ülkemizin üç tarafının Karadeniz-Ege-Akdeniz ile çevrili olduğu bilgileri doğrulandı.",
+      "notlar": [
+        "Kazanımın 'aciklama' alanı veri kaynağında NULL — süreç bileşenleri MEB Türkiye Yüzyılı Maarif Modeli kaynağından (web araştırması) türetilerek a/b/c olarak ayrıştırıldı; HB.1.4.2 örneğindeki 'tek bileşen' yaklaşımı yerine bu kazanımda üç ayrı içerik alanı (yer özellikleri, ülke bilgisi, denizler) net biçimde ayrıştırılabildiği için tercih edildi.",
+        "Harita üzerinde başkenti/yaşadığı yeri 'gösterme' MEB kaynağında bir öğrenme-öğretme etkinliği olarak geçiyor (fiziksel harita ile sınıf içi etkinlik); kağıt üzerinde görsel gerektirmeden ölçülebilir olmadığından ayrı bir soru/bileşen açılmadı, ülke bilgisi (b) sorularına dahil edildi.",
+        "1. sınıf düzeyi gözetilerek çok kısa cümleler, somut ve tanıdık kelimeler tercih edildi; problem_cozme, siralama ve tablo_doldurma gibi soyut/alan-yoğun tipler kullanılmadı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları ülkemizi ve yaşadığımız yeri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ülkemizin adı ____(1)____ dir. Başkentimiz ____(2)____ dir.",
+          "gorsel": null,
+          "kelime_havuzu": ["Türkiye", "Ankara", "İstanbul", "Fransa"],
+          "cevap": {"1": "Türkiye", "2": "Ankara"},
+          "cozum_md": "Ülkemizin adı Türkiye'dir (1). Başkentimiz Ankara'dır (2). 'İstanbul' ülkemizin en kalabalık şehridir ama başkent değildir; 'Fransa' başka bir ülkenin adıdır — bu ikisi çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ülkemizin adı Türkiye'dir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Başkentimiz İstanbul'dur.", "cevap": false, "gerekce_md": "Başkentimiz İstanbul değil, Ankara'dır."},
+            {"no": 3, "metin_md": "Ülkemizin kuzeyinde Karadeniz vardır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Ülkemizin her yerinde yöresel yemekler ve kıyafetler birbirinin aynıdır.", "cevap": false, "gerekce_md": "Ülkemizin farklı yerlerinde farklı yöresel yemekler ve kıyafetler vardır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — ülkemizin adı Türkiye'dir. 2) Yanlış — başkentimiz Ankara'dır. 3) Doğru — Karadeniz, ülkemizin kuzeyindedir. 4) Yanlış — yaşadığımız yere göre yöresel yemekler ve kıyafetler değişir, hepsi aynı değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki yerleri özellikleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kapadokya"},
+            {"no": 2, "metin_md": "Antalya"},
+            {"no": 3, "metin_md": "Karadeniz Bölgesi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yaylalar, çay ve fındık"},
+            {"harf": "B", "metin_md": "Peri bacaları ve balon turları"},
+            {"harf": "C", "metin_md": "Deniz, kumsallar ve portakal bahçeleri"},
+            {"harf": "D", "metin_md": "Yüksek dağlar ve buzullar"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A"},
+          "cozum_md": "Kapadokya, peri bacaları ve sıcak hava balonu turlarıyla tanınır (1 → B). Antalya'da deniz, kumsallar ve portakal bahçeleri bulunur (2 → C). Karadeniz Bölgesi'nde yaylalar, çay ve fındık yetiştiriciliği öne çıkar (3 → A). 'Yüksek dağlar ve buzullar' (D) bu soruda kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ülkemizde alışverişte hangi parayı kullanırız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Dolar"},
+            {"harf": "B", "metin_md": "Euro"},
+            {"harf": "C", "metin_md": "Türk Lirası"},
+            {"harf": "D", "metin_md": "Sterlin"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Ülkemizin para birimi Türk Lirası'dır. Dolar Amerika'da, Euro birçok Avrupa ülkesinde, Sterlin ise İngiltere'de kullanılan para birimleridir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi yaşadığın yeri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Ülkemizin üç tarafı neyle çevrilidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ormanlarla"},
+            {"harf": "B", "metin_md": "Denizlerle"},
+            {"harf": "C", "metin_md": "Çöllerle"},
+            {"harf": "D", "metin_md": "Göllerle"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ülkemizin kuzeyinde Karadeniz, batısında Ege Denizi, güneyinde Akdeniz vardır. Bu yüzden ülkemizin üç tarafı denizlerle çevrilidir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Yaşadığın yerin adını yaz. O yerin güzel bir özelliğini (tarihi yer, doğal güzellik, yöresel yemek ya da kıyafet) anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Yaşadığım yer Bursa'dır. Bursa'da Uludağ adında güzel bir dağ vardır, kışın oraya kayak yapmaya gideriz.",
+            "kabul_kriterleri": [
+              "Yaşadığı yerin adını yazmış olması",
+              "O yere ait en az bir özellik (tarihi yer, doğal güzellik, yöresel yemek ya da kıyafet) belirtmiş olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin kendi yaşadığı yerin adını yazıp o yere ait gerçek bir özellik (tarihi yer, doğal güzellik, yöresel yemek veya kıyafet) belirtmesi yeterlidir."
+        }
+      ]
+    }
+  ]
+}

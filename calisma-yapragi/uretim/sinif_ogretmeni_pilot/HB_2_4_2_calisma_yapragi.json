@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Yaşadığım Yerin Yönetim Birimleri Hakkında Bilgi Topluyorum",
+    "kazanim": {
+      "kod": "HB.2.4.2",
+      "ad": "Yaşadığı yerin yönetim birimleri ile ilgili kaynaklardan bilgi toplayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Yaşadığı yerin yönetim birimleri ile ilgili kaynaklardan bilgileri bulur.",
+        "b": "Yaşadığı yerin yönetim birimleri ile ilgili bulduğu bilgileri kaydeder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile 2. Sınıf Hayat Bilgisi 'Yönetim Birimlerini Tanıyorum' konusu (MEB Yayınları 2. sınıf ders kitabı sayfa 20-25 ve tymm.meb.gov.tr 4. Öğrenme Alanı: Yaşadığım Yer ve Ülkem) incelendi; muhtar (mahalle/köy), belediye başkanı (şehir hizmetleri: yol, su, çöp), kaymakam (ilçe), vali (il) terminolojisi ders kitabıyla birebir eşleştirildi.",
+      "notlar": ["Bağımsız crosscheck yapıldı (onay): tüm cevaplar bağımsız çözümle birebir uyuştu, kazanım meta bilgisi kazanım verisiyle örtüşüyor, kritik hata yok. Orta önemli tek gözlem: 'a' bileşeni (kaynaktan bilgi bulma) s1/s2/s4'e etiketlendi ama bu sorular verilen metindeki bilgiyi hatırlama/eşleştirmeyi ölçüyor; gerçek kaynak-seçme davranışını doğrudan sınayan tek soru s3. 2. sınıf düzeyinde metin-kaynak simülasyonu makul kabul edildi, düzeltme zorunlu görülmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve boşluk doldurma sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Soldaki yönetim birimlerini sağdaki görevleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Muhtar"},
+            {"no": 2, "metin_md": "Belediye Başkanı"},
+            {"no": 3, "metin_md": "Kaymakam"},
+            {"no": 4, "metin_md": "Vali"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Mahallemizin veya köyümüzün yöneticisidir."},
+            {"harf": "B", "metin_md": "Şehrimizdeki yol, su ve çöp toplama gibi hizmetlerden sorumludur."},
+            {"harf": "C", "metin_md": "İlçemizin yönetiminden sorumludur."},
+            {"harf": "D", "metin_md": "İlimizin en üst yöneticisidir."},
+            {"harf": "E", "metin_md": "Okulumuzun müdürüdür."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Muhtar, mahallenin ya da köyün yöneticisidir. 2-B: Belediye başkanı, şehirdeki yol/su/çöp gibi hizmetlerden sorumludur. 3-C: Kaymakam ilçe yönetiminden sorumludur. 4-D: Vali ilin en üst yöneticisidir. E seçeneği (okul müdürü) bir yönetim birimi görevi olmadığı için çeldiricidir, kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki metni okuyunuz ve boşlukları uygun kelimelerle doldurunuz.\n\n\"Yaşadığımız yerin yönetiminden farklı görevliler sorumludur. Mahallemizin veya köyümüzün sorunlarıyla ____(1)____ ilgilenir. Şehrimizdeki yol, su ve çöp toplama gibi hizmetlerden ____(2)____ sorumludur. İlçemizin yönetiminden ____(3)____ sorumludur. İlimizin en üst yöneticisi ise ____(4)____ dir.\"",
+          "gorsel": null,
+          "kelime_havuzu": ["muhtar", "belediye başkanı", "kaymakam", "vali", "öğretmen"],
+          "cevap": {"1": "muhtar", "2": "belediye başkanı", "3": "kaymakam", "4": "vali"},
+          "cozum_md": "(1) muhtar — mahalle/köyün sorunlarıyla ilgilenir. (2) belediye başkanı — şehir hizmetlerinden sorumludur. (3) kaymakam — ilçe yönetiminden sorumludur. (4) vali — ilin en üst yöneticisidir. 'Öğretmen' metinde geçmeyen bir çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları yukarıdaki metne ve bilgilerinize dayanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Yaşadığın yerin yönetim birimleri hakkında bilgi toplamak istiyorsun. Aşağıdakilerden hangisi bu konuda başvurabileceğin bir kaynak DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ailemin büyüklerine sormak"},
+            {"harf": "B", "metin_md": "Okul kütüphanesindeki kitaplara bakmak"},
+            {"harf": "C", "metin_md": "Muhtarlık ya da belediye binasına gitmek"},
+            {"harf": "D", "metin_md": "Sadece hayal gücümü kullanmak"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "Doğru cevap D'dir. Bilgi toplarken güvenilir bir kaynağa (büyükler, kitap, ilgili kurum vb.) başvurmak gerekir; sadece hayal gücünü kullanmak gerçek ve doğru bilgiye ulaştırmaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Yukarıdaki metne göre şehrimizdeki yol, su ve çöp toplama gibi hizmetlerden kim sorumludur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Muhtar"},
+            {"harf": "B", "metin_md": "Belediye Başkanı"},
+            {"harf": "C", "metin_md": "Kaymakam"},
+            {"harf": "D", "metin_md": "Vali"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Metinde şehirdeki yol, su ve çöp toplama gibi hizmetlerden belediye başkanının sorumlu olduğu açıkça belirtilmiştir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Yukarıdaki metinden edindiğin bilgileri aşağıdaki tabloya kaydediniz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Yönetim Birimi", "Görevi"],
+            "satirlar": [
+              ["Muhtar", "__?__"],
+              ["__?__", "Şehrimizdeki yol, su ve çöp toplama gibi hizmetlerden sorumludur."],
+              ["Kaymakam", "__?__"],
+              ["__?__", "İlimizin en üst yöneticisidir."]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Mahallemizin veya köyümüzün sorunlarıyla ilgilenir.",
+            "r1c0": "Belediye Başkanı",
+            "r2c1": "İlçemizin yönetiminden sorumludur.",
+            "r3c0": "Vali"
+          },
+          "cozum_md": "Metinden edinilen bilgiler tabloya şu şekilde kaydedilir: Muhtar — mahalle/köyün sorunlarıyla ilgilenir; Belediye Başkanı — şehir hizmetlerinden sorumludur; Kaymakam — ilçe yönetiminden sorumludur; Vali — ilin en üst yöneticisidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Yaşadığın yerin yönetim birimleri hakkında bilgi toplarken izleyeceğin adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Öğrendiğim bilgileri bir deftere ya da föye yazarım.",
+            "Araştıracağım konuyu belirlerim (örneğin yaşadığım yerin yöneticileri).",
+            "Büyüklerimden, kitaplardan ya da güvenilir internet sitelerinden bilgi toplarım.",
+            "Yazdığım bilgileri gözden geçirir, eksik varsa tamamlarım."
+          ],
+          "cevap": {"dogru_sira": [1, 2, 0, 3]},
+          "cozum_md": "Doğru sıra: önce araştırılacak konu belirlenir, sonra güvenilir kaynaklardan bilgi toplanır, ardından bulunan bilgiler kaydedilir (yazılır), son olarak yazılanlar gözden geçirilip tamamlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Yaşadığın mahallenin ya da köyün muhtarının kim olduğunu öğrenmek istiyorsun. Bu bilgiye nasıl ulaşabileceğini ve öğrendiğin bilgiyi nasıl kaydedeceğini yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ailemin büyüklerine sorabilir ya da muhtarlık binasına giderek öğrenebilirim. Öğrendiğim bilgiyi bir deftere \"Muhtarımızın adı: ...\" şeklinde yazarak kaydederim.",
+            "kabul_kriterleri": ["Gerçekçi bir bilgi kaynağı belirtmesi (büyükler, muhtarlık, kitap, güvenilir internet vb.)", "Bilgiyi kaydetme/not alma yolunu açıkça belirtmesi"]
+          },
+          "cozum_md": "Örnek cevap yukarıdaki gibidir. Öğrencinin hem gerçekçi bir kaynaktan bilgi toplama yolu hem de bu bilgiyi yazılı olarak kaydetme yolunu belirtmesi yeterlidir; birebir aynı ifade aranmaz."
+        }
+      ]
+    }
+  ]
+}

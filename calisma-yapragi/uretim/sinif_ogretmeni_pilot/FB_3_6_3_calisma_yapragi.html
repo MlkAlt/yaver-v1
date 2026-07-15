@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Elektriği Tasarruflu Kullanma</title><style>
+:root { --koyu: #334155; --acik: #eaeef3; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Elektriği Tasarruflu Kullanma</h1><div class='chips'><span class='chip dolu'>FB.3.6.3</span><span class='chip'>Fen Bilimleri • 3. Sınıf</span><span class='chip'>6. Üni̇te: Yaşamimizi Kolaylaştiran Elektri̇k</span><span class='chip'>30 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Elektriği tasarruflu kullanma konusunda bilimsel veriye dayalı tahmin edebilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları yanıtlayınız.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Elektriği tasarruflu kullanmak için bazı davranışlar önemlidir. Kullanılmayan odaların ışıkları <span class='bosluk'></span>. Şarjı dolan cihazların fişi prizden <span class='bosluk'></span>. Gün ışığından yararlanmak için gündüz perdeler <span class='bosluk'></span>.</div></div><div class='havuz'><span>kapatılmalı</span><span>çekilmeli</span><span>açılmalı</span><span>açık bırakılmalı</span></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">15p</span><div class="smetin"></div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Kullanılmayan bir odanın ışığını söndürmek elektrik tasarrufu sağlar.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Buzdolabının kapısını uzun süre açık tutmak elektrik tasarrufu sağlar.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Kullanılmayan elektronik cihazların fişini prizden çekmek tasarruf sağlar.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Gündüz güneş ışığı yeterliyken odanın lambalarını açık tutmak elektrik faturasını azaltır.</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Yılmaz ailesinin son 4 aya ait elektrik faturası tablosunu inceleyip soruları yanıtlayınız.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">Yılmaz ailesi Şubat ayından itibaren elektrik tasarrufu için önlemler almaya başlamıştır. Tabloda her ay tüketim bir öncekinden 30 kWh azalmaktadır. Bu örüntüye göre boş hücreyi tamamlayınız.</div></div><table><tr><th>Ay</th><th>Tüketilen Elektrik (kWh)</th></tr><tr><td>Ocak</td><td>240</td></tr><tr><td>Şubat</td><td>210</td></tr><tr><td>Mart</td><td></td></tr><tr><td>Nisan</td><td>150</td></tr></table></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">10p</span><div class="smetin">Tablodaki verilere göre aşağıdaki önermelerden hangisi ölçüm verileriyle desteklenir?</div></div><div class='sec tek'><div><b>A)</b> Yılmaz ailesi her ay aynı miktarda elektrik kullanmıştır.</div><div><b>B)</b> Yılmaz ailesinin elektrik tüketimi Ocak&#x27;tan Nisan&#x27;a doğru düzenli olarak azalmıştır.</div><div><b>C)</b> Yılmaz ailesi Nisan ayında hiç elektrik kullanmamıştır.</div><div><b>D)</b> Yılmaz ailesinin tüketimi her ay artmıştır.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">Tablodaki verilere bakarak elektriği tasarruflu kullanma hakkında ölçüm verilerine dayalı bir önerme oluşturunuz ve önerinizi tablodaki sayılarla gerekçelendiriniz.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları tablodaki verilerden yararlanarak yanıtlayınız.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Tablodaki örüntüye göre her ay tüketim bir öncekinden 30 kWh azalmaktadır. Bu örüntü aynı şekilde devam ederse Mayıs ayında kaç kWh elektrik tüketilmesi beklenir?</div></div><div class='yanit'><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">20p</span><div class="smetin">Ahmet, tabloyu inceledikten sonra şöyle diyor: <b>&quot;Bu örüntüye göre birkaç ay sonra elektrik faturamız hiç gelmeyecek çünkü tüketim sürekli azalıyor.&quot;</b> Ahmet&#x27;in bu tahmini geçerli midir? Nedenini açıklayınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>FB.3.6.3</span><span class='chip'>Elektriği Tasarruflu Kullanma</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> (1) kapatılmalı, (2) çekilmeli, (3) açılmalı<div class='ak-cozum'>Elektrik tasarrufu için kullanılmayan ışıklar kapatılmalı, dolu cihazların fişi çekilmeli, gündüz gün ışığından yararlanmak için perdeler açılmalıdır.</div></div><div class='ak-soru'><b>2.</b> 1-D, 2-Y, 3-D, 4-Y<div class='ak-cozum'>1 ve 3 numaralı ifadeler tasarruf sağlayan davranışları anlatır (doğru). 2 ve 4 numaralı ifadeler aslında tüketimi artıran davranışları tasarruf gibi göstermektedir (yanlış).</div></div><div class='ak-soru'><b>3.</b> {&quot;r2c1&quot;: &quot;180&quot;}<div class='ak-cozum'>Örüntüye göre her ay tüketim bir öncekinden 30 kWh azalıyor: Şubat 210 kWh olduğuna göre Mart = 210 - 30 = 180 kWh.</div></div><div class='ak-soru'><b>4.</b> <b>B</b><div class='ak-cozum'>Tablodaki kWh değerleri 240, 210, 180, 150 şeklinde her ay 30 kWh azalarak ilerlemektedir; bu da tüketimin düzenli olarak azaldığını gösterir. Diğer seçenekler veriyle çelişir.</div></div><div class='ak-soru'><b>5.</b> Yılmaz ailesi tasarruf önlemleri aldıkça elektrik tüketimi azalmıştır. Şubat ayında önlemler almaya başlamadan önce Ocak&#x27;ta 240 kWh tüketen aile, önlemlerden sonra Nisan&#x27;da 150 kWh tüketmiştir; yani tüketim 90 kWh azalmıştır. Bu da alınan tasarruf önlemlerinin işe yaradığını gösteren bir kanıttır.<div class='ak-cozum'>Beklenen yanıt, öğrencinin tablodaki kWh değerlerini (240 → 150) kullanarak tasarruf önlemlerinin tüketimi azalttığı yönünde veri temelli bir önerme kurmasıdır.</div></div><div class='ak-soru'><b>6.</b> <b>120 kWh</b><div class='ak-cozum'>Nisan ayı tüketimi 150 kWh&#x27;dir. Örüntüye göre her ay 30 kWh azalmaktadır: 150 - 30 = 120 kWh. Mayıs ayında yaklaşık 120 kWh tüketim beklenir.</div></div><div class='ak-soru'><b>7.</b> Ahmet&#x27;in tahmini geçerli değildir. Bir evde aydınlatma, buzdolabı gibi temel ihtiyaçlar için her zaman bir miktar elektrik kullanılır; tüketim sıfıra inemez. Ayrıca tüketimin her ay tam olarak aynı miktarda (30 kWh) azalacağının bir garantisi yoktur; mevsim, hava sıcaklığı ya da ailenin alışkanlıkları değiştikçe tüketim farklı şekilde değişebilir.<div class='ak-cozum'>Beklenen yanıt, öğrencinin bir örüntünün sınırsız şekilde devam edemeyeceğini ve gerçek yaşamda tüketimin sıfıra inemeyeceğini fark ederek Ahmet&#x27;in tahminini sorgulamasıdır.</div></div></div></body></html>

@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Maddelerin Isı Etkisiyle Değişimi: Deney Tasarlıyoruz",
+    "kazanim": {
+      "kod": "FB.4.4.2",
+      "ad": "Maddelerin ısı etkisiyle değişimine yönelik deney yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "4. ÜNİTE: MADDENİN DEĞİŞİMİ",
+      "surec_bilesenleri": {
+        "a": "Maddelerin ısı etkisiyle değişimine yönelik deney tasarlar.",
+        "b": "Maddelerin ısı etkisiyle değişimine yönelik veri analizi yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr FB.4.4.2 kazanım sayfası (kapsam: erime, donma, buharlaşma, yoğuşma, ısı alma/verme; 'ısının tanecikli yapı üzerindeki etkisi' kapsam dışı) ve 4. sınıf konu anlatımı kaynakları (hurriyet.com.tr, ilkokuldokumanlari.com) incelendi. Kazanımın odağı FB.4.4.1'den (kavram tanıma) farklı olarak deney tasarımı ve veri analizi süreç becerisi olduğundan sorular terim ezberi yerine bilimsel süreç becerilerine (değişken belirleme, deney adımlarını sıralama, veri yorumlama) odaklandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları deney ve bilim insanı çalışma biçimini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir bilim insanı bir soruyu araştırmak istediğinde önce bir deney planlar. Aşağıdaki cümleleri uygun kelimelerle tamamlayınız.\n\nBir deneyde sonucu etkileyip etkilemediğini test etmek için değiştirdiğimiz şeye ____(1)____ denir.\n\nDeney sırasında gözlerimizle veya araçlarla topladığımız bilgilere ____(2)____ denir.\n\nDeneyin sonunda elde ettiğimiz bilgilerden çıkardığımız yargıya ____(3)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["değişken", "veri", "sonuç", "hipotez", "malzeme"],
+          "cevap": {"1": "değişken", "2": "veri", "3": "sonuç"},
+          "cozum_md": "Bir deneyde test ettiğimiz şey **değişken**, topladığımız bilgiler **veri**, bu bilgilerden çıkardığımız yargı ise **sonuç**tur. 'Hipotez' bir tahmindir, deney başlamadan önce kurulur; 'malzeme' ise deneyde kullanılan araç-gereçtir — bu boşluklarda kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Bir buz küpünün erime süresini ölçerken aynı anda hem büyüklüğünü hem de bulunduğu ortamın sıcaklığını değiştirirsek deneyimiz güvenilir olmaz.",
+              "cevap": true,
+              "gerekce_md": "Bir deneyde aynı anda birden fazla şey değiştirilirse, sonucun hangi değişkenden kaynaklandığı anlaşılamaz."
+            },
+            {
+              "no": 2,
+              "metin_md": "Bir deneyi sadece bir kez yaparsak sonucumuzdan tam emin oluruz, tekrar yapmaya gerek yoktur.",
+              "cevap": false,
+              "gerekce_md": "Bir deneyi birkaç kez tekrarlamak, sonucun rastlantı olmadığından emin olmamızı sağlar."
+            },
+            {
+              "no": 3,
+              "metin_md": "Isıtılan bir sıvının buharlaşma hızını incelemek için sıvıya farklı miktarlarda ısı vererek karşılaştırma yapabiliriz.",
+              "cevap": true,
+              "gerekce_md": "Verilen ısı miktarını değiştirip diğer koşulları sabit tutarak buharlaşma hızındaki değişimi gözlemleyebiliriz."
+            },
+            {
+              "no": 4,
+              "metin_md": "Bir deneyde elde ettiğimiz sonuçları not almaya gerek yoktur, aklımızda tutmamız yeterlidir.",
+              "cevap": false,
+              "gerekce_md": "Veriler, doğru sonuç çıkarabilmemiz ve başkalarıyla paylaşabilmemiz için mutlaka kayıt altına alınmalıdır."
+            }
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1 ve 3. ifadeler doğru deney tasarımı ilkelerini anlatır (tek değişken değiştirme, karşılaştırmalı deney). 2 ve 4. ifadeler yanlıştır çünkü güvenilir bir deney tekrar edilmeli ve veriler mutlaka kayıt altına alınmalıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları deney adımlarını ve deney ögelerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Buzun ısı etkisiyle erimesini incelemek için yapılan bir deneyin adımları karışık verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Buz parçasının erime süresini kronometre ile ölçüp not alma (veri toplama)",
+            "Isı arttıkça erimenin hızlanacağını tahmin etme (tahmin)",
+            "Farklı miktarda ısı veren ortamlara aynı büyüklükte buz parçaları koyma (deneyi uygulama)",
+            "Buzun ısı etkisiyle nasıl eriyeceğini merak etme (soru sorma)",
+            "Elde edilen verileri karşılaştırıp bir yargıya varma (sonuç çıkarma)"
+          ],
+          "cevap": {"dogru_sira": [3, 1, 2, 0, 4]},
+          "cozum_md": "Bilimsel süreç önce merak edilen bir soruyla başlar, ardından bir tahmin yapılır, sonra deney uygulanır, veriler toplanır ve en son veriler karşılaştırılarak sonuca varılır. Doğru sıra: soru sorma → tahmin → deneyi uygulama → veri toplama → sonuç çıkarma."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Öğretmen, öğrencilerine iki tabak veriyor. Birinci tabaktaki buz parçası küçük, ikinci tabaktaki buz parçası büyük. İkisini de aynı sıcaklıktaki sınıf ortamına bırakıp erime sürelerini karşılaştırıyorlar. Bu deneyde araştırılan soru aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Buzun rengi erime süresini etkiler mi?"},
+            {"harf": "B", "metin_md": "Buz parçasının büyüklüğü erime süresini etkiler mi?"},
+            {"harf": "C", "metin_md": "Tabağın rengi erime süresini etkiler mi?"},
+            {"harf": "D", "metin_md": "Ortamın nem oranı erime süresini etkiler mi?"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Deneyde sabit tutulan şey ortam sıcaklığı, değiştirilen şey ise buz parçasının büyüklüğüdür. Bu yüzden araştırılan soru, buz büyüklüğünün erime süresine etkisidir. Renk ve nem oranı bu deneyde hiç değiştirilmemiştir, dolayısıyla A, C, D yanıltıcıdır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ayşe, üç özdeş bardağa aynı miktarda su koydu. Bardaklardan birine hiç ısı vermedi, birine az ısı verdi, birine çok ısı verdi. Aynı sürenin sonunda her bardaktaki suyun ne kadar buharlaştığını ölçtü. Bu deneyle ilgili tabloyu doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Deney Ögesi", "Bu Deneydeki Karşılığı"],
+            "satirlar": [
+              ["Değiştirilen (test edilen) değişken", "__?__"],
+              ["Sabit tutulan şey", "__?__"],
+              ["Gözlenen/ölçülen sonuç", "Buharlaşan su miktarı"]
+            ]
+          },
+          "cevap": {"r0c1": "Bardaklara verilen ısı miktarı", "r1c1": "Bardaklardaki başlangıç su miktarı (bardakların özdeş olması)"},
+          "cozum_md": "Ayşe her denemede sadece verdiği ısı miktarını değiştirmiştir (test edilen değişken). Bardakların özdeş olması ve başlangıçtaki su miktarının eşit tutulması, sonucu sadece ısı miktarının etkilemesini sağlar (sabit tutulan). Ölçülen sonuç ise buharlaşan su miktarıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları veriyi yorumlayarak ve kendi deney tasarımınızı oluşturarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir öğrenci aynı büyüklükteki buz parçalarına farklı miktarda ısı vererek erime sürelerini ölçmüştür:\n\n| Verilen Isı Miktarı | Erime Süresi |\n|---|---|\n| Az | 12 dakika |\n| Orta | 7 dakika |\n| Çok | 3 dakika |\n\nBu verilere göre verilen ısı miktarı ile erime süresi arasındaki ilişkiyi yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Verilen ısı miktarı arttıkça buzun erime süresi kısalmaktadır. Yani ısı miktarı arttıkça erime daha hızlı gerçekleşir; ısı miktarı ile erime süresi ters orantılıdır.",
+            "kabul_kriterleri": [
+              "Isı miktarı arttıkça erime süresinin azaldığını (kısaldığını) belirtmesi",
+              "Tablodaki veriye dayanarak ilişkiyi doğru yorumlaması"
+            ]
+          },
+          "cozum_md": "Tabloya göre az ısıda erime 12 dakika, çok ısıda ise 3 dakika sürmüştür. Isı miktarı arttıkça erime süresi azalmıştır; bu, iki değişken arasında ters yönlü bir ilişki olduğunu gösterir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "\"Bir sıvıya verilen ısı miktarı arttıkça buharlaşma hızı da artar mı?\" sorusunu araştırmak için bir deney tasarlayınız. Deneyinizde hangi malzemeleri kullanacağınızı, neyi değiştireceğinizi, neyi sabit tutacağınızı ve neyi gözlemleyeceğinizi yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Aynı büyüklükte iki özdeş kap alınır, her birine eşit miktarda su konur. Kaplardan biri az ısı veren, diğeri çok ısı veren bir ısı kaynağının üzerine konur. Su miktarı, kapların büyüklüğü ve bekleme süresi sabit tutulur; değiştirilen şey verilen ısı miktarıdır. Belirli bir süre sonunda her kaptaki buharlaşan su miktarı ölçülüp karşılaştırılır; gözlenen/ölçülen sonuç buharlaşan su miktarıdır.",
+            "kabul_kriterleri": [
+              "Değiştirilen (test edilen) değişkeni doğru belirtmesi: verilen ısı miktarı",
+              "En az bir sabit tutulan değişken belirtmesi (su miktarı, kap büyüklüğü, süre vb.)",
+              "Gözlenecek/ölçülecek sonucu açıkça belirtmesi",
+              "Uygulanabilir ve mantıklı bir deney kurgusu yazması"
+            ]
+          },
+          "cozum_md": "İyi bir deney tasarımında yalnızca araştırılan değişken (ısı miktarı) değiştirilir, diğer her şey (su miktarı, kap büyüklüğü, süre) sabit tutulur; böylece gözlenen fark (buharlaşan su miktarı) sadece ısı miktarındaki değişime bağlanabilir."
+        }
+      ]
+    }
+  ]
+}

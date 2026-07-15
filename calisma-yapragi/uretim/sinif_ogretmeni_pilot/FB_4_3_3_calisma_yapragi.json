@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dünya'nın Hareketlerini Tahmin Ediyoruz",
+    "kazanim": {
+      "kod": "FB.4.3.3",
+      "ad": "Dünya'nın hareketlerini gözlemlerine dayanarak tahmin edebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "3. ÜNİTE: DÜNYA'MIZI KEŞFEDELİM",
+      "surec_bilesenleri": {
+        "a": "Dünya'nın hareketleri ile ilgili önceki gözlem ve/veya deneyimini ilişkilendirir.",
+        "b": "Dünya'nın hareketlerine ilişkin çıkarım yapar.",
+        "c": "Dünya'nın hareketlerinin sonuçlarına ilişkin yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 3. Ünite: Dünya'mızı Keşfedelim) ünite sayfası ve MEB 4. sınıf Fen Bilimleri ders kitabı içeriği incelendi: Dünya'nın 'dönme' (kendi ekseni etrafında, ~24 saat, gece-gündüz oluşumu) ve 'dolanma' (Güneş çevresinde, ~365 gün 6 saat, mevsim/yıl oluşumu) hareketleri ile terminoloji doğrulandı; sorularda bu terimlere ve sürelere sadık kalındı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı.",
+        "S1'deki 4. ifade ve S6'daki kutup senaryosu, Dünya ekseninin eğik olmasıyla ilgili ileri düzey bir ayrıntıya girmeden, sadece 'dolanma hareketi ile mevsim/gündüz süresi değişimi ilişkilidir' düzeyinde, 4. sınıf müfredat sınırı gözetilerek kurgulandı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, günlük hayatta yaptığın gözlemleri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri, günlük hayatta yaptığın gözlemleri düşünerek Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Sabahları güneşin doğduğunu, akşamları battığını görmemiz, Dünya'nın dönme hareketiyle ilgilidir.", "cevap": true, "gerekce_md": "Dünya kendi ekseni etrafında döndüğü için farklı bölgeler sırayla Güneş'e döner; bu da gündüz ve gece hâlini, dolayısıyla güneşin doğup batmasını oluşturur."},
+            {"no": 2, "metin_md": "Yılın bazı aylarında havanın sıcak, bazı aylarında soğuk olması, Dünya'nın hiçbir hareketiyle ilgili değildir.", "cevap": false, "gerekce_md": "Mevsimlerin oluşması, Dünya'nın Güneş çevresindeki dolanma hareketiyle ilgilidir."},
+            {"no": 3, "metin_md": "Bir günün yaklaşık 24 saat sürmesi, Dünya'nın Güneş çevresindeki dolanma hareketinden kaynaklanır.", "cevap": false, "gerekce_md": "Günün 24 saat sürmesi, Dünya'nın kendi ekseni etrafındaki dönme hareketinden kaynaklanır."},
+            {"no": 4, "metin_md": "Doğum günümüzün her yıl aynı mevsimde kutlanması, Dünya'nın dolanma hareketiyle ilgilidir.", "cevap": true, "gerekce_md": "Dünya'nın Güneş çevresinde bir tam tur dolanması yaklaşık bir yıl sürer ve mevsimler bu hareketle oluşur; bu yüzden bir yıl sonra aynı mevsime dönülür."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true}},
+          "cozum_md": "Her ifade, dönme hareketinin gece-gündüzle, dolanma hareketinin ise mevsim ve yıl ile ilişkili olduğu bilgisiyle karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Zeynep, sabah okula giderken yaz aylarında ortalığın aydınlık, kış aylarında ise aynı saatte ortalığın hâlâ karanlık olduğunu fark ediyor.\n\nZeynep'in bu gözlemi, Dünya'nın hangi hareketiyle daha çok ilişkilidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Dönme hareketi"},
+            {"harf": "B", "metin_md": "Dolanma hareketi"},
+            {"harf": "C", "metin_md": "Ay'ın hareketi"},
+            {"harf": "D", "metin_md": "Yer çekimi"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Gündüzün süresinin mevsimden mevsime değişmesi, Dünya'nın Güneş çevresindeki dolanma hareketiyle ve bu hareketin oluşturduğu mevsimlerle ilgilidir. Bu yüzden doğru cevap B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, Dünya'nın hareketleri hakkında öğrendiklerinden çıkarım yaparak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Dünya'nın kendi ekseni etrafındaki hareketine ____(1)____ hareketi denir ve bu hareket sonucunda ____(2)____ oluşur.\n\nDünya'nın Güneş çevresindeki hareketine ise ____(3)____ hareketi denir ve bu hareket yaklaşık ____(4)____ günde tamamlanır.",
+          "gorsel": null,
+          "kelime_havuzu": ["dönme", "dolanma", "gece-gündüz", "mevsimler", "365", "24", "yer çekimi"],
+          "cevap": {"1": "dönme", "2": "gece-gündüz", "3": "dolanma", "4": "365"},
+          "cozum_md": "1) dönme — Dünya'nın kendi ekseni etrafındaki hareketinin adıdır. 2) gece-gündüz — dönme hareketinin sonucudur. 3) dolanma — Dünya'nın Güneş çevresindeki hareketinin adıdır. 4) 365 — dolanma hareketi yaklaşık 365 gün (bir yıl) sürer. 'mevsimler' dolanmanın sonucu olduğu, '24' ise dönme hareketinin süresi olduğu için bu boşluklarda çeldiricidir; 'yer çekimi' ise konuyla ilgili bir hareket olmadığından kullanılmaz."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sol taraftaki hareket ya da süreyle ilgili ifadeleri, sağ taraftaki en uygun sonuçla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Dünya'nın kendi ekseni etrafında dönmesi"},
+            {"no": 2, "metin_md": "Dünya'nın Güneş etrafında dolanması"},
+            {"no": 3, "metin_md": "Dünya'nın yaklaşık 24 saatte bir tam tur dönmesi"},
+            {"no": 4, "metin_md": "Dünya'nın yaklaşık 365 gün süren hareketi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Mevsimlerin oluşması"},
+            {"harf": "B", "metin_md": "Gece ve gündüzün oluşması"},
+            {"harf": "C", "metin_md": "1 yılın tamamlanması"},
+            {"harf": "D", "metin_md": "1 günün tamamlanması"},
+            {"harf": "E", "metin_md": "Ay'ın evrelerinin değişmesi"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "D", "4": "C"},
+          "cozum_md": "1-B: Dönme hareketi gece-gündüzü oluşturur. 2-A: Dolanma hareketi mevsimleri oluşturur. 3-D: 24 saatlik dönme, 1 günü tamamlar. 4-C: 365 günlük dolanma, 1 yılı tamamlar. E seçeneği (Ay'ın evreleri) Dünya'nın hareketleriyle değil Ay'ın hareketiyle ilgili olduğu için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir öğrenci, evinin önündeki bir noktayı işaretliyor ve bu noktanın Güneş'e tekrar aynı şekilde baktığı ana kadar yaklaşık 24 saat geçtiğini not ediyor.\n\nBu gözlemden hangi çıkarım yapılabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Dünya, Güneş çevresinde 24 saatte bir tam tur dolanır."},
+            {"harf": "B", "metin_md": "Dünya, kendi ekseni etrafında yaklaşık 24 saatte bir tam tur döner."},
+            {"harf": "C", "metin_md": "Güneş, Dünya'nın çevresinde döner."},
+            {"harf": "D", "metin_md": "Dünya'nın dönme hareketi mevsimleri oluşturur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bir noktanın Güneş'e tekrar aynı konumda bakması için geçen yaklaşık 24 saatlik süre, Dünya'nın kendi ekseni etrafındaki dönme hareketinin süresidir. A dolanma hareketini yanlış süreyle anlatır, C gerçeği tersine çevirir, D ise dönme yerine dolanmanın sonucunu (mevsimleri) dönmeye bağladığı için yanlıştır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki durumları okuyarak Dünya'nın hareketlerinin sonuçlarına ilişkin yargınızı gerekçeleriyle yazınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Kutup bölgelerinde yaşayan insanlar, yılın bazı dönemlerinde güneşin neredeyse hiç batmadığını, bazı dönemlerinde ise gündüzün çok kısa sürdüğünü söylüyor.\n\nBu durumun Dünya'nın hangi hareketiyle ilgili olabileceğini yaz ve yargını bir gerekçeyle destekle.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bu durum Dünya'nın dolanma hareketiyle ilgilidir. Dünya, Güneş çevresinde dolanırken yıl içinde farklı dönemlerde bulunur; bu yüzden yılın bazı dönemlerinde gündüzün uzunluğu ve güneş ışığı alma süresi bölgeden bölgeye değişir. Dolanma hareketinin oluşturduğu mevsim değişiklikleri, kutup bölgelerinde gündüz-gece sürelerinin bu kadar farklı olmasına neden olur.",
+            "kabul_kriterleri": [
+              "Durumu dolanma hareketiyle ilişkilendirmiş",
+              "Mevsimlerin/dolanma hareketinin gündüz süresini etkilediğine dair mantıklı bir gerekçe sunmuş"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir yargı sorusudur; tek doğru cümle yoktur. Beklenen, öğrencinin gündüz süresindeki büyük farkı dönme değil dolanma hareketine (ve buna bağlı mevsim değişimine) bağlaması ve bunu bir gerekçeyle açıklamasıdır. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir yıl boyunca her ay aynı saatte gökyüzünü ve havayı gözlemleyen bir öğrenci, havanın sıcaklığının ve gündüzün süresinin zamanla değiştiğini fark ediyor.\n\nBu gözlemlere dayanarak, mevsimlerin oluşmasıyla ilgili nasıl bir yargıya varabiliriz? Yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bu gözlemlere dayanarak, mevsimlerin Dünya'nın Güneş çevresindeki dolanma hareketinin bir sonucu olduğu yargısına varabiliriz. Dünya bir yılda Güneş çevresinde bir tam tur dolanır ve bu süreçte hava sıcaklığı ile gündüz süresi düzenli olarak değişir; bu düzenli değişim mevsimleri oluşturur.",
+            "kabul_kriterleri": [
+              "Mevsim değişimini dolanma hareketiyle ilişkilendiren bir yargı sunmuş",
+              "Gözlemlerden (sıcaklık ve gündüz süresindeki değişim) yargıya mantıklı bir bağ kurmuş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın son basamağı olan 'sonuçlara ilişkin yargıda bulunma'yı ölçer. Öğrenci, önceki sorularda öğrendiği dönme/dolanma ayrımını kullanarak yeni bir gözlem setinden mevsimlerle ilgili bir sonuca varmalıdır. Tek doğru cümle yoktur, kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Enerji Dedektifleri: Elektrik Üretiminde Enerji Kaynakları",
+    "kazanim": {
+      "kod": "FB.4.6.2",
+      "ad": "Elektrik üretiminde yenilenebilir ve yenilenemeyen enerji kaynaklarını kullanmaya ilişkin eleştirel düşünebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "6. ÜNİTE: ENERJİ DEDEKTİFLERİ",
+      "surec_bilesenleri": {
+        "a": "Elektrik üretiminde yenilenebilir ve yenilenemeyen enerji kaynaklarını kullanmaya ilişkin bir durumu veya problemi sorgular.",
+        "b": "Elektrik üretiminde yenilenebilir ve yenilenemeyen enerji kaynaklarını kullanmaya ilişkin durum veya problemin canlılar ve çevre üzerine etkileri konusunda akıl yürütür.",
+        "c": "Enerji kaynaklarının sürdürülebilirliklerine ilişkin akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": false,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr resmî 4. sınıf Fen Bilimleri 6. Ünite (Enerji Dedektifleri) sayfası incelendi: ünitenin anahtar kavramları (anahtar, ampul, kablo, pil, elektrik devresi, yenilenebilir enerji, yenilenemeyen enerji) ve FB.4.6.2 kazanımının süreç bileşenleri (sorgulama, canlılar/çevre etkisi üzerine akıl yürütme, sürdürülebilirlik çıkarımı) doğrulandı. Yaprak, elektrik devresi kurma becerisine değil, kazanımın odağı olan eleştirel düşünme/karar verme boyutuna odaklandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları enerji kaynakları hakkında bildiklerinizi kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Güneş, rüzgar ve su gibi doğada sürekli var olan ve kullanıldıkça tükenmeyen enerji kaynaklarına ____(1)____ enerji kaynakları denir. Kömür, petrol ve doğal gaz gibi milyonlarca yılda oluşan ve kullanıldıkça azalıp tükenen kaynaklara ise ____(2)____ enerji kaynakları denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["yenilenebilir", "yenilenemeyen", "elektrikli", "kimyasal"],
+          "cevap": {"1": "yenilenebilir", "2": "yenilenemeyen"},
+          "cozum_md": "Doğada sürekli var olup tükenmeyen kaynaklar (güneş, rüzgar, su) yenilenebilir; oluşumu milyonlarca yıl süren ve kullanıldıkça azalan kaynaklar (kömür, petrol, doğal gaz) yenilenemeyen enerji kaynağıdır."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 16,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu belirleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Rüzgar enerjisi, yenilenebilir bir enerji kaynağıdır.", "cevap": true, "gerekce_md": "Rüzgar doğada sürekli oluşur, kullanıldıkça tükenmez; bu yüzden yenilenebilir bir kaynaktır."},
+            {"no": 2, "metin_md": "Kömür, hiç tükenmeyen bir enerji kaynağıdır.", "cevap": false, "gerekce_md": "Kömür fosil bir yakıttır; milyonlarca yılda oluşur ve kullanıldıkça azalır, bu yüzden yenilenemeyen bir kaynaktır."},
+            {"no": 3, "metin_md": "Güneş enerjisi, elektrik üretiminde kullanılabilir.", "cevap": true, "gerekce_md": "Güneş panelleri güneş ışığını elektrik enerjisine dönüştürerek elektrik üretiminde kullanılır."},
+            {"no": 4, "metin_md": "Doğal gaz, güneş enerjisiyle aynı hızda yenilenir.", "cevap": false, "gerekce_md": "Doğal gazın oluşumu milyonlarca yıl sürer; güneş enerjisi gibi sürekli ve hızla yenilenmez, bu yüzden yenilenemeyen kaynak sınıfındadır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Her ifade, kaynağın tükenip tükenmemesi ölçütüne göre değerlendirilir: rüzgar ve güneş tükenmez/yenilenebilir; kömür ve doğal gaz tükenir/yenilenemez ve güneş kadar hızlı oluşmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları enerji kaynaklarının canlılar ve çevre üzerindeki etkilerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir şehirde elektriğin büyük bölümü kömürle çalışan bir santralden karşılanmaktadır. Bu durumun çevre ve canlılar üzerindeki olası etkisi aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Santralden çıkan dumanlar hava kirliliğine yol açar ve bu durum canlıların sağlığını olumsuz etkileyebilir."},
+            {"harf": "B", "metin_md": "Kömür hiç tükenmediği için santral çevreye herhangi bir etkide bulunmaz."},
+            {"harf": "C", "metin_md": "Kömürle üretilen elektrik, güneşle üretilen elektrikten çevreye daha az etki eder."},
+            {"harf": "D", "metin_md": "Elektrik üretim şekli, sadece bitkileri etkiler; hayvanları ve insanları etkilemez."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Kömür yenilenemeyen bir kaynaktır ve yanma sırasında duman/zararlı gaz açığa çıkararak hava kirliliğine, dolayısıyla canlıların sağlığının olumsuz etkilenmesine yol açabilir. Diğer seçenekler kömürün tükendiği ve çevreye etkisi olduğu gerçeğiyle çelişir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Enerji Kaynağı", "Çevreye/Canlılara Etkisi"],
+            "satirlar": [
+              ["Kömür (yenilenemeyen)", "__?__"],
+              ["__?__", "Duman veya zararlı gaz çıkarmaz, canlılara zarar vermez."]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Yanma sırasında duman ve zararlı gazlar açığa çıkar; hava kirliliğine ve canlıların sağlığının bozulmasına yol açabilir.",
+            "r1c0": "Güneş enerjisi (yenilenebilir)"
+          },
+          "cozum_md": "Kömür yandığında zararlı gaz/duman çıkararak çevreye zarar verir. Duman çıkarmadan elektrik üreten kaynaklardan biri güneş enerjisidir; güneş panelleri ışığı doğrudan elektriğe çevirir."
+        },
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir enerji kaynağının çevre dostu olup olmadığını değerlendirirken izlenecek düşünme adımlarını doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Kaynağın tükenip tükenmediğini belirle", "Enerji kaynağını tanı", "Elde edilen bilgilerle sürdürülebilirlik hakkında çıkarım yap", "Kaynağın kullanımının çevreye etkisini gözlemle"],
+          "cevap": {"dogru_sira": [1, 0, 3, 2]},
+          "cozum_md": "Önce hangi kaynaktan söz edildiği tanınır, sonra bu kaynağın tükenip tükenmediği belirlenir, ardından kullanımının çevreye etkisi gözlemlenir ve son olarak bu bilgilerle sürdürülebilirlik hakkında çıkarım yapılır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları örnek durumu ve kendi çevrenizi düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir köyde sık sık elektrik kesintisi yaşanmaktadır. Köy muhtarı, köye bir güneş paneli tesisi mi yoksa bir kömür santrali mi kurulması gerektiğine karar vermeye çalışmaktadır. Siz muhtarın yerinde olsaydınız, bu durumu değerlendirmek için en az iki soru yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Köyün bulunduğu bölge yeterince güneş ışığı alıyor mu?\n2) Kömür santralinin köydeki canlılara ve havaya olası etkileri nelerdir?\n3) Hangi kaynak uzun vadede tükenmeden kullanılabilir?",
+            "kabul_kriterleri": ["En az iki anlamlı soru yazmış olması", "Sorularının enerji kaynağının çevresel etkisi veya sürdürülebilirliğiyle ilgili olması", "Sorunun sadece maliyetle sınırlı kalmayıp kazanımın odağına (sorgulama) uygun olması"]
+          },
+          "cozum_md": "Kazanımın sorgulama boyutu, öğrencinin bir durumu farklı açılardan (çevresel etki, tükenebilirlik, uygunluk) sorgulayan sorular üretmesini bekler; örnek cevaptaki gibi güneş ışığı yeterliliği ve santralin etkileri sorulabilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 19,
+          "govde_md": "Kendi evinizde veya çevrenizde kullanılan bir enerji kaynağını düşünün. Bu kaynağın sürdürülebilir olup olmadığına ilişkin çıkarımınızı yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Evimizde doğal gazla ısınıyoruz. Doğal gaz yenilenemeyen bir kaynak olduğu için milyonlarca yılda oluşuyor ve kullandıkça azalıyor; bu yüzden sürdürülebilir bir kaynak değildir. Güneş enerjisi gibi yenilenebilir bir kaynağa geçmek daha sürdürülebilir olur.",
+            "kabul_kriterleri": ["Somut bir enerji kaynağı belirtmiş olması", "Kaynağı yenilenebilir/yenilenemeyen ayrımına göre değerlendirmiş olması", "Değerlendirmeye dayalı bir sürdürülebilirlik çıkarımı yazmış olması"]
+          },
+          "cozum_md": "Kazanımın yansıtma boyutu, öğrencinin kendi deneyiminden bir kaynak seçip yenilenebilir/yenilenemeyen ayrımına dayanarak sürdürülebilirlik hakkında kişisel bir çıkarım üretmesini gerektirir."
+        }
+      ]
+    }
+  ]
+}

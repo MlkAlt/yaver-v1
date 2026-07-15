@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Ailenin Önemi",
+    "kazanim": {
+      "kod": "HB.2.3.1",
+      "ad": "Ailenin önemini yorumlayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "3. ÖĞRENME ALANI: AİLEM VE TOPLUM",
+      "surec_bilesenleri": {
+        "a": "Ailenin önemine ilişkin verilen örnekleri inceler.",
+        "b": "Ailenin önemine ilişkin yaptığı çıkarımları kendi cümleleri ile ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile mufredat.meb.gov.tr (İlkokul 2. Sınıf Hayat Bilgisi öğretim programı) ve tymm.meb.gov.tr (Hayat Bilgisi Dersi 2. Sınıf, Türkiye Yüzyılı Maarif Modeli) sayfaları ve '3. Ünite: Ailem ve Toplum' ders kitabı tanıtım özetleri tarandı. Ünitenin aile bireyleri arasındaki dayanışma, görev/sorumluluk paylaşımı, yardımlaşma ve paylaşma vurgusu doğrulandı; sorular bu somut, günlük yaşam örnekleri (hastalık, ödev, üzüntü, bayram) üzerinden kuruldu. Sayfa içerikleri doğrudan fetch edilmedi, yalnızca arama sonucu özetleri kullanıldı.",
+      "notlar": [
+        "'b' süreç bileşeni (kendi cümleleriyle çıkarım ifade etme) kağıt üzerinde ancak açık uçlu sorularla ölçülebilir; s4, s6 ve s7 bu bileşeni temsil eder. s4 senaryo üzerinden çoktan seçmeli çıkarım yaptırır (yönlendirilmiş), s6-s7 tamamen serbest çıkarım ister — 2. sınıf (7-8 yaş) yazılı ifade düzeyi için kademeli bir geçiş olarak tasarlandı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ailemiz hastalandığımızda bizimle ilgilenir, bakımımızı üstlenir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Aile bireyleri zor günlerde birbirine yardım etmek zorunda değildir.", "cevap": false, "gerekce_md": "Yardımlaşma ve dayanışma ailenin önemli özelliklerindendir; aile bireyleri zor günde birbirine destek olur."},
+            {"no": 3, "metin_md": "Evdeki işleri aile bireyleriyle paylaşmak aile bağlarını güçlendirir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Ailemizle birlikte vakit geçirmek bizim için önemli değildir.", "cevap": false, "gerekce_md": "Aileyle geçirilen vakit sevgi ve güven duygumuzu güçlendirir, bu yüzden önemlidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — aile hastalandığımızda bizimle ilgilenir. 2) Yanlış — aile bireyleri zor günde birbirine destek olur, yardımlaşma önemlidir. 3) Doğru — iş paylaşımı aile bağını güçlendirir. 4) Yanlış — birlikte vakit geçirmek sevgi ve güveni güçlendirdiği için önemlidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Durumları, ailenin bize sağladığı katkıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Hastalandığımızda"},
+            {"no": 2, "metin_md": "Ödevlerimizde zorlandığımızda"},
+            {"no": 3, "metin_md": "Üzgün olduğumuzda"},
+            {"no": 4, "metin_md": "Bayramda"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Aile bizi teselli eder, duygularımızı paylaşır"},
+            {"harf": "B", "metin_md": "Aile bizimle ilgilenir, bakımımızı üstlenir"},
+            {"harf": "C", "metin_md": "Aile büyüklerini ziyaret eder, birlikte kutlarız"},
+            {"harf": "D", "metin_md": "Aile bize yardımcı olur, birlikte çözüm buluruz"},
+            {"harf": "E", "metin_md": "Aile bizi yalnız bırakır"}
+          ],
+          "cevap": {"1": "B", "2": "D", "3": "A", "4": "C"},
+          "cozum_md": "1) Hastalandığımızda → B, aile bakımımızı üstlenir. 2) Ödevde zorlanınca → D, aile yardımcı olur. 3) Üzgün olduğumuzda → A, aile teselli eder. 4) Bayramda → C, aile büyükleriyle bir araya geliriz. 'E' seçeneği bu soruda kullanılmayan çeldiricidir; ailenin gerçek işlevini yansıtmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları ailenin önemini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ailemiz bize ____(1)____ ve ____(2)____ duygusu verir. Zor bir durumda olduğumuzda ailemiz bizi ____(3)____.",
+          "gorsel": null,
+          "kelime_havuzu": ["sevgi", "güven", "destekler", "unutur", "korkutur"],
+          "cevap": {"1": "sevgi", "2": "güven", "3": "destekler"},
+          "cozum_md": "1) Aile bize sevgi duygusu verir. 2) Aile bize güven duygusu verir. 3) Zor durumda ailemiz bizi destekler. 'Unutur' ve 'korkutur' ailenin işlevine uymadığı için boşluklara uymaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mert, kardeşinin bisikletten düşüp dizini incittiğini görünce hemen annesine haber verdi; annesi de kardeşinin yarasını sardı. Bu durumdan ailenin önemine ilişkin en doğru çıkarım hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Aile bireyleri zor anda birbirine yardım eder ve destek olur."},
+            {"harf": "B", "metin_md": "Aile bireyleri sadece bayramlarda bir araya gelir."},
+            {"harf": "C", "metin_md": "Kardeşler birbirinin işlerine hiç karışmamalıdır."},
+            {"harf": "D", "metin_md": "Yardım istemek doğru bir davranış değildir."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Mert'in kardeşine yardım için annesine haber vermesi ve annesinin ilgilenmesi, aile bireylerinin zor anda birbirine destek olduğunu gösterir. Diğer seçenekler örnekle çelişir veya ailenin işlevini yanlış yansıtır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi ailenin önemini gösteren bir örnek DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Anne babanın çocuklarının okul başarısıyla ilgilenmesi"},
+            {"harf": "B", "metin_md": "Kardeşlerin oyuncaklarını ve yiyeceklerini birbiriyle paylaşması"},
+            {"harf": "C", "metin_md": "Aile büyüklerinin bayramlarda bir araya gelip hasret gidermesi"},
+            {"harf": "D", "metin_md": "Bir kişinin ailesine hiç danışmadan, tek başına önemli kararlar alması"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "A, B ve C seçenekleri ailenin ilgi, paylaşma ve dayanışma sağladığını gösteren örneklerdir. D seçeneğinde kişi ailesinden habersiz karar alıyor; bu, ailenin önemini gösteren değil, aileyle bağın zayıfladığı bir durumdur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ailenle geçirdiğin ve seni mutlu eden bir anını düşün. Bu anıdan yola çıkarak ailenin senin için neden önemli olduğunu kendi cümlelerinle yaz.",
+          "gorsel": {"betimleme": "Yazma satırlarının altında öğrencinin isterse çizim yapabileceği küçük, çerçeveli boş bir kutu bırakılmalı; birlikte gülümseyen bir aile figürünün ince çizgi eskizi ipucu olarak konabilir. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Hasta olduğumda annem yanımdan ayrılmadı, bana çorba yapıp iyileşmeme yardım etti. Ailem benim için önemli çünkü zor günümde yanımda oldu.",
+            "kabul_kriterleri": [
+              "Kişisel, somut bir aile anısı/örneği belirtmesi",
+              "Bu örnekten ailenin önemine dair bir çıkarım ifade etmesi (sevgi, güven, destek, dayanışma vb.)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin kendi yaşadığı somut bir anıyı örnek göstermesi ve bu örnekten ailenin önemine dair bir çıkarım (sevgi, güven, destek gibi) çıkarması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Öğretmenin sorduğu 'Aile neden önemlidir?' sorusuna arkadaşın Ayşe, 'Çünkü sadece bize yemek yapar.' demiş. Sen olsaydın bu cevaba ek olarak ailenin önemine dair başka hangi çıkarımları eklerdin? En az iki örnek vererek yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Aile bize sadece yemek yapmaz; üzüldüğümüzde bizi teselli eder ve güven duygusu verir. Ayrıca zor bir işi yaparken bize yardımcı olur ve birlikte çözüm bulmamızı sağlar.",
+            "kabul_kriterleri": [
+              "Ayşe'nin cevabından farklı, en az iki ayrı çıkarım/örnek belirtmesi (sevgi, güven, destek, dayanışma, koruma, öğretme vb.)",
+              "Kendi cümleleriyle ifade etmesi (Ayşe'nin cevabının tekrarı olmaması)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek geçerli cevap yoktur. Öğrencinin ailenin yalnızca bakım sağlamakla sınırlı olmadığını, en az iki farklı çıkarımla (ör. teselli etme, güven verme, yardımlaşma) göstermesi beklenir."
+        }
+      ]
+    }
+  ]
+}

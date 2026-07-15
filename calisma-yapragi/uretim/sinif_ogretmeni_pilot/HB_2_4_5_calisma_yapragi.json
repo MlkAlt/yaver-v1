@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dinî Gün ve Bayramlarımız",
+    "kazanim": {
+      "kod": "HB.2.4.5",
+      "ad": "Dinî gün ve bayramların önemini yorumlayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Dinî gün ve bayramlara ilişkin deneyimlerini paylaşır.",
+        "b": "Dinî gün ve bayramların önemini ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile '\"dini gün ve bayramlar\" hayat bilgisi 2. sınıf MEB ders kitabı önemi' arandı; mebders.com özetlerinden dinî bayramların (Ramazan/Şeker Bayramı, Kurban Bayramı) ve dinî günlerin (kandiller, Kadir Gecesi, Aşure Günü) isimleri ile bayramlaşma gelenekleri (büyüklerin elini öpme, bayram namazı, temizlik/yeni kıyafet, ziyaret, ikram, yardımlaşma) doğrulandı. tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117 sayfası WebFetch ile açıldı; sayfa 1. sınıf ünitesine aitti (2. sınıfta konu aynı temanın devamı, Yaşadığım Yer ve Ülkem öğrenme alanı altında tekrar işleniyor) ve 'deneyim/duygu paylaşımı' vurgusunu doğruladı. mebders.com'daki 2. sınıfa özel 'Dinî Bayramlarımız' konu anlatım dosyasının tam metnine erişilemedi (yalnızca dosya meta verisi döndü); içerik bu nedenle genel/doğrulanmış MEB müfredat bilgisine (iki dinî bayram + kandiller listesi + bayramlaşma gelenekleri) dayanılarak kuruldu.",
+      "notlar": [
+        "Kazanımın fiili 'yorumlayabilme' olduğundan Uygulayalım bölümündeki s6 ve s7 bilinçli olarak açık uçlu kurgulandı: s6 'a' bileşenini (kişisel deneyim/duygu paylaşımı), s7 'b' bileşenini (önemin gerekçeli ifadesi) karşılar. Tanıyalım ve Kavrayalım bölümlerindeki yapılandırılmış sorular (D/Y, boşluk doldurma, eşleştirme, tablo, çoktan seçmeli) 2. sınıf (7-8 yaş) düzeyinde gerekli kavramsal zemini (bayram/kandil isimleri, gelenekler) kurarak serbest yoruma hazırlık sağlar."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeleri okuyunuz. Doğru ise \"D\", yanlış ise \"Y\" yazınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise \"D\", yanlış ise \"Y\" yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ramazan Bayramı ve Kurban Bayramı, dinî bayramlarımızdandır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Dinî bayramlarda akraba ve komşularımızı ziyaret etmemize gerek yoktur.", "cevap": false, "gerekce_md": "Yanlıştır; dinî bayramlarda akraba ve komşularımızı ziyaret ederiz, bu ziyaretler bizi birbirimize yaklaştırır."},
+            {"no": 3, "metin_md": "Kandil geceleri de dinimiz için önemli günlerdir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Bayram sabahı büyüklerimizin elini öpmemize gerek yoktur.", "cevap": false, "gerekce_md": "Yanlıştır; bayram sabahı büyüklerimizin elini öpmek, onlara sevgi ve saygımızı gösterme geleneğimizdir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — Ramazan ve Kurban Bayramı dinimizin iki önemli bayramıdır. 2) Yanlış — dinî bayramlarda akraba ve komşu ziyareti, bayramın önemli bir parçasıdır. 3) Doğru — kandil geceleri de dinimiz için değerli, özel gecelerdir. 4) Yanlış — büyüklerin elini öpmek bayram sabahının sevgi ve saygı gösteren bir geleneğidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bayram sabahı erken kalkarız. Temiz ____(1)____ giyeriz. Önce bayram ____(2)____ kılarız. Sonra büyüklerimizin elini ____(3)____.",
+          "gorsel": null,
+          "kelime_havuzu": ["kıyafetler", "namazı", "öperiz", "oyuncak", "yeriz"],
+          "cevap": {"1": "kıyafetler", "2": "namazı", "3": "öperiz"},
+          "cozum_md": "1) Bayram sabahı temiz kıyafetler giyilir. 2) Önce bayram namazı kılınır. 3) Sonra büyüklerin eli öpülür. 'Oyuncak' ve 'yeriz' cümlelerin anlamına uymadığı için boşluklara uymaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dinî gün ve bayramların önemini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Dinî gün ve bayramları, o günlerde yapılan davranışla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kurban Bayramı"},
+            {"no": 2, "metin_md": "Ramazan Bayramı"},
+            {"no": 3, "metin_md": "Kandil geceleri"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Camilerde kandiller yakılır, dua edilir."},
+            {"harf": "B", "metin_md": "Kurban kesilip eti ihtiyaç sahipleriyle paylaşılır."},
+            {"harf": "C", "metin_md": "Çocuklara şeker ve harçlık verilir."},
+            {"harf": "D", "metin_md": "Okula erken gidilip ders çalışılır."}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A"},
+          "cozum_md": "1) Kurban Bayramı → B, kurban kesilip eti paylaşılır. 2) Ramazan Bayramı → C, çocuklara şeker ve harçlık verilir. 3) Kandil geceleri → A, camilerde kandiller yakılıp dua edilir. 'D' seçeneği dinî gün ve bayram geleneğiyle ilgili olmadığı için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Zaman", "Yaptığımız Davranış"],
+            "satirlar": [
+              ["Bayramdan önce", "__?__"],
+              ["Bayram sabahı", "Büyüklerin eli öpülür, bayram namazı kılınır."],
+              ["Bayram boyunca", "__?__"],
+              ["Kandil gecesi", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Ev temizlenir, yeni kıyafetler hazırlanır.",
+            "r2c1": "Akraba ve komşular ziyaret edilir, ikramlar yapılır.",
+            "r3c1": "Camiye gidilir, dua edilir."
+          },
+          "cozum_md": "Bayramdan önce ev temizlenir ve yeni kıyafetler hazırlanır. Bayram boyunca akraba ve komşu ziyaretleri yapılır, ikramlarda bulunulur. Kandil gecesi ise camiye gidilip dua edilir. Bayram sabahı için verilen örnek (elin öpülmesi, namaz) diğer boşlukların doldurulmasına kılavuzluk eder."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ayşe, bayram sabahı erken kalkıp temiz kıyafetlerini giydi. Dedesinin elini öptü, ona bayramını kutladı. Ayşe'nin bu davranışı en çok neyi gösterir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece eğlenmek istediğini"},
+            {"harf": "B", "metin_md": "Büyüklerine sevgi ve saygı duyduğunu"},
+            {"harf": "C", "metin_md": "Okula gitmek istemediğini"},
+            {"harf": "D", "metin_md": "Bayramdan sıkıldığını"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ayşe'nin dedesinin elini öpüp bayramını kutlaması, büyüklerine duyduğu sevgi ve saygıyı gösteren bir davranıştır. Diğer seçenekler örnekteki davranışla çelişir veya davranışın anlamını yanlış yansıtır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini ve düşüncelerini paylaşarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir dinî bayram ya da kandil gecesinde yaşadığın bir anını düşün. O gün neler yaptın, neler hissettin? Kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Geçen Kurban Bayramı'nda dedemin evine gittik. Dedemin elini öptüm, o da bana harçlık verdi. Sonra akrabalarımızla birlikte yemek yedik. Kendimi mutlu ve sevilmiş hissettim.",
+            "kabul_kriterleri": [
+              "Bir dinî bayram/gün adı belirtir (ör. Ramazan Bayramı, Kurban Bayramı, kandil gecesi)",
+              "O günle ilgili yaptığı somut bir davranışı anlatır",
+              "Kendi hissettiği bir duyguyu ifade eder"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin belirli bir dinî bayram/gün adı vererek yaşadığı somut bir deneyimi anlatması ve bu deneyimle ilgili kendi duygusunu ifade etmesi beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Dinî gün ve bayramların bizim için neden önemli olduğunu düşünüyorsun? Bu günler olmasaydı hayatımızda neler eksik olurdu? Düşüncelerini yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Dinî gün ve bayramlar önemlidir çünkü bu günlerde akraba ve komşularımızla bir araya geliriz, birbirimize yardım ederiz. Bu günler olmasaydı sevdiklerimizle daha az bir araya gelir, paylaşma ve yardımlaşma duygumuz zayıflardı.",
+            "kabul_kriterleri": [
+              "Paylaşma, yardımlaşma veya birlik/beraberlik kavramlarından en az birine değinir",
+              "Kendi gerekçesini mantıklı bir biçimde açıklar"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek geçerli cevap yoktur. Öğrencinin dinî gün ve bayramların birlik, paylaşma veya yardımlaşma açısından önemine değinerek kendi gerekçesini açıklaması beklenir."
+        }
+      ]
+    }
+  ]
+}

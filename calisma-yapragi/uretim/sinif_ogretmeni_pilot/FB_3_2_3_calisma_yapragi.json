@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Canlıların Yaşam Döngülerinde Örüntüleri Keşfediyorum",
+    "kazanim": {
+      "kod": "FB.3.2.3",
+      "ad": "Canlıların yaşam döngülerini açıklamada tümevarımsal akıl yürütebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "2. ÜNİTE: CANLILAR DÜNYASINA YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Canlıların yaşam döngüleri ile ilgili örüntüleri bulur.",
+        "b": "Canlıların yaşam döngüleri ile ilgili genelleme yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 2. Ünite (Canlılar Dünyasına Yolculuk) program sayfası incelendi. Kazanımın önerdiği öğretim akışı (bitki/hayvan yaşam döngüsü videosu/görseli izletme → benzerlikleri tartıştırma → 'tüm canlılar yaşam döngüsü geçirir ama süreç her canlı için aynı değildir' genellemesine ulaştırma) yaprağın örüntü-bulma → genelleme-yapma sırasına birebir taşındı. ogmmateryal.eba.gov.tr'de bu spesifik kazanım için ayrı materyale ulaşılamadı; kelebek/kurbağa/tavuk/fasulye bitkisi yaşam döngüsü evreleri (yumurta-larva-pupa-ergin; tohum-fide-çiçekli bitki vb.) genel fen müfredatında standart, tartışmasız bilgidir.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm + s2 sıralamasının python ile doğrulaması) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve sıralama sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Kelebeğin yaşam döngüsündeki evreleri, soldaki numaralarla sağdaki açıklamaları eşleştirerek gösteriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Yumurta"},
+            {"no": 2, "metin_md": "Tırtıl (larva)"},
+            {"no": 3, "metin_md": "Koza (pupa)"},
+            {"no": 4, "metin_md": "Ergin kelebek"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Tırtılın içine kapandığı, vücudunun tamamen değiştiği durgun evre."},
+            {"harf": "B", "metin_md": "Dişi kelebeğin bir yaprağın üzerine bıraktığı küçük, yuvarlak ilk evre."},
+            {"harf": "C", "metin_md": "Sürekli yaprak yiyerek hızla büyüyen, kurt şeklindeki evre."},
+            {"harf": "D", "metin_md": "Kanatları açılmış, uçabilen ve üreyebilen yetişkin evre."}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+          "cozum_md": "1-B: Yaşam döngüsü, dişinin bıraktığı **yumurta** ile başlar. 2-C: Yumurtadan çıkan **tırtıl**, sürekli yaprak yiyerek büyür. 3-A: Tırtıl belirli bir büyüklüğe ulaşınca **koza** (pupa) oluşturur ve içinde vücudu tamamen değişir. 4-D: Koza açılınca kanatları olan, uçabilen ve üreyebilen **ergin kelebek** ortaya çıkar."
+        },
+        {
+          "id": "s2",
+          "tip": "siralama",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Kurbağanın yaşam döngüsü evreleri aşağıda karışık sırada verilmiştir. Evreleri doğru sıraya diziniz.",
+          "gorsel": null,
+          "ogeler": ["Bacaklı iribaş (kurbağacık)", "Ergin kurbağa", "Yumurta", "İribaş (kuyruklu larva)"],
+          "cevap": {"dogru_sira": [2, 3, 0, 1]},
+          "cozum_md": "Doğru sıra: **Yumurta** → **İribaş (kuyruklu larva)** → **Bacaklı iribaş (kurbağacık)** → **Ergin kurbağa**. Kurbağa da kelebek gibi yaşam döngüsü boyunca şekil değiştirir (başkalaşım geçirir): önce suda yaşayan kuyruklu bir larva iken, zamanla bacakları çıkar ve karada da yaşayabilen ergin kurbağaya dönüşür."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki tabloyu doldurunuz, sonra soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda bazı canlıların yaşam döngüsüyle ilgili bilgiler eksik bırakılmıştır. Tabloyu doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Canlı", "Yaşam Döngüsünün Başladığı Evre", "Yetişkin (Ergin) Evre"],
+            "satirlar": [
+              ["Kelebek", "Yumurta", "__?__"],
+              ["Kurbağa", "__?__", "Ergin kurbağa"],
+              ["Tavuk", "Yumurta", "__?__"],
+              ["Fasulye bitkisi", "__?__", "Çiçek açan, tohum üreten bitki"]
+            ]
+          },
+          "cevap": {"r0c2": "Ergin kelebek", "r1c1": "Yumurta", "r2c2": "Yetişkin tavuk", "r3c1": "Tohum"},
+          "cozum_md": "r0c2: Kelebeğin yaşam döngüsü ergin kelebekle tamamlanır. r1c1: Kurbağanın yaşam döngüsü de tıpkı kelebek gibi **yumurta** ile başlar. r2c2: Tavuğun yaşam döngüsü yetişkin tavukla tamamlanır. r3c1: Fasulye bitkisinin yaşam döngüsü, hayvanlardaki yumurtanın karşılığı olan **tohum** ile başlar."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir önceki sorudaki tabloyu incelediğinde, kelebek, kurbağa ve tavuğun yaşam döngüleri arasında nasıl bir örüntü (ortak özellik) görüyorsun?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Üçü de yaşam döngüsüne yumurta evresiyle başlar."},
+            {"harf": "B", "metin_md": "Üçü de yaşam döngüsüne tohum evresiyle başlar."},
+            {"harf": "C", "metin_md": "Üçü de hayatları boyunca hiç değişmeden aynı kalır."},
+            {"harf": "D", "metin_md": "Üçü de yaşam döngüsünü suda tamamlar."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Tablodan görüldüğü gibi kelebek, kurbağa ve tavuğun yaşam döngüsünün başlangıç evresi **yumurta**dır; bu, bu üç canlı arasındaki ortak örüntüdür. B fasulye bitkisi için doğrudur ama bu üçü için değildir. C ve D ise tablodaki bilgilerle çelişir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Fasulye bitkisinin yaşam döngüsü tohumla başlar. Buna göre \"Bütün canlıların yaşam döngüsü yumurtayla başlar.\" ifadesi için ne söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bu ifade doğrudur çünkü incelenen tüm canlılar yumurtadan çıkar."},
+            {"harf": "B", "metin_md": "Bu ifade yanlıştır çünkü fasulye bitkisi gibi bazı canlıların yaşam döngüsü tohumla başlar."},
+            {"harf": "C", "metin_md": "Bu ifade doğrudur çünkü bitkiler yaşam döngüsüne sahip değildir."},
+            {"harf": "D", "metin_md": "Bu ifade yanlıştır çünkü hiçbir canlının yaşam döngüsü yumurtayla başlamaz."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Kelebek, kurbağa ve tavuk yumurtayla başlasa da fasulye bitkisi tohumla başlar; bu yüzden \"bütün canlılar\" diyen genelleme yanlıştır — aceleyle yapılmış, tek örnek gruba dayanan bir genellemedir. Doğru genelleme, başlangıç evresinin canlı türüne göre değiştiğini kabul etmelidir. C ve D tablodaki bilgilerle çelişir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, önceki sorularda incelediğin bilgilere dayanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Kelebek, kurbağa, tavuk ve fasulye bitkisinin yaşam döngülerini incelediğinde, hepsinde ortak olan ama süreçleri birbirinden farklı olan bir gerçek fark edebilirsin. Bu canlıların yaşam döngüleriyle ilgili genel bir sonuç (genelleme) yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bütün canlıların bir yaşam döngüsü vardır: oluşurlar, büyürler, gelişirler, çoğu üreyebilir hâle gelir ve zamanla yaşamları sona erer. Ancak bu döngünün evreleri ve süresi her canlı türünde aynı değildir; örneğin kelebek ve kurbağa şekil değiştirerek (başkalaşım geçirerek) büyürken, fasulye bitkisi tohumdan filizlenerek büyür.",
+            "kabul_kriterleri": ["Tüm canlıların bir yaşam döngüsü olduğunu belirtmesi", "Bu döngünün evrelerinin/sürecinin canlı türüne göre farklılaştığını belirtmesi"]
+          },
+          "cozum_md": "Örnek cevap yukarıdaki gibidir. Öğrencinin birebir aynı cümleyi kurması gerekmez; incelenen dört canlıdan yola çıkarak (a) her canlının bir yaşam döngüsü geçirdiğini ve (b) bu döngünün canlıdan canlıya farklılaştığını genelleme olarak ifade etmesi yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Bir insanın yaşam döngüsü şöyledir: bebeklik → çocukluk → gençlik → yetişkinlik → yaşlılık. İnsanın yaşam döngüsünde kelebekteki gibi bir başkalaşım (koza evresi, vücudun tamamen şekil değiştirmesi) yoktur.\n\na) İnsanın yaşam döngüsü, bir önceki soruda yazdığın genellemeyle (tüm canlıların yaşam döngüsü olduğu ama sürecin canlıdan canlıya farklı olduğu) tutarlı mıdır? Açıkla.\n\nb) İnsanın yaşam döngüsü ile kelebeğin yaşam döngüsü arasındaki en belirgin farkı yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "a) Evet, tutarlıdır. İnsanın da bir yaşam döngüsü vardır (doğar, büyür, gelişir, yaşlanır) ama bu döngü kelebeğinkinden farklı işler; bu da genellemeyi doğrular. b) Kelebeğin yaşam döngüsünde başkalaşım vardır (tırtıl, kozanın içinde tamamen farklı bir görünüme, kelebeğe dönüşür); insanın yaşam döngüsünde ise böyle bir şekil değiştirme yoktur, insan sadece zamanla büyür ve gelişir.",
+            "kabul_kriterleri": ["İnsanın yaşam döngüsünün de genellemeyi (yaşam döngüsü var, ama süreç farklı) desteklediğini belirtmesi", "Başkalaşımın kelebekte olup insanda olmadığını doğru ifade etmesi"]
+          },
+          "cozum_md": "a) İnsanın yaşam döngüsü de bebeklikten yaşlılığa uzanan bir süreçtir; bu, \"her canlının yaşam döngüsü vardır ama süreç farklıdır\" genellemesiyle tam olarak örtüşür. b) En belirgin fark, kelebeğin başkalaşım (metamorfoz) geçirerek görünümünü tamamen değiştirmesi, insanın ise böyle bir dönüşüm yaşamadan kademeli olarak büyüyüp gelişmesidir."
+        }
+      ]
+    }
+  ]
+}

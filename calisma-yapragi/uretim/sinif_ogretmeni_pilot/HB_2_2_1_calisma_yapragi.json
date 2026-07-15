@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sağlıklı Büyüme ve Gelişme ile Alışkanlıklarım",
+    "kazanim": {
+      "kod": "HB.2.2.1",
+      "ad": "Sağlıklı büyüme ve gelişme ile alışkanlıkları arasındaki ilişkiyi çözümleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Sağlıklı büyüme ve gelişme için yapılması gerekenleri belirler.",
+        "b": "Alışkanlıklarını belirler.",
+        "c": "Sağlıklı büyüme ve gelişme ile alışkanlıkları arasındaki ilişkiyi belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 2. Sınıf 'Sağlığım ve Güvenliğim' teması (unite/239) ve 2018 Hayat Bilgisi Dersi Öğretim Programı incelendi: sağlıklı büyüme/gelişmeyi etkileyen unsurlar olarak beslenme, uyku, kişisel bakım/temizlik ve spor öne çıkıyor.",
+      "notlar": [
+        "validate_worksheet.py 'alan-yoğun tip sayısı 3' uyarısı veriyor (dogru_yanlis+eslestirme+tablo_doldurma birer kez). Bilinçli tercih: render_html.py ile gerçek ölçüm öğrenci kısmının 1 A4 sayfaya sığdığını doğruladı (toplam 2 sayfa, cevap anahtarı dahil), bu yüzden içerik kısaltılmadı.",
+        "Crosscheck (subagentsiz, bağımsız geçiş) sonucu: s5'in ilk versiyonunda (hangisi/hangileri...) B/C/D seçenekleri de kısmen doğru sayılabileceğinden K4 açısından belirsizdi; soru kökü 'EKSİKSİZ verilmiştir' olarak netleştirildi. Ayrıca s3/s6'da 'sen' bağımsız hitabı (yaz), diğer sorulardaki 'siz' emir kipiyle (yazınız, açıklayınız) tutarlı hale getirildi (K5)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki etkinlikleri yaparak sağlıklı büyüme ve gelişme için gerekli alışkanlıkları tanıyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Sebze ve meyve yemek sağlıklı büyümemize yardımcı olur.",
+              "cevap": true,
+              "gerekce_md": "Sebze ve meyveler vücudumuzun büyümesi için gerekli vitamin ve mineralleri sağlar."
+            },
+            {
+              "no": 2,
+              "metin_md": "Her gün aynı saatte uyumak büyümemizi olumsuz etkiler.",
+              "cevap": false,
+              "gerekce_md": "Düzenli ve yeterli uyku, vücudumuzun dinlenip büyümesine yardımcı olur; olumsuz değil olumlu etkiler."
+            },
+            {
+              "no": 3,
+              "metin_md": "Dişlerimizi düzenli fırçalamak sağlığımız için önemlidir.",
+              "cevap": true,
+              "gerekce_md": "Düzenli diş fırçalama çürükleri ve hastalıkları önler."
+            },
+            {
+              "no": 4,
+              "metin_md": "Spor yapmanın büyümemizle hiçbir ilgisi yoktur.",
+              "cevap": false,
+              "gerekce_md": "Spor, kaslarımızın ve kemiklerimizin sağlıklı gelişmesine katkı sağlar."
+            }
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — sebze/meyve vitamin-mineral kaynağıdır. 2) Yanlış — düzenli uyku büyümeye zarar değil, yardım eder. 3) Doğru — diş fırçalamak sağlık için önemlidir. 4) Yanlış — spor kas ve kemik gelişimine katkı sağlar."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sol taraftaki alışkanlıkları sağ taraftaki faydalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Sebze ve meyve yemek"},
+            {"no": 2, "metin_md": "Bol su içmek"},
+            {"no": 3, "metin_md": "Erken yatıp erken kalkmak"},
+            {"no": 4, "metin_md": "Dişleri düzenli fırçalamak"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Vücudumuzun susuz kalmasını önler."},
+            {"harf": "B", "metin_md": "Dişlerimizin çürümesini önler."},
+            {"harf": "C", "metin_md": "Vücudumuza vitamin ve mineral sağlar."},
+            {"harf": "D", "metin_md": "Vücudumuzun dinlenmesini ve büyümesini sağlar."},
+            {"harf": "E", "metin_md": "Ders çalışmamızı kolaylaştırır."},
+            {"harf": "F", "metin_md": "Arkadaş edinmemizi sağlar."}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "D", "4": "B"},
+          "cozum_md": "1-C: Sebze/meyve vitamin-mineral sağlar. 2-A: Su vücudun susuz kalmasını önler. 3-D: Düzenli uyku dinlenme ve büyümeyi sağlar. 4-B: Diş fırçalamak çürükleri önler. E ve F seçenekleri bu alışkanlıkların doğrudan faydası değildir, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları kendi hayatınızdan örnekler ve verilen bilgilerden yararlanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sağlıklı büyüyüp gelişmeniz için kendi hayatınızdaki 2 alışkanlığınızı yazınız. (Örnek: Her gün kahvaltı yaparım.)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Her gün kahvaltıda süt içerim. Her akşam saat 21.00'de yatarım.",
+            "kabul_kriterleri": [
+              "Öğrencinin kendi hayatından, sağlıkla ilgili en az 2 gerçek alışkanlık yazması",
+              "Yazılan alışkanlıkların beslenme, temizlik, uyku veya spor kategorilerinden biriyle ilgili olması"
+            ]
+          },
+          "cozum_md": "Bu açık uçlu soruda tek bir doğru cevap yoktur; öğrencinin kendi gerçek alışkanlıklarından, sağlıklı büyüme ile ilgili en az 2 tanesini yazması beklenir (örn. beslenme, uyku, temizlik, spor)."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki alışkanlıkların hangi alanla ilgili olduğunu tabloya yazınız. (Beslenme, Temizlik, Uyku, Spor)",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Alışkanlık", "Hangi Alanla İlgili?"],
+            "satirlar": [
+              ["Sebze ve meyve yemek", "__?__"],
+              ["Dişleri fırçalamak", "__?__"],
+              ["Erken yatmak", "__?__"],
+              ["Top oynamak, koşmak", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Beslenme", "r1c1": "Temizlik", "r2c1": "Uyku", "r3c1": "Spor"},
+          "cozum_md": "Sebze/meyve yemek beslenmeyle, diş fırçalamak temizlikle, erken yatmak uyku düzeniyle, top oynayıp koşmak sporla ilgilidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Zeynep'in günlük alışkanlıklarını okuyup aşağıdaki soruları cevaplayınız.\n\n\"Zeynep her sabah kahvaltıda sadece çikolata yiyor. Geceleri geç saatlere kadar oyun oynayıp geç yatıyor. Hiç spor yapmıyor.\"",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Zeynep'in sağlıklı büyüme ve gelişmesini olumsuz etkileyen alışkanlıkları aşağıdaki seçeneklerden hangisinde EKSİKSİZ verilmiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece çikolata yemesi, geç yatması ve spor yapmaması"},
+            {"harf": "B", "metin_md": "Sadece çikolata yemesi"},
+            {"harf": "C", "metin_md": "Sadece geç yatması"},
+            {"harf": "D", "metin_md": "Sadece spor yapmaması"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Zeynep'in üç alışkanlığı da (dengesiz beslenme, düzensiz/geç uyku, spor yapmama) sağlıklı büyüme ve gelişmeyi olumsuz etkiler. Doğru cevap bu üçünü birlikte veren A seçeneğidir; B, C, D seçenekleri tek tek doğru olsa da eksiktir, soru 'eksiksiz' listeyi istemektedir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Zeynep'in sağlıklı büyüyüp gelişebilmesi için alışkanlıklarını nasıl değiştirmesi gerekir? En az 2 öneri yazınız ve her öneri için nedenini açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Zeynep kahvaltıda çikolata yerine sebze, meyve ve süt gibi besinler tüketmeli çünkü vücudunun büyümesi için vitamin ve minerale ihtiyacı vardır. Ayrıca erken yatıp yeterince uyumalı çünkü uyku sırasında vücudumuz dinlenir ve büyür. Ayrıca düzenli spor yapmalı çünkü spor kaslarının ve kemiklerinin gelişmesine yardımcı olur.",
+            "kabul_kriterleri": [
+              "En az 2 öneri sunması (beslenme, uyku veya spor ile ilgili)",
+              "Her öneri için sağlıklı büyüme/gelişmeyle ilişkisini (nedenini) açıklaması"
+            ]
+          },
+          "cozum_md": "Zeynep'in üç eksik alışkanlığı (dengesiz beslenme, düzensiz uyku, spor yapmama) sağlıklı büyüme bileşenleriyle ilişkilendirilerek en az 2 tanesi için düzeltici öneri ve gerekçe beklenir."
+        }
+      ]
+    }
+  ]
+}

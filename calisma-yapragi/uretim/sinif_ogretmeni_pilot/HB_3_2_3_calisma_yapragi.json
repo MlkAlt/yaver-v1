@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Trafikte Güvenle",
+    "kazanim": {
+      "kod": "HB.3.2.3",
+      "ad": "Trafik kurallarına uymanın önemine ilişkin özgün ürünler oluşturabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Trafik kurallarına uymanın önemini belirler.",
+        "b": "Trafik kurallarına uyma ile güvenliği arasında ilişki kurar.",
+        "c": "Trafik kurallarına uymanın önemine ilişkin özgün bir ürün oluşturur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ve tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, Hayat Bilgisi 3. sınıf 2. Öğrenme Alanı: Sağlığım ve Güvenliğim) incelendi. Kazanımın kapsamı doğrulandı: trafik kurallarına uymanın önemi, kurallara uyma ile güvenlik arasındaki ilişki ve öğrencinin bu konuda özgün bir ürün (slogan, afiş, metin vb.) oluşturması. Kaynaklarda somut trafik kuralı örnekleri ayrıntılı listelenmediğinden (emniyet kemeri, yaya geçidi, kırmızı ışık gibi) genel müfredat bilgisiyle desteklendi.",
+      "notlar": [
+        "c bileşeni ('özgün bir ürün oluşturur') doğası gereği açık uçlu/üretim odaklıdır; Uygulayalım bölümünde slogan ve afiş fikri yazdırma etkinlikleriyle karşılandı, tek doğru cevap aranmadı.",
+        "Bağımsız crosscheck (subagent'sız, tek ajan içinde ayrı geçiş) yapıldı: tüm sorular anahtara bakılmadan çözüldü ve K1-K6 kontrolleri uygulandı. s4'te boşluk kelime havuzunda 'güvenliği'/'güvenlik' iki farklı çekim biçiminin belirsizliğe yol açması bulundu ve cümle + kelime havuzu ('güvenliğini') netleştirilerek düzeltildi. Başka kritik sorun bulunmadı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi trafik kurallarına uymanın en önemli nedenidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Trafik polislerini memnun etmek"},
+            {"harf": "B", "metin_md": "Can ve mal güvenliğini sağlamak"},
+            {"harf": "C", "metin_md": "Ceza almaktan kaçmak"},
+            {"harf": "D", "metin_md": "Araçların daha hızlı gitmesini sağlamak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Trafik kuralları; yayaların, sürücülerin ve tüm toplumun can ve mal güvenliğini korumak için konulmuştur. Ceza almamak ya da polisi memnun etmek bir sonuç olabilir ama asıl amaç güvenliktir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Trafik kuralları yalnızca araç kullanan sürücüler için geçerlidir, yayaları ilgilendirmez.",
+              "cevap": false,
+              "gerekce_md": "Trafik kuralları hem sürücüleri hem yayaları kapsar; yayaların da yaya geçidi ve kaldırım gibi kurallara uyması gerekir."
+            },
+            {
+              "no": 2,
+              "metin_md": "Kırmızı ışıkta beklemek, hem yayaların hem sürücülerin güvenliğini korur.",
+              "cevap": true,
+              "gerekce_md": "Kırmızı ışıkta durmak, araçların ve yayaların çarpışmasını önleyerek herkesin güvenliğini sağlar."
+            },
+            {
+              "no": 3,
+              "metin_md": "Trafik kurallarına sadece kaza olduğunda uymak yeterlidir.",
+              "cevap": false,
+              "gerekce_md": "Trafik kurallarına her zaman uyulmalıdır; amaç kazaların hiç yaşanmamasını sağlamaktır, kaza olduktan sonra değil."
+            },
+            {
+              "no": 4,
+              "metin_md": "Yaya geçidini kullanmak, karşıdan karşıya güvenle geçmeyi sağlar.",
+              "cevap": true,
+              "gerekce_md": "Yaya geçitleri, sürücülerin yayaları görebildiği ve durabildiği güvenli geçiş noktalarıdır."
+            }
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1 ve 3 numaralı ifadeler yanlıştır: trafik kuralları herkesi kapsar ve her zaman geçerlidir. 2 ve 4 numaralı ifadeler doğrudur: kırmızı ışık ve yaya geçidi güvenliği korumak için vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları trafik kuralı ile güvenlik arasındaki ilişkiyi düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki trafik kurallarını, sağladıkları güvenlik faydasıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Araçta emniyet kemeri takmak"},
+            {"no": 2, "metin_md": "Yaya geçidinden karşıya geçmek"},
+            {"no": 3, "metin_md": "Kırmızı ışıkta durmak"},
+            {"no": 4, "metin_md": "Kaldırımda yürümek"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kaza anında yaralanma riskini azaltır"},
+            {"harf": "B", "metin_md": "Sürücülerin yayayı görüp durabilmesini sağlar"},
+            {"harf": "C", "metin_md": "Araçların birbiriyle çarpışmasını önler"},
+            {"harf": "D", "metin_md": "Yayanın araç yoluna girmesini engeller"},
+            {"harf": "E", "metin_md": "Trafik polisinin işini kolaylaştırır"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Emniyet kemeri kaza anında yaralanmayı azaltır (A). Yaya geçidi sürücünün yayayı görüp durmasını sağlar (B). Kırmızı ışık araçların çarpışmasını önler (C). Kaldırımda yürümek yayanın araç yoluna girmesini engeller (D). E seçeneği güvenlikle doğrudan ilgili olmadığı için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Trafik kuralları, yayaların ve sürücülerin ____(1)____ sağlamak için konulmuştur. Kurallara uyulmazsa ____(2)____ riski artar. Bu yüzden trafik kuralları ile ____(3)____ arasında sıkı bir ilişki vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["güvenliğini", "kaza", "güvenlik", "hız", "eğlence"],
+          "cevap": {"1": "güvenliğini", "2": "kaza", "3": "güvenlik"},
+          "cozum_md": "Trafik kuralları güvenliği sağlamak için vardır; kurallara uyulmadığında kaza riski artar. Bu nedenle kurallara uymak ile güvenlik doğrudan ilişkilidir. 'Hız' ve 'eğlence' bu boşluklara uymayan çeldirici kelimelerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Ali okula giderken yaya geçidini kullanmak yerine, kısa yoldan geçmek için hareket hâlindeki bir aracın önünden aniden geçmeye çalışıyor. Ali'nin bu trafik kuralına uymayan davranışı en çok hangi sonuca yol açabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Okula daha çabuk varır ve güvenliği artar"},
+            {"harf": "B", "metin_md": "Sürücü onu zamanında fark edemeyebilir ve kaza yaşanabilir"},
+            {"harf": "C", "metin_md": "Trafik daha az sıkışık hâle gelir"},
+            {"harf": "D", "metin_md": "Diğer yayalar bu davranışı örnek alırsa trafik daha güvenli olur"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Aracın önünden aniden geçmek, sürücünün yayayı zamanında görüp duramamasına ve kazaya yol açabilir. Bu örnek, yaya geçidi kuralına uymamanın güvenliği doğrudan tehlikeye attığını gösterir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki etkinlikleri kendi düşüncelerinizi ve hayal gücünüzü kullanarak tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Trafik kurallarına uymanın önemini anlatan kısa ve akılda kalıcı bir slogan yazınız (en fazla 8 kelime).",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: \"Kırmızıda dur, yeşilde geç, güvenle yaşa!\"",
+            "kabul_kriterleri": [
+              "Trafik kuralına uyma ile güvenlik ilişkisini içermesi",
+              "Kısa ve akılda kalıcı olması (8 kelimeyi aşmaması)",
+              "Kendi cümleleriyle özgün olması"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin trafik kuralına uyma ile güvenlik arasındaki ilişkiyi kendi cümleleriyle, kısa ve özgün biçimde ifade etmesi beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Trafik kurallarına uymanın önemini anlatan bir afiş tasarlasan; afişinde hangi görseli çizerdin ve hangi kısa metni yazardın? Görseli betimleyerek ve metnini yazarak anlatınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Görsel: Yaya geçidinden elini kaldırarak karşıya geçen bir çocuk ve onun için duran bir araba. Metin: \"Önce bak, sonra geç; güvenli geçiş hayat kurtarır.\"",
+            "kabul_kriterleri": [
+              "Görsel betimlemesinin trafik güvenliğiyle ilgili olması",
+              "Yazılan metnin trafik kuralı ile güvenlik ilişkisini vurgulaması",
+              "Görsel ve metnin kendi özgün fikri olması"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin hem bir görsel fikri hem de bu görseli tamamlayan kısa bir metin üreterek trafik kuralına uymanın önemini özgün biçimde ifade etmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

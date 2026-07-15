@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kendimi Geliştirme Planım",
+    "kazanim": {
+      "kod": "HB.3.1.1",
+      "ad": "Kendini geliştirmek istediği alana ilişkin plan yapabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Kendini geliştirmek istediği bir alanı belirler.",
+        "b": "Belirlediği alana ilişkin benzer deneyimleri inceler.",
+        "c": "Kendini geliştirmek istediği alana ilişkin yapılması gerekenlerle ilgili kısa ve uzun vadeli planlarını belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": false,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "Web erişimi oturum limiti nedeniyle kullanılamadı (WebSearch 'session limit' hatası verdi). İçerik kazanımın aciklama alanındaki süreç bileşenlerine ve genel müfredat bilgisine dayanılarak üretildi; bu kazanım MEB ders kitabından birebir örnek/etkinlik doğrulaması gerektirmeyen, öz gelişim/planlama becerisine dayalı duyuşsal-beceri türü bir kazanımdır (sayısal/olgusal veri içermez).",
+      "notlar": [
+        "Web araştırması yapılamadı (oturum limiti); içerik kazanım açıklamasından ve genel pedagojik bilgiden türetildi.",
+        "Kazanım duyuşsal/beceri odaklı olduğu için soru havuzunda ağırlıklı olarak senaryo/uygulama tipi sorular tercih edildi, ezber bilgi sorusu kullanılmadı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Kendimi geliştirmek istediğim alanı seçerken kendi ilgi alanlarımı da düşünmeliyim.",
+              "cevap": true,
+              "gerekce_md": "Alan seçerken kendi isteklerimi göz önünde bulundurmam, o alanda severek çalışmamı sağlar."
+            },
+            {
+              "no": 2,
+              "metin_md": "Kendimi geliştirmek istediğim alanı belirlerken sadece başkalarının istediği alanı seçmeliyim.",
+              "cevap": false,
+              "gerekce_md": "Alan seçerken kendi ilgi ve isteklerimi de düşünmeliyim; sadece başkalarının isteğine göre karar vermemeliyim."
+            },
+            {
+              "no": 3,
+              "metin_md": "Kendimi geliştirmek istediğim alan; spor, müzik, resim gibi farklı konulardan biri olabilir.",
+              "cevap": true,
+              "gerekce_md": "Kendini geliştirme alanı kişiden kişiye değişir, birçok farklı alan olabilir."
+            },
+            {
+              "no": 4,
+              "metin_md": "Bir alanı seçtikten sonra bu alanı bir daha asla değiştiremem.",
+              "cevap": false,
+              "gerekce_md": "Zamanla ilgilerim değişebilir; istersem kendimi geliştirmek istediğim alanı değiştirebilirim."
+            }
+          ],
+          "cevap": {
+            "ozet": {"1": true, "2": false, "3": true, "4": false}
+          },
+          "cozum_md": "1 ve 3 numaralı ifadeler doğrudur: alan seçimi kişisel ilgiye dayanır ve farklı konulardan biri olabilir. 2 ve 4 numaralı ifadeler yanlıştır: seçim sadece başkalarına göre yapılmaz ve seçilen alan zamanla değiştirilebilir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi 'kısa vadeli' (yakın zamanda ulaşılabilecek) bir hedefe örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bu hafta sonu 2 saat kitap okumak"},
+            {"harf": "B", "metin_md": "10 yıl sonra bir mühendis olmak"},
+            {"harf": "C", "metin_md": "Büyüyünce iyi bir doktor olmak"},
+            {"harf": "D", "metin_md": "Yıllar içinde profesyonel bir sporcu olmak"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Kısa vadeli hedef, yakın gelecekte (gün, hafta, ay içinde) ulaşılabilecek küçük bir hedeftir. Bu hafta sonu için planlanan 2 saatlik okuma kısa sürede gerçekleştirilebileceği için kısa vadelidir. Diğer seçenekler yıllar süren, uzun vadeli hedeflerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki metni ve soruları dikkatlice inceleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ayşe resim yapmayı çok seviyor ve resim alanında kendini geliştirmek istiyor. Komşuları Zeynep abla da küçükken resim kursuna gitmiş, her gün düzenli olarak resim çalışmış ve zamanla çok güzel resimler çizmeyi başarmış. Ayşe, Zeynep abla ile konuşup onun deneyimlerini öğreniyor.\n\nSizce Ayşe, Zeynep abla'nın deneyiminden resim alanında kendini geliştirmesine yardımcı olacak hangi bilgileri öğrenebilir? En az iki örnek yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ayşe, Zeynep abla'dan resim kursuna gitmenin faydalı olabileceğini, her gün düzenli pratik yapmanın gelişimi hızlandırdığını ve sonuç almak için sabırlı olmak gerektiğini öğrenebilir.",
+            "kabul_kriterleri": [
+              "Deneyimden en az iki somut bilgi/ders çıkarması",
+              "Çıkardığı bilgiyi resimde gelişmekle ilişkilendirmesi",
+              "Metindeki ayrıntılara (kurs, düzenli çalışma, sabır gibi) dayanması"
+            ]
+          },
+          "cozum_md": "Deneyim incelemesi, o alanda başarılı olan birinin neler yaptığını fark etmeyi içerir. Metinde Zeynep abla'nın 'kursa gitmesi', 'düzenli çalışması' ve 'zamanla başarması' ipuçları verilmiştir; öğrenci bunlardan en az ikisini kendi cümleleriyle ifade etmelidir."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki davranışları doğru açıklamayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Bu alanda başarılı olan bir büyüğüne nasıl çalıştığını sormak"},
+            {"no": 2, "metin_md": "O alanla ilgili kitap ya da video izleyerek başkalarının yolunu öğrenmek"},
+            {"no": 3, "metin_md": "Hiç araştırmadan aklına ilk geleni yapmak"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Benzer deneyimleri inceleme davranışıdır"},
+            {"harf": "B", "metin_md": "Benzer deneyimleri inceleme davranışı değildir"},
+            {"harf": "C", "metin_md": "Sağlığı korumaya yönelik bir davranıştır"}
+          ],
+          "cevap": {"1": "A", "2": "A", "3": "B"},
+          "cozum_md": "1 ve 2 numaralı davranışlar, başka birinin deneyiminden bilgi edinmeyi içerdiği için 'benzer deneyimleri inceleme' davranışıdır. 3 numaralı davranışta hiçbir araştırma ya da inceleme yapılmadığı için bu davranışa örnek değildir. C seçeneği bu soruyla ilgisiz bir çeldiricidir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Kendini geliştirmek istediği alanla ilgili benzer deneyimleri incelemek isteyen bir öğrenci ne yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece kendi düşüncelerine güvenmeli, kimseye hiçbir şey sormamalı"},
+            {"harf": "B", "metin_md": "O alanda başarılı olmuş kişilerle konuşup nasıl çalıştıklarını öğrenmeli"},
+            {"harf": "C", "metin_md": "İnternetten sadece resimlere bakıp hiçbir şey okumamalı"},
+            {"harf": "D", "metin_md": "Aynı alanı seçen arkadaşlarının fikirlerini hiç dikkate almamalı"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Benzer deneyimleri incelemek, o alanda daha önce çalışmış kişilerin yöntemlerini öğrenmeyi gerektirir. Bunun için en etkili yol, o alanda başarılı olmuş kişilerle konuşmak ya da onların deneyimlerini araştırmaktır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi düşüncelerinizi kullanarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Sen kendini hangi alanda geliştirmek istersin (spor, müzik, resim, okuma, bir yabancı dil vb.)? Seçtiğin alanı yazınız ve bu alanı neden seçtiğini kısaca açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kendimi yüzme alanında geliştirmek istiyorum çünkü suda hareket etmeyi seviyorum ve daha iyi yüzerek okulumu temsil eden yarışmalara katılmak istiyorum.",
+            "kabul_kriterleri": [
+              "Belirli/somut bir alan adı vermesi (genel ve belirsiz ifadeden kaçınması)",
+              "Alanı neden seçtiğine dair kişisel bir gerekçe sunması"
+            ]
+          },
+          "cozum_md": "Bu soruda tek doğru cevap yoktur; öğrencinin kendi ilgi alanını net biçimde belirtmesi ve seçimine dair kişisel, mantıklı bir gerekçe sunması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Kendini geliştirmek isteyen bir öğrencinin izlediği adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Benzer deneyimleri inceler",
+            "Kısa ve uzun vadeli planlarını belirler",
+            "Kendini geliştirmek istediği alanı belirler"
+          ],
+          "cevap": {"dogru_sira": [2, 0, 1]},
+          "cozum_md": "Kendini geliştirme sürecinde önce hangi alanda gelişmek istediğine karar verilir, ardından bu alanda başarılı olan kişilerin deneyimleri incelenir, son olarak bu bilgilerle kısa ve uzun vadeli planlar oluşturulur."
+        }
+      ]
+    }
+  ]
+}

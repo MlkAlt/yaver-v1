@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Enerji Dedektifleri: Basit Elektrik Devresi",
+    "kazanim": {
+      "kod": "FB.4.6.1",
+      "ad": "Basit bir elektrik devresi kurmaya ilişkin bilimsel sorgulama yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "6. ÜNİTE: ENERJİ DEDEKTİFLERİ",
+      "surec_bilesenleri": {
+        "a": "Devre elemanlarını kullanarak basit bir elektrik devresi kurmaya ilişkin soru veya problemi tanımlar.",
+        "b": "Sorusunu/problemini cevaplamada kullanacağı basit bir elektrik devresi modeli geliştirir.",
+        "c": "Basit bir elektrik devresinde devre elemanlarına ve işlevlerine ilişkin araştırmayı planlayarak gerçekleştirir.",
+        "ç": "Basit bir elektrik devresine ilişkin verileri analiz ederek yorumlar.",
+        "d": "Elektrik devresinin çalışıp çalışmamasına yönelik kanıta dayalı açıklama yaparak çözüm üretir.",
+        "e": "Çalışan basit bir elektrik devresi kurmaya ilişkin bilgiyi değerlendirerek paylaşır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": false,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 4. sınıf 6. ünite (Enerji Dedektifleri) sayfası incelendi; anahtar kavramlar (pil, ampul, anahtar, duy, kablo) doğrulandı; programda seri/paralel bağlantıya doğrudan vurgu yapılmadığı, ünitenin 'çalışan basit devre' odaklı olduğu teyit edildi (bu yaprakta seri/paralel terimleri kullanılmadı).",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları elektrik devresi elemanları ve temel çalışma mantığını hatırlayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki devre elemanlarını görevleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Pil"},
+            {"no": 2, "metin_md": "Ampul"},
+            {"no": 3, "metin_md": "Anahtar"},
+            {"no": 4, "metin_md": "Duy"},
+            {"no": 5, "metin_md": "Kablo (bağlantı teli)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Devreyi açıp kapatmayı sağlar"},
+            {"harf": "B", "metin_md": "Devreye elektrik enerjisi sağlar"},
+            {"harf": "C", "metin_md": "Elektrik enerjisini ışık enerjisine dönüştürür"},
+            {"harf": "D", "metin_md": "Ampulün devreye bağlanmasını sağlar"},
+            {"harf": "E", "metin_md": "Akımın devre boyunca iletilmesini sağlar"},
+            {"harf": "F", "metin_md": "Güneş enerjisini depolar"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D", "5": "E"},
+          "cozum_md": "Pil enerji kaynağıdır (B), ampul ışığa dönüştürür (C), anahtar devreyi açıp kapatır (A), duy ampulü devreye bağlar (D), kablo akımı iletir (E). F seçeneği (güneş paneliyle ilgili) çeldiricidir, hiçbir elemanla eşleşmez."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir elektrik devresinin çalışabilmesi için pil, ampul ve kabloların uçları ____(1)____ biçimde bağlanmalıdır. Devrede bir kopukluk (açık nokta) varsa ampul ____(2)____. Devreyi istediğimiz an açıp kapatmamızı sağlayan elemana ____(3)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["kapalı bir halka oluşturacak", "yanmaz", "anahtar", "yanar", "seri", "duy"],
+          "cevap": {"1": "kapalı bir halka oluşturacak", "2": "yanmaz", "3": "anahtar"},
+          "cozum_md": "Devrenin çalışması için elemanların uçları kapalı bir halka oluşturacak biçimde bağlanmalıdır (1). Halkada kopukluk varsa akım akmaz, ampul yanmaz (2). Devreyi açıp kapatan eleman anahtardır (3). 'Yanar', 'seri' ve 'duy' bu boşluklar için çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, bir bilim insanı gibi gözlem yaparak ve araştırma adımlarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Mert'in kurduğu devrede ampul yanmıyor; ancak pili ve ampulü ayrı ayrı kontrol ettiğinde ikisinin de sağlam olduğunu görüyor. Mert bu gözlemden yola çıkarak bir araştırmaya başlamak istiyor. Mert'in sorabileceği bir araştırma sorusu (problem cümlesi) yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: 'Devredeki kablo bağlantılarından biri kopuk mu?' ya da 'Devre elemanları kapalı bir halka oluşturacak şekilde mi bağlanmış?' gibi bir soru problem cümlesi olarak kabul edilir.",
+            "kabul_kriterleri": [
+              "Soru kalıbında (soru işaretiyle biten) bir cümle kurulmuş olması",
+              "Gözlemle (ampulün yanmaması, pil ve ampulün sağlam olması) ilişkili bir problem tanımlanması",
+              "Devre elemanları veya bağlantısına odaklanan bir soru olması"
+            ]
+          },
+          "cozum_md": "Süreç bileşeni (a), gözlemden yola çıkarak araştırılabilir bir soru/problem cümlesi kurmayı ister. Öğrencinin cevabı, ampulün neden yanmadığına dair test edilebilir bir soru içermelidir; 'ampul neden yanmıyor?' gibi çok genel bir soru yerine bağlantı/kopukluk gibi somut bir noktaya odaklanan sorular tam puan alır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Basit bir elektrik devresi hakkında araştırma yaparken izlenecek adımlar karışık olarak verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Devrenin çalışıp çalışmadığını gözlemleyip sonucu not etmek",
+            "Araştırma sonucunu arkadaşlarıyla paylaşmak",
+            "Devreyle ilgili bir soru veya problem belirlemek",
+            "Devre elemanlarını kullanarak bir devre modeli kurmak"
+          ],
+          "cevap": {"dogru_sira": [2, 3, 0, 1]},
+          "cozum_md": "Bir araştırma önce sorunun/problemin belirlenmesiyle başlar (3. öge), ardından bu soruyu cevaplayacak devre modeli kurulur (4. öge), sonra devre gözlemlenip sonuç not edilir (1. öge) ve son olarak sonuç paylaşılır (2. öge). Doğru sıra indeksleri: [2, 3, 0, 1]."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Üç farklı denemede kurulan devre bağlantısı ve ampulün durumu aşağıda verilmiştir. Tabloyu, ampulün neden yandığını veya yanmadığını yorumlayarak tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Deneme", "Devre Bağlantısı", "Ampul", "Olası Neden"],
+            "satirlar": [
+              ["1", "Pil, ampul ve kablolar kapalı bir halka oluşturacak biçimde bağlandı, anahtar kapatıldı.", "Yanıyor", "__?__"],
+              ["2", "Kablolardan biri pile bağlı değil, ucu boşta kaldı.", "Yanmıyor", "__?__"],
+              ["3", "Bağlantılar tam ama anahtar açık (devreyi kesecek) konumda bırakıldı.", "Yanmıyor", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c3": "Devre kapalı bir halka oluşturduğu ve anahtar kapatıldığı için akım akar, ampul yanar.",
+            "r1c3": "Kablo ucu boşta kaldığı için devre tamamlanmıyor (açık devre); akım akmaz, ampul yanmaz.",
+            "r2c3": "Anahtar açık konumda bırakıldığı için devre tamamlanmıyor; akım akmadığından ampul yanmaz."
+          },
+          "cozum_md": "Süreç bileşeni (ç), verilen deney verilerini analiz edip yorumlamayı ister. Ampulün yanıp yanmaması, devrenin kapalı bir halka oluşturup oluşturmadığına bağlıdır: 1. denemede halka tamdır (yanar), 2. denemede kablo ucu boşta olduğu için halka kopuktur (yanmaz), 3. denemede bağlantılar tam olsa da anahtar açık olduğu için halka tamamlanmaz (yanmaz)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, öğrendiklerinizi yeni bir duruma uygulayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Zeynep; pil, ampul, duy, anahtar ve kabloyu kullanarak bir devre kurdu. Anahtarı kapattığında ampul yanmadı. Kabloları, duyu ve bağlantı noktalarını tek tek kontrol ettiğinde hepsinin sağlam ve doğru bağlı olduğunu gördü. Bu durumda ampulün yanmamasının **en olası kanıta dayalı** açıklaması aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Pilin bitmiş (enerjisinin tükenmiş) olması"},
+            {"harf": "B", "metin_md": "Devrenin çok fazla ışık vermesi"},
+            {"harf": "C", "metin_md": "Kablonun renginin uygun olmaması"},
+            {"harf": "D", "metin_md": "Duyun gerekenden büyük olması"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Bağlantılar sağlam ve doğru olduğuna göre devre fiziksel olarak kapalıdır; bu durumda ampulün yanmaması, enerji kaynağının (pilin) görevini yerine getiremediğini, yani bitmiş olabileceğini gösteren kanıttır. Kablonun rengi (C) ve duyun büyüklüğü (D) devrenin çalışmasıyla ilgili değildir; 'çok fazla ışık vermesi' (B) ise zaten ampulün yanmadığı bir durumda anlamsızdır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "e",
+          "puan": 20,
+          "govde_md": "Sen de çalışan bir basit elektrik devresi kurduğunu ve bu çalışmanla ilgili bilgileri sınıf arkadaşlarınla paylaşacağını düşün. Paylaşımında hangi bilgileri anlatırdın? **En az 3 madde** yazınız (örneğin: kullandığın malzemeler, karşılaştığın bir sorun ve onu nasıl çözdüğün, devrenin nasıl çalıştığı gibi).",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Devrede kullandığım malzemeler: pil, ampul, anahtar, kablo, duy.\n2) İlk denememde karşılaştığım sorun (örn. kablo ucunun boşta kalması) ve bunu nasıl fark edip düzelttiğim.\n3) Devrenin nasıl çalıştığı: anahtar kapatılınca akımın kapalı halka boyunca dolaşıp ampulü yaktığı.",
+            "kabul_kriterleri": [
+              "En az 3 farklı madde/bilgi yazılmış olması",
+              "Kullanılan malzemelere değinilmesi",
+              "Karşılaşılan sorun-çözüm veya devrenin çalışma mantığına değinilmesi"
+            ]
+          },
+          "cozum_md": "Süreç bileşeni (e), elde edilen bilgiyi değerlendirip başkalarıyla paylaşmayı ister. Tam puan için öğrencinin paylaşımı; kullanılan malzemeler, süreçte yaşanan bir gözlem/sorun ve devrenin çalışma mantığı gibi en az üç farklı, somut bilgi içermelidir. Tek cümlelik genel ifadeler ('devre çalıştı') yetersizdir."
+        }
+      ]
+    }
+  ]
+}

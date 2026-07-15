@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Teknoloji Hakkında Sorular Soruyorum",
+    "kazanim": {
+      "kod": "HB.1.6.2",
+      "ad": "Teknoloji ile ilgili merak ettiklerini sorabilme: Sunulan teknolojik bir konu hakkında merak ettiği soruları sorar.",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Sunulan teknolojik bir konu (ürün, gelişme) hakkında merak ettiği soruları sorar."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr üzerindeki Hayat Bilgisi Dersi 1. Sınıf 6. Öğrenme Alanı (Bilim, Teknoloji ve Sanat) sayfası incelendi (unite/127). Kazanımın süreç bileşeni SBAB2.1.SB2 (araştırmacı ve sorgulayıcı davranışlar geliştirme) ve önerilen uygulama örnekleri (belgesel/video sunma, 'çevremizdeki teknolojik ürünler nelerdir', 'niçin ihtiyaç duyarız' gibi sorgulama soruları) doğrulandı. Kazanımın aciklama alanı boş olduğundan tek süreç bileşeni (a) kazanımın kendisinden türetildi.",
+      "notlar": ["Bağımsız crosscheck: cevap anahtarı, müfredat uyumu ve dil düzeyi sorunsuz. Tek orta düzey not: s1-s2 (Tanıyalım) genel teknoloji bilgisini ısındırır, kazanımın asıl davranışı olan 'soru sorma'yı dolaylı ölçer; s3-s7 doğrudan ölçer. Bilinçli ısınma bölümü tasarımı olarak kabul edildi, düzeltme gerektirmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Teknolojik ürünleri, ne işe yaradıklarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Telefon"},
+            {"no": 2, "metin_md": "Televizyon"},
+            {"no": 3, "metin_md": "Buzdolabı"},
+            {"no": 4, "metin_md": "Çamaşır makinesi"},
+            {"no": 5, "metin_md": "Bilgisayar"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Konuşmamızı ve uzaktakilerle görüşmemizi sağlar."},
+            {"harf": "B", "metin_md": "Haberleri ve çizgi filmleri izlememizi sağlar."},
+            {"harf": "C", "metin_md": "Yiyecekleri soğuk ve taze tutar."},
+            {"harf": "D", "metin_md": "Kirli kıyafetleri yıkar."},
+            {"harf": "E", "metin_md": "Oyun oynamamıza ve ödev yapmamıza yardımcı olur."},
+            {"harf": "F", "metin_md": "Bahçedeki çiçekleri sular."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D", "5": "E"},
+          "cozum_md": "Telefon konuşmamızı sağlar (A), televizyon izlememizi sağlar (B), buzdolabı yiyecekleri soğutur (C), çamaşır makinesi kıyafetleri yıkar (D), bilgisayar oyun/ödev için kullanılır (E). F seçeneği hiçbir teknolojik ürünle ilgili olmadığı için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz, doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Teknolojik ürünler hayatımızı kolaylaştırır.", "cevap": true, "gerekce_md": "Teknolojik ürünler işlerimizi daha hızlı ve kolay yapmamızı sağlar."},
+            {"no": 2, "metin_md": "Bir teknolojik ürünle ilgili merak ettiğimiz şeyleri sormamalıyız.", "cevap": false, "gerekce_md": "Merak ettiğimiz şeyleri sormalıyız; sorular yeni şeyler öğrenmemizi sağlar."},
+            {"no": 3, "metin_md": "Televizyon bir teknolojik üründür.", "cevap": true, "gerekce_md": "Televizyon, insanların ürettiği ve haber/eğlence izlemek için kullandığı teknolojik bir üründür."},
+            {"no": 4, "metin_md": "Teknolojik ürünleri sadece büyükler kullanabilir.", "cevap": false, "gerekce_md": "Çocuklar da tablet, oyuncak robot gibi bazı teknolojik ürünleri kullanabilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Teknoloji işimizi kolaylaştırır → Doğru. 2. Merak ettiğimizi sormalıyız → Yanlış. 3. Televizyon teknolojik bir üründür → Doğru. 4. Çocuklar da bazı teknolojik ürünleri kullanır → Yanlış."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki durumları okuyunuz ve en uygun seçeneği işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Öğretmenin, evleri kendi kendine süpüren bir robot süpürgeyi anlatan bir video izletiyor. Bu konuda merak ettiğini öğrenmek için hangi soru en uygundur?",
+          "gorsel": {"betimleme": "Yerde hareket eden, üstünde ışıklar olan yuvarlak bir robot süpürge; ekranda video izleyen çocuklar.", "zorunlu": false},
+          "secenekler": [
+            {"harf": "A", "metin_md": "Robot süpürge nasıl çalışır?"},
+            {"harf": "B", "metin_md": "Bugün hava nasıl?"},
+            {"harf": "C", "metin_md": "Süpürgeler mavi renktedir."},
+            {"harf": "D", "metin_md": "Evet."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır çünkü 'nasıl çalışır' sorusu, tanıtılan teknolojik ürünle ilgili gerçek bir merak sorusudur. B konuyla ilgisizdir, C soru değil bir ifadedir, D ise soru değil bir cevaptır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Arkadaşın, uzaktaki dedesiyle görüntülü konuşmasını sağlayan bir uygulamayı tanıtıyor. Bu teknolojiyle ilgili merak ettiğin soru hangisi olabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bu uygulama, sesimizi ve görüntümüzü uzaktaki kişiye nasıl ulaştırır?"},
+            {"harf": "B", "metin_md": "Deden kaç yaşında?"},
+            {"harf": "C", "metin_md": "Uygulamalar çok güzeldir."},
+            {"harf": "D", "metin_md": "Telefonun rengi ne?"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır çünkü uygulamanın nasıl çalıştığını sormak, tanıtılan teknolojiyle ilgili gerçek bir merak sorusudur. B kişisel ve konu dışıdır, C soru değil bir ifadedir, D uygulamanın çalışmasıyla ilgili değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki metinleri okuyunuz ve merak ettiğiniz soruları yazınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Şu teknolojik ürünü tanıyalım: 'Bu makine, sıcak havalarda evimizi serinletir. Duvara takılır ve düğmesine basınca çalışmaya başlar.' (Klima)\n\nBu ürünle ilgili merak ettiğin 2 soru yaz.",
+          "gorsel": {"betimleme": "Duvara monte edilmiş beyaz bir klima; içinden serin hava çıkarken görülüyor.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Bu makine nasıl çalışıyor? İçinde ne var da havayı serinletiyor?",
+            "kabul_kriterleri": ["Soru işaretiyle biten en az 2 soru yazması", "Sorularının tanıtılan teknolojik ürünle (klima) ilgili olması", "Sorularının bir merak ifadesi taşıması (nasıl, neden, ne işe yarar gibi)"]
+          },
+          "cozum_md": "Öğrencinin yazdığı sorular soru işaretiyle bitmeli ve klimayla ilgili olmalıdır. Kabul edilebilir örnekler: 'Bu makine nasıl çalışıyor?', 'İçinde ne var da havayı serinletiyor?', 'Neden düğmeye basınca çalışıyor?'"
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Şu teknolojik ürünü tanıyalım: 'Bu saat koluna takılır. Zamanı gösterir, ayrıca kalp atışını da sayabilir.' (Akıllı saat)\n\nBu ürünle ilgili merak ettiğin 2 soru yaz.",
+          "gorsel": {"betimleme": "Bir çocuğun koluna takılı, ekranında saat ve kalp şekli görünen akıllı saat.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Bu saat kalp atışımı nasıl sayıyor? Şarjı bitince ne oluyor?",
+            "kabul_kriterleri": ["Soru işaretiyle biten en az 2 soru yazması", "Sorularının tanıtılan teknolojik ürünle (akıllı saat) ilgili olması", "Sorularının bir merak ifadesi taşıması (nasıl, neden, ne işe yarar gibi)"]
+          },
+          "cozum_md": "Öğrencinin yazdığı sorular soru işaretiyle bitmeli ve akıllı saatle ilgili olmalıdır. Kabul edilebilir örnekler: 'Bu saat kalp atışımı nasıl sayıyor?', 'Şarjı bitince ne oluyor?', 'Suya girince bozulur mu?'"
+        },
+        {
+          "id": "s7",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Yeni bir teknolojik ürünü ilk kez gördüğünde, soru sormak için hangi sırayı izlemelisin? Adımları doğru sıraya koy.",
+          "gorsel": null,
+          "ogeler": ["Sorunu yüksek sesle sor", "Ürünü dikkatle izle veya dinle", "Merak ettiğin şeyi düşün", "Verilen cevabı dikkatle dinle"],
+          "cevap": {"dogru_sira": [1, 2, 0, 3]},
+          "cozum_md": "Doğru sıralama: Önce ürünü dikkatle izleriz/dinleriz, sonra merak ettiğimiz şeyi düşünürüz, sonra sorumuzu yüksek sesle sorarız, en son verilen cevabı dikkatle dinleriz."
+        }
+      ]
+    }
+  ]
+}

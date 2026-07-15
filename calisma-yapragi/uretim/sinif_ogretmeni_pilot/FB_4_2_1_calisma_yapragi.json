@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Besinlerin İçeriğini Deneyle Ayırt Ediyoruz",
+    "kazanim": {
+      "kod": "FB.4.2.1",
+      "ad": "Besin içeriklerini ayırt etmek için deney yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "2. ÜNİTE: SAĞLIKLI BESLENİYORUM",
+      "surec_bilesenleri": {
+        "a": "Besinlerdeki protein, karbonhidrat, yağ ve su içeriğini ayırt etmek için deney tasarlar.",
+        "b": "Yaptığı deneyde veri analizi yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 2. Ünite: Sağlıklı Besleniyorum) ünite sayfası ve MEB'e bağlı okul kaynaklarındaki ünite özetleri incelendi. Ünitede öğrencilerin sınıfa getirdikleri besinlerle basit deneyler tasarladığı doğrulandı: kâğıda sürüldüğünde kalıcı/saydam leke bırakma (yağ testi), iyot/lügol çözeltisiyle renk değişimi (nişasta/karbonhidrat testi), sıkma/kurutma ile ıslaklık-ağırlık kaybı gözlemi (su testi) ve sonuçların V diyagramı/tablo ile kaydedilip veri analizi yapılması vurgulandı. Bu üç test yöntemi ve veri analizi süreci sorularda birebir kullanıldı. Protein testi (ör. ısıtmayla pıhtılaşma) için kaynaklarda ayrıntılı, doğrulanabilir bir 4. sınıf düzeyi deney tarifi bulunamadı; bu nedenle sorularda protein doğrudan bir test yöntemiyle değil, kazanımın genel bağlamında (besin çeşitliliği, çeldirici seçenek) kullanıldı — bkz. notlar.",
+      "notlar": [
+        "Protein için 4. sınıf düzeyine uygun, kaynaklarla doğrulanmış ayrı bir 'deney' tarif edilmedi (kaynaklarda net bilgi yoktu); bu yüzden protein sorularda ayırt edici bir test adımı olarak değil, genel besin bilgisi/çeldirici olarak yer aldı. Öğretmen dilerse sınıfta ek bir protein testi (ör. ısıtma ile pıhtılaşma gözlemi) göstererek bu boşluğu tamamlayabilir.",
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. K1-K6 kontrolleri uygulandı; kritik sorun tespit edilmedi (ayrıntı için rapor notuna bakınız)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki boşlukları uygun kelimelerle doldurunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Besinlerin içeriğini anlamak için sınıfta basit deneyler yapılabilir.\n\n1) Bir besin parçası kâğıda sürüldüğünde kâğıtta kalıcı ve saydam bir leke bırakıyorsa o besinde ____(1)____ olduğu anlaşılır.\n2) Bir besinin üzerine iyot (lügol) çözeltisi damlatıldığında renk mavi-mora dönüyorsa o besinde ____(2)____ olduğu anlaşılır.\n3) Bir besin sıkıldığında dışarı su çıkıyor veya besin kurutulduğunda ağırlığı azalıyorsa bu, besindeki ____(3)____ miktarını gösterir.",
+          "gorsel": null,
+          "kelime_havuzu": ["yağ", "nişasta", "su", "protein", "vitamin"],
+          "cevap": {"1": "yağ", "2": "nişasta", "3": "su"},
+          "cozum_md": "1) yağ — kâğıda sürülen besin kalıcı, saydam bir leke bırakıyorsa bu besinde yağ olduğunu gösterir (yağ testi). 2) nişasta — iyot/lügol çözeltisi nişasta (bir tür karbonhidrat) ile temas ettiğinde rengini mavi-mora çevirir. 3) su — sıkıldığında su çıkması veya kurutulunca ağırlık kaybı, besindeki su oranını gösterir. 'protein' ve 'vitamin' bu üç basit testle doğrudan ölçülmediği için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "İyot (lügol) çözeltisi, nişasta içeren besinlerde rengini mavi-mora çevirir.", "cevap": true, "gerekce_md": "İyot çözeltisi nişastayla tepkimeye girerek mavi-mor renk oluşturur; bu, nişasta/karbonhidrat testinde kullanılan bir yöntemdir."},
+            {"no": 2, "metin_md": "Kâğıda sürülen her besin, kâğıtta mutlaka kalıcı bir leke bırakır.", "cevap": false, "gerekce_md": "Sadece yağ içeren besinler kâğıtta kalıcı, saydam bir leke bırakır; su içeren besinlerin bıraktığı ıslaklık zamanla kurur ve leke kalıcı olmaz."},
+            {"no": 3, "metin_md": "Bir besindeki su miktarını anlamak için besin tartılıp kurutulduktan sonra tekrar tartılabilir.", "cevap": true, "gerekce_md": "Kurutma sonrası oluşan ağırlık kaybı, besinden buharlaşan su miktarını gösterir; bu basit bir deney tasarımıdır."},
+            {"no": 4, "metin_md": "Deneyde elde edilen sonuçlar bir yere kaydedilmeden de rahatça karşılaştırılabilir, veri kaydetmeye gerek yoktur.", "cevap": false, "gerekce_md": "Deney sonuçlarının doğru karşılaştırılıp yorumlanabilmesi (veri analizi) için sonuçların tablo gibi bir düzende kaydedilmesi gerekir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Her ifade, besin içeriği testlerinin (yağ, nişasta, su) nasıl çalıştığı ve deney sonuçlarının kaydedilmesinin gerekliliği bilgisiyle karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, besin içeriği testlerini ve deney sonuçlarını yorumlayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sol taraftaki deney gözlemlerini, sağ taraftaki en uygun sonuçla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kâğıda sürüldüğünde saydam, kalıcı bir leke bırakması"},
+            {"no": 2, "metin_md": "İyot (lügol) damlatıldığında rengin mavi-mora dönmesi"},
+            {"no": 3, "metin_md": "Sıkıldığında damla damla ıslaklık çıkması"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Besinde yağ olduğunu gösterir"},
+            {"harf": "B", "metin_md": "Besinde nişasta (karbonhidrat) olduğunu gösterir"},
+            {"harf": "C", "metin_md": "Besinde su olduğunu gösterir"},
+            {"harf": "D", "metin_md": "Besinde vitamin olduğunu gösterir"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1-A: Kalıcı, saydam leke yağ testinin sonucudur. 2-B: İyot çözeltisinin mavi-mora dönmesi nişasta/karbonhidrat varlığını gösterir. 3-C: Sıkıldığında çıkan ıslaklık su içeriğini gösterir. 'D' seçeneği (vitamin), bu üç basit deneyle doğrudan test edilmediği için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda ekmek ve tereyağı üzerinde yapılan deneylerin sonuçları verilmiştir. Sonuç sütununu, elde edilen verilere dayanarak doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Besin", "Kâğıt Testi Sonucu", "İyot Testi Sonucu", "Sonuç (İçerik)"],
+            "satirlar": [
+              ["Ekmek", "Kalıcı leke bırakmadı", "Renk mavi-mora döndü", "__?__"],
+              ["Tereyağı", "Kalıcı, saydam leke bıraktı", "Renk değişmedi", "__?__"]
+            ]
+          },
+          "cevap": {"r0c3": "Ekmekte nişasta (karbonhidrat) vardır, yağ yoktur.", "r1c3": "Tereyağında yağ vardır, nişasta yoktur."},
+          "cozum_md": "Ekmek kâğıtta kalıcı leke bırakmadığı için yağ içermez, ancak iyotla rengi mavi-mora döndüğü için nişasta içerir. Tereyağı kâğıtta kalıcı, saydam leke bıraktığı için yağ içerir; iyotla renk değişmediği için nişasta içermez. Bu, iki farklı deney sonucunun birlikte yorumlanmasıyla (veri analizi) yapılan bir çıkarımdır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ece, iyot çözeltisini patates, olgun muz ve yumurta akı üzerine damlatmış. Patates ve muzda rengin mavi-mora döndüğünü, yumurta akında ise rengin değişmediğini gözlemlemiştir.\n\nBu verilere göre aşağıdakilerden hangisi doğru bir yorumdur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Patates ve muzda nişasta (karbonhidrat) vardır, yumurta akında yoktur."},
+            {"harf": "B", "metin_md": "Yumurta akında en fazla nişasta vardır."},
+            {"harf": "C", "metin_md": "İyot çözeltisi yalnızca sıvı besinlerde renk değiştirir."},
+            {"harf": "D", "metin_md": "Renk değişimi, besindeki su miktarını gösterir."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "İyot çözeltisi nişastayla temas ettiğinde mavi-mora döner. Patates ve muzda bu renk değişimi gözlendiği için ikisinde de nişasta vardır; yumurta akında renk değişmediği için nişasta yoktur. B, gözlemin tam tersini söylediği için yanlıştır. C, patates ve muzun katı besin olmasına rağmen renk değiştirmesiyle çelişir. D, iyot testinin ölçtüğü içerik su değil nişasta olduğu için yanlıştır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, bir deney tasarlayarak ve verilen deney sonuçlarını analiz ederek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Elindeki bir dilim peynirde yağ olup olmadığını anlamak için bir deney tasarla.\n\nDeneyinde hangi malzemeleri kullanacağını, izleyeceğin adımları sırasıyla ve sonucu nasıl yorumlayacağını yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Malzemeler: bir dilim peynir, beyaz bir kâğıt.\nAdımlar: 1) Peynir parçasını kâğıdın üzerine koyup birkaç kez bastırarak sürerim. 2) Peyniri kâğıttan kaldırıp kâğıdı bir süre (ör. 10-15 dakika) bekletirim. 3) Kâğıttaki lekeye bakarım; ışığa tutarak lekenin saydam olup olmadığını kontrol ederim.\nYorum: Eğer kâğıtta bekledikten sonra da kalıcı ve saydam bir leke kalıyorsa, peynirde yağ olduğu sonucuna varırım. Leke zamanla kuruyup kayboluyorsa bu, ıslaklığın sudan kaynaklandığını, yağ olmadığını gösterir.",
+            "kabul_kriterleri": [
+              "Kullanılacak malzemeleri (besin örneği, kâğıt) belirtmiş",
+              "Deney adımlarını sıralı ve uygulanabilir şekilde yazmış (sürme, bekletme, kontrol etme)",
+              "Sonucu nasıl yorumlayacağını açıklamış (kalıcı/saydam leke = yağ var, leke kayboluyorsa yağ yok)"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir deney tasarımı sorusudur; tek doğru cevap yoktur. Beklenen, öğrencinin yağ testinin mantığını (kâğıda sürme, bekletme, kalıcı/saydam leke kontrolü) kullanarak adım adım uygulanabilir bir deney tarif etmesi ve sonucu nasıl yorumlayacağını belirtmesidir. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Emir, havuç, ceviz ve patates üzerinde su, yağ ve nişasta testleri yaparak aşağıdaki sonuçları elde etmiştir:\n\n| Besin | Su Testi | Yağ Testi | Nişasta Testi |\n|---|---|---|---|\n| Havuç | Islaklık bıraktı (+) | Kalıcı leke yok (-) | Renk mavi-mora döndü (+) |\n| Ceviz | Islaklık bırakmadı (-) | Kalıcı leke bıraktı (+) | Renk değişmedi (-) |\n| Patates | Islaklık bıraktı (+) | Kalıcı leke yok (-) | Renk mavi-mora döndü (+) |\n\nBu verileri analiz ederek hangi besinlerde su ve nişastanın birlikte, hangi besinde ise yalnızca yağın tespit edildiğini yaz. Cevabını verilere dayandırarak açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Havuç ve patateste hem su testi hem de nişasta testi olumlu (+) sonuç verdiği için bu iki besinde su ve nişasta birlikte tespit edilmiştir; ikisinde de yağ testi olumsuz (-) olduğu için yağ tespit edilmemiştir. Cevizde ise su ve nişasta testleri olumsuz (-), yağ testi olumlu (+) sonuç verdiği için cevizde yalnızca yağ tespit edilmiştir.",
+            "kabul_kriterleri": [
+              "Havuç ve patateste su ile nişastanın birlikte tespit edildiğini, yağın tespit edilmediğini belirtmiş",
+              "Cevizde yalnızca yağın tespit edildiğini belirtmiş",
+              "Yorumunu tablodaki (+/-) verilere dayandırarak açıklamış"
+            ]
+          },
+          "cozum_md": "Tablodaki üç testin sonuçları besin bazında karşılaştırılır: havuç ve patateste su (+) ve nişasta (+) birlikte görülürken yağ (-)'tır; cevizde su (-) ve nişasta (-) iken yağ (+)'tır. Bu, birden fazla deney sonucunun bir arada okunup yorumlanmasını gerektiren bir veri analizi sorusudur; tek doğru cevap cümlesi yoktur, kabul kriterlerine göre puanlanır."
+        }
+      ]
+    }
+  ]
+}

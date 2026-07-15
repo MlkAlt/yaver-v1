@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Işık Kirliliği: Yavru Kaplumbağaları Kurtaralım!",
+    "kazanim": {
+      "kod": "FB.4.7.3",
+      "ad": "Işık kirliliğinin canlılara etkisine ilişkin probleme yönelik çözüm önerilerini değerlendirebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "7. ÜNİTE: IŞIĞIN PEŞİNDE",
+      "surec_bilesenleri": {
+        "a": "Işık kirliliğinin canlılara etkisine ilişkin problemi yapılandırır.",
+        "b": "Problemi özetler.",
+        "c": "Problemin çözümüne yönelik gözleme dayalı/mevcut bilgiye/veriye dayalı tahmin eder.",
+        "ç": "Problemin çözümüne yönelik önermeler üzerinden akıl yürütür.",
+        "d": "Problemin çözümüne ilişkin yansıtmada/değerlendirmede bulunur."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 4. sınıf Fen Bilimleri 7. Ünite (Işığın Peşinde) sayfası ve TÜBİTAK Bilim Genç 'Işık Kirliliği Nedir? Nasıl Önlenir?' makalesi incelendi: ışık kirliliğinin tanımı, deniz kaplumbağası (caretta caretta) yavrularının ay ışığı yansımasını takip ederek denize yönelme davranışının yapay ışıklarca bozulması, ve önleme yolları (kapalı/aşağı yönlü armatür, gereksiz ışığı kapatma, perde kullanımı) ünite kapsamıyla doğrulandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki durumu okuyarak problemi yapılandıralım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "**Durum:** Bir sahil kasabasında yeni açılan oteller, geceleri kumsalı aydınlatan çok güçlü ışıklar kullanmaya başladı. Bu kumsal, *caretta caretta* deniz kaplumbağalarının yumurta bıraktığı bir yerdir. Yumurtadan çıkan yavrular normalde Ay ışığının yansımasını takip ederek denize ulaşır. Ama otellerin ışıkları yavruların dikkatini dağıtır; yavrular denize değil ışıklara yönelir ve kumsalda kaybolup ölür.\n\nBoşlukları doldurarak problemi yapılandırınız.\n\n1. Etkilenen canlı ____(1)____'dır.\n2. Sorunun sebebi ____(2)____'dir.\n3. Yapay ışıklar yavruların ____(3)____ yerine ____(4)____ yönelmesine sebep olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["yavru kaplumbağalar", "otellerin güçlü ışıkları", "denize", "ışıklara"],
+          "cevap": {"1": "yavru kaplumbağalar", "2": "otellerin güçlü ışıkları", "3": "denize", "4": "ışıklara"},
+          "cozum_md": "Problemi yapılandırmak, önce 'kim etkileniyor' ve 'neden etkileniyor' sorularına net cevap vermeyi gerektirir. Metinde etkilenen canlı yavru deniz kaplumbağalarıdır (1). Sorunun sebebi otellerin geceleri yaktığı güçlü yapay ışıklardır (2). Bu ışıklar, yavruların normalde denize yönelmesi gereken davranışını bozarak (3) onları ışıklara doğru yöneltir (4)."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Yukarıdaki duruma göre asıl PROBLEM aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Otellerin çok fazla misafir ağırlaması"},
+            {"harf": "B", "metin_md": "Otel ışıklarının yavru kaplumbağaları yanıltıp ölümlerine yol açması"},
+            {"harf": "C", "metin_md": "Deniz kaplumbağalarının kumsala yumurta bırakması"},
+            {"harf": "D", "metin_md": "Kasaba halkının kumsalı sevmesi"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "A, C ve D metinde geçen ama zararlı bir durumu tanımlamayan olgulardır (kaplumbağaların yumurta bırakması hatta doğal ve olumlu bir davranıştır). Asıl problem, yapay ışıkların yavruların doğal yön bulma davranışını bozarak ölümlerine sebep olmasıdır; bu yüzden doğru cevap B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Problemi özetleyip veriye dayalı tahminde bulunalım.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Yukarıdaki durumu KENDİ CÜMLELERİNİZLE en fazla 3 cümlede özetleyiniz (kim etkileniyor, neden etkileniyor, sonuç ne oluyor).",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Datça'daki bir kumsalda yumurtadan çıkan yavru deniz kaplumbağaları, denize ulaşmak için Ay ışığının yansımasını takip eder. Ancak yakındaki otellerin geceleri yaktığı güçlü ışıklar bu yavruları yanıltıyor. Yavrular denize değil ışıklara doğru yöneldiği için kumsalda kaybolup ölebiliyor.",
+            "kabul_kriterleri": [
+              "Kim etkileniyor belirtilmiş (yavru deniz kaplumbağaları)",
+              "Neden/sebep belirtilmiş (otellerin yapay/güçlü ışıkları, doğal yön bulma davranışının bozulması)",
+              "Sonuç belirtilmiş (yanlış yöne gitme, kumsalda kaybolma/ölüm riski)",
+              "En fazla 3 cümlede, gereksiz ayrıntı eklenmeden özetlenmiş"
+            ]
+          },
+          "cozum_md": "İyi bir özet, metindeki tüm ayrıntıları tekrar etmez; problemin kim-neden-sonuç çekirdeğini kısaca aktarır: yavru kaplumbağalar, yapay ışıklar yüzünden yön şaşırıyor ve zarar görüyor."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Farklı kumsallardaki ışık şiddeti ile denize ulaşan yavru oranı ölçülmüş. Örüntüyü inceleyip boş hücreleri GÖZLEME DAYALI TAHMİN ederek doldurunuz (kesin sayı gerekmez, mantıklı bir tahmin yeterlidir).",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Kumsal", "Gece Işık Şiddeti", "Denize Ulaşan Yavru Oranı"],
+            "satirlar": [
+              ["Kumsal 1", "Çok düşük", "%95"],
+              ["Kumsal 2", "Düşük", "%80"],
+              ["Kumsal 3", "Orta", "%50"],
+              ["Kumsal 4", "Yüksek", "__?__"],
+              ["Kumsal 5", "Çok yüksek", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r3c2": "%50'den belirgin şekilde düşük bir oran (örneğin yaklaşık %20-30) kabul edilir",
+            "r4c2": "Tablodaki en düşük oran (örneğin yaklaşık %5-10 veya daha az) kabul edilir"
+          },
+          "cozum_md": "Tabloya bakıldığında ışık şiddeti arttıkça denize ulaşan yavru oranının azaldığı bir örüntü görülür (%95 → %80 → %50). Bu örüntü sürdürüldüğünde, ışık şiddeti daha da arttıkça (Kumsal 4 ve 5) oranın %50'nin altına, en yüksek ışık şiddetinde ise en düşük seviyeye inmesi beklenir. Öğrencinin ürettiği sayı tam tutmasa da azalan yönde mantıklı bir tahmin olması yeterlidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Çözüm önerileri üzerinden akıl yürütüp bir kararı değerlendirelim.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Kasaba halkı çözüm önerileri sundu. Soldaki öneriyi sağdaki en uygun gerekçeyle eşleştiriniz. Sağda bir fazladan seçenek vardır.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Otel ışıklarının, sadece yere doğru yayan kapaklı armatürlerle değiştirilmesi"},
+            {"no": 2, "metin_md": "Kumsala bakan otel pencerelerine perde asılıp gece ışıkların kapatılması"},
+            {"no": 3, "metin_md": "Yumurtadan çıkış mevsiminde kumsala yakın gece aydınlatmasının tamamen kapatılması"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Işığın kumsala ve gökyüzüne yayılması engellenir, yavrular daha az etkilenir."},
+            {"harf": "B", "metin_md": "Otel içi ışığın kumsala sızması önlenir, kumsal daha karanlık kalır."},
+            {"harf": "C", "metin_md": "En kritik dönemde kumsal tamamen karanlık kalır, yavrular Ay ışığını rahatça takip eder."},
+            {"harf": "D", "metin_md": "Otelin elektrik faturası azalır."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1 → A: kapaklı armatürler ışığın yönünü değiştirip kumsala/gökyüzüne yayılmasını engeller. 2 → B: perde ve kapalı ışık, otel içi ışığın kumsala sızmasını önler. 3 → C: en kritik dönemde tam karartma, yavruların doğal davranışını en iyi korur. D seçeneği gerçek olsa da problemin çözümüyle (yavruların yön bulması) ilgili bir gerekçe değildir, bu yüzden çeldiricidir."
+        },
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Işık kirliliğinin yavru kaplumbağalara etkisini EN ETKİLİ biçimde azaltacak öneri hangisidir? Önerinin problemin KAYNAĞINA (ışığın kendisine) mi yoksa sonucuna mı odaklandığına dikkat ediniz.",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Tabela asmak"},
+            {"harf": "B", "metin_md": "Işıkları kapatmak veya kapalı, aşağı yönlü armatürlerle değiştirmek"},
+            {"harf": "C", "metin_md": "Yavruları elle toplayıp denize taşımak"},
+            {"harf": "D", "metin_md": "Kumsalın etrafına duvar örmek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "A yalnızca bilgilendirir, ışık kaynağını değiştirmez. C, problemin kaynağını (ışığı) değil sonucunu geçici olarak düzeltir; her gece tekrar edilmesi gerekir ve sürdürülemez. D yeni engeller yaratabilir ve ışığı kumsaldan uzaklaştırmaz. B ise problemin doğrudan kaynağına (ışığın kendisine) müdahale ettiği için en etkili ve kalıcı çözümdür."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Kasaba yönetimi sadece yavruları her gece elle toplayıp denize taşımaya karar verdi, ışıkları değiştirmedi. Bu kararı DEĞERLENDİRİNİZ: çözüm kalıcı mıdır? EN AZ BİR olumsuz sonuç belirtip daha iyi bir öneri yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Hayır, bu çözüm problemi kalıcı olarak çözmez. Işık kaynağı hâlâ orada durduğu için yavrular her yıl yeniden yön şaşıracak; insanların onları her gece elle toplayıp taşıması sürekli emek ve zaman gerektirir, ayrıca bazı yavrular gözden kaçabilir ya da elle taşınırken strese girip zarar görebilir. Daha kalıcı bir çözüm, otel ışıklarının kumsalı aydınlatmayacak şekilde (kapalı, aşağı yönlü armatürlerle) değiştirilmesi olurdu; böylece yavrular kendi doğal davranışlarıyla, insan yardımı olmadan denizi bulabilir.",
+            "kabul_kriterleri": [
+              "Çözümün kalıcı/yeterli olmadığını açıkça belirtmesi",
+              "En az bir olumsuz sonuç yazması (sürdürülemezlik, sürekli emek, yavruların gözden kaçması/strese girmesi vb.)",
+              "Işık kaynağına yönelik daha kalıcı/etkili bir öneri sunması"
+            ]
+          },
+          "cozum_md": "Sonuca (yavruları taşımaya) odaklanan çözümler geçicidir ve problemi tekrar tekrar ortaya çıkarır. Kalıcı değerlendirme, kaynağa (ışığa) müdahale etmeyen bir çözümün sürdürülebilir olmadığını fark etmeyi gerektirir."
+        }
+      ]
+    }
+  ]
+}

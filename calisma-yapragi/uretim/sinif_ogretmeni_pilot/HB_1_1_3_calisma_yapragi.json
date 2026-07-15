@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sınıf ve Okul Kurallarımız",
+    "kazanim": {
+      "kod": "HB.1.1.3",
+      "ad": "Sınıf ve okul ortamında kurallara uygun davranabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Sınıf ve okul ortamındaki kuralları fark eder.",
+        "b": "Sınıf ve okul ortamında kurallara uygun davranışlar sergiler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 1. Öğrenme Alanı (Ben ve Okulum) ünite sayfası ve mufredat.meb.gov.tr Hayat Bilgisi öğretim programı taraması: kazanımın kapsamı sınıf içi kurallar (parmak kaldırma, sırada bekleme, sessizce dinleme) ve okul geneli kurallar (koridorda/merdivende koşmama, ortak alanları temiz tutma, kütüphanede sessiz olma) olarak doğrulandı; öğretimde beyin fırtınası ile birlikte kural oluşturma ve davranış sergileme (rol yapma, öz değerlendirme) vurgulanıyor — bu bağlamlar sorulara yansıtıldı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları sınıfımızda ve okulumuzda uyduğumuz kuralları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Öğretmenimiz konuşurken söz almak için parmak kaldırırız.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Merdivenlerde koşarak inip çıkabiliriz.", "cevap": false, "gerekce_md": "Merdivenlerde koşmayız, kendimizi ve arkadaşlarımızı incitmemek için yürürüz."},
+            {"no": 3, "metin_md": "Yemekhanede sırada bekleriz.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Sınıfın eşyalarını istediğimiz gibi dağıtabiliriz.", "cevap": false, "gerekce_md": "Sınıf eşyalarını düzenli ve temiz tutmak da bir sınıf kuralıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — parmak kaldırmak sınıf kuralıdır. 2) Yanlış — merdivenlerde yürünür, koşulmaz. 3) Doğru — yemekhanede sıraya girmek kuraldır. 4) Yanlış — sınıf eşyaları düzenli tutulmalıdır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki kuralları, ait olduğu yerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Sessizce kitap okuruz."},
+            {"no": 2, "metin_md": "Yürüyerek iner, çıkarız."},
+            {"no": 3, "metin_md": "Sırada bekleriz."},
+            {"no": 4, "metin_md": "Söz almak için parmak kaldırırız."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sınıf"},
+            {"harf": "B", "metin_md": "Kütüphane"},
+            {"harf": "C", "metin_md": "Merdiven"},
+            {"harf": "D", "metin_md": "Yemekhane"},
+            {"harf": "E", "metin_md": "Bahçe"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "D", "4": "A"},
+          "cozum_md": "1) Kütüphanede sessiz oluruz (B). 2) Merdivende yürünür (C). 3) Yemekhanede sırada beklenir (D). 4) Sınıfta parmak kaldırılır (A). 'Bahçe' (E) bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları sınıf ve okul kurallarına uygun davranışları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi sınıf kurallarına UYGUN bir davranıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşım konuşurken parmak kaldırıp sırasını beklerim."},
+            {"harf": "B", "metin_md": "Ders sırasında bağırarak konuşurum."},
+            {"harf": "C", "metin_md": "Sınıfta koşup zıplarım."},
+            {"harf": "D", "metin_md": "Arkadaşımın eşyasını izinsiz alırım."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği kurala uygundur; söz almak için parmak kaldırıp beklemek sınıf kuralıdır. B, C ve D sınıf kurallarına aykırı davranışlardır."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfta konuşmak istediğimde ____(1)____ kaldırırım. Koridorda ____(2)____, yürürüm. Arkadaşımın eşyasına dokunmadan önce ____(3)____ isterim.",
+          "gorsel": null,
+          "kelime_havuzu": ["parmağımı", "koşmam", "izin", "bağırırım", "saklarım"],
+          "cevap": {"1": "parmağımı", "2": "koşmam", "3": "izin"},
+          "cozum_md": "1) Söz almak için parmağımızı kaldırırız. 2) Koridorda koşmayız, yürürüz. 3) Arkadaşımızın eşyasına dokunmadan önce izin isteriz. 'Bağırırım' ve 'saklarım' bu kurallarla uyuşmadığı için kullanılmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Kütüphanede arkadaşların sessizce kitap okuyor. Sen ne yaparsın?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ben de sessizce bir kitap alıp okurum."},
+            {"harf": "B", "metin_md": "Yüksek sesle şarkı söylerim."},
+            {"harf": "C", "metin_md": "Koşarak raflar arasında dolaşırım."},
+            {"harf": "D", "metin_md": "Arkadaşlarımı konuşarak rahatsız ederim."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği doğrudur; kütüphane kuralı sessiz olmaktır. B, C ve D diğerlerini rahatsız eden, kurala uymayan davranışlardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini ve davranışlarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Teneffüste bir arkadaşının merdivende koştuğunu gördün. Ona ne söylersin?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ona 'Merdivende koşmayalım, yürüyelim, düşebiliriz.' derim.",
+            "kabul_kriterleri": [
+              "Doğru kuralı hatırlatması (merdivende yürünmesi gerektiği)",
+              "Cümlenin arkadaşça ve anlaşılır olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin arkadaşına merdivende yürümesi gerektiğini nazikçe hatırlatması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bugün sınıfında hangi kurala uydun? Bir cümleyle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Öğretmenim konuşurken parmağımı kaldırıp sırasını bekledim.",
+            "kabul_kriterleri": [
+              "Gerçek bir sınıf/okul kuralından söz etmesi",
+              "Kendi davranışını anlatan bir cümle kurması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin bildiği bir sınıf ya da okul kuralına uyduğu bir davranışı kendi cümlesiyle anlatması yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

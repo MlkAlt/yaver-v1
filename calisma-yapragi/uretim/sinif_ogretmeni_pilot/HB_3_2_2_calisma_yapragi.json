@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Güvenliğimi Tehdit Eden Durumlar",
+    "kazanim": {
+      "kod": "HB.3.2.2",
+      "ad": "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenleri sorgulayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Güvenliğini tehdit eden durumları belirler.",
+        "b": "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenler hakkında soru sorar.",
+        "c": "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenler hakkında bilgi toplar.",
+        "ç": "Güvenliğini tehdit eden bir durumla karşılaştığında yapması gerekenler hakkında çıkarım yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile '3. sınıf Hayat Bilgisi güvenliğini tehdit eden durumlar' araştırıldı (mufredat.meb.gov.tr, tymm.meb.gov.tr, mebders.com çalışma kağıdı/kazanım testi sonuçları). Ünitenin (2. Öğrenme Alanı: Sağlığım ve Güvenliğim) örnek bağlamlarının tanımadık kişilerle karşılaşma, evde yalnızken kapı çalması, internette tanımadık biriyle iletişim, sokakta yardım bahanesiyle yaklaşma ve acil durumda güvenilir yetişkine/112 Acil Çağrı Merkezi'ne haber verme etrafında kurulduğu doğrulandı; yaprak bu bağlamlarla sınırlı tutuldu.",
+      "notlar": [
+        "Kazanımın dört süreç bileşeni (a: belirleme, b: soru sorma, c: bilgi toplama, ç: çıkarım yapma) birbirinden ayrı bilişsel eylemlerdir; bu yüzden her bileşen ayrı soru tipiyle ölçüldü (a: coktan_secmeli + dogru_yanlis, b: eslestirme, c: bosluk_doldurma + coktan_secmeli, ç: acik_uclu + tablo_doldurma) — tek bir soru tipiyle dört bileşeni birden ölçmek yapaylaşacağından kaçınıldı.",
+        "Acil durum numarası olarak Türkiye'de yürürlükte olan birleşik 112 Acil Çağrı Merkezi kullanıldı; 155 (polis) kelime havuzunda bilinçli çeldirici olarak bırakıldı, kazanım kapsamında ayrım gerektiren bir bilgi değil."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, güvenliğini tehdit eden durumları belirleyerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi güvenliğini tehdit eden bir durum **değildir**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sokakta tanımadığın biri sana hediye vererek arabasına binmeni istiyor."},
+            {"harf": "B", "metin_md": "Evde yalnızken kapı çalıyor ve tanımadığın biri seni içeri almak istiyor."},
+            {"harf": "C", "metin_md": "Ailenle birlikte, güvenlik kurallarına uyarak parkta bisiklete biniyorsun."},
+            {"harf": "D", "metin_md": "İnternette tanımadığın biri seninle buluşmak istediğini söylüyor."}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "C seçeneğinde aile büyüğünün yanında, güvenlik kurallarına uyularak yapılan bir etkinlik anlatılıyor; bu güvenliği tehdit etmez. A, B ve D seçeneklerinde ise tanımadık biriyle temas veya yalnızken güvenliği riske atan bir durum vardır."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumların güvenliği tehdit edip etmediğini doğru/yanlış olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Tanımadığın bir kişinin 'Anneni tanıyorum, seni ona götüreyim.' demesi güvenliğini tehdit eden bir durumdur.", "cevap": true, "gerekce_md": "Ailen, haber vermeden seni tanımadık biriyle göndermez; bu tür bir söz güven duyulamayacak bir durumdur."},
+            {"no": 2, "metin_md": "Okulda yangın tatbikatı sırasında öğretmeninin verdiği yönergeleri izlemek güvenliğini tehdit eden bir durumdur.", "cevap": false, "gerekce_md": "Tatbikat, güvenliğini öğretmek için yapılan planlı bir uygulamadır; tehdit oluşturmaz."},
+            {"no": 3, "metin_md": "İnternette hiç tanımadığın bir kişiyle ev adresini veya telefon numaranı paylaşmak güvenliğini tehdit eden bir durumdur.", "cevap": true, "gerekce_md": "Tanımadığın kişilerle kişisel bilgi paylaşmak seni riske atar."},
+            {"no": 4, "metin_md": "Kardeşinle birlikte, ailenin bilgisi ve izniyle mahalledeki parkta oynamak güvenliğini tehdit eden bir durumdur.", "cevap": false, "gerekce_md": "Ailenin bilgisi ve izniyle yapılan, tanıdık bir çevredeki bu etkinlik güvenlidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — tanımadık kişinin ailenden bahsederek seni götürmek istemesi güven duyulamayacak bir durumdur. 2) Yanlış — tatbikat güvenliği öğreten planlı bir uygulamadır. 3) Doğru — tanımadık kişiyle kişisel bilgi paylaşmak risklidir. 4) Yanlış — ailenin izniyle tanıdık bir ortamda yapılan etkinlik güvenlidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, güvenliğini tehdit eden bir durumda soracağın soruları ve toplayacağın bilgileri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumlarla, o durumda kendine sorman gereken en doğru soruyu eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Tanımadığın bir yetişkin seni bir yere davet ediyor."},
+            {"no": 2, "metin_md": "İnternette biri seninle buluşmak istediğini söylüyor."},
+            {"no": 3, "metin_md": "Sokakta biri 'yardım et' diyerek seni bir arabaya yaklaştırmaya çalışıyor."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bu kişiyi gerçekten tanıyor muyum, ailem bu buluşmadan haberdar mı?"},
+            {"harf": "B", "metin_md": "Bunu bir yetişkine, aileme sormalı mıyım?"},
+            {"harf": "C", "metin_md": "Bir yetişkin neden bir yetişkinden değil de benden yardım istiyor olabilir?"},
+            {"harf": "D", "metin_md": "Bu kişinin arabası ne renk?"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1) Tanımadık davet → B, önce güvendiğin bir yetişkine sormalısın. 2) İnternetten buluşma teklifi → A, kişiyi ve ailenin haberdar olup olmadığını sorgulamalısın. 3) Yardım bahanesiyle yaklaşma → C, bir yetişkinin neden bir çocuktan yardım istediğini sorgulamalısın. 'D' seçeneği durumun güvenliğiyle ilgisiz, yüzeysel bir soru olduğu için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Güvenliğini tehdit eden bir durumla karşılaştığında önce ____(1)____ haber vermelisin. Hayatını tehlikeye sokan acil bir durumda ise ____(2)____ numaralı Acil Çağrı Merkezi'ni arayabilirsin.",
+          "gorsel": null,
+          "kelime_havuzu": ["güvendiğin bir yetişkine", "yabancı bir çocuğa", "112", "155"],
+          "cevap": {"1": "güvendiğin bir yetişkine", "2": "112"},
+          "cozum_md": "1) Durumu güvendiğin bir yetişkine (aile büyüğü, öğretmen) anlatman gerekir. 2) Türkiye'de acil durumlarda aranan birleşik hat 112 Acil Çağrı Merkezi'dir. 'Yabancı bir çocuğa' ve '155' bu boşluklara uymayan çeldiricilerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Güvenliğini tehdit eden bir durumla ilgili bilgi toplarken izlenmesi gereken en doğru yöntem hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Durumu kimseye söylemeden kendi başına çözmeye çalışmak"},
+            {"harf": "B", "metin_md": "Durumu güvendiğin bir yetişkine (öğretmen, aile büyüğü) anlatıp yardım istemek"},
+            {"harf": "C", "metin_md": "Durumu sosyal medyada tanımadığın kişilerle paylaşıp fikir sormak"},
+            {"harf": "D", "metin_md": "Durumu unutup oyununa devam etmek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Güvenliği tehdit eden bir durumda doğru bilgiye ve desteğe ulaşmanın yolu güvenilir bir yetişkinle konuşmaktır (B). A ve D durumu görmezden gelir ya da yalnız bırakır, C ise tanımadık kişilerle paylaşarak yeni bir risk yaratır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları verilen durumlardan çıkarım yaparak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Ali okuldan eve dönerken tanımadığı bir kişi ona şöyle diyor: 'Annen beni gönderdi, seni okula bırakmamı istedi, hadi arabama bin.' Ali'nin bu kişiden neden şüphelenmesi gerektiğini açıkla ve bu durumda yapması gereken **iki** doğru davranışı yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ali'nin ailesi onu tanımadığı biriyle önceden haber vermeden göndermez; bu yüzden kişinin sözü inandırıcı değildir. Ali arabaya binmemeli, kişiden uzaklaşıp yakındaki güvenli bir yere (mağaza, görevli bulunan bir yer) gitmeli ve durumu hemen güvendiği bir yetişkine (öğretmenine, ailesine) haber vermelidir.",
+            "kabul_kriterleri": [
+              "Ailenin önceden haber vermeden tanımadık biri göndermeyeceğini belirterek şüphe gerekçesini açıklaması",
+              "Arabaya binmemesi gerektiğini belirtmesi",
+              "Güvenli bir yere gidip durumu güvendiği bir yetişkine haber vermesi gerektiğini belirtmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Beklenen çıkarım: ailenin önceden haber vermeden yabancı biri göndermeyeceği, bu yüzden kişinin sözünün güven duyulamaz olduğudur. Beklenen davranışlar: arabaya binmemek ve güvendiği bir yetişkine haber vermek."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Ayşe'nin sınıf arkadaşı sürekli ondan eşyalarını istiyor, vermeyince de onu tehdit ediyor. Ayşe bu durumdan hangi çıkarımı yaparak hareket etmelidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bu normal bir arkadaşlık davranışıdır, kimseye söylememeliyim."},
+            {"harf": "B", "metin_md": "Bu davranış beni tehdit ediyor, durumu güvendiğim bir yetişkine anlatmalıyım."},
+            {"harf": "C", "metin_md": "Sorun büyümesin diye eşyalarımı vermeye devam etmeliyim."},
+            {"harf": "D", "metin_md": "Bu durumu kimseyle paylaşmadan tek başıma çözmeliyim."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tekrarlayan tehditle eşya isteme, akranın güvenliği tehdit eden bir davranışıdır; doğru çıkarım bunun normal olmadığını fark edip güvendiği bir yetişkine anlatmaktır (B). A, C ve D durumu görmezden gelir, sürdürür ya da öğrenciyi tek başına bırakır."
+        }
+      ]
+    }
+  ]
+}

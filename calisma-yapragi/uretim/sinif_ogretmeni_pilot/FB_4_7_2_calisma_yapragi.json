@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Doğal ve Yapay Işık Kaynakları",
+    "kazanim": {
+      "kod": "FB.4.7.2",
+      "ad": "Doğal ve yapay ışık kaynaklarını karşılaştırabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "7. ÜNİTE: IŞIĞIN PEŞİNDE",
+      "surec_bilesenleri": {
+        "a": "Çevresindeki ışık kaynaklarına ilişkin özellikleri belirler.",
+        "b": "Işık kaynaklarının benzerliklerini listeler.",
+        "c": "Işık kaynaklarının farklılıklarını listeler."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 4. sınıf Fen Bilimleri 7. Ünite (Işığın Peşinde) sayfası incelendi: doğal/yapay ışık kaynağı ayrımı ve Ay'ın ışık kaynağı olmayıp Güneş ışığını yansıttığı kavram yanılgısı ünite içeriğiyle doğrulandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözerek ışık kaynaklarını tanıyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1. Kendiliğinden ışık yayan cisimlere ____(1)____ denir.\n2. Güneş, bir ____(2)____ ışık kaynağıdır çünkü var olması için insan eli değmemiştir.\n3. Ampul, bir ____(3)____ ışık kaynağıdır çünkü insanlar tarafından üretilmiştir.\n4. Ay, kendiliğinden ışık ____(4)____; Güneş'ten gelen ışığı yansıtır.",
+          "gorsel": null,
+          "kelime_havuzu": ["ışık kaynağı", "doğal", "yapay", "üretmez"],
+          "cevap": {"1": "ışık kaynağı", "2": "doğal", "3": "yapay", "4": "üretmez"},
+          "cozum_md": "1) Kendiliğinden ışık yayan her cisim ışık kaynağıdır. 2) Güneş insan yapımı olmadığı için doğal bir ışık kaynağıdır. 3) Ampul insanlar tarafından üretildiği için yapay bir ışık kaynağıdır. 4) Ay kendiliğinden ışık üretmez; Güneş ışığını yansıtarak parlak görünür, bu yüzden ışık kaynağı sayılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi bir ışık kaynağı DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Güneş"},
+            {"harf": "B", "metin_md": "Ay"},
+            {"harf": "C", "metin_md": "Ampul"},
+            {"harf": "D", "metin_md": "Şimşek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bir cismin ışık kaynağı sayılması için kendiliğinden ışık üretmesi gerekir. Ay kendiliğinden ışık üretmez; Güneş'ten gelen ışığı yansıtır. Bu yüzden Ay bir ışık kaynağı değildir. Güneş, ampul ve şimşek ise kendiliğinden ışık üreten kaynaklardır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Işık kaynaklarını türlerine göre sınıflandırıp özelliklerini kavrayalım.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda verilen ışık kaynaklarının doğal mı yoksa yapay mı olduğunu yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Işık Kaynağı", "Türü (Doğal/Yapay)"],
+            "satirlar": [
+              ["Güneş", "__?__"],
+              ["Mum", "__?__"],
+              ["Yıldız", "__?__"],
+              ["El feneri", "__?__"],
+              ["Ateş böceği", "__?__"],
+              ["LED lamba", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Doğal",
+            "r1c1": "Yapay",
+            "r2c1": "Doğal",
+            "r3c1": "Yapay",
+            "r4c1": "Doğal",
+            "r5c1": "Yapay"
+          },
+          "cozum_md": "Güneş, yıldız ve ateş böceği insan yapımı olmadan var olan/oluşan kaynaklardır, bu yüzden doğaldır. Mum, el feneri ve LED lamba insanlar tarafından üretilip kullanıldığı için yapay ışık kaynaklarıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki ışık kaynaklarını sağdaki uygun özellikleriyle eşleştiriniz. Sağ tarafta bir fazladan seçenek vardır.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Güneş"},
+            {"no": 2, "metin_md": "Ampul"},
+            {"no": 3, "metin_md": "Şimşek"},
+            {"no": 4, "metin_md": "Mum"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Elektrik enerjisiyle çalışan, insan yapımı bir ışık kaynağıdır."},
+            {"harf": "B", "metin_md": "Fırtınalı havada gökyüzünde kendiliğinden, doğal olarak oluşur."},
+            {"harf": "C", "metin_md": "Dünyayı ısıtan ve aydınlatan, doğal bir yıldızdır."},
+            {"harf": "D", "metin_md": "Fitili yakılarak ışık ve ısı veren, insan yapımı bir kaynaktır."},
+            {"harf": "E", "metin_md": "Yalnızca gündüzleri gökyüzünde görülen doğal bir kaynaktır."}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B", "4": "D"},
+          "cozum_md": "Güneş → C (doğal, ısıtan/aydınlatan yıldız). Ampul → A (yapay, elektrikle çalışır). Şimşek → B (doğal, fırtınada kendiliğinden oluşur). Mum → D (yapay, fitili yakılarak ışık verir). E seçeneği çeldiricidir, hiçbir kaynakla eşleşmez."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ahmet karanlık bir odada mum yakıyor, aynı anda Ayşe güneşli bir bahçede duruyor. Mumun ışığı ile Güneş'in ışığı arasındaki EN BELİRGİN fark aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mumun ışığı insan yapımıdır (yapay), Güneş'in ışığı ise insan etkisi olmadan var olan bir kaynaktan gelir (doğal)."},
+            {"harf": "B", "metin_md": "Mumun ışığı sıcaktır, Güneş'in ışığı soğuktur."},
+            {"harf": "C", "metin_md": "Mum ışık vermez, yalnızca ısı verir."},
+            {"harf": "D", "metin_md": "Güneş ışık vermez, yalnızca ısı verir."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Mum insanlar tarafından üretilip yakıldığı için yapay bir ışık kaynağıdır. Güneş ise insan yapımı olmadan var olan doğal bir ışık kaynağıdır. B, C ve D seçenekleri bilimsel olarak yanlıştır: hem mum hem Güneş hem ışık hem ısı verir; ikisi de gerçek ışık kaynağıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları kendi cümlelerinizle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Doğal ışık kaynakları ile yapay ışık kaynaklarının EN AZ İKİ ortak (benzer) özelliğini yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) İkisi de çevrelerini aydınlatır ve karanlığı giderir. 2) İkisi de ışık yayarak etraflarındaki nesnelerin görülmesini sağlar (örneğin hem Güneş hem de ampul, ışık verdiği sürece cisimleri görünür kılar).",
+            "kabul_kriterleri": [
+              "Aydınlatma/karanlığı giderme ortak özelliğini belirtmesi",
+              "Işık yayma/nesnelerin görünmesini sağlama ortak özelliğini belirtmesi",
+              "En az iki farklı benzerlik yazması"
+            ]
+          },
+          "cozum_md": "Kaynak doğal ya da yapay olsun, ortak özellikleri ışık yaymaları ve çevrelerini aydınlatarak nesnelerin görülmesini sağlamalarıdır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Bir şehirde geceleri sokak lambaları yanar, gündüzleri ise Güneş ışığı vardır. Güneş ile sokak lambasının ışık kaynağı olarak EN AZ İKİ farklılığını yazınız. (Kaynağın türü, enerjiyi nereden aldığı, insan tarafından açılıp kapatılabilmesi gibi noktaları düşünebilirsiniz.)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Güneş doğal bir ışık kaynağıdır, insan yapımı değildir; sokak lambası ise yapay bir ışık kaynağıdır, insanlar tarafından üretilmiştir. 2) Güneş kendi enerjisiyle sürekli ışık üretir ve insan onu açıp kapatamaz; sokak lambası elektrik enerjisiyle çalışır ve insanlar tarafından açılıp kapatılabilir.",
+            "kabul_kriterleri": [
+              "Doğal-yapay ayrımını doğru kurması",
+              "Enerji kaynağı veya kontrol edilebilirlik farkını belirtmesi",
+              "En az iki farklı ayrım yazması"
+            ]
+          },
+          "cozum_md": "Güneş doğal, sokak lambası yapay bir ışık kaynağıdır. Güneş insan müdahalesi olmadan sürekli ışık üretirken, sokak lambası elektrikle çalışır ve insan tarafından kontrol edilebilir (açılıp kapatılabilir)."
+        }
+      ]
+    }
+  ]
+}

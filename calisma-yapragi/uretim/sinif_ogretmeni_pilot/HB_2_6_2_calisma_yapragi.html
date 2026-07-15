@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Teknolojik Ürünlerin Zaman İçindeki Değişimi</title><style>
+:root { --koyu: #334155; --acik: #eaeef3; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Teknolojik Ürünlerin Zaman İçindeki Değişimi</h1><div class='chips'><span class='chip dolu'>HB.2.6.2</span><span class='chip'>Hayat Bilgisi • 2. Sınıf</span><span class='chip'>6. Öğrenme Alani: Bi̇li̇m, Teknoloji̇ Ve Sanat</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Günlük yaşamda kullanılan teknolojik bir ürünün zaman içerisindeki değişimini karşılaştırabilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları teknolojik ürünlerin eski ve yeni hâllerini düşünerek cevaplayınız.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">15p</span><div class="smetin">Aşağıda bazı ürünlerin eski hâlleri verilmiştir. Bunları, aynı işi yapan yeni hâlleriyle eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Evde bir yere sabit duran, kablolu telefon</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Gaz lambası ya da mum</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Elle yazı yazılan mektup, postayla gönderilir</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> Tuşlarına basılarak kâğıda yazı yazılan daktilo</div></div><div><div><b>A)</b> Bilgisayarda yazı yazma</div><div><b>B)</b> Her yere taşınabilen, kablosuz akıllı telefon</div><div><b>C)</b> Elektrikle çalışan, uzun ömürlü LED ampul</div><div><b>D)</b> Telefon veya bilgisayardan anında gönderilen mesaj</div><div><b>E)</b> Yiyecekleri soğuk tutup bozulmasını önleyen buzdolabı</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki metni okuyup boşlukları uygun kelimelerle doldurunuz.<br><br><i>&quot;İnsanlar günlük yaşamlarını kolaylaştırmak için teknolojik ürünler kullanır. Zaman geçtikçe bilim insanlarının çalışmaları sayesinde bu ürünler <span class='bosluk'></span> ve daha kullanışlı hâle gelir. Eskiden kullanılan bir ürünle bugün kullanılan, aynı işi yapan ürün birbirinden <span class='bosluk'></span> olabilir.&quot;</i></div></div><div class='havuz'><span>gelişir</span><span>farklı</span><span>aynı</span><span>eskir</span></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki bilgi metinlerini okuyup istenenleri yapınız.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">20p</span><div class="smetin">Aşağıdaki metni okuyunuz. Metinden bulduğunuz bilgilerle tabloyu tamamlayınız.<br><br><i>&quot;Eski telefonlar genellikle evde bir yerde sabit dururdu, kablosu vardı ve taşınamazdı; sadece konuşmaya yarardı. Günümüzde kullanılan akıllı telefonlar ise küçük, hafif ve kablosuzdur; her yere taşınabilir. Konuşmanın yanında mesaj göndermeye, fotoğraf çekmeye ve internete girmeye de yarar.&quot;</i></div></div><table><tr><th>Özellik</th><th>Eski Telefon</th><th>Yeni (Akıllı) Telefon</th></tr><tr><td>Taşınabilirlik</td><td></td><td>Her yere taşınabilir</td></tr><tr><td>Bağlantı şekli</td><td></td><td>Kablosuz</td></tr><tr><td>Kullanım amacı</td><td>Sadece konuşma</td><td></td></tr></table></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Eskiden evler gaz lambası ya da mumla aydınlatılırdı. Bu ışık kaynakları çabuk sönebilir, yangın çıkarma tehlikesi taşır ve az ışık verirdi. Günümüzde evler, elektrikle çalışan LED ampullerle aydınlatılıyor. LED ampuller daha uzun ömürlü ve daha güvenlidir, ayrıca daha az enerji harcar.<br><br>Bu bilgilere göre, aşağıdakilerden hangisi <b>söylenemez</b>?</div></div><div class='sec tek'><div><b>A)</b> LED ampuller, gaz lambasına göre daha güvenlidir.</div><div><b>B)</b> Aydınlatma teknolojisi zamanla gelişmiştir.</div><div><b>C)</b> Gaz lambası, LED ampulden daha az enerji harcar.</div><div><b>D)</b> LED ampuller gaz lambasına göre daha uzun süre kullanılabilir.</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları verilen bilgileri ve kendi gözlemlerini kullanarak cevaplayınız.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">20p</span><div class="smetin">Eskiden çamaşırlar elde, sabun ve suyla ovularak yıkanırdı; bu iş çok zaman alır ve yorucu olurdu. Günümüzde ise çamaşırlar, elektrikle çalışan çamaşır makinesinde yıkanıyor; sadece düğmeye basmak yeterli oluyor ve daha az zaman alıyor.<br><br>Buna göre eski ve yeni çamaşır yıkama yönteminin bir <b>benzer</b>, bir de <b>farklı</b> yönünü yazınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">20p</span><div class="smetin">Evinde ya da çevrende gördüğün bir teknolojik ürünü düşün (örneğin televizyon, buzdolabı, bilgisayar, aydınlatma araçları...). Bu ürünün adını yaz. Sonra eski hâli ile bugünkü hâli arasında bir <b>benzer</b>, bir de <b>farklı</b> yön yazınız.</div></div><div class="gorsel">Görsel: Öğrencinin seçtiği ürünün eski ve yeni hâlini isterse çizebileceği, yazının altında iki küçük çerçeve (kutu) bırakılmalı. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.</div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>HB.2.6.2</span><span class='chip'>Teknolojik Ürünlerin Zaman İçindeki Değişimi</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-B, 2-C, 3-D, 4-A<div class='ak-cozum'>1) Sabit, kablolu telefonun yerini bugün her yere taşınabilen kablosuz akıllı telefon almıştır → B. 2) Gaz lambası/mumun yerini elektrikle çalışan LED ampul almıştır → C. 3) Elle yazılıp postayla gönderilen mektubun yerini anında gönderilen mesaj almıştır → D. 4) Daktiloyla yazmanın yerini bilgisayarda yazmak almıştır → A. &#x27;E&#x27; (buzdolabı) bu dört ürünle eşleşmeyen çeldiricidir.</div></div><div class='ak-soru'><b>2.</b> (1) gelişir, (2) farklı<div class='ak-cozum'>Teknolojik ürünler zamanla &#x27;gelişir&#x27; ve daha kullanışlı hâle gelir. Eski ve yeni hâli aynı işi yapsa da görünüş, özellik gibi yönlerden &#x27;farklı&#x27; olabilir. &#x27;Aynı&#x27; ve &#x27;eskir&#x27; metnin anlamıyla uyuşmayan çeldiricilerdir.</div></div><div class='ak-soru'><b>3.</b> {&quot;r0c1&quot;: &quot;Bir yerde sabit durur, taşınamaz&quot;, &quot;r1c1&quot;: &quot;Kablolu&quot;, &quot;r2c2&quot;: &quot;Konuşmanın yanında mesaj gönderme, fotoğraf çekme, internete girme gibi birçok iş&quot;}<div class='ak-cozum'>Metinde eski telefonun &#x27;sabit, kablolu, sadece konuşmaya yarayan&#x27; bir araç olduğu; yeni telefonun ise &#x27;taşınabilir, kablosuz, konuşma dışında da birçok işe yarayan&#x27; bir araç olduğu anlatılır. Bu bilgiler ilgili hücrelere yazılır.</div></div><div class='ak-soru'><b>4.</b> <b>C</b><div class='ak-cozum'>Metne göre daha az enerji harcayan LED ampuldür, gaz lambası için böyle bir bilgi verilmemiştir; bu yüzden C ifadesi metinle desteklenmez ve söylenemez. A, B ve D ifadeleri doğrudan metinden çıkarılabilir.</div></div><div class='ak-soru'><b>5.</b> Benzer yön: İkisinde de amaç çamaşırları temizlemektir, su ve sabun/deterjan kullanılır. Farklı yön: Eskiden çamaşırlar elde yıkanırdı ve çok zaman/emek gerektirirdi; şimdi makineyle yıkanıyor, daha az zaman ve emek gerektiriyor.<div class='ak-cozum'>Benzer yön olarak her iki yöntemde de çamaşırların temizlenmek istenmesi ve su/sabun-deterjan kullanılması söylenebilir. Farklı yön olarak elde yıkamanın zaman/emek gerektirmesi, makineyle yıkamanın ise daha hızlı ve kolay olması söylenebilir. Öğrencinin anlamca eşdeğer başka doğru yanıtları da kabul edilir.</div></div><div class='ak-soru'><b>6.</b> Ürün: Televizyon. Benzer yön: İkisi de görüntü izlemeyi sağlar. Farklı yön: Eski televizyonlar büyük, ağır ve renksizdi; yeni televizyonlar ince, hafif ve renkli görüntü sunuyor.<div class='ak-cozum'>Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin seçtiği ürünün amacının/işlevinin genelde aynı kaldığını (benzer yön), görünüş/özellik/kullanım kolaylığı gibi bir noktada değiştiğini (farklı yön) doğru biçimde belirtmesi beklenir.</div></div></div></body></html>

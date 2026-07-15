@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dünya'mızı Keşfedelim: Dünya'nın Yapısı",
+    "kazanim": {
+      "kod": "FB.4.3.2",
+      "ad": "Dünya'nın yapısıyla ilgili bilimsel model oluşturabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "3. ÜNİTE: DÜNYA'MIZI KEŞFEDELİM",
+      "surec_bilesenleri": {
+        "a": "Dünya'nın yapısını açıklamak için model önerir.",
+        "b": "Dünya'nın yapısını açıklamak için yeni kanıtlarla modeli geliştirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 4. Sınıf 3. Ünite (Dünya'mızı Keşfedelim) incelendi. Dünya'nın yapısı 4. sınıf seviyesinde dört küre üzerinden ele alınıyor: hava küre (atmosfer), su küre (hidrosfer), taş küre (litosfer/yer kabuğu), canlı küre (biyosfer). Örnek etkinlik: kil/oyun hamuruyla katmanlı model yapma, kanıt kartlarıyla modeli güncelleme.",
+      "notlar": [
+        "Dünya'nın iç yapısı (çekirdek, manto) bazı kaynaklarda 4. sınıf içeriğine dahil ediliyor gibi görünse de, spiral müfredat ilkesi gereği bu yaprakta üst sınıf kavramı olan çekirdek/manto ayrımına girilmedi; taş küre yalnızca 'kara parçaları/yer kabuğu' düzeyinde ele alındı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları Dünya'nın yapısını oluşturan küreler hakkında öğrendiklerinize göre cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Dünya'nın yapısını oluşturan küreleri, doğru açıklamalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Hava küre"},
+            {"no": 2, "metin_md": "Su küre"},
+            {"no": 3, "metin_md": "Taş küre"},
+            {"no": 4, "metin_md": "Canlı küre"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Dünya'nın çevresini saran gaz tabakasıdır."},
+            {"harf": "B", "metin_md": "Dünya'daki denizleri, gölleri ve nehirleri içerir."},
+            {"harf": "C", "metin_md": "Dünya'nın kara parçalarını (yer kabuğunu) oluşturur."},
+            {"harf": "D", "metin_md": "Bitkilerin, hayvanların ve insanların yaşadığı katmandır."},
+            {"harf": "E", "metin_md": "Dünya'nın en sıcak iç kısmıdır."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Hava küre = A (gaz tabakası); Su küre = B (denizler, göller, nehirler); Taş küre = C (kara parçaları); Canlı küre = D (bitki, hayvan, insan). E seçeneği bu yaprakta ele alınmayan bir çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Dünya'nın yapısı dört ana küreden oluşur. Havayı içeren küreye ____(1)____, suları içeren küreye ____(2)____, kara parçalarını içeren küreye ____(3)____, canlıları içeren küreye ____(4)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["hava küre", "su küre", "taş küre", "canlı küre", "güneş küre"],
+          "cevap": {"1": "hava küre", "2": "su küre", "3": "taş küre", "4": "canlı küre"},
+          "cozum_md": "Dünya'nın yapısı hava küre, su küre, taş küre ve canlı küre olmak üzere dört ana kısımdan oluşur. 'Güneş küre' kelime havuzunda yer alan bir çeldiricidir, Dünya'nın yapısını oluşturan kürelerden biri değildir."
+        },
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Dünya'nın yapısı sadece toprak ve kayalardan oluşur.", "cevap": false, "gerekce_md": "Dünya'nın yapısı tek bir bölümden değil; hava küre, su küre, taş küre ve canlı küre olmak üzere dört küreden oluşur."},
+            {"no": 2, "metin_md": "Hava küre, Dünya'yı saran gaz tabakasıdır.", "cevap": true, "gerekce_md": "Hava küre, Dünya'nın çevresini saran gaz tabakasının adıdır."},
+            {"no": 3, "metin_md": "Canlı küre yalnızca hayvanları kapsar, bitkileri kapsamaz.", "cevap": false, "gerekce_md": "Canlı küre; bitkileri, hayvanları ve insanları birlikte kapsayan küredir."},
+            {"no": 4, "metin_md": "Taş küre, Dünya'nın kara parçalarını oluşturan katmandır.", "cevap": true, "gerekce_md": "Taş küre, Dünya'nın kara parçalarını yani yer kabuğunu oluşturur."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1-Y: Dünya dört küreden oluşur. 2-D: Hava küre gaz tabakasıdır. 3-Y: Canlı küre bitki, hayvan ve insanı birlikte kapsar. 4-D: Taş küre kara parçalarını oluşturur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları Dünya'nın yapısı hakkında model önerirken dikkat edilmesi gerekenleri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir öğrenci, Dünya'nın yapısını açıklamak için bir model hazırlamak istiyor. Aşağıdakilerden hangisi bu öğrenci için iyi bir model önerisi olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece toprak renginde bir top yapıp 'Dünya budur' demek"},
+            {"harf": "B", "metin_md": "Kil kullanarak hava küre, su küre, taş küre ve canlı küreyi gösteren katmanlı bir top yapmak"},
+            {"harf": "C", "metin_md": "Dünya'nın resmini bir kitaptan aynen kopyalamak"},
+            {"harf": "D", "metin_md": "Dünya hakkında herhangi bir model yapmadan sözlü olarak anlatmak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bilimsel bir model, Dünya'nın yapısındaki tüm küreleri (hava, su, taş, canlı küre) gösterebilmelidir. B seçeneği bunu sağlar. A tek renkli top olduğu için küreleri göstermez, C kopyalama olduğu için öğrencinin kendi modeli değildir, D ise hiç model içermez."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Küre Adı", "Özelliği"],
+            "satirlar": [
+              ["Hava küre", "__?__"],
+              ["__?__", "Denizleri, gölleri ve nehirleri içerir."],
+              ["Taş küre", "__?__"],
+              ["__?__", "Bitkilerin, hayvanların ve insanların yaşadığı katmandır."]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Dünya'yı saran gaz tabakasıdır.",
+            "r1c0": "Su küre",
+            "r2c1": "Dünya'nın kara parçalarını (yer kabuğunu) oluşturur.",
+            "r3c0": "Canlı küre"
+          },
+          "cozum_md": "Hava küre → gaz tabakası; Su küre → denizler/göller/nehirler; Taş küre → kara parçaları; Canlı küre → bitki/hayvan/insan yaşam alanı."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, bir bilimsel modelin yeni kanıtlarla nasıl geliştirildiğini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir bilim insanı, Dünya'nın taş küresinin (kara parçalarının) tamamen düz olduğunu düşünerek bir model hazırlamıştı. Daha sonra dağların, ovaların ve vadilerin fotoğraflarını inceleme fırsatı buldu. Bu yeni kanıtlara göre bilim insanı modelini nasıl geliştirmelidir? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bilim insanı modelini güncellemelidir. Çünkü yeni fotoğraflar, taş kürenin düz olmadığını; dağlar, ovalar ve vadiler gibi farklı yüzey şekillerinden oluştuğunu göstermektedir. Bilimsel modeller, elde edilen yeni kanıtlara göre değiştirilip geliştirilebilir.",
+            "kabul_kriterleri": [
+              "Modelin yeni kanıta (dağ, ova, vadi gibi yüzey şekilleri) göre güncellenmesi gerektiğini belirtmesi",
+              "Taş kürenin düz değil, farklı yüzey şekillerine sahip olduğunu ifade etmesi",
+              "Bilimsel modellerin yeni kanıtlarla değişebileceğini/geliştirilebileceğini vurgulaması"
+            ]
+          },
+          "cozum_md": "Örnek cevap: Bilim insanı, yeni kanıtlar (dağ, ova, vadi fotoğrafları) taş kürenin düz olmadığını gösterdiği için modelini bu yüzey şekillerini içerecek şekilde güncellemelidir. Bu, bilimsel modellerin yeni kanıtlarla geliştirilebildiğinin bir örneğidir."
+        },
+        {
+          "id": "s7",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir bilimsel model oluşturma sürecinin adımlarını doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["İlk model önerilir", "Kanıtlara göre model güncellenir", "Dünya hakkında gözlem yapılır", "Yeni kanıtlar toplanır"],
+          "cevap": {"dogru_sira": [2, 0, 3, 1]},
+          "cozum_md": "Doğru sıra: 1) Dünya hakkında gözlem yapılır, 2) İlk model önerilir, 3) Yeni kanıtlar toplanır, 4) Kanıtlara göre model güncellenir. Bilimsel model oluşturma önce gözlemle başlar, sonra önerilen model yeni kanıtlarla geliştirilir."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Kendi hayalindeki Dünya modelini tasarla. Modelinde hava küre, su küre, taş küre ve canlı küreyi hangi malzeme veya renklerle göstereceğini ve bunları neden seçtiğini açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Modelimde mavi boyayı su küre için, yeşil ve kahverengi kili taş küre için, açık mavi bir kumaşı hava küre için ve küçük yeşil kağıt parçalarıyla oyuncak figürleri canlı küre için kullanırım. Renkleri gerçek görünümlerine benzediği için, malzemeleri ise katmanları kolayca ayırt edebilmek için seçtim.",
+            "kabul_kriterleri": [
+              "Dört küreyi (hava, su, taş, canlı küre) modelde ayrı ayrı belirtmesi",
+              "Her küre için hangi malzeme/rengin kullanılacağını açıklaması",
+              "Malzeme/renk seçimini bir gerekçeyle açıklaması"
+            ]
+          },
+          "cozum_md": "Açık uçlu soru; puanlama kabul kriterlerine göre yapılır. Öğrencinin dört küreyi ayrı ayrı belirtmesi ve seçimlerini gerekçelendirmesi beklenir; tek doğru cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

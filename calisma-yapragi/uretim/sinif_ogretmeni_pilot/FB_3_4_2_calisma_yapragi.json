@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Karışımları Ayıralım, Deney Yapalım",
+    "kazanim": {
+      "kod": "FB.3.4.2",
+      "ad": "Günlük yaşamda karşılaştığı karışımların ayrılmasında kullanılabilecek uygun yöntemleri kullanarak deney yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "4. ÜNİTE: MADDEYİ TANIYALIM, KARIŞTIRIP AYIRALIM",
+      "surec_bilesenleri": {
+        "a": "Karışımların ayrılmasında kullanılabilecek yöntemlerle ilgili deney tasarlar.",
+        "b": "Karışımların ayrılmasına ilişkin deney sonucu ile hipotezi arasında uyumsuzluk olduğunda deneyini tekrar eder ve/veya hipotezini yeniler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli) 3. sınıf Fen Bilimleri 4. ünite sayfası incelendi: ünitede eleme, süzme, dinlendirme, yüzdürme ve mıknatısla ayırma yöntemleri; demir tozu-talaş, talaş-su, su-kum-nohut gibi örnek karışımlar; gözlem-hipotez-deney-sonuç süreci geçiyor. Buharlaştırma bu ünitede yer almadığı için sorulara dahil edilmedi (üst sınıf kavramı sınırı).",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki karışımları, ayrılmasında kullanılabilecek en uygun yöntemle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Demir tozu ile kum karışımı"},
+            {"no": 2, "metin_md": "Çakıl taşları ile su karışımı"},
+            {"no": 3, "metin_md": "Buğday taneleri ile un karışımı"},
+            {"no": 4, "metin_md": "Talaş parçaları ile su karışımı"},
+            {"no": 5, "metin_md": "Toprak karışmış bulanık su (hareket ettirilmeden bir süre bekletiliyor)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Süzme"},
+            {"harf": "B", "metin_md": "Mıknatısla ayırma"},
+            {"harf": "C", "metin_md": "Eleme"},
+            {"harf": "D", "metin_md": "Yüzdürme"},
+            {"harf": "E", "metin_md": "Dinlendirme"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D", "5": "E"},
+          "cozum_md": "1) Demir, mıknatısın çektiği bir maddedir; demir tozu mıknatısla kumdan ayrılır. 2) Çakıl taşları süzgeçte kalır, su süzgeçten geçer. 3) Buğday taneleri elekte kalır, un elekten geçer (tane büyüklüğü farkı). 4) Talaş sudan hafif olduğu için su yüzeyinde kalır, elle toplanarak yüzdürme yöntemiyle ayrılır. 5) Karışım hareket ettirilmeden bekletilirse ağır toprak taneleri dibe çöker; bu dinlendirmedir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ece, mutfaktaki tuz-kum karışımını ayırmak istiyor. Önce karışımı dikkatle inceleyip bir ____(1)____ yapıyor. Sonra \"Bu karışımı süzerek ayırabilirim.\" diye bir ____(2)____ kuruyor. Tahmininin doğru olup olmadığını görmek için bir ____(3)____ yapıyor.",
+          "gorsel": null,
+          "kelime_havuzu": ["gözlem", "hipotez", "deney", "sonuç"],
+          "cevap": {"1": "gözlem", "2": "hipotez", "3": "deney"},
+          "cozum_md": "Bilimsel süreç sırasıyla ilerler: önce karışım gözlemlenir, sonra nasıl ayrılabileceğine dair bir hipotez (tahmin) kurulur, en sonunda bu tahmini test etmek için deney yapılır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aslı'nın önünde küçük demir çivilerle karışmış talaş parçaları var. Aslı bu karışımı ayırmak için bir deney tasarlayacak. Aşağıdakilerden hangisi bu karışımı ayırmak için en uygun yöntemdir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Süzme"},
+            {"harf": "B", "metin_md": "Eleme"},
+            {"harf": "C", "metin_md": "Mıknatısla ayırma"},
+            {"harf": "D", "metin_md": "Dinlendirme"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Demir çiviler mıknatısın çektiği bir maddedir. Mıknatıs karışımın üzerinden gezdirildiğinde demir çiviler mıknatısa yapışır, talaş parçaları geride kalır. Süzme ve dinlendirme sıvı-katı karışımlarda, eleme ise farklı büyüklükteki katı tanecikler için kullanılır; burada en uygun ve en pratik yöntem mıknatısla ayırmadır."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": null,
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir deneyin sonucu kurduğumuz hipotezle uyuşmuyorsa hipotezimiz kesinlikle yanlıştır, deneyi tekrar etmenin bir faydası yoktur.", "cevap": false, "gerekce_md": "Sonuç hipotezle uyuşmadığında önce deney dikkatlice tekrarlanır; sonuç yine uyuşmazsa hipotez yenilenir. Tek denemeyle hemen vazgeçilmez."},
+            {"no": 2, "metin_md": "Deney yaparken elde ettiğimiz sonucu, önceden kurduğumuz hipotezle karşılaştırmalıyız.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Bir karışımı ayırmak için deney tasarlarken, karışımı oluşturan maddelerin özelliklerini (büyüklüğü, mıknatısla çekilmesi, suda yüzmesi gibi) dikkate almalıyız.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Deney sonucu hipotezimizi doğrulamazsa, aynı deneyi bir daha yapmak zaman kaybıdır.", "cevap": false, "gerekce_md": "Aynı deney dikkatlice tekrarlanarak sonucun doğruluğu kontrol edilir; bu, bilimsel çalışmanın normal bir parçasıdır."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "Bilimsel süreçte hipotez ile deney sonucu her zaman karşılaştırılır; uyuşmazlık olduğunda deney tekrarlanır ve/veya hipotez yenilenir, tek seferde vazgeçilmez."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Kum, taş parçaları ve suyla oluşan bir karışımı ayırmak isteyen bir öğrenci önce süzgeç kullanarak suyu ayırıyor. Geriye kum ile taş parçaları kalıyor. Kum küçük tanelidir, taş parçaları ise büyüktür. Bu ikisini birbirinden ayırmak için en uygun yöntem hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Eleme"},
+            {"harf": "B", "metin_md": "Mıknatısla ayırma"},
+            {"harf": "C", "metin_md": "Yüzdürme"},
+            {"harf": "D", "metin_md": "Süzme"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Kum ve taş parçaları farklı büyüklüktedir. Bir elekten geçirildiğinde küçük kum taneleri elekten geçer, büyük taş parçaları elekte kalır. Bu, eleme yöntemidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir karışımı ayırmak için deney yaparken izlenen adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Deney sonucunu hipoteziyle karşılaştırır",
+            "Karışımı gözlemler",
+            "Sonuç hipoteziyle uyuşmazsa deneyi tekrar eder ve/veya hipotezini yeniler",
+            "Karışımın nasıl ayrılabileceği hakkında bir hipotez kurar",
+            "Hipotezine uygun bir deney tasarlar ve uygular"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 4, 0, 2]},
+          "cozum_md": "Doğru sıra: önce karışım gözlemlenir; sonra nasıl ayrılabileceğine dair bir hipotez kurulur; hipoteze uygun deney tasarlanıp uygulanır; deneyin sonucu hipotezle karşılaştırılır; uyuşmazsa deney tekrarlanır ve/veya hipotez yenilenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Efe, tuz ile kum karışımını ayırmak istiyor. \"Bu karışımı süzgeçle ayırabilirim.\" diye bir hipotez kuruyor. Deneyi yapıyor: süzgeçten geçen suda tuz hâlâ karışık duruyor, kum ise süzgeçte kalıyor, ama tuz kumdan hiç ayrılamıyor. Efe'nin hipotezi ile deney sonucu uyuşmuyor. Efe şimdi ne yapmalıdır? Yapması gerekenleri açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Efe'nin hipotezi ile deney sonucu birbirini tutmadığı için önce deneyini dikkatlice bir daha yapmalıdır. Sonuç yine aynı çıkarsa hipotezini yenilemelidir: süzme yöntemi tuzu kumdan ayırmaya yaramaz çünkü tuz suyun içinde görünmeyecek kadar küçük parçacıklara ayrılmış durumdadır (su içinde kaybolmuştur), süzgeçten kum kalır ama tuz suyla birlikte geçer. Bu yüzden Efe, bu karışım için farklı bir yöntem düşünmesi gerektiğini fark etmelidir.",
+            "kabul_kriterleri": [
+              "Hipotez ile deney sonucunun uyuşmadığını fark eder",
+              "Deneyi tekrar etme ve/veya hipotezi yenileme seçeneklerinden en az birini belirtir",
+              "Süzme yönteminin bu karışımda tuzu kumdan ayırmaya yetmediğini fark eder"
+            ]
+          },
+          "cozum_md": "Kazanımın b bileşeni tam olarak bu durumu hedefler: deney sonucu hipotezle uyuşmadığında öğrenci deneyi tekrar etmeli ve/veya hipotezini yenilemelidir. Burada süzme, tuz-su karışımı için (tuz suda görünmez biçimde dağıldığından) uygun bir yöntem değildir; öğrencinin bunu fark edip yöntemini sorgulaması beklenir."
+        }
+      ]
+    }
+  ]
+}

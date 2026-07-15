@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Yaşam Alanlarını Kanıtlarla Keşfediyorum",
+    "kazanim": {
+      "kod": "FB.3.8.1",
+      "ad": "Canlıların yaşam alanlarının özelliklerini belirlemeye yönelik kanıt kullanabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "8. ÜNİTE: CANLILARIN YAŞAM ALANLARINA YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Canlıların yaşam alanlarının özelliklerine ilişkin veri toplayarak kaydeder.",
+        "b": "Canlıların yaşam alanlarına ilişkin veri setleri oluşturur.",
+        "c": "Canlıların yaşam alanlarının özelliklerine ilişkin veriye dayalı açıklama yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 8. Ünite (Canlıların Yaşam Alanlarına Yolculuk) program sayfası incelendi: kazanımın süreç bileşenleri (veri toplama, veri seti oluşturma, veriye dayalı açıklama) ve önerilen etkinlik biçimi (gezi-gözlem, canlı/yaşam alanı gözlemi, verileri gruplandırarak veri seti oluşturma) birebir kullanıldı. Yaşam alanı örnekleri (bahçe, göl, orman, çöl) ve özellikleri (sıcaklık, nem, bitki/canlı sayısı) mebders.com ve ders.bilimsenligi.com arama özetlerindeki tipik örneklerle tutarlı seçildi.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve tablo tamamlama sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki yaşam alanlarını, o alanda gözlem yaparken görülmesi en olası canlılarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Okul bahçesi"},
+            {"no": 2, "metin_md": "Göl kenarı"},
+            {"no": 3, "metin_md": "Orman"},
+            {"no": 4, "metin_md": "Çöl"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kertenkele ve deve dikeni"},
+            {"harf": "B", "metin_md": "Karınca ve papatya"},
+            {"harf": "C", "metin_md": "Kurbağa ve saz otu"},
+            {"harf": "D", "metin_md": "Sincap ve çam ağacı"},
+            {"harf": "E", "metin_md": "Balık ve mercan"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "D", "4": "A"},
+          "cozum_md": "1-B: Okul bahçesi gibi otlu, açık alanlarda karınca ve papatya sıkça gözlenir. 2-C: Göl kenarı nemli olduğu için kurbağa ve saz otu gibi suya yakın canlılar burada yaşar. 3-D: Orman, ağaçlık bir alan olduğu için sincap ve çam ağacı ormana özgüdür. 4-A: Çöl sıcak ve kurak olduğundan kertenkele ve deve dikeni gibi kuraklığa dayanıklı canlılar burada gözlenir. E seçeneği (balık ve mercan) denizle ilgili olduğu için verilen dört yaşam alanından hiçbiriyle eşleşmez, çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "tablo_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ayşe okul bahçesinde 10 dakika gözlem yaptı: 3 tane karınca, 2 tane kelebek ve 1 tane serçe gördü. Ayrıca toprağın nemli olduğunu not etti. Ayşe'nin gözlem verilerini aşağıdaki tabloya kaydediniz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Gözlem", "Sonuç"],
+            "satirlar": [
+              ["Karınca sayısı", "__?__"],
+              ["Kelebek sayısı", "__?__"],
+              ["Serçe sayısı", "__?__"],
+              ["Toprağın durumu", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "3", "r1c1": "2", "r2c1": "1", "r3c1": "nemli"},
+          "cozum_md": "Metinde verilen sayılar ve gözlem doğrudan tabloya aktarılır: karınca 3, kelebek 2, serçe 1, toprağın durumu 'nemli'. Bu, bir gözlemi doğru biçimde veri olarak kaydetmenin örneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir öğrenci farklı yaşam alanlarında topladığı gözlem sonuçlarını düzenli bir veri seti hâline getirmek istiyor. Aşağıdakilerden hangisi doğru bir veri seti oluşturma yoludur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Gördüğü tüm canlıları, hangi yaşam alanında görüldüğünü belirtmeden karışık sırayla tek bir listeye yazmak."},
+            {"harf": "B", "metin_md": "Her yaşam alanında görülen canlıları ayrı ayrı gruplandırıp, sayılarıyla birlikte bir tabloya yazmak."},
+            {"harf": "C", "metin_md": "Sadece en çok gördüğü canlıyı yazıp diğerlerini atlamak."},
+            {"harf": "D", "metin_md": "Gözlem yapmadan, aklına gelen canlı isimlerini yazmak."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Veri seti oluştururken toplanan veriler, hangi yaşam alanına ait olduğu belirtilerek ve sayılarıyla birlikte düzenli bir biçimde (örneğin tabloda) gruplanmalıdır. A seçeneğinde veriler karıştırılmış, C'de veri eksik bırakılmış, D'de ise gerçek gözlem yapılmamıştır; bunların hiçbiri güvenilir bir veri seti oluşturmaz."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki notlar iki farklı yaşam alanında yapılan gözlemlere aittir: \"Bahçede 4 karınca ve 2 kelebek görüldü. Ormanda 3 sincap ve 5 kuş görüldü.\" Bu notları kullanarak aşağıdaki tabloyu tamamlayıp bir veri seti oluşturunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Yaşam Alanı", "Gözlenen Canlı 1 (adı-sayısı)", "Gözlenen Canlı 2 (adı-sayısı)"],
+            "satirlar": [
+              ["Bahçe", "__?__", "__?__"],
+              ["Orman", "__?__", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "karınca-4", "r0c2": "kelebek-2", "r1c1": "sincap-3", "r1c2": "kuş-5"},
+          "cozum_md": "Metindeki dağınık notlar, yaşam alanına göre ayrılarak tabloya yerleştirilir: Bahçe satırına karınca-4 ve kelebek-2; Orman satırına sincap-3 ve kuş-5 yazılır. Böylece karışık notlar düzenli bir veri setine dönüştürülmüş olur."
+        },
+        {
+          "id": "s5",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Veri seti oluşturmayla ilgili aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Veri seti oluştururken canlıların sayısını da not etmek önemlidir.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Farklı yaşam alanlarından toplanan veriler, karıştırılmadan ayrı ayrı gruplanmalıdır.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Bir veri setinde, sadece bir kez gözlemlenen canlıların da yazılması gerekmez.", "cevap": false, "gerekce_md": "Gözlemlenen her canlı, kaç kez görülürse görülsün veri setine kaydedilmelidir; aksi hâlde veri seti eksik ve güvenilmez olur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1-Doğru: Sayısal veriler veri setinin güvenilirliği için gereklidir. 2-Doğru: Farklı yaşam alanlarının verileri karıştırılırsa hangi canlının hangi alanda görüldüğü anlaşılmaz. 3-Yanlış: Az sayıda görülen canlılar da veri setine dâhil edilmelidir, yoksa veri eksik kalır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları verilere dayanarak çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda iki yaşam alanına ait gözlem verileri verilmiştir:\n\n| Yaşam Alanı | Sıcaklık | Nem | Bitki Sayısı |\n|---|---|---|---|\n| A alanı (Çöl) | Yüksek | Az | Az |\n| B alanı (Orman) | Ilıman | Çok | Çok |\n\nBu verilere dayanarak, çöl ve orman yaşam alanlarının canlı çeşitliliği açısından farkını açıklayınız. Cevabınızda tablodaki verilerden en az birini **kanıt** olarak kullanınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Orman, sıcaklığın ılıman ve nemin çok olması nedeniyle bitki sayısının fazla olduğu bir yaşam alanıdır; bu da daha fazla canlı türünün beslenip barınabilmesini sağlar. Çölde ise sıcaklık yüksek ve nem az olduğu için bitki sayısı azdır, bu nedenle çölün canlı çeşitliliği ormana göre daha düşüktür.",
+            "kabul_kriterleri": ["Tablodaki en az bir veriyi (sıcaklık, nem veya bitki sayısı) kanıt olarak göstererek açıklama yapması", "Ormanın canlı çeşitliliği açısından çölden daha zengin olduğu sonucuna varması"]
+          },
+          "cozum_md": "Tabloya göre orman, ılıman sıcaklık ve bol nem sayesinde çok sayıda bitkiye sahiptir; bitki sayısının fazla olması daha fazla canlının beslenebileceği ve barınabileceği anlamına gelir, bu yüzden canlı çeşitliliği fazladır. Çölde ise yüksek sıcaklık ve az nem, bitki sayısını azaltır; bu da orada yaşayabilecek canlı türü sayısını sınırlar. Bu nedenle orman, verilere (sıcaklık, nem, bitki sayısı) dayanarak çölden daha fazla canlı çeşitliliğine sahiptir denebilir."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "İki öğrenci, bahçede yaptıkları gözlemlere dayanarak yorum yapıyor:\n\nAli: \"Bahçede 8 kelebek gördüm; hava sıcak ve güneşliydi. Bu verilere dayanarak kelebeklerin sıcak havayı tercih ettiğini düşünüyorum.\"\n\nZeynep: \"Bence kelebekler her yerde yaşar, hiç gözlem yapmadım ama böyle biliyorum.\"\n\nHangi öğrencinin açıklaması, topladığı **verilere (kanıta)** dayanmaktadır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Ali"},
+            {"harf": "B", "metin_md": "Zeynep"},
+            {"harf": "C", "metin_md": "İkisi de"},
+            {"harf": "D", "metin_md": "Hiçbiri"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Ali, kendi gözlemlediği somut verilere (8 kelebek sayısı, sıcak ve güneşli hava) dayanarak bir açıklama yapmıştır; bu, kanıta dayalı açıklamadır. Zeynep ise hiç gözlem yapmadan, veriye dayanmayan bir genelleme yapmıştır; bu nedenle B, C ve D seçenekleri yanlıştır."
+        }
+      ]
+    }
+  ]
+}

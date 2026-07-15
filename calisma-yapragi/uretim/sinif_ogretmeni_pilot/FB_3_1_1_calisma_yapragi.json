@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bilimsel Bilgiye Ulaşma Yollarını Sorguluyorum",
+    "kazanim": {
+      "kod": "FB.3.1.1",
+      "ad": "Bilimsel bilgiye ulaşma yollarını sorgulayabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "1. ÜNİTE: BILIMSEL KEŞIF YOLCULUĞU",
+      "surec_bilesenleri": {
+        "a": "Merak ettiği bilimsel bir konuyu tanımlar.",
+        "b": "İlgili konu hakkında sorular sorar.",
+        "c": "Sorularını cevaplamaya yönelik bilgi toplar.",
+        "ç": "Bilimsel bilgiye ulaşma yollarının uygunluğunu değerlendirir.",
+        "d": "Toplanan bilgiler üzerinden bilimsel bilgiye ulaşma yollarına ilişkin çıkarım yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 1. Ünite (Bilimsel Keşif Yolculuğu) program sayfası ve ogmmateryal.eba.gov.tr kaynakları incelendi; bilgiye ulaşma yolları (gözlem, deney, tahmin, model oluşturma vb.) müfredatın kullandığı terimlerle birebir eşleştirildi.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm + python ile s7 doğrulaması) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve boşluk doldurma sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Soldaki bilgiye ulaşma yollarını sağdaki örneklerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Gözlem yapma"},
+            {"no": 2, "metin_md": "Deney yapma"},
+            {"no": 3, "metin_md": "Tahmin etme"},
+            {"no": 4, "metin_md": "Model oluşturma"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Ali, bir tohumu toprağa ekti, düzenli aralıklarla suladı ve bitkinin boyunu ölçerek kaydetti."},
+            {"harf": "B", "metin_md": "Elif, bahçedeki kelebeklerin renklerini dikkatle izleyip defterine not aldı."},
+            {"harf": "C", "metin_md": "Zeynep, gökyüzündeki koyu bulutlara bakarak birazdan yağmur yağacağını düşündü."},
+            {"harf": "D", "metin_md": "Mert, güneş sistemini top ve boncuklar kullanarak küçültülmüş bir şekilde yaptı."},
+            {"harf": "E", "metin_md": "Ayşe, konuyla ilgili bir ansiklopedi okuyup arkadaşlarıyla sohbet etti."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1-B: Kelebekleri doğrudan izleyip not almak **gözlem**dir. 2-A: Tohumu ekip suladıktan sonra sonucu ölçüp kaydetmek, kontrollü bir süreci test etmek olduğu için **deney**dir. 3-C: Bulutlara bakarak yağmur yağacağını düşünmek, elindeki ipuçlarından sonucu kestirmek olduğu için **tahmin**dir. 4-D: Güneş sistemini küçültülmüş nesnelerle temsil etmek **model oluşturma**dır. E seçeneği (okuma/sohbet) dört yoldan hiçbirini tam karşılamadığı için kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir bilim insanı, bir olayı doğrudan izleyerek bilgi topluyorsa buna ____(1)____ yapma denir. Bir olayın sonucunu, elindeki bilgilerden yola çıkarak önceden kestirmeye ____(2)____ etme denir. Bir olayı kontrollü koşullarda test ederek sonucunu görmeye ise ____(3)____ yapma denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["gözlem", "deney", "tahmin", "model", "veri"],
+          "cevap": {"1": "gözlem", "2": "tahmin", "3": "deney"},
+          "cozum_md": "(1) gözlem — doğrudan izleyerek bilgi toplama. (2) tahmin — elindeki bilgilerden sonucu önceden kestirme. (3) deney — kontrollü koşullarda test etme. 'Model' ve 'veri' kelimeleri bu cümlelerde kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki öğrencilerden hangisi bilimsel bir konuyu merak ederek araştırmaya başlamıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Can, \"Gökkuşağı neden renkli oluyor?\" diye merak edip konuyla ilgili kitap karıştırmaya başladı."},
+            {"harf": "B", "metin_md": "Selin, arkadaşının çizdiği resmi aynen kopyaladı."},
+            {"harf": "C", "metin_md": "Burak, oyun oynamak için arkadaşını aradı."},
+            {"harf": "D", "metin_md": "Deniz, odasındaki oyuncakları raflara yerleştirdi."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Can, bir doğa olayını (gökkuşağının rengini) merak ederek bu konu hakkında bilgi edinmeye başlamıştır; bu, bilimsel merakın ve konu tanımlamanın ilk adımıdır. B, C ve D seçeneklerindeki öğrenciler bilimsel bir konuyu merak edip araştırmaya başlamamaktadır."
+        },
+        {
+          "id": "s4",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfta şu konu konuşuluyor: \"Bitkiler neden farklı yönlere doğru büyür?\" Bu konuyla ilgili merak ettiğin, birbirinden farklı **2** soru yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Bitkiler ışığa doğru mu büyür?\n2) Bütün bitkiler aynı yöne doğru mu büyür, yoksa bitkiden bitkiye değişir mi?",
+            "kabul_kriterleri": ["Verilen konuyla (bitkilerin büyüme yönü) ilgili, anlamlı iki soru yazmış olması", "İki sorunun birbirinden farklı olması"]
+          },
+          "cozum_md": "Örnek cevaplar yukarıdaki gibidir. Öğrencinin sorularının konuyla ilgili ve araştırılabilir nitelikte olması yeterlidir; birebir aynı ifade aranmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir bitkinin büyümesini incelemek için sadece bir gün gözlem yapmak yeterlidir.", "cevap": false, "gerekce_md": "Büyüme zaman içinde gerçekleşen bir değişimdir; bunu görebilmek için birkaç gün ya da hafta boyunca düzenli gözlem yapmak gerekir."},
+            {"no": 2, "metin_md": "Bir olayın sonucunu test etmek istediğimizde deney yapmak uygun bir yoldur.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Gökyüzündeki yıldızları sayarken model oluşturmak, gözlem yapmaktan daha uygun bir yoldur.", "cevap": false, "gerekce_md": "Yıldızları saymak için doğrudan gökyüzünü izlemek, yani gözlem yapmak gerekir; model oluşturmak bu iş için uygun değildir."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false}},
+          "cozum_md": "1-Yanlış: Büyüme uzun sürede gözlemlenebilir, tek günlük gözlem yeterli değildir. 2-Doğru: Bir olayı test etmek için deney en uygun yoldur. 3-Yanlış: Yıldızları saymak doğrudan gözlemle yapılır, model oluşturmak bu amaca uygun değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 10,
+          "govde_md": "Ece, \"Tuz mu suda daha hızlı erir, yoksa şeker mi?\" sorusunu cevaplamak istiyor. Bu soruyu cevaplamak için hangi yöntem en uygundur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece tahmin ederek bir sonuca varmak."},
+            {"harf": "B", "metin_md": "Aynı miktarda su, aynı miktarda tuz ve şeker kullanıp ikisini de aynı koşullarda karıştırarak erime sürelerini ölçmek."},
+            {"harf": "C", "metin_md": "Konuyla ilgili sadece internetten resim aramak."},
+            {"harf": "D", "metin_md": "Arkadaşlarına sorup onların tahminini yazmak."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Bu soruyu güvenilir biçimde cevaplamak için aynı koşullarda (eşit miktarda su, eşit miktarda tuz/şeker) bir deney yapıp süreyi ölçmek gerekir; bu kontrollü bir test olduğu için en uygun yoldur. Diğer seçenekler tahmine veya doğrulanmamış bilgiye dayanır, güvenilir sonuç vermez."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Mert, 5 gün boyunca ektiği fasulye tohumunun boyunu her gün ölçüp kaydetti:\n\n| Gün | Boy (cm) |\n|---|---|\n| 1 | 0 |\n| 2 | 1 |\n| 3 | 2 |\n| 4 | 4 |\n| 5 | 6 |\n\nBu verilere bakarak fasulye tohumunun büyümesiyle ilgili bir **çıkarım** yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Fasulye tohumu her geçen gün büyümeye devam etmiştir ve büyüme miktarı zamanla artmıştır (ilk günlerde daha yavaş, sonraki günlerde daha hızlı büyümüştür).",
+            "kabul_kriterleri": ["Tablodaki sayısal verileri kullanarak yorum yapması", "Tohumun sürekli büyüdüğünü ve/veya büyüme hızının zamanla değiştiğini belirtmesi"]
+          },
+          "cozum_md": "Tablodaki verilere bakıldığında boy her gün artmaktadır (0 → 1 → 2 → 4 → 6 cm). Günlük artış miktarları da (1, 1, 2, 2 cm) giderek büyümektedir; yani büyüme hızı zamanla artmıştır. Bu nedenle 'fasulye tohumu sürekli büyümüş ve büyüme hızı zamanla artmıştır' şeklinde bir çıkarım yapılabilir."
+        }
+      ]
+    }
+  ]
+}

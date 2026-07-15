@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bilimsel Gelişmeler ve Günlük Yaşamımız",
+    "kazanim": {
+      "kod": "HB.3.6.1",
+      "ad": "Bilimsel gelişmelerin günlük yaşama etkisini yorumlayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Bilimsel gelişmelerin günlük yaşama etkisini inceler.",
+        "b": "Bilimsel gelişmelerin günlük yaşama etkisini ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 'Hayat Bilgisi Dersi 3.Sınıf 6. Öğrenme Alanı: Bilim, Teknoloji ve Sanat' ünite sayfası incelendi (örnekler: hastalık tedavilerindeki gelişmeler, afetlere karşı erken uyarı sistemleri, istasyon tekniği/öğrenme galerisi önerisi). ogmmateryal.eba.gov.tr'de bu kazanıma özgü doğrudan materyal bulunamadı; içerik ünite sayfasındaki örnekler ve kazanımın aciklama alanına dayanılarak üretildi.",
+      "notlar": [
+        "Crosscheck (bağımsız subagent): karar=onay, kritik sorun yok. Orta önemli bulgu: s4/s5 ilk sürümde 'b' (ifade eder) etiketliydi, davranış aslında 'inceleme'ye (a) daha yakın bulundu — 'a' olarak düzeltildi. 'b' bileşeni s6 ve s7'de (açık uçlu, öğrencinin kendi ifadesi) karşılanıyor.",
+        "K4 (düşük önem): s2 eşleştirmede çeldirici E (buharlı gemi) hafif belirsizlik yaratabilir dendi ama 3. sınıf seviyesinde D açık ara en mantıklı seçim olduğundan değiştirilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları bilimsel gelişmeleri düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "İnsanlar eski çağlarda karanlıkta mum ve gaz lambası kullanırdı. Bilim insanları elektriği ve ampulü icat edince evler ____(1)____ ile aydınlanmaya başladı. Eskiden bazı hastalıklara çare bulunamazken bilim insanlarının geliştirdiği ____(2)____ sayesinde birçok hastalıktan korunabiliyoruz. Deprem ve sel gibi afetlerden önce halkı uyaran sistemlere ____(3)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["ampul", "aşı", "erken uyarı sistemi", "mum", "telgraf"],
+          "cevap": {"1": "ampul", "2": "aşı", "3": "erken uyarı sistemi"},
+          "cozum_md": "Metindeki ipuçlarına göre: (1) aydınlanma → ampul, (2) hastalıktan korunma → aşı, (3) afet öncesi uyarı → erken uyarı sistemi. 'Mum' ve 'telgraf' kelime havuzunda çeldirici olarak yer alır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki eski durumları sağdaki bilimsel gelişmelerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Mektupla haberleşmek, cevabın gelmesi günler sürerdi."},
+            {"no": 2, "metin_md": "Şehirler arası yolculuk yürüyerek veya at arabasıyla günler sürerdi."},
+            {"no": 3, "metin_md": "Bazı bulaşıcı hastalıklara karşı insanlar çaresizdi."},
+            {"no": 4, "metin_md": "Yarınki havanın nasıl olacağı önceden bilinemezdi."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Aşı"},
+            {"harf": "B", "metin_md": "Hava tahmini teknolojileri"},
+            {"harf": "C", "metin_md": "Telefon ve internet"},
+            {"harf": "D", "metin_md": "Uçak ve hızlı tren"},
+            {"harf": "E", "metin_md": "Buharlı gemi"}
+          ],
+          "cevap": {"1": "C", "2": "D", "3": "A", "4": "B"},
+          "cozum_md": "1→C: Telefon/internet haberleşmeyi anında yapar. 2→D: Uçak ve hızlı tren uzun yolculuğu kısaltır. 3→A: Aşı bulaşıcı hastalıklardan korur. 4→B: Hava tahmini teknolojileri yarınki havayı önceden söyler. E (buharlı gemi) fazladan çeldiricidir, kullanılmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi bilimsel bir gelişmenin günlük yaşamımıza kolaylık getirdiğine bir örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir çiftçinin tarlasını elle sürmesi"},
+            {"harf": "B", "metin_md": "Bir ailenin uzaktaki akrabasıyla görüntülü konuşabilmesi"},
+            {"harf": "C", "metin_md": "Bir öğrencinin ödevini mum ışığında yapması"},
+            {"harf": "D", "metin_md": "Bir yolcunun bir şehirden diğerine günlerce yürüyerek gitmesi"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Görüntülü konuşma; telefon/internet teknolojisi gibi bilimsel gelişmelerin sağladığı bir kolaylıktır. Diğer seçenekler bilimsel gelişme öncesi eski yöntemleri anlatır, kolaylık değil güçlük örnekleridir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ali, \"Bilim insanlarının geliştirdiği erken uyarı sistemleri sayesinde insanlar deprem veya sel gibi afetlerden önce uyarılıp güvenli yerlere gidebiliyor.\" demiştir. Ali bu sözüyle bilimsel gelişmenin günlük yaşama etkisini nasıl ifade etmiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir bilimsel gelişmenin can güvenliğini artırdığını belirterek"},
+            {"harf": "B", "metin_md": "Bilim insanlarının hiç çalışmadığını söyleyerek"},
+            {"harf": "C", "metin_md": "Afetlerin artık hiç yaşanmadığını iddia ederek"},
+            {"harf": "D", "metin_md": "Eski yöntemlerin daha güvenli olduğunu savunarak"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Ali, erken uyarı sisteminin insanları önceden uyararak güvenli yere gitmelerini sağladığını, yani can güvenliğine katkısını ifade etmiştir. B, C ve D cümlede söylenenlerle çelişir."
+        },
+        {
+          "id": "s5",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Aşılar sayesinde bazı hastalıklardan korunmak artık mümkündür.", "cevap": true, "gerekce_md": "Aşılar, bilim insanlarının bulaşıcı hastalıklara karşı geliştirdiği koruyucu bir bilimsel gelişmedir."},
+            {"no": 2, "metin_md": "Bilimsel gelişmeler yalnızca hastanelerde kullanılır, evimizdeki günlük yaşamı etkilemez.", "cevap": false, "gerekce_md": "Bilimsel gelişmeler; buzdolabı, telefon, aydınlatma gibi araçlarla evimizdeki günlük yaşamı da etkiler."},
+            {"no": 3, "metin_md": "Telefon ve internet, uzaktaki insanlarla hızlıca haberleşmemizi sağlar.", "cevap": true, "gerekce_md": "Telefon ve internet, mesafeye bakmaksızın anında haberleşmeyi mümkün kılan bilimsel gelişmelerdir."},
+            {"no": 4, "metin_md": "Erken uyarı sistemleri, deprem ve sel gibi afetlerin hiç yaşanmamasını sağlar.", "cevap": false, "gerekce_md": "Erken uyarı sistemleri afeti önlemez; afetten önce insanları uyararak zararı azaltmaya yardımcı olur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1: doğru, aşı koruyucudur. 2: yanlış, bilimsel gelişmeler evde de kullanılır. 3: doğru, telefon/internet uzak mesafede hızlı haberleşme sağlar. 4: yanlış, erken uyarı sistemleri afeti önlemez, sadece önceden haber verir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları örnekler vererek, tam cümlelerle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Sence bilim insanlarının geliştirdiği bir buluş (aşı, telefon, erken uyarı sistemi, uçak vb.) günlük yaşamımızı nasıl kolaylaştırıyor? Seçtiğin buluşu yaz ve günlük yaşama etkisini 2-3 cümleyle açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben telefonu seçtim. Telefon sayesinde uzaktaki ailemle ve arkadaşlarımla hemen konuşabiliyorum. Acil bir durumda yardım istemek için de telefonu kullanabiliyorum. Bu yüzden telefon, günlük hayatımızı kolaylaştıran önemli bir bilimsel gelişmedir.",
+            "kabul_kriterleri": ["Bir bilimsel gelişme/buluş adı belirtmesi", "Bu gelişmenin günlük yaşama somut bir etkisini açıklaması", "En az 2 cümle yazması"]
+          },
+          "cozum_md": "Öğrenci istediği bir buluşu seçebilir; önemli olan buluşun günlük yaşama sağladığı somut faydayı en az iki cümleyle açıklayabilmesidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Büyükannen sana \"Ben küçükken evimizde buzdolabı yoktu, yiyecekleri kuyuda veya serin yerlerde saklardık.\" diyor. Bilim insanlarının buzdolabını icat etmesi, yiyecekleri saklama konusunda günlük yaşamı nasıl değiştirmiş olabilir? İncelediğin bu değişikliği yazarak açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Buzdolabı icat edilmeden önce yiyecekler çabuk bozulurdu ve insanlar onları kuyu gibi serin yerlerde saklamak zorunda kalırdı. Buzdolabı sayesinde yiyecekler daha uzun süre taze kalır ve bozulmadan saklanabilir. Böylece ailemiz market alışverişini daha az sıklıkla yapabilir ve yiyecek israfı azalır.",
+            "kabul_kriterleri": ["Eski durum ile yeni durumu karşılaştırması", "Buzdolabının sağladığı somut faydayı açıklaması", "En az 2 cümle yazması"]
+          },
+          "cozum_md": "Öğrenci buzdolabı öncesi/sonrası durumu karşılaştırarak (yiyeceklerin bozulması vs. taze kalması) bilimsel gelişmenin günlük yaşama etkisini incelemelidir."
+        }
+      ]
+    }
+  ]
+}

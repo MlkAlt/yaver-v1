@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Teknoloji Hakkında Sorular Soruyorum</title><style>
+:root { --koyu: #334155; --acik: #eaeef3; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Teknoloji Hakkında Sorular Soruyorum</h1><div class='chips'><span class='chip dolu'>HB.1.6.2</span><span class='chip'>Hayat Bilgisi • 1. Sınıf</span><span class='chip'>6. Öğrenme Alani: Bi̇li̇m, Teknoloji̇ Ve Sanat</span><span class='chip'>20 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Teknoloji ile ilgili merak ettiklerini sorabilme: Sunulan teknolojik bir konu hakkında merak ettiği soruları sorar.</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>30 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">15p</span><div class="smetin">Teknolojik ürünleri, ne işe yaradıklarıyla eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Telefon</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Televizyon</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Buzdolabı</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> Çamaşır makinesi</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>5.</b> Bilgisayar</div></div><div><div><b>A)</b> Konuşmamızı ve uzaktakilerle görüşmemizi sağlar.</div><div><b>B)</b> Haberleri ve çizgi filmleri izlememizi sağlar.</div><div><b>C)</b> Yiyecekleri soğuk ve taze tutar.</div><div><b>D)</b> Kirli kıyafetleri yıkar.</div><div><b>E)</b> Oyun oynamamıza ve ödev yapmamıza yardımcı olur.</div><div><b>F)</b> Bahçedeki çiçekleri sular.</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki ifadeleri okuyunuz, doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Teknolojik ürünler hayatımızı kolaylaştırır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Bir teknolojik ürünle ilgili merak ettiğimiz şeyleri sormamalıyız.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Televizyon bir teknolojik üründür.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Teknolojik ürünleri sadece büyükler kullanabilir.</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki durumları okuyunuz ve en uygun seçeneği işaretleyiniz.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">10p</span><div class="smetin">Öğretmenin, evleri kendi kendine süpüren bir robot süpürgeyi anlatan bir video izletiyor. Bu konuda merak ettiğini öğrenmek için hangi soru en uygundur?</div></div><div class="gorsel">Görsel: Yerde hareket eden, üstünde ışıklar olan yuvarlak bir robot süpürge; ekranda video izleyen çocuklar.</div><div class='sec'><div><b>A)</b> Robot süpürge nasıl çalışır?</div><div><b>B)</b> Bugün hava nasıl?</div><div><b>C)</b> Süpürgeler mavi renktedir.</div><div><b>D)</b> Evet.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">10p</span><div class="smetin">Arkadaşın, uzaktaki dedesiyle görüntülü konuşmasını sağlayan bir uygulamayı tanıtıyor. Bu teknolojiyle ilgili merak ettiğin soru hangisi olabilir?</div></div><div class='sec tek'><div><b>A)</b> Bu uygulama, sesimizi ve görüntümüzü uzaktaki kişiye nasıl ulaştırır?</div><div><b>B)</b> Deden kaç yaşında?</div><div><b>C)</b> Uygulamalar çok güzeldir.</div><div><b>D)</b> Telefonun rengi ne?</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki metinleri okuyunuz ve merak ettiğiniz soruları yazınız.</em><span class='bpuan'>50 P</span></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">20p</span><div class="smetin">Şu teknolojik ürünü tanıyalım: &#x27;Bu makine, sıcak havalarda evimizi serinletir. Duvara takılır ve düğmesine basınca çalışmaya başlar.&#x27; (Klima)<br><br>Bu ürünle ilgili merak ettiğin 2 soru yaz.</div></div><div class="gorsel">Görsel: Duvara monte edilmiş beyaz bir klima; içinden serin hava çıkarken görülüyor.</div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">20p</span><div class="smetin">Şu teknolojik ürünü tanıyalım: &#x27;Bu saat koluna takılır. Zamanı gösterir, ayrıca kalp atışını da sayabilir.&#x27; (Akıllı saat)<br><br>Bu ürünle ilgili merak ettiğin 2 soru yaz.</div></div><div class="gorsel">Görsel: Bir çocuğun koluna takılı, ekranında saat ve kalp şekli görünen akıllı saat.</div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">10p</span><div class="smetin">Yeni bir teknolojik ürünü ilk kez gördüğünde, soru sormak için hangi sırayı izlemelisin? Adımları doğru sıraya koy.</div></div><div class='sira'>Sorunu yüksek sesle sor • Ürünü dikkatle izle veya dinle • Merak ettiğin şeyi düşün • Verilen cevabı dikkatle dinle</div><div class='sira-yanit'>Sıralama: ______ → ______ → ______ → ______</div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>HB.1.6.2</span><span class='chip'>Teknoloji Hakkında Sorular Soruyorum</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-A, 2-B, 3-C, 4-D, 5-E<div class='ak-cozum'>Telefon konuşmamızı sağlar (A), televizyon izlememizi sağlar (B), buzdolabı yiyecekleri soğutur (C), çamaşır makinesi kıyafetleri yıkar (D), bilgisayar oyun/ödev için kullanılır (E). F seçeneği hiçbir teknolojik ürünle ilgili olmadığı için çeldiricidir.</div></div><div class='ak-soru'><b>2.</b> 1-D, 2-Y, 3-D, 4-Y<div class='ak-cozum'>1. Teknoloji işimizi kolaylaştırır → Doğru. 2. Merak ettiğimizi sormalıyız → Yanlış. 3. Televizyon teknolojik bir üründür → Doğru. 4. Çocuklar da bazı teknolojik ürünleri kullanır → Yanlış.</div></div><div class='ak-soru'><b>3.</b> <b>A</b><div class='ak-cozum'>Doğru cevap A&#x27;dır çünkü &#x27;nasıl çalışır&#x27; sorusu, tanıtılan teknolojik ürünle ilgili gerçek bir merak sorusudur. B konuyla ilgisizdir, C soru değil bir ifadedir, D ise soru değil bir cevaptır.</div></div><div class='ak-soru'><b>4.</b> <b>A</b><div class='ak-cozum'>Doğru cevap A&#x27;dır çünkü uygulamanın nasıl çalıştığını sormak, tanıtılan teknolojiyle ilgili gerçek bir merak sorusudur. B kişisel ve konu dışıdır, C soru değil bir ifadedir, D uygulamanın çalışmasıyla ilgili değildir.</div></div><div class='ak-soru'><b>5.</b> Bu makine nasıl çalışıyor? İçinde ne var da havayı serinletiyor?<div class='ak-cozum'>Öğrencinin yazdığı sorular soru işaretiyle bitmeli ve klimayla ilgili olmalıdır. Kabul edilebilir örnekler: &#x27;Bu makine nasıl çalışıyor?&#x27;, &#x27;İçinde ne var da havayı serinletiyor?&#x27;, &#x27;Neden düğmeye basınca çalışıyor?&#x27;</div></div><div class='ak-soru'><b>6.</b> Bu saat kalp atışımı nasıl sayıyor? Şarjı bitince ne oluyor?<div class='ak-cozum'>Öğrencinin yazdığı sorular soru işaretiyle bitmeli ve akıllı saatle ilgili olmalıdır. Kabul edilebilir örnekler: &#x27;Bu saat kalp atışımı nasıl sayıyor?&#x27;, &#x27;Şarjı bitince ne oluyor?&#x27;, &#x27;Suya girince bozulur mu?&#x27;</div></div><div class='ak-soru'><b>7.</b> Ürünü dikkatle izle veya dinle → Merak ettiğin şeyi düşün → Sorunu yüksek sesle sor → Verilen cevabı dikkatle dinle<div class='ak-cozum'>Doğru sıralama: Önce ürünü dikkatle izleriz/dinleriz, sonra merak ettiğimiz şeyi düşünürüz, sonra sorumuzu yüksek sesle sorarız, en son verilen cevabı dikkatle dinleriz.</div></div></div></body></html>

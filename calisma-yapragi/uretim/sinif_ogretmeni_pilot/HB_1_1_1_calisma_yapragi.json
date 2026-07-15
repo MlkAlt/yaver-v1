@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Öğretmenimi ve Arkadaşlarımı Tanıyorum",
+    "kazanim": {
+      "kod": "HB.1.1.1",
+      "ad": "Öğretmeni ve arkadaşlarıyla tanışabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Öğretmeni ve arkadaşları kendilerini tanıtırken onları etkin bir şekilde dinler.",
+        "b": "Öğretmenine ve arkadaşlarına kendisini tanıtırken sözlü ve sözsüz olarak etkileşim kurar."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 1. Öğrenme Alanı (Ben ve Okulum) ünite sayfası incelendi; kazanımın öğretim yaklaşımında görüşme tekniği ile istop, örümcek ağı gibi grup tanışma oyunlarının kullanıldığı, amacın öğrencilerin birbirleriyle ortak yönlerini bulup yakından tanıması, etkili iletişim kurması ve kendini ifade etmesi olduğu; değerlendirmede tanışma davranışlarını içeren bir kontrol listesi önerildiği doğrulandı. Bu bilgiler ışığında sorular; dinleme davranışı (bileşen a) ile sözlü/sözsüz tanışma davranışları (bileşen b) ayrımı üzerine kuruldu.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları arkadaşınla tanışırken nasıl davranman gerektiğini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Arkadaşın sınıfta kendini tanıtıyor. Sen ne yapmalısın?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Onu dikkatle dinlemeliyim."},
+            {"harf": "B", "metin_md": "Yanımdaki arkadaşımla konuşmalıyım."},
+            {"harf": "C", "metin_md": "Sırama bakıp resim çizmeliyim."},
+            {"harf": "D", "metin_md": "Sözünü kesip kendi adımı söylemeliyim."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Bir arkadaşımız kendini tanıtırken onu dikkatle dinlemeliyiz. Bu, ona saygı gösterdiğimizi belli eder. Diğer seçenekler dinlememe davranışıdır."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Öğretmenim kendini tanıtırken ona bakarak dinlerim.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Arkadaşım konuşurken ben de aynı anda konuşurum.", "cevap": false, "gerekce_md": "Konuşan kişiyi dinlemeliyiz; aynı anda konuşmak dinlemediğimizi gösterir."},
+            {"no": 3, "metin_md": "Biri kendini tanıtırken gülümsemek nazik bir davranıştır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Tanışma sırasında arkadaşımın sözünü kesmek doğrudur.", "cevap": false, "gerekce_md": "Sözünü kesmek yerine bitirmesini beklemeliyiz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — dinlerken karşımızdaki kişiye bakarız. 2) Yanlış — aynı anda konuşmak dinlemediğimizi gösterir. 3) Doğru — gülümsemek nazik ve sıcak bir davranıştır. 4) Yanlış — sözünü kesmeden bitirmesini beklemeliyiz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları tanışırken yaptığımız davranışları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki davranışları, sözlü mü sözsüz mü olduğuna göre eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Adımı söylerim."},
+            {"no": 2, "metin_md": "Gülümserim."},
+            {"no": 3, "metin_md": "El sallarım."},
+            {"no": 4, "metin_md": "\"Merhaba\" derim."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sözlü tanışma"},
+            {"harf": "B", "metin_md": "Sözsüz tanışma"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "B", "4": "A"},
+          "cozum_md": "Adımı söylemek (1) ve \"Merhaba\" demek (4) konuşarak yapıldığı için sözlü tanışmadır (A). Gülümsemek (2) ve el sallamak (3) bedenle yapıldığı için sözsüz tanışmadır (B)."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir arkadaşınla tanışırken önce ona ____(1)____ ile bakarsın ve gülümsersin. Sonra ona ____(2)____ dersin ve adını söylersin.",
+          "gorsel": null,
+          "kelime_havuzu": ["göz", "merhaba", "kulak", "hoşça kal"],
+          "cevap": {"1": "göz", "2": "merhaba"},
+          "cozum_md": "Tanışırken önce göz teması kurup gülümseriz (1); sonra \"merhaba\" diyerek adımızı söyleriz (2). \"Kulak\" göz teması yerine kullanılamaz, \"hoşça kal\" ise ayrılırken söylenir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi SÖZSÜZ (bedenle yapılan) bir tanışma davranışı DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Gülümsemek"},
+            {"harf": "B", "metin_md": "El sallamak"},
+            {"harf": "C", "metin_md": "Adını söylemek"},
+            {"harf": "D", "metin_md": "Göz teması kurmak"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Adını söylemek konuşarak yapılan sözlü bir davranıştır. Gülümsemek, el sallamak ve göz teması kurmak bedenle yapılan sözsüz davranışlardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Kendini tanıtan bir kart hazırla. Adını yaz. Sevdiğin bir oyunu ya da rengi yaz. İstersen kendini çiz.",
+          "gorsel": {"betimleme": "Sayfanın altında öğrencinin kendini çizebileceği boş, çerçeveli bir kutu bulunmalı; kutunun üstünde küçük \"Ben\" yazısı olabilir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Benim adım Ayşe. Sevdiğim renk mavi.",
+            "kabul_kriterleri": [
+              "Adını yazmış/söylemiş olması",
+              "Sevdiği bir oyun ya da rengi yazmış olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin adını ve sevdiği bir şeyi (oyun ya da renk) yazması ya da söylemesi yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir arkadaşın kendini tanıtırken sen neler yaparsın? İki tane yaz. (Örnek: gülümserim...)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Dikkatle dinlerim. Göz teması kurarım.",
+            "kabul_kriterleri": [
+              "En az iki dinleme/ilgi davranışı yazmış olması (dinlerim, bakarım, gülümserim, sorarım vb.)",
+              "Cümlelerin anlaşılır olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin dinleme ile ilgili en az iki davranış yazması (dinlerim, bakarım, gülümserim, sorarım vb.) yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

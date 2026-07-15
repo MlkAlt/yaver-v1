@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sanatın Günlük Yaşamdaki Yeri",
+    "kazanim": {
+      "kod": "HB.2.6.3",
+      "ad": "Sanatın günlük yaşamdaki yerini belirleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Günlük yaşamda karşılaştığı sanat dallarını (müzik, resim, heykel, dans vb.) ve bunlara ait örnekleri tanır.",
+        "b": "Çevresinde (evinde, okulunda, sokakta) gördüğü somut örneklerden yola çıkarak sanatın günlük yaşamdaki yerini belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Kazanım veri dosyasında 'aciklama' alanı null geldi ve bu oturumda WebSearch aracı oturum limitine takıldığı için (kullanım kotası doldu) MEB/tymm.meb.gov.tr kaynak taraması yapılamadı. Süreç bileşenleri ve içerik, kazanımın adı ('belirleyebilme' fiili) ve aynı ünitedeki kardeş kazanım HB.2.6.1'in (bilim insanları) referans alınmasıyla, genel müfredat bilgisine dayanılarak türetildi. Sanat dalları (müzik, resim, heykel, dans) ve günlük yaşam örnekleri (ev eşyaları, giysi desenleri, sokak heykelleri, radyo/şarkı) 2. sınıf düzeyinde standart ve tartışmasız örnekler olduğu için bilimsel/olgusal risk düşük görüldü; yine de bu not sonraki insan kontrolünde önceliklendirilmelidir.",
+      "notlar": [
+        "Kazanımın 'aciklama' alanı veri kaynağında null; süreç bileşenleri (a, b) web araştırması yapılamadan, kazanım adından ve müfredatın genel mantığından türetildi. Bir insan gözden geçirmesi önerilir.",
+        "'b' süreç bileşeni (sanatın günlük yaşamdaki yerini belirleme) davranışsal bir çıkarım gerektirir; s4 (olumsuz kök ile ayırt etme), s5 ve s6 (öğrencinin kendi çevresinden somut örnek seçip belirlemesi) ile temsil edildi.",
+        "Bağımsız crosscheck geçişinde tüm sorular kendi çözümümle (K1-K6) uyuştu; kritik sorun bulunmadı. s3'teki 'harita' çeldiricisi bilinçli olarak metinle ilgisiz ama sınıf düzeyine tanıdık bir kelime olarak seçildi (K4)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları sanat dallarını ve günlük hayatta gördüğün sanat örneklerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sanat dallarını, o dala ait etkinlikle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Müzik"},
+            {"no": 2, "metin_md": "Resim"},
+            {"no": 3, "metin_md": "Heykel"},
+            {"no": 4, "metin_md": "Dans (Halk Oyunları)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Boya veya kalemle kâğıda bir manzara ya da portre çizmek"},
+            {"harf": "B", "metin_md": "Enstrüman çalarak veya şarkı söyleyerek sesle bir eser ortaya çıkarmak"},
+            {"harf": "C", "metin_md": "Kil, taş veya ahşaptan bir insan ya da hayvan biçimi şekillendirmek"},
+            {"harf": "D", "metin_md": "Müzik eşliğinde vücut hareketleriyle bir gösteri yapmak"},
+            {"harf": "E", "metin_md": "Bir binanın nasıl yapılacağını çizip planlamak"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1) Müzik → B, sesle eser ortaya çıkarmaktır. 2) Resim → A, çizim yapmaktır. 3) Heykel → C, biçim şekillendirmektir. 4) Dans → D, vücut hareketleriyle gösteri yapmaktır. 'E' (mimari/bina planlama) bu soruda kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Sanat sadece müzelerde ve konser salonlarında bulunur; evimizde ya da sokakta sanat eseri göremeyiz.", "cevap": false, "gerekce_md": "Ev eşyalarındaki desenler, sokaktaki heykeller ve duvar resimleri de birer sanat örneğidir."},
+            {"no": 2, "metin_md": "Giydiğimiz kıyafetlerin üzerindeki desenler de bir sanat çalışmasının sonucu olabilir.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Bir çocuğun defterine çizdiği resim sanatsal bir çalışma sayılmaz.", "cevap": false, "gerekce_md": "Resim yapmak bir sanat dalıdır; çocukların çizimleri de bu kapsamdadır."},
+            {"no": 4, "metin_md": "Radyoda veya evde dinlediğimiz şarkılar, müzik sanatının günlük yaşamdaki bir örneğidir.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1) Yanlış — sanat evde ve sokakta da bulunur. 2) Doğru — kıyafet desenleri de sanatın ürünüdür. 3) Yanlış — çocuğun çizimi de bir resim/sanat çalışmasıdır. 4) Doğru — şarkı dinlemek müzik sanatının günlük örneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki metni okuyup soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki metni okuyup boşlukları uygun kelimelerle doldurunuz.\n\n*\"Sanat, sadece müzelerde değil hayatımızın her yerindedir. Örneğin duvarlarımızı süslemek için astığımız ____(1)____, evimizi güzelleştiren küçük ____(2)____ biçimindeki biblolar ve sabah okula giderken dinlediğimiz ____(3)____ hep birer sanat örneğidir.\"*",
+          "gorsel": null,
+          "kelime_havuzu": ["tablo", "heykel", "şarkı", "harita"],
+          "cevap": {"1": "tablo", "2": "heykel", "3": "şarkı"},
+          "cozum_md": "Metinde 'duvara asılan' ifadesi tabloya, 'biblo' ifadesi küçük heykele, 'dinlediğimiz' ifadesi şarkıya işaret eder. 'Harita' metinle ilgisiz bir çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 25,
+          "govde_md": "Aşağıdaki davranışlardan hangisi sanatın günlük yaşamımızdaki yerine bir örnek **değildir**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Duvara asılan bir tabloya bakıp onu beğenmek"},
+            {"harf": "B", "metin_md": "Sokakta yürürken bir heykeli fark etmek"},
+            {"harf": "C", "metin_md": "Ders çalışırken bir matematik problemini çözmek"},
+            {"harf": "D", "metin_md": "Sevdiğimiz bir şarkıyı dinlerken mutlu olmak"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "A, B ve D seçenekleri günlük yaşamda karşılaşılan sanat örnekleridir (resim, heykel, müzik). C seçeneği matematikle ilgilidir, sanatla doğrudan ilgisi yoktur; bu yüzden 'değildir' sorusunun cevabı C'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi çevrende gördüğün sanat örneklerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Evinde veya çevrende gördüğün, sana göre bir sanat örneği olan bir eşyayı ya da durumu yaz. Bunun neden bir sanat örneği olduğunu kısaca açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Evimizdeki halının üzerindeki çiçek desenleri bir sanat örneğidir çünkü biri bu deseni özenle tasarlamış ve dokumuştur.",
+            "kabul_kriterleri": [
+              "Çevresinden gerçek ve makul bir sanat örneği/nesne belirtmesi",
+              "Bu örneğin neden bir sanat çalışması olduğuna dair basit bir gerekçe yazması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin gerçek bir günlük yaşam örneği seçip bunun bir sanat dalıyla (resim, heykel, dokuma vb.) ilişkisini kısaca açıklaması beklenir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Okulunda ve evinde gördüğün birer sanat örneği yaz. Her biri için hangi sanat dalına (müzik, resim, heykel, dans...) ait olduğunu da belirt.",
+          "gorsel": {"betimleme": "Yanıt için iki küçük satır bırakılmalı: 'Okulda:' ve 'Evde:' başlıklı kısa cevap alanları. Görsel yalnızca yazım alanını düzenler, soru görsel olmadan da anlaşılır ve çözülebilir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Okulda: Sınıf panosundaki resim (resim sanatı). Evde: Akşam dinlediğimiz bir şarkı (müzik sanatı).",
+            "kabul_kriterleri": [
+              "Okul ortamından gerçek bir sanat örneği ve doğru sanat dalını belirtmesi",
+              "Ev ortamından gerçek bir sanat örneği ve doğru sanat dalını belirtmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin okul ve ev ortamlarından birer gerçek sanat örneği seçip bunları doğru sanat dalıyla eşleştirerek belirtmesi beklenir; tek doğru cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

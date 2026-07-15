@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Afetlere Karşı Alınması Gereken Önlemler",
+    "kazanim": {
+      "kod": "HB.2.5.3",
+      "ad": "Afetlere karşı alınması gereken önlemlere ilişkin bilgi toplayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Afetlere karşı alınması gereken önlemlere ilişkin bilgileri bulur.",
+        "b": "Afetlere karşı alınması gereken önlemlere ilişkin bilgileri kaydeder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '5. Öğrenme Alanı: Doğa ve Çevre' ünite sayfası incelendi: ünite içeriğinin deprem, sel, yangın, heyelan, çığ gibi afetleri ve alınacak önlemleri kapsadığı; öğretim yönteminde film/video/infografik ile bilgi bulma, afet/acil durum çantası ve acil durum bilgi kartı hazırlama ile bilgi kaydetme vurgusu doğrulandı. mufredat.meb.gov.tr Hayat Bilgisi öğretim programı PDF'i ile kazanım kodu ve süreç bileşenleri teyit edildi.",
+      "notlar": [
+        "'a' bileşeni (bilgi bulma) doğru/yanlış, eşleştirme, boşluk doldurma ve güvenilir kaynak seçimi (s4) sorularıyla; 'b' bileşeni (bilgi kaydetme) tablo doldurma ve iki açık uçlu 'kaydetme/not alma' sorusuyla temsil edildi.",
+        "2. sınıf (7-8 yaş) düzeyi gözetilerek deprem şiddeti/ölçek gibi üst sınıf kavramlarına girilmedi; sadece temel davranışsal önlemler (çök-kapan-tutun, toplanma alanı, acil durum çantası, 112) kullanıldı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Afetler ve alınması gereken önlemlerle ilgili aşağıdaki ifadeleri değerlendiriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Deprem anında sağlam bir masanın altına çökmek güvenlidir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Yangında dumanlı bir ortamda dik yürümek daha güvenlidir.", "cevap": false, "gerekce_md": "Duman yukarı yükseldiği için eğilerek ya da sürünerek hareket etmek daha güvenlidir."},
+            {"no": 3, "metin_md": "Evde bir acil durum çantası bulundurmak afetlere hazırlıklı olmamızı sağlar.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Sel olduğunda dere yatağına yakın yerde beklemek güvenlidir.", "cevap": false, "gerekce_md": "Sel sırasında dere yatağından uzaklaşıp yüksek ve güvenli bir yere gitmek gerekir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — sağlam masa altına çökmek deprem anında bizi düşen eşyalardan korur. 2) Yanlış — duman yukarı yükseldiğinden eğilerek/sürünerek hareket etmek gerekir. 3) Doğru — acil durum çantası afetlere hazır olmamızı sağlar. 4) Yanlış — sel sırasında dere yatağından uzaklaşıp yüksek, güvenli bir yere gidilmelidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Afetleri, o afet sırasında alınması gereken önlemle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Deprem"},
+            {"no": 2, "metin_md": "Yangın"},
+            {"no": 3, "metin_md": "Sel"},
+            {"no": 4, "metin_md": "Heyelan/Çığ"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Çök-Kapan-Tutun yaparız, sarsıntı bitince toplanma alanına gideriz"},
+            {"harf": "B", "metin_md": "Dumanlı ortamda eğilerek uzaklaşır, 112'yi ararız"},
+            {"harf": "C", "metin_md": "Dere yatağından uzaklaşıp yüksek ve güvenli bir yere gideriz"},
+            {"harf": "D", "metin_md": "Eğimli ve kaygan yamaçlardan uzak dururuz"},
+            {"harf": "E", "metin_md": "Bol su içip dinleniriz"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1) Deprem → A, Çök-Kapan-Tutun ve toplanma alanına gitmek doğru davranıştır. 2) Yangın → B, eğilerek uzaklaşıp 112'yi aramak gerekir. 3) Sel → C, yüksek ve güvenli yere gitmek gerekir. 4) Heyelan/Çığ → D, kaygan/eğimli yamaçlardan uzak durulur. 'E' seçeneği bu soruda kullanılmayan çeldiricidir, afetle ilgili bir önlem değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları afetlere karşı alınacak önlemleri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Acil durum çantasında susamamamız için ____(1)____ bulunmalıdır. Karanlıkta görebilmemiz için çantada ____(2)____ olmalıdır. Bir yaramız olursa kullanmak üzere çantada ____(3)____ bulunmalıdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["su", "el feneri", "ilk yardım malzemesi", "oyuncak", "televizyon"],
+          "cevap": {"1": "su", "2": "el feneri", "3": "ilk yardım malzemesi"},
+          "cozum_md": "1) Susamamak için çantada su bulunmalıdır. 2) Karanlıkta görebilmek için el feneri gereklidir. 3) Yaralanma durumunda kullanmak üzere ilk yardım malzemesi bulunmalıdır. 'Oyuncak' ve 'televizyon' acil durum çantasıyla ilgili değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Afetlere karşı alınması gereken önlemler hakkında bilgi toplarken en güvenilir yol hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşlarımızın duyduğu söylentileri dinlemek"},
+            {"harf": "B", "metin_md": "AFAD gibi resmî kurumların hazırladığı bilgilendirici video ve afişleri incelemek"},
+            {"harf": "C", "metin_md": "İnternette karşımıza çıkan her bilgiyi kontrol etmeden doğru kabul etmek"},
+            {"harf": "D", "metin_md": "Konuyla ilgili hiçbir yerden araştırma yapmamak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "AFAD gibi resmî kurumların hazırladığı bilgilendirici içerikler doğru ve güvenilir bilgi kaynağıdır. Söylenti dinlemek, kontrolsüz bilgiye güvenmek veya hiç araştırmamak güvenilir bilgi toplama yolu değildir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda topladığın bilgileri kullanarak boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Afet", "Alınması Gereken Önlem"],
+            "satirlar": [
+              ["Deprem", "__?__"],
+              ["__?__", "Dumanlı ortamda eğilerek uzaklaşılır, 112 aranır."],
+              ["Sel", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Sağlam bir masa/eşyanın altına çökülür, sarsıntı bitince toplanma alanına gidilir.",
+            "r1c0": "Yangın",
+            "r2c1": "Dere yatağından uzaklaşılıp yüksek ve güvenli bir yere gidilir."
+          },
+          "cozum_md": "Tablo, her afetin adı ile o afette alınması gereken önlemi eşleştirecek şekilde doldurulur: Deprem → çök-kapan-tutun ve toplanma alanına gitme; ikinci satırdaki önlem yangına aittir; Sel → dere yatağından uzaklaşıp yüksek yere gitme."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi düşüncelerini yazarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ailenle birlikte bir 'acil durum bilgi kartı' hazırladığını düşün. Bu karta hangi bilgileri yazarak kaydedersin? En az iki bilgi yaz.",
+          "gorsel": {"betimleme": "Sayfanın altında küçük, çerçeveli bir kart taslağı: üstünde 'ACİL DURUM BİLGİ KARTI' yazan, içinde 'Aile Telefonları', 'Buluşma Yerimiz' gibi boş satırlar bulunan basit bir kutu. Görsel yalnızca yazma alanını görselleştirir, soru bu görsel olmadan da yazıyla çözülebilir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Aile bireylerinin telefon numaralarını ve afet anında buluşacağımız toplanma yerinin adresini yazarım.",
+            "kabul_kriterleri": [
+              "En az iki somut bilgi türü belirtmesi (telefon numarası, adres, kan grubu, toplanma yeri vb.)",
+              "Bilgilerin acil durumda aileye/yetkililere yardımcı olacak nitelikte olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin acil durumda işe yarayacak en az iki somut bilgiyi (telefon numarası, adres, buluşma yeri, kan grubu vb.) kart üzerine kaydedeceğini belirtmesi yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Öğretmenin senden 'Yaşadığımız yerde en çok görülen afet hangisidir, bu afete karşı hangi önlemler alınmalıdır?' konusunda bilgi toplayıp bir kâğıda not almanı istiyor. Bu bilgiyi nereden araştırırsın ve topladığın bilgiyi nasıl kaydedersin? Kısaca yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ailemle konuşarak ve güvenilir bir bilgilendirme videosu izleyerek bilgi toplarım; öğrendiklerimi kâğıda madde madde yazarım.",
+            "kabul_kriterleri": [
+              "Bir bilgi kaynağı belirtmesi (aile, öğretmen, güvenilir video/afiş/kitap vb.)",
+              "Topladığı bilgiyi kaydetme biçimini belirtmesi (yazma, madde madde not alma, liste yapma vb.)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek geçerli cevap yoktur. Öğrencinin güvenilir bir kaynaktan (aile, öğretmen, resmî video/afiş) bilgi topladığını ve bu bilgiyi kâğıda yazarak/not alarak kaydettiğini belirtmesi beklenir."
+        }
+      ]
+    }
+  ]
+}

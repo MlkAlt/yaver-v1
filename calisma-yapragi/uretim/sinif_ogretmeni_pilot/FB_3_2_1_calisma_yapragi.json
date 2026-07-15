@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Canlılar Dünyasını Sınıflandırıyorum",
+    "kazanim": {
+      "kod": "FB.3.2.1",
+      "ad": "Canlıları; mikroskopla görülebilen canlılar, mantarlar, bitkiler ve hayvanlar olarak sınıflandırabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "2. ÜNİTE: CANLILAR DÜNYASINA YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Canlıların benzer ve farklı niteliklerini belirler.",
+        "b": "Canlıları niteliklerine göre ayırır.",
+        "c": "Canlıları gruplandırır.",
+        "ç": "Canlıları etiketler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 2. Ünite (Canlılar Dünyasına Yolculuk) program sayfası incelendi (WebSearch + WebFetch). Program açıkça şunu belirtiyor: sınıflandırmada sistematik terim (âlem, cins, tür vb.) kullanılmaz; mantar çeşitlerine girilmez; bitkilerde ve hayvanlarda alt sınıflandırmaya girilmez; canlılara sadece tanıtıcı örnekler verilir, yapısal ayrıntıya girilmez. Örnek canlılar (örümcek, böcek, kelebek, ayçiçeği, küstüm çiçeği vb.) programda geçen örneklerle uyumlu seçildi.",
+      "notlar": [
+        "Öğretim programı, doğadaki bazı mantarların zehirli olabileceği konusunda öğrencilerin uyarılması gerektiğini belirtiyor; bu yaprakta doğrudan bir soru olarak işlenmedi, sınıf içi ek sözlü uyarı öğretmene bırakıldı.",
+        "Bağımsız crosscheck (ayrı geçiş, kör sınıflandırma + rubrik K1/K3-K6) yapıldı: tüm cevaplar uyuştu, kritik sorun bulunmadı, düzeltme gerekmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki doğru/yanlış ve boşluk doldurma sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Kelebek ve karınca, ikisi de hareket edebildiği için hayvanlar grubunda yer alır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Ayçiçeği ve mantar, ikisi de topraktan çıktığı için aynı grupta yer alır.", "cevap": false, "gerekce_md": "Mantarlar, bitkilerden farklı niteliklere sahip olduğu için ayrı bir grupta incelenir; topraktan çıkması onu bitki yapmaz."},
+            {"no": 3, "metin_md": "Bazı canlılar o kadar küçüktür ki gözle görülemez, sadece mikroskopla görülebilir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Bütün canlılar birbirinin tıpatıp aynısıdır, aralarında hiçbir fark yoktur.", "cevap": false, "gerekce_md": "Canlıların birbirinden farklı nitelikleri de vardır; bu farklar sayesinde onları farklı gruplara ayırabiliriz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: Kelebek ve karınca hareket edebilir, beslenmek için başka besinlere ihtiyaç duyar; ikisi de hayvanlar grubundadır. 2-Yanlış: Mantarlar bitkilerden farklı niteliklere sahiptir, bu yüzden bitkilerle aynı grupta sayılmaz. 3-Doğru: Mikroskopla görülebilen canlılar grubu tam olarak bunun için vardır. 4-Yanlış: Canlıların benzer nitelikleri kadar farklı nitelikleri de vardır; sınıflandırma bu farklara dayanır."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Canlıları incelerken önce niteliklerine bakarız. Kökleriyle toprağa tutunan, kendi besinini üreten canlılar ____(1)____ grubuna girer. Sadece mikroskop yardımıyla görebildiğimiz, gözle fark edemediğimiz çok küçük canlılara ____(2)____ denir. Hareket edebilen ve beslenmek için başka canlılara ya da besinlere ihtiyaç duyan canlılar ____(3)____ grubuna girer.",
+          "gorsel": null,
+          "kelime_havuzu": ["bitkiler", "mikroskopla görülebilen canlılar", "hayvanlar", "mantarlar"],
+          "cevap": {"1": "bitkiler", "2": "mikroskopla görülebilen canlılar", "3": "hayvanlar"},
+          "cozum_md": "(1) bitkiler — kökleriyle toprağa tutunup kendi besinini üretme, bitkilerin niteliğidir. (2) mikroskopla görülebilen canlılar — gözle görülemeyecek kadar küçük canlıların tanımıdır. (3) hayvanlar — hareket etme ve beslenmek için başka besinlere ihtiyaç duyma, hayvanların niteliğidir. 'Mantarlar' kelimesi bu cümlelerde kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki canlılardan hangisi diğer üçünden farklı bir grupta yer alır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kelebek"},
+            {"harf": "B", "metin_md": "Karınca"},
+            {"harf": "C", "metin_md": "Ayçiçeği"},
+            {"harf": "D", "metin_md": "Balık"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Doğru cevap C'dir. Kelebek, karınca ve balık hareket edebilen, beslenmek için başka canlılara ya da besinlere ihtiyaç duyan hayvanlardır. Ayçiçeği ise kökleriyle toprağa tutunan, kendi besinini üreten bir bitkidir; bu yüzden diğer üçünden farklı bir grupta yer alır."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki canlıların hangi gruba girdiğini tabloya yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Canlı", "Grubu"],
+            "satirlar": [
+              ["Örümcek", "__?__"],
+              ["Küf mantarı", "__?__"],
+              ["Elma ağacı", "__?__"],
+              ["Bakteri", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Hayvanlar", "r1c1": "Mantarlar", "r2c1": "Bitkiler", "r3c1": "Mikroskopla görülebilen canlılar"},
+          "cozum_md": "Örümcek hareket edebilen, beslenmek için başka canlılara ihtiyaç duyan bir canlıdır → Hayvanlar. Küf mantarı, bitkilerden farklı niteliklere sahip olduğu için → Mantarlar. Elma ağacı köküyle toprağa tutunup kendi besinini ürettiği için → Bitkiler. Bakteri gözle görülemeyecek kadar küçük olduğu, sadece mikroskopla görülebildiği için → Mikroskopla görülebilen canlılar."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir öğrenci defterine dört canlı yazmış: kelebek, gül, küf mantarı, kedi. Bu canlılardan hangi ikisi aynı grupta yer alır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kelebek - Gül"},
+            {"harf": "B", "metin_md": "Küf mantarı - Kedi"},
+            {"harf": "C", "metin_md": "Kelebek - Kedi"},
+            {"harf": "D", "metin_md": "Gül - Küf mantarı"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Doğru cevap C'dir. Kelebek ve kedi hareket edebilen, beslenmek için başka canlılara ya da besinlere ihtiyaç duyan canlılardır; ikisi de hayvanlar grubuna girer. Gül bir bitki, küf mantarı ise mantarlar grubunda yer alır; dolayısıyla A, B ve D seçeneklerindeki canlı çiftleri farklı gruplardadır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Aşağıdaki canlıların her birinin hangi gruba girdiğini yaz ve neden o grubu seçtiğini kısaca açıkla:\n\n1) Çilek bitkisi\n2) Ekmek küfü\n3) Karınca",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Çilek bitkisi → Bitkiler grubu, çünkü kökleriyle toprağa tutunur ve kendi besinini üretir.\n2) Ekmek küfü → Mantarlar grubu, çünkü bitkilerden farklı niteliklere sahip bir canlıdır.\n3) Karınca → Hayvanlar grubu, çünkü hareket edebilir ve beslenmek için başka besinlere ihtiyaç duyar.",
+            "kabul_kriterleri": ["Çilek bitkisini 'bitkiler' olarak etiketleyip kökle toprağa tutunma/kendi besinini üretme gibi bir nitelik belirtmesi", "Ekmek küfünü 'mantarlar' olarak etiketleyip bitkilerden farklı bir grupta olduğunu belirtmesi", "Karıncayı 'hayvanlar' olarak etiketleyip hareket etme/beslenme niteliğine değinmesi"]
+          },
+          "cozum_md": "Örnek cevap yukarıdaki gibidir. Öğrencinin her canlıyı doğru gruba etiketlemesi ve en az bir nitelikle gerekçelendirmesi yeterlidir; birebir aynı ifade aranmaz."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Emre, gözlem defterine canlıları şöyle gruplamış:\n\n**Bitkiler:** gül, kelebek, çam ağacı\n**Hayvanlar:** balık, karınca\n**Mantarlar:** küf mantarı\n\nEmre'nin listesinde bir hata var. Hatayı bul, bu canlının doğru grubunu yaz ve neden o grupta olması gerektiğini açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Hata: Kelebek, bitkiler grubuna yazılmış ama kelebek bir bitki değildir. Doğrusu: Kelebek hayvanlar grubuna girmelidir çünkü hareket edebilir ve beslenmek için çiçek özü gibi besinlere ihtiyaç duyar.",
+            "kabul_kriterleri": ["Kelebeğin yanlış gruba (bitkiler) yazıldığını fark etmesi", "Kelebeği doğru şekilde 'hayvanlar' grubuna taşıması", "Hareket etme veya beslenme gibi bir nitelikle gerekçelendirmesi"]
+          },
+          "cozum_md": "Emre'nin listesinde kelebek yanlışlıkla bitkiler grubuna yazılmış. Kelebek hareket edebilen, beslenmek için besine ihtiyaç duyan bir canlıdır; bu nitelikleriyle hayvanlar grubuna girer. Doğru liste: Bitkiler: gül, çam ağacı — Hayvanlar: balık, karınca, kelebek — Mantarlar: küf mantarı."
+        }
+      ]
+    }
+  ]
+}

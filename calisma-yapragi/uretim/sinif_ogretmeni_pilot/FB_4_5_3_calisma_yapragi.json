@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Mıknatısın Kullanım Alanlarını Bilimsel Olarak Sorguluyorum",
+    "kazanim": {
+      "kod": "FB.4.5.3",
+      "ad": "Mıknatısın kullanım alanlarına yönelik bilimsel sorgulama yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "5. ÜNİTE: MIKNATISI KEŞFEDİYORUM",
+      "surec_bilesenleri": {
+        "a": "Mıknatısın kullanım alanlarına yönelik bir soru veya problem tanımlar.",
+        "b": "Sorusunu/problemini cevaplamada kullanabileceği bir model geliştirir.",
+        "c": "Modelini oluşturmaya yönelik araştırma planlayarak gerçekleştirir.",
+        "ç": "Oluşturduğu modele ilişkin verileri analiz ederek yorumlar.",
+        "d": "Oluşturduğu modelle ilgili sorunlara ilişkin kanıta dayalı açıklama yaparak çözüm üretir.",
+        "e": "Oluşturduğu modeli değerlendirerek paylaşır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 4. sınıf Fen Bilimleri 5. Ünite (Mıknatısı Keşfediyorum) sayfası ve web araması ile kazanımın bilimsel sorgulama süreci (soru/problem tanımlama → model geliştirme → araştırma planlama → veri analizi → kanıta dayalı açıklama → paylaşma) ve günlük hayattan mıknatıs kullanım alanları (pusula, buzdolabı kapağı, hoparlör, hurdalık vinci, mıknatıslı kalem kutusu kapağı) doğrulandı.",
+      "notlar": [
+        "Subagent kullanılamadığı için crosscheck, üretimden ayrı bir geçişte kazanım süreç bileşenleri (K1), seviye/müfredat sınırı (K3), tek doğru cevap (K4), dil (K5) ve şema/render (K6) kontrolleri elle uygulanarak yapıldı; sayısal hesaplama gerektiren soru yok.",
+        "Öğrenci kısmı 1 A4 sayfa hedefine 2 madde eslestirme/govde kısaltmasıyla yaklaştırıldı ama 8 soru + 6 süreç bileşeni kapsaması nedeniyle 2 sayfada kaldı (kural izin veriyor: en çok 2)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Mıknatısların günlük hayatta nerelerde kullanıldığını düşünerek aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıda mıknatısın kullanıldığı bazı eşyalar verilmiştir. Her eşyayı, mıknatısın o eşyada ne işe yaradığını anlatan açıklamayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Pusula"},
+            {"no": 2, "metin_md": "Buzdolabı kapağı"},
+            {"no": 3, "metin_md": "Hoparlör"},
+            {"no": 4, "metin_md": "Hurdalık vinci"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kapağın gövdeye sıkıca yapışıp kapalı kalmasını sağlar"},
+            {"harf": "B", "metin_md": "İbrenin her zaman kuzeyi göstermesini sağlar"},
+            {"harf": "C", "metin_md": "Sesin oluşmasına yardımcı olur"},
+            {"harf": "D", "metin_md": "Büyük demir parçalarını kaldırıp taşır"},
+            {"harf": "E", "metin_md": "Suyu ısıtıp buharlaştırır"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "Pusuladaki mıknatıs Dünya'nın manyetik alanına göre yön gösterir (B); buzdolabı kapağındaki ince mıknatıs şeridi kapağı gövdeye çeker (A); hoparlörde mıknatıs, elektrik sinyalini titreşime çevirerek sesin oluşmasını sağlar (C); hurdalık vincindeki dev elektromıknatıs büyük demir parçalarını çeker ve taşır (D). E seçeneği mıknatısın işlevleriyle ilgili değildir, çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Mıknatısların kullanım alanlarıyla ilgili aşağıdaki ifadelerin doğru mu yanlış mı olduğuna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Mıknatıslar yalnızca oyuncaklarda kullanılır.", "cevap": false, "gerekce_md": "Mıknatıslar oyuncakların yanında pusula, buzdolabı kapağı, hoparlör ve hurdalık vinci gibi pek çok farklı alanda da kullanılır."},
+            {"no": 2, "metin_md": "Kalem kutusu gibi bazı kutuların kapağı, içine yerleştirilen ince bir mıknatıs sayesinde kolayca kapanır.", "cevap": true, "gerekce_md": "Kapak ve gövdeye yerleştirilen küçük mıknatıslar birbirini çekerek kapağın kapalı kalmasını sağlar."},
+            {"no": 3, "metin_md": "Hurdalıklarda büyük demir parçalarını kaldırmak için dev mıknatıslar kullanılabilir.", "cevap": true, "gerekce_md": "Hurdalık vinçlerinin ucundaki güçlü elektromıknatıslar, ağır demir parçalarını çekip bir yerden bir yere taşıyabilir."},
+            {"no": 4, "metin_md": "Mıknatıslar kâğıt ve plastik eşyaları da tıpkı demir gibi güçlü şekilde çeker.", "cevap": false, "gerekce_md": "Mıknatıslar demir, nikel, kobalt gibi belirli metalleri çeker; kâğıt ve plastiği çekmez."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "Her ifade, mıknatısın gerçek kullanım alanları ve çektiği madde türleriyle karşılaştırılarak değerlendirilir. 1 ve 4 numaralı ifadeler mıknatısın kullanım alanını gereğinden dar ya da yanlış gösterdiği için yanlıştır; 2 ve 3 numaralı ifadeler günlük hayattan doğrulanabilir örneklerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Eren, evindeki mıknatısların nerelerde ve nasıl kullanıldığını araştırmak istiyor. Aşağıdaki soruları Eren'in yürüttüğü bilimsel sorgulama sürecini takip ederek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Eren, buzdolabı kapağının neden açık kalmayıp kendiliğinden kapandığını merak ediyor. Eren'in bunu araştırmak için sorabileceği bir soru ya da problem cümlesi yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Buzdolabı kapağının mıknatısla kapalı kalması, mıknatısın hangi özelliğinden kaynaklanır?",
+            "kabul_kriterleri": [
+              "Sorunun mıknatısın kullanım alanıyla (burada buzdolabı kapağıyla) ilgili olması",
+              "Gözlemle/araştırmayla cevaplanabilecek, tek kelimelik olmayan bir soru cümlesi kurulmuş olması",
+              "Sorunun net ve tek anlamlı olması"
+            ]
+          },
+          "cozum_md": "Bilimsel sorgulamanın ilk adımı, gözlemlenen bir durumdan (burada buzdolabı kapağının kapalı kalması) yola çıkarak araştırılabilir bir soru ya da problem tanımlamaktır. Kabul edilebilir cevap, bu durumu açıklamaya yönelik, gözlem veya araştırmayla cevaplanabilecek bir soru cümlesidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Eren, \"Mıknatıs evdeki hangi eşyaları çeker?\" sorusunu araştırmak istiyor. Aşağıdakilerden hangisi Eren'in bu soruyu cevaplamak için geliştirebileceği en uygun modeldir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Evdeki eşyaları tek tek mıknatısla test edip çekilen ve çekilmeyen eşyaları bir tabloya kaydetmek"},
+            {"harf": "B", "metin_md": "Mıknatısın rengini ve şeklini bir resme çizmek"},
+            {"harf": "C", "metin_md": "Mıknatısı bir kutuya koyup bir hafta boyunca hiç dokunmadan saklamak"},
+            {"harf": "D", "metin_md": "Ailesine mıknatısın hangi eşyaları çektiğini sormadan tahmin etmek"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Bir model, soruyu cevaplamak için sistemli biçimde veri toplamayı sağlamalıdır. A seçeneği, eşyaları tek tek test edip sonuçları kaydetmeyi önerdiği için soruyu cevaplamaya uygun bir modeldir. B, C ve D seçenekleri mıknatısın çekme özelliğiyle ilgili veri üretmez."
+        },
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Eren, geliştirdiği modeli uygulamak için bir araştırma planlıyor. Aşağıdaki adımları, Eren'in araştırmayı gerçekleştirmesi gereken doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Mıknatısı her eşyaya yaklaştırıp çekilip çekilmediğini gözlemlemek",
+            "Hangi eşyaların çekildiğini bir tabloya kaydetmek",
+            "Evden test edilecek eşyaları (anahtar, kâğıt, ataç, plastik kaşık, çivi vb.) belirlemek"
+          ],
+          "cevap": {"dogru_sira": [2, 0, 1]},
+          "cozum_md": "Bir araştırma planı; önce nelerin test edileceğinin belirlenmesini, sonra gözlemin yapılmasını, sonra da sonuçların kaydedilmesini içerir. Bu nedenle doğru sıra: eşyaları belirlemek (3. öğe) → gözlemlemek (1. öğe) → kaydetmek (2. öğe)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Eren'in araştırmasını tamamladığını varsayarak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 10,
+          "govde_md": "Eren'in evdeki eşyaları mıknatısla test ederek elde ettiği veriler şöyledir:\n\n| Eşya | Mıknatısa Tepkisi |\n|---|---|\n| Demir çivi | Çekildi |\n| Kâğıt parçası | Çekilmedi |\n| Metal ataç | Çekildi |\n| Plastik kaşık | Çekilmedi |\n\nEren bu verileri analiz ettiğinde, mıknatısın hangi tür eşyaları çektiği sonucuna ulaşabilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece renkli eşyaları çeker"},
+            {"harf": "B", "metin_md": "Demir gibi bazı metal eşyaları çeker"},
+            {"harf": "C", "metin_md": "Her türlü eşyayı çeker"},
+            {"harf": "D", "metin_md": "Sadece hafif eşyaları çeker"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tablodaki verilere göre demir çivi ve metal ataç çekilirken kâğıt ve plastik çekilmemiştir. Bu veriler, mıknatısın demir gibi bazı metal eşyaları çektiği, kâğıt ve plastik gibi maddeleri çekmediği sonucunu destekler."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Eren'in kardeşi, \"Kapağı kimse tutmuyorsa neden kapalı kalıyor?\" diye soruyor. Eren'in gözlem ve araştırmasına dayanarak, kardeşine kanıta dayalı bir açıklama yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kimse tutmuyor. Buzdolabı kapağının kenarında ince, uzun bir mıknatıs şeridi vardır. Bu mıknatıs, dolabın metal gövdesindeki demiri çeker. Bu çekim kuvveti sayesinde kapak gövdeye sıkıca yapışır ve kendiliğinden açık kalmaz.",
+            "kabul_kriterleri": [
+              "Açıklamanın mıknatısın çekme kuvvetine dayanması",
+              "Kapaktaki mıknatısın gövdedeki metali çektiğinin belirtilmesi",
+              "Açıklamanın gözlem/araştırma sonucuna dayalı ve tutarlı olması"
+            ]
+          },
+          "cozum_md": "Bilimsel sorgulamanın bu adımında, gözlemlenen bir durum (kapağın kapalı kalması) kanıta dayalı biçimde açıklanır. Kabul edilebilir cevap, kapaktaki mıknatısın gövdedeki metali çekme kuvvetinden bahseder ve bu kuvvetin kapağı kapalı tuttuğunu belirtir."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "e",
+          "puan": 5,
+          "govde_md": "Eren, mıknatısların kullanım alanlarıyla ilgili yaptığı araştırmayı sınıf arkadaşlarıyla paylaşmak istiyor. Aşağıdakilerden hangisi araştırma sonuçlarını paylaşırken izlemesi EN uygun olan yoldur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece ulaştığı sonucu söyleyip hangi verilere dayandığını anlatmamak"},
+            {"harf": "B", "metin_md": "Topladığı verileri, gözlemlerini ve ulaştığı sonucu açık ve anlaşılır biçimde arkadaşlarına anlatmak"},
+            {"harf": "C", "metin_md": "Araştırmasını kimseyle paylaşmamak"},
+            {"harf": "D", "metin_md": "Arkadaşlarının sorularını dinlemeden konuşmayı bitirmek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bir araştırmanın değerlendirilip paylaşılması; toplanan verilerin, gözlemlerin ve ulaşılan sonucun açık biçimde aktarılmasını gerektirir. A, C ve D seçenekleri paylaşımı eksik veya etkisiz bırakır."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Afetleri Tanıyalım",
+    "kazanim": {
+      "kod": "HB.1.5.3",
+      "ad": "Afet türlerini tanıyabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "5. ÖĞRENME ALANI: DOĞA VE ÇEVRE",
+      "surec_bilesenleri": {
+        "a": "Afet türlerinin adlarını tanır (deprem, sel, yangın, fırtına).",
+        "b": "Afet türlerini birbirinden ayırt eder.",
+        "c": "Bir durum tarifinden hangi afet türü olduğunu belirler."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "1. sınıf Hayat Bilgisi 'Doğa ve Çevre' öğrenme alanı için web araması yapıldı (ramazanogretmen.com, mavi okul, egitimdosyalari.com, tymm.meb.gov.tr). 1. sınıf düzeyinde afet türleri olarak deprem, sel, yangın ve fırtına öne çıkıyor; bu yaprak bu dört türle sınırlandırıldı.",
+      "notlar": [
+        "Kazanımın 'aciklama' alanı veri kaynağında null (süreç bileşeni verilmemiş); a/b/c bileşenleri kazanımın 'tanıyabilme' fiiline ve 1. sınıf düzeyine göre üretici tarafından türetildi.",
+        "Kapsam yalnızca afet TÜRLERİNİ tanıma ile sınırlı tutuldu; afetlerden korunma/önlem konusu bu kazanımın kapsamı dışında bırakıldı (ayrı bir konu, aynı ünitede farklı bir kazanım değil ama karışmaması için bilinçli sınır).",
+        "Crosscheck notu (orta önem): 'fırtına'nın 1. sınıf müfredatında afet türü olarak işlendiği web aramasında dolaylı doğrulandı (net ders kitabı sayfası bulunamadı); deprem/sel/yangın üçlüsü kadar kesin kaynaklı değil. İçerik bilimsel olarak doğru ve kazanım kapsamına uygun olduğu için değiştirilmedi, insan kontrolünde önceliklendirilsin diye not düşüldü.",
+        "Crosscheck K5 düzeltmesi uygulandı: s3'teki olumsuz soru kökü 'değildir' kalın yazıya çevrildi (pedagoji.md kuralı)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Afet adlarını doğru açıklamalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Deprem"},
+            {"no": 2, "metin_md": "Sel"},
+            {"no": 3, "metin_md": "Yangın"},
+            {"no": 4, "metin_md": "Fırtına"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yerin aniden sarsılmasıdır."},
+            {"harf": "B", "metin_md": "Çok yağmur yağınca suların taşmasıdır."},
+            {"harf": "C", "metin_md": "Ateşin kontrolden çıkıp yayılmasıdır."},
+            {"harf": "D", "metin_md": "Çok güçlü esen rüzgârdır."},
+            {"harf": "E", "metin_md": "Havanın çok sıcak olmasıdır."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Deprem, yerin sarsılmasıdır. 2-B: Sel, çok yağmur yağınca suların taşmasıdır. 3-C: Yangın, ateşin yayılmasıdır. 4-D: Fırtına, çok güçlü rüzgârdır. E seçeneği (sıcak hava) bir afet tanımı olmadığı için çeldiricidir, eşleşmez."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Kutudaki kelimelerle cümleleri tamamlayınız.\n\n1. Yerin aniden sarsılmasına ____(1)____ denir.\n2. Ormanda başlayan ateş büyürse buna ____(2)____ denir.\n3. Çok yağmur yağınca suların taşmasına ____(3)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["deprem", "yangın", "sel", "fırtına"],
+          "cevap": {"1": "deprem", "2": "yangın", "3": "sel"},
+          "cozum_md": "1. deprem — yerin sarsılması depremin tanımıdır. 2. yangın — ateşin yayılması yangındır. 3. sel — suların taşması seldir. 'fırtına' bu cümlelerin hiçbirine uymadığı için kullanılmaz, kelime havuzunda çeldirici olarak kalır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi bir afet türü **değildir**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Deprem"},
+            {"harf": "B", "metin_md": "Top oynamak"},
+            {"harf": "C", "metin_md": "Sel"},
+            {"harf": "D", "metin_md": "Yangın"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Deprem, sel ve yangın birer afet türüdür; insanlara ve çevreye zarar verebilir. Top oynamak bir afet değil, günlük bir oyun etkinliğidir. Doğru cevap B."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Deprem, yerin sarsılmasıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Yangın, suyun çok yağmasıdır.", "cevap": false, "gerekce_md": "Yangın, ateşin kontrolden çıkıp yayılmasıdır. Suyun çok yağması sel afetiyle ilgilidir."},
+            {"no": 3, "metin_md": "Fırtına, çok güçlü esen rüzgârdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Sel ile deprem aynı afettir.", "cevap": false, "gerekce_md": "Sel ve deprem farklı afetlerdir. Sel, suların taşmasıdır; deprem, yerin sarsılmasıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Doğru — deprem tanımı budur. 2. Yanlış — yangın ateşle ilgilidir, su ile değil. 3. Doğru — fırtına tanımı budur. 4. Yanlış — sel ve deprem birbirinden farklı afetlerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir gün çok yağmur yağdı. Sokaktaki sular yükseldi ve evlerin içine girmeye başladı. Bu durum hangi afettir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Deprem"},
+            {"harf": "B", "metin_md": "Sel"},
+            {"harf": "C", "metin_md": "Yangın"},
+            {"harf": "D", "metin_md": "Fırtına"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Anlatılan durumda çok yağmur yağması ve suların taşıp evlere girmesi anlatılıyor. Bu, sel afetinin tarifidir. Doğru cevap B."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruyu çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Sence yaşadığın yerde en çok hangi afet görülebilir? Adını yaz ve nasıl anladığını kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: Yaşadığım yerde en çok deprem olabilir. Çünkü deprem yerin sarsılmasıdır ve bazen haberlerde deprem olduğunu duyuyorum.",
+            "kabul_kriterleri": [
+              "Öğrencinin bir afet türünün adını doğru yazması (deprem, sel, yangın veya fırtına)",
+              "Seçtiği afeti neden düşündüğüne dair basit, kısa bir açıklama yapması"
+            ]
+          },
+          "cozum_md": "Bu soruda tek bir doğru cevap yoktur; öğrenci bölgesine uygun bir afet türü seçip kısa bir gerekçe yazmalıdır. Öğretmen, yazılan afetin gerçek bir afet türü olup olmadığını ve gerekçenin afetin tanımıyla uyumlu olup olmadığını kontrol eder."
+        }
+      ]
+    }
+  ]
+}

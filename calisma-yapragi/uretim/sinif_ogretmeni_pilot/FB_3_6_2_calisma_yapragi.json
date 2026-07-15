@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Elektrikli Araç Gereçleri Güvenle Kullanıyorum",
+    "kazanim": {
+      "kod": "FB.3.6.2",
+      "ad": "Elektrikli araç gereçlerin güvenli kullanımı ile ilgili eleştirel düşünebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "6. ÜNİTE: YAŞAMIMIZI KOLAYLAŞTIRAN ELEKTRİK",
+      "surec_bilesenleri": {
+        "a": "Elektrikli araç gereçlerin güvenli kullanımı ile ilgili verilen bir olay/konu/problem veya durumu sorgular.",
+        "b": "Elektrikli araç gereçlerin kullanımında güvenliğin sağlanabileceğine yönelik akıl yürütür.",
+        "c": "Akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 6. Ünite (Yaşamımızı Kolaylaştıran Elektrik) program sayfası incelendi: kazanımın üç bileşeni (sorgulama, akıl yürütme, yansıtma) doğrulandı. Ayrıca genel web taramasıyla ilkokul düzeyine uygun somut güvenlik kuralları derlendi (ıslak elle prize dokunmama, yıpranmış kablo, çok sayıda aletin aynı prize takılması, elektrikli aletin suya yakın kullanılmaması). Bu kazanım fiili 'eleştirel düşünebilme' olduğu için sorular ağırlıklı olarak senaryo/akıl yürütme temelli kurgulandı; ezber bilgi sorusu kullanılmadı.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki doğru/yanlış ve eşleştirme sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Kullanmadığın elektrikli aletin fişini prizden çekmek güvenli bir davranıştır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Islak elle elektrik düğmesine veya prize dokunmak güvenlidir.", "cevap": false, "gerekce_md": "Su elektriği kolayca iletir; ıslak elle prize dokunmak elektrik çarpması riskini artırır."},
+            {"no": 3, "metin_md": "Kablosunun dış kısmı soyulmuş (açıkta tel görünen) bir aleti fark edince büyüklere haber vermek doğru bir davranıştır.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Aynı prize aynı anda çok sayıda elektrikli alet takmak güvenlidir.", "cevap": false, "gerekce_md": "Prize aşırı sayıda alet takmak prizin aşırı ısınmasına, kısa devreye ve yangına yol açabilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: Kullanılmayan aletin fişini prizde bırakmak gereksiz risk oluşturur; çekmek güvenliği artırır. 2-Yanlış: Su elektriği iletir, ıslak elle prize dokunmak elektrik çarpmasına yol açabilir. 3-Doğru: Yıpranmış/açık kablolu bir alet kullanılmadan önce mutlaka bir büyüğe haber verilmelidir. 4-Yanlış: Prize çok fazla alet takmak aşırı yüklenmeye, ısınmaya ve yangına neden olabilir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Soldaki riskli durumu, sağda bu durumun yol açabileceği en olası tehlikeyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Islak elle prize dokunmak"},
+            {"no": 2, "metin_md": "Kablosu yıpranmış bir aleti kullanmaya devam etmek"},
+            {"no": 3, "metin_md": "Aynı prize aynı anda çok fazla alet takmak"},
+            {"no": 4, "metin_md": "Elektrikli bir aleti banyoda, suya yakın kullanmak"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Prizin aşırı ısınması ve yangın çıkması"},
+            {"harf": "B", "metin_md": "Elektrik çarpması"},
+            {"harf": "C", "metin_md": "Açıkta kalan telden elektrik çarpması"},
+            {"harf": "D", "metin_md": "Aletin suyla teması sonucu elektrik çarpması"},
+            {"harf": "E", "metin_md": "Elektrik faturasının artması"},
+            {"harf": "F", "metin_md": "Aletin renginin solması"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+          "cozum_md": "1-B: Islak el, elektriği kolay ilettiği için doğrudan elektrik çarpmasına yol açar. 2-C: Kablonun açıkta kalan teline dokunmak elektrik çarpmasına neden olur. 3-A: Aynı prize çok fazla alet takmak aşırı yüklenmeye, ısınmaya ve yangına yol açar. 4-D: Suya yakın kullanılan elektrikli alet, su ile teması sonucu elektrik çarpmasına neden olabilir. E ve F seçenekleri bu dört durumun doğrudan sonucu olmadığından çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Elif, evde kullanılmadığı zamanlarda televizyonun fişini prizde bırakıyor. Kardeşi Can ise televizyonu kullanmadıkları zaman fişini prizden çekiyor. Bu durumla ilgili en doğru değerlendirme aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Elif'in davranışı daha güvenlidir çünkü fişi tekrar takmak zaman kaybettirir."},
+            {"harf": "B", "metin_md": "Can'ın davranışı daha güvenlidir çünkü kullanılmayan aletin fişini prizde bırakmak gereksiz bir risk oluşturur."},
+            {"harf": "C", "metin_md": "İkisinin davranışı da aynı derecede güvenlidir; fişin prizde olup olmaması güvenliği etkilemez."},
+            {"harf": "D", "metin_md": "Elif'in davranışı daha güvenlidir çünkü televizyon zaten kapalı durumdadır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Bir alet kapalı olsa bile fişi prizde takılıyken elektrik akımına açık kalır; bu, gereksiz bir risk oluşturur. Kullanılmayan aletin fişini prizden çekmek güvenliği artırır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Evinde, dış kısmı soyulmuş (açıkta tel görünen) bir saç kurutma makinesi fark ettiğinde izlenmesi gereken adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Alet tamir edilene veya değiştirilene kadar kullanılmaz.",
+            "Kablonun yıpranmış/açıkta olduğu fark edilir.",
+            "Durum bir büyüğe haber verilir.",
+            "Alet kullanılmadan önce fişi prizden çekilir veya hiç takılmaz."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 2, 0]},
+          "cozum_md": "Doğru sıra: önce kablonun yıpranmış olduğu fark edilir; sonra alet kullanılmadan fişi çekilir veya hiç takılmaz; ardından durum bir büyüğe haber verilir; son olarak alet tamir edilene veya değiştirilene kadar kullanılmaz. Tehlikeyi fark etmeden önlem alınamayacağı, önlem almadan da büyüğe doğru bilgi aktarılamayacağı için bu sıra izlenir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Elektrikli aletler neden ıslak elle veya ıslak zeminde kullanılmamalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Su, elektriği kolayca iletir ve elektrik çarpması riskini artırır."},
+            {"harf": "B", "metin_md": "Islak eller aletin daha çabuk kirlenmesine neden olur."},
+            {"harf": "C", "metin_md": "Su, elektrik faturasının artmasına yol açar."},
+            {"harf": "D", "metin_md": "Islak zeminde durmak aletin ısınmasını engeller."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Su elektriği iyi ilettiği için ıslak el veya ıslak zemin, vücuttan elektrik akımının geçmesini kolaylaştırır ve elektrik çarpması riskini artırır. Diğer seçenekler elektrik güvenliğiyle ilgili gerçek bir neden değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Kardeşin, elleri ıslakken mutfaktaki prize fişi takmaya çalışıyor. 1) Bu durumda ne gibi bir tehlike olabileceğini sorgulayarak yaz. 2) Kardeşinin güvenli davranabilmesi için ne yapması gerektiğini akıl yürüterek açıkla. 3) Bu olaydan çıkardığın dersi (çıkarımını) birkaç cümleyle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Islak eller elektriği iyi ilettiği için kardeşim elektrik çarpabilir, bu tehlikeli bir durumdur.\n2) Fişi takmadan önce ellerini kurulaması, ıslakken elektrikli aletlere ya da prizlere dokunmaması gerekir.\n3) Bu olaydan çıkardığım ders: Elektrikle ilgili bir şey yapmadan önce ellerimin kuru olup olmadığına dikkat etmeliyim, çünkü küçük bir dikkatsizlik büyük bir tehlikeye yol açabilir.",
+            "kabul_kriterleri": ["Su/ıslaklık ile elektrik çarpması riskini ilişkilendirmesi", "Güvenli davranış önerisi sunması (elleri kurulama, prize dokunmama, büyüğe haber verme vb.)", "Kişisel bir çıkarım/ders cümlesi yazması"]
+          },
+          "cozum_md": "Örnek cevapta olduğu gibi, öğrenci ıslak elin elektrik çarpması riskini artırdığını fark edip (sorgulama), güvenli bir davranış önerip (akıl yürütme) ve olaydan kişisel bir ders çıkarıp (yansıtma) yazmışsa doğru kabul edilir; birebir aynı cümleler aranmaz."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Kendi evinden elektrik güvenliğiyle ilgili gözlemlediğin bir durumu düşün (güvenli ya da riskli olabilir). Bu durumu kısaca anlat, neden güvenli ya da riskli olduğunu akıl yürüterek açıkla ve bu konuda kendine bir kural/öneri yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Gözlemlediğim durum: Evimizde ütü kullanıldıktan sonra fişi hemen prizden çekiliyor.\nNeden güvenli: Kullanılmayan ütünün fişi prizde kalırsa yanlışlıkla dokunulup elektrik çarpması ya da aşırı ısınma riski olabilir; fişi çekmek bu riski ortadan kaldırır.\nKendime kuralım: Bir elektrikli aleti kullanmayı bitirince fişini hemen prizden çekeceğim.",
+            "kabul_kriterleri": ["Gerçekçi/olası bir ev durumu tanımlaması", "Güvenli veya riskli olma nedenini akıl yürüterek açıklaması", "Kişisel bir kural veya öneri üretmesi"]
+          },
+          "cozum_md": "Öğrenci kendi evinden gerçekçi bir örnek verip bu örneğin güvenli ya da riskli olma nedenini akıl yürüterek açıklamış ve kişisel bir kural/öneri yazmışsa doğru kabul edilir; belirli bir örnek zorunlu değildir."
+        }
+      ]
+    }
+  ]
+}

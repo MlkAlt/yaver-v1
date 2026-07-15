@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Yaşam Alanlarını Araştırıyorum",
+    "kazanim": {
+      "kod": "FB.3.8.3",
+      "ad": "Yaşam alanlarının korunması için yapılacakları sorgulayabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "8. ÜNİTE: CANLILARIN YAŞAM ALANLARINA YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Merak ettiği konuyu tanımlar.",
+        "b": "İlgili konu hakkında sorular sorar.",
+        "c": "İlgili konu hakkında bilgi toplar.",
+        "ç": "Toplanan bilgilerin doğruluğunu değerlendirir.",
+        "d": "Toplanan bilgiler üzerinde çıkarım yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 8. Ünite (Canlıların Yaşam Alanlarına Yolculuk) resmi müfredat sayfası incelendi; kazanımın 5 aşamalı süreç bileşenleri (merak konusu tanımlama, soru oluşturma, bilgi toplama, doğruluk değerlendirme, çıkarım yapma) doğrulandı ve öğretim önerileriyle (görsel inceleme, araştırma, sınıf tartışması, biyoçeşitlilik/nesli tükenen türler bağlamı) uyumlu bir senaryo (gölette azalan kurbağa sayısı) kuruldu.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, bilimsel araştırma sürecini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ayşe, evlerinin yakınındaki gölette bu yıl kurbağa sesi duymadığını fark ediyor ve bu durumu merak ediyor. Ayşe'nin bilimsel bir araştırmaya başlarken belirlediği **merak konusu** aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Gölette artık kurbağa sesi duyulmuyor, neden olmuş olabilir?"},
+            {"harf": "B", "metin_md": "Kurbağalar çok gürültücü hayvanlardır."},
+            {"harf": "C", "metin_md": "Ayşe gölete gitmeyi çok sever."},
+            {"harf": "D", "metin_md": "Gölün suyu yeşil renklidir."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Merak konusu, araştırılmak istenen ve cevabı henüz bilinmeyen bir durumdur. **A** seçeneği 'neden olmuş olabilir?' sorusuyla araştırılabilir bir merak konusu tanımlar; **B** bir görüş, **C** kişisel bir tercih, **D** ise basit bir gözlem cümlesidir, araştırılacak bir merak konusu değildir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerin, **yaşam alanlarının korunmasıyla ilgili iyi bir araştırma sorusu** olup olmadığını değerlendiriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "'Kurbağalar neden azaldı?' araştırılabilir bir sorudur.", "cevap": true, "gerekce_md": "Gözlem ve araştırmayla cevaplanabilecek açık uçlu bir sorudur."},
+            {"no": 2, "metin_md": "'Kurbağalar sevimli midir?' bilimsel bir araştırma sorusudur.", "cevap": false, "gerekce_md": "Bu bir kişisel görüş sorusudur; araştırmayla ölçülebilir bir bilgi sunmaz."},
+            {"no": 3, "metin_md": "'Gölette hangi bitkiler var, bunlar kurbağalara nasıl yardımcı olur?' araştırılabilir bir sorudur.", "cevap": true, "gerekce_md": "İnceleme ve gözlemle cevaplanabilir, yaşam alanıyla ilgili bilgi verir."},
+            {"no": 4, "metin_md": "'Kurbağa mı yoksa kaplumbağa mı daha hızlı koşar?' yaşam alanının korunmasıyla ilgili bir araştırma sorusudur.", "cevap": false, "gerekce_md": "Konuyla (yaşam alanının korunması) ilgisi yoktur, farklı bir konudur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "İyi bir araştırma sorusu; kişisel görüş sormaz, konuyla ilgilidir ve gözlem/araştırmayla cevaplanabilir. 1 ve 3 bu ölçütlere uyar; 2 kişisel görüş sorusu, 4 ise konu dışıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, bilgi toplama ve bilgiyi değerlendirme adımlarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Zeynep, bahçedeki kelebek sayısının geçen yıla göre azaldığını fark etti. Aşağıdaki araştırma sorusunu tamamlayınız: '____(1)____ kelebek sayısı azaldı? Bu azalma bahçedeki çiçekleri ____(2)____ etkiler? Kelebekleri korumak için ____(3)____ yapılabilir?'",
+          "gorsel": null,
+          "kelime_havuzu": ["Neden", "nasıl", "neler", "hangi renk", "kaç kilo"],
+          "cevap": {"1": "Neden", "2": "nasıl", "3": "neler"},
+          "cozum_md": "İyi bir araştırma sorusu 'neden, nasıl, neler' gibi soru kelimeleriyle kurulur; bu kelimeler gözlem ve araştırmayla cevaplanabilecek sorular oluşturmayı sağlar. 'Hangi renk' ve 'kaç kilo' bu bağlamla ilgisiz çeldiricilerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir araştırma yaparken bilgi toplamanın farklı yolları vardır. Aşağıdaki tabloyu, verilen örneklere veya yollara uygun şekilde doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Bilgi Toplama Yolu", "Örnek"],
+            "satirlar": [
+              ["Gözlem yapma", "__?__"],
+              ["__?__", "Bir öğretmenle veya uzmanla konuşup sormak"],
+              ["Kitap veya güvenilir bir internet sitesinden okuma", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Gölete gidip kurbağaları ve suyu dikkatle izlemek",
+            "r1c0": "Görüşme yapma (bir uzmana sormak)",
+            "r2c1": "Yaşam alanları hakkında yazılmış bir kitaptan veya EBA gibi güvenilir bir siteden bilgi okumak"
+          },
+          "cozum_md": "Bilgi toplamanın başlıca yolları: gözlem yapma (doğrudan izleme), görüşme yapma (uzmana/bilen kişiye sorma) ve okuma (kitap, güvenilir internet kaynağı). Her yol farklı bir örnekle eşleşir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Can, gölette kurbağa sayısının neden azaldığını araştırıyor. İki farklı bilgiye ulaşıyor:\n\n1) Bir çevre bilimcinin yazdığı kitapta, göldeki kirliliğin kurbağaları etkilediği yazıyor.\n2) Bir arkadaşı, 'komşum öyle duymuş' diyerek kurbağaların büyücüler tarafından götürüldüğünü söylüyor.\n\nCan'ın araştırmasında hangi bilgiye güvenmesi daha doğru olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşının duyduğu söylenti, çünkü arkadaşı ona yakın bir kişidir."},
+            {"harf": "B", "metin_md": "Çevre bilimcinin kitabındaki bilgi, çünkü uzman bir kaynaktan ve gözleme dayalıdır."},
+            {"harf": "C", "metin_md": "İkisi de aynı derecede güvenilirdir."},
+            {"harf": "D", "metin_md": "Hiçbiri; Can kendi hayal gücünü kullanmalıdır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bilginin doğruluğunu değerlendirirken kaynağın uzmanlığına ve gözlem/kanıta dayanıp dayanmadığına bakılır. Söylenti ('öyle duymuş') kanıta dayanmadığı için güvenilir değildir; uzman bir kaynağın gözleme dayalı bilgisi daha güvenilirdir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, topladığınız bilgileri değerlendirerek ve çıkarım yaparak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Bir araştırmacı, 'ormanlardaki ağaç sayısı azalırsa kuşlar da azalır' diyor ve bunu 10 yıllık gözlem verileriyle destekliyor. Bir çizgi film karakteri ise 'ormanı hayvanlar sihirle korur, insanların yapacağı bir şey yok' diyor. Bu iki bilgiden hangisinin daha güvenilir olduğunu, nedenini de belirterek açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Araştırmacının bilgisi daha güvenilirdir çünkü 10 yıllık gerçek gözlem verilerine dayanmaktadır ve konusunda uzman biri tarafından söylenmiştir. Çizgi film karakterinin sözü hayal ürünüdür, gerçek bir kanıta dayanmaz ve yaşam alanlarını korumak için insanların sorumluluğunu göz ardı eder.",
+            "kabul_kriterleri": [
+              "Araştırmacının bilgisini güvenilir bulması",
+              "Gerekçe olarak veri/kanıta veya uzmanlığa dayanma gösterilmesi",
+              "Çizgi film bilgisinin neden güvenilir olmadığının belirtilmesi (kanıtsız/hayal ürünü)"
+            ]
+          },
+          "cozum_md": "Güvenilir bilgi; uzman kaynaklardan gelir ve gözlem/kanıta dayanır. Araştırmacının 10 yıllık gözlem verisi bu ölçütü karşılarken, çizgi film karakterinin sözü hayal ürünüdür ve kanıta dayanmaz."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Sınıfça 4 hafta boyunca okul bahçesindeki gölette gözlem yaptınız ve gördüğünüz kurbağa sayısını kaydettiniz:\n\n| Hafta | Görülen Kurbağa Sayısı |\n|---|---|\n| 1. Hafta | 12 |\n| 2. Hafta | 9 |\n| 3. Hafta | 5 |\n| 4. Hafta | 2 |\n\nBu verilere bakarak gölette neler olabileceğine dair bir **çıkarım** yazınız. Çıkarımınızı verilerle destekleyiniz ve yaşam alanını korumak için önerebileceğiniz bir çözüm ekleyiniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Veriler, haftadan haftaya kurbağa sayısının sürekli azaldığını gösteriyor (12'den 2'ye düştü). Bu durum, gölette kurbağaların yaşamasını zorlaştıran bir sorun olduğunu düşündürüyor; su kirliliği, kuraklık ya da yaşam alanının bozulması bu azalmaya neden olmuş olabilir. Bunu önlemek için gölün çevresine çöp atılması engellenebilir, göl düzenli olarak kontrol edilebilir ve çevredeki bitki örtüsü korunabilir.",
+            "kabul_kriterleri": [
+              "Azalan trendi fark edip veriyle ifade etmesi",
+              "Veriye dayalı makul bir neden/çıkarım önermesi",
+              "Yaşam alanını korumaya yönelik bir öneri sunması"
+            ]
+          },
+          "cozum_md": "Tablodaki sayılar sürekli azalıyor (12 → 9 → 5 → 2); bu düzenli azalış, gölde kurbağaların yaşamasını zorlaştıran bir değişiklik olduğuna işaret eder. Çıkarım, bu veri örüntüsüne dayanmalı ve bir koruma önerisiyle desteklenmelidir."
+        }
+      ]
+    }
+  ]
+}

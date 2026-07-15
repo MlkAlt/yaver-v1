@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bilim İnsanlarının Bilime Katkıları",
+    "kazanim": {
+      "kod": "HB.2.6.1",
+      "ad": "Bilim insanlarının bilime katkılarına yönelik verilen kaynaklardan bilgi toplayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Bilim insanlarının bilime katkılarına yönelik bilgileri bulur.",
+        "b": "Bilim insanlarının bilime katkılarına yönelik bilgileri kaydeder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '6. Öğrenme Alanı: Bilim, Teknoloji ve Sanat' ünite sayfası incelendi; ünitede öğrencilerden bilim insanlarının bilime katkılarına dair verilen kaynaklardan (kısa bilgi metinleri, öğrenme galerisi, 5N1K tekniği) bilgi toplayıp poster/sunum gibi bir üründe kaydetmeleri istendiği doğrulandı. Müfredatta örnek olarak geçen Ali Kuşçu (gökbilim/matematik), Marie Curie (radyoaktivite/tıpta kullanım), Thomas Edison (ampul) ve Alexander Graham Bell (telefon) bilgileri farklı kaynaklarla (testimiz.com, morpakampus.com, eokultv.com) çapraz kontrol edilerek doğrulandı.",
+      "notlar": [
+        "'b' süreç bileşeni (bilgi kaydetme) kağıt üzerinde doğrudan gözlemlenemeyen bir davranıştır; s5 (kaydetme yönteminin farkındalığını ölçen çoktan seçmeli) ve s7 (öğrencinin kendi seçtiği bilim insanı hakkında bir bilgi kartı hazırlayıp kaydetmesi) ile temsil edildi. 2. sınıf düzeyi için makul bir vekil ölçüt olarak değerlendirildi.",
+        "validate_worksheet.py alan-yoğun tip sayısı için (eşleştirme + doğru/yanlış + tablo doldurma = 3) uyarı veriyor; ancak render_html.py ile yapılan gerçek sayfa ölçümünde öğrenci kısmı tek A4 sayfaya sığıyor (toplam 2 sayfa, cevap anahtarı ayrı). Bu nedenle uyarı bilinçli olarak kabul edildi, içerik kısaltılmadı.",
+        "Bağımsız crosscheck geçişinde s7 yönergesinin emir kipi yerine gelecek zaman ('hazırlayacaksın') kullandığı fark edildi (K5, orta önem); 'hazırlayınız/yazınız/kaydediniz' şeklinde düzeltildi. Diğer kontroller (K1-K4, K6) sorunsuz geçti; cevap anahtarları bağımsız çözümle uyuştu."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları bilim insanları ve bilime katkılarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bilim insanlarını, bilime kattıkları buluş/katkı ile eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Thomas Edison"},
+            {"no": 2, "metin_md": "Alexander Graham Bell"},
+            {"no": 3, "metin_md": "Marie Curie"},
+            {"no": 4, "metin_md": "Ali Kuşçu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "İnsanların uzak mesafelerden konuşabilmesini sağlayan telefonu geliştirmiştir"},
+            {"harf": "B", "metin_md": "Uzun süre yanabilen ampulü geliştirmiştir"},
+            {"harf": "C", "metin_md": "Işın yayan (radyoaktif) maddeleri incelemiştir"},
+            {"harf": "D", "metin_md": "Yıldızları gözlemleyip gökyüzü haritaları hazırlamıştır"},
+            {"harf": "E", "metin_md": "İlk uçağı yapmıştır"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1) Thomas Edison → B, ampulü geliştirmiştir. 2) Alexander Graham Bell → A, telefonu geliştirmiştir. 3) Marie Curie → C, ışın yayan maddeleri incelemiştir. 4) Ali Kuşçu → D, gökyüzü haritaları hazırlamıştır. 'E' bu soruda kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bilim insanları, yaptıkları çalışmalarla insan hayatını kolaylaştıran buluşlar ortaya koyarlar.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Ali Kuşçu bir müzik bilim insanıdır.", "cevap": false, "gerekce_md": "Ali Kuşçu; gökyüzünü, yıldızları ve sayıları inceleyen bir gökbilim ve matematik insanıdır."},
+            {"no": 3, "metin_md": "Marie Curie'nin çalışmaları, hastaların tedavisinde yani tıp alanında kullanılmıştır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Bilgi toplarken sadece tek bir kaynağa bakmak yeterlidir, başka kaynaklara bakmaya gerek yoktur.", "cevap": false, "gerekce_md": "Doğru ve eksiksiz bilgiye ulaşmak için birden fazla kaynağa bakmak daha faydalıdır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — bilim insanlarının buluşları günlük yaşamı kolaylaştırır. 2) Yanlış — Ali Kuşçu gökbilim ve matematikle ilgilenmiştir. 3) Doğru — Marie Curie'nin çalışmaları tıpta kullanılmıştır. 4) Yanlış — birden fazla kaynağa bakmak bilgiyi daha güvenilir kılar."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki metinleri okuyup istenen bilgileri bulup yazınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki bilgi metnini okuyunuz. Metinden bulduğunuz bilgileri tabloya kaydediniz.\n\n*\"Ali Kuşçu, gökyüzünü ve yıldızları inceleyen bir bilim insanıdır. Yıldızların ve gezegenlerin hareketlerini gözlemleyerek gökyüzü haritaları hazırlamıştır. Aynı zamanda sayılarla da ilgilenmiş, matematik üzerine çalışmalar yapmıştır. Bildiklerini İstanbul'da öğrencilerine öğretmiştir.\"*",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Soru", "Metinden Bulunan Bilgi"],
+            "satirlar": [
+              ["Bilim insanının adı nedir?", "__?__"],
+              ["Hangi alanlarla ilgilenmiştir?", "__?__"],
+              ["Bilime katkısı nedir?", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Ali Kuşçu", "r1c1": "Gökbilim (yıldızlar/gökyüzü) ve matematik", "r2c1": "Yıldızların ve gezegenlerin hareketlerini gözlemleyip gökyüzü haritaları hazırlamıştır."},
+          "cozum_md": "Metinde geçen bilgiler sırayla bulunur: kişinin adı (Ali Kuşçu), ilgilendiği alanlar (gökyüzü/yıldızlar ve matematik) ve katkısı (gökyüzü haritaları hazırlaması) tabloya kaydedilir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki metni okuyup boşlukları uygun kelimelerle doldurunuz.\n\n*\"Marie Curie, ışın yayan (radyoaktif) maddeleri inceleyen bir bilim insanıdır. Yaptığı çalışmalar sayesinde bu maddelerin hastaların tedavisinde, yani ____(1)____ alanında kullanılabileceği ortaya çıkmıştır. Çalışmalarından dolayı bilim dünyasında en önemli ödüllerden biri olan ____(2)____ ödülünü kazanmıştır.\"*",
+          "gorsel": null,
+          "kelime_havuzu": ["tıp", "Nobel", "spor", "müzik"],
+          "cevap": {"1": "tıp", "2": "Nobel"},
+          "cozum_md": "Metinde 'hastaların tedavisi' ifadesi tıp alanına işaret eder; Marie Curie'nin kazandığı önemli ödül Nobel ödülüdür. 'Spor' ve 'müzik' metinle ilgisiz çeldiricilerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir bilim insanı hakkında topladığın bilgileri kaydetmek (kalıcı hâle getirmek) istiyorsun. Aşağıdakilerden hangisi bunun için en uygun yoldur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bilgileri okuduktan hemen sonra düşünmeden unutmak"},
+            {"harf": "B", "metin_md": "Önemli bilgileri kısa notlar hâlinde deftere veya karta yazmak"},
+            {"harf": "C", "metin_md": "Bilgileri kimseyle paylaşmadan sadece aklında tutmaya çalışmak"},
+            {"harf": "D", "metin_md": "Metindeki resimlere bakıp yazıları hiç okumamak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bilgiyi kaydetmenin amacı onu kalıcı hâle getirmektir; bunun en uygun yolu önemli noktaları not almaktır. Diğer seçenekler bilgiyi kaydetmemiş, sadece unutmaya veya eksik öğrenmeye yol açar."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları verilen metinleri ve kendi bilgilerini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki metni okuyunuz:\n\n*\"Alexander Graham Bell, insanların birbirleriyle uzak mesafelerden konuşabilmesini sağlayan telefonu geliştiren bir bilim insanıdır. Yaptığı çalışmalar sayesinde insanlar farklı şehirlerdeki, hatta farklı ülkelerdeki yakınlarıyla sesli olarak konuşabilir hâle gelmiştir.\"*\n\nBu metinden bilim insanının bilime katkısıyla ilgili iki bilgi bulup yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Telefonu geliştirmiştir. 2) İnsanların uzak mesafelerden birbiriyle konuşmasını sağlamıştır.",
+            "kabul_kriterleri": [
+              "Telefonu geliştirdiğini/icat ettiğini belirtmesi",
+              "İnsanların uzak mesafelerden konuşmasını sağladığını, ayrı bir bilgi olarak belirtmesi"
+            ]
+          },
+          "cozum_md": "Metinden iki ayrı bilgi bulunabilir: (1) Bell telefonu geliştirmiştir, (2) bu sayede insanlar uzak mesafelerden sesli konuşabilir hâle gelmiştir. Tek doğru cevap yoktur; bu iki bilgiye eşdeğer başka ifadeler de kabul edilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfın için bir bilim insanı hakkında bilgi kartı hazırlayınız. Sevdiğiniz bir bilim insanının adını yazınız ve onun bilime katkısıyla ilgili bildiğiniz ya da bu sayfada öğrendiğiniz bir bilgiyi kaydediniz.",
+          "gorsel": {"betimleme": "Yazının altında öğrencinin isterse bilim insanının resmini çizebileceği, ince çerçeveli küçük bir kart/kutu bırakılmalı. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Thomas Edison: Uzun süre yanabilen ampulü geliştirmiştir.",
+            "kabul_kriterleri": [
+              "Bir bilim insanının adını belirtmesi",
+              "O bilim insanının bilime katkısıyla ilgili en az bir doğru bilgiyi yazılı olarak kaydetmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin bir bilim insanının adını ve bilime katkısıyla ilgili doğru bir bilgiyi yazılı biçimde kaydetmesi (bilgiyi kalıcı hâle getirmesi) beklenir."
+        }
+      ]
+    }
+  ]
+}

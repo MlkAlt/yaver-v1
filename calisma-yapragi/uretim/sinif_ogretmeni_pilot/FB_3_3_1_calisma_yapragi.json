@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kayaçlar, Madenler ve Mineraller İle İlgili Tümdengelimsel Akıl Yürütüyorum",
+    "kazanim": {
+      "kod": "FB.3.3.1",
+      "ad": "Kayaçlar, madenler ve mineraller ile ilgili tümdengelimsel akıl yürütebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "3. ÜNİTE: YER BİLİMCİLER İŞ BAŞINDA",
+      "surec_bilesenleri": {
+        "a": "Kayaçları, madenleri ve mineralleri belirler.",
+        "b": "Kayaçlar, madenler ve mineraller arasında ilişki kurar.",
+        "c": "Kayaçlar, madenler ve mineraller arasında genelden genele veya genelden özele çıkarım yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 3. Ünite (Yer Bilimciler İş Başında) program sayfası incelendi; sayfada birebir tanım/örnek verilmediği için mineral/kayaç/maden tanımları ve örnekleri (kuvars, granit, mermer, altın, bakır vb.) ilkokul düzeyindeki genel fen kaynaklarıyla (kayaç→mineral yapı taşı, maden→ekonomik değerli kayaç/mineral ilişkisi) doğrulanarak kullanıldı; ünite adı ve süreç bileşenleri kazanım verisiyle birebir eşleştirildi.",
+      "notlar": ["validate_worksheet.py alan-yoğun tip sayısı (eşleştirme+doğru_yanlış+tablo_doldurma=3) için WARN veriyor; ancak render_html.py gerçek ölçümde öğrenci kısmı 1 sayfada kaldığı için (toplam 2 sayfa, cevap anahtarı dahil) bilinçli olarak korundu, içerik kısaltılmadı.", "Bağımsız crosscheck (ayrı geçiş, cevap anahtarına bakmadan kör çözüm) yapıldı: tüm 7 soru bağımsız çözümle uyuştu, K1-K6 kontrollerinde kritik/orta sorun bulunmadı, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve boşluk doldurma sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki kavramları sağdaki doğru tanımlarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Mineral"},
+            {"no": 2, "metin_md": "Kayaç"},
+            {"no": 3, "metin_md": "Maden"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bir veya birden fazla mineralin bir araya gelmesiyle oluşan büyük taş kütlesi."},
+            {"harf": "B", "metin_md": "Doğada kendiliğinden oluşan, belirli bir yapıya sahip cansız katı madde."},
+            {"harf": "C", "metin_md": "Ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da mineral."},
+            {"harf": "D", "metin_md": "Canlıların taşlaşmış kalıntısı."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1-B: Mineral, doğada kendiliğinden oluşan, belirli bir yapıya sahip cansız katı maddedir (ör. kuvars, kalsit). 2-A: Kayaç, bir veya birden fazla mineralin bir araya gelmesiyle oluşan büyük taş kütlesidir (ör. granit, mermer). 3-C: Maden, ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da minerale denir (ör. altın, bakır). D seçeneği fosilin tanımı olduğu için (bu kazanımın konusu değil) çeldiricidir, kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Doğada kendiliğinden oluşan, belirli bir yapıya sahip cansız katı maddelere ____(1)____ denir. Birden fazla ____(1)____'in bir araya gelmesiyle oluşan büyük taş kütlelerine ____(2)____ denir. Ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da minerallere ise ____(3)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["mineral", "kayaç", "maden", "fosil"],
+          "cevap": {"1": "mineral", "2": "kayaç", "3": "maden"},
+          "cozum_md": "(1) mineral — doğada kendiliğinden oluşan, belirli yapıya sahip cansız katı madde. (2) kayaç — birden fazla mineralin bir araya gelmesiyle oluşan büyük taş kütlesi. (3) maden — ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da mineral. 'Fosil' bu cümlelerde kullanılmayan bir çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi mineral, kayaç ve maden arasındaki ilişkiyi doğru açıklar?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kayaçlar minerallerin bir araya gelmesiyle oluşur; ekonomik değeri olan kayaç ya da mineraller maden olarak adlandırılır."},
+            {"harf": "B", "metin_md": "Madenler minerallerden oluşur; kayaçlar ise madenlerin bir araya gelmesiyle oluşur."},
+            {"harf": "C", "metin_md": "Mineral, kayaç ve maden aynı anlama gelen kelimelerdir, aralarında fark yoktur."},
+            {"harf": "D", "metin_md": "Kayaçlar madenlerden oluşur; mineraller ise yalnızca kayaçların ekonomik değeri olan türüdür."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Mineraller bir araya gelerek kayaçları oluşturur; ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da mineraller ise maden olarak adlandırılır. B, C ve D seçenekleri bu üç kavram arasındaki ilişkiyi yanlış kurmaktadır."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Her kayaç aynı zamanda bir madendir.", "cevap": false, "gerekce_md": "Bir kayaç yalnızca ekonomik değeri olduğu ve yer kabuğundan bu amaçla çıkarıldığı zaman maden olarak adlandırılır; her kayaç maden değildir."},
+            {"no": 2, "metin_md": "Mineraller, kayaçların yapı taşlarıdır.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Altın ve bakır, ekonomik değeri olduğu için maden olarak kabul edilir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Bir kayaç yalnızca tek bir mineralden oluşabilir, birden fazla mineral içeremez.", "cevap": false, "gerekce_md": "Kayaçlar bir veya birden fazla mineralin bir araya gelmesiyle oluşabilir; çoğu kayaç birden fazla mineral içerir."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "1-Yanlış: Maden olabilmesi için kayacın ekonomik değere sahip olması gerekir. 2-Doğru: Mineraller kayaçların yapı taşıdır. 3-Doğru: Altın ve bakır ekonomik değeri olan madenlerdir. 4-Yanlış: Kayaçlar bir ya da birden fazla mineralden oluşabilir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda verilen örnekleri mineral, kayaç veya maden olarak sınıflandırıp boş hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Örnek", "Sınıf (Mineral / Kayaç / Maden)"],
+            "satirlar": [
+              ["Granit (birden fazla mineralin bir araya gelmesiyle oluşan taş kütlesi)", "__?__"],
+              ["Kuvars (doğada kendiliğinden oluşan, belirli yapıya sahip katı madde)", "__?__"],
+              ["Bakır (yer kabuğundan çıkarılan, ekonomik değeri olan madde)", "__?__"],
+              ["Mermer (yapı taşı olarak da kullanılan, birden fazla mineralden oluşmuş taş kütlesi)", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Kayaç", "r1c1": "Mineral", "r2c1": "Maden", "r3c1": "Kayaç"},
+          "cozum_md": "Granit ve mermer, birden fazla mineralin bir araya gelmesiyle oluştuğu için kayaçtır. Kuvars, kendiliğinden oluşan belirli yapıya sahip katı madde olduğu için mineraldir. Bakır, ekonomik değeri olduğu için yer kabuğundan çıkarılan bir madendir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Genel kural şudur: \"Ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da minerallere maden denir.\"\n\nAltın, yer kabuğundan çıkarılan ve mücevher yapımında kullanılan değerli bir madde olduğuna göre, yukarıdaki genel kuraldan yola çıkarak altının maden olup olmadığını **nedeniyle birlikte** açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Altın bir madendir. Çünkü genel kural, ekonomik değeri olduğu için yer kabuğundan çıkarılan kayaç ya da minerallerin maden olduğunu söylüyor; altın da ekonomik değeri olan (mücevher yapımında kullanılan) ve yer kabuğundan çıkarılan bir maddedir, bu yüzden kural altın için de geçerlidir.",
+            "kabul_kriterleri": ["Altının maden olduğu sonucuna varması", "Genel kuralı (ekonomik değer + yer kabuğundan çıkarılma) altın örneğine uygulayarak gerekçelendirmesi"]
+          },
+          "cozum_md": "Bu soru genelden özele (tümdengelim) akıl yürütmeyi ölçer: verilen genel kural altın örneğine uygulanır. Altın ekonomik değeri olan ve yer kabuğundan çıkarılan bir madde olduğu için kural onu da kapsar; sonuç olarak altın bir madendir."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Genel kural: \"Bütün kayaçlar, bir veya birden fazla mineralin bir araya gelmesiyle oluşur.\"\n\nBazalt da bir kayaç olduğuna göre, bazalt hakkında hangi çıkarım **kesinlikle** doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bazalt, bir veya birden fazla mineralin bir araya gelmesiyle oluşmuştur."},
+            {"harf": "B", "metin_md": "Bazalt, ekonomik değeri olduğu için mutlaka bir madendir."},
+            {"harf": "C", "metin_md": "Bazalt yalnızca tek bir mineralden oluşabilir, başka türlü oluşamaz."},
+            {"harf": "D", "metin_md": "Bazalt, canlı kalıntılarının taşlaşmasıyla oluşmuş bir fosildir."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Doğru cevap A'dır. Genel kural tüm kayaçların bir ya da birden fazla mineralin bir araya gelmesiyle oluştuğunu söyler; bazalt da bir kayaç olduğuna göre bu kural bazalt için de geçerlidir (genelden özele çıkarım). B seçeneği kuralda geçmeyen bir bilgi ekler (her kayaç maden değildir), C kuralı yanlış daraltır (\"bir veya birden fazla\" derken tek mineralle sınırlamaz), D ise kayaç değil fosil tanımını anlatır."
+        }
+      ]
+    }
+  ]
+}

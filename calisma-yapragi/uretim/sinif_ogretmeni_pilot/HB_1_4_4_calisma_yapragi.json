@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Millî Gün ve Bayramlarımız",
+    "kazanim": {
+      "kod": "HB.1.4.4",
+      "ad": "Millî gün ve bayramlarda yaşadığı duyguları ifade edebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "4. ÖĞRENME ALANI: YAŞADIĞIM YER VE ÜLKEM",
+      "surec_bilesenleri": {
+        "a": "Millî gün ve bayramlarda yaşadığı duyguları ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 4. Öğrenme Alanı ünite sayfası incelendi; kazanımın kapsamı 15 Temmuz Demokrasi ve Millî Birlik Günü, 29 Ekim Cumhuriyet Bayramı, 23 Nisan Ulusal Egemenlik ve Çocuk Bayramı, 19 Mayıs Atatürk'ü Anma Gençlik ve Spor Bayramı, 30 Ağustos Zafer Bayramı olarak doğrulandı; öğretim yaklaşımı (duygu paylaşımı, resim/şiir/poster ürünleri) sorulara yansıtıldı.",
+      "notlar": [
+        "Kazanımın 'aciklama' alanı veri kaynağında NULL — süreç bileşenleri ayrıştırılmamış. Tek bileşen olarak kazanımın 'ad' metni ('Millî gün ve bayramlarda yaşadığı duyguları ifade eder.') kullanıldı; tüm sorular 'a' etiketiyle işaretlendi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları millî bayramlarımızı düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "23 Nisan, Ulusal Egemenlik ve Çocuk Bayramı'dır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Millî bayramlarda evimizin ve okulumuzun önüne bayrağımızı asarız.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Millî bayramlarda üzgün ve mutsuz oluruz.", "cevap": false, "gerekce_md": "Millî bayramlarda gurur, sevinç ve mutluluk gibi güzel duygular yaşarız."},
+            {"no": 4, "metin_md": "19 Mayıs, Atatürk'ü Anma Gençlik ve Spor Bayramı'dır.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "1) Doğru — 23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır. 2) Doğru — millî bayramlarda bayrak asılır. 3) Yanlış — millî bayramlarda gurur ve mutluluk duyarız, üzülmeyiz. 4) Doğru — 19 Mayıs Atatürk'ü Anma Gençlik ve Spor Bayramı'dır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Tarihleri, doğru millî bayramla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "29 Ekim"},
+            {"no": 2, "metin_md": "23 Nisan"},
+            {"no": 3, "metin_md": "19 Mayıs"},
+            {"no": 4, "metin_md": "30 Ağustos"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Zafer Bayramı"},
+            {"harf": "B", "metin_md": "Ulusal Egemenlik ve Çocuk Bayramı"},
+            {"harf": "C", "metin_md": "Cumhuriyet Bayramı"},
+            {"harf": "D", "metin_md": "Atatürk'ü Anma Gençlik ve Spor Bayramı"},
+            {"harf": "E", "metin_md": "Demokrasi ve Millî Birlik Günü"}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "D", "4": "A"},
+          "cozum_md": "29 Ekim → Cumhuriyet Bayramı (C). 23 Nisan → Ulusal Egemenlik ve Çocuk Bayramı (B). 19 Mayıs → Atatürk'ü Anma Gençlik ve Spor Bayramı (D). 30 Ağustos → Zafer Bayramı (A). 'E' seçeneği (15 Temmuz Demokrasi ve Millî Birlik Günü) bu soruda kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları millî bayramlarda yaşadığımız duyguları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "29 Ekim'de ____(1)____ Bayramı'nı kutlarız. Bu günde kalbimizde büyük bir ____(2)____ duygusu hissederiz. Sokaklar bayraklarla süslenir, biz de çok ____(3)____ oluruz.",
+          "gorsel": null,
+          "kelime_havuzu": ["Cumhuriyet", "gurur", "mutlu", "üzüntü", "korku"],
+          "cevap": {"1": "Cumhuriyet", "2": "gurur", "3": "mutlu"},
+          "cozum_md": "29 Ekim, Cumhuriyet Bayramı'dır (1). Millî bayramlarda gurur duyarız (2) ve bu günler bizi mutlu eder (3). 'Üzüntü' ve 'korku' bu duyguları anlatmadığı için kullanılmaz."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'nda çocuklar genellikle nasıl hissederler?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mutlu ve gururlu"},
+            {"harf": "B", "metin_md": "Kızgın ve öfkeli"},
+            {"harf": "C", "metin_md": "Korkmuş ve endişeli"},
+            {"harf": "D", "metin_md": "Üzgün ve yalnız"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "23 Nisan çocuklara adanmış bir bayramdır; törenlerde bayrağımızı taşımak, şiir okumak ve kutlama yapmak çocuklarda mutluluk ve gurur duygusu uyandırır. Diğer seçenekler bu bayramın ruhuna uymayan olumsuz duygulardır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi millî bayramlarımızdan biri DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "29 Ekim Cumhuriyet Bayramı"},
+            {"harf": "B", "metin_md": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı"},
+            {"harf": "C", "metin_md": "1 Ocak Yılbaşı"},
+            {"harf": "D", "metin_md": "19 Mayıs Atatürk'ü Anma Gençlik ve Spor Bayramı"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "1 Ocak Yılbaşı bir millî bayram değil, yılın ilk günüdür. 29 Ekim, 23 Nisan ve 19 Mayıs millî bayramlarımızdandır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi duygu ve deneyimlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Katıldığın bir millî bayram töreninde neler hissettin? Bir iki cümleyle anlat. (İstersen o günü aşağıya resmedebilirsin.)",
+          "gorsel": {"betimleme": "Öğrencinin çizim yapabilmesi için sayfanın altında boş, çerçeveli bir kutu bırakılmalı; kutunun içine ipucu olarak bayrak ve tören görseli ima eden ince bir çizgi eskizi konabilir. Görsel yalnızca destekleyicidir, sorunun çözümü için zorunlu değildir.", "zorunlu": false},
+          "cevap": {
+            "ornek_cevap_md": "Okulumuzda 23 Nisan töreninde bayrağımızı görünce çok gururlandım ve mutlu oldum.",
+            "kabul_kriterleri": [
+              "Bir duygu adı kullanmış olması (gurur, mutluluk, heyecan vb.)",
+              "Millî bayramla ilişkili bir durumdan söz etmesi (tören, bayrak, kutlama vb.)"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin en az bir duygu ifadesi kullanması ve bunu bir millî bayram deneyimiyle ilişkilendirmesi beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sence millî bayramlar neden önemlidir? Bir cümleyle yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Millî bayramlar, atalarımızın bize bıraktığı vatanı ve özgürlüğü hatırladığımız için önemlidir.",
+            "kabul_kriterleri": [
+              "Bayramı bir değerle ilişkilendirmesi (vatan sevgisi, özgürlük, birlik vb.)",
+              "Cümlenin anlaşılır ve 1. sınıf düzeyine uygun olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin millî bayramların önemini vatan sevgisi, özgürlük veya birlik gibi bir değerle ilişkilendirmesi yeterlidir; tek geçerli cevap yoktur."
+        }
+      ]
+    }
+  ]
+}

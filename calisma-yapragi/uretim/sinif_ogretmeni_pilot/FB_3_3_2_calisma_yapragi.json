@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Fosil Oluşumu",
+    "kazanim": {
+      "kod": "FB.3.3.2",
+      "ad": "Fosil oluşumu ile ilgili sentez yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "3. ÜNİTE: YER BİLİMCİLER İŞ BAŞINDA",
+      "surec_bilesenleri": {
+        "a": "Fosil oluşumunu gösteren sürecin bütün ve parçalarını belirler.",
+        "b": "Süreci oluşturan aşamalar arasında ilişki kurar.",
+        "c": "Fosillerin oluşum sürecini oluşturan aşamaları uygun sırayla bir bütün hâline getirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr ünite 454 (Fen Bilimleri 3. Sınıf, Yer Bilimciler İş Başında) incelendi: kazanımın kapsamı 'fosil çeşitlerine girmez, yalnızca oluşum süreci' olarak sınırlanmış; temel kavramlar paleontoloji/paleontolog. Fosilleşme aşamaları (ölme, gömülme/örtülme, mineralleşme, taşlaşma) genel bilim kaynaklarından (TÜBİTAK Bilim Genç, Evrim Ağacı) 3. sınıf diline sadeleştirilerek doğrulandı.",
+      "notlar": [
+        "Fosil çeşitleri (bitki fosili, hayvan fosili, iz fosili vb.) kazanım kapsamı dışında bırakıldı; yalnızca oluşum süreci işlendi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözerek fosillerle ilgili temel kavramları hatırlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle doldurunuz.\n\n1. Geçmişte yaşamış canlıların taşlaşmış kalıntılarına ____(1)____ denir.\n2. Fosilleri inceleyen bilim dalına ____(2)____ denir.\n3. Fosilleri inceleyen bilim insanına ____(3)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["fosil", "paleontoloji", "paleontolog", "mineral", "toprak"],
+          "cevap": {"1": "fosil", "2": "paleontoloji", "3": "paleontolog"},
+          "cozum_md": "1. Taşlaşmış canlı kalıntısının adı **fosil**dir.\n2. Fosilleri inceleyen bilim dalı **paleontoloji**dir.\n3. Fosilleri inceleyen bilim insanına **paleontolog** denir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir canlı öldüğü anda hemen fosilleşir.", "cevap": false, "gerekce_md": "Fosilleşme birden fazla aşamadan geçer ve tamamlanması uzun yıllar sürer; ölüm bu sürecin sadece ilk basamağıdır."},
+            {"no": 2, "metin_md": "Fosilleşecek kalıntının üzeri kum veya çamurla örtülmelidir.", "cevap": true, "gerekce_md": "Örtülme, kalıntının havayla temasını keserek çürümeyi yavaşlatır ve fosilleşmeye zemin hazırlar."},
+            {"no": 3, "metin_md": "Fosil oluşurken kalıntının boşluklarını mineraller doldurur.", "cevap": true, "gerekce_md": "Mineralleşme aşamasında sularla taşınan mineraller kalıntının boşluklarına dolarak taşlaşmayı sağlar."},
+            {"no": 4, "metin_md": "Ölen her canlı mutlaka fosilleşir.", "cevap": false, "gerekce_md": "Fosilleşme için hızlı örtülme gibi özel koşullar gerekir; bu koşullar oluşmazsa kalıntı çürüyüp yok olur, fosil oluşmaz."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "İfadelerin gerekçeleri yukarıda her madde için ayrı ayrı verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Fosil oluşum aşamaları arasındaki ilişkileri kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Fosil oluşum sürecinin aşamalarını, o aşamada gerçekleşen olayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Canlının ölmesi"},
+            {"no": 2, "metin_md": "Gömülme"},
+            {"no": 3, "metin_md": "Mineralleşme"},
+            {"no": 4, "metin_md": "Taşlaşma"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kalıntının boşlukları su ile taşınan minerallerle dolar."},
+            {"harf": "B", "metin_md": "Kalıntının üzeri kum, çamur veya toprakla örtülür, havayla teması kesilir."},
+            {"harf": "C", "metin_md": "Fosil oluşum sürecinin ilk basamağıdır; canlı yaşamını yitirir."},
+            {"harf": "D", "metin_md": "Uzun yıllar sonunda kalıntı taşa dönüşür ve fosil ortaya çıkar."},
+            {"harf": "E", "metin_md": "Canlı, yaşadığı ortamı terk edip başka bir bölgeye göç eder."},
+            {"harf": "F", "metin_md": "Canlı üreyerek yavru sayısını artırır."}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "A", "4": "D"},
+          "cozum_md": "1-C: Süreç canlının ölümüyle başlar. 2-B: Ölümden sonra kalıntı örtülerek havayla teması kesilir. 3-A: Örtülen kalıntının boşluklarını mineraller doldurur. 4-D: Uzun süre sonunda kalıntı taşlaşır ve fosil oluşur. E ve F seçenekleri fosil oluşumuyla ilgili değildir, çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümleyi kelime havuzundan uygun kelimelerle tamamlayınız.\n\nCanlı kalıntısı ölümden sonra kum veya çamurla ____(1)____ çünkü bu örtünme, kalıntının havayla temasını keserek çürümesini yavaşlatır; böylece daha sonra ____(2)____ aşamasında mineraller boşlukları doldurabilir ve kalıntı zamanla ____(3)____ dönüşür.",
+          "gorsel": null,
+          "kelime_havuzu": ["örtülmelidir", "mineralleşme", "taşa", "göç etmelidir", "erimeye"],
+          "cevap": {"1": "örtülmelidir", "2": "mineralleşme", "3": "taşa"},
+          "cozum_md": "Örtülme, kalıntının havayla temasını kesip çürümeyi yavaşlatır (1). Bu sayede mineralleşme aşamasında boşluklar mineralle dolar (2). Sonunda kalıntı taşa dönüşerek fosil hâline gelir (3). Aşamalar birbirine bağlıdır; biri gerçekleşmezse sonraki de gerçekleşmez."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir canlı kalıntısının fosilleşme sürecine girebilmesi için aşağıdakilerden hangisinin gerçekleşmesi gerekir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kalıntının uzun süre havayla temas hâlinde kalması"},
+            {"harf": "B", "metin_md": "Kalıntının kısa sürede kum veya çamurla örtülmesi"},
+            {"harf": "C", "metin_md": "Kalıntının doğrudan güneş ışığına maruz kalması"},
+            {"harf": "D", "metin_md": "Kalıntının başka canlılar tarafından tüketilmesi"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kalıntının kısa sürede kum veya çamurla örtülmesi, havayla temasını keserek çürümeyi yavaşlatır; bu da fosilleşme sürecinin devam etmesini sağlar. A, C ve D seçenekleri kalıntının bozulmasını hızlandırır, fosilleşmeyi engeller."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak fosil oluşum sürecini bir bütün olarak kurunuz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıda karışık olarak verilen olayları, fosil oluşum sürecine uygun sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Kalıntının boşlukları minerallerle dolar.",
+            "Canlı ölür.",
+            "Kalıntı taşlaşır, fosil oluşur.",
+            "Kalıntının üzeri kum veya çamurla örtülür."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Doğru sıra: Canlı ölür → Kalıntının üzeri kum veya çamurla örtülür → Kalıntının boşlukları minerallerle dolar → Kalıntı taşlaşır, fosil oluşur. Süreç ölümle başlar, örtülme çürümeyi yavaşlatır, mineraller boşlukları doldurur, en son taşlaşma gerçekleşir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir canlı öldükten sonra kalıntısının üzeri kum veya çamurla hemen örtülmezse fosil oluşum sürecinde neler değişir? Aşamalar arasındaki ilişkiyi kullanarak açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kalıntı hemen örtülmezse havayla teması devam eder ve çürüme hızlanır. Kalıntı bozulup dağıldığı için mineraller boşlukları dolduramaz; mineralleşme ve taşlaşma aşamaları gerçekleşemez, fosil oluşmaz.",
+            "kabul_kriterleri": [
+              "Örtülmenin gecikmesinin havayla temas ve çürümeyi artıracağını belirtmesi",
+              "Bunun sonucunda mineralleşme/taşlaşma aşamalarının gerçekleşemeyeceğini, dolayısıyla fosilin oluşamayacağını aşamalar arasında ilişki kurarak açıklaması"
+            ]
+          },
+          "cozum_md": "Aşamalar birbirine bağlıdır: örtülme gerçekleşmezse çürüme durmaz, kalıntı bozulur; bu da sonraki mineralleşme ve taşlaşma aşamalarının gerçekleşmesini engeller. Süreç bir bütün olduğu için bir aşamanın aksaması sonraki aşamaları da etkiler."
+        }
+      ]
+    }
+  ]
+}

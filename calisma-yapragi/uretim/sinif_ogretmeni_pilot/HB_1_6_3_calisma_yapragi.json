@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sanatla İlgili Merak Ettiklerimi Sorabiliyorum",
+    "kazanim": {
+      "kod": "HB.1.6.3",
+      "ad": "Sanatla ilgili merak ettiklerini sorabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Farklı sanat dallarını (resim, müzik, tiyatro, ebru vb.) tanır ve ayırt eder.",
+        "b": "Sunulan bir sanat eseri hakkında merak ettiği soruyu sözlü ya da yazılı olarak ifade eder.",
+        "c": "Sorduğu sorunun sunulan sanat eseriyle ilgili olup olmadığını ayırt eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr resmi kazanım künyesi incelendi: kazanım açıklaması 'Sunulan sanatsal bir konu hakkında merak ettiği soruları sorar.', ilişkili süreç bileşen kodları SBAB2 (Kanıta Dayalı Sorgulama ve Araştırma), E1.1 (Merak eğilimi), E3.8 (Soru Sorma eğilimi), D7 (Estetik değeri); öğretim sürecinde müzik, resim, tiyatro, ebru gibi farklı sanat dallarından örnekler sunulup öğrencinin soru sorması istendiği, sonrasında STEAM etkinlikleriyle ürün oluşturulup öğrenme günlüğüne soru-cevap yazıldığı doğrulandı. Ders kitabına doğrudan erişilemedi.",
+      "notlar": [
+        "Kazanım verisinde (data/sinif_ogretmeni_v2.json) aciklama alanı boş (a,b,c maddeleri yok). Yukarıdaki surec_bilesenleri, TYMM kazanım künyesindeki süreç bileşen kodları (SBAB2, E1.1, E3.8, D7) ve pedagojik çıkarımla oluşturulmuştur; ders kitabından birebir alınmamıştır.",
+        "Bu kazanım bir sorgulama/soru sorma BECERİSİdir, içerik bilgisi değildir; bu yüzden sorular klasik 'bilgiyi hatırla' yerine 'merak sorusu üretme ve merak sorusunu ayırt etme' davranışına odaklanır.",
+        "Crosscheck (bağımsız 2. geçiş) düzeltmesi: s3 ilk sürümde 'b' (soru ifade etme) olarak etiketlenmişti; ancak soru öğrenciye kendi sorusunu ürettirmiyor, verilen seçenekler arasından uygun olanı seçtiriyor — bu davranış 'c' (sorunun sanat eseriyle ilgili olup olmadığını ayırt etme) bileşenine daha uygun olduğu için etiket 'c' olarak düzeltildi. Diğer kontroller (K2-K6) temiz: cevap anahtarları bağımsız çözümle uyuştu, seviyeye uygun dil, tek doğru cevaplı seçenekler, şema/render sorunsuz."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sanat dallarını yapılışlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Resim"},
+            {"no": 2, "metin_md": "Müzik"},
+            {"no": 3, "metin_md": "Tiyatro"},
+            {"no": 4, "metin_md": "Ebru"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kâğıda ya da tuvale fırça ve boya ile şekiller çizilir."},
+            {"harf": "B", "metin_md": "Seslerle ve çalgılarla ritim oluşturulur."},
+            {"harf": "C", "metin_md": "Sahnede oyuncular bir olayı canlandırır."},
+            {"harf": "D", "metin_md": "Su üstünde boyalarla desen yapılıp kâğıda aktarılır."},
+            {"harf": "E", "metin_md": "Kitap sessizce okunur."}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Resim, fırça ve boyayla kâğıda/tuvale çizilir (A). Müzik, seslerle ve çalgılarla yapılır (B). Tiyatroda oyuncular sahnede bir olayı canlandırır (C). Ebru, su üstünde boyayla yapılan bir sanattır (D). 'Kitap okuma' (E) bir sanat dalı yapılışı değildir, çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sanat ile ilgili ifadeleri değerlendiriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Heykel de bir sanat eseridir.", "cevap": true, "gerekce_md": "Heykel, resim ve müzik gibi bir sanat dalıdır."},
+            {"no": 2, "metin_md": "Sanat sadece resim yapmaktır.", "cevap": false, "gerekce_md": "Müzik, tiyatro, ebru gibi birçok farklı sanat dalı vardır."},
+            {"no": 3, "metin_md": "Bir sanat eserine bakarken aklımıza gelen soruları sorabiliriz.", "cevap": true, "gerekce_md": "Merak ettiğimiz şeyleri sormak, sanat eserini daha iyi anlamamızı sağlar."},
+            {"no": 4, "metin_md": "Sanat eserleri hakkında soru sormak yanlış bir davranıştır.", "cevap": false, "gerekce_md": "Merak ettiğimizi sormak öğrenmemize yardımcı olur, yanlış değildir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1. Heykel bir sanat dalıdır → Doğru. 2. Sanat sadece resim değildir, birçok dalı vardır → Yanlış. 3. Merak sorusu sormak sanatı anlamayı kolaylaştırır → Doğru. 4. Soru sormak yanlış değil, öğrenmeyi sağlayan doğru bir davranıştır → Yanlış."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Öğretmenin sınıfa bir tiyatro afişi gösterdiğini düşün. Afişte kostümlü çocuklar bir sahnede resmedilmiş. Bu afişi gördüğünde sormak için en uygun soru hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bu oyunda çocuklar ne anlatıyor olabilir?"},
+            {"harf": "B", "metin_md": "Bugün hava nasıl?"},
+            {"harf": "C", "metin_md": "Öğle yemeğinde ne yiyeceğiz?"},
+            {"harf": "D", "metin_md": "Sınıfımızda kaç kişi var?"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği, afişteki tiyatro eseriyle ilgili bir merak sorusudur. B, C ve D seçenekleri sanat eseriyle ilgisizdir, günlük hayatla ilgili sorulardır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir sanat eseri hakkında soru sorma adımlarını doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Sorunu aklında ya da kâğıda yaz",
+            "Sanat eserine dikkatle bak",
+            "Merak ettiğin bir şey olup olmadığını düşün",
+            "Sorunu öğretmenine ya da arkadaşına sor"
+          ],
+          "cevap": {"dogru_sira": [1, 2, 0, 3]},
+          "cozum_md": "Önce sanat eserine dikkatle bakılır. Sonra merak edilen bir şey olup olmadığı düşünülür. Ardından soru kâğıda ya da akla yazılır. En son bu soru öğretmene ya da arkadaşa sorulur. Doğru sıra: bak, düşün, yaz, sor."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfa bir ebru sanatı örneği gösteriliyor: Suyun üstünde boyalarla yapılmış renkli bir desen. Aşağıdaki sorulardan hangisi bu ebru eseriyle İLGİLİ DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bu desende hangi renkler kullanılmış?"},
+            {"harf": "B", "metin_md": "Ebru yapılırken su nasıl kullanılıyor?"},
+            {"harf": "C", "metin_md": "Bu deseni yapan sanatçı ne kadar zaman harcamış olabilir?"},
+            {"harf": "D", "metin_md": "Yarın teneffüste ne oynayacağız?"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "A, B ve C seçenekleri ebru eseriyle ilgili merak sorularıdır. D seçeneği ebru eseriyle ilgisizdir, teneffüs planıyla ilgilidir; bu yüzden doğru cevap D'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Öğretmenin sana şu resmi anlattığını düşün: Yeşil bir çayırda, kırmızı çiçekler arasında uçurtma uçuran iki çocuk var. Gökyüzü mavi, güneş parlak parlıyor. Bu resimle ilgili merak ettiğin 2 tane soru yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Çocuklar uçurtmayı hangi renklere boyamış olabilir? 2) Bu resmi çizen ressam bu resmi nerede görüp çizmiş olabilir?",
+            "kabul_kriterleri": ["En az 2 farklı soru yazılmalı", "Sorular resimdeki öğelerle (çocuklar, uçurtma, çayır, gökyüzü vb.) ilgili olmalı", "Her soru soru işareti (?) ile bitmeli"]
+          },
+          "cozum_md": "Öğrenci resimdeki öğelerden (çocuklar, uçurtma, çiçekler, gökyüzü) yola çıkarak en az 2 farklı, soru işaretiyle biten merak sorusu yazmalıdır. Örnek: 'Uçurtma ne renk?', 'Çocuklar nerede uçurtma uçuruyor?' gibi sorular kabul edilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfında bir müzik parçası dinletiliyor: Çalgılarla çalınan neşeli bir müzik. Bu müzikle ilgili merak ettiğin BİR soru yaz. Sonra bu sorunun cevabını kimden ya da nereden öğrenebileceğini de yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Soru: Bu müzikte hangi çalgılar kullanılmış? Cevabı öğretmenimden ya da müzik öğretmenimden öğrenebilirim.",
+            "kabul_kriterleri": ["Soru müzikle ilgili olmalı ve soru işaretiyle bitmeli", "Sorunun cevabını kimden/nereden öğrenebileceği ayrıca belirtilmeli"]
+          },
+          "cozum_md": "Öğrenci dinlediği müzikle ilgili (çalgılar, seslendiren kişi, ritim gibi) bir merak sorusu yazmalı ve bu sorunun cevabını öğretmeninden, müzik öğretmeninden ya da bir kaynaktan (kitap, internet gibi) öğrenebileceğini belirtmelidir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Varlıkların Hareket Durumlarını Tahmin Ediyorum",
+    "kazanim": {
+      "kod": "FB.3.5.1",
+      "ad": "Varlıkların hareket durumlarını gözleme dayalı tahmin edebilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "5. ÜNİTE: HAREKETİ KEŞFEDİYORUM",
+      "surec_bilesenleri": {
+        "a": "Varlıkların hareket durumlarına ilişkin ön gözlem ve/veya deneyimlerini ilişkilendirir.",
+        "b": "Varlıkların hareket durumlarına ilişkin çıkarım yapar.",
+        "c": "Varlıkların hareket durumlarının sonuçlarına ilişkin yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 5. Ünite (Hareketi Keşfediyorum) program sayfası incelendi; ünitenin hareket türlerini hızlanma, yavaşlama, dönme, sallanma ve yön değiştirme olarak beş kategoride ele aldığı doğrulandı. Ders kitabı sayfası (CEM Yayıncılık 3. Sınıf Fen Bilimleri, s.69-75) arama sonuçlarında tespit edildi ama tam metni doğrudan okunamadı; terminoloji tymm.meb.gov.tr ve ikincil kaynaklarla (ders.bilimsenligi.com) çapraz kontrol edildi.",
+      "notlar": ["Bağımsız crosscheck (subagent yok, ayrı geçişte kör çözüm + anahtarla kıyaslama) yapıldı: 7 sorunun tamamında bağımsız çözüm anahtarla uyuştu. K4 kontrolünde s2'nin 2. ifadesi (tahterevalli örneği) tartışmaya açık bulunup dönme/sallanma ayrımı belirsiz olmayan bir tekerlek örneğiyle değiştirildi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki boşluk doldurma ve doğru/yanlış sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle tamamlayınız.\n\n1) Yokuş aşağı inen Elif'in bisikleti, pedal çevirmediği hâlde gittikçe daha hızlı gitmeye başladı. Bu, bisikletin ____(1)____ hareketine örnektir.\n2) Kırmızı ışığı gören otobüs şoförü frene bastı ve otobüsün hızı azaldı. Bu duruma ____(2)____ denir.\n3) Parktaki dönme dolap, aynı çember üzerinde tekrar tekrar aynı hareketi yaptı. Bu harekete ____(3)____ denir.\n4) Rüzgârda sallanan salıncak ileri geri gitmeye devam etti. Bu harekete ____(4)____ denir.\n5) Duvara çarpan top, geldiği yönün tam tersine geri döndü. Bu duruma ____(5)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["hızlanma", "yavaşlama", "dönme", "sallanma", "yön değiştirme", "durma", "düşme"],
+          "cevap": {"1": "hızlanma", "2": "yavaşlama", "3": "dönme", "4": "sallanma", "5": "yön değiştirme"},
+          "cozum_md": "(1) hızlanma — hızın gittikçe artması. (2) yavaşlama — hızın azalması. (3) dönme — aynı çember/eksen üzerinde tekrarlanan hareket. (4) sallanma — ileri-geri (gidip gelen) hareket. (5) yön değiştirme — hareketin yönünün tersine dönmesi. 'Durma' ve 'düşme' kelimeleri bu cümlelerde kullanılmayan çeldiricilerdir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Kendi gözlem ve deneyimlerini düşünerek aşağıdaki ifadelerin doğru mu yanlış mı olduğuna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir arabanın hızının azalarak ilerlemesi, yavaşlama hareketine örnektir.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Bir oyuncak arabanın tekerleklerinin kendi ekseni etrafında dönmesi, sallanma hareketine örnektir.", "cevap": false, "gerekce_md": "Tekerlek kendi ekseni etrafında tam tur atarak hareket eder; bu bir dönme hareketidir, ileri-geri tekrarlanan bir sallanma hareketi değildir."},
+            {"no": 3, "metin_md": "Bir uçurtmanın rüzgârla birlikte sağa sola savrulması, yön değiştirme hareketine örnektir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Duran bir topun aniden tekmelenip hızla ilerlemesi, yavaşlama hareketine örnektir.", "cevap": false, "gerekce_md": "Topun hızı tekmelendikten sonra artmaktadır, azalmamaktadır; bu bir hızlanma örneğidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1-Doğru: Hızın azalması yavaşlamadır. 2-Yanlış: Tekerleğin kendi ekseni etrafında dönmesi sallanma değil dönme hareketidir. 3-Doğru: Yönün değişmesi yön değiştirmedir. 4-Yanlış: Tekmelenen topun hızı artar, bu yavaşlama değil hızlanmadır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ayşe, okul bahçesinde ip atlarken ipin sürekli olarak elindeki noktanın etrafında aynı daire biçimindeki yolu izlediğini gözlemliyor. İpin bu hareketi hangi hareket durumuna örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yavaşlama"},
+            {"harf": "B", "metin_md": "Dönme"},
+            {"harf": "C", "metin_md": "Yön değiştirme"},
+            {"harf": "D", "metin_md": "Sallanma"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. İp, elindeki noktanın etrafında sürekli aynı daire biçimindeki yolu tekrarladığı için bu hareket **dönme**dir. Sallanma ileri-geri bir harekettir, ipin hareketi ise çember biçiminde tekrarlanan bir harekettir; bu yüzden D yanıltıcıdır ama doğru değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kaykaycı düz zeminde ilerlerken önüne çıkan bir taşı fark edip aniden sağa doğru dönüyor ve yoluna sağdan devam ediyor. Kaykaycının hareketinde gözlemlenen değişiklik hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Hızlanma"},
+            {"harf": "B", "metin_md": "Yavaşlama"},
+            {"harf": "C", "metin_md": "Yön değiştirme"},
+            {"harf": "D", "metin_md": "Dönme"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Doğru cevap C'dir. Kaykaycı düz giderken hareket yönünü sağa çevirmiştir; bu bir **yön değiştirme** örneğidir. D seçeneği (dönme) bir eksen etrafında tekrarlanan hareketi ifade eder, kaykaycının tek seferlik yön çevirmesini karşılamaz."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki gözlemleri sağdaki hareket durumlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Duran bir arabanın gaza basılınca hızının gittikçe artması"},
+            {"no": 2, "metin_md": "Bir hamağın rüzgârda ileri geri gitmesi"},
+            {"no": 3, "metin_md": "Bir çamaşır makinesinin kazanının kendi ekseni etrafında sürekli dönmesi"},
+            {"no": 4, "metin_md": "Koşan bir çocuğun yorulup adım adım daha yavaş koşması"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Hızlanma"},
+            {"harf": "B", "metin_md": "Sallanma"},
+            {"harf": "C", "metin_md": "Dönme"},
+            {"harf": "D", "metin_md": "Yavaşlama"},
+            {"harf": "E", "metin_md": "Yön değiştirme"},
+            {"harf": "F", "metin_md": "Durma"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Hızın gittikçe artması hızlanmadır. 2-B: İleri-geri tekrarlanan hareket sallanmadır. 3-C: Kendi ekseni etrafında sürekli dönen hareket dönmedir. 4-D: Hızın gittikçe azalması yavaşlamadır. E (yön değiştirme) ve F (durma) bu dört gözlemin hiçbirini tam karşılamadığı için kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Bir çocuk parkta salıncakta çok yüksekten ve çok hızlı sallanmaya başlıyor. Bu durumun ortaya çıkarabileceği **bir olumlu** ve **bir olumsuz** sonucu yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Olumlu sonuç: Çocuk eğlenir, enerjisini boşaltmış ve keyifli vakit geçirmiş olur.\nOlumsuz sonuç: Çocuk dengesini kaybedip salıncaktan düşebilir ve kendini yaralayabilir.",
+            "kabul_kriterleri": ["Sallanma hareketinin hızlanmasıyla ilgili gerçekçi bir olumlu sonuç belirtmesi", "Sallanma hareketinin hızlanmasıyla ilgili gerçekçi bir olumsuz/riskli sonuç belirtmesi", "Yargısını gözlemlenebilir bir gerekçeyle desteklemesi"]
+          },
+          "cozum_md": "Örnek cevapta olduğu gibi, hızlı sallanmanın olumlu yönü (eğlence, enerji boşaltma) ve olumsuz yönü (denge kaybı, düşme riski) birlikte değerlendirilmelidir. Öğrencinin birebir aynı ifadeyi yazması gerekmez; sallanma hareketinin sonucuna ilişkin gerçekçi ve gerekçeli bir yargı yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Mert, parkta bir salıncağı izleyip şu gözlemleri kaydediyor. Gözlemleri gerçekleşme sırasına göre diziniz.",
+          "gorsel": null,
+          "ogeler": [
+            "Salıncak en yüksek noktaya ulaşıp bir an durur gibi olur.",
+            "Çocuk salıncağı ayaklarıyla yere basarak iter ve hareket başlar.",
+            "Salıncak öne doğru gittikçe hızlanır.",
+            "Salıncak en yüksek noktadan sonra geriye doğru yön değiştirir."
+          ],
+          "cevap": {"dogru_sira": [1, 2, 0, 3]},
+          "cozum_md": "Doğru sıra: önce çocuk salıncağı iterek hareketi başlatır (2. öge), ardından salıncak öne doğru hızlanır (3. öge), sonra en yüksek noktaya ulaşıp bir an durur gibi olur (1. öge), en son da geriye doğru yön değiştirir (4. öge). Bu sıralama, salıncağın gözlemlenen hareket örüntüsünden yapılan bir çıkarımdır."
+        }
+      ]
+    }
+  ]
+}

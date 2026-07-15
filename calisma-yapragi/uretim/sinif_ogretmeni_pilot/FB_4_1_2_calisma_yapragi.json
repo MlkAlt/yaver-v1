@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bilgi Kaynağının Güvenilirliğini Sorguluyoruz",
+    "kazanim": {
+      "kod": "FB.4.1.2",
+      "ad": "Bilgi kaynağının güvenilirliğini sorgulayabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "1. ÜNİTE: BİLİME YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Merak ettiği bilimsel bir konuyu tanımlar.",
+        "b": "İlgili konu hakkında sorular sorar.",
+        "c": "İlgili konu hakkında teknolojik araçlar ve diğer kaynakları kullanarak bilgi toplar.",
+        "ç": "Toplanan bilgilerden hareketle bilginin doğruluğunu değerlendirir.",
+        "d": "Yaptığı değerlendirmeler sonucunda bilgi kaynaklarının güvenilirliği ile ilgili çıkarım yapar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 1. Ünite: Bilime Yolculuk) ünite sayfası incelendi; kazanımın süreç bileşenleri ve öğretim uygulamalarında vurgulanan güvenilir kaynak ölçütleri (kaynağın yazarı/uzmanlığı, .edu/.gov uzantılı resmî siteler, kanıta dayalı bilgi) doğrulandı. Bu ölçütler eslestirme ve dogru_yanlis sorularında birebir kullanıldı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent olmadan, ayrı bir zihinsel geçişte) yapıldı: tüm sorular cevap anahtarına bakılmadan çözüldü, sonra anahtarla kıyaslandı — uyuşmazlık bulunmadı. K1-K6 kontrolleri uygulandı: kritik/orta önemde sorun tespit edilmedi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları merak ettiğin bir konuyu tanımlama ve araştırma sorusu oluşturma sürecini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Kerem, evde izlediği bir belgeselde “Bitkiler müzik dinlerse daha hızlı mı büyür?” sorusunu duydu ve bu durumu çok merak etti.\n\n1) Kerem'in aklına takılan bu ilginç durum, onun araştıracağı bir ____(1)____ hâline gelmiştir.\n2) Kerem bu konuyu bilimsel olarak incelemek istiyorsa önce net bir araştırma ____(2)____ oluşturmalıdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["konu", "soru", "hikâye", "şaka"],
+          "cevap": {"1": "konu", "2": "soru"},
+          "cozum_md": "1) konu — Kerem'in merak ettiği durum, araştıracağı bir konuya dönüşmüştür. 2) soru — bir konuyu bilimsel olarak araştırmak için önce net, cevaplanabilir bir araştırma sorusu oluşturulmalıdır. 'hikâye' ve 'şaka' kelimeleri bilimsel araştırma süreciyle ilgili olmadığı için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi, bilimsel bir araştırmaya başlarken sorulabilecek uygun bir araştırma sorusudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bitkiler gerçekten canlı mı, değil mi, kimse bilmiyor zaten."},
+            {"harf": "B", "metin_md": "Güneş ışığı miktarı, bir fasulye bitkisinin büyüme hızını nasıl etkiler?"},
+            {"harf": "C", "metin_md": "Keşke bütün bitkiler pembe çiçek açsa."},
+            {"harf": "D", "metin_md": "Bitkiler benden daha mı akıllı?"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "B seçeneği gözlemlenebilir, test edilebilir ve araştırmayla cevaplanabilir bir sorudur. A bir şikâyet/varsayım cümlesidir, C bir dilek/istektir, D ise mizahi ve test edilemeyen bir sorudur; bu yüzden B doğru cevaptır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, farklı bilgi kaynaklarını tanıyarak ve bilginin doğruluğunu değerlendirme ölçütlerini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sol taraftaki bilgi kaynağı örneklerini, sağ taraftaki en uygun tanımla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Konusunda uzman bir bilim insanının yaptığı deney sonucu"},
+            {"no": 2, "metin_md": "Yazarı belli olan, güncellenen bir ansiklopedi maddesi"},
+            {"no": 3, "metin_md": "Kimin yazdığı belli olmayan bir sosyal medya paylaşımı"},
+            {"no": 4, "metin_md": "Bir ürünü satmak için hazırlanmış reklam yazısı"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Ticari çıkar amacı taşıyan, kanıta dayanmayan bilgi"},
+            {"harf": "B", "metin_md": "Kim tarafından yazıldığı belirsiz, doğruluğu kontrol edilmemiş bilgi"},
+            {"harf": "C", "metin_md": "Deneyle test edilmiş, kanıta dayalı güvenilir bilgi"},
+            {"harf": "D", "metin_md": "Uzmanlarca denetlenen, güvenilirliği yüksek kaynak"},
+            {"harf": "E", "metin_md": "Arkadaştan duyulan, kaynağı belli olmayan bir söylenti"}
+          ],
+          "cevap": {"1": "C", "2": "D", "3": "B", "4": "A"},
+          "cozum_md": "1-C: Deney sonucu, kanıta dayalı olduğu için güvenilirdir. 2-D: Yazarı belli, güncellenen ansiklopedi maddesi uzmanlarca denetlenen bir kaynaktır. 3-B: Kim yazdığı belirsiz sosyal medya paylaşımının doğruluğu kontrol edilemez. 4-A: Reklam yazısı, bilgi vermekten çok satış yapmayı amaçlar, kanıta dayanmaz. E seçeneği bu dört örnekten hiçbirine tam uymadığı için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir bilginin doğru olduğundan emin olmak için sadece tek bir kaynağa bakmak yeterlidir.", "cevap": false, "gerekce_md": "Güvenilir bir sonuca ulaşmak için birden fazla kaynak karşılaştırılmalıdır; tek kaynak yanıltıcı olabilir."},
+            {"no": 2, "metin_md": "Bir web sitesinin bilgiyi kimin yazdığını göstermesi, güvenilirliği değerlendirmede işe yarayan bir ipucudur.", "cevap": true, "gerekce_md": "Yazarın kim olduğunu ve konuda uzman olup olmadığını bilmek, bilginin güvenilirliğini değerlendirmeye yardımcı olur."},
+            {"no": 3, "metin_md": ".gov veya .edu uzantılı siteler genellikle resmî kurumlara ve üniversitelere aittir; bu da güvenilirlik açısından bir ipucu olabilir.", "cevap": true, "gerekce_md": "Bu uzantılar resmî kurum ve eğitim kuruluşlarına ait olduğundan, bilginin denetlenmiş olma ihtimalini artıran bir ipucudur."},
+            {"no": 4, "metin_md": "Bir bilginin çok sayıda kişi tarafından paylaşılmış olması, o bilginin doğru olduğunu garanti eder.", "cevap": false, "gerekce_md": "Paylaşım sayısı bilginin doğruluğunu göstermez; yanlış bilgiler de çok hızlı ve çok sayıda paylaşılabilir."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "Her ifade, güvenilir kaynak ölçütleriyle (birden fazla kaynak karşılaştırma, yazarın belli olması, resmî/uzman kaynak, paylaşım sayısının doğruluk göstergesi olmaması) karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        },
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Bir bilimsel konuyu araştırırken izlenen adımlar karışık sırada verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Topladığı bilgilerin doğruluğunu karşılaştırma",
+            "Merak edilen konuyu belirleme",
+            "Kaynağın güvenilirliği hakkında bir sonuca (çıkarıma) varma",
+            "Konu hakkında bir araştırma sorusu oluşturma",
+            "Farklı kaynaklardan bilgi toplama"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 4, 0, 2]},
+          "cozum_md": "Doğru sıra: önce merak edilen konu belirlenir → sonra bir araştırma sorusu oluşturulur → farklı kaynaklardan bilgi toplanır → toplanan bilgilerin doğruluğu karşılaştırılır → son olarak kaynağın güvenilirliği hakkında bir çıkarıma varılır. Verilen listede bu sıra, indeks numaralarıyla [1, 3, 4, 0, 2] şeklindedir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki senaryoları okuyarak bilgi kaynaklarının güvenilirliğini değerlendiriniz ve çıkarımını yazınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Zeynep, sosyal medyada “Domates bir sebzedir.” bilgisini gördü. Sınıf arkadaşı Emre ise fen bilimleri ders kitabında “Domates, botanik olarak bir meyvedir.” yazdığını söyledi.\n\nZeynep bu çelişkili bilgiyi nasıl değerlendirmelidir? Hangi kaynağa neden daha çok güvenmesi gerektiğini açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Zeynep, iki kaynağı karşılaştırmalıdır. Sosyal medya paylaşımını kimin yaptığı belli değilken, ders kitabı uzmanlar tarafından hazırlanmış ve denetlenmiş güvenilir bir kaynaktır. Bu yüzden Zeynep ders kitabındaki bilgiye daha çok güvenmeli; isterse ek olarak bir ansiklopedi ya da bilimsel bir siteden de doğrulama yapabilir.",
+            "kabul_kriterleri": [
+              "İki kaynağı karşılaştırdığını belirtmiş",
+              "Ders kitabının/uzman kaynağın neden daha güvenilir olduğunu gerekçelendirmiş (yazarın belli olması, denetlenmiş olması gibi)",
+              "İsteğe bağlı: ek bir kaynakla doğrulama önerisi sunmuş"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir değerlendirme sorusudur; tek doğru cevap yoktur. Beklenen, öğrencinin kaynağın kim tarafından hazırlandığına ve denetlenip denetlenmediğine bakarak bir karşılaştırma yapması ve güvenilir kaynağı gerekçesiyle belirtmesidir. Kabul kriterlerine göre puanlanır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Ali, uzaylılar hakkında bilgi ararken hem bir bilim dergisinde hem de tanımadığı bir kişinin paylaştığı bir videoda bilgiye rastladı.\n\nAli, bu iki kaynaktan hangisine daha çok güvenmesi gerektiğine nasıl karar verebilir? Kararını hangi ölçütlere (kaynağın kim olduğu, kanıt sunup sunmadığı gibi) dayandırmalı? Açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ali, kaynağın kim tarafından hazırlandığına, o kişinin/derginin konuda uzman olup olmadığına ve bilgiyi destekleyen kanıt ya da veri sunup sunmadığına bakmalıdır. Bilim dergisi uzmanlarca hazırlanan ve denetlenen bir kaynak olduğu için, tanımadığı bir kişinin videosuna göre daha güvenilirdir. Ali sonuçta bilim dergisindeki bilgiye daha çok güvenmeli, isterse başka güvenilir kaynaklarla da doğrulamalıdır.",
+            "kabul_kriterleri": [
+              "Kaynağın kim olduğunu/uzmanlığını bir ölçüt olarak belirtmiş",
+              "Kanıt/destekleyici veri olup olmadığını değerlendirme ölçütü olarak kullanmış",
+              "Sonuç olarak güvenilirlik hakkında açık bir çıkarım/karar sunmuş"
+            ]
+          },
+          "cozum_md": "Bu soru, kazanımın son basamağı olan 'çıkarım yapma'yı ölçer. Öğrenci, önceki sorularda öğrendiği ölçütleri (yazarın kim olduğu, uzmanlık, kanıt) yeni bir senaryoya uygulayarak bir sonuca varmalıdır. Tek doğru cümle yoktur, kabul kriterlerine göre değerlendirilir."
+        }
+      ]
+    }
+  ]
+}

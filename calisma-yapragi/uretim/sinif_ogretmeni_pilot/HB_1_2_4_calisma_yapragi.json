@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Acil Durumlarda Ne Yapmalıyız?",
+    "kazanim": {
+      "kod": "HB.1.2.4",
+      "ad": "Acil durumlarda yapılması gerekenleri belirleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 1,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Acil durum örneklerini (yangın, gaz kaçağı, kaybolma, trafik kazası vb.) tanır.",
+        "b": "Acil bir durumda sakin kalmanın ve bir büyüğe (aile büyüğü/öğretmen) haber vermenin önemini bilir.",
+        "c": "Acil durumlarda 112 Acil Çağrı Merkezi'nin aranması gerektiğini bilir.",
+        "ç": "Acil durumlarda yapılması gereken doğru davranışı belirler."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Kazanım veri dosyasında 'aciklama' alanı boş (null) olduğu için tymm.meb.gov.tr Hayat Bilgisi 1. sınıf 2. Öğrenme Alanı (Sağlığım ve Güvenliğim) HB.1.2.4 sayfası taraması yapıldı: acil durum örnekleri olarak evde/okulda/parkta/sokakta karşılaşılabilecek çarpma, düşme, kaybolma, gaz kaçağı, zehirlenme ve trafik kazası; temel davranış olarak önce sakin olma, sonra aile büyüğüne (evdeyse) veya öğretmene (okuldaysa) haber verme, gerekirse 112 Acil Çağrı Merkezi'nin aranması vurgulanıyor. Öğretim yöntemleri arasında beyin fırtınası, drama/rol oynama ve acil durum bilgi kartı hazırlama geçiyor — bu bağlamlar sorulara yansıtıldı.",
+      "notlar": [
+        "Bazı ikincil kaynaklarda (eski müfredat dönemine ait) itfaiye 110, ambulans 112, polis 155, jandarma 156, orman yangını 177 şeklinde çoklu numara listesi geçiyor; ancak resmi tymm.meb.gov.tr sayfası tek ve güncel bir vurgu olarak yalnızca '112 Acil Çağrı Merkezi'ni işaret ediyor. Karışıklığı önlemek için yaprakta sadece 112 kullanıldı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları acil durumları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumları doğru acil durum türüyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Evden duman çıkması"},
+            {"no": 2, "metin_md": "Bir arkadaşının parkta bulunamaması"},
+            {"no": 3, "metin_md": "Evde gaz kokusu duyulması"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kaybolma"},
+            {"harf": "B", "metin_md": "Yangın"},
+            {"harf": "C", "metin_md": "Gaz kaçağı"},
+            {"harf": "D", "metin_md": "Top oynama"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1) Duman çıkması yangının belirtisidir (B). 2) Bir arkadaşın bulunamaması kaybolmadır (A). 3) Gaz kokusu, gaz kaçağının belirtisidir (C). 'Top oynama' (D) acil bir durum olmadığı için kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Acil bir durumda önce sakin olmalıyım.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Acil bir durumda kimseye söylemeden kendim çözmeliyim.", "cevap": false, "gerekce_md": "Acil durumda mutlaka bir büyüğe (aile büyüğüme veya öğretmenime) haber vermeliyim."},
+            {"no": 3, "metin_md": "Evde acil bir durum olursa aile büyüğüme haber veririm.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Okulda acil bir durum olursa öğretmenime haber vermeme gerek yoktur.", "cevap": false, "gerekce_md": "Okulda acil bir durum olursa hemen öğretmenime haber vermeliyim."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — acil durumda önce sakin olunur. 2) Yanlış — mutlaka bir büyüğe haber verilmeli. 3) Doğru — evde aile büyüğüne haber verilir. 4) Yanlış — okulda öğretmene haber vermek gerekir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları acil durumlarda yapılması gerekenleri düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümleleri kelime havuzundan uygun kelimelerle tamamlayınız.\n1) Acil bir durumda gerekirse ____(1)____ Acil Çağrı Merkezi'ni ararım.\n2) 112'yi ararken adresimi ve ____(2)____ açık bir şekilde söylerim.",
+          "gorsel": null,
+          "kelime_havuzu": ["112", "adımı", "155", "koşarak"],
+          "cevap": {"1": "112", "2": "adımı"},
+          "cozum_md": "1) Acil durumda aranacak numara 112'dir. 2) 112'yi ararken adres ve kendi adımızı açıkça söyleriz. '155' ve 'koşarak' bu cümlelere uymadığı için kullanılmayan çeldiricilerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Acil bir durumda yapılması gerekenleri doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Gerekirse 112'yi ararım.",
+            "Önce sakin olurum.",
+            "Bir aile büyüğüme veya öğretmenime haber veririm."
+          ],
+          "cevap": {"dogru_sira": [1, 2, 0]},
+          "cozum_md": "Doğru sıra: önce sakin olunur, sonra bir büyüğe haber verilir, gerekirse en son 112 aranır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Zeynep okuldan eve dönerken bir trafik kazası gördü. Zeynep ne yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kazaya yaklaşıp arabalara dokunmalı."},
+            {"harf": "B", "metin_md": "Gördüklerini yakınındaki bir büyüğe hemen söylemeli."},
+            {"harf": "C", "metin_md": "Görmezden gelip yoluna devam etmeli."},
+            {"harf": "D", "metin_md": "Kazanın yanına gidip fotoğrafını çekmeli."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "B seçeneği doğrudur; Zeynep gördüğü kazayı hemen yakınındaki bir büyüğe (öğretmen, veli, polis vb.) haber vermelidir. A ve D tehlikelidir, C ise gerekli yardımın gecikmesine yol açar."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları acil durumları ve doğru davranışları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi acil durum DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Evden duman çıkması"},
+            {"harf": "B", "metin_md": "Evde gaz kokusu duyulması"},
+            {"harf": "C", "metin_md": "Teneffüste arkadaşlarla top oynamak"},
+            {"harf": "D", "metin_md": "Bir çocuğun parkta bulunamaması"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "C seçeneği doğrudur; teneffüste top oynamak günlük, güvenli bir davranıştır ve acil durum değildir. A, B ve D birer acil durum örneğidir (yangın, gaz kaçağı, kaybolma)."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 10,
+          "govde_md": "Okulda ders sırasında sınıfına duman geldiğini fark ettin. Yapman gerekenleri kısaca yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Önce sakin olurum. Hemen öğretmenime haber veririm. Öğretmenimin söylediklerini dinleyerek sınıftan güvenli bir şekilde çıkarım.",
+            "kabul_kriterleri": [
+              "Sakin kalma ifade edilmiş",
+              "Öğretmene/büyüğe haber verme belirtilmiş",
+              "Güvenli/panik yapmadan davranma belirtilmiş"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin sakin kalıp öğretmenine haber vermesi ve güvenli davranması beklenir."
+        }
+      ]
+    }
+  ]
+}

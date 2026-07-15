@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çocuk Haklarını Tanıtalım",
+    "kazanim": {
+      "kod": "HB.3.1.3",
+      "ad": "Çocuk haklarını tanıtmak için fikirlerini eyleme dönüştürebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "1. ÖĞRENME ALANI: BEN VE OKULUM",
+      "surec_bilesenleri": {
+        "a": "Çocuk haklarını tanıtmak için farkındalık projeleri geliştirir.",
+        "b": "Çocuk haklarını tanıtmak için farkındalık projelerini paylaşır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 3. sınıf 1. ünite (Ben ve Okulum) sayfası incelendi; Çocuk Haklarına Dair Sözleşme temelli farkındalık projesi süreci ve iş birliği/hak/sorumluluk kavramları buradan doğrulandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Her çocuğun oyun oynama hakkı vardır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Çocuklar okulda kendi fikirlerini söyleyebilir.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Çocuk hakları sadece büyüklerin bilmesi gereken kurallardır, çocukların bilmesine gerek yoktur.", "cevap": false, "gerekce_md": "Çocuk hakları en çok çocukları ilgilendirir; çocukların kendi haklarını bilmesi ve tanıtması önemlidir."},
+            {"no": 4, "metin_md": "Bir hakkı savunmak için sadece bunun hakkında düşünmek yeterlidir, bir şey yapmaya gerek yoktur.", "cevap": false, "gerekce_md": "Fikirler yalnızca düşünmekle kalmaz; bir afiş, pano veya sunum gibi bir farkındalık projesiyle eyleme dönüştürülmelidir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "1 ve 2. ifadeler çocukların temel haklarını doğru şekilde anlatır, bu yüzden doğrudur. 3. ifade yanlıştır çünkü çocuk hakları öncelikle çocukları ilgilendirir. 4. ifade yanlıştır çünkü bir düşünceyi hak savunusuna dönüştürmek için harekete geçmek (proje, pano, sunum vb.) gerekir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki hak ile sağdaki uygun örnek durumu eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Eğitim hakkı"},
+            {"no": 2, "metin_md": "Oyun hakkı"},
+            {"no": 3, "metin_md": "Sağlık hakkı"},
+            {"no": 4, "metin_md": "Korunma hakkı"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Zeynep hastalandığında ailesi onu doktora götürür."},
+            {"harf": "B", "metin_md": "Ayşe her sabah okuluna gidip derslerine çalışır."},
+            {"harf": "C", "metin_md": "Mehmet teneffüste arkadaşlarıyla top oynar."},
+            {"harf": "D", "metin_md": "Can'ı kimse zorla çalıştıramaz, o güvende büyür."},
+            {"harf": "E", "metin_md": "Ela en sevdiği rengin mor olduğunu söyler."}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+          "cozum_md": "Eğitim hakkı okula gitmeyle (B), oyun hakkı oyun oynamayla (C), sağlık hakkı doktora gitmeyle (A), korunma hakkı zorla çalıştırılmamayla (D) ilişkilidir. E seçeneği bir hak örneği değildir, kişisel bir tercihtir; bu yüzden çeldiricidir ve hiçbir maddeyle eşleşmez."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve doğru seçeneği/sırayı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sınıfça bir çocuk hakları farkındalık projesi hazırlanacaktır. Aşağıdakilerden hangisi bu çalışmada **iş birliği** yapmanın bir örneğidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Herkesin bir görev alıp birlikte çalışması"},
+            {"harf": "B", "metin_md": "Sadece bir öğrencinin bütün işi tek başına yapması"},
+            {"harf": "C", "metin_md": "Grup arkadaşlarının fikirlerini dinlememek"},
+            {"harf": "D", "metin_md": "Projeyi kimseyle paylaşmadan bir kenara koymak"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "İş birliği, bir işi birlikte ve görev paylaşarak yapmaktır. Bu nedenle doğru seçenek A'dır. B, C ve D seçenekleri iş birliğine aykırı davranışlardır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir çocuk hakları farkındalık projesi hazırlama adımları karışık verilmiştir. Doğru sıraya diziniz.",
+          "gorsel": null,
+          "ogeler": [
+            "Farkındalık projesini hazırlamak (afiş, pano, kısa sunum vb.)",
+            "Çocuk hakkıyla ilgili bir konu belirlemek",
+            "Projeyi sınıfla veya okulla paylaşmak",
+            "Grup arkadaşlarıyla görev paylaşmak"
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Önce bir konu belirlenir, sonra görevler paylaşılır, ardından proje hazırlanır ve en son paylaşılır. Doğru sıra: 'Konu belirlemek' → 'Görev paylaşmak' → 'Hazırlamak' → 'Paylaşmak'."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Deniz, sınıfça hazırladıkları çocuk hakları posterini son gün teslim etmesi gerekirken bunu unutup oyun oynamayı tercih etti. Bu yüzden arkadaşlarının hazırladığı proje geç paylaşıldı. Deniz'in bu durumda eksik yerine getirdiği kavram aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Hak"},
+            {"harf": "B", "metin_md": "Sorumluluk"},
+            {"harf": "C", "metin_md": "Oyun"},
+            {"harf": "D", "metin_md": "Tatil"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Deniz'e verilen görevi zamanında yapması onun sorumluluğuydu. Görevini yerine getirmemesi, grubun ortak çalışmasını aksattı; bu yüzden doğru cevap 'sorumluluk'tur (B)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Okulunda çocuk haklarını tanıtmak için bir farkındalık projesi tasarla. Hangi hakkı seçtiğini, projenin ne olacağını (afiş, kısa oyun, pano, sunum vb.) ve kimlerle çalışacağını yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben 'oyun hakkı'nı seçerdim. Sınıf arkadaşlarımla birlikte teneffüslerde herkesin oyuna katılabildiğini anlatan bir pano hazırlardık. Panoda çocukların oyun oynarken çizdiği resimler ve 'Her çocuğun oyun oynama hakkı vardır' yazısı olurdu. Bu projeyi grup arkadaşlarımla, görev paylaşarak hazırlardım.",
+            "kabul_kriterleri": [
+              "Bir çocuk hakkı açıkça belirtilmiş",
+              "Somut bir proje/ürün türü belirtilmiş (afiş, pano, kısa oyun, sunum vb.)",
+              "Kiminle/nasıl çalışılacağı (iş birliği/grup) belirtilmiş"
+            ]
+          },
+          "cozum_md": "Cevap; seçilen hakkın adını, projenin somut bir ürün olarak tanımını ve iş birliği yapılacak kişileri içermelidir. Sadece 'bir proje yaparım' gibi genel bir cümle yeterli kabul edilmez."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Hazırladığın bu projeyi arkadaşlarınla, okulunla veya ailenle nasıl paylaşırsın? En az iki farklı paylaşma yolu yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Projeyi önce sınıf panosuna asarak arkadaşlarımın görmesini sağlarım. Sonra okul genelinde yapılan bir etkinlikte kısaca anlatırım. Ayrıca evde ailemle de konuşup onlara da gösteririm.",
+            "kabul_kriterleri": [
+              "En az iki farklı paylaşma yolu belirtilmiş",
+              "Yollar projeyle (çocuk hakları farkındalığı) ilişkili",
+              "Paylaşımın kimlere yönelik olduğu (sınıf/okul/aile) belli"
+            ]
+          },
+          "cozum_md": "Kabul edilir cevaplar en az iki farklı ve gerçekçi paylaşma yolu içermelidir (örn. sınıf panosu, okul etkinliği, sunum, aile ile konuşma). Tek bir yol yazılmışsa kısmi puan verilebilir."
+        }
+      ]
+    }
+  ]
+}

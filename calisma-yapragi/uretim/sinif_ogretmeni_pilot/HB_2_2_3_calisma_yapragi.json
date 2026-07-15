@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Trafik İşaret Levhalarını Tanıyalım",
+    "kazanim": {
+      "kod": "HB.2.2.3",
+      "ad": "Temel trafik işaret levhalarını tanıyabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 2,
+      "unite": "2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM",
+      "surec_bilesenleri": {
+        "a": "Trafik işaret levhalarının temel türlerini (tehlike uyarı, yasaklayıcı, bilgi verici) şekil ve renklerine göre ayırt eder.",
+        "b": "Günlük hayatta sık karşılaşılan trafik işaret levhalarının (yaya geçidi, okul geçidi, dur, girilmez, bisiklet yolu, ışıklı işaret cihazı vb.) anlamlarını tanır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-14",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Kazanımın 'aciklama' alanı veri dosyasında null olduğu için süreç bileşenleri, kazanımın adından ('Temel trafik işaret levhalarını tanıyabilme') ve web araştırmasından türetildi. tymm.meb.gov.tr Hayat Bilgisi dersi 2. sınıf '2. Öğrenme Alanı: Sağlığım ve Güvenliğim' ünite sayfası incelendi: kazanımda öğrencilere ışıklı işaret cihazı, yaya geçidi, okul geçidi, bisiklet yolu levhası gibi günlük hayatta karşılaşılabilecek temel trafik işaret levhalarının tanıtılması hedeflenmektedir. Ayrıca trafikcocuk.ibb.gov.tr ve genel trafik kaynaklarından levha türlerinin üç temel kategorisi doğrulandı: tehlike uyarı işaretleri (üçgen, kırmızı kenarlı), yasaklayıcı işaretler (daire, kırmızı kenarlı/zeminli — dur levhası istisna olarak kırmızı zeminli sekizgendir) ve bilgi verici işaretler (kare/dikdörtgen, mavi). Yaprak bu ayrıma ve 2. sınıf düzeyinde somut/günlük örneklere (yaya geçidi, okul geçidi, dur, girilmez, bisiklet yolu, ışıklı işaret cihazı) dayandırıldı.",
+      "notlar": [
+        "aciklama alanı kaynak veri dosyasında null olduğu için süreç bileşenleri (a, b) kazanımın 'tanıyabilme' fiiline ve web araştırmasına dayanılarak türetildi; ileride resmi süreç bileşenleri yayımlanırsa yaprak gözden geçirilmeli.",
+        "Kazanım fiili 'tanıyabilme' (tanıma/algılama düzeyinde) olduğu için sorular ağırlıklı olarak eşleştirme, doğru/yanlış ve tanıma temelli çoktan seçmeli tipte kuruldu; üst düzey analiz sorusu (problem_cozme, akıl yürütme) kullanılmadı — kazanımın bilişsel düzeyiyle tutarlı.",
+        "validate_worksheet.py alan-yoğun tip sayısı için (dogru_yanlis, eslestirme, tablo_doldurma = 3) uyarı verdi; render_html.py ile gerçek ölçüm yapıldı ve öğrenci kısmı yine de 1 sayfaya sığdığı görüldüğü için içerik kısaltılmadı, uyarı bilinçli kabul edildi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Üçgen şeklinde, kırmızı kenarlı levhalar bizi bir tehlikeye karşı uyarır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Yuvarlak (daire) şeklindeki kırmızı kenarlı/zeminli levhalar bir şeyi yapmamamız gerektiğini söyler.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Kare veya dikdörtgen şeklindeki mavi levhalar bize bilgi verir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Bütün trafik levhaları aynı anlama gelir; şekilleri ve renkleri önemli değildir.", "cevap": false, "gerekce_md": "Levhanın şekli ve rengi anlamını belirler; her levha türü farklı bir uyarı, yasak ya da bilgi taşır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — üçgen ve kırmızı kenar, tehlike uyarı işaretlerinin tipik özelliğidir. 2) Doğru — daire ve kırmızı, yasaklayıcı işaretlerin tipik özelliğidir. 3) Doğru — kare/dikdörtgen ve mavi, bilgi verici işaretlerin tipik özelliğidir. 4) Yanlış — şekil ve renk levhanın anlamını belirler, hepsi aynı anlama gelmez."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Levhaları anlamlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Yaya geçidi levhası"},
+            {"no": 2, "metin_md": "Okul geçidi levhası"},
+            {"no": 3, "metin_md": "Dur levhası"},
+            {"no": 4, "metin_md": "Bisiklet yolu levhası"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bu yoldan sadece bisikletle geçilebileceğini bildirir"},
+            {"harf": "B", "metin_md": "Yayaların karşıya güvenle geçebileceği yeri gösterir"},
+            {"harf": "C", "metin_md": "Araçların tamamen durması gerektiğini bildirir"},
+            {"harf": "D", "metin_md": "Okul yakınında çocuklara dikkat edilmesi gerektiğini bildirir"},
+            {"harf": "E", "metin_md": "Yolun araç trafiğine kapalı olduğunu bildirir"}
+          ],
+          "cevap": {"1": "B", "2": "D", "3": "C", "4": "A"},
+          "cozum_md": "1) Yaya geçidi → B, yayaların güvenle geçtiği yeri gösterir. 2) Okul geçidi → D, okul yakınında dikkat gerektiğini bildirir. 3) Dur → C, araçların tamamen durmasını bildirir. 4) Bisiklet yolu → A, sadece bisikletle geçilebileceğini bildirir. 'E' seçeneği bu eşleştirmede kullanılmayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları trafik işaret levhalarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Işıklı işaret cihazında ____(1)____ yanınca durmalıyız, ____(2)____ yanınca hazırlanmalıyız, ____(3)____ yanınca güvenle geçebiliriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["kırmızı ışık", "sarı ışık", "yeşil ışık", "mavi ışık", "beyaz ışık"],
+          "cevap": {"1": "kırmızı ışık", "2": "sarı ışık", "3": "yeşil ışık"},
+          "cozum_md": "1) Kırmızı ışıkta durulur. 2) Sarı ışıkta hazırlanılır. 3) Yeşil ışıkta güvenle geçilir. 'Mavi ışık' ve 'beyaz ışık' ışıklı işaret cihazında kullanılmadığı için çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sekizgen (8 kenarlı) şeklinde, kırmızı zeminli ve üzerinde beyaz harflerle yazı bulunan bir levha görüyorsun. Bu levha hangi anlama gelir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sağa dönüş serbesttir"},
+            {"harf": "B", "metin_md": "Araç tamamen durmalıdır (Dur levhası)"},
+            {"harf": "C", "metin_md": "Bu bölgeye park edilebilir"},
+            {"harf": "D", "metin_md": "Bu yol sadece bisikletlere açıktır"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Dur levhası, diğer levhalardan farklı olarak kırmızı zeminli sekizgen şekildedir ve üzerinde 'DUR' yazar; aracın tamamen durmasını bildirir. Diğer seçenekler bu levhanın şekli ve rengiyle uyuşmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Tabloda boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Levha Türü", "Şekli/Rengi", "Örnek Levha"],
+            "satirlar": [
+              ["Tehlike Uyarı", "__?__", "Yaya geçidi, kasisli yol"],
+              ["Yasaklayıcı", "Daire, kırmızı kenarlı/zeminli", "__?__"],
+              ["__?__", "Kare/dikdörtgen, mavi", "Bisiklet yolu, otopark"]
+            ]
+          },
+          "cevap": {"r0c1": "Üçgen, kırmızı kenarlı", "r1c2": "Girilmez, park etmek yasaktır", "r2c0": "Bilgi Verici"},
+          "cozum_md": "Tehlike uyarı işaretleri üçgen ve kırmızı kenarlıdır. Yasaklayıcı işaretlere örnek olarak girilmez ve park etmek yasaktır levhaları verilebilir. Kare/dikdörtgen ve mavi renkli levhalar bilgi verici işaretlerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları günlük hayattaki gözlemlerini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Ali okula yürüyerek giderken yolun kenarında üçgen şeklinde, kırmızı kenarlı ve içinde yürüyen iki çocuk resmi olan bir levha görüyor. Bu levha Ali'ye ne anlatır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Burada koşarak geçmesi gerektiğini"},
+            {"harf": "B", "metin_md": "Yakında okul geçidi olduğu, dikkatli ve yavaş yürümesi gerektiğini"},
+            {"harf": "C", "metin_md": "Bu bölgede bisiklete binebileceğini"},
+            {"harf": "D", "metin_md": "Buraya araç park edebileceğini"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Üçgen şekil ve içindeki çocuk figürleri okul geçidi levhasının özellikleridir; bu levha yakında okul olduğunu ve yayalara, özellikle çocuklara dikkat edilmesi gerektiğini bildirir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Evinden okuluna giderken yolda gördüğün bir trafik işaret levhasını düşün. Bu levhanın adını yaz ve bize ne anlattığını kısaca açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Yaya geçidi levhası gördüm. Bu levha yayaların karşıya güvenle geçebileceği yeri gösterir.",
+            "kabul_kriterleri": [
+              "Gerçek bir trafik işaret levhasının adını doğru belirtmesi (yaya geçidi, okul geçidi, dur, girilmez, bisiklet yolu vb.)",
+              "Levhanın anlamını kabaca doğru açıklaması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin gerçek bir trafik işaret levhasını adlandırıp anlamını kabaca doğru açıklaması yeterlidir."
+        }
+      ]
+    }
+  ]
+}

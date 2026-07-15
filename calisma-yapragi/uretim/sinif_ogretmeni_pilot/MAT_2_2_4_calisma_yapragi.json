@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çarpma ve Bölmeyi Toplama-Çıkarma ile İlişkilendirelim",
+    "kazanim": {
+      "kod": "MAT.2.2.4",
+      "ad": "Çarpma ve bölme işlemlerini toplama ve çıkarma işlemlerine dayalı olarak çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "3. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Çarpma ve bölme işlemlerinin anlamlarının toplama ve çıkarma işlemleriyle ilişkili olduğunu fark eder.",
+        "b": "Çarpma ve bölme işlemlerini toplama ve çıkarma işlemleriyle ilişkilendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile MEB müfredat/tymm.meb.gov.tr ve OGM materyalleri taraması yapıldı: 2. sınıfta çarpmanın tekrarlı toplama, bölmenin tekrarlı çıkarma/paylaştırma-gruplama olarak öğretildiği; çarpımların düşük sayılarla (5'e kadar çarpan) sınırlı tutulduğu doğrulandı. Ünite adı ve konu kapsamı tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/264 (3. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE) ile eşleşiyor.",
+      "notlar": [
+        "Sayı büyüklükleri 2. sınıf seviyesine göre küçük tutuldu (çarpanlar en çok 6, bölme sonuçları tek basamaklı); OGM materyalinde bu kazanıma özel sayfa doğrudan bulunamadı, MEB müfredat dokümanı ve ders kitabı arama sonuçlarındaki genel yaklaşım (tekrarlı toplama/çıkarma) esas alındı.",
+        "Bağımsız crosscheck yapıldı: tüm sorular python ile önceden hesaplanıp anahtarla karşılaştırıldı, uyuşmazlık çıkmadı. s2'de öğrenci '5x4' yazarsa da (çarpmanın değişme özelliği) doğru kabul edilmeli; öğretmen için bu esneklik cozum_md'de belirtildi."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki ifadeleri okuyunuz ve boşluğu doldurunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı? İşaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "3+3+3+3 toplamı, 3x4 çarpma işlemine eşittir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "5x2 çarpma işlemi, 5+5 toplamına eşittir.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "12-4-4-4=0 çıkarma işlemi, 12:4 bölme işlemine eşittir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "6x3 çarpma işlemi, 6+6 toplamına eşittir.", "cevap": false, "gerekce_md": "6x3, 6 sayısının 3 kez toplanması demektir: 6+6+6. 6+6 sadece 6x2'ye eşittir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": true, "4": false}},
+          "cozum_md": "1) 3, 4 kez toplanmış: 3x4=12, doğru. 2) 5, 2 kez toplanmış: 5x2=10, doğru. 3) 12'den 4, 3 kez çıkarılınca 0 oluyor; bu da 12:4=3 demektir, doğru. 4) 6x3, 6'nın 3 kez toplanmasıdır (6+6+6), 6+6 ise 6x2'ye eşittir; ifade yanlış."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Tekrarlı toplama işlemini çarpma işlemi olarak yazınız: 4+4+4+4+4 = ____(1)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "4x5"},
+          "cozum_md": "4 sayısı 5 kez toplanmıştır. Tekrarlı toplama 4+4+4+4+4, çarpma işlemi olarak 4x5 (ya da çarpma işleminin sırası değişmediği için 5x4) şeklinde yazılır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "3x5 çarpma işlemi aşağıdaki toplama işlemlerinden hangisine eşittir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3+3+3+3+3"},
+            {"harf": "B", "metin_md": "5+5+5+5+5"},
+            {"harf": "C", "metin_md": "3+3+3+3"},
+            {"harf": "D", "metin_md": "3+5"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "3x5, 3 sayısının 5 kez toplanması demektir: 3+3+3+3+3=15. B seçeneğinde 5 sayısı 5 kez toplanmış (25 eder), C'de 3 sadece 4 kez toplanmış (12 eder), D'de sadece iki sayı toplanmış (8 eder). Doğru seçenek A'dır."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki toplama/çıkarma işlemlerini sağdaki uygun çarpma/bölme işlemiyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "6+6+6"},
+            {"no": 2, "metin_md": "20-5-5-5-5=0"},
+            {"no": 3, "metin_md": "2+2+2+2+2+2"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "6x3"},
+            {"harf": "B", "metin_md": "20:5"},
+            {"harf": "C", "metin_md": "2x6"},
+            {"harf": "D", "metin_md": "3x5"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1) 6+6+6, 6'nın 3 kez toplanmasıdır: 6x3. 2) 20'den 5, 4 kez çıkarılınca 0 olur, bu da 20:5=4 demektir. 3) 2+2+2+2+2+2, 2'nin 6 kez toplanmasıdır: 2x6. D seçeneği (3x5=15) hiçbir sol ifadeyle eşleşmeyen çeldiricidir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "18-6-6-6=0 çıkarma işlemi aşağıdaki bölme işlemlerinden hangisine eşittir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "18:3"},
+            {"harf": "B", "metin_md": "18:6"},
+            {"harf": "C", "metin_md": "6:3"},
+            {"harf": "D", "metin_md": "18:2"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "18'den 6 sayısı sırayla çıkarılarak 0'a ulaşılıyor ve bu 3 kez tekrarlanıyor. Bu, 18 sayısının 6'şarlı gruplara ayrılması demektir: 18:6=3. Doğru seçenek B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir öğretmen 15 defteri öğrencilerine 3'er 3'er dağıtıyor. Defterleri dağıtırken 15'ten sırayla 3 çıkarıyor: 15-3-3-3-3-3=0. Bu tekrarlı çıkarma işlemine göre öğretmen kaç öğrenciye defter dağıtmıştır?",
+          "gorsel": null,
+          "cevap": {"deger": 5, "birim": "öğrenci", "tolerans_yuzde": 0},
+          "cozum_md": "15'ten 3 sayısı art arda çıkarılıyor: 15-3=12, 12-3=9, 9-3=6, 6-3=3, 3-3=0. Toplam 5 kez çıkarma yapılmış. Bu, 15:3=5 bölme işlemine eşittir. Öğretmen 5 öğrenciye defter dağıtmıştır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir arkadaşın sana 'Çarpma işlemi ile toplama işlemi arasında nasıl bir ilişki vardır?' diye sorsa, ona kendi seçtiğin bir örnekle nasıl açıklardın? Cevabını örneğinle birlikte yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Çarpma işlemi, aynı sayının tekrar tekrar toplanmasıdır. Örneğin 4x3 çarpma işlemi, 4 sayısının 3 kez toplanması demektir: 4+4+4=12. Yani 4x3=12'dir.",
+            "kabul_kriterleri": [
+              "Çarpmayı tekrarlı toplama olarak açıklamış",
+              "Kendi seçtiği sayılarla, toplamı çarpım sonucuyla tutarlı bir örnek vermiş"
+            ]
+          },
+          "cozum_md": "Örnek cevap: Çarpma, bir sayının kendisiyle tekrar tekrar toplanmasıdır. Öğrenci kendi seçtiği iki sayıyla bunu (a x b = a+a+...+a, b tane) doğru şekilde örneklendirmelidir."
+        }
+      ]
+    }
+  ]
+}

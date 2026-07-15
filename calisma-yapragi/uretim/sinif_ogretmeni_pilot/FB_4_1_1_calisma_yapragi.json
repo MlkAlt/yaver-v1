@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Bilimin Özellikleri Üzerine Düşünelim",
+    "kazanim": {
+      "kod": "FB.4.1.1",
+      "ad": "Bilimin özellikleri ile ilgili yansıtma yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 4,
+      "unite": "1. ÜNİTE: BİLİME YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Bilim ile ilgili bilgi ve deneyimini gözden geçirir.",
+        "b": "Bilimin özellikleri ile ilgili çıkarım yapar.",
+        "c": "Bilimin özellikleri ile ilgili ulaşılan çıkarımları değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Fen Bilimleri Dersi 4. Sınıf, 1. Ünite: Bilime Yolculuk) sayfası incelendi; bu kazanımla ilişkili olarak bilimin öğretim programında vurgulanan dört özellik doğrulandı: kanıta dayalılık, güvenilirlik, değişebilirlik, yaratıcılık ve hayal gücü. Öğretim yönteminin senaryo/örnek olay üzerinden sorgulayıcı tartışma olduğu görüldü; bu yaklaşım Kavrayalım ve Uygulayalım bölümlerindeki senaryo tabanlı sorulara yansıtıldı.",
+      "notlar": [
+        "Bağımsız crosscheck geçişinde s7, ilk taslakta bileşen 'c' (çıkarımları değerlendirme) olarak etiketlenmişti; ancak soru içerik olarak bir çıkarımı değerlendirmekten çok, doğru/yanlış özellik ayrımı yapmayı (çıkarım) gerektirdiğinden bileşen 'b'ye çekildi. Bileşen c yalnızca s6 ile karşılanıyor; bu, kazanımın 'değerlendirme' basamağının açık uçlu tek soruyla temsil edilmesi anlamına gelir, bilinçli bir tercihtir."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları kendi bilgi ve deneyimlerini gözden geçirerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "acik_uclu",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Daha önce bir şeyi merak edip araştırdığın, bir deney yaptığın ya da bir olayı gözlemleyip nedenini düşündüğün bir anını hatırla. Bu deneyimini kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Geçen yaz bahçede karıncaların nasıl yol bulduğunu merak ettim. Birkaç gün onları gözlemledim, kokuyla iz bıraktıklarını fark ettim ve bunu bir kitaptan araştırıp doğruladım.",
+            "kabul_kriterleri": [
+              "Kendi yaşadığı gerçek ya da gerçekçi bir deneyimi anlatmış",
+              "Deneyiminde merak etme, gözlem yapma ya da araştırma unsurlarından en az biri var",
+              "Anlattığı deneyimi bilimle ilişkilendirebilmiş"
+            ]
+          },
+          "cozum_md": "Bu açık uçlu bir sorudur, tek doğru cevabı yoktur; öğrencinin kendi deneyimini bilimsel süreçle (merak etme, gözlemleme, araştırma) ilişkilendirmesi beklenir. Değerlendirirken kabul kriterlerine bakınız."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Bir bilim insanı önce merak ettiği bir soruyu bulur, sonra bu soruyla ilgili ____(1)____ yapar.\n2) Bilim insanları gözlemlerini ve deney sonuçlarını dikkatle ____(2)____ eder.\n3) Bir bilginin doğru kabul edilmesi için ____(3)____ gerekir.\n4) Bilim insanı ulaştığı sonucu başkalarıyla ____(4)____ .",
+          "gorsel": null,
+          "kelime_havuzu": ["deney", "kayıt", "kanıt", "paylaşır", "unutur"],
+          "cevap": {"1": "deney", "2": "kayıt", "3": "kanıt", "4": "paylaşır"},
+          "cozum_md": "1) deney — merak edilen soru bir deneyle araştırılır. 2) kayıt — gözlem ve deney sonuçları not edilir, kayıt altına alınır. 3) kanıt — bilim kanıtlara dayanır; kanıt olmadan bir bilgi bilimsel olarak doğru kabul edilmez. 4) paylaşır — bilim insanı ulaştığı sonucu diğer insanlarla paylaşır ki bilgi kontrol edilip güvenilir hâle gelsin. 'unutur' kelimesi bu cümlelerin hiçbirine uymadığı için kullanılmaz, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki senaryoları okuyarak bilimin özellikleriyle ilgili çıkarımlar yapınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ali, bir bitkinin büyümesi için ışığın gerekli olup olmadığını merak etti. Aynı türden iki bitki aldı; birini pencere kenarına, diğerini karanlık bir dolaba koydu. İki hafta sonra bitkileri karşılaştırdı ve ışık alan bitkinin daha sağlıklı büyüdüğünü kaydetti.\n\nAli'nin yaptığı bu çalışma bilimin hangi özelliğini **EN İYİ** gösterir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bilim yalnızca hayal gücüne dayanır."},
+            {"harf": "B", "metin_md": "Bilim, gözlem ve kanıtlara dayanır."},
+            {"harf": "C", "metin_md": "Bilim asla değişmez."},
+            {"harf": "D", "metin_md": "Bilim yalnızca kitaplardan öğrenilir."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ali bir soru sormuş, karşılaştırmalı bir gözlem yapmış ve sonucu kaydetmiştir; bu, bilimin kanıta dayalı olma özelliğini gösterir. A yanlıştır çünkü burada hayal gücünden değil doğrudan gözlemden söz edilir; C ve D ise bilimin özellikleriyle çelişir, metinde de geçmez."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 25,
+          "govde_md": "Aşağıdaki tabloda her satırda bir durum anlatılmaktadır. Bu durumun bilimin hangi özelliğiyle ilgili olduğunu boş hücreye yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Durum", "Bu durum bilimin hangi özelliğini gösterir?"],
+            "satirlar": [
+              ["100 yıl önce doğru kabul edilen bir bilgi, yeni deliller bulunduğunda bilim insanları tarafından yeniden incelenip değiştirilir.", "__?__"],
+              ["Bir bilim insanı önce ilginç bir fikir hayal eder, sonra bu fikri test edecek bir deney tasarlar.", "__?__"],
+              ["Bir iddianın doğru kabul edilmesi için ölçülebilir, gözlemlenebilir veriler gerekir.", "__?__"],
+              ["Bir deney başka bilim insanları tarafından tekrar yapıldığında aynı sonuç elde edilir; bu da bilgiye güvenilebileceğini gösterir.", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Değişebilirlik", "r1c1": "Yaratıcılık ve hayal gücü", "r2c1": "Kanıta dayalılık", "r3c1": "Güvenilirlik"},
+          "cozum_md": "1. satır: Bilginin yeni kanıtlarla yeniden incelenip değiştirilmesi **değişebilirlik** özelliğidir. 2. satır: Önce fikir hayal edip sonra test etmek **yaratıcılık ve hayal gücü** özelliğidir. 3. satır: Ölçülebilir/gözlemlenebilir veri gerekliliği **kanıta dayalılık** özelliğidir. 4. satır: Aynı deneyin tekrarında aynı sonucun elde edilmesi bilginin **güvenilirlik**ini gösterir."
+        },
+        {
+          "id": "s5",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bilim insanları ulaştıkları sonuçları hiçbir zaman değiştirmezler.", "cevap": false, "gerekce_md": "Bilimsel bilgi, yeni kanıtlar bulunduğunda değişebilir; bu bilimin **değişebilirlik** özelliğidir."},
+            {"no": 2, "metin_md": "Bilimde bir iddianın doğru kabul edilmesi için kanıt gerekir.", "cevap": true, "gerekce_md": "Bilim **kanıta dayalıdır**; kanıtsız iddialar bilimsel olarak doğru kabul edilmez."},
+            {"no": 3, "metin_md": "Bilim insanlarının hayal gücü ve yaratıcılığı olmaz, sadece ezberledikleri bilgiyle çalışırlar.", "cevap": false, "gerekce_md": "Bilim **yaratıcılık ve hayal gücü** de içerir; yeni fikirler üretmeyi ve bunları test etmeyi gerektirir."},
+            {"no": 4, "metin_md": "Bir deneyin sonucu başka kişiler tarafından tekrarlandığında aynı çıkıyorsa, bu bilginin güvenilirliğini artırır.", "cevap": true, "gerekce_md": "Aynı sonucun tekrar elde edilmesi bilginin **güvenilir** olduğunu destekler."},
+            {"no": 5, "metin_md": "Bilim sadece laboratuvarda beyaz önlük giyen kişilerin yaptığı bir iştir.", "cevap": false, "gerekce_md": "Herkes günlük hayatta merak edip gözlem yaparak, soru sorarak bilimsel düşünebilir; bilim sadece laboratuvarla sınırlı değildir."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true, "5": false}},
+          "cozum_md": "Her ifade, yukarıda anlatılan bilimin dört özelliği (kanıta dayalılık, değişebilirlik, yaratıcılık ve hayal gücü, güvenilirlik) ile karşılaştırılarak değerlendirilir; gerekçeler yukarıda verilmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, bilimin özellikleriyle ilgili çıkarımlarını değerlendirerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Mert şöyle diyor: \"Bilim insanları bir şeyi bir kere kanıtladıysa, o bilgi asla değişmez ve tartışılamaz.\"\n\nMert'in bu düşüncesini bilimin özellikleri açısından değerlendir. Katılıyor musun, katılmıyor musun? Nedenini yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Mert'in düşüncesine katılmıyorum çünkü bilim değişebilir bir özelliğe sahiptir. Yeni kanıtlar ve gözlemler bulunduğunda, önceden doğru kabul edilen bilgiler bilim insanları tarafından yeniden incelenip gerekirse değiştirilir. Bu, bilimin kötü bir yanı değildir; bilginin sürekli olarak daha doğruya ulaşmaya çalışmasıdır.",
+            "kabul_kriterleri": [
+              "Bir görüş bildirmiş (katılıyor/katılmıyor) ve bunu gerekçelendirmiş",
+              "Bilimin 'değişebilirlik' özelliğine açıkça değinmiş",
+              "Basit bir ezber cümle yerine kendi ifadeleriyle bir değerlendirme yapmış"
+            ]
+          },
+          "cozum_md": "Açık uçlu bir değerlendirme sorusudur; beklenen, öğrencinin bilimin 'değişebilirlik' özelliğini fark ederek Mert'in görüşünün eksik/yanlış olduğunu belirtmesidir. Kabul kriterlerine göre puanlanır, tek bir doğru cümle yoktur."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi bilimin özellikleri arasında **YER ALMAZ**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kanıtlara ve gözlemlere dayanması"},
+            {"harf": "B", "metin_md": "Zamanla yeni bilgilerle değişebilmesi"},
+            {"harf": "C", "metin_md": "Yaratıcılık ve hayal gücü içermesi"},
+            {"harf": "D", "metin_md": "Bir kere açıklanan bir bilginin sonsuza kadar değişmeden kalması"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "A, B ve C bilimin özellikleridir (kanıta dayalılık, değişebilirlik, yaratıcılık ve hayal gücü). D seçeneği ise bilimin özelliğiyle çelişir; bilim değişebilir olduğu için 'sonsuza kadar değişmeden kalma' ifadesi yanlıştır. Bu yüzden doğru cevap **D**'dir."
+        }
+      ]
+    }
+  ]
+}

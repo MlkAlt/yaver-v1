@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Canlılar Çevrelerini Nasıl Algılar?",
+    "kazanim": {
+      "kod": "FB.3.2.2",
+      "ad": "Canlıların çevrelerini farklı yollarla algılamaları konusunda bilimsel çıkarım yapabilme",
+      "ders": "Fen Bilimleri",
+      "sinif": 3,
+      "unite": "2. ÜNİTE: CANLILAR DÜNYASINA YOLCULUK",
+      "surec_bilesenleri": {
+        "a": "Canlıların çevrelerini algılama biçimlerine ilişkin nitelikleri tanımlar.",
+        "b": "Duyu organlarının işlevleri ile ilgili veri toplayarak kaydeder.",
+        "c": "Canlıların çevrelerini farklı biçimlerde algılamalarına ilişkin verileri yorumlayarak değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-12",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Fen Bilimleri 3. Sınıf 2. Ünite (Canlılar Dünyasına Yolculuk) program sayfası incelendi: kazanımın insan duyu organlarının işlevlerini (görme, işitme, koku, tat, dokunma) ve farklı canlıların kendine özgü algılama biçimlerini (ör. örümceklerin bacak tüyleriyle titreşim algılaması, kelebeklerin antenleriyle koku algılaması) kapsadığı doğrulandı; ogmmateryal.eba.gov.tr kaynaklarındaki duyu organı-reseptör terminolojisiyle karşılaştırıldı.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki eşleştirme ve boşluk doldurma sorularını çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki duyu organlarını sağda algıladıkları özelliklerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Göz"},
+            {"no": 2, "metin_md": "Kulak"},
+            {"no": 3, "metin_md": "Burun"},
+            {"no": 4, "metin_md": "Dil"},
+            {"no": 5, "metin_md": "Deri"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Tatları algılar."},
+            {"harf": "B", "metin_md": "Sesleri algılar."},
+            {"harf": "C", "metin_md": "Kokuları algılar."},
+            {"harf": "D", "metin_md": "Işığı ve renkleri algılar."},
+            {"harf": "E", "metin_md": "Sıcaklık ve dokunma hissini algılar."},
+            {"harf": "F", "metin_md": "Besinleri sindirir."}
+          ],
+          "cevap": {"1": "D", "2": "B", "3": "C", "4": "A", "5": "E"},
+          "cozum_md": "1-D: Göz ışığı ve renkleri algılayan duyu organımızdır. 2-B: Kulak sesleri algılar. 3-C: Burun kokuları algılar. 4-A: Dil tatları algılar. 5-E: Deri sıcaklık ve dokunma hissini algılar. F seçeneği (sindirim) hiçbir duyu organının algılama görevi olmadığı için kullanılmayan bir çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Her canlı çevresini aynı biçimde algılamaz; canlılar çevrelerini ____(1)____ yollarla algılayabilir. Örneğin köpekler çok güçlü bir ____(2)____ duyusuna sahiptir ve kokuyu insanlardan çok daha iyi alır.",
+          "gorsel": null,
+          "kelime_havuzu": ["farklı", "aynı", "koku", "görme", "işitme"],
+          "cevap": {"1": "farklı", "2": "koku"},
+          "cozum_md": "(1) farklı — canlılar çevrelerini birbirinden farklı yollarla algılar, hepsi aynı biçimde algılamaz. (2) koku — köpeklerin en güçlü olduğu duyu, koku alma duyusudur. 'Aynı', 'görme' ve 'işitme' kelimeleri bu cümlelerde kullanılmayan çeldiricilerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Örümcekler av yakalamak için ağ kurar. Bir böcek ağa takıldığında örümcek bunu hemen fark eder. Örümcekler bunu EN ÇOK hangi yolla algılar?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Gözleriyle görerek"},
+            {"harf": "B", "metin_md": "Bacaklarındaki tüylerle ağdaki titreşimi hissederek"},
+            {"harf": "C", "metin_md": "Burnuyla koklayarak"},
+            {"harf": "D", "metin_md": "Kulaklarıyla duyarak"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Örümcekler ağlarına takılan böceklerin oluşturduğu titreşimleri bacaklarındaki özel tüylerle algılar. Bu, örümceklerin çevrelerini algılamak için kullandığı kendine özgü bir yoldur; insanların kullandığı görme, koklama veya duyma yollarından farklıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda bazı duyu organları ve topladıkları veriler yarım bırakılmıştır. Tabloyu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Duyu Organı", "Topladığı Veri (örnek)"],
+            "satirlar": [
+              ["Göz", "__?__"],
+              ["__?__", "Ses"],
+              ["Dil", "__?__"],
+              ["__?__", "Koku"]
+            ]
+          },
+          "cevap": {"r0c1": "Renk/görüntü", "r1c0": "Kulak", "r2c1": "Tat", "r3c0": "Burun"},
+          "cozum_md": "Göz renk ve görüntüyle ilgili veri toplar. Sesle ilgili veriyi toplayan duyu organı kulaktır. Dil tatla ilgili veri toplar. Kokuyla ilgili veriyi toplayan duyu organı burundur."
+        },
+        {
+          "id": "s5",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bütün canlılar çevrelerini insanlarla aynı duyu organlarını kullanarak algılar.", "cevap": false, "gerekce_md": "Farklı canlıların kendine özgü algılama yolları vardır; örneğin örümcekler bacaklarındaki tüylerle titreşim algılar, insanların duyu organlarıyla aynı değildir."},
+            {"no": 2, "metin_md": "Kelebekler kokuyu antenleriyle algılayabilir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Bir canlının çevresini nasıl algıladığını anlamak için veri toplamaya gerek yoktur, tahmin etmek yeterlidir.", "cevap": false, "gerekce_md": "Bilimsel bir çıkarım yapabilmek için gözlem yapıp veri toplamak gerekir; sadece tahmin etmek güvenilir bir sonuç vermez."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false}},
+          "cozum_md": "1-Yanlış: Canlılar çevrelerini farklı yollarla algılar, hepsi insanla aynı duyu organlarına sahip değildir. 2-Doğru: Kelebekler kokuyu antenleriyle algılar. 3-Yanlış: Bilimsel çıkarım için veri toplamak gerekir, sadece tahmin yeterli değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda bazı hayvanların en güçlü olduğu algılama biçimi verilmiştir:\n\n| Hayvan | En güçlü algılama biçimi |\n|---|---|\n| Köpek | Koku alma |\n| Baykuş | Karanlıkta iyi görme |\n| Yarasa | Sesle çevreyi algılama |\n| Balık | Suda titreşim hissetme |\n\nYukarıdaki tabloya bakarak canlıların çevrelerini algılama biçimleriyle ilgili bir **çıkarım** yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Her canlının çevresini algılamak için daha güçlü olduğu, kendine özgü bir yolu vardır. Canlılar yaşadıkları ortama en uygun algılama biçimini kullanır; bu yüzden bütün canlılar çevrelerini aynı biçimde algılamaz.",
+            "kabul_kriterleri": ["Tablodaki verileri kullanarak bir genelleme yapmış olması", "Canlıların çevrelerini farklı/kendine özgü biçimlerde algıladığı sonucuna varmış olması"]
+          },
+          "cozum_md": "Tabloya bakıldığında her hayvanın farklı bir algılama biçiminde güçlü olduğu görülür (köpek-koku, baykuş-görme, yarasa-ses, balık-titreşim). Buradan, canlıların çevrelerini kendi yaşam biçimlerine en uygun yolla algıladığı ve bu nedenle tüm canlıların çevrelerini aynı biçimde algılamadığı çıkarımı yapılabilir."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Elif, sınıf arkadaşlarına kokulu üç ayrı kutu koklattı ve her arkadaşının hangi kokuyu doğru tanıdığını bir tabloya kaydetti. Elif bu çalışmasında EN ÇOK hangi süreci gerçekleştirmiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece bir tahminde bulunmuştur."},
+            {"harf": "B", "metin_md": "Duyu organlarının işlevleriyle ilgili veri toplayıp kaydetmiştir."},
+            {"harf": "C", "metin_md": "Bir canlının yaşam döngüsünü incelemiştir."},
+            {"harf": "D", "metin_md": "Sadece görme duyusunu test etmiştir."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Elif, arkadaşlarına kokular koklatıp sonuçları bir tabloya kaydederek burnun (koku alma duyusunun) işleviyle ilgili veri toplamış ve kaydetmiştir. Tahminde bulunmamış, yaşam döngüsü incelememiş ve görme duyusunu test etmemiştir."
+        }
+      ]
+    }
+  ]
+}
