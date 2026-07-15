@@ -1,6 +1,36 @@
 # Yaver — Proje Durumu
 
-**Son güncelleme:** 12.07.2026 — Oturum 85 (Çalışma yaprağı skill'i olgunlaştırıldı + uygulama entegrasyon planı çıkarıldı — henüz kod yazılmadı, plan aşamasında duruldu)
+**Son güncelleme:** 15.07.2026 — Oturum 86 (Çalışma yaprağı üretimi devam — Dalga 5 tamamlandı, kuyruk güncellendi, Durum tespiti)
+
+## ŞU AN NEREDEYİZ (Oturum 86 — CalismaYapragiScreen + üretim kuyruk güncellemesi, 15.07.2026)
+
+Önceki oturumlarda üretilmiş 38 untracked dosya (19 JSON + 19 HTML) incelendi, doğrulandı ve commit edildi. Kuyruk durumu güncellendi.
+
+**1. CalismaYapragiScreen hub ekranı — TAMAMLANDI (commit edilmiş, test edilmemiş):**
+- `src/screens/main/CalismaYapragiScreen.tsx` (408 satır): Supabase'den `calisma_yapraklari` tablosunu çeker, kazanım koduna göre varyasyonları listeler, HTML'yi `pdfOnizlemeAc()` ile gösterir.
+- Navigasyon: `RootNavigator.tsx`'e `CalismaYapragi` screen eklendi (`{ kazanimKodu, kazanimAdi, sinif }` params).
+- Giriş noktası 1: `HaftaDetayiScreen.tsx` — kazanım kartındaki "Çalışma Yaprağı" chip'ine basınca CalismaYapragi'na yönlendirme.
+- Giriş noktası 2: `DersIcinScreen.tsx` — "Çalışma Yaprağı" tile'ına basınca kazanım seçimi sonrası CalismaYapragi'na yönlendirme.
+- Kalıcı hafızada not: `project_calisma_yapragi_uygulama_entegrasyonu`.
+
+**2. Üretim kuyruğu (sinif_ogretmeni_kuyruk.json) güncellendi:**
+- Toplam benzersiz kazanım: 350
+- Tamamlanan (dalga1-5): 127 (FB 37 + HB 63 + IHVD 13 + MAT 7 + SB 1 + Türkçe 2 + GS 1 + MUZ 1 + diğerleri 2)
+- Bekleyen: 220
+- Pilot (test): 3
+- **Sınıf Öğretmenliği branşı 108 kazanımın tamamlandı**, sıradaki branşlar: Türkçe (büyük), Matematik (101 kazanım daha bekliyor), Sosyal Bilgiler.
+
+**3. Pilot doğrulama:**
+- 130 JSON dosyasının tamamı geçerli (0 bozuk)
+- `tsc --noEmit` — 0 hata
+- Kuyruk encoding'i: PowerShell'de Türkçe karakterler bozuk görünüyor ama dosya UTF-8 ve sağlam (sadece display sorunu)
+
+**BEKLİYOR — sıradaki adımlar:**
+1. CalismaYapragiScreen cihazda test edilecek (Expo Go)
+2. Dalga 6 üretimi: kuyrukta 220 kazanım bekliyor, her dalga 20 kazanım
+3. Üretimden sonra HTML'ler Supabase `calisma_yapraklari` tablosuna seed edilecek (henüz yapılmadı — `20260712000077_seed_test_fiz942_calisma_yapragi.sql` sadece tek test verisi var)
+
+---
 
 ## ŞU AN NEREDEYİZ (Oturum 85 — Çalışma yaprağı skill'i + uygulama entegrasyon planı, 11-12.07.2026)
 

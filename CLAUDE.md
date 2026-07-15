@@ -103,6 +103,33 @@ fonts.*         Plus Jakarta Sans (regular/medium/semiBold/bold/extraBold/italic
 
 ---
 
+## ÇALIŞMA YAPRAĞI ÜRETİM PİPELİNİ
+
+**Skill:** `calisma-yapragi/SKILL.md` — MEB kazanımından çalışma yaprağı JSON'u üretir.
+**Veri:** `calisma-yapragi/data/` — branş bazlı kazanım JSON'ları (şu an: `sinif_ogretmeni_v2.json`).
+**Kuyruk:** `calisma-yapragi/uretim/sinif_ogretmeni_kuyruk.json` — kazanım kodu bazlı üretim durumu.
+**Pilot çıktı:** `calisma-yapragi/uretim/sinif_ogretmeni_pilot/` — JSON + HTML çiftleri.
+**Scriptler:** `calisma-yapragi/scripts/` — `find_kazanim.py`, `validate_worksheet.py`, `render_html.py`.
+**Referans:** `calisma-yapragi/references/` — `worksheet_schema.md`, `pedagoji.md`, `qa_rubric.md`.
+
+**Üretim akışı:**
+1. Kuyruktan `bekliyor` olan N kazanım seçilir (dalga boyutu: 20).
+2. Her kazanım için `calisma-yapragi` SKILL.md çalıştırılır (subagent ile paralel).
+3. Çıktı: `<KOD>_calisma_yapragi.json` + `.html` → `sinif_ogretmeni_pilot/`.
+4. `validate_worksheet.py` ile deterministik doğrulama.
+5. Kuyruk durumu `tamamlandi_dalgaN` olarak güncellenir.
+6. Toplu commit: `feat(calisma-yapragi): Dalga N — [branş özeti]`
+
+**Uygulama entegrasyonu:**
+- `calisma_yapraklari` tablosu (migration 076): `kazanim_kod`, `varyasyon_no`, `html_icerik`, `meta`.
+- `CalismaYapragiScreen`: hub ekranı, Supabase'den çeker, `pdfOnizlemeAc()` ile gösterir.
+- Giriş noktaları: `HaftaDetayiScreen` (çalışma yaprağı chip'i) + `DersIcinScreen` (çalışma yaprağı tile'ı).
+- Henüz test edilmedi — cihaz doğrulaması bekleniyor.
+
+**Kural:** Kuyruk her turda güncellenmeli (commit'ten önce). Untracked dosya birikmemeli.
+
+---
+
 ## EKRAN LİSTESİ
 
 | # | Ekran | Dosya |
@@ -120,6 +147,8 @@ fonts.*         Plus Jakarta Sans (regular/medium/semiBold/bold/extraBold/italic
 | S12 | Evraklarım | `screens/main/EvraklarimScreen.tsx` |
 | S13 | Şablon Doldurma | `screens/main/SablonDoldurmaScreen.tsx` |
 | S14 | Profil | `screens/main/ProfilScreen.tsx` |
+
+**Stack ekranlar:** Uretim, Cikti, HaftaDetayi, SablonDoldurma, OkulBilgileri, DersProgrami, SinavDagilim, SinavAnaliz, CalismaYapragi
 
 ---
 
