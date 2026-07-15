@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Günlük Yaşam Problemlerini Çözüyoruz",
+    "kazanim": {
+      "kod": "MAT.4.2.6",
+      "ad": "Dört işlem gerektiren günlük yaşam problemlerini çözebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Problemi anlayarak verilen ve istenilenleri belirler.",
+        "b": "Problemin gerektirdiği işlemi belirler.",
+        "c": "Problemi çözer.",
+        "d": "Çözümünü kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları, günlük yaşam problemlerinde dört işlemi doğru kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir problemi çözerken önce ____(1)____ ve ____(2)____ kısımlarını belirleriz.\n\nSonra problemin hangi ____(3)____ ile çözüleceğine karar veririz.\n\nÇözümü bulduktan sonra ____(4)____ ederiz.",
+          "gorsel": null,
+          "kelime_havuzu": ["verilen", "istenilen", "işlem", "kontrol", "toplama", "çıkarma"],
+          "cevap": {"1": "verilen", "2": "istenilen", "3": "işlem", "4": "kontrol"},
+          "cozum_md": "Problemi çözmek için önce verilen ve istenilen kısımlarını belirleriz. Sonra problemde hangi işlemin (toplama, çıkarma, çarpma veya bölme) gerektiğini anlarız. Çözümü bulduktan sonra kontrol ederek doğruluğunu sınarız."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir problemin verilen kısmında soruda bize verilen sayılar yer alır.", "cevap": true, "gerekce_md": "Verilen kısmı, soruda açıkça belirtilen sayısal değerler ve bilgiler oluşturur."},
+            {"no": 2, "metin_md": "Problemi çözerken her zaman toplama işlemi kullanılır.", "cevap": false, "gerekce_md": "Probleme göre toplama, çıkarma, çarpma veya bölme işleminden biri veya birkaçı kullanılabilir."},
+            {"no": 3, "metin_md": "Çözümü kontrol etmek, sonucun doğru olup olmadığını anlamamızı sağlar.", "cevap": true, "gerekce_md": "Kontrol işlemi, bulduğumuz sonucun sorunun sorusuna uyup uymadığını sınar."},
+            {"no": 4, "metin_md": "İstenilen kısım, soruda bizden istenen değeri belirtir.", "cevap": true, "gerekce_md": "İstenilen kısım, problemin sonunda bizden bulmamız istenen büyüklüktür."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": true}},
+          "cozum_md": "1) Doğru — verilen kısım, sorudaki bilinen değerlerdir. 2) Yanlış — her problema toplama uygulanmaz; işleme göre değişir. 3) Doğru — kontrol, sonucun doğruluğunu garantiler. 4) Doğru — istenilen, bulunması istenen değerdir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki problemleri günlük yaşamdan örneklerle çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Elif markete 50 TL ile gitti. Bir ekmek 8 TL, bir süt 6 TL ve bir peynir 15 TL idi. Elif bu üç ürünü aldığında kasaya ne kadar öder?\n\nBu problemde hangi işlem(ler) kullanılmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yalnızca toplama (8 + 6 + 15)"},
+            {"harf": "B", "metin_md": "Yalnızca çıkarma (50 - 8 - 6 - 15)"},
+            {"harf": "C", "metin_md": "Toplama ile fiyatların toplamı, sonra çıkarma ile para üstü bulunur"},
+            {"harf": "D", "metin_md": "Yalnızca çarpma (8 × 6 × 15)"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Önce üç ürünün fiyatını toplayarak toplam harcamayı buluruz: 8 + 6 + 15 = 29 TL. Sonra 50 TL'den 29 TL'yi çıkararak para üstünü hesaplarız: 50 - 29 = 21 TL. C seçeneği hem toplamayı hem çıkarmayı doğru tanımlar."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Sınıfta 24 öğrenci var. Öğretmen her öğrenciye 3 kalem dağıtacak. Öğretmenin toplam kaç kaleme ihtiyacı vardır?\n\nBu problemin çözümü nedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "24 + 3 = 27 kalem"},
+            {"harf": "B", "metin_md": "24 - 3 = 21 kalem"},
+            {"harf": "C", "metin_md": "24 × 3 = 72 kalem"},
+            {"harf": "D", "metin_md": "24 ÷ 3 = 8 kalem"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Her birine 3 kalem verileceği için toplam kalem sayısını bulmak üzere çarpma yapılır: 24 × 3 = 72. Öğretmenin 72 kaleme ihtiyacı vardır."
+        },
+        {
+          "id": "s5",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ali'nin kitaplığında 36 kitabı vardır. Ali, arkadaşına 12 kitap vermiştir. Ali'nin kalan kitap sayısını bulalım.\n\nVerilen: Başlangıçta ____(1)____ kitabı vardır, ____(2)____ kitap verilmiştir.\nİstenilen: Kalan kitap sayısı.\nİşlem: ____(3)____\nSonuç: ____(4)____ kitap kalmıştır.",
+          "gorsel": null,
+          "cevap": {"1": "36", "2": "12", "3": "36 - 12 = 24", "4": "24"},
+          "cozum_md": "36 kitaptan 12'si verildiğinde kalan kitap sayısını bulmak için çıkarma işlemi yapılır: 36 - 12 = 24. Ali'nin 24 kitabı kalmıştır. Kontrol: 24 + 12 = 36 (başlangıç sayısına eşit, doğrulandı)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki problem durumlarını analiz ederek çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir otobüs 120 km yolunun 45 km'sini sabah, kalanını öğleden sonra gitmiştir. Otobüs öğleden sonra kaç km yol gitmiştir?",
+          "gorsel": null,
+          "cevap": {"deger": 75, "birim": "km", "tolerans_yuzde": 0},
+          "cozum_md": "Toplam yol 120 km, sabah gidilen yol 45 km. Öğleden sonra gidilen yol: 120 - 45 = 75 km. Kontrol: 45 + 75 = 120 km (toplam yola eşit)."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 20,
+          "govde_md": "Bir fırında sabah 240 ekmek pişirilmiştir. Öğlene kadar 150 ekmek satılmış, sonra 180 ekmek daha pişirilmiştir. Fırında şimdi kaç ekmek vardır? Çözümünüzü kontrol ederek yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Adım 1: Sabah pişirilen ekmek sayısı = 240\nAdım 2: Satılan ekmek = 150, kalan = 240 - 150 = 90\nAdım 3: Yeni pişirilen ekmek = 180, toplam = 90 + 180 = 270\nKontrol: 240 - 150 + 180 = 270. Doğru.",
+            "kabul_kriterleri": [
+              "Adım adım işlem sırasını doğru kurmuş (çıkarma sonra toplama)",
+              "Sonucu 270 olarak bulmuş",
+              "Kontrol adımını yazmış"
+            ]
+          },
+          "cozum_md": "Önce satılan ekmekler çıkartılır: 240 - 150 = 90 ekmek kalır. Sonra yeni pişirilenler eklenir: 90 + 180 = 270 ekmek. Kontrol: 240'ten 150 çıkınca 90 kalır, 180 eklenince 270 olur."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Ayşe bir mağazadan 3 ayakkabı ve 2 çanta almıştır. Her ayakkabı 120 TL, her çanta 85 TL'dir. Ayşe toplam kaç TL ödemiştir?\n\nÖdeme tutarını kontrol ederken hangi yol izlenmelidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3 × 120 = 360, 2 × 85 = 170, toplam 360 + 170 = 530 TL"},
+            {"harf": "B", "metin_md": "3 + 120 = 123, 2 + 85 = 87, toplam 123 + 87 = 210 TL"},
+            {"harf": "C", "metin_md": "3 × 120 × 2 × 85 = 61.200 TL"},
+            {"harf": "D", "metin_md": "120 + 85 = 205, 205 × 5 = 1.025 TL"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Her ayakkabı 120 TL, 3 ayakkabı: 3 × 120 = 360 TL. Her çanta 85 TL, 2 çanta: 2 × 85 = 170 TL. Toplam: 360 + 170 = 530 TL. Kontrol: A seçeneği hem hesaplamayı hem kontrol yolunu doğru gösterir. B toplama ile çarpma karıştırılmış, C yanlış çarpma, D ise birim fiyat toplayıp adetle çarpmış."
+        }
+      ]
+    }
+  ]
+}

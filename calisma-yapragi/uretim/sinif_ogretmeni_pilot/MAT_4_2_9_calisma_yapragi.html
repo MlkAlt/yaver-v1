@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Tahmin Stratejilerini Kullanıyoruz</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Tahmin Stratejilerini Kullanıyoruz</h1><div class='chips'><span class='chip dolu'>MAT.4.2.9</span><span class='chip'>Matematik • 4. Sınıf</span><span class='chip'>4. Tema: İşlemlerden Cebi̇rsel Düşünmeye</span><span class='chip'>30 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Dört işlem gerektiren problem durumları için tahmin stratejilerini kullanabilme</div><div class='bolum'><span>Tanıyalım</span><em>Tahmin yapmanın önemini aşağıdaki sorularla anlayalım.</em><span class='bpuan'>20 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Tahmin, problemi çözmek için gerekli bir adımdır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Tahmin her zaman kesin sonuçla aynı olmalıdır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Tahmin yaparak işlem yapmadan önce sonucun ne kadar olacağını yaklaşık olarak bilebiliriz.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Tahmin yaparken sayıları <span class='bosluk'></span> yaparak yaklaşık değer buluruz.<br><br>Örneğin 47 sayısını <span class='bosluk'></span> olarak yuvarlayabiliriz.<br><br>Sonra gerçek işlemi yapıp tahminimizle <span class='bosluk'></span> ederiz.<br><br>Eğer tahmin ile sonuç birbirine <span class='bosluk'></span> ise tahminimiz başarılıdır.</div></div><div class='havuz'><span>yuvarlama</span><span>50</span><span>karşılaştırma</span><span>yakın</span><span>uzak</span><span>toplama</span></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki sorularda tahmin stratejileri geliştirerek çözünüz.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">234 + 478 işleminin sonucunu tahmin etmek için en iyi strateji hangisidir?</div></div><div class='sec tek'><div><b>A)</b> Sayıları yüzler basamağına göre yuvarla: 200 + 500 = 700</div><div><b>B)</b> Sayıları onlar basamağına göre yuvarla: 230 + 480 = 710</div><div><b>C)</b> Yalnızca birinci sayıyı yuvarla: 200 + 478 = 678</div><div><b>D)</b> Tahmin yapma, hemen hesapla</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Bir kitapçıda 3 kitap fiyatıyla: 34 TL, 56 TL ve 28 TL.<br><br>Bu üç kitabın toplam fiyatını tahmin etmek için hangi stratejiyi kullanırsınız?</div></div><div class='sec tek'><div><b>A)</b> Her sayıyı 10&#x27;a yuvarla: 30 + 60 + 30 = 120 TL</div><div><b>B)</b> Her sayıyı 50&#x27;ye yuvarla: 50 + 50 + 50 = 150 TL</div><div><b>C)</b> Yalnızca en büyük sayıyı yuvarla: 34 + 60 + 28 = 122 TL</div><div><b>D)</b> Sayıları 100&#x27;e yuvarla: 100 + 100 + 100 = 300 TL</div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">72 × 3 işlemini hesaplamadan önce tahminde bulununuz.<br><br>Tahmininizi hangi strateji ile yaptığınızı ve gerçek sonuçla karşılaştırınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='bolum'><span>Uygulayalım</span><em>Tahmin stratejilerini gerçek problem durumlarında uygulayınız.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">10p</span><div class="smetin">Bir bakkal 6 paket çikolata almıştır. Her pakette 24 çikolata vardır. Bakkal kaç çikolata almıştır?<br><br>Önce tahminde bulununuz, sonra hesaplayınız.</div></div><div class='yanit'><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki problem için tahmin stratejinizi yazınız ve uygulayınız.<br><br>Problemi çözmeden önce tahmin yapınız, sonra hesaplayınız ve karşılaştırınız.<br><br>Bir otobüs 137 km, 245 km ve 89 km yol gitmiştir. Otobüs toplam kaç km yolmuştur?</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">15p</span><div class="smetin">Zeynep marketten 8 kutu süt almıştır. Her kutu 3,50 TL&#x27;dir.<br><br>Zeynep en fazla ne kadar ödemiştir?<br><br>Sonucun makul olup olmadığını nasıl anlarsınız?</div></div><div class='sec tek'><div><b>A)</b> 8 × 3,50 = 28 TL. Kontrol: 8 × 4 = 32, 8 × 3 = 24. Sonuç 24 ile 32 arasında, makul.</div><div><b>B)</b> 8 + 3,50 = 11,50 TL. Kontrol: 8 × 4 = 32. Sonuç 32&#x27;den küçük, makul.</div><div><b>C)</b> 8 × 3,50 = 240 TL. Kontrol: 8 × 4 = 32. Sonuç 32&#x27;den çok büyük, hatalı.</div><div><b>D)</b> 8 × 3,50 = 2,8 TL. Kontrol: 8 × 3 = 24. Sonuç 24&#x27;ten çok küçük, hatalı.</div></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.4.2.9</span><span class='chip'>Tahmin Stratejilerini Kullanıyoruz</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-D, 2-Y, 3-D<div class='ak-cozum'>1) Doğru — tahmin çözüm sürecinin parçasıdır. 2) Yanlış — tahmin yaklaşık bir değerdir, kesin olmak zorunda değildir. 3) Doğru — tahminle sonuca yaklaşılabilir.</div></div><div class='ak-soru'><b>2.</b> (1) yuvarlama, (2) 50, (3) karşılaştırma, (4) yakın<div class='ak-cozum'>Tahmin için sayıları yuvarlarız (47 → 50). İşlemi yaptıktan sonra tahmin ile sonucu karşılaştırırız. Yakın çıkan tahmin başarılıdır.</div></div><div class='ak-soru'><b>3.</b> <b>B</b><div class='ak-cozum'>En iyi tahmin stratejisi, her iki sayıyı da onlar basamağına yuvarlamaktır: 234 → 230, 478 → 480. 230 + 480 = 710. Gerçek sonuç 512&#x27;dir (aslında 234+478=712). Tahmin (710) gerçek sonuca (712) çok yakındır. A çok geniştir, C eksik yuvarlama, D ise stratejiyi göz ardı eder.</div></div><div class='ak-soru'><b>4.</b> <b>A</b><div class='ak-cozum'>Her sayıyı 10&#x27;a yuvarlamak en dengeli stratejidir: 34→30, 56→60, 28→30. Toplam: 30+60+30=120. Gerçek sonuç: 34+56+28=118. Tahmin (120) gerçek sonuca (118) çok yakındır. B çok geniştir, C dengesiz, D ise çok geniş bir tahmin verir.</div></div><div class='ak-soru'><b>5.</b> Tahmin: 70 × 3 = 210. Strateji: 72 sayısını 70&#x27;e yuvarladım, 3 sayısını olduğu gibi bıraktım. Gerçek sonuç: 72 × 3 = 216. Karşılaştırma: Tahminim (210) gerçek sonuca (216) 6 farkla yakındır. Tahminim başarılı olmuştur.<div class='ak-cozum'>Tahmin: 70 × 3 = 210. Gerçek: 72 × 3 = 216. Fark: 216 - 210 = 6. Tahmin oldukça yakındır.</div></div><div class='ak-soru'><b>6.</b> <b>144 çikolata</b><div class='ak-cozum'>Tahmin: 6 × 25 = 150 (24&#x27;ü 25&#x27;e yuvarladım). Gerçek: 6 × 24 = 144. Tahmin (150) gerçek sonuca (144) yakındır.</div></div><div class='ak-soru'><b>7.</b> Tahmin stratejisi: Her sayıyı 10&#x27;a yuvarlayacağım: 140 + 250 + 90 = 480 km.<br>Tahmin: yaklaşık 480 km.<br>Gerçek hesaplama: 137 + 245 + 89 = 471 km.<br>Karşılaştırma: Tahminim (480) gerçek sonuca (471) 9 km farkla yakındır. Strateji başarılı olmuştur.<div class='ak-cozum'>Tahmin: 140+250+90=480 km. Gerçek: 137+245+89=471 km. Fark: 9 km. Tahmin oldukça yakındır.</div></div><div class='ak-soru'><b>8.</b> <b>A</b><div class='ak-cozum'>8 × 3,50 = 28 TL. Kontrol: Sayıları yuvarlarsak 8 × 4 = 32 ve 8 × 3 = 24. Gerçek sonuç (28) bu iki değer arasında olduğu için makuldür. A seçeneği hem doğru hesaplamayı hem kontrol stratejisini gösterir.</div></div></div></body></html>

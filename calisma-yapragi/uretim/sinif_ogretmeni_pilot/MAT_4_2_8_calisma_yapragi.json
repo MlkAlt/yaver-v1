@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Eşitliğin Farklı Anlamlarını Yorumluyoruz",
+    "kazanim": {
+      "kod": "MAT.4.2.8",
+      "ad": "Dört işlem bağlamında eşitliğin farklı anlamlarını yorumlayabilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Dört işlemde eşitliği farklı anlamlarına göre inceler.",
+        "b": "Aynı sonucu veren durumları farklı sayılarla ifade eder.",
+        "c": "Eşitliğin anlamlarını dört işlem bağlamında ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Eşitliğin farklı anlamlarını aşağıdaki sorularla keşfedelim.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "8 = 5 + 3 eşitliği, 8 sayısının 5 ve 3'ün toplamına eşit olduğunu gösterir.", "cevap": true, "gerekce_md": "Eşitliğin solundaki değer, sağındaki işlemin sonucuna eşittir."},
+            {"no": 2, "metin_md": "12 = 4 × 3 eşitliği, 12 sayısının 4'e bölünmesinin 3 olduğunu da gösterir.", "cevap": true, "gerekce_md": "Çarpma ve bölme birbirinin tersi olduğu için 12 = 4 × 3 hem çarpma hem bölme bağlamında doğrudur."},
+            {"no": 3, "metin_md": "10 - 4 = 5 + 1 eşitliği yanlıştır çünkü sonuçlar farklıdır.", "cevap": false, "gerekce_md": "10 - 4 = 6 ve 5 + 1 = 6 olduğu için her iki tarafın sonucu eşittir, bu eşitlik doğrudur."},
+            {"no": 4, "metin_md": "Eşitliğin her iki tarafına aynı sayı eklersek eşitlik bozulmaz.", "cevap": true, "gerekce_md": "Eşitliğin her iki tarafına aynı işlemin yapılması (ekleme, çıkarma, çarpma, bölme) denkliği korur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "1) Doğru — toplam eşitliği. 2) Doğru — çarpma ve bölme tersidir. 3) Yanlış — her iki tarafın sonucu 6'ya eşittir. 4) Doğru — eşitliğin her iki tarafına aynı sayı ekleme denkliği korur."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "15 = 7 + ____(1)____ eşitliğinde boşluk ____(2)____'dir.\n\nBu eşitlik ____(3)____ işleminin bir örneğidir.\n\nEşitliğin her iki tarafına 5 eklersek: 15 + 5 = 7 + 8 + 5 → ____(4)____ = ____(5)____ olur.",
+          "gorsel": null,
+          "cevap": {"1": "8", "2": "8", "3": "toplama", "4": "20", "5": "20"},
+          "cozum_md": "15 = 7 + 8 (toplama). Eşitliğin her iki tarafına 5 eklersek: 15 + 5 = 20 ve 7 + 8 + 5 = 20. Her iki taraf da 20'ye eşit olur, denklik korunur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Eşitliğin farklı anlamlarını aşağıdaki sorularda yorumlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "24 = 6 × 4 eşitliği hangi anlama gelir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "24 sayısının 6'ya bölünmesinin 4 olduğunu söyler"},
+            {"harf": "B", "metin_md": "6 sayısının 24 ile çarpıldığını söyler"},
+            {"harf": "C", "metin_md": "24 sayısının 6 eksi 4 olduğunu söyler"},
+            {"harf": "D", "metin_md": "6 sayısının 24'ü 4 parçaya böldüğünü söyler"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "24 = 6 × 4, çarpma eşitliğidir. Bu aynı zamanda bölme bağlamında da okunabilir: 24 ÷ 6 = 4. A seçeneği bu anlamını doğru yansıtır. B yanlış (6 × 24 ≠ 24), C yanlış (toplama/çıkarma değil), D ise çapraz okuma hatasıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sol taraftaki eşitlikleri, sağ taraftaki anlamlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "20 = 5 + 15"},
+            {"no": 2, "metin_md": "20 = 4 × 5"},
+            {"no": 3, "metin_md": "20 = 100 ÷ 5"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bölme anlamı: 100'ün 5'e bölünmesi 20 eder"},
+            {"harf": "B", "metin_md": "Toplama anlamı: 5 ile 15'in toplamı 20 eder"},
+            {"harf": "C", "metin_md": "Çarpma anlamı: 4 ile 5'in çarpımı 20 eder"},
+            {"harf": "D", "metin_md": "Çıkarma anlamı: 20'den 5 çıkarılması"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A"},
+          "cozum_md": "1-B: 20 = 5 + 15 toplama eşitliğidir. 2-C: 20 = 4 × 5 çarpma eşitliğidir. 3-A: 20 = 100 ÷ 5 bölme eşitliğidir. D seçeneği (çıkarma) bu eşitliklerin hiçbirine uymaz."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aynı sonuca ulaşan farklı işlemler vardır.\n\n30 = 5 × 6 ve 30 = 3 × 10 eşitlikleri aynı sonucu verir.\n\nBu iki eşitlik arasındaki ortak nokta nedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Her ikisinin de sonucu 30'dur"},
+            {"harf": "B", "metin_md": "Her ikisinde de 6 sayısı vardır"},
+            {"harf": "C", "metin_md": "Her ikisi de toplama işlemi kullanır"},
+            {"harf": "D", "metin_md": "Her ikisi de 5 sayısı ile ilgilidir"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Her iki çarpma işleminin de sonucu 30'dur. Farklı sayı çiftleri (5×6 ve 3×10) aynı sonuca ulaşabilir. B yanlıştır (3×10'da 6 yoktur), C yanlıştır (toplama değil çarpma), D yanlıştır (3×10'da 5 yoktur)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Eşitliğin farklı anlamlarını uygulama sorularında gösteriniz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "48 sayısını farklı işlemler kullanarak en az 4 farklı şekilde ifade ediniz.\n\nHer ifadenin sonucunun 48 olduğunu gösteriniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) 48 = 40 + 8 (toplama)\n2) 48 = 60 - 12 (çıkarma)\n3) 48 = 8 × 6 (çarpma)\n4) 48 = 96 ÷ 2 (bölme)\n\nHer birinde sonucun 48 olduğu doğrulanır.",
+            "kabul_kriterleri": [
+              "En az 4 farklı eşitlik yazmış",
+              "Her eşitlikte farklı bir işlem (toplama, çıkarma, çarpma, bölme) kullanmış",
+              "Her eşitliğin doğru olduğunu göstermiş"
+            ]
+          },
+          "cozum_md": "48'i dört işlemle ifade etmek: toplama (40+8), çıkarma (60-12), çarpma (8×6), bölme (96÷2). Her birinde sonuç 48'dir."
+        },
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir dikdörtgenin alanı 36 cm²'dir. Uzun kenarı 9 cm ise kısa kenarı kaç cm'dir?\n\nEşitliğin anlamını açıklayarak çözünüz.",
+          "gorsel": null,
+          "cevap": {"deger": 4, "birim": "cm", "tolerans_yuzde": 0},
+          "cozum_md": "Alan = uzunluk × genişlik → 36 = 9 × genişlik → genişlik = 36 ÷ 9 = 4 cm. Eşitliğin anlamı: çarpma eşitliğinin tersi olarak bölme kullanılır."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Eşitliğin her iki tarafına aynı işlem yapmanın sonucu değiştirmeyeceği söylenir.\n\n12 = 3 × 4 eşitliğinin her iki tarafına 2 eklersek ne olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "14 = 3 × 4 + 2 → 14 = 14 (eşitlik korunur)"},
+            {"harf": "B", "metin_md": "14 = 6 × 4 → 14 = 24 (eşitlik bozulur)"},
+            {"harf": "C", "metin_md": "12 = 3 × 6 → 12 = 18 (eşitlik bozulur)"},
+            {"harf": "D", "metin_md": "14 = 3 × 4 → 14 = 12 (eşitlik bozulur)"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Eşitliğin her iki tarafına 2 eklersek: Sol taraf 12 + 2 = 14, sağ taraf (3 × 4) + 2 = 12 + 2 = 14. Her iki taraf da 14'e eşit olur, denklik korunur. A seçeneği bu durumu doğru gösterir."
+        }
+      ]
+    }
+  ]
+}

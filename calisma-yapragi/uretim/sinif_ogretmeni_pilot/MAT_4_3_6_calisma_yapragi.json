@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Simetri Doğrularını Keşfedelim",
+    "kazanim": {
+      "kod": "MAT.4.3.6",
+      "ad": "Birden fazla simetri doğrusu olan şekilleri çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Simetri doğrularını belirler.",
+        "b": "Keşfeder.",
+        "c": "Çizer."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 5. Tema: Nesnelerin Geometrisi; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Bir şekli iki eşit parçaya ayıran doğruya ____(1)____ denir.\n2) Simetri doğrusunun her iki tarafındaki parçalar birbirinin ____(2)____ıdır.\n3) Karenin ____(3)____ simetri doğrusu vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["simetri doğrusu", "eş", "dört", "üç", "ikiz", "iki"],
+          "cevap": {"1": "simetri doğrusu", "2": "eş", "3": "dört"},
+          "cozum_md": "1) Şekli iki eşit parçaya ayıran doğruya simetri doğrusu denir. 2) Simetri doğrusunun iki tarafındaki parçalar eşittir. 3) Karenin 4 simetri doğrusu vardır."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki şekillerden hangisinin sadece **1 simetri doğrusu** vardır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kare"},
+            {"harf": "B", "metin_md": "Daire"},
+            {"harf": "C", "metin_md": "İskenderun üçgeni (ikizkenar)"},
+            {"harf": "D", "metin_md": "Dikdörtgen"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "İkizkenar üçgenin 1 simetri doğrusu vardır. Karenin 4, dairenin sonsuz, dikdörtgenin 2 simetri doğrusu vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Simetri ile ilgili aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Karenin 4 simetri doğrusu vardır.", "cevap": true, "gerekce_md": "Karenin 2 köşegeni ve 2 kenar orta doğrusu olmak üzere 4 simetri doğrusu vardır."},
+            {"no": 2, "metin_md": "Dikdörtgenin 4 simetri doğrusu vardır.", "cevap": false, "gerekce_md": "Dikdörtgenin sadece 2 simetri doğrusu vardır (kenar orta noktalarından geçenler)."},
+            {"no": 3, "metin_md": "Dairenin sonsuz simetri doğrusu vardır.", "cevap": true, "gerekce_md": "Dairenin merkezinden geçen her doğru bir simetri doğrusudur."},
+            {"no": 4, "metin_md": "Düzgün beşgenin 5 simetri doğrusu vardır.", "cevap": true, "gerekce_md": "Düzgün beşgende her köşeden karşı kenar orta noktalarına simetri doğruları çizilebilir."},
+            {"no": 5, "metin_md": "Her şeklin en az 1 simetri doğrusu vardır.", "cevap": false, "gerekce_md": "Simetrik olmayan şekillerin hiç simetri doğrusu olmaz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": true, "5": false}},
+          "cozum_md": "1. Doğru: 4 simetri doğrusu. 2. Yanlış: Sadece 2. 3. Doğru: Sonsuz. 4. Doğru: 5 simetri doğrusu. 5. Yanlış: Simetriksiz şekiller var."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki şekilleri simetri doğrusu sayılarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kare"},
+            {"no": 2, "metin_md": "Dikdörtgen"},
+            {"no": 3, "metin_md": "Daire"},
+            {"no": 4, "metin_md": "Eşkenar üçgen"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "4"},
+            {"harf": "B", "metin_md": "Sonsuz"},
+            {"harf": "C", "metin_md": "3"},
+            {"harf": "D", "metin_md": "2"}
+          ],
+          "cevap": {"1": "A", "2": "D", "3": "B", "4": "C"},
+          "cozum_md": "Kare→4(A), Dikdörtgen→2(D), Daire→Sonsuz(B), Eşkenar üçgen→3(C)."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kağıdı simetrik olarak katladığımızda, kat çizgisinin her iki tarafındaki kısımlar birbiriyle çakışır. Bu durumda kat çizgisi bir simetri doğrusu olur. Kağıdı 2 kez simetrik olarak katlayıp açtığımızda en az kaç simetri doğrusu oluşur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "1"},
+            {"harf": "B", "metin_md": "2"},
+            {"harf": "C", "metin_md": "3"},
+            {"harf": "D", "metin_md": "4"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "İki farklı yönde katlama yapınca 2 simetri doğrusu oluşur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "tablo_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Şekil", "Simetri Doğrusu Sayısı", "Simetri Türü"],
+            "satirlar": [["Karen", "__?__", "Yatay + Dikey + Çapraz"], ["Daire", "__?__", "Merkezden geçen her yön"], ["Dikdörtgen", "2", "__?__"], ["Eşkenar üçgen", "__?__", "Köşeden karşı kenara"]]
+          },
+          "cevap": {"r0c1": "4", "r1c1": "Sonsuz", "r2c2": "Yatay ve dikey", "r3c1": "3"},
+          "cozum_md": "Karenin 4 simetri doğrusu, dairenin sonsuz, dikdörtgenin 2, eşkenar üçgenin 3 simetri doğrusu vardır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfta simetri etkinliği yapılacak. Sizden istenen:\n\na) Simetri doğrusunu gösteren bir şekli (kağıt üzerinde) çizin\nb) O şekle ait simetri doğrularını renkli kalemle çiziniz\nc) Kaç simetri doğrusu olduğunu ve nedenini yazınız",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kare çizebilirim. Karenin 4 simetri doğrusu vardır: yatay, dikey ve iki çapraz (köşegen). Çünkü karenin tüm kenarları eşit ve tüm açıları 90 derecedir, bu yüzden her yönde simetri sağlanır.",
+            "kabul_kriterleri": [
+              "Simetrik bir şekil çizmiş olması",
+              "Simetri doğrularını doğru göstermiş olması",
+              "Simetri doğrusu sayısını doğru belirtmiş olması",
+              "Nedenini mantıklı açıklamış olması"
+            ]
+          },
+          "cozum_md": "Simetri doğruları, şekli iki eşit parçaya ayıran doğrulardır. Karenin 4, dairenin sonsuz simetri doğrusu vardır."
+        }
+      ]
+    }
+  ]
+}

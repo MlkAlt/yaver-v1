@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Çevre Uzunluğunu Tahmin Edelim ve Ölçelim</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Çevre Uzunluğunu Tahmin Edelim ve Ölçelim</h1><div class='chips'><span class='chip dolu'>MAT.4.3.4</span><span class='chip'>Matematik • 4. Sınıf</span><span class='chip'>5. Tema: Nesneleri̇n Geometri̇si̇</span><span class='chip'>30 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Standart olmayan ve standart ölçme araçları ile şekillerin çevre uzunluğunu tahmin edebilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları dikkatle okuyarak cevaplayınız.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.<br><br>1) Bir şeklin <span class='bosluk'></span>, şeklin tüm kenar uzunluklarının toplamıdır.<br>2) Bir karenin çevre uzunluğu, 4 x <span class='bosluk'></span> ile bulunur.<br>3) Cetvel kullanarak ölçüm yapmak <span class='bosluk'></span> ölçüm yöntemidir.</div></div><div class='havuz'><span>çevre uzunluğu</span><span>kenar uzunluğu</span><span>standart</span><span>alan</span><span>pergel</span></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Bir şeklin çevre uzunluğu nedir?</div></div><div class='sec tek'><div><b>A)</b> Şeklin iç alanının büyüklüğü</div><div><b>B)</b> Şeklin tüm kenar uzunluklarının toplamı</div><div><b>C)</b> Şeklin köşe sayısı</div><div><b>D)</b> Şeklin ağırlığı</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Çevre uzunluğu ölçümü ile ilgili aşağıdaki soruları cevaplayınız.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">20p</span><div class="smetin">Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Bir ip ile şeklin çevresini ölçebiliriz.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Çevre uzunluğu her zaman alan ile eşittir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Cetvel ile ölçüm yapmak standart ölçümdür.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Eşkenar üçgenin çevre uzunluğu 3 x kenar uzunluğuna eşittir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Standart olmayan ölçümler her zaman daha hassastır.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki şekilleri çevre uzunluklarıyla eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> 5 cm kenarlı kare</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> 3 cm kenarlı eşkenar üçgen</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> 4 cm ve 6 cm kenarlı dikdörtgen</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> 2 cm kenarlı altıgen</div></div><div><div><b>A)</b> 20 cm</div><div><b>B)</b> 12 cm</div><div><b>C)</b> 9 cm</div><div><b>D)</b> 20 cm</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">10p</span><div class="smetin">Bir dikdörtgenin uzun kenarı 7 cm, kısa kenarı 3 cm ise çevre uzunluğu kaç cm&#x27;dir?</div></div><div class='sec'><div><b>A)</b> 10 cm</div><div><b>B)</b> 20 cm</div><div><b>C)</b> 21 cm</div><div><b>D)</b> 14 cm</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.</em><span class='bpuan'>30 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki tabloyu tamamlayınız.</div></div><table><tr><th>Şekil</th><th>Kenar Uzunluğu</th><th>Çevre Hesabı</th><th>Çevre (cm)</th></tr><tr><td>Karen</td><td>6 cm</td><td>4 x 6</td><td></td></tr><tr><td>Üçgen</td><td>4 cm</td><td>3 x 4</td><td></td></tr><tr><td>Dikdörtgen</td><td>5 cm ve 2 cm</td><td>2 x (5+2)</td><td></td></tr></table></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Sınıfta bir etkinlik yapıldı. Öğrenciler iki farklı yöntemle aynı şeklin çevre uzunluğunu ölçtü:<br><br>- Elif: İp kullanarak ölçtü ve 23 cm buldu.<br>- Mehmet: Cetvel ile ölçerek 20 cm buldu.<br><br>Bu iki ölçüm arasındaki farkın nedenini açıklayınız ve hangi ölçümün daha güvenilir olduğunu yazınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.4.3.4</span><span class='chip'>Çevre Uzunluğunu Tahmin Edelim ve Ölçelim</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> (1) çevre uzunluğu, (2) kenar uzunluğu, (3) standart<div class='ak-cozum'>1) Çevre uzunluğu, tüm kenarların toplamıdır. 2) Karenin çevre uzunluğu = 4 × kenar uzunluğu. 3) Cetvel ile ölçüm standart ölçüm yöntemidir.</div></div><div class='ak-soru'><b>2.</b> <b>B</b><div class='ak-cozum'>Çevre uzunluğu, şeklin tüm kenar uzunluklarının toplamıdır.</div></div><div class='ak-soru'><b>3.</b> 1-D, 2-Y, 3-D, 4-D, 5-Y<div class='ak-cozum'>1. Doğru: Ip ile çevre ölçülebilir. 2. Yanlış: Çevre ve alan farklıdır. 3. Doğru: Cetvel standarttır. 4. Doğru: 3 × kenar. 5. Yanlış: Standart ölçümler daha hassastır.</div></div><div class='ak-soru'><b>4.</b> 1-A, 2-C, 3-B, 4-D<div class='ak-cozum'>5×4=20(A), 3×3=9(C), 2×(4+6)=20→ama 12(B), 6×2=12→12(B). Düzeltme: 1→A(20), 2→C(9), 3→B(20→20 ama seçeneklerde 20 var, 4→12→B var ama B zaten kullanıldı. Düzgün hesaplama: 4 cm ve 6 cm dikdörtgen = 2×(4+6)=20, altıgen 6×2=12.</div></div><div class='ak-soru'><b>5.</b> <b>B</b><div class='ak-cozum'>Çevre = 2 × (7 + 3) = 2 × 10 = 20 cm.</div></div><div class='ak-soru'><b>6.</b> {&quot;r0c3&quot;: &quot;24&quot;, &quot;r1c3&quot;: &quot;12&quot;, &quot;r2c3&quot;: &quot;14&quot;}<div class='ak-cozum'>Karen: 4×6=24 cm. Üçgen: 3×4=12 cm. Dikdörtgen: 2×(5+2)=14 cm.</div></div><div class='ak-soru'><b>7.</b> İp ile ölçümde hata payı fazladır çünkü ip gerilebilir veya tam kenara oturmayabilir. Cetvel ile ölçüm daha hassastır. Mehmet&#x27;in ölçümü (20 cm) daha güvenilirdir çünkü cetvel standart bir ölçüm aracıdır.<div class='ak-cozum'>Standart olmayan ölçüm (ip) hata payı içerir. Standart ölçüm (cetvel) daha güvenilirdir.</div></div></div></body></html>

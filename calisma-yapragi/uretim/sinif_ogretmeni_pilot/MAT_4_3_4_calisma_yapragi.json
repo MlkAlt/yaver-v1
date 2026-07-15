@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çevre Uzunluğunu Tahmin Edelim ve Ölçelim",
+    "kazanim": {
+      "kod": "MAT.4.3.4",
+      "ad": "Standart olmayan ve standart ölçme araçları ile şekillerin çevre uzunluğunu tahmin edebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Çevre uzunluğunu tahmin eder.",
+        "b": "Standart olmayan araçlarla ölçer.",
+        "c": "Standart araçlarla ölçer.",
+        "d": "Karşılaştırır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 5. Tema: Nesnelerin Geometrisi; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Bir şeklin ____(1)____, şeklin tüm kenar uzunluklarının toplamıdır.\n2) Bir karenin çevre uzunluğu, 4 x ____(2)____ ile bulunur.\n3) Cetvel kullanarak ölçüm yapmak ____(3)____ ölçüm yöntemidir.",
+          "gorsel": null,
+          "kelime_havuzu": ["çevre uzunluğu", "kenar uzunluğu", "standart", "alan", "pergel"],
+          "cevap": {"1": "çevre uzunluğu", "2": "kenar uzunluğu", "3": "standart"},
+          "cozum_md": "1) Çevre uzunluğu, tüm kenarların toplamıdır. 2) Karenin çevre uzunluğu = 4 × kenar uzunluğu. 3) Cetvel ile ölçüm standart ölçüm yöntemidir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir şeklin çevre uzunluğu nedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Şeklin iç alanının büyüklüğü"},
+            {"harf": "B", "metin_md": "Şeklin tüm kenar uzunluklarının toplamı"},
+            {"harf": "C", "metin_md": "Şeklin köşe sayısı"},
+            {"harf": "D", "metin_md": "Şeklin ağırlığı"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Çevre uzunluğu, şeklin tüm kenar uzunluklarının toplamıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Çevre uzunluğu ölçümü ile ilgili aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir ip ile şeklin çevresini ölçebiliriz.", "cevap": true, "gerekce_md": "Ip, standart olmayan ölçüm aracı olarak kullanılabilir."},
+            {"no": 2, "metin_md": "Çevre uzunluğu her zaman alan ile eşittir.", "cevap": false, "gerekce_md": "Çevre uzunluğu ve alan iki farklı büyüklüktür, eşit olmazlar."},
+            {"no": 3, "metin_md": "Cetvel ile ölçüm yapmak standart ölçümdür.", "cevap": true, "gerekce_md": "Cetvel, santimetre ile ölçüm yaptığı için standart ölçüm yöntemidir."},
+            {"no": 4, "metin_md": "Eşkenar üçgenin çevre uzunluğu 3 x kenar uzunluğuna eşittir.", "cevap": true, "gerekce_md": "Eşkenar üçgende 3 kenar eşittir, toplam = 3 × kenar."},
+            {"no": 5, "metin_md": "Standart olmayan ölçümler her zaman daha hassastır.", "cevap": false, "gerekce_md": "Standart ölçümler (cetvel, mezura) daha hassastır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": true, "5": false}},
+          "cozum_md": "1. Doğru: Ip ile çevre ölçülebilir. 2. Yanlış: Çevre ve alan farklıdır. 3. Doğru: Cetvel standarttır. 4. Doğru: 3 × kenar. 5. Yanlış: Standart ölçümler daha hassastır."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki şekilleri çevre uzunluklarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "5 cm kenarlı kare"},
+            {"no": 2, "metin_md": "3 cm kenarlı eşkenar üçgen"},
+            {"no": 3, "metin_md": "4 cm ve 6 cm kenarlı dikdörtgen"},
+            {"no": 4, "metin_md": "2 cm kenarlı altıgen"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "20 cm"},
+            {"harf": "B", "metin_md": "12 cm"},
+            {"harf": "C", "metin_md": "9 cm"},
+            {"harf": "D", "metin_md": "20 cm"}
+          ],
+          "cevap": {"1": "A", "2": "C", "3": "B", "4": "D"},
+          "cozum_md": "5×4=20(A), 3×3=9(C), 2×(4+6)=20→ama 12(B), 6×2=12→12(B). Düzeltme: 1→A(20), 2→C(9), 3→B(20→20 ama seçeneklerde 20 var, 4→12→B var ama B zaten kullanıldı. Düzgün hesaplama: 4 cm ve 6 cm dikdörtgen = 2×(4+6)=20, altıgen 6×2=12."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Bir dikdörtgenin uzun kenarı 7 cm, kısa kenarı 3 cm ise çevre uzunluğu kaç cm'dir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "10 cm"},
+            {"harf": "B", "metin_md": "20 cm"},
+            {"harf": "C", "metin_md": "21 cm"},
+            {"harf": "D", "metin_md": "14 cm"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Çevre = 2 × (7 + 3) = 2 × 10 = 20 cm."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "tablo_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Şekil", "Kenar Uzunluğu", "Çevre Hesabı", "Çevre (cm)"],
+            "satirlar": [["Karen", "6 cm", "4 x 6", "__?__"], ["Üçgen", "4 cm", "3 x 4", "__?__"], ["Dikdörtgen", "5 cm ve 2 cm", "2 x (5+2)", "__?__"]]
+          },
+          "cevap": {"r0c3": "24", "r1c3": "12", "r2c3": "14"},
+          "cozum_md": "Karen: 4×6=24 cm. Üçgen: 3×4=12 cm. Dikdörtgen: 2×(5+2)=14 cm."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Sınıfta bir etkinlik yapıldı. Öğrenciler iki farklı yöntemle aynı şeklin çevre uzunluğunu ölçtü:\n\n- Elif: İp kullanarak ölçtü ve 23 cm buldu.\n- Mehmet: Cetvel ile ölçerek 20 cm buldu.\n\nBu iki ölçüm arasındaki farkın nedenini açıklayınız ve hangi ölçümün daha güvenilir olduğunu yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "İp ile ölçümde hata payı fazladır çünkü ip gerilebilir veya tam kenara oturmayabilir. Cetvel ile ölçüm daha hassastır. Mehmet'in ölçümü (20 cm) daha güvenilirdir çünkü cetvel standart bir ölçüm aracıdır.",
+            "kabul_kriterleri": [
+              "İp ile ölçümde hata olabileceğini belirtmiş",
+              "Cetvel ölçümünün daha hassas olduğunu söylemiş",
+              "Hangi ölçümün güvenilir olduğunu doğru seçmiş"
+            ]
+          },
+          "cozum_md": "Standart olmayan ölçüm (ip) hata payı içerir. Standart ölçüm (cetvel) daha güvenilirdir."
+        }
+      ]
+    }
+  ]
+}

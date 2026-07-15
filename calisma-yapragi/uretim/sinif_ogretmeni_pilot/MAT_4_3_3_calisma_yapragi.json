@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Şekilleri ve Cisimleri Çizelim",
+    "kazanim": {
+      "kod": "MAT.4.3.3",
+      "ad": "Matematiksel araç ve teknolojileri kullanarak çeşitli geometrik cisimleri ve şekilleri çizebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Geometrik cisim ve şekilleri çizer.",
+        "b": "Doğru araçları kullanır.",
+        "c": "Kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 5. Tema: Nesnelerin Geometrisi; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Düzgün çizgiler çizmek için ____(1)____ kullanılır.\n2) Daire çizmek için ____(2)____ kullanılır.\n3) Geometrik şekilleri çizerken ____(3)____ en doğru aracıdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["cetvel", "pergel", "dilimli kağıt", "kalem", "silgi"],
+          "cevap": {"1": "cetvel", "2": "pergel", "3": "cetvel"},
+          "cozum_md": "1) Düz çizgiler için cetvel kullanılır. 2) Daireler için pergel kullanılır. 3) Şekil çizerken cetvel en doğru araçtır."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Daire çizmek için hangi aracı kullanırız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Cetvel"},
+            {"harf": "B", "metin_md": "Pergel"},
+            {"harf": "C", "metin_md": "Silgi"},
+            {"harf": "D", "metin_md": "Kalemlik"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Daire çizmek için pergel kullanılır. Cetvel düz çizgiler için, silgi düzeltme içindir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Geometrik şekiller ve araçlarla ilgili aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Kareyi cetvel ve pergel kullanarak çizebiliriz.", "cevap": true, "gerekce_md": "Cetvel ile kenarları, pergel ile köşeleri kontrol edebiliriz."},
+            {"no": 2, "metin_md": "Dikdörtgenin dört kenarı da eşittir.", "cevap": false, "gerekce_md": "Dikdörtgenin karşılıklı kenarları eşit, komşu kenarları farklıdır."},
+            {"no": 3, "metin_md": "Pergel sadece daire çizmek için kullanılır.", "cevap": false, "gerekce_md": "Pergel daire, yay ve bazı geometrik ölçümler için kullanılır."},
+            {"no": 4, "metin_md": "Düzgün üçgenin tüm kenarları eşittir.", "cevap": true, "gerekce_md": "Düzgün üçgen (eşkenar üçgen) 3 kenarının da uzunluğu eşittir."},
+            {"no": 5, "metin_md": "Geometrik şekil çizerken önce kenarları ölçmeliyiz.", "cevap": true, "gerekce_md": "Doğru çizim için ölçüm yapmak gerekir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true, "5": true}},
+          "cozum_md": "1. Doğru: Cetvel ve pergel ile çizilebilir. 2. Yanlış: Sadece karşılıklı kenarlar eşit. 3. Yanlış: Pergel başka ölçümler için de kullanılır. 4. Doğru: Eşkenar üçgende 3 kenar eşit. 5. Doğru: Ölçüm olmadan doğru çizim yapılamaz."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki geometrik şekilleri çizmek için kullanılan araçlarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Daire"},
+            {"no": 2, "metin_md": "Dikdörtgen"},
+            {"no": 3, "metin_md": "Düzgün üçgen"},
+            {"no": 4, "metin_md": "Düz çizgi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Pergel"},
+            {"harf": "B", "metin_md": "Cetvel"},
+            {"harf": "C", "metin_md": "Cetvel ve pergel"},
+            {"harf": "D", "metin_md": "Cetvel (ölçülü)"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "Daire→Pergel(A), Dikdörtgen→Cetvel(B), Düzgün üçgen→Cetvel ve pergel(C), Düz çizgi→Cetvel(D)."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Çizdiğimiz geometrik bir şekli kontrol ederken aşağıdakilerden hangisini yapmalıyız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece şekle bakarız"},
+            {"harf": "B", "metin_md": "Kenar uzunluklarını ve açıları ölçeriz"},
+            {"harf": "C", "metin_md": "Şekli sileriz"},
+            {"harf": "D", "metin_md": "Başka birine sorarız"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kontrol için kenar uzunluklarını ve açıları ölçmeli, doğru olup olmadığını kontrol etmeliyiz."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "tablo_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu geometrik şekil çizimiyle ilgili bilgilerle doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Şekil", "Kenar Sayısı", "Gerekli Araç"],
+            "satirlar": [["Üçgen", "3", "__?__"], ["Daire", "__?__", "Pergel"], ["__?__", "4", "Cetvel ve pergel"]]
+          },
+          "cevap": {"r0c2": "Cetvel", "r1c1": "Yuvarlak (kenarsız)", "r2c0": "Kare"},
+          "cozum_md": "Üçgen: 3 kenar, cetvel ile çizilir. Daire: kenarsız, pergel ile çizilir. Kare: 4 kenar, cetvel ve pergel ile çizilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfta geometrik şekiller sergisi yapılacak. Sizden 3 farklı geometrik şekil seçmeniz ve her biri için şu bilgileri vermeniz isteniyor:\n\n- Şeklin adı\n- Kenar sayısı\n- Hangi araçlarla çizileceği\n- Neden bu şekli seçtiğiniz (1 cümle)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Kare: 4 kenarlı, cetvel ve pergel ile çizilir. Düzgün kenarları olduğu için seçtim. 2) Daire: Kenarsız, pergel ile çizilir. Yuvarlak forma sahip olduğu için ilginç. 3) Düzgün üçgen: 3 kenarlı, cetvel ve pergel ile çizilir. Eşkenar yapıda olduğu için tercih ettim.",
+            "kabul_kriterleri": [
+              "En az 3 farklı geometrik şekil adı yazmış olması",
+              "Her şekil için kenar sayısını doğru belirtmiş olması",
+              "Uygun araçları göstermiş olması",
+              "Seçim gerekçesini açıkça yazmış olması"
+            ]
+          },
+          "cozum_md": "Bu soruda şekil seçimi ve doğru araç kullanımı bir arada değerlendirilir. Her şekil için ad, kenar sayısı, araç ve gerekçe beklenir."
+        }
+      ]
+    }
+  ]
+}

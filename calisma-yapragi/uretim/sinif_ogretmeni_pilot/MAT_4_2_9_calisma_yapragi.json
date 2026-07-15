@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Tahmin Stratejilerini Kullanıyoruz",
+    "kazanim": {
+      "kod": "MAT.4.2.9",
+      "ad": "Dört işlem gerektiren problem durumları için tahmin stratejilerini kullanabilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Tahminde bulunur.",
+        "b": "Strateji geliştirir.",
+        "c": "Tahmini ile sonucu karşılaştırır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Tahmin yapmanın önemini aşağıdaki sorularla anlayalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Tahmin, problemi çözmek için gerekli bir adımdır.", "cevap": true, "gerekce_md": "Tahmin, yaklaşık bir değer bularak sonucun makul olup olmadığını kontrol etmeye yardımcı olur."},
+            {"no": 2, "metin_md": "Tahmin her zaman kesin sonuçla aynı olmalıdır.", "cevap": false, "gerekce_md": "Tahmin yaklaşık bir değerdir; kesin sonuçla aynı olmak zorunda değildir."},
+            {"no": 3, "metin_md": "Tahmin yaparak işlem yapmadan önce sonucun ne kadar olacağını yaklaşık olarak bilebiliriz.", "cevap": true, "gerekce_md": "Yuvarlama ve yaklaşık hesaplama ile tahmin, sonuca yaklaşmamızı sağlar."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1) Doğru — tahmin çözüm sürecinin parçasıdır. 2) Yanlış — tahmin yaklaşık bir değerdir, kesin olmak zorunda değildir. 3) Doğru — tahminle sonuca yaklaşılabilir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Tahmin yaparken sayıları ____(1)____ yaparak yaklaşık değer buluruz.\n\nÖrneğin 47 sayısını ____(2)____ olarak yuvarlayabiliriz.\n\nSonra gerçek işlemi yapıp tahminimizle ____(3)____ ederiz.\n\nEğer tahmin ile sonuç birbirine ____(4)____ ise tahminimiz başarılıdır.",
+          "gorsel": null,
+          "kelime_havuzu": ["yuvarlama", "50", "karşılaştırma", "yakın", "uzak", "toplama"],
+          "cevap": {"1": "yuvarlama", "2": "50", "3": "karşılaştırma", "4": "yakın"},
+          "cozum_md": "Tahmin için sayıları yuvarlarız (47 → 50). İşlemi yaptıktan sonra tahmin ile sonucu karşılaştırırız. Yakın çıkan tahmin başarılıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki sorularda tahmin stratejileri geliştirerek çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "234 + 478 işleminin sonucunu tahmin etmek için en iyi strateji hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sayıları yüzler basamağına göre yuvarla: 200 + 500 = 700"},
+            {"harf": "B", "metin_md": "Sayıları onlar basamağına göre yuvarla: 230 + 480 = 710"},
+            {"harf": "C", "metin_md": "Yalnızca birinci sayıyı yuvarla: 200 + 478 = 678"},
+            {"harf": "D", "metin_md": "Tahmin yapma, hemen hesapla"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "En iyi tahmin stratejisi, her iki sayıyı da onlar basamağına yuvarlamaktır: 234 → 230, 478 → 480. 230 + 480 = 710. Gerçek sonuç 512'dir (aslında 234+478=712). Tahmin (710) gerçek sonuca (712) çok yakındır. A çok geniştir, C eksik yuvarlama, D ise stratejiyi göz ardı eder."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir kitapçıda 3 kitap fiyatıyla: 34 TL, 56 TL ve 28 TL.\n\nBu üç kitabın toplam fiyatını tahmin etmek için hangi stratejiyi kullanırsınız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Her sayıyı 10'a yuvarla: 30 + 60 + 30 = 120 TL"},
+            {"harf": "B", "metin_md": "Her sayıyı 50'ye yuvarla: 50 + 50 + 50 = 150 TL"},
+            {"harf": "C", "metin_md": "Yalnızca en büyük sayıyı yuvarla: 34 + 60 + 28 = 122 TL"},
+            {"harf": "D", "metin_md": "Sayıları 100'e yuvarla: 100 + 100 + 100 = 300 TL"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Her sayıyı 10'a yuvarlamak en dengeli stratejidir: 34→30, 56→60, 28→30. Toplam: 30+60+30=120. Gerçek sonuç: 34+56+28=118. Tahmin (120) gerçek sonuca (118) çok yakındır. B çok geniştir, C dengesiz, D ise çok geniş bir tahmin verir."
+        },
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "72 × 3 işlemini hesaplamadan önce tahminde bulununuz.\n\nTahmininizi hangi strateji ile yaptığınızı ve gerçek sonuçla karşılaştırınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tahmin: 70 × 3 = 210. Strateji: 72 sayısını 70'e yuvarladım, 3 sayısını olduğu gibi bıraktım. Gerçek sonuç: 72 × 3 = 216. Karşılaştırma: Tahminim (210) gerçek sonuca (216) 6 farkla yakındır. Tahminim başarılı olmuştur.",
+            "kabul_kriterleri": [
+              "Tahminini belirtmiş (yaklaşık 210)",
+              "Yuvarlama stratejisi kullanmış (72→70)",
+              "Gerçek sonucu hesaplamış (216)",
+              "Tahmin ile sonucu karşılaştırmış"
+            ]
+          },
+          "cozum_md": "Tahmin: 70 × 3 = 210. Gerçek: 72 × 3 = 216. Fark: 216 - 210 = 6. Tahmin oldukça yakındır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Tahmin stratejilerini gerçek problem durumlarında uygulayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir bakkal 6 paket çikolata almıştır. Her pakette 24 çikolata vardır. Bakkal kaç çikolata almıştır?\n\nÖnce tahminde bulununuz, sonra hesaplayınız.",
+          "gorsel": null,
+          "cevap": {"deger": 144, "birim": "çikolata", "tolerans_yuzde": 0},
+          "cozum_md": "Tahmin: 6 × 25 = 150 (24'ü 25'e yuvarladım). Gerçek: 6 × 24 = 144. Tahmin (150) gerçek sonuca (144) yakındır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki problem için tahmin stratejinizi yazınız ve uygulayınız.\n\nProblemi çözmeden önce tahmin yapınız, sonra hesaplayınız ve karşılaştırınız.\n\nBir otobüs 137 km, 245 km ve 89 km yol gitmiştir. Otobüs toplam kaç km yolmuştur?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tahmin stratejisi: Her sayıyı 10'a yuvarlayacağım: 140 + 250 + 90 = 480 km.\nTahmin: yaklaşık 480 km.\nGerçek hesaplama: 137 + 245 + 89 = 471 km.\nKarşılaştırma: Tahminim (480) gerçek sonuca (471) 9 km farkla yakındır. Strateji başarılı olmuştur.",
+            "kabul_kriterleri": [
+              "Tahmin stratejisini açıkça yazmış (yuvarlama)",
+              "Tahminini belirtmiş (yaklaşık 480 km)",
+              "Gerçek sonucu doğru hesaplamış (471 km)",
+              "Tahmin ile sonucu karşılaştırmış"
+            ]
+          },
+          "cozum_md": "Tahmin: 140+250+90=480 km. Gerçek: 137+245+89=471 km. Fark: 9 km. Tahmin oldukça yakındır."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Zeynep marketten 8 kutu süt almıştır. Her kutu 3,50 TL'dir.\n\nZeynep en fazla ne kadar ödemiştir?\n\nSonucun makul olup olmadığını nasıl anlarsınız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "8 × 3,50 = 28 TL. Kontrol: 8 × 4 = 32, 8 × 3 = 24. Sonuç 24 ile 32 arasında, makul."},
+            {"harf": "B", "metin_md": "8 + 3,50 = 11,50 TL. Kontrol: 8 × 4 = 32. Sonuç 32'den küçük, makul."},
+            {"harf": "C", "metin_md": "8 × 3,50 = 240 TL. Kontrol: 8 × 4 = 32. Sonuç 32'den çok büyük, hatalı."},
+            {"harf": "D", "metin_md": "8 × 3,50 = 2,8 TL. Kontrol: 8 × 3 = 24. Sonuç 24'ten çok küçük, hatalı."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "8 × 3,50 = 28 TL. Kontrol: Sayıları yuvarlarsak 8 × 4 = 32 ve 8 × 3 = 24. Gerçek sonuç (28) bu iki değer arasında olduğu için makuldür. A seçeneği hem doğru hesaplamayı hem kontrol stratejisini gösterir."
+        }
+      ]
+    }
+  ]
+}
