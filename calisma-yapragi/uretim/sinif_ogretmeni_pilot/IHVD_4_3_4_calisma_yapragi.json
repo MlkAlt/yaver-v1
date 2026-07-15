@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Toplumsal Yardımlaşma Faaliyetleri",
+    "kazanim": {
+      "kod": "İHVD.4.3.4",
+      "ad": "Etkin bir vatandaş olarak toplumsal yardımlaşma faaliyetleri ile ilgili fikir üretebilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+      "surec_bilesenleri": {
+        "a": "Toplumsal yardımlaşma faaliyetlerinin önemini fark eder.",
+        "b": "Toplumsal yardımlaşma faaliyetlerine ilişkin örnekleri inceler.",
+        "c": "Toplumsal yardımlaşma faaliyetleriyle ilgili fikir üretir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr İHVD 4. sınıf 3. öğrenme alanı (Etkin Bir Vatandaşım) ve 2024 onaylı öğretim programı incelendi; Kızılay, AFAD, Yeşilay, TEMA, LÖSEV gibi kurum örnekleri müfredat terminolojisiyle uyumlu seçildi.",
+      "notlar": ["Bağımsız crosscheck: onay. s2'nin surec_bileseni etiketi denetçi önerisiyle 'a'dan 'b'ye düzeltildi (soru içeriği örnek inceleme davranışına daha yakındı); başka sorun bulunmadı."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları yönergelerine göre cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Toplumsal yardımlaşma, sadece maddi imkânı çok iyi olan kişilerin yapabileceği bir faaliyettir.", "cevap": false, "gerekce_md": "Herkes; küçük bir katkıyla, zamanıyla veya emeğiyle yardımlaşma faaliyetlerine katılabilir."},
+            {"no": 2, "metin_md": "Kızılay, doğal afetlerde ve ihtiyaç sahiplerine yardım ulaştıran bir kuruluştur.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Okulda düzenlenen kermes veya bağış kampanyaları da bir toplumsal yardımlaşma örneğidir.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "Toplumsal yardımlaşma faaliyetlerine katılmak, toplumdaki dayanışmayı zayıflatır.", "cevap": false, "gerekce_md": "Yardımlaşma faaliyetleri, aksine toplumdaki dayanışmayı ve birlik duygusunu güçlendirir."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "1) Yanlış — herkes katılabilir. 2) Doğru. 3) Doğru. 4) Yanlış — dayanışmayı güçlendirir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Doğal afetlerde (deprem, sel vb.) ihtiyaç sahiplerine yardım ulaştıran kuruluşa ____(1)____ denir. Bağımlılıkla mücadele konusunda toplumu bilinçlendiren kuruluş ise ____(2)____'tır. Doğal çevrenin korunması ve ağaçlandırma çalışmaları yapan kuruluş ise ____(3)____'dır.",
+          "gorsel": null,
+          "kelime_havuzu": ["Kızılay", "Yeşilay", "TEMA Vakfı", "Millî Eğitim Bakanlığı"],
+          "cevap": {"1": "Kızılay", "2": "Yeşilay", "3": "TEMA Vakfı"},
+          "cozum_md": "Kızılay afet ve ihtiyaç yardımı, Yeşilay bağımlılıkla mücadele, TEMA Vakfı ise çevre/ağaçlandırma alanında çalışır. 'Millî Eğitim Bakanlığı' kelime havuzunda çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları yönergelerine göre cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki kuruluş/faaliyeti sağdaki açıklamayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kızılay"},
+            {"no": 2, "metin_md": "AFAD"},
+            {"no": 3, "metin_md": "LÖSEV"},
+            {"no": 4, "metin_md": "Okul kermesi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kan bağışı toplama ve afetzedelere yardım ulaştırma"},
+            {"harf": "B", "metin_md": "Doğal afetlerde arama-kurtarma çalışmalarını ve afet yönetimini koordine etme"},
+            {"harf": "C", "metin_md": "Lösemili çocuklara ve ailelerine destek olma"},
+            {"harf": "D", "metin_md": "Öğrenci ve velilerin bir araya gelip ihtiyaç sahibi öğrencilere kaynak toplaması"},
+            {"harf": "E", "metin_md": "Sokak hayvanlarına barınak ve mama desteği sağlama"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Kızılay kan bağışı ve afet yardımı yapar. 2-B: AFAD afet koordinasyon kuruluşudur. 3-C: LÖSEV lösemili çocuklara destek olur. 4-D: Okul kermesi ihtiyaç sahibi öğrenciler için kaynak toplar. E seçeneği (hayvan barınakları) bu yaprakta çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir mahallede yaşayan komşular, kışın yakacak sıkıntısı çeken yaşlı bir komşularına birlikte odun temin edip evine kadar taşımıştır. Bu davranış aşağıdakilerden hangisine örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bireysel çıkar sağlama"},
+            {"harf": "B", "metin_md": "Toplumsal yardımlaşma"},
+            {"harf": "C", "metin_md": "Ticari bir anlaşma"},
+            {"harf": "D", "metin_md": "Resmî bir devlet hizmeti"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Komşuların karşılık beklemeden, gönüllü olarak bir araya gelip ihtiyaç sahibine yardım etmesi toplumsal yardımlaşmanın tipik bir örneğidir; kişisel çıkar, ticaret veya resmî hizmet söz konusu değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları yönergelerine göre cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfınızda, ailesi maddi zorluk yaşayan bir arkadaşınızın kırtasiye ihtiyaçlarını karşılamak istiyorsunuz. Aşağıdaki fikirlerden hangisi bu amaca en uygun ve arkadaşınızın onurunu koruyan bir yardımlaşma önerisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Arkadaşınızın durumunu sınıfın önünde açıkça duyurup neden ihtiyacı olduğunu sormak"},
+            {"harf": "B", "metin_md": "Sınıfça gizlice küçük katkılarla bir kırtasiye kutusu oluşturup öğretmen aracılığıyla ulaştırmak"},
+            {"harf": "C", "metin_md": "Durumu sosyal medyada herkese açık şekilde paylaşmak"},
+            {"harf": "D", "metin_md": "Hiçbir şey yapmadan ailesinin kendi imkânlarıyla çözmesini beklemek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Etkili bir yardımlaşma fikri hem sorunu çözmeli hem de kişinin mahremiyetine ve onuruna saygı göstermelidir. Öğretmen aracılığıyla gizlice yapılan katkı bu iki koşulu birden karşılar; A ve C seçenekleri arkadaşı utandırabilir, D ise yardımlaşmayı hiç uygulamaz."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Yaşadığınız mahallede veya okulunuzda uygulanabilecek yeni bir toplumsal yardımlaşma fikri yazınız. Fikrinizin kimlere, nasıl fayda sağlayacağını belirtiniz. (3-4 cümle)",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Okulumuzda her ay bir 'Kitap Değişim Günü' düzenlenebilir. Öğrenciler artık okumadıkları kitapları getirip başka bir arkadaşının getirdiği kitapla değiştirebilir. Bu sayede hem kitaba ihtiyacı olan öğrenciler ücretsiz kitaba ulaşır hem de okuma alışkanlığı yaygınlaşır.",
+            "kabul_kriterleri": ["Somut ve uygulanabilir bir fikir sunması", "Fikrin kimlere fayda sağlayacağını belirtmesi", "Yardımlaşmanın nasıl gerçekleşeceğini açıklaması"]
+          },
+          "cozum_md": "Değerlendirme örnek cevaba göre değil, kabul kriterlerine göre yapılır: fikir somut ve uygulanabilir mi, kime fayda sağladığı belirtilmiş mi, uygulama şekli açıklanmış mı."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Okulunuzda bir 'Yardımlaşma Kulübü' kurulacak olsa, bu kulübün yapabileceği üç farklı etkinlik öneriniz ve her etkinliğin toplumsal yardımlaşmaya nasıl katkı sağlayacağını kısaca açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Kışlık giysi toplama kampanyası: İhtiyaç sahibi ailelere sıcak giysi ulaştırılır. 2) Yaşlılar için mektup ve resim hazırlama: Huzurevindeki yaşlılara moral verilir. 3) Okul bahçesinde fidan dikimi: Çevrenin korunmasına katkı sağlanır ve doğa bilinci gelişir.",
+            "kabul_kriterleri": ["En az üç farklı ve birbirinden ayrışan etkinlik önermesi", "Her etkinliğin yardımlaşmaya katkısını açıklaması", "Önerilerin okul ortamında gerçekten uygulanabilir olması"]
+          },
+          "cozum_md": "Değerlendirme örnek cevaba göre değil, kabul kriterlerine göre yapılır: üç farklı etkinlik önerilmiş mi, her biri için katkı açıklanmış mı, öneriler okulda gerçekçi biçimde uygulanabilir mi."
+        }
+      ]
+    }
+  ]
+}

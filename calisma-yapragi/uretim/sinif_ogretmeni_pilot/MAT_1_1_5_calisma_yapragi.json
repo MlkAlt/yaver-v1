@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Ritmik Sayalım: 100'e Kadar İleriye, 20'den Geriye",
+    "kazanim": {
+      "kod": "MAT.1.1.5",
+      "ad": "100'e kadar ileriye ve 20'den geriye doğru ritmik sayabilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "100'e kadar ileriye doğru birer ritmik sayar.",
+        "b": "100'e kadar ileriye doğru beşer ritmik sayar.",
+        "c": "100'e kadar ileriye doğru onar ritmik sayar.",
+        "ç": "20'ye kadar ileriye doğru ikişer ritmik sayar.",
+        "d": "20'den geriye doğru birer ritmik sayar.",
+        "e": "20'den geriye doğru ikişer ritmik sayar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, İlkokul Matematik 1. sınıf, 1. Tema) öğrenme-öğretme uygulamaları açıklaması incelendi; ayrıca ogmmateryal/EBA kaynaklı 1. sınıf ritmik sayma etkinlikleriyle terminoloji karşılaştırıldı.",
+      "notlar": [
+        "Kazanım veri dosyasında 'aciklama' alanı null; resmi kazanım metninde a/b/c gibi alt madde yok. Süreç bileşenleri, TYMM sitesindeki öğrenme-öğretme uygulamaları açıklamasından ('100'e kadar ileriye birer, beşer, onar; 20'ye kadar ileriye ikişer; 20'den geriye birer ve ikişer ritmik sayma etkinlikleri yapılır') türetilmiştir."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları ritmik sayma kurallarını kullanarak çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayı dizisinde birer birer ileriye doğru ritmik sayılmaktadır. Boşlukları uygun sayılarla doldurunuz.\n\n45, 46, 47, ____(1)____, 49, 50, ____(2)____, 52",
+          "gorsel": null,
+          "cevap": {"1": "48", "2": "51"},
+          "cozum_md": "Dizide birer artarak ilerlenir: 47'den sonra 48 gelir, 50'den sonra 51 gelir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Onar onar ileriye doğru ritmik sayarak diziyi tamamlayınız.\n\n10, 20, 30, ____(1)____, 50, 60, ____(2)____, 80, 90, 100",
+          "gorsel": null,
+          "cevap": {"1": "40", "2": "70"},
+          "cozum_md": "Onar sayarken her adımda 10 eklenir: 30 + 10 = 40, 60 + 10 = 70."
+        },
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sol sütundaki ritmik sayma şeklini sağ sütunda verilen uygun sayı dizisiyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "1'er ritmik sayma"},
+            {"no": 2, "metin_md": "5'er ritmik sayma"},
+            {"no": 3, "metin_md": "10'ar ritmik sayma"},
+            {"no": 4, "metin_md": "2'şer ritmik sayma"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "61, 62, 63, 64, 65"},
+            {"harf": "B", "metin_md": "5, 10, 15, 20, 25"},
+            {"harf": "C", "metin_md": "10, 20, 30, 40, 50"},
+            {"harf": "D", "metin_md": "2, 4, 6, 8, 10"},
+            {"harf": "E", "metin_md": "3, 6, 9, 12, 15"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1'er saymada ardışık sayılar kullanılır (61, 62, 63...); 5'er sayma 5'in katlarıyla ilerler (5, 10, 15...); 10'ar sayma 10'un katlarıyla ilerler (10, 20, 30...); 2'şer sayma çift sayılarla ilerler (2, 4, 6...). E seçeneği 3'er saymayı gösterdiği için hiçbir maddeyle eşleşmez."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice inceleyip cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "20'ye kadar ikişer ikişer ileriye doğru ritmik sayarak tabloyu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sayma Sırası", "Sayı"],
+            "satirlar": [
+              ["1.", "2"],
+              ["2.", "__?__"],
+              ["3.", "6"],
+              ["4.", "__?__"],
+              ["5.", "10"],
+              ["6.", "__?__"]
+            ]
+          },
+          "cevap": {"r1c1": "4", "r3c1": "8", "r5c1": "12"},
+          "cozum_md": "İkişer sayma çift sayılarla ilerler: 2, 4, 6, 8, 10, 12. Boş hücrelere sırasıyla 4, 8 ve 12 yazılır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Ayşe 20'den geriye doğru birer birer sayıyor: 20, 19, 18, 17, .... Ayşe'nin bir sonraki söyleyeceği sayı hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "16"},
+            {"harf": "B", "metin_md": "18"},
+            {"harf": "C", "metin_md": "15"},
+            {"harf": "D", "metin_md": "14"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Birer birer geriye sayarken her adımda 1 azalır. 17'den bir eksiltilirse 16 elde edilir."
+        },
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "e",
+          "puan": 10,
+          "govde_md": "20'den geriye doğru ikişer ikişer sayarken oluşan dizi aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "20, 19, 18, 17"},
+            {"harf": "B", "metin_md": "20, 18, 16, 14"},
+            {"harf": "C", "metin_md": "20, 17, 14, 11"},
+            {"harf": "D", "metin_md": "20, 15, 10, 5"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "İkişer geriye sayarken her adımda 2 azaltılır: 20 - 2 = 18, 18 - 2 = 16, 16 - 2 = 14."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözerken ritmik sayma kuralını açıkça kullanınız.",
+      "sorular": [
+        {
+          "id": "s7",
+          "tip": "bosluk_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Bir roket fırlatılmadan önce geriye doğru birer birer sayılarak geri sayım yapılır. Geri sayımı tamamlayınız.\n\n20, 19, ____(1)____, 17, 16, ____(2)____, 14, 13",
+          "gorsel": null,
+          "cevap": {"1": "18", "2": "15"},
+          "cozum_md": "Birer birer geriye sayımda her adımda 1 azalır: 19'dan sonra 18, 16'dan sonra 15 gelir."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "e",
+          "puan": 15,
+          "govde_md": "Zeynep, 20. basamaktan başlayarak ikişer ikişer geriye doğru sayarak merdivenden iniyor: 20, 18, 16, .... Zeynep 2. basamağa kadar sayarsa, en son söyleyeceği üç sayıyı yazınız ve nasıl bulduğunuzu açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "İkişer ikişer geriye sayıldığında dizi şöyle devam eder: 20, 18, 16, 14, 12, 10, 8, 6, 4, 2. Zeynep'in en son söyleyeceği üç sayı 6, 4 ve 2'dir; çünkü her adımda bir önceki sayıdan 2 çıkarılır.",
+            "kabul_kriterleri": [
+              "İkişer azalma kuralını doğru şekilde açıklamış (her adımda 2 çıkarılır)",
+              "Son üç sayıyı doğru sırayla yazmış: 6, 4, 2"
+            ]
+          },
+          "cozum_md": "Dizi 20'den başlayıp 2'şer azalarak ilerler: 20, 18, 16, 14, 12, 10, 8, 6, 4, 2. Son üç terim 6, 4, 2'dir."
+        }
+      ]
+    }
+  ]
+}

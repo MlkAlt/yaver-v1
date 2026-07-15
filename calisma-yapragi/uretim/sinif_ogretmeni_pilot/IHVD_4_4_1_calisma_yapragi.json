@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Grup Çalışmalarında Görev Paylaşımı ve Dayanışma",
+    "kazanim": {
+      "kod": "İHVD.4.4.1",
+      "ad": "Grup çalışmalarında karar alma süreçlerine katılarak grup dinamiğini sağlayabilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "4. ÖĞRENME ALANI: HAYATIMDA DEMOKRASİ",
+      "surec_bilesenleri": {
+        "a": "Yakın çevresindeki dahil olduğu grup ile aldığı ortak kararlar doğrultusunda görev paylaşımı yapar.",
+        "b": "Dahil olduğu grupta aldığı görevleri yerine getirerek gruba katkı sağlar.",
+        "c": "Dahil olduğu grupta ekibin diğer üyelerine yardım ederek gruba katkıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 'İnsan Hakları, Vatandaşlık ve Demokrasi Dersi 4. Sınıf - 4. Öğrenme Alanı: Hayatımda Demokrasi' teması incelendi (tymm.meb.gov.tr/insan-haklari-vatandaslik-ve-demokrasi-dersi/unite/371). Programda 'Grup Dinamiğini Sağlama' sosyal katılımın bir parçası olarak tanımlanıyor: kararların alınmasında görev alanı doğrultusunda her üyenin diğer üyelere yardım ederek katkıda bulunması vurgulanıyor. Bu terminoloji ve vurgu (ortak karar -> görev paylaşımı -> görevi yerine getirme -> yardımlaşma zinciri) yaprağın senaryo ve sıralama sorularına birebir yansıtıldı.",
+      "notlar": [
+        "Bağımsız crosscheck (subagent, onay): tüm sorular kendi çözümüyle anahtarla birebir uyuştu, uyuşmazlık yok, K1-K6 kontrollerinde kritik sorun bulunmadı. Düşük önemli tek not: s2 eşleştirme sorusu tek 'b' etiketiyle işaretli ama madde 1 aslında 'a'ya, madde 3 'c'ye de hizmet ediyor — şema tek etiket izin verdiği için baskın bileşen (b) seçildi, içerik bilinçli olarak üç bileşeni de örnekliyor."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki etkinlikleri yaparak grup çalışmasında görev paylaşımı ve dayanışmayı tanıyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Grupça alınan ortak bir karara göre görev paylaşımı yapmak, işlerin daha düzenli yürümesini sağlar.",
+              "cevap": true,
+              "gerekce_md": "Ortak karara göre yapılan görev paylaşımında herkes ne yapacağını bilir, bu da düzeni sağlar."
+            },
+            {
+              "no": 2,
+              "metin_md": "Bir grupta görevler, üyelere danışılmadan yalnızca grup başkanı tarafından belirlenmelidir.",
+              "cevap": false,
+              "gerekce_md": "Görev paylaşımı, grup üyelerinin birlikte aldığı ortak bir karara dayanmalıdır; tek kişinin danışmadan belirlemesi doğru değildir."
+            },
+            {
+              "no": 3,
+              "metin_md": "Grup üyelerinden biri üzerine düşen görevi yapmazsa, bu durum sadece kendisini değil tüm grubu etkiler.",
+              "cevap": true,
+              "gerekce_md": "Grup çalışması bir bütündür; bir üyenin görevini yapmaması ortak sonucu ve diğer üyeleri de etkiler."
+            },
+            {
+              "no": 4,
+              "metin_md": "Grup çalışmasında herkesin aynı görevi yapması, görev paylaşımının en doğru yoludur.",
+              "cevap": false,
+              "gerekce_md": "Görev paylaşımında amaç, ortak karara göre işi bölümlere ayırıp farklı görevleri paylaştırmaktır; herkesin aynı işi yapması paylaşım değildir."
+            }
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — ortak karara göre görev paylaşımı düzeni sağlar. 2) Yanlış — görevler danışılarak, ortak kararla belirlenmelidir. 3) Doğru — bir üyenin eksik kalan görevi tüm grubu etkiler. 4) Yanlış — herkesin aynı işi yapması paylaşım değil, tekrar demektir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sol taraftaki davranış örneklerini sağ taraftaki grup katkısı türüyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ali ve arkadaşları, sunum hazırlığında kimin hangi bölümü anlatacağına birlikte karar verdi."},
+            {"no": 2, "metin_md": "Zeynep, kendisine verilen 'resim çizme' görevini zamanında tamamladı."},
+            {"no": 3, "metin_md": "Mert, arkadaşı görevini yetiştiremeyince ona yardım etti."},
+            {"no": 4, "metin_md": "Ayşe, arkadaşlarının fikirlerini dinleyip kendi fikrini de söyleyerek ortak karara katıldı."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kendisine düşen görevi yerine getirerek gruba katkı sağlama"},
+            {"harf": "B", "metin_md": "Ortak karara göre görev paylaşımı yapma"},
+            {"harf": "C", "metin_md": "Ekibin diğer üyesine yardım ederek katkıda bulunma"},
+            {"harf": "D", "metin_md": "Fikrini paylaşarak ortak karar alma sürecine katılma"},
+            {"harf": "E", "metin_md": "Grup çalışmasını arkadaşlarına danışmadan tek başına yapma"},
+            {"harf": "F", "metin_md": "Kendisine verilen görevi yapmayı reddetme"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "1-B: Görevlerin kim tarafından yapılacağına birlikte karar vermek, ortak karara göre görev paylaşımıdır. 2-A: Verilen görevi zamanında tamamlamak, görevi yerine getirerek katkı sağlamaktır. 3-C: Arkadaşına yardım etmek, ekip üyesine yardım ederek katkı türüdür. 4-D: Fikrini söyleyip dinlemek, ortak karar alma sürecine katılmaktır. E ve F ise gruba katkı sağlamayan, işbirliğine aykırı davranışlar olduğu için çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları verilen bilgilerden yararlanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\nBir grupta alınan ____(1)____ kararlara göre görevler paylaşılır. Kendisine verilen görevi yerine getiren kişi gruba ____(2)____ sağlamış olur. Görevini tamamlayan biri, arkadaşına ____(3)____ ederek grubun başarısına katkıda bulunabilir.",
+          "gorsel": null,
+          "kelime_havuzu": ["ortak", "yalnız", "katkı", "zarar", "yardım", "eleştiri"],
+          "cevap": {"1": "ortak", "2": "katkı", "3": "yardım"},
+          "cozum_md": "1) 'ortak' — görevler, grubun birlikte aldığı karara göre paylaşılır. 2) 'katkı' — görevini yerine getiren kişi gruba katkı sağlar. 3) 'yardım' — görevini bitiren biri, arkadaşına yardım ederek gruba katkıda bulunabilir."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir grup çalışmasında görev paylaşımı sürecinin adımları karışık olarak verilmiştir. Adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Karara uygun şekilde görevler üyelere paylaştırılır.",
+            "Grup üyeleri bir araya gelip yapılacak işi konuşur.",
+            "Her üye kendisine düşen görevi yerine getirir.",
+            "Grup ortak bir karara varır.",
+            "Herkes fikrini söyler, farklı öneriler dinlenir."
+          ],
+          "cevap": {"dogru_sira": [1, 4, 3, 0, 2]},
+          "cozum_md": "Doğru sıra: 1) Grup üyeleri bir araya gelip işi konuşur, 2) Herkes fikrini söyler ve öneriler dinlenir, 3) Grup ortak bir karara varır, 4) Karara uygun görevler paylaştırılır, 5) Her üye kendi görevini yerine getirir. Önce konuşma ve fikir paylaşımı, sonra karar, sonra görev paylaşımı, en son görevin yerine getirilmesi gelir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki durumu okuyup soruları cevaplayınız.\n\n\"Bir sınıf projesinde 4 kişilik bir grup oluşturulmuş ve grup üyeleri birlikte karar vererek herkese bir görev vermiştir.\"",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bu grupta aşağıdaki davranışlardan hangisi grup dinamiğine EN ÇOK katkı sağlar?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Görevini bitiren öğrencinin, hâlâ görevini bitiremeyen arkadaşına yardım etmesi"},
+            {"harf": "B", "metin_md": "Görevini bitiren öğrencinin diğerlerini beklemeden sınıftan çıkması"},
+            {"harf": "C", "metin_md": "Bir öğrencinin kendi görevini bırakıp arkadaşının görevini tamamen kendi başına üstlenmesi"},
+            {"harf": "D", "metin_md": "Öğrencilerin görevlerini kendi başlarına, birbirleriyle hiç konuşmadan yapması"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A doğrudur: Görevini bitiren kişinin arkadaşına yardım etmesi, ekip üyesine yardım ederek katkıda bulunma davranışıdır. B'de kayıtsızlık, C'de kendi görevini terk edip paylaşımı bozma, D'de iletişimsizlik vardır; bunların hiçbiri grup dinamiğine A kadar katkı sağlamaz."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sen de bir grup çalışmasında (proje, oyun, sınıf etkinliği vb.) sana verilen bir görevi yerine getirdiğin bir durumu anlat. Görevin neydi, bu görevi yaparak gruba nasıl katkı sağladın?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sınıfımızda hazırladığımız pano çalışmasında bana resim çizme görevi verilmişti. Bu görevi zamanında tamamlayarak panonun eksiksiz ve zamanında hazır olmasına katkı sağladım.",
+            "kabul_kriterleri": [
+              "Öğrencinin kendi yaşadığı gerçek bir grup çalışması örneği vermesi (görevinin ne olduğunu belirtmesi)",
+              "Bu görevi yerine getirmenin gruba nasıl bir katkı sağladığını açıklaması"
+            ]
+          },
+          "cozum_md": "Bu açık uçlu soruda tek bir doğru cevap yoktur; öğrencinin kendi yaşadığı bir grup çalışmasından somut bir görev örneği vermesi ve bu görevi yerine getirmenin gruba katkısını (işin tamamlanması, düzenin sağlanması vb.) açıklaması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir arkadaşının grup görevini yetiştiremediğini fark ettiğinde ona nasıl yardımcı olabileceğini yazınız. En az bir örnek veriniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kendi görevimi bitirdikten sonra arkadaşımın yanına gider, hangi kısımda zorlandığını sorarım. Örneğin malzeme toplamakta zorlanıyorsa birlikte malzeme toplayarak görevini bitirmesine yardım ederim.",
+            "kabul_kriterleri": [
+              "Somut, uygulanabilir bir yardım davranışı önerisi sunması (ör. birlikte yapma, malzeme/ bilgi paylaşma, açıklama yapma)",
+              "Önerinin arkadaşının görevini tamamlamasına gerçekten katkı sağlayacak nitelikte olması"
+            ]
+          },
+          "cozum_md": "Bu açık uçlu soruda öğrencinin, arkadaşının eksik kalan görevini tamamlamasına yönelik somut ve gerçekçi bir yardım davranışı önermesi beklenir (ör. birlikte tamamlama, zorlandığı noktada destek olma). Tek doğru cevap yoktur, önemli olan yardımlaşma davranışının açıkça ifade edilmesidir."
+        }
+      ]
+    }
+  ]
+}

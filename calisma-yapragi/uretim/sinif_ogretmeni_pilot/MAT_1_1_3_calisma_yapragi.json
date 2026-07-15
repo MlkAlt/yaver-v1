@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sıra Sayıları (Birinciden Onuncuya)",
+    "kazanim": {
+      "kod": "MAT.1.1.3",
+      "ad": "Nesnelerin sıra sayısını gösterebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Nesnelerin/kişilerin sırasını, birinci ile onuncu arasındaki sıra sayılarını kullanarak gösterir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "ilkokuldokumanlari.com (1. Sınıf Sıra Bildiren Sayılar Konu Anlatımı) ve tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, İlkokul Matematik 1. Tema: Sayılar ve Nicelikler) kaynakları incelendi. Kazanımın kapsamının 'birinci' ile 'onuncu' arası sıra sayılarıyla sınırlı olduğu doğrulandı.",
+      "notlar": [
+        "Kazanım veri dosyasında 'aciklama' alanı null (MAT.1.1.5 ve MAT.1.1.9 gibi bazı 1. sınıf kazanımlarında da aynı durum var). Tek süreç bileşeni ('a') kazanım adından ve web araştırmasından türetildi; ders kitabında ayrıca alt madde bulunmuyor.",
+        "validate_worksheet.py WARN: alan-yoğun tip sayısı 3 (eşleştirme, tablo_doldurma, doğru_yanlış). Bilinçli kabul edildi — render_html.py gerçek ölçümde öğrenci kısmının 1 sayfaya sığdığını doğruladı, tür çeşitliliği kazanımın farklı sıralama bağlamlarını (rakam, tablo, sınıf sırası) kapsamak için tercih edildi.",
+        "Bağımsız crosscheck sonucu: karar 'onay', cevap anahtarı uyuşmazlığı yok. İki düşük önemli gözlem: (1) s5 kazanımın 'gösterme' fiiliyle dolaylı ilişkili (sıralama/karşılaştırma becerisi ölçüyor), kritik değil; (2) s6'daki 4. ifade ek bir çıkarım adımı (toplam 6 kişilik sırada 7. sıra olamaz) gerektiriyor, zorluk 'zor' etiketiyle tutarlı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları sıra sayılarını düşünerek çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Soldaki sayıları sağdaki sıra sayısı kelimeleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "1"},
+            {"no": 2, "metin_md": "2"},
+            {"no": 3, "metin_md": "3"},
+            {"no": 4, "metin_md": "4"},
+            {"no": 5, "metin_md": "5"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Üçüncü"},
+            {"harf": "B", "metin_md": "Birinci"},
+            {"harf": "C", "metin_md": "Beşinci"},
+            {"harf": "D", "metin_md": "İkinci"},
+            {"harf": "E", "metin_md": "Dördüncü"},
+            {"harf": "F", "metin_md": "Altıncı"}
+          ],
+          "cevap": {"1": "B", "2": "D", "3": "A", "4": "E", "5": "C"},
+          "cozum_md": "Sayı ile sıra sayısı kelimesi birebir eşleşir: 1→Birinci, 2→İkinci, 3→Üçüncü, 4→Dördüncü, 5→Beşinci. 'Altıncı' (F) bu grupta çeldiricidir, kullanılmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Okul servisinden sırayla inen öğrenciler şöyledir: Ali 1., Veli 2., Ayşe 3., Can ____(1)____, Zeynep 5. Can kaçıncı sırada indiğini uygun sıra sayısıyla yazınız.",
+          "gorsel": null,
+          "kelime_havuzu": ["birinci", "ikinci", "üçüncü", "dördüncü", "beşinci", "altıncı"],
+          "cevap": {"1": "dördüncü"},
+          "cozum_md": "Sıralama Ali(1.), Veli(2.), Ayşe(3.), Can(4.), Zeynep(5.) şeklindedir. Can, Ayşe'den sonra ve Zeynep'ten önce indiği için dördüncü sıradadır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve doğru seçeneği/cevabı işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir koşu yarışmasında Emre, yarışı 3. sırada tamamlamıştır. Emre'nin derecesi aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "İkincilik"},
+            {"harf": "B", "metin_md": "Üçüncülük"},
+            {"harf": "C", "metin_md": "Dördüncülük"},
+            {"harf": "D", "metin_md": "Beşincilik"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Yarışı 3. sırada tamamlamak, üçüncü olmak demektir; bu nedenle doğru cevap 'Üçüncülük'tür (B)."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sıra No", "Sıra Adı"],
+            "satirlar": [
+              ["1", "birinci"],
+              ["2", "__?__"],
+              ["3", "üçüncü"],
+              ["__?__", "dördüncü"],
+              ["5", "beşinci"]
+            ]
+          },
+          "cevap": {"r1c1": "ikinci", "r3c0": "4"},
+          "cozum_md": "Sıra no ile sıra adı birebir eşleşir: 2 → ikinci; dördüncü sıra no ise 4'tür."
+        },
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sıra sayılarını küçükten büyüğe doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["Yedinci", "Üçüncü", "Birinci", "Beşinci"],
+          "cevap": {"dogru_sira": [2, 1, 3, 0]},
+          "cozum_md": "Sıra sayılarının karşılık geldiği değerler: Yedinci=7, Üçüncü=3, Birinci=1, Beşinci=5. Küçükten büyüğe: Birinci(1), Üçüncü(3), Beşinci(5), Yedinci(7); bu da öge indeksleriyle [2, 1, 3, 0] sırasıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları dikkatlice okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 17,
+          "govde_md": "Bir sınıf sırasında soldan sağa şu öğrenciler oturmaktadır: Deniz, Ece, Kaan, Mert, Sena, Bora (toplam 6 öğrenci). Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu belirtiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Ece, ikinci sıradadır.", "cevap": true, "gerekce_md": "Sıralamada Ece, Deniz'den sonra ikinci sırada oturur."},
+            {"no": 2, "metin_md": "Kaan, dördüncü sıradadır.", "cevap": false, "gerekce_md": "Kaan üçüncü sıradadır; dördüncü sırada Mert oturur."},
+            {"no": 3, "metin_md": "Sena, beşinci sıradadır.", "cevap": true, "gerekce_md": "Sıralamada Sena, Mert'ten sonra beşinci sırada oturur."},
+            {"no": 4, "metin_md": "Bora, yedinci sıradadır.", "cevap": false, "gerekce_md": "Sırada toplam 6 öğrenci vardır; Bora altıncı ve son sıradadır, yedinci sıra yoktur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "Sıralama Deniz(1.), Ece(2.), Kaan(3.), Mert(4.), Sena(5.), Bora(6.) şeklindedir. Buna göre 1 ve 3 doğru; 2 ve 4 yanlıştır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 18,
+          "govde_md": "Evinde veya çantanda bulunan 5 eşyanı bir sıraya diz (örneğin kitaplarını). Üçüncü sırada hangi eşyanın olduğunu ve onu neden üçüncü sıraya koyduğunu bir-iki cümleyle yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kitaplarımı sıraya dizdim: masal kitabı, boyama kitabı, fen kitabı, resim kitabı, şiir kitabı. Üçüncü sırada fen kitabım var çünkü onu ikinci kitaptan sonra, dördüncü kitaptan önce yerleştirdim.",
+            "kabul_kriterleri": [
+              "5 eşyayı açık bir sırayla belirtmiş olması",
+              "Üçüncü sıradaki eşyayı doğru ve net söylemesi",
+              "'Üçüncü' sıra sayısını doğru ve yerinde kullanması"
+            ]
+          },
+          "cozum_md": "Bu bir açık uçlu, kişisel deneyime dayalı sorudur; kabul kriterleri öğrencinin 5 eşyayı sıraya dizip üçüncü sıradaki eşyayı doğru sıra sayısıyla ifade etmesine dayanır."
+        }
+      ]
+    }
+  ]
+}

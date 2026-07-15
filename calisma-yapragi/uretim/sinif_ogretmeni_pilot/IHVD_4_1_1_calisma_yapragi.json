@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çocuk Olmanın Özellikleri",
+    "kazanim": {
+      "kod": "İHVD.4.1.1",
+      "ad": "Çocuk olmanın özelliklerini belirleyebilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "1. ÖĞRENME ALANI: ÇOCUK OLARAK HAKLARIMLA VARIM",
+      "surec_bilesenleri": {
+        "a": "Çocuk olma dönemine özgü özellikleri (hızlı büyüme-gelişme, oyun oynama ihtiyacı, öğrenmeye açık olma vb.) belirler.",
+        "b": "Çocukluğun kendine özgü güzel yönlerini örneklerle ifade eder.",
+        "c": "Çocuklara değer verilmesinin önemini açıklar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr/insan-haklari-vatandaslik-ve-demokrasi-dersi/unite/355 (İHVD.4.1.1 kazanım detay sayfası) incelendi: öğrenme-öğretme yaşantılarında 'İyi ki çocuğum çünkü...' şarkı+resim etkinliği, öğrencilerin kendi gelişim dönemlerini gösteren zaman çizelgesi hazırlaması ve Mustafa Kemal Atatürk'ün çocuklara verdiği değer (23 Nisan bağlamı) vurgulanıyor; değerlendirmede çalışma yaprağı kullanımı önerilmiş. Kazanım verisinde `aciklama` alanı null geldiğinden süreç bileşenleri (a, b, c) bu araştırmaya dayanarak türetildi.",
+      "notlar": [
+        "Kazanım veri dosyasında `aciklama` alanı boş (null) geldi. Süreç bileşenleri a/b/c, MEB kazanım detay sayfasındaki özellik tanıma → güzel yönleri ifade etme → değer verilmesinin önemini kavrama sırası temel alınarak türetildi; resmi programda harf harf ayrılmış bir madde listesi yoktur.",
+        "İHVD.4.1.2 (çocuk hakları sözleşmesi/kanıta dayalı ürün) ile karışmaması için bu yaprak 'haklar' değil 'çocukluk döneminin özellikleri' eksenine odaklandı.",
+        "Bağımsız crosscheck (subagent) sonucu: karar 'onay', cevap anahtarında uyuşmazlık yok, müfredat dışı içerik yok. İki düzeltme uygulandı: s4'ün surec_bileseni etiketi 'b'den 'a'ya çekildi (ifadeler asıl özellik-belirleme davranışına hizmet ediyordu), s3'te 'değildir' kalınlaştırılarak olumsuzluk vurgulandı (K5)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle doldurunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "1. Çocuklar zamanla boyu uzayıp kilosu artarak ____(1)____ gösterir.\n2. Çocukların en çok sevdiği etkinliklerden biri ____(2)____ oynamaktır.\n3. Çocuklar yeni şeyleri kolayca ____(3)____ bir dönemdedir.\n4. Her çocuğun sevgiye ve ____(4)____ ihtiyacı vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["gelişme", "oyun", "öğrenme", "korunma", "çalışma"],
+          "cevap": {"1": "gelişme", "2": "oyun", "3": "öğrenme", "4": "korunma"},
+          "cozum_md": "1) Boy ve kilo artışı 'gelişme' ile ifade edilir. 2) Çocuklar için en doğal etkinlik 'oyun'dur. 3) Çocuklar yeni bilgileri kolayca 'öğrenme'ye açıktır. 4) Çocukların sevgi kadar 'korunma'ya da ihtiyacı vardır. 'Çalışma' hiçbir boşluğa uymaz, çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki çocukluk özelliğini sağdaki örnekle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Hayal gücünün güçlü olması"},
+            {"no": 2, "metin_md": "Hızlı büyüme ve gelişme"},
+            {"no": 3, "metin_md": "Oyun oynama ihtiyacı"},
+            {"no": 4, "metin_md": "Öğrenmeye açık olma"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yeni bilgileri kolayca öğrenir, merak ettiği şeyleri sorar."},
+            {"harf": "B", "metin_md": "Bir yıl önceki kıyafetleri artık küçük gelir."},
+            {"harf": "C", "metin_md": "Oyuncağıyla farklı hikâyeler kurup canlandırır."},
+            {"harf": "D", "metin_md": "Arkadaşlarıyla oyun oynayarak vakit geçirmekten mutlu olur."},
+            {"harf": "E", "metin_md": "Uzun süre tek başına, kimseyle konuşmadan çalışmayı tercih eder."}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "D", "4": "A"},
+          "cozum_md": "Hayal gücü güçlü olan çocuk oyuncağıyla hikâye kurar (C). Hızlı büyüme, kıyafetlerin çabuk küçük gelmesiyle görülür (B). Oyun ihtiyacı arkadaşlarla oyun oynamaktan mutlu olmakla kendini gösterir (D). Öğrenmeye açık olma, merak edip soru sormakla ilgilidir (A). 'Tek başına çalışmayı tercih etme' (E) çocukluğa özgü bir özellik değildir, çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyup en uygun cevabı işaretleyiniz / doğru-yanlış olarak belirtiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi çocuk olma döneminin özelliklerinden biri **değildir**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Hızla büyüyüp gelişmek"},
+            {"harf": "B", "metin_md": "Oyun oynamaya ihtiyaç duymak"},
+            {"harf": "C", "metin_md": "Yeni şeyler öğrenmeye açık olmak"},
+            {"harf": "D", "metin_md": "Bütün kararları tek başına, kimseye danışmadan almak"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "Çocuklar büyüme çağında oldukları için yetişkinlerin rehberliğine ve korumasına ihtiyaç duyarlar. Bütün kararları tek başına, kimseye danışmadan alabilmek çocukluğun bir özelliği değildir; A, B, C çocukluğa özgü gerçek özelliklerdir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri doğru mu yanlış mı olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Çocuklar oyun oynayarak hem eğlenir hem de öğrenir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Her çocuğun büyüme ve gelişme hızı birebir aynıdır.", "cevap": false, "gerekce_md": "Her çocuğun gelişimi kendine özgüdür; boy, kilo ve öğrenme hızı çocuktan çocuğa farklılık gösterebilir."},
+            {"no": 3, "metin_md": "Çocukların hayal kurması ve hayal gücünü kullanması doğaldır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Çocukların büyüklerden sevgi ve ilgi görmeye ihtiyacı yoktur.", "cevap": false, "gerekce_md": "Çocukların sağlıklı gelişebilmesi için sevgiye, ilgiye ve korunmaya ihtiyaçları vardır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — oyun, çocuğun hem eğlenmesini hem de öğrenmesini sağlar. 2) Yanlış — gelişim hızı çocuktan çocuğa değişir. 3) Doğru — hayal kurmak çocukluğa özgü doğal bir özelliktir. 4) Yanlış — çocukların sevgiye ve korunmaya ihtiyacı vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi düşüncelerinle cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Mustafa Kemal Atatürk, çocuklara büyük değer vermiş ve 23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'nı çocuklara armağan etmiştir. Bu durum aşağıdakilerden hangisini gösterir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Çocukların yetişkinlerden farklı hiçbir ihtiyacı yoktur."},
+            {"harf": "B", "metin_md": "Çocuklara değer verilmesi, onların geleceğe sağlıklı bir şekilde hazırlanmasında önemlidir."},
+            {"harf": "C", "metin_md": "Bayramlar yalnızca yetişkinler için kutlanmalıdır."},
+            {"harf": "D", "metin_md": "Çocuklar toplumsal hayata hiçbir şekilde katılmamalıdır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Atatürk'ün çocuklara bir bayram armağan etmesi, çocuklara verilen değerin ve onların geleceğin yetişkinleri olarak desteklenmesinin önemini gösterir. A, C ve D bu değeri yok sayan veya tersine çeviren yanlış yorumlardır."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sence çocuk olmanın en güzel yanı nedir? Bir örnekle açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Çocuk olmanın en güzel yanı bol bol oyun oynayabilmek. Arkadaşlarımla sokakta saklambaç oynarken hem eğleniyor hem de yeni arkadaşlıklar kuruyorum.",
+            "kabul_kriterleri": [
+              "Çocukluğa özgü gerçekçi bir özellik/durum belirtmesi (oyun, hayal kurma, öğrenme, merak vb.)",
+              "Belirttiği özelliği kendi hayatından veya gerçekçi bir örnekle açıklaması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin çocukluğa özgü bir özelliği (oyun, hayal kurma, merak, öğrenme vb.) belirtip bunu bir örnekle açıklaması yeterlidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Çocuklara neden değer verilmesi gerektiğini düşünüyorsun? En az bir gerekçe yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Çocuklar geleceğin yetişkinleridir; onlara değer verilip iyi yetiştirilirlerse büyüdüklerinde topluma daha çok katkı sağlarlar.",
+            "kabul_kriterleri": [
+              "En az bir makul gerekçe yazması (geleceğin yetişkinleri olmaları, korunmaya/sevgiye ihtiyaç duymaları, toplumun geleceğini şekillendirmeleri vb.)",
+              "Gerekçenin çocuklara değer verilmesiyle doğrudan ilgili olması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin çocuklara değer verilmesine dair makul bir gerekçe (geleceğin yetişkinleri olmaları, korunma/sevgi ihtiyaçları, toplumun geleceği vb.) yazması yeterlidir; tek doğru cevap listesi yoktur."
+        }
+      ]
+    }
+  ]
+}

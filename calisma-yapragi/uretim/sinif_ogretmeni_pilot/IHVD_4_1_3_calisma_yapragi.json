@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "İnsan Olmanın Getirdiği Temel Hak ve Özgürlükler",
+    "kazanim": {
+      "kod": "İHVD.4.1.3",
+      "ad": "İnsan olmanın getirdiği temel hak ve özgürlükleri yorumlayabilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "1. ÖĞRENME ALANI: ÇOCUK OLARAK HAKLARIMLA VARIM",
+      "surec_bilesenleri": {
+        "a": "İnsan olmanın getirdiği temel hak ve özgürlükleri örnekler üzerinden inceler.",
+        "b": "İnsan olmanın getirdiği temel hak ve özgürlükleri bağlamdan kopmadan yazılı veya sözlü olarak ifade eder.",
+        "c": "İnsan olmanın getirdiği temel hak ve özgürlükleri kendi cümleleri ile ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "OGM Materyal'de bu kazanıma özel 4. sınıf materyali bulunamadı; arama sonuçları lise düzeyi 'Demokrasi ve İnsan Hakları' seçmeli dersine aitti. İçerik kazanımın aciklama alanına ve BM Çocuk Hakları Sözleşmesi temelli genel müfredat bilgisine (eğitim, sağlık, barınma, beslenme, oyun/dinlenme, eşitlik, düşünceyi ifade etme hakları) dayandırıldı.",
+      "notlar": [
+        "Bağımsız crosscheck: karar=onay, kritik/orta sorun yok. Düşük önemli bir not üzerine s5'in surec_bileseni etiketi 'b'den 'a'ya düzeltildi (bileşen b s7 açık uçlu soruda zaten kapsanıyor)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları kazanımınızı hatırlayarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sol sütundaki durumları sağ sütundaki hak adlarıyla eşleştiriniz. Sağ sütunda **iki fazladan** seçenek bulunmaktadır.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Aç kalan bir çocuğun karnını doyurabilmesi"},
+            {"no": 2, "metin_md": "Hasta olduğunda doktora götürülmesi"},
+            {"no": 3, "metin_md": "Okula gidip okuma yazma öğrenmesi"},
+            {"no": 4, "metin_md": "Arkadaşlarıyla parkta oyun oynayıp dinlenmesi"},
+            {"no": 5, "metin_md": "Kendi düşüncesini çekinmeden söyleyebilmesi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sağlık hakkı"},
+            {"harf": "B", "metin_md": "Eğitim hakkı"},
+            {"harf": "C", "metin_md": "Beslenme hakkı"},
+            {"harf": "D", "metin_md": "Oyun ve dinlenme hakkı"},
+            {"harf": "E", "metin_md": "Düşünceyi ifade etme hakkı"},
+            {"harf": "F", "metin_md": "Seyahat özgürlüğü"},
+            {"harf": "G", "metin_md": "Mülkiyet hakkı"}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B", "4": "D", "5": "E"},
+          "cozum_md": "1→C (Beslenme hakkı: karnını doyurabilme), 2→A (Sağlık hakkı: doktora götürülme), 3→B (Eğitim hakkı: okula gitme), 4→D (Oyun ve dinlenme hakkı), 5→E (Düşünceyi ifade etme hakkı). F ve G seçenekleri bu durumlarla ilgili olmadığı için kullanılmamıştır."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Her çocuğun güvenli bir evde barınma hakkı vardır.", "cevap": true, "gerekce_md": "Barınma hakkı, insan olmanın getirdiği temel haklardan biridir; tüm çocukları kapsar."},
+            {"no": 2, "metin_md": "Eğitim hakkı yalnızca ailesi maddi durumu iyi olan çocuklara aittir.", "cevap": false, "gerekce_md": "Eğitim hakkı tüm çocuklar için geçerlidir; ailenin ekonomik durumuna bağlı değildir."},
+            {"no": 3, "metin_md": "Bir çocuğun kendi görüşünü söylemesi, düşünceyi ifade etme hakkının bir örneğidir.", "cevap": true, "gerekce_md": "Düşüncesini söyleyebilme, ifade etme hakkının doğrudan bir örneğidir."},
+            {"no": 4, "metin_md": "Dinlenme ve oyun oynama, çocuklar için bir hak değil sadece bir isteğidir.", "cevap": false, "gerekce_md": "Oyun ve dinlenme, çocuk haklarından biridir; sadece bir istek değildir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1: Doğru — barınma temel bir haktır. 2: Yanlış — eğitim hakkı koşulsuzdur, ekonomik duruma bağlı değildir. 3: Doğru — görüş söyleme, ifade hakkının örneğidir. 4: Yanlış — oyun ve dinlenme bir haktır, salt istek değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları örnek durumları dikkate alarak yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ela'nın ailesi başka bir şehre taşınmış ve Ela yeni okuluna kayıt yaptıramamıştır. Öğretmeni bu duruma itiraz edip okul idaresini bilgilendirmiş, Ela'nın hemen derslere başlaması sağlanmıştır. Öğretmenin bu davranışı Ela'nın hangi hakkını korumaya yöneliktir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sağlık hakkı"},
+            {"harf": "B", "metin_md": "Eğitim hakkı"},
+            {"harf": "C", "metin_md": "Barınma hakkı"},
+            {"harf": "D", "metin_md": "Oyun ve dinlenme hakkı"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Durum, Ela'nın okula kayıt olup derslere başlaması ile ilgilidir; bu doğrudan eğitim hakkına karşılık gelir. A, C ve D seçenekleri durumla ilgisizdir, tipik dikkat dağıtıcılardır."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Hak", "Örnek Durum"],
+            "satirlar": [
+              ["Sağlık hakkı", "__?__"],
+              ["__?__", "Bir çocuğun parkta arkadaşlarıyla top oynaması"],
+              ["Barınma hakkı", "__?__"],
+              ["Eşitlik hakkı", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Bir çocuğun hastalandığında ücretsiz muayene olabilmesi",
+            "r1c0": "Oyun ve dinlenme hakkı",
+            "r2c1": "Bir ailenin güvenli, temiz bir evde barınabilmesi",
+            "r3c1": "Kız ve erkek çocukların aynı eğitim fırsatlarına sahip olması"
+          },
+          "cozum_md": "Her satırda hak adı ile örnek durum birbirini karşılamalıdır: sağlık→ücretsiz muayene, top oynama→oyun ve dinlenme hakkı, barınma→güvenli evde yaşama, eşitlik→herkes için aynı fırsatlar. Örnek cevaplar tek doğru ifade değildir; anlamca aynı kapsamdaki cevaplar da kabul edilir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerden hangisi 'düşünceyi ifade etme hakkını' bağlamından koparmadan doğru ifade eder?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Herkes istediği zaman istediği yerde bağırarak konuşabilir."},
+            {"harf": "B", "metin_md": "Bir çocuk, kendisini ilgilendiren bir konuda görüşünü saygılı bir dille söyleyebilir."},
+            {"harf": "C", "metin_md": "Çocuklar büyüklerinin her söylediğini sorgulamadan kabul etmelidir."},
+            {"harf": "D", "metin_md": "Düşünceyi ifade etme hakkı sadece yetişkinler içindir."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Düşünceyi ifade etme hakkı, görüşün saygılı ve uygun biçimde dile getirilmesidir; bu hakkı en doğru ve bağlamından koparmadan anlatan seçenek B'dir. A hakkı abartarak çarpıtır, C ve D ise hakkın tanımıyla çelişir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle, bağlamdan kopmadan yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "'Eğitim hakkı' kavramını kendi cümlelerinle, bir örnek durum vererek açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Eğitim hakkı, her çocuğun okula gidip okuma yazma öğrenmesi ve bilgi edinmesi hakkıdır. Örneğin köyde yaşayan bir çocuğun da şehirde yaşayan bir çocuk gibi okula gidip ders görebilmesi bu hakkın bir örneğidir.",
+            "kabul_kriterleri": [
+              "Eğitim hakkını kendi cümleleriyle tanımlaması",
+              "Somut ve gerçekçi bir örnek durum vermesi",
+              "Bağlamdan kopmadan (hak kavramının anlamına sadık kalarak) ifade etmesi"
+            ]
+          },
+          "cozum_md": "Kabul edilebilir cevap, eğitim hakkının 'her çocuğun okula gidebilmesi/öğrenim görebilmesi' anlamını koruyan ve somut bir örnekle desteklenen herhangi bir açıklamadır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumu oku: *'Bir okulda bazı öğrenciler, farklı bir şehirden geldiği için bir arkadaşlarını oyunlarına almak istemiyor.'* Bu durumda hangi hak(lar) ihmal edilmektedir? Düşünceni bağlamdan kopmadan, kendi cümlelerinle yazılı olarak ifade et.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bu durumda çocuğun eşitlik hakkı ve oyun/dinlenme hakkı ihmal edilmektedir. Çünkü tüm çocuklar nereden geldiğine bakılmaksızın eşit muamele görmeli ve oyuna dahil edilmelidir.",
+            "kabul_kriterleri": [
+              "Eşitlik hakkına veya ilgili bir hakka doğru şekilde referans vermesi",
+              "Durumu bağlamından koparmadan, verilen senaryoya bağlı kalarak açıklaması",
+              "Kendi cümleleriyle yazılı bir ifade kurması"
+            ]
+          },
+          "cozum_md": "Senaryoda dışlanma söz konusudur; bu durum en doğrudan eşitlik hakkını (ayrıca dolaylı olarak oyun/dinlenme hakkını) ihlal eder. Öğrencinin hangi hakkı seçtiğinden bağımsız olarak, gerekçesinin senaryoyla tutarlı olması yeterlidir."
+        }
+      ]
+    }
+  ]
+}

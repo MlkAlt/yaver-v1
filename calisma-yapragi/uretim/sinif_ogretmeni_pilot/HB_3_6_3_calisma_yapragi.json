@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sanatçılarımız ve Sanata Katkıları: Bilgi Toplayalım",
+    "kazanim": {
+      "kod": "HB.3.6.3",
+      "ad": "Sanatçıların sanata katkılarına yönelik verilen kaynaklardan bilgi toplayabilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Sanatçıların sanata katkılarına yönelik bilgileri bulur.",
+        "b": "Sanatçıların sanata katkılarına yönelik bilgileri kaydeder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr Hayat Bilgisi 3. sınıf 6. Öğrenme Alanı (Bilim, Teknoloji ve Sanat) sayfası ve mufredat.meb.gov.tr üzerindeki Hayat Bilgisi öğretim programı incelendi; kazanımın kitap/müze/internet gibi kaynaklardan sanatçılar hakkında bilgi bulma ve bu bilgiyi tablo/not gibi bir ürünle kaydetme sürecini kapsadığı doğrulandı. ogmmateryal.eba.gov.tr'de bu kazanıma özgü doğrudan bir materyal bulunamadı; içerik kazanımın aciklama alanına ve ilkokul düzeyinde yaygın olarak tanıtılan MEB müfredatı örneği sanatçılara (Mimar Sinan, İtri, Osman Hamdi Bey, Aşık Veysel) dayanılarak üretildi.",
+      "notlar": [
+        "Crosscheck (bağımsız subagent): karar=onay, kritik sorun yok, bağımsız çözüm anahtarla tam uyuştu. Düşük önemli K5 notu üzerine s1'deki olumsuzluk kökleri ('gerek yoktur', 'hiçbir bilgiye ulaşılamaz') kalınlaştırıldı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru ise D, yanlış ise Y kutucuğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir sanatçı hakkında bilgi toplarken sadece kendi hayal gücümüzü kullanmalıyız, kitaplara veya internete bakmamıza **gerek yoktur**.", "cevap": false, "gerekce_md": "Bilgi toplarken kitap, ansiklopedi, müze ve internet gibi kaynaklardan yararlanılır; bilgiyi uydurmayız."},
+            {"no": 2, "metin_md": "Ressamlar tablo, heykeltıraşlar heykel, besteciler ise müzik eserleri yaparak sanata katkı sağlar.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Bir müze, bir sanatçının eserleri hakkında bilgi edinebileceğimiz kaynaklardan biridir.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Geçmişte yaşamış bir sanatçı hakkında artık **hiçbir bilgiye ulaşılamaz**.", "cevap": false, "gerekce_md": "Kitaplar, müzeler, belgeseller ve internet sayesinde geçmişte yaşamış sanatçılar hakkında bilgi edinebiliriz."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "1: yanlış, bilgi toplarken güvenilir kaynaklar kullanılır. 2: doğru, her sanatçı kendi dalında eser üretir. 3: doğru, müzeler sanatçı ve eserleri hakkında bilgi verir. 4: yanlış, geçmişteki sanatçılar hakkında kitap/müze/internet gibi kaynaklardan bilgi edinilebilir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerde boş bırakılan yerleri kelime havuzundan uygun kelimelerle tamamlayınız.\n\n1. Tablo ve resim yapan sanatçıya ____(1)____ denir.\n2. Müzik eserleri besteleyen sanatçıya ____(2)____ denir.\n3. Cami, köprü gibi yapılar tasarlayan sanatçıya ____(3)____ denir.\n4. Saz çalıp türkü söyleyen halk sanatçısına ____(4)____ denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["ressam", "besteci", "mimar", "halk ozanı", "heykeltıraş"],
+          "cevap": {"1": "ressam", "2": "besteci", "3": "mimar", "4": "halk ozanı"},
+          "cozum_md": "Kelime havuzundaki 'heykeltıraş' bir çeldiricidir; cümlelerin anlamına en uygun kelimeler sırasıyla ressam, besteci, mimar ve halk ozanıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki metni okuyunuz. Soruları metne göre cevaplayınız.\n\n**Sanatçılarımız**\n\nÜlkemizde pek çok sanatçı, sanata değerli katkılar yapmıştır. Mimar Sinan, Osmanlı döneminde yaşamış ünlü bir mimardır; İstanbul'daki Süleymaniye Camii ve Edirne'deki Selimiye Camii onun en bilinen eserlerindendir. İtri ise klasik Türk müziğinin en önemli bestecilerindendir; bugün hâlâ dinlenen Segâh Tekbir gibi pek çok eser bestelemiştir. Osman Hamdi Bey hem ünlü bir ressam hem de bir müzeciydi; 'Kaplumbağa Terbiyecisi' adlı tablosuyla tanınır ve İstanbul Arkeoloji Müzesi'nin kurulmasına öncülük etmiştir. Aşık Veysel ise saz çalıp türkü söyleyen bir halk ozanıdır; 'Uzun İnce Bir Yoldayım' adlı türküsüyle tanınır.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Metne göre Osman Hamdi Bey'in sanata katkısı aşağıdakilerden hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Cami ve köprü inşa etmek"},
+            {"harf": "B", "metin_md": "Ressamlık yapmak ve bir müzenin kurulmasına öncülük etmek"},
+            {"harf": "C", "metin_md": "Türkü söylemek ve saz çalmak"},
+            {"harf": "D", "metin_md": "Müzik eseri bestelemek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Metinde Osman Hamdi Bey'in hem ressam hem de müzeci olduğu, 'Kaplumbağa Terbiyecisi' tablosuyla tanındığı ve İstanbul Arkeoloji Müzesi'nin kurulmasına öncülük ettiği belirtilmiştir. Doğru cevap B'dir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Metinde geçen sanatçıları ve sanata katkılarını bularak tabloyu tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sanatçı", "Sanata Katkısı"],
+            "satirlar": [
+              ["Mimar Sinan", "__?__"],
+              ["__?__", "Segâh Tekbir gibi eserler bestelemiştir"],
+              ["Osman Hamdi Bey", "__?__"],
+              ["__?__", "'Uzun İnce Bir Yoldayım' türküsünü söylemiştir"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Süleymaniye Camii ve Selimiye Camii gibi eserler tasarlamıştır",
+            "r1c0": "İtri",
+            "r2c1": "'Kaplumbağa Terbiyecisi' tablosunu yapmış ve İstanbul Arkeoloji Müzesi'nin kurulmasına öncülük etmiştir",
+            "r3c0": "Aşık Veysel"
+          },
+          "cozum_md": "Metindeki her sanatçı, kendi katkısıyla eşleştirilerek tablo tamamlanır: Mimar Sinan camileriyle, İtri besteleriyle, Osman Hamdi Bey tablosu ve müze kurulmasındaki öncülüğüyle, Aşık Veysel ise türküsüyle sanata katkı sağlamıştır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir sanatçı hakkında bilgi toplarken izlenecek adımlar karışık verilmiştir. Doğru sıraya diziniz.",
+          "gorsel": null,
+          "ogeler": [
+            "Bulduğun bilgileri bir tabloya ya da deftere yaz.",
+            "Araştıracağın sanatçıyı belirle.",
+            "Kitap, müze veya internet gibi bir kaynak bul.",
+            "Kaynaktan sanatçıyla ilgili önemli bilgileri seç."
+          ],
+          "cevap": {"dogru_sira": [1, 2, 3, 0]},
+          "cozum_md": "Önce araştırılacak sanatçı belirlenir, sonra o sanatçıyla ilgili bir kaynak (kitap, müze, internet) bulunur, ardından bu kaynaktan önemli bilgiler seçilir ve en son bu bilgiler bir tabloya veya deftere kaydedilir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir sanatçı hakkında topladığın bilgileri kaydetmek için tablo, afiş veya poster hazırlamak istesen hangisini seçerdin? Neden bu ürünü seçtiğini 2-3 cümleyle açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben afiş hazırlamayı seçerdim çünkü afişte hem yazı hem resim kullanarak sanatçıyı ve eserini çekici bir şekilde gösterebilirim. Böylece arkadaşlarım da bu bilgileri kolayca görüp öğrenebilir.",
+            "kabul_kriterleri": ["Verilen ürünlerden (tablo/afiş/poster) birini açıkça seçmiş olması", "Seçimini en az bir gerekçeyle açıklaması"]
+          },
+          "cozum_md": "Kabul edilir cevap, verilen ürünlerden birini seçip bu seçimi kaydetme amacına uygun bir gerekçeyle (görsel anlatım, kolay okunma, kısa ve öz olma vb.) desteklemelidir. Ürün seçilmeden sadece 'kaydederim' denmesi yeterli kabul edilmez."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Metinde adı geçen sanatçılardan birini seç. O sanatçı hakkında öğrendiğin bir bilgiyi yaz ve bu bilgiyi nasıl kaydedeceğini (deftere yazarak, tablo yaparak, resim çizerek vb.) belirt.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben Mimar Sinan'ı seçtim. Mimar Sinan, İstanbul'da Süleymaniye Camii'ni yapmıştır. Bu bilgiyi defterime sanatçının adını ve yaptığı eseri yazarak kaydederim.",
+            "kabul_kriterleri": ["Metinde geçen sanatçılardan birini seçmesi", "O sanatçıyla ilgili metinden doğru bir bilgi vermesi", "Bilgiyi nasıl kaydedeceğini açıkça belirtmesi"]
+          },
+          "cozum_md": "Kabul edilir cevap, metinde geçen dört sanatçıdan (Mimar Sinan, İtri, Osman Hamdi Bey, Aşık Veysel) birini seçmeli, o sanatçıyla ilgili metinden doğru bir bilgi vermeli ve bu bilgiyi nasıl kaydedeceğini (defter, tablo, resim vb.) açıkça belirtmelidir."
+        }
+      ]
+    }
+  ]
+}

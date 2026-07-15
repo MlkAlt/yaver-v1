@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Grup İçinde Farklı Fikirlerle Müzakere",
+    "kazanim": {
+      "kod": "İHVD.4.4.2",
+      "ad": "Grup arkadaşları ile farklı fikirler hakkında müzakere edebilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "4. ÖĞRENME ALANI: HAYATIMDA DEMOKRASİ",
+      "surec_bilesenleri": {
+        "a": "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin kendisinden farklı düşünebileceğini fark eder.",
+        "b": "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin düşüncelerindeki ortaklıkları ve farklılıkları karşılaştırır.",
+        "c": "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşünceleri doğrultusunda ortak amaç üzerinde uzlaşmak için çözüm arar.",
+        "ç": "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşüncelerini dikkate alarak ortak amaca göre kendi görüşünü gözden geçirir.",
+        "d": "Yakın çevresinde dâhil olduğu gruplarda yer alan üyelerin farklı görüş ve düşüncelerini dikkate alarak grubun ortak amaçlarını savunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr İnsan Hakları, Vatandaşlık ve Demokrasi Dersi 4. Sınıf '4. Öğrenme Alanı: Hayatımda Demokrasi' teması taraması: kazanımın süreç bileşenleri (a-farkındalık, b-karşılaştırma, c-çözüm arama, ç-görüş gözden geçirme, d-ortak amacı savunma) doğrulandı; öğrenme alanının hedefi öğrencilerin ortak karar süreçlerinde kendi görüşünü savunma ve farklı fikirleri müzakere etme becerisi geliştirmesi olarak teyit edildi. Bu bağlamda sorular sınıf içi grup çalışması senaryoları (etkinlik/oyun/proje seçimi) üzerine kuruldu.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları grup arkadaşlarımızın farklı düşünebileceğini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir grup çalışmasında herkesin aynı fikirde olması beklenir.", "cevap": false, "gerekce_md": "Grup üyeleri farklı düşünebilir; bu doğaldır ve beklenen bir durumdur."},
+            {"no": 2, "metin_md": "Arkadaşımın benimle aynı fikirde olmaması, aramızın bozuk olduğu anlamına gelmez.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Grup arkadaşlarım farklı düşündüğünde onları dinlemeden kendi fikrimde ısrar etmeliyim.", "cevap": false, "gerekce_md": "Önce arkadaşlarımızı dinlemeli, sonra birlikte ortak bir çözüm aramalıyız."},
+            {"no": 4, "metin_md": "Bir konuda birden fazla doğru bakış açısı olabilir.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1) Yanlış — grupta herkesin farklı düşünmesi doğaldır. 2) Doğru — farklı fikir, arkadaşlığı bozmaz. 3) Yanlış — önce dinlemek, sonra çözüm aramak gerekir. 4) Doğru — aynı konuda birden fazla geçerli bakış açısı olabilir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumları uygun kavramla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ayşe ile Burak'ın ikisi de doğa yürüyüşü etkinliğini seviyor."},
+            {"no": 2, "metin_md": "Cem parkı, Deniz ormanı öneriyor; ikisinin fikri birbirinden farklı."},
+            {"no": 3, "metin_md": "Grup, iki öneriyi birleştirip her ikisini de içeren yeni bir plan yapıyor."},
+            {"no": 4, "metin_md": "Ela, arkadaşının fikrini önce dinliyor, sonra kendi fikrini söylüyor."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Ortaklık"},
+            {"harf": "B", "metin_md": "Farklılık"},
+            {"harf": "C", "metin_md": "Uzlaşma"},
+            {"harf": "D", "metin_md": "Saygı"},
+            {"harf": "E", "metin_md": "Kavga"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1) İkisinin de aynı şeyi istemesi ortaklıktır (A). 2) Farklı öneriler farklılıktır (B). 3) İki öneriyi birleştirmek uzlaşmadır (C). 4) Önce dinleyip sonra konuşmak saygıdır (D). 'Kavga' (E) bu durumların hiçbirine uymayan çeldiricidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları grup içindeki farklı görüşleri karşılaştırıp uzlaşma yollarını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Grup projesinde bazı arkadaşların posterle, bazılarının ise kısa bir drama ile anlatmak istediği bir durum var. Grubun ortak amacı, konuyu sınıfa en iyi şekilde anlatmaktır. Grup ne yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "İki fikri birleştirip hem küçük bir poster hem de kısa bir drama hazırlarlar."},
+            {"harf": "B", "metin_md": "En kalabalık taraf kazanır, diğerleri küser ve çalışmaya katılmaz."},
+            {"harf": "C", "metin_md": "Öğretmen karar versin diye grup hiç konuşmadan bekler."},
+            {"harf": "D", "metin_md": "Grup, anlaşamadığı için projeyi yapmaktan tamamen vazgeçer."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A seçeneği doğrudur; iki fikri birleştirmek, ortak amaca ulaşmak için çözüm arayan bir uzlaşmadır. B, C ve D grup içi müzakereden kaçınan, ortak amacı gözetmeyen davranışlardır."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Grubumda farklı fikirler olduğunda önce arkadaşlarımı ____(1)____. Sonra ortak bir ____(2)____ bulmak için fikirleri birleştiririm. Böylece grubumuz ortak amacına ____(3)____ ulaşır.",
+          "gorsel": null,
+          "kelime_havuzu": ["dinlerim", "çözüm", "birlikte", "görmezden gelirim", "kavga ederim"],
+          "cevap": {"1": "dinlerim", "2": "çözüm", "3": "birlikte"},
+          "cozum_md": "1) Önce arkadaşlarımızı dinleriz. 2) Ortak bir çözüm ararız. 3) Böylece ortak amaca birlikte ulaşırız. 'Görmezden gelirim' ve 'kavga ederim' müzakere sürecine uymadığı için kullanılmaz."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Zeynep: 'Bence sınıf panosuna hayvan resimleri asalım.' Mert: 'Bence bitki resimleri asalım.' İkisi de panoyu güzelleştirmek istiyor. Zeynep ile Mert'in ortak yönü nedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "İkisi de panoyu güzelleştirmek istiyor."},
+            {"harf": "B", "metin_md": "İkisi de aynı resmi seçti."},
+            {"harf": "C", "metin_md": "İkisi de pano yapmak istemiyor."},
+            {"harf": "D", "metin_md": "İkisinin hiçbir ortak yönü yok."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "A doğrudur; resim türü farklı olsa da her ikisi de panoyu güzelleştirmek istiyor, bu ortak amaçtır. B yanlıştır çünkü resimler farklı; C ve D verilen bilgiyle çelişir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi deneyimlerini ve grup arkadaşlarınla yaşayabileceğin durumları düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "ç",
+          "puan": 15,
+          "govde_md": "Grubunla bir oyun seçerken önce 'saklambaç oynayalım' dedin. Ama arkadaşların yakalamacanın daha kalabalık oynanabildiğini söyleyerek yakalamacayı önerdi. Sen ne yaparsın? Neden?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Arkadaşlarımın söylediği nedeni haklı buluyorum; yakalamaca oynamayı kabul ederim çünkü daha çok arkadaşımız birlikte oynayabilir.",
+            "kabul_kriterleri": [
+              "Arkadaşlarının gerekçesini dikkate alarak kendi görüşünü gözden geçirdiğini belirtmesi",
+              "Kararını bir nedenle (ör. grubun ortak amacı) açıklaması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; tek doğru cevap yoktur. Öğrencinin arkadaşının gerekçesini dinleyip kendi ilk fikrini gözden geçirebildiğini bir nedenle anlatması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Grubun sınıf temizliği için herkese görev veren bir plan hazırladı. Başka bir grup bu planı beğenmediğini söyledi. Grubunun planını nasıl savunursun?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Planımızın herkese bir görev verdiğini ve bu yüzden işin daha çabuk bittiğini nazikçe açıklarım.",
+            "kabul_kriterleri": [
+              "Nazik ve saygılı bir dille açıklama yapması",
+              "Grubun ortak amacına (görev paylaşımı/işbirliği) somut bir nedenle gönderme yapması"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur. Öğrencinin grubunun planını kaba olmadan, ortak amaca dayanan bir nedenle savunması beklenir."
+        }
+      ]
+    }
+  ]
+}

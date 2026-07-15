@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Fırsat Eşitliği",
+    "kazanim": {
+      "kod": "İHVD.4.2.3",
+      "ad": "Fırsat eşitliğinin anlamını yorumlayabilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "2. ÖĞRENME ALANI: HAYATIMDA EŞİTLİK VE ADALET",
+      "surec_bilesenleri": {
+        "a": "Fırsat eşitliğine ilişkin durumları inceler.",
+        "b": "Fırsat eşitliğinin önemini sözlü, yazılı veya görsel olarak ifade eder.",
+        "c": "Fırsat eşitliği ile ilgili yakın çevresinden örnekler verir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr resmî öğretim programı sayfası (İHVD 4. sınıf, 2. Öğrenme Alanı: Hayatımda Eşitlik ve Adalet, İHVD.4.2.3) incelendi. Kazanımın önerdiği deneyimsel etkinlik (eşit olmayan adım sayısıyla hedefe ulaşma yarışı) ve örnek durumlar (su, barınma, besin gibi temel ihtiyaçlar; eğitim, sağlık hakları) yaprağın soru bağlamlarına yansıtıldı.",
+      "notlar": ["validate_worksheet.py WARN: 3 alan-yoğun tip (dogru_yanlis, eslestirme, tablo_doldurma) kullanıldı, önerilen ≤2. Bilinçli tercih: render_html.py gerçek ölçümde öğrenci kısmı yine 1 sayfaya sığtı, bu yüzden kabul edildi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki etkinlikleri yönergelerine göre tamamlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin **doğru** mu **yanlış** mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {
+              "no": 1,
+              "metin_md": "Ayşe'nin evinde kendine ait bir çalışma odası ve pek çok kitabı var, Mehmet'in evinde ise hiç kitap yok. İkisinin de aynı sınavdan aynı soruları çözmesi fırsat eşitliğine tam olarak uygundur.",
+              "cevap": false,
+              "gerekce_md": "İki öğrencinin imkânları farklı olduğu için onları aynı koşullarda yarıştırmak fırsat eşitliğini değil, eşitsizliği gösterir; önce imkân farkının azaltılması gerekir."
+            },
+            {
+              "no": 2,
+              "metin_md": "Bir okulda ihtiyacı olan tüm öğrencilere ücretsiz kitap ve kırtasiye dağıtılması fırsat eşitliğine katkı sağlar.",
+              "cevap": true,
+              "gerekce_md": "Bu uygulama, ailesinin ekonomik durumu ne olursa olsun her öğrencinin aynı eğitim imkânına erişmesini sağlar."
+            },
+            {
+              "no": 3,
+              "metin_md": "Sadece ailesi maddi imkânı yüksek olan çocukların spor kulübüne gidebilmesi fırsat eşitliğine örnektir.",
+              "cevap": false,
+              "gerekce_md": "İmkân yalnızca belirli bir gruba tanınmaktadır; fırsat eşitliği herkesin aynı imkâna erişebilmesini gerektirir."
+            },
+            {
+              "no": 4,
+              "metin_md": "Tekerlekli sandalye kullanan bir öğrenci için okula rampa yapılması fırsat eşitliğine katkı sağlar.",
+              "cevap": true,
+              "gerekce_md": "Rampa, engelli öğrencinin diğer öğrencilerle aynı ortama erişmesini sağlayarak fırsat eşitliğini destekler."
+            }
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "Her ifadenin doğruluğu, fırsat eşitliğinin 'herkesin aynı imkâna erişebilmesi' ilkesine göre değerlendirilir: mevcut eşitsizliği azaltan uygulamalar (kitap dağıtımı, rampa) doğrudur; sadece belirli bir gruba imkân tanıyan ya da farklı koşullardaki kişileri aynı yarışa sokan durumlar yanlıştır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki durumları, sağda hangi temel hakka/imkâna erişimin eksik olduğunu gösteren ifadeyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Su kuyusu olmayan bir köyde yaşayan çocuklar temiz suya kolay ulaşamıyor."},
+            {"no": 2, "metin_md": "Bir öğrencinin evinde ders çalışacağı kitabı yok."},
+            {"no": 3, "metin_md": "Bir ailenin çocuğu sık hastalanıyor ama yakınlarında hastane yok."},
+            {"no": 4, "metin_md": "Görme engelli bir öğrenci normal baskı kitabı okuyamıyor."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sağlık hizmetine erişim"},
+            {"harf": "B", "metin_md": "Eğitim materyaline erişim"},
+            {"harf": "C", "metin_md": "Temiz suya erişim"},
+            {"harf": "D", "metin_md": "Uygun formatta eğitim materyaline erişim (Braille kitap)"},
+            {"harf": "E", "metin_md": "Barınma imkânına erişim"}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "A", "4": "D"},
+          "cozum_md": "Her durum, hangi temel hakka/imkâna erişimin eksik olduğuna göre eşleştirilir: su → C, ders materyali → B, sağlık → A, uygun formatta eğitim materyali → D. E seçeneği (barınma) bu dört durumdan hiçbirine karşılık gelmediği için kullanılmaz; fazladan seçenektir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları fırsat eşitliği kavramını düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi **fırsat eşitliğini** en doğru şekilde açıklar?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Herkesin aynı parayı kazanmasıdır."},
+            {"harf": "B", "metin_md": "Herkesin, ailesinin durumuna bakılmaksızın eğitim, sağlık gibi temel haklardan eşit şekilde yararlanabilmesidir."},
+            {"harf": "C", "metin_md": "Sadece derslerinde başarılı olan öğrencilerin ödüllendirilmesidir."},
+            {"harf": "D", "metin_md": "Herkesin aynı evde, aynı mahallede yaşamasıdır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Fırsat eşitliği, kişinin ailesinin ekonomik durumuna bakılmaksızın temel haklardan yararlanabilmesidir; bu nedenle doğru seçenek B'dir. A seçeneği eşitliği gelirle, C seçeneği başarıyla, D seçeneği ise yaşam alanıyla karıştırır; bunların hiçbiri fırsat eşitliğinin tanımı değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Fırsat eşitliği, herkesin ____(1)____ durumuna bakılmaksızın eğitim, sağlık gibi temel haklardan ____(2)____ yararlanabilmesi demektir. Örneğin bir okulda ihtiyacı olan öğrencilere ücretsiz kitap dağıtılması, öğrenciler arasındaki imkân ____(3)____ azaltarak fırsat eşitliğine katkı sağlar.",
+          "gorsel": null,
+          "kelime_havuzu": ["ailesinin", "eşit şekilde", "farklarını", "yaşının", "haksız şekilde", "sırasını"],
+          "cevap": {"1": "ailesinin", "2": "eşit şekilde", "3": "farklarını"},
+          "cozum_md": "Fırsat eşitliği tanımı, kişinin ailesinin durumuna bakılmaksızın haklardan eşit şekilde yararlanmasını içerir; ücretsiz kitap dağıtımı gibi uygulamalar öğrenciler arasındaki imkân farklarını azaltır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda verilen durumların fırsat eşitliği sağlayıp sağlamadığını (Evet/Hayır) yazarak doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Durum", "Fırsat Eşitliği Sağlanmış mı?"],
+            "satirlar": [
+              ["Kırsal bölgede yaşayan öğrencilere ücretsiz servisle okula ulaşım sağlanması", "__?__"],
+              ["Sınav başarısına bakılmaksızın sadece parası olan ailelerin çocuklarının özel ders alabilmesi", "__?__"],
+              ["Görme engelli öğrenciler için kabartma yazılı (Braille) ders kitabı hazırlanması", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Evet", "r1c1": "Hayır", "r2c1": "Evet"},
+          "cozum_md": "Taşımalı eğitim ve Braille kitap uygulamaları dezavantajlı durumdaki öğrencilerin diğerleriyle eşit imkâna erişmesini sağladığı için fırsat eşitliğine örnektir (Evet). Sadece parası olan ailelerin özel ders alabilmesi ise imkânı yalnızca belirli bir gruba tanıdığı için fırsat eşitliğine örnek değildir (Hayır)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle, örnekler vererek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Fırsat eşitliğinin bir toplum için neden önemli olduğunu 3-4 cümle ile açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Fırsat eşitliği önemlidir çünkü her çocuğun, ailesinin durumu ne olursa olsun eğitim ve sağlık gibi haklardan yararlanması gerekir. Fırsat eşitliği olmazsa bazı çocuklar sırf yoksul ya da engelli oldukları için geride kalabilir. Herkese eşit imkân sağlanan bir toplumda insanlar daha adil ve mutlu bir şekilde yaşar.",
+            "kabul_kriterleri": [
+              "Herkesin aynı imkânlara sahip olmasının daha adil bir toplum oluşturduğunu belirtmesi",
+              "Fırsat eşitliği olmadığında bazı çocukların/bireylerin geride kalabileceğini ifade etmesi",
+              "En az bir gerekçe veya örnek sunması"
+            ]
+          },
+          "cozum_md": "Örnek cevapta belirtildiği gibi: fırsat eşitliği, ailelerin ekonomik durumu ne olursa olsun her çocuğun eğitim ve sağlık gibi haklardan yararlanmasını sağlar; bu sayede hiçbir çocuk sırf ailesinin durumu yüzünden geride kalmaz ve toplum daha adil hâle gelir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Yaşadığınız çevrede (okulunuzda, mahallenizde veya ailenizde) fırsat eşitliğinin sağlanması gereken bir durum yazınız. Bu durumda kimlere, hangi imkânın sağlanması gerektiğini belirtiniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Okulumuzda bazı arkadaşlarımın evinde bilgisayar ve internet yok, bu yüzden ödevlerini yapmakta zorlanıyorlar. Okulumuzun bilgisayar sınıfının ders sonrasında bu arkadaşlarımın kullanımına açılması fırsat eşitliğine güzel bir örnek olur; çünkü böylece herkes aynı imkâna erişmiş olur.",
+            "kabul_kriterleri": [
+              "Yakın çevreden (okul, mahalle, aile) gerçekçi ve somut bir örnek vermesi",
+              "Örnekte hangi imkânın/hakkın söz konusu olduğunu açıkça belirtmesi",
+              "Örneği fırsat eşitliği kavramıyla ilişkilendirmesi"
+            ]
+          },
+          "cozum_md": "Öğrencinin kendi çevresinden somut, gerçekçi bir durum sunması ve bu durumda hangi imkânın/hakkın kimlere sağlanması gerektiğini açıkça belirtmesi beklenir; örnek cevapta bilgisayar/internet erişimi örneği verilmiştir."
+        }
+      ]
+    }
+  ]
+}

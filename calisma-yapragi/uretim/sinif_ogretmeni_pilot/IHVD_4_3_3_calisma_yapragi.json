@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Dijital Vatandaşlığın Gerektirdiği Özellikler",
+    "kazanim": {
+      "kod": "İHVD.4.3.3",
+      "ad": "Dijital vatandaşlığın gerektirdiği özellikleri belirleyebilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+      "surec_bilesenleri": {
+        "a": "Çevrim içi ortamda kişisel bilgilerinin ve mahremiyetinin korunması gerektiğini fark eder.",
+        "b": "Çevrim içi ortamda güvenli, saygılı ve sorumlu iletişim davranışlarını (siber zorbalık/uygunsuz içerik karşısında yetişkine bildirme dahil) ayırt eder.",
+        "c": "İnternetteki bilgilerin doğruluğunu sorgulayarak dijital vatandaşlık özelliklerini günlük yaşam durumlarına uygular."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Kazanımın MEB kaynak verisinde (data/sinif_ogretmeni_v2.json) 'aciklama' alanı null; bu durum resmi kaynakla (tymm.meb.gov.tr/insan-haklari-vatandaslik-ve-demokrasi-dersi/unite/370) doğrulandı — kazanımın süreç bileşenleri MEB tarafından da ayrıca listelenmemiş, öğretim uygulamaları bölümünde etkinliklerle işleniyor. Süreç bileşenleri bu skill'de, resmi TYMM ünite sayfasında geçen dijital vatandaşlık içerik alanlarından (kişisel veri/kimlik gizliliği, tanımadık kişilerle iletişim kurmama, siber zorbalık/uygunsuz içerikte yetişkine haber verme, bilgi doğruluğunu teyit etme, çevrimiçi saygılı iletişim) türetilerek, komşu kazanımların (İHVD.4.3.1, İHVD.4.3.4) açıklama formatına uygun şekilde yazıldı.",
+      "notlar": [
+        "Kaynak veri dosyasında bu kazanımın 'aciklama' alanı null; süreç bileşenleri resmi TYMM ünite sayfası içeriğinden türetildi (yukarıya bkz.). İleride MEB kaynak verisi güncellenirse surec_bilesenleri karşılaştırılıp gerekirse revize edilmeli."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dijital vatandaşlık kavramlarını hatırlayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki dijital vatandaşlık kavramlarını doğru açıklamalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Kişisel bilgi gizliliği"},
+            {"no": 2, "metin_md": "Saygılı iletişim"},
+            {"no": 3, "metin_md": "Bilgi doğruluğu"},
+            {"no": 4, "metin_md": "Güvenli paylaşım"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "İnternette gördüğü bir bilginin doğru olup olmadığını başka kaynaklardan kontrol etmek"},
+            {"harf": "B", "metin_md": "Adını, okulunu, ev adresini tanımadığı kişilerle paylaşmamak"},
+            {"harf": "C", "metin_md": "Çevrim içi ortamlarda arkadaşlarına kaba sözler söylememek, saygılı konuşmak"},
+            {"harf": "D", "metin_md": "Bir fotoğrafı paylaşmadan önce izin almak ve kişisel bilgi içermediğinden emin olmak"},
+            {"harf": "E", "metin_md": "Ders çalışırken telefonu tamamen kapatmak"},
+            {"harf": "F", "metin_md": "Her gün en az bir saat kitap okumak"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "D"},
+          "cozum_md": "1-B: Kişisel bilgi gizliliği, adres/okul gibi bilgilerin tanımadık kişilerle paylaşılmamasıdır. 2-C: Saygılı iletişim, çevrim içi ortamda kaba davranmamaktır. 3-A: Bilgi doğruluğu, okunan bilginin başka kaynaklarla teyit edilmesidir. 4-D: Güvenli paylaşım, fotoğraf/içerik paylaşmadan önce izin alıp kişisel bilgi içermediğinden emin olmaktır. E ve F dijital vatandaşlık özelliği değil, çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Dijital vatandaş, internette kişisel bilgilerini ____(1)____ kişilerle paylaşmaz. Çevrim içinde bir sorunla karşılaştığında bunu bir ____(2)____ ile paylaşır. İnternette okuduğu bir bilginin doğru olup olmadığını ____(3)____ eder.",
+          "gorsel": null,
+          "kelime_havuzu": ["tanımadığı", "yetişkin", "kontrol", "tanıdığı", "arkadaş"],
+          "cevap": {"1": "tanımadığı", "2": "yetişkin", "3": "kontrol"},
+          "cozum_md": "1: 'tanımadığı' — kişisel bilgiler yalnızca güvenilen, tanıdık kişilerle paylaşılır. 2: 'yetişkin' — çevrim içi bir sorunla (siber zorbalık, uygunsuz içerik vb.) karşılaşıldığında bir yetişkine (aile/öğretmen) haber verilir. 3: 'kontrol' — internetteki bilgiler doğru kabul edilmeden önce başka kaynaklarla kontrol edilir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki ifadeleri okuyunuz ve doğru/yanlış olarak işaretleyip soruyu cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri doğru (D) ya da yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Sosyal medyada tanımadığın biriyle özel bilgilerini paylaşmak güvenlidir.", "cevap": false, "gerekce_md": "Kişisel bilgiler yalnızca güvenilen, tanıdık kişilerle paylaşılmalıdır; tanımadık biriyle paylaşmak risklidir."},
+            {"no": 2, "metin_md": "İnternette gördüğün her bilgi doğrudur, kontrol etmeye gerek yoktur.", "cevap": false, "gerekce_md": "İnternetteki bilgiler doğru kabul edilmeden önce farklı kaynaklardan doğrulanmalıdır."},
+            {"no": 3, "metin_md": "Çevrim içi ortamda birine kaba davranılırsa (siber zorbalık) bunu bir yetişkine haber vermek doğrudur.", "cevap": true, "gerekce_md": null},
+            {"no": 4, "metin_md": "İyi bir dijital vatandaş, çevrim içi ortamda da gerçek hayattaki gibi saygılı davranır.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": false, "2": false, "3": true, "4": true}},
+          "cozum_md": "1-Y: Tanımadık kişilerle özel bilgi paylaşmak güvenli değil, risklidir. 2-Y: İnternetteki bilgiler kontrol edilmeden doğru kabul edilmemelidir. 3-D: Siber zorbalık durumunda yetişkine haber vermek doğru bir dijital vatandaşlık davranışıdır. 4-D: İyi bir dijital vatandaş çevrim içi ve gerçek hayatta tutarlı, saygılı davranır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ece, sosyal medyada hiç tanımadığı biri kendisine mesaj atıp ev adresini soruyor. Ece'nin yapması gereken en doğru davranış hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Adresini hemen yazıp gönderir."},
+            {"harf": "B", "metin_md": "Mesajı görmezden gelip kimseye söylemez."},
+            {"harf": "C", "metin_md": "Durumu bir yetişkine (ailesi/öğretmeni) anlatır ve mesajı yanıtlamaz."},
+            {"harf": "D", "metin_md": "Karşı taraftan da kendi ev adresini ister."}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Doğru seçenek C'dir. Tanımadık biriyle kişisel bilgi (ev adresi) paylaşmak güvenli değildir; bu tür bir durumda hem paylaşım yapılmamalı hem de bir yetişkine haber verilmelidir. A ve D kişisel bilgi paylaşımını içerdiği için yanlıştır. B ise durumu bir yetişkinle paylaşmadığı için eksiktir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları öğrendiklerinizi günlük durumlara uygulayarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Arkadaşı sosyal medyada ona sürekli kaba mesajlar gönderiyor (siber zorbalık). Ali'nin izlemesi gereken adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": [
+            "Durumu bir yetişkine (ailesine/öğretmenine) anlatır.",
+            "Mesajları/ekran görüntülerini kaydeder.",
+            "Yetişkinin yardımıyla gerekirse gönderen kişiyi engeller/şikayet eder.",
+            "Kaba mesajlara aynı şekilde karşılık vermez, sakin kalır."
+          ],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Doğru sıra: 1) Mesajları/ekran görüntülerini kaydeder (kanıt için), 2) Kaba mesajlara aynı şekilde karşılık vermez, sakin kalır, 3) Durumu bir yetişkine anlatır, 4) Yetişkinin yardımıyla gerekirse gönderen kişiyi engeller/şikayet eder. Önce kanıt saklanır, tepki verilmez, sonra yetişkine bildirilir, en son teknik önlem (engelleme/şikayet) alınır."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Arkadaşın Mert, hiç görmediği bir siteden gelen 'Hediye kazandın, adını ve telefon numaranı yaz!' mesajını gösteriyor ve heyecanla ne yapması gerektiğini soruyor. Ona dijital vatandaşlık özelliklerini kullanarak en az iki öneri yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Mert'e önce bu mesajın güvenilir olmayabileceğini, gerçek olup olmadığının belli olmadığını söylerim. İsim ve telefon numarası gibi kişisel bilgilerini bu siteye kesinlikle yazmamasını, çünkü tanımadığı biriyle bu bilgileri paylaşmanın güvenli olmadığını anlatırım. Ayrıca bu durumu bir yetişkine (ailesine ya da öğretmenine) anlatmasını öneririm.",
+            "kabul_kriterleri": [
+              "Kişisel bilgi (isim, telefon numarası) paylaşmaması gerektiğini belirtmesi",
+              "Mesajın/site içeriğinin güvenilirliğinin şüpheli olduğunu, doğrulanması gerektiğini belirtmesi",
+              "Durumu bir yetişkine (aile/öğretmen) haber vermesi gerektiğini belirtmesi"
+            ]
+          },
+          "cozum_md": "Tam puanlık cevap üç unsuru içerir: (1) kişisel bilgi paylaşmama uyarısı, (2) mesajın güvenilirliğinin şüpheli olduğunun fark ettirilmesi, (3) bir yetişkine haber verme önerisi. En az iki unsuru içeren cevaplar kabul edilebilir; tek unsur içeren cevaplar kısmi puan alır."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdakilerden hangisi dijital vatandaşlığın gerektirdiği özelliklerden biri DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "İnternette paylaşım yapmadan önce doğruluğunu kontrol etmek"},
+            {"harf": "B", "metin_md": "Sosyal medyada tanımadığı kişilere kişisel bilgilerini vermek"},
+            {"harf": "C", "metin_md": "Çevrim içi ortamda saygılı bir dil kullanmak"},
+            {"harf": "D", "metin_md": "Bir sorunla karşılaştığında yetişkinlerden yardım istemek"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir; çünkü tanımadık kişilerle kişisel bilgi paylaşmak dijital vatandaşlığın bir gereği değil, tam tersine kaçınılması gereken riskli bir davranıştır. A, C ve D dijital vatandaşlığın gerektirdiği doğru özelliklerdir."
+        }
+      ]
+    }
+  ]
+}

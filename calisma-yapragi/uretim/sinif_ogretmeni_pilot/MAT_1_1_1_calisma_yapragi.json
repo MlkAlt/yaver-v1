@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Rakamları ve 20'ye Kadar Olan Sayıları Tanıyalım",
+    "kazanim": {
+      "kod": "MAT.1.1.1",
+      "ad": "Rakamları ve 20’ye kadar olan sayıları (20 dâhil), niceliklerin büyüklüklerini temsil etmek için kullanabilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Niceliklerin büyüklüklerinin farklı temsillerini tanır.",
+        "b": "Karşılaştığı niceliklerin büyüklüklerini, farklı temsilleri bağlamında belirler.",
+        "c": "Karşılaştığı niceliklerin büyüklüklerini rakam ve sayılarla okur ve yazar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "WebSearch ile tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/45 (1. Sınıf 1. TEMA: SAYILAR VE NİCELİKLER) incelendi. Temanın öğrencilerin nesne gruplarını sayarak nicelikleri rakam/sayı ile temsil etmesini, iki niceliğin büyüklüğünü karşılaştırmasını ve 20'ye kadar sayıları okuyup yazmasını hedeflediği doğrulandı. Onluk-birlik (1 onluk + n birlik) temsili ve nokta/nesne grubu sayma, ders kitabı yaklaşımıyla tutarlı örnek bağlamlar olarak kullanıldı.",
+      "notlar": [
+        "Bu kazanım işlem (toplama/çıkarma) değil temsil ve karşılaştırma ile ilgili olduğu için sorularda dört işlem kullanılmadı; s6'daki 'onluk+birlik' örneği bir toplama işlemi değil, sayının onluk-birlik bileşenleriyle tanınmasıdır.",
+        "Gerçek görsel üretilemediği için nesne grupları metin içinde ● sembolüyle temsil edildi; sembol sayıları python ile tek tek sayılıp doğrulandı (7, 12, 18, 10, 7, 17, 14, 15)."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Soldaki nesne gruplarını, gösterdikleri sayıyla (sağda) eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "●●●●●●● (elma grubu)"},
+            {"no": 2, "metin_md": "●●●●●●●●●●●● (kalem grubu)"},
+            {"no": 3, "metin_md": "●●●●●●●●●●●●●●●●●● (misket grubu)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "7"},
+            {"harf": "B", "metin_md": "12"},
+            {"harf": "C", "metin_md": "18"},
+            {"harf": "D", "metin_md": "15"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1) Elma grubunda 7 tane nesne vardır, bu yüzden 7 ile eşleşir. 2) Kalem grubunda 12 tane nesne vardır, bu yüzden 12 ile eşleşir. 3) Misket grubunda 18 tane nesne vardır, bu yüzden 18 ile eşleşir. D seçeneği (15) hiçbir gruba karşılık gelmeyen çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları rakamla yazınız.\n\non iki = ____(1)____\n\non dokuz = ____(2)____\n\nyirmi = ____(3)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "12", "2": "19", "3": "20"},
+          "cozum_md": "'On iki' sözcüğü 12 rakamıyla, 'on dokuz' sözcüğü 19 rakamıyla, 'yirmi' sözcüğü de 20 rakamıyla yazılır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki gösterimlerden hangisi 14 sayısını temsil eder?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "1 onluk (10 nesnelik grup) + 4 birlik (4 nesne)"},
+            {"harf": "B", "metin_md": "1 onluk (10 nesnelik grup) + 9 birlik (9 nesne)"},
+            {"harf": "C", "metin_md": "2 onluk (2 tane 10'luk grup)"},
+            {"harf": "D", "metin_md": "4 birlik (4 nesne), onluk grup yok"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "1 onluk grup 10 nesne, 4 birlik grup 4 nesne demektir; 10 ve 4 birlikte 14 eder. B seçeneği 10+9=19, C seçeneği 10+10=20, D seçeneği sadece 4 eder. Bu yüzden doğru seçenek A'dır."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki nicelikleri en küçükten en büyüğe doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["on altı", "9", "●●●●●●●●●●●●●● (14 nesne)", "20"],
+          "cevap": {"dogru_sira": [1, 2, 0, 3]},
+          "cozum_md": "'On altı' 16'yı, '9' rakamı 9'u, nesne grubu 14'ü, '20' rakamı 20'yi gösterir. Küçükten büyüğe sıralama: 9, 14, 16, 20. Bu da öge listesindeki sırayla [1, 2, 0, 3] indekslerine karşılık gelir."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda verilen iki niceliği karşılaştırınız. Boş hücrelere >, < veya = işaretinden uygun olanı yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Nicelik A", "Nicelik B", "Karşılaştırma (>, <, =)"],
+            "satirlar": [
+              ["●●●●●●●●●● (10 nesne)", "●●●●●●● (7 nesne)", "__?__"],
+              ["on dört (14)", "●●●●●●●●●●●●●●●●● (17 nesne)", "__?__"]
+            ]
+          },
+          "cevap": {"r0c2": ">", "r1c2": "<"},
+          "cozum_md": "1. satır: Nicelik A 10 nesne, Nicelik B 7 nesnedir; 10, 7'den büyük olduğu için işaret '>' olur. 2. satır: Nicelik A 'on dört' yani 14, Nicelik B ise 17 nesnedir; 14, 17'den küçük olduğu için işaret '<' olur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir kutuda 20'den az oyuncak araba vardır. Arabalar 1 onluk grup (10 araba) ve 6 birlik (6 araba) olarak düzenlenmiştir. Kutuda kaç araba vardır? Rakamla yazınız.",
+          "gorsel": null,
+          "cevap": {"deger": 16, "birim": "araba", "tolerans_yuzde": 0},
+          "cozum_md": "1 onluk grup 10 araba, 6 birlik grup ise 6 araba demektir. 1 onluk ve 6 birlik birlikte 16 sayısını gösterir (16 sayısı 1 onluk, 6 birlik olarak yazılır). Kutuda 16 araba vardır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıda aynı niceliği iki farklı biçimde gösterdik: birincisinde 15 tane yıldız çizilmiş (●●●●●●●●●●●●●●●), ikincisinde 'on beş' yazılı bir kart var. Bu iki gösterimin aynı niceliği gösterdiğini nasıl anlarsın? Anlatınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Yıldızları tek tek sayarsam 15 tane olduğunu görürüm. 'On beş' de 15 sayısının sözcükle yazılışıdır; yani ikisi de aynı niceliği, 15 tane nesneyi, gösterir.",
+            "kabul_kriterleri": [
+              "Nesneleri (yıldızları) sayarak 15 sonucuna ulaştığını belirtmiş",
+              "'On beş' sözcüğünün 15 rakamına karşılık geldiğini fark etmiş"
+            ]
+          },
+          "cozum_md": "Yıldızlar tek tek sayıldığında 15 tane olduğu görülür; 'on beş' de 15 sayısının söylenişidir. Dolayısıyla iki gösterim de aynı niceliği (15) temsil eder."
+        }
+      ]
+    }
+  ]
+}

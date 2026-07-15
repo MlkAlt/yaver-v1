@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Adalet ve Eşitlik İlişkisi",
+    "kazanim": {
+      "kod": "İHVD.4.2.2",
+      "ad": "Adalet ve eşitlik arasındaki ilişkiyi yorumlayabilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "2. ÖĞRENME ALANI: HAYATIMDA EŞİTLİK VE ADALET",
+      "surec_bilesenleri": {
+        "a": "Adalet ve eşitlik kavramları arasındaki ilişkiyi inceler.",
+        "b": "Adalet ve eşitlik kavramları arasındaki ilişkiyi bağlamdan kopmadan, sözlü veya görsel olarak ifade eder.",
+        "c": "Adalet ve eşitlik kavramlarını kendi hayatından örnekler vererek ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "Web araması: Türkiye Yüzyılı Maarif Modeli İHVD 4. sınıf öğretim programı (mufredat.meb.gov.tr) ve HECCE/MEB Yayınları 4. sınıf İHVD ders kitabının 'Adalet ve Eşitlik' ünitesi incelendi. Kavramlar kitaptaki gibi ele alındı: adalet = hak ve hukuka uygunluk, haksızlık yapmama; eşitlik = yasalar ve haklar bakımından ayrım gözetilmemesi. Kitapta vurgulanan 'adaletin bazen farklı ihtiyaçlara göre farklı davranmayı gerektirdiği, bunun eşitliğe aykırı olmadığı' teması (rampa, tabure, ön sıra örnekleri) soru bağlamlarına taşındı.",
+      "notlar": [
+        "Crosscheck (bağımsız denetçi): karar=onay, kritik sorun yok. s1'in ilk iki boşluğu tanım-ağırlıklı (düşük önem, a bileşeni s2/s3'te zaten güçlü kapsanıyor). s4/s5/s7 aynı 'ihtiyaca göre farklı destek = adalet' muhakeme kalıbını tekrarlıyor (orta önem, çeşitlilik notu) — sorular tek başına doğru ve savunulabilir, düzeltme zorunlu değil."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları kavramlara dikkat ederek çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kutudaki kelimelerle tamamlayınız.\n\n1. Herkese hakkı olanı vermek ve hiç kimseye haksızlık yapmamaya ____(1)____ denir.\n2. Yasalar önünde ve haklar bakımından insanlar arasında hiçbir ayrım gözetilmemesine ____(2)____ denir.\n3. Bir öğretmenin tüm öğrencilere sınavda aynı süreyi ve aynı hakları tanıması ____(3)____ ilkesine bir örnektir.",
+          "gorsel": null,
+          "kelime_havuzu": ["adalet", "eşitlik", "özgürlük", "sorumluluk"],
+          "cevap": {"1": "adalet", "2": "eşitlik", "3": "eşitlik"},
+          "cozum_md": "1. Hakkı olanı vermek ve haksızlık yapmama tanımı **adalet**e aittir. 2. Ayrım gözetilmeme tanımı **eşitlik**e aittir. 3. Tüm öğrencilere aynı sınav hakkının tanınması, ayrım gözetilmediği için **eşitlik** ilkesine örnektir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sol sütundaki kavram ve durumları sağ sütundaki açıklamalarla eşleştiriniz. Sağ sütunda bir fazladan seçenek vardır.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Adalet"},
+            {"no": 2, "metin_md": "Eşitlik"},
+            {"no": 3, "metin_md": "Kısa boylu bir öğrenciye tahtayı görebilmesi için ön sırada yer verilmesi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yasalar karşısında herkesin aynı haklara sahip olması, ayrım yapılmaması"},
+            {"harf": "B", "metin_md": "Hakkı olana hakkını vermek, kimseye haksızlık yapmamak"},
+            {"harf": "C", "metin_md": "Herkesin aynı hedefe (görebilme) ulaşabilmesi için ihtiyaca göre farklı davranılması, yani adaletin gözetilmesi"},
+            {"harf": "D", "metin_md": "Bir kişinin istediğini yapabilme özgürlüğü"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1→B: Adalet, hakkı olana hakkını vermektir. 2→A: Eşitlik, yasalar ve haklar bakımından ayrım gözetilmemesidir. 3→C: Kısa boylu öğrenciye ön sırada yer verilmesi, herkesin aynı hedefe (tahtayı görme) ulaşabilmesi için ihtiyaca göre farklı davranılan bir adalet örneğidir. D seçeneği özgürlük tanımı olduğu için kullanılmaz (çeldirici)."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki ifadeleri ve soruları adalet-eşitlik ilişkisini düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Adalet ve eşitlik birbirinden tamamen bağımsız, birbiriyle ilgisi olmayan kavramlardır.", "cevap": false, "gerekce_md": "Adalet ve eşitlik birbirini tamamlayan kavramlardır; adaletli davranmak çoğu zaman eşitliği de gözetmeyi gerektirir."},
+            {"no": 2, "metin_md": "Herkese tamamen aynı şeyi vermek her zaman adaletli davranmak anlamına gelmez.", "cevap": true, "gerekce_md": "İhtiyaçlar farklıysa herkese aynısını vermek adaletsizliğe yol açabilir; adalet bazen farklı ihtiyaçlara göre farklı davranmayı gerektirir."},
+            {"no": 3, "metin_md": "Eşitlik, insanların hak ve özgürlükler bakımından ayrım gözetilmeden değerlendirilmesidir.", "cevap": true, "gerekce_md": "Bu, eşitliğin doğru tanımıdır."},
+            {"no": 4, "metin_md": "Görme güçlüğü çeken bir öğrenciye büyük punto ile sınav kağıdı verilmesi adalet ilkesiyle çelişir.", "cevap": false, "gerekce_md": "Bu uygulama, öğrencinin ihtiyacını gözettiği için adalet ilkesine uygundur; herkesin aynı hedefe (sınavı okuyabilme) ulaşmasını sağlar."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": false}},
+          "cozum_md": "1: Yanlış — adalet ve eşitlik birbirini tamamlar. 2: Doğru — ihtiyaç farkı gözetilmeden herkese aynısını vermek adaletsizlik olabilir. 3: Doğru — eşitliğin tanımı budur. 4: Yanlış — ihtiyaca göre yapılan bu düzenleme adalete uygundur."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir öğretmen, gözlüğü olmayıp tahtayı iyi göremeyen bir öğrenciyi ön sıraya oturtmuş, diğer öğrencileri ise farklı sıralara yerleştirmiştir. Bu duruma göre aşağıdakilerden hangisi söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Öğretmen adaletsiz davranmıştır çünkü herkese aynı sırayı vermemiştir."},
+            {"harf": "B", "metin_md": "Öğretmen, öğrencinin ihtiyacını gözeterek adaletli davranmıştır."},
+            {"harf": "C", "metin_md": "Bu durum eşitlik ilkesine tamamen aykırıdır ve mutlaka düzeltilmelidir."},
+            {"harf": "D", "metin_md": "Öğretmenin bu kararının adalet veya eşitlikle hiçbir ilgisi yoktur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Adalet, herkese mutlaka aynı şeyi vermek değil, ihtiyaca göre davranarak herkesin aynı hedefe (tahtayı görebilme) ulaşmasını sağlamaktır. Bu yüzden doğru seçenek B'dir; A, C ve D bu ilişkiyi gözden kaçıran çeldiricilerdir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir markette rafa uzanamayan kısa boylu bir çocuğa tabure verilirken diğer çocuklara verilmemiştir. Bu uygulama adalet ve eşitlik ilişkisi açısından neyi göstermektedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece eşitliğin uygulandığını, adaletle ilgisi olmadığını"},
+            {"harf": "B", "metin_md": "Herkesin aynı hedefe (rafa erişim) ulaşabilmesi için bazen farklı destek gerekebileceğini, adalet ve eşitliğin birlikte düşünülmesi gerektiğini"},
+            {"harf": "C", "metin_md": "Kısa boylu çocuğa haksızlık yapıldığını"},
+            {"harf": "D", "metin_md": "Taburenin gereksiz bir uygulama olduğunu"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Herkese aynı imkan (raf yüksekliği) değil, herkesin aynı hedefe (rafa erişim) ulaşabilmesi önemlidir. Bu yüzden ihtiyacı olana ek destek (tabure) verilmesi hem adaleti hem de gerçek eşitliği sağlar. Doğru seçenek B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi cümlelerinizle, örnek vererek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Kendi hayatınızdan (evde, okulda veya çevrenizde), adalet ve eşitliğin birlikte düşünülmesi gerektiğini gösteren bir örnek yazınız. Örneğinizde kimlerin yer aldığını ve neden adaletli/eşit davranıldığını açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Evde kardeşim benden küçük olduğu için ona daha kolay ev ödevleri, bana ise seviyeme uygun daha zor ödevler veriliyor. Herkese aynı ödev verilmemesi, ihtiyaçlarımız farklı olduğu için bize adaletli davranıldığını gösteriyor; ikimiz de kendi seviyemize göre öğreniyoruz, bu da aslında eşit bir fırsat sağlıyor.",
+            "kabul_kriterleri": [
+              "Kendi hayatından somut ve gerçekçi bir örnek vermesi",
+              "Örnekte adalet ve eşitlik ilişkisini açıkça kurması (aynı ya da farklı davranışın nedenini ihtiyaç farkına dayandırması)",
+              "Bağlamdan kopmadan, tutarlı bir açıklama yazması"
+            ]
+          },
+          "cozum_md": "Örnek cevapta olduğu gibi öğrenci; kişilerin farklı ihtiyaçlarının olabileceğini, bu yüzden herkese aynı davranmanın her zaman adaletli olmayabileceğini, adaletin gözetildiği durumlarda gerçek eşitliğin de sağlanmış olacağını kendi yaşantısından bir örnekle ilişkilendirmelidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumu okuyunuz: \"Okul yönetimi, tekerlekli sandalye kullanan bir öğrenci için okula rampa yaptırmıştır. Diğer öğrenciler için böyle bir yapıya ihtiyaç yoktur.\" Bu durumun adaletli olup olmadığını, adalet ve eşitlik kavramları arasındaki ilişkiyi kurarak yorumlayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Bu durum adaletlidir çünkü rampa, sadece ihtiyacı olan öğrenciye yapılmıştır. Amaç herkese aynı yapıyı (merdiveni) kullandırmak değil, herkesin aynı hedefe (okula girebilmeye) ulaşabilmesini sağlamaktır. Bu yüzden farklı ihtiyaca farklı çözüm sunulması, eşitliğe aykırı değil, tam tersine gerçek eşitliği sağlayan adaletli bir uygulamadır.",
+            "kabul_kriterleri": [
+              "Durumun adaletli olduğunu ihtiyaç farklılığına dayandırarak açıklaması",
+              "Adalet ile eşitlik arasındaki ilişkiyi (herkesin aynı imkana değil, aynı hedefe/erişime ulaşması gerektiğini) kurması",
+              "Verilen bağlamdan kopmadan, tutarlı gerekçelendirme yapması"
+            ]
+          },
+          "cozum_md": "Doğru yorum: Rampa yapılması, farklı ihtiyacı olan öğrencinin de diğerleriyle aynı hedefe (okula erişim) ulaşmasını sağladığı için adaletlidir; bu, eşitliği ortadan kaldırmaz, aksine gerçek eşitliğin sağlanmasına katkı sunar."
+        }
+      ]
+    }
+  ]
+}

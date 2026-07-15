@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Nicelikleri Karşılaştırıyorum",
+    "kazanim": {
+      "kod": "MAT.1.1.4",
+      "ad": "İki niceliğin büyüklüğünü \"çok\", \"daha çok\", \"az\", \"daha az\" veya \"eşit\" terimleriyle karşılaştırabilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "İki niceliğin büyüklüğünü \"çok\", \"daha çok\", \"az\", \"daha az\" veya \"eşit\" terimleriyle ifade eder.",
+        "b": "İfade edilen büyüklüklere ilişkin benzerlikleri listeler.",
+        "c": "İfade edilen büyüklüklere ilişkin farklılıkları listeler."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 1. sınıf Matematik 'Sayılar ve Nicelikler (1)' teması incelendi; kazanımda nesne sayısının 20'nin altında tutulduğu ve karşılaştırmanın somut nesneler üzerinden bire bir eşleme mantığıyla yapıldığı, 'eşit', 'daha çok', 'daha az' terimlerinin esas alındığı doğrulandı. Bu doğrultuda tüm sorularda nicelikler 20'nin altında, somut/sayılabilir nesnelerle (elma, kalem, boncuk vb.) kuruldu.",
+      "notlar": ["Bağımsız crosscheck (ayrı geçiş, kör çözüm) yapıldı: tüm cevaplar uyuştu, düzeltme gerekmedi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ayşe'nin çantasında **4 kalem**, Mert'in çantasında **7 kalem** var. Mert'in kalem sayısı, Ayşe'nin kalem sayısına göre nasıldır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Daha az"},
+            {"harf": "B", "metin_md": "Eşit"},
+            {"harf": "C", "metin_md": "Daha çok"},
+            {"harf": "D", "metin_md": "Hiç yok"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Mert'in 7 kalemi, Ayşe'nin 4 kaleminden fazladır (7 > 4). Bu yüzden Mert'in kalem sayısı Ayşe'ninkine göre **daha çok**tur. Doğru cevap C'dir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir tabakta **6 çilek**, başka bir tabakta **6 çilek** var. Bu iki tabaktaki çilek sayısı ____(1)____ dır.\n\nBir kutuda **2 boncuk**, başka bir kutuda **9 boncuk** var. İkinci kutudaki boncuk sayısı, birinci kutuya göre ____(2)____ tur.",
+          "gorsel": null,
+          "kelime_havuzu": ["eşit", "çok", "az", "daha çok", "daha az"],
+          "cevap": {"1": "eşit", "2": "daha çok"},
+          "cozum_md": "(1) İki tabakta da 6 çilek olduğu için sayılar birbirine **eşit**tir. (2) 9 boncuk, 2 boncuktan fazla olduğu için ikinci kutudaki boncuk sayısı birinciye göre **daha çok**tur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıda birinci nicelik ile ikinci nicelik verilmiştir. Birinci niceliğin ikinciye göre durumunu sağdaki terimlerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "5 top — 5 top"},
+            {"no": 2, "metin_md": "3 defter — 8 defter"},
+            {"no": 3, "metin_md": "10 silgi — 4 silgi"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Eşit"},
+            {"harf": "B", "metin_md": "Daha az"},
+            {"harf": "C", "metin_md": "Daha çok"},
+            {"harf": "D", "metin_md": "Hiç yok (sıfır)"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1) 5 top — 5 top: iki sayı da aynı olduğu için birinci nicelik ikinciye göre **eşit**tir (A). 2) 3 defter — 8 defter: 3, 8'den küçük olduğu için birinci nicelik ikinciye göre **daha az**dır (B). 3) 10 silgi — 4 silgi: 10, 4'ten büyük olduğu için birinci nicelik ikinciye göre **daha çok**tur (C). 'Hiç yok' seçeneği (D) hiçbir eşleşmede kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 25,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "4 elma ile 9 elma karşılaştırıldığında 4 elma, 9 elmadan azdır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "7 kalem ile 7 silgi sayıca eşittir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "2 çiçek, 8 çiçekten daha çoktur.", "cevap": false, "gerekce_md": "2, 8'den küçüktür; bu yüzden 2 çiçek 8 çiçekten daha azdır."},
+            {"no": 4, "metin_md": "6 top ile 3 top karşılaştırıldığında 6 top, 3 toptan azdır.", "cevap": false, "gerekce_md": "6, 3'ten büyüktür; bu yüzden 6 top, 3 toptan daha çoktur."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "1-Doğru: 4, 9'dan küçüktür. 2-Doğru: 7 ve 7 sayıca aynıdır, eşittir. 3-Yanlış: 2, 8'den küçüktür; 2 çiçek 8 çiçekten daha azdır. 4-Yanlış: 6, 3'ten büyüktür; 6 top 3 toptan daha çoktur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları cümlelerle cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir sepette **5 portakal**, başka bir sepette **5 elma** var. Bu iki topluluğun (portakal grubu ile elma grubu) birbirine benzeyen özelliklerini yazınız (en az **2** benzerlik belirtiniz).",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) İki sepetteki miktar eşittir (ikisinde de 5'er tane vardır).\n2) Her iki sepette de meyve bulunmaktadır.",
+            "kabul_kriterleri": ["Sayıca eşit olduklarını (5-5) belirtmesi", "İkisinin de meyve/aynı tür nesne olduğunu ya da başka mantıklı bir benzerliği belirtmesi"]
+          },
+          "cozum_md": "Portakal grubu ile elma grubu arasındaki temel benzerlik, ikisinin de 5'er taneden oluşması, yani miktarca **eşit** olmalarıdır. Ayrıca ikisinin de meyve olması ortak bir özelliktir."
+        },
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir kümeste **9 tavuk**, bir ağılda **3 koyun** var. Bu iki hayvan grubunun (tavuk grubu ile koyun grubu) sayı bakımından farklılıklarını yazınız (en az **2** farklılık belirtiniz).",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1) Tavuk sayısı koyun sayısından daha çoktur (9, 3'ten fazladır).\n2) Koyun sayısı tavuk sayısına göre daha azdır.",
+            "kabul_kriterleri": ["Tavuk sayısının koyun sayısından çok/fazla olduğunu belirtmesi", "Koyun sayısının az olduğunu ya da sayısal farkı (6) belirtmesi"]
+          },
+          "cozum_md": "9 tavuk, 3 koyundan fazladır; bu yüzden tavuk grubu koyun grubuna göre **daha çok**tur, koyun grubu ise **daha az**dır. Aradaki sayısal fark 9-3=6'dır."
+        }
+      ]
+    }
+  ]
+}

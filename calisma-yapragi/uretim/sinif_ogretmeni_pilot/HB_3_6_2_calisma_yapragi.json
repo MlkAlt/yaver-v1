@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Teknolojik Gelişmeler ve Günlük Yaşamımız",
+    "kazanim": {
+      "kod": "HB.3.6.2",
+      "ad": "Teknolojik gelişmelerin günlük yaşama etkisini çözümleyebilme",
+      "ders": "Hayat Bilgisi",
+      "sinif": 3,
+      "unite": "6. ÖĞRENME ALANI: BİLİM, TEKNOLOJİ VE SANAT",
+      "surec_bilesenleri": {
+        "a": "Teknolojik gelişmelerin günlük yaşama etkisini belirler.",
+        "b": "Teknolojik gelişmelerle günlük yaşam arasında ilişki kurar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 'Hayat Bilgisi Dersi 3.Sınıf 6. Öğrenme Alanı: Bilim, Teknoloji ve Sanat' ünite sayfası incelendi. Kazanımın metni ve örnek teknolojik ürün bağlamı (çamaşır makinesi, cep telefonu, internet, ulaşım araçları) bu kaynak ile hurriyet.com.tr'deki '3. Sınıf Hayat Bilgisi Kullandığımız Aletler ve Teknolojik Ürünler' konu özetinden doğrulandı. HB.3.6.1 (bilimsel gelişmeler) ile aynı öğrenme alanı olduğundan içerik kasıtlı olarak farklı somut örneklerle (çamaşır makinesi, bilgisayar/internet, cep telefonu, uçak) kurgulandı; s7'de kullanılan buzdolabı örneği HB.3.6.1'de kullanıldığından burada tekrarlanmadı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları teknolojik gelişmeleri düşünerek yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Eskiden çamaşırlar elde yıkanırdı. Bilim insanlarının geliştirdiği ____(1)____ sayesinde çamaşırlar artık kısa sürede ve kolayca yıkanabiliyor. Eskiden haberleşmek için mektup yazılır, cevap günler sonra gelirdi; şimdi ise ____(2)____ ile anında mesaj gönderebiliyoruz. Şehirler arası yolculuk günlerce yürüyerek yapılırken bugün ____(3)____ ile birkaç saatte tamamlanabiliyor.",
+          "gorsel": null,
+          "kelime_havuzu": ["bulaşık makinesi", "uçak", "at arabası", "çamaşır makinesi", "cep telefonu"],
+          "cevap": {"1": "çamaşır makinesi", "2": "cep telefonu", "3": "uçak"},
+          "cozum_md": "Metindeki ipuçlarına göre: (1) çamaşır yıkama kolaylığı → çamaşır makinesi, (2) anında mesajlaşma → cep telefonu, (3) hızlı şehirler arası yolculuk → uçak. 'Bulaşık makinesi' ve 'at arabası' kelime havuzunda çeldirici olarak yer alır."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki eski durumları sağdaki teknolojik ürünlerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Yemek pişirmek için önce odun ateşi yakmak ve beklemek gerekirdi."},
+            {"no": 2, "metin_md": "Bir bilgiye ulaşmak için kütüphaneye gidip saatlerce kitap aramak gerekirdi."},
+            {"no": 3, "metin_md": "Elbiseler ütülenmeden kırışık giyilirdi."},
+            {"no": 4, "metin_md": "Uzaktaki biriyle yüz yüzeymiş gibi konuşmak mümkün değildi."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "İnternet"},
+            {"harf": "B", "metin_md": "Ütü"},
+            {"harf": "C", "metin_md": "Görüntülü telefon görüşmesi"},
+            {"harf": "D", "metin_md": "Elektrikli ocak"},
+            {"harf": "E", "metin_md": "Buzdolabı"}
+          ],
+          "cevap": {"1": "D", "2": "A", "3": "B", "4": "C"},
+          "cozum_md": "1→D: Elektrikli ocak yemeği hızlıca pişirir, ateş yakmaya gerek kalmaz. 2→A: İnternet sayesinde bilgiye evden anında ulaşılır. 3→B: Ütü, kırışık kıyafetleri düzeltir. 4→C: Görüntülü telefon görüşmesi uzaktaki kişiyle yüz yüzeymiş gibi konuşmayı sağlar. E (buzdolabı) fazladan çeldiricidir, kullanılmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi bir teknolojik ürünün günlük yaşama etkisine örnek olarak gösterilebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir öğrencinin ödevini mum ışığında yapması"},
+            {"harf": "B", "metin_md": "Bir ailenin çamaşır makinesiyle çamaşırlarını kısa sürede yıkaması"},
+            {"harf": "C", "metin_md": "Bir çiftçinin tarlasını yalnızca elle sürmesi"},
+            {"harf": "D", "metin_md": "Bir yolcunun şehirler arası yolculuğu yürüyerek yapması"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Çamaşır makinesi bir teknolojik üründür ve çamaşır yıkama işini kısaltarak günlük yaşama kolaylık getirir. Diğer seçenekler teknolojik ürün öncesi eski yöntemleri anlatır, kolaylık değil güçlük örnekleridir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Zeynep, \"Bilgisayar ve internet sayesinde ödevim için gereken bilgilere evimden birkaç dakikada ulaşabiliyorum, eskiden bunun için kütüphaneye gidip saatlerce kitap aramak gerekirdi.\" demiştir. Zeynep bu sözüyle teknolojik gelişmenin günlük yaşama etkisini nasıl belirtmiştir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bilgiye ulaşmayı hızlandırıp kolaylaştırdığını belirterek"},
+            {"harf": "B", "metin_md": "Kütüphanelerin artık hiç kullanılmadığını iddia ederek"},
+            {"harf": "C", "metin_md": "Bilgisayarların yalnızca oyun oynamak için kullanıldığını söyleyerek"},
+            {"harf": "D", "metin_md": "Eski yöntemin daha güvenilir olduğunu savunarak"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Zeynep, bilgisayar ve internetin bilgiye ulaşmayı saatlerden dakikalara indirdiğini, yani hızlandırıp kolaylaştırdığını belirtmiştir. B, C ve D cümlede söylenenlerle çelişir."
+        },
+        {
+          "id": "s5",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Çamaşır makinesi, çamaşırların elde yıkanmasına göre zamandan tasarruf sağlar.", "cevap": true, "gerekce_md": "Çamaşır makinesi, çamaşırları elle yıkamaya göre çok daha kısa sürede ve daha az emekle yıkar."},
+            {"no": 2, "metin_md": "Teknolojik ürünler yalnızca işyerlerinde kullanılır, evlerde kullanılmaz.", "cevap": false, "gerekce_md": "Çamaşır makinesi, buzdolabı, televizyon gibi teknolojik ürünler evlerde günlük yaşamı da kolaylaştırır."},
+            {"no": 3, "metin_md": "Cep telefonu, uzaktaki insanlarla anında haberleşmemizi sağlayan teknolojik bir üründür.", "cevap": true, "gerekce_md": "Cep telefonu, mesafeye bakmaksızın sesli/görüntülü anında haberleşmeyi mümkün kılar."},
+            {"no": 4, "metin_md": "Uçak gibi ulaşım araçları, şehirler arası yolculuk süresini uzatır.", "cevap": false, "gerekce_md": "Uçak, şehirler arası yolculuk süresini günlerden saatlere indirerek kısaltır, uzatmaz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1: doğru, çamaşır makinesi zaman kazandırır. 2: yanlış, teknolojik ürünler evde de kullanılır. 3: doğru, cep telefonu anında haberleşme sağlar. 4: yanlış, uçak yolculuk süresini kısaltır, uzatmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları örnekler vererek, tam cümlelerle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Evinde kullandığınız bir teknolojik ürünü seç (çamaşır makinesi, televizyon, cep telefonu, bilgisayar vb.). Bu ürün olmasaydı günlük yaşamın nasıl farklı olurdu? Seçtiğin ürünü yaz ve günlük yaşamla arasındaki ilişkiyi 2-3 cümleyle açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ben çamaşır makinesini seçtim. Çamaşır makinesi olmasaydı ailem çamaşırları elde yıkamak zorunda kalır ve bu çok daha uzun zaman alırdı. Çamaşır makinesi sayesinde bu iş kısa sürede bitiyor ve ailemin başka işlere daha çok zamanı kalıyor. Bu yüzden çamaşır makinesi, günlük yaşamımızı kolaylaştıran önemli bir teknolojik üründür.",
+            "kabul_kriterleri": ["Bir teknolojik ürün adı belirtmesi", "Ürünün günlük yaşamla ilişkisini/somut etkisini açıklaması", "En az 2 cümle yazması"]
+          },
+          "cozum_md": "Öğrenci istediği bir teknolojik ürünü seçebilir; önemli olan ürünün olmadığı durumla olduğu durumu karşılaştırarak günlük yaşamla ilişkisini en az iki cümleyle kurabilmesidir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Deden sana \"Ben küçükken telefonumuz yoktu, biriyle konuşmak için ya evine gider ya da mektup yazardık, cevap günler sonra gelirdi.\" diyor. Cep telefonunun icadı, insanların haberleşmesi ile günlük yaşam arasındaki ilişkiyi nasıl değiştirmiş olabilir? İncelediğin bu değişikliği yazarak açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Cep telefonundan önce insanlar haberleşmek için mektup yazar ya da birbirinin evine giderdi, bu da günler sürerdi. Cep telefonu sayesinde insanlar birbirine anında ulaşabiliyor ve önemli bir haberi hemen paylaşabiliyor. Böylece uzaktaki aile ve arkadaşlarla ilişkimiz daha da kolay ve hızlı sürüyor.",
+            "kabul_kriterleri": ["Eski durum ile yeni durumu karşılaştırması", "Cep telefonunun haberleşme ile günlük yaşam arasında kurduğu ilişkiyi açıklaması", "En az 2 cümle yazması"]
+          },
+          "cozum_md": "Öğrenci cep telefonu öncesi/sonrası durumu karşılaştırarak (günler süren haberleşme vs. anında haberleşme) teknolojik gelişme ile günlük yaşam arasındaki ilişkiyi kurmalıdır."
+        }
+      ]
+    }
+  ]
+}

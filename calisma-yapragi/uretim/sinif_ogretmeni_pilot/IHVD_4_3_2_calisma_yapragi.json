@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Etkin Vatandaşlık Sorumluluklarımız",
+    "kazanim": {
+      "kod": "İHVD.4.3.2",
+      "ad": "Etkin vatandaş olmanın gerektirdiği sorumlulukları belirleyebilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+      "surec_bilesenleri": {
+        "a": "Etkin bir vatandaşın sahip olması gereken sorumlulukları (çevreyi koruma, kurallara uyma, ortak yaşam alanlarını koruma, karar süreçlerine katılım gibi) örnek olaylar üzerinden belirler.",
+        "b": "Belirlediği sorumlulukları günlük yaşamdaki durumlarla ve davranışlarla ilişkilendirerek değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr İnsan Hakları, Vatandaşlık ve Demokrasi Dersi 4. Sınıf 3. Öğrenme Alanı (Etkin Bir Vatandaşım) sayfası incelendi. 4. sınıf seviyesinde 'etkin vatandaşlık sorumlulukları' somut, günlük örneklerle işleniyor: suyu israf etmeme, doğal/tarihî varlıkları koruma, çevreyi temiz tutma, trafik kurallarına uyma, ortak alanları/eşyaları koruma, karar süreçlerine katılım, geri dönüşüm/sürdürülebilir tüketim, dezavantajlı gruplara destek. Vergi verme/oy kullanma gibi yetişkin vatandaşlık görevlerine yalnızca 'basit düzeyde örnek olay' olarak değinildiği belirtiliyor; bu yaprakta bu iki kavram derinleştirilmedi, 4. sınıf düzeyine uygun somut çevre/toplum/katılım örnekleri esas alındı.",
+      "notlar": [
+        "Kazanımın `aciklama` alanı veri kaynağında null (bu ders için süreç bileşenleri MEB verisinde ayrıştırılmamış). meta.kazanim.surec_bilesenleri bu nedenle kazanımın 'ad' metni, ünite bağlamı (3.1 haklar/özgürlükler, 3.3 dijital vatandaşlık, 3.4 toplumsal yardımlaşma ile çakışmayacak şekilde 'sorumluluk belirleme' odağı) ve web araştırmasına dayanılarak üretici tarafından tanımlandı; insan kontrolünde önceliklendirilmeli.",
+        "Bağımsız crosscheck (2026-07-15): karar 'onay', kritik sorun yok, 7 sorunun tamamı bağımsız çözümle uyuştu. İki düşük/orta öneri uygulandı: s7 senaryosu 'çocuk' perspektifine bağlanarak sıralamadaki tek-doğru-yol netleştirildi, s3'te olumsuz kök 'değildir' kalınlaştırıldı. s5'teki 'Çevreyi koruma' / 'Ortak malı-doğayı koruma' kategori yakınlığı düşük önemli, öğretmen takdirine bırakıldı."
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları etkin bir vatandaşın sorumlulukları hakkında öğrendiklerinize göre cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki davranışları, ait olduğu sorumluluk türüyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Suyu gereksiz yere akıtmamak"},
+            {"no": 2, "metin_md": "Trafik ışıklarına ve kurallarına uymak"},
+            {"no": 3, "metin_md": "Parktaki oyun aletlerine zarar vermemek"},
+            {"no": 4, "metin_md": "Sınıfın ya da okulun ortak kararlarına katılmak"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Doğal kaynakları koruma sorumluluğu"},
+            {"harf": "B", "metin_md": "Toplum düzenine uyma sorumluluğu"},
+            {"harf": "C", "metin_md": "Ortak malı koruma sorumluluğu"},
+            {"harf": "D", "metin_md": "Karar süreçlerine katılma sorumluluğu"},
+            {"harf": "E", "metin_md": "Aile içi görev paylaşımı sorumluluğu"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Suyu israf etmemek doğal kaynakları koruma sorumluluğudur. 2-B: Trafik kurallarına uymak toplum düzenine katkı sağlar. 3-C: Oyun aletlerine zarar vermemek ortak malı korumaktır. 4-D: Ortak kararlara katılmak, karar süreçlerine katılma sorumluluğudur. E seçeneği bu yaprakta ele alınmayan bir çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Etkin bir vatandaş; doğal ve tarihî varlıkları ____(1)____, çevreyi ____(2)____ tutar, su ve enerji gibi kaynakları ____(3)____ kullanır, kendisini ilgilendiren kararlara ____(4)____ olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["korur", "temiz", "tasarruflu", "katılımcı", "kirli"],
+          "cevap": {"1": "korur", "2": "temiz", "3": "tasarruflu", "4": "katılımcı"},
+          "cozum_md": "Etkin vatandaş doğal/tarihî varlıkları korur, çevreyi temiz tutar, kaynakları tasarruflu kullanır ve kararlara katılımcı olur. 'Kirli' kelime havuzunda yer alan bir çeldiricidir."
+        },
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi etkin bir vatandaşın taşıması gereken sorumluluklardan biri **değildir**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Çevreyi temiz tutmak"},
+            {"harf": "B", "metin_md": "Trafik kurallarına uymak"},
+            {"harf": "C", "metin_md": "Yalnızca kendi çıkarını düşünüp başkalarını önemsememek"},
+            {"harf": "D", "metin_md": "Okulun veya mahallenin ortak kararlarına katılmak"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Etkin bir vatandaş yalnızca kendi çıkarını düşünmez; çevresini, toplumunu ve ortak yaşamı da gözetir. A, B ve D etkin vatandaşlığın gerektirdiği sorumluluklardandır; C bu sorumluluklarla çelişir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, etkin bir vatandaşın günlük yaşamda nasıl davranması gerektiğini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Mahallesindeki bir parkın çöplerle dolu olduğunu gören Ege, etkin bir vatandaş olarak ne yapmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Görmezden gelip oyununa devam etmeli"},
+            {"harf": "B", "metin_md": "Durumu ailesine veya ilgili yetkililere haber vermeli, çöpleri toplamaya katkı sağlamalı"},
+            {"harf": "C", "metin_md": "Parkı terk edip bir daha o parka gitmemeli"},
+            {"harf": "D", "metin_md": "Sadece arkadaşlarına parkın kirli olduğundan şikayet etmeli"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Etkin vatandaş, fark ettiği bir sorunu görmezden gelmez; ailesine/yetkililere bildirir ve çözüme katkı sağlar. A sorunu görmezden gelmektir, C kaçınmadır, D yalnızca şikayettir ve çözüme yönelik bir adım içermez."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sorumluluk", "Örnek Davranış"],
+            "satirlar": [
+              ["Çevreyi koruma", "__?__"],
+              ["__?__", "Sınıf başkanlığı seçiminde oy kullanmak"],
+              ["Toplum düzenine uyma", "__?__"],
+              ["__?__", "Okul bahçesindeki ağaçlara zarar vermemek"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Çöpleri geri dönüşüm kutusuna atmak",
+            "r1c0": "Karar süreçlerine katılma",
+            "r2c1": "Sırada beklerken kurallara uymak",
+            "r3c0": "Ortak malı/doğayı koruma"
+          },
+          "cozum_md": "Çevreyi koruma → geri dönüşüm; karar süreçlerine katılma → oy kullanma; toplum düzenine uyma → sırada bekleme kuralı; ortak malı/doğayı koruma → ağaçlara zarar vermeme."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, etkin bir vatandaşın sorumluluklarını yerine getirirken izlediği yolu düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Sınıfından, okul bahçesine yeni bir oyun alanı yapılması konusunda görüş bildirmeleri isteniyor. Etkin bir vatandaş olarak bu sürece nasıl katılman gerektiğini ve bunun neden önemli bir sorumluluk olduğunu açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Görüşümü öğretmenime veya sınıf temsilcime açıkça anlatırım, gerekirse oylamaya katılırım ve arkadaşlarımın fikirlerini de dinlerim. Bu önemlidir çünkü beni ve arkadaşlarımı ilgilendiren bir karara katılmak, etkin bir vatandaşın sorumluluklarından biridir; katılmazsam alınan kararda benim de payım olmaz.",
+            "kabul_kriterleri": [
+              "Karar sürecine somut bir katılım biçimi (görüş bildirme, oylama, fikir paylaşma vb.) belirtmesi",
+              "Bu katılımın kendisini/toplumu ilgilendiren bir konu olduğunu ifade etmesi",
+              "Katılımın etkin vatandaşlığın bir sorumluluğu olduğunu açıkça belirtmesi"
+            ]
+          },
+          "cozum_md": "Açık uçlu soru; puanlama kabul kriterlerine göre yapılır. Öğrencinin karar sürecine katılacağı somut bir yol belirtmesi ve bunun etkin vatandaşlık sorumluluğu olduğunu gerekçelendirmesi beklenir; tek doğru cevap yoktur."
+        },
+        {
+          "id": "s7",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mahallesindeki sokak lambalarının bozuk olduğunu fark eden bir çocuk, etkin bir vatandaş olarak izlemesi gereken adımları doğru sıraya koyunuz.",
+          "gorsel": null,
+          "ogeler": ["Durumu ilgili yetkililere (muhtarlık/belediye) bildirir", "Sorunu fark eder ve gözlemler", "Yetkililerin çözümünü takip eder", "Sorunu ailesi veya çevresiyle paylaşır"],
+          "cevap": {"dogru_sira": [1, 3, 0, 2]},
+          "cozum_md": "Doğru sıra: 1) Sorunu fark eder ve gözlemler, 2) sorunu ailesi/çevresiyle paylaşır, 3) durumu ilgili yetkililere bildirir, 4) yetkililerin çözümünü takip eder. Etkin vatandaşlık, sorunu fark etmekle başlar ve çözüm takibiyle tamamlanır."
+        }
+      ]
+    }
+  ]
+}

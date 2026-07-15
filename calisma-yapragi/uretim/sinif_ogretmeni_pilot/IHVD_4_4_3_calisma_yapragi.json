@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Seçme ve Seçilme Hakkı",
+    "kazanim": {
+      "kod": "İHVD.4.4.3",
+      "ad": "Seçme ve seçilme hakkı konusunda fikir üretebilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "4. ÖĞRENME ALANI: HAYATIMDA DEMOKRASİ",
+      "surec_bilesenleri": {
+        "a": "Seçme hakkının toplumsal yaşam için önemini fark eder.",
+        "b": "Seçme ve seçilme hakkıyla ilgili yakın çevresindeki deneyimleri inceler.",
+        "c": "Seçme ve seçilme hakkının yaşantısındaki farklı alanlara uygulanması hususunda fikir üretir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr İHVD 4. sınıf 4. Öğrenme Alanı (Hayatımda Demokrasi) ünite sayfası (unite/371) ve ogmmateryal.eba.gov.tr Demokrasi ve İnsan Hakları materyalleri incelendi: ünite kapsamı Türkiye Cumhuriyeti vatandaşlığının sağladığı hak ve özgürlükler (eşitlik, haberleşme özgürlüğü, dilekçe hakkı, özel hayatın gizliliği, seçme ve seçilme hakkı) olarak doğrulandı; uygulama örnekleri sınıfça oylama/seçim yapma, sınıf-okul-mahalle düzeyinde seçilen kişiler (sınıf başkanı, okul aile birliği başkanı, muhtar) ve seçme hakkının aile/oyun grubu gibi farklı alanlara genellenmesi olarak verildi — bu bağlamlar sorulara yansıtıldı.",
+      "notlar": ["Bağımsız crosscheck: onay. Küçük gözlem (kritik değil) — s8 'c' bileşeninin (fikir üretir) tanıma/ayırt etme davranışına yakın olduğu, üretim davranışının asıl s6-s7'de karşılandığı not edildi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları seçme hakkının toplumsal yaşam için neden önemli olduğunu düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 12,
+          "govde_md": "Aşağıdaki ifadeler doğru mu yanlış mı işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Seçme hakkı sayesinde bir topluluktaki herkesin fikri kararlara yansıyabilir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Seçme hakkı sadece büyükler için önemlidir; öğrencileri ilgilendirmez.", "cevap": false, "gerekce_md": "Sınıf başkanı seçimi gibi örnekler, seçme hakkının öğrenciler için de önemli olduğunu gösterir."},
+            {"no": 3, "metin_md": "Bir kararı yalnızca bir kişi alırsa, bu diğer herkesin de seçme hakkını kullanmış olması demektir.", "cevap": false, "gerekce_md": "Karar tek kişi tarafından alınırsa diğerlerinin seçme hakkı kullanılmamış olur; bu adil bir yöntem değildir."},
+            {"no": 4, "metin_md": "Seçme hakkı, toplumsal yaşamda adil paylaşım ve uzlaşı sağlanmasına yardımcı olur.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true}},
+          "cozum_md": "1) Doğru — seçme hakkı herkesin fikrinin karara yansımasını sağlar. 2) Yanlış — sınıf başkanı seçimi gibi örnekler bu hakkın öğrenciler için de geçerli olduğunu gösterir. 3) Yanlış — tek kişinin karar alması diğerlerinin hakkını kullanmasını engeller, adil değildir. 4) Doğru — seçme hakkı adil paylaşım ve uzlaşıyı destekler."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 12,
+          "govde_md": "Seçme hakkı, bir toplulukta alınacak kararlara ____(1)____ katılmasını sağlar. Böylece kararlar tek bir kişinin değil, ____(2)____ görüşüyle alınır. Bu da toplumsal yaşamda ____(3)____ oluşmasına yardımcı olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["herkesin", "çoğunluğun", "adaletin", "birinin", "kavganın"],
+          "cevap": {"1": "herkesin", "2": "çoğunluğun", "3": "adaletin"},
+          "cozum_md": "1) Seçme hakkı herkesin karara katılmasını sağlar. 2) Kararlar çoğunluğun görüşüyle alınır. 3) Bu da adaletin oluşmasına yardımcı olur. 'Birinin' ve 'kavganın' kelimeleri cümlelerin anlamıyla uyuşmadığı için kullanılmaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları seçme ve seçilme hakkının yakın çevrende nasıl kullanıldığını düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 12,
+          "govde_md": "Aşağıda seçilen kişileri, seçildikleri yerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Sınıf başkanı"},
+            {"no": 2, "metin_md": "Okul aile birliği başkanı"},
+            {"no": 3, "metin_md": "Muhtar"},
+            {"no": 4, "metin_md": "Milletvekili"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sınıf"},
+            {"harf": "B", "metin_md": "Mahalle"},
+            {"harf": "C", "metin_md": "Meclis"},
+            {"harf": "D", "metin_md": "Okul"},
+            {"harf": "E", "metin_md": "Şehir"}
+          ],
+          "cevap": {"1": "A", "2": "D", "3": "B", "4": "C"},
+          "cozum_md": "1) Sınıf başkanı sınıfta seçilir (A). 2) Okul aile birliği başkanı okulda seçilir (D). 3) Muhtar mahallede seçilir (B). 4) Milletvekili meclise seçilir (C). 'Şehir' (E) bu soruda kullanılmayan çeldiricidir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 12,
+          "govde_md": "Ece'nin sınıfında hafta sonu düzenlenecek geziye hangi parkın seçileceğine oylama ile karar verildi. Bu durum hangi hakkın kullanıldığına bir örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Seçme hakkı"},
+            {"harf": "B", "metin_md": "Dilekçe hakkı"},
+            {"harf": "C", "metin_md": "Haberleşme özgürlüğü"},
+            {"harf": "D", "metin_md": "Özel hayatın gizliliği"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Sınıfın oylama yaparak ortak bir karara varması seçme hakkının kullanılmasına örnektir. Dilekçe hakkı bir talebi yazılı iletmeyi, haberleşme özgürlüğü iletişim kurmayı, özel hayatın gizliliği ise kişisel bilgilerin korunmasını ilgilendirir; bu seçeneklerin durumla ilgisi yoktur."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 14,
+          "govde_md": "Mahallelerinde yapılacak parkın hangi oyun aletleriyle donatılacağına, mahalle sakinlerinin oylarıyla karar verilecek. Bu durum, seçme hakkının hangi düzeyde kullanılmasına bir örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mahalle düzeyinde"},
+            {"harf": "B", "metin_md": "Sınıf düzeyinde"},
+            {"harf": "C", "metin_md": "Aile düzeyinde"},
+            {"harf": "D", "metin_md": "Okul düzeyinde"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Karara mahalle sakinlerinin oylarıyla varılacağı belirtildiğine göre bu, seçme hakkının mahalle düzeyinde kullanılmasına bir örnektir. Sınıf, aile ve okul bu senaryoda geçmemektedir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları seçme ve seçilme hakkının farklı yaşam alanlarına nasıl uygulanabileceğini düşünerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 12,
+          "govde_md": "Sınıfınızda oylama ile karar verilebilecek bir konu öner. Bu konuda nasıl bir seçim yapılabileceğini kısaca anlat.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sınıf panosunun hangi renkte olacağına oylama ile karar verilebilir; herkes elini kaldırarak oy kullanır, en çok oyu alan renk seçilir.",
+            "kabul_kriterleri": [
+              "Sınıf yaşamıyla ilgili gerçekçi bir konu önermesi",
+              "Oylama/seçim sürecini (oy kullanma, en çok oy alanın seçilmesi gibi) betimlemesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin sınıfla ilgili gerçekçi bir konu önerip bu konuda nasıl oylama/seçim yapılacağını (örn. el kaldırarak oy kullanma, çoğunluğun kararının kabul edilmesi) açıklaması beklenir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 13,
+          "govde_md": "Ailende ya da oyun grubunda seçme ve seçilme hakkının nasıl kullanılabileceğine dair bir örnek yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ailece hafta sonu nereye gidileceğine herkes fikrini söyler, sonra oylama yaparak karar veririz.",
+            "kabul_kriterleri": [
+              "Aile veya oyun grubu bağlamında somut bir örnek vermesi",
+              "Karar alma sürecinde herkesin fikrinin alındığını/oylama yapıldığını belirtmesi"
+            ]
+          },
+          "cozum_md": "Serbest yanıt sorusudur; kesin tek doğru cevap yoktur. Öğrencinin aile veya oyun grubu bağlamında herkesin fikrinin alındığı ya da oylama yapıldığı somut bir örnek vermesi beklenir."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 13,
+          "govde_md": "Aşağıdakilerden hangisi seçme ve seçilme hakkının farklı bir yaşam alanına uygulanmasına ÖRNEK DEĞİLDİR?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mahalledeki parkın adının sakinler tarafından oylanarak belirlenmesi"},
+            {"harf": "B", "metin_md": "Sınıfta pano sorumlusunun oy birliğiyle seçilmesi"},
+            {"harf": "C", "metin_md": "Bir öğrencinin izni olmadan özel eşyalarının karıştırılması"},
+            {"harf": "D", "metin_md": "Oyun grubunda hangi oyunun oynanacağına oy vererek karar verilmesi"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "C seçeneği özel hayatın gizliliğinin ihlaline örnektir, seçme ve seçilme hakkıyla ilgisi yoktur. A, B ve D seçenekleri ise seçme hakkının sırasıyla mahalle, sınıf ve oyun grubu gibi farklı yaşam alanlarına uygulanmasına birer örnektir."
+        }
+      ]
+    }
+  ]
+}

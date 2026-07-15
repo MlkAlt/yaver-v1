@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Vatandaşlık Hak ve Özgürlüklerimiz",
+    "kazanim": {
+      "kod": "İHVD.4.3.1",
+      "ad": "Vatandaş olmanın getirdiği hak ve özgürlükleri yorumlayabilme",
+      "ders": "İnsan Hakları, Vatandaşlık ve Demokrasi",
+      "sinif": 4,
+      "unite": "3. ÖĞRENME ALANI: ETKİN BİR VATANDAŞIM",
+      "surec_bilesenleri": {
+        "a": "Vatandaş olmanın getirdiği hak ve özgürlükleri örnekler üzerinden inceler.",
+        "b": "Vatandaş olmanın getirdiği hak ve özgürlükleri sözlü, yazılı, görsel vb. şekillerde ifade eder.",
+        "c": "Vatandaş olmanın getirdiği hak ve özgürlükleri kendi hayatından örnekler kullanarak yeniden açıklar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": true,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr 'Etkin Bir Vatandaşım' teması (4. sınıf İHVD) ve mufredat.meb.gov.tr programı incelendi; kazanımın örnek kapsamı eğitim, sağlık, seyahat, haberleşme, dilekçe, düşünce ve ifade, mülkiyet, eşitlik, tüketici ile seçme-seçilme hakları üzerinden ele alınıyor.",
+      "notlar": ["validate_worksheet.py WARN: alan-yoğun tip sayısı 3 (eslestirme, dogru_yanlis, tablo_doldurma) — render_html.py gerçek ölçümde öğrenci kısmı yine de 1 sayfaya sığdığı için bilinçli olarak kabul edildi.", "Bağımsız crosscheck (onay): s2'deki tüketici hakları örneği kapsam notuna eklendi; s5 tablo hücrelerinin serbest metin cevaplarının örnek nitelikli olduğu cozum_md'de netleştirildi."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları vatandaşlık hak ve özgürlükleri konusundaki bilgilerinle çözünüz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumları, ilgili olduğu hak veya özgürlükle eşleştiriniz. Sağ sütunda bir fazlalık vardır.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ali, okula gidip ücretsiz eğitim alıyor."},
+            {"no": 2, "metin_md": "Ayşe, hasta olduğunda devlet hastanesinde tedavi oluyor."},
+            {"no": 3, "metin_md": "Mehmet'in ailesi başka bir şehre taşınmak istediğinde kimseden izin almadan taşınabiliyor."},
+            {"no": 4, "metin_md": "Zeynep'in gönderdiği mektuplar kimse tarafından açılıp okunmuyor."},
+            {"no": 5, "metin_md": "Bir vatandaş, belediyeye şikâyetini yazılı bir dilekçeyle bildiriyor."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Eğitim hakkı"},
+            {"harf": "B", "metin_md": "Sağlık hakkı"},
+            {"harf": "C", "metin_md": "Seyahat özgürlüğü"},
+            {"harf": "D", "metin_md": "Haberleşme özgürlüğü"},
+            {"harf": "E", "metin_md": "Dilekçe hakkı"},
+            {"harf": "F", "metin_md": "Seçme ve seçilme hakkı"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D", "5": "E"},
+          "cozum_md": "1-A: Ücretsiz eğitim alma, eğitim hakkının kullanımıdır. 2-B: Devlet hastanesinde tedavi olma, sağlık hakkının kullanımıdır. 3-C: İzinsiz yer değiştirebilme, seyahat özgürlüğüdür. 4-D: Mektupların gizliliği, haberleşme özgürlüğüdür. 5-E: Yazılı şikâyet/istek bildirme, dilekçe hakkıdır. F (seçme ve seçilme hakkı) bu durumların hiçbirine karşılık gelmediği için çeldiricidir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir vatandaş, satın aldığı ürün bozuk çıktığında bunu değiştirme hakkına sahiptir. Bu, ____(1)____ haklarındandır.\n\nHerkesin kanun önünde aynı şekilde değerlendirilmesine ____(2)____ ilkesi denir.\n\nBir kişinin evini veya eşyasını istediği gibi kullanabilmesi ____(3)____ hakkıdır.\n\nVatandaşların bir konudaki görüşlerini kamuoyunda açıkça söyleyebilmesi ____(4)____ özgürlüğüdür.",
+          "gorsel": null,
+          "kelime_havuzu": ["tüketici", "eşitlik", "mülkiyet", "düşünce ve ifade", "seçim"],
+          "cevap": {"1": "tüketici", "2": "eşitlik", "3": "mülkiyet", "4": "düşünce ve ifade"},
+          "cozum_md": "1: Bozuk ürünü değiştirme hakkı tüketici haklarındandır. 2: Kanun önünde herkesin aynı değerlendirilmesi eşitlik ilkesidir. 3: Kişinin mal varlığını istediği gibi kullanması mülkiyet hakkıdır. 4: Görüşünü açıkça söyleyebilme düşünce ve ifade özgürlüğüdür. 'Seçim' kelime havuzunda çeldirici olarak yer alır, hiçbir boşluğa uymaz."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları okuyarak doğru seçeneği işaretleyiniz veya tabloyu doldurunuz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdakilerden hangisi \"seçme ve seçilme hakkı\"nın kullanımına bir örnektir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Bir öğrencinin okulda ücretsiz ders kitabı alması"},
+            {"harf": "B", "metin_md": "Bir vatandaşın belediye başkanlığı seçiminde oy kullanması"},
+            {"harf": "C", "metin_md": "Bir ailenin yaz tatiline çıkması"},
+            {"harf": "D", "metin_md": "Bir çocuğun arkadaşına mektup yazması"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Seçme ve seçilme hakkı, vatandaşların yönetimde söz sahibi olmak için oy kullanmasını ve aday olabilmesini kapsar. A eğitim hakkına, C seyahat özgürlüğüne, D haberleşme özgürlüğüne örnektir; doğru cevap B'dir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadelerin doğru mu yanlış mı olduğunu belirtiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Her vatandaş, istediği dini seçme veya hiçbir dine inanmama özgürlüğüne sahiptir.", "cevap": true, "gerekce_md": "Din ve vicdan özgürlüğü gereği herkes bu konuda özgürdür."},
+            {"no": 2, "metin_md": "Vatandaşlar, devlet kurumlarına isteklerini veya şikâyetlerini dilekçeyle bildiremez.", "cevap": false, "gerekce_md": "Vatandaşlar dilekçe hakkını kullanarak devlet kurumlarına yazılı başvuru yapabilir."},
+            {"no": 3, "metin_md": "Sağlık hakkı, yalnızca belirli bir gruba tanınan bir ayrıcalıktır.", "cevap": false, "gerekce_md": "Eşitlik ilkesi gereği sağlık hakkı bütün vatandaşlara tanınır."},
+            {"no": 4, "metin_md": "Bir kişinin özel yaşamına ait bilgiler, izni olmadan başkalarıyla paylaşılamaz.", "cevap": true, "gerekce_md": "Özel hayatın gizliliği hakkı bu bilgilerin korunmasını güvence altına alır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true}},
+          "cozum_md": "1: Din ve vicdan özgürlüğü nedeniyle doğru. 2: Dilekçe hakkı var olduğu için ifade yanlış. 3: Eşitlik ilkesi gereği sağlık hakkı herkese tanındığından ifade yanlış. 4: Özel hayatın gizliliği hakkı nedeniyle doğru."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda boş bırakılan hücreleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Hak/Özgürlük", "Günlük Hayattan İfade Örneği"],
+            "satirlar": [
+              ["Eğitim hakkı", "__?__"],
+              ["__?__", "Bir öğrencinin resim çizerek adalet konusundaki düşüncesini anlatması"],
+              ["Dilekçe hakkı", "__?__"]
+            ]
+          },
+          "cevap": {
+            "r0c1": "Bir öğrencinin ödevini yazılı olarak hazırlayıp öğretmenine sunması",
+            "r1c0": "Düşünce ve ifade özgürlüğü",
+            "r2c1": "Bir vatandaşın okul veya belediyeye yazılı bir istek/şikâyet dilekçesi vermesi"
+          },
+          "cozum_md": "Eğitim hakkı yazılı bir ödevle (yazılı ifade) somutlaşabilir. Resim çizerek görüş anlatma, görsel yoldan düşünce ve ifade özgürlüğünün kullanılmasıdır. Dilekçe hakkı, yazılı bir dilekçe vermeyle ifade edilir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi hayatından örnekler kullanarak, tam cümlelerle yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Vatandaş olmanın getirdiği haklardan birini seç. Bu hakkı kendi hayatından bir örnekle açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Eğitim hakkını seçiyorum. Ben her sabah okuluma gidip derslerime giriyorum, kitaplarımı ücretsiz alıyorum. Bu durum, benim eğitim hakkımı kullandığımı gösterir.",
+            "kabul_kriterleri": ["Bir hak/özgürlüğün adını doğru şekilde belirtmesi", "Kendi hayatından somut bir örnek vermesi", "Verdiği örneğin seçtiği hakla tutarlı olması"]
+          },
+          "cozum_md": "Öğrenci; eğitim, sağlık, seyahat, haberleşme, dilekçe, düşünce ve ifade, mülkiyet, din ve vicdan ya da seçme-seçilme haklarından birini seçip kendi yaşamından somut, hakla tutarlı bir örnek vermelidir. Örnek cevap referans niteliğindedir, farklı doğru örnekler kabul edilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Seçtiğin bir hak veya özgürlüğü anlatan bir resim çizeceğini düşün. Bu resimde hangi kişiler ve hangi eylem yer alırdı? Kısaca betimle.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sağlık hakkını seçtim. Resmimde bir doktor ve muayene olan bir çocuk olurdu; doktor çocuğu ücretsiz muayene ederdi, yanlarında 'Sağlık hakkı herkesindir' yazan bir tabela olurdu.",
+            "kabul_kriterleri": ["Bir hak/özgürlüğü doğru şekilde belirtmesi", "Resimde yer alacak kişi ve eylemi somut biçimde tanımlaması", "Betimlemenin seçilen hakla ilişkili olması"]
+          },
+          "cozum_md": "Öğrenci, seçtiği hakkı görsel biçimde nasıl ifade edeceğini kişi ve eylem belirterek somutlaştırmalıdır; bu, kazanımın 'görsel ifade etme' bileşenine (b) hizmet eder. Farklı hak seçimleri ve betimlemeler, seçilen hakla tutarlı olduğu sürece kabul edilir."
+        }
+      ]
+    }
+  ]
+}

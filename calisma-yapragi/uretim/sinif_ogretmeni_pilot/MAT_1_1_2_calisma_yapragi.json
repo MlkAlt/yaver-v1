@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Parça Parça Sayalım",
+    "kazanim": {
+      "kod": "MAT.1.1.2",
+      "ad": "Ögeleri dağınık veya düzenli bir şekilde bulunan bir nesne grubunu sayarken parçalar arasında ilişkileri çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Ögeleri dağınık veya düzenli bir şekilde bulunan bir nesne grubunun parçalarını belirler.",
+        "b": "Ögeleri dağınık veya düzenli bir şekilde bulunan bir nesne grubunu sayarken parçalar arasındaki ilişkileri belirler."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": false,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr MAT.1.1.2 kazanım açıklaması incelendi: miktarın 10'dan az olan gruplarla çalışıldığı, dağınık/düzenli dizilimin ve parça-bütün ilişkisinin vurgulandığı doğrulandı. Bu yaprakta tüm nicelikler 10'un altında tutuldu.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları çözerek nesne gruplarıyla ilgili kavramları hatırlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümleleri kutudaki kelimelerle tamamlayınız.\n\n1. Bir nesne grubundaki her bir küçük öbeğe grubun ____(1)____ denir.\n2. Nesneler karışık bir sırada duruyorsa bu gruba ____(2)____ grup denir.\n3. Nesneler sıra sıra, düzgün bir şekilde duruyorsa bu gruba ____(3)____ grup denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["parçası", "dağınık", "düzenli", "bütünü"],
+          "cevap": {"1": "parçası", "2": "dağınık", "3": "düzenli"},
+          "cozum_md": "1. parçası — bir grubu oluşturan küçük öbeklere parça denir. 2. dağınık — nesneler karışık duruyorsa grup dağınıktır. 3. düzenli — nesneler sıra hâlinde duruyorsa grup düzenlidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyup Doğru (D) ya da Yanlış (Y) olduğuna karar veriniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Dağınık duran nesneleri sayarken önce onları küçük parçalara ayırmak saymayı kolaylaştırır.", "cevap": true, "gerekce_md": "Nesneleri parçalara ayırmak, hiçbirini atlamadan ya da tekrar saymadan doğru sayım yapmayı kolaylaştırır."},
+            {"no": 2, "metin_md": "Bir nesne grubunun parçalarını görmek, grubun toplam sayısını bulmaya yardımcı olmaz.", "cevap": false, "gerekce_md": "Parçaları görmek, parçaları tek tek sayıp toplayarak grubun tamamının sayısını bulmayı kolaylaştırır."},
+            {"no": 3, "metin_md": "Düzenli sıralanmış nesneleri saymak, dağınık duran nesneleri saymaktan genellikle daha kolaydır.", "cevap": true, "gerekce_md": "Düzenli dizilimde nesneler sıra ile göründüğü için hangisinin sayıldığı daha kolay takip edilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru, 2-Yanlış, 3-Doğru (gerekçeler yukarıda ifadelerin yanındadır)."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları, gruptaki parçaları ayrı ayrı sayarak çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Masanın üzerinde dağınık duran kalemlerden 4 tanesi mavi, 3 tanesi kırmızıdır. Masadaki kalemlerin tamamı kaç tanedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "6"},
+            {"harf": "B", "metin_md": "7"},
+            {"harf": "C", "metin_md": "8"},
+            {"harf": "D", "metin_md": "4"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Mavi kalemler (4) ile kırmızı kalemler (3) birlikte sayılır: 4 + 3 = 7 kalem. Doğru seçenek B'dir."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki tabloda her grubun iki parçasının ve toplamının adetleri verilmiştir. Boş bırakılan yerleri doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Grup", "1. Parça (adet)", "2. Parça (adet)", "Toplam (adet)"],
+            "satirlar": [
+              ["Kırmızı-Sarı Toplar", "3", "2", "__?__"],
+              ["Elma-Armut", "__?__", "4", "9"],
+              ["Kalem-Silgi", "6", "__?__", "8"]
+            ]
+          },
+          "cevap": {"r0c3": "5", "r1c1": "5", "r2c2": "2"},
+          "cozum_md": "1. satır: 3 + 2 = 5. 2. satır: toplam 9, ikinci parça 4 olduğuna göre birinci parça 9 - 4 = 5. 3. satır: toplam 8, birinci parça 6 olduğuna göre ikinci parça 8 - 6 = 2."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir grupta toplam 8 nesne vardır. Bu nesnelerin 5 tanesi birinci parçadadır. İkinci parçada kaç nesne vardır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2"},
+            {"harf": "B", "metin_md": "3"},
+            {"harf": "C", "metin_md": "4"},
+            {"harf": "D", "metin_md": "13"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Toplam 8 nesnenin 5 tanesi birinci parçadaysa ikinci parça 8 - 5 = 3 nesnedir. Doğru seçenek B'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları, parçaları ayrı ayrı sayıp birleştirerek çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Çiftlikte dağınık duran tavuklardan bir kısmı kümeste, bir kısmı çimenliktedir. Kümeste 4 tavuk, çimenlikte 3 tavuk vardır. Çiftlikteki tavukların tamamı kaç tanedir?",
+          "gorsel": null,
+          "cevap": {"deger": 7, "birim": "tavuk", "tolerans_yuzde": 0},
+          "cozum_md": "Kümesteki tavuklar (4) ile çimenlikteki tavuklar (3) birlikte sayılır: 4 + 3 = 7 tavuk."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Evinizde ya da sınıfınızda gördüğünüz, sayısı 10'dan az olan bir nesne grubunu düşününüz (örneğin oyuncaklar ya da kitaplar). Bu grubu iki parçaya ayırınız; her parçadaki nesne sayısını yazınız ve toplamını bulunuz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek: 8 oyuncağım var. 5 tanesi arabalar, 3 tanesi bebekler. 5 + 3 = 8 oyuncak.",
+            "kabul_kriterleri": [
+              "Grubun toplam nesne sayısının 10'dan az olması",
+              "Grubu gerçekten iki parçaya ayırmış olması",
+              "Her parçanın sayısını açıkça belirtmiş olması",
+              "İki parçanın toplamının belirttiği grup toplamıyla tutarlı olması"
+            ]
+          },
+          "cozum_md": "Öğrencinin kendi seçtiği gruba göre değişir; önemli olan iki parçanın toplamının, belirtilen grup toplamına eşit olmasıdır (parça-bütün ilişkisi)."
+        }
+      ]
+    }
+  ]
+}
