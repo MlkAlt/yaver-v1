@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıların Temsillerini Tanıyalım",
+    "kazanim": {
+      "kod": "MAT.4.1.1",
+      "ad": "Niceliklerin büyüklükleri için en fazla altı basamaklı olan sayıların temsillerinden yararlanabilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Niceliklerin büyüklüklerinin temsillerini tanır.",
+        "b": "Uygun say temsillerini belirler.",
+        "c": "Uygun sayıları okur ve yazar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 1. Tema: Sayılar ve Nicelikler; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Bir niceliğin büyüklüğünü ifade eden sayılarda en fazla ____(1)____ basamak bulunabilir.\n2) Binler basamağındaki rakamın anlamı, ____(2)____ sayısına bağlıdır.\n3) Yüz binler basamağındaki 3 rakamı ____(3)____ eder.",
+          "gorsel": null,
+          "kelime_havuzu": ["altı", "soldaki", "üç yüz bin", "beş", "yüz bin"],
+          "cevap": {"1": "altı", "2": "soldaki", "3": "üç yüz bin"},
+          "cozum_md": "1) Altı — kazanımda 'en fazla altı basamaklı' ifadesi geçer. 2) Soldaki — her basamağın değeri, solundaki basamak sayısına bağlıdır. 3) Yüz binler basamağındaki 3 rakamı 3×100.000 = 300.000 (üç yüz bin) eder."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi **en fazla altı basamaklı** bir sayıyı temsil eder?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "12.345"},
+            {"harf": "B", "metin_md": "123.456"},
+            {"harf": "C", "metin_md": "1.234.567"},
+            {"harf": "D", "metin_md": "12.345.678"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "123.456 sayısının 6 basamağı vardır ve en fazla altı basamaklı sınırına uygundur. 12.345 beş basamaklı, 1.234.567 yedi basamaklı, 12.345.678 ise sekiz basamaklıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sayıların temsillerini ve basamak değerlerini kullanarak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "245.678 sayısında binler basamağındaki rakam 5'tir.", "cevap": true, "gerekce_md": "245.678 sayısında binler basamağı 5 rakamıdır."},
+            {"no": 2, "metin_md": "Bir niceliğin büyüklüğünü gösteren sayıda en fazla yedi basamak bulunabilir.", "cevap": false, "gerekce_md": "Kazanımda belirtildiği üzere en fazla altı basamak bulunabilir, yedi değil."},
+            {"no": 3, "metin_md": "Yüz binler basamağındaki 1 rakamı yüz bin eder.", "cevap": true, "gerekce_md": "1×100.000 = 100.000 (yüz bin) eder."},
+            {"no": 4, "metin_md": "362.145 sayısında en büyük basamak değeri olan rakam binler basamağındadır.", "cevap": false, "gerekce_md": "En büyük basamak değeri yüz binler basamağındadır (3×100.000), binler basamağı değil."},
+            {"no": 5, "metin_md": "Bir sayının basamak değerleri sağdan sola doğru artar.", "cevap": true, "gerekce_md": "Basamak değerleri sağdan sola doğru artar: birler (1), onlar (10), yüzler (100), binler (1.000), on binler (10.000), yüz binler (100.000)."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false, "5": true}},
+          "cozum_md": "1. Doğru: Binler basamağı 5. 2. Yanlış: En fazla 6 basamak. 3. Doğru: 1×100.000 = 100.000. 4. Yanlış: En büyük değer yüz binler basamağındadır. 5. Doğru: Birler→onlar→yüzler→binler→on binler→yüz binler."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları okunuşlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "314.502"},
+            {"no": 2, "metin_md": "60.040"},
+            {"no": 3, "metin_md": "520.108"},
+            {"no": 4, "metin_md": "100.001"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yüz bin, yüz dört bin, beş yüz iki"},
+            {"harf": "B", "metin_md": "Altmış bin, kırk"},
+            {"harf": "C", "metin_md": "Yüz bin, bir"},
+            {"harf": "D", "metin_md": "Beş yüz yirmi bin, yüz sekiz"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "D", "4": "C"},
+          "cozum_md": "314.502 → Yüz bin, yüz dört bin, beş yüz iki (A). 60.040 → Altmış bin, kırk (B). 520.108 → Beş yüz yirmi bin, yüz sekiz (D). 100.001 → Yüz bin, bir (C)."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "408.203 sayısını yazarken **binler** basamağına hangi rakam yazılır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "8"},
+            {"harf": "B", "metin_md": "4"},
+            {"harf": "C", "metin_md": "2"},
+            {"harf": "D", "metin_md": "0"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "408.203 sayısında binler basamağındaki rakam 8'dir. Sayıyı basamaklarına ayıralım: 4 (yüz binler), 0 (on binler), 8 (binler), 2 (yüzler), 0 (onlar), 3 (birler)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir okulda 245.600 kitap bulunmaktadır. Bu kitapların 120.300'ü öykü kitabı, geri kalanı bilgi kitabıdır. Buna göre:\n\na) Bilgi kitabı sayısını hesaplayınız.\nb) Hangi tür kitap daha fazladır? Farkı yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "a) Bilgi kitabı = 245.600 − 120.300 = 125.300. b) Bilgi kitabı (125.300) öykü kitabından (120.300) fazladır. Fark: 125.300 − 120.300 = 5.000 kitap.",
+            "kabul_kriterleri": [
+              "Çıkarma işlemini doğru yapmış (125.300)",
+              "Karşılaştırmayı doğru yapmış",
+              "Farkı doğru hesaplamış (5.000)"
+            ]
+          },
+          "cozum_md": "a) Bilgi kitabı = 245.600 − 120.300 = 125.300. b) 125.300 > 120.300, bilgi kitabı fazladır; fark = 125.300 − 120.300 = 5.000."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "360.502 sayısındaki rakamların toplamı kaçtır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "14"},
+            {"harf": "B", "metin_md": "16"},
+            {"harf": "C", "metin_md": "12"},
+            {"harf": "D", "metin_md": "18"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "360.502 sayısındaki rakamlar: 3, 6, 0, 5, 0, 2. Toplam: 3 + 6 + 0 + 5 + 0 + 2 = 16."
+        }
+      ]
+    }
+  ]
+}

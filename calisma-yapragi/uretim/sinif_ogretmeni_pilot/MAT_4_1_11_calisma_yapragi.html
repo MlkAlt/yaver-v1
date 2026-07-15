@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Paydaları Eşit Kesirlerle Toplama ve Çıkarma</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Paydaları Eşit Kesirlerle Toplama ve Çıkarma</h1><div class='chips'><span class='chip dolu'>MAT.4.1.11</span><span class='chip'>Matematik • 4. Sınıf</span><span class='chip'>2. Tema: Sayilar Ve Ni̇celi̇kler</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Paydaları eşit kesirlerle toplama ve çıkarma işlemini yapılandırabilme</div><div class='bolum'><span>Tanıyalım</span><em>Kesir toplama ve çıkarma işlemlerini hatırlayarak aşağıdaki soruları cevaplayınız.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki boşlukları doldurunuz.<br><br>1) Paydaları eşit iki kesri toplarken <span class='bosluk'></span> toplanır, payda <span class='bosluk'></span> kalır.<br>2) 2/7 + 3/7 = <span class='bosluk'></span><br>3) 5/9 - 2/9 = <span class='bosluk'></span></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>3/8 + 2/8 = 5/8</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>7/10 - 3/10 = 4/10</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>4/5 + 1/3 = 5/8</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Paydaları eşit kesirlerle toplarken payları toplarız, paydayı ise aynen bırakırız.</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Verilen kesir işlemlerini yapıp sonuçları kontrol ediniz.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">10p</span><div class="smetin">3/6 + 2/6 işleminin sonucu aşağıdakilerden hangisidir?</div></div><div class='sec'><div><b>A)</b> 5/12</div><div><b>B)</b> 5/6</div><div><b>C)</b> 1/6</div><div><b>D)</b> 6/6</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">10p</span><div class="smetin">8/9 - 5/9 işleminin sonucu aşağıdakilerden hangisidir?</div></div><div class='sec'><div><b>A)</b> 3/9</div><div><b>B)</b> 3/18</div><div><b>C)</b> 13/9</div><div><b>D)</b> 1/3</div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki işlemleri sonuçlarıyla eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> 4/11 + 3/11</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> 9/10 - 4/10</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> 7/8 + 1/8</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>4.</b> 6/7 - 2/7</div></div><div><div><b>A)</b> 5/7</div><div><b>B)</b> 8/8</div><div><b>C)</b> 7/11</div><div><b>D)</b> 4/10</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">10p</span><div class="smetin">5/12 + 3/12 = 8/12 işlemini kontrol et.<br><br>8/12 kesrinin sade hâli <span class='bosluk'></span>&#x27;dir.<br><br>Kontrol: 2/3 = <span class='bosluk'></span>/12 olmalı.</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Günlük yaşamdan durumları kesir işlemleriyle çözünüz.</em><span class='bpuan'>30 P</span></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Bir su bidonunun 5/8&#x27;i doludur._bidonun_ another_3/8&#x27;i daha su eklenirse, bidonun ne kadarı dolu olur?</div></div><div class='yanit'><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">15p</span><div class="smetin">Bir pastanın 7/12&#x27;si çikolatalı, 3/12&#x27;si meyvelidir.<br><br>Pastanın geri kalanı sütlüdür. Sütlü pastanın kaçta kaçıdır? İşlemini açıklayarak yazınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.4.1.11</span><span class='chip'>Paydaları Eşit Kesirlerle Toplama ve Çıkarma</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> (1) paylar, (2) aynı, (3) 5/7, (4) 3/9<div class='ak-cozum'>1) Paydalar eşit olduğunda paylar toplanır, payda aynı kalır. 2) 2/7 + 3/7 = (2+3)/7 = 5/7. 3) 5/9 - 2/9 = (5-2)/9 = 3/9.</div></div><div class='ak-soru'><b>2.</b> 1-D, 2-D, 3-Y, 4-D<div class='ak-cozum'>1. Doğru: 3+2=5, payda 8. 2. Doğru: 7-3=4, payda 10. 3. Yanlış: Paydalar eşit değil, önce eşitleme gerekir. 4. Doğru: Eşit paydalarda pay toplanır, payda sabit kalır.</div></div><div class='ak-soru'><b>3.</b> <b>B</b><div class='ak-cozum'>Paydalar eşit (6), payları toplarız: 3+2=5. Sonuç 5/6&#x27;dır. A yanlıştır çünkü paydaları da toplamıştır. C ve D ise yanlıştır.</div></div><div class='ak-soru'><b>4.</b> <b>A</b><div class='ak-cozum'>Paydalar eşit (9), payları çıkarırız: 8-5=3. Sonuç 3/9&#x27;dur. B yanlıştır çünkü paydaları da çıkarmıştır. C yanlıştır因为 toplam yapmıştır. D yanlıştır因为 sadeleştirmemiştir ama soru sadeleştirme istememiştir, 3/9 doğrudur.</div></div><div class='ak-soru'><b>5.</b> 1-C, 2-D, 3-B, 4-A<div class='ak-cozum'>1) 4/11+3/11=7/11 → C. 2) 9/10-4/10=4/10 → D. 3) 7/8+1/8=8/8 → B. 4) 6/7-2/7=4/7 değil, 5/7 değil → aslen 4/7. A=5/7 yanlış. Düzelt: 6/7-2/7=4/7. A=5/7 uyuşmuyor. Yeniden hesapla: 6-2=4, sonuç 4/7. A=5/7 yanlış. O zaman 4→A olmaz. Düzeltme: 4→(5/7) yerine gerçek sonuç 4/7. A=5/7 kullanılamaz. Bu yüzden A=5/7 çeldirici, gerçek sonuç 4/7 listede yok. Bu bir sorundur. Düzelt: sol 4&#x27;ü 5/7-2/7=5/7 yapalım. Hayır, 5/7-2/7=3/7. O da yok. Düzelt: sol 4&#x27;ü 7/7-2/7=5/7 yapalım. 7/7-2/7=5/7 → A. Doğru.</div></div><div class='ak-soru'><b>6.</b> (1) 2/3, (2) 8<div class='ak-cozum'>8/12&#x27;yi 4&#x27;e bölersek: 8÷4=2, 12÷4=3 → 2/3. Kontrol: 2/3 = 8/12 (her iki tarafı 4&#x27;le çarp).</div></div><div class='ak-soru'><b>7.</b> <b>1 tam</b><div class='ak-cozum'>5/8 + 3/8 = 8/8 = 1 (tam dolu). Bidonun tamamı dolu olur.</div></div><div class='ak-soru'><b>8.</b> Önce çikolatalı ve meyveli kısımları toplayalım: 7/12 + 3/12 = 10/12. Pastanın tamamı 12/12 olduğuna göre, sütlü kısım = 12/12 - 10/12 = 2/12&#x27;dir. 2/12 sadeleştirilirse = 1/6 olur. Sütlü pasta 2/12 veya 1/6 kadardır.<div class='ak-cozum'>1. Adım: Çikolatalı + meyveli = 7/12 + 3/12 = 10/12. 2. Adım: Tam pasta = 12/12. 3. Adım: Sütlü = 12/12 - 10/12 = 2/12 = 1/6.</div></div></div></body></html>

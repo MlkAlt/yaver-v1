@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Cisimlerin Özelliklerini Keşfediyorum",
+    "kazanim": {
+      "kod": "MAT.3.3.1",
+      "ad": "Geometrik cisimlerin özelliklerini yorumlayabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Geometrik cisimlerin yüzeylerini, kenarlarını ve köşelerini belirler.",
+        "b": "Geometrik cisimlerin yüzey, kenar ve köşelerini sayar.",
+        "c": "Geometrik cisimlerin özelliklerini karşılaştırır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Geometrik cisimlerin parçalarını tanıyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki geometrik cisimleri sağdaki özellikleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Küp"},
+            {"no": 2, "metin_md": "Küre"},
+            {"no": 3, "metin_md": "Silindir"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Tamamı yuvarlak yüzeyden oluşur, düz yüzeyi yoktur."},
+            {"harf": "B", "metin_md": "6 yüzeyi, 12 kenarı ve 8 köşesi vardır."},
+            {"harf": "C", "metin_md": "2 düz ve 1 yuvarlak yüzeye sahiptir."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1-B: Küpün 6 yüzeyi, 12 kenarı, 8 köşesi vardır. 2-A: Kürenin tamamı yuvarlak yüzeyden oluşur. 3-C: Silindirin 2 düz (üst-alt) ve 1 yuvarlak yüzeyi vardır."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir küpün ____(1)____ yüzeyi, ____(2)____ kenarı ve ____(3)____ köşesi vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["6", "12", "8"],
+          "cevap": {"1": "6", "2": "12", "3": "8"},
+          "cozum_md": "Küpün 6 yüzeyi, 12 kenarı ve 8 köşesi vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Geometrik cisimlerin özelliklerini karşılaştıralım.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki geometrik cisimlerden hangisinin yüzey sayısı en fazladır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Küp (6 yüzey)"},
+            {"harf": "B", "metin_md": "Küre (1 yüzey)"},
+            {"harf": "C", "metin_md": "Silindir (3 yüzey)"},
+            {"harf": "D", "metin_md": "Koni (2 yüzey)"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Küpün 6 yüzeyi vardır ve bu diğer cisimlerden fazladır. Küre 1, silindir 3, koni 2 yüzeye sahiptir."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Kürenin köşesi yoktur.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Küpün 8 kenarı vardır.", "cevap": false, "gerekce_md": "Küpün 12 kenarı vardır, 8'i değil."},
+            {"no": 3, "metin_md": "Silindirin 2 düz yüzeyi vardır.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru: Kürenin köşesi yoktur. 2-Yanlış: Küpün 12 kenarı vardır. 3-Doğru: Silindirin üst ve alt olmak üzere 2 düz yüzeyi vardır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloda geometrik cisimlerin özelliklerini tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Cisim", "Yüzey Sayısı", "Kenar Sayısı", "Köşe Sayısı"],
+            "satirlar": [
+              ["Küp", "6", "12", "__?__"],
+              ["Küre", "__?__", "0", "0"],
+              ["Silindir", "3", "__?__", "0"]
+            ]
+          },
+          "cevap": {"r0c3": "8", "r1c1": "1", "r2c2": "0"},
+          "cozum_md": "Küpün 8 köşesi, kürenin 1 yüzeyi ve silindirin 0 kenarı vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerimizi uygulayalım.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir kutu (küp) ile bir top (küre) karşılaştırıldığında, hangisi yanlıştır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Küpün yüzey sayısı küreden fazladır."},
+            {"harf": "B", "metin_md": "Kürenin kenarı küpün kenarından azdır."},
+            {"harf": "C", "metin_md": "Küpün köşesi kürenin köşesinden fazladır."},
+            {"harf": "D", "metin_md": "Her ikisinin de yüzey sayısı eşittir."}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "D seçeneği yanlıştır çünkü küpün 6, kürenin 1 yüzeyi vardır; yüzey sayıları eşit değildir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Sınıfta bulunan bir silindir, bir küp ve bir küre alarak bu cisimlerin yüzey, kenar ve köşe sayılarını karşılaştırınız. Hangisi en az ve hangisi en çok yüze sahiptir? Neden?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Küpün en çok yüzeyi (6) vardır because düz yüzeyleri fazladır. Kürenin en az yüzeyi (1) vardır because tamamı yuvarlaktır. Silindir ise orta düzeydedir (3 yüzey).",
+            "kabul_kriterleri": ["Üç cismin yüzey sayısını doğru belirlemesi", "En çok ve en az yüze sahip cismi doğru tespit etmesi", "Nedenlerini açıklaması"]
+          },
+          "cozum_md": "Küp 6 yüzey ile en çok yüze, küre 1 yüzey ile en az yüze sahiptir. Silindir 3 yüzey ile orta sıradadır."
+        }
+      ]
+    }
+  ]
+}

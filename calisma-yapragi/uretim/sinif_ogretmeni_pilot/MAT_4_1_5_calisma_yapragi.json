@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Örüntüleri Keşfedelim",
+    "kazanim": {
+      "kod": "MAT.4.1.5",
+      "ad": "Artan azalan sayı örüntüleri ve şekil örüntülerindeki değişimi genelleyebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Örüntüdeki kalıbı belirler.",
+        "b": "Örüntüyü devam ettirir.",
+        "c": "Örüntüyü geneller."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 1. Tema: Sayılar ve Nicelikler; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Bir örüntüdeki sayılardaki değişimi bulmaya ____(1)____ denir.\n2) Örüntüdeki her bir elemana ____(2)____ denir.\n3) Bir örüntüyü devam ettirmek için ____(3)____ kullanılır.",
+          "gorsel": null,
+          "kelime_havuzu": ["kalıp", "öge", "kural", "toplam", "şekil"],
+          "cevap": {"1": "kalıp", "2": "öge", "3": "kural"},
+          "cozum_md": "1) Örüntüdeki değişime kalıp denir. 2) Her elemana öge denir. 3) Örüntüyü devam ettirmek için kural kullanılır."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki örüntüde kalıp nedir?\n\n5, 10, 15, 20, 25, ...",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Her sayı 5 artar"},
+            {"harf": "B", "metin_md": "Her sayı 10 artar"},
+            {"harf": "C", "metin_md": "Her sayı 5 azalır"},
+            {"harf": "D", "metin_md": "Her sayı 2 katına çıkar"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "5, 10, 15, 20, 25... Her adımda 5 eklenir: 5+5=10, 10+5=15, 15+5=20, 20+5=25. Kalıp: 5'er 5'er artış."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Örüntüdeki kalıpları bularak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "8, 16, 24, 32, ... örüntüsünde 5. sayı 40'tır.", "cevap": true, "gerekce_md": "8'er 8'er artış: 8, 16, 24, 32, 40. 5. sayı 40'tır."},
+            {"no": 2, "metin_md": "50, 45, 40, 35, ... örüntüsünde kalıp 5'er azalıştır.", "cevap": true, "gerekce_md": "50−5=45, 45−5=40, 40−5=35. Kalıp 5'er azalıştır."},
+            {"no": 3, "metin_md": "3, 9, 27, 81, ... örüntüsünde her sayı bir öncekinin 3 katıdır.", "cevap": true, "gerekce_md": "3×3=9, 9×3=27, 27×3=81. Doğrudur."},
+            {"no": 4, "metin_md": "2, 6, 18, 54, ... örüntüsünde 6. sayı 486'dır.", "cevap": true, "gerekce_md": "Her sayı 3 katı: 2, 6, 18, 54, 162, 486. 6. sayı 486'dır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": true, "4": true}},
+          "cozum_md": "1. Doğru: 8'er 8'er artış. 2. Doğru: 5'er azalış. 3. Doğru: 3 katı. 4. Doğru: 2→6→18→54→162→486."
+        },
+        {
+          "id": "s4",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki örüntüleri kalıp türüne göre sıralayınız (basit → orta → karmaşık).",
+          "gorsel": null,
+          "ogeler": ["2, 4, 8, 16, ... (2 katı)", "100, 90, 80, 70, ... (10'er azalış)", "3, 6, 9, 12, ... (3'er artış)"],
+          "cevap": {"dogru_sira": [2, 1, 0]},
+          "cozum_md": "En basit: artan (3'er artış). Sonra azalan (10'er azalış). En karmaşık: çarpma kalıbı (2 katı)."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "1, 4, 9, 16, 25, ... örüntüsünde 7. sayı kaçtır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "36"},
+            {"harf": "B", "metin_md": "49"},
+            {"harf": "C", "metin_md": "35"},
+            {"harf": "D", "metin_md": "64"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bu örüntü kare sayılardır: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49. 7. sayı 49'dur."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Bir parkta ağaç dikimi düzenleniyor. Birinci sıraya 3, ikinci sıraya 5, üçüncü sıraya 7, dördüncü sıraya 9 ağaç dikiliyor.\n\na) Bu örüntünün kalıbını yaz.\nb) 10. sıraya kaç ağaç dikilir?\nc) Bu örüntüyü genelle: n. sıraya kaç ağaç dikilir?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "a) Her sıra 2'er artar: 3, 5, 7, 9, ... b) 10. sıra: 3 + (10-1)×2 = 3 + 18 = 21 ağaç. c) n. sıra: 3 + (n-1)×2 = 2n + 1 ağaç.",
+            "kabul_kriterleri": [
+              "Kalıbı doğru belirlemiş (2'er artış)",
+              "10. sırayı doğru hesaplamış (21)",
+              "Genellemeyi doğru yapmış (2n+1)"
+            ]
+          },
+          "cozum_md": "a) 3, 5, 7, 9... Her adımda 2 artış. b) 3 + 9×2 = 3 + 18 = 21. c) n. sıra = 3 + (n-1)×2 = 2n + 1."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki örüntüde 7. sayı kaçtır?\n\n2, 6, 18, 54, ...",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "162"},
+            {"harf": "B", "metin_md": "486"},
+            {"harf": "C", "metin_md": "1458"},
+            {"harf": "D", "metin_md": "729"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Her sayı bir öncekinin 3 katıdır: 2, 6, 18, 54, 162, 486, 1458. 7. sayı 1458'dir."
+        }
+      ]
+    }
+  ]
+}

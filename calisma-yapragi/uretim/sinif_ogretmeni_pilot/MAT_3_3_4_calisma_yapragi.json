@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Çevre Uzunluğunu Tahmin Edip Ölçüyorum",
+    "kazanim": {
+      "kod": "MAT.3.3.4",
+      "ad": "Standart olmayan ve standart ölçme araçları ile şekillerin çevre uzunluğunu tahmin edebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Çevre uzunluğunu tahmin eder.",
+        "b": "Standart olmayan araçlarla ölçer.",
+        "c": "Standart araçlarla ölçer.",
+        "d": "Tahmini ile ölçümü karşılaştırır."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Çevre uzunluğunu ve ölçme araçlarını tanıyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir şeklin çevre uzunluğu neyi ölçer?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Şeklin iç kısmının alanını"},
+            {"harf": "B", "metin_md": "Şeklin dış kenarlarının toplam uzunluğunu"},
+            {"harf": "C", "metin_md": "Şeklin ağırlığını"},
+            {"harf": "D", "metin_md": "Şeklin yüksekliğini"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Çevre uzunluğu, bir şeklin dış kenarlarının toplam uzunluğudur."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Cetvel standart bir ölçme aracıdır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Parmak genişliği standart bir ölçme aracıdır.", "cevap": false, "gerekce_md": "Parmak genişliği kişiye göre değişir, standart değildir."},
+            {"no": 3, "metin_md": "İp ile çevre ölçümü yapılabilir.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru: Cetvel mm/cm standart ölçer. 2-Yanlış: Parmak genişliği değişkendir, standart değildir. 3-Doğru: İp şeklin kenarlarına sarılarak çevre ölçümü yapılabilir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Tahmin ve ölçüm yöntemlerini inceleyelim.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir karenin bir kenarı 5 cm ise çevre uzunluğu kaç cm'dir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "5 cm"},
+            {"harf": "B", "metin_md": "10 cm"},
+            {"harf": "C", "metin_md": "15 cm"},
+            {"harf": "D", "metin_md": "20 cm"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "Karenin 4 kenarı vardır ve hepsi eşittir. 5 × 4 = 20 cm."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki ölçme yöntemlerini sağdaki açıklamalarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "İp ile ölçüm"},
+            {"no": 2, "metin_md": "Cetvel ile ölçüm"},
+            {"no": 3, "metin_md": "Kağıt kenarı ile ölçüm"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Standart ölçme: santimetre cinsinden doğrudan ölçer."},
+            {"harf": "B", "metin_md": "Standart olmayan ölçme: ipi şekle sar, işaretle, düzleştirip ölç."},
+            {"harf": "C", "metin_md": "Standart olmayan ölçme: kağıdın kenarını kullanarak tam sayısını say."}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1-B: İp ile ölçüm standart olmayan bir yöntemdir. 2-A: Cetvel ile ölçüm standarttır. 3-C: Kağıt kenarı ile ölçüm de standart olmayan bir yöntemdir."
+        },
+        {
+          "id": "s5",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Bir dikdörtgenin uzun kenarı 8 cm, kısa kenarı 3 cm ise çevre uzunluğu ____(1)____ cm'dir.",
+          "gorsel": null,
+          "kelime_havuzu": ["22"],
+          "cevap": {"1": "22"},
+          "cozum_md": "Çevre = 2 × (8 + 3) = 2 × 11 = 22 cm."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerimizi uygulayalım.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Bir öğrenci dairenin çevre uzunluğunu tahmin etmiş: 20 cm. İp ile ölçmüş: 19 cm. cetvel ile ölçmüş: 19.5 cm. Bu durumda hangisi doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Tahmini tam doğru çıkmıştır."},
+            {"harf": "B", "metin_md": "Tahmini yaklaşık doğru çıkmıştır, ölçüm değerleri birbirine yakındır."},
+            {"harf": "C", "metin_md": "Tahmini tamamen yanlıştır."},
+            {"harf": "D", "metin_md": "Ölçüm yöntemleri yanlıştır."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Tahmin (20 cm) ile ölçümler (19 ve 19.5 cm) birbirine yakındır. Tahmin yaklaşık olarak doğrudur."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Sınıftaki bir kitabın çevre uzunluğunu tahmin edip ardından cetvel ile ölçünüz. Tahmininiz ile ölçümünüzü karşılaştırınız. Neden farklı olabilir?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tahmin: 80 cm. Ölçüm: 78 cm. Fark 2 cm. Farklılık, gözle tahminin zor olmasından ve ölçümdeki hata payından kaynaklanabilir.",
+            "kabul_kriterleri": ["Tahmin ve ölçüm değerlerini yazması", "Karşılaştırma yapması", "Farklılığın nedenini açıklaması"]
+          },
+          "cozum_md": "Tahmin ile ölçüm arasında küçük farklar olabilir. Gözle tahmin her zaman tam doğru olmaz ama yaklaşık değer verebilir."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Standart olmayan ölçme araçları her zaman kesin sonuç verir.", "cevap": false, "gerekce_md": "Standart olmayan araçlar (ip, kağıt kenarı) kesin sonuç vermez, yaklaşık sonuç verir."},
+            {"no": 2, "metin_md": "Tahmin ile ölçüm arasında fark olabilir.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Cetvel ile ölçüm, ip ile ölçümden daha güvenilirdir.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true}},
+          "cozum_md": "1-Yanlış: Standart olmayan araçlar yaklaşık sonuç verir. 2-Doğru: Tahmin ile ölçüm arasında fark olabilir. 3-Doğru: Cetvel daha hassas ve güvenilirdir."
+        }
+      ]
+    }
+  ]
+}

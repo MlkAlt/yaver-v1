@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Uzunluk ve Kütle Birimleri Dönüşümleri",
+    "kazanim": {
+      "kod": "MAT.4.1.13",
+      "ad": "Uzunluk ve kütle birimlerinin kendi içerisindeki dönüşümlerini yorumlayabilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Uzunluk birimlerini birbirine dönüştürür.",
+        "b": "Kütle birimlerini birbirine dönüştürür.",
+        "c": "Dönüşümleri günlük yaşam problemlerinde kullanır."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 4. sınıf matematik müfredatı, 2. Tema: Sayılar ve Nicelikler kapsamında uzunluk ve kütle birimleri dönüşümleri kazanımı incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Uzunluk ve kütle birimlerini hatırlayarak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları doldurunuz.\n\n1) 1 metre = ____(1)____ santimetredir.\n2) 1 kilometre = ____(2)____ metredir.\n3) 350 cm = ____(3)____ m ____(4)____ cm'dir.",
+          "gorsel": null,
+          "cevap": {"1": "100", "2": "1000", "3": "3", "4": "50"},
+          "cozum_md": "1) 1 m = 100 cm. 2) 1 km = 1000 m. 3) 350 cm = 300 cm + 50 cm = 3 m 50 cm."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "1 kilogram = 1000 gramdır.", "cevap": true, "gerekce_md": "1 kg = 1000 g doğru bir dönüşüm kuralıdır."},
+            {"no": 2, "metin_md": "500 gram = 0,5 kilogramdır.", "cevap": true, "gerekce_md": "500 g ÷ 1000 = 0,5 kg doğrudur."},
+            {"no": 3, "metin_md": "2 km = 200 metredir.", "cevap": false, "gerekce_md": "2 km = 2 × 1000 = 2000 metredir, 200 değil."},
+            {"no": 4, "metin_md": "1 metre = 10 santimetredir.", "cevap": false, "gerekce_md": "1 metre = 100 santimetredir, 10 değil."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "1. Doğru: 1 kg = 1000 g. 2. Doğru: 500/1000 = 0,5 kg. 3. Yanlış: 2 km = 2000 m. 4. Yanlış: 1 m = 100 cm."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Uzunluk ve kütle birimlerini birbirine dönüştürerek soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "4500 metre kaç kilometredir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "45 km"},
+            {"harf": "B", "metin_md": "4,5 km"},
+            {"harf": "C", "metin_md": "450 km"},
+            {"harf": "D", "metin_md": "0,45 km"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "4500 m ÷ 1000 = 4,5 km. A yanlıştır因为 10'a bölmüştür. C yanlıştır因为 100 ile çarpmıştır. D yanlıştır因为 10000 ile bölmüştür."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "3,5 kilogram kaç gramdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "350 g"},
+            {"harf": "B", "metin_md": "3500 g"},
+            {"harf": "C", "metin_md": "35 g"},
+            {"harf": "D", "metin_md": "0,0035 g"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "3,5 kg × 1000 = 3500 g. A yanlıştır因为 100 ile çarpmıştır. C yanlıştır因为 10 ile çarpmıştır. D yanlıştır because çok küçük bir sonuç çıkmıştır."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki uzunluk değerlerini metre cinsinden eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "250 cm"},
+            {"no": 2, "metin_md": "3 km"},
+            {"no": 3, "metin_md": "4500 mm"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "2,5 m"},
+            {"harf": "B", "metin_md": "3000 m"},
+            {"harf": "C", "metin_md": "4,5 m"},
+            {"harf": "D", "metin_md": "25 m"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1) 250 cm = 2,5 m → A. 2) 3 km = 3000 m → B. 3) 4500 mm = 4,5 m → C. D (25 m) boşta kalır, çeldiricidir."
+        },
+        {
+          "id": "s6",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki boşlukları doldurunuz.\n\n1) 2,7 kg = ____(1)____ g\n2) 180 cm = ____(2)____ m\n3) 6000 m = ____(3)____ km",
+          "gorsel": null,
+          "cevap": {"1": "2700", "2": "1,8", "3": "6"},
+          "cozum_md": "1) 2,7 × 1000 = 2700 g. 2) 180 ÷ 100 = 1,8 m. 3) 6000 ÷ 1000 = 6 km."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Günlük yaşamdan durumlarda birim dönüşümlerini kullanarak soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s7",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Ahmet okula bisikletle gitmektedir. Evi ile okulu arasındaki mesafe 2 kilometredir.\n\nBu mesafeyi metre cinsinden yazınız.",
+          "gorsel": null,
+          "cevap": {"deger": 2000, "birim": "metre", "tolerans_yuzde": 0},
+          "cozum_md": "2 km = 2 × 1000 = 2000 metre. 1 km = 1000 m olduğundan, 2 km = 2000 m'dir."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir tarlaya 3 torba tohum ekilmiştir. Her torbanın ağırlığı 25 kilogramdır.\n\nTüm tohumların toplam ağırlığını gram cinsinden hesaplayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Her torba 25 kg'dır. 3 torba = 3 × 25 = 75 kg. 75 kg = 75 × 1000 = 75.000 gramdır.",
+            "kabul_kriterleri": [
+              "Toplam ağırlığı kg cinsinden hesaplamış (75 kg)",
+              "kg'dan grama dönüşümü doğru yapmış (75.000 g)",
+              "Adımları açıkça göstermiş"
+            ]
+          },
+          "cozum_md": "1. Adım: 3 × 25 = 75 kg. 2. Adım: 75 kg = 75 × 1000 = 75.000 g."
+        }
+      ]
+    }
+  ]
+}

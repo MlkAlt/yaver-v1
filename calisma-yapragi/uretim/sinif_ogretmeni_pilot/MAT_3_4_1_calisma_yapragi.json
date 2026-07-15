@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Veri Toplama ve Analiz",
+    "kazanim": {
+      "kod": "MAT.3.4.1",
+      "ad": "Kategorik ve sayma ile elde edilen nicel veriye dayali tek veri grubu ile calisabilme ve veriye dayali karar verebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "6. TEMA: VERIYE DAYALI ARASTIRMA",
+      "surec_bilesenleri": {
+        "a": "Kategorik ve nicel veriye dayali istatistiksel arastirma gerektiren gunluk yasam durumu belirler.",
+        "b": "Kategorik ve nicel veriye dayali betimleme gerektirebilecek arastirma sorulari olusturur.",
+        "c": "Kategorik ve nicel verileri toplamak icin plan yapar.",
+        "d": "Kategorik ve nicel verileri toplar.",
+        "e": "Toplanan verileri analiz etmek icin gorsellestirme araclarindan cetele, siklik tablosu veya nokta grafigini secer.",
+        "f": "Secigi araclarla verileri gorsellestirerek analiz eder.",
+        "g": "Arastirma sonuclarini arastirma sorularina gore degerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 - 3. sinif Matematik mufredati, 6. Unite: Veriye Dayali Arastirma",
+      "notlar": ["Kategorik veri: isim/tur (orn: renk, meyve). Nicel veri: sayi/sayma (orn: kac kisi)."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanialim",
+      "yonerge": "Asagidaki sorulari cevaplayiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Siniftaki arkadaslarinin en sevdigi meyveleri merak ediyorsun. Bu bir arastirma konusu mudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Hayir, bu bir arastirma konusu degildir"},
+            {"harf": "B", "metin_md": "Evet, veriye dayali bir arastirma konusudur"},
+            {"harf": "C", "metin_md": "Sadece matematik dersinde yapilir"},
+            {"harf": "D", "metin_md": "Bu bir deney konusudur"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Arkadaslarinin tercihlerini ogrenmek veri toplamayi gerektirir - bu bir arastirma konusudur."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "",
+          "ifadeler": [
+            {"no": 1, "metin_md": "Siniftaki en populer renk nedir? iyi bir arastirma sorusudur.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Renkler guzeldir bir arastirma sorusudur.", "cevap": false, "gerekce_md": "Bu bir soru degil, bir ifadedir. Arastirma sorusu soru isaretiyle bitmeli ve veri toplamayi gerektirmeli."},
+            {"no": 3, "metin_md": "Kac arkadasimiz mavi rengi seviyor? bir arastirma sorusudur.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Dogru: Soru veri toplamayi gerektirir. 2. Yanlis: Bu bir soru degil ifade. 3. Dogru: Sayisal veri toplamayi gerektirir."
+        },
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Veri toplamak icin ______(1)______ yapariz. Verileri ______(2)______ ile gosteririz.",
+          "kelime_havuzu": ["plan", "grafik", "deney", "hesap"],
+          "cevap": {"1": "plan", "2": "grafik"},
+          "cozum_md": "Once plan yapilir, sonra veriler toplanir ve grafikle gosterilir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalim",
+      "yonerge": "Verilen durumlari inceleyip cevaplayiniz.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Sinifta 10 ogrenciye En sevdigin meyve hangisi? diye sordun. Cevaplar boyle geldi: Elma, Muz, Elma, Cilek, Muz, Elma, Kivi, Cilek, Elma, Muz. Bu verileri toplamak icin hangi yolu kullanirsin?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece aklimda tutarim"},
+            {"harf": "B", "metin_md": "Cetele tablosu kullanirim"},
+            {"harf": "C", "metin_md": "Hesap makinesi kullanirim"},
+            {"harf": "D", "metin_md": "Sadece sonucu yazarim"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kategorik verileri toplamak icin cetele tablosu en pratik yoldur."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "e",
+          "puan": 15,
+          "govde_md": "",
+          "tablo": {
+            "basliklar": ["Meyve", "Kac kisi"],
+            "satirlar": [["Elma", "__?__"], ["Muz", "__?__"], ["Cilek", "__?__"], ["Kivi", "__?__"]]
+          },
+          "cevap": {"r0c1": "4", "r1c1": "3", "r2c1": "2", "r3c1": "1"},
+          "cozum_md": "Elma: 4, Muz: 3, Cilek: 2, Kivi: 1 kisi seviyor."
+        },
+        {
+          "id": "s6",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "e",
+          "puan": 10,
+          "sol": [
+            {"no": 1, "metin_md": "Kategorik veri"},
+            {"no": 2, "metin_md": "Nicel veri"},
+            {"no": 3, "metin_md": "Cetele tablosu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sayi ile olculur"},
+            {"harf": "B", "metin_md": "Verileri sayarak doldururuz"},
+            {"harf": "C", "metin_md": "Isim/tur ile belirlenir"}
+          ],
+          "cevap": {"1": "C", "2": "A", "3": "B"},
+          "cozum_md": "Kategorik veri -> tur/isim (C), Nicel veri -> sayi (A), Cetele -> sayarak doldurma (B)."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalim",
+      "yonerge": "Asagidaki problemleri cozunuz.",
+      "sorular": [
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "f",
+          "puan": 15,
+          "govde_md": "Siniftaki ogrencilerin en sevdigi dersleri arastirdin: Matematik: 8, Turkce: 6, Fen: 5, Gorsel Sanatlar: 3. Bu verileri hangi grafik turuyle gosterirsin? Neden? Grafikte hangi bilgiler yer alir?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Cubuk grafik kullanirim. Cunku her dersin sayisini karsilastirmak kolay olur. Grafikte yatayda ders adlari, dikeyde ogrenci sayilari yer alir.",
+            "kabul_kriterleri": ["Grafik turu secmesi (cubuk/cizgi/pasta)", "Nedenini aciklamasi", "Eksen bilgilerini saymasi"]
+          },
+          "cozum_md": "Cubuk grafik en uygunudur, sayilari karsilastirmak kolay olur."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "g",
+          "puan": 15,
+          "govde_md": "Arastirma sonucunda siniftaki en populer meyvenin elma (4 kisi) oldugu goruldu. Buna gore sinif ogretmenine ne onerebilirsin?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Piknikte veya etkinlikte sinifa en cok elma alinabilir. Cunku cogunluk elmayi tercih etmistir.",
+            "kabul_kriterleri": ["Veriye dayali bir oneri sunmasi", "Sonuc ile tavsiye arasinda baglanti kurmasi"]
+          },
+          "cozum_md": "En populer meyve elma olduguna gore, etkinliklerde elma tercih edilebilir."
+        }
+      ]
+    }
+  ]
+}

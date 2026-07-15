@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kesirleri Tanıyalım",
+    "kazanim": {
+      "kod": "MAT.4.1.6",
+      "ad": "Basit, bileşik ve tam sayılı kesirleri kullanmak için matematiksel temsillerden yararlanabilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Kesirleri modelleri kullanarak gösterir.",
+        "b": "Basit kesirleri tam sayılı kesirlere dönüştürür.",
+        "c": "Tam sayılı kesirleri basit kesirlere dönüştürür."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 1. Tema: Sayılar ve Nicelikler; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) Bir bütünün eşit parçalarından birine ____(1)____ denir.\n2) Tam sayı ve kesir birleşimi ____(2)____ olarak adlandırılır.\n3) Paydaysı payından küçük olmayan kesirlere ____(3)____ kesir denir.",
+          "gorsel": null,
+          "kelime_havuzu": ["kesir", "tam sayılı kesir", "basit", "bileşik", "pay"],
+          "cevap": {"1": "kesir", "2": "tam sayılı kesir", "3": "bileşik"},
+          "cozum_md": "1) Bir bütünün eşit parçalarından birine kesir denir. 2) Tam sayı ve kesir birleşimine tam sayılı kesir denir. 3) Paydaysı payından küçük olmayan kesirlere bileşik kesir denir (ör. 7/4, 5/3)."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir pizzası 8 eşit parçaya bölünmüş. 3 parça yenmiş. Yenen kısmı kesir olarak gösterirsek hangisi doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3/8"},
+            {"harf": "B", "metin_md": "8/3"},
+            {"harf": "C", "metin_md": "5/8"},
+            {"harf": "D", "metin_md": "3/5"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Toplam 8 parça, 3 parça yenmiş → 3/8. Pay = yenilen parça sayısı (3), payda = toplam parça sayısı (8)."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Kesir tiplerini ve dönüşümleri kullanarak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki basit kesirleri tam sayılı kesirlerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "7/3"},
+            {"no": 2, "metin_md": "11/4"},
+            {"no": 3, "metin_md": "13/5"},
+            {"no": 4, "metin_md": "15/6"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "2又3/4"},
+            {"harf": "B", "metin_md": "2又1/3"},
+            {"harf": "C", "metin_md": "2又3/5"},
+            {"harf": "D", "metin_md": "2又1/2"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C", "4": "D"},
+          "cozum_md": "7÷3 = 2 kalan 1 → 2又1/3 (B). 11÷4 = 2 kalan 3 → 2又3/4 (A). 13÷5 = 2 kalan 3 → 2又3/5 (C). 15÷6 = 2 kalan 3 → 2又3/6 = 2又1/2 (D)."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "2又3/5 kesri basit kesir olarak 13/5 şeklindedir.", "cevap": true, "gerekce_md": "2×5 + 3 = 13. Doğrudur: 13/5."},
+            {"no": 2, "metin_md": "10/4 kesri tam sayılı kesir olarak 2又1/2 dir.", "cevap": true, "gerekce_md": "10÷4 = 2 kalan 2. 2又2/4 = 2又1/2. Doğrudur."},
+            {"no": 3, "metin_md": "5/5 kesri tam sayılı kesir olarak 1又5/5 dir.", "cevap": false, "gerekce_md": "5/5 = 1 tam sayıdır; 1又5/5 değil, çünkü 5/5 = 1 eder ve 1+1=2 olur. Doğrusu: 5/5 = 1'dir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1. Doğru: 2又3/5 = (2×5+3)/5 = 13/5. 2. Doğru: 10/4 = 2又2/4 = 2又1/2. 3. Yanlış: 5/5 = 1, 1又5/5 = 2 eder."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "14/6 kesri en basit haline indirildiğinde hangi tam sayılı kesir elde edilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2又2/6"},
+            {"harf": "B", "metin_md": "2又1/3"},
+            {"harf": "C", "metin_md": "2又4/6"},
+            {"harf": "D", "metin_md": "1又8/6"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "14/6 = 2 kalan 2 = 2又2/6. 2/6'nın EBOB'u 2'dir, sadeleştirirsek 1/3. Sonuç: 2又1/3."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir kütüphanede 50 kitap vardır. Bu kitapların 15'i roman, 20'si hikaye kitabı, geri kalanı bilgi kitabıdır.\n\na) Romanların kütüphanedeki oranını kesir olarak yaz.\nb) Bilgi kitabı sayısını hesapla ve oranını kesir olarak yaz.\nc) Roman ve hikaye kitaplarının toplam oranını tam sayılı kesir olarak göster.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "a) Roman oranı: 15/50 = 3/10. b) Bilgi kitabı: 50 − 15 − 20 = 15. Oranı: 15/50 = 3/10. c) Roman + hikaye = 15 + 20 = 35. Oran: 35/50 = 7/10.",
+            "kabul_kriterleri": [
+              "Roman oranını doğru kesir olarak yazmış (15/50 veya 3/10)",
+              "Bilgi kitabı sayısını doğru hesaplamış (15) ve oranını yazmış",
+              "Toplam oranı doğru hesaplamış (35/50 veya 7/10)"
+            ]
+          },
+          "cozum_md": "a) 15/50 = 3/10 (sadeleştirme: EBOB 5). b) 50−15−20 = 15 bilgi kitabı. 15/50 = 3/10. c) 15+20 = 35. 35/50 = 7/10."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "3又2/7 kesri basit kesir olarak hangisidir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "23/7"},
+            {"harf": "B", "metin_md": "17/7"},
+            {"harf": "C", "metin_md": "21/7"},
+            {"harf": "D", "metin_md": "24/7"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "3又2/7 = (3×7 + 2)/7 = (21+2)/7 = 23/7."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıları Çözümleyelim",
+    "kazanim": {
+      "kod": "MAT.4.1.2",
+      "ad": "En fazla altı basamaklı sayıları çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Sayıları onlar ve binlikler basamağına göre analiz eder.",
+        "b": "Sayıları basamak değerine göre oluşturur ve tanımlar.",
+        "c": "Sayıları okur ve yazar.",
+        "d": "Sayıları genişletilmiş modelleri kullanarak modeller.",
+        "e": "Karşılaştırmaları yapar.",
+        "f": "Sayıları sıralar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 1. Tema: Sayılar ve Nicelikler; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.\n\n1) 452.301 sayısında binlikler basamağındaki rakam ____(1)____ dır.\n2) Bir sayının her bir basamağının ayrı bir ____(2)____ vardır.\n3) On binler basamağındaki 6 rakamı ____(3)____ eder.",
+          "gorsel": null,
+          "kelime_havuzu": ["2", "değer", "altmış bin", "4", "yüz bin"],
+          "cevap": {"1": "2", "2": "değer", "3": "altmış bin"},
+          "cozum_md": "1) 452.301'de binlikler basamağındaki rakam 2'dir. 2) Her basamağın ayrı bir değeri vardır. 3) On binler basamağındaki 6 → 6×10.000 = 60.000 (altmış bin) eder."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıların hangisi **iki yüz otuz beş bin, dört yüz bir** olarak okunur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "235.401"},
+            {"harf": "B", "metin_md": "235.041"},
+            {"harf": "C", "metin_md": "205.401"},
+            {"harf": "D", "metin_md": "230.501"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "İki yüz otuz beş bin, dört yüz bir → 235.000 + 401 = 235.401. Doğru cevap A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sayıların basamak değerlerini analiz ederek aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Her satırda verilen sayının belirtilen basamaktaki rakamını yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sayı", "Onlar Basamağındaki Rakam", "Binlikler Basamağındaki Rakam"],
+            "satirlar": [
+              ["472.156", "__?__", "__?__"],
+              ["308.602", "__?__", "__?__"],
+              ["150.073", "__?__", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "5", "r0c2": "2", "r1c1": "0", "r1c2": "8", "r2c1": "7", "r2c2": "0"},
+          "cozum_md": "472.156: onlar basamağı 5, binler basamağı 2. 308.602: onlar basamağı 0, binler basamağı 8. 150.073: onlar basamağı 7, binler basamağı 0."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "520.304 sayısının genişletilmiş modeli: 500.000 + 20.000 + 300 + 4 şeklindedir.", "cevap": true, "gerekce_md": "5×100.000 + 2×10.000 + 0×1.000 + 3×100 + 0×10 + 4×1 = 500.000 + 20.000 + 300 + 4."},
+            {"no": 2, "metin_md": "306.201 sayısının genişletilmiş modeli: 300.000 + 6.000 + 200 + 1 şeklindedir.", "cevap": true, "gerekce_md": "3×100.000 + 0×10.000 + 6×1.000 + 2×100 + 0×10 + 1×1 = 300.000 + 6.000 + 200 + 1."},
+            {"no": 3, "metin_md": "Bir sayının genişletilmiş modelinde 0 olan basamaklar gösterilmez.", "cevap": false, "gerekce_md": "Genişletilmiş modellerde 0 olan basamaklar da yer alır; örneğin 102.003 = 100.000 + 2.000 + 3."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1. Doğru: 520.304 = 500.000 + 20.000 + 300 + 4. 2. Doğru: 306.201 = 300.000 + 6.000 + 200 + 1. 3. Yanlış: 0 değerli basamaklar da genişletilmiş modelde gösterilir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "e",
+          "puan": 10,
+          "govde_md": "425.130 ve 425.031 sayılarını karşılaştırdığımızda hangisi **büyüktür**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "425.130 büyüktür"},
+            {"harf": "B", "metin_md": "425.031 büyüktür"},
+            {"harf": "C", "metin_md": "İkisi eşittir"},
+            {"harf": "D", "metin_md": "Karşılaştırılamaz"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Her iki sayının da yüz binleri ve on binleri aynıdır (425.0__). Yüzler basamağında 1 > 0 olduğundan 425.130 > 425.031'dir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "f",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları **küçükten büyüğe** doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["512.030", "521.003", "512.003", "520.130"],
+          "cevap": {"dogru_sira": [2, 0, 3, 1]},
+          "cozum_md": "512.003 < 512.030 < 520.130 < 521.003. Yüz binler basamağında hepsi 5'tir. On binler basamağında 1 ve 2 vardır; 1 < 2 olduğu için 512.0xx'ler küçüktür. Binler basamağında 2 > 0 olduğundan 512.003 < 512.030."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "305.402 sayısının genişletilmiş modelini yazınız. Her basamağın değerini ayrı ayrı gösteriniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "305.402 = 300.000 + 0 + 5.000 + 400 + 0 + 2 = 300.000 + 5.000 + 400 + 2",
+            "kabul_kriterleri": [
+              "Her basamak için doğru değeri hesaplamış (300.000, 0, 5.000, 400, 0, 2)",
+              "Toplamı doğru yazmış (305.402)",
+              "0 değerli basamakları göstermiş veya uygun şekilde atlamış"
+            ]
+          },
+          "cozum_md": "3×100.000 = 300.000, 0×10.000 = 0, 5×1.000 = 5.000, 4×100 = 400, 0×10 = 0, 2×1 = 2. Toplam: 300.000 + 5.000 + 400 + 2 = 305.402."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "e",
+          "puan": 10,
+          "govde_md": "250.000 ile 138.500 sayıları arasındaki fark kaçtır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "111.500"},
+            {"harf": "B", "metin_md": "112.500"},
+            {"harf": "C", "metin_md": "112.000"},
+            {"harf": "D", "metin_md": "122.500"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "250.000 − 138.500 = 111.500. Doğru cevap A seçeneğidir."
+        }
+      ]
+    }
+  ]
+}

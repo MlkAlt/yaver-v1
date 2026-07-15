@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Cisim ve Şekilleri Çiziyorum",
+    "kazanim": {
+      "kod": "MAT.3.3.3",
+      "ad": "Matematiksel araç ve teknolojileri kullanarak çeşitli geometrik cisimleri ve şekilleri çizebilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Geometrik cisim ve şekilleri çizer.",
+        "b": "Çizimlerde doğru araçları kullanır.",
+        "c": "Çizimlerini kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Doğru araçları tanıyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Düzgün bir kare çizmek için hangi aracı kullanmak en uygundur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Cetvel"},
+            {"harf": "B", "metin_md": "Pergel"},
+            {"harf": "C", "metin_md": "Kare şablonu"},
+            {"harf": "D", "metin_md": "Serbest el çizimi"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Kare şablonu kullanmak düzgün bir kare çizmenin en kolay yoludur. Cetvel ile de çizilebilir ama kare şablonu daha pratiktir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Soldaki şekilleri sağdaki doğru çizim araçlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Daire"},
+            {"no": 2, "metin_md": "Dikdörtgen"},
+            {"no": 3, "metin_md": "Düzgün üçgen"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Cetvel ve kalem"},
+            {"harf": "B", "metin_md": "Pergel"},
+            {"harf": "C", "metin_md": "Cetvel ve açıölçer"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1-B: Daire çizmek için pergel kullanılır. 2-A: Dikdörtgen çizmek için cetvel ve kalem kullanılır. 3-C: Düzgün üçgen için cetvel ve açıölçer gerekir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Çizim adımlarını inceleyelim.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Daire çizmek için pergel kullanılır.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Kare çizmek için sadece serbest el yeterlidir.", "cevap": false, "gerekce_md": "Düzgün bir kare için cetvel veya şablon kullanmak daha doğrudur."},
+            {"no": 3, "metin_md": "Dikdörtgenin karşılıklı kenarları eşittir.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru: Daire çizmek için pergel kullanılır. 2-Yanlış: Düzgün bir kare için cetvel veya şablon gerekir. 3-Doğru: Dikdörtgenin karşılıklı kenarları eşittir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir üçgen çizdikten sonra kontrol etmek için hangisini yapmalıyız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kenar sayısını sayarız, 3 olmalı."},
+            {"harf": "B", "metin_md": "Renklerini kontrol ederiz."},
+            {"harf": "C", "metin_md": "Boyutunu ölçeriz."},
+            {"harf": "D", "metin_md": "Ağırlığını tartarız."}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Üçgenin 3 kenarı olmalıdır. Çizimden sonra kenar sayısını sayarak doğru çizilip çizilmediğini kontrol edebiliriz."
+        },
+        {
+          "id": "s5",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Daire çizmek için ____(1)____ kullanırız. Düzgün bir kare için ____(2)____ veya ____(3)____ kullanabiliriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["pergel", "cetvel", "şablon"],
+          "cevap": {"1": "pergel", "2": "cetvel", "3": "şablon"},
+          "cozum_md": "Daire için pergel, kare için cetvel veya şablon kullanılır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerimizi uygulayalım.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki şekilleri hangi sırayla ve hangi araçları kullanarak çizeceğinizi adım adım yazınız: daire, kare, üçgen.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "1. Daire: Pergel ile merkez noktası belirle, pergel ucunu merkeze koy, kalemle daireyi çiz. 2. Kare: Cetvel ile 4 eşit uzunlukta kenar çiz, köşeleri birleştir. 3. Üçgen: Cetvel ile 3 kenar çiz, köşeleri birleştir.",
+            "kabul_kriterleri": ["Her şekil için doğru aracı belirtmesi", "Adımların mantıklı bir sırayla olması", "Kontrol adımını eklemesi"]
+          },
+          "cozum_md": "Her şekil için doğru araç seçilmeli ve adım adım çizilmelidir. Çizimden sonra kenar sayıları kontrol edilmelidir."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir dikdörtgen çizdikten sonra kontrol için hangisini yapmalıyız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece renklerini kontrol ederiz."},
+            {"harf": "B", "metin_md": "Kenar sayısını (4) ve karşılıklı kenarların eşitliğini kontrol ederiz."},
+            {"harf": "C", "metin_md": "Sadece boyutunu ölçeriz."},
+            {"harf": "D", "metin_md": "Kontrol etmeye gerek yoktur."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Dikdörtgenin 4 kenarı ve karşılıklı kenarlarının eşit olması gerekir. Bu iki özelliği kontrol etmeliyiz."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Çizimden sonra şeklin kenar sayısını kontrol etmek gerekir.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Serbest el ile çizilen şekiller her zaman düzgündür.", "cevap": false, "gerekce_md": "Serbest el ile çizilen şekiller genellikle düzgün değildir."},
+            {"no": 3, "metin_md": "Doğru araçları kullanmak çizim kalitesini artırır.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru: Kenar sayısı kontrolü önemlidir. 2-Yanlış: Serbest el ile düzgün çizim zordur. 3-Doğru: Doğru araçlar daha iyi sonuç verir."
+        }
+      ]
+    }
+  ]
+}

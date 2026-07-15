@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Örüntüleri Keşfedelim</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Örüntüleri Keşfedelim</h1><div class='chips'><span class='chip dolu'>MAT.4.1.5</span><span class='chip'>Matematik • 4. Sınıf</span><span class='chip'>1. Tema: Sayilar Ve Ni̇celi̇kler</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Artan azalan sayı örüntüleri ve şekil örüntülerindeki değişimi genelleyebilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları dikkatle okuyarak cevaplayınız.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki cümlelerdeki boşlukları kelime havuzundan uygun kelimelerle doldurunuz.<br><br>1) Bir örüntüdeki sayılardaki değişimi bulmaya <span class='bosluk'></span> denir.<br>2) Örüntüdeki her bir elemana <span class='bosluk'></span> denir.<br>3) Bir örüntüyü devam ettirmek için <span class='bosluk'></span> kullanılır.</div></div><div class='havuz'><span>kalıp</span><span>öge</span><span>kural</span><span>toplam</span><span>şekil</span></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki örüntüde kalıp nedir?<br><br>5, 10, 15, 20, 25, ...</div></div><div class='sec'><div><b>A)</b> Her sayı 5 artar</div><div><b>B)</b> Her sayı 10 artar</div><div><b>C)</b> Her sayı 5 azalır</div><div><b>D)</b> Her sayı 2 katına çıkar</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Örüntüdeki kalıpları bularak aşağıdaki soruları cevaplayınız.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">20p</span><div class="smetin">Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>8, 16, 24, 32, ... örüntüsünde 5. sayı 40&#x27;tır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>50, 45, 40, 35, ... örüntüsünde kalıp 5&#x27;er azalıştır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>3, 9, 27, 81, ... örüntüsünde her sayı bir öncekinin 3 katıdır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>2, 6, 18, 54, ... örüntüsünde 6. sayı 486&#x27;dır.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki örüntüleri kalıp türüne göre sıralayınız (basit → orta → karmaşık).</div></div><div class='sira'>2, 4, 8, 16, ... (2 katı) • 100, 90, 80, 70, ... (10&#x27;er azalış) • 3, 6, 9, 12, ... (3&#x27;er artış)</div><div class='sira-yanit'>Sıralama: ______ → ______ → ______</div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">10p</span><div class="smetin">1, 4, 9, 16, 25, ... örüntüsünde 7. sayı kaçtır?</div></div><div class='sec'><div><b>A)</b> 36</div><div><b>B)</b> 49</div><div><b>C)</b> 35</div><div><b>D)</b> 64</div></div></div><div class='bolum'><span>Uygulayalım</span><em>Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.</em><span class='bpuan'>30 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">20p</span><div class="smetin">Bir parkta ağaç dikimi düzenleniyor. Birinci sıraya 3, ikinci sıraya 5, üçüncü sıraya 7, dördüncü sıraya 9 ağaç dikiliyor.<br><br>a) Bu örüntünün kalıbını yaz.<br>b) 10. sıraya kaç ağaç dikilir?<br>c) Bu örüntüyü genelle: n. sıraya kaç ağaç dikilir?</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki örüntüde 7. sayı kaçtır?<br><br>2, 6, 18, 54, ...</div></div><div class='sec'><div><b>A)</b> 162</div><div><b>B)</b> 486</div><div><b>C)</b> 1458</div><div><b>D)</b> 729</div></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.4.1.5</span><span class='chip'>Örüntüleri Keşfedelim</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> (1) kalıp, (2) öge, (3) kural<div class='ak-cozum'>1) Örüntüdeki değişime kalıp denir. 2) Her elemana öge denir. 3) Örüntüyü devam ettirmek için kural kullanılır.</div></div><div class='ak-soru'><b>2.</b> <b>A</b><div class='ak-cozum'>5, 10, 15, 20, 25... Her adımda 5 eklenir: 5+5=10, 10+5=15, 15+5=20, 20+5=25. Kalıp: 5&#x27;er 5&#x27;er artış.</div></div><div class='ak-soru'><b>3.</b> 1-D, 2-D, 3-D, 4-D<div class='ak-cozum'>1. Doğru: 8&#x27;er 8&#x27;er artış. 2. Doğru: 5&#x27;er azalış. 3. Doğru: 3 katı. 4. Doğru: 2→6→18→54→162→486.</div></div><div class='ak-soru'><b>4.</b> 3, 6, 9, 12, ... (3'er artış) → 100, 90, 80, 70, ... (10'er azalış) → 2, 4, 8, 16, ... (2 katı)<div class='ak-cozum'>En basit: artan (3&#x27;er artış). Sonra azalan (10&#x27;er azalış). En karmaşık: çarpma kalıbı (2 katı).</div></div><div class='ak-soru'><b>5.</b> <b>B</b><div class='ak-cozum'>Bu örüntü kare sayılardır: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49. 7. sayı 49&#x27;dur.</div></div><div class='ak-soru'><b>6.</b> a) Her sıra 2&#x27;er artar: 3, 5, 7, 9, ... b) 10. sıra: 3 + (10-1)×2 = 3 + 18 = 21 ağaç. c) n. sıra: 3 + (n-1)×2 = 2n + 1 ağaç.<div class='ak-cozum'>a) 3, 5, 7, 9... Her adımda 2 artış. b) 3 + 9×2 = 3 + 18 = 21. c) n. sıra = 3 + (n-1)×2 = 2n + 1.</div></div><div class='ak-soru'><b>7.</b> <b>C</b><div class='ak-cozum'>Her sayı bir öncekinin 3 katıdır: 2, 6, 18, 54, 162, 486, 1458. 7. sayı 1458&#x27;dir.</div></div></div></body></html>

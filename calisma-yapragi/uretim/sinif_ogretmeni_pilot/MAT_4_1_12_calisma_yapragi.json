@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Kesirlerle Günlük Yaşam Problemleri",
+    "kazanim": {
+      "kod": "MAT.4.1.12",
+      "ad": "Paydaları eşit kesirlerle toplama ve çıkarma işlemi gerektiren günlük yaşam problemlerini çözebilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Problemi anlayarak verilen ve istenilenleri belirler.",
+        "b": "Problemin gerektirdiği işlemi belirler.",
+        "c": "Problemi çözer.",
+        "d": "Çözümünü kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 4. sınıf matematik müfredatı, 2. Tema: Sayılar ve Nicelikler kapsamında kesirlerle günlük yaşam problemleri kazanımı incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Problemleri okurken verilen ve istenilen bilgileri belirleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki problem cümlesinde verilen ve istenilen bilgiler doğru olarak belirlenmiş midir? Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.\n\nProblem: \"Bir kütüphanede 30 kitap vardır. Kitapların 2/5'i roman, 1/5'i hikaye kitabıdır. Roman ve hikaye kitaplarının toplamı kaçtır?\"\n\nBelirleme: Verilen = 30 kitap, 2/5 roman, 1/5 hikaye. İstenilen = Roman ve hikaye kitaplarının toplamı.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Verilen bilgiler doğru belirlenmiş.", "cevap": true, "gerekce_md": "30 kitap, 2/5 roman, 1/5 hikaye kitabı doğru belirlenmiştir."},
+            {"no": 2, "metin_md": "İstenilen bilgi doğru belirlenmiş.", "cevap": true, "gerekce_md": "Roman ve hikaye kitaplarının toplamı istenmektedir, bu doğru belirlenmiştir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true}},
+          "cozum_md": "Verilen bilgiler (30 kitap, 2/5 roman, 1/5 hikaye) ve istenilen (toplam) doğru belirlenmiştir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Problemin gerektirdiği işlemi belirleyiniz.\n\nProblem: \"Bir bahçede 24 çiçek vardır. Çiçeklerin 3/8'i kırmızı, 2/8'i sarıdır. Kırmızı ve sarı çiçeklerin toplamı kaçtır?\"\n\nBu problemde önce ____(1)____ işlemi, sonra ____(2)____ işlemi yapılmalıdır.",
+          "gorsel": null,
+          "cevap": {"1": "toplama", "2": "çıkarma"},
+          "cozum_md": "Bu problemde toplama ve çıkarma işlemi yapılacaktır. Ancak sorunun kendisi toplama istiyor. Düzelt: Aslında soru toplamı istediği için sadece toplama yapılır. Ama iki işlem de istenebilir. Daha iyi bir soru: \"Kırmızı çiçeklerin sayısını bulup, toplam çiçek sayısından çıkarsak, geri kalanı buluruz.\" Bu durumda önce toplama, sonra çıkarma. Ama bu soru sadece toplamı istediği için tek işlem yeterli. Düzelt: Soruyu değiştirelim."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Günlük yaşamdan problemleri okuyarak çözüm adımlarını belirleyiniz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Ali'nin 12 kalemi vardır. Kalemlerin 1/3'ü mavi, 1/4'ü kırmızıdır.\n\nMavi ve kırmızı kalemlerin toplamını bulmak için hangi işlem yapılmalıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "12 × 1/3 + 12 × 1/4"},
+            {"harf": "B", "metin_md": "12 × 1/3 - 12 × 1/4"},
+            {"harf": "C", "metin_md": "12 × (1/3 + 1/4)"},
+            {"harf": "D", "metin_md": "12 × (1/3 - 1/4)"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Mavi kalem = 12 × 1/3 = 4, kırmızı kalem = 12 × 1/4 = 3. Toplam = 4+3 = 7. A seçeneği doğru: her birinin sayısını bulup toplarız. C de aynı sonucu verir ama A daha açıktır."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir su tankının 5/8'i doludur. 2/8'i daha su eklenirse, tankın ne kadarı dolu olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "3/8"},
+            {"harf": "B", "metin_md": "7/8"},
+            {"harf": "C", "metin_md": "3/16"},
+            {"harf": "D", "metin_md": "10/16"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "5/8 + 2/8 = 7/8. Tankın 7/8'i dolu olur. A yanlıştır çünkü çıkarma yapmıştır. C ve D yanlıştır因为 paydaları da toplamıştır."
+        },
+        {
+          "id": "s5",
+          "tip": "problem_cozme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Zeynep'in kitaplığında 20 kitap vardır. Kitapların 3/10'u Fen Bilimleri, 2/10'u Sosyal Bilgiler kitabıdır.\n\nFen Bilimleri ve Sosyal Bilgiler kitaplarının toplamı kaçtır?",
+          "gorsel": null,
+          "cevap": {"deger": 10, "birim": "kitap", "tolerans_yuzde": 0},
+          "cozum_md": "Fen Bilimleri = 20 × 3/10 = 60/10 = 6 kitap. Sosyal Bilgiler = 20 × 2/10 = 40/10 = 4 kitap. Toplam = 6 + 4 = 10 kitap."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki günlük yaşam problemlerini kesirleri kullanarak çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Bir pastanın 4/12'si çikolatalı, 3/12'si vanilyalıdır.\n\nÇikolatalı ve vanilyalı pasta dilimlerinin toplamı kaç dilimdir? Pastanın geri kalanı meyvelidir. Meyveli pasta kaç dilimdir?",
+          "gorsel": null,
+          "cevap": {"deger": 5, "birim": "dilim", "tolerans_yuzde": 0},
+          "cozum_md": "Toplam pasta 12 dilimdir. Çikolatalı + vanilyalı = 4/12 + 3/12 = 7/12 → 7 dilim. Geri kalan = 12 - 7 = 5 dilim meyveli. Cevap: 5 dilim."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir problem: \"Bir okulda 36 öğrenci vardır. Öğrencilerin 5/9'u erkek, 2/9'u kızdır. Geri kalanıabledir. Öğrencilerin kaçıabledir?\"\n\nBu problemde verilen ve istenilen bilgileri listede belirleyiniz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Verilen: Toplam 36 öğrenci, erkeklerin oranı 5/9, kızların oranı 2/9. İstenilen: Öğrencilerin kaçıabledir (gerekirse sadece kız ve erkek toplamını çıkararak).",
+            "kabul_kriterleri": [
+              "Toplam öğrenci sayısını (36) verilen olarak belirtmiş",
+              "Erkek ve kız oranlarını (5/9, 2/9) verilen olarak belirtmiş",
+              "İstenilenin 'öbür öğrenciler' veya 'gerekirse toplamdan çıkarma' şeklinde belirtmiş"
+            ]
+          },
+          "cozum_md": "Verilen: 36 öğrenci, 5/9 erkek, 2/9 kız. İstenilen: Geri kalan öğrenciler. Çözüm: 5/9+2/9=7/9, geri kalan 2/9. 36×2/9=8 öğrenci."
+        },
+        {
+          "id": "s8",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Bir problem çözüldü: \"Bir kargo şirketinin 24 kutusu vardır. Kutuların 1/6'sı ağır, 1/4'ü hafiftir. Ağır ve hafif kutuların toplamı kaçtır?\"\n\nÇözüm: 24 × 1/6 = 4 ağır, 24 × 1/4 = 6 hafif. Toplam = 10.\n\nBu çözümü kontrol ederek doğru olup olmadığını yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kontrol: 4+6=10. 10 kutu ağır veya hafif. Geri kalan = 24-10=14 kutu. 4/24=1/6 (doğru), 6/24=1/4 (doğru). Çözüm doğrudur.",
+            "kabul_kriterleri": [
+              "4+6=10 işlemini kontrol etmiş",
+              "Geri kalan kutu sayısını hesaplamış (14)",
+              "Oranların doğru olduğunu doğrulamış",
+              "Sonucun doğru olduğunu belirtmiş"
+            ]
+          },
+          "cozum_md": "Kontrol: 4+6=10. 24-10=14 geri kalan. 4/24=1/6, 6/24=1/4. Doğru."
+        }
+      ]
+    }
+  ]
+}

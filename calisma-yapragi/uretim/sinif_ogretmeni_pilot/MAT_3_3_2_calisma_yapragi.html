@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Geometrik Şekilleri Kenar Sayılarına Göre Sınıflandırıyorum</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Geometrik Şekilleri Kenar Sayılarına Göre Sınıflandırıyorum</h1><div class='chips'><span class='chip dolu'>MAT.3.3.2</span><span class='chip'>Matematik • 3. Sınıf</span><span class='chip'>5. Tema: Nesneleri̇n Geometri̇si̇</span><span class='chip'>30 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Kenar sayılarına göre geometrik şekilleri sınıflandırabilme</div><div class='bolum'><span>Tanıyalım</span><em>Düzlem şekillerinin kenar sayısınıoyalım.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">15p</span><div class="smetin">Soldaki şekilleri sağdaki kenar sayılarıyla eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Üçgen</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> Kare</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> Beşgen</div></div><div><div><b>A)</b> 4 kenarı olan şekil</div><div><b>B)</b> 3 kenarı olan şekil</div><div><b>C)</b> 5 kenarı olan şekil</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Üçgenin <span class='bosluk'></span>, karenin <span class='bosluk'></span>, altıgenin <span class='bosluk'></span> kenarı vardır.</div></div><div class='havuz'><span>3</span><span>4</span><span>6</span></div></div><div class='bolum'><span>Kavrayalım</span><em>Şekilleri kenar sayılarına göre sınıflandıralım.</em><span class='bpuan'>45 P</span></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki şekillerden hangisi 4 kenarlıdır?</div></div><div class='sec'><div><b>A)</b> Üçgen</div><div><b>B)</b> Kare</div><div><b>C)</b> Beşgen</div><div><b>D)</b> Altıgen</div></div></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki ifadeler doğru mu, yanlış mı?</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Üçgen, 3 kenarlı bir şekildir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Dörtgen, her zaman karedir.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Altıgenin 6 kenarı vardır.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki tabloyu doldurunuz.</div></div><table><tr><th>Şekil</th><th>Kenar Sayısı</th><th>Köşe Sayısı</th></tr><tr><td>Üçgen</td><td>3</td><td></td></tr><tr><td>Kare</td><td></td><td>4</td></tr><tr><td>Beşgen</td><td>5</td><td></td></tr></table></div><div class='bolum'><span>Uygulayalım</span><em>Öğrendiklerimizi uygulayalım.</em><span class='bpuan'>30 P</span></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">15p</span><div class="smetin">Aşağıdaki şekilleri kenar sayılarına göre artan sırada sıralayınız.</div></div><div class='sira'>Beşgen • Üçgen • Kare • Altıgen</div><div class='sira-yanit'>Sıralama: ______ → ______ → ______ → ______</div></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Günlük hayattan bir örnek bulunuz: 3, 4, 5 ve 6 kenarlı şekiller hangi nesnelerde görülür?</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.3.3.2</span><span class='chip'>Geometrik Şekilleri Kenar Sayılarına Göre Sınıflandırıyorum</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-B, 2-A, 3-C<div class='ak-cozum'>1-B: Üçgenin 3 kenarı vardır. 2-A: Karenin 4 kenarı vardır. 3-C: Beşgenin 5 kenarı vardır.</div></div><div class='ak-soru'><b>2.</b> (1) 3, (2) 4, (3) 6<div class='ak-cozum'>Üçgenin 3, karenin 4, altıgenin 6 kenarı vardır.</div></div><div class='ak-soru'><b>3.</b> <b>B</b><div class='ak-cozum'>Kare 4 kenarlı bir şekildir. Üçgen 3, beşgen 5, altıgen 6 kenarlıdır.</div></div><div class='ak-soru'><b>4.</b> 1-D, 2-Y, 3-D<div class='ak-cozum'>1-Doğru: Üçgenin 3 kenarı vardır. 2-Yanlış: Dörtgen 4 kenarlı her şekil olabilir (kare, dikdörtgen, yamuk vb.). 3-Doğru: Altıgenin 6 kenarı vardır.</div></div><div class='ak-soru'><b>5.</b> {&quot;r0c2&quot;: &quot;3&quot;, &quot;r1c1&quot;: &quot;4&quot;, &quot;r2c2&quot;: &quot;5&quot;}<div class='ak-cozum'>Üçgenin 3 köşesi, karenin 4 kenarı, beşgenin 5 köşesi vardır.</div></div><div class='ak-soru'><b>6.</b> Üçgen → Beşgen → Kare → Altıgen<div class='ak-cozum'>Üçgen(3) → Kare(4) → Beşgen(5) → Altıgen(6) sırasıyla artan kenar sayısına göredir.</div></div><div class='ak-soru'><b>7.</b> 3 kenar: Musluk trianglesi, çatı üçgeni. 4 kenar: Pencere, kapı, masa. 5 kenar: Bazı bahçe çitleri. 6 kenar: Bal peteği, bazı kar taneleri.<div class='ak-cozum'>Üçgen: çatı, musluk. Dörtgen: pencere, kapı, masa. Beşgen: bazı çitler. Altıgen: bal peteği.</div></div></div></body></html>

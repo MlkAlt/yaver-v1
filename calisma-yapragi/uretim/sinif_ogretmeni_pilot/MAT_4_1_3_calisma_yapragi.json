@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıları Sıralayalım",
+    "kazanim": {
+      "kod": "MAT.4.1.3",
+      "ad": "Sayıları sıralayabilme",
+      "ders": "Matematik",
+      "sinif": 4,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER",
+      "surec_bilesenleri": {
+        "a": "Sayıları büyüklüklerine göre sıralar.",
+        "b": "Sıralamayı kontrol eder."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 4. sınıf Matematik müfredatı, 1. Tema: Sayılar ve Nicelikler; OGM Materyal EBA kaynakları incelendi.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi **en küçüktür**?\n\n125.300  |  125.030  |  120.500  |  125.003",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "125.300"},
+            {"harf": "B", "metin_md": "125.030"},
+            {"harf": "C", "metin_md": "120.500"},
+            {"harf": "D", "metin_md": "125.003"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Yüz binler basamağında hepsi 1'tir. On binler basamağında 2 ve 0 vardır; 0 < 2 olduğu için 120.500 en küçüğüdür."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri Doğru (D) veya Yanlış (Y) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "320.150 sayısı 321.050'den büyüktür.", "cevap": false, "gerekce_md": "Binler basamağında 0 < 1 olduğu için 320.150, 321.050'den küçüktür."},
+            {"no": 2, "metin_md": "Bir sayının en soldaki basamağı en yüksek değere sahiptir.", "cevap": true, "gerekce_md": "En soldaki basamak en yüksek basamak değerine (ör. yüz binler) sahiptir."},
+            {"no": 3, "metin_md": "400.000, 399.999'dan büyüktür.", "cevap": true, "gerekce_md": "400.000'in yüz binler basamağı 4, 399.999'un ise 3'tür; 4 > 3 olduğu için 400.000 büyüktür."},
+            {"no": 4, "metin_md": "Aynı basamak sayısına sahip iki sayıyı karşılaştırırken en soldaki basamaktan başlayarak bakılır.", "cevap": true, "gerekce_md": "Doğrudur; karşılaştırmaya en yüksek basamaktan başlanır."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true, "4": true}},
+          "cozum_md": "1. Yanlış: 320.150 < 321.050. 2. Doğru: En soldaki basamak en yüksek değerdedir. 3. Doğru: 400.000 > 399.999. 4. Doğru: Karşılaştırmaya soldan başlanır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Sayıları büyüklüklerine göre sıralayarak aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları **büyükten küçüğe** doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["415.230", "415.320", "405.230", "451.023"],
+          "cevap": {"dogru_sira": [3, 1, 0, 2]},
+          "cozum_md": "451.023 > 415.320 > 415.230 > 405.230. Yüz binler basamağında hepsi 4. On binler basamağında 5 > 1 > 0."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sıralama ifadelerini doğru sıralama sonuçlarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Küçükten büyüğe sırala: 230.100, 203.100, 230.010"},
+            {"no": 2, "metin_md": "Büyükten küçüğe sırala: 150.020, 150.200, 150.002"},
+            {"no": 3, "metin_md": "Küçükten büyüğe sırala: 300.030, 300.300, 300.003"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "203.100 < 230.010 < 230.100"},
+            {"harf": "B", "metin_md": "150.200 > 150.020 > 150.002"},
+            {"harf": "C", "metin_md": "300.003 < 300.030 < 300.300"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1 → A: 203.100 < 230.010 < 230.100 (binler basamağında 3 > 0). 2 → B: 150.200 > 150.020 > 150.002 (yüzler basamağında 2 > 0). 3 → C: 300.003 < 300.030 < 300.300."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "520.015 sayısının hangi iki sayı arasında olduğunu bulunuz.",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "520.005 ile 520.105 arasında"},
+            {"harf": "B", "metin_md": "520.005 ile 520.051 arasında"},
+            {"harf": "C", "metin_md": "520.051 ile 520.105 arasında"},
+            {"harf": "D", "metin_md": "520.010 ile 520.020 arasında"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "520.010 < 520.015 < 520.020. 520.015, 520.010 ile 520.020 arasındadır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerinizi kullanarak aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfta 5 öğrenci kitap okudu. Aşağıdaki veriler okuma sayılarıdır:\n\nAyşe: 230, Mehmet: 305, Zeynep: 250, Ali: 180, Can: 205.\n\nBu beş öğrenciyi okudukları sayfa sayısına göre **küçükten büyüğe** sıralayınız. En çok ve en az kitap okuyan arasındaki farkı hesaplayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sıralama: Ali (180) < Can (205) < Ayşe (230) < Zeynep (250) < Mehmet (305). Fark: 305 − 180 = 125 sayfa.",
+            "kabul_kriterleri": [
+              "Beş öğrenciyi doğru sıralamış (180, 205, 230, 250, 305)",
+              "En çok ve en az okuyan arasındaki farkı doğru hesaplamış (125)"
+            ]
+          },
+          "cozum_md": "Küçükten büyüğe: Ali (180), Can (205), Ayşe (230), Zeynep (250), Mehmet (305). Fark: 305 − 180 = 125."
+        },
+        {
+          "id": "s7",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sıralamalardan hangisi **yanlıştır**?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "300.001 < 300.010 < 300.100"},
+            {"harf": "B", "metin_md": "500.500 > 500.050 > 500.005"},
+            {"harf": "C", "metin_md": "420.030 < 420.300 < 420.003"},
+            {"harf": "D", "metin_md": "199.999 < 200.000 < 200.001"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "C seçeneğinde 420.003, 420.300'den küçük olmalıdır: 420.003 < 420.030 < 420.300. Ancak verilen sıralamada 420.300 < 420.003 olarak gösterilmiştir ki bu yanlıştır."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sıralama işlemlerini kontrol ediniz.\n\nI. 500.000 > 499.999\nII. 123.456 < 123.465\nIII. 300.000 < 299.999",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "I. sıralama doğrudur.", "cevap": true, "gerekce_md": "500.000'in yüz binler basamağı 5, 499.999'un ise 4'tür; 5 > 4 olduğu için 500.000 büyüktür."},
+            {"no": 2, "metin_md": "II. sıralama doğrudur.", "cevap": true, "gerekce_md": "123.456 ve 123.465'in binlerine kadar olan kısımları aynıdır. Yüzler basamağında 4 < 6 olduğu için 123.456 küçüktür."},
+            {"no": 3, "metin_md": "III. sıralama doğrudur.", "cevap": false, "gerekce_md": "300.000'in yüz binler basamağı 3, 299.999'un ise 2'dir; 3 > 2 olduğu için 300.000 büyüktür, III. sıralama yanlıştır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1. Doğru: 500.000 > 499.999. 2. Doğru: 123.456 < 123.465. 3. Yanlış: 300.000 > 299.999."
+        }
+      ]
+    }
+  ]
+}

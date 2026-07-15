@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Simetrik Şekli Simetri Doğrusuna Göre Tamamlama",
+    "kazanim": {
+      "kod": "MAT.3.3.7",
+      "ad": "Bir parçası verilen simetrik şekli simetri doğrusuna göre yapılandırabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Bir parçası verilen simetrik şekli inceleyerek mantıksal ilişkiler ortaya koyar.",
+        "b": "Bir parçası verilen simetrik şekli yatay ve dikey simetri doğrusuna göre tamamlar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 3. sınıf Matematik müfredatı, 5. Ünite: Nesnelerin Geometrisi",
+      "notlar": ["Simetri doğrusu: yatay (soldan sağa) ve dikey (yukarıdan aşağıya) olabilir."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir şeklin sadece sol yarısı verilmişse, sağ yarısını tamamlamak için ne yapmalıyız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sağ tarafı rastgele çizeriz"},
+            {"harf": "B", "metin_md": "Sol tarafın simetriğini sağ tarafa çizeriz"},
+            {"harf": "C", "metin_md": "Sağ tarafı boş bırakırız"},
+            {"harf": "D", "metin_md": "Sadece kenarları çizeriz"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Simetri doğrusunun karşısına, verilen parçanın simetriğini çizeriz."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "",
+          "ifadeler": [
+            {"no": 1, "metin_md": "Simetri doğrusu dikey ise, şeklin sol ve sağ parçaları birbirinin aynısıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Simetri doğrusu yatay ise, şeklin üst ve alt parçaları birbirinin aynısıdır.", "cevap": true, "gerekce_md": ""},
+            {"no": 3, "metin_md": "Simetri doğrusu her zaman diyagonal olmalıdır.", "cevap": false, "gerekce_md": "Simetri doğrusu yatay, dikey veya çapraz olabilir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false}},
+          "cozum_md": "1. Doğru: Dikey simetri solda-sağda eşitlik sağlar. 2. Doğru: Yatay simetri üstte-altta eşitlik sağlar. 3. Yanlış: Simetri doğrusu herhangi bir yön olabilir."
+        },
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Simetri doğrusu ______(1)______ ise, şeklin solundaki bir noktanın simetriği sağda, ______(2)______ ise üstündeki noktanın simetriği altta olur.",
+          "kelime_havuzu": ["dikey", "yatay", "çapraz", "yukarı"],
+          "cevap": {"1": "dikey", "2": "yatay"},
+          "cozum_md": "Dikey simetri solda-sağda, yatay simetri üstte-altta eşitlik sağlar."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Verilen simetri durumlarını inceleyip cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir karenin sol üst köşesinde bir daire var. Dikey simetri doğrusuna göre simetriğini çizersen daire nerede olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sol alt köşede"},
+            {"harf": "B", "metin_md": "Sağ üst köşede"},
+            {"harf": "C", "metin_md": "Sağ alt köşede"},
+            {"harf": "D", "metin_md": "Ortada"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Dikey simetri solda-sağda aynalama yapar. Sol üst → Sağ üst."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "sol": [
+            {"no": 1, "metin_md": "Karenin sol kenarında bir üçgen"},
+            {"no": 2, "metin_md": "Karenin üstünde bir yarım daire"},
+            {"no": 3, "metin_md": "Karenin sol üst köşesinde bir kare"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Sağ üst köşede kare (dikey simetri)"},
+            {"harf": "B", "metin_md": "Altında yarım daire (yatay simetri)"},
+            {"harf": "C", "metin_md": "Sağ kenarda üçgen (dikey simetri)"}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "A"},
+          "cozum_md": "1. Sol kenar → Sağ kenar (dikey). 2. Üst → Alt (yatay). 3. Sol üst → Sağ üst (dikey)."
+        },
+        {
+          "id": "s6",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "",
+          "ifadeler": [
+            {"no": 1, "metin_md": "Simetriğin çizilmesinde önce simetri doğrusunu bulmalıyız.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Her şekil tamamlanabilir.", "cevap": false, "gerekce_md": "Simetri bilgisi olmadan şekil tamamlanamaz."},
+            {"no": 3, "metin_md": "Simetri doğrusuna uzaklık, şekil parçalarında eşit olmalıdır.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Doğru: Önce simetri doğrusu belirlenir. 2. Yanlış: Simetri bilgisi olmadan tamamlanamaz. 3. Doğru: Noktalar simetriğe eşit uzaklıkta olmalıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki tamamlama görevlerini yapınız.",
+      "sorular": [
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir dikdörtgenin sol yarısında üstte bir daire, ortada bir kare, altta bir üçgen var. Dikey simetri doğrusuna göre tamamladığında sağ tarafta hangi şekiller olur ve sıraları nasıl olur?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Sağ tarafta üstte daire, ortada kare, altta üçgen olur. Şekiller simetriktir.",
+            "kabul_kriterleri": ["Her şeklin simetriğini sayması", "Sıralamanın korunduğunu belirtmesi"]
+          },
+          "cozum_md": "Dikey simetri solu sağa aynalar. Üstteki daire sağ üstte, ortadaki kare sağ ortada, alttaki üçgen sağ altta olur."
+        },
+        {
+          "id": "s8",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir kağıdın ortasına yatay simetri doğrusu çizildi. Kağıdın üst yarısında sağ köşede bir yıldız var. Alt yarısı boş. Yıldızın simetriğini çizersen nereye çizmelisin?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sol üst köşeye"},
+            {"harf": "B", "metin_md": "Sağ alt köşeye"},
+            {"harf": "C", "metin_md": "Sol alt köşeye"},
+            {"harf": "D", "metin_md": "Ortaya"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Yatay simetri üstü alta aynalar. Sağ üst köşedeki yıldızın simetriği sağ alt köşededir."
+        }
+      ]
+    }
+  ]
+}

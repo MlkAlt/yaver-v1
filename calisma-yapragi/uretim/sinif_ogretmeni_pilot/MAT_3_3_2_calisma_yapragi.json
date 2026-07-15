@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Şekilleri Kenar Sayılarına Göre Sınıflandırıyorum",
+    "kazanim": {
+      "kod": "MAT.3.3.2",
+      "ad": "Kenar sayılarına göre geometrik şekilleri sınıflandırabilme",
+      "ders": "Matematik",
+      "sinif": 3,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ",
+      "surec_bilesenleri": {
+        "a": "Düzlem şekillerinin kenar sayılarını belirler.",
+        "b": "Kenar sayılarına göre şekilleri sınıflandırır.",
+        "c": "Şekilleri kenar sayılarına göre sıralar."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Düzlem şekillerinin kenar sayısınıoyalım.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki şekilleri sağdaki kenar sayılarıyla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Üçgen"},
+            {"no": 2, "metin_md": "Kare"},
+            {"no": 3, "metin_md": "Beşgen"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "4 kenarı olan şekil"},
+            {"harf": "B", "metin_md": "3 kenarı olan şekil"},
+            {"harf": "C", "metin_md": "5 kenarı olan şekil"}
+          ],
+          "cevap": {"1": "B", "2": "A", "3": "C"},
+          "cozum_md": "1-B: Üçgenin 3 kenarı vardır. 2-A: Karenin 4 kenarı vardır. 3-C: Beşgenin 5 kenarı vardır."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Üçgenin ____(1)____, karenin ____(2)____, altıgenin ____(3)____ kenarı vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["3", "4", "6"],
+          "cevap": {"1": "3", "2": "4", "3": "6"},
+          "cozum_md": "Üçgenin 3, karenin 4, altıgenin 6 kenarı vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Şekilleri kenar sayılarına göre sınıflandıralım.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki şekillerden hangisi 4 kenarlıdır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Üçgen"},
+            {"harf": "B", "metin_md": "Kare"},
+            {"harf": "C", "metin_md": "Beşgen"},
+            {"harf": "D", "metin_md": "Altıgen"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Kare 4 kenarlı bir şekildir. Üçgen 3, beşgen 5, altıgen 6 kenarlıdır."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Üçgen, 3 kenarlı bir şekildir.", "cevap": true, "gerekce_md": null},
+            {"no": 2, "metin_md": "Dörtgen, her zaman karedir.", "cevap": false, "gerekce_md": "Dörtgen 4 kenarlı her şekil olabilir; sadece kare değil."},
+            {"no": 3, "metin_md": "Altıgenin 6 kenarı vardır.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1-Doğru: Üçgenin 3 kenarı vardır. 2-Yanlış: Dörtgen 4 kenarlı her şekil olabilir (kare, dikdörtgen, yamuk vb.). 3-Doğru: Altıgenin 6 kenarı vardır."
+        },
+        {
+          "id": "s5",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Şekil", "Kenar Sayısı", "Köşe Sayısı"],
+            "satirlar": [
+              ["Üçgen", "3", "__?__"],
+              ["Kare", "__?__", "4"],
+              ["Beşgen", "5", "__?__"]
+            ]
+          },
+          "cevap": {"r0c2": "3", "r1c1": "4", "r2c2": "5"},
+          "cozum_md": "Üçgenin 3 köşesi, karenin 4 kenarı, beşgenin 5 köşesi vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerimizi uygulayalım.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "siralama",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki şekilleri kenar sayılarına göre artan sırada sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["Beşgen", "Üçgen", "Kare", "Altıgen"],
+          "cevap": {"dogru_sira": [1, 0, 2, 3]},
+          "cozum_md": "Üçgen(3) → Kare(4) → Beşgen(5) → Altıgen(6) sırasıyla artan kenar sayısına göredir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Günlük hayattan bir örnek bulunuz: 3, 4, 5 ve 6 kenarlı şekiller hangi nesnelerde görülür?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "3 kenar: Musluk trianglesi, çatı üçgeni. 4 kenar: Pencere, kapı, masa. 5 kenar: Bazı bahçe çitleri. 6 kenar: Bal peteği, bazı kar taneleri.",
+            "kabul_kriterleri": ["Her kenar sayısı için en az bir örnek vermesi", "Örneklerin gerçek hayattan olması"]
+          },
+          "cozum_md": "Üçgen: çatı, musluk. Dörtgen: pencere, kapı, masa. Beşgen: bazı çitler. Altıgen: bal peteği."
+        }
+      ]
+    }
+  ]
+}
