@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Günlük Yaşamda Toplama ve Çıkarma",
+    "kazanim": {
+      "kod": "MAT.1.2.1",
+      "ad": "Günlük yaşamın içerdiği toplama ve çıkarma işlemlerini çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Günlük yaşam durumunun toplama ve çıkarma işlemlerinden hangisini gerektirdiğini fark eder.",
+        "b": "Günlük yaşam durumuna karşılık gelen toplama ve çıkarma işlemlerini birbiri ile ilişkilendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 1. sınıf Matematik 4. Tema (İşlemlerden Cebirsel Düşünmeye) kazanımları; MEB ders kitabı formatında günlük yaşam senaryoları (meyve, kalem, boncuk, oyuncak) kullanıldı; sayı aralığı 0-20.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Ali'nin elinde 8 elma var. Arkadaşına 3 tane verdi. Ali'nin elinde şimdi kaç elma kaldı?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "8 + 3 = 11" },
+            { "harf": "B", "metin_md": "8 - 3 = 5" },
+            { "harf": "C", "metin_md": "8 + 3 = 5" },
+            { "harf": "D", "metin_md": "8 - 3 = 11" }
+          ],
+          "cevap": { "dogru": "B" },
+          "cozum_md": "Ali önce 8 elma sahipti. Arkadaşına 3 tane verdi — yani elinden çıktı. Bu bir çıkarma işlemidir: 8 - 3 = 5. Ali'nin elinde 5 elma kaldı."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki durumlar toplama mı yoksa çıkarma mı gerektirir? Doğru mu yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            { "no": 1, "metin_md": "Hasan'ın 4 boncuğu var. Arkadaşı ona 3 tane daha verdi. Bu durum toplama gerektirir.", "cevap": true, "gerekce_md": null },
+            { "no": 2, "metin_md": "Ayşe 6 tane kalem aldı. 2 tanesini kırdı. Bu durum toplama gerektirir.", "cevap": false, "gerekce_md": "Kalemlerden 2 tanesi kırıldı, yani azaldı. Bu durum çıkarma (6 - 2) gerektirir." },
+            { "no": 3, "metin_md": "Fatma 10 kirazdan 4'ünü yedi. Kalan kiraz sayısını bulmak için çıkarma yapılır.", "cevap": true, "gerekce_md": null }
+          ],
+          "cevap": { "ozet": { "1": true, "2": false, "3": true } },
+          "cozum_md": "1-Doğru: Boncuk ekleniyor, toplama. 2-Yanlış: Kalem kırıldı, azaldı — çıkarma. 3-Doğru: Kiraz yenildi, azaldı — çıkarma."
+        },
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Soldaki durumları sağdaki işlemlerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            { "no": 1, "metin_md": "Merve'nin 5 kitabı var. 3 tane daha aldı." },
+            { "no": 2, "metin_md": "Can 12 şekerden 5'unu yedi." },
+            { "no": 3, "metin_md": "Zeynep 7 kalem aldı, annesi 4 tane daha verdi." },
+            { "no": 4, "metin_md": "Emre'nin 9 arabası var, 3 tanesini bıraktı." }
+          ],
+          "sag": [
+            { "harf": "A", "metin_md": "Toplama (5 + 3 = 8)" },
+            { "harf": "B", "metin_md": "Çıkarma (12 - 5 = 7)" },
+            { "harf": "C", "metin_md": "Toplama (7 + 4 = 11)" },
+            { "harf": "D", "metin_md": "Çıkarma (9 - 3 = 6)" },
+            { "harf": "E", "metin_md": "Toplama (6 + 2 = 8)" }
+          ],
+          "cevap": { "1": "A", "2": "B", "3": "C", "4": "D" },
+          "cozum_md": "1-A: Kitaplara yenisi eklendi → toplama. 2-B: Şekerlerden yenildi → çıkarma. 3-C: Kalemlere yenisi eklendi → toplama. 4-D: Arabalardan bırakıldı → çıkarma. E seçeneği hiçbir eşleşmeyle uyuşmuyor, çeldirici."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Elif'in 4 kırmızı kalemi ve 3 mavi kalemi var. Toplam kalemi ____(1)____ eder. Sonra 2 kalemini kaybetti. Kalan kalem sayısı ____(2)____ olur.",
+          "gorsel": null,
+          "kelime_havuzu": ["7", "5", "9", "1", "12"],
+          "cevap": { "1": "7", "2": "5" },
+          "cozum_md": "1: 4 + 3 = 7 (toplama). 2: 7 - 2 = 5 (çıkarma). Önce iki grup kalem toplandı, sonra kaybolanlar çıkarıldı."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Mehmet'in 5 çıkartması var. Can'a bir miktar verdi ve 2 çıkartması kaldı. Can'a kaç çıkartma verdi?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "5 + 2 = 7" },
+            { "harf": "B", "metin_md": "5 - 2 = 3" },
+            { "harf": "C", "metin_md": "2 + 5 = 7" },
+            { "harf": "D", "metin_md": "5 - 3 = 2" }
+          ],
+          "cevap": { "dogru": "B" },
+          "cozum_md": "Mehmet 5 çıkartmadan bir miktar verdi, 2 kaldı. Verilen sayıyı bulmak için çıkarma yapılır: 5 - 2 = 3. Yani Can'a 3 çıkartma verdi."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aylin'in sepetinde 9 üzüm tanesi var. 2 tanesini yedi. Aylin'in sepetinde kaç üzüm kaldı? İşlemi yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "9 - 2 = 7\nAylin'in sepetinde 7 üzüm kaldı.",
+            "kabul_kriterleri": ["Doğru çıkarma işlemini kurmuş olması (9 - 2)", "Sonucu doğru hesaplamış olması (7)", "Cümleyle ifade etmiş olması"]
+          },
+          "cozum_md": "9 üzüm var, 2 tanesi yeniyor (azalıyor). Çıkarma: 9 - 2 = 7. Aylin'in sepetinde 7 üzüm kaldı."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Sınıfta 12 öğrenci var. 5'i kız, geri kalanı erkek. Sınıfta kaç erkek öğrenci var? İşlemi yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "12 - 5 = 7\nSınıfta 7 erkek öğrenci var.",
+            "kabul_kriterleri": ["Doğru çıkarma işlemini kurmuş olması (12 - 5)", "Sonucu doğru hesaplamış olması (7)", "Cümleyle ifade etmiş olması"]
+          },
+          "cozum_md": "Toplam 12 öğrenci var, 5'i kız. Erkek sayısını bulmak için toplamdan kız sayısını çıkarırız: 12 - 5 = 7. Sınıfta 7 erkek öğrenci var."
+        }
+      ]
+    }
+  ]
+}

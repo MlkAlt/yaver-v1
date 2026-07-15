@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Ölçü Birimleriyle Tahmin Etme",
+    "kazanim": {
+      "kod": "MAT.2.1.11",
+      "ad": "Standart uzunluk ve kütle ölçü birimleri cinsinden uzunlukları ve kütleleri tahmin edebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Standart ölçü birimlerine ilişkin deneyimini, tahmine konu olan uzunluk ve kütle ile ilişkilendirir.",
+        "b": "Nesnelerin uzunluğunu ve kütlesini standart ölçü birim cinsinden tahmin eder.",
+        "c": "Tahminini ölçüm sonuçlarıyla karşılaştırarak tahminine ilişkin yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 30,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf matematik müfredatı (ölçme birimleri: cm, m, g, kg)",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları okuyunuz ve doğru seçeneği işaretleyiniz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir kitabın uzunluğunu ölçmek için hangisini kullanırız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Terazi"},
+            {"harf": "B", "metin_md": "Metre"},
+            {"harf": "C", "metin_md": "Dakika"},
+            {"harf": "D", "metin_md": "Litren"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Uzunluk ölçmek için metre, santimetre gibi uzunluk ölçü birimleri kullanılır. Terazi kütle, dakika zaman, litre ise hacim ölçer."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Bir kalem kutusunun uzunluğu yaklaşık kaç santimetredir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2 cm"},
+            {"harf": "B", "metin_md": "20 cm"},
+            {"harf": "C", "metin_md": "200 cm"},
+            {"harf": "D", "metin_md": "2000 cm"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bir kalem kutusu yaklaşık 20 cm uzunluğundadır. 2 cm çok kısa, 200 cm ise 2 metre olur ki çok uzundur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyunuz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 20,
+          "govde_md": "Aşağıdaki ifadelerden hangileri doğrudur? İşaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir okul çantasının ağırlığı yaklaşık 3 kilogramdır.", "cevap": true, "gerekce_md": "Bir okul çantası yaklaşık 2-4 kg aralığındadır."},
+            {"no": 2, "metin_md": "Bir elma yaklaşık 200 gramdır.", "cevap": true, "gerekce_md": "Orta boy bir elma yaklaşık 150-250 gram aralığındadır."},
+            {"no": 3, "metin_md": "Bir kalem yaklaşık 100 gramdır.", "cevap": false, "gerekce_md": "Bir kalem yaklaşık 5-10 gramdır, 100 gram çok ağırdır."},
+            {"no": 4, "metin_md": "Bir sandalyenin yüksekliği yaklaşık 1 metredir.", "cevap": true, "gerekce_md": "Bir sandalyenin oturma yüksekliği yaklaşık 45-50 cm, toplam yüksekliği yaklaşık 1 metre civarındadır."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": true}},
+          "cozum_md": "Okul çantası yaklaşık 3 kg, elma yaklaşık 200 g, kalem yaklaşık 10 g, sandalye yaklaşık 1 m yüksekliğindedir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir kaplumbağanın uzunluğu yaklaşık ____(1)____ cm olabilir.",
+          "kelime_havuzu": [],
+          "cevap": {"1": "25"},
+          "cozum_md": "Kaplumbağaların uzunluğu türüne göre değişir, yaklaşık 15-30 cm olabilir. 25 cm uygun bir tahmindir."
+        },
+        {
+          "id": "s5",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki nesneleri yaklaşık uzunluklarıyla eşleştiriniz.",
+          "sol": [
+            {"no": 1, "metin_md": "Bir kibrit çöpü"},
+            {"no": 2, "metin_md": "Bir kapının yüksekliği"},
+            {"no": 3, "metin_md": "Bir otobüsün uzunluğu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Yaklaşık 4 cm"},
+            {"harf": "B", "metin_md": "Yaklaşık 2 metre"},
+            {"harf": "C", "metin_md": "Yaklaşık 10 metre"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "Kibrit çöpü yaklaşık 4 cm, kapı yaklaşık 2 metre, otobüs yaklaşık 10 metre uzunluğundadır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki problemleri çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Ayşe bir kitabın uzunluğunu ölçmüş ve 18 cm çıkmış. Daha önce kitabı 25 cm olarak tahmin etmişti. Ayşe'nin tahmini hakkında ne söylenebilir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Tahmini çok doğru"},
+            {"harf": "B", "metin_md": "Tahmini ölçüden büyük çıkmış"},
+            {"harf": "C", "metin_md": "Tahmini ölçüden küçük çıkmış"},
+            {"harf": "D", "metin_md": "Tahmini ölçümle aynı çıkmış"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Ayşe 25 cm tahmin etmiş, ölçümden 18 cm çıkmış. 25 > 18 olduğundan tahmini ölçüden büyüktür."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Sınıfta bir arabanın tartılmış ve 800 kg çıkmış. Ali arabanın ağırlığını 500 kg olarak tahmin etmişti. Ali'nin tahmini ölçümle uyumlu mu? Neden?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Ali'nin tahmini ölçümle uyumlu değil. Çünkü tahmini (500 kg), ölçümden (800 kg) daha az çıkmış. Ali, arabanın daha hafif olduğunu tahmin etmiş.",
+            "kabul_kriterleri": [
+              "Tahminin ölçümden küçük olduğunu belirtmesi",
+              "Uyumsuzluk nedenini açıklaması"
+            ]
+          },
+          "cozum_md": "Ali 500 kg tahmin etmiş, ölçümden 800 kg çıkmış. 500 < 800 olduğundan tahmini ölçümden küçüktür."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Nesnelerin Sayısını Tahmin Etme",
+    "kazanim": {
+      "kod": "MAT.1.1.7",
+      "ad": "Verilen bir çokluktaki ilişkilerden yararlanarak 20'ye kadar (20 dahil) olan nesnelerin sayısını tahmin edebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Verilen bir çokluktaki ilişkileri gözlem ve deneyimleri ile ilişkilendirir.",
+        "b": "Bir çokluğun büyüklüğünü stratejiye dayanarak tahmin eder.",
+        "c": "Tahmin edilen sonuç ile gerçek sonucu karşılaştırarak kendi tahminine yönelik bir yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": false,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "tymm.meb.gov.tr (Türkiye Yüzyılı Maarif Modeli, İlkokul Matematik 1. sınıf, 1. Tema: Sayılar ve Nicelikler) öğrenme-öğretme uygulamaları açıklaması incelendi; kazanımda tahmin stratejilerinin (gruplama, eşleme, referans kullanma) ve karşılaştırma becerisinin vurgulandığı doğrulandı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları gözlem yaparak ve ilişkileri inceleyerek cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri okuyunuz. Doğru olanlara \"D\", yanlış olanlara \"Y\" yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir kutuda 5 kırmızı ve 5 mavi top varsa, toplam 10 top vardır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Tahmin ederken saymak gerekmez, aklımdan geçiririm.", "cevap": false, "gerekce_md": "Tahmin stratejileri kullanmak (gruplama, eşleme vb.) tahmini daha doğru yapmamızı sağlar."},
+            {"no": 3, "metin_md": "Bir çokluktaki nesnelerin düzenli dizilmesi saymayı kolaylaştırır.", "cevap": true, "gerekce_md": ""},
+            {"no": 4, "metin_md": "Tahmin her zaman tam doğru çıkar.", "cevap": false, "gerekce_md": "Tahmin bir öngörüdür; gerçek sonuçla karşılaştırarak yargıda bulunuruz."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true, "4": false}},
+          "cozum_md": "1) Doğru — 5 kırmızı + 5 mavi = 10 top. 2) Yanlış — tahmin stratejileri kullanmak daha doğru sonuç verir. 3) Doğru — düzenli dizilim saymayı kolaylaştırır. 4) Yanlış — tahmin her zaman tam doğru olmayabilir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir masada 3 kalem ve 2 silgi varsa, bu nesnelerin toplam sayısını bulmak için aşağıdakilerden hangisini yaparız?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Sadece kalemleri sayarız."},
+            {"harf": "B", "metin_md": "Kalem ve silgilerin hepsini birlikte sayarız."},
+            {"harf": "C", "metin_md": "Sadece silgileri sayarız."},
+            {"harf": "D", "metin_md": "Hiçbir şey saymayız."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Toplam sayıyı bulmak için tüm nesneleri birlikte saymalıyız. 3 kalem + 2 silgi = 5 nesne."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları tahmin stratejilerini kullanarak cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir kutuda aşağıdaki gibi düzenlenmiş misketler var:\n\n●●●●●\n●●●●●\n●●●●●\n\nTahmininize göre kutuda yaklaşık kaç misket vardır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Yaklaşık 10"},
+            {"harf": "B", "metin_md": "Yaklaşık 15"},
+            {"harf": "C", "metin_md": "Yaklaşık 20"},
+            {"harf": "D", "metin_md": "Yaklaşık 30"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "3 satır var, her satırda 5 misket var. 5'er-gruplar halinde sayarak 5, 10, 15 diyebiliriz. Toplam yaklaşık 15 miskettir."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Soldaki tahmin stratejisini, sağdaki örnekle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Gruplama ile tahmin"},
+            {"no": 2, "metin_md": "Eşleme ile tahmin"},
+            {"no": 3, "metin_md": "Referans kullanarak tahmin"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Bir elimdeki parmak sayısına bakarak karşımdakinin de o kadar olup olmadığını kontrol ederim."},
+            {"harf": "B", "metin_md": "Nesneleri 5'erli gruplara ayırarak toplamı bulurum."},
+            {"harf": "C", "metin_md": "Bir nesneyi diğerinin yanına koyarak eşit olup olmadıklarına bakarım."}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A"},
+          "cozum_md": "Gruplama ile tahmin (1): Nesneleri gruplara ayırarak toplamı bulma — B. Eşleme ile tahmin (2): Bir nesneyi diğerinin yanına koyarak eşleştirme — C. Referans kullanarak tahmin (3): Bilinen bir sayıyı referans alma — A."
+        },
+        {
+          "id": "s5",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kavanozda kurabiye var. Kurabiyeleri ____(1)____ gruplara ayırdığımda 4 grup çıktığını görüyorum. Her grupta 5 kurabiye varsa toplam ____(2)____ kurabiye vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["3'er", "5'er", "20"],
+          "cevap": {"1": "5'er", "2": "20"},
+          "cozum_md": "Kurabiyeleri 5'er gruplara ayırdığımızda 4 grup elde ederiz. 5 × 4 = 20 kurabiye vardır."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları kendi stratejilerini kullanarak çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfta bir kutuda fasulye tanesi var. Öğretmenin sorduğu: \"Kutuda kaç tane fasulye var?\" Sorusuna cevap vermek için hangi tahmin stratejisini kullanırdın? Stratejini açıkla ve tahminini yaz.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Kutudaki fasulyeleri 5'erli gruplara ayırırım. 3 grup tamamlandıysa 15 tanedir; biraz daha varsa yaklaşık 18-20 tanedir diyebilirim.",
+            "kabul_kriterleri": [
+              "Bir tahmin stratejisi belirtmiş (gruplama, eşleme veya referans kullanma)",
+              "Stratejiyi anlaşılır şekilde açıklamış",
+              "Mantıklı bir sayı tahmininde bulunmuş"
+            ]
+          },
+          "cozum_md": "Bu soruda birden fazla geçerli strateji vardır. 5'erli gruplama, ellerle eşleme veya bildiği bir nesneyi referans kullanma gibi stratejiler kabul edilebilir."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 20,
+          "govde_md": "Aşağıdaki durumu okuyunuz:\n\nAli, bir kasedeki kirazların sayısını tahmin etmek istiyor. Tahminine göre 16 kiraz var. Saydıktan sonra 19 kiraz çıktığını görüyor.\n\nAli'nin tahmini ile gerçek sonuç arasındaki farkı bulup, Ali'nin tahmini hakkında ne düşündüğünü yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Fark: 19 - 16 = 3'tür. Ali'nin tahmini gerçek sonuca yakındır ama biraz düşüktür. Ali, tahminini yaparken kirazları gruplara ayırarak saysaydı daha doğru bir tahmin yapabilirdi.",
+            "kabul_kriterleri": [
+              "Farkı doğru hesaplamış: 3",
+              "Tahmin ile gerçek sonuç karşılaştırmasını yapmış",
+              "Kendi tahminine yönelik bir yargıda bulunmuş (örn: tahminim biraz düşük çıktı, yakındı vb.)"
+            ]
+          },
+          "cozum_md": "Gerçek sonuç: 19, Tahmin: 16. Fark: 19 - 16 = 3. Ali'nin tahmini gerçek sonuçtan 3 eksiktir; tahmini gerçek sonuca yakındır ama biraz düşüktür."
+        }
+      ]
+    }
+  ]
+}

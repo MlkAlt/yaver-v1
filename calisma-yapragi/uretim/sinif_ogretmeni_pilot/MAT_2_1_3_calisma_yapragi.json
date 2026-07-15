@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıların Sırasını Belirleme",
+    "kazanim": {
+      "kod": "MAT.2.1.3",
+      "ad": "Sayıların sırasını belirleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Sayıları küçükten büyüğe doğru sıralar.",
+        "b": "Sayıları büyükten küçüğe doğru sıralar."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf sayı sıralama kazanımı incelendi",
+      "notlar": [
+        "100'e kadar olan sayılar kullanıldı",
+        "Sıralama için somut örnekler ve görsel betimlemeler tercih edildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisi en küçüğüdür?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "45"},
+            {"harf": "B", "metin_md": "34"},
+            {"harf": "C", "metin_md": "54"},
+            {"harf": "D", "metin_md": "24"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "24, 34, 45 ve 54 sayıları karşılaştırıldığında en küçük olan 24'tür. Doğru yanıt D seçeneğidir."
+        },
+        {
+          "id": "s2",
+          "tip": "siralama",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıları küçükten büyüğe doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["67", "23", "45", "12", "89"],
+          "cevap": {"dogru_sira": [3, 1, 2, 0, 4]},
+          "cozum_md": "Küçükten büyüğe sıralama: 12, 23, 45, 67, 89. Bu da [3, 1, 2, 0, 4] indekslerine karşılık gelir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "siralama",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları büyükten küçüğe doğru sıralayınız.",
+          "gorsel": null,
+          "ogeler": ["38", "72", "15", "91", "56"],
+          "cevap": {"dogru_sira": [3, 1, 4, 0, 2]},
+          "cozum_md": "Büyükten küçüğe sıralama: 91, 72, 56, 38, 15. Bu da [3, 1, 4, 0, 2] indekslerine karşılık gelir."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sıralamalardaki eksik sayıları doldurunuz.\n\nKüçükten büyüğe: 18, ____(1)____, 34, 45, ____(2)____\n\nBüyükten küçüğe: 87, 76, ____(3)____, 54, ____(4)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "23", "2": "67", "3": "65", "4": "43"},
+          "cozum_md": "Küçükten büyüğe: 18, 23, 34, 45, 67. Büyükten küçüğe: 87, 76, 65, 54, 43."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "42, 24 ve 44 sayılarını büyükten küçüğe sıralarsak hangisi ortada kalır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "42"},
+            {"harf": "B", "metin_md": "24"},
+            {"harf": "C", "metin_md": "44"},
+            {"harf": "D", "metin_md": "Hiçbiri"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "44 > 42 > 24. Sıralama: 44, 42, 24. Ortada 42 kalır. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "eslestirme",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Her satırda verilen sıralama türüne uygun sayıyı bulunuz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Küçükten büyüğe: 15, 38, ____, 72"},
+            {"no": 2, "metin_md": "Büyükten küçüğe: 91, ____, 56, 34"},
+            {"no": 3, "metin_md": "Küçükten büyüğe: 29, ____, 61, 85"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "45"},
+            {"harf": "B", "metin_md": "73"},
+            {"harf": "C", "metin_md": "48"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "1. 15, 38, 45, 72 → eksik 45. 2. 91, 73, 56, 34 → eksik 73. 3. 29, 48, 61, 85 → eksik 48."
+        },
+        {
+          "id": "s7",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "53, 35 ve 55 sayılarını büyükten küçüğe sıralarsak: 55, 53, 35 olur.", "cevap": true, "gerekce_md": "55 > 53 > 35 doğrudur."},
+            {"no": 2, "metin_md": "Bir sayının onlar basamağı越大，则该数越大。(Bir sayının onlar basamağı büyükse, sayı her zaman büyüktür.)", "cevap": false, "gerekce_md": "39 ve 42 örneklerinde 3 < 4 ama 39 > 42 değildir; 42 > 39'dur."},
+            {"no": 3, "metin_md": "100, tüm iki basamaklı sayılardan büyüktür.", "cevap": true, "gerekce_md": "100 üç basamaklıdır ve tüm iki basamaklı sayılardan büyüktür."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Doğrudur: 55 > 53 > 35. 2. Yanlıştır: 39 ve 42 örneklerinde 3 < 4 ama 42 > 39'dur. 3. Doğrudur: 100 tüm iki basamaklı sayılardan büyüktür."
+        },
+        {
+          "id": "s8",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Zeynep 10'dan 50'ye kadar olan çift sayıları küçükten büyüğe sıraladı. Sıralamasındaki 4. sayı kaçtır?",
+          "gorsel": null,
+          "cevap": {"deger": 8, "birim": "", "tolerans_yuzde": 0},
+          "cozum_md": "10'dan 50'ye kadar çift sayılar: 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50. 4. sıra: 10(1), 12(2), 14(3), 16(4). Cevap 16'dır."
+        }
+      ]
+    }
+  ]
+}

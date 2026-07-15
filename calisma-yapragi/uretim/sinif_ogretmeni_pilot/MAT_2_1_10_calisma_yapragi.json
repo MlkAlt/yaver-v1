@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Ölçme Araçlarının Gerekliliği",
+    "kazanim": {
+      "kod": "MAT.2.1.10",
+      "ad": "Standart uzunluk ve kütle ölçme araçlarının ve birimlerinin gerekliliğini yansıtabilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Standart olmayan araçlarla ilgili deneyimlerinden yola çıkarak standart ölçme araçlarına olan ihtiyacı gözden geçirir.",
+        "b": "Deneyimlerine dayalı olarak standart ölçme araçlarının gerekliliğine ilişkin çıkarımda bulunur.",
+        "c": "Standart ölçme araçlarına ilişkin ulaştığı çıkarımlar doğrultusunda standart ölçü birimlerinin gerekliliğini değerlendirir."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf ölçme araçları ve standart birimler kazanımı incelendi",
+      "notlar": [
+        "Standart ve standart olmayan ölçme araçları karşılaştırıldı",
+        "Somut örneklerle (el, ayak, kalem gibi) ölçme farkındalığı geliştirildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Sınıfta bir masanın uzunluğunu ölçmek için el arabası (avuç içi) kullandık. Bu ölçme yöntemi neden güvenilir değildir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Çünkü herkesin eli aynı büyüklükte değildir"},
+            {"harf": "B", "metin_md": "Çünkü masalar çok büyüktür"},
+            {"harf": "C", "metin_md": "Çünkü eller kirli olabilir"},
+            {"harf": "D", "metin_md": "Çünkü ölçmek zaman alır"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "El arabası (avuç içi) standart bir ölçü birimi değildir. Herkesin eli farklı büyüklükte olduğu için aynı sonuç alınmaz. Doğru yanıt A seçeneğidir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir kitabı kalem ile ölçmek standart bir ölçme yöntemidir.", "cevap": false, "gerekce_md": "Kalemler farklı uzunlukta olabilir, standart değildir."},
+            {"no": 2, "metin_md": "Metre ölçüsü her yerde aynıdır.", "cevap": true, "gerekce_md": "Metre standart bir ölçü birimidir, her yerde 100 cm'dir."},
+            {"no": 3, "metin_md": "Ayak uzunluğu ile ölçme yapmak her zaman doğru sonucu verir.", "cevap": false, "gerekce_md": "Herkesin ayak uzunluğu farklıdır."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false}},
+          "cozum_md": "1. Yanlıştır: Kalem farklı uzunlukta olabilir. 2. Doğrudur: Metre standarttır. 3. Yanlıştır: Ayak uzunlukları farklıdır."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ölçme araçlarını doğru açıklamayla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Cetvel"},
+            {"no": 2, "metin_md": "Terazi"},
+            {"no": 3, "metin_md": "El arabası (avuç içi)"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Uzunluk ölçer, santimetre cinsinden sonuç verir"},
+            {"harf": "B", "metin_md": "Ağırlık ölçer, gram/kilogram cinsinden sonuç verir"},
+            {"harf": "C", "metin_md": "Standart olmayan, herkeste farklı sonuç verir"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "Cetvel uzunluk ölçer (santimetre). Terazi ağırlık ölçer (gram/kilogram). El arabası standart değildir, herkeste farklı sonuç verir."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Arkadaşın ile aynı kitabı ölçtünüz. Sen 15 kalem, arkadaşın 12 kalem dedi. Neden farklı sonuçlar çıkt?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Kalemleriniz farklı büyüklükte"},
+            {"harf": "B", "metin_md": "Kitaplar farklı"},
+            {"harf": "C", "metin_md": "Ölçme yöntemi yanlıştı"},
+            {"harf": "D", "metin_md": "A ve C birlikte"}
+          ],
+          "cevap": {"dogru": "D"},
+          "cozum_md": "Kalemleriniz farklı büyüklükte olabilir ve kalem ile ölçme yöntemi standart değildir. Her iki durum da farklı sonuca yol açar. Doğru yanıt D seçeneğidir."
+        },
+        {
+          "id": "s5",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Standart ölçme araçları kullanıldığında herkes ____(1)____ sonucu alır. Uzunluk ölçmek için ____(2)____, ağırlık ölçmek için ____(3)____ kullanırız.",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "aynı", "2": "metre/cetvel", "3": "terazi/kilo"},
+          "cozum_md": "Standart ölçme araçları kullanıldığında herkes aynı sonucu alır. Uzunluk ölçmek için metre veya cetvel, ağırlık ölçmek için terazi kullanırız."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Sınıfta bir masayı ölçmek için farklı yöntemler denediniz: el arabası, ayak, kalem ve cetvel. Her yöntemden farklı sonuçlar çıktı. Bu durumu nasıl açıklarsınız? Standart ölçme neden önemlidir?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Farklı yöntemler farklı sonuçlar verir çünkü her yöntemin uzunluğu farklıdır. El arabası herkeste farklı, ayak herkeste farklı, kalemler farklı uzunlukta olabilir. Ama cetvel (metre) her yerde aynıdır. Bu yüzden standart ölçme araçları önemlidir; böylece herkes aynı sonuca ulaşır.",
+            "kabul_kriterleri": [
+              "Farklı yöntemlerin farklı sonuçlar verdiğini belirtmiş",
+              "Standart olmayan araçların neden güvenilir olmadığını açıklamış",
+              "Standart ölçme aracının (metre/cetvel) önemini vurgulamış"
+            ]
+          },
+          "cozum_md": "Standart olmayan araçlar (el, ayak, kalem) herkeste farklı olduğu için farklı sonuçlar verir. Standart araçlar (metre, terazi) her yerde aynı olduğu için doğru ve tutarlı sonuç verir."
+        },
+        {
+          "id": "s7",
+          "tip": "tablo_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Hangi durumda hangi ölçme aracı daha uygundur?",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Ölçülecek Şey", "Uygun Araç", "Neden?"],
+            "satirlar": [
+              ["Bir kitabın uzunluğu", "__?__", "__?__"],
+              ["Bir portakalın ağırlığı", "__?__", "__?__"],
+              ["Masanın genişliği", "Cetvel", "__?__"]
+            ]
+          },
+          "cevap": {"r0c1": "Cetvel", "r0c2": "Uzunluk ölçer", "r1c1": "Terazi", "r1c2": "Ağırlık ölçer", "r2c2": "Uzunluk ölçer, standarttır"},
+          "cozum_md": "Kitap uzunluğu → Cetvel (uzunluk ölçer). Portakal ağırlığı → Terazi (ağırlık ölçer). Masa genişliği → Cetvel (uzunluk ölçer, standarttır)."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Farklı ölçme araçları kullanırsak her zaman farklı sonuçlar alırız.", "cevap": false, "gerekce_md": "Standart araçlar (metre, terazi) kullanırsak her zaman aynı sonucu alırız."},
+            {"no": 2, "metin_md": "Standart ölçü birimleri (metre, kilometre, gram) uluslararası kabul görmüştür.", "cevap": true, "gerekce_md": "Metre, kilometre, gram gibi birimler dünya genelinde standarttır."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true}},
+          "cozum_md": "1. Yanlıştır: Standart araçlar kullanırsak aynı sonucu alırız. 2. Doğrudur: Metre, kilometre, gram uluslararası standartlardır."
+        }
+      ]
+    }
+  ]
+}

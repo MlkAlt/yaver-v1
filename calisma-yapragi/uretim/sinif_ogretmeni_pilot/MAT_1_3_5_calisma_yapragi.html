@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='utf-8'><title>Geometrik Şekilleri Sınıflandıralım</title><style>
+:root { --koyu: #4338ca; --acik: #e9e8fc; }
+@page { size: A4; margin: 10mm 11mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 9.5pt; line-height: 1.26; color: #1e2430; max-width: 188mm; margin: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start;
+  border-bottom: 2.5px solid var(--koyu); padding-bottom: 4px; margin-bottom: 3px; }
+h1 { font-size: 13pt; margin: 0 0 2px; color: var(--koyu); }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+.chip { display: inline-block; font-size: 7pt; border: 1px solid var(--koyu);
+  color: var(--koyu); border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.chip.dolu { background: var(--koyu); color: #fff; font-weight: 600; }
+.adsoyad { font-size: 8.5pt; text-align: right; line-height: 1.8; white-space: nowrap; }
+.kazanim-satiri { font-size: 8pt; color: #444; margin: 1px 0 4px; }
+.ozet { background: var(--acik); border-left: 3px solid var(--koyu);
+  padding: 4px 8px; font-size: 8.5pt; margin-bottom: 4px; border-radius: 0 4px 4px 0; }
+.bolum { display: flex; align-items: baseline; gap: 8px;
+  background: var(--acik); border-left: 4px solid var(--koyu); padding: 2px 7px;
+  margin: 6px 0 3px; border-radius: 0 4px 4px 0; font-weight: 700; font-size: 10pt;
+  color: var(--koyu); page-break-after: avoid; }
+.bolum em { font-weight: 400; font-size: 8pt; color: #3c4454; flex: 1; }
+.bolum .bpuan { font-size: 7.5pt; }
+.soru { margin: 4px 0; page-break-inside: avoid; }
+.sgovde { display: flex; gap: 5px; align-items: baseline; }
+.sno { background: var(--koyu); color: #fff; border-radius: 50%; min-width: 14px;
+  height: 14px; font-size: 8pt; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center; flex: none; position: relative; top: 1px; }
+.spuan { order: 3; font-size: 7pt; color: #667; flex: none; }
+.smetin { flex: 1; }
+.bosluk { display: inline-block; min-width: 22mm; border-bottom: 1.2px solid #555;
+  height: 10px; position: relative; margin: 0 2px; }
+.sec { columns: 2; column-gap: 18px; margin: 2px 0 0 19px; font-size: 9pt; }
+.sec.tek { columns: 1; }
+.sec > div { break-inside: avoid; padding: 0.5px 0; }
+.dy { margin: 2px 0 0 19px; font-size: 9pt; }
+.dy .kutu { display: inline-block; border: 1px solid #888; border-radius: 3px;
+  width: 12px; text-align: center; font-size: 7pt; margin-right: 3px; color: #888; }
+.esle { display: flex; gap: 22px; margin: 2px 0 0 19px; font-size: 9pt; }
+.esle > div { flex: 1; }
+.esle .parantez { color: #778; }
+.sira { margin: 2px 0 0 19px; font-size: 9pt; background: #f4f6f9;
+  padding: 2px 7px; border-radius: 4px; display: inline-block; }
+.sira-yanit { margin: 2px 0 0 19px; font-size: 9pt; }
+.havuz { margin: 2px 0 0 19px; display: flex; gap: 4px; flex-wrap: wrap; }
+.havuz span { display: inline-block; background: #f4f6f9; border: 1px dashed #99a;
+  border-radius: 8px; padding: 0 7px; font-size: 8pt; }
+.yanit { margin: 3px 0 0 19px; }
+.yanit span { display: block; border-bottom: 1px dotted #9aa; height: 13px; }
+.gorsel { margin: 2px 0 0 19px; font-size: 8pt; color: #556; font-style: italic;
+  border: 1px dashed #aab; padding: 2px 7px; border-radius: 4px; }
+table { border-collapse: collapse; margin: 3px 0 2px 19px; font-size: 8.5pt;
+  width: calc(100% - 19px); }
+td, th { border: 1px solid #8892a0; padding: 2px 6px; text-align: left; }
+th { background: var(--acik); color: var(--koyu); }
+code { background: #f0f2f5; padding: 0 3px; border-radius: 3px; font-size: 8.5pt; }
+.kir { page-break-before: always; }
+.ak-grid { column-count: 2; column-gap: 20px; margin-top: 5px; }
+.ak-soru { font-size: 8.5pt; margin-bottom: 5px; break-inside: avoid; }
+.ak-cozum { font-size: 7.5pt; color: #445; margin: 1px 0 0 11px; }
+@media print { body { max-width: none; } }
+@media screen {
+  html { background: #e9e7e1; }
+  body { background: #fff; padding: 12mm 11mm; margin: 14px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+}
+</style></head><body><header><div class='baslik-sol'><h1>Geometrik Şekilleri Sınıflandıralım</h1><div class='chips'><span class='chip dolu'>MAT.1.3.5</span><span class='chip'>Matematik • 1. Sınıf</span><span class='chip'>6. Tema: Nesneleri̇n Geometri̇si̇ (2)</span><span class='chip'>25 dk • 100 puan</span></div></div><div class='adsoyad'>Ad Soyad: ______________________<br>Sınıf / No: __________</div></header><div class='kazanim-satiri'><b>Kazanım:</b> Biçimsel özelliklerine göre geometrik şekilleri sınıflandırabilme</div><div class='bolum'><span>Tanıyalım</span><em>Aşağıdaki soruları inceleyip yanıtlayınız.</em><span class='bpuan'>35 P</span></div><div class="soru"><div class="sgovde"><span class="sno">1</span><span class="spuan">15p</span><div class="smetin">Geometrik şekilleri adlarıyla eşleştiriniz.</div></div><div class='esle'><div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>1.</b> Yuvarlak, düz ve her noktası merkeze eşit uzaklıkta olan şekil</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>2.</b> 4 kenarı eşit uzunlukta, 4 köşeli şekil</div><div><span class='parantez'>(&nbsp;&nbsp;)</span> <b>3.</b> 3 kenarlı, 3 köşeli şekil</div></div><div><div><b>A)</b> Üçgen</div><div><b>B)</b> Daire</div><div><b>C)</b> Kare</div><div><b>D)</b> Dikdörtgen</div></div></div></div><div class="soru"><div class="sgovde"><span class="sno">2</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.</div></div><div class='dy'><div><span class='kutu'>D</span><span class='kutu'>Y</span>Karede 4 köşe vardır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Dairenin köşesi vardır.</div><div><span class='kutu'>D</span><span class='kutu'>Y</span>Dikdörtgende 4 kenar vardır.</div></div></div><div class="soru"><div class="sgovde"><span class="sno">3</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki şekillerden hangisi yuvarlak olanıdır?</div></div><div class='sec'><div><b>A)</b> Kare</div><div><b>B)</b> Üçgen</div><div><b>C)</b> Daire</div><div><b>D)</b> Dikdörtgen</div></div></div><div class='bolum'><span>Kavrayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>40 P</span></div><div class="soru"><div class="sgovde"><span class="sno">4</span><span class="spuan">15p</span><div class="smetin">Geometrik şekilleri özelliklerine göre gruplandırınız.<br><br>Yuvarlak şekiller: __<span class='bosluk'></span>__<br><br>Köşeli şekiller: __<span class='bosluk'></span>__, __<span class='bosluk'></span>__, __<span class='bosluk'></span>__</div></div><div class='havuz'><span>daire</span><span>kare</span><span>dikdörtgen</span><span>üçgen</span><span>elips</span></div></div><div class="soru"><div class="sgovde"><span class="sno">5</span><span class="spuan">15p</span><div class="smetin">Kare ve dikdörtgen arasındaki fark nedir?</div></div><div class='sec tek'><div><b>A)</b> Karenin 4 kenarı eşittir, dikdörtgenin karşılıklı kenarları eşittir</div><div><b>B)</b> Karenin köşesi yoktur, dikdörtgenin vardır</div><div><b>C)</b> İkisi de aynı shapedır</div><div><b>D)</b> Dikdörtgenin 3 kenarı vardır, karenin 4</div></div></div><div class="soru"><div class="sgovde"><span class="sno">6</span><span class="spuan">10p</span><div class="smetin">Aşağıdaki tabloda geometrik şekillerin özelliklerini tamamlayınız.</div></div><table><tr><th>Şekil</th><th>Kenar Sayısı</th><th>Köşe Sayısı</th></tr><tr><td>Kare</td><td>4</td><td></td></tr><tr><td>Üçgen</td><td></td><td>3</td></tr><tr><td>Daire</td><td></td><td></td></tr></table></div><div class='bolum'><span>Uygulayalım</span><em>Aşağıdaki soruları çözünüz.</em><span class='bpuan'>25 P</span></div><div class="soru"><div class="sgovde"><span class="sno">7</span><span class="spuan">15p</span><div class="smetin">Elinizde daire, kare, dikdörtgen ve üçgen olmak üzere 4 tane kart var. Bu kartları iki gruba ayırınız. Grupları ve ayırma nedeninizi yazınız.</div></div><div class='yanit'><span></span><span></span><span></span><span></span></div></div><div class="soru"><div class="sgovde"><span class="sno">8</span><span class="spuan">10p</span><div class="smetin">Bir geometrik şekil düşün: 3 kenarı var, 3 köşesi var, yuvarlak değil. Bu şekil hangisidir?</div></div><div class='sec'><div><b>A)</b> Daire</div><div><b>B)</b> Kare</div><div><b>C)</b> Üçgen</div><div><b>D)</b> Dikdörtgen</div></div></div><div class='kir'></div><header class='ak-band'><div class='baslik-sol'><h1>Cevap Anahtarı</h1><div class='chips'><span class='chip dolu'>MAT.1.3.5</span><span class='chip'>Geometrik Şekilleri Sınıflandıralım</span></div></div><div class='adsoyad'>Öğretmen içindir —<br>dağıtmadan önce ayırınız.</div></header><div class='ak-grid'><div class='ak-soru'><b>1.</b> 1-B, 2-C, 3-A<div class='ak-cozum'>Yuvarlak ve merkeze eşit uzaklıkta olan = daire (B). 4 kenarı eşit, 4 köşeli = kare (C). 3 kenarlı, 3 köşeli = üçgen (A). D seçeneği dikdörtgendir, bu nesnelere karşılık gelmez.</div></div><div class='ak-soru'><b>2.</b> 1-D, 2-Y, 3-D<div class='ak-cozum'>1. Karede 4 köşe var → DOĞRU. 2. Daire yuvarlak, köşesi yok → YANLIŞ. 3. Dikdörtgende 4 kenar var → DOĞRU.</div></div><div class='ak-soru'><b>3.</b> <b>C</b><div class='ak-cozum'>Kare, üçgen ve dikdörtgen köşeli şekillerdir. Daire yuvarlak olan tek şekildir.</div></div><div class='ak-soru'><b>4.</b> (1) daire, (2) kare, (3) dikdörtgen, (4) üçgen<div class='ak-cozum'>Yuvarlak şekil: daire. Köşeli şekiller: kare, dikdörtgen, üçgen — bunların hepsinin köşeleri ve kenarları vardır.</div></div><div class='ak-soru'><b>5.</b> <b>A</b><div class='ak-cozum'>Karenin 4 kenarı da eşit uzunluktadır. Dikdörtgenin ise karşılıklı kenarları eşit, komşu kenarları farklıdır. Her ikisinin de 4 köşesi ve 4 kenarı vardır.</div></div><div class='ak-soru'><b>6.</b> {&quot;r0c2&quot;: &quot;4&quot;, &quot;r1c1&quot;: &quot;3&quot;, &quot;r2c1&quot;: &quot;0&quot;, &quot;r2c2&quot;: &quot;0&quot;}<div class='ak-cozum'>Karenin 4 kenarı ve 4 köşesi vardır. Üçgenin 3 kenarı ve 3 köşesi vardır. Daire yuvarlaktır; kenarı ve köşesi yoktur (0).</div></div><div class='ak-soru'><b>7.</b> Grup 1: Daire — yuvarlak, köşesi yok. Grup 2: Kare, dikdörtgen, üçgen — köşeli, kenarları var. Ayırma nedeni: yuvarlak olma özelliği. Köşeli olanlar bir grupta, yuvarlak olan tek başına diğer grupta.<div class='ak-cozum'>Şekilleri yuvarlak ve köşeli olarak iki gruba ayırabiliriz. Daire yuvarlaktır; kare, dikdörtgen ve üçgen köşelidir.</div></div><div class='ak-soru'><b>8.</b> <b>C</b><div class='ak-cozum'>3 kenarı ve 3 köşesi olan, yuvarlak olmayan şekil üçgendir. Daire yuvarlaktır (0 kenar, 0 köşe), kare ve dikdörtgen 4 kenarlıdır.</div></div></div></body></html>

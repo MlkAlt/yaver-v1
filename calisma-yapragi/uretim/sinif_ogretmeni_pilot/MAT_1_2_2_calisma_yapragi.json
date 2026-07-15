@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Tahmin ve Zihinden İşlem",
+    "kazanim": {
+      "kod": "MAT.1.2.2",
+      "ad": "Toplama ve çıkarma işlemlerinin sonuçlarını tahminde bulunarak ve zihinden işlem yaparak muhakeme edebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Toplama ve çıkarma işlemlerine ilişkin elemanları belirler.",
+        "b": "Toplama ve çıkarma işlemlerine ilişkin elemanlar arasındaki ilişkileri belirler.",
+        "c": "Toplama ve çıkarma işlemlerine yönelik tahmin ve zihinden işlem sonuçları arasında ilişki kurar.",
+        "d": "Tahmin ve zihinden işlem sonuçlarının tutarlılığını ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 1. sınıf Matematik 4. Tema (İşlemlerden Cebirsel Düşünmeye) MAT.1.2.2 kazanımı; tahmin ve zihinden işlem becerisini ölçen sorular; günlük yaşam senaryoları kullanıldı.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "5 + 3 = 8 işleminde 5 ve 3'ün adı nedir?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "Toplananlar" },
+            { "harf": "B", "metin_md": "Sonuç" },
+            { "harf": "C", "metin_md": "Eşitlik" },
+            { "harf": "D", "metin_md": "İşaret" }
+          ],
+          "cevap": { "dogru": "A" },
+          "cozum_md": "5 + 3 = 8 işleminde 5 ve 3 toplanan elemanlardır. 8 ise sonuçtur."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Toplama ve çıkarma işlemleri arasındaki ilişkiyi gösteren ifadeler doğru mu yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            { "no": 1, "metin_md": "7 + 3 = 10 ise 10 - 3 = 7 olur.", "cevap": true, "gerekce_md": null },
+            { "no": 2, "metin_md": "5 + 4 = 9 ise 9 - 4 = 5 olur.", "cevap": true, "gerekce_md": null },
+            { "no": 3, "metin_md": "Toplama ve çıkarma birbirinin tersi değildir.", "cevap": false, "gerekce_md": "Toplama ve çıkarma birbirinin tersi olan işlemlerdir. 6 + 2 = 8 ise 8 - 2 = 6 olur." }
+          ],
+          "cevap": { "ozet": { "1": true, "2": true, "3": false } },
+          "cozum_md": "1-Doğru: 7+3=10 ise 10-3=7 olur. 2-Doğru: 5+4=9 ise 9-4=5 olur. 3-Yanlış: Toplama ve çıkarma birbirinin tersidir."
+        },
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Soldaki işlemlerdeki elemanları sağdaki adlarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            { "no": 1, "metin_md": "9 - 4 = 5 işleminde 9" },
+            { "no": 2, "metin_md": "9 - 4 = 5 işleminde 4" },
+            { "no": 3, "metin_md": "9 - 4 = 5 işleminde 5" },
+            { "no": 4, "metin_md": "6 + 2 = 8 işleminde 8" }
+          ],
+          "sag": [
+            { "harf": "A", "metin_md": "Çıkarılan" },
+            { "harf": "B", "metin_md": "Sonuç" },
+            { "harf": "C", "metin_md": "Pay" },
+            { "harf": "D", "metin_md": "Toplam" }
+          ],
+          "cevap": { "1": "C", "2": "A", "3": "B", "4": "D" },
+          "cozum_md": "1-C: 9, çıkarılmak istenen sayıdır (pay). 2-A: 4, çıkan sayıdır (çıkaran). 3-B: 5, işlemin sonucudur. 4-D: 8, toplamın kendisidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Zeynep'in 9 kalemi var. 6 tane daha aldı. Toplam ____(1)____ kalem oldu. Tahmin: 10'dan ____(2)____ bir sonuç.",
+          "gorsel": null,
+          "kelime_havuzu": ["15", "büyük", "küçük", "12", "18"],
+          "cevap": { "1": "15", "2": "büyük" },
+          "cozum_md": "9 + 6 = 15. 15, 10'dan büyüktür. Zihinden: 9'u 10'a tamamlarsak 1 kalır, 6-1=5, yani 10+5=15."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "16 - 9 işleminin sonucu için hangi tahmin tutarlıdır?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "Sonuç 20'den büyüktür" },
+            { "harf": "B", "metin_md": "Sonuç 10'dan küçüktür" },
+            { "harf": "C", "metin_md": "Sonuç 5'ten küçüktür" },
+            { "harf": "D", "metin_md": "Sonuç 15'e eşittir" }
+          ],
+          "cevap": { "dogru": "B" },
+          "cozum_md": "16 - 9 = 7. 7, 10'dan küçüktür. Zihinden: 16'dan 9'u çıkaralım, 16-9=7."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Oyuncakçıda 13 araba var. 7 tanesi satıldı. Oyuncakçıda kaç araba kaldı? Önce tahmin et, sonra zihinden hesapla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tahmin: 10'dan küçük bir sonuç. 13 - 7 = 6. Oyuncakçıda 6 araba kaldı.",
+            "kabul_kriterleri": ["Tahmin ifadesini yazmış olması", "Doğru çıkarma işlemini kurmuş olması (13 - 7)", "Sonucu doğru hesaplamış olması (6)"]
+          },
+          "cozum_md": "13 araba var, 7 tanesi satıldı (azaldı). Çıkarma: 13 - 7 = 6. Tahmin: 10'dan küçük bir sonuç olmalı."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "Sınıfta 8 kız ve 7 erkek öğrenci var. Toplam kaç öğrenci vardır? Tahmini tutarlı mı? Açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Tahmin: 10'dan büyük bir sonuç. 8 + 7 = 15. Toplam 15 öğrenci var. Tahmin tutarlı çünkü 15, 10'dan büyüktür.",
+            "kabul_kriterleri": ["Tahmin ifadesini yazmış olması", "Doğru toplama işlemini kurmuş olması (8 + 7)", "Sonucu doğru hesaplamış olması (15)", "Tutarlılık açıklamasını yapmış olması"]
+          },
+          "cozum_md": "8 + 7 = 15. Tahmin: 8'i 10'a tamamlarsak 2 kalır, 7-2=5, yani 10+5=15. Tahmin tutarlı."
+        }
+      ]
+    }
+  ]
+}

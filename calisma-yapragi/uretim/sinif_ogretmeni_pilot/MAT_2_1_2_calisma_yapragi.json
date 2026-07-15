@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "İki Basamaklı Sayıları Çözümleme",
+    "kazanim": {
+      "kod": "MAT.2.1.2",
+      "ad": "İki basamaklı sayıları çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "İki basamaklı sayıların basamak ve basamak değerini belirler.",
+        "b": "İki basamaklı sayıların basamak ve basamak değerleri arasındaki ilişkileri belirler."
+      }
+    },
+    "tahmini_sure_dk": 20,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf sayıların çözümlemesi kazanımı incelendi",
+      "notlar": [
+        "İki basamaklı sayılarda onlar ve birler basamakları vurgulandı",
+        "Basamak değeri kavramı somut örneklerle açıklandı"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "54 sayısının onlar basamağında kaç rakam vardır?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "5"},
+            {"harf": "B", "metin_md": "4"},
+            {"harf": "C", "metin_md": "50"},
+            {"harf": "D", "metin_md": "54"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "54 sayısının solundaki rakam onlar basamağıdır. Bu rakam 5'tir. Doğru yanıt A seçeneğidir."
+        },
+        {
+          "id": "s2",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayıları, onlar ve birler basamak değerleriyle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "29"},
+            {"no": 2, "metin_md": "71"},
+            {"no": 3, "metin_md": "46"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "4 onluk, 6 birlik"},
+            {"harf": "B", "metin_md": "2 onluk, 9 birlik"},
+            {"harf": "C", "metin_md": "7 onluk, 1 birlik"}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A"},
+          "cozum_md": "29 = 2 onluk + 9 birlik. 71 = 7 onluk + 1 birlik. 46 = 4 onluk + 6 birlik."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz.\n\nSayı: 38 → Onlar: ____(1)____, Birler: ____(2)____\nSayı: 65 → Onlar: ____(3)____, Birler: ____(4)____\nSayı: 90 → Onlar: ____(5)____, Birler: ____(6)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "3", "2": "8", "3": "6", "4": "5", "5": "9", "6": "0"},
+          "cozum_md": "38 = 3 onluk + 8 birlik. 65 = 6 onluk + 5 birlik. 90 = 9 onluk + 0 birlik."
+        },
+        {
+          "id": "s4",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir sayının onlar basamağı, birler basamağından her zaman büyüktür.", "cevap": false, "gerekce_md": "12 sayısında 1 (onlar) < 2 (birler)."},
+            {"no": 2, "metin_md": "83 sayısında 8, 3'ten büyüktür.", "cevap": true, "gerekce_md": "8 onlar basamağında, 3 birler basamağındadır; 8 > 3."},
+            {"no": 3, "metin_md": "50 sayısında birler basamağında 0 vardır.", "cevap": true, "gerekce_md": "50 = 5 onluk + 0 birlik."}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": true}},
+          "cozum_md": "1. Yanlıştır: 12 sayısında 1 (onlar) < 2 (birler). 2. Doğrudur: 8 > 3. 3. Doğrudur: 50'de birler basamağı 0'dır."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Aşağıdaki sayılardan hangisinde onlar basamağı ile birler basamağı eşittir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "47"},
+            {"harf": "B", "metin_md": "33"},
+            {"harf": "C", "metin_md": "52"},
+            {"harf": "D", "metin_md": "61"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "33 sayısında onlar basamağı 3, birler basamağı da 3'tür. İkisi de eşittir. Doğru yanıt B seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir sayının onlar basamağı 4, birler basamağı ise bu sayının onlar basamağının 2 katıdır. Bu sayı kaçtır?",
+          "gorsel": null,
+          "cevap": {"deger": 48, "birim": "", "tolerans_yuzde": 0},
+          "cozum_md": "Onlar basamağı 4'tür. Birler basamağı 4×2=8'dir. Sayı = 4 onluk + 8 birlik = 48."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir iki basamaklı sayı düşün. Bu sayının onlar basamağı ile birler basamağı toplamı 10 olsun. Böyle kaç tane sayı bulabilirsin? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "19, 28, 37, 46, 55, 64, 73, 82, 91 sayılarını bulabilirim. Her sayının onlar ve birler basamakları toplamı 10'dur: 1+9=10, 2+8=10, 3+7=10, 4+6=10, 5+5=10, 6+4=10, 7+3=10, 8+2=10, 9+1=10. Toplam 9 tane sayı vardır.",
+            "kabul_kriterleri": [
+              "En az 5 tane doğru örnek sayi belirtmiş",
+              "Toplamların 10 olduğunu doğrulamış",
+              "Düzenli bir approach kullanmış"
+            ]
+          },
+          "cozum_md": "1+9=10 → 19, 2+8=10 → 28, 3+7=10 → 37, 4+6=10 → 46, 5+5=10 → 55, 6+4=10 → 64, 7+3=10 → 73, 8+2=10 → 82, 9+1=10 → 91. Toplam 9 sayı."
+        },
+        {
+          "id": "s8",
+          "tip": "tablo_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki tabloda her satırda verilen bilgiye göre sayıyı bulunuz.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Onlar", "Birler", "Sayı"],
+            "satirlar": [
+              ["7", "2", "__?__"],
+              ["__?__", "9", "39"],
+              ["5", "__?__", "56"]
+            ]
+          },
+          "cevap": {"r0c2": "72", "r1c0": "3", "r2c1": "6"},
+          "cozum_md": "7 onluk + 2 birlik = 72. 39 = 3 onluk + 9 birlik. 56 = 5 onluk + 6 birlik."
+        }
+      ]
+    }
+  ]
+}

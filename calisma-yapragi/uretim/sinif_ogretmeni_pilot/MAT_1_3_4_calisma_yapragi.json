@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Geometrik Yapıları ve Şekilleri Çözümleyelim",
+    "kazanim": {
+      "kod": "MAT.1.3.4",
+      "ad": "Günlük yaşamda karşılaşılan geometrik yapılardaki geometrik şekilleri çözümleyebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "6. TEMA: NESNELERİN GEOMETRİSİ (2)",
+      "surec_bilesenleri": {
+        "a": "Geometrik yapılardaki şekilleri belirler.",
+        "b": "Şekiller arasında ilişki kurar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 1. Sınıf Matematik, Nesnelerin Geometrisi (2) ünitesi, geometrik yapı ve şekiller",
+      "notlar": [
+        "Geometrik yapı: bir nesnenin içindeki şekillerin bütünleşmesi (örn. evin içinde kare ve dikdörtgen)",
+        "Günlük yaşam nesneleri: ev, pencere, kapı, masa, bisiklet"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Günlük nesnelerdeki geometrik şekilleri eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Pencere"},
+            {"no": 2, "metin_md": "Trafik lambası gövdesi"},
+            {"no": 3, "metin_md": "Bisiklet tekerleği"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Dikdörtgen"},
+            {"harf": "B", "metin_md": "Silindir"},
+            {"harf": "C", "metin_md": "Daire"},
+            {"harf": "D", "metin_md": "Kare"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C"},
+          "cozum_md": "Pencere dikdörtgen biçimindedir (A). Trafik lambası gövdesi silindir şeklindedir (B). Bisiklet tekerleği daire biçimindedir (C). Kare (D) bu nesnelerde karşımıza çıkmaz."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir evin penceresinde dikdörtgen şekil vardır.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Bir kapıda daire şekli baskındır.", "cevap": false, "gerekce_md": "Kapı dikdörtgen biçimindedir; daire değil."},
+            {"no": 3, "metin_md": "Bir masanın üst yüzeyinde dikdörtgen şekil vardır.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Pencere dikdörtgen → DOĞRU. 2. Kapı dikdörtgendir, daire değil → YANLIŞ. 3. Masa üstü dikdörtgen → DOĞRU."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki nesnelerden hangisinde birden çok geometrik şekil bir arada bulunur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Top (yalnızca daire)"},
+            {"harf": "B", "metin_md": "Bisiklet (daire + dikdörtgen)"},
+            {"harf": "C", "metin_md": "Misket (yalnızca daire)"},
+            {"harf": "D", "metin_md": "Silgi (yalnızca dikdörtgen)"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Bisiklette tekerlekler daire, çerçeve ve sele dikdörtgen biçimindedir; birden çok şekil içerir. Diğer nesneler tek bir biçimden oluşur."
+        },
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki nesnelerin içindeki geometrik şekilleri yazınız.\n\nBir evin içinde ______(1)______ (pencere) ve ______(2)______ (kapı) şekilleri vardır.\n\nBir arabada ______(3)______ (tekerlek) şekli vardır.",
+          "gorsel": null,
+          "kelime_havuzu": ["dikdörtgen", "daire", "kare", "üçgen"],
+          "cevap": {"1": "dikdörtgen", "2": "dikdörtgen", "3": "daire"},
+          "cozum_md": "Evde pencere ve kapı dikdörtgen biçimindedir. Arabada tekerlek daire biçimindedir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Bir-binada kapı pencere ile yan yana duruyor. Kapı ve pencere arasındaki ortak biçim özelliği nedir?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "İkisi de yuvarlaktır"},
+            {"harf": "B", "metin_md": "İkisi de dikdörtgendir"},
+            {"harf": "C", "metin_md": "İkisi de üçgendir"},
+            {"harf": "D", "metin_md": "Hiçbiri ortak özellik taşımaz"}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Hem kapı hem de pencere dikdörtgen biçimindedir. Ortak biçimleri dikdörtgendir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfımızdaki bir nesneyi (masa, dolap, tahta vb.) inceleyiniz. O nesnenin içinde hangi geometrik şekiller var? Yazınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Masayı inceledim. Masa üstü dikdörtgen biçimindedir. Masa bacakları silindir veya dikdörtgen prizma şeklindedir. Böylece masada en az iki farklı geometrik şekil vardır.",
+            "kabul_kriterleri": [
+              "En az bir nesne seçmiş",
+              "En az iki geometrik şekil belirtmiş",
+              "Nesnenin içinde şekillerin nasıl yer aldığını açıklamış"
+            ]
+          },
+          "cozum_md": "Her nesnenin içinde bir veya birden fazla geometrik şekil olabilir. Önemli olan şekilleri tanıyıp bir arada olduklarını fark etmektir."
+        },
+        {
+          "id": "s7",
+          "tip": "tablo_doldurma",
+          "zorluk": "zor",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tablodaki nesnelerin içindeki geometrik şekilleri tamamlayınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Nesne", "İçindeki Şekil 1", "İçindeki Şekil 2"],
+            "satirlar": [
+              ["Ev", "Dikdörtgen (kapı)", "__?__"],
+              ["Bisiklet", "__?__", "Dikdörtgen (çerçeve)"],
+              ["Saat", "__?__", "Dikdörtgen (sayı tahtası)"]
+            ]
+          },
+          "cevap": {"r0c2": "Dikdörtgen (pencere)", "r1c1": "Daire (tekerlek)", "r2c1": "Daire (kadran)"},
+          "cozum_md": "Evde pencere dikdörtgen, kapı dikdörtgendir. Bisiklette tekerlek daire, çerçeve dikdörtgendir. Saatte kadran daire, sayı tahtası dikdörtgendir."
+        }
+      ]
+    }
+  ]
+}

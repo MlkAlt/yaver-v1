@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Eşit İşaretinin Anlamı",
+    "kazanim": {
+      "kod": "MAT.1.2.3",
+      "ad": "Eşit işaretinin anlamını toplama ve çıkarma işlemi bağlamında yorumlayabilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "4. TEMA: İŞLEMLERDEN CEBİRSEL DÜŞÜNMEYE",
+      "surec_bilesenleri": {
+        "a": "Toplama ve çıkarma işlemlerinde eşit işaretinin kullanımını inceler.",
+        "b": "Eşit işaretinin anlamını kullanarak bir toplama ya da çıkarma işlemini dönüştürür.",
+        "c": "Dönüştürdüğü toplama ve çıkarma işlemlerini kendi cümleleriyle ifade eder."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 1. sınıf Matematik 4. Tema MAT.1.2.3 kazanımı; eşit işaretinin anlamı ve dönüşüm soruları.",
+      "notlar": []
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "3 + 4 = 7 eşitliğinde eşit işaretinin anlamı nedir?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "3 ve 4'ün toplamı 7'ye eşittir" },
+            { "harf": "B", "metin_md": "3, 4'ten büyüktür" },
+            { "harf": "C", "metin_md": "7, 3'ten küçüktür" },
+            { "harf": "D", "metin_md": "3 ve 4 birbirine eşittir" }
+          ],
+          "cevap": { "dogru": "A" },
+          "cozum_md": "Eşit işareti (=), iki tarafın birbirine eşit olduğunu gösterir. 3 + 4 toplamı 7'ye eşittir."
+        },
+        {
+          "id": "s2",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Eşit işaretinin kullanımı ile ilgili ifadeler doğru mu yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            { "no": 1, "metin_md": "5 + 2 = 7 eşitliğinde sol taraf 7'ye eşittir.", "cevap": true, "gerekce_md": null },
+            { "no": 2, "metin_md": "10 - 3 = 7 eşitliğinde sağ taraf 10'a eşittir.", "cevap": false, "gerekce_md": "Sağ taraf 7'dir. Sol taraf (10-3) 7'ye eşittir." },
+            { "no": 3, "metin_md": "Eşit işaretinin her iki tarafı da aynı değere sahip olmalıdır.", "cevap": true, "gerekce_md": null }
+          ],
+          "cevap": { "ozet": { "1": true, "2": false, "3": true } },
+          "cozum_md": "1-Doğru: 5+2=7, sol taraf 7'ye eşit. 2-Yanlış: Sağ taraf 7'dir, 10'a değil. 3-Doğru: Eşitliğin her iki tarafı aynı değere sahip olmalı."
+        },
+        {
+          "id": "s3",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 20,
+          "govde_md": "Soldaki eşitlikleri sağdaki yorumlarla eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            { "no": 1, "metin_md": "4 + 5 = 9" },
+            { "no": 2, "metin_md": "8 - 3 = 5" },
+            { "no": 3, "metin_md": "6 + 0 = 6" },
+            { "no": 4, "metin_md": "10 - 4 = 6" }
+          ],
+          "sag": [
+            { "harf": "A", "metin_md": "Hiçbir şey eklenmezse sonuç değişmez" },
+            { "harf": "B", "metin_md": "Toplam 9 eder" },
+            { "harf": "C", "metin_md": "Çıkarılan 4'tür" },
+            { "harf": "D", "metin_md": "Sonuç 5 olur" },
+            { "harf": "E", "metin_md": "Sonuç 7 olur" }
+          ],
+          "cevap": { "1": "B", "2": "D", "3": "A", "4": "C" },
+          "cozum_md": "1-B: 4+5=9, toplam 9. 2-D: 8-3=5, sonuç 5. 3-A: 6+0=6, 0 eklenince değişmez. 4-C: 10-4=6, çıkarılan 4."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s4",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "9 = 5 + ____(1)____ eşitliğini toplama işlemine dönüştürdüğümüzde boşluğa ____(2)____ gelir.",
+          "gorsel": null,
+          "kelime_havuzu": ["4", "14", "5", "9"],
+          "cevap": { "1": "4", "2": "4" },
+          "cozum_md": "9 = 5 + ? → 9 - 5 = 4. Boşluğa 4 gelir: 5 + 4 = 9."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "12 = 8 + 4 eşitliğini çıkarma işlemine nasıl dönüştürürüz?",
+          "gorsel": null,
+          "secenekler": [
+            { "harf": "A", "metin_md": "12 - 8 = 4" },
+            { "harf": "B", "metin_md": "8 - 12 = 4" },
+            { "harf": "C", "metin_md": "4 - 8 = 12" },
+            { "harf": "D", "metin_md": "12 + 8 = 4" }
+          ],
+          "cevap": { "dogru": "A" },
+          "cozum_md": "12 = 8 + 4 ise, 12'den 8'i çıkarırsak 4 kalır: 12 - 8 = 4."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Ali'nin 10 kalemi var. 4'ünü arkadaşına verdi. Bunu eşitlik olarak yaz ve cümleyle ifade et.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "10 - 4 = 6\nAli'nin 10 kalemi vardı, 4'ünü verdi, 6 tane kaldı.",
+            "kabul_kriterleri": ["Doğru eşitliği kurmuş olması (10 - 4 = 6)", "Cümleyle ifade etmiş olması"]
+          },
+          "cozum_md": "10 kalemden 4'ü gitti: 10 - 4 = 6. Eşitlik: 10 = 4 + 6."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Sınıfta 15 öğrenci var. Kız öğrencilerin sayısı 8. Eşitlik kurarak erkek öğrenci sayısını bul.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "15 = 8 + 7 → 15 - 8 = 7\nSınıfta 7 erkek öğrenci var.",
+            "kabul_kriterleri": ["Eşitliği doğru kurmuş olması (15 = 8 + 7 veya 15 - 8 = 7)", "Sonucu doğru hesaplamış olması (7)", "Cümleyle ifade etmiş olması"]
+          },
+          "cozum_md": "Toplam 15, kız 8. Erkek: 15 - 8 = 7. Eşitlik: 15 = 8 + 7."
+        }
+      ]
+    }
+  ]
+}

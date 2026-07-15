@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Standart Olmayan Ölçme Araçlarıyla Ölçme ve Tahminleme",
+    "kazanim": {
+      "kod": "MAT.1.1.8",
+      "ad": "Standart olmayan uygun ölçme araçları ile nesnelerin uzunluğunu ve tartacağı kütlenin ölçüm sonuçlarını tahmin edebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "2. TEMA: SAYILAR VE NİCELİKLER (2)",
+      "surec_bilesenleri": {
+        "a": "Ölçeceği uzunluğa ve kütleye uygun standart olmayan ölçme aracını belirler.",
+        "b": "Ölçeceği uzunluğun ve tartacağı kütlenin ölçüm sonuçlarını belirlenen standart olmayan ölçü birimi cinsinden tahmin eder.",
+        "c": "Tahmininin doğruluğuna ilişkin yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 1. sınıf Matematik müfredatı, 2. Tema (Sayılar ve Nicelikler) kazanım havuzu incelendi.",
+      "notlar": ["1. sınıf düzeyinde somut nesne ve günlük hayat örnekleri tercih edildi.", "Standart olmayan ölçü birimi olarak: kalem, ayak adımı, avuç içi, dilim (uzunluk); mandal, top, kitap (kütle) kullanıldı."]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Ölçme araçlarını ve ölçü birimlerini eşleştirip boşlukları doldurunuz.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Soldaki nesneyi ölçmek için sağdaki uygun standart olmayan ölçme aracını seçiniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Bir kitabın uzunluğu"},
+            {"no": 2, "metin_md": "Sınıftaki tahtanın genişliği"},
+            {"no": 3, "metin_md": "Bir elmanın ağırlığı"},
+            {"no": 4, "metin_md": "Bir ayakkabının uzunluğu"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Kalem (kaç kalem uzunluğunda)"},
+            {"harf": "B", "metin_md": "Avuç içi (kaç avuç genişliğinde)"},
+            {"harf": "C", "metin_md": "Mandal (kaç mandal ağırlığında)"},
+            {"harf": "D", "metin_md": "Ayak adımı (kaç adım uzunluğunda)"},
+            {"harf": "E", "metin_md": "Şerit (uzunluk ölçme)"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "C", "4": "D"},
+          "cozum_md": "1-A: Bir kitabın uzunluğu küçük olduğu için kalem ile ölçmek uygundur. 2-B: Tahta geniş ve düz olduğu için avuç içi ile ölçmek pratiktir. 3-C: Elma hafif bir nesne olduğu için mandal ile tartmak uygundur. 4-D: Ayakkabı uzun bir nesne olduğu için ayak adımı ile ölçmek kolaydır. E seçeneği (şerit) bu nesneler için en uygun araç değildir."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Bir masanın uzunluğunu ölçmek istersek ______(1)______ kullanabiliriz. Bir topun ağırlığını tartmak istersek ______(2)______ kullanabiliriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["kalem", "avuç içi", "ayak adımı", "mandal", "top", "kitap"],
+          "cevap": {"1": "kalem", "2": "mandal"},
+          "cozum_md": "1) Masanın uzunluğunu ölçmek için kalem uygun bir standart olmayan ölçü birimidir (kaç kalem uzunluğunda olduğunu sayabiliriz). 2) Bir topun ağırlığını tartmak için mandal kullanabiliriz (kaç mandal ağırlığında olduğunu sayabiliriz). Avuç içi, ayak adımı, top ve kitap bu ölçümler için daha az uygundur."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları dikkatle okuyup cevaplayınız.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "dogru_yanlis",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeler doğru mu, yanlış mı?",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Bir kalemi ölçmek için ayak adımı kullanmak uygundur.", "cevap": false, "gerekce_md": "Kalem küçük bir nesnedir; ayak adımı büyük nesneleri ölçmek için kullanılır, kalem için kalem ölçüsü daha uygundur."},
+            {"no": 2, "metin_md": "Bir dolabın yüksekliğini ölçmek için avuç içi kullanabiliriz.", "cevap": true, "gerekce_md": null},
+            {"no": 3, "metin_md": "Standart olmayan ölçme araçlarıyla ölçerken sonuç her zaman aynı çıkar.", "cevap": false, "gerekce_md": "Standart olmayan araçlar kişiye göre değişebilir; sonuçlar farklı çıkabilir."},
+            {"no": 4, "metin_md": "Bir elmanın ağırlığını tartmak için mandal kullanabiliriz.", "cevap": true, "gerekce_md": null}
+          ],
+          "cevap": {"ozet": {"1": false, "2": true, "3": false, "4": true}},
+          "cozum_md": "1-Yanlış: Kalem küçük bir nesnedir, ayak adımı yerine kalem ölçüsü daha uygundur. 2-Doğru: Dolap yüksek ve dikey bir nesnedir, avuç içi ile ölçmek mümkündür. 3-Yanlış: Standart olmayan araçlar kişiden kişiye farklılık gösterebilir. 4-Doğru: Elma hafif bir nesnedir, mandal ile tartmak mümkündür."
+        },
+        {
+          "id": "s4",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Ali, sınıfındaki dolabın genişliğini ölçmek istiyor. Aşağıdaki ölçme araçlarından hangisini kullanması en uygun olur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mandal"},
+            {"harf": "B", "metin_md": "Ayak adımı"},
+            {"harf": "C", "metin_md": "Kalem"},
+            {"harf": "D", "metin_md": "Top"}
+          ],
+          "cevap": {"dogru": "C"},
+          "cozum_md": "Doğru cevap C'dir. Dolabın genişliği orta büyüklükte bir ölçümdür; kalem ile kaç kalem genişliğinde olduğunu sayarak ölçmek uygundur. Mandal küçük nesneleri tartmak için, ayak adımı çok büyük uzunluklar için, top ise ağırlık ölçmek için kullanılır."
+        },
+        {
+          "id": "s5",
+          "tip": "acik_uclu",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Zeynep, okuldaki koridorun uzunluğunu ölçmek istiyor. Kalem kullanarak ölçmeye karar veriyor. Koridorun **8 kalem** uzunluğunda olduğunu tahmin ediyor. Gerçek ölçüm **12 kalem** çıkıyor. Zeynep'in tahmini ile gerçek sonuç arasındaki farkı yaz ve bu durumu açıkla.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Fark: 12 - 8 = 4 kalem. Zeynep tahmininde koridorun gerçek boyutundan daha kısa olduğunu düşünmüş. Tahmini gerçek sonuçtan 4 kalem eksik çıkmış.",
+            "kabul_kriterleri": ["Farkı doğru hesaplamış olması (12 - 8 = 4)", "Tahminin gerçek sonuçtan kısa kaldığını belirtmesi"]
+          },
+          "cozum_md": "Gerçek ölçüm 12 kalem, tahmin ise 8 kalemdir. Fark = 12 - 8 = 4 kalemdir. Zeynep'in tahmini gerçek sonuçtan 4 kalem eksik kalmıştır; yani koridorun daha kısa olduğunu tahmin etmiştir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Öğrendiklerini真實 hayattaki durumlara uygula.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "coktan_secmeli",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Mehmet, bir kitabın ağırlığını tartmak için **3 mandal** demiş. Arkadaşları ölçmüş ve kitabın **4 mandal** ağırlığında olduğunu bulmuşlar. Mehmet'in tahmini için hangi yargı doğrudur?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Mehmet'in tahmini tam doğru çıkmış."},
+            {"harf": "B", "metin_md": "Mehmet'in tahmini gerçek sonuçtan 1 mandal eksik kalmış."},
+            {"harf": "C", "metin_md": "Mehmet'in tahmini gerçek sonuçtan 1 mandal fazla çıkmış."},
+            {"harf": "D", "metin_md": "Tahmin ve ölçümler birbirini tutmuyor, karşılaştırma yapılamaz."}
+          ],
+          "cevap": {"dogru": "B"},
+          "cozum_md": "Doğru cevap B'dir. Mehmet 3 mandal demiş, gerçek ölçümden 4 mandal çıkmış. 4 - 3 = 1 mandal eksik kalmıştır. Yani tahmini gerçek sonuçtan 1 mandal kısa kalmıştır."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfınızda bir etkinlik yapılacak. Aşağıdaki nesneleri standart olmayan ölçme araçlarıyla ölçüp tabloyu doldurunuz.\n\n| Nesne | Ölçme Aracı | Tahminim | Gerçek Ölçüm |\n|---|---|---|---|\n| Masanın uzunluğu | Kalem | ? kalem | ? kalem |\n| Sandalyenin yüksekliği | Avuç içi | ? avuç | ? avuç |\n\nTahminlerinizi yapınız ve gerçek ölçümlerinizle karşılaştırınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Örnek tablo:\n| Nesne | Ölçme Aracı | Tahminim | Gerçek Ölçüm |\n|---|---|---|---|\n| Masanın uzunluğu | Kalem | 10 kalem | 12 kalem |\n| Sandalyenin yüksekliği | Avuç içi | 3 avuç | 4 avuç |\n\nTahminlerim gerçek ölçümden kısa çıkmıştır.",
+            "kabul_kriterleri": ["Tabloyu eksiksiz doldurmuş olması", "Uygun ölçme araçlarını seçmiş olması", "Tahmin ve gerçek ölçüm değerlerinin makul olması"]
+          },
+          "cozum_md": "Bu soruda öğrenci kendi ortamındaki nesneleri ölçerek tabloyu doldurmalıdır. Her nesne için uygun standart olmayan ölçme aracını seçip tahminde bulunmalı ve sonrasında ölçüm yaparak karşılaştırmalıdır. Değerler okul ortamına göre değişir."
+        },
+        {
+          "id": "s8",
+          "tip": "eslestirme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Aşağıdaki öğrencilerin tahminleri ile sonuçları eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "Ayşe: \"Masa 6 kalem\" dedi, ölçümden 8 kalem çıktı."},
+            {"no": 2, "metin_md": "Burak: \"Sandalye 4 avuç\" dedi, ölçümden 3 avuç çıktı."},
+            {"no": 3, "metin_md": "Can: \"Kitap 2 mandal\" dedi, ölçümden 2 mandal çıktı."},
+            {"no": 4, "metin_md": "Deniz: \\\"Tahta 5 adım\\\" dedi, ölçümden 7 adım çıktı."}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Tahmini tam doğru çıktı."},
+            {"harf": "B", "metin_md": "Tahmini gerçek sonuçtan kısa kaldı."},
+            {"harf": "C", "metin_md": "Tahmini gerçek sonuçtan uzun çıktı."},
+            {"harf": "D", "metin_md": "Tahmini ve sonuç farklı birimlerde."}
+          ],
+          "cevap": {"1": "B", "2": "C", "3": "A", "4": "B"},
+          "cozum_md": "1-B: Ayşe 6 kalem dedi ama 8 kalem çıktı; tahmini kısa kaldı. 2-C: Burak 4 avuç dedi ama 3 avuç çıktı; tahmini fazla çıktı. 3-A: Can 2 mandal dedi ve 2 mandal çıktı; tahmini tam doğru. 4-D: Deniz 5 adım dedi ama 7 adım çıktı; tahmini kısa kaldı."
+        }
+      ]
+    }
+  ]
+}

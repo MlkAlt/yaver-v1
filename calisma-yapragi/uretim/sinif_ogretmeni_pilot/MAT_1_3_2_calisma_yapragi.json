@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Nesnelerin Eşliğini Değerlendirelim",
+    "kazanim": {
+      "kod": "MAT.1.3.2",
+      "ad": "Nesnelerin eşliğini değerlendirebilme",
+      "ders": "Matematik",
+      "sinif": 1,
+      "unite": "5. TEMA: NESNELERİN GEOMETRİSİ (1)",
+      "surec_bilesenleri": {
+        "a": "Nesnelerin eşliği için bir ölçüt belirler.",
+        "b": "Ölçütte uygun bilgileri kullanarak ölçme yapar.",
+        "c": "Yapılan ölçüme dayalı olarak elde ettiği sonuçları ölçüt ile karşılaştırır.",
+        "d": "Karşılaştırmalarına ilişkin olarak yargıda bulunur."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 1. Sınıf Matematik, Nesnelerin Geometrisi (1) ünitesi, eşlik ve ölçme kavramları",
+      "notlar": [
+        "Eşlik = aynı şekil ve boyutta olma; ölçüt olarak uzunluk, genişlik ve yükseklik kullanıldı",
+        "Somut nesne örnekleri (kalem, kutu, top) 1. sınıf düzeyine uygun seçildi"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "dogru_yanlis",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "İki nesnenin eşit olması için aynı boyutta olmaları gerekir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Aynı renkte olan iki nesne her zaman eşittir.", "cevap": false, "gerekce_md": "Eşlik için renk değil şekil ve boyut önemlidir; aynı renkli ama farklı boyutlu nesneler eşit değildir."},
+            {"no": 3, "metin_md": "Eşlik ölçerken uzunluğuna bakabiliriz.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": true}},
+          "cozum_md": "1. Eşitlik için boyut önemlidir → DOĞRU. 2. Renk eşlik ölçütü değildir → YANLIŞ. 3. Uzunluk bir ölçüt olabilir → DOĞRU."
+        },
+        {
+          "id": "s2",
+          "tip": "bosluk_doldurma",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 15,
+          "govde_md": "İki kalemin eşit olup olmadığını anlamak için ______(1)______ ölçebiliriz. Ayrıca kalemin ______(2)______ de ölçebiliriz.",
+          "gorsel": null,
+          "kelime_havuzu": ["uzunluğunu", "rengini", "kalınlığını"],
+          "cevap": {"1": "uzunluğunu", "2": "kalınlığını"},
+          "cozum_md": "Eşlik ölçütü olarak uzunluk ve kalınlık kullanılabilir. Renk eşlik ölçütü değildir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Masa üstünde iki kutu var. Kutu A'nın uzunluğu 20 cm, genişliği 10 cm. Kutu B'nin uzunluğu 20 cm, genişliği 10 cm. Bu iki kutu eşit mi?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Evet, eşittir çünkü boyutları aynı"},
+            {"harf": "B", "metin_md": "Hayır, eşit değildir çünkü renkleri farklı olabilir"},
+            {"harf": "C", "metin_md": "Evet, eşittir çünkü ikisi de kutudur"},
+            {"harf": "D", "metin_md": "Hayır, eşit değildir çünkü ağırlıkları farklı olabilir"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "İki kutunun da uzunluğu 20 cm, genişliği 10 cm'dir. Boyutları aynı olduğu için eşittir. Renk ve tür eşlik ölçütü değildir."
+        },
+        {
+          "id": "s4",
+          "tip": "eslestirme",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki nesne çiftlerini eşit olup olmadıklarını eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "İki kalem: ikisinin de uzunluğu 15 cm"},
+            {"no": 2, "metin_md": "Bir top ve bir kutu: top çember, kutu dikdörtgen"},
+            {"no": 3, "metin_md": "İki sayfa: ikisinin de boyutları aynı"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "Eşittir"},
+            {"harf": "B", "metin_md": "Eşit değildir"},
+            {"harf": "C", "metin_md": "Karşılaştırmak için daha fazla bilgi gerekir"}
+          ],
+          "cevap": {"1": "A", "2": "B", "3": "A"},
+          "cozum_md": "1. İki kalem aynı uzunlukta → eşittir. 2. Top ve kutu farklı biçimlerde → eşit değildir. 3. İki sayfa aynı boyutta → eşittir."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "d",
+          "puan": 10,
+          "govde_md": "İki dosya kağıdı ölçtüm. İlkinin uzunluğu 30 cm, genişliği 21 cm. İkincisinin uzunluğu 30 cm, genişliği 21 cm. Bu kağıtlar hakkında ne söylersin?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "Eşittir"},
+            {"harf": "B", "metin_md": "Eşit değildir"},
+            {"harf": "C", "metin_md": "Karşılaştıramayız"},
+            {"harf": "D", "metin_md": "Yalnızca renklerine bakmalıyız"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "Her iki kağıdın da uzunluğu 30 cm, genişliği 21 cm'dir. Boyutları aynı olduğu için eşittir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "d",
+          "puan": 15,
+          "govde_md": "Sınıfta iki tane kırmızı kutu var. Kutu X'in kenar uzunluğu 10 cm. Kutu Y'nin kenar uzunluğu 15 cm. Bu iki kutu eşit midir? Neden?",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Hayır, eşit değildir. Çünkü Kutu X'in kenar uzunluğu 10 cm, Kutu Y'nin kenar uzunluğu 15 cm'dir. 10 cm ≠ 15 cm olduğu için boyutları farklıdır. Eşitlik için boyutların aynı olması gerekir.",
+            "kabul_kriterleri": [
+              "Eşit olmadığını belirtmiş",
+              "Kenar uzunluklarını karşılaştırmış (10 ≠ 15)",
+              "Boyutların farklı olduğunu gerekçe olarak göstermiş"
+            ]
+          },
+          "cozum_md": "Eşitlik ölçütü boyuttur. 10 cm ≠ 15 cm olduğu için kutular eşit değildir."
+        },
+        {
+          "id": "s7",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu inceleyip ifadeleri değerlendiriniz. Doğru ise D, yanlış ise Y yazınız.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "Kalem A (12 cm) ve Kalem B (12 cm) eşittir.", "cevap": true, "gerekce_md": ""},
+            {"no": 2, "metin_md": "Silgi A (4 cm) ve Silgi B (6 cm) eşittir.", "cevap": false, "gerekce_md": "4 cm ≠ 6 cm, boyutları farklı olduğu için eşit değildir."},
+            {"no": 3, "metin_md": "Cetvel A (20 cm) ve Cetvel B (15 cm) eşittir.", "cevap": false, "gerekce_md": "20 cm ≠ 15 cm, boyutları farklı olduğu için eşit değildir."},
+            {"no": 4, "metin_md": "Silgi A (4 cm) ve Silgi C (4 cm) eşittir.", "cevap": true, "gerekce_md": ""}
+          ],
+          "cevap": {"ozet": {"1": true, "2": false, "3": false, "4": true}},
+          "cozum_md": "1. 12 = 12 → eşittir. 2. 4 ≠ 6 → eşit değildir. 3. 20 ≠ 15 → eşit değildir. 4. 4 = 4 → eşittir."
+        }
+      ]
+    }
+  ]
+}

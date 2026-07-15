@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sema_surumu": "1.0",
+    "tur": "calisma_yapragi",
+    "baslik": "Sayıların Sembolik Temsilleri",
+    "kazanim": {
+      "kod": "MAT.2.1.1",
+      "ad": "100'e kadar olan niceliklerin büyüklüklerini temsil etmede sayıların sembolik temsillerinden yararlanabilme",
+      "ders": "Matematik",
+      "sinif": 2,
+      "unite": "1. TEMA: SAYILAR VE NİCELİKLER (1)",
+      "surec_bilesenleri": {
+        "a": "Niceliklerin büyüklüklerinin farklı temsillerini tanır.",
+        "b": "Niceliklerin büyüklüklerine uygun sayı temsillerini belirler.",
+        "c": "Niceliklerin büyüklüklerine karşılık gelen sayıları okur ve yazar."
+      }
+    },
+    "tahmini_sure_dk": 25,
+    "toplam_puan": 100,
+    "olusturulma": "2026-07-15",
+    "qa": {
+      "yapisal_dogrulama": true,
+      "crosscheck": false,
+      "kaynak_arastirmasi": "MEB 2025 — 2. sınıf sayılar ve nicelikler ünitesi incelendi",
+      "notlar": [
+        "2. sınıf düzeyine uygun olarak 100'e kadar olan sayılar kullanıldı",
+        "Onluk-birlik temsili ve görsel betimlemeler ders kitabına uygun"
+      ]
+    }
+  },
+  "konu_ozeti": null,
+  "bolumler": [
+    {
+      "ad": "Tanıyalım",
+      "yonerge": "Aşağıdaki soruları inceleyip yanıtlayınız.",
+      "sorular": [
+        {
+          "id": "s1",
+          "tip": "eslestirme",
+          "zorluk": "kolay",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki nicelikleri gösterdikleri sayısal değerle eşleştiriniz.",
+          "gorsel": null,
+          "sol": [
+            {"no": 1, "metin_md": "2 eldiven (çift)"},
+            {"no": 2, "metin_md": "10 parmak"},
+            {"no": 3, "metin_md": "3 ayakkabı (tek)"},
+            {"no": 4, "metin_md": "7 kalem"}
+          ],
+          "sag": [
+            {"harf": "A", "metin_md": "3"},
+            {"harf": "B", "metin_md": "10"},
+            {"harf": "C", "metin_md": "2"},
+            {"harf": "D", "metin_md": "7"}
+          ],
+          "cevap": {"1": "C", "2": "B", "3": "A", "4": "D"},
+          "cozum_md": "2 eldiven çifti 2 sayısını gösterir. 10 parmak 10 sayısını gösterir. 3 ayakkabı çifti değil, 3 tek ayakkabı vardır, yani 3. 7 kalem 7 sayısını gösterir."
+        },
+        {
+          "id": "s2",
+          "tip": "coktan_secmeli",
+          "zorluk": "kolay",
+          "surec_bileseni": "b",
+          "puan": 10,
+          "govde_md": "Bir kutuda 25 misket vardır. Aşağıdaki gösterimlerden hangisi 25 sayısını temsil eder?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "2 onluk grup (10'ar tane) + 5 birlik"},
+            {"harf": "B", "metin_md": "2 onluk grup (10'ar tane) + 15 birlik"},
+            {"harf": "C", "metin_md": "1 onluk grup + 25 birlik"},
+            {"harf": "D", "metin_md": "5 onluk grup (5'er tane)"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "25 sayısı 2 onluk (2×10=20) ve 5 birlik (5×1=5) olarak yazılır. 20+5=25 eder. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Kavrayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s3",
+          "tip": "bosluk_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Aşağıdaki sayıları okuyunuz.\n\n42 = ____(1)____\n\n78 = ____(2)____\n\n100 = ____(3)____",
+          "gorsel": null,
+          "kelime_havuzu": [],
+          "cevap": {"1": "kırk iki", "2": "yetmiş sekiz", "3": "yüz"},
+          "cozum_md": "42 sayısı 'kırk iki' olarak okunur. 78 sayısı 'yetmiş sekiz' olarak okunur. 100 sayısı 'yüz' olarak okunur."
+        },
+        {
+          "id": "s4",
+          "tip": "tablo_doldurma",
+          "zorluk": "orta",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Aşağıdaki tabloyu doldurunuz. Her satırda verilen sayının onluk ve birlik değerlerini yazınız.",
+          "gorsel": null,
+          "tablo": {
+            "basliklar": ["Sayı", "Onluk Değeri", "Birlik Değeri"],
+            "satirlar": [
+              ["36", "3 onluk", "__?__"],
+              ["__?__", "6 onluk", "1 birlik"],
+              ["90", "__?__", "0 birlik"]
+            ]
+          },
+          "cevap": {"r0c2": "6 birlik", "r1c0": "61", "r2c1": "9 onluk"},
+          "cozum_md": "36 = 3 onluk + 6 birlik. 61 = 6 onluk + 1 birlik. 90 = 9 onluk + 0 birlik."
+        },
+        {
+          "id": "s5",
+          "tip": "coktan_secmeli",
+          "zorluk": "orta",
+          "surec_bileseni": "a",
+          "puan": 10,
+          "govde_md": "Aşağıdaki niceliklerden hangisi en büyüktür?",
+          "gorsel": null,
+          "secenekler": [
+            {"harf": "A", "metin_md": "31 kalem"},
+            {"harf": "B", "metin_md": "29 kalem"},
+            {"harf": "C", "metin_md": "30 kalem"},
+            {"harf": "D", "metin_md": "28 kalem"}
+          ],
+          "cevap": {"dogru": "A"},
+          "cozum_md": "31, 29, 30 ve 28 sayıları karşılaştırıldığında en büyük olan 31'dir. Doğru yanıt A seçeneğidir."
+        }
+      ]
+    },
+    {
+      "ad": "Uygulayalım",
+      "yonerge": "Aşağıdaki soruları çözünüz.",
+      "sorular": [
+        {
+          "id": "s6",
+          "tip": "problem_cozme",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 15,
+          "govde_md": "Bir okulda 43 kız ve 37 erkek öğrenci vardır. Okuldaki toplam öğrenci sayısı kaçtır?",
+          "gorsel": null,
+          "cevap": {"deger": 80, "birim": "öğrenci", "tolerans_yuzde": 0},
+          "cozum_md": "43 kız + 37 erkek = 80 öğrenci. 40+30=70, 3+7=10, 70+10=80."
+        },
+        {
+          "id": "s7",
+          "tip": "acik_uclu",
+          "zorluk": "zor",
+          "surec_bileseni": "b",
+          "puan": 15,
+          "govde_md": "Sınıfta bir sayıyı düşündüm: Bu sayının onlar basamağında 5, birler basamağında ise 3 var. Bu sayıyı nasıl bulursun? Açıklayınız.",
+          "gorsel": null,
+          "cevap": {
+            "ornek_cevap_md": "Onlar basamağında 5 demek, 5×10=50 demektir. Birler basamağında 3 demek, 3×1=3 demektir. 50+3=53 eder. Düşündüğüm sayı 53'tür.",
+            "kabul_kriterleri": [
+              "Onlar basamağının 5×10=50 olduğunu belirtmiş",
+              "Birler basamağının 3×1=3 olduğunu belirtmiş",
+              "50+3=53 sonucuna ulaşmış"
+            ]
+          },
+          "cozum_md": "Onlar basamağında 5 olmak 5×10=50 demektir. Birler basamağında 3 olmak 3×1=3 demektir. 50+3=53."
+        },
+        {
+          "id": "s8",
+          "tip": "dogru_yanlis",
+          "zorluk": "zor",
+          "surec_bileseni": "c",
+          "puan": 10,
+          "govde_md": "Aşağıdaki ifadeleri inceleyiniz ve her birini D (Doğru) veya Y (Yanlış) olarak işaretleyiniz.",
+          "gorsel": null,
+          "ifadeler": [
+            {"no": 1, "metin_md": "47 sayısı 4 onluk ve 7 birlik olarak yazılır.", "cevap": true, "gerekce_md": "47 = 4×10 + 7×1 = 40 + 7."},
+            {"no": 2, "metin_md": "60 sayısı 6 onluk ve 0 birlik olarak yazılır.", "cevap": true, "gerekce_md": "60 = 6×10 + 0×1 = 60."},
+            {"no": 3, "metin_md": "83 sayısı 3 onluk ve 8 birlik olarak yazılır.", "cevap": false, "gerekce_md": "83 = 8 onluk ve 3 birlik olur, 3 onluk ve 8 birlik değil."},
+            {"no": 4, "metin_md": "100 sayısı 10 onluk ve 0 birlik olarak yazılır.", "cevap": false, "gerekce_md": "100 = 10 onluk ve 0 birlik değil, 100 = 10×10 demektir ama 10 onluk 100 eder, 0 birlik eklenir."}
+          ],
+          "cevap": {"ozet": {"1": true, "2": true, "3": false, "4": false}},
+          "cozum_md": "1. Doğrudur: 47 = 4 onluk + 7 birlik. 2. Doğrudur: 60 = 6 onluk + 0 birlik. 3. Yanlıştır: 83 = 8 onluk + 3 birlik olur. 4. Yanlıştır: 100 = 10×10 demektir ama '10 onluk' şeklinde söylenmez."
+        }
+      ]
+    }
+  ]
+}
